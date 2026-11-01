@@ -1,0 +1,22 @@
+{
+  "id": "fuvest-2016-q30",
+  "banca": "Fuvest",
+  "ano": 2016,
+  "numero": "30",
+  "fase": "1ª fase · Prova V",
+  "fonte": {
+    "descricao": "Fuvest, Vestibular 2016, 1ª fase (Prova de Conhecimentos Gerais), caderno de questões"
+  },
+  "enunciado": "Um objeto homogêneo colocado em um recipiente com água tem 32% de seu volume submerso; já em um recipiente com óleo, tem 40% de seu volume submerso. A densidade desse óleo, em g/cm<sup>3</sup>, é\n\nNote e adote:\nDensidade da água = 1 g/cm<sup>3</sup>\n\na) 0,32\nb) 0,40\nc) 0,64\nd) 0,80\ne) 1,25",
+  "figuras": [],
+  "gabarito": "D",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. Corpo flutuando: empuxo = peso ⇒ <i>d</i><sub>líquido</sub> · <i>V</i><sub>submerso</sub> = <i>d</i><sub>objeto</sub> · <i>V</i>.\n2. Na água: 1 · 0,32 <i>V</i> = <i>d</i><sub>objeto</sub> <i>V</i> ⇒ <i>d</i><sub>objeto</sub> = 0,32 g/cm<sup>3</sup>.\n3. No óleo: <i>d</i><sub>óleo</sub> · 0,40 = 0,32 ⇒ <i>d</i><sub>óleo</sub> = 0,80 g/cm<sup>3</sup>.\nGabarito: D.",
+  "topicos": [
+    "empuxo-e-principio-de-arquimedes",
+    "densidade-e-massa-especifica"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-01T14:43:29.000Z",
+  "atualizadoEm": "2026-11-01T14:43:29.000Z"
+}

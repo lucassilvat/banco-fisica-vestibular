@@ -1,0 +1,23 @@
+{
+  "id": "fuvest-2021-q55",
+  "banca": "Fuvest",
+  "ano": 2021,
+  "numero": "55",
+  "fase": "1ª fase · Prova V",
+  "fonte": {
+    "descricao": "Fuvest, Vestibular 2021, 1ª fase (Prova de Conhecimentos Gerais), caderno de questões"
+  },
+  "enunciado": "A energia irradiada pelo Sol provém da conversão de massa em energia durante reações de fusão de núcleos de hidrogênio para produzir núcleos de hélio. Atualmente, essas reações permitem ao Sol emitir radiação luminosa a uma potência de aproximadamente 4 × 10<sup>26</sup> W. Supondo que essa potência tenha sido mantida desde o nascimento do Sol, cerca de 5 × 10<sup>9</sup> anos atrás, a massa correspondente àquela perdida pelo Sol até hoje é mais próxima de\n\nNote e adote:\nVelocidade da luz no vácuo: 3 × 10<sup>8</sup> m/s.\nConsidere que um ano tem cerca de 3 × 10<sup>7</sup> s.\n\n(A) 10<sup>7</sup>kg.\n(B) 10<sup>17</sup>kg.\n(C) 10<sup>27</sup>kg.\n(D) 10<sup>37</sup>kg.\n(E) 10<sup>47</sup>kg.",
+  "figuras": [],
+  "gabarito": "C",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. Tempo: 5 × 10<sup>9</sup> anos · 3 × 10<sup>7</sup> s/ano = 1,5 × 10<sup>17</sup> s.\n2. Energia irradiada: <i>E</i> = <i>P</i> · Δ<i>t</i> = 4 × 10<sup>26</sup> · 1,5 × 10<sup>17</sup> = 6 × 10<sup>43</sup> J.\n3. Massa equivalente: Δ<i>m</i> = <i>E</i>/<i>c</i><sup>2</sup> = 6 × 10<sup>43</sup>/9 × 10<sup>16</sup> ≈ 7 × 10<sup>26</sup> kg ⇒ mais próximo de 10<sup>27</sup> kg.\nGabarito: C.",
+  "topicos": [
+    "equivalencia-massa-energia-e-mc",
+    "fissao-e-fusao-nuclear",
+    "notacao-cientifica-e-ordem-de-grandeza"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-01T12:54:20.000Z",
+  "atualizadoEm": "2026-11-01T12:54:20.000Z"
+}

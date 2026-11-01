@@ -1,0 +1,24 @@
+{
+  "id": "fuvest-2017-q61",
+  "banca": "Fuvest",
+  "ano": 2017,
+  "numero": "61",
+  "fase": "1ª fase · Prova V",
+  "fonte": {
+    "descricao": "Fuvest, Vestibular 2017, 1ª fase (Prova de Conhecimentos Gerais), caderno de questões"
+  },
+  "enunciado": "As figuras representam arranjos de fios longos, retilíneos, paralelos e percorridos por correntes elétricas de mesma intensidade. Os fios estão orientados perpendicularmente ao plano desta página e dispostos segundo os vértices de um quadrado. A única diferença entre os arranjos está no sentido das correntes: os fios são percorridos por correntes que entram (⊗) ou saem (⊙) do plano da página.\n\n[[figura 1]]\n\nO campo magnético total é nulo no centro do quadrado apenas em\n\na) I.\nb) II.\nc) I e II.\nd) II e III.\ne) III e IV.",
+  "figuras": [
+    "fuvest-2017-q61-1.png"
+  ],
+  "gabarito": "D",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. Cada fio gera no centro um campo de mesmo módulo (mesma corrente e mesma distância), perpendicular à diagonal que liga o fio ao centro.\n2. Dois fios em vértices opostos com correntes de <b>mesmo</b> sentido geram campos opostos no centro, que se cancelam; com sentidos <b>opostos</b>, os campos se somam.\n3. I: nas duas diagonais as correntes são opostas ⇒ dois campos não nulos, perpendiculares entre si ⇒ resultante não nula.\n4. II: em cada diagonal as correntes têm o mesmo sentido ⇒ tudo se cancela ⇒ campo nulo.\n5. III: todas as correntes entram ⇒ cancelamento nas duas diagonais ⇒ campo nulo.\n6. IV: uma diagonal com sentidos iguais (cancela) e outra com sentidos opostos (soma) ⇒ não nulo.\nGabarito: D.",
+  "topicos": [
+    "campo-magnetico-de-fio-retilineo",
+    "vetores-soma-e-decomposicao"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-01T14:43:28.000Z",
+  "atualizadoEm": "2026-11-01T14:43:28.000Z"
+}

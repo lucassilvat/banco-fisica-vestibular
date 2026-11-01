@@ -1,0 +1,24 @@
+{
+  "id": "fuvest-2024-q71",
+  "banca": "Fuvest",
+  "ano": 2024,
+  "numero": "71",
+  "fase": "1ª fase · Prova V",
+  "fonte": {
+    "descricao": "Fuvest, Vestibular 2024, 1ª fase (Prova de Conhecimentos Gerais), caderno de questões"
+  },
+  "enunciado": "Para esfriar um copo contendo 250 mL de água fervente (100°C), é comum utilizar o seguinte método:\n\n[[figura 1]]\n\nPasso 1. Colocar esse copo dentro de uma vasilha em contato com 1 litro de água à temperatura ambiente (25°C), como mostrado na figura.\nPasso 2. Esperar que entrem em equilíbrio térmico.\nPasso 3. Tirar o copo e trocar a água da vasilha por outro litro de água à temperatura ambiente.\nPasso 4. Colocar o copo em contato com a água “nova” e esperar que entrem em equilíbrio térmico.\n\nApós o passo (4) desse método, a temperatura da água no copo será aproximadamente:\n\nNote e adote:\nConsidere apenas trocas de calor entre a água no copo e a água na vasilha. Despreze quaisquer trocas de calor do sistema com o ambiente.\n\n(A) 14°C\n(B) 28°C\n(C) 40°C\n(D) 60°C\n(E) 84°C",
+  "figuras": [
+    "fuvest-2024-q71-1.png"
+  ],
+  "gabarito": "B",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. Massas de água: copo 250 g; vasilha 1000 g. Como é tudo água, o calor específico se cancela e a temperatura de equilíbrio é a média ponderada pelas massas.\n2. Passo 2: <i>θ</i><sub>1</sub> = (250 · 100 + 1000 · 25)/1250 = 50 000/1250 = 40 °C.\n3. Passo 4 (água nova a 25 °C): <i>θ</i><sub>2</sub> = (250 · 40 + 1000 · 25)/1250 = 35 000/1250 = 28 °C.\nGabarito: B.",
+  "topicos": [
+    "trocas-de-calor-e-equilibrio-termico-calorimetro",
+    "calor-sensivel-e-capacidade-termica"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-01T12:54:08.000Z",
+  "atualizadoEm": "2026-11-01T12:54:08.000Z"
+}

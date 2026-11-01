@@ -1,0 +1,30 @@
+{
+  "id": "fuvest-2023-q36",
+  "banca": "Fuvest",
+  "ano": 2023,
+  "numero": "36",
+  "fase": "1ª fase · Prova V",
+  "fonte": {
+    "descricao": "Fuvest, Vestibular 2023, 1ª fase (Prova de Conhecimentos Gerais), caderno de questões"
+  },
+  "enunciado": "Na teoria musical, o intervalo entre duas notas é medido pela razão entre suas frequências (medidas em Hz). Na escala pitagórica, os intervalos de um <i>tom</i> e de um <i>semitom</i> correspondem, respectivamente, às razões 9/8 e 256/243. A soma de intervalos corresponde ao produto das razões. Por exemplo, no intervalo de dois tons, a razão entre as frequências é de 9/8 ⋅ 9/8 = 81/64.\n\n[[figura 1]]\n\nEm um instrumento afinado de acordo com a escala pitagórica, se o intervalo entre uma nota de 220 Hz e outra de 990 Hz é composto por <i>n</i> tons e <i>m</i> semitons, a soma <i>m</i> + <i>n</i> é igual a:\n\n(A) 13\n(B) 14\n(C) 15\n(D) 16\n(E) 17",
+  "figuras": [
+    "fuvest-2023-q36-1.png"
+  ],
+  "gabarito": "C",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. Razão entre as frequências: 990/220 = 9/2.\n2. Escrevendo as razões em potências de 2 e 3: tom = 9/8 = 3<sup>2</sup>/2<sup>3</sup>; semitom = 256/243 = 2<sup>8</sup>/3<sup>5</sup>; 9/2 = 3<sup>2</sup>/2.\n3. (3<sup>2</sup>·2<sup>−3</sup>)<sup><i>n</i></sup> · (2<sup>8</sup>·3<sup>−5</sup>)<sup><i>m</i></sup> = 3<sup>2</sup>·2<sup>−1</sup> ⇒ expoente de 3: 2<i>n</i> − 5<i>m</i> = 2; expoente de 2: −3<i>n</i> + 8<i>m</i> = −1.\n4. Da 1ª equação, <i>n</i> = (2 + 5<i>m</i>)/2. Substituindo: −3(2 + 5<i>m</i>)/2 + 8<i>m</i> = −1 ⇒ −6 − 15<i>m</i> + 16<i>m</i> = −2 ⇒ <i>m</i> = 4 e <i>n</i> = 11.\n5. <i>m</i> + <i>n</i> = 15. (Conferência: (9/8)<sup>11</sup>·(256/243)<sup>4</sup> = 4,5.)\n6. Física envolvida: a altura de um som é determinada pela frequência, e intervalos musicais correspondem a <b>razões</b> (não diferenças) entre frequências.\nGabarito: C.",
+  "topicos": [
+    "som-altura-intensidade-e-timbre"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-01T12:54:11.000Z",
+  "atualizadoEm": "2026-11-01T12:54:11.000Z",
+  "revisao": {
+    "divergenciasAceitas": [
+      "243",
+      "256"
+    ],
+    "notas": "As frações 9/8 e 256/243 estão em fonte de equação no PDF; conferidas na imagem do caderno."
+  }
+}

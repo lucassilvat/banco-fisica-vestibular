@@ -1,0 +1,22 @@
+{
+  "id": "fuvest-2023-q71",
+  "banca": "Fuvest",
+  "ano": 2023,
+  "numero": "71",
+  "fase": "1ª fase · Prova V",
+  "fonte": {
+    "descricao": "Fuvest, Vestibular 2023, 1ª fase (Prova de Conhecimentos Gerais), caderno de questões"
+  },
+  "enunciado": "Uma das apostas para a produção de energia limpa, sem emissão de gases de efeito estufa e sem geração de resíduos radioativos, é a fusão nuclear, como a que ocorre nas estrelas. Em laboratório, são utilizados os isótopos de hidrogênio deutério (<sup>2</sup><sub>1</sub><i>H</i>) e trítio (<sup>3</sup><sub>1</sub><i>H</i>), que, dentro de um intenso campo magnético, são aquecidos a 150 milhões de graus Celsius. Nessas condições, <sup>2</sup><sub>1</sub><i>H</i> e <sup>3</sup><sub>1</sub><i>H</i> fundem-se formando <sup>4</sup><sub>2</sub><i>He</i> e um outro subproduto, além de liberar uma grande quantidade de energia.\n\nCom base nessas informações, assinale a alternativa que traz as informações corretas sobre qual é o subproduto formado e sobre a variação de entalpia desse processo.\n\n(A) Próton; ΔH<0\n(B) Próton; ΔH>0\n(C) Nêutron; ΔH<0\n(D) Nêutron; ΔH>0\n(E) Elétron; ΔH<0",
+  "figuras": [],
+  "gabarito": "C",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. Conservação do número de massa (A) e do número atômico (Z): <sup>2</sup><sub>1</sub>H + <sup>3</sup><sub>1</sub>H → <sup>4</sup><sub>2</sub>He + <sup><i>A</i></sup><sub><i>Z</i></sub>X.\n2. A: 2 + 3 = 4 + <i>A</i> ⇒ <i>A</i> = 1; Z: 1 + 1 = 2 + <i>Z</i> ⇒ <i>Z</i> = 0. Partícula de massa 1 e carga 0: nêutron.\n3. O processo libera grande quantidade de energia (a massa dos produtos é menor que a dos reagentes, <i>E</i> = Δ<i>m c</i><sup>2</sup>) ⇒ é exotérmico ⇒ ΔH < 0.\nGabarito: C.",
+  "topicos": [
+    "fissao-e-fusao-nuclear",
+    "equivalencia-massa-energia-e-mc"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-01T12:54:11.000Z",
+  "atualizadoEm": "2026-11-01T12:54:11.000Z"
+}

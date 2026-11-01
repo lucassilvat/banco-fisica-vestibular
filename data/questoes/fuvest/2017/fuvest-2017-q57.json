@@ -1,0 +1,29 @@
+{
+  "id": "fuvest-2017-q57",
+  "banca": "Fuvest",
+  "ano": 2017,
+  "numero": "57",
+  "fase": "1ª fase · Prova V",
+  "fonte": {
+    "descricao": "Fuvest, Vestibular 2017, 1ª fase (Prova de Conhecimentos Gerais), caderno de questões"
+  },
+  "enunciado": "Um elevador sobe verticalmente com velocidade constante <i>v</i><sub>0</sub>, e, em um dado instante de tempo <i>t</i><sub>0</sub>, um parafuso desprende-se do teto. O gráfico que melhor representa, em função do tempo <i>t</i>, o módulo da velocidade <i>v</i> desse parafuso em relação ao chão do elevador é\n\nNote e adote:\nOs gráficos se referem ao movimento do parafuso antes que ele atinja o chão do elevador.\n\na)\n[[figura 1]]\nb)\n[[figura 2]]\nc)\n[[figura 3]]\nd)\n[[figura 4]]\ne)\n[[figura 5]]",
+  "figuras": [
+    "fuvest-2017-q57-1.png",
+    "fuvest-2017-q57-2.png",
+    "fuvest-2017-q57-3.png",
+    "fuvest-2017-q57-4.png",
+    "fuvest-2017-q57-5.png"
+  ],
+  "gabarito": "E",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. O elevador sobe com velocidade constante: é um referencial inercial, no qual vale a física \"normal\".\n2. Antes de <i>t</i><sub>0</sub>, o parafuso está preso ao teto: sua velocidade em relação ao elevador (e ao chão dele) é zero.\n3. Ao se soltar, em relação ao elevador ele parte do repouso e cai em queda livre com aceleração <i>g</i>: <i>v</i> = <i>g</i>(<i>t</i> − <i>t</i><sub>0</sub>), uma reta crescente a partir de zero.\n4. O gráfico é nulo até <i>t</i><sub>0</sub> e depois cresce linearmente: alternativa e. (Os gráficos que partem de <i>v</i><sub>0</sub> descreveriam a velocidade em relação ao solo do prédio, não ao chão do elevador.)\nGabarito: E.",
+  "topicos": [
+    "movimento-relativo-e-composicao-de-velocidades",
+    "queda-livre-e-lancamento-vertical",
+    "graficos-do-movimento-s-t-v-t-a-t"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-01T14:43:28.000Z",
+  "atualizadoEm": "2026-11-01T14:43:28.000Z"
+}

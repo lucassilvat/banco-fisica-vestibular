@@ -1,0 +1,25 @@
+{
+  "id": "fuvest-2022-q52",
+  "banca": "Fuvest",
+  "ano": 2022,
+  "numero": "52",
+  "fase": "1ª fase · Prova V",
+  "fonte": {
+    "descricao": "Fuvest, Vestibular 2022, 1ª fase (Prova de Conhecimentos Gerais), caderno de questões"
+  },
+  "enunciado": "Uma bola de bilhar vermelha está inicialmente em repouso a 40 cm de duas das bordas (lateral e superior da figura) de uma mesa de bilhar, como mostra a figura. Uma bola branca de mesma massa e tamanho é lançada em direção à vermelha com velocidade <i>v</i>⃗<sub>0</sub> paralela à borda lateral.\n\nAs duas bolas colidem e, algum tempo depois, a bola vermelha está prestes a cair na caçapa posicionada na junção das duas bordas. No mesmo instante, a bola branca toca a borda superior da mesa a uma distância <i>d</i> da bola vermelha, conforme figura.\n\n[[figura 1]]\n\nO valor de <i>d</i> é aproximadamente:\n\nNote e adote:\nDespreze efeitos dissipativos (como deslizamentos com atrito) e considere a colisão entre as bolas como sendo perfeitamente elástica.\nConsidere que o diâmetro das bolas seja muito menor que as distâncias mencionadas e que não ocorram outras colisões intermediárias.\n\n(A) 20 cm\n(B) 40 cm\n(C) 60 cm\n(D) 80 cm\n(E) 100 cm",
+  "figuras": [
+    "fuvest-2022-q52-1.png"
+  ],
+  "gabarito": "D",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. A bola vermelha vai em linha reta até a caçapa do canto: desloca-se 40 cm para a esquerda e 40 cm para cima (direção a 45°).\n2. Colisão elástica oblíqua entre massas iguais, uma delas em repouso: as velocidades após o choque são perpendiculares entre si e, somadas vetorialmente, dão <i>v</i>⃗<sub>0</sub> (conservação da quantidade de movimento).\n3. Como <i>v</i>⃗<sub>0</sub> é vertical e a vermelha sai a 45° para a esquerda, a branca sai a 45° para a direita, e as componentes horizontais se cancelam ⇒ as duas têm a mesma velocidade, <i>v</i><sub>0</sub>/√2.\n4. No mesmo intervalo de tempo, as duas percorrem a mesma distância: a branca também sobe 40 cm (chegando à borda superior junto com a vermelha) e anda 40 cm para a direita.\n5. Na borda superior, a vermelha está 40 cm à esquerda da posição inicial e a branca 40 cm à direita ⇒ <i>d</i> = 80 cm.\nGabarito: D.",
+  "topicos": [
+    "colisoes-elasticas-e-inelasticas",
+    "conservacao-da-quantidade-de-movimento",
+    "vetores-soma-e-decomposicao"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-01T12:54:14.000Z",
+  "atualizadoEm": "2026-11-01T12:54:14.000Z"
+}

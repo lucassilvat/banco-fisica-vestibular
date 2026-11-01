@@ -1,0 +1,25 @@
+{
+  "id": "fuvest-2018-q09",
+  "banca": "Fuvest",
+  "ano": 2018,
+  "numero": "9",
+  "fase": "1ª fase · Prova V",
+  "fonte": {
+    "descricao": "Fuvest, Vestibular 2018, 1ª fase (Prova de Conhecimentos Gerais), caderno de questões"
+  },
+  "enunciado": "Na figura, A e B representam duas placas metálicas; a diferença de potencial entre elas é <i>V<sub>B</sub></i> − <i>V<sub>A</sub></i> = 2,0 x 10<sup>4</sup> V. As linhas tracejadas 1 e 2 representam duas possíveis trajetórias de um elétron, no plano da figura.\n\n[[figura 1]]\n\nConsidere a carga do elétron igual a −1,6 x 10<sup>−19</sup> C e as seguintes afirmações com relação à energia cinética de um elétron que sai do ponto X na placa A e atinge a placa B:\n\nI. Se o elétron tiver velocidade inicial nula, sua energia cinética, ao atingir a placa B, será 3,2 × 10<sup>−15</sup> J.\nII. A variação da energia cinética do elétron é a mesma, independentemente de ele ter percorrido as trajetórias 1 ou 2.\nIII. O trabalho realizado pela força elétrica sobre o elétron na trajetória 2 é maior do que o realizado sobre o elétron na trajetória 1.\n\nApenas é correto o que se afirma em\n\n(A) I.\n(B) II.\n(C) III.\n(D) I e II.\n(E) I e III.",
+  "figuras": [
+    "fuvest-2018-q09-1.png"
+  ],
+  "gabarito": "D",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. Trabalho da força elétrica de A até B: <i>W</i> = <i>q</i>(<i>V<sub>A</sub></i> − <i>V<sub>B</sub></i>) = (−1,6 × 10<sup>−19</sup>) · (−2,0 × 10<sup>4</sup>) = 3,2 × 10<sup>−15</sup> J.\n2. I. Correta: pelo teorema da energia cinética, partindo do repouso, <i>E</i><sub>c</sub> = <i>W</i> = 3,2 × 10<sup>−15</sup> J.\n3. II. Correta: a força elétrica é conservativa; o trabalho só depende dos pontos inicial e final (da ddp), não da trajetória.\n4. III. Errada: pelo mesmo motivo, o trabalho é igual nas trajetórias 1 e 2.\nGabarito: D.",
+  "topicos": [
+    "trabalho-da-forca-eletrica-e-energia-potencial-eletrica",
+    "potencial-eletrico-e-diferenca-de-potencial",
+    "energia-cinetica-e-teorema-trabalho-energia"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-01T14:43:26.000Z",
+  "atualizadoEm": "2026-11-01T14:43:26.000Z"
+}

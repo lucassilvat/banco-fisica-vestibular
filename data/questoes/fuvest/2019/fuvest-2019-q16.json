@@ -1,0 +1,25 @@
+{
+  "id": "fuvest-2019-q16",
+  "banca": "Fuvest",
+  "ano": 2019,
+  "numero": "16",
+  "fase": "1ª fase · Prova V",
+  "fonte": {
+    "descricao": "Fuvest, Vestibular 2019, 1ª fase (Prova de Conhecimentos Gerais), caderno de questões"
+  },
+  "enunciado": "Dois corpos de massas iguais são soltos, ao mesmo tempo, a partir do repouso, da altura <i>h<sub>1</sub></i> e percorrem os diferentes trajetos (A) e (B), mostrados na figura, onde <i>x<sub>1</sub></i> > <i>x<sub>2</sub></i> e <i>h<sub>1</sub></i> > <i>h<sub>2</sub></i>.\n\n[[figura 1]]\n\nConsidere as seguintes afirmações:\n\nI. As energias cinéticas finais dos corpos em (A) e em (B) são diferentes.\nII. As energias mecânicas dos corpos, logo antes de começarem a subir a rampa, são iguais.\nIII. O tempo para completar o percurso independe da trajetória.\nIV. O corpo em (B) chega primeiro ao final da trajetória.\nV. O trabalho realizado pela força peso é o mesmo nos dois casos.\n\nÉ correto somente o que se afirma em\n\nNote e adote:\nDesconsidere forças dissipativas.\n\n(A) I e III.\n(B) II e V.\n(C) IV e V.\n(D) II e III.\n(E) I e V.",
+  "figuras": [
+    "fuvest-2019-q16-1.png"
+  ],
+  "gabarito": "B",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. Sem forças dissipativas, a energia mecânica se conserva nos dois trajetos, e os corpos (de mesma massa) partem do repouso da mesma altura.\n2. I. Errada: os dois terminam no patamar de altura <i>h</i><sub>2</sub>; pela conservação da energia, chegam com a mesma energia cinética.\n3. II. Correta: a energia mecânica é a mesma em todos os pontos e igual nos dois casos.\n4. III e IV. Erradas: em (A), o trecho longo <i>x</i><sub>1</sub> é percorrido embaixo, com velocidade maior, e o curto <i>x</i><sub>2</sub> em cima; em (B) ocorre o contrário. O corpo em (A) chega antes.\n5. V. Correta: o trabalho do peso só depende do desnível entre início e fim (<i>m g</i>(<i>h</i><sub>1</sub> − <i>h</i><sub>2</sub>)), igual nos dois casos.\nGabarito: B.",
+  "topicos": [
+    "conservacao-da-energia-mecanica",
+    "trabalho-de-uma-forca",
+    "energia-potencial-gravitacional"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-01T14:43:25.000Z",
+  "atualizadoEm": "2026-11-01T14:43:25.000Z"
+}

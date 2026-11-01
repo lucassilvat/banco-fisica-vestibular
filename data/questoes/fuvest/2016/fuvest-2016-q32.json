@@ -1,0 +1,31 @@
+{
+  "id": "fuvest-2016-q32",
+  "banca": "Fuvest",
+  "ano": 2016,
+  "numero": "32",
+  "fase": "1ª fase · Prova V",
+  "fonte": {
+    "descricao": "Fuvest, Vestibular 2016, 1ª fase (Prova de Conhecimentos Gerais), caderno de questões"
+  },
+  "enunciado": "Uma moeda está no centro do fundo de uma caixa d’água cilíndrica de 0,87 m de altura e base circular com 1,0 m de diâmetro, totalmente preenchida com água, como esquematizado na figura.\n\n[[figura 1]]\n\nSe um feixe de luz <i>laser</i> incidir em uma direção que passa pela borda da caixa, fazendo um ângulo θ com a vertical, ele só poderá iluminar a moeda se\n\nNote e adote:\nÍndice de refração da água: 1,4\n<i>n</i><sub>1</sub> sen(θ<sub>1</sub>) = <i>n</i><sub>2</sub> sen(θ<sub>2</sub>)\nsen(20°) = cos(70°) = 0,35\nsen(30°) = cos(60°) = 0,50\nsen(45°) = cos(45°) = 0,70\nsen(60°) = cos(30°) = 0,87\nsen(70°) = cos(20°) = 0,94\n\na) θ = 20°\nb) θ = 30°\nc) θ = 45°\nd) θ = 60°\ne) θ = 70°",
+  "figuras": [
+    "fuvest-2016-q32-1.png"
+  ],
+  "gabarito": "C",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. Para atingir a moeda, o raio refratado deve ir da borda da caixa até o centro do fundo: deslocamento horizontal de 0,5 m (raio da base) em 0,87 m de profundidade.\n2. Ângulo de refração <i>r</i> com a vertical: tg <i>r</i> = 0,5/0,87 ⇒ <i>r</i> = 30° (sen 30° = 0,5, cos 30° = 0,87).\n3. Snell na superfície: 1,0 · sen θ = 1,4 · sen 30° = 0,70 ⇒ θ = 45°.\nGabarito: C.",
+  "topicos": [
+    "lei-de-snell-descartes",
+    "refracao-da-luz-e-indice-de-refracao"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-01T14:43:29.000Z",
+  "atualizadoEm": "2026-11-01T14:43:29.000Z",
+  "revisao": {
+    "notas": "No PDF de 2016, símbolos e números escritos com o editor de equações não aparecem na camada de texto; esses trechos foram transcritos da imagem do caderno e conferidos visualmente.",
+    "divergenciasAceitas": [
+      "cos",
+      "sen"
+    ]
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": "fuvest-2017-q66",
+  "banca": "Fuvest",
+  "ano": 2017,
+  "numero": "66",
+  "fase": "1ª fase · Prova V",
+  "fonte": {
+    "descricao": "Fuvest, Vestibular 2017, 1ª fase (Prova de Conhecimentos Gerais), caderno de questões"
+  },
+  "enunciado": "No início do século XX, Pierre Curie e colaboradores, em uma experiência para determinar características do recém-descoberto elemento químico rádio, colocaram uma pequena quantidade desse material em um calorímetro e verificaram que 1,30 grama de água líquida ia do ponto de congelamento ao ponto de ebulição em uma hora. A potência média liberada pelo rádio nesse período de tempo foi, aproximadamente,\n\nNote e adote:\nCalor específico da água: 1 cal/(g·°C)\n1 cal = 4 J\nTemperatura de congelamento da água: 0 °C\nTemperatura de ebulição da água: 100 °C\nConsidere que toda a energia emitida pelo rádio foi absorvida pela água e empregada exclusivamente para elevar sua temperatura.\n\na) 0,06 W\nb) 0,10 W\nc) 0,14 W\nd) 0,18 W\ne) 0,22 W",
+  "figuras": [],
+  "gabarito": "C",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. Calor absorvido pela água: <i>Q</i> = <i>m c</i> Δ<i>θ</i> = 1,30 · 1 · 100 = 130 cal = 520 J.\n2. Em 1 hora = 3600 s: <i>P</i> = 520/3600 ≈ 0,14 W.\nGabarito: C.",
+  "topicos": [
+    "calor-sensivel-e-capacidade-termica",
+    "potencia-e-rendimento",
+    "radioatividade-e-decaimento"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-01T14:43:28.000Z",
+  "atualizadoEm": "2026-11-01T14:43:28.000Z"
+}

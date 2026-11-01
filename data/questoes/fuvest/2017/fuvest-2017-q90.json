@@ -1,0 +1,25 @@
+{
+  "id": "fuvest-2017-q90",
+  "banca": "Fuvest",
+  "ano": 2017,
+  "numero": "90",
+  "fase": "1ª fase · Prova V",
+  "fonte": {
+    "descricao": "Fuvest, Vestibular 2017, 1ª fase (Prova de Conhecimentos Gerais), caderno de questões"
+  },
+  "enunciado": "Uma quantidade fixa de um gás ideal é mantida a temperatura constante, e seu volume varia com o tempo de acordo com a seguinte fórmula:\n\n<i>V</i>(<i>t</i>) = log<sub>2</sub>(5 + 2 sen(<i>πt</i>)), 0 ≤ <i>t</i> ≤ 2,\n\nem que <i>t</i> é medido em horas e <i>V</i>(<i>t</i>) é medido em m<sup>3</sup>. A pressão máxima do gás no intervalo de tempo [0, 2] ocorre no instante\n\na) <i>t</i> = 0,4\nb) <i>t</i> = 0,5\nc) <i>t</i> = 1\nd) <i>t</i> = 1,5\ne) <i>t</i> = 2",
+  "figuras": [],
+  "gabarito": "D",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. Transformação isotérmica (lei de Boyle): <i>p V</i> = constante ⇒ a pressão é máxima quando o volume é mínimo.\n2. log<sub>2</sub> é crescente, então <i>V</i> é mínimo quando 5 + 2 sen(<i>πt</i>) é mínimo, isto é, quando sen(<i>πt</i>) = −1.\n3. No intervalo [0, 2]: <i>πt</i> = 3π/2 ⇒ <i>t</i> = 1,5 h (aí <i>V</i> = log<sub>2</sub> 3 m<sup>3</sup>).\nGabarito: D.",
+  "topicos": [
+    "transformacoes-gasosas-isotermica-isobarica-isocorica-adiabatica",
+    "gas-ideal-e-equacao-de-clapeyron"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-01T14:43:28.000Z",
+  "atualizadoEm": "2026-11-01T14:43:28.000Z",
+  "revisao": {
+    "notas": "A fórmula está em editor de equações no PDF (camada de texto ilegível nesse trecho); transcrita da imagem do caderno."
+  }
+}

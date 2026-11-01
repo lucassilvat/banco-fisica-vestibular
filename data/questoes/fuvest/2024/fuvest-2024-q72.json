@@ -1,0 +1,29 @@
+{
+  "id": "fuvest-2024-q72",
+  "banca": "Fuvest",
+  "ano": 2024,
+  "numero": "72",
+  "fase": "1ª fase · Prova V",
+  "fonte": {
+    "descricao": "Fuvest, Vestibular 2024, 1ª fase (Prova de Conhecimentos Gerais), caderno de questões"
+  },
+  "enunciado": "Um protótipo de máquina térmica caseira baseia-se num motor de quatro etapas e pode ser construído com o auxílio de uma bomba de bicicleta, uma pequena câmara de pneu e um aquecedor térmico. Na primeira etapa, o gás da câmara de pneu é comprimido adiabaticamente. Na segunda etapa, o gás é aquecido isovolumetricamente. Na terceira etapa, o gás sofre uma expansão adiabática e, finalmente, na quarta etapa, um resfriamento isovolumétrico.\n\nAssinale a alternativa que melhor representa o diagrama correspondente a essa máquina térmica no plano pressão (<i>p</i>) <i>x</i> volume (<i>V</i>).\n\nNote e adote:\nDespreze efeitos de dilatação ou contração da câmara do pneu.\n\n(A)\n[[figura 1]]\n(B)\n[[figura 2]]\n(C)\n[[figura 3]]\n(D)\n[[figura 4]]\n(E)\n[[figura 5]]",
+  "figuras": [
+    "fuvest-2024-q72-1.png",
+    "fuvest-2024-q72-2.png",
+    "fuvest-2024-q72-3.png",
+    "fuvest-2024-q72-4.png",
+    "fuvest-2024-q72-5.png"
+  ],
+  "gabarito": "A",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. O ciclo descrito (ciclo de Otto) tem duas adiabáticas e duas isovolumétricas.\n2. Isovolumétricas (volume constante) são segmentos <b>verticais</b> no diagrama <i>p</i> × <i>V</i>, em <i>V</i><sub>1</sub> e <i>V</i><sub>2</sub>. Isso elimina C, cujos lados não são verticais.\n3. Adiabáticas são curvas descendentes (a pressão cai quando o volume aumenta), mais inclinadas que isotermas; não são segmentos horizontais. Isso elimina B e E (retângulos com lados isobáricos).\n4. Sentido: compressão adiabática (de <i>V</i><sub>2</sub> para <i>V</i><sub>1</sub>, pela curva de baixo) → aquecimento em <i>V</i><sub>1</sub> (sobe) → expansão adiabática (pela curva de cima até <i>V</i><sub>2</sub>) → resfriamento em <i>V</i><sub>2</sub> (desce). O ciclo é percorrido no sentido horário, como em toda máquina térmica (trabalho líquido positivo).\n5. A tem a forma certa e o sentido horário; D tem a mesma forma, mas sentido anti-horário (seria um refrigerador).\nGabarito: A.",
+  "topicos": [
+    "maquinas-termicas-e-rendimento",
+    "transformacoes-gasosas-isotermica-isobarica-isocorica-adiabatica",
+    "trabalho-em-transformacao-gasosa-grafico-p-v"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-01T12:54:08.000Z",
+  "atualizadoEm": "2026-11-01T12:54:08.000Z"
+}

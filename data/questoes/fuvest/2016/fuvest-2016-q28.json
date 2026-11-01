@@ -1,0 +1,26 @@
+{
+  "id": "fuvest-2016-q28",
+  "banca": "Fuvest",
+  "ano": 2016,
+  "numero": "28",
+  "fase": "1ª fase · Prova V",
+  "fonte": {
+    "descricao": "Fuvest, Vestibular 2016, 1ª fase (Prova de Conhecimentos Gerais), caderno de questões"
+  },
+  "enunciado": "A Estação Espacial Internacional orbita a Terra em uma altitude <i>h</i>. A aceleração da gravidade terrestre dentro dessa espaçonave é\n\nNote e adote:\n<i>g<sub>T</sub></i> é a aceleração da gravidade na superfície da Terra.\n<i>R<sub>T</sub></i> é o raio da Terra.\n\na) nula.\nb) <i>g<sub>T</sub></i> (<i>h</i>/<i>R<sub>T</sub></i>)<sup>2</sup>\nc) <i>g<sub>T</sub></i> ((<i>R<sub>T</sub></i> − <i>h</i>)/<i>R<sub>T</sub></i>)<sup>2</sup>\nd) <i>g<sub>T</sub></i> (<i>R<sub>T</sub></i>/(<i>R<sub>T</sub></i> + <i>h</i>))<sup>2</sup>\ne) <i>g<sub>T</sub></i> ((<i>R<sub>T</sub></i> − <i>h</i>)/(<i>R<sub>T</sub></i> + <i>h</i>))<sup>2</sup>",
+  "figuras": [],
+  "gabarito": "D",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. A aceleração da gravidade a uma distância <i>r</i> do centro da Terra é <i>g</i> = <i>GM</i>/<i>r</i><sup>2</sup>; na superfície, <i>g<sub>T</sub></i> = <i>GM</i>/<i>R<sub>T</sub></i><sup>2</sup>.\n2. Na estação, <i>r</i> = <i>R<sub>T</sub></i> + <i>h</i> ⇒ <i>g</i> = <i>g<sub>T</sub></i> (<i>R<sub>T</sub></i>/(<i>R<sub>T</sub></i> + <i>h</i>))<sup>2</sup>.\n3. Não é nula: os astronautas \"flutuam\" porque estão, como a estação, em queda livre em torno da Terra (imponderabilidade), não por falta de gravidade.\nGabarito: D.",
+  "topicos": [
+    "aceleracao-da-gravidade-e-altitude",
+    "lei-da-gravitacao-universal",
+    "satelites-orbitas-e-imponderabilidade"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-01T14:43:29.000Z",
+  "atualizadoEm": "2026-11-01T14:43:29.000Z",
+  "revisao": {
+    "notas": "No PDF de 2016, símbolos e números escritos com o editor de equações não aparecem na camada de texto; esses trechos foram transcritos da imagem do caderno e conferidos visualmente."
+  }
+}

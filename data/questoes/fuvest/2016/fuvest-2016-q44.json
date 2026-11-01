@@ -1,0 +1,23 @@
+{
+  "id": "fuvest-2016-q44",
+  "banca": "Fuvest",
+  "ano": 2016,
+  "numero": "44",
+  "fase": "1ª fase · Prova V",
+  "fonte": {
+    "descricao": "Fuvest, Vestibular 2016, 1ª fase (Prova de Conhecimentos Gerais), caderno de questões"
+  },
+  "enunciado": "A pele humana atua na manutenção da temperatura corporal.\nAnalise as afirmações abaixo:\n\nI. Em dias frios, vasos sanguíneos na pele se contraem, o que diminui a perda de calor, mantendo o corpo aquecido.\nII. Em dias quentes, vasos sanguíneos na pele se dilatam, o que diminui a irradiação de calor para o meio, esfriando o corpo.\nIII. Em dias quentes, o suor produzido pelas glândulas sudoríparas, ao evaporar, absorve calor da superfície do corpo, resfriando-o.\n\nEstá correto apenas o que se afirma em\n\na) I.\nb) II.\nc) I e II.\nd) I e III.\ne) II e III.",
+  "figuras": [],
+  "gabarito": "D",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. I. Correta: a vasoconstrição leva menos sangue quente para perto da superfície, reduzindo a perda de calor por condução, convecção e irradiação.\n2. II. Errada: a vasodilatação aumenta (não diminui) o fluxo de sangue na pele e, com isso, a irradiação de calor para o meio — é assim que o corpo esfria.\n3. III. Correta: a evaporação do suor é uma mudança de fase que absorve calor latente da pele, resfriando-a.\nGabarito: D.",
+  "topicos": [
+    "conveccao-e-irradiacao-termica",
+    "calor-latente-e-mudancas-de-fase",
+    "trocas-de-calor-e-equilibrio-termico-calorimetro"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-01T14:43:29.000Z",
+  "atualizadoEm": "2026-11-01T14:43:29.000Z"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "fuvest-2018-q03",
+  "banca": "Fuvest",
+  "ano": 2018,
+  "numero": "3",
+  "fase": "1ª fase · Prova V",
+  "fonte": {
+    "descricao": "Fuvest, Vestibular 2018, 1ª fase (Prova de Conhecimentos Gerais), caderno de questões"
+  },
+  "enunciado": "Furacões são sistemas físicos que liberam uma enorme quantidade de energia por meio de diferentes tipos de processos, sendo um deles a condensação do vapor em água. De acordo com o Laboratório Oceanográfico e Meteorológico do Atlântico, um furacão produz, em média, 1,5 cm de chuva por dia em uma região plana de 660 km de raio. Nesse caso, a quantidade de energia por unidade de tempo envolvida no processo de condensação do vapor em água da chuva é, aproximadamente,\n\nNote e adote:\n<i>π</i> = 3.\nCalor latente de vaporização da água: 2 × 10<sup>6</sup> J/kg.\nDensidade da água: 10<sup>3</sup> kg/m<sup>3</sup>.\n1 dia = 8,6 × 10<sup>4</sup> s.\n\n(A) 3,8 × 10<sup>15</sup> W.\n(B) 4,6 × 10<sup>14</sup> W.\n(C) 2,1 × 10<sup>13</sup> W.\n(D) 1,2 × 10<sup>12</sup> W.\n(E) 1,1 × 10<sup>11</sup> W.",
+  "figuras": [],
+  "gabarito": "B",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. Área: <i>A</i> = π<i>r</i><sup>2</sup> = 3 · (6,6 × 10<sup>5</sup> m)<sup>2</sup> ≈ 1,31 × 10<sup>12</sup> m<sup>2</sup>.\n2. Volume de chuva por dia: 0,015 m · 1,31 × 10<sup>12</sup> m<sup>2</sup> ≈ 1,96 × 10<sup>10</sup> m<sup>3</sup> ⇒ massa ≈ 1,96 × 10<sup>13</sup> kg.\n3. Energia liberada na condensação por dia: <i>Q</i> = <i>m L</i> ≈ 1,96 × 10<sup>13</sup> · 2 × 10<sup>6</sup> ≈ 3,9 × 10<sup>19</sup> J.\n4. Potência: 3,9 × 10<sup>19</sup>/8,6 × 10<sup>4</sup> ≈ 4,6 × 10<sup>14</sup> W.\nGabarito: B.",
+  "topicos": [
+    "calor-latente-e-mudancas-de-fase",
+    "potencia-e-rendimento",
+    "notacao-cientifica-e-ordem-de-grandeza",
+    "densidade-e-massa-especifica"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-01T14:43:26.000Z",
+  "atualizadoEm": "2026-11-01T14:43:26.000Z"
+}

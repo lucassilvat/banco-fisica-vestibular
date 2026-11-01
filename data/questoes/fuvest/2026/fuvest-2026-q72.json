@@ -1,0 +1,24 @@
+{
+  "id": "fuvest-2026-q72",
+  "banca": "Fuvest",
+  "ano": 2026,
+  "numero": "72",
+  "fase": "1ª fase · Prova V1",
+  "fonte": {
+    "descricao": "Fuvest, Vestibular 2026, 1ª fase (Prova de Conhecimentos Gerais), caderno de questões"
+  },
+  "enunciado": "[[figura 1]]\n\nPark, E. et al. “Pour-over coffee: Mixing by a water jet impinging on a granular bed with avalanche dynamics”. <i>Phys. Fluids</i> 37, 043332 (2025). Adaptado.\n\nUm artigo recentemente publicado na revista <i>Physics of Fluids</i> investigou de que modo fatores como a altura e a velocidade da água despejada na preparação de café filtrado (parte (a) da figura) influenciam no sabor da bebida pronta.\n\nUm dos parâmetros importantes é a velocidade do jato de água ao atingir a lâmina de água que já está no filtro. Uma das conclusões do estudo é que velocidades acima de 2 m/s levam a uma melhor mistura do pó de café com a água.\n\nA parte (b) da figura esquematiza a situação descrita, em que H é a altura da lâmina de água e D a altura de despejo da água do bule, medidas que têm a base do filtro como referência.\n\nAssumindo que seja desprezível a velocidade do jato quando a água começa a ser despejada no bico do bule, para uma altura H = 8 cm, qual a altura mínima D de despejo para que a velocidade do jato, ao atingir a água, seja de, pelo menos, 2 m/s?\n\nNote e adote:\nDensidade (massa específica) da água: d = 1000 kg/m<sup>3</sup>\nAceleração da gravidade: g = 10 m/s<sup>2</sup>\n\n(A) 4 cm\n(B) 8,2 cm\n(C) 10 cm\n(D) 18 cm\n(E) 28 cm",
+  "figuras": [
+    "fuvest-2026-q72-1.png"
+  ],
+  "gabarito": "E",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. A água sai do bico com velocidade desprezível e cai livremente a altura (D − H) até a lâmina de água.\n2. Conservação da energia (ou Torricelli): <i>v</i><sup>2</sup> = 2<i>g</i>(D − H).\n3. Para <i>v</i> = 2 m/s: 4 = 2 · 10 · (D − H) ⇒ D − H = 0,20 m = 20 cm.\n4. D = 20 + 8 = 28 cm (a densidade da água não é necessária).\nGabarito: E.",
+  "topicos": [
+    "queda-livre-e-lancamento-vertical",
+    "conservacao-da-energia-mecanica"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-01T12:54:03.000Z",
+  "atualizadoEm": "2026-11-01T12:54:03.000Z"
+}

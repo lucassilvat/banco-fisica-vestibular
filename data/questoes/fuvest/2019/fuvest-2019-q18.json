@@ -1,0 +1,24 @@
+{
+  "id": "fuvest-2019-q18",
+  "banca": "Fuvest",
+  "ano": 2019,
+  "numero": "18",
+  "fase": "1ª fase · Prova V",
+  "fonte": {
+    "descricao": "Fuvest, Vestibular 2019, 1ª fase (Prova de Conhecimentos Gerais), caderno de questões"
+  },
+  "enunciado": "Três pequenas esferas carregadas com carga positiva <i>Q</i> ocupam os vértices de um triângulo, como mostra a figura. Na parte interna do triângulo, está afixada outra pequena esfera, com carga negativa <i>q</i>. As distâncias dessa carga às outras três podem ser obtidas a partir da figura.\n\n[[figura 1]]\n\nSendo <i>Q</i> = 2 × 10<sup>−4</sup> C, <i>q</i> = −2 × 10<sup>−5</sup> C e <i>d</i> = 6 m, a força elétrica resultante sobre a carga <i>q</i>\n\nNote e adote:\nA constante k<sub>0</sub> da lei de Coulomb vale 9 × 10<sup>9</sup> N m<sup>2</sup>/C<sup>2</sup>\n\n(A) é nula.\n(B) tem direção do eixo y, sentido para baixo e módulo 1,8 N.\n(C) tem direção do eixo y, sentido para cima e módulo 1,0 N.\n(D) tem direção do eixo y, sentido para baixo e módulo 1,0 N.\n(E) tem direção do eixo y, sentido para cima e módulo 0,3 N.",
+  "figuras": [
+    "fuvest-2019-q18-1.png"
+  ],
+  "gabarito": "E",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. Pela figura, <i>q</i> está a uma distância <i>d</i> abaixo da carga de cima e, em relação às de baixo, a <i>d</i> na horizontal e <i>d</i> na vertical ⇒ distância <i>d</i>√2.\n2. Cargas de sinais opostos se atraem: cada força aponta de <i>q</i> para a carga <i>Q</i> correspondente.\n3. Carga de cima: <i>F</i><sub>1</sub> = <i>k Q</i>|<i>q</i>|/<i>d</i><sup>2</sup> = 9 × 10<sup>9</sup> · 2 × 10<sup>−4</sup> · 2 × 10<sup>−5</sup>/36 = 36/36 = 1,0 N, para cima.\n4. Cada carga de baixo: <i>F</i><sub>2</sub> = 36/(2 · 36) = 0,5 N, a 45° para baixo. As componentes horizontais se anulam; as verticais somam 2 · 0,5 · cos 45° ≈ 0,71 N para baixo.\n5. Resultante: 1,0 − 0,71 ≈ 0,3 N, ao longo do eixo y, para cima.\nGabarito: E.",
+  "topicos": [
+    "lei-de-coulomb",
+    "vetores-soma-e-decomposicao"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-01T14:43:25.000Z",
+  "atualizadoEm": "2026-11-01T14:43:25.000Z"
+}

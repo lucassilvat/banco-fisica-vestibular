@@ -1,0 +1,25 @@
+{
+  "id": "fuvest-2017-q65",
+  "banca": "Fuvest",
+  "ano": 2017,
+  "numero": "65",
+  "fase": "1ª fase · Prova V",
+  "fonte": {
+    "descricao": "Fuvest, Vestibular 2017, 1ª fase (Prova de Conhecimentos Gerais), caderno de questões"
+  },
+  "enunciado": "Em uma aula de laboratório de física, utilizando-se o arranjo experimental esquematizado na figura, foi medido o índice de refração de um material sintético chamado poliestireno. Nessa experiência, radiação eletromagnética, proveniente de um gerador de micro-ondas, propaga-se no ar e incide perpendicularmente em um dos lados de um bloco de poliestireno, cuja seção reta é um triângulo retângulo, que tem um dos ângulos medindo 25°, conforme a figura. Um detetor de micro-ondas indica que a radiação eletromagnética sai do bloco propagando-se no ar em uma direção que forma um ângulo de 15° com a de incidência.\n\n[[figura 1]]\n\nA partir desse resultado, conclui-se que o índice de refração do poliestireno em relação ao ar para essa micro-onda é, aproximadamente,\n\nNote e adote:\nÍndice de refração do ar: 1,0\nsen 15° ≈ 0,3\nsen 25° ≈ 0,4\nsen 40° ≈ 0,6\n\na) 1,3\nb) 1,5\nc) 1,7\nd) 2,0\ne) 2,2",
+  "figuras": [
+    "fuvest-2017-q65-1.png"
+  ],
+  "gabarito": "B",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. Na primeira face, a incidência é perpendicular: a onda entra sem desvio.\n2. Na face inclinada (hipotenusa), pela geometria do triângulo, o ângulo de incidência dentro do bloco é igual ao ângulo de 25° do prisma.\n3. A onda sai desviada 15° em relação à direção de incidência, afastando-se da normal: o ângulo de refração no ar é 25° + 15° = 40°.\n4. Snell: <i>n</i> sen 25° = 1,0 · sen 40° ⇒ <i>n</i> = 0,6/0,4 = 1,5.\nGabarito: B.",
+  "topicos": [
+    "lei-de-snell-descartes",
+    "prismas-e-dispersao-da-luz",
+    "refracao-da-luz-e-indice-de-refracao"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-01T14:43:28.000Z",
+  "atualizadoEm": "2026-11-01T14:43:28.000Z"
+}

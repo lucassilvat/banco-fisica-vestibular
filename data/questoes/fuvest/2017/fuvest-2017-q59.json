@@ -1,0 +1,25 @@
+{
+  "id": "fuvest-2017-q59",
+  "banca": "Fuvest",
+  "ano": 2017,
+  "numero": "59",
+  "fase": "1ª fase · Prova V",
+  "fonte": {
+    "descricao": "Fuvest, Vestibular 2017, 1ª fase (Prova de Conhecimentos Gerais), caderno de questões"
+  },
+  "enunciado": "Objetos em queda sofrem os efeitos da resistência do ar, a qual exerce uma força que se opõe ao movimento desses objetos, de tal modo que, após um certo tempo, eles passam a se mover com velocidade constante. Para uma partícula de poeira no ar, caindo verticalmente, essa força pode ser aproximada por <i>F</i>⃗<sub><i>a</i></sub> = − <i>b</i><i>v</i>⃗, sendo <i>v</i>⃗ a velocidade da partícula de poeira e <i>b</i> uma constante positiva. O gráfico mostra o comportamento do módulo da força resultante sobre a partícula, <i>F</i><sub><i>R</i></sub>, como função de <i>v</i>, o módulo de <i>v</i>⃗.\n\n[[figura 1]]\n\nO valor da constante <i>b</i>, em unidades de N·s/m, é\n\nNote e adote:\nO ar está em repouso.\n\na) 1,0 × 10<sup>−14</sup>\nb) 1,5 × 10<sup>−14</sup>\nc) 3,0 × 10<sup>−14</sup>\nd) 1,0 × 10<sup>−10</sup>\ne) 3,0 × 10<sup>−10</sup>",
+  "figuras": [
+    "fuvest-2017-q59-1.png"
+  ],
+  "gabarito": "E",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. Resultante na queda: <i>F</i><sub><i>R</i></sub> = <i>m g</i> − <i>b v</i> (reta decrescente do gráfico).\n2. Em <i>v</i> = 0: <i>F</i><sub><i>R</i></sub> = <i>m g</i> = 3 × 10<sup>−14</sup> N.\n3. A resultante se anula na velocidade terminal, <i>v</i> = 1 × 10<sup>−4</sup> m/s: <i>b v</i> = <i>m g</i> ⇒ <i>b</i> = 3 × 10<sup>−14</sup>/10<sup>−4</sup> = 3,0 × 10<sup>−10</sup> N·s/m (é o módulo da inclinação da reta).\nGabarito: E.",
+  "topicos": [
+    "forca-de-arrasto-e-velocidade-terminal",
+    "leis-de-newton",
+    "leitura-e-interpretacao-de-graficos"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-01T14:43:28.000Z",
+  "atualizadoEm": "2026-11-01T14:43:28.000Z"
+}

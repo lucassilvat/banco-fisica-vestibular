@@ -1,0 +1,24 @@
+{
+  "id": "fuvest-2024-q73",
+  "banca": "Fuvest",
+  "ano": 2024,
+  "numero": "73",
+  "fase": "1ª fase · Prova V",
+  "fonte": {
+    "descricao": "Fuvest, Vestibular 2024, 1ª fase (Prova de Conhecimentos Gerais), caderno de questões"
+  },
+  "enunciado": "Um experimento de demonstração sobre ondas estacionárias faz uso de uma canaleta disposta horizontalmente, contendo grãos de areia fina e seca. Abaixo da canaleta, posiciona-se um alto-falante que transmite um som, produzindo, na canaleta, uma vibração, associada a uma onda estacionária com um comprimento de onda bem definido. O diagrama representa uma imagem digitalizada dos grãos de areia depositados na base da canaleta em um certo instante. Utilize a régua da figura, graduada em centímetros, para assinalar a alternativa que apresenta a melhor aproximação para o valor do comprimento de onda da vibração em questão.\n\n[[figura 1]]\n\nNote e adote:\nOs grãos de areia tendem naturalmente a se acumular em torno dos pontos nos quais o deslocamento transversal da canaleta é nulo.\n\n(A) 1,2 cm\n(B) 5,1 cm\n(C) 6,8 cm\n(D) 11,3 cm\n(E) 18,1 cm",
+  "figuras": [
+    "fuvest-2024-q73-1.png"
+  ],
+  "gabarito": "C",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. Os acúmulos de areia marcam os <b>nós</b> da onda estacionária (deslocamento nulo).\n2. Na régua, os acúmulos estão em cerca de 1,2; 4,6; 8,0; 11,4; 14,8 e 18,2 cm: são 6 nós, separados por 5 intervalos ao longo de ≈ 17 cm ⇒ distância entre nós ≈ 3,4 cm.\n3. A distância entre nós consecutivos é <i>λ</i>/2 ⇒ <i>λ</i> ≈ 2 · 3,4 = 6,8 cm.\nGabarito: C.",
+  "topicos": [
+    "ondas-estacionarias-e-cordas-vibrantes",
+    "ondas-classificacao-e-elementos"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-01T12:54:08.000Z",
+  "atualizadoEm": "2026-11-01T12:54:08.000Z"
+}

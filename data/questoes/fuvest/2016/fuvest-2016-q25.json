@@ -1,0 +1,28 @@
+{
+  "id": "fuvest-2016-q25",
+  "banca": "Fuvest",
+  "ano": 2016,
+  "numero": "25",
+  "fase": "1ª fase · Prova V",
+  "fonte": {
+    "descricao": "Fuvest, Vestibular 2016, 1ª fase (Prova de Conhecimentos Gerais), caderno de questões"
+  },
+  "enunciado": "Os centros de quatro esferas idênticas, I, II, III e IV, com distribuições uniformes de carga, formam um quadrado. Um feixe de elétrons penetra na região delimitada por esse quadrado, pelo ponto equidistante dos centros das esferas III e IV, com velocidade inicial <i>v</i>⃗ na direção perpendicular à reta que une os centros de III e IV, conforme representado na figura.\n\n[[figura 1]]\n\nA trajetória dos elétrons será retilínea, na direção de <i>v</i>⃗, e eles serão acelerados com velocidade crescente dentro da região plana delimitada pelo quadrado, se as esferas I, II, III e IV estiverem, respectivamente, eletrizadas com cargas\n\nNote e adote:\n<i>Q</i> é um número positivo.\n\na) +<i>Q</i>, −<i>Q</i>, −<i>Q</i>, +<i>Q</i>\nb) +2<i>Q</i>, −<i>Q</i>, +<i>Q</i>, −2<i>Q</i>\nc) +<i>Q</i>, +<i>Q</i>, −<i>Q</i>, −<i>Q</i>\nd) −<i>Q</i>, −<i>Q</i>, +<i>Q</i>, +<i>Q</i>\ne) +<i>Q</i>, +2<i>Q</i>, −2<i>Q</i>, −<i>Q</i>",
+  "figuras": [
+    "fuvest-2016-q25-1.png"
+  ],
+  "gabarito": "C",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. Trajetória retilínea na direção de <i>v</i>⃗ exige que, ao longo do eixo de simetria vertical, as forças horizontais se anulem: as esferas da esquerda e da direita devem ter cargas iguais aos pares (I = II e III = IV). Isso elimina a, b e e.\n2. Velocidade crescente exige força sobre o elétron (carga negativa) no sentido de <i>v</i>⃗, isto é, para cima.\n3. Em c, I e II positivas atraem o elétron para cima, e III e IV negativas o repelem para cima: as duas contribuições reforçam a aceleração. Em d ocorre o contrário (o elétron seria freado).\nGabarito: C.",
+  "topicos": [
+    "campo-eletrico",
+    "lei-de-coulomb",
+    "vetores-soma-e-decomposicao"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-01T14:43:29.000Z",
+  "atualizadoEm": "2026-11-01T14:43:29.000Z",
+  "revisao": {
+    "notas": "No PDF de 2016, símbolos e números escritos com o editor de equações não aparecem na camada de texto; esses trechos foram transcritos da imagem do caderno e conferidos visualmente."
+  }
+}

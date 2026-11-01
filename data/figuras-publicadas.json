@@ -1,4 +1,540 @@
 {
+ "fuvest-2016-q12-1.png": {
+  "assetId": "79a9135780bc03455a39707bf554cc15",
+  "sha256": "93685ebc53f7ed1e8065907fa92a4f299a88bdfcae6ed80a7adc7d66ff4668e0"
+ },
+ "fuvest-2016-q25-1.png": {
+  "assetId": "15b846c40f603bb4d12ad9849c938976",
+  "sha256": "c6bba35ef5a5e5e3ded0f7d80e3475e8b866d839b8589ad30cc736d37c6e5ad8"
+ },
+ "fuvest-2016-q27-1.png": {
+  "assetId": "302811b7343144a6a31b11b73646e1cc",
+  "sha256": "7a1822b9e708ceee97771c932cc8663a2de91bc46f26b5eedf9c1ca11fefe542"
+ },
+ "fuvest-2016-q29-1.png": {
+  "assetId": "688139cc81b3dc42d24853dab6e7ccc9",
+  "sha256": "dfff6abfafc9bdd2eedbe412ebd3cd4d526f6cc1aade00cf3a8cf3c05f2caa8c"
+ },
+ "fuvest-2016-q32-1.png": {
+  "assetId": "64077fe8668f0b21c89784a08e5945a7",
+  "sha256": "c1a79973a571cf768b11a5c79d9dd704fe6d33932cd856ca0d1dab9156c4599d"
+ },
+ "fuvest-2016-q34-1.png": {
+  "assetId": "c25b79c88c357919f3f7e8dc7f2109b5",
+  "sha256": "1673180136707f63f2a96856931b5078c72dabe14538a5881ab8f1ab5220dfdc"
+ },
+ "fuvest-2016-q35-1.png": {
+  "assetId": "dc286f478ab74dec06b0a8f4f0aa1ff3",
+  "sha256": "8b58201e388fa4c75e3166bf2c63936011a501ac0e06b839fd8e6e89ab6918b9"
+ },
+ "fuvest-2016-q35-2.png": {
+  "assetId": "406d8aca37c34df751b6b34297dbe0b4",
+  "sha256": "2a92cdd2afff37275f56af4605e2131f14bfedb8372dae815721ce8a9ca07a39"
+ },
+ "fuvest-2017-q57-1.png": {
+  "assetId": "1e4cd4422a556eb0103b8e4804a244c8",
+  "sha256": "fa2bb4ffb04534f0a4af28ef343192c5ad7f907023fd5ba144b8c201c1137e34"
+ },
+ "fuvest-2017-q57-2.png": {
+  "assetId": "35d6cee40327d60ea3818ba3a9f1caba",
+  "sha256": "894bbb794145beb8b8387a25ea9c25b13c7f94be00ab184c49f49f373e0419eb"
+ },
+ "fuvest-2017-q57-3.png": {
+  "assetId": "7aa52b2e40a75c92da93eb1234c19014",
+  "sha256": "0afddf2c6ea05dec4939a6990e32bc8993f8fad7045691f1610a49a3a93c2ead"
+ },
+ "fuvest-2017-q57-4.png": {
+  "assetId": "679b25226600bedf5a81b47d8877867f",
+  "sha256": "92d29dac15eb74322f317de3fb0568df50355c966eeb2a249ac7bccd2347aabb"
+ },
+ "fuvest-2017-q57-5.png": {
+  "assetId": "09fea8f116ea15049771f11e7f7a58de",
+  "sha256": "ef2bb4e55ff85f1d0a64eacdce2c4ca335abe422a34bc47b508d857630891857"
+ },
+ "fuvest-2017-q58-1.png": {
+  "assetId": "3bc7005b61a0b11e1195c8ae68aba70e",
+  "sha256": "5d2be70c652e6e749bc753a608b4a07a15a7f8c9e3e1f957cee8b87e54635f10"
+ },
+ "fuvest-2017-q58-2.png": {
+  "assetId": "481ab623b79b208de5145a9798f1c454",
+  "sha256": "b807aacdf414f106195f89e8fe12e1e54e69c358c1e03052dc5daca85df2b1a0"
+ },
+ "fuvest-2017-q58-3.png": {
+  "assetId": "58d13c74c9170bdaeecd5511653606b9",
+  "sha256": "bc8d6049bd9c8943830427a828944284490f25a08fbb2d4923600dc598e19505"
+ },
+ "fuvest-2017-q58-4.png": {
+  "assetId": "6b92bf65cd499a5ea986b0cf7ac890ee",
+  "sha256": "2a4af4a7f2dcd81ebc88f6e400c224454048fee13043f3d1cedb00c464229ec8"
+ },
+ "fuvest-2017-q58-5.png": {
+  "assetId": "37a64ea4112703aa4fa267ded6df0772",
+  "sha256": "fa88da903491aa8688db419c5a709ffb56f78305c247824d1ebb3baab3735f31"
+ },
+ "fuvest-2017-q58-6.png": {
+  "assetId": "ff313dca17033c2b3a9a54aa27b76811",
+  "sha256": "c16fec56a0885f1d78e89120a35f82265cc3f2f1ded7eb7bb77305e08c5a55ee"
+ },
+ "fuvest-2017-q59-1.png": {
+  "assetId": "5ded2bc8532a42e97a6e2cac30659579",
+  "sha256": "66180c2954be18e9767d6e155e537ba49cfe5a5cea260cee6da786cdef93a549"
+ },
+ "fuvest-2017-q61-1.png": {
+  "assetId": "9092d6e1ba48b4f3b619b619db1a37a1",
+  "sha256": "2ca2e74b93db62ac682dbd69e362e41b245b30008942fe8c82d3efa90ac7c094"
+ },
+ "fuvest-2017-q62-1.png": {
+  "assetId": "5272cf2329e161b8c687936c72d15493",
+  "sha256": "ea7354b776f8b3b954debad527766b0625da43440876a4f5c0b182baa2d7383a"
+ },
+ "fuvest-2017-q63-1.png": {
+  "assetId": "f2958eaed11c4cfbf0614869524fc0c4",
+  "sha256": "1700459f5d2a49b62fde861629e409d6398a71dd64645e9d89517c48759ff766"
+ },
+ "fuvest-2017-q65-1.png": {
+  "assetId": "6aeba88ead4201a47514585ab89b77f8",
+  "sha256": "dfa11c58996702af8e478a003e8f83dfebc81f008857c3ecf4aeccd2ece72ad3"
+ },
+ "fuvest-2017-q68-1.png": {
+  "assetId": "e71e6b9970e4980f5d118bab350f1436",
+  "sha256": "f636bde9019e72d7c57322d8bc05f6cbf37c8fff7bf9df73732a46cd367ec83e"
+ },
+ "fuvest-2017-q68-2.png": {
+  "assetId": "688731480a2ecb6fa6266ecb346d98b2",
+  "sha256": "cf4702b55e26975b3547a3ea0f12296fac4b74fac9d11036724151d39915143d"
+ },
+ "fuvest-2017-q76-1.png": {
+  "assetId": "2b7fa8a35b9b6e0f6b46ff7fa9f527a4",
+  "sha256": "faaa866c9d61dcb94c6214ffd9ba3e16cde43f5dc9ca3530a3ab6847eb42b057"
+ },
+ "fuvest-2018-q01-1.png": {
+  "assetId": "b564c7576f055c95cb742ed975959084",
+  "sha256": "ffd4915852a58b56f648568ff7be12acbb20ba8cec23b1f6da592489eb57a226"
+ },
+ "fuvest-2018-q02-1.png": {
+  "assetId": "3421f73c28f304c5cfc6fb7c89c48c1c",
+  "sha256": "630f16c3c2fe56f0ef177715685334ec40a27e10fa2e8af2fefebd77e72cdea6"
+ },
+ "fuvest-2018-q05-1.png": {
+  "assetId": "510ef2f2be78a5c41731cd35fdc0da0c",
+  "sha256": "56e20238b91a97020728dbd4e4fae2ff9fbdb0d52691890a3c0199501c8a6221"
+ },
+ "fuvest-2018-q07-1.png": {
+  "assetId": "f804f64ad86a8e1d40367967f735fbc2",
+  "sha256": "fa466dfd36067062612ceb10fa857b69e6df5307bc6ecfd33cf3fed648faa5f3"
+ },
+ "fuvest-2018-q09-1.png": {
+  "assetId": "fabe3e339bc3adbf56ab194c988bee3e",
+  "sha256": "abfaadb0598c4b4b2842b946349653e1e7d0447c2c256bc87423a7a45bf4295f"
+ },
+ "fuvest-2018-q10-1.png": {
+  "assetId": "e9e068ec88b9c7bc0b59649c12f22add",
+  "sha256": "fa0dc29ae19cf9de41f068b5dff08ad9f58403b4b9411580d9f879e3e6b88a27"
+ },
+ "fuvest-2019-q13-1.png": {
+  "assetId": "0c21dd438657c117de1e438551ab14fc",
+  "sha256": "e39ebea300f1b3dffda55f068cac50c06e0ba3c2c65259768f2e98dfa2b8d942"
+ },
+ "fuvest-2019-q16-1.png": {
+  "assetId": "8627cafcc5e98641f292e75911499300",
+  "sha256": "f02a3657d63765bb7605ee9e663163ba405b7a25afaddef2c0bb541e1083f0e9"
+ },
+ "fuvest-2019-q18-1.png": {
+  "assetId": "2bde068f3f76fc1e79de6cd5e23e6caa",
+  "sha256": "48e725a085877891a2758f5245847e9843c2441afd1f8b4fb3ca8227097eb5f3"
+ },
+ "fuvest-2019-q19-1.png": {
+  "assetId": "43211910a7d55262ce84962a2c18ad15",
+  "sha256": "590d4b9407bc8a32e9ca90a8bdfac9ae5adca4fbfa3d14e2303abf67fb924456"
+ },
+ "fuvest-2019-q20-1.png": {
+  "assetId": "1ef1cdbb63aa7b572fa3918feb6125d4",
+  "sha256": "1b45550f10fefc679c2904fa747882635ac8c4411ac81c2603761dc58737d4ac"
+ },
+ "fuvest-2019-q22-1.png": {
+  "assetId": "3ce255e27ca918fc25389b831a1fee69",
+  "sha256": "30ad2d67d336c0f7c7ba45c9d30d1257e3a77ccdde16374510b123ba374eae4b"
+ },
+ "fuvest-2019-q36-1.png": {
+  "assetId": "f5390873a98b879dad7d232606b0f421",
+  "sha256": "9288be7323dce94f446913d36219d627d850dbf0b241a984bb5513dbbe22a9f1"
+ },
+ "fuvest-2019-q45-1.png": {
+  "assetId": "7082e9f123610971727ba116002d8e77",
+  "sha256": "af3e6622afa00907f5ef619cec651eec5c02ecbe8eda87e80e64e867d0232a4d"
+ },
+ "fuvest-2020-q08-1.png": {
+  "assetId": "75c0ea26e9975330b25fb7d2c0dfac50",
+  "sha256": "63c3a8177005b870f34666529fcf6f88e76764943ad39ddb3483adabf235c111"
+ },
+ "fuvest-2020-q08-2.png": {
+  "assetId": "79ee63d161698f0cf37e9540fdaf1259",
+  "sha256": "cfa2ff06b4c2e0ecba1c5e9570a8d18b5c57a71c34ce6454b97abfc5eda5fdc1"
+ },
+ "fuvest-2020-q08-3.png": {
+  "assetId": "32022fad3e7ebed5648afe04a68101ca",
+  "sha256": "1d413f3f88500fec681bfde877c4e1311bc6747dd8adb59eb289cc27939e5c9f"
+ },
+ "fuvest-2020-q08-4.png": {
+  "assetId": "4ea666278708a35840280f3dbd696652",
+  "sha256": "e55bace84d7f14ff150601512febf2889c0c9cc1e4e32524eecec1c075e4db16"
+ },
+ "fuvest-2020-q08-5.png": {
+  "assetId": "137533bdbab02c3a574666b114dacfe1",
+  "sha256": "f6edee2a43473d317a1b4e5abdd775eb44d710ab826ea9ce25eb00cd7450d023"
+ },
+ "fuvest-2020-q08-6.png": {
+  "assetId": "960b973808bfb42c2020b477f7531160",
+  "sha256": "b3c6f2c85cc9f18430ffd5174eb69e7f68c08e25cf3aecf2271828df5d8aae6c"
+ },
+ "fuvest-2020-q11-1.png": {
+  "assetId": "46cfe510c037cfb8abf2726a46ebf95b",
+  "sha256": "bbd2cd4ca86028b0751daab7721b526b12683f5d6cf6f7ce847b1c4507ac6416"
+ },
+ "fuvest-2020-q71-1.png": {
+  "assetId": "4715e5efd2a02538352ae69ecfb6991c",
+  "sha256": "270869eac6be6867e34fa2360f7df189e51bfaaab655f54aa098cf5778228e93"
+ },
+ "fuvest-2020-q75-1.png": {
+  "assetId": "244b5c267e029dd109acbda6873a5e1f",
+  "sha256": "6cc82aaf414b40398c8e3090199bb73a3bed226764167e9ef25990867cd8b15a"
+ },
+ "fuvest-2020-q76-1.png": {
+  "assetId": "515d618d77dd22f944f431f3fa052e84",
+  "sha256": "be22b809e0c6ecb5b41550f8771e05a243ddadc253bc668dfa9cc9bde8a9c237"
+ },
+ "fuvest-2020-q77-1.png": {
+  "assetId": "a9d7980f27fe634cd9c69b2a1b207267",
+  "sha256": "a8082c6417be8544bd14f06f3dc70aad6cdfcb315a7ed9a7d06b08ff0f6b302a"
+ },
+ "fuvest-2020-q77-2.png": {
+  "assetId": "e7168505b36d3b3c1962bb03eedb7750",
+  "sha256": "d4b4c6ae25227d9d22581f6b3077cb99704ed1876c6a3b8181f89e4d1d058303"
+ },
+ "fuvest-2020-q77-3.png": {
+  "assetId": "ef08665459df397b16665ef1b35c315b",
+  "sha256": "03cf846f1550ef05b1c865c659348132adc8795565b82bdb13e09e72f7aab772"
+ },
+ "fuvest-2020-q77-4.png": {
+  "assetId": "927ecce5d768b74e972137f8056cd627",
+  "sha256": "4f13d69a5c3395a7a95c9d3760defba2e19095f1e604ea73ff0f6cdac383fa0b"
+ },
+ "fuvest-2020-q77-5.png": {
+  "assetId": "66cb1d929ac55ade57cacfe60673edd7",
+  "sha256": "2908cf30b7fdd05115a1f1cd642e5f46d62ccf37a61caa2ddce293c59cda0b50"
+ },
+ "fuvest-2020-q77-6.png": {
+  "assetId": "88856497f21151b788780f2cf4d35aaf",
+  "sha256": "3650255e1dc60f7a7795ed17150ad2e8dd6f60b00d10f8d08d019576979be03f"
+ },
+ "fuvest-2020-q77-7.png": {
+  "assetId": "661585087edfb607de7e0ba1b808b413",
+  "sha256": "d48befb5af488c3030e2753214d49a41c247b62234b8bf5961963aa565f9492f"
+ },
+ "fuvest-2020-q78-1.png": {
+  "assetId": "da1139446f5abaec7a3fdaaaeba55b87",
+  "sha256": "f584454431e81fb28e0527eeebd8f568f7ce9fa63f37b7a20901349283a25056"
+ },
+ "fuvest-2021-q46-1.png": {
+  "assetId": "7edb577aad8404a002af33bea3350379",
+  "sha256": "720450d8068b436e086a8530f5286f8e977cd834fdcf8ca5c17fbf5f2efaa8eb"
+ },
+ "fuvest-2021-q47-1.png": {
+  "assetId": "1717d734e1b97678269b42cd40685840",
+  "sha256": "6d23f1ba852fa258410df688d97ee827fbdf4686c9517242be57b50a5deada86"
+ },
+ "fuvest-2021-q49-1.png": {
+  "assetId": "35214552ad3ac29dd6741fae875dfc21",
+  "sha256": "8e2713a40f1fff5caacf5e3af704beed7c57d561710a1063ff9497e41622d41c"
+ },
+ "fuvest-2021-q50-1.png": {
+  "assetId": "ce8c3c121d0eb195f1099868255a8235",
+  "sha256": "2632d64144b2d132b7d6ab53841be17c15b24408cfb3ce661cbeea394b58417b"
+ },
+ "fuvest-2021-q51-1.png": {
+  "assetId": "942ca6cc2d0ce50fa44da28e74324a32",
+  "sha256": "2abe6c155b89e438439656779740ce50b94c0d56e21f393259a0b68f4d4a229e"
+ },
+ "fuvest-2021-q51-2.png": {
+  "assetId": "bf204e85ca7d75ecab7ebcb96296c85d",
+  "sha256": "f90488c3d613b91fef9f0d8d23ac52a80c2c1ba7547853c2a5bbc6c4efaa1be2"
+ },
+ "fuvest-2021-q51-3.png": {
+  "assetId": "f715346eeb5fa70095ed6315a22810f9",
+  "sha256": "ee53c21143912f6b16a6f5230eb6c8203ccc45722595fd5de7846f4d50dff161"
+ },
+ "fuvest-2021-q51-4.png": {
+  "assetId": "28b5cbbe0c6614d5f302827147b02b05",
+  "sha256": "7b1a71aa583828e8ba3659a4e729080640d820dbd61b0601de023b0c0cbb4f15"
+ },
+ "fuvest-2021-q51-5.png": {
+  "assetId": "2b65988d0d51ff79740f3f5cd490243c",
+  "sha256": "85370d3a74d214e6d01b5d2b830f3536e351816ac5c1048bcecd5a5b9401f3f3"
+ },
+ "fuvest-2021-q51-6.png": {
+  "assetId": "bee008f2c470ce26c5bd8cb8218986a9",
+  "sha256": "7af147ff81683af0a857eb3474dc030c8a8be1cce3cb67f62ff43bcf33321b76"
+ },
+ "fuvest-2021-q52-1.png": {
+  "assetId": "62e520826e915fdcd0b441a329a92e3d",
+  "sha256": "4de11834768341658cb12f822d8e32a12f15c347106df951b34eee064925e6b1"
+ },
+ "fuvest-2021-q53-1.png": {
+  "assetId": "ae58bdc5133032dfa832c1b07b5ce3b6",
+  "sha256": "6e2f27354073d38f15ff73f108d352e69e2eef3252e711cadfb243ff96253e51"
+ },
+ "fuvest-2021-q54-1.png": {
+  "assetId": "cca779ada1df4bcf8aa8d9eae89444d9",
+  "sha256": "6c94165a9a09becfa6e8aaa466e4c48fe67302a874346231e6a27072fc90f9d2"
+ },
+ "fuvest-2022-q52-1.png": {
+  "assetId": "8813d4aa2d68c19d79a6aa52f7d44869",
+  "sha256": "ffdf5309984042e3ef83b023fe5a7bd7d96a986bc261307992182ecbe72f4b87"
+ },
+ "fuvest-2022-q53-1.png": {
+  "assetId": "840fb382b4b162b8b16674cbbc05ff8c",
+  "sha256": "d873547827752046b08a466980c7053e710aa7cf67feba54584b7cf7dd042393"
+ },
+ "fuvest-2022-q54-1.png": {
+  "assetId": "6fddfbb5e7567e4dfb64cc538b7372c3",
+  "sha256": "7ebd627e57576818e66a590386416bcddf3a21bada027950b552b385e8ebe608"
+ },
+ "fuvest-2022-q55-1.png": {
+  "assetId": "409ebbe3a2db457a07a3496d2cd428f8",
+  "sha256": "ef1b96e08be54e2f74302f70dd55983f87463c384e568927a116818d7cdc7d94"
+ },
+ "fuvest-2022-q56-1.png": {
+  "assetId": "3064bae0458a4011705cb8a2fc8d83a1",
+  "sha256": "d1072d3250636a2021a1f15cf9eeff601e85e72ceab3945b7a99b970b9028607"
+ },
+ "fuvest-2022-q75-1.png": {
+  "assetId": "c99e33932f98454c859457f40835a0cc",
+  "sha256": "3c525c7d9587a443e197ac517f82b0a15c84239fd04d4f150d2c28e63ad0f7f4"
+ },
+ "fuvest-2023-q13-1.png": {
+  "assetId": "084178fa080a688645daebab109d67e8",
+  "sha256": "57dfbf0d69972fb4dec08a3e2e4f039f8d9ec65dd18e0ae1376bc3765abb6e64"
+ },
+ "fuvest-2023-q36-1.png": {
+  "assetId": "a31450b9b4fbbb5ceaedca2f77fd6416",
+  "sha256": "e7758a590ff291921418074295ab694d2a699624e0962120611598fbefb0dbb9"
+ },
+ "fuvest-2023-q54-1.png": {
+  "assetId": "b1464b29a82e7f5d6468128872e345a5",
+  "sha256": "00ff4da699111742b2371a6a0859909efce4a5a336258a1ec38fe7e09aa7e398"
+ },
+ "fuvest-2023-q54-2.png": {
+  "assetId": "06d1549b3ef0af28abc3706fc8ac73d6",
+  "sha256": "5647814017e07d99c0941a91544f53aba4d95ee5ac1f38ecd15d7425e7425dd8"
+ },
+ "fuvest-2023-q67-1.png": {
+  "assetId": "c6d13b48c11ad613400ef243bafe2fe5",
+  "sha256": "9b2586f8a71669af83020e9f57bfa8b3b508be46e42c69e004c8b06046a7412f"
+ },
+ "fuvest-2023-q73-1.png": {
+  "assetId": "a8b466a8d774c75fed752f1c8de07826",
+  "sha256": "84a9faf4deb45d88b7842507db34c935c542f73fdd6ed18b0d50ac4bcac2fe71"
+ },
+ "fuvest-2023-q76-1.png": {
+  "assetId": "bd5f6c7b1ff20379993c116a9040c229",
+  "sha256": "6befb864fdc64fe8967b91b203c77491eb49dad42648d6d2171fcda2ad18a731"
+ },
+ "fuvest-2023-q77-1.png": {
+  "assetId": "b15216e4740e66ffd8ff2167d94ce305",
+  "sha256": "1f3d0bdad2ff40c1df8886d576f5fbe3c0dcd95efd2c5f3efb7438e0b0f10f1a"
+ },
+ "fuvest-2023-q78-1.png": {
+  "assetId": "3c757fbe4a9c391f38e0010efe4e1bf0",
+  "sha256": "06d875753c18e0cb5234cd71a1286f7fb4e6049c5f22a728a607ca235ba67789"
+ },
+ "fuvest-2023-q79-1.png": {
+  "assetId": "a087ecd396c4bdfbe4186535e448b38f",
+  "sha256": "117dddd512e0389e555208e1126360cf0c40ef7aa010fcc3b31e1d102f68782a"
+ },
+ "fuvest-2024-q25-1.png": {
+  "assetId": "fc9b233d286e88b8f48b185d61e671bb",
+  "sha256": "57aa1a2cafe817116d998221a535a375f26756bb61a0415dc95d8737fe868e86"
+ },
+ "fuvest-2024-q25-2.png": {
+  "assetId": "da28c20ac66dc7475cbb6e78f4cd2fe9",
+  "sha256": "51b229450d6a5b87de84f1a0712a359aafbde17d6ad3169238d6d06ad0bbcdd9"
+ },
+ "fuvest-2024-q26-1.png": {
+  "assetId": "660f99c7f2ea99d7d8deaad4265e80c7",
+  "sha256": "b364a91e3cb66edb1a5793560c621b89b83d0fa56165bdbfd83e0d791cf78c73"
+ },
+ "fuvest-2024-q26-2.png": {
+  "assetId": "e3b39cb81c9a9112ed318dbfa226a3fe",
+  "sha256": "29d71a7c5fe8b8f712da4a01fcc60cfa52b63d623488a9b25e628cb4e7b2ec5d"
+ },
+ "fuvest-2024-q26-3.png": {
+  "assetId": "24c655728de2b6419e61cd3f77ec63b1",
+  "sha256": "0aa29b87623c142cb28ee633f10bdcb70c2cce34404d1ab018a46f1bf9bf8aba"
+ },
+ "fuvest-2024-q26-4.png": {
+  "assetId": "4bb9f1c6495a7802e2437ccd74e12931",
+  "sha256": "f2098fe933b8bbb38ad5cf1117533eaaa4115226ab54f2e614d291b281c77128"
+ },
+ "fuvest-2024-q26-5.png": {
+  "assetId": "6044ee7277af7124371a37f0febae41c",
+  "sha256": "ae62bf8084b18fc91a9376c0d8c5fab8c21c9fbbe86a075a0ae2202ed3eebc27"
+ },
+ "fuvest-2024-q26-6.png": {
+  "assetId": "0d6a1ae383a88d0a120e4f223812d502",
+  "sha256": "0d18b11e4aacd7f6d3618725dbe784278c883e165bb39b246925ea884dd91eb3"
+ },
+ "fuvest-2024-q27-1.png": {
+  "assetId": "d8ac259d705e0d1b225be4201da10087",
+  "sha256": "06d10ab05acc5641179d814522fc9616c76befca490540471ca7a9d456a6c65d"
+ },
+ "fuvest-2024-q27-2.png": {
+  "assetId": "bd8a9ff0573797aef219f4474a102c5e",
+  "sha256": "d64931c67d596c713fdb4eadc1023922fcf1525b36c910cc5d296ceb9bb6606f"
+ },
+ "fuvest-2024-q29-1.png": {
+  "assetId": "5652a52635179ed37c0695fde278d566",
+  "sha256": "cb628583530ca223f0a08bd17de834083cf8a73bd122193c928edd17d00f7258"
+ },
+ "fuvest-2024-q42-1.png": {
+  "assetId": "87a155f7bf629434923cac9a10ced8e5",
+  "sha256": "efdf2b2eee369cce683768de6a59ec3e7520bb664cd1e420360d617352bc4da0"
+ },
+ "fuvest-2024-q51-1.png": {
+  "assetId": "5fd6ac271703a72e8cabe585b2175a90",
+  "sha256": "afe965691c66c6de87c860ea137ed27d55eae6237db7a550e984501013f11474"
+ },
+ "fuvest-2024-q55-1.png": {
+  "assetId": "bd5d052572c9b844d0ca1bd43195cd48",
+  "sha256": "e6d203189bd59e1c1335ad9a3e059689d832ed13ca84a0acb4eed483e056aea5"
+ },
+ "fuvest-2024-q55-2.png": {
+  "assetId": "c926994be75044a6552019b35a1fa1ce",
+  "sha256": "89cdbd1bafce265f402c0556cc7053b49d54a3c6d71475318f622843a544581a"
+ },
+ "fuvest-2024-q57-1.png": {
+  "assetId": "199d60aea6831dfb0ef9cb39d77fd395",
+  "sha256": "cb08ab8b5b1e117a4c10ede411c12b5c1a0536a1e8b3141db11175a3d66dedcd"
+ },
+ "fuvest-2024-q71-1.png": {
+  "assetId": "6c35fca95318c01ae847d065d7b766b7",
+  "sha256": "64c2646db9dd58bdb3a3f6745e4c3733eac5ac14b3d5ad437f39c247fd089c32"
+ },
+ "fuvest-2024-q72-1.png": {
+  "assetId": "a017856cbf41b8f8e3ddb4190bb59406",
+  "sha256": "414b207d1aae8487e5b067fb161b10d150e2f155ca2905f47c155aa7e20a9bd5"
+ },
+ "fuvest-2024-q72-2.png": {
+  "assetId": "60cd4d9ace02ca90d3f6550dd1b3381f",
+  "sha256": "024244079c15edbb7b215180576bbc39f8f7d563a28a6d8f9fa0b4f51a99d9c3"
+ },
+ "fuvest-2024-q72-3.png": {
+  "assetId": "adad4a56d5d8094b882dc836a1e38596",
+  "sha256": "00d72f4eae9e9b84e4fc06c941c4381dba12abd9bc1058ed6b8d1bbabf936c13"
+ },
+ "fuvest-2024-q72-4.png": {
+  "assetId": "327295ba0724b88fd9fd85a944da9f94",
+  "sha256": "91144d93ba015fe9c277ca15af1bf7286e223794f08a0bcc7b57a9888652ad0c"
+ },
+ "fuvest-2024-q72-5.png": {
+  "assetId": "7ef39eb86a10f0e460c66489ab7d5565",
+  "sha256": "c087f92e32f2e243ad2671df3c42a1723ad7d735b3326abfb8081a8ebeb9896a"
+ },
+ "fuvest-2024-q73-1.png": {
+  "assetId": "81ab3843de93e62dde2bd209b66d9ff1",
+  "sha256": "74853ebb7b75ce8ccbfd38484dd030901d5940da8f4ea4f94e9a1cbc30a4827a"
+ },
+ "fuvest-2025-q18-1.png": {
+  "assetId": "bf3244b9086273c554c03d27491cdcfc",
+  "sha256": "eac9a34285b25e0bbc1410f8be5f0aaa2789fda9d4553184c3a5ad68183336b8"
+ },
+ "fuvest-2025-q19-1.png": {
+  "assetId": "595926bdb874460199019f14fa989b9f",
+  "sha256": "c6d8d20929c209fe0647aed8abccc38db2a131fadd42cf128ddc913964867422"
+ },
+ "fuvest-2025-q22-1.png": {
+  "assetId": "2c3f3af34c63ed2b8b2f4cc54f34d108",
+  "sha256": "cfb932ce5521c9e4775cd92e36aebf708840d773d32d2f1c5167aa2bc8338f7f"
+ },
+ "fuvest-2025-q22-2.png": {
+  "assetId": "5c674685bc14c8e40ad36f537909cc44",
+  "sha256": "331f52eeb2d6cb2e2618809f27ab18e0875f941d764c6917ebaffbbd654a02c3"
+ },
+ "fuvest-2025-q22-3.png": {
+  "assetId": "81da3836ea38a84b3e7f40ee0257937e",
+  "sha256": "74d863a4ecd84bf8cd554c97d9575972d51527df31f9ce0cf184f5df0d5ab856"
+ },
+ "fuvest-2025-q23-1.png": {
+  "assetId": "f8e3a142970416efe883dc329c189763",
+  "sha256": "ebae7d75c58be38b71eca5453030f2f38402ecc1b8ae39e0a39b5ca3385cf025"
+ },
+ "fuvest-2025-q32-1.png": {
+  "assetId": "8d0f5e47a41e603e0b5275174c90edd4",
+  "sha256": "cb05dc7e9f7df718df4232da80e7cb2e9d7425b9d92868a39de19ec9f2d8042f"
+ },
+ "fuvest-2025-q33-1.png": {
+  "assetId": "539b4727e05051194760605a8e4b1ec9",
+  "sha256": "ac5c26890b3f7084fb3d967e5a5e47e5ca48e28539cf31c3e21191f27f30bf93"
+ },
+ "fuvest-2025-q59-1.png": {
+  "assetId": "6b870260b2628a83beba766fd74d8ee6",
+  "sha256": "5d469f198cd0d6cd213489267f1b72fd087a5fa15e0ac07879e8491c8bdd992b"
+ },
+ "fuvest-2025-q62-1.png": {
+  "assetId": "df4cd390faeecbdae785e16973e9767b",
+  "sha256": "cb619dfbbc580896d667a5354f805c5b49a4aa73b7d4f4451cc6bde25a4f1d02"
+ },
+ "fuvest-2025-q73-1.png": {
+  "assetId": "c96d4b0729acd30ab8b6314fd97ece13",
+  "sha256": "badce42eb6d05c5517a366d58b22d36e4c1d91fd48f2b90869e0fb0d0cc1cb46"
+ },
+ "fuvest-2025-q74-1.png": {
+  "assetId": "08308567ed2e2ce3609c2135aa5046e4",
+  "sha256": "badce42eb6d05c5517a366d58b22d36e4c1d91fd48f2b90869e0fb0d0cc1cb46"
+ },
+ "fuvest-2026-q25-1.png": {
+  "assetId": "031f45c7ecb7042d1f875c4c465ec418",
+  "sha256": "dc40755dfc52ab1dd73c0a7801148ab58d949c95a62fe3e386a2ccb3d94dc52d"
+ },
+ "fuvest-2026-q71-1.png": {
+  "assetId": "8b68507991f4c85c7164d9d6905f1dfb",
+  "sha256": "b3281f134e56838f626d583087a1414106747cbefcbe1734455c3e95a70222a5"
+ },
+ "fuvest-2026-q72-1.png": {
+  "assetId": "8c379ac7c25725930822ea84875810e9",
+  "sha256": "9ccf3024c96a59f3cb895dc88002ca4c451ba5c726c85e53ce2b1f5d1ef5a4c4"
+ },
+ "fuvest-2026-q73-1.png": {
+  "assetId": "bc3af3ce0a4f67ea5e3c83f104487640",
+  "sha256": "00590ab227a7260dfba1aa5713427ef7f4724caaac890da8aba277ddcd66c59a"
+ },
+ "fuvest-2026-q75-1.png": {
+  "assetId": "bd144ee93ef646a94dfc63add7063c0d",
+  "sha256": "9f3a6366bfe4557bd21e13f7ea623bde74be67b3f2c7715f02095cd288c63c4d"
+ },
+ "fuvest-2026-q75-2.png": {
+  "assetId": "a2a47d6a4fb0ce48cb7cf68de6ec03d9",
+  "sha256": "85a934e59ea17f727446e4782ea64321f17d2d4856aeb6a702ebd90baaf3ecda"
+ },
+ "fuvest-2026-q75-3.png": {
+  "assetId": "5588aeccfce1bec7599239faf37ff504",
+  "sha256": "7d706c40b5b93fbb595f781df9ea1ff67c7c36368058d83cc11e5e84ff17b105"
+ },
+ "fuvest-2026-q75-4.png": {
+  "assetId": "67f17f039516a363d52509aff8acb141",
+  "sha256": "91413c6337868bb75bb658e3f2766d8671cb678168a4f1287863026b6e19863e"
+ },
+ "fuvest-2026-q75-5.png": {
+  "assetId": "1abf335a02cb4b3648536dbe71caa79e",
+  "sha256": "d328514c17c2a6d30d504ee10397e8d3b97b06f3c5934754060aad72c81eb42c"
+ },
+ "fuvest-2026-q76-1.png": {
+  "assetId": "0e5600b566181e2b65ab2cf6822a714a",
+  "sha256": "d87ddc6de3089350260ede87814b27e0bb8b6f80d3f619a98accb5733864a66f"
+ },
+ "fuvest-2026-q77-1.png": {
+  "assetId": "d117d3f01a0566fa4b0a74aa210ecbd9",
+  "sha256": "d87ddc6de3089350260ede87814b27e0bb8b6f80d3f619a98accb5733864a66f"
+ },
  "unicamp-2016-q07-1.png": {
   "assetId": "414c91637935a3e7dca59ce80143562c",
   "sha256": "04e636c7fc88dbde56f87d3569927bec174731cc4eea13c89622b04d0e14b69e"

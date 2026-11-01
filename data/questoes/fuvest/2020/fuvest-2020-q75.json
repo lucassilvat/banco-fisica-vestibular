@@ -1,0 +1,24 @@
+{
+  "id": "fuvest-2020-q75",
+  "banca": "Fuvest",
+  "ano": 2020,
+  "numero": "75",
+  "fase": "1ª fase · Prova V",
+  "fonte": {
+    "descricao": "Fuvest, Vestibular 2020, 1ª fase (Prova de Conhecimentos Gerais), caderno de questões"
+  },
+  "enunciado": "Um fabricante projetou resistores para utilizar em uma lâmpada de resistência <i>L</i>. Cada um deles deveria ter resistência <i>R</i>. Após a fabricação, ele notou que alguns deles foram projetados erroneamente, de forma que cada um deles possui uma resistência <i>R</i><sub><i>D</i></sub> = <i>R</i>/2. Tendo em vista que a lâmpada queimará se for percorrida por uma corrente elétrica <b>superior</b> a <i>V</i>/(<i>R</i> + <i>L</i>), em qual(is) dos circuitos a lâmpada queimará?\n\n[[figura 1]]\n\n(A) 1, apenas.\n(B) 2, apenas.\n(C) 1 e 3, apenas.\n(D) 2 e 3, apenas.\n(E) 1, 2 e 3.",
+  "figuras": [
+    "fuvest-2020-q75-1.png"
+  ],
+  "gabarito": "D",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. A corrente máxima suportada, <i>V</i>/(<i>R</i> + <i>L</i>), é a que passaria pela lâmpada em série com um resistor <i>R</i>. A lâmpada queima se a resistência em série com ela for <b>menor</b> que <i>R</i>.\n2. Circuito 1: dois <i>R</i><sub><i>D</i></sub> em série com a lâmpada: <i>R</i>/2 + <i>R</i>/2 = <i>R</i> ⇒ <i>i</i> = <i>V</i>/(<i>R</i> + <i>L</i>), igual ao limite, não superior ⇒ não queima.\n3. Circuito 2: dois <i>R</i><sub><i>D</i></sub> em paralelo (<i>R</i>/4) em série com a lâmpada ⇒ <i>i</i> = <i>V</i>/(<i>R</i>/4 + <i>L</i>) > <i>V</i>/(<i>R</i> + <i>L</i>) ⇒ queima.\n4. Circuito 3: o ramo com a lâmpada tem só um <i>R</i><sub><i>D</i></sub> em série e está ligado diretamente à fonte (em paralelo com o outro <i>R</i><sub><i>D</i></sub>) ⇒ corrente na lâmpada <i>V</i>/(<i>R</i>/2 + <i>L</i>) > <i>V</i>/(<i>R</i> + <i>L</i>) ⇒ queima.\nGabarito: D.",
+  "topicos": [
+    "associacao-de-resistores",
+    "primeira-lei-de-ohm"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-01T12:54:17.000Z",
+  "atualizadoEm": "2026-11-01T12:54:17.000Z"
+}

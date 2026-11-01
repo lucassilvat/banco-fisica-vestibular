@@ -9,6 +9,7 @@ numa conversa nova. As regras permanentes estão em `CLAUDE.md` e `docs/CRITERIO
 |---|---|
 | App publicado (artefato privado, com banco de dados e figuras próprios) | https://claude.ai/artifact/R1zq9bpSmPV41kyzg12dxA |
 | Código e dados versionados | github.com/lucassilvat/banco-fisica-vestibular (privado, ramo `main`) |
+| Site público (GitHub Pages) | gerado por `python -m pipeline site` e publicado pelo workflow `pages.yml` a cada envio ao `main`; precisa ser ativado em Settings › Pages |
 | PDFs oficiais | com o Lucas (fora do git); nomes e sha256 em `data/fontes/manifesto.json` |
 
 O app lê as questões do banco do artefato. Para mudar o app, edita-se `app/index.html` e
@@ -35,8 +36,36 @@ Para gravar questões, usam-se os lotes da etapa `publicar` (docs/WORKFLOW.md).
    enviado ao GitHub como v1.0.0.
 
 8. v1.1.0: Unicamp 2027 (provas R e Z), Q8–Q14. Fase registrada como "1ª fase · Prova R".
+9. v1.2.0: Fuvest 2020–2026, 1ª fase (prova V; V1 em 2025 e 2026), 81 questões. Segmentador
+   adaptado ao título "NN" da Fuvest. O Lucas pediu para incluir **todas** as candidatas,
+   inclusive as "em dúvida" (Química com Física forte e interdisciplinares de Geografia,
+   Matemática e Inglês). O PDF de 2021 ("Caderno Reserva") tem camada de texto ilegível:
+   transcrição pela imagem e conferência por OCR (`python -m pipeline ocr`).
+   Na Fuvest, "Note e adote" é transcrito como bloco de texto antes das alternativas,
+   começando por "Note e adote:"; textos comuns ("TEXTO PARA AS QUESTÕES...") repetidos
+   em cada questão; tabelas entram como figura.
+10. v1.3.0: Fuvest 2016–2019 (prova V), 56 questões, com as interdisciplinares em dúvida
+    (menos 2016 Q67, Geografia, que o Lucas mandou deixar de fora). Em 2016 e 2017 as
+    alternativas são "a)" minúsculas, como no caderno. O texto do caderno de 2018 está
+    na camada de texto, mas os números das questões não: o segmentador os acha por OCR.
 
 ## Pendências
+
+- **Ativar o GitHub Pages** (v1.4.0): Settings › Pages › Source: GitHub Actions. O plano
+  gratuito exige repositório público; com repositório privado, só com GitHub Pro. O site
+  fica aberto na internet (ver a nota de direitos autorais em `docs/ROADMAP-SAAS.md`).
+
+- **Gabaritos oficiais Fuvest**: só 2025 foi conferido no PDF oficial (fuvest.br, lido na
+  web; o arquivo não pôde ser baixado para `fontes/`). 2020–2024 e 2026 estão como
+  `resolucao-propria` (2024 e 2026 conferem com o gabarito divulgado). Quando o Lucas
+  enviar os PDFs de gabarito, registrar com `--tipo gabarito` e trocar para `oficial`.
+  Conferir com atenção 2020 Q78 (trajetória 4) e 2023 Q70. Fuvest 2016–2019 também está
+  toda como `resolucao-propria` (conferir 2016 Q35 e 2017 Q58, que dependem de leitura de
+  figura).
+- **Fuvest 2022 Q54 anulada**: mantida no banco com o gabarito pretendido (B) e aviso.
+  Decidir se fica no app ou sai.
+- **Critério "Química com Física forte"**: na Fuvest o Lucas mandou incluir. Decidir se
+  vale também para as Unicamp que ficaram de fora (2020 Q45–Q48, 2021 B Q33, 2027 Q25).
 
 - **Gabarito oficial 2027**: as 7 questões estão com `resolucao-propria`. Gabaritos da
   resolução: 8A, 9B, 10D, 11C, 12B, 13B, 14D.
@@ -54,10 +83,9 @@ Para gravar questões, usam-se os lotes da etapa `publicar` (docs/WORKFLOW.md).
   Q45–Q48, 2021 B Q33). Não incluir sem novo pedido.
 - **Release v1.0.0 no GitHub**: o envio de tags falhou pela sessão; criar pela aba
   Releases do site, se desejado. O `CHANGELOG.md` registra a versão.
-- **Próximas provas**: o `painel` mostra 71 tópicos sem questão (mais pobres:
-  Eletromagnetismo, Física moderna, Ondulatória). Candidatas naturais: Unicamp anteriores
-  a 2016 (mesmo formato) e depois Fuvest, Unesp, ENEM (exigem ajustar o segmentador na
-  primeira prova de cada banca).
+- **Próximas provas**: o `painel` mostra 32 tópicos sem questão (mais pobre:
+  Eletromagnetismo). Candidatas naturais: Fuvest anteriores a 2020 (mesmo formato),
+  Unicamp anteriores a 2016, depois Unesp e ENEM (exigem ajustar o segmentador).
 
 ## Limites conhecidos do formato atual
 

@@ -1,0 +1,22 @@
+{
+  "id": "fuvest-2019-q15",
+  "banca": "Fuvest",
+  "ano": 2019,
+  "numero": "15",
+  "fase": "1ª fase · Prova V",
+  "fonte": {
+    "descricao": "Fuvest, Vestibular 2019, 1ª fase (Prova de Conhecimentos Gerais), caderno de questões"
+  },
+  "enunciado": "Em uma fábrica, um técnico deve medir a velocidade angular de uma polia girando. Ele apaga as luzes do ambiente e ilumina a peça somente com a luz de uma lâmpada estroboscópica, cuja frequência pode ser continuamente variada e precisamente conhecida. A polia tem uma mancha branca na lateral. Ele observa que, quando a frequência de <i>flashes</i> é 9 Hz, a mancha na polia parece estar parada. Então aumenta vagarosamente a frequência do piscar da lâmpada e só quando esta atinge 12 Hz é que, novamente, a mancha na polia parece estar parada. Com base nessas observações, ele determina que a velocidade angular da polia, em rpm, é\n\n(A) 2.160\n(B) 1.260\n(C) 309\n(D) 180\n(E) 36",
+  "figuras": [],
+  "gabarito": "A",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. A mancha parece parada quando, entre dois flashes, a polia dá um número inteiro de voltas: <i>f</i><sub>polia</sub> = <i>k</i> · <i>f</i><sub>flash</sub>, com <i>k</i> inteiro.\n2. Aumentando a frequência dos flashes, o próximo valor em que a mancha parece parada corresponde a uma volta a menos entre flashes: <i>f</i> = <i>k</i> · 9 = (<i>k</i> − 1) · 12.\n3. 9<i>k</i> = 12<i>k</i> − 12 ⇒ <i>k</i> = 4 ⇒ <i>f</i> = 36 Hz (36 voltas por segundo).\n4. Em rpm: 36 · 60 = 2.160 rpm.\nGabarito: A.",
+  "topicos": [
+    "periodo-frequencia-e-velocidade-angular",
+    "movimento-circular-uniforme-mcu"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-01T14:43:25.000Z",
+  "atualizadoEm": "2026-11-01T14:43:25.000Z"
+}

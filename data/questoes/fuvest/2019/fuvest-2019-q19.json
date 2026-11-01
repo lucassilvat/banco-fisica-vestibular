@@ -1,0 +1,24 @@
+{
+  "id": "fuvest-2019-q19",
+  "banca": "Fuvest",
+  "ano": 2019,
+  "numero": "19",
+  "fase": "1ª fase · Prova V",
+  "fonte": {
+    "descricao": "Fuvest, Vestibular 2019, 1ª fase (Prova de Conhecimentos Gerais), caderno de questões"
+  },
+  "enunciado": "Uma pessoa observa uma vela através de uma lente de vidro biconvexa, como representado na figura.\n\n[[figura 1]]\n\nConsidere que a vela está posicionada entre a lente e o seu ponto focal F. Nesta condição, a imagem observada pela pessoa é\n\n(A) virtual, invertida e maior.\n(B) virtual, invertida e menor.\n(C) real, direita e menor.\n(D) real, invertida e maior.\n(E) virtual, direita e maior.",
+  "figuras": [
+    "fuvest-2019-q19-1.png"
+  ],
+  "gabarito": "E",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. Lente biconvexa de vidro no ar é convergente.\n2. Com o objeto entre a lente e o foco, a lente funciona como lupa: os raios saem divergentes e seus prolongamentos se cruzam do mesmo lado do objeto.\n3. A imagem é virtual, direita e maior (pela equação de Gauss, <i>p</i> < <i>f</i> ⇒ <i>p</i>′ < 0 e aumento <i>A</i> = −<i>p</i>′/<i>p</i> > 1).\nGabarito: E.",
+  "topicos": [
+    "lentes-esfericas-vergencia-gauss-aumento",
+    "instrumentos-opticos-lupa-microscopio-luneta"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-01T14:43:25.000Z",
+  "atualizadoEm": "2026-11-01T14:43:25.000Z"
+}

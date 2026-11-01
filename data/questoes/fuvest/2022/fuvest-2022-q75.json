@@ -1,0 +1,25 @@
+{
+  "id": "fuvest-2022-q75",
+  "banca": "Fuvest",
+  "ano": 2022,
+  "numero": "75",
+  "fase": "1ª fase · Prova V",
+  "fonte": {
+    "descricao": "Fuvest, Vestibular 2022, 1ª fase (Prova de Conhecimentos Gerais), caderno de questões"
+  },
+  "enunciado": "Um marcador radioativo (<sup>24</sup>Na) foi injetado em um ponto de um cano de água subterrâneo e, na sequência, com um detector sobre o solo, foi medida a radioatividade ao longo do percurso do cano. A figura a seguir esquematiza o local de injeção do marcador e o perfil da radioatividade detectada ao longo do cano.\n\n[[figura 1]]\n\nAssinale a alternativa que melhor explica o perfil da radioatividade.\n\nNote e adote:\nTempo de meia-vida do <sup>24</sup>Na = 15 horas.\n\n(A) No trecho 2 o cano está completamente entupido, por isso a radioatividade diminui no trecho 3.\n(B) No trecho 2 há uma fissura no cano, o que resulta em acúmulo de marcador nesse trecho do solo.\n(C) O marcador radioativo flui no sentido contrário ao fluxo da água, acumulando-se no meio do cano.\n(D) No trecho 3 a radioatividade é menor porque foi consumida por reações químicas ao longo do trecho 2.\n(E) No trecho 2 a radioatividade diminui devido ao fato de a meia-vida do marcador ser curta.",
+  "figuras": [
+    "fuvest-2022-q75-1.png"
+  ],
+  "gabarito": "B",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. No trecho 1 a radioatividade é aproximadamente constante: o marcador é levado pela água ao longo do cano.\n2. No trecho 2 há um pico: mais marcador concentrado nesse ponto. Um vazamento (fissura) deixa a água com marcador sair e se acumular no solo, que fica entre o cano e o detector.\n3. No trecho 3 a radioatividade cai: parte do marcador saiu pela fissura e menos chega adiante (se o cano estivesse totalmente entupido, A, nada chegaria ao trecho 3).\n4. (C) Errada: o marcador é arrastado no sentido do fluxo. (D) Errada: a radioatividade é um fenômeno nuclear, não é consumida por reações químicas. (E) Errada: no trecho 2 a radioatividade <b>aumenta</b>, e a meia-vida de 15 h é longa diante do tempo da medição.\nGabarito: B.",
+  "topicos": [
+    "radioatividade-e-decaimento",
+    "meia-vida",
+    "leitura-e-interpretacao-de-graficos"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-01T12:54:14.000Z",
+  "atualizadoEm": "2026-11-01T12:54:14.000Z"
+}

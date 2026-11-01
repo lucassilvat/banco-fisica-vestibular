@@ -1,0 +1,37 @@
+{
+  "id": "fuvest-2024-q26",
+  "banca": "Fuvest",
+  "ano": 2024,
+  "numero": "26",
+  "fase": "1ª fase · Prova V",
+  "fonte": {
+    "descricao": "Fuvest, Vestibular 2024, 1ª fase (Prova de Conhecimentos Gerais), caderno de questões"
+  },
+  "enunciado": "Nas embalagens de lâmpadas de LED atuais, está indicada uma “temperatura de cor” (expressa na escala Kelvin), que corresponde à tonalidade da luz emitida pela lâmpada. A “temperatura de cor” não indica a temperatura de operação da lâmpada, servindo apenas como uma referência da cor predominante da radiação eletromagnética termicamente emitida por um corpo a essa dada temperatura.\nA densidade <i>ρ</i>(<i>λ</i>) de energia eletromagnética irradiada é função do comprimento de onda <i>λ</i> da luz emitida. As curvas presentes nos gráficos das alternativas mostram <i>ρ</i>(<i>λ</i>) dividida pelo seu valor máximo <i>ρ</i>(<i>λ</i><sub>máx</sub>). O máximo de cada curva corresponde ao comprimento de onda <i>λ</i><sub>máx</sub> predominante da luz irradiada.\nCom base nessas informações, assinale a alternativa que apresenta o gráfico que melhor corresponde à situação em que a cor predominante da luz irradiada seja <b><u>amarela</u></b>.\n\nNote e adote:\nVelocidade da luz no vácuo: 3 × 10<sup>8</sup> m/s.\nCores associadas a frequências de luz visível:\n[[figura 1]]\n\n(A)\n[[figura 2]]\n(B)\n[[figura 3]]\n(C)\n[[figura 4]]\n(D)\n[[figura 5]]\n(E)\n[[figura 6]]",
+  "figuras": [
+    "fuvest-2024-q26-1.png",
+    "fuvest-2024-q26-2.png",
+    "fuvest-2024-q26-3.png",
+    "fuvest-2024-q26-4.png",
+    "fuvest-2024-q26-5.png",
+    "fuvest-2024-q26-6.png"
+  ],
+  "gabarito": "C",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. Pela tabela, a luz amarela tem <i>f</i> ≈ 5,0 × 10<sup>14</sup> Hz.\n2. Comprimento de onda: <i>λ</i> = <i>c</i>/<i>f</i> = 3 × 10<sup>8</sup>/5,0 × 10<sup>14</sup> = 6 × 10<sup>−7</sup> m = 600 nm.\n3. Procura-se a curva cujo máximo está em <i>λ</i><sub>máx</sub> ≈ 600 nm. Nos gráficos, os máximos estão aproximadamente em: (A) 200 nm; (B) 400 nm; (C) 600 nm; (D) 1000 nm; (E) 1200 nm.\n4. Logo, a curva C (<i>T</i> = 4829 K). Confere com a lei de Wien: <i>λ</i><sub>máx</sub> · <i>T</i> ≈ 2,9 × 10<sup>−3</sup> m·K ⇒ <i>λ</i><sub>máx</sub> ≈ 2,9 × 10<sup>−3</sup>/4829 ≈ 600 nm.\nGabarito: C.",
+  "topicos": [
+    "radiacao-de-corpo-negro-e-quantizacao",
+    "equacao-fundamental-da-ondulatoria-v-f",
+    "espectro-eletromagnetico",
+    "leitura-e-interpretacao-de-graficos"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-01T12:54:08.000Z",
+  "atualizadoEm": "2026-11-01T12:54:08.000Z",
+  "revisao": {
+    "divergenciasAceitas": [
+      "máx"
+    ],
+    "notas": "O subscrito máx está em fonte matemática no PDF (λmáx) e não aparece como palavra na camada de texto."
+  }
+}

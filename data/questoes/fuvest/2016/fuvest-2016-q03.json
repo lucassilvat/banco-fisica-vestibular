@@ -1,0 +1,30 @@
+{
+  "id": "fuvest-2016-q03",
+  "banca": "Fuvest",
+  "ano": 2016,
+  "numero": "3",
+  "fase": "1ª fase · Prova V",
+  "fonte": {
+    "descricao": "Fuvest, Vestibular 2016, 1ª fase (Prova de Conhecimentos Gerais), caderno de questões"
+  },
+  "enunciado": "Um veículo viaja entre dois povoados da Serra da Mantiqueira, percorrendo a primeira terça parte do trajeto à velocidade média de 60 <i>km</i>/<i>h</i>, a terça parte seguinte a 40 <i>km</i>/<i>h</i> e o restante do percurso a 20 <i>km</i>/<i>h</i>. O valor que melhor aproxima a velocidade média do veículo nessa viagem, em <i>km</i>/<i>h</i>, é\n\na) 32,5\nb) 35\nc) 37,5\nd) 40\ne) 42,5",
+  "figuras": [],
+  "gabarito": "A",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. Seja 3<i>d</i> a distância total (cada terço vale <i>d</i>). Tempos: <i>d</i>/60, <i>d</i>/40 e <i>d</i>/20.\n2. Tempo total: <i>d</i>(1/60 + 1/40 + 1/20) = <i>d</i>(2 + 3 + 6)/120 = 11<i>d</i>/120.\n3. Velocidade média = distância total/tempo total = 3<i>d</i>/(11<i>d</i>/120) = 360/11 ≈ 32,7 km/h ≈ 32,5 km/h.\n4. Atenção: não é a média aritmética (40 km/h), pois o veículo passa mais tempo nos trechos lentos.\nGabarito: A.",
+  "topicos": [
+    "velocidade-media-e-aceleracao-media",
+    "movimento-retilineo-uniforme-mru"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-01T14:43:29.000Z",
+  "atualizadoEm": "2026-11-01T14:43:29.000Z",
+  "revisao": {
+    "notas": "No PDF de 2016, símbolos e números escritos com o editor de equações não aparecem na camada de texto; esses trechos foram transcritos da imagem do caderno e conferidos visualmente.",
+    "divergenciasAceitas": [
+      "32,5",
+      "37,5",
+      "42,5"
+    ]
+  }
+}

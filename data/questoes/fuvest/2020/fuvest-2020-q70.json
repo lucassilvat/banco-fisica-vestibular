@@ -1,0 +1,23 @@
+{
+  "id": "fuvest-2020-q70",
+  "banca": "Fuvest",
+  "ano": 2020,
+  "numero": "70",
+  "fase": "1ª fase · Prova V",
+  "fonte": {
+    "descricao": "Fuvest, Vestibular 2020, 1ª fase (Prova de Conhecimentos Gerais), caderno de questões"
+  },
+  "enunciado": "Em 20 de maio de 2019, as unidades de base do Sistema Internacional de Unidades (SI) passaram a ser definidas a partir de valores exatos de algumas constantes físicas. Entre elas, está a constante de Planck <i>h</i>, que relaciona a energia <i>E</i> de um fóton (<i>quantum</i> de radiação eletromagnética) com a sua frequência <i>f</i> na forma <i>E</i> = <i>hf</i>.\n\nA unidade da constante de Planck em termos das unidades de base do SI (quilograma, metro e segundo) é:\n\n(A) kg m<sup>2</sup>/s\n(B) kg s/m<sup>2</sup>\n(C) m<sup>2</sup>s/kg\n(D) kg s/m\n(E) kg m<sup>2</sup>/s<sup>3</sup>",
+  "figuras": [],
+  "gabarito": "A",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. <i>h</i> = <i>E</i>/<i>f</i> ⇒ [<i>h</i>] = J/Hz = J · s.\n2. Joule em unidades de base: J = N · m = (kg · m/s<sup>2</sup>) · m = kg · m<sup>2</sup>/s<sup>2</sup>.\n3. [<i>h</i>] = kg · m<sup>2</sup>/s<sup>2</sup> · s = kg · m<sup>2</sup>/s.\nGabarito: A.",
+  "topicos": [
+    "analise-dimensional",
+    "grandezas-fisicas-e-sistema-internacional",
+    "fotons-e-energia-do-foton-e-hf"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-01T12:54:17.000Z",
+  "atualizadoEm": "2026-11-01T12:54:17.000Z"
+}

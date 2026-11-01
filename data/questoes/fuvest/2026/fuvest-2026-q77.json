@@ -1,0 +1,25 @@
+{
+  "id": "fuvest-2026-q77",
+  "banca": "Fuvest",
+  "ano": 2026,
+  "numero": "77",
+  "fase": "1ª fase · Prova V1",
+  "fonte": {
+    "descricao": "Fuvest, Vestibular 2026, 1ª fase (Prova de Conhecimentos Gerais), caderno de questões"
+  },
+  "enunciado": "<b>Texto para as questões 76 e 77</b>\n\nO gráfico a seguir mostra o resultado do exame de <i>audiometria tonal</i> de um paciente. O eixo vertical refere-se ao nível de intensidade sonora α (medido em dB e aumentando de cima para baixo) necessário para que a pessoa possa ouvir o som emitido pelo audiômetro a uma dada frequência <i>f</i> (medida em Hz), representada no eixo horizontal.\n\n[[figura 1]]\n\nQuanto menor o valor de α(<i>f</i>), melhor é a resposta auditiva do paciente naquela frequência <i>f</i>. O uso de aparelhos auditivos pode ser uma forma de melhorar a resposta auditiva em determinadas frequências.\n\nEm qual comprimento de onda sonora ocorre a melhor resposta auditiva do paciente nesse exame?\n\nNote e adote:\nConsidere a velocidade do som no ar como v<sub>s</sub> = 340 m/s.\n\n(A) 1,36 cm\n(B) 4,25 cm\n(C) 23,5 cm\n(D) 34 cm\n(E) 80 cm",
+  "figuras": [
+    "fuvest-2026-q77-1.png"
+  ],
+  "gabarito": "D",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. A melhor resposta auditiva é a de menor α. No gráfico, o menor valor (15 dB) ocorre em <i>f</i> = 1000 Hz.\n2. Equação fundamental da ondulatória: λ = <i>v</i>/<i>f</i> = 340/1000 = 0,34 m = 34 cm.\nGabarito: D.",
+  "topicos": [
+    "equacao-fundamental-da-ondulatoria-v-f",
+    "som-altura-intensidade-e-timbre",
+    "leitura-e-interpretacao-de-graficos"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-01T12:54:03.000Z",
+  "atualizadoEm": "2026-11-01T12:54:03.000Z"
+}

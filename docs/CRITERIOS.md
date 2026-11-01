@@ -23,7 +23,9 @@
 | Legenda/fonte da figura | texto, logo abaixo da figura |
 | Texto comum a várias questões | repetido no início de cada uma, com o título original |
 | Instrução geral ("use g = 10 m/s²") | repetida nas questões em que vale, conforme a prova |
-| Alternativas | no fim, uma por linha: `a) ...` |
+| Alternativas | no fim, uma por linha, com o rótulo do caderno: `a) ...` (Unicamp), `(A) ...` (Fuvest) |
+| "Note e adote" (Fuvest) | bloco de texto antes das alternativas, começando por `Note e adote:` |
+| Tabela | figura recortada do caderno |
 
 ## O que entra no banco
 
@@ -35,8 +37,9 @@ inclusive as interdisciplinares em que a outra disciplina também é necessária
 Não entra questão em que a Física só aparece como cenário e não é usada na resolução
 (ex.: 2018 Q32 e Q35, de Inglês).
 
-**Em aberto** (decisão do Lucas, "por enquanto, não"): questões de Química com conteúdo
-físico forte, como Unicamp 2020 Q45 a Q48 e 2021 B Q33. Rever quando o banco crescer.
+**Química com conteúdo físico forte**: na importação da Fuvest 2020–2026 o Lucas mandou
+incluir (ex.: Fuvest 2020 Q2, Q8, Q11; 2023 Q71). As da Unicamp que ficaram de fora
+(2020 Q45 a Q48, 2021 B Q33, 2027 Q25) continuam em aberto até nova decisão.
 
 ## Tópicos
 

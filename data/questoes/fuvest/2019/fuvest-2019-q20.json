@@ -1,0 +1,25 @@
+{
+  "id": "fuvest-2019-q20",
+  "banca": "Fuvest",
+  "ano": 2019,
+  "numero": "20",
+  "fase": "1ª fase · Prova V",
+  "fonte": {
+    "descricao": "Fuvest, Vestibular 2019, 1ª fase (Prova de Conhecimentos Gerais), caderno de questões"
+  },
+  "enunciado": "Uma bateria de tensão <i>V</i> e resistência interna <i>R<sub>i</sub></i> é ligada em série com um resistor de resistência <i>R</i>. O esquema do circuito está apresentado na figura. A potência dissipada pelo resistor <i>R</i> é dada por\n\n[[figura 1]]\n\n(A) <i>V</i><sup>2</sup>/<i>R</i>\n(B) <i>V</i><sup>2</sup>/(<i>R</i>+<i>R<sub>i</sub></i>)\n(C) <i>V</i><sup>2</sup><i>R</i>/(<i>R</i>+<i>R<sub>i</sub></i>)<sup>2</sup>\n(D) <i>V</i><sup>2</sup><i>R</i>/(<i>R</i>+<i>R<sub>i</sub></i>)\n(E) <i>V</i><sup>2</sup>/(<i>R</i>−<i>R<sub>i</sub></i>)",
+  "figuras": [
+    "fuvest-2019-q20-1.png"
+  ],
+  "gabarito": "C",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. Circuito série: a corrente é <i>i</i> = <i>V</i>/(<i>R</i> + <i>R<sub>i</sub></i>) (lei de Pouillet).\n2. Potência dissipada em <i>R</i>: <i>P</i> = <i>R i</i><sup>2</sup> = <i>V</i><sup>2</sup><i>R</i>/(<i>R</i> + <i>R<sub>i</sub></i>)<sup>2</sup>.\n3. (A) seria o caso sem resistência interna; (B) e (D) não têm a dependência correta com a corrente.\nGabarito: C.",
+  "topicos": [
+    "geradores-eletricos-fem-e-resistencia-interna",
+    "potencia-eletrica-e-efeito-joule",
+    "primeira-lei-de-ohm"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-01T14:43:25.000Z",
+  "atualizadoEm": "2026-11-01T14:43:25.000Z"
+}

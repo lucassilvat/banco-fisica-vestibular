@@ -4,7 +4,7 @@ import hashlib
 import json
 from collections import Counter
 
-from . import figuras, publicar, rascunho, renderizar, segmentar, triagem, verificar
+from . import figuras, ocr, publicar, rascunho, renderizar, segmentar, site, triagem, verificar
 from .comum import DADOS, RAIZ, carregar_questoes, chave_prova, taxonomia
 
 
@@ -54,6 +54,8 @@ def main():
     r.set_defaults(f=registrar_prova)
     x = s.add_parser("segmentar", help="2. divide o caderno em questões"); x.add_argument("prova")
     x.set_defaults(f=lambda a: segmentar.executar(a.prova))
+    x = s.add_parser("ocr", help="2b. texto de referência por OCR (PDF com camada de texto ilegível)"); x.add_argument("prova")
+    x.set_defaults(f=lambda a: ocr.executar(a.prova))
     x = s.add_parser("triagem", help="3. lista candidatas de Física"); x.add_argument("prova"); x.add_argument("--limite", type=int, default=4)
     x.set_defaults(f=lambda a: triagem.executar(a.prova, a.limite))
     x = s.add_parser("renderizar", help="4. imagens das questões (ou --grade para páginas)"); x.add_argument("prova"); x.add_argument("numeros")
@@ -69,6 +71,8 @@ def main():
     x = s.add_parser("publicar", help="9. preparar lotes / registrar figura / marcar publicadas")
     x.add_argument("acao", choices=["preparar", "registrar", "marcar"]); x.add_argument("args", nargs="*")
     x.set_defaults(f=lambda a: publicar.preparar(*(a.args[:1])) if a.acao == "preparar" else publicar.registrar(*a.args) if a.acao == "registrar" else publicar.marcar(*(a.args[:1])))
+    x = s.add_parser("site", help="gera o site estático do app (GitHub Pages)"); x.add_argument("destino", nargs="?", default="site")
+    x.set_defaults(f=lambda a: site.executar(a.destino))
     x = s.add_parser("painel", help="cobertura do banco por prova e por tópico"); x.set_defaults(f=painel)
     a = p.parse_args(); a.f(a)
 

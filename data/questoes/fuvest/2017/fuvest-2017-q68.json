@@ -1,0 +1,25 @@
+{
+  "id": "fuvest-2017-q68",
+  "banca": "Fuvest",
+  "ano": 2017,
+  "numero": "68",
+  "fase": "1ª fase · Prova V",
+  "fonte": {
+    "descricao": "Fuvest, Vestibular 2017, 1ª fase (Prova de Conhecimentos Gerais), caderno de questões"
+  },
+  "enunciado": "Na estratosfera, há um ciclo constante de criação e destruição do ozônio. A equação que representa a destruição do ozônio pela ação da luz ultravioleta solar (UV) é\n\n[[figura 1]]\n\nO gráfico representa a energia potencial de ligação entre um dos átomos de oxigênio que constitui a molécula de O<sub>3</sub> e os outros dois, como função da distância de separação r.\n\n[[figura 2]]\n\nA frequência dos fótons da luz ultravioleta que corresponde à energia de quebra de uma ligação da molécula de ozônio para formar uma molécula de O<sub>2</sub> e um átomo de oxigênio é, aproximadamente,\n\nNote e adote:\n<i>E</i> = <i>hf</i>\n<i>E</i> é a energia do fóton.\n<i>f</i> é a frequência da luz.\nConstante de Planck, <i>h</i> = 6 × 10<sup>−34</sup> J·s\n\na) 1 × 10<sup>15</sup> Hz\nb) 2 × 10<sup>15</sup> Hz\nc) 3 × 10<sup>15</sup> Hz\nd) 4 × 10<sup>15</sup> Hz\ne) 5 × 10<sup>15</sup> Hz",
+  "figuras": [
+    "fuvest-2017-q68-1.png",
+    "fuvest-2017-q68-2.png"
+  ],
+  "gabarito": "A",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. A energia para quebrar a ligação é a profundidade do \"poço\" de energia potencial: o mínimo do gráfico é cerca de −6 × 10<sup>−19</sup> J, e afastar o átomo até muito longe leva a energia a zero.\n2. Energia necessária: <i>E</i> ≈ 6 × 10<sup>−19</sup> J.\n3. <i>f</i> = <i>E</i>/<i>h</i> = 6 × 10<sup>−19</sup>/6 × 10<sup>−34</sup> = 1 × 10<sup>15</sup> Hz (ultravioleta).\nGabarito: A.",
+  "topicos": [
+    "fotons-e-energia-do-foton-e-hf",
+    "leitura-e-interpretacao-de-graficos"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-01T14:43:28.000Z",
+  "atualizadoEm": "2026-11-01T14:43:28.000Z"
+}

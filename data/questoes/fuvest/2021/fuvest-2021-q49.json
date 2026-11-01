@@ -1,0 +1,25 @@
+{
+  "id": "fuvest-2021-q49",
+  "banca": "Fuvest",
+  "ano": 2021,
+  "numero": "49",
+  "fase": "1ª fase · Prova V",
+  "fonte": {
+    "descricao": "Fuvest, Vestibular 2021, 1ª fase (Prova de Conhecimentos Gerais), caderno de questões"
+  },
+  "enunciado": "Ondas estacionárias podem ser produzidas de diferentes formas, dentre elas esticando-se uma corda homogênea, fixa em dois pontos separados por uma distância <i>L</i>, e pondo-a a vibrar. A extremidade à direita é acoplada a um gerador de frequências, enquanto a outra extremidade está sujeita a uma força tensional produzida ao se pendurar à corda um objeto de massa <i>m</i><sub>0</sub> mantido em repouso. O arranjo experimental é ilustrado na figura. Ajustando a frequência do gerador para <i>f</i><sub>1</sub>, obtém-se na corda uma onda estacionária que vibra em seu primeiro harmônico.\n\n[[figura 1]]\n\nAo trocarmos o objeto pendurado por outro de massa <i>M</i>, observa-se que a frequência do gerador para que a corda continue a vibrar no primeiro harmônico deve ser ajustada para 2<i>f</i><sub>1</sub>. Com isso, é correto concluir que a razão <i>M</i>/<i>m</i><sub>0</sub> deve ser:\n\nNote e adote:\nA velocidade da onda propagando-se em uma corda é diretamente proporcional à raiz quadrada da tensão sob a qual a corda está submetida.\n\n(A) 1/4\n(B) 1/2\n(C) 1\n(D) 2\n(E) 4",
+  "figuras": [
+    "fuvest-2021-q49-1.png"
+  ],
+  "gabarito": "E",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. No primeiro harmônico, λ = 2<i>L</i> nos dois casos (mesma corda, mesmo comprimento).\n2. <i>v</i> = λ<i>f</i> ⇒ com λ fixo, dobrar a frequência significa dobrar a velocidade da onda.\n3. <i>v</i> ∝ √<i>T</i>, e a tração é o peso pendurado (<i>T</i> = <i>m g</i>) ⇒ para dobrar <i>v</i>, a tração deve ser 4 vezes maior.\n4. <i>M</i>/<i>m</i><sub>0</sub> = 4.\nGabarito: E.",
+  "topicos": [
+    "ondas-estacionarias-e-cordas-vibrantes",
+    "velocidade-de-onda-em-cordas-taylor",
+    "equacao-fundamental-da-ondulatoria-v-f"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-01T12:54:20.000Z",
+  "atualizadoEm": "2026-11-01T12:54:20.000Z"
+}

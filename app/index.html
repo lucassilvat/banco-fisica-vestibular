@@ -40,8 +40,8 @@ header.top { display: flex; flex-wrap: wrap; align-items: end; justify-content: 
 .count { font-family: var(--f-mono); font-size: 0.78rem; background: var(--mark); color: var(--paper); border-radius: 999px; padding: 1px 7px; margin-left: 6px; }
 
 .layout { display: grid; grid-template-columns: 320px minmax(0, 1fr); gap: 24px; align-items: start; }
-@media (max-width: 860px) { .layout { grid-template-columns: minmax(0, 1fr); } #filters { display: none; } #filters.open { display: block; } .only-narrow { display: inline-flex !important; } }
 .only-narrow { display: none !important; }
+@media (max-width: 860px) { .layout { grid-template-columns: minmax(0, 1fr); } #filters { display: none; } #filters.open { display: block; } .only-narrow { display: inline-flex !important; } }
 aside#filters { position: sticky; top: calc(env(safe-area-inset-top, 0px) + 12px); max-height: calc(100vh - 24px); overflow: auto; background: var(--paper); border: 1px solid var(--line); border-radius: var(--r); }
 .f-head { padding: 14px; border-bottom: 1px solid var(--line); display: grid; gap: 10px; }
 .label { font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.08em; color: var(--muted); font-weight: 700; }
@@ -260,7 +260,10 @@ function renderSelbar(count) {
   if (state.sel.size || state.bancas.size || state.anos.size) bar.append(el("button", { class: "btn ghost", type: "button", text: "Limpar filtros", onclick: () => { state.sel.clear(); state.bancas.clear(); state.anos.clear(); savePrefs(); renderAll(); } }));
 }
 
-const figUrl = id => "/_blob/" + id;
+// No artefato do Claude as figuras vêm do armazenamento do artefato; no site estático
+// (GitHub Pages, gerado por "python -m pipeline site"), da pasta figuras/.
+let STATIC = false;
+const figUrl = id => STATIC ? "figuras/" + id : "/_blob/" + id;
 const FIG_RE = /\n?\[\[figura (\d+)\]\]\n?/g;
 function safeInline(s) {
   return s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/&lt;(\/?)(i|b|u|sub|sup)&gt;/g, "<$1$2>");
@@ -413,6 +416,25 @@ $("exportBtn").addEventListener("click", async () => {
   } finally { b.disabled = false; b.textContent = "Baixar lista (.docx)"; }
 });
 
+/* Modo site estático: questões em questoes.json e download do .docx direto pelo navegador. */
+async function loadStatic() {
+  STATIC = true;
+  state.downloads = { save: async ({ filename, data }) => {
+    const url = URL.createObjectURL(new Blob([data], { type: "application/vnd.openxmlformats-officedocument.wordprocessingml.document" }));
+    const a = el("a", { href: url, download: filename }); document.body.append(a); a.click(); a.remove();
+    setTimeout(() => URL.revokeObjectURL(url), 10000);
+  } };
+  try {
+    const r = await fetch("questoes.json", { cache: "no-cache" });
+    if (!r.ok) throw new Error(r.status);
+    state.qs = (await r.json()).map(q => ({ _id: q.id, ...q }));
+  } catch (e) { state.qs = []; }
+  state.ready = true;
+  const ids = new Set(state.qs.map(q => q._id));
+  state.list = state.list.filter(id => ids.has(id)); saveList();
+  renderAll();
+}
+
 $("listBtn").addEventListener("click", () => { renderPanel(); $("overlay").hidden = false; $("closePanel").focus(); });
 $("closePanel").addEventListener("click", () => $("overlay").hidden = true);
 $("overlay").addEventListener("click", e => { if (e.target === $("overlay")) $("overlay").hidden = true; });
@@ -429,7 +451,7 @@ saveList();
 renderAll();
 (async () => {
   const c = window.claude;
-  if (!c || !c.use) { state.ready = true; state.downloads = null; renderViewer(); return; }
+  if (!c || !c.use) { await loadStatic(); return; }
   const [db, dl] = await Promise.all([c.use("db"), c.use("downloads")]);
   state.downloads = dl;
   if (!db) { state.ready = true; renderViewer(); return; }

@@ -4,9 +4,9 @@ Banco de questões de Física de vestibulares brasileiros, com enunciados transc
 literalmente das provas oficiais, resolução comentada, classificação em 151 tópicos e
 exportação de listas de exercícios (.docx, abre no Word e no Google Docs).
 
-**Situação atual:** 109 questões da Unicamp, 1ª fase, de 2016 a 2026 (incluindo as duas
-provas de 2021), 60 figuras recortadas dos cadernos oficiais. Todas passam na
-verificação automática.
+**Situação atual (v1.3.0):** 253 questões: 116 da Unicamp (1ª fase, 2016 a 2027, incluindo
+as duas provas de 2021) e 137 da Fuvest (1ª fase, 2016 a 2026), com figuras recortadas dos
+cadernos oficiais. Todas passam na verificação automática.
 
 ## Estrutura
 
@@ -46,6 +46,24 @@ listados em `data/fontes/manifesto.json` (o sha256 garante que é o mesmo arquiv
 
 ## App
 
-`app/index.html` é o código do app publicado como artefato privado no Claude. Para mudar o
-app, edite esse arquivo e publique de novo no mesmo artefato. As questões não ficam no
-HTML: o app lê do banco do artefato, alimentado pela etapa `publicar`.
+`app/index.html` é o código do app. O mesmo arquivo roda em dois lugares:
+
+- **Artefato privado no Claude**: lê as questões do banco do artefato (etapa `publicar`).
+  Para mudar o app, edite o arquivo e publique de novo no mesmo artefato.
+- **Site estático (GitHub Pages)**: `python -m pipeline site` gera a pasta `site/` com o app,
+  `questoes.json` e as figuras. Fora do Claude, o app lê esses arquivos e baixa a lista
+  .docx direto pelo navegador. O workflow `.github/workflows/pages.yml` gera e publica o
+  site a cada envio ao ramo `main`.
+
+Teste local do site: `python -m pipeline site && python -m http.server -d site`, e abra
+http://localhost:8000.
+
+### Ativar o GitHub Pages (uma vez)
+
+1. Em **Settings › Pages › Build and deployment › Source**, escolha **GitHub Actions**.
+2. Envie algo ao `main` (ou rode o workflow em **Actions › Publicar site › Run workflow**).
+3. O endereço aparece em Settings › Pages (algo como `https://<usuário>.github.io/banco-fisica-vestibular/`).
+
+O GitHub Pages só está disponível para repositórios **públicos** no plano gratuito; em
+repositório privado exige plano pago (GitHub Pro ou superior). Em qualquer caso, **o site
+publicado fica aberto na internet** para quem tiver o link.

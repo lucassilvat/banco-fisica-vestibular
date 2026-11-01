@@ -1,0 +1,25 @@
+{
+  "id": "fuvest-2016-q27",
+  "banca": "Fuvest",
+  "ano": 2016,
+  "numero": "27",
+  "fase": "1ª fase · Prova V",
+  "fonte": {
+    "descricao": "Fuvest, Vestibular 2016, 1ª fase (Prova de Conhecimentos Gerais), caderno de questões"
+  },
+  "enunciado": "O arranjo experimental representado na figura é formado por uma fonte de tensão <i>F</i>, um amperímetro <i>A</i>, um voltímetro <i>V</i>, três resistores, <i>R</i><sub>1</sub> , <i>R</i><sub>2</sub> e <i>R</i><sub>3</sub> , de resistências iguais, e fios de ligação.\n\n[[figura 1]]\n\nQuando o amperímetro mede uma corrente de 2 A, e o voltímetro, uma tensão de 6 V, a potência dissipada em <i>R</i><sub>2</sub> é igual a\n\nNote e adote:\nA resistência interna do voltímetro é muito maior que a dos resistores (voltímetro ideal).\nAs resistências dos fios de ligação devem ser ignoradas.\n\na) 4 W\nb) 6 W\nc) 12 W\nd) 18 W\ne) 24 W",
+  "figuras": [
+    "fuvest-2016-q27-1.png"
+  ],
+  "gabarito": "A",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. Seguindo os fios: <i>R</i><sub>1</sub> e <i>R</i><sub>2</sub> estão em série, e esse ramo está em paralelo com <i>R</i><sub>3</sub>. O amperímetro mede a corrente total (2 A) e o voltímetro mede a tensão em <i>R</i><sub>1</sub>.\n2. Com resistências iguais (<i>R</i>), o ramo <i>R</i><sub>1</sub> + <i>R</i><sub>2</sub> (2<i>R</i>) recebe metade da corrente de <i>R</i><sub>3</sub> (<i>R</i>): <i>i</i> + 2<i>i</i> = 2 A ⇒ <i>i</i> = 2/3 A no ramo de <i>R</i><sub>1</sub> e <i>R</i><sub>2</sub>.\n3. Voltímetro: <i>R</i> · 2/3 = 6 V ⇒ <i>R</i> = 9 Ω.\n4. Potência em <i>R</i><sub>2</sub>: <i>P</i> = <i>R i</i><sup>2</sup> = 9 · (2/3)<sup>2</sup> = 4 W.\nGabarito: A.",
+  "topicos": [
+    "associacao-de-resistores",
+    "potencia-eletrica-e-efeito-joule",
+    "amperimetro-voltimetro-e-ponte-de-wheatstone"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-01T14:43:29.000Z",
+  "atualizadoEm": "2026-11-01T14:43:29.000Z"
+}

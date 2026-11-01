@@ -1,0 +1,24 @@
+{
+  "id": "fuvest-2017-q63",
+  "banca": "Fuvest",
+  "ano": 2017,
+  "numero": "63",
+  "fase": "1ª fase · Prova V",
+  "fonte": {
+    "descricao": "Fuvest, Vestibular 2017, 1ª fase (Prova de Conhecimentos Gerais), caderno de questões"
+  },
+  "enunciado": "A figura representa uma onda harmônica transversal, que se propaga no sentido positivo do eixo <i>x</i>, em dois instantes de tempo: <i>t</i> = 3 s (linha cheia) e <i>t</i> = 7 s (linha tracejada).\n\n[[figura 1]]\n\nDentre as alternativas, a que pode corresponder à velocidade de propagação dessa onda é\n\na) 0,14 m/s\nb) 0,25 m/s\nc) 0,33 m/s\nd) 1,00 m/s\ne) 2,00 m/s",
+  "figuras": [
+    "fuvest-2017-q63-1.png"
+  ],
+  "gabarito": "B",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. Pelo gráfico, o comprimento de onda é λ = 4 m (a linha cheia tem cristas, por exemplo, em <i>x</i> = −3 m e <i>x</i> = 1 m).\n2. A linha tracejada é a linha cheia deslocada 1 m para a direita (a crista em <i>x</i> = 1 m passou para <i>x</i> = 2 m). Como a onda é periódica, o deslocamento pode ser 1 m, 5 m, 9 m... = (1 + 4<i>n</i>) m.\n3. Em Δ<i>t</i> = 7 − 3 = 4 s: <i>v</i> = (1 + 4<i>n</i>)/4 = 0,25 m/s; 1,25 m/s; 2,25 m/s...\n4. Entre as alternativas, só 0,25 m/s é possível.\nGabarito: B.",
+  "topicos": [
+    "ondas-classificacao-e-elementos",
+    "equacao-fundamental-da-ondulatoria-v-f"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-01T14:43:28.000Z",
+  "atualizadoEm": "2026-11-01T14:43:28.000Z"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "fuvest-2018-q08",
+  "banca": "Fuvest",
+  "ano": 2018,
+  "numero": "8",
+  "fase": "1ª fase · Prova V",
+  "fonte": {
+    "descricao": "Fuvest, Vestibular 2018, 1ª fase (Prova de Conhecimentos Gerais), caderno de questões"
+  },
+  "enunciado": "O ano de 2017 marca o trigésimo aniversário de um grave acidente de contaminação radioativa, ocorrido em Goiânia em 1987. Na ocasião, uma fonte radioativa, utilizada em um equipamento de radioterapia, foi retirada do prédio abandonado de um hospital e, posteriormente, aberta no ferro-velho para onde fora levada. O brilho azulado do pó de césio-137 fascinou o dono do ferro-velho, que compartilhou porções do material altamente radioativo com sua família e amigos, o que teve consequências trágicas. O tempo necessário para que metade da quantidade de césio-137 existente em uma fonte se transforme no elemento não radioativo bário-137 é trinta anos. Em relação a 1987, a fração de césio-137, em %, que existirá na fonte radioativa 120 anos após o acidente, será, aproximadamente,\n\n(A) 3,1.\n(B) 6,3.\n(C) 12,5.\n(D) 25,0.\n(E) 50,0.",
+  "figuras": [],
+  "gabarito": "B",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. A meia-vida do césio-137 é 30 anos. Em 120 anos passam 120/30 = 4 meias-vidas.\n2. Fração restante: (1/2)<sup>4</sup> = 1/16 = 0,0625 ≈ 6,3%.\nGabarito: B.",
+  "topicos": [
+    "meia-vida",
+    "radioatividade-e-decaimento"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-01T14:43:26.000Z",
+  "atualizadoEm": "2026-11-01T14:43:26.000Z"
+}

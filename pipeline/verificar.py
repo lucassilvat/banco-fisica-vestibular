@@ -2,7 +2,8 @@
 
 Estrutura (sempre): campos obrigatórios, status válido, gabarito, tópicos existentes na
 taxonomia, número de [[figura N]] == número de arquivos e arquivos presentes.
-Fidelidade (quando o PDF da prova está em fontes/): toda palavra (3+ letras) e todo
+Fidelidade (quando o PDF da prova está em fontes/; se a prova estiver marcada com
+camadaTexto = "ocr" no manifesto, compara com fontes/<arquivo>.ocr.txt): toda palavra (3+ letras) e todo
 número do enunciado precisam existir no texto do PDF. Divergências comuns e legítimas:
 quebras de linha com hífen, subscritos colados ("max", "eia"), URLs quebradas. Cada uma
 precisa ser olhada; quando legítima, registre-a na própria questão em
@@ -25,7 +26,13 @@ def _texto_pdf(chave: str):
         return None
     if not pdf.exists():
         return None
-    t = subprocess.run(["pdftotext", str(pdf), "-"], capture_output=True, text=True).stdout
+    if fonte_da_prova(chave).get("camadaTexto") == "ocr":
+        ocr = pdf.with_suffix(".ocr.txt")   # gerado por: python -m pipeline ocr <prova>
+        if not ocr.exists():
+            return None
+        t = ocr.read_text(encoding="utf-8")
+    else:
+        t = subprocess.run(["pdftotext", str(pdf), "-"], capture_output=True, text=True).stdout
     t = re.sub(r"­\s*\n", "", t); t = re.sub(r"-\n", "-", t)
     palavras = set(re.findall(r"[A-Za-zÀ-ÿ']+", t))
     palavras |= {p for w in re.findall(r"[A-Za-zÀ-ÿ']+(?:-[A-Za-zÀ-ÿ']+)+", t) for p in w.split("-")}

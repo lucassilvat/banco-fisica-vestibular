@@ -1,0 +1,27 @@
+{
+  "id": "fuvest-2025-q22",
+  "banca": "Fuvest",
+  "ano": 2025,
+  "numero": "22",
+  "fase": "1ª fase · Prova V1",
+  "fonte": {
+    "descricao": "Fuvest, Vestibular 2025, 1ª fase (Prova de Conhecimentos Gerais), caderno de questões"
+  },
+  "enunciado": "[[figura 1]]\n\n[[figura 2]]\n\nUma das possíveis tecnologias para a produção de telas sensíveis ao toque aproveita a reflexão interna total da luz. Esse tipo de reflexão ocorre quando um raio luminoso viaja do interior de um meio 1, com índice de refração <i>n</i><sub>1</sub>, em direção a um meio 2, com índice de refração <i>n</i><sub>2</sub>, formando com a direção perpendicular à interface entre os meios um ângulo <i>θ</i> maior do que um certo valor limite <i>θ</i><sub>L</sub> , tal que sen <i>θ</i><sub>L</sub> = <i>n</i><sub>2</sub>/<i>n</i><sub>1</sub>. Quando um objeto (como um dedo) se aproxima da interface entre os meios, a reflexão total não ocorre, o que é captado por sensores, revelando a posição do objeto. Suponha que se deseje projetar uma tela sensível ao toque que, conforme mostra a figura, funcione com uma fonte luminosa <i>F</i> fixa na borda. A tabela a seguir indica os índices de refração de alguns materiais candidatos à utilização no meio 1.\n\n[[figura 3]]\n\nTratando o meio 2 sempre como tendo índice de refração <i>n</i><sub>2</sub> = 1,0003, o material que permite o maior intervalo de ângulos de incidência que produzem reflexão total é:\n\n(A) Material A.\n(B) Material B.\n(C) Material C.\n(D) Material D.\n(E) Material E.",
+  "figuras": [
+    "fuvest-2025-q22-1.png",
+    "fuvest-2025-q22-2.png",
+    "fuvest-2025-q22-3.png"
+  ],
+  "gabarito": "E",
+  "gabaritoFonte": "oficial",
+  "resolucao": "1. Há reflexão total para ângulos de incidência entre <i>θ</i><sub>L</sub> e 90°. O intervalo é maior quanto <b>menor</b> for <i>θ</i><sub>L</sub>.\n2. sen <i>θ</i><sub>L</sub> = <i>n</i><sub>2</sub>/<i>n</i><sub>1</sub> ⇒ com <i>n</i><sub>2</sub> fixo, <i>θ</i><sub>L</sub> diminui quando <i>n</i><sub>1</sub> aumenta.\n3. Os materiais A (<i>n</i><sub>1</sub> < <i>n</i><sub>2</sub>) e B (<i>n</i><sub>1</sub> = <i>n</i><sub>2</sub>) nem permitem reflexão total.\n4. O maior índice da tabela é o do material E (1,4889): sen <i>θ</i><sub>L</sub> = 1,0003/1,4889 ≈ 0,67 ⇒ <i>θ</i><sub>L</sub> ≈ 42°, o menor ângulo limite.\nGabarito: E.",
+  "topicos": [
+    "reflexao-total-e-fibra-optica",
+    "refracao-da-luz-e-indice-de-refracao",
+    "lei-de-snell-descartes"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-01T12:54:06.000Z",
+  "atualizadoEm": "2026-11-01T12:54:06.000Z"
+}

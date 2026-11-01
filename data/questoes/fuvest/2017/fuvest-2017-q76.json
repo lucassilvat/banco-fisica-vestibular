@@ -1,0 +1,27 @@
+{
+  "id": "fuvest-2017-q76",
+  "banca": "Fuvest",
+  "ano": 2017,
+  "numero": "76",
+  "fase": "1ª fase · Prova V",
+  "fonte": {
+    "descricao": "Fuvest, Vestibular 2017, 1ª fase (Prova de Conhecimentos Gerais), caderno de questões"
+  },
+  "enunciado": "Células a combustível são opções viáveis para gerar energia elétrica para motores e outros dispositivos. O esquema representa uma dessas células e as transformações que nela ocorrem.\n\nH<sub>2</sub> (g) + ½ O<sub>2</sub> (g) → H<sub>2</sub>O (g)   ΔH = −240 kJ/mol de H<sub>2</sub>\n\n[[figura 1]]\n\nA corrente elétrica (i), em ampère (coulomb por segundo), gerada por uma célula a combustível que opera por 10 minutos e libera 4,80 kJ de energia durante esse período de tempo, é\n\nNote e adote:\nCarga de um mol de elétrons = 96.500 coulomb.\n\na) 3,32.\nb) 6,43.\nc) 12,9.\nd) 386.\ne) 772.",
+  "figuras": [
+    "fuvest-2017-q76-1.png"
+  ],
+  "gabarito": "B",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. Quantidade de H<sub>2</sub> consumida: 4,80 kJ/(240 kJ/mol) = 0,020 mol.\n2. Cada H<sub>2</sub> libera 2 elétrons (H<sub>2</sub> → 2 H<sup>+</sup> + 2 e<sup>−</sup>) ⇒ 0,040 mol de elétrons.\n3. Carga: <i>Q</i> = 0,040 · 96.500 = 3.860 C.\n4. Corrente: <i>i</i> = <i>Q</i>/Δ<i>t</i> = 3.860/600 s ≈ 6,43 A.\nGabarito: B.",
+  "topicos": [
+    "corrente-eletrica",
+    "geradores-eletricos-fem-e-resistencia-interna"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-01T14:43:28.000Z",
+  "atualizadoEm": "2026-11-01T14:43:28.000Z",
+  "revisao": {
+    "notas": "A equação química faz parte da imagem do esquema no caderno; foi transcrita como texto, com a mesma redação."
+  }
+}

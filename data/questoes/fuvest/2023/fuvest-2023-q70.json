@@ -1,0 +1,29 @@
+{
+  "id": "fuvest-2023-q70",
+  "banca": "Fuvest",
+  "ano": 2023,
+  "numero": "70",
+  "fase": "1ª fase · Prova V",
+  "fonte": {
+    "descricao": "Fuvest, Vestibular 2023, 1ª fase (Prova de Conhecimentos Gerais), caderno de questões"
+  },
+  "enunciado": "<b>TEXTO PARA AS QUESTÕES DE 68 A 70</b>\n\nThe expression “dark doldrums” chills the hearts of renewable-energy engineers, who use it to refer to the lulls when solar panels and wind turbines are thwarted by clouds, night, or still air. On a bright, cloudless day, a solar farm can generate prodigious amounts of electricity. But at night solar cells do little, and in calm air turbines sit useless.\nThe dark doldrums make it difficult for us to rely totally on renewable energy. Power companies need to plan not just for individual storms or windless nights but for difficulties that can stretch for days. Last year, Europe experienced a weeks-long “wind drought,” and in 2006 Hawaii endured six weeks of consecutive rainy days. On a smaller scale, communities that want to go all-renewable need to fill the gaps. The obvious solution is batteries, which power everything from mobile phones to electric vehicles; they are relatively inexpensive to make and getting cheaper. But typical models exhaust their stored energy after only three or four hours of maximum output, and—as every smartphone owner knows—their capacity dwindles with each recharge. Moreover, it is expensive to collect enough batteries to cover longer discharges.\nWe already have one kind of renewable energy storage: more than ninety per cent of the world’s energy-storage capacity is in reservoirs, as part of a technology called pumped-storage hydropower, used to smooth out sharp increases in electricity demand. Motors pump water uphill from a river or a reservoir to a higher reservoir; when the water is released downhill, it spins a turbine, generating power. A pumped-hydro installation is like a giant, permanent battery, charged when water is pumped uphill and depleted as it flows down. Some countries are expanding their use of pumped hydro, but the right geography is hard to find, permits are difficult to obtain, and construction is slow and expensive. The hunt is on for new approaches to energy storage.\n\n<i>The New Yorker</i>. Abril, 2022. Adaptado.\n\nSegundo o texto, quando a geração de energia por células solares ou turbinas eólicas é insuficiente para atender à demanda, uma fonte de energia alternativa envolveria a conversão de\n\n(A) energia nuclear em elétrica.\n(B) energia mecânica em térmica.\n(C) energia mecânica em elétrica.\n(D) energia solar em mecânica.\n(E) energia química em elétrica.",
+  "figuras": [],
+  "gabarito": "C",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. O texto apresenta como solução já existente as usinas hidrelétricas reversíveis (<i>pumped-storage hydropower</i>): a água é bombeada para um reservatório mais alto e, quando liberada, desce e gira uma turbina, gerando eletricidade.\n2. Na descida, a energia potencial gravitacional da água vira energia cinética (energia mecânica), que a turbina e o gerador convertem em energia elétrica (indução eletromagnética).\n3. Logo, a conversão é de energia mecânica em elétrica. (As baterias, também citadas, convertem energia química em elétrica, mas o texto as aponta como solução cara e limitada; a pergunta se refere à fonte alternativa de armazenamento destacada, a hidráulica.)\nGabarito: C.",
+  "topicos": [
+    "usinas-e-geracao-de-energia-eletrica",
+    "energia-potencial-gravitacional",
+    "conservacao-da-energia-mecanica"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-01T12:54:11.000Z",
+  "atualizadoEm": "2026-11-01T12:54:11.000Z",
+  "revisao": {
+    "divergenciasAceitas": [
+      "long"
+    ],
+    "notas": "weeks-long está hifenizado na quebra de linha do PDF."
+  }
+}

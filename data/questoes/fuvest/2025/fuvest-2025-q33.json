@@ -1,0 +1,24 @@
+{
+  "id": "fuvest-2025-q33",
+  "banca": "Fuvest",
+  "ano": 2025,
+  "numero": "33",
+  "fase": "1ª fase · Prova V1",
+  "fonte": {
+    "descricao": "Fuvest, Vestibular 2025, 1ª fase (Prova de Conhecimentos Gerais), caderno de questões"
+  },
+  "enunciado": "[[figura 1]]\n\nWASSENBERGH, Sam Van; MIELKE, Maia. <i>Physics Today</i>, vol. 77 (2024) (Adaptado).\n\nEm um estudo relatado no periódico <i>Physics Today</i>, cientistas belgas mostraram que os pica-paus não dispõem de mecanismos de absorção de choques em seus ossos do crânio, ao contrário do que se acreditava anteriormente. Nos experimentos realizados, verificou-se que o cérebro de um pica-pau pode experimentar desacelerações instantâneas de até 400 <i>g</i>, sendo <i>g</i> o módulo da aceleração da gravidade. Suponha que, durante uma batida em um tronco de árvore, o crânio do pica-pau, suposto perfeitamente rígido, sofra uma desaceleração constante de 200 <i>g</i> ao longo de um tempo de 2,0 milissegundos. Qual é a distância percorrida pelo crânio do pica-pau durante esse tempo, até atingir momentaneamente o repouso?\n\nNote e adote:\nAceleração da gravidade: <i>g</i> = 10 m/s<sup>2</sup>.\n\n(A) 2,0 mm\n(B) 4,0 mm\n(C) 8,0 mm\n(D) 16 mm\n(E) 32 mm",
+  "figuras": [
+    "fuvest-2025-q33-1.png"
+  ],
+  "gabarito": "B",
+  "gabaritoFonte": "oficial",
+  "resolucao": "1. Desaceleração: <i>a</i> = 200 <i>g</i> = 2000 m/s<sup>2</sup>; tempo: <i>t</i> = 2,0 ms = 2,0 × 10<sup>−3</sup> s.\n2. Como o crânio para no fim do intervalo, a velocidade inicial é <i>v</i><sub>0</sub> = <i>a t</i> = 2000 · 2 × 10<sup>−3</sup> = 4 m/s.\n3. No MRUV até parar, a distância é <i>d</i> = <i>v</i><sub>0</sub> <i>t</i>/2 (velocidade média vezes tempo) = 4 · 2 × 10<sup>−3</sup>/2 = 4 × 10<sup>−3</sup> m = 4,0 mm.\nGabarito: B.",
+  "topicos": [
+    "movimento-retilineo-uniformemente-variado-mruv",
+    "velocidade-media-e-aceleracao-media"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-01T12:54:06.000Z",
+  "atualizadoEm": "2026-11-01T12:54:06.000Z"
+}

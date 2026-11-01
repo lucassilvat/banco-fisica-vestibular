@@ -1,0 +1,25 @@
+{
+  "id": "fuvest-2016-q33",
+  "banca": "Fuvest",
+  "ano": 2016,
+  "numero": "33",
+  "fase": "1ª fase · Prova V",
+  "fonte": {
+    "descricao": "Fuvest, Vestibular 2016, 1ª fase (Prova de Conhecimentos Gerais), caderno de questões"
+  },
+  "enunciado": "Uma gota de chuva se forma no alto de uma nuvem espessa. À medida que vai caindo dentro da nuvem, a massa da gota vai aumentando, e o incremento de massa Δ<i>m</i>, em um pequeno intervalo de tempo Δ<i>t</i>, pode ser aproximado pela expressão: Δ<i>m</i> = <i>α v S</i> Δ<i>t</i>, em que <i>α</i> é uma constante, <i>v</i> é a velocidade da gota, e <i>S</i>, a área de sua superfície. No sistema internacional de unidades (SI), a constante <i>α</i> é\n\na) expressa em kg.m<sup>3</sup>\nb) expressa em kg.m<sup>−3</sup>\nc) expressa em m<sup>3</sup>.s.kg<sup>−1</sup>\nd) expressa em m<sup>3</sup>.s<sup>−1</sup>\ne) adimensional.",
+  "figuras": [],
+  "gabarito": "B",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. Isolando a constante: <i>α</i> = Δ<i>m</i>/(<i>v S</i> Δ<i>t</i>).\n2. Unidades: kg/((m/s) · m<sup>2</sup> · s) = kg/m<sup>3</sup> = kg.m<sup>−3</sup> (unidade de densidade: faz sentido, é a densidade de água disponível na nuvem).\nGabarito: B.",
+  "topicos": [
+    "analise-dimensional",
+    "grandezas-fisicas-e-sistema-internacional"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-01T14:43:29.000Z",
+  "atualizadoEm": "2026-11-01T14:43:29.000Z",
+  "revisao": {
+    "notas": "No PDF de 2016, símbolos e números escritos com o editor de equações não aparecem na camada de texto; esses trechos foram transcritos da imagem do caderno e conferidos visualmente."
+  }
+}

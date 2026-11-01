@@ -1,0 +1,23 @@
+{
+  "id": "fuvest-2017-q60",
+  "banca": "Fuvest",
+  "ano": 2017,
+  "numero": "60",
+  "fase": "1ª fase · Prova V",
+  "fonte": {
+    "descricao": "Fuvest, Vestibular 2017, 1ª fase (Prova de Conhecimentos Gerais), caderno de questões"
+  },
+  "enunciado": "Helena, cuja massa é 50 kg, pratica o esporte radical <i>bungee jumping</i>. Em um treino, ela se solta da beirada de um viaduto, com velocidade inicial nula, presa a uma faixa elástica de comprimento natural <i>L</i><sub>0</sub> = 15 m e constante elástica <i>k</i> = 250 N/m. Quando a faixa está esticada 10 m além de seu comprimento natural, o módulo da velocidade de Helena é\n\nNote e adote:\nAceleração da gravidade: 10 m/s<sup>2</sup>.\nA faixa é perfeitamente elástica; sua massa e efeitos dissipativos devem ser ignorados.\n\na) 0 m/s\nb) 5 m/s\nc) 10 m/s\nd) 15 m/s\ne) 20 m/s",
+  "figuras": [],
+  "gabarito": "A",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. Quando a faixa está esticada 10 m além do comprimento natural, Helena caiu 15 + 10 = 25 m.\n2. Energia potencial gravitacional perdida: <i>m g h</i> = 50 · 10 · 25 = 12.500 J.\n3. Energia elástica armazenada: <i>k x</i><sup>2</sup>/2 = 250 · 10<sup>2</sup>/2 = 12.500 J.\n4. Toda a energia gravitacional virou elástica: a energia cinética é zero ⇒ <i>v</i> = 0 (é o ponto mais baixo do salto).\nGabarito: A.",
+  "topicos": [
+    "energia-potencial-elastica",
+    "conservacao-da-energia-mecanica",
+    "energia-potencial-gravitacional"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-01T14:43:28.000Z",
+  "atualizadoEm": "2026-11-01T14:43:28.000Z"
+}

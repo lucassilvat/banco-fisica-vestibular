@@ -1,0 +1,23 @@
+{
+  "id": "fuvest-2019-q21",
+  "banca": "Fuvest",
+  "ano": 2019,
+  "numero": "21",
+  "fase": "1ª fase · Prova V",
+  "fonte": {
+    "descricao": "Fuvest, Vestibular 2019, 1ª fase (Prova de Conhecimentos Gerais), caderno de questões"
+  },
+  "enunciado": "Em uma garrafa térmica, são colocados 200 g de água à temperatura de 30 °C e uma pedra de gelo de 50 g, à temperatura de –10 °C. Após o equilíbrio térmico,\n\nNote e adote:\ncalor latente de fusão do gelo = 80 cal/g;\ncalor específico do gelo = 0,5 cal/g °C;\ncalor específico da água = 1,0 cal/g °C.\n\n(A) todo o gelo derreteu e a temperatura de equilíbrio é 7 °C.\n(B) todo o gelo derreteu e a temperatura de equilíbrio é 0,4 °C.\n(C) todo o gelo derreteu e a temperatura de equilíbrio é 20 °C.\n(D) nem todo o gelo derreteu e a temperatura de equilíbrio é 0 °C.\n(E) o gelo não derreteu e a temperatura de equilíbrio é –2 °C.",
+  "figuras": [],
+  "gabarito": "A",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. Calor que a água pode ceder até 0 °C: 200 · 1,0 · 30 = 6.000 cal.\n2. Calor para levar o gelo a 0 °C: 50 · 0,5 · 10 = 250 cal; para derretê-lo: 50 · 80 = 4.000 cal. Total: 4.250 cal < 6.000 cal ⇒ todo o gelo derrete.\n3. Equilíbrio com toda a água (200 g + 50 g de gelo derretido) a <i>θ</i>: 200 · 1 · (30 − <i>θ</i>) = 250 + 4.000 + 50 · 1 · (<i>θ</i> − 0).\n4. 6.000 − 200<i>θ</i> = 4.250 + 50<i>θ</i> ⇒ 250<i>θ</i> = 1.750 ⇒ <i>θ</i> = 7 °C.\nGabarito: A.",
+  "topicos": [
+    "trocas-de-calor-e-equilibrio-termico-calorimetro",
+    "calor-latente-e-mudancas-de-fase",
+    "calor-sensivel-e-capacidade-termica"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-01T14:43:25.000Z",
+  "atualizadoEm": "2026-11-01T14:43:25.000Z"
+}

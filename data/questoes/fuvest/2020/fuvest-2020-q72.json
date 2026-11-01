@@ -1,0 +1,21 @@
+{
+  "id": "fuvest-2020-q72",
+  "banca": "Fuvest",
+  "ano": 2020,
+  "numero": "72",
+  "fase": "1ª fase · Prova V",
+  "fonte": {
+    "descricao": "Fuvest, Vestibular 2020, 1ª fase (Prova de Conhecimentos Gerais), caderno de questões"
+  },
+  "enunciado": "Um estímulo nervoso em um dos dedos do pé de um indivíduo demora cerca de 30 ms para chegar ao cérebro. Nos membros inferiores, o pulso elétrico, que conduz a informação do estímulo, é transmitido pelo nervo ciático, chegando à base do tronco em 20 ms. Da base do tronco ao cérebro, o pulso é conduzido na medula espinhal. Considerando que a altura média do brasileiro é de 1,70 m e supondo uma razão média de 0,6 entre o comprimento dos membros inferiores e a altura de uma pessoa, pode‐se concluir que as velocidades médias de propagação do pulso nervoso desde os dedos do pé até o cérebro e da base do tronco até o cérebro são, respectivamente:\n\n(A) 51 m/s e 51 m/s\n(B) 51 m/s e 57 m/s\n(C) 57 m/s e 57 m/s\n(D) 57 m/s e 68 m/s\n(E) 68 m/s e 68 m/s",
+  "figuras": [],
+  "gabarito": "D",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. Dedos do pé ao cérebro: distância ≈ 1,70 m em 30 ms ⇒ <i>v</i><sub>m</sub> = 1,70/0,030 ≈ 57 m/s.\n2. Membros inferiores: 0,6 · 1,70 = 1,02 m (percorridos em 20 ms). Da base do tronco ao cérebro: 1,70 − 1,02 = 0,68 m.\n3. Tempo nesse trecho: 30 − 20 = 10 ms ⇒ <i>v</i><sub>m</sub> = 0,68/0,010 = 68 m/s.\nGabarito: D.",
+  "topicos": [
+    "velocidade-media-e-aceleracao-media"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-01T12:54:17.000Z",
+  "atualizadoEm": "2026-11-01T12:54:17.000Z"
+}

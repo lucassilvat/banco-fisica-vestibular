@@ -1,0 +1,25 @@
+{
+  "id": "fuvest-2022-q56",
+  "banca": "Fuvest",
+  "ano": 2022,
+  "numero": "56",
+  "fase": "1ª fase · Prova V",
+  "fonte": {
+    "descricao": "Fuvest, Vestibular 2022, 1ª fase (Prova de Conhecimentos Gerais), caderno de questões"
+  },
+  "enunciado": "O canhão de Newton, esquematizado na figura, é um experimento mental imaginado por Isaac Newton para mostrar que sua lei da gravitação era universal. Disparando o canhão horizontalmente do alto de uma montanha, a bala cairia na Terra em virtude da força da gravidade. Com uma maior velocidade inicial, a bala iria mais longe antes de retornar à Terra. Com a velocidade certa, o projétil daria uma volta completa em torno da Terra, sempre “caindo” sob ação da gravidade, mas nunca alcançando a Terra. Newton concluiu que esse movimento orbital seria da mesma natureza do movimento da Lua em torno da Terra.\n\n[[figura 1]]\n\nQual deveria ser a velocidade inicial de um projétil lançado horizontalmente do alto do Everest (a uma distância aproximada de 6.400 km do centro da Terra) para colocá-lo em órbita em torno da Terra?\n\nNote e adote:\nDespreze a resistência do ar.\nAceleração da gravidade: g = 10 m/s<sup>2</sup>.\n\n(A) 8 km/s\n(B) 11,2 km/s\n(C) 80 km/s\n(D) 112 km/s\n(E) 8.000 km/s",
+  "figuras": [
+    "fuvest-2022-q56-1.png"
+  ],
+  "gabarito": "A",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. Em órbita circular rasante, o peso é a resultante centrípeta: <i>m g</i> = <i>m v</i><sup>2</sup>/<i>R</i> ⇒ <i>v</i> = √(<i>g R</i>).\n2. <i>v</i> = √(10 · 6,4 × 10<sup>6</sup>) = √(64 × 10<sup>6</sup>) = 8 × 10<sup>3</sup> m/s = 8 km/s.\n3. (11,2 km/s é a velocidade de escape, que tiraria o projétil da órbita.)\nGabarito: A.",
+  "topicos": [
+    "satelites-orbitas-e-imponderabilidade",
+    "resultante-centripeta-curvas-loop-globo-da-morte",
+    "lei-da-gravitacao-universal"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-01T12:54:14.000Z",
+  "atualizadoEm": "2026-11-01T12:54:14.000Z"
+}

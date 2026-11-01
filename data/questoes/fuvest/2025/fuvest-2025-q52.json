@@ -1,0 +1,22 @@
+{
+  "id": "fuvest-2025-q52",
+  "banca": "Fuvest",
+  "ano": 2025,
+  "numero": "52",
+  "fase": "1ª fase · Prova V1",
+  "fonte": {
+    "descricao": "Fuvest, Vestibular 2025, 1ª fase (Prova de Conhecimentos Gerais), caderno de questões"
+  },
+  "enunciado": "As enchentes ocorridas no Rio Grande do Sul, em maio de 2024, prejudicaram a infraestrutura de comunicação. A população afetada era informada sobre as notícias relativas às enchentes ao sintonizar, por rádio de pilhas, frequências de onda AM, cujo alcance é maior.\n\nUma onda AM é modelada matematicamente por equações que envolvem a função cosseno, cuja variável independente é o tempo <i>t</i>, que aparece multiplicado pela frequência <i>f</i> da onda.\n\nComo exemplo, pode-se considerar a equação referente ao processo de modulação de uma onda AM:\n\n<i>s</i>(<i>t</i>) = <i>A</i> [1 + <i>k m</i>(<i>t</i>)]cos(2<i>π f t</i>) ,\n\nem que <i>A</i> é a amplitude, <i>f</i> a frequência, <i>k</i> a constante da sensibilidade à amplitude e <i>m</i>(<i>t</i>) o sinal que contém a informação.\n\nQuando a frequência <i>f</i> é multiplicada por 3, o comprimento da onda sofre alteração. Por causa dessa multiplicação, qual transformação ocorre no gráfico da função cosseno original?\n\n(A) Expansão vertical.\n(B) Translação horizontal.\n(C) Expansão horizontal.\n(D) Contração horizontal.\n(E) Contração vertical.",
+  "figuras": [],
+  "gabarito": "D",
+  "gabaritoFonte": "oficial",
+  "resolucao": "1. O período de cos(2π<i>f t</i>) é <i>T</i> = 1/<i>f</i>.\n2. Multiplicando <i>f</i> por 3, o período passa a <i>T</i>/3: o gráfico completa um ciclo em um terço do tempo.\n3. Em termos de transformação de gráfico, trocar <i>t</i> por 3<i>t</i> comprime a curva horizontalmente pelo fator 3; a amplitude (escala vertical) não muda.\n4. Fisicamente, com a mesma velocidade de propagação, λ = <i>v</i>/<i>f</i> também fica 3 vezes menor.\nGabarito: D.",
+  "topicos": [
+    "ondas-classificacao-e-elementos",
+    "equacao-fundamental-da-ondulatoria-v-f"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-01T12:54:06.000Z",
+  "atualizadoEm": "2026-11-01T12:54:06.000Z"
+}

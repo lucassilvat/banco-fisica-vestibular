@@ -1,0 +1,24 @@
+{
+  "id": "fuvest-2026-q71",
+  "banca": "Fuvest",
+  "ano": 2026,
+  "numero": "71",
+  "fase": "1ª fase · Prova V1",
+  "fonte": {
+    "descricao": "Fuvest, Vestibular 2026, 1ª fase (Prova de Conhecimentos Gerais), caderno de questões"
+  },
+  "enunciado": "Para muitas pessoas, um ovo perfeitamente cozido tem uma gema cremosa e uma clara firme. A gema atinge uma textura cremosa a 65 °C, mas a clara fica totalmente firme a 85 °C.\n\nMétodos comuns de cozimento frequentemente resultam em um ovo com clara e gema duras (1), um ovo com clara dura e gema cremosa (2) ou um ovo com clara e gema cremosas (3).\n\nPesquisadores da Universidade de Nápoles, entretanto, perceberam que alternar o cozimento dos ovos em água a 100 °C e 30 °C a cada dois minutos, totalizando 32 minutos (4), faz com que as duas regiões do ovo (clara e gema) respondam de formas diferentes às temperaturas alternadas. Aplicando o método estudado (4), a temperatura da clara oscila antes de finalmente se estabilizar em torno de 85 °C, enquanto a temperatura da gema sobe lentamente até atingir 67 °C, quando chega à consistência desejada.\n\nA figura a seguir compara o ovo cozido para cada um dos métodos descritos.\n\n[[figura 1]]\n\nDi Lorenzo, E., Romano, F., Ciriaco, L. et al. “Periodic cooking of eggs”. <i>Commun Eng</i> 4, 5 (2025). Adaptado.\n\nSuponha que, em cada método de cozimento, cada parte do ovo (clara e gema) seja aquecida de uma temperatura inicial de 20 ºC até as respectivas temperaturas finais apresentadas na figura. A quantidade de calor total recebida Q<sub>n</sub> pelo conjunto gema + clara para o método de cozimento (n = 1, 2, 3, 4), em ordem crescente, é:\n\nNote e adote:\nCalor específico a pressão constante:\nClara: 3,8 J/g.K; Gema: 3,1 J/g.K.\nMassa do ovo = 50 g.\nAssuma que a massa da clara seja igual à da gema.\n\n(A) Q<sub>4</sub><Q<sub>1</sub><Q<sub>3</sub><Q<sub>2</sub>\n(B) Q<sub>3</sub><Q<sub>4</sub><Q<sub>2</sub><Q<sub>1</sub>\n(C) Q<sub>1</sub><Q<sub>3</sub><Q<sub>2</sub><Q<sub>4</sub>\n(D) Q<sub>3</sub><Q<sub>2</sub><Q<sub>4</sub><Q<sub>1</sub>\n(E) Q<sub>4</sub><Q<sub>3</sub><Q<sub>1</sub><Q<sub>2</sub>",
+  "figuras": [
+    "fuvest-2026-q71-1.png"
+  ],
+  "gabarito": "B",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. Clara e gema têm 25 g cada (metade de 50 g). Calor sensível: <i>Q</i> = <i>m c</i> Δθ, com Δθ medido a partir de 20 °C.\n2. Leitura da figura (clara / gema): (1) 100 °C / 100 °C; (2) 97 °C / 82 °C; (3) 65 °C / 65 °C; (4) 85 °C / 67 °C.\n3. Q<sub>1</sub> = 25·3,8·80 + 25·3,1·80 = 7600 + 6200 = 13 800 J.\n4. Q<sub>2</sub> = 25·3,8·77 + 25·3,1·62 = 7315 + 4805 = 12 120 J.\n5. Q<sub>3</sub> = 25·3,8·45 + 25·3,1·45 = 4275 + 3487,5 ≈ 7 763 J.\n6. Q<sub>4</sub> = 25·3,8·65 + 25·3,1·47 = 6175 + 3642,5 ≈ 9 818 J.\n7. Ordem crescente: Q<sub>3</sub> < Q<sub>4</sub> < Q<sub>2</sub> < Q<sub>1</sub>.\nGabarito: B.",
+  "topicos": [
+    "calor-sensivel-e-capacidade-termica",
+    "trocas-de-calor-e-equilibrio-termico-calorimetro"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-01T12:54:03.000Z",
+  "atualizadoEm": "2026-11-01T12:54:03.000Z"
+}

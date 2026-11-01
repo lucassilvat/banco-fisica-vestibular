@@ -1,0 +1,31 @@
+{
+  "id": "fuvest-2021-q54",
+  "banca": "Fuvest",
+  "ano": 2021,
+  "numero": "54",
+  "fase": "1ª fase · Prova V",
+  "fonte": {
+    "descricao": "Fuvest, Vestibular 2021, 1ª fase (Prova de Conhecimentos Gerais), caderno de questões"
+  },
+  "enunciado": "Uma esfera metálica de massa <i>m</i> e carga elétrica +<i>q</i> descansa sobre um piso horizontal isolante, em uma região em que há um campo elétrico uniforme e também horizontal, de intensidade <i>E</i>, conforme mostrado na figura. Em certo instante, com auxílio de uma barra isolante, a esfera é erguida ao longo de uma linha vertical, com velocidade constante e contra a ação da gravidade, a uma altura total <i>h</i>, sem nunca abandonar a região de campo elétrico uniforme.\n\n[[figura 1]]\n\nAo longo do movimento descrito, os trabalhos realizados pela força gravitacional e pela força elétrica sobre a esfera são, respectivamente:\n\n(A) <i>mgh</i> e <i>qEh</i>\n(B) −<i>mgh</i> e 0\n(C) 0 e −<i>qEh</i>\n(D) −<i>mgh</i> e −<i>qEh</i>\n(E) <i>mgh</i> e 0",
+  "figuras": [
+    "fuvest-2021-q54-1.png"
+  ],
+  "gabarito": "B",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. Trabalho de uma força constante: <i>W</i> = <i>F d</i> cos α, sendo α o ângulo entre a força e o deslocamento.\n2. Peso: vertical para baixo; deslocamento: vertical para cima (α = 180°) ⇒ <i>W</i><sub>P</sub> = −<i>mgh</i>.\n3. Força elétrica: <i>qE</i>, horizontal; deslocamento vertical (α = 90°) ⇒ <i>W</i><sub>el</sub> = 0. (A esfera sobe ao longo de uma equipotencial do campo uniforme horizontal.)\nGabarito: B.",
+  "topicos": [
+    "trabalho-de-uma-forca",
+    "trabalho-da-forca-eletrica-e-energia-potencial-eletrica",
+    "campo-eletrico"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-01T12:54:20.000Z",
+  "atualizadoEm": "2026-11-01T12:54:20.000Z",
+  "revisao": {
+    "divergenciasAceitas": [
+      "qEh"
+    ],
+    "notas": "Conferência por OCR (camada de texto do PDF ilegível). O OCR leu qEh como gEh; conferido na imagem do caderno."
+  }
+}

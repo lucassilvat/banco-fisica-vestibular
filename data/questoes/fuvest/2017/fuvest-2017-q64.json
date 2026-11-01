@@ -1,0 +1,23 @@
+{
+  "id": "fuvest-2017-q64",
+  "banca": "Fuvest",
+  "ano": 2017,
+  "numero": "64",
+  "fase": "1ª fase · Prova V",
+  "fonte": {
+    "descricao": "Fuvest, Vestibular 2017, 1ª fase (Prova de Conhecimentos Gerais), caderno de questões"
+  },
+  "enunciado": "Reatores nucleares não são exclusivamente criações humanas. No período pré-cambriano, funcionou na região de Oklo, África, durante centenas de milhares de anos, um reator nuclear natural, tendo como combustível um isótopo do urânio.\nPara que tal reator nuclear natural pudesse funcionar, seria necessário que a razão entre a quantidade do isótopo físsil (<sup>235</sup>U) e a do urânio <sup>238</sup>U fosse cerca de 3%. Esse é o enriquecimento utilizado na maioria dos reatores nucleares, refrigerados a água, desenvolvidos pelo homem.\nO <sup>235</sup>U decai mais rapidamente que o <sup>238</sup>U; na Terra, atualmente, a fração do isótopo <sup>235</sup>U, em relação ao <sup>238</sup>U, é cerca de 0,7%. Com base nessas informações e nos dados fornecidos, pode-se estimar que o reator natural tenha estado em operação há\n\nNote e adote:\nM(t) = M(0) 10<sup>−λt</sup>; M(t) é a massa de um isótopo radioativo no instante t.\nλ descreve a probabilidade de desintegração por unidade de tempo.\nPara o <sup>238</sup>U, λ<sub>238</sub> ≈ 0,8 × 10<sup>−10</sup> ano<sup>−1</sup>.\nPara o <sup>235</sup>U, λ<sub>235</sub> ≈ 4,0 × 10<sup>−10</sup> ano<sup>−1</sup>.\nlog<sub>10</sub> (0,23) ≈ − 0,64\n\na) 1,2 × 10<sup>7</sup> anos.\nb) 1,6 × 10<sup>8</sup> anos.\nc) 2,0 × 10<sup>9</sup> anos.\nd) 2,4 × 10<sup>10</sup> anos.\ne) 2,8 × 10<sup>11</sup> anos.",
+  "figuras": [],
+  "gabarito": "C",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. A razão <i>r</i> = <i>M</i><sub>235</sub>/<i>M</i><sub>238</sub> evolui como <i>r</i>(<i>t</i>) = <i>r</i>(0) · 10<sup>−(λ<sub>235</sub> − λ<sub>238</sub>)<i>t</i></sup>, com λ<sub>235</sub> − λ<sub>238</sub> = 3,2 × 10<sup>−10</sup> ano<sup>−1</sup>.\n2. Da época do reator (3%) até hoje (0,7%): 0,7/3 ≈ 0,23 = 10<sup>−3,2 × 10<sup>−10</sup> <i>t</i></sup>.\n3. log<sub>10</sub> 0,23 = −0,64 ⇒ 3,2 × 10<sup>−10</sup> <i>t</i> = 0,64 ⇒ <i>t</i> = 2,0 × 10<sup>9</sup> anos.\nGabarito: C.",
+  "topicos": [
+    "radioatividade-e-decaimento",
+    "meia-vida",
+    "fissao-e-fusao-nuclear"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-01T14:43:28.000Z",
+  "atualizadoEm": "2026-11-01T14:43:28.000Z"
+}

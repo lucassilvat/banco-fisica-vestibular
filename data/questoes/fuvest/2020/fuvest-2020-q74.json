@@ -1,0 +1,23 @@
+{
+  "id": "fuvest-2020-q74",
+  "banca": "Fuvest",
+  "ano": 2020,
+  "numero": "74",
+  "fase": "1ª fase · Prova V",
+  "fonte": {
+    "descricao": "Fuvest, Vestibular 2020, 1ª fase (Prova de Conhecimentos Gerais), caderno de questões"
+  },
+  "enunciado": "Um equipamento de <i>bungee jumping</i> está sendo projetado para ser utilizado em um viaduto de 30 m de altura. O elástico utilizado tem comprimento relaxado de 10 m. Qual deve ser o mínimo valor da constante elástica desse elástico para que ele possa ser utilizado com segurança no salto por uma pessoa cuja massa, somada à do equipamento de proteção a ela conectado, seja de 120 kg?\n\nNote e adote:\nDespreze a massa do elástico, as forças dissipativas e as dimensões da pessoa;\nAceleração da gravidade = 10 m/s<sup>2</sup>.\n\n(A) 30 N/m\n(B) 80 N/m\n(C) 90 N/m\n(D) 160 N/m\n(E) 180 N/m",
+  "figuras": [],
+  "gabarito": "E",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. Com segurança, a pessoa deve parar no máximo ao chegar ao chão: queda total de 30 m, com o elástico esticado <i>x</i> = 30 − 10 = 20 m.\n2. Conservação da energia (no ponto mais baixo a velocidade é zero): <i>m g h</i> = <i>k x</i><sup>2</sup>/2.\n3. 120 · 10 · 30 = <i>k</i> · 20<sup>2</sup>/2 ⇒ 36 000 = 200 <i>k</i> ⇒ <i>k</i> = 180 N/m.\n4. Com <i>k</i> menor, o elástico esticaria mais de 20 m e a pessoa atingiria o chão; por isso 180 N/m é o valor mínimo.\nGabarito: E.",
+  "topicos": [
+    "energia-potencial-elastica",
+    "conservacao-da-energia-mecanica",
+    "forca-elastica-lei-de-hooke"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-01T12:54:17.000Z",
+  "atualizadoEm": "2026-11-01T12:54:17.000Z"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "fuvest-2020-q77",
+  "banca": "Fuvest",
+  "ano": 2020,
+  "numero": "77",
+  "fase": "1ª fase · Prova V",
+  "fonte": {
+    "descricao": "Fuvest, Vestibular 2020, 1ª fase (Prova de Conhecimentos Gerais), caderno de questões"
+  },
+  "enunciado": "Um solenoide muito longo é percorrido por uma corrente elétrica <i>I</i>, conforme mostra a figura 1.\n\n[[figura 1]]\n\nFigura 1\n\nEm um determinado instante, uma partícula de carga <i>q</i> positiva desloca‐se com velocidade instantânea <i>v</i>⃗ perpendicular ao eixo do solenoide, na presença de um campo elétrico na direção do eixo do solenoide. A figura 2 ilustra essa situação, em uma seção reta definida por um plano que contém o eixo do solenoide.\n\n[[figura 2]]\n\nFigura 2\n\nO diagrama que representa corretamente as forças elétrica <i>F</i>⃗<sub><i>E</i></sub> e magnética <i>F</i>⃗<sub><i>B</i></sub> atuando sobre a partícula é:\n\n(A)\n[[figura 3]]\n(B)\n[[figura 4]]\n(C)\n[[figura 5]]\n(D)\n[[figura 6]]\n(E)\n[[figura 7]]",
+  "figuras": [
+    "fuvest-2020-q77-1.png",
+    "fuvest-2020-q77-2.png",
+    "fuvest-2020-q77-3.png",
+    "fuvest-2020-q77-4.png",
+    "fuvest-2020-q77-5.png",
+    "fuvest-2020-q77-6.png",
+    "fuvest-2020-q77-7.png"
+  ],
+  "gabarito": "A",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. Força elétrica: carga positiva ⇒ <i>F</i>⃗<sub><i>E</i></sub> = <i>q E</i>⃗, no mesmo sentido de <i>E</i>⃗: para a direita (ao longo do eixo).\n2. Campo do solenoide: na figura 2, a corrente sai do papel nas espiras de cima (⊙) e entra nas de baixo (⊗). Pela regra da mão direita, no interior o campo magnético é paralelo ao eixo e aponta para a direita.\n3. Velocidade: a partícula (⊗) se move para dentro do papel, perpendicular a <i>B</i>⃗.\n4. Força magnética: <i>F</i>⃗<sub><i>B</i></sub> = <i>q v</i>⃗ × <i>B</i>⃗. Com <i>v</i>⃗ entrando no papel e <i>B</i>⃗ para a direita, a regra da mão direita dá <i>F</i>⃗<sub><i>B</i></sub> para baixo, no plano do papel.\n5. Diagrama com <i>F</i>⃗<sub><i>E</i></sub> para a direita e <i>F</i>⃗<sub><i>B</i></sub> para baixo: alternativa A.\nGabarito: A.",
+  "topicos": [
+    "campo-magnetico-de-espira-e-solenoide",
+    "forca-magnetica-sobre-carga-em-movimento",
+    "campo-eletrico"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-01T12:54:17.000Z",
+  "atualizadoEm": "2026-11-01T12:54:17.000Z"
+}

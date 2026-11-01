@@ -1,0 +1,25 @@
+{
+  "id": "fuvest-2019-q13",
+  "banca": "Fuvest",
+  "ano": 2019,
+  "numero": "13",
+  "fase": "1ª fase · Prova V",
+  "fonte": {
+    "descricao": "Fuvest, Vestibular 2019, 1ª fase (Prova de Conhecimentos Gerais), caderno de questões"
+  },
+  "enunciado": "Os grandes aviões comerciais voam em altitudes onde o ar é rarefeito e a pressão atmosférica é baixa. Devido a isso, eles têm o seu interior pressurizado em uma pressão igual à atmosférica na altitude de 2.000 m. A figura mostra o gráfico da pressão atmosférica em função da altitude.\n\n[[figura 1]]\n\nA força, em N, a que fica submetida uma janela plana de vidro, de 20 x 30 cm<sup>2</sup>, na cabine de passageiros na altitude de 10.000 m, é, aproximadamente,\n\n(A) 12.400\n(B) 6.400\n(C) 4.800\n(D) 3.200\n(E) 1.600",
+  "figuras": [
+    "fuvest-2019-q13-1.png"
+  ],
+  "gabarito": "D",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. Pressão interna (cabine) = pressão atmosférica a 2.000 m: pelo gráfico, cerca de 80.000 Pa.\n2. Pressão externa a 10.000 m: pelo gráfico, cerca de 26.000 Pa.\n3. Diferença: Δ<i>p</i> ≈ 80.000 − 26.000 = 54.000 Pa.\n4. Área da janela: 20 cm × 30 cm = 600 cm<sup>2</sup> = 0,06 m<sup>2</sup>.\n5. Força resultante: <i>F</i> = Δ<i>p</i> · <i>A</i> ≈ 54.000 · 0,06 ≈ 3.200 N.\nGabarito: D.",
+  "topicos": [
+    "pressao",
+    "pressao-atmosferica-e-experimento-de-torricelli",
+    "leitura-e-interpretacao-de-graficos"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-01T14:43:25.000Z",
+  "atualizadoEm": "2026-11-01T14:43:25.000Z"
+}

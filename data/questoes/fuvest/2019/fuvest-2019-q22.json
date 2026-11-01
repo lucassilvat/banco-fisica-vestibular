@@ -1,0 +1,25 @@
+{
+  "id": "fuvest-2019-q22",
+  "banca": "Fuvest",
+  "ano": 2019,
+  "numero": "22",
+  "fase": "1ª fase · Prova V",
+  "fonte": {
+    "descricao": "Fuvest, Vestibular 2019, 1ª fase (Prova de Conhecimentos Gerais), caderno de questões"
+  },
+  "enunciado": "No diagrama P x V da figura, <b>A</b>, <b>B</b> e <b>C</b> representam transformações possíveis de um gás entre os estados I e II.\n\n[[figura 1]]\n\nCom relação à variação ΔU da energia interna do gás e ao trabalho W por ele realizado, entre esses estados, é correto afirmar que\n\n(A) ΔU<sub>A</sub> = ΔU<sub>B</sub> = ΔU<sub>C</sub> e W<sub>C</sub> > W<sub>B</sub> > W<sub>A</sub>.\n(B) ΔU<sub>A</sub> > ΔU<sub>C</sub> > ΔU<sub>B</sub> e W<sub>C</sub> = W<sub>A</sub> < W<sub>B</sub>.\n(C) ΔU<sub>A</sub> < ΔU<sub>B</sub> < ΔU<sub>C</sub> e W<sub>C</sub> > W<sub>B</sub> > W<sub>A</sub>.\n(D) ΔU<sub>A</sub> = ΔU<sub>B</sub> = ΔU<sub>C</sub> e W<sub>C</sub> = W<sub>A</sub> > W<sub>B</sub>.\n(E) ΔU<sub>A</sub> > ΔU<sub>B</sub> > ΔU<sub>C</sub> e W<sub>C</sub> = W<sub>B</sub> = W<sub>A</sub>.",
+  "figuras": [
+    "fuvest-2019-q22-1.png"
+  ],
+  "gabarito": "A",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. A energia interna é função de estado: as três transformações ligam os mesmos estados I e II ⇒ ΔU<sub>A</sub> = ΔU<sub>B</sub> = ΔU<sub>C</sub>.\n2. O trabalho é a área sob a curva no diagrama P × V (expansão de V<sub>I</sub> a V<sub>II</sub>).\n3. C passa pela pressão mais alta (isobárica em cima e depois isocórica): maior área. A faz primeiro a isocórica e depois a isobárica em pressão baixa: menor área. B (reta diagonal) fica entre as duas.\n4. W<sub>C</sub> > W<sub>B</sub> > W<sub>A</sub>.\nGabarito: A.",
+  "topicos": [
+    "energia-interna",
+    "trabalho-em-transformacao-gasosa-grafico-p-v",
+    "primeira-lei-da-termodinamica"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-01T14:43:25.000Z",
+  "atualizadoEm": "2026-11-01T14:43:25.000Z"
+}

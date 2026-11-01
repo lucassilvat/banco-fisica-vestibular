@@ -1,0 +1,24 @@
+{
+  "id": "fuvest-2018-q06",
+  "banca": "Fuvest",
+  "ano": 2018,
+  "numero": "6",
+  "fase": "1ª fase · Prova V",
+  "fonte": {
+    "descricao": "Fuvest, Vestibular 2018, 1ª fase (Prova de Conhecimentos Gerais), caderno de questões"
+  },
+  "enunciado": "Uma caminhonete, de massa 2.000 kg, bateu na traseira de um sedã, de massa 1.000 kg, que estava parado no semáforo, em uma rua horizontal. Após o impacto, os dois veículos deslizaram como um único bloco. Para a perícia, o motorista da caminhonete alegou que estava a menos de 20 km/h quando o acidente ocorreu. A perícia constatou, analisando as marcas de frenagem, que a caminhonete arrastou o sedã, em linha reta, por uma distância de 10 m. Com este dado e estimando que o coeficiente de atrito cinético entre os pneus dos veículos e o asfalto, no local do acidente, era 0,5, a perícia concluiu que a velocidade real da caminhonete, em km/h, no momento da colisão era, aproximadamente,\n\nNote e adote:\nAceleração da gravidade: 10 m/s<sup>2</sup>.\nDesconsidere a massa dos motoristas e a resistência do ar.\n\n(A) 10.\n(B) 15.\n(C) 36.\n(D) 48.\n(E) 54.",
+  "figuras": [],
+  "gabarito": "E",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. Depois da batida, o bloco desliza freado pelo atrito: <i>a</i> = μ<i>g</i> = 0,5 · 10 = 5 m/s<sup>2</sup>.\n2. Torricelli até parar em 10 m: <i>V</i><sup>2</sup> = 2 · 5 · 10 = 100 ⇒ <i>V</i> = 10 m/s logo após a colisão.\n3. Colisão perfeitamente inelástica (conservação da quantidade de movimento): 2.000 · <i>v</i> = (2.000 + 1.000) · 10 ⇒ <i>v</i> = 15 m/s.\n4. 15 m/s = 15 · 3,6 = 54 km/h (bem acima dos 20 km/h alegados).\nGabarito: E.",
+  "topicos": [
+    "conservacao-da-quantidade-de-movimento",
+    "colisoes-elasticas-e-inelasticas",
+    "forca-de-atrito-estatico-e-cinetico",
+    "movimento-retilineo-uniformemente-variado-mruv"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-01T14:43:26.000Z",
+  "atualizadoEm": "2026-11-01T14:43:26.000Z"
+}

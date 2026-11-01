@@ -1,0 +1,24 @@
+{
+  "id": "fuvest-2022-q55",
+  "banca": "Fuvest",
+  "ano": 2022,
+  "numero": "55",
+  "fase": "1ª fase · Prova V",
+  "fonte": {
+    "descricao": "Fuvest, Vestibular 2022, 1ª fase (Prova de Conhecimentos Gerais), caderno de questões"
+  },
+  "enunciado": "Um componente eletrônico tem curva característica mostrada no gráfico a seguir:\n\n[[figura 1]]\n\nA resistência elétrica do componente na região em que ele se comporta como um resistor ôhmico vale aproximadamente:\n\n(A) 0,4 Ω\n(B) 0,6 Ω\n(C) 0,8 Ω\n(D) 1,0 Ω\n(E) 1,2 Ω",
+  "figuras": [
+    "fuvest-2022-q55-1.png"
+  ],
+  "gabarito": "C",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. O componente se comporta como resistor ôhmico onde a curva ddp × corrente é uma reta passando pela origem: no trecho inicial (correntes baixas).\n2. Nesse trecho, lê-se aproximadamente 0,2 V para 0,25 A (ou 0,4 V para 0,5 A).\n3. <i>R</i> = <i>U</i>/<i>i</i> = 0,4/0,5 = 0,8 Ω.\nGabarito: C.",
+  "topicos": [
+    "primeira-lei-de-ohm",
+    "leitura-e-interpretacao-de-graficos"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-01T12:54:14.000Z",
+  "atualizadoEm": "2026-11-01T12:54:14.000Z"
+}
