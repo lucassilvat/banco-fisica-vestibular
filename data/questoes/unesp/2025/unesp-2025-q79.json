@@ -1,0 +1,25 @@
+{
+  "id": "unesp-2025-q79",
+  "banca": "Unesp",
+  "ano": 2025,
+  "numero": "79",
+  "fase": "1ª fase",
+  "fonte": {
+    "descricao": "Vunesp, Vestibular Unesp 2025, 1ª fase (Prova de Conhecimentos Gerais), caderno de questões"
+  },
+  "enunciado": "A figura representa um termômetro a gás, constituído por um balão com gás ideal conectado a um sistema de vasos comunicantes que contém mercúrio. Para aferir a temperatura de um determinado líquido colocado em um recipiente, o balão, com 0,25 mol de gás, foi mergulhado nesse líquido até que o equilíbrio térmico entre o gás e o líquido fosse atingido, estabilizando o desnível entre as colunas de mercúrio em 152 mm, conforme a figura. Considere que, nessa medição, as capacidades térmicas do balão e dos vasos comunicantes sejam desprezíveis.\n\n[[figura 1]]\n\nSabendo que, na situação de equilíbrio, o volume ocupado pelo gás foi de 6 × 10<sup>–3</sup> m<sup>3</sup>, que a pressão atmosférica no local do experimento era de 10<sup>5</sup> Pa = 760 mmHg, e considerando o valor de 8 J/mol · K para a constante universal dos gases ideais, a temperatura obtida para o líquido, nesse experimento, foi de\n\n(A) 350 K.\n(B) 380 K.\n(C) 370 K.\n(D) 360 K.\n(E) 340 K.",
+  "figuras": [
+    "unesp-2025-q79-1.png"
+  ],
+  "gabarito": "D",
+  "gabaritoFonte": "oficial",
+  "resolucao": "1. Pela figura, a coluna de mercúrio do ramo aberto (sujeito à pressão atmosférica) está 152 mm acima da do ramo ligado ao gás. Logo, a pressão do gás é maior que a atmosférica: <i>p</i> = 760 + 152 = 912 mmHg.\n2. Conversão: 912/760 = 1,2 ⇒ <i>p</i> = 1,2 × 10<sup>5</sup> Pa.\n3. Equação de Clapeyron: <i>pV</i> = <i>nRT</i> ⇒ <i>T</i> = <i>pV</i>/(<i>nR</i>) = (1,2 × 10<sup>5</sup> · 6 × 10<sup>−3</sup>)/(0,25 · 8) = 720/2 = 360 K.\nGabarito: D.",
+  "topicos": [
+    "gas-ideal-e-equacao-de-clapeyron",
+    "vasos-comunicantes",
+    "teorema-de-stevin-pressao-hidrostatica"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-01T15:46:34.000Z",
+  "atualizadoEm": "2026-11-01T15:46:34.000Z"
+}

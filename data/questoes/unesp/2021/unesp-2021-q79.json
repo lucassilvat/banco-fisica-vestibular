@@ -1,0 +1,29 @@
+{
+  "id": "unesp-2021-q79",
+  "banca": "Unesp",
+  "ano": 2021,
+  "numero": "79",
+  "fase": "1ª fase",
+  "fonte": {
+    "descricao": "Vunesp, Vestibular Unesp 2021, 1ª fase (Prova de Conhecimentos Gerais, cursos da área de Biológicas), caderno de questões"
+  },
+  "enunciado": "Para analisar a queda dos corpos, um estudante abandona, simultaneamente, duas esferas maciças, uma de madeira e outra de aço, de uma mesma altura em relação ao solo horizontal. Se a massa da esfera de aço fosse maior do que a massa da esfera de madeira e não houvesse resistência do ar, nesse experimento\n\n(A) a esfera de madeira chegaria ao solo com menor velocidade do que a de aço.\n(B) as duas esferas chegariam ao solo com a mesma energia mecânica.\n(C) a esfera de madeira cairia com aceleração escalar menor do que a de aço.\n(D) a esfera de aço chegaria ao solo com mais energia cinética do que a de madeira.\n(E) a esfera de aço chegaria primeiro ao solo.",
+  "figuras": [],
+  "gabarito": "D",
+  "gabaritoFonte": "oficial",
+  "resolucao": "1. Sem resistência do ar, as duas esferas caem em queda livre com a mesma aceleração <i>g</i>, independentemente da massa: (C) é falsa.\n2. Partindo do repouso, da mesma altura <i>h</i> e com a mesma aceleração, chegam juntas ao solo, com a mesma velocidade <i>v</i> = √(2<i>gh</i>): (A) e (E) são falsas.\n3. A energia mecânica inicial é <i>mgh</i>, que depende da massa; como a esfera de aço tem massa maior, sua energia mecânica é maior: (B) é falsa.\n4. No solo, <i>E</i><sub>c</sub> = <i>mv</i>²/2 com o mesmo <i>v</i> para as duas; a de aço, de maior massa, tem mais energia cinética: (D) é verdadeira.\nGabarito: D.",
+  "topicos": [
+    "queda-livre-e-lancamento-vertical",
+    "conservacao-da-energia-mecanica",
+    "energia-cinetica-e-teorema-trabalho-energia"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-01T15:46:12.000Z",
+  "atualizadoEm": "2026-11-01T15:46:12.000Z",
+  "revisao": {
+    "divergenciasAceitas": [
+      "horizontal"
+    ],
+    "notas": "Hífen invisível no PDF (h­orizontal); conferido na imagem."
+  }
+}

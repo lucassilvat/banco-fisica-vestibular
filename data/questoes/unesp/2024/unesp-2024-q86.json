@@ -1,0 +1,29 @@
+{
+  "id": "unesp-2024-q86",
+  "banca": "Unesp",
+  "ano": 2024,
+  "numero": "86",
+  "fase": "1ª fase",
+  "fonte": {
+    "descricao": "Vunesp, Vestibular Unesp 2024, 1ª fase (Prova de Conhecimentos Gerais), caderno de questões"
+  },
+  "enunciado": "Uma placa quadrada de massa 2 kg e lado 2 e uma placa retangular de massa 3 kg e lados 2 por 4 possuem suas respectivas massas homogeneamente distribuídas, espessuras desprezíveis e estão dispostas, uma a uma, em um plano cartesiano de eixos ortogonais. Nesse plano cartesiano, as coordenadas do centro de massa C do conjunto das duas placas são calculadas da seguinte forma:\n\nx<sub>c</sub> = (2 · 2 + 3 · 10)/(2 + 3) = 6,8\n\ny<sub>c</sub> = (2 · 3 + 3 ·5)/(2 + 3) = 4,2\n\n[[figura 1]]\n\nAcrescentando-se nesse plano uma placa circular também de espessura desprezível, com centro (2, 1), raio 1 e massa 3 kg, o centro de massa do novo conjunto, agora com as três placas, passará a ter coordenadas\n\n(A) (4,75; 3).\n(B) (3,5; 2,25).\n(C) (6; 3,5).\n(D) (5; 3).\n(E) (6; 4).",
+  "figuras": [
+    "unesp-2024-q86-1.png"
+  ],
+  "gabarito": "D",
+  "gabaritoFonte": "oficial",
+  "resolucao": "1. Pela figura, os centros das placas são: quadrada (2 kg) em (2, 3); retangular (3 kg) em (10, 5). A placa circular homogênea tem o centro de massa no seu centro, (2, 1), com 3 kg.\n2. Massa total: 2 + 3 + 3 = 8 kg.\n3. x<sub>C</sub> = (2 · 2 + 3 · 10 + 3 · 2)/8 = 40/8 = 5.\n4. y<sub>C</sub> = (2 · 3 + 3 · 5 + 3 · 1)/8 = 24/8 = 3.\n5. Novo centro de massa: (5; 3).\nGabarito: D.",
+  "topicos": [
+    "centro-de-massa"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-01T15:46:30.000Z",
+  "atualizadoEm": "2026-11-01T15:46:30.000Z",
+  "revisao": {
+    "divergenciasAceitas": [
+      "6,8"
+    ],
+    "notas": "As duas fórmulas do centro de massa estão desenhadas (editor de equações) e não constam da camada de texto; transcritas da imagem do caderno."
+  }
+}

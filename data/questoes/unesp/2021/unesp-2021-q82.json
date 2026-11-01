@@ -1,0 +1,28 @@
+{
+  "id": "unesp-2021-q82",
+  "banca": "Unesp",
+  "ano": 2021,
+  "numero": "82",
+  "fase": "1ª fase",
+  "fonte": {
+    "descricao": "Vunesp, Vestibular Unesp 2021, 1ª fase (Prova de Conhecimentos Gerais, cursos da área de Biológicas), caderno de questões"
+  },
+  "enunciado": "Procurando economizar energia, Sr. Artur substituiu seu televisor de LCD de 100 W por um de LED de 60 W, pelo qual pagou R$ 1.200,00. Considere que o Sr. Artur utilizará seu novo televisor, em média, durante cinco horas por dia e que 1 kWh de energia elétrica custe R$ 0,50. O valor pago pelo novo televisor corresponderá à energia elétrica economizada devido à troca dos televisores em, aproximadamente,\n\n(A) 450 meses.\n(B) 400 meses.\n(C) 600 meses.\n(D) 550 meses.\n(E) 500 meses.",
+  "figuras": [],
+  "gabarito": "B",
+  "gabaritoFonte": "oficial",
+  "resolucao": "1. Redução de potência: 100 − 60 = 40 W = 0,04 kW.\n2. Energia economizada por dia: 0,04 kW · 5 h = 0,2 kWh.\n3. Economia por dia: 0,2 · R$ 0,50 = R$ 0,10.\n4. Dias necessários para somar R$ 1.200,00: 1200/0,10 = 12 000 dias.\n5. Em meses de 30 dias: 12 000/30 = 400 meses.\nGabarito: B.",
+  "topicos": [
+    "energia-eletrica-e-consumo-kwh-conta-de-luz",
+    "potencia-eletrica-e-efeito-joule"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-01T15:46:12.000Z",
+  "atualizadoEm": "2026-11-01T15:46:12.000Z",
+  "revisao": {
+    "divergenciasAceitas": [
+      "pagou"
+    ],
+    "notas": "Hífen invisível no PDF (p­agou); conferido na imagem."
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "id": "unesp-2023-q82",
+  "banca": "Unesp",
+  "ano": 2023,
+  "numero": "82",
+  "fase": "1ª fase",
+  "fonte": {
+    "descricao": "Vunesp, Vestibular Unesp 2023, 1ª fase (Prova de Conhecimentos Gerais), caderno de questões"
+  },
+  "enunciado": "Um circuito elétrico é constituído por um gerador ideal de força eletromotriz E, um amperímetro também ideal Ⓐ e dois resistores ôhmicos de resistências R<sub>1</sub> e R<sub>2</sub>, conforme a figura. O gráfico abaixo do circuito representa a variação do potencial elétrico (V) ao longo dos pontos do ramo PZ que contém os dois resistores, adotando o potencial do ponto P como sendo nulo.\n\n[[figura 1]]\n\nSabendo que o amperímetro indica 2 A, as resistências R<sub>1</sub> e R<sub>2</sub> são, respectivamente, iguais a\n\n(A) 20 Ω e 10 Ω.\n(B) 30 Ω e 10 Ω.\n(C) 35 Ω e 5 Ω.\n(D) 25 Ω e 15 Ω.\n(E) 20 Ω e 15 Ω.",
+  "figuras": [
+    "unesp-2023-q82-1.png"
+  ],
+  "gabarito": "D",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. No gráfico, entre Q e S (gerador) o potencial sobe de 0 para 80 V; entre T e U (R<sub>1</sub>) cai de 80 V para 30 V; entre X e Y (R<sub>2</sub>) cai de 30 V para 0. Nos fios o potencial não muda.\n2. Os resistores estão em série com o amperímetro: a corrente em ambos é 2 A.\n3. Lei de Ohm: R<sub>1</sub> = U<sub>1</sub>/i = (80 − 30)/2 = 25 Ω; R<sub>2</sub> = U<sub>2</sub>/i = 30/2 = 15 Ω.\nGabarito: D.",
+  "topicos": [
+    "primeira-lei-de-ohm",
+    "associacao-de-resistores",
+    "potencial-eletrico-e-diferenca-de-potencial"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-01T15:46:25.000Z",
+  "atualizadoEm": "2026-11-01T15:46:25.000Z"
+}

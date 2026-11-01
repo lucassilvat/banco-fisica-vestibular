@@ -48,6 +48,12 @@ Para gravar questões, usam-se os lotes da etapa `publicar` (docs/WORKFLOW.md).
     (menos 2016 Q67, Geografia, que o Lucas mandou deixar de fora). Em 2016 e 2017 as
     alternativas são "a)" minúsculas, como no caderno. O texto do caderno de 2018 está
     na camada de texto, mas os números das questões não: o segmentador os acha por OCR.
+11. v1.5.0: Unesp 2021–2026 (1ª fase, Conhecimentos Gerais), 49 questões: Q76–Q82 de cada
+    ano e 7 interdisciplinares em dúvida aprovadas (2021 Q84; 2023 Q70 e Q87; 2024 Q86;
+    2025 Q48, Q84 e Q90). Questões só de Química ficaram de fora a pedido do Lucas.
+    2021 e 2022 são os cadernos da área de Biológicas. Alternativas "(A)"; tabelas,
+    alternativas-desenho e rótulos "Figura N" entram como figura; fórmulas desenhadas
+    (editor de equações) são transcritas da imagem com a divergência registrada.
 
 ## Pendências
 
@@ -62,6 +68,11 @@ Para gravar questões, usam-se os lotes da etapa `publicar` (docs/WORKFLOW.md).
   Conferir com atenção 2020 Q78 (trajetória 4) e 2023 Q70. Fuvest 2016–2019 também está
   toda como `resolucao-propria` (conferir 2016 Q35 e 2017 Q58, que dependem de leitura de
   figura).
+- **Gabaritos Unesp**: 2023 está como `resolucao-propria` sem conferência externa (o
+  gabarito oficial só foi achado em imagem). 2022 confere com o Estratégia e 2026 com o
+  gabarito divulgado pela Quero Bolsa; trocar para `oficial` quando houver o PDF da Vunesp.
+  Conferir com atenção 2024 Q82 (sentido do campo do solenoide, lido na figura) e 2025 Q81
+  (leitura das cotas 1,8 m e 0,6 m), que dependem de figura.
 - **Fuvest 2022 Q54 anulada**: mantida no banco com o gabarito pretendido (B) e aviso.
   Decidir se fica no app ou sai.
 - **Critério "Química com Física forte"**: na Fuvest o Lucas mandou incluir. Decidir se
@@ -83,7 +94,7 @@ Para gravar questões, usam-se os lotes da etapa `publicar` (docs/WORKFLOW.md).
   Q45–Q48, 2021 B Q33). Não incluir sem novo pedido.
 - **Release v1.0.0 no GitHub**: o envio de tags falhou pela sessão; criar pela aba
   Releases do site, se desejado. O `CHANGELOG.md` registra a versão.
-- **Próximas provas**: o `painel` mostra 32 tópicos sem questão (mais pobre:
+- **Próximas provas**: o `painel` mostra 26 tópicos sem questão (v1.5.0) (mais pobre:
   Eletromagnetismo). Candidatas naturais: Fuvest anteriores a 2020 (mesmo formato),
   Unicamp anteriores a 2016, depois Unesp e ENEM (exigem ajustar o segmentador).
 

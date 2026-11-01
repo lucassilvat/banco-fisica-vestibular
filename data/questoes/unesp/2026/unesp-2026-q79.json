@@ -1,0 +1,25 @@
+{
+  "id": "unesp-2026-q79",
+  "banca": "Unesp",
+  "ano": 2026,
+  "numero": "79",
+  "fase": "1ª fase",
+  "fonte": {
+    "descricao": "Vunesp, Vestibular Unesp 2026, 1ª fase (Prova de Conhecimentos Gerais), caderno de questões"
+  },
+  "enunciado": "A figura 1 mostra um veículo em marcha à ré com velocidade constante v⃗, aproximando-se de um muro, em uma direção perpendicular a ele. Nessa situação, o espelho esférico convexo externo esquerdo do veículo está a uma distância d do muro.\n\n[[figura 1]]\n\nA figura 2 representa uma visão superior desse espelho, do muro e da imagem do muro em dois instantes, t<sub>0</sub> = 0 e t<sub>1</sub> = 2 s. No instante t<sub>0</sub>, o espelho está a uma distância d<sub>0</sub> do muro e a imagem do muro dista 8/11 m do espelho. No instante t<sub>1</sub>, o espelho está a uma distância d<sub>1</sub> do muro e a imagem do muro dista 20/29 m do espelho.\n\n[[figura 2]]\n\nSabendo que a distância focal desse espelho é f = – 0,8 m, o módulo da velocidade v com que o carro se aproxima do muro é\n\n(A) 0,5 m/s.\n(B) 1,2 m/s.\n(C) 1,5 m/s.\n(D) 0,8 m/s.\n(E) 1,0 m/s.",
+  "figuras": [
+    "unesp-2026-q79-1.png",
+    "unesp-2026-q79-2.png"
+  ],
+  "gabarito": "C",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. A imagem formada pelo espelho convexo é virtual: <i>p</i>′ negativo. Equação de Gauss: 1/<i>p</i> = 1/<i>f</i> − 1/<i>p</i>′, com 1/<i>f</i> = −1/0,8 = −1,25 m<sup>−1</sup>.\n2. Em t<sub>0</sub>: <i>p</i>′ = −8/11 m ⇒ 1/d<sub>0</sub> = −1,25 + 11/8 = −1,25 + 1,375 = 0,125 ⇒ d<sub>0</sub> = 8 m.\n3. Em t<sub>1</sub>: <i>p</i>′ = −20/29 m ⇒ 1/d<sub>1</sub> = −1,25 + 29/20 = −1,25 + 1,45 = 0,2 ⇒ d<sub>1</sub> = 5 m.\n4. Velocidade constante: <i>v</i> = (8 − 5)/2 = 1,5 m/s.\nGabarito: C.",
+  "topicos": [
+    "espelhos-esfericos-equacao-de-gauss-e-aumento",
+    "movimento-retilineo-uniforme-mru"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-01T15:46:38.000Z",
+  "atualizadoEm": "2026-11-01T15:46:38.000Z"
+}

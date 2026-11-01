@@ -1,0 +1,30 @@
+{
+  "id": "unesp-2024-q80",
+  "banca": "Unesp",
+  "ano": 2024,
+  "numero": "80",
+  "fase": "1ª fase",
+  "fonte": {
+    "descricao": "Vunesp, Vestibular Unesp 2024, 1ª fase (Prova de Conhecimentos Gerais), caderno de questões"
+  },
+  "enunciado": "A icterícia, condição bastante comum em recém-nascidos, é caracterizada pela cor amarelada da pele. Esse problema relaciona-se à dificuldade do fígado para metabolizar a bilirrubina, um pigmento gerado pelo metabolismo das células vermelhas do sangue. A principal terapia em uso para icterícia é a fototerapia, com a exposição do recém-nascido a uma fonte luminosa.\n\nDevido às propriedades da bilirrubina e da pele, a luz mais efetiva para esse tratamento é a com comprimentos de onda predominantemente entre 425 nm e 475 nm, no espectro da cor azul. Luzes de outras cores, como a verde, têm espectro de emissão fora do espectro de absorção da molécula de bilirrubina. Já a luz ultravioleta emitida pelas lâmpadas de fototerapia é praticamente absorvida em sua totalidade pelo vidro da lâmpada e pela cobertura da unidade de fototerapia.\n\n(<i>Scientia Medica</i>, v. 15, abril/junho de 2005. Adaptado.)\n\nA figura mostra a curva de absorção da bilirrubina em função do comprimento de onda da luz.\n\n[[figura 1]]\n\n(www.sarda.org.ar. Adaptado.)\n\nAdotando-se c = 3 × 10<sup>8</sup> m/s, sabendo que 1 nm = 10<sup>–9</sup> m e de acordo com as informações do texto e da figura, tem-se que\n\n(A) as cores com frequências entre 0,425 Hz e 0,475 Hz são mais efetivas no tratamento de fototerapia para a icterícia.\n(B) as cores com comprimentos de onda maiores do que os da cor verde são as mais absorvidas pela bilirrubina.\n(C) a luz ultravioleta, por ter frequência menor do que a luz azul, não é efetiva no tratamento da icterícia.\n(D) a cor com frequência aproximada de 6,5 × 10<sup>14</sup> Hz é a mais efetiva no tratamento da icterícia.\n(E) cores de frequências maiores do que a da cor verde não são absorvidas pela molécula da bilirrubina.",
+  "figuras": [
+    "unesp-2024-q80-1.png"
+  ],
+  "gabarito": "D",
+  "gabaritoFonte": "oficial",
+  "resolucao": "1. A curva de absorção tem máximo em 461 nm (luz azul).\n2. Frequência correspondente: <i>f</i> = <i>c</i>/λ = 3 × 10<sup>8</sup>/(461 × 10<sup>−9</sup>) ≈ 6,5 × 10<sup>14</sup> Hz. Logo, (D) é correta.\n3. (A) Falsa: 425 nm a 475 nm são comprimentos de onda; as frequências são da ordem de 10<sup>14</sup> Hz, não 0,4 Hz.\n4. (B) Falsa: acima do verde (≳ 500 nm) a absorção é praticamente nula.\n5. (C) Falsa: a luz ultravioleta tem frequência maior que a azul; ela não é efetiva porque é absorvida pelo vidro da lâmpada e pela cobertura.\n6. (E) Falsa: frequências maiores que a do verde (azul, violeta) são justamente as mais absorvidas.\nGabarito: D.",
+  "topicos": [
+    "espectro-eletromagnetico",
+    "equacao-fundamental-da-ondulatoria-v-f"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-01T15:46:30.000Z",
+  "atualizadoEm": "2026-11-01T15:46:30.000Z",
+  "revisao": {
+    "divergenciasAceitas": [
+      "amarelada"
+    ],
+    "notas": "Hífen invisível no PDF (amarela­da); conferido na imagem."
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "id": "unesp-2024-q76",
+  "banca": "Unesp",
+  "ano": 2024,
+  "numero": "76",
+  "fase": "1ª fase",
+  "fonte": {
+    "descricao": "Vunesp, Vestibular Unesp 2024, 1ª fase (Prova de Conhecimentos Gerais), caderno de questões"
+  },
+  "enunciado": "Uma pessoa estava parada com seu veículo em um semáforo. Quando a luz verde do semáforo se acendeu, o veículo partiu e o movimento realizado até o seu destino pode ser dividido em quatro trechos:\n\nTrecho 1: veículo em movimento acelerado;\n\nTrecho 2: veículo em movimento uniforme;\n\nTrecho 3: percebendo que havia passado do endereço para onde ia, a pessoa freou o veículo até parar, e inverteu o sentido de seu movimento, com a mesma aceleração escalar com que havia freado;\n\nTrecho 4: nova frenagem, chegando ao seu destino, onde parou o veículo.\n\nOs três gráficos, I, II e III, mostram como variaram, em função do tempo, três grandezas escalares associadas ao movimento desse veículo, sem identificá-las, nos quatro trechos descritos.\n\n[[figura 1]]\n\nSabendo que, enquanto se movia nesse trajeto, o veículo só esteve em movimento uniforme ou em movimento uniformemente variado, os gráficos I, II e III representam, respectivamente, as grandezas\n\n(A) posição, aceleração e velocidade.\n(B) velocidade, aceleração e posição.\n(C) velocidade, posição e aceleração.\n(D) aceleração, posição e velocidade.\n(E) aceleração, velocidade e posição.",
+  "figuras": [
+    "unesp-2024-q76-1.png"
+  ],
+  "gabarito": "D",
+  "gabaritoFonte": "oficial",
+  "resolucao": "1. Em MU e MUV a aceleração escalar é constante em cada trecho; seu gráfico é feito de segmentos horizontais. Esse é o gráfico I: positiva no trecho 1, nula no 2, negativa no 3 e positiva no 4.\n2. A velocidade varia linearmente nos trechos de MUV e é constante no MU. O gráfico III sobe (trecho 1), fica constante (trecho 2), desce passando por zero até valores negativos (trecho 3, inversão do sentido) e volta a zero (trecho 4): é a velocidade.\n3. A posição tem trechos de parábola (MUV) e de reta (MU); no gráfico II ela cresce, atinge um máximo quando a velocidade se anula (inversão) e depois diminui: é a posição.\n4. I, II e III: aceleração, posição e velocidade.\nGabarito: D.",
+  "topicos": [
+    "graficos-do-movimento-s-t-v-t-a-t",
+    "movimento-retilineo-uniformemente-variado-mruv",
+    "movimento-retilineo-uniforme-mru"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-01T15:46:30.000Z",
+  "atualizadoEm": "2026-11-01T15:46:30.000Z"
+}

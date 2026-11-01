@@ -1,0 +1,24 @@
+{
+  "id": "unesp-2023-q77",
+  "banca": "Unesp",
+  "ano": 2023,
+  "numero": "77",
+  "fase": "1ª fase",
+  "fonte": {
+    "descricao": "Vunesp, Vestibular Unesp 2023, 1ª fase (Prova de Conhecimentos Gerais), caderno de questões"
+  },
+  "enunciado": "Em um dia de treinamento, dois amigos, Alberto e Bernardo, decidem dar voltas consecutivas em um circuito de 1 000 m de comprimento, partindo simultaneamente de um mesmo ponto, porém movendo-se em sentidos opostos. Alberto caminha no sentido horário e Bernardo corre no sentido anti-horário com velocidade três vezes maior do que a de Alberto. Os dois mantêm suas velocidades escalares constantes.\n\n[[figura 1]]\n\nApós o início desse treinamento, no instante em que ocorrer o terceiro encontro entre os dois, Alberto e Bernardo terão percorrido, respectivamente,\n\n(A) 250 m e 750 m.\n(B) 1 250 m e 3 750 m.\n(C) 1 000 m e 3 000 m.\n(D) 750 m e 2 250 m.\n(E) 500 m e 1 500 m.",
+  "figuras": [
+    "unesp-2023-q77-1.png"
+  ],
+  "gabarito": "D",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. Movendo-se em sentidos opostos numa pista fechada, os dois se encontram cada vez que a soma das distâncias percorridas aumenta em uma volta (1 000 m).\n2. No terceiro encontro: <i>d</i><sub>A</sub> + <i>d</i><sub>B</sub> = 3 000 m.\n3. Com velocidades constantes e o mesmo tempo, <i>d</i><sub>B</sub> = 3<i>d</i><sub>A</sub>: 4<i>d</i><sub>A</sub> = 3 000 ⇒ <i>d</i><sub>A</sub> = 750 m e <i>d</i><sub>B</sub> = 2 250 m.\nGabarito: D.",
+  "topicos": [
+    "movimento-retilineo-uniforme-mru",
+    "movimento-relativo-e-composicao-de-velocidades"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-01T15:46:25.000Z",
+  "atualizadoEm": "2026-11-01T15:46:25.000Z"
+}

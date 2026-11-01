@@ -1,0 +1,25 @@
+{
+  "id": "unesp-2022-q77",
+  "banca": "Unesp",
+  "ano": 2022,
+  "numero": "77",
+  "fase": "1ª fase",
+  "fonte": {
+    "descricao": "Vunesp, Vestibular Unesp 2022, 1ª fase (Prova de Conhecimentos Gerais, cursos da área de Biológicas), caderno de questões"
+  },
+  "enunciado": "Um garoto gira uma esfera de 500 g ao redor de seu corpo, mantendo o braço esticado na vertical e segurando um fio ideal de comprimento 65 cm, conforme a figura. A esfera gira em uma trajetória circular contida em um plano horizontal de raio de curvatura 60 cm.\n\n[[figura 1]]\n\nAdotando g = 10 m/s<sup>2</sup> e desprezando a resistência do ar, a intensidade da força de tração que atua no fio é\n\n(A) 18 N.\n(B) 12 N.\n(C) 13 N.\n(D) 15 N.\n(E) 8 N.",
+  "figuras": [
+    "unesp-2022-q77-1.png"
+  ],
+  "gabarito": "C",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. O fio (65 cm), o raio da trajetória (60 cm) e a distância vertical entre a mão e o plano da trajetória formam um triângulo retângulo: <i>h</i> = √(65² − 60²) = 25 cm.\n2. Sobre a esfera atuam o peso e a tração. Como o movimento é num plano horizontal, a componente vertical da tração equilibra o peso: <i>T</i> · (25/65) = <i>mg</i>.\n3. Com <i>m</i> = 0,5 kg: <i>T</i> = 0,5 · 10 · 65/25 = 13 N.\n4. (A componente horizontal, <i>T</i> · 60/65 = 12 N, é a resultante centrípeta.)\nGabarito: C.",
+  "topicos": [
+    "resultante-centripeta-curvas-loop-globo-da-morte",
+    "vetores-soma-e-decomposicao",
+    "leis-de-newton"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-01T15:46:22.000Z",
+  "atualizadoEm": "2026-11-01T15:46:22.000Z"
+}

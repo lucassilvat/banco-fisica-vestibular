@@ -1,0 +1,25 @@
+{
+  "id": "unesp-2025-q78",
+  "banca": "Unesp",
+  "ano": 2025,
+  "numero": "78",
+  "fase": "1ª fase",
+  "fonte": {
+    "descricao": "Vunesp, Vestibular Unesp 2025, 1ª fase (Prova de Conhecimentos Gerais), caderno de questões"
+  },
+  "enunciado": "Uma esteira rolante é utilizada para transportar caixas para o alto de uma plataforma. Para iniciar a subida a partir do repouso, a esteira é colocada em movimento uniformemente acelerado por alguns instantes, até que as caixas atinjam uma velocidade constante, compatível com a subida. O coeficiente de atrito estático entre as superfícies das caixas e a superfície da esteira é 0,8 e a aceleração da gravidade local tem intensidade 10 m/s<sup>2</sup>.\n\n[[figura 1]]\n\nSabendo que sen θ = 0,6 e que cos θ = 0,8, a intensidade da máxima aceleração que a esteira pode ter no início de seu movimento, sem que as caixas escorreguem sobre ela, será\n\n(A) 0,4 m/s<sup>2</sup>.\n(B) 0,2 m/s<sup>2</sup>.\n(C) 0,5 m/s<sup>2</sup>.\n(D) 0,1 m/s<sup>2</sup>.\n(E) 0,3 m/s<sup>2</sup>.",
+  "figuras": [
+    "unesp-2025-q78-1.png"
+  ],
+  "gabarito": "A",
+  "gabaritoFonte": "oficial",
+  "resolucao": "1. Sobre cada caixa atuam o peso, a normal e o atrito estático. Para a caixa acelerar rampa acima junto com a esteira, o atrito aponta para cima ao longo da rampa.\n2. Normal: <i>N</i> = <i>mg</i> cos θ = <i>m</i> · 10 · 0,8 = 8<i>m</i>.\n3. Atrito estático máximo: <i>f</i><sub>máx</sub> = μ<i>N</i> = 0,8 · 8<i>m</i> = 6,4<i>m</i>.\n4. 2ª lei de Newton ao longo da rampa: <i>f</i> − <i>mg</i> sen θ = <i>ma</i>. Com o atrito máximo: 6,4<i>m</i> − 6<i>m</i> = <i>m a</i><sub>máx</sub> ⇒ <i>a</i><sub>máx</sub> = 0,4 m/s².\nGabarito: A.",
+  "topicos": [
+    "plano-inclinado",
+    "forca-de-atrito-estatico-e-cinetico",
+    "leis-de-newton"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-01T15:46:34.000Z",
+  "atualizadoEm": "2026-11-01T15:46:34.000Z"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "unesp-2021-q76",
+  "banca": "Unesp",
+  "ano": 2021,
+  "numero": "76",
+  "fase": "1ª fase",
+  "fonte": {
+    "descricao": "Vunesp, Vestibular Unesp 2021, 1ª fase (Prova de Conhecimentos Gerais, cursos da área de Biológicas), caderno de questões"
+  },
+  "enunciado": "A figura mostra a visão aérea de um parque onde existem ruas que podem ser utilizadas para corridas e caminhadas. Nesse parque há uma pista ABCA em que uma pessoa corre dando voltas sucessivas.\n\n[[figura 1]]\n\nConsiderando que as medidas dos segmentos AB, BC e AC são, respectivamente, 60 m, 80 m e 100 m, e que o tempo cronometrado para dar uma volta no trecho BCDB foi de 40 s, a velocidade escalar média desenvolvida por essa pessoa nessa volta foi de\n\n(A) 4,1 m/s.\n(B) 6,0 m/s.\n(C) 5,2 m/s.\n(D) 4,8 m/s.\n(E) 3,6 m/s.",
+  "figuras": [
+    "unesp-2021-q76-1.png"
+  ],
+  "gabarito": "D",
+  "gabaritoFonte": "oficial",
+  "resolucao": "1. Como 60² + 80² = 100², o triângulo ABC é retângulo em B, e BD é a altura relativa à hipotenusa AC (o ângulo em D é reto, como indica a figura).\n2. Relações métricas: BD = AB · BC/AC = 60 · 80/100 = 48 m; DC = BC²/AC = 80²/100 = 64 m.\n3. Comprimento da volta BCDB: BC + CD + DB = 80 + 64 + 48 = 192 m.\n4. Velocidade escalar média: <i>v</i><sub>m</sub> = Δ<i>s</i>/Δ<i>t</i> = 192/40 = 4,8 m/s.\nGabarito: D.",
+  "topicos": [
+    "velocidade-media-e-aceleracao-media"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-01T15:46:12.000Z",
+  "atualizadoEm": "2026-11-01T15:46:12.000Z"
+}

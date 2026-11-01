@@ -1,0 +1,25 @@
+{
+  "id": "unesp-2021-q77",
+  "banca": "Unesp",
+  "ano": 2021,
+  "numero": "77",
+  "fase": "1ª fase",
+  "fonte": {
+    "descricao": "Vunesp, Vestibular Unesp 2021, 1ª fase (Prova de Conhecimentos Gerais, cursos da área de Biológicas), caderno de questões"
+  },
+  "enunciado": "Para simular o sistema respiratório humano, um aparato com duas bexigas representando os pulmões, uma membrana elástica representando o músculo diafragma e um tubo flexível em forma de “Y”, representando a traqueia e os brônquios, foi montado dentro de um recipiente plástico que representava a caixa torácica. Na figura 1, as bexigas estão vazias. Deslocando-se a membrana elástica para baixo, as bexigas se enchem, conforme a figura 2.\n\n[[figura 1]]\n\n(https://pt.slideshare.net. Adaptado.)\n\nEm uma analogia entre esse aparato e o sistema respiratório humano, o deslocamento da membrana elástica para baixo corresponde\n\n(A) à contração do diafragma, que aumenta o volume da caixa torácica, fazendo com que a pressão interna dos pulmões fique maior do que a pressão ambiente.\n(B) à contração do diafragma, que diminui o volume da caixa torácica, fazendo com que a pressão interna dos pulmões fique menor do que a pressão ambiente.\n(C) à contração do diafragma, que aumenta o volume da caixa torácica, fazendo com que a pressão interna dos pulmões fique menor do que a pressão ambiente.\n(D) ao relaxamento do diafragma, que aumenta o volume da caixa torácica, fazendo com que a pressão interna dos pulmões fique maior do que a pressão ambiente.\n(E) ao relaxamento do diafragma, que aumenta o volume da caixa torácica, fazendo com que a pressão interna dos pulmões fique menor do que a pressão ambiente.",
+  "figuras": [
+    "unesp-2021-q77-1.png"
+  ],
+  "gabarito": "C",
+  "gabaritoFonte": "oficial",
+  "resolucao": "1. Na inspiração, o diafragma se contrai e desce; no aparato, isso corresponde a puxar a membrana elástica para baixo.\n2. Com a membrana mais baixa, o volume interno do recipiente (caixa torácica) aumenta.\n3. Para uma mesma quantidade de gás à temperatura constante, <i>pV</i> = constante (lei de Boyle): o aumento de volume reduz a pressão interna, que fica menor do que a pressão ambiente.\n4. Essa diferença de pressão empurra o ar de fora para dentro das bexigas (pulmões), que se enchem.\n5. Contração do diafragma, aumento do volume, pressão interna menor que a ambiente.\nGabarito: C.",
+  "topicos": [
+    "pressao",
+    "pressao-atmosferica-e-experimento-de-torricelli",
+    "transformacoes-gasosas-isotermica-isobarica-isocorica-adiabatica"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-01T15:46:12.000Z",
+  "atualizadoEm": "2026-11-01T15:46:12.000Z"
+}

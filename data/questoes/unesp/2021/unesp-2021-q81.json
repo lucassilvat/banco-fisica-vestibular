@@ -1,0 +1,24 @@
+{
+  "id": "unesp-2021-q81",
+  "banca": "Unesp",
+  "ano": 2021,
+  "numero": "81",
+  "fase": "1ª fase",
+  "fonte": {
+    "descricao": "Vunesp, Vestibular Unesp 2021, 1ª fase (Prova de Conhecimentos Gerais, cursos da área de Biológicas), caderno de questões"
+  },
+  "enunciado": "Desenvolvida em 1935 por Charles F. Richter, com a colaboração de Beno Gutenberg, a escala Richter permite determinar a magnitude (M) de um terremoto, fenômeno que libera uma grande quantidade de energia (E) que se propaga pela Terra em todas as direções. A magnitude e a energia de um terremoto podem ser relacionadas pela expressão a seguir, em que E é expressa em erg, uma unidade de medida de energia do sistema CGS.\n\nlogE = 11,8 + 1,5M\n\nA tabela apresenta os efeitos gerados por um terremoto, de acordo com sua magnitude na escala Richter:\n\n[[figura 1]]\n\n(http://ecalculo.if.usp.br. Adaptado.)\n\nNo dia 6 de janeiro de 2020, o sul de Porto Rico foi atingido por um terremoto que liberou uma quantidade de energia E = 10<sup>13,8</sup> J. Considerando a tabela e que 1 erg = 10<sup>–7</sup>J, esse terremoto\n\n(A) foi destrutivo em áreas até 100 km do epicentro.\n(B) danificou casas mal construídas em regiões próximas ao epicentro.\n(C) não foi sentido e não causou danos.\n(D) causou sérios danos em uma grande faixa, sendo considerado um grande terremoto.\n(E) causou graves danos em áreas a centenas de quilômetros do epicentro, sendo considerado um enorme terremoto.",
+  "figuras": [
+    "unesp-2021-q81-1.png"
+  ],
+  "gabarito": "B",
+  "gabaritoFonte": "oficial",
+  "resolucao": "1. Conversão para erg: como 1 erg = 10<sup>−7</sup> J, temos 1 J = 10<sup>7</sup> erg. Logo, <i>E</i> = 10<sup>13,8</sup> · 10<sup>7</sup> = 10<sup>20,8</sup> erg.\n2. Na expressão dada, log <i>E</i> = 20,8.\n3. 20,8 = 11,8 + 1,5<i>M</i> ⇒ 1,5<i>M</i> = 9 ⇒ <i>M</i> = 6,0.\n4. Na tabela, magnitude entre 5,5 e 6,0: “Pode danificar seriamente casas mal construídas em regiões próximas ao epicentro”.\nGabarito: B.",
+  "topicos": [
+    "grandezas-fisicas-e-sistema-internacional",
+    "notacao-cientifica-e-ordem-de-grandeza"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-01T15:46:12.000Z",
+  "atualizadoEm": "2026-11-01T15:46:12.000Z"
+}

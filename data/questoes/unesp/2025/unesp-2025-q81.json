@@ -1,0 +1,24 @@
+{
+  "id": "unesp-2025-q81",
+  "banca": "Unesp",
+  "ano": 2025,
+  "numero": "81",
+  "fase": "1ª fase",
+  "fonte": {
+    "descricao": "Vunesp, Vestibular Unesp 2025, 1ª fase (Prova de Conhecimentos Gerais), caderno de questões"
+  },
+  "enunciado": "Um garoto está brincando com uma corda apoiada no solo horizontal e presa em um pino vertical. O garoto produz dois pulsos transversais completos na corda, fazendo-a oscilar sobre o solo com frequência de 3 Hz, conforme a figura.\n\n[[figura 1]]\n\nSe o atrito entre a corda e o solo puder ser desconsiderado, a partir da configuração mostrada na figura, a onda formada atingirá o pino vertical depois de\n\n(A) 1,5 s.\n(B) 2,5 s.\n(C) 2,0 s.\n(D) 3,0 s.\n(E) 1,0 s.",
+  "figuras": [
+    "unesp-2025-q81-1.png"
+  ],
+  "gabarito": "E",
+  "gabaritoFonte": "oficial",
+  "resolucao": "1. Pela figura, um comprimento de onda (uma oscilação completa da corda) mede λ = 0,6 m, e a frente da onda está a 1,8 m do pino.\n2. Velocidade de propagação: <i>v</i> = λ<i>f</i> = 0,6 · 3 = 1,8 m/s.\n3. Tempo para a frente da onda chegar ao pino: Δ<i>t</i> = 1,8/1,8 = 1,0 s.\nGabarito: E.",
+  "topicos": [
+    "equacao-fundamental-da-ondulatoria-v-f",
+    "ondas-classificacao-e-elementos"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-01T15:46:34.000Z",
+  "atualizadoEm": "2026-11-01T15:46:34.000Z"
+}

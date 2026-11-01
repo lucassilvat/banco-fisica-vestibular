@@ -1,0 +1,23 @@
+{
+  "id": "unesp-2025-q80",
+  "banca": "Unesp",
+  "ano": 2025,
+  "numero": "80",
+  "fase": "1ª fase",
+  "fonte": {
+    "descricao": "Vunesp, Vestibular Unesp 2025, 1ª fase (Prova de Conhecimentos Gerais), caderno de questões"
+  },
+  "enunciado": "As figuras mostram duas imagens, da mesma lapiseira, formadas por duas lentes esféricas de vidro: uma convergente (figura 1) e outra divergente (figura 2).\n\n[[figura 1]]\n\nSabendo que os aumentos lineares transversais das imagens 1 e 2 são, respectivamente, A<sub>1</sub> = 2 e A<sub>2</sub> = 0,8, o valor de L, indicado na figura 2, é\n\n(A) 0,56 cm.\n(B) 0,64 cm.\n(C) 0,36 cm.\n(D) 0,48 cm.\n(E) 0,75 cm.",
+  "figuras": [
+    "unesp-2025-q80-1.png"
+  ],
+  "gabarito": "B",
+  "gabaritoFonte": "oficial",
+  "resolucao": "1. O aumento linear transversal é a razão entre o tamanho da imagem e o tamanho do objeto: A = <i>i</i>/<i>o</i>.\n2. Na figura 1, a imagem da lapiseira tem 1,6 cm de largura com A<sub>1</sub> = 2: <i>o</i> = 1,6/2 = 0,8 cm (largura real da lapiseira).\n3. Na figura 2, a mesma lapiseira com A<sub>2</sub> = 0,8: L = 0,8 · 0,8 = 0,64 cm.\nGabarito: B.",
+  "topicos": [
+    "lentes-esfericas-vergencia-gauss-aumento"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-01T15:46:34.000Z",
+  "atualizadoEm": "2026-11-01T15:46:34.000Z"
+}

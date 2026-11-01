@@ -1,0 +1,31 @@
+{
+  "id": "unesp-2026-q76",
+  "banca": "Unesp",
+  "ano": 2026,
+  "numero": "76",
+  "fase": "1ª fase",
+  "fonte": {
+    "descricao": "Vunesp, Vestibular Unesp 2026, 1ª fase (Prova de Conhecimentos Gerais), caderno de questões"
+  },
+  "enunciado": "Uma pequena esfera presa a um fio de massa desprezível desenvolve um movimento pendular. Quando essa esfera é iluminada verticalmente, a sombra da esfera, projetada sobre uma superfície horizontal, oscila em movimento harmônico simples entre os pontos A e B, mostrados na figura. A velocidade escalar, expressa em m/s, da sombra da esfera em função do tempo, expresso em s, é dada pela expressão:\n\nv(t) = –(0,3 · π)/2 · sen((π/2) · t)\n\n[[figura 1]]\n\nA aceleração escalar média da sombra da esfera entre os instantes t = 1 s e t = 4 s é\n\n(A) 0,05 · π m/s<sup>2</sup>.\n(B) 0,20 · π m/s<sup>2</sup>.\n(C) 0,15 · π m/s<sup>2</sup>.\n(D) 0,10 · π m/s<sup>2</sup>.\n(E) 0,25 · π m/s<sup>2</sup>.",
+  "figuras": [
+    "unesp-2026-q76-1.png"
+  ],
+  "gabarito": "A",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. Aceleração escalar média: <i>a</i><sub>m</sub> = Δ<i>v</i>/Δ<i>t</i> = [<i>v</i>(4) − <i>v</i>(1)]/(4 − 1).\n2. <i>v</i>(1) = −(0,3π/2) · sen(π/2) = −0,15π m/s.\n3. <i>v</i>(4) = −(0,3π/2) · sen(2π) = 0.\n4. <i>a</i><sub>m</sub> = [0 − (−0,15π)]/3 = 0,05 · π m/s².\nGabarito: A.",
+  "topicos": [
+    "movimento-harmonico-simples-mhs",
+    "velocidade-media-e-aceleracao-media"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-01T15:46:38.000Z",
+  "atualizadoEm": "2026-11-01T15:46:38.000Z",
+  "revisao": {
+    "divergenciasAceitas": [
+      "sen",
+      "0,3"
+    ],
+    "notas": "A expressão de v(t) está desenhada (editor de equações) e não consta da camada de texto; transcrita da imagem do caderno."
+  }
+}

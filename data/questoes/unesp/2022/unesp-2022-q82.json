@@ -1,0 +1,25 @@
+{
+  "id": "unesp-2022-q82",
+  "banca": "Unesp",
+  "ano": 2022,
+  "numero": "82",
+  "fase": "1ª fase",
+  "fonte": {
+    "descricao": "Vunesp, Vestibular Unesp 2022, 1ª fase (Prova de Conhecimentos Gerais, cursos da área de Biológicas), caderno de questões"
+  },
+  "enunciado": "Após comprar um chuveiro elétrico e uma lâmpada fluorescente compacta para sua casa, um rapaz fez-se a seguinte pergunta:\n\n— Por quanto tempo essa lâmpada precisa ficar acesa para consumir a mesma quantidade de energia elétrica que esse chuveiro consome em um banho de 12 minutos de duração?\n\nPara responder a essa pergunta, consultou as embalagens dos dois produtos e observou os detalhes mostrados nas figuras.\n\n[[figura 1]]\n\n[[figura 2]]\n\nA resposta à pergunta feita pelo rapaz é\n\n(A) 36 horas.\n(B) 75 horas.\n(C) 25 horas.\n(D) 90 horas.\n(E) 100 horas.",
+  "figuras": [
+    "unesp-2022-q82-1.png",
+    "unesp-2022-q82-2.png"
+  ],
+  "gabarito": "B",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. Pelas embalagens, o chuveiro tem potência de 7 500 W e a lâmpada, 20 W.\n2. Energia consumida pelo chuveiro em 12 min = 0,2 h: <i>E</i> = 7 500 · 0,2 = 1 500 Wh.\n3. Tempo para a lâmpada consumir a mesma energia: Δ<i>t</i> = <i>E</i>/<i>P</i> = 1 500/20 = 75 h.\nGabarito: B.",
+  "topicos": [
+    "energia-eletrica-e-consumo-kwh-conta-de-luz",
+    "potencia-eletrica-e-efeito-joule"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-01T15:46:22.000Z",
+  "atualizadoEm": "2026-11-01T15:46:22.000Z"
+}

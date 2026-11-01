@@ -1,0 +1,24 @@
+{
+  "id": "unesp-2021-q84",
+  "banca": "Unesp",
+  "ano": 2021,
+  "numero": "84",
+  "fase": "1ª fase",
+  "fonte": {
+    "descricao": "Vunesp, Vestibular Unesp 2021, 1ª fase (Prova de Conhecimentos Gerais, cursos da área de Biológicas), caderno de questões"
+  },
+  "enunciado": "A Força Aérea Brasileira (FAB) pretende realizar em breve o ensaio em voo do primeiro motor aeronáutico hipersônico feito no país. O teste integra um projeto mais amplo cujo objetivo é dominar o ciclo de desenvolvimento de veículos hipersônicos.\n\nAlém do motor hipersônico, o projeto, chamado de Propulsão Hipersônica 14-X, prevê a construção de um veículo aéreo não tripulado (VANT), onde esse motor será instalado. O quadro mostra um comparativo entre a velocidade atingida pelo VANT 14-X e por outros veículos aéreos.\n\n[[figura 1]]\n\n(http://revistapesquisa.fapesp.br, janeiro de 2019. Adaptado.)\n\nEsses veículos podem ter suas velocidades descritas pelo número de Mach (ou “velocidade Mach”), que é uma medida adimensional de velocidade. O número Mach indica a razão entre a velocidade de um corpo num meio fluido e a velocidade do som nesse meio. Assim, se um corpo chegou ao número de Mach 5 no ar, ele atingiu cinco vezes a velocidade do som no ar, ou seja, 1 700 metros por segundo.\n\nNo caso do VANT 14-X, ele poderá atingir uma velocidade, que corresponderá, aproximadamente, ao número de\n\n(A) Mach 98.\n(B) Mach 35.\n(C) Mach 127.\n(D) Mach 7.\n(E) Mach 10.",
+  "figuras": [
+    "unesp-2021-q84-1.png"
+  ],
+  "gabarito": "E",
+  "gabaritoFonte": "oficial",
+  "resolucao": "1. Pelo quadro, o VANT 14-X atinge 12 000 km/h e a velocidade do som no ar é 340 m/s (o texto confirma: Mach 5 = 1 700 m/s, logo Mach 1 = 340 m/s).\n2. Conversão: 12 000 km/h = 12 000/3,6 ≈ 3 333 m/s.\n3. Número de Mach: 3 333/340 ≈ 9,8 ≈ 10.\nGabarito: E.",
+  "topicos": [
+    "grandezas-fisicas-e-sistema-internacional",
+    "som-altura-intensidade-e-timbre"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-01T15:46:12.000Z",
+  "atualizadoEm": "2026-11-01T15:46:12.000Z"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "unesp-2025-q76",
+  "banca": "Unesp",
+  "ano": 2025,
+  "numero": "76",
+  "fase": "1ª fase",
+  "fonte": {
+    "descricao": "Vunesp, Vestibular Unesp 2025, 1ª fase (Prova de Conhecimentos Gerais), caderno de questões"
+  },
+  "enunciado": "A figura 1 mostra um secador de saladas por centrifugação, que funciona com base no acoplamento de duas engrenagens que, quando em rotação, fazem girar um cesto em que estão acomodadas as folhas de salada a serem secas.\n\n[[figura 1]]\n\n(https://inovartemdetudo.com.br)\n\nA figura 2 mostra o esquema do mecanismo desse utensílio. A engrenagem A gira quando uma pessoa aciona a manivela M. A engrenagem B, que é articulada com a engrenagem A, está ligada à roda R que é fixa no cesto que acomoda as folhas de salada. A engrenagem B e a roda R giram solidárias, presas a um mesmo eixo de rotação.\n\n[[figura 2]]\n\nSabendo que o raio da engrenagem A tem o triplo do comprimento do raio da engrenagem B, se a manivela M girar com uma frequência de 2,4 Hz, o cesto girará com uma frequência de\n\n(A) 7,2 Hz.\n(B) 3,6 Hz.\n(C) 4,8 Hz.\n(D) 6,0 Hz.\n(E) 10,8 Hz.",
+  "figuras": [
+    "unesp-2025-q76-1.png",
+    "unesp-2025-q76-2.png"
+  ],
+  "gabarito": "A",
+  "gabaritoFonte": "oficial",
+  "resolucao": "1. A manivela M está presa à engrenagem A: <i>f</i><sub>A</sub> = 2,4 Hz.\n2. Engrenagens acopladas pelos dentes têm a mesma velocidade linear na periferia: <i>f</i><sub>A</sub><i>R</i><sub>A</sub> = <i>f</i><sub>B</sub><i>R</i><sub>B</sub>.\n3. Com <i>R</i><sub>A</sub> = 3<i>R</i><sub>B</sub>: <i>f</i><sub>B</sub> = 3 · 2,4 = 7,2 Hz.\n4. A roda R (e o cesto) gira solidária à engrenagem B, no mesmo eixo, com a mesma frequência: 7,2 Hz.\nGabarito: A.",
+  "topicos": [
+    "transmissao-de-movimento-circular-polias-engrenagens-coroas",
+    "periodo-frequencia-e-velocidade-angular"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-01T15:46:34.000Z",
+  "atualizadoEm": "2026-11-01T15:46:34.000Z"
+}
