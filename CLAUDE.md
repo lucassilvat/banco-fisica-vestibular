@@ -19,7 +19,8 @@ Responda e escreva documentação em português do Brasil.
 
 ## Fluxo
 
-Siga `docs/WORKFLOW.md` (etapas 1–9). Comandos: `python -m pipeline -h`.
+Antes de começar, leia `docs/HISTORICO-E-PENDENCIAS.md` (estado atual, links do app e do
+repositório, pendências). Siga `docs/WORKFLOW.md` (etapas 1–9). Comandos: `python -m pipeline -h`.
 Para ler uma questão, use as imagens de `trabalho/<prova>/imagens/`; o texto extraído do
 PDF é só rascunho (fórmulas e frações saem embaralhadas).
 

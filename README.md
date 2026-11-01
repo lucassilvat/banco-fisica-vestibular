@@ -41,6 +41,7 @@ listados em `data/fontes/manifesto.json` (o sha256 garante que é o mesmo arquiv
 - [docs/CRITERIOS.md](docs/CRITERIOS.md): fidelidade, convenções de transcrição, o que entra no banco
 - [docs/MODELO-DE-DADOS.md](docs/MODELO-DE-DADOS.md): campos da questão e do app
 - [docs/ROADMAP-SAAS.md](docs/ROADMAP-SAAS.md): caminho para virar produto, incluindo direitos autorais
+- [docs/HISTORICO-E-PENDENCIAS.md](docs/HISTORICO-E-PENDENCIAS.md): decisões tomadas e o que falta
 - [CLAUDE.md](CLAUDE.md): regras para o Claude trabalhar neste repositório
 
 ## App
