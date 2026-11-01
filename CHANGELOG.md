@@ -4,6 +4,16 @@ Cada versão corresponde a um lote de importação ou a uma mudança no app/pipe
 Formato: `vMAIOR.MENOR.CORREÇÃO` — MENOR sobe a cada prova importada; MAIOR, em mudanças
 de modelo de dados; CORREÇÃO, em correções de questões já publicadas.
 
+## v1.4.0 — 2026-11-01
+
+- **Site estático para o GitHub Pages**: novo comando `python -m pipeline site` (gera `site/`
+  com o app, `questoes.json` e as figuras) e workflow `.github/workflows/pages.yml`, que
+  verifica, gera e publica o site a cada envio ao `main`.
+- App: fora do Claude, lê `questoes.json` e baixa a lista .docx direto pelo navegador;
+  dentro do artefato, continua igual.
+- Correção no app: em telas estreitas (celular), o botão **Filtros** não aparecia, porque
+  uma regra CSS posterior escondia o botão; agora ele aparece e abre o painel de tópicos.
+
 ## v1.3.0 — 2026-11-01
 
 - **Fuvest 2016–2019, 1ª fase (prova V)**: 56 questões, 41 figuras.

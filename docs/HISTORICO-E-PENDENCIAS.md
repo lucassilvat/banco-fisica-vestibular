@@ -9,6 +9,7 @@ numa conversa nova. As regras permanentes estão em `CLAUDE.md` e `docs/CRITERIO
 |---|---|
 | App publicado (artefato privado, com banco de dados e figuras próprios) | https://claude.ai/artifact/R1zq9bpSmPV41kyzg12dxA |
 | Código e dados versionados | github.com/lucassilvat/banco-fisica-vestibular (privado, ramo `main`) |
+| Site público (GitHub Pages) | gerado por `python -m pipeline site` e publicado pelo workflow `pages.yml` a cada envio ao `main`; precisa ser ativado em Settings › Pages |
 | PDFs oficiais | com o Lucas (fora do git); nomes e sha256 em `data/fontes/manifesto.json` |
 
 O app lê as questões do banco do artefato. Para mudar o app, edita-se `app/index.html` e
@@ -49,6 +50,10 @@ Para gravar questões, usam-se os lotes da etapa `publicar` (docs/WORKFLOW.md).
     na camada de texto, mas os números das questões não: o segmentador os acha por OCR.
 
 ## Pendências
+
+- **Ativar o GitHub Pages** (v1.4.0): Settings › Pages › Source: GitHub Actions. O plano
+  gratuito exige repositório público; com repositório privado, só com GitHub Pro. O site
+  fica aberto na internet (ver a nota de direitos autorais em `docs/ROADMAP-SAAS.md`).
 
 - **Gabaritos oficiais Fuvest**: só 2025 foi conferido no PDF oficial (fuvest.br, lido na
   web; o arquivo não pôde ser baixado para `fontes/`). 2020–2024 e 2026 estão como
