@@ -94,7 +94,7 @@ Para gravar questões, usam-se os lotes da etapa `publicar` (docs/WORKFLOW.md).
   Q45–Q48, 2021 B Q33). Não incluir sem novo pedido.
 - **Release v1.0.0 no GitHub**: o envio de tags falhou pela sessão; criar pela aba
   Releases do site, se desejado. O `CHANGELOG.md` registra a versão.
-- **Próximas provas**: o `painel` mostra 32 tópicos sem questão (mais pobre:
+- **Próximas provas**: o `painel` mostra 26 tópicos sem questão (v1.5.0) (mais pobre:
   Eletromagnetismo). Candidatas naturais: Fuvest anteriores a 2020 (mesmo formato),
   Unicamp anteriores a 2016, depois Unesp e ENEM (exigem ajustar o segmentador).
 
