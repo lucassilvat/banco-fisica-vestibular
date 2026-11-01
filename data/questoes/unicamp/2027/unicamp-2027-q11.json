@@ -1,0 +1,22 @@
+{
+  "id": "unicamp-2027-q11",
+  "banca": "Unicamp",
+  "ano": 2027,
+  "numero": "11",
+  "fase": "1ª fase · Prova R",
+  "fonte": {
+    "descricao": "Comvest, Vestibular Unicamp 2027, 1ª fase, caderno de questões (provas R e Z)"
+  },
+  "enunciado": "No <i>curling</i>, esporte das Olimpíadas de Inverno, o atleta lança discos de granito (do inglês <i>curling stones</i>) na direção de um alvo, uma área circular pintada em uma pista de gelo plana e horizontal. Para aproximar o disco desse alvo, os atletas esfregam vigorosamente o gelo à frente do disco com uma espécie de vassoura (esfregão) para alterar o coeficiente de atrito da pista. Considere uma situação em que um disco de massa <i>m</i> = 20 kg se desloca em uma pista com coeficiente de atrito estático do sistema disco-gelo <i>μ</i><sub><i>E</i></sub> = 0,1 e coeficiente de atrito cinético <i>μ</i><sub><i>C</i></sub> = 0,02. Sendo a aceleração da gravidade <i>g</i> = 10 m/s<sup>2</sup>, é correto afirmar que o módulo da força de atrito ( <i>f</i><sub><i>at</i></sub> ) que age sobre o disco de granito durante seu deslocamento é\n\na) 0,4 N.\nb) 2,0 N.\nc) 4,0 N.\nd) 20 N.",
+  "figuras": [],
+  "gabarito": "C",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. O disco está deslizando sobre o gelo, então o atrito é cinético; o coeficiente estático não é usado.\n2. Pista horizontal: a normal equilibra o peso, <i>N</i> = <i>m g</i> = 20 · 10 = 200 N.\n3. <i>f</i><sub>at</sub> = <i>μ</i><sub>C</sub> · <i>N</i> = 0,02 · 200 = 4,0 N. Alternativa c.\n4. Observação: a alternativa d (20 N) usa por engano o coeficiente estático.",
+  "topicos": [
+    "forca-de-atrito-estatico-e-cinetico",
+    "forca-peso-e-forca-normal"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-01T01:52:45.000Z",
+  "atualizadoEm": "2026-11-01T01:54:49.000Z"
+}

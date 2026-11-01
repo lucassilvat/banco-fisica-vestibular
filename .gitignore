@@ -1,5 +1,5 @@
 # PDFs oficiais (direitos da banca, arquivos grandes): guardados localmente, registrados no manifesto
-fontes/
+/fontes/
 # área de trabalho temporária de cada importação
 trabalho/
 __pycache__/

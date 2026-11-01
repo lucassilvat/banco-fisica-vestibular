@@ -238,5 +238,29 @@
  "unicamp-2026-q13-4.png": {
   "assetId": "7348bf1007461fcb83e7409d4f12bcab",
   "sha256": "d7c30cf8e2f95e2d0ee4c85064cc6205c351e8517ef2c04c4c6b12dbe68181c8"
+ },
+ "unicamp-2027-q10-1.png": {
+  "assetId": "29723671dd8b1310a4c68d8279596c14",
+  "sha256": "c6e5345c675002b51831b043a93c88fe5a67cc3b6753eda17134803f381fa7da"
+ },
+ "unicamp-2027-q12-1.png": {
+  "assetId": "be1e0f8e9fb99a3b60d22df1d5263ae4",
+  "sha256": "4c5ada2117daa14a6e20f9d97ca02122fa4e0590fa5ef299bde6b4d070f89d2d"
+ },
+ "unicamp-2027-q12-2.png": {
+  "assetId": "ffa4b9aadfcf25609301e5a7dcb27755",
+  "sha256": "ffe6a77660a92276bada5cae438c702f1b6ef25198cc95c254ec3b9644dda48e"
+ },
+ "unicamp-2027-q12-3.png": {
+  "assetId": "30d623b4a421d89df2c698510fc81403",
+  "sha256": "8ab6862910526321af303423b035592a9ef4cc26124559601d7f44d515c0f3c9"
+ },
+ "unicamp-2027-q12-4.png": {
+  "assetId": "c9a50d89eb125eed9c0dac2a9162a454",
+  "sha256": "8084209f9f14d1b4b426a3f779896459ded5345b207b4c85103d7074c7af90dd"
+ },
+ "unicamp-2027-q14-1.png": {
+  "assetId": "89d3d28854393a5df7329842a5e46250",
+  "sha256": "2ef7bd806c438eb62bda1278c9507673ea9528c816b03d9d122ee8478ddf39f1"
  }
 }

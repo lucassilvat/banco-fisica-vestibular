@@ -1,0 +1,22 @@
+{
+  "id": "unicamp-2027-q09",
+  "banca": "Unicamp",
+  "ano": 2027,
+  "numero": "9",
+  "fase": "1ª fase · Prova R",
+  "fonte": {
+    "descricao": "Comvest, Vestibular Unicamp 2027, 1ª fase, caderno de questões (provas R e Z)"
+  },
+  "enunciado": "<b>Texto para as questões 8 e 9.</b>\n\nEm 2026, comemoramos os 10 anos da primeira observação direta de ondas gravitacionais. As medições foram realizadas pelo <i>Laser Interferometer Gravitational-Wave Observatory</i> (LIGO) nos Estados Unidos. A detecção das ondas gravitacionais trouxe novos elementos ao entendimento da teoria da gravitação.\n\nNa teoria da gravitação universal, dentro da mecânica clássica, atribuída a Newton, <u>o módulo da aceleração da gravidade</u> decorrente da ação da força gravitacional da Terra em um corpo de massa <i>m</i>, localizado na superfície da Terra, é\n\na) diretamente proporcional a <i>m</i>, diretamente proporcional à massa da Terra (<i>M</i>) e diretamente proporcional ao quadrado do raio da Terra.\nb) independente de <i>m</i>, diretamente proporcional à massa da Terra (<i>M</i>) e inversamente proporcional ao quadrado do raio da Terra.\nc) diretamente proporcional a <i>m</i>, diretamente proporcional à massa da Terra (<i>M</i>) e inversamente proporcional ao quadrado do raio da Terra.\nd) independente de <i>m</i>, diretamente proporcional à massa da Terra (<i>M</i>) e diretamente proporcional ao quadrado do raio da Terra.",
+  "figuras": [],
+  "gabarito": "B",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. Na superfície, a força gravitacional sobre o corpo é o seu peso: <i>F</i> = <i>G M m</i>/<i>R</i><sup>2</sup> = <i>m g</i>.\n2. Dividindo por <i>m</i>: <i>g</i> = <i>G M</i>/<i>R</i><sup>2</sup>.\n3. Logo <i>g</i> não depende de <i>m</i>, é diretamente proporcional a <i>M</i> e inversamente proporcional a <i>R</i><sup>2</sup>. Alternativa b.\n4. Observação: a <u>força</u> gravitacional é proporcional a <i>m</i> (alternativa c); a pergunta, sublinhada no enunciado, é sobre a <u>aceleração</u>.",
+  "topicos": [
+    "aceleracao-da-gravidade-e-altitude",
+    "lei-da-gravitacao-universal"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-01T01:52:45.000Z",
+  "atualizadoEm": "2026-11-01T01:54:49.000Z"
+}

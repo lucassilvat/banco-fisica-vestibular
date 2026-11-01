@@ -1,0 +1,22 @@
+{
+  "id": "unicamp-2027-q08",
+  "banca": "Unicamp",
+  "ano": 2027,
+  "numero": "8",
+  "fase": "1ª fase · Prova R",
+  "fonte": {
+    "descricao": "Comvest, Vestibular Unicamp 2027, 1ª fase, caderno de questões (provas R e Z)"
+  },
+  "enunciado": "<b>Texto para as questões 8 e 9.</b>\n\nEm 2026, comemoramos os 10 anos da primeira observação direta de ondas gravitacionais. As medições foram realizadas pelo <i>Laser Interferometer Gravitational-Wave Observatory</i> (LIGO) nos Estados Unidos. A detecção das ondas gravitacionais trouxe novos elementos ao entendimento da teoria da gravitação.\n\nSegundo os pesquisadores do LIGO, a onda gravitacional observada teve origem na fusão de dois buracos negros e se propagou pelo Universo por 1,3 bilhão de anos antes de passar pela Terra. Pesquisas adicionais na mesma área demonstraram que a onda gravitacional viaja com velocidade muito próxima à da velocidade da luz <i>c</i>.\n\nSe <i>c</i> = 3,0 × 10<sup>8</sup> m/s e 1 ano ≈ 3,2 × 10<sup>7</sup> s, a distância <i>d</i> entre a Terra e a fonte dessa onda gravitacional é\n\na) 1,2 x 10<sup>25</sup> m.\nb) 3,9 x 10<sup>17</sup> m.\nc) 1,2 x 10<sup>22</sup> m.\nd) 3,9 x 10<sup>14</sup> m.",
+  "figuras": [],
+  "gabarito": "A",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. A onda viaja com velocidade constante, praticamente igual a <i>c</i>; então <i>d</i> = <i>c</i> · Δ<i>t</i> (MRU).\n2. Converta o tempo para segundos: Δ<i>t</i> = 1,3 × 10<sup>9</sup> anos · 3,2 × 10<sup>7</sup> s/ano = 4,16 × 10<sup>16</sup> s.\n3. Distância: <i>d</i> = 3,0 × 10<sup>8</sup> · 4,16 × 10<sup>16</sup> ≈ 12,5 × 10<sup>24</sup> m ≈ 1,2 × 10<sup>25</sup> m.\n4. Alternativa a. (A alternativa b corresponde a esquecer o fator 10<sup>8</sup> de <i>c</i>; a c, a usar 1,3 milhão de anos.)",
+  "topicos": [
+    "movimento-retilineo-uniforme-mru",
+    "notacao-cientifica-e-ordem-de-grandeza"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-01T01:52:45.000Z",
+  "atualizadoEm": "2026-11-01T01:54:49.000Z"
+}

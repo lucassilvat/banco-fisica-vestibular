@@ -1,0 +1,22 @@
+{
+  "id": "unicamp-2027-q13",
+  "banca": "Unicamp",
+  "ano": 2027,
+  "numero": "13",
+  "fase": "1ª fase · Prova R",
+  "fonte": {
+    "descricao": "Comvest, Vestibular Unicamp 2027, 1ª fase, caderno de questões (provas R e Z)"
+  },
+  "enunciado": "Estudos recentes têm mostrado o impacto econômico e ecológico do gasto energético de equipamentos residenciais que permanecem ligados mesmo quando não estão sendo utilizados. Alguns equipamentos com consumo considerável quando ociosos são as TVs, os consoles de jogos e os roteadores. Em média, esse consumo pode corresponder a oito por cento do total de uma casa e um e meio por cento do consumo total de um país. Considere um roteador de internet sem fio que, quando ocioso, consome uma potência elétrica <i>P</i> = 3,0 W. Se o roteador é alimentado por uma diferença de potencial elétrico de <i>U</i> = 12 V, a corrente elétrica que circula por esse roteador ocioso é\n\na) 0,03 A.\nb) 0,25 A.\nc) 4,0 A.\nd) 36 A.",
+  "figuras": [],
+  "gabarito": "B",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. Potência elétrica: <i>P</i> = <i>U i</i>.\n2. <i>i</i> = <i>P</i>/<i>U</i> = 3,0/12 = 0,25 A. Alternativa b.\n3. Observação: 4,0 A (c) é <i>U</i>/<i>P</i> e 36 A (d) é <i>P</i> · <i>U</i>, combinações sem sentido físico.",
+  "topicos": [
+    "potencia-eletrica-e-efeito-joule",
+    "corrente-eletrica"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-01T01:52:45.000Z",
+  "atualizadoEm": "2026-11-01T01:54:49.000Z"
+}

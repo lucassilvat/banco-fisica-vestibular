@@ -1,0 +1,34 @@
+{
+  "id": "unicamp-2027-q12",
+  "banca": "Unicamp",
+  "ano": 2027,
+  "numero": "12",
+  "fase": "1ª fase · Prova R",
+  "fonte": {
+    "descricao": "Comvest, Vestibular Unicamp 2027, 1ª fase, caderno de questões (provas R e Z)"
+  },
+  "enunciado": "Um dos maiores problemas dos computadores modernos é o calor gerado por <i>chips</i> cada vez menores e mais potentes. O gálio (Ga) é um material promissor para a refrigeração de <i>chips</i> devido às suas propriedades, como alta condutividade térmica. Considere uma amostra sólida de Ga de massa <i>m</i><sub>Ga</sub> = 10 g, em um processo térmico no qual esse material recebe calor do <i>chip</i> de um computador com potência variável. O sistema está a uma temperatura inicial <i>T</i><sub>1</sub> = 20 °C, e, após, um determinado tempo, essa amostra sofre uma transição de fase para o estado líquido a <i>T</i><sub>2</sub> = 30 °C, atingindo em <i>t</i> = 230 s uma temperatura <i>T</i><sub>3</sub> na fase líquida. Considere que a quantidade de calor recebida pela amostra na sua fase líquida para variar sua temperatura de <i>T</i><sub>2</sub> a <i>T</i><sub>3</sub> é <i>Q</i> = 80 J. Sendo o calor específico do Ga na fase líquida igual a <i>c</i><sub><i>liq</i></sub> = 0,4 J / (g .°C), o gráfico que melhor representa esse processo térmico é\n\nObservação: Para melhor visualização dos dados, foi introduzida uma quebra indicada pelo símbolo // nos eixos dos tempos (s) de alguns gráficos.\n\na)\n[[figura 1]]\nb)\n[[figura 2]]\nc)\n[[figura 3]]\nd)\n[[figura 4]]",
+  "figuras": [
+    "unicamp-2027-q12-1.png",
+    "unicamp-2027-q12-2.png",
+    "unicamp-2027-q12-3.png",
+    "unicamp-2027-q12-4.png"
+  ],
+  "gabarito": "B",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. Na fase líquida vale o calor sensível: <i>Q</i> = <i>m c</i> Δ<i>T</i> ⇒ Δ<i>T</i> = 80/(10 · 0,4) = 20 °C.\n2. Logo <i>T</i><sub>3</sub> = <i>T</i><sub>2</sub> + 20 = 30 + 20 = 50 °C, atingida em <i>t</i> = 230 s.\n3. O gráfico deve ter: aquecimento do sólido de 20 °C a 30 °C; um patamar em 30 °C (fusão, temperatura constante enquanto recebe calor latente); aquecimento do líquido até 50 °C em 230 s.\n4. Eliminação: c não tem patamar (não mostra a mudança de fase); d mostra resfriamento; a chega a 120 °C em 230 s. Só b atende a tudo: patamar em 30 °C e 50 °C em 230 s. Alternativa b.",
+  "topicos": [
+    "calor-latente-e-mudancas-de-fase",
+    "calor-sensivel-e-capacidade-termica",
+    "leitura-e-interpretacao-de-graficos"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-01T01:52:45.000Z",
+  "atualizadoEm": "2026-11-01T01:54:49.000Z",
+  "revisao": {
+    "divergenciasAceitas": [
+      "liq"
+    ],
+    "notas": "'liq' é subscrito de c; na camada de texto do PDF aparece colado ('cliq')."
+  }
+}

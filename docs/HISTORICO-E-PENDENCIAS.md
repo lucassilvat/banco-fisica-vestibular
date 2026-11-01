@@ -34,7 +34,15 @@ Para gravar questões, usam-se os lotes da etapa `publicar` (docs/WORKFLOW.md).
 7. Projeto estruturado em repositório (dados separados do app, pipeline, documentação) e
    enviado ao GitHub como v1.0.0.
 
+8. v1.1.0: Unicamp 2027 (provas R e Z), Q8–Q14. Fase registrada como "1ª fase · Prova R".
+
 ## Pendências
+
+- **Gabarito oficial 2027**: as 7 questões estão com `resolucao-propria`. Gabaritos da
+  resolução: 8A, 9B, 10D, 11C, 12B, 13B, 14D.
+- **Manifesto incompleto**: até a v1.0.0 o `data/fontes/manifesto.json` não era versionado
+  (o `.gitignore` o ignorava). No repositório ele agora só tem a Unicamp 2027; as entradas
+  2016–2026 estão no manifesto local do Lucas e precisam ser mescladas.
 
 - **Gabaritos oficiais 2016–2025**: os atuais vêm das resoluções (`gabaritoFonte:
   resolucao-propria`). Quando o Lucas enviar os PDFs de gabarito da Comvest, conferir e

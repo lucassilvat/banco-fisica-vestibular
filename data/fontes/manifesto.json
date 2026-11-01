@@ -1,0 +1,16 @@
+{
+  "provas": [
+    {
+      "banca": "Unicamp",
+      "ano": 2027,
+      "versao": "",
+      "tipo": "caderno",
+      "descricao": "Comvest, Vestibular Unicamp 2027, 1ª fase, caderno de questões (provas R e Z)",
+      "fase": "1ª fase · Prova R",
+      "arquivoLocal": "fontes/unicamp-2027-caderno.pdf",
+      "url": "",
+      "sha256": "0f93c24ae2babcf23ef72c964bbbd84b08408f98097a0c26a3ff80c188a45702",
+      "paginas": 25
+    }
+  ]
+}

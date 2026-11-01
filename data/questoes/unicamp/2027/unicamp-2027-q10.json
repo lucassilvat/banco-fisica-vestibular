@@ -1,0 +1,25 @@
+{
+  "id": "unicamp-2027-q10",
+  "banca": "Unicamp",
+  "ano": 2027,
+  "numero": "10",
+  "fase": "1ª fase · Prova R",
+  "fonte": {
+    "descricao": "Comvest, Vestibular Unicamp 2027, 1ª fase, caderno de questões (provas R e Z)"
+  },
+  "enunciado": "Os exercícios físicos têm sido incorporados ao cotidiano de cada vez mais pessoas, seja como parte dos cuidados com a saúde ou como atividade de lazer. Polias e alavancas, por exemplo, são encontradas em muitos equipamentos usados para exercícios musculares. Considere a figura a seguir, de um equipamento no qual as polias e os fios são considerados ideais, de massas desprezíveis e sem atrito.\n[[figura 1]]\n(Elaboração: Comvest, 2026.)\n\nConsiderando <i>g</i> = 10 m/s<sup>2</sup>, o módulo da força <i>F</i> para que a massa <i>m</i> se encontre na iminência de ser levantada é\n\na) 12 N.\nb) 60 N.\nc) 120 N.\nd) 240 N.",
+  "figuras": [
+    "unicamp-2027-q10-1.png"
+  ],
+  "gabarito": "D",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. Na iminência de subir, o bloco está em equilíbrio: a tração no fio que o sustenta é <i>T</i> = <i>m g</i> = 12 · 10 = 120 N.\n2. Esse fio passa por cima da polia móvel e tem a outra extremidade presa na base. Por ser um fio ideal, a tração é a mesma dos dois lados: a polia é puxada para baixo por duas forças <i>T</i> (setas da figura).\n3. A polia tem massa desprezível; para ficar em equilíbrio, o fio que a sustenta pelo eixo puxa para cima com 2<i>T</i> = 240 N.\n4. Esse fio de sustentação passa pelas duas polias fixas do alto, que só mudam a direção da força, e termina onde se aplica <i>F</i>. Logo <i>F</i> = 2<i>T</i> = 240 N. Alternativa d.\n5. Observação: nesta montagem a polia móvel não reduz a força pela metade (60 N, alternativa b); como a carga está presa ao fio que passa por ela, e não ao seu eixo, ela dobra a força necessária.",
+  "topicos": [
+    "sistemas-de-blocos-fios-e-polias",
+    "equilibrio-do-ponto-material",
+    "alavancas-e-maquinas-simples"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-01T01:52:45.000Z",
+  "atualizadoEm": "2026-11-01T01:54:49.000Z"
+}
