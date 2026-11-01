@@ -1,0 +1,22 @@
+{
+  "id": "fuvest-2026-q61",
+  "banca": "Fuvest",
+  "ano": 2026,
+  "numero": "61",
+  "fase": "1ª fase · Prova V1",
+  "fonte": {
+    "descricao": "Fuvest, Vestibular 2026, 1ª fase (Prova de Conhecimentos Gerais), caderno de questões"
+  },
+  "enunciado": "Em 1905, Albert Einstein propôs que a luz, um tipo de radiação eletromagnética, é composta por fótons, sendo que cada fóton tem energia proporcional à frequência da luz (<i>f</i>) e à constante de Planck (<i>h</i>). Nesses termos, <i>E</i> = <i>hf</i>, e a intensidade da luz é a medida da quantidade de fótons. Essa interpretação foi fundamental para o desenvolvimento da teoria quântica da luz e para explicar o efeito fotoelétrico. Esse efeito consiste em um fenômeno físico no qual elétrons são ejetados de um material, geralmente um metal, quando este é irradiado com luz cujos fótons têm energia maior que a energia de ligação do elétron ao material, também conhecida como função trabalho. Assim, quando o fóton incide sobre a superfície do material, a energia excedente transforma-se na energia cinética do elétron que escapa da superfície.\n\nEm qual das situações a seguir a energia cinética do elétron ejetado no efeito fotoelétrico aumenta?\n\n(A) Aumentando a intensidade da luz incidente.\n(B) Usando uma superfície maior.\n(C) Aumentando a frequência da luz incidente.\n(D) Usando um material com função trabalho maior.\n(E) Diminuindo a energia do fóton incidente.",
+  "figuras": [],
+  "gabarito": "C",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. Pela equação de Einstein do efeito fotoelétrico, a energia cinética máxima do elétron é <i>E</i><sub>c</sub> = <i>hf</i> − φ, em que φ é a função trabalho.\n2. (A) A intensidade só muda o número de fótons (e de elétrons ejetados), não a energia de cada fóton ⇒ <i>E</i><sub>c</sub> não muda.\n3. (B) A área da superfície também só muda a quantidade de elétrons.\n4. (C) Aumentar <i>f</i> aumenta <i>hf</i> e, com φ fixo, aumenta <i>E</i><sub>c</sub>. Correta.\n5. (D) φ maior diminui <i>E</i><sub>c</sub>; (E) menor energia do fóton também diminui <i>E</i><sub>c</sub>.\nGabarito: C.",
+  "topicos": [
+    "efeito-fotoeletrico",
+    "fotons-e-energia-do-foton-e-hf"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-01T12:54:03.000Z",
+  "atualizadoEm": "2026-11-01T12:54:03.000Z"
+}

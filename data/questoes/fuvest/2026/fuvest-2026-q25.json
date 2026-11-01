@@ -1,0 +1,24 @@
+{
+  "id": "fuvest-2026-q25",
+  "banca": "Fuvest",
+  "ano": 2026,
+  "numero": "25",
+  "fase": "1ª fase · Prova V1",
+  "fonte": {
+    "descricao": "Fuvest, Vestibular 2026, 1ª fase (Prova de Conhecimentos Gerais), caderno de questões"
+  },
+  "enunciado": "Considere o texto a seguir:\n\n[[figura 1]]\n\nIce flows across Antarctica and continues to do so as it reaches the edge of the land mass and extends over the ocean. The huge floating tongues of ice often remain attached to the continent. Anything that remains grounded on the land is part of the Antarctic ice sheet; the floating part is an ice shelf. Floating ice shelves surround three-quarters of Antarctica’s coast and make up about 11% of its total area. One of the largest, the Ross Ice Shelf, is roughly the size of France. The George VI Ice Shelf is shown in the image, taken by NASA’s Landsat 8 in January 2020.\nIt may seem intuitive that all the ice added to the ocean from melting ice shelves would raise global sea level, but that’s not the case. By Archimedes’s principle, ice shelves floating on the water have already displaced their own weight, so their disintegration or melting won’t change the water level. Ice shelves do, however, regulate the speed of glaciers on Antarctica’s land. Ice shelves act to hold glaciers back. Take the shelf away, and the glaciers are free to speed up and flow into the ocean. Any ice and liquid water that the glaciers take with them will raise sea level. Of Earth’s fresh water, 70% is stored in Antarctica’s ice; that is the equivalent of about 58 meters of sea-level rise if all of it were to melt.\n\nBuzzard, S. “The surface hydrology of Antarctica’s floating ice”. <i>Physics Today</i> 75, 28-33 (2022). Adaptado.\n\nSegundo o texto, é correto afirmar:\n\n(A) A área da superfície de gelo já derretido é aproximadamente do tamanho da França.\n(B) O princípio de Arquimedes afirma que as plataformas de gelo possuem uma força de empuxo muito menor que seu peso e, portanto, flutuam.\n(C) Plataformas de gelo são importantes porque atuam para regular a velocidade das geleiras na Antártida.\n(D) Plataformas de gelo flutuantes são relevantes porque representam três quartos da área total da Antártida.\n(E) O princípio de Arquimedes não se aplica no caso do derretimento do gelo flutuando na costa antártica.",
+  "figuras": [
+    "fuvest-2026-q25-1.png"
+  ],
+  "gabarito": "C",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. O texto diz que as plataformas de gelo flutuantes \"regulam a velocidade das geleiras\" (\"Ice shelves do, however, regulate the speed of glaciers… act to hold glaciers back\"). Isso é a alternativa C.\n2. (A) Errada: quem tem o tamanho da França é a plataforma de Ross, não a área de gelo derretido.\n3. (B) Errada (Física): um corpo flutuando em equilíbrio tem empuxo <b>igual</b> ao seu peso — por isso o texto diz que as plataformas \"já deslocaram o próprio peso\" de água.\n4. (D) Errada: as plataformas cercam três quartos da <b>costa</b> e somam cerca de 11% da área total.\n5. (E) Errada: é justamente pelo princípio de Arquimedes que o derretimento do gelo que já flutua não altera o nível do mar (a massa de água deslocada é igual à massa do gelo).\nGabarito: C.",
+  "topicos": [
+    "empuxo-e-principio-de-arquimedes",
+    "densidade-e-massa-especifica"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-01T12:54:03.000Z",
+  "atualizadoEm": "2026-11-01T12:54:03.000Z"
+}

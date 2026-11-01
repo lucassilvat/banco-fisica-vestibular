@@ -1,0 +1,26 @@
+{
+  "id": "fuvest-2021-q50",
+  "banca": "Fuvest",
+  "ano": 2021,
+  "numero": "50",
+  "fase": "1ª fase · Prova V",
+  "fonte": {
+    "descricao": "Fuvest, Vestibular 2021, 1ª fase (Prova de Conhecimentos Gerais), caderno de questões"
+  },
+  "enunciado": "Um mol de um gás ideal percorre o processo cíclico ABCA em um diagrama <i>P-V</i>, conforme mostrado na figura, sendo que a etapa AB é isobárica, a etapa BC é isocórica e a etapa CA é isotérmica.\n\n[[figura 1]]\n\nConsidere as seguintes afirmações:\n\nI. O gás libera calor tanto na etapa BC quanto na etapa CA.\nII. O módulo do trabalho realizado pelo gás é não nulo tanto na etapa AB quanto na etapa BC.\nIII. O gás tem sua temperatura aumentada tanto na etapa AB quanto na etapa CA.\n\nÉ correto o que se afirma em:\n\n(A) Nenhuma delas.\n(B) Apenas I.\n(C) Apenas II.\n(D) Apenas III.\n(E) Apenas I e II.",
+  "figuras": [
+    "fuvest-2021-q50-1.png"
+  ],
+  "gabarito": "B",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. 1ª lei: <i>Q</i> = <i>W</i> + Δ<i>U</i>, com Δ<i>U</i> ∝ Δ<i>T</i> (gás ideal).\n2. BC (isocórica, pressão diminui): <i>W</i> = 0 e a temperatura cai (<i>PV</i> = <i>nRT</i>) ⇒ Δ<i>U</i> < 0 ⇒ <i>Q</i> < 0: libera calor.\n3. CA (isotérmica, compressão de <i>V</i><sub>2</sub> para <i>V</i><sub>1</sub>): Δ<i>U</i> = 0 e <i>W</i> < 0 (trabalho feito sobre o gás) ⇒ <i>Q</i> = <i>W</i> < 0: libera calor. Logo, I é correta.\n4. II. Errada: em BC o volume não muda ⇒ trabalho nulo.\n5. III. Errada: em AB a temperatura aumenta (expansão isobárica), mas em CA ela é constante (isotérmica).\nGabarito: B.",
+  "topicos": [
+    "primeira-lei-da-termodinamica",
+    "transformacoes-gasosas-isotermica-isobarica-isocorica-adiabatica",
+    "trabalho-em-transformacao-gasosa-grafico-p-v",
+    "energia-interna"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-01T12:54:20.000Z",
+  "atualizadoEm": "2026-11-01T12:54:20.000Z"
+}

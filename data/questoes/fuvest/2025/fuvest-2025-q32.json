@@ -1,0 +1,24 @@
+{
+  "id": "fuvest-2025-q32",
+  "banca": "Fuvest",
+  "ano": 2025,
+  "numero": "32",
+  "fase": "1ª fase · Prova V1",
+  "fonte": {
+    "descricao": "Fuvest, Vestibular 2025, 1ª fase (Prova de Conhecimentos Gerais), caderno de questões"
+  },
+  "enunciado": "[[figura 1]]\n\nO fenômeno físico conhecido como iridescência ocorre nas asas de certas espécies de borboletas e caracteriza-se pela variação das cores de acordo com o ângulo de observação. A existência de faixas coloridas na superfície das asas das borboletas ocorre devido a diferentes formas de superposição entre raios luminosos refletidos por uma fina camada de substância transparente existente na superfície das asas.\n\nDisponível em https://www.pbs.org/wgbh/.\n\nOs fenômenos físicos diretamente relacionados com a iridescência são\n\n(A) dilatação e reflexão.\n(B) interferência e dilatação.\n(C) dissipação e difração.\n(D) convecção e dispersão.\n(E) reflexão e interferência.",
+  "figuras": [
+    "fuvest-2025-q32-1.png"
+  ],
+  "gabarito": "E",
+  "gabaritoFonte": "oficial",
+  "resolucao": "1. O texto descreve raios <b>refletidos</b> pelas duas faces de uma película fina que se <b>superpõem</b>.\n2. A superposição de ondas de luz é a interferência (como em bolhas de sabão e manchas de óleo): conforme o ângulo, a diferença de caminho reforça cores diferentes.\n3. Logo, os fenômenos são reflexão e interferência. Dilatação e convecção são térmicos e não se aplicam.\nGabarito: E.",
+  "topicos": [
+    "interferencia",
+    "reflexao-e-refracao-de-ondas"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-01T12:54:06.000Z",
+  "atualizadoEm": "2026-11-01T12:54:06.000Z"
+}

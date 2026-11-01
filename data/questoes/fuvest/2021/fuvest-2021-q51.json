@@ -1,0 +1,29 @@
+{
+  "id": "fuvest-2021-q51",
+  "banca": "Fuvest",
+  "ano": 2021,
+  "numero": "51",
+  "fase": "1ª fase · Prova V",
+  "fonte": {
+    "descricao": "Fuvest, Vestibular 2021, 1ª fase (Prova de Conhecimentos Gerais), caderno de questões"
+  },
+  "enunciado": "O olho humano constitui uma complexa estrutura capaz de controlar a luz recebida e produzir imagens nítidas. Em pessoas com visão normal, o olho é capaz de acomodar o cristalino para focalizar sobre a retina a luz que vem dos objetos, desde que não estejam muito próximos. Pessoas míopes, por outro lado, apresentam dificuldades em enxergar de longe. Ao focalizar objetos situados além do chamado ponto remoto (PR), a imagem forma-se à frente da retina, conforme ilustrado na figura.\n\n[[figura 1]]\n\nNeste caso, lentes corretivas são necessárias a fim de que o indivíduo observe o objeto de forma nítida.\n\nQual arranjo esquemático melhor descreve a correção realizada por uma lente receitada por um oftalmologista no caso de um indivíduo míope?\n\n(A)\n[[figura 2]]\n(B)\n[[figura 3]]\n(C)\n[[figura 4]]\n(D)\n[[figura 5]]\n(E)\n[[figura 6]]",
+  "figuras": [
+    "fuvest-2021-q51-1.png",
+    "fuvest-2021-q51-2.png",
+    "fuvest-2021-q51-3.png",
+    "fuvest-2021-q51-4.png",
+    "fuvest-2021-q51-5.png",
+    "fuvest-2021-q51-6.png"
+  ],
+  "gabarito": "B",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. O míope enxerga nitidamente, sem esforço, objetos no ponto remoto (PR); objetos mais distantes formam imagem antes da retina.\n2. A correção usa lente divergente, que conjuga o objeto distante em uma imagem virtual no PR: os raios que saem da lente <b>divergem mais</b>, como se viessem do PR.\n3. O olho, então, focaliza esses raios sobre a retina.\n4. Na alternativa B, os raios se abrem ao atravessar a lente (prolongamentos para trás passando pelo PR) e o cristalino os converge na retina.\n5. Em A os raios saem paralelos (como se viessem do infinito, que o míope não focaliza); em C e E a lente não altera ou converge os raios; em D eles convergem antes do olho.\nGabarito: B.",
+  "topicos": [
+    "optica-da-visao-e-defeitos-visuais",
+    "lentes-esfericas-vergencia-gauss-aumento"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-01T12:54:20.000Z",
+  "atualizadoEm": "2026-11-01T12:54:20.000Z"
+}

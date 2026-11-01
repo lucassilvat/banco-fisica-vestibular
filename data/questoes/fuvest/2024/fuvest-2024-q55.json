@@ -1,0 +1,26 @@
+{
+  "id": "fuvest-2024-q55",
+  "banca": "Fuvest",
+  "ano": 2024,
+  "numero": "55",
+  "fase": "1ª fase · Prova V",
+  "fonte": {
+    "descricao": "Fuvest, Vestibular 2024, 1ª fase (Prova de Conhecimentos Gerais), caderno de questões"
+  },
+  "enunciado": "[[figura 1]]\n\nComo ilustrado pela foto, o gerador de Van de Graaf, equipamento popular em parques de ciência, permite o acúmulo de cargas elétricas em uma cúpula metálica. A distribuição de cargas na cúpula de um desses geradores, quando ninguém a toca, pode ser considerada esférica. Dois desses geradores, A e B, estão separados por uma certa distância. O gerador A contém uma carga +<i>Q</i>, e o gerador B, uma carga +2<i>Q</i>, com <i>Q</i> > 0.\n\n[[figura 2]]\n\nEntre as alternativas, assinale aquela que melhor corresponde ao vetor campo elétrico resultante produzido pelos geradores no ponto médio P entre eles.\n\n(A) →\n(B) ↑\n(C) ←\n(D) ↓\n(E) nulo",
+  "figuras": [
+    "fuvest-2024-q55-1.png",
+    "fuvest-2024-q55-2.png"
+  ],
+  "gabarito": "C",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. Uma esfera com carga distribuída uniformemente gera, fora dela, o campo de uma carga pontual no centro: <i>E</i> = <i>kq</i>/<i>d</i><sup>2</sup>.\n2. Em P, à mesma distância <i>d</i> dos dois centros: o campo de A (+<i>Q</i>) aponta para longe de A, isto é, para a direita, com módulo <i>kQ</i>/<i>d</i><sup>2</sup>; o campo de B (+2<i>Q</i>) aponta para longe de B, para a esquerda, com módulo 2<i>kQ</i>/<i>d</i><sup>2</sup>.\n3. Resultante: <i>kQ</i>/<i>d</i><sup>2</sup> para a esquerda (←).\nGabarito: C.",
+  "topicos": [
+    "campo-eletrico",
+    "lei-de-coulomb",
+    "vetores-soma-e-decomposicao"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-01T12:54:08.000Z",
+  "atualizadoEm": "2026-11-01T12:54:08.000Z"
+}

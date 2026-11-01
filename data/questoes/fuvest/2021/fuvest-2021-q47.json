@@ -1,0 +1,25 @@
+{
+  "id": "fuvest-2021-q47",
+  "banca": "Fuvest",
+  "ano": 2021,
+  "numero": "47",
+  "fase": "1ª fase · Prova V",
+  "fonte": {
+    "descricao": "Fuvest, Vestibular 2021, 1ª fase (Prova de Conhecimentos Gerais), caderno de questões"
+  },
+  "enunciado": "Os <i>smartphones</i> modernos vêm equipados com um acelerômetro, dispositivo que mede acelerações a que o aparelho está submetido.\n\nO gráfico foi gerado a partir de dados extraídos por um aplicativo do acelerômetro de um <i>smartphone</i> pendurado por um fio e colocado para oscilar sob a ação da gravidade. O gráfico mostra os dados de uma das componentes da aceleração (corrigidos por um valor de referência constante) em função do tempo.\n\n[[figura 1]]\n\nCom base nos dados do gráfico e considerando que o movimento do <i>smartphone</i> seja o de um pêndulo simples a ângulos pequenos, o comprimento do fio é de aproximadamente:\n\nNote e adote:\nUse <i>π</i> = 3.\nAceleração da gravidade: <i>g</i> = 10 m/s<sup>2</sup>.\n\n(A) 5 cm\n(B) 10 cm\n(C) 50 cm\n(D) 100 cm\n(E) 150 cm",
+  "figuras": [
+    "fuvest-2021-q47-1.png"
+  ],
+  "gabarito": "C",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. No gráfico, entre 20 s e 30 s há cerca de 7 oscilações completas (picos aproximadamente a cada 1,4 s) ⇒ período <i>T</i> ≈ 1,4 s.\n2. Pêndulo simples: <i>T</i> = 2<i>π</i>√(ℓ/<i>g</i>) ⇒ ℓ = <i>g T</i><sup>2</sup>/(4<i>π</i><sup>2</sup>).\n3. ℓ ≈ 10 · (1,4)<sup>2</sup>/(4 · 9) = 19,6/36 ≈ 0,54 m ≈ 50 cm.\n4. As outras alternativas ficam muito longe: 10 cm daria <i>T</i> ≈ 0,6 s e 100 cm daria <i>T</i> ≈ 1,9 s.\nGabarito: C.",
+  "topicos": [
+    "pendulo-simples",
+    "movimento-harmonico-simples-mhs",
+    "leitura-e-interpretacao-de-graficos"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-01T12:54:20.000Z",
+  "atualizadoEm": "2026-11-01T12:54:20.000Z"
+}

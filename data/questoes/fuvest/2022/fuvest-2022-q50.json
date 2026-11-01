@@ -1,0 +1,22 @@
+{
+  "id": "fuvest-2022-q50",
+  "banca": "Fuvest",
+  "ano": 2022,
+  "numero": "50",
+  "fase": "1ª fase · Prova V",
+  "fonte": {
+    "descricao": "Fuvest, Vestibular 2022, 1ª fase (Prova de Conhecimentos Gerais), caderno de questões"
+  },
+  "enunciado": "Um bom café deve ser preparado a uma temperatura pouco acima de 80<sup>o</sup>C. Para evitar queimaduras na boca, deve ser consumido a uma temperatura mais baixa. Uma xícara contém 60 mL de café a uma temperatura de 80<sup>o</sup>C. Qual a quantidade de leite gelado (a uma temperatura de 5<sup>o</sup>C) deve ser misturada ao café para que a temperatura final do café com leite seja de 65<sup>o</sup>C?\n\nNote e adote:\nConsidere que o calor específico e a densidade do café e do leite sejam idênticos.\n\n(A) 5 mL\n(B) 10 mL\n(C) 15 mL\n(D) 20 mL\n(E) 25 mL",
+  "figuras": [],
+  "gabarito": "C",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. Sistema isolado: calor cedido pelo café = calor recebido pelo leite. Com mesma densidade e mesmo calor específico, as massas são proporcionais aos volumes e <i>c</i> se cancela.\n2. 60 · (80 − 65) = <i>V</i> · (65 − 5) ⇒ 900 = 60 <i>V</i> ⇒ <i>V</i> = 15 mL.\nGabarito: C.",
+  "topicos": [
+    "trocas-de-calor-e-equilibrio-termico-calorimetro",
+    "calor-sensivel-e-capacidade-termica"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-01T12:54:14.000Z",
+  "atualizadoEm": "2026-11-01T12:54:14.000Z"
+}

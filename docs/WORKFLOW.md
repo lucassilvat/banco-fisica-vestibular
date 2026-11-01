@@ -46,8 +46,17 @@ python -m pipeline segmentar unicamp-2015
 Confira `trabalho/unicamp-2015/segmentos.txt`: deve haver uma linha por questão, na
 ordem, e o aviso de números ausentes não deve aparecer. Na primeira prova de uma banca
 nova, abra algumas imagens (etapa 4) para confirmar que as regiões estão certas. O
-segmentador assume títulos "QUESTÃO N" e duas colunas; outras diagramações pedem ajuste
-em `pipeline/segmentar.py`.
+segmentador assume títulos "QUESTÃO N" (Unicamp) ou só o número em corpo grande ("01",
+"{ 01}": Fuvest, chaves `fuvest-*`) e duas colunas; outras diagramações pedem ajuste em
+`pipeline/segmentar.py`. Na Fuvest, os textos comuns ("TEXTO PARA AS QUESTÕES...") ficam
+no fim do segmento da questão anterior: confira-os na imagem.
+
+### 2b. OCR (só quando a camada de texto do PDF é ilegível)
+
+Se o `segmentos.txt` sair com símbolos sem sentido (ex.: Fuvest 2021, "Caderno Reserva"),
+rode `python -m pipeline ocr <prova>`. Ele grava `fontes/<arquivo>.ocr.txt` e marca a prova
+no manifesto (`camadaTexto: "ocr"`); a triagem precisa ser feita olhando as imagens, e o
+`verificar` passa a conferir a fidelidade contra o texto do OCR.
 
 ## 3. Triagem
 

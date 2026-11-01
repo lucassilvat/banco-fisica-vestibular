@@ -1,0 +1,32 @@
+{
+  "id": "fuvest-2020-q08",
+  "banca": "Fuvest",
+  "ano": 2020,
+  "numero": "8",
+  "fase": "1ª fase · Prova V",
+  "fonte": {
+    "descricao": "Fuvest, Vestibular 2020, 1ª fase (Prova de Conhecimentos Gerais), caderno de questões"
+  },
+  "enunciado": "Os movimentos das moléculas antes e depois de uma reação química obedecem aos princípios físicos de colisões. Para tanto, cada átomo é representado como um corpo pontual com uma certa massa, ocupando uma posição no espaço e com uma determinada velocidade (representada na forma vetorial). Costumeiramente, os corpos pontuais são representados como esferas com diâmetros proporcionais à massa atômica. As colisões ocorrem conservando a quantidade de movimento.\n\nConsiderando um referencial no qual as moléculas neutras encontram‐se paradas antes e após a colisão, a alternativa que melhor representa o arranjo de íons e moléculas instantes antes e instantes depois de uma colisão que leva à reação\n\nF<sup>−</sup> + H<sub>3</sub>CCℓ → CH<sub>3</sub>F + Cℓ<sup>−</sup>\n\né\n\nNote e adote:\nMassas atômicas: H = 1 u.m.a., C = 12 u.m.a., F = 19 u.m.a. e Cℓ = 35 u.m.a.\nConsidere que apenas o isótopo de cloro Cℓ = 35 u.m.a. participa da reação.\n\n[[figura 1]]\n(A)\n[[figura 2]]\n(B)\n[[figura 3]]\n(C)\n[[figura 4]]\n(D)\n[[figura 5]]\n(E)\n[[figura 6]]",
+  "figuras": [
+    "fuvest-2020-q08-1.png",
+    "fuvest-2020-q08-2.png",
+    "fuvest-2020-q08-3.png",
+    "fuvest-2020-q08-4.png",
+    "fuvest-2020-q08-5.png",
+    "fuvest-2020-q08-6.png"
+  ],
+  "gabarito": "C",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. No referencial adotado, as moléculas neutras estão paradas antes (H<sub>3</sub>CCℓ) e depois (CH<sub>3</sub>F). Só os íons se movem: antes, o F<sup>−</sup> (massa 19); depois, o Cℓ<sup>−</sup> (massa 35).\n2. Conservação da quantidade de movimento: 19 · <i>v</i><sub>F</sub> = 35 · <i>v</i><sub>Cℓ</sub> ⇒ <i>v</i><sub>Cℓ</sub> ≈ 0,54 <i>v</i><sub>F</sub>, no mesmo sentido. A seta do íon depois da colisão deve ser mais curta (cerca de metade).\n3. Tamanhos (diâmetro proporcional à massa): o íon de antes (F) é menor que o de depois (Cℓ); a molécula neutra de antes contém o Cℓ grande e a de depois contém o F menor.\n4. A alternativa C mostra: íon pequeno com seta longa, molécula com Cℓ parada; depois, molécula com F parada e íon grande com seta mais curta.\nGabarito: C.",
+  "topicos": [
+    "conservacao-da-quantidade-de-movimento",
+    "colisoes-elasticas-e-inelasticas"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-01T12:54:17.000Z",
+  "atualizadoEm": "2026-11-01T12:54:17.000Z",
+  "revisao": {
+    "notas": "O cabeçalho da tabela das alternativas (Antes da colisão: Íon, Neutro; Após a colisão: Neutro, Íon) entra como figura 1, recortado do caderno; cada alternativa é uma figura."
+  }
+}

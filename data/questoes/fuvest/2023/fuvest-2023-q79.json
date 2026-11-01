@@ -1,0 +1,26 @@
+{
+  "id": "fuvest-2023-q79",
+  "banca": "Fuvest",
+  "ano": 2023,
+  "numero": "79",
+  "fase": "1ª fase · Prova V",
+  "fonte": {
+    "descricao": "Fuvest, Vestibular 2023, 1ª fase (Prova de Conhecimentos Gerais), caderno de questões"
+  },
+  "enunciado": "O <i>slam ball</i> é um exercício funcional no qual o praticante eleva uma bola especial acima da cabeça e, após uma breve pausa, a atira no chão, como mostra figura:\n\n[[figura 1]]\n\nConsidere uma pessoa de 1,70 m que eleva uma bola de 6 kg a uma altura de 40 cm acima da sua cabeça. Em seguida, a pessoa realiza sobre a bola um trabalho adicional de 10 calorias para arremessá-la. Se a colisão da bola com o solo for perfeitamente inelástica, a energia total dissipada na colisão será de\n\nNote e adote:\nConsidere 1 cal = 4,2 J e g = 10 m/s<sup>2</sup>.\n\n(A) 10 cal.\n(B) 20 cal.\n(C) 30 cal.\n(D) 40 cal.\n(E) 50 cal.",
+  "figuras": [
+    "fuvest-2023-q79-1.png"
+  ],
+  "gabarito": "D",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. Altura da bola em relação ao solo: 1,70 + 0,40 = 2,10 m.\n2. Energia potencial gravitacional: <i>m g h</i> = 6 · 10 · 2,10 = 126 J = 126/4,2 = 30 cal.\n3. Somando o trabalho do arremesso, a energia cinética ao atingir o solo é 30 + 10 = 40 cal.\n4. Na colisão perfeitamente inelástica com o solo a bola não volta (para), e toda essa energia cinética é dissipada: 40 cal.\nGabarito: D.",
+  "topicos": [
+    "energia-potencial-gravitacional",
+    "trabalho-de-uma-forca",
+    "colisoes-elasticas-e-inelasticas",
+    "conservacao-da-energia-mecanica"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-01T12:54:11.000Z",
+  "atualizadoEm": "2026-11-01T12:54:11.000Z"
+}

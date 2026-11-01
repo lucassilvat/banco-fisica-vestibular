@@ -1,0 +1,23 @@
+{
+  "id": "fuvest-2022-q51",
+  "banca": "Fuvest",
+  "ano": 2022,
+  "numero": "51",
+  "fase": "1ª fase · Prova V",
+  "fonte": {
+    "descricao": "Fuvest, Vestibular 2022, 1ª fase (Prova de Conhecimentos Gerais), caderno de questões"
+  },
+  "enunciado": "Uma criança deixa cair de uma mesma altura duas maçãs, uma delas duas vezes mais pesada do que a outra. Ignorando a resistência do ar e desprezando as dimensões das maçãs frente à altura inicial, o que é correto afirmar a respeito das energias cinéticas das duas maçãs na iminência de atingirem o solo?\n\n(A) A maçã mais pesada possui tanta energia cinética quanto a maçã mais leve.\n(B) A maçã mais pesada possui o dobro da energia cinética da maçã mais leve.\n(C) A maçã mais pesada possui a metade da energia cinética da maçã mais leve.\n(D) A maçã mais pesada possui o quádruplo da energia cinética da maçã mais leve.\n(E) A maçã mais pesada possui um quarto da energia cinética da maçã mais leve.",
+  "figuras": [],
+  "gabarito": "B",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. Sem resistência do ar, a energia mecânica se conserva: a energia cinética ao chegar ao solo é igual à energia potencial inicial, <i>E</i><sub>c</sub> = <i>m g h</i>.\n2. Mesma altura ⇒ <i>E</i><sub>c</sub> proporcional à massa. A maçã com o dobro do peso (dobro da massa) chega com o dobro da energia cinética.\n3. Observação: as duas chegam com a mesma velocidade (<i>v</i> = √(2<i>gh</i>)); o que dobra é a energia, por causa da massa.\nGabarito: B.",
+  "topicos": [
+    "conservacao-da-energia-mecanica",
+    "energia-potencial-gravitacional",
+    "queda-livre-e-lancamento-vertical"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-01T12:54:14.000Z",
+  "atualizadoEm": "2026-11-01T12:54:14.000Z"
+}

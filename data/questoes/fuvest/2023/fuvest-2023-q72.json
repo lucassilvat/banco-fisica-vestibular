@@ -1,0 +1,23 @@
+{
+  "id": "fuvest-2023-q72",
+  "banca": "Fuvest",
+  "ano": 2023,
+  "numero": "72",
+  "fase": "1ª fase · Prova V",
+  "fonte": {
+    "descricao": "Fuvest, Vestibular 2023, 1ª fase (Prova de Conhecimentos Gerais), caderno de questões"
+  },
+  "enunciado": "“De acordo com o órgão responsável pela área de telecomunicações e radiodifusão dos Estados Unidos, considera-se ionizante qualquer radiação eletromagnética que transporte energia maior que 10 eV (elétron-volts). Essa energia é equivalente àquela transportada pelo ultravioleta longínquo, uma das faixas mais energéticas do ultravioleta, que se estende entre 122 nm e 200 nm de comprimento de onda.”\n\nDisponível em https://mundoeducacao.uol.com.br/. Adaptado.\n\n“De acordo com a professora Patricia Nicolucci, da USP, há dois tipos de radiação: a ionizante e a não ionizante. Mas elas possuem características diferentes de interação com o corpo humano. ‘[Alguns tipos de radiação] são consideradas não ionizantes porque a energia não é suficiente para liberar elétrons quando interagem com o tecido do corpo humano ou qualquer outro material. Já a radiação ionizante, utilizada em medicina nuclear e em radioterapia, tem uma energia maior, o que lhe confere essa característica de tirar elétrons dos átomos da matéria com a qual interage’.”\n\nDisponível em https://www5.usp.br/noticias/. Adaptado.\n\nCom base nos textos e nos seus conhecimentos, assinale a alternativa correta.\n\n(A) A luz de lâmpadas brancas, as micro-ondas e o <i>laser</i> vermelho podem ser considerados exemplos de radiação não ionizante.\n(B) Radiação eletromagnética de comprimentos de onda maiores tem um efeito ionizante mais acentuado do que a de comprimentos de onda menores.\n(C) Luz visível não pode ser considerada uma forma de radiação, uma vez que tem efeitos desprezíveis sobre tecidos do corpo humano.\n(D) O efeito fotoelétrico é um exemplo de interação de radiação não ionizante com a matéria.\n(E) A liberação de elétrons de moléculas de tecidos do corpo humano por radiações ionizantes não afeta as propriedades químicas dessas moléculas.",
+  "figuras": [],
+  "gabarito": "A",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. A energia de um fóton é <i>E</i> = <i>hc</i>/λ: quanto maior o comprimento de onda, menor a energia. Pelo texto, só é ionizante a radiação com energia acima de 10 eV (λ abaixo de cerca de 120–200 nm, ultravioleta longínquo).\n2. (A) Correta: luz visível (λ ≈ 400–700 nm, energia de 2 a 3 eV), micro-ondas e <i>laser</i> vermelho têm λ muito maior que 200 nm ⇒ não ionizantes.\n3. (B) Errada: é o contrário; λ maior ⇒ menor energia ⇒ menor poder ionizante.\n4. (C) Errada: luz visível é radiação eletromagnética.\n5. (D) Errada: no efeito fotoelétrico a radiação arranca elétrons da matéria, o que é justamente a característica descrita para a radiação ionizante no 2º texto.\n6. (E) Errada: arrancar elétrons altera as ligações químicas e, portanto, as propriedades das moléculas (é o que causa danos biológicos).\nGabarito: A.",
+  "topicos": [
+    "espectro-eletromagnetico",
+    "fotons-e-energia-do-foton-e-hf",
+    "efeito-fotoeletrico"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-01T12:54:11.000Z",
+  "atualizadoEm": "2026-11-01T12:54:11.000Z"
+}

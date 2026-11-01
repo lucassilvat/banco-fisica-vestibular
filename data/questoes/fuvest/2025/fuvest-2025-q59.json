@@ -1,0 +1,24 @@
+{
+  "id": "fuvest-2025-q59",
+  "banca": "Fuvest",
+  "ano": 2025,
+  "numero": "59",
+  "fase": "1ª fase · Prova V1",
+  "fonte": {
+    "descricao": "Fuvest, Vestibular 2025, 1ª fase (Prova de Conhecimentos Gerais), caderno de questões"
+  },
+  "enunciado": "Quando uma barra de um certo material é aquecida até uma temperatura <i>T</i> a partir de uma temperatura inicial <i>T</i><sub>0</sub>, seu comprimento inicial <i>L</i><sub>0</sub> sofre um aumento Δ<i>L</i> dado por Δ<i>L</i> = <i>α L</i><sub>0</sub> (<i>T</i> − <i>T</i><sub>0</sub>), sendo <i>α</i> o coeficiente de expansão linear, que depende do material. O gráfico a seguir mostra curvas de expansão linear para barras feitas de três materiais distintos.\n\n[[figura 1]]\n\nCom base no gráfico e nas informações apresentadas, é correto afirmar:\n\n(A) O gráfico mostra curvas para três barras que possuem o mesmo comprimento à temperatura de 30°C.\n(B) Em um processo de aquecimento entre 100°C e 200°C, o comprimento da barra de cobre aumenta em 0,1 m.\n(C) O coeficiente de expansão linear do alumínio é maior do que o do cobre.\n(D) Partindo de 0°C, aumentar em 10 cm o comprimento da barra de polietileno requer elevar sua temperatura até 50°C.\n(E) Duas barras de comprimentos 5 m e 10 m a 0°C, feitas do mesmo material, sofrem iguais incrementos de comprimento quando levadas de 0°C a 100°C.",
+  "figuras": [
+    "fuvest-2025-q59-1.png"
+  ],
+  "gabarito": "D",
+  "gabaritoFonte": "oficial",
+  "resolucao": "1. Leitura do gráfico: as três barras medem 10,0 m a 0 °C. A 200 °C: polietileno 10,4 m; cobre 10,1 m; alumínio ≈ 10,04 m.\n2. (A) Errada: o comprimento é comum a 0 °C; a 30 °C as retas já se separaram.\n3. (B) Errada: o cobre vai de 10,05 m (100 °C) a 10,10 m (200 °C) ⇒ aumento de 0,05 m.\n4. (C) Errada: no gráfico a reta do alumínio é menos inclinada que a do cobre ⇒ menor <i>α</i>.\n5. (D) Correta: o polietileno aumenta 0,4 m em 200 °C, ou seja, 0,002 m/°C; para Δ<i>L</i> = 0,10 m, Δ<i>T</i> = 50 °C (lê-se 10,1 m em 50 °C).\n6. (E) Errada: Δ<i>L</i> é proporcional a <i>L</i><sub>0</sub>; a barra de 10 m dilata o dobro da de 5 m.\nGabarito: D.",
+  "topicos": [
+    "dilatacao-termica-dos-solidos",
+    "leitura-e-interpretacao-de-graficos"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-01T12:54:06.000Z",
+  "atualizadoEm": "2026-11-01T12:54:06.000Z"
+}

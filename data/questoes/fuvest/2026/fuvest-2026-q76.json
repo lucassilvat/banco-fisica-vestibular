@@ -1,0 +1,25 @@
+{
+  "id": "fuvest-2026-q76",
+  "banca": "Fuvest",
+  "ano": 2026,
+  "numero": "76",
+  "fase": "1ª fase · Prova V1",
+  "fonte": {
+    "descricao": "Fuvest, Vestibular 2026, 1ª fase (Prova de Conhecimentos Gerais), caderno de questões"
+  },
+  "enunciado": "<b>Texto para as questões 76 e 77</b>\n\nO gráfico a seguir mostra o resultado do exame de <i>audiometria tonal</i> de um paciente. O eixo vertical refere-se ao nível de intensidade sonora α (medido em dB e aumentando de cima para baixo) necessário para que a pessoa possa ouvir o som emitido pelo audiômetro a uma dada frequência <i>f</i> (medida em Hz), representada no eixo horizontal.\n\n[[figura 1]]\n\nQuanto menor o valor de α(<i>f</i>), melhor é a resposta auditiva do paciente naquela frequência <i>f</i>. O uso de aparelhos auditivos pode ser uma forma de melhorar a resposta auditiva em determinadas frequências.\n\nConsiderando os valores de α registrados em 8000 Hz e 500 Hz para esse paciente, qual a razão entre as intensidades das ondas sonoras emitidas pelo audiômetro nessas duas frequências?\n\nNote e adote:\nA relação entre o nível de intensidade sonora α(<i>f</i>), em dB, e a intensidade <i>I</i>(<i>f</i>) da onda sonora a uma frequência <i>f</i> é dada por\nα(<i>f</i>) = 10 log<sub>10</sub> (<i>I</i>(<i>f</i>)/<i>I</i><sub>0</sub>)\nonde <i>I</i><sub>0</sub> é a intensidade do limiar da audição.\nObserve que, para <i>I</i>(<i>f</i>) = <i>I</i><sub>0</sub> , tem-se α = 10 log<sub>10</sub>(1) = 0 dB\n\n(A) 10<sup>2</sup>\n(B) 10<sup>3</sup>\n(C) 10<sup>4</sup>\n(D) 10<sup>5</sup>\n(E) 10<sup>6</sup>",
+  "figuras": [
+    "fuvest-2026-q76-1.png"
+  ],
+  "gabarito": "B",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. Leitura do gráfico: α(8000 Hz) = 50 dB e α(500 Hz) = 20 dB.\n2. Pela definição, <i>I</i>/<i>I</i><sub>0</sub> = 10<sup>α/10</sup>: <i>I</i>(8000) = 10<sup>5</sup> <i>I</i><sub>0</sub> e <i>I</i>(500) = 10<sup>2</sup> <i>I</i><sub>0</sub>.\n3. Razão: <i>I</i>(8000)/<i>I</i>(500) = 10<sup>5</sup>/10<sup>2</sup> = 10<sup>3</sup> (cada 10 dB de diferença multiplica a intensidade por 10; 30 dB ⇒ fator 1000).\nGabarito: B.",
+  "topicos": [
+    "nivel-sonoro-decibeis",
+    "som-altura-intensidade-e-timbre",
+    "leitura-e-interpretacao-de-graficos"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-01T12:54:03.000Z",
+  "atualizadoEm": "2026-11-01T12:54:03.000Z"
+}

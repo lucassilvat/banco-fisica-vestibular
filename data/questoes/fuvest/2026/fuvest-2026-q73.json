@@ -1,0 +1,24 @@
+{
+  "id": "fuvest-2026-q73",
+  "banca": "Fuvest",
+  "ano": 2026,
+  "numero": "73",
+  "fase": "1ª fase · Prova V1",
+  "fonte": {
+    "descricao": "Fuvest, Vestibular 2026, 1ª fase (Prova de Conhecimentos Gerais), caderno de questões"
+  },
+  "enunciado": "Uma definição possível de equilíbrio mecânico estável é a seguinte:\n\n“<i>Se um corpo está em uma posição de equilíbrio mecânico e, ao sofrer pequenos deslocamentos em torno dessa posição, sua tendência for retornar à posição original de equilíbrio, dizemos que o equilíbrio é <b>estável</b>.</i>”\n\nAs imagens a seguir mostram uma colher em diferentes situações de equilíbrio mecânico em cima de uma xícara.\n\n[[figura 1]]\n\nCom base na definição apresentada e nos seus conhecimentos, quais imagens ilustram situações em que a colher está em equilíbrio estável em relação a pequenos deslocamentos nas direções indicadas pelas setas?\n\n(A) 1 e 2\n(B) 2 e 4\n(C) 1 e 3\n(D) 3 e 4\n(E) 2 e 3",
+  "figuras": [
+    "fuvest-2026-q73-1.png"
+  ],
+  "gabarito": "E",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. Critério: o equilíbrio é estável quando um pequeno deslocamento faz o centro de massa <b>subir</b> (a energia potencial gravitacional é mínima na posição de equilíbrio) ou, de forma equivalente, quando o torque do peso tende a trazer o corpo de volta.\n2. Imagem 1: a colher se apoia na borda pela parte côncava (curvada para cima, como um \"vale\"). Ao deslizar na horizontal, o ponto de apoio passa para um trecho mais alto da curva e a colher como um todo desce ⇒ o centro de massa desce ⇒ instável.\n3. Imagem 2: a colher está virada, com a curvatura para baixo (como uma \"lombada\") sobre a borda. Ao deslizar, a colher precisa subir para continuar apoiada ⇒ o centro de massa sobe ⇒ estável.\n4. Imagem 3: a colher está pendurada na borda, com o centro de massa abaixo do ponto de apoio; ao ser girada, o peso gera torque restaurador ⇒ estável.\n5. Imagem 4: deslocar a colher ao longo do próprio cabo afasta o centro de massa da vertical do apoio; o torque do peso aumenta o deslocamento ⇒ instável.\n6. Estáveis: 2 e 3.\nGabarito: E.",
+  "topicos": [
+    "equilibrio-do-corpo-extenso",
+    "energia-potencial-gravitacional"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-01T12:54:03.000Z",
+  "atualizadoEm": "2026-11-01T12:54:03.000Z"
+}

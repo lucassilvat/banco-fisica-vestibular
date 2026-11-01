@@ -1,0 +1,25 @@
+{
+  "id": "fuvest-2025-q23",
+  "banca": "Fuvest",
+  "ano": 2025,
+  "numero": "23",
+  "fase": "1ª fase · Prova V1",
+  "fonte": {
+    "descricao": "Fuvest, Vestibular 2025, 1ª fase (Prova de Conhecimentos Gerais), caderno de questões"
+  },
+  "enunciado": "Considere o texto a seguir.\n\n[[figura 1]]\n\nThe Event Horizon Telescope Collaboration.\n\n“Com observações feitas pela primeira vez em luz polarizada, a nova imagem do buraco negro que se esconde no coração da Via Láctea revelou um campo magnético com uma estrutura muito semelhante à de outro buraco negro situado no centro da galáxia M87, sugerindo que campos magnéticos intensos podem ser comuns a todos os buracos negros.\nA luz é uma onda eletromagnética que nos permite ver objetos. Por vezes, os campos elétrico e magnético associados à onda oscilam em direções preferenciais, definindo o que chamamos de luz polarizada. Apesar de estarmos rodeados por luz polarizada, aos olhos humanos essa luz é indistinguível da luz dita ‘normal’. No plasma que rodeia estes buracos negros, as partículas que giram em torno das linhas de campo magnético conferem-lhe um padrão de polarização com orientação na direção perpendicular ao campo magnético do buraco negro, o que permite aos astrônomos ver com muitos detalhes o que se passa nas regiões dos buracos negros e mapear as suas linhas de campo magnético.”\n\n“Astrônomos descobrem campos magnéticos em espiral nas bordas de buraco negro da Via Láctea”, Jornal da USP 29/03/2024. Disponível em https://jornal.usp.br/ciencias/ (Adaptado).\n\nCom base no texto e em seus conhecimentos, é correto afirmar:\n\n(A) A medida do padrão de polarização da luz mencionada no texto permite somente o mapeamento das linhas de campos magnéticos na direção paralela à direção da polarização.\n(B) O olho humano pode discriminar as diferentes direções da luz polarizada dos buracos negros, mapeando suas linhas de campo.\n(C) Campos magnéticos como os mencionados no texto são criados apenas por cargas elétricas em repouso no plasma que rodeia os buracos negros.\n(D) O plasma é formado por partículas eletricamente carregadas, dado que essas partículas exibem um movimento circular perpendicular à direção do campo magnético.\n(E) O processo de mapeamento das linhas de campo magnético mencionado no texto pode ser realizado por meio da detecção de qualquer tipo de onda eletromagnética gerada em buracos negros.",
+  "figuras": [
+    "fuvest-2025-q23-1.png"
+  ],
+  "gabarito": "D",
+  "gabaritoFonte": "oficial",
+  "resolucao": "1. (A) Errada: segundo o texto, a polarização é perpendicular ao campo magnético; é isso que permite mapear as linhas de campo.\n2. (B) Errada: o texto diz que, para o olho humano, a luz polarizada é indistinguível da luz \"normal\".\n3. (C) Errada: cargas em repouso criam apenas campo elétrico; campos magnéticos são criados por cargas em movimento (correntes).\n4. (D) Correta: só partículas com carga sofrem força magnética (<i>F</i> = <i>q v B</i> sen <i>θ</i>). Se as partículas giram em torno das linhas de campo, em movimento circular perpendicular a <i>B</i>, elas são eletricamente carregadas.\n5. (E) Errada: o método depende de ondas com polarização definida pelo campo magnético, não de qualquer onda eletromagnética.\nGabarito: D.",
+  "topicos": [
+    "movimento-de-carga-em-campo-magnetico-uniforme",
+    "polarizacao",
+    "forca-magnetica-sobre-carga-em-movimento"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-01T12:54:06.000Z",
+  "atualizadoEm": "2026-11-01T12:54:06.000Z"
+}

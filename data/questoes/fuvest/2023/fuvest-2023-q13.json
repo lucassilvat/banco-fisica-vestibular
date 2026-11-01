@@ -1,0 +1,31 @@
+{
+  "id": "fuvest-2023-q13",
+  "banca": "Fuvest",
+  "ano": 2023,
+  "numero": "13",
+  "fase": "1ª fase · Prova V",
+  "fonte": {
+    "descricao": "Fuvest, Vestibular 2023, 1ª fase (Prova de Conhecimentos Gerais), caderno de questões"
+  },
+  "enunciado": "Diversos processos na indústria de óleo e gás podem envolver misturas de gases a diferentes temperaturas. Um sistema isolado é composto por dois compartimentos de mesmo volume: o primeiro é ocupado por <i>n</i><sub>1</sub> = 1 mol e o segundo é ocupado por <i>n</i><sub>2</sub> = 2 mols de um gás ideal monoatômico. Inicialmente cada compartimento encontra-se em equilíbrio térmico, com temperatura <i>T</i><sub>1</sub> = 4<i>T</i> e <i>T</i><sub>2</sub> = <i>T</i>, respectivamente, conforme mostra a figura:\n\n[[figura 1]]\n\nA partir de certo instante, a parede que separa os compartimentos é removida e, após algum tempo, o sistema atinge uma nova temperatura de equilíbrio <i>T</i><sub><i>m</i></sub>. Supondo que não há trabalho realizado após a remoção da parede, nem troca de calor entre o sistema e o ambiente externo, a temperatura de equilíbrio <i>T</i><sub><i>m</i></sub> é dada por:\n\nNote e adote:\nA energia interna de um gás ideal monoatômico é dada por <i>U</i> = 3<i>nRT</i>/2, sendo <i>n</i> o número de mols, <i>R</i> a constante universal dos gases ideais e <i>T</i> a temperatura absoluta.\n\n(A) <i>T</i>\n(B) 3<i>T</i>/2\n(C) 2<i>T</i>\n(D) 5<i>T</i>/2\n(E) 4<i>T</i>",
+  "figuras": [
+    "fuvest-2023-q13-1.png"
+  ],
+  "gabarito": "C",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. Sistema isolado, sem trabalho e sem troca de calor com o exterior ⇒ pela 1ª lei, a energia interna total se conserva.\n2. Antes: <i>U</i> = (3/2)<i>R</i>(<i>n</i><sub>1</sub><i>T</i><sub>1</sub> + <i>n</i><sub>2</sub><i>T</i><sub>2</sub>) = (3/2)<i>R</i>(1 · 4<i>T</i> + 2 · <i>T</i>) = (3/2)<i>R</i> · 6<i>T</i>.\n3. Depois: <i>U</i> = (3/2)(<i>n</i><sub>1</sub> + <i>n</i><sub>2</sub>)<i>R T</i><sub><i>m</i></sub> = (3/2)<i>R</i> · 3<i>T</i><sub><i>m</i></sub>.\n4. Igualando: 3<i>T</i><sub><i>m</i></sub> = 6<i>T</i> ⇒ <i>T</i><sub><i>m</i></sub> = 2<i>T</i> (média das temperaturas ponderada pelo número de mols).\nGabarito: C.",
+  "topicos": [
+    "energia-interna",
+    "primeira-lei-da-termodinamica",
+    "gas-ideal-e-equacao-de-clapeyron"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-01T12:54:11.000Z",
+  "atualizadoEm": "2026-11-01T12:54:11.000Z",
+  "revisao": {
+    "divergenciasAceitas": [
+      "nRT"
+    ],
+    "notas": "nRT está em fonte matemática no PDF (letras separadas na camada de texto)."
+  }
+}

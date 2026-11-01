@@ -1,0 +1,25 @@
+{
+  "id": "fuvest-2023-q67",
+  "banca": "Fuvest",
+  "ano": 2023,
+  "numero": "67",
+  "fase": "1ª fase · Prova V",
+  "fonte": {
+    "descricao": "Fuvest, Vestibular 2023, 1ª fase (Prova de Conhecimentos Gerais), caderno de questões"
+  },
+  "enunciado": "Termistores são termômetros baseados na variação da resistência elétrica com a temperatura e são utilizados em diversos equipamentos, como termômetros digitais domésticos, automóveis, refrigeradores e fornos. A curva de calibração de um termistor é mostrada na figura:\n\n[[figura 1]]\n\nConsidere que o termistor se rompa quando percorrido por uma corrente maior do que 10 mA. Supondo que o termistor seja conectado a uma bateria de 5 V, assinale a alternativa que contém uma faixa de temperaturas em que o dispositivo sempre funcionará adequadamente:\n\nNote e adote:\nA relação entre a resistência <i>R</i> de um dispositivo, a corrente <i>I</i> que o percorre e a diferença de potencial elétrico <i>V</i> entre seus terminais é <i>V</i> = <i>RI</i>.\n\n(A) 10℃ < <i>T</i> < 35℃\n(B) 20℃ < <i>T</i> < 45℃\n(C) 30℃ < <i>T</i> < 55℃\n(D) 40℃ < <i>T</i> < 65℃\n(E) 50℃ < <i>T</i> < 75℃",
+  "figuras": [
+    "fuvest-2023-q67-1.png"
+  ],
+  "gabarito": "A",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. Para não romper: <i>I</i> = <i>V</i>/<i>R</i> ≤ 10 mA ⇒ <i>R</i> ≥ 5 V/0,010 A = 500 Ω = 0,5 kΩ.\n2. No gráfico, a resistência diminui com a temperatura e vale 0,5 kΩ em cerca de 40 °C. Acima de 40 °C, <i>R</i> < 0,5 kΩ e a corrente passa de 10 mA.\n3. A faixa deve ficar inteira abaixo de 40 °C: só a alternativa A (10 °C a 35 °C) satisfaz; as outras incluem temperaturas acima de 40 °C.\nGabarito: A.",
+  "topicos": [
+    "primeira-lei-de-ohm",
+    "leitura-e-interpretacao-de-graficos",
+    "temperatura-e-escalas-termometricas"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-01T12:54:11.000Z",
+  "atualizadoEm": "2026-11-01T12:54:11.000Z"
+}

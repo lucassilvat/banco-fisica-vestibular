@@ -1,0 +1,23 @@
+{
+  "id": "fuvest-2020-q69",
+  "banca": "Fuvest",
+  "ano": 2020,
+  "numero": "69",
+  "fase": "1ª fase · Prova V",
+  "fonte": {
+    "descricao": "Fuvest, Vestibular 2020, 1ª fase (Prova de Conhecimentos Gerais), caderno de questões"
+  },
+  "enunciado": "Em julho de 1969, os astronautas Neil Armstrong e Buzz Aldrin fizeram o primeiro pouso tripulado na superfície da Lua, enquanto seu colega Michael Collins permaneceu a bordo do módulo de comando <i>Columbia</i> em órbita lunar. Considerando que o <i>Columbia</i> estivesse em uma órbita perfeitamente circular a uma altitude de 260 km acima da superfície da Lua, o tempo decorrido (em horas terrestres ‐ h) entre duas passagens do <i>Columbia</i> exatamente acima do mesmo ponto da superfície lunar seria de\n\nNote e adote:\nConstante gravitacional: G ≅ 9 x 10<sup>−13</sup> km<sup>3</sup>/(kg h<sup>2</sup>);\nRaio da Lua = 1.740 km;\nMassa da Lua ≅ 8 × 10<sup>22</sup> kg;\nπ ≅ 3.\n\n(A) 0,5 h.\n(B) 2 h.\n(C) 4 h.\n(D) 8 h.\n(E) 72 h.",
+  "figuras": [],
+  "gabarito": "B",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. Raio da órbita: <i>r</i> = 1740 + 260 = 2000 km.\n2. A atração gravitacional é a resultante centrípeta: <i>GMm</i>/<i>r</i><sup>2</sup> = <i>m</i>(2π/<i>T</i>)<sup>2</sup><i>r</i> ⇒ <i>T</i> = 2π √(<i>r</i><sup>3</sup>/<i>GM</i>).\n3. <i>r</i><sup>3</sup> = 8 × 10<sup>9</sup> km<sup>3</sup>; <i>GM</i> = 9 × 10<sup>−13</sup> · 8 × 10<sup>22</sup> = 7,2 × 10<sup>10</sup> km<sup>3</sup>/h<sup>2</sup>.\n4. <i>T</i> = 2 · 3 · √(8 × 10<sup>9</sup>/7,2 × 10<sup>10</sup>) = 6 · √(1/9) = 6 · 1/3 = 2 h.\n5. A Lua gira em torno do próprio eixo muito devagar (cerca de 27 dias por volta), então o tempo entre duas passagens sobre o mesmo ponto é praticamente o período orbital.\nGabarito: B.",
+  "topicos": [
+    "satelites-orbitas-e-imponderabilidade",
+    "lei-da-gravitacao-universal",
+    "leis-de-kepler"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-01T12:54:17.000Z",
+  "atualizadoEm": "2026-11-01T12:54:17.000Z"
+}

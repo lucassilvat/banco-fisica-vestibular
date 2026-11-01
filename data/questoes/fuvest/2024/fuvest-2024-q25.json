@@ -1,0 +1,31 @@
+{
+  "id": "fuvest-2024-q25",
+  "banca": "Fuvest",
+  "ano": 2024,
+  "numero": "25",
+  "fase": "1ª fase · Prova V",
+  "fonte": {
+    "descricao": "Fuvest, Vestibular 2024, 1ª fase (Prova de Conhecimentos Gerais), caderno de questões"
+  },
+  "enunciado": "Quando uma solução de NaCℓ é colocada em contato com uma chama, observa-se uma luz amarela (figura I). Quando esse mesmo experimento é realizado na presença de uma lâmpada de Na, a chama aparenta estar preta (figura II).\n\n[[figura 1]]\n\n(I) Chama na presença de solução de NaCℓ.\n\n[[figura 2]]\n\n(II) Chama na presença de solução de NaCℓ, irradiada com lâmpada de Na.\n\nConsiderando que um material emite e absorve radiação em um mesmo comprimento de onda, assinale a afirmação correta sobre o experimento.\n\n(A) Na figura (I), a chama é amarela devido à absorção de luz pelos átomos de Na; enquanto, em (II), a chama está preta porque o Na deixa de absorver quando a chama é irradiada pela lâmpada de sódio.\n(B) Na figura (I), a chama é amarela porque esta é a cor de qualquer chama; enquanto, em (II), a chama está preta porque o Na absorve a energia da chama.\n(C) Na figura (I), a chama é amarela porque esta é a cor de qualquer chama; enquanto, em (II), a chama está preta devido à combustão incompleta.\n(D) Na figura (I), a chama é amarela devido à emissão de luz pelos átomos de Na; enquanto, em (II), a chama está preta devido à combustão incompleta.\n(E) Na figura (I), a chama é amarela devido à emissão de luz pelos átomos de Na; enquanto, em (II), a chama está preta porque os átomos de Na da chama absorvem a luz proveniente da lâmpada de Na.",
+  "figuras": [
+    "fuvest-2024-q25-1.png",
+    "fuvest-2024-q25-2.png"
+  ],
+  "gabarito": "E",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. Na chama, os átomos de Na são excitados termicamente; ao voltarem ao estado fundamental, emitem fótons de energias bem definidas, cuja linha principal é amarela (≈ 589 nm). Isso explica a figura (I) por <b>emissão</b> — nem toda chama é amarela.\n2. A lâmpada de sódio emite exatamente esse mesmo comprimento de onda. Como o material absorve no mesmo comprimento de onda em que emite, os átomos de Na da chama <b>absorvem</b> a luz da lâmpada que os atravessa.\n3. Contra o fundo intensamente iluminado pela lâmpada, a chama deixa passar menos luz amarela e parece escura (é a mesma ideia das linhas escuras do espectro de absorção).\n4. Isso é o que diz a alternativa E; as demais atribuem a cor à absorção, a \"qualquer chama\" ou à combustão incompleta.\nGabarito: E.",
+  "topicos": [
+    "espectros-de-emissao-e-absorcao",
+    "modelos-atomicos-e-modelo-de-bohr"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-01T12:54:08.000Z",
+  "atualizadoEm": "2026-11-01T12:54:08.000Z",
+  "revisao": {
+    "divergenciasAceitas": [
+      "NaC"
+    ],
+    "notas": "No caderno impresso aparece NaCℓ (ℓ cursivo); a camada de texto do PDF registra a fonte do símbolo de outro modo."
+  }
+}

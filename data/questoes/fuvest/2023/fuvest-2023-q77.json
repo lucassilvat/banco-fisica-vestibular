@@ -1,0 +1,25 @@
+{
+  "id": "fuvest-2023-q77",
+  "banca": "Fuvest",
+  "ano": 2023,
+  "numero": "77",
+  "fase": "1ª fase · Prova V",
+  "fonte": {
+    "descricao": "Fuvest, Vestibular 2023, 1ª fase (Prova de Conhecimentos Gerais), caderno de questões"
+  },
+  "enunciado": "Um tradicional brinquedo infantil, conhecido como bate-bate, é composto por duas esferas (bolinhas) de massas iguais conectadas cada qual por uma corda e amarradas num ponto comum. Desloca-se a bolinha 1 de uma altura <i>h</i>, conforme ilustrado no arranjo:\n\n[[figura 1]]\n\nAo soltar a esfera 1, ela colidirá com a bolinha 2, inicialmente em repouso. Supondo que a colisão seja perfeitamente elástica, verifica-se que, após a colisão, a esfera 2 subirá para a mesma altura <i>h</i>. Imagine agora que uma pequena goma colante seja colocada numa das esferas de modo que, após a colisão, ambas permaneçam unidas. Neste caso, após a colisão, a altura alcançada pelo sistema formado pelas duas bolinhas unidas será:\n\nNote e adote:\nDesconsiderar a massa da goma.\n\n(A) <i>h</i>/8\n(B) <i>h</i>/4\n(C) <i>h</i>/3\n(D) <i>h</i>/2\n(E) <i>h</i>",
+  "figuras": [
+    "fuvest-2023-q77-1.png"
+  ],
+  "gabarito": "B",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. Descida da esfera 1 (conservação da energia): <i>v</i><sub>1</sub> = √(2<i>gh</i>).\n2. Colisão perfeitamente inelástica (as esferas ficam unidas), com conservação da quantidade de movimento: <i>m v</i><sub>1</sub> = 2<i>m v</i> ⇒ <i>v</i> = <i>v</i><sub>1</sub>/2.\n3. Subida do conjunto: <i>h</i>′ = <i>v</i><sup>2</sup>/(2<i>g</i>) = (<i>v</i><sub>1</sub>/2)<sup>2</sup>/(2<i>g</i>) = (1/4) · <i>v</i><sub>1</sub><sup>2</sup>/(2<i>g</i>) = <i>h</i>/4.\nGabarito: B.",
+  "topicos": [
+    "colisoes-elasticas-e-inelasticas",
+    "conservacao-da-quantidade-de-movimento",
+    "conservacao-da-energia-mecanica"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-01T12:54:11.000Z",
+  "atualizadoEm": "2026-11-01T12:54:11.000Z"
+}

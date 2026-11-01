@@ -1,0 +1,25 @@
+{
+  "id": "fuvest-2025-q62",
+  "banca": "Fuvest",
+  "ano": 2025,
+  "numero": "62",
+  "fase": "1ª fase · Prova V1",
+  "fonte": {
+    "descricao": "Fuvest, Vestibular 2025, 1ª fase (Prova de Conhecimentos Gerais), caderno de questões"
+  },
+  "enunciado": "Um brinquedo bastante comum em parques de diversões, a montanha-russa, utiliza-se da transformação parcial de energia potencial em energia cinética (e vice-versa) como princípio de funcionamento. Uma das montanhas-russas mais famosas do mundo, a Takabisha, cuja pista possui mais de 1 km de extensão, localiza-se no Japão e tem vista para o Monte Fuji. Nela, a subida inicial até o ponto mais alto, situado a uma altura aproximada de 50 m do solo, é feita sob ângulo de aproximadamente 90 graus, seguida de uma descida vertiginosa, cuja velocidade, no ponto mais baixo desse trecho, atinge cerca de 30 m/s em poucos segundos.\n\n[[figura 1]]\n\nMontanha-russa Takabisha.\n\nConsiderando um carrinho ocupado com massa total de 300 kg em repouso na posição de altura máxima, a energia mecânica perdida durante a descida inicial é, aproximadamente,\n\nNote e adote:\nAceleração da gravidade: g = 10 m/s<sup>2</sup>.\n\n(A) 1200 J.\n(B) 2500 J.\n(C) 5000 J.\n(D) 15000 J.\n(E) 20000 J.",
+  "figuras": [
+    "fuvest-2025-q62-1.png"
+  ],
+  "gabarito": "D",
+  "gabaritoFonte": "oficial",
+  "resolucao": "1. No topo (repouso, 50 m): <i>E</i> = <i>m g h</i> = 300 · 10 · 50 = 150 000 J.\n2. No ponto mais baixo (altura ≈ 0, 30 m/s): <i>E</i> = <i>m v</i><sup>2</sup>/2 = 300 · 900/2 = 135 000 J.\n3. Energia mecânica perdida: 150 000 − 135 000 = 15 000 J.\nGabarito: D.",
+  "topicos": [
+    "sistemas-dissipativos-perda-de-energia-mecanica",
+    "energia-potencial-gravitacional",
+    "energia-cinetica-e-teorema-trabalho-energia"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-01T12:54:06.000Z",
+  "atualizadoEm": "2026-11-01T12:54:06.000Z"
+}

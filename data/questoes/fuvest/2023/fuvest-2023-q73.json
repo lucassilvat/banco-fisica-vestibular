@@ -1,0 +1,25 @@
+{
+  "id": "fuvest-2023-q73",
+  "banca": "Fuvest",
+  "ano": 2023,
+  "numero": "73",
+  "fase": "1ª fase · Prova V",
+  "fonte": {
+    "descricao": "Fuvest, Vestibular 2023, 1ª fase (Prova de Conhecimentos Gerais), caderno de questões"
+  },
+  "enunciado": "A figura ilustra de maneira simplificada o fenômeno da dispersão da luz branca ao incidir sobre um prisma de vidro a partir do ar, mostrando apenas raios refratados correspondentes a três cores diferentes. Um fenômeno análogo é responsável pelo aparecimento do arco-íris após uma chuva.\n\n[[figura 1]]\n\nNa base do fenômeno da dispersão está a refração de raios luminosos quando incidem sobre uma interface que separa dois meios físicos distintos. A descrição matemática da refração é feita pela lei de Snell, conforme apresentada a seguir:\n\n<i>n</i><sub><i>i</i>,<i>λ</i></sub> sen <i>θ</i><sub><i>i</i></sub> = <i>n</i><sub><i>r</i>,<i>λ</i></sub> sen <i>θ</i><sub><i>r</i></sub>\n\nem que:\n• <i>n</i><sub><i>i</i>,<i>λ</i></sub> é o índice de refração da luz de comprimento de onda <i>λ</i> no meio incidente,\n• <i>θ</i><sub><i>i</i></sub> é o ângulo que o raio incidente faz com a reta normal à interface,\n• <i>n</i><sub><i>r</i>,<i>λ</i></sub> é o índice de refração da mesma luz no meio refratado e\n• <i>θ</i><sub><i>r</i></sub> é o ângulo que o raio refratado faz com a reta normal à interface.\n\nO índice de refração do ar pode ser tomado como igual a 1 para qualquer comprimento de onda. Com base nessas informações, a relação correta entre os índices de refração dos raios das cores 1 (<i>n</i><sub>1</sub>), 2 (<i>n</i><sub>2</sub>) e 3 (<i>n</i><sub>3</sub>) no vidro é dada por:\n\nNote e adote:\nA função seno é crescente quando <i>θ</i> está entre 0 e 90 graus.\n\n(A) <i>n</i><sub>1</sub> = <i>n</i><sub>2</sub> = <i>n</i><sub>3</sub> > 1\n(B) <i>n</i><sub>1</sub> > <i>n</i><sub>2</sub> > <i>n</i><sub>3</sub> > 1\n(C) 1 < <i>n</i><sub>1</sub> < <i>n</i><sub>2</sub> < <i>n</i><sub>3</sub>\n(D) <i>n</i><sub>1</sub> < <i>n</i><sub>2</sub> < <i>n</i><sub>3</sub> < 1\n(E) 1 > <i>n</i><sub>1</sub> > <i>n</i><sub>2</sub> > <i>n</i><sub>3</sub>",
+  "figuras": [
+    "fuvest-2023-q73-1.png"
+  ],
+  "gabarito": "B",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. Na primeira face, todas as cores chegam com o mesmo ângulo de incidência <i>θ</i><sub><i>i</i></sub>, vindo do ar (<i>n</i> = 1): sen <i>θ</i><sub><i>r</i></sub> = sen <i>θ</i><sub><i>i</i></sub>/<i>n</i><sub>vidro</sub>.\n2. Como os raios se aproximam da normal ao entrar no vidro, <i>n</i> > 1 para todas as cores.\n3. Quanto maior o índice, menor <i>θ</i><sub><i>r</i></sub>, isto é, mais o raio se aproxima da normal e mais é desviado em direção à base do prisma.\n4. Na figura, a cor 1 é a mais desviada (sai mais baixa), depois a 2 e por último a 3 ⇒ <i>n</i><sub>1</sub> > <i>n</i><sub>2</sub> > <i>n</i><sub>3</sub> > 1.\nGabarito: B.",
+  "topicos": [
+    "prismas-e-dispersao-da-luz",
+    "lei-de-snell-descartes",
+    "refracao-da-luz-e-indice-de-refracao"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-01T12:54:11.000Z",
+  "atualizadoEm": "2026-11-01T12:54:11.000Z"
+}

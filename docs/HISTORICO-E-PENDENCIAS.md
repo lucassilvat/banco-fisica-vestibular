@@ -35,8 +35,26 @@ Para gravar questões, usam-se os lotes da etapa `publicar` (docs/WORKFLOW.md).
    enviado ao GitHub como v1.0.0.
 
 8. v1.1.0: Unicamp 2027 (provas R e Z), Q8–Q14. Fase registrada como "1ª fase · Prova R".
+9. v1.2.0: Fuvest 2020–2026, 1ª fase (prova V; V1 em 2025 e 2026), 81 questões. Segmentador
+   adaptado ao título "NN" da Fuvest. O Lucas pediu para incluir **todas** as candidatas,
+   inclusive as "em dúvida" (Química com Física forte e interdisciplinares de Geografia,
+   Matemática e Inglês). O PDF de 2021 ("Caderno Reserva") tem camada de texto ilegível:
+   transcrição pela imagem e conferência por OCR (`python -m pipeline ocr`).
+   Na Fuvest, "Note e adote" é transcrito como bloco de texto antes das alternativas,
+   começando por "Note e adote:"; textos comuns ("TEXTO PARA AS QUESTÕES...") repetidos
+   em cada questão; tabelas entram como figura.
 
 ## Pendências
+
+- **Gabaritos oficiais Fuvest**: só 2025 foi conferido no PDF oficial (fuvest.br, lido na
+  web; o arquivo não pôde ser baixado para `fontes/`). 2020–2024 e 2026 estão como
+  `resolucao-propria` (2024 e 2026 conferem com o gabarito divulgado). Quando o Lucas
+  enviar os PDFs de gabarito, registrar com `--tipo gabarito` e trocar para `oficial`.
+  Conferir com atenção 2020 Q78 (trajetória 4) e 2023 Q70.
+- **Fuvest 2022 Q54 anulada**: mantida no banco com o gabarito pretendido (B) e aviso.
+  Decidir se fica no app ou sai.
+- **Critério "Química com Física forte"**: na Fuvest o Lucas mandou incluir. Decidir se
+  vale também para as Unicamp que ficaram de fora (2020 Q45–Q48, 2021 B Q33, 2027 Q25).
 
 - **Gabarito oficial 2027**: as 7 questões estão com `resolucao-propria`. Gabaritos da
   resolução: 8A, 9B, 10D, 11C, 12B, 13B, 14D.
@@ -54,10 +72,9 @@ Para gravar questões, usam-se os lotes da etapa `publicar` (docs/WORKFLOW.md).
   Q45–Q48, 2021 B Q33). Não incluir sem novo pedido.
 - **Release v1.0.0 no GitHub**: o envio de tags falhou pela sessão; criar pela aba
   Releases do site, se desejado. O `CHANGELOG.md` registra a versão.
-- **Próximas provas**: o `painel` mostra 71 tópicos sem questão (mais pobres:
-  Eletromagnetismo, Física moderna, Ondulatória). Candidatas naturais: Unicamp anteriores
-  a 2016 (mesmo formato) e depois Fuvest, Unesp, ENEM (exigem ajustar o segmentador na
-  primeira prova de cada banca).
+- **Próximas provas**: o `painel` mostra 34 tópicos sem questão (mais pobre:
+  Eletromagnetismo). Candidatas naturais: Fuvest anteriores a 2020 (mesmo formato),
+  Unicamp anteriores a 2016, depois Unesp e ENEM (exigem ajustar o segmentador).
 
 ## Limites conhecidos do formato atual
 

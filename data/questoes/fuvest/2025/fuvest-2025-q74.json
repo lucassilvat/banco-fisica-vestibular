@@ -1,0 +1,31 @@
+{
+  "id": "fuvest-2025-q74",
+  "banca": "Fuvest",
+  "ano": 2025,
+  "numero": "74",
+  "fase": "1ª fase · Prova V1",
+  "fonte": {
+    "descricao": "Fuvest, Vestibular 2025, 1ª fase (Prova de Conhecimentos Gerais), caderno de questões"
+  },
+  "enunciado": "<b>TEXTO PARA AS QUESTÕES 73 E 74</b>\n\nUm artigo publicado em 2018, na Revista Brasileira de Ensino de Física, reporta um curioso estudo sobre a pressão interna de “foguetes de garrafa PET”, propulsionados a partir da reação química entre ácido acético e bicarbonato de sódio.<sup>[1]</sup> Uma mistura de vinagre (que contém ácido acético, CH<sub>3</sub>COOH) com bicarbonato de sódio (NaHCO<sub>3</sub>) produz gás carbônico (CO<sub>2</sub>) por meio da reação química representada pela seguinte equação:\n\nCH<sub>3</sub>COOH + NaHCO<sub>3</sub> → CH<sub>3</sub>COONa + CO<sub>2</sub> + H<sub>2</sub>O\n\n[[figura 1]]\n\nA reação ocorre no interior de uma garrafa PET de 2 L de volume útil total, da qual foi retirado todo o ar. Insere-se na garrafa um volume inicial <i>V</i><sub><i>vin</i></sub> de vinagre líquido e bicarbonato de sódio, sendo a garrafa posteriormente selada com uma tampa acoplada a um manômetro. A reação produzirá gás carbônico que ocupará um volume <i>V</i><sub><i>CO</i><sub>2</sub></sub> e exercerá uma pressão <i>P</i><sub><i>CO</i><sub>2</sub></sub> sobre a tampa da garrafa, medida pelo manômetro, como mostra a figura.\n\n[1] FONSECA et al, RBEF, vol. 40, nº 3, e3504 (2018). Disponível em http://dx.doi.org/10.1590/1806-9126-RBEF-2017-0340.\n\nConsidere agora um outro experimento feito em condições semelhantes, em que o manômetro indica uma pressão de 5 atm e, sem que a pressão no interior da garrafa se altere, ele é cuidadosamente substituído por uma rolha de 10 g de massa e 2 cm de diâmetro (igual ao diâmetro interno do bocal da garrafa). Logo após a rolha ser encaixada no local, ela é expelida devido à pressão interna da garrafa ser maior que a pressão atmosférica.\n\nA aceleração da rolha no momento em que ela é expelida é de, aproximadamente,\n\nNote e adote:\nAssuma que a pressão atmosférica seja de 1 atm = 10<sup>5</sup> Pa.\nUtilize π = 3.\nConsidere que as forças relevantes atuando sobre a rolha no momento em que é expelida são apenas aquelas relativas à diferença de pressão entre os seus lados interno e externo.\n\n(A) 12 m/s<sup>2</sup>.\n(B) 120 m/s<sup>2</sup>.\n(C) 1200 m/s<sup>2</sup>.\n(D) 12000 m/s<sup>2</sup>.\n(E) 120000 m/s<sup>2</sup>.",
+  "figuras": [
+    "fuvest-2025-q74-1.png"
+  ],
+  "gabarito": "D",
+  "gabaritoFonte": "oficial",
+  "resolucao": "1. Diferença de pressão entre dentro e fora: 5 atm − 1 atm = 4 atm = 4 × 10<sup>5</sup> Pa.\n2. Área da rolha: <i>A</i> = π<i>r</i><sup>2</sup> = 3 · (0,01 m)<sup>2</sup> = 3 × 10<sup>−4</sup> m<sup>2</sup>.\n3. Força resultante: <i>F</i> = Δ<i>p</i> · <i>A</i> = 4 × 10<sup>5</sup> · 3 × 10<sup>−4</sup> = 120 N.\n4. 2ª lei de Newton: <i>a</i> = <i>F</i>/<i>m</i> = 120/0,010 = 12 000 m/s<sup>2</sup>.\nGabarito: D.",
+  "topicos": [
+    "pressao",
+    "leis-de-newton",
+    "pressao-atmosferica-e-experimento-de-torricelli"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-01T12:54:06.000Z",
+  "atualizadoEm": "2026-11-01T12:54:06.000Z",
+  "revisao": {
+    "divergenciasAceitas": [
+      "vin"
+    ],
+    "notas": "O subscrito vin de V<sub>vin</sub> está em fonte matemática no PDF e não aparece como palavra na camada de texto."
+  }
+}

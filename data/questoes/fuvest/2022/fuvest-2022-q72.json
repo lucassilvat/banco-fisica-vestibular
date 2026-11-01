@@ -1,0 +1,23 @@
+{
+  "id": "fuvest-2022-q72",
+  "banca": "Fuvest",
+  "ano": 2022,
+  "numero": "72",
+  "fase": "1ª fase · Prova V",
+  "fonte": {
+    "descricao": "Fuvest, Vestibular 2022, 1ª fase (Prova de Conhecimentos Gerais), caderno de questões"
+  },
+  "enunciado": "Alguns equipamentos de visão noturna têm seu funcionamento baseado no efeito fotoelétrico, uma das primeiras descobertas que contribuíram para o surgimento da mecânica quântica. Nesses equipamentos, fótons de frequência <b><i>f</i></b> emitidos por um objeto incidem sobre uma superfície metálica. Elétrons são então liberados da superfície e acelerados por um campo elétrico. Em seguida, o sinal eletrônico é amplificado e produz uma imagem do objeto.\n\nDiferentemente do que a física clássica prevê, apenas os elétrons com energia <b><i>hf</i></b> acima de uma certa energia mínima <i>E</i><sub><i>0</i></sub> são liberados da superfície metálica.\n\nConsiderando a incidência de fótons com frequência da ordem de 10<sup>14</sup> Hz, a ordem de grandeza do valor limite de <i>E</i><sub><i>0</i></sub> para que o equipamento funcione deve ser:\n\nNote e adote:\nConstante de Planck: <i>h</i> = 6,63 × 10 <sup>−34</sup>J.s\n\n(A) 10<sup>−50</sup> J\n(B) 10<sup>−40</sup> J\n(C) 10<sup>−30</sup>J\n(D) 10<sup>−20</sup>J\n(E) 10<sup>−10</sup>J",
+  "figuras": [],
+  "gabarito": "D",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. Para que elétrons sejam liberados, a energia do fóton deve superar a energia mínima: <i>hf</i> ≥ <i>E</i><sub>0</sub>. O valor limite de <i>E</i><sub>0</sub> é, portanto, a energia do fóton incidente.\n2. <i>E</i> = <i>h f</i> ≈ 6,63 × 10<sup>−34</sup> · 10<sup>14</sup> ≈ 6,6 × 10<sup>−20</sup> J.\n3. Entre as alternativas, a ordem de grandeza compatível é 10<sup>−20</sup> J.\nObservação: pela regra usual de arredondamento (6,6 > 3,16), a ordem de grandeza seria 10<sup>−19</sup> J, valor que não aparece nas alternativas; houve pedido de anulação por isso, mas a Fuvest manteve a questão.\nGabarito: D.",
+  "topicos": [
+    "efeito-fotoeletrico",
+    "fotons-e-energia-do-foton-e-hf",
+    "notacao-cientifica-e-ordem-de-grandeza"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-01T12:54:14.000Z",
+  "atualizadoEm": "2026-11-01T12:54:14.000Z"
+}

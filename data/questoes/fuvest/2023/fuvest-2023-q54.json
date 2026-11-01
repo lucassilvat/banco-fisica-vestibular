@@ -1,0 +1,24 @@
+{
+  "id": "fuvest-2023-q54",
+  "banca": "Fuvest",
+  "ano": 2023,
+  "numero": "54",
+  "fase": "1ª fase · Prova V",
+  "fonte": {
+    "descricao": "Fuvest, Vestibular 2023, 1ª fase (Prova de Conhecimentos Gerais), caderno de questões"
+  },
+  "enunciado": "Pinturas na tumba de um faraó do século XIX a.C. sugerem que os antigos egípcios adicionavam água à areia em frente aos trenós utilizados para transportar grandes peças, como pedras para pirâmides. Esse transporte era realizado por carregadores que puxavam os trenós sobre a areia.\n\n[[figura 1]]\n\nFALL et al., <i>Physical Review Letters</i> <b>112</b>, 175502 (2014).\n\nEm 2014, cientistas realizaram medidas para testar essa hipótese e, sob certas condições, encontraram os coeficientes de atrito cinético entre o trenó e a areia listados na tabela:\n\n[[figura 2]]\n\nConsiderando as informações da tabela, qual conteúdo de água na areia tornaria mais fácil o transporte das peças pelos carregadores?\n\n(A) 0% (areia seca)\n(B) 1,5%\n(C) 3,2%\n(D) 7,4%\n(E) O conteúdo de água não afeta o transporte.",
+  "figuras": [
+    "fuvest-2023-q54-1.png",
+    "fuvest-2023-q54-2.png"
+  ],
+  "gabarito": "C",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. Com o trenó em movimento, a força de atrito cinético é <i>F</i><sub>at</sub> = μ<sub>c</sub> <i>N</i>; em superfície horizontal, <i>N</i> = peso do trenó com a carga, que não depende da água.\n2. O transporte é mais fácil quando a força de atrito a vencer é menor, isto é, quando μ<sub>c</sub> é mínimo.\n3. Na tabela, o menor coeficiente é 0,50, para 3,2% de água. (Com 7,4% o coeficiente volta a subir, 0,61; logo, o conteúdo de água afeta, sim, o transporte.)\nGabarito: C.",
+  "topicos": [
+    "forca-de-atrito-estatico-e-cinetico"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-01T12:54:11.000Z",
+  "atualizadoEm": "2026-11-01T12:54:11.000Z"
+}

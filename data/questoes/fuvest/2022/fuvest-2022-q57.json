@@ -1,0 +1,23 @@
+{
+  "id": "fuvest-2022-q57",
+  "banca": "Fuvest",
+  "ano": 2022,
+  "numero": "57",
+  "fase": "1ª fase · Prova V",
+  "fonte": {
+    "descricao": "Fuvest, Vestibular 2022, 1ª fase (Prova de Conhecimentos Gerais), caderno de questões"
+  },
+  "enunciado": "Em virtude do movimento das placas tectônicas, a distância entre a América do Sul e a África aumenta, nos dias atuais, cerca de 2,0 cm a cada ano. Supondo que essa velocidade tivesse sido constante ao longo do tempo, e tomando uma distância atual de cerca de 5.000 km entre os limites dessas duas massas continentais, indique a melhor estimativa para quanto tempo teria transcorrido desde quando ambas estavam unidas em um único supercontinente.\n\nNote e adote:\nO valor obtido, embora da ordem de magnitude correta, não é o mesmo calculado por estimativas mais precisas.\n\n(A) 250.000 anos\n(B) 2.500.000 anos\n(C) 25.000.000 anos\n(D) 250.000.000 anos\n(E) 2.500.000.000 anos",
+  "figuras": [],
+  "gabarito": "D",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. Movimento uniforme: Δ<i>t</i> = Δ<i>s</i>/<i>v</i>.\n2. Mesma unidade de comprimento: 5.000 km = 5 × 10<sup>3</sup> × 10<sup>5</sup> cm = 5 × 10<sup>8</sup> cm.\n3. Δ<i>t</i> = 5 × 10<sup>8</sup> cm / (2,0 cm/ano) = 2,5 × 10<sup>8</sup> anos = 250.000.000 anos.\nGabarito: D.",
+  "topicos": [
+    "movimento-retilineo-uniforme-mru",
+    "notacao-cientifica-e-ordem-de-grandeza",
+    "grandezas-fisicas-e-sistema-internacional"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-01T12:54:14.000Z",
+  "atualizadoEm": "2026-11-01T12:54:14.000Z"
+}

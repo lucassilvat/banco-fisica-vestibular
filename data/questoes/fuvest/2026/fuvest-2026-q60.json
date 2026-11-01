@@ -1,0 +1,23 @@
+{
+  "id": "fuvest-2026-q60",
+  "banca": "Fuvest",
+  "ano": 2026,
+  "numero": "60",
+  "fase": "1ª fase · Prova V1",
+  "fonte": {
+    "descricao": "Fuvest, Vestibular 2026, 1ª fase (Prova de Conhecimentos Gerais), caderno de questões"
+  },
+  "enunciado": "Desde as primeiras descobertas, os buracos negros despertam enorme interesse da humanidade. Eles são caracterizados por regiões suficientemente densas e massivas em que o campo gravitacional é tão intenso que nada que esteja a distâncias inferiores a <i>R</i><sub>Sc</sub> do buraco negro consegue escapar de sua atração, nem a luz ou outras formas de radiação. Esse raio, também conhecido como <i>raio de Schwarzschild</i>, é expresso por <i>R</i><sub>Sc</sub> = 2<i>GM</i>/<i>c</i><sup>2</sup>, sendo <i>G</i> a constante de gravitação universal, <i>M</i> a massa do buraco negro e <i>c</i> a velocidade da luz.\n\nConsidere, por simplicidade, um buraco negro de massa igual à massa solar <i>M</i><sub>Sol</sub> = 2×10<sup>30</sup> kg e de raio igual a <i>R</i><sub>Sc</sub>. Nesse caso, a razão entre a densidade volumétrica de um buraco negro e a densidade volumétrica do Sol apresenta uma ordem de grandeza mais próxima de:\n\nNote e adote:\nSuponha uniformes as densidades volumétricas do Sol e do buraco negro.\nConsidere que o buraco negro e o Sol sejam esféricos e tenham distribuição de massa uniforme.\n<i>G</i> = 10<sup>−10</sup> Nm<sup>2</sup>/kg<sup>2</sup> ; <i>R</i><sub>Sol</sub>= 10<sup>9</sup> m ; <i>c</i> = 3×10<sup>8</sup> m/s.\n\n(A) 10<sup>−2</sup>\n(B) 10<sup>4</sup>\n(C) 10<sup>10</sup>\n(D) 10<sup>16</sup>\n(E) 10<sup>22</sup>",
+  "figuras": [],
+  "gabarito": "D",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. Raio de Schwarzschild com os dados do Note e adote: <i>R</i><sub>Sc</sub> = 2<i>GM</i>/<i>c</i><sup>2</sup> = 2 · 10<sup>−10</sup> · 2×10<sup>30</sup> / (3×10<sup>8</sup>)<sup>2</sup> = 4×10<sup>20</sup> / 9×10<sup>16</sup> ≈ 4,4×10<sup>3</sup> m.\n2. As duas esferas têm a mesma massa <i>M</i>. Como densidade = <i>M</i>/(4π<i>R</i><sup>3</sup>/3), a razão entre as densidades é o inverso da razão entre os volumes: ρ<sub>BN</sub>/ρ<sub>Sol</sub> = (<i>R</i><sub>Sol</sub>/<i>R</i><sub>Sc</sub>)<sup>3</sup>.\n3. <i>R</i><sub>Sol</sub>/<i>R</i><sub>Sc</sub> = 10<sup>9</sup>/4,4×10<sup>3</sup> ≈ 2,3×10<sup>5</sup>.\n4. (2,3×10<sup>5</sup>)<sup>3</sup> ≈ 12×10<sup>15</sup> ≈ 1,2×10<sup>16</sup> ⇒ ordem de grandeza 10<sup>16</sup>.\nGabarito: D.\nObservação: o Note e adote usa <i>G</i> = 10<sup>−10</sup> N·m²/kg² (o valor real é cerca de 6,7×10<sup>−11</sup>); com o valor real a ordem de grandeza continua 10<sup>16</sup>.",
+  "topicos": [
+    "lei-da-gravitacao-universal",
+    "densidade-e-massa-especifica",
+    "notacao-cientifica-e-ordem-de-grandeza"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-01T12:54:03.000Z",
+  "atualizadoEm": "2026-11-01T12:54:03.000Z"
+}

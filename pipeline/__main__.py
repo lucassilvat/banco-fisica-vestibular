@@ -4,7 +4,7 @@ import hashlib
 import json
 from collections import Counter
 
-from . import figuras, publicar, rascunho, renderizar, segmentar, triagem, verificar
+from . import figuras, ocr, publicar, rascunho, renderizar, segmentar, triagem, verificar
 from .comum import DADOS, RAIZ, carregar_questoes, chave_prova, taxonomia
 
 
@@ -54,6 +54,8 @@ def main():
     r.set_defaults(f=registrar_prova)
     x = s.add_parser("segmentar", help="2. divide o caderno em questões"); x.add_argument("prova")
     x.set_defaults(f=lambda a: segmentar.executar(a.prova))
+    x = s.add_parser("ocr", help="2b. texto de referência por OCR (PDF com camada de texto ilegível)"); x.add_argument("prova")
+    x.set_defaults(f=lambda a: ocr.executar(a.prova))
     x = s.add_parser("triagem", help="3. lista candidatas de Física"); x.add_argument("prova"); x.add_argument("--limite", type=int, default=4)
     x.set_defaults(f=lambda a: triagem.executar(a.prova, a.limite))
     x = s.add_parser("renderizar", help="4. imagens das questões (ou --grade para páginas)"); x.add_argument("prova"); x.add_argument("numeros")

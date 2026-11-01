@@ -1,0 +1,25 @@
+{
+  "id": "fuvest-2021-q53",
+  "banca": "Fuvest",
+  "ano": 2021,
+  "numero": "53",
+  "fase": "1ª fase · Prova V",
+  "fonte": {
+    "descricao": "Fuvest, Vestibular 2021, 1ª fase (Prova de Conhecimentos Gerais), caderno de questões"
+  },
+  "enunciado": "Em uma luminária de mesa, há duas lâmpadas que podem ser acesas individualmente ou ambas ao mesmo tempo, com cada uma funcionando sob a tensão nominal determinada pelo fabricante, de modo que a intensidade luminosa de cada lâmpada seja sempre a mesma. Entre os circuitos apresentados, indique aquele que corresponde a um arranjo que permite o funcionamento conforme essa descrição.\n\n[[figura 1]]\n\nNote e adote:\nSuponha que as lâmpadas funcionem de maneira ôhmica, ou seja, da mesma forma que um resistor.\n\n(A) Circuito (1)\n(B) Circuito (2)\n(C) Circuito (3)\n(D) Circuito (4)\n(E) Circuito (5)",
+  "figuras": [
+    "fuvest-2021-q53-1.png"
+  ],
+  "gabarito": "B",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. Para que cada lâmpada sempre receba a tensão nominal (a da bateria), as duas devem estar em <b>paralelo</b> com a fonte.\n2. Para que possam ser acesas individualmente, cada uma precisa de um interruptor próprio, no seu ramo.\n3. Circuito (1): um só interruptor acende as duas juntas. Circuitos (3), (4) e (5): os arranjos colocam lâmpadas ou interruptores em série, de modo que uma lâmpada depende da outra ou a tensão se divide entre elas, mudando o brilho.\n4. Circuito (2): duas lâmpadas em ramos paralelos, cada uma com seu interruptor ⇒ funcionam sozinhas ou juntas, sempre sob a mesma tensão.\nGabarito: B.",
+  "topicos": [
+    "associacao-de-resistores",
+    "instalacoes-eletricas-residenciais-fusiveis-e-disjuntores",
+    "potencia-eletrica-e-efeito-joule"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-01T12:54:20.000Z",
+  "atualizadoEm": "2026-11-01T12:54:20.000Z"
+}

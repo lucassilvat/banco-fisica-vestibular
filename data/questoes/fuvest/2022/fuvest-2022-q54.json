@@ -1,0 +1,28 @@
+{
+  "id": "fuvest-2022-q54",
+  "banca": "Fuvest",
+  "ano": 2022,
+  "numero": "54",
+  "fase": "1ª fase · Prova V",
+  "fonte": {
+    "descricao": "Fuvest, Vestibular 2022, 1ª fase (Prova de Conhecimentos Gerais), caderno de questões"
+  },
+  "enunciado": "Dois fios muito longos transportam, cada um deles, uma corrente elétrica de intensidade <b><i>I</i></b>, conforme indicado na figura. Uma partícula de carga <b>+<i>Q</i></b>, situada a uma distância <b><i>R</i></b> de cada um dos fios, <i>move-se</i> com velocidade constante ao longo da direção z.\n\n[[figura 1]]\n\nO módulo e sentido da força magnética atuando sobre a carga devido ao campo magnético produzido pelos fios são dados por:\n\nNote e adote:\nO campo magnético produzido por um fio muito longo transportando uma corrente de valor <b><i>I</i></b> tem módulo aproximadamente dado por <b><i>μ</i><sub>0</sub><i>I</i>/2π<i>r</i>,</b> sendo <b><i>r</i></b> a distância do fio até o ponto e <b><i>μ</i><sub>0</sub></b> corresponde a constante de permeabilidade magnética.\n\n(A) 0\n(B) Qμ<sub>0</sub>I/πR e aponta na direção −y\n(C) Qμ<sub>0</sub>I/πR e aponta na direção y\n(D) Qμ<sub>0</sub>I/πR e aponta na direção −x\n(E) Qμ<sub>0</sub>I/πR e aponta na direção x",
+  "figuras": [
+    "fuvest-2022-q54-1.png"
+  ],
+  "gabarito": "B",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "Atenção: esta questão foi <b>anulada</b> pela Fuvest. O sentido pretendido é o da alternativa B, mas o módulo correto da força inclui a velocidade <i>v</i>, que não aparece em nenhuma alternativa.\n1. Eixos da figura: <i>z</i> para cima, <i>y</i> para a direita e <i>x</i> saindo do papel. O fio da esquerda tem corrente para cima (+<i>z</i>) e o da direita, para baixo (−<i>z</i>).\n2. Regra da mão direita no ponto da carga: o fio da esquerda (carga à sua direita) gera campo entrando no papel (−<i>x</i>); o fio da direita, com corrente oposta e a carga à sua esquerda, também gera campo para −<i>x</i>.\n3. Os campos se somam: <i>B</i> = 2 · <i>μ</i><sub>0</sub><i>I</i>/(2π<i>R</i>) = <i>μ</i><sub>0</sub><i>I</i>/(π<i>R</i>), no sentido −<i>x</i>.\n4. Força de Lorentz: <i>F</i>⃗ = <i>Q v</i>⃗ × <i>B</i>⃗, com <i>v</i>⃗ ao longo de +<i>z</i> e <i>B</i>⃗ ao longo de −<i>x</i>: <i>ẑ</i> × (−<i>x̂</i>) = −<i>ŷ</i> ⇒ a força aponta para −<i>y</i>.\n5. Módulo: <i>F</i> = <i>Q v μ</i><sub>0</sub><i>I</i>/(π<i>R</i>). As alternativas B a E omitem <i>v</i> (são dimensionalmente incorretas), por isso a questão foi anulada.\nGabarito pretendido: B (questão anulada).",
+  "topicos": [
+    "forca-magnetica-sobre-carga-em-movimento",
+    "campo-magnetico-de-fio-retilineo",
+    "vetores-soma-e-decomposicao"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-01T12:54:14.000Z",
+  "atualizadoEm": "2026-11-01T12:54:14.000Z",
+  "revisao": {
+    "notas": "Questão ANULADA pela Fuvest (inconsistência nas respostas: o módulo correto é QvμoI/πR, mas nenhuma alternativa traz a velocidade v). O gabarito B indica a resposta pretendida (direção −y)."
+  }
+}

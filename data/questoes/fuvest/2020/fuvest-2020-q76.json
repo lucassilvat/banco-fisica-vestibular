@@ -1,0 +1,25 @@
+{
+  "id": "fuvest-2020-q76",
+  "banca": "Fuvest",
+  "ano": 2020,
+  "numero": "76",
+  "fase": "1ª fase · Prova V",
+  "fonte": {
+    "descricao": "Fuvest, Vestibular 2020, 1ª fase (Prova de Conhecimentos Gerais), caderno de questões"
+  },
+  "enunciado": "No dia 10 de abril de 2019, a equipe do <i>Event Horizon Telescope</i> (EHT, “Telescópio Horizonte de Eventos”) divulgou a primeira imagem de um buraco negro, localizado no centro da galáxia M87, obtida por um conjunto de telescópios com diâmetro efetivo equivalente ao da Terra, de 12.700 km. Devido ao fenômeno físico da difração, instrumentos óticos possuem um limite de resolução angular, que corresponde à mínima separação angular entre dois objetos que podem ser identificados separadamente quando observados à distância. O gráfico mostra o limite de resolução de um telescópio, medido em radianos, como função do seu diâmetro, para ondas luminosas de comprimento de onda de 1,3 mm, igual ao daquelas captadas pelo EHT. Note a escala logarítmica dos eixos do gráfico.\n\n[[figura 1]]\n\nSabe‐se que o tamanho equivalente a um <i>pixel</i> na foto do buraco negro corresponde ao valor da menor distância entre dois objetos naquela galáxia para que eles possam ser identificados separadamente pelo EHT. Com base nas informações anteriores e na análise do gráfico, e sabendo que a distância da Terra até a galáxia M87 é de 5 × 10<sup>20</sup> km, indique o valor mais próximo do tamanho do <i>pixel</i>.\n\n(A) 5 × 10<sup>1</sup> km\n(B) 5 × 10<sup>4</sup> km\n(C) 5 × 10<sup>7</sup> km\n(D) 5 × 10<sup>10</sup> km\n(E) 5 × 10<sup>13</sup> km",
+  "figuras": [
+    "fuvest-2020-q76-1.png"
+  ],
+  "gabarito": "D",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. Diâmetro efetivo do EHT: 12 700 km ≈ 10<sup>4</sup> km. No gráfico (escala log-log), para 10<sup>4</sup> km a resolução angular é cerca de 10<sup>−10</sup> rad.\n2. (Confere com o critério de Rayleigh: θ ≈ 1,22 λ/<i>D</i> = 1,22 · 1,3 × 10<sup>−3</sup> m/1,27 × 10<sup>7</sup> m ≈ 1,2 × 10<sup>−10</sup> rad.)\n3. Para ângulos pequenos, a separação mínima é <i>s</i> = θ · <i>D</i><sub>M87</sub> = 10<sup>−10</sup> · 5 × 10<sup>20</sup> km = 5 × 10<sup>10</sup> km.\nGabarito: D.",
+  "topicos": [
+    "difracao",
+    "leitura-e-interpretacao-de-graficos",
+    "notacao-cientifica-e-ordem-de-grandeza"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-01T12:54:17.000Z",
+  "atualizadoEm": "2026-11-01T12:54:17.000Z"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "fuvest-2021-q45",
+  "banca": "Fuvest",
+  "ano": 2021,
+  "numero": "45",
+  "fase": "1ª fase · Prova V",
+  "fonte": {
+    "descricao": "Fuvest, Vestibular 2021, 1ª fase (Prova de Conhecimentos Gerais), caderno de questões"
+  },
+  "enunciado": "Considere as seguintes afirmações:\n\nI. Uma pessoa em um trampolim é lançada para o alto. No ponto mais alto de sua trajetória, sua aceleração será nula, o que dá a sensação de “gravidade zero”.\nII. A resultante das forças agindo sobre um carro andando em uma estrada em linha reta a uma velocidade constante tem módulo diferente de zero.\nIII. As forças peso e normal atuando sobre um livro em repouso em cima de uma mesa horizontal formam um par ação-reação.\n\nDe acordo com as Leis de Newton:\n\n(A) Somente as afirmações I e II são corretas.\n(B) Somente as afirmações I e III são corretas.\n(C) Somente as afirmações II e III são corretas.\n(D) Todas as afirmações são corretas.\n(E) Nenhuma das afirmações é correta.",
+  "figuras": [],
+  "gabarito": "E",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. I. Errada: no ponto mais alto a velocidade é nula, mas a aceleração continua sendo <i>g</i> (o peso continua agindo).\n2. II. Errada: velocidade constante em linha reta ⇒ MRU ⇒ pela 1ª lei de Newton, a resultante é nula.\n3. III. Errada: peso e normal agem sobre o mesmo corpo (o livro); um par ação-reação age em corpos diferentes. A reação do peso é a força com que o livro atrai a Terra; a reação da normal é a força que o livro exerce sobre a mesa.\nGabarito: E.",
+  "topicos": [
+    "leis-de-newton",
+    "forca-peso-e-forca-normal",
+    "queda-livre-e-lancamento-vertical"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-01T12:54:20.000Z",
+  "atualizadoEm": "2026-11-01T12:54:20.000Z"
+}

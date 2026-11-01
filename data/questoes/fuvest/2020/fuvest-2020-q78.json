@@ -1,0 +1,24 @@
+{
+  "id": "fuvest-2020-q78",
+  "banca": "Fuvest",
+  "ano": 2020,
+  "numero": "78",
+  "fase": "1ª fase · Prova V",
+  "fonte": {
+    "descricao": "Fuvest, Vestibular 2020, 1ª fase (Prova de Conhecimentos Gerais), caderno de questões"
+  },
+  "enunciado": "Um <i>drone</i> voando na horizontal, em relação ao solo (como indicado pelo sentido da seta na figura), deixa cair um pacote de livros. A melhor descrição da trajetória realizada pelo pacote de livros, segundo um observador em repouso no solo, é dada pelo percurso descrito na\n\n[[figura 1]]\n\n(A) trajetória 1.\n(B) trajetória 2.\n(C) trajetória 3.\n(D) trajetória 4.\n(E) trajetória 5.",
+  "figuras": [
+    "fuvest-2020-q78-1.png"
+  ],
+  "gabarito": "D",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. Ao ser solto, o pacote tem a mesma velocidade horizontal do <i>drone</i> (inércia). Para o observador no solo, é um lançamento horizontal.\n2. Horizontalmente: movimento uniforme para a frente (para a direita). Verticalmente: queda livre, a partir de velocidade vertical nula.\n3. A trajetória é um arco de parábola que começa tangente à horizontal e vai se curvando para baixo. Com <i>x</i> ∝ <i>t</i> e <i>y</i> ∝ <i>t</i><sup>2</sup>, na metade do alcance horizontal o pacote caiu apenas 1/4 da altura.\n4. A trajetória 1 vai para trás; a 2 é a vista por quem está no <i>drone</i>; a 3 é reta; a 5 quase não cai na primeira parte do percurso e despenca no final. A que corresponde à parábola é a 4.\nGabarito: D.",
+  "topicos": [
+    "lancamento-horizontal",
+    "movimento-relativo-e-composicao-de-velocidades"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-01T12:54:17.000Z",
+  "atualizadoEm": "2026-11-01T12:54:17.000Z"
+}

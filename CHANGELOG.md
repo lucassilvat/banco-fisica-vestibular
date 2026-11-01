@@ -4,6 +4,29 @@ Cada versão corresponde a um lote de importação ou a uma mudança no app/pipe
 Formato: `vMAIOR.MENOR.CORREÇÃO` — MENOR sobe a cada prova importada; MAIOR, em mudanças
 de modelo de dados; CORREÇÃO, em correções de questões já publicadas.
 
+## v1.2.0 — 2026-11-01
+
+- **Fuvest 2020–2026, 1ª fase (Prova de Conhecimentos Gerais, prova V/V1)**: 81 questões,
+  93 figuras. Primeira banca nova depois da Unicamp.
+  - 2020 (14): Q2, Q8, Q11, Q69–Q79 · 2021 (11): Q45–Q55 · 2022 (10): Q50–Q57, Q72, Q75 ·
+    2023 (13): Q13, Q36, Q54, Q66, Q67, Q70–Q73, Q76–Q79 · 2024 (12): Q24–Q27, Q29, Q42,
+    Q51, Q55, Q57, Q71–Q73 · 2025 (12): Q18, Q19, Q22, Q23, Q32, Q33, Q52, Q59, Q61, Q62,
+    Q73, Q74 · 2026 (9): Q25, Q60, Q61, Q71–Q73, Q75–Q77.
+  - Por pedido do Lucas, entraram também as interdisciplinares marcadas "em dúvida",
+    inclusive Química com Física forte (2020 Q2, Q8, Q11; 2022 Q75; 2023 Q71; 2024 Q25,
+    Q29; 2025 Q73) e outras áreas (2022 Q57 Geografia; 2023 Q36 e 2025 Q52 Matemática;
+    2023 Q70 e 2026 Q25 Inglês).
+  - Gabaritos: 2025 conferido no gabarito oficial (fuvest.br) → `oficial`; demais anos com
+    `resolucao-propria` (2024 e 2026 conferem com o gabarito divulgado).
+  - **2022 Q54 foi anulada pela Fuvest** (nenhuma alternativa traz a velocidade v); entra
+    com o gabarito pretendido (B) e aviso na resolução e em `revisao.notas`.
+- Pipeline:
+  - `segmentar` reconhece o título das questões da Fuvest (só o número, "01" ou "{ 01}").
+  - Novo comando `ocr` (etapa 2b): texto de referência por OCR para cadernos com camada de
+    texto ilegível (Fuvest 2021, "Caderno Reserva"); o manifesto marca `camadaTexto: "ocr"`
+    e o `verificar` confere a fidelidade contra `fontes/<arquivo>.ocr.txt`.
+- Banco: 197 questões (116 Unicamp + 81 Fuvest); tópicos sem questão: 71 → 34.
+
 ## v1.1.0 — 2026-11-01
 
 - Unicamp 2027, 1ª fase (provas R e Z): 7 questões de Física (Q8 a Q14), 6 figuras.

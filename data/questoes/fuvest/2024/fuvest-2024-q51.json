@@ -1,0 +1,25 @@
+{
+  "id": "fuvest-2024-q51",
+  "banca": "Fuvest",
+  "ano": 2024,
+  "numero": "51",
+  "fase": "1ª fase · Prova V",
+  "fonte": {
+    "descricao": "Fuvest, Vestibular 2024, 1ª fase (Prova de Conhecimentos Gerais), caderno de questões"
+  },
+  "enunciado": "[[figura 1]]\n\nUma das modalidades de skate é o <i>bowl</i>, disputado em um espaço em formato aproximado de bacia. Supondo um <i>bowl</i> com profundidade de 2,45 m, qual a máxima velocidade que um skatista, partindo do repouso no ponto mais alto da bacia, poderia alcançar no ponto mais baixo?\n\nNote e adote:\nAceleração da gravidade (g) = 10m/s<sup>2</sup>\n\n(A) 3 m/s\n(B) 5 m/s\n(C) 7 m/s\n(D) 9 m/s\n(E) 11 m/s",
+  "figuras": [
+    "fuvest-2024-q51-1.png"
+  ],
+  "gabarito": "C",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. A velocidade é máxima quando não há perdas: a energia mecânica se conserva.\n2. <i>m g h</i> = <i>m v</i><sup>2</sup>/2 ⇒ <i>v</i> = √(2<i>gh</i>) = √(2 · 10 · 2,45) = √49 = 7 m/s.\nGabarito: C.",
+  "topicos": [
+    "conservacao-da-energia-mecanica",
+    "energia-potencial-gravitacional",
+    "energia-cinetica-e-teorema-trabalho-energia"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-01T12:54:08.000Z",
+  "atualizadoEm": "2026-11-01T12:54:08.000Z"
+}

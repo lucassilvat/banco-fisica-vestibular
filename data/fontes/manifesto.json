@@ -34,7 +34,8 @@
       "arquivoLocal": "fontes/fuvest-2021-caderno.pdf",
       "url": "",
       "sha256": "c263cea2fb60468c6085a84473429a967e21c8bc37f200d6d0fff68722f7d8c3",
-      "paginas": 28
+      "paginas": 28,
+      "camadaTexto": "ocr"
     },
     {
       "banca": "Fuvest",

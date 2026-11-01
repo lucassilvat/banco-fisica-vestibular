@@ -1,0 +1,24 @@
+{
+  "id": "fuvest-2021-q52",
+  "banca": "Fuvest",
+  "ano": 2021,
+  "numero": "52",
+  "fase": "1ª fase · Prova V",
+  "fonte": {
+    "descricao": "Fuvest, Vestibular 2021, 1ª fase (Prova de Conhecimentos Gerais), caderno de questões"
+  },
+  "enunciado": "Dois balões negativamente carregados são utilizados para induzir cargas em latas metálicas, alinhadas e em contato, que, <u>inicialmente</u>, estavam eletricamente neutras.\n\n[[figura 1]]\n\nConforme mostrado na figura, os balões estão próximos, mas jamais chegam a tocar as latas. Nessa configuração, as latas 1, 2 e 3 terão, respectivamente, carga total:\n\nNote e adote:\nO contato entre dois objetos metálicos permite a passagem de cargas elétricas entre um e outro.\nSuponha que o ar no entorno seja um isolante perfeito.\n\n(A) 1: zero; 2: negativa; 3: zero.\n(B) 1: positiva; 2: zero; 3: positiva.\n(C) 1: zero; 2: positiva; 3: zero.\n(D) 1: positiva; 2: negativa; 3: positiva.\n(E) 1: zero; 2: zero; 3: zero.",
+  "figuras": [
+    "fuvest-2021-q52-1.png"
+  ],
+  "gabarito": "D",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. As três latas em contato formam um único condutor, neutro no total.\n2. Os balões negativos, um em cada extremidade, repelem os elétrons livres das extremidades em direção ao centro (indução).\n3. As latas das pontas (1 e 3) ficam com falta de elétrons: carga positiva. A lata do meio (2) recebe esses elétrons: carga negativa.\n4. A soma continua zero (o ar é isolante e não há contato com os balões).\nGabarito: D.",
+  "topicos": [
+    "carga-eletrica-e-processos-de-eletrizacao",
+    "condutores-em-equilibrio-eletrostatico-e-blindagem"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-01T12:54:20.000Z",
+  "atualizadoEm": "2026-11-01T12:54:20.000Z"
+}

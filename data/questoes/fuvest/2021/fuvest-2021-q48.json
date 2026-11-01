@@ -1,0 +1,24 @@
+{
+  "id": "fuvest-2021-q48",
+  "banca": "Fuvest",
+  "ano": 2021,
+  "numero": "48",
+  "fase": "1ª fase · Prova V",
+  "fonte": {
+    "descricao": "Fuvest, Vestibular 2021, 1ª fase (Prova de Conhecimentos Gerais), caderno de questões"
+  },
+  "enunciado": "Uma comunidade rural tem um consumo de energia elétrica de 2 MWh por mês. Para suprir parte dessa demanda, os moradores têm interesse em instalar uma miniusina hidrelétrica em uma queda d’água de 15 m de altura com vazão de 10 litros por segundo. O restante do consumo seria complementado com painéis de energia solar que produzem 40 kWh de energia por mês cada um.\n\nConsiderando que a miniusina hidrelétrica opere 24h por dia com 100% de eficiência, o número mínimo de painéis solares necessários para suprir a demanda da comunidade seria de:\n\nNote e adote:\nDensidade da água: 1 kg/litro.\n1 mês = 30 dias.\nAceleração da gravidade: <i>g</i> = 10 m/s<sup>2</sup>.\n\n(A) 12\n(B) 23\n(C) 30\n(D) 45\n(E) 50",
+  "figuras": [],
+  "gabarito": "B",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. Vazão de 10 L/s = 10 kg/s de água caindo 15 m. Potência da usina (100% de eficiência): <i>P</i> = (<i>m</i>/Δ<i>t</i>) <i>g h</i> = 10 · 10 · 15 = 1500 W = 1,5 kW.\n2. Energia em um mês: 1,5 kW · (30 · 24 h) = 1,5 · 720 = 1080 kWh.\n3. Falta: 2000 − 1080 = 920 kWh por mês.\n4. Painéis: 920/40 = 23.\nGabarito: B.",
+  "topicos": [
+    "usinas-e-geracao-de-energia-eletrica",
+    "potencia-e-rendimento",
+    "energia-potencial-gravitacional",
+    "energia-eletrica-e-consumo-kwh-conta-de-luz"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-01T12:54:20.000Z",
+  "atualizadoEm": "2026-11-01T12:54:20.000Z"
+}

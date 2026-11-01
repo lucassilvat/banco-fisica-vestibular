@@ -1,0 +1,23 @@
+{
+  "id": "fuvest-2020-q73",
+  "banca": "Fuvest",
+  "ano": 2020,
+  "numero": "73",
+  "fase": "1ª fase · Prova V",
+  "fonte": {
+    "descricao": "Fuvest, Vestibular 2020, 1ª fase (Prova de Conhecimentos Gerais), caderno de questões"
+  },
+  "enunciado": "A velocidade de escape de um corpo celeste é a mínima velocidade que um objeto deve ter nas proximidades da superfície desse corpo para escapar de sua atração gravitacional. Com base nessa informação e em seus conhecimentos sobre a interpretação cinética da temperatura, considere as seguintes afirmações a respeito da relação entre a velocidade de escape e a atmosfera de um corpo celeste.\n\nI. Corpos celestes com mesma velocidade de escape retêm atmosferas igualmente densas, independentemente da temperatura de cada corpo.\nII. Moléculas de gás nitrogênio escapam da atmosfera de um corpo celeste mais facilmente do que moléculas de gás hidrogênio.\nIII. Comparando corpos celestes com temperaturas médias iguais, aquele com a maior velocidade de escape tende a reter uma atmosfera mais densa.\n\nApenas é correto o que se afirma em\n\n(A) I.\n(B) II.\n(C) III.\n(D) I e II.\n(E) I e III.",
+  "figuras": [],
+  "gabarito": "C",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. Interpretação cinética: a energia cinética média das moléculas é proporcional à temperatura absoluta (<i>m v</i><sup>2</sup>/2 ∝ <i>T</i>). Moléculas mais rápidas escapam mais facilmente.\n2. I. Errada: com a mesma velocidade de escape, o corpo mais quente tem moléculas mais rápidas e perde mais gás; a temperatura importa.\n3. II. Errada: à mesma temperatura, a molécula mais leve (H<sub>2</sub>, 2 u) é mais rápida que a de N<sub>2</sub> (28 u); o hidrogênio escapa mais facilmente.\n4. III. Correta: com temperaturas iguais, as velocidades moleculares são iguais; quanto maior a velocidade de escape, menos moléculas a atingem e mais gás é retido.\nGabarito: C.",
+  "topicos": [
+    "satelites-orbitas-e-imponderabilidade",
+    "gas-ideal-e-equacao-de-clapeyron",
+    "energia-interna"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-01T12:54:17.000Z",
+  "atualizadoEm": "2026-11-01T12:54:17.000Z"
+}

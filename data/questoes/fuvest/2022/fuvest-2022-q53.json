@@ -1,0 +1,25 @@
+{
+  "id": "fuvest-2022-q53",
+  "banca": "Fuvest",
+  "ano": 2022,
+  "numero": "53",
+  "fase": "1ª fase · Prova V",
+  "fonte": {
+    "descricao": "Fuvest, Vestibular 2022, 1ª fase (Prova de Conhecimentos Gerais), caderno de questões"
+  },
+  "enunciado": "Considere a situação indicada na figura, em que um motor, com o auxílio de uma polia, ergue verticalmente uma caixa de massa 12 kg. A caixa contém materiais frágeis e deve ser erguida com velocidade constante. Qual é a magnitude da força vertical que o motor deve exercer para realizar a tarefa?\n\n[[figura 1]]\n\nNote e adote:\nDespreze efeitos de atrito.\nAceleração da gravidade: g = 10 m/s<sup>2</sup>.\n\n(A) 0 N\n(B) 30 N\n(C) 60 N\n(D) 120 N\n(E) 240 N",
+  "figuras": [
+    "fuvest-2022-q53-1.png"
+  ],
+  "gabarito": "D",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. Velocidade constante ⇒ resultante nula sobre a caixa (1ª lei de Newton): a tração no fio é igual ao peso, <i>T</i> = <i>m g</i> = 12 · 10 = 120 N.\n2. A polia é fixa (presa ao teto): só muda a direção da força, sem reduzi-la. Sem atrito, a tração é a mesma ao longo de todo o fio.\n3. O motor puxa a outra ponta do fio para baixo com força de 120 N.\nGabarito: D.",
+  "topicos": [
+    "sistemas-de-blocos-fios-e-polias",
+    "leis-de-newton",
+    "forca-peso-e-forca-normal"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-01T12:54:14.000Z",
+  "atualizadoEm": "2026-11-01T12:54:14.000Z"
+}

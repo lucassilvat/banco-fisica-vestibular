@@ -1,0 +1,22 @@
+{
+  "id": "fuvest-2025-q61",
+  "banca": "Fuvest",
+  "ano": 2025,
+  "numero": "61",
+  "fase": "1ª fase · Prova V1",
+  "fonte": {
+    "descricao": "Fuvest, Vestibular 2025, 1ª fase (Prova de Conhecimentos Gerais), caderno de questões"
+  },
+  "enunciado": "Os versos a seguir pertencem à canção <i>Fall on Me</i>, da banda norte-americana R.E.M., lançada em 1986.\n\n“There's a problem, feathers, iron\nBargain buildings, weights and pulleys\nFeathers hit the ground before the weight can leave the air”\n\nBill Berry, Peter Buck, Mike Mills e Michael Stipe.\n\nA qual episódio (real ou hipotético) da história da física o trecho da música faz alusão?\n\n(A) À queda de uma maçã, que teria inspirado Newton à descoberta da gravitação universal.\n(B) À observação de um pássaro em voo, que teria levado Einstein a formular a teoria da relatividade.\n(C) Aos experimentos com objetos de massas diferentes, que teriam indicado a Galileu os princípios da queda livre.\n(D) Ao transbordamento da água em uma banheira, que teria sugerido a Arquimedes o conceito de empuxo.\n(E) À queda de um bloco de ferro ligado a uma hélice, que teria levado Joule à equivalência entre calor e energia.",
+  "figuras": [],
+  "gabarito": "C",
+  "gabaritoFonte": "oficial",
+  "resolucao": "1. Os versos falam de penas e ferro (\"feathers, iron\") e de pesos caindo (\"Feathers hit the ground before the weight can leave the air\" — o paradoxo de a pena chegar antes do peso).\n2. A comparação da queda de objetos de massas diferentes remete aos experimentos (reais ou lendários, como o da Torre de Pisa) atribuídos a Galileu, que concluiu que, sem a resistência do ar, todos os corpos caem com a mesma aceleração.\n3. As demais alternativas não envolvem corpos de massas diferentes caindo.\nGabarito: C.",
+  "topicos": [
+    "queda-livre-e-lancamento-vertical",
+    "forca-de-arrasto-e-velocidade-terminal"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-01T12:54:06.000Z",
+  "atualizadoEm": "2026-11-01T12:54:06.000Z"
+}

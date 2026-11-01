@@ -1,0 +1,24 @@
+{
+  "id": "fuvest-2024-q29",
+  "banca": "Fuvest",
+  "ano": 2024,
+  "numero": "29",
+  "fase": "1ª fase · Prova V",
+  "fonte": {
+    "descricao": "Fuvest, Vestibular 2024, 1ª fase (Prova de Conhecimentos Gerais), caderno de questões"
+  },
+  "enunciado": "Fogareiros abastecidos com pequenos botijões de gás são equipamentos corriqueiros em trilhas e escaladas de duração prolongada para possibilitar o cozimento de alimentos. Em geral, esses botijões são abastecidos com propano, isobutano ou n-butano. A tabela mostra a temperatura de ebulição e o calor liberado na combustão desses três gases, à pressão atmosférica.\n\n[[figura 1]]\n\nCom base nessas informações, qual seria o gás mais indicado para a utilização em um ambiente com temperatura típica de −6 °C, considerando a viabilidade e o consumo de gás necessário para o preparo de alimentos?\n\n(A) Propano, por estar líquido em −6 °C e, dentre as substâncias líquidas nessa temperatura, sua combustão fornecer mais calor por volume de gás.\n(B) Isobutano, por estar gasoso em −6 °C e, dentre as substâncias gasosas nessa temperatura, sua combustão fornecer mais calor por volume de gás.\n(C) n-Butano, por estar gasoso em −6 °C e, dentre as substâncias gasosas nessa temperatura, sua combustão fornecer mais calor por volume de gás.\n(D) n-Butano, por estar líquido em −6 °C e, dentre as substâncias gasosas nessa temperatura, sua combustão fornecer menos calor por volume de gás.\n(E) Isobutano, por estar gasoso em −6 °C e, dentre as substâncias gasosas nessa temperatura, sua combustão fornecer menos calor por volume de gás.",
+  "figuras": [
+    "fuvest-2024-q29-1.png"
+  ],
+  "gabarito": "B",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. Estado físico a −6 °C (à pressão atmosférica): a substância é gasosa se a temperatura está acima da sua temperatura de ebulição.\n2. Propano (ebulição −42 °C) e isobutano (−12 °C) estão gasosos a −6 °C; o n-butano (−1 °C) está líquido e não vaporizaria para alimentar o fogareiro.\n3. Entre os gasosos, o isobutano libera mais calor por volume (8211 kcal/m<sup>3</sup> contra 5065 kcal/m<sup>3</sup> do propano), exigindo menos gás.\n4. (A) Errada: o propano está gasoso. (C) Errada: o n-butano está líquido. (D) e (E) falam em \"menos calor\".\nGabarito: B.",
+  "topicos": [
+    "calor-latente-e-mudancas-de-fase",
+    "temperatura-e-escalas-termometricas"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-01T12:54:08.000Z",
+  "atualizadoEm": "2026-11-01T12:54:08.000Z"
+}

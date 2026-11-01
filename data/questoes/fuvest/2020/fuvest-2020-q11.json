@@ -1,0 +1,25 @@
+{
+  "id": "fuvest-2020-q11",
+  "banca": "Fuvest",
+  "ano": 2020,
+  "numero": "11",
+  "fase": "1ª fase · Prova V",
+  "fonte": {
+    "descricao": "Fuvest, Vestibular 2020, 1ª fase (Prova de Conhecimentos Gerais), caderno de questões"
+  },
+  "enunciado": "Em supermercados, é comum encontrar alimentos chamados de liofilizados, como frutas, legumes e carnes. Alimentos liofilizados continuam próprios para consumo após muito tempo, mesmo sem refrigeração. O termo “liofilizado”, nesses alimentos, refere‐se ao processo de congelamento e posterior desidratação por sublimação da água. Para que a sublimação da água ocorra, é necessária uma combinação de condições, como mostra o gráfico de pressão por temperatura, em que as linhas representam transições de fases.\n\n[[figura 1]]\n\nApesar de ser um processo que requer, industrialmente, uso de certa tecnologia, existem evidências de que os povos pré‐colombianos que viviam nas regiões mais altas dos Andes conseguiam liofilizar alimentos, possibilitando estocá‐los por mais tempo. Assinale a alternativa que explica como ocorria o processo de liofilização natural:\n\n(A) A sublimação da água ocorria devido às baixas temperaturas e à alta pressão atmosférica nas montanhas.\n(B) Os alimentos, após congelados naturalmente nos períodos frios, eram levados para a parte mais baixa das montanhas, onde a pressão atmosférica era menor, o que possibilitava a sublimação.\n(C) Os alimentos eram expostos ao sol para aumentar a temperatura, e a baixa pressão atmosférica local favorecia a solidificação.\n(D) As temperaturas eram baixas o suficiente nos períodos frios para congelar os alimentos, e a baixa pressão atmosférica nas altas montanhas possibilitava a sublimação.\n(E) Os alimentos, após congelados naturalmente, eram prensados para aumentar a pressão, de forma que a sublimação ocorresse.",
+  "figuras": [
+    "fuvest-2020-q11-1.png"
+  ],
+  "gabarito": "D",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. No diagrama de fases, a passagem direta de sólido para vapor (sublimação) só ocorre abaixo do ponto triplo: pressão baixa e temperatura baixa.\n2. Nas altas montanhas dos Andes, o frio congela os alimentos (água no estado sólido) e a pressão atmosférica é baixa, porque há menos ar acima.\n3. Com o gelo exposto a essa pressão baixa, a água sublima e o alimento desidrata.\n4. (A) e (E) falam em pressão alta, que favorece o sólido/líquido; (B) erra ao dizer que a pressão é menor na parte baixa; (C) fala em solidificação.\nGabarito: D.",
+  "topicos": [
+    "diagramas-de-fase",
+    "calor-latente-e-mudancas-de-fase",
+    "pressao-atmosferica-e-experimento-de-torricelli"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-01T12:54:17.000Z",
+  "atualizadoEm": "2026-11-01T12:54:17.000Z"
+}

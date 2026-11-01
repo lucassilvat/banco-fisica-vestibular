@@ -1,0 +1,29 @@
+{
+  "id": "fuvest-2026-q75",
+  "banca": "Fuvest",
+  "ano": 2026,
+  "numero": "75",
+  "fase": "1ª fase · Prova V1",
+  "fonte": {
+    "descricao": "Fuvest, Vestibular 2026, 1ª fase (Prova de Conhecimentos Gerais), caderno de questões"
+  },
+  "enunciado": "Uma criança brinca com uma bolinha, deixando-a cair em direção ao chão, onde ela quica e retorna praticamente à altura de origem. Qual dos gráficos a seguir melhor representa como a altura da bolinha varia com o tempo?\n\n(A)\n[[figura 1]]\n(B)\n[[figura 2]]\n(C)\n[[figura 3]]\n(D)\n[[figura 4]]\n(E)\n[[figura 5]]",
+  "figuras": [
+    "fuvest-2026-q75-1.png",
+    "fuvest-2026-q75-2.png",
+    "fuvest-2026-q75-3.png",
+    "fuvest-2026-q75-4.png",
+    "fuvest-2026-q75-5.png"
+  ],
+  "gabarito": "C",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. Na descida a bolinha está em queda livre: a altura é uma função do 2º grau do tempo, com aceleração para baixo ⇒ parábola com concavidade para baixo.\n2. A bolinha parte do repouso ⇒ no início a curva é horizontal (inclinação zero) e vai ficando cada vez mais inclinada até o chão.\n3. Na subida, também sob aceleração <i>g</i> para baixo, a curva é outra parábola com concavidade para baixo, simétrica à da descida, terminando horizontal na altura máxima.\n4. No choque com o chão a velocidade muda de sentido bruscamente ⇒ \"bico\" em altura zero.\n5. O único gráfico com esses traços é o C (A tem trechos retos, isto é, velocidade constante; B e D têm concavidade para cima perto do chão; E começa no chão).\nGabarito: C.",
+  "topicos": [
+    "queda-livre-e-lancamento-vertical",
+    "graficos-do-movimento-s-t-v-t-a-t",
+    "movimento-retilineo-uniformemente-variado-mruv"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-01T12:54:03.000Z",
+  "atualizadoEm": "2026-11-01T12:54:03.000Z"
+}
