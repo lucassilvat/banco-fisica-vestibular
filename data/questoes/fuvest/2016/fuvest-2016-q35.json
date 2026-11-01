@@ -1,0 +1,26 @@
+{
+  "id": "fuvest-2016-q35",
+  "banca": "Fuvest",
+  "ano": 2016,
+  "numero": "35",
+  "fase": "1ª fase · Prova V",
+  "fonte": {
+    "descricao": "Fuvest, Vestibular 2016, 1ª fase (Prova de Conhecimentos Gerais), caderno de questões"
+  },
+  "enunciado": "A escolha do local para instalação de parques eólicos depende, dentre outros fatores, da velocidade média dos ventos que sopram na região. Examine este mapa das diferentes velocidades médias de ventos no Brasil e, em seguida, o gráfico da potência fornecida por um aerogerador em função da velocidade do vento.\n\n[[figura 1]]\n\n[[figura 2]]\n\nDe acordo com as informações fornecidas, esse aerogerador poderia produzir, em um ano, 8,8 GWh de energia, se fosse instalado no\n\nNote e adote:\n1 GW = 10<sup>9</sup> W\n1 ano = 8800 horas\n\na) noroeste do Pará.\nb) nordeste do Amapá.\nc) sudoeste do Rio Grande do Norte.\nd) sudeste do Tocantins.\ne) leste da Bahia.",
+  "figuras": [
+    "fuvest-2016-q35-1.png",
+    "fuvest-2016-q35-2.png"
+  ],
+  "gabarito": "B",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. Potência média necessária: <i>P</i> = <i>E</i>/Δ<i>t</i> = 8,8 × 10<sup>9</sup> Wh/8.800 h = 10<sup>6</sup> W = 1.000 kW.\n2. No gráfico, 1.000 kW corresponde a ventos de cerca de 9 a 10 m/s, acima de 8,5 m/s: faixa mais escura do mapa.\n3. Entre os locais citados, só o nordeste do Amapá (litoral norte) está na faixa acima de 8,5 m/s; o noroeste do Pará, o sudeste do Tocantins e o leste da Bahia têm ventos mais fracos, e o sudoeste do Rio Grande do Norte fica fora da faixa mais escura do litoral.\nGabarito: B.",
+  "topicos": [
+    "potencia-e-rendimento",
+    "usinas-e-geracao-de-energia-eletrica",
+    "leitura-e-interpretacao-de-graficos"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-01T14:43:29.000Z",
+  "atualizadoEm": "2026-11-01T14:43:29.000Z"
+}

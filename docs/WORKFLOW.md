@@ -47,7 +47,9 @@ Confira `trabalho/unicamp-2015/segmentos.txt`: deve haver uma linha por questão
 ordem, e o aviso de números ausentes não deve aparecer. Na primeira prova de uma banca
 nova, abra algumas imagens (etapa 4) para confirmar que as regiões estão certas. O
 segmentador assume títulos "QUESTÃO N" (Unicamp) ou só o número em corpo grande ("01",
-"{ 01}": Fuvest, chaves `fuvest-*`) e duas colunas; outras diagramações pedem ajuste em
+"{ 01}", ou em negrito 9 pt: Fuvest, chaves `fuvest-*`; se o número for desenho, como na
+Fuvest 2018, ele é achado por OCR, e os que faltarem vão em
+`trabalho/<prova>/titulos-ajustes.json`) e duas colunas; outras diagramações pedem ajuste em
 `pipeline/segmentar.py`. Na Fuvest, os textos comuns ("TEXTO PARA AS QUESTÕES...") ficam
 no fim do segmento da questão anterior: confira-os na imagem.
 

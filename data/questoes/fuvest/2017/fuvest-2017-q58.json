@@ -1,0 +1,30 @@
+{
+  "id": "fuvest-2017-q58",
+  "banca": "Fuvest",
+  "ano": 2017,
+  "numero": "58",
+  "fase": "1ª fase · Prova V",
+  "fonte": {
+    "descricao": "Fuvest, Vestibular 2017, 1ª fase (Prova de Conhecimentos Gerais), caderno de questões"
+  },
+  "enunciado": "A figura foi obtida em uma câmara de nuvens, equipamento que registra trajetórias deixadas por partículas eletricamente carregadas. Na figura, são mostradas as trajetórias dos produtos do decaimento de um isótopo do hélio (<sup>6</sup><sub>2</sub><i>He</i>) em repouso: um elétron (<i>e</i><sup>−</sup>) e um isótopo de lítio (<sup>6</sup><sub>3</sub><i>Li</i>), bem como suas respectivas quantidades de movimento linear, no instante do decaimento, representadas, em escala, pelas setas. Uma terceira partícula, denominada antineutrino (<i>ν̄</i>, carga zero), é também produzida nesse processo.\n\n[[figura 1]]\n\nO vetor que melhor representa a direção e o sentido da quantidade de movimento do antineutrino é\n\na)\n[[figura 2]]\nb)\n[[figura 3]]\nc)\n[[figura 4]]\nd)\n[[figura 5]]\ne)\n[[figura 6]]",
+  "figuras": [
+    "fuvest-2017-q58-1.png",
+    "fuvest-2017-q58-2.png",
+    "fuvest-2017-q58-3.png",
+    "fuvest-2017-q58-4.png",
+    "fuvest-2017-q58-5.png",
+    "fuvest-2017-q58-6.png"
+  ],
+  "gabarito": "D",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. O hélio estava em repouso: a quantidade de movimento total antes é zero e continua zero depois do decaimento: <i>Q</i>⃗<sub>Li</sub> + <i>Q</i>⃗<sub>e</sub> + <i>Q</i>⃗<sub>ν̄</sub> = 0⃗.\n2. Na figura, a seta do lítio aponta para baixo e para a esquerda e a do elétron, mais longa, para baixo e para a direita. A soma das duas aponta para baixo e um pouco para a direita.\n3. A quantidade de movimento do antineutrino é o oposto dessa soma: para cima e um pouco para a esquerda — a seta da alternativa d.\nGabarito: D.",
+  "topicos": [
+    "conservacao-da-quantidade-de-movimento",
+    "radioatividade-e-decaimento",
+    "vetores-soma-e-decomposicao"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-01T14:43:28.000Z",
+  "atualizadoEm": "2026-11-01T14:43:28.000Z"
+}

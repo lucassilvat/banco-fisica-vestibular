@@ -43,6 +43,10 @@ Para gravar questões, usam-se os lotes da etapa `publicar` (docs/WORKFLOW.md).
    Na Fuvest, "Note e adote" é transcrito como bloco de texto antes das alternativas,
    começando por "Note e adote:"; textos comuns ("TEXTO PARA AS QUESTÕES...") repetidos
    em cada questão; tabelas entram como figura.
+10. v1.3.0: Fuvest 2016–2019 (prova V), 56 questões, com as interdisciplinares em dúvida
+    (menos 2016 Q67, Geografia, que o Lucas mandou deixar de fora). Em 2016 e 2017 as
+    alternativas são "a)" minúsculas, como no caderno. O texto do caderno de 2018 está
+    na camada de texto, mas os números das questões não: o segmentador os acha por OCR.
 
 ## Pendências
 
@@ -50,7 +54,9 @@ Para gravar questões, usam-se os lotes da etapa `publicar` (docs/WORKFLOW.md).
   web; o arquivo não pôde ser baixado para `fontes/`). 2020–2024 e 2026 estão como
   `resolucao-propria` (2024 e 2026 conferem com o gabarito divulgado). Quando o Lucas
   enviar os PDFs de gabarito, registrar com `--tipo gabarito` e trocar para `oficial`.
-  Conferir com atenção 2020 Q78 (trajetória 4) e 2023 Q70.
+  Conferir com atenção 2020 Q78 (trajetória 4) e 2023 Q70. Fuvest 2016–2019 também está
+  toda como `resolucao-propria` (conferir 2016 Q35 e 2017 Q58, que dependem de leitura de
+  figura).
 - **Fuvest 2022 Q54 anulada**: mantida no banco com o gabarito pretendido (B) e aviso.
   Decidir se fica no app ou sai.
 - **Critério "Química com Física forte"**: na Fuvest o Lucas mandou incluir. Decidir se
@@ -72,7 +78,7 @@ Para gravar questões, usam-se os lotes da etapa `publicar` (docs/WORKFLOW.md).
   Q45–Q48, 2021 B Q33). Não incluir sem novo pedido.
 - **Release v1.0.0 no GitHub**: o envio de tags falhou pela sessão; criar pela aba
   Releases do site, se desejado. O `CHANGELOG.md` registra a versão.
-- **Próximas provas**: o `painel` mostra 34 tópicos sem questão (mais pobre:
+- **Próximas provas**: o `painel` mostra 32 tópicos sem questão (mais pobre:
   Eletromagnetismo). Candidatas naturais: Fuvest anteriores a 2020 (mesmo formato),
   Unicamp anteriores a 2016, depois Unesp e ENEM (exigem ajustar o segmentador).
 

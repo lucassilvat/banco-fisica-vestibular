@@ -1,0 +1,23 @@
+{
+  "id": "fuvest-2019-q36",
+  "banca": "Fuvest",
+  "ano": 2019,
+  "numero": "36",
+  "fase": "1ª fase · Prova V",
+  "fonte": {
+    "descricao": "Fuvest, Vestibular 2019, 1ª fase (Prova de Conhecimentos Gerais), caderno de questões"
+  },
+  "enunciado": "Uma amostra sólida, sem cavidades ou poros, poderia ser constituída por um dos seguintes materiais metálicos: alumínio, bronze, chumbo, ferro ou titânio. Para identificá‐la, utilizou‐se uma balança, um recipiente de volume constante e água. Efetuaram‐se as seguintes operações: 1) pesou‐se a amostra; 2) pesou‐se o recipiente completamente cheio de água; 3) colocou‐se a amostra no recipiente vazio, completando seu volume com água e determinou‐se a massa desse conjunto. Os resultados obtidos foram os seguintes:\n\n[[figura 1]]\n\nDadas as densidades da água e dos metais, pode‐se concluir que a amostra desconhecida é constituída de\n\nNote e adote:\nDensidades (g/cm<sup>3</sup>):\nágua = 1,0; alumínio = 2,7; bronze = 8,8; chumbo = 11,3; ferro = 7,9; titânio = 4,5.\n\n(A) alumínio.\n(B) bronze.\n(C) chumbo.\n(D) ferro.\n(E) titânio.",
+  "figuras": [
+    "fuvest-2019-q36-1.png"
+  ],
+  "gabarito": "B",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. Recipiente cheio de água: 350,0 g. Com a amostra (44,0 g) dentro e completado com água: 389,0 g.\n2. Se nada saísse, seria 350,0 + 44,0 = 394,0 g. A diferença, 394,0 − 389,0 = 5,0 g, é a água que a amostra deslocou.\n3. Volume da amostra = volume de água deslocada = 5,0 g/(1,0 g/cm<sup>3</sup>) = 5,0 cm<sup>3</sup>.\n4. Densidade: 44,0/5,0 = 8,8 g/cm<sup>3</sup> ⇒ bronze.\nGabarito: B.",
+  "topicos": [
+    "densidade-e-massa-especifica"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-01T14:43:25.000Z",
+  "atualizadoEm": "2026-11-01T14:43:25.000Z"
+}

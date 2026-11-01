@@ -1,0 +1,25 @@
+{
+  "id": "fuvest-2018-q23",
+  "banca": "Fuvest",
+  "ano": 2018,
+  "numero": "23",
+  "fase": "1ª fase · Prova V",
+  "fonte": {
+    "descricao": "Fuvest, Vestibular 2018, 1ª fase (Prova de Conhecimentos Gerais), caderno de questões"
+  },
+  "enunciado": "Neste texto, o autor descreve o fascínio que as descobertas em Química exerciam sobre ele, durante sua infância.\n\n<i>Eu adorava Química em parte por ela ser uma ciência de transformações, de inúmeros compostos baseados em algumas dúzias de elementos, eles próprios fixos, invariáveis e eternos. A noção de estabilidade e de invariabilidade dos elementos era psicologicamente crucial para mim, pois eu os via como pontos fixos, como âncoras em um mundo instável. Mas agora, com a radioatividade, chegavam transformações das mais incríveis.</i>\n<i>(...)</i>\n<i>A radioatividade não alterava as realidades da Química ou a noção de elementos; não abalava a ideia de sua estabilidade e identidade. O que ela fazia era aludir a duas esferas no átomo – uma esfera relativamente superficial e acessível, que governava a reatividade e a combinação química, e uma esfera mais profunda, inacessível a todos os agentes químicos e físicos usuais e suas energias relativamente pequenas, onde qualquer mudança produzia uma alteração fundamental de identidade.</i>\n\nOliver Sacks, <b>Tio Tungstênio</b>: Memórias de uma infância química.\n\nDe acordo com o autor,\n\n(A) o trecho “eles próprios fixos, invariáveis e eternos” (L. 3) remete à dificuldade para a quebra de ligações químicas, que são muito estáveis.\n(B) “esfera relativamente superficial” (L. 12) e “esfera mais profunda” (L. 14) dizem respeito, respectivamente, à eletrosfera e ao núcleo dos átomos.\n(C) “esfera relativamente superficial” (L. 12) e “esfera mais profunda” (L. 14) referem-se, respectivamente, aos elétrons da camada de valência, envolvidos nas reações químicas, e aos elétrons das camadas internas dos átomos, que não estão envolvidos nas reações químicas.\n(D) as energias envolvidas nos processos de transformação de um átomo em outro, como ocorre com materiais radioativos, são “relativamente pequenas” (L. 15-16).\n(E) a expressão “uma alteração fundamental de identidade” (L. 16-17) relaciona-se à capacidade que um mesmo átomo tem de fazer ligações químicas diferentes, formando compostos com propriedades distintas das dos átomos isolados.",
+  "figuras": [],
+  "gabarito": "B",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. As reações químicas envolvem só os elétrons mais externos (eletrosfera): é a \"esfera superficial e acessível, que governava a reatividade e a combinação química\".\n2. A radioatividade é um fenômeno do núcleo: a emissão α ou β muda o número de prótons e transforma o elemento em outro — a \"alteração fundamental de identidade\" na \"esfera mais profunda\".\n3. Logo, as duas esferas são a eletrosfera e o núcleo (B). C erra ao pôr a \"esfera profunda\" nos elétrons internos.\n4. D é o oposto do texto: as energias nucleares são muito maiores que as químicas, que são as \"relativamente pequenas\". A e E confundem os elementos (invariáveis nas reações) com ligações químicas.\nGabarito: B.",
+  "topicos": [
+    "radioatividade-e-decaimento",
+    "modelos-atomicos-e-modelo-de-bohr"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-01T14:43:26.000Z",
+  "atualizadoEm": "2026-11-01T14:43:26.000Z",
+  "revisao": {
+    "notas": "No caderno, o texto tem numeração de linhas na margem (5, 10, 15), citada nas alternativas; a numeração não foi transcrita."
+  }
+}

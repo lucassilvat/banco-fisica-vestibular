@@ -1,0 +1,25 @@
+{
+  "id": "fuvest-2018-q01",
+  "banca": "Fuvest",
+  "ano": 2018,
+  "numero": "1",
+  "fase": "1ª fase · Prova V",
+  "fonte": {
+    "descricao": "Fuvest, Vestibular 2018, 1ª fase (Prova de Conhecimentos Gerais), caderno de questões"
+  },
+  "enunciado": "Um fabricante de acessórios de montanhismo quer projetar um colchão de espuma apropriado para ser utilizado por alpinistas em regiões frias. Considere que a taxa de transferência de calor ao solo por uma pessoa dormindo confortavelmente seja 90 kcal/hora e que a transferência de calor entre a pessoa e o solo se dê exclusivamente pelo mecanismo de condução térmica através da espuma do colchão. Nestas condições, o gráfico representa a taxa de transferência de calor, em J/s, através da espuma do colchão, em função de sua espessura, em cm.\n\n[[figura 1]]\n\nConsiderando 1 cal = 4 J, a menor espessura do colchão, em cm, para que a pessoa durma confortavelmente é\n\n(A) 1,0.\n(B) 1,5.\n(C) 2,2.\n(D) 2,8.\n(E) 3,9.",
+  "figuras": [
+    "fuvest-2018-q01-1.png"
+  ],
+  "gabarito": "B",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. Taxa de calor confortável: 90 kcal/h = 90.000 cal · 4 J/cal / 3.600 s = 100 J/s.\n2. Pela condução (lei de Fourier), a taxa diminui quando a espessura aumenta (curva decrescente do gráfico). Para não perder mais que 100 J/s, a espessura deve ser tal que a taxa seja no máximo 100 J/s.\n3. No gráfico, a taxa vale 100 J/s em cerca de 1,5 cm. Espessuras menores dariam taxas maiores (frio); essa é a menor espessura adequada.\nGabarito: B.",
+  "topicos": [
+    "conducao-termica-lei-de-fourier",
+    "leitura-e-interpretacao-de-graficos",
+    "potencia-e-rendimento"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-01T14:43:26.000Z",
+  "atualizadoEm": "2026-11-01T14:43:26.000Z"
+}

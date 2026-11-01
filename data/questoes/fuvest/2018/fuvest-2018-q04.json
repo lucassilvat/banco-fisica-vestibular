@@ -1,0 +1,23 @@
+{
+  "id": "fuvest-2018-q04",
+  "banca": "Fuvest",
+  "ano": 2018,
+  "numero": "4",
+  "fase": "1ª fase · Prova V",
+  "fonte": {
+    "descricao": "Fuvest, Vestibular 2018, 1ª fase (Prova de Conhecimentos Gerais), caderno de questões"
+  },
+  "enunciado": "Em uma tribo indígena de uma ilha tropical, o teste derradeiro de coragem de um jovem é deixar-se cair em um rio, do alto de um penhasco. Um desses jovens se soltou verticalmente, a partir do repouso, de uma altura de 45 m em relação à superfície da água. O tempo decorrido, em segundos, entre o instante em que o jovem iniciou sua queda e aquele em que um espectador, parado no alto do penhasco, ouviu o barulho do impacto do jovem na água é, aproximadamente,\n\nNote e adote:\nConsidere o ar em repouso e ignore sua resistência.\nIgnore as dimensões das pessoas envolvidas.\nVelocidade do som no ar: 360 m/s.\nAceleração da gravidade: 10 m/s<sup>2</sup>.\n\n(A) 3,1.\n(B) 4,3.\n(C) 5,2.\n(D) 6,2.\n(E) 7,0.",
+  "figuras": [],
+  "gabarito": "A",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. Queda livre: <i>h</i> = <i>g t</i><sup>2</sup>/2 ⇒ 45 = 5 <i>t</i><sup>2</sup> ⇒ <i>t</i><sub>queda</sub> = 3 s.\n2. O som sobe 45 m com velocidade constante: <i>t</i><sub>som</sub> = 45/360 = 0,125 s.\n3. Total: 3 + 0,125 ≈ 3,1 s.\nGabarito: A.",
+  "topicos": [
+    "queda-livre-e-lancamento-vertical",
+    "movimento-retilineo-uniforme-mru",
+    "som-altura-intensidade-e-timbre"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-01T14:43:26.000Z",
+  "atualizadoEm": "2026-11-01T14:43:26.000Z"
+}

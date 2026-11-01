@@ -1,0 +1,25 @@
+{
+  "id": "fuvest-2016-q26",
+  "banca": "Fuvest",
+  "ano": 2016,
+  "numero": "26",
+  "fase": "1ª fase · Prova V",
+  "fonte": {
+    "descricao": "Fuvest, Vestibular 2016, 1ª fase (Prova de Conhecimentos Gerais), caderno de questões"
+  },
+  "enunciado": "Um pêndulo simples, constituído por um fio de comprimento <i>L</i> e uma pequena esfera, é colocado em oscilação. Uma haste horizontal rígida é inserida perpendicularmente ao plano de oscilação desse pêndulo, interceptando o movimento do fio na metade do seu comprimento, quando ele está na direção vertical. A partir desse momento, o período do movimento da esfera é dado por\n\nNote e adote:\nA aceleração da gravidade é <i>g</i>.\nIgnore a massa do fio.\nO movimento oscilatório ocorre com ângulos pequenos.\nO fio não adere à haste horizontal.\n\na) 2<i>π</i>√(<i>L</i>/<i>g</i>)\nb) 2<i>π</i>√(<i>L</i>/2<i>g</i>)\nc) <i>π</i>√(<i>L</i>/<i>g</i> + <i>L</i>/2<i>g</i>)\nd) 2<i>π</i>√(<i>L</i>/<i>g</i> + <i>L</i>/2<i>g</i>)\ne) <i>π</i>(√(<i>L</i>/<i>g</i>) + √(<i>L</i>/2<i>g</i>))",
+  "figuras": [],
+  "gabarito": "E",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. De um lado da vertical o fio oscila com o comprimento inteiro <i>L</i>; do outro, a haste faz o fio pivotar no meio, com comprimento <i>L</i>/2.\n2. Cada lado corresponde a meio período do pêndulo respectivo: ½ · 2π√(<i>L</i>/<i>g</i>) = π√(<i>L</i>/<i>g</i>) e ½ · 2π√(<i>L</i>/2<i>g</i>) = π√(<i>L</i>/2<i>g</i>).\n3. Período total: <i>T</i> = π(√(<i>L</i>/<i>g</i>) + √(<i>L</i>/2<i>g</i>)).\nGabarito: E.",
+  "topicos": [
+    "pendulo-simples",
+    "movimento-harmonico-simples-mhs"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-01T14:43:29.000Z",
+  "atualizadoEm": "2026-11-01T14:43:29.000Z",
+  "revisao": {
+    "notas": "No PDF de 2016, símbolos e números escritos com o editor de equações não aparecem na camada de texto; esses trechos foram transcritos da imagem do caderno e conferidos visualmente."
+  }
+}

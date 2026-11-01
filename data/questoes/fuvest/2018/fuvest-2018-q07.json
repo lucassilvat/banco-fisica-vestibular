@@ -1,0 +1,25 @@
+{
+  "id": "fuvest-2018-q07",
+  "banca": "Fuvest",
+  "ano": 2018,
+  "numero": "7",
+  "fase": "1ª fase · Prova V",
+  "fonte": {
+    "descricao": "Fuvest, Vestibular 2018, 1ª fase (Prova de Conhecimentos Gerais), caderno de questões"
+  },
+  "enunciado": "O projeto para um balanço de corda única de um parque de diversões exige que a corda do brinquedo tenha um comprimento de 2,0 m. O projetista tem que escolher a corda adequada para o balanço, a partir de cinco ofertas disponíveis no mercado, cada uma delas com distintas tensões de ruptura. A tabela apresenta essas opções.\n\n[[figura 1]]\n\nEle tem também que incluir no projeto uma margem de segurança; esse fator de segurança é tipicamente 7, ou seja, o balanço deverá suportar cargas sete vezes a tensão no ponto mais baixo da trajetória. Admitindo que uma pessoa de 60 kg, ao se balançar, parta do repouso, de uma altura de 1,2 m em relação à posição de equilíbrio do balanço, as cordas que poderiam ser adequadas para o projeto são\n\nNote e adote:\nAceleração da gravidade: 10 m/s<sup>2</sup>.\nDesconsidere qualquer tipo de atrito ou resistência ao movimento e ignore a massa do balanço e as dimensões da pessoa.\nAs cordas são inextensíveis.\n\n(A) I, II, III, IV e V.\n(B) II, III, IV e V, apenas.\n(C) III, IV e V, apenas.\n(D) IV e V, apenas.\n(E) V, apenas.",
+  "figuras": [
+    "fuvest-2018-q07-1.png"
+  ],
+  "gabarito": "C",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. Velocidade no ponto mais baixo (conservação da energia): <i>v</i><sup>2</sup> = 2<i>g h</i> = 2 · 10 · 1,2 = 24 m<sup>2</sup>/s<sup>2</sup>.\n2. No ponto mais baixo, a resultante é centrípeta: <i>T</i> − <i>m g</i> = <i>m v</i><sup>2</sup>/<i>L</i> ⇒ <i>T</i> = 600 + 60 · 24/2 = 600 + 720 = 1.320 N.\n3. Com fator de segurança 7: 7 · 1.320 = 9.240 N.\n4. Servem as cordas com tensão de ruptura acima de 9.240 N: III (12.400 N), IV e V.\nGabarito: C.",
+  "topicos": [
+    "resultante-centripeta-curvas-loop-globo-da-morte",
+    "conservacao-da-energia-mecanica",
+    "leis-de-newton"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-01T14:43:26.000Z",
+  "atualizadoEm": "2026-11-01T14:43:26.000Z"
+}

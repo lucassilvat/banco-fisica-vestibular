@@ -1,0 +1,25 @@
+{
+  "id": "fuvest-2018-q10",
+  "banca": "Fuvest",
+  "ano": 2018,
+  "numero": "10",
+  "fase": "1ª fase · Prova V",
+  "fonte": {
+    "descricao": "Fuvest, Vestibular 2018, 1ª fase (Prova de Conhecimentos Gerais), caderno de questões"
+  },
+  "enunciado": "Atualmente são usados LEDs (<i>Light Emitting Diode</i>) na iluminação doméstica. LEDs são dispositivos semicondutores que conduzem a corrente elétrica apenas em um sentido. Na figura, há um circuito de alimentação de um LED (L) de 8 W, que opera com 4 V, sendo alimentado por uma fonte (F) de 6 V.\n\n[[figura 1]]\n\nO valor da resistência do resistor (R), em Ω, necessário para que o LED opere com seus valores nominais é, aproximadamente,\n\n(A) 1,0.\n(B) 2,0.\n(C) 3,0.\n(D) 4,0.\n(E) 5,0.",
+  "figuras": [
+    "fuvest-2018-q10-1.png"
+  ],
+  "gabarito": "A",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. Corrente nominal do LED: <i>i</i> = <i>P</i>/<i>U</i> = 8/4 = 2 A (a mesma no resistor, pois estão em série).\n2. Tensão no resistor: 6 − 4 = 2 V.\n3. <i>R</i> = <i>U</i>/<i>i</i> = 2/2 = 1,0 Ω.\nGabarito: A.",
+  "topicos": [
+    "primeira-lei-de-ohm",
+    "potencia-eletrica-e-efeito-joule",
+    "semicondutores-led-e-laser"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-01T14:43:26.000Z",
+  "atualizadoEm": "2026-11-01T14:43:26.000Z"
+}

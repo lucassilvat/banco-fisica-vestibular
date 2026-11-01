@@ -1,0 +1,24 @@
+{
+  "id": "fuvest-2018-q02",
+  "banca": "Fuvest",
+  "ano": 2018,
+  "numero": "2",
+  "fase": "1ª fase · Prova V",
+  "fonte": {
+    "descricao": "Fuvest, Vestibular 2018, 1ª fase (Prova de Conhecimentos Gerais), caderno de questões"
+  },
+  "enunciado": "Câmeras digitais, como a esquematizada na figura, possuem mecanismos automáticos de focalização.\n\n[[figura 1]]\n\nEm uma câmera digital que utilize uma lente convergente com 20 mm de distância focal, a distância, em mm, entre a lente e o sensor da câmera, quando um objeto a 2 m estiver corretamente focalizado, é, aproximadamente,\n\n(A) 1.\n(B) 5.\n(C) 10.\n(D) 15.\n(E) 20.",
+  "figuras": [
+    "fuvest-2018-q02-1.png"
+  ],
+  "gabarito": "E",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. A imagem deve se formar sobre o sensor: a distância lente–sensor é a distância da imagem <i>p</i>′.\n2. Equação de Gauss com <i>f</i> = 20 mm e <i>p</i> = 2 m = 2.000 mm: 1/<i>p</i>′ = 1/20 − 1/2.000 = 99/2.000 ⇒ <i>p</i>′ ≈ 20,2 mm.\n3. Como o objeto está muito longe comparado com <i>f</i>, a imagem fica praticamente no foco: ≈ 20 mm.\nGabarito: E.",
+  "topicos": [
+    "lentes-esfericas-vergencia-gauss-aumento",
+    "instrumentos-opticos-lupa-microscopio-luneta"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-01T14:43:26.000Z",
+  "atualizadoEm": "2026-11-01T14:43:26.000Z"
+}

@@ -4,6 +4,22 @@ Cada versão corresponde a um lote de importação ou a uma mudança no app/pipe
 Formato: `vMAIOR.MENOR.CORREÇÃO` — MENOR sobe a cada prova importada; MAIOR, em mudanças
 de modelo de dados; CORREÇÃO, em correções de questões já publicadas.
 
+## v1.3.0 — 2026-11-01
+
+- **Fuvest 2016–2019, 1ª fase (prova V)**: 56 questões, 41 figuras.
+  - 2016 (15): Q3, Q12, Q24–Q35, Q44 · 2017 (14): Q57–Q68, Q76, Q90 ·
+    2018 (13): Q1–Q11, Q23, Q34 · 2019 (14): Q13, Q15–Q24, Q27, Q36, Q45.
+  - Incluídas as interdisciplinares em dúvida aprovadas pelo Lucas (Química com Física,
+    Matemática e Biologia com Física); 2016 Q67 (Geografia, ventos) ficou de fora por
+    decisão dele.
+  - Gabaritos: `resolucao-propria` (não conferidos com o gabarito oficial).
+- Pipeline (`segmentar`): títulos em negrito 9 pt (Fuvest 2016–2017) e títulos desenhados
+  como vetor, achados por OCR (Fuvest 2018), com ajuste manual opcional em
+  `trabalho/<prova>/titulos-ajustes.json`.
+- No PDF de 2016 (e em fórmulas de 2017) o editor de equações não deixa texto: essas partes
+  foram transcritas da imagem; as divergências do `verificar` estão registradas na questão.
+- Banco: 253 questões (116 Unicamp + 137 Fuvest); tópicos sem questão: 34 → 32.
+
 ## v1.2.0 — 2026-11-01
 
 - **Fuvest 2020–2026, 1ª fase (Prova de Conhecimentos Gerais, prova V/V1)**: 81 questões,

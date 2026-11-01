@@ -1,0 +1,24 @@
+{
+  "id": "fuvest-2016-q29",
+  "banca": "Fuvest",
+  "ano": 2016,
+  "numero": "29",
+  "fase": "1ª fase · Prova V",
+  "fonte": {
+    "descricao": "Fuvest, Vestibular 2016, 1ª fase (Prova de Conhecimentos Gerais), caderno de questões"
+  },
+  "enunciado": "Uma garrafa tem um cilindro afixado em sua boca, no qual um êmbolo pode se movimentar sem atrito, mantendo constante a massa de ar dentro da garrafa, como ilustra a figura. Inicialmente, o sistema está em equilíbrio à temperatura de 27 °C. O volume de ar na garrafa é igual a 600 cm<sup>3</sup> e o êmbolo tem uma área transversal igual a 3 cm<sup>2</sup>. Na condição de equilíbrio, com a pressão atmosférica constante, para cada 1 °C de aumento da temperatura do sistema, o êmbolo subirá aproximadamente\n\n[[figura 1]]\n\nNote e adote:\n0 °C = 273 K\nConsidere o ar da garrafa como um gás ideal.\n\na) 0,7 cm\nb) 1,4 cm\nc) 2,1 cm\nd) 3,0 cm\ne) 6,0 cm",
+  "figuras": [
+    "fuvest-2016-q29-1.png"
+  ],
+  "gabarito": "A",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. Com o êmbolo livre e a pressão atmosférica constante, a transformação é isobárica: <i>V</i>/<i>T</i> = constante.\n2. Temperatura inicial: 27 + 273 = 300 K. Para Δ<i>T</i> = 1 K: Δ<i>V</i> = <i>V</i> · Δ<i>T</i>/<i>T</i> = 600 · 1/300 = 2 cm<sup>3</sup>.\n3. Subida do êmbolo: Δ<i>h</i> = Δ<i>V</i>/<i>A</i> = 2/3 ≈ 0,7 cm.\nGabarito: A.",
+  "topicos": [
+    "transformacoes-gasosas-isotermica-isobarica-isocorica-adiabatica",
+    "gas-ideal-e-equacao-de-clapeyron"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-01T14:43:29.000Z",
+  "atualizadoEm": "2026-11-01T14:43:29.000Z"
+}

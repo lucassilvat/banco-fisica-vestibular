@@ -1,0 +1,22 @@
+{
+  "id": "fuvest-2017-q67",
+  "banca": "Fuvest",
+  "ano": 2017,
+  "numero": "67",
+  "fase": "1ª fase · Prova V",
+  "fonte": {
+    "descricao": "Fuvest, Vestibular 2017, 1ª fase (Prova de Conhecimentos Gerais), caderno de questões"
+  },
+  "enunciado": "Um objeto metálico, X, eletricamente isolado, tem carga negativa 5,0 × 10<sup>−12</sup> C. Um segundo objeto metálico, Y, neutro, mantido em contato com a Terra, é aproximado do primeiro e ocorre uma faísca entre ambos, sem que eles se toquem. A duração da faísca é 0,5 s e sua intensidade é 10<sup>−11</sup> A. No final desse processo, as cargas elétricas totais dos objetos X e Y são, respectivamente,\n\na) zero e zero.\nb) zero e − 5,0 × 10<sup>−12</sup> C.\nc) − 2,5 × 10<sup>−12</sup> C e − 2,5 × 10<sup>−12</sup> C.\nd) − 2,5 × 10<sup>−12</sup> C e + 2,5 × 10<sup>−12</sup> C.\ne) + 5,0 × 10<sup>−12</sup> C e zero.",
+  "figuras": [],
+  "gabarito": "A",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. Carga transportada pela faísca: <i>Q</i> = <i>i</i> Δ<i>t</i> = 10<sup>−11</sup> · 0,5 = 5,0 × 10<sup>−12</sup> C.\n2. Essa é exatamente a carga de X: todo o excesso de elétrons passa para Y ⇒ X fica neutro.\n3. Y está ligado à Terra: os elétrons recebidos escoam para o solo e Y continua neutro.\nGabarito: A.",
+  "topicos": [
+    "corrente-eletrica",
+    "carga-eletrica-e-processos-de-eletrizacao"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-01T14:43:28.000Z",
+  "atualizadoEm": "2026-11-01T14:43:28.000Z"
+}

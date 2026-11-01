@@ -1,0 +1,22 @@
+{
+  "id": "fuvest-2018-q34",
+  "banca": "Fuvest",
+  "ano": 2018,
+  "numero": "34",
+  "fase": "1ª fase · Prova V",
+  "fonte": {
+    "descricao": "Fuvest, Vestibular 2018, 1ª fase (Prova de Conhecimentos Gerais), caderno de questões"
+  },
+  "enunciado": "Dois atletas correm com velocidades constantes em uma pista retilínea, partindo simultaneamente de extremos opostos, A e B. Um dos corredores parte de A, chega a B e volta para A. O outro corredor parte de B, chega a A e volta para B. Os corredores cruzam-se duas vezes, a primeira vez a 800 metros de A e a segunda vez a 500 metros de B. O comprimento da pista, em metros, é\n\n(A) 1.000.\n(B) 1.300.\n(C) 1.600.\n(D) 1.900.\n(E) 2.100.",
+  "figuras": [],
+  "gabarito": "D",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. Seja <i>L</i> o comprimento da pista. Até o 1º encontro, os dois juntos percorrem <i>L</i>; o corredor que saiu de A percorreu 800 m.\n2. Até o 2º encontro (cada um já chegou à outra ponta e voltou), os dois juntos percorrem 3<i>L</i>. Com velocidades constantes, as distâncias são proporcionais ao tempo: o corredor de A percorreu 3 · 800 = 2.400 m.\n3. Nesse percurso ele foi até B (<i>L</i>) e voltou 500 m: <i>L</i> + 500 = 2.400 ⇒ <i>L</i> = 1.900 m.\nGabarito: D.",
+  "topicos": [
+    "movimento-retilineo-uniforme-mru",
+    "movimento-relativo-e-composicao-de-velocidades"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-01T14:43:26.000Z",
+  "atualizadoEm": "2026-11-01T14:43:26.000Z"
+}

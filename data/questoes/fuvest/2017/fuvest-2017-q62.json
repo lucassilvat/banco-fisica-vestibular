@@ -1,0 +1,25 @@
+{
+  "id": "fuvest-2017-q62",
+  "banca": "Fuvest",
+  "ano": 2017,
+  "numero": "62",
+  "fase": "1ª fase · Prova V",
+  "fonte": {
+    "descricao": "Fuvest, Vestibular 2017, 1ª fase (Prova de Conhecimentos Gerais), caderno de questões"
+  },
+  "enunciado": "Na bateria de um telefone celular e em seu carregador, estão registradas as seguintes especificações:\n\n[[figura 1]]\n\nCom a bateria sendo carregada em uma rede de 127 V, a potência máxima que o carregador pode fornecer e a carga máxima que pode ser armazenada na bateria são, respectivamente, próximas de\n\nNote e adote:\nAC: corrente alternada;\nDC: corrente contínua.\n\na) 25,4 W e 5940 C.\nb) 25,4 W e 4,8 C.\nc) 6,5 W e 21960 C.\nd) 6,5 W e 5940 C.\ne) 6,1 W e 4,8 C.",
+  "figuras": [
+    "fuvest-2017-q62-1.png"
+  ],
+  "gabarito": "D",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. A potência que o carregador fornece é a da saída DC: <i>P</i> = <i>U i</i> = 5 V · 1,3 A = 6,5 W.\n2. A carga da bateria vem da especificação em mAh: 1650 mAh = 1,65 A · 3600 s = 5940 C.\n3. (A 127 V da rede não importa para essas duas grandezas; 25,4 W seria 127 V · 0,2 A, a potência máxima de entrada.)\nGabarito: D.",
+  "topicos": [
+    "potencia-eletrica-e-efeito-joule",
+    "corrente-eletrica",
+    "geradores-eletricos-fem-e-resistencia-interna"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-01T14:43:28.000Z",
+  "atualizadoEm": "2026-11-01T14:43:28.000Z"
+}

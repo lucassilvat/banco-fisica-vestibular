@@ -1,0 +1,25 @@
+{
+  "id": "fuvest-2016-q34",
+  "banca": "Fuvest",
+  "ano": 2016,
+  "numero": "34",
+  "fase": "1ª fase · Prova V",
+  "fonte": {
+    "descricao": "Fuvest, Vestibular 2016, 1ª fase (Prova de Conhecimentos Gerais), caderno de questões"
+  },
+  "enunciado": "Chumaços de algodão embebidos em uma solução de vermelho de cresol, de cor rosa, foram colocados em três recipientes de vidro, I, II e III, idênticos e transparentes. Em I e II, havia plantas e, em III, rãs. Os recipientes foram vedados e iluminados durante um mesmo intervalo de tempo com luz de mesma intensidade, sendo que I e III foram iluminados com luz de frequência igual a 7,0 x 10<sup>14</sup> Hz, e II, com luz de frequência igual a 5,0 x 10<sup>14</sup> Hz. O gráfico mostra a taxa de fotossíntese das clorofilas a e b em função do comprimento de onda da radiação eletromagnética. Considere que, para essas plantas, o ponto de compensação fótica corresponde a 20% do percentual de absorção.\n\n[[figura 1]]\n\nÉ correto afirmar que, após o período de iluminação, as cores dos chumaços de algodão embebidos em solução de cresol dos recipientes I, II e III ficaram, respectivamente,\n\nNote e adote:\nAs plantas e as rãs permaneceram vivas durante o experimento.\nAs cores da solução de cresol em ambientes com dióxido de carbono com concentração menor, igual e maior que a da atmosfera são, respectivamente, roxa, rosa e amarela.\nVelocidade da luz = 3 × 10<sup>8</sup> m/s\n1 nm = 10<sup>−9</sup> m\n\na) roxa, amarela e amarela.\nb) roxa, rosa e amarela.\nc) rosa, roxa e amarela.\nd) amarela, amarela e roxa.\ne) roxa, roxa e rosa.",
+  "figuras": [
+    "fuvest-2016-q34-1.png"
+  ],
+  "gabarito": "A",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. Física: <i>λ</i> = <i>c</i>/<i>f</i>. Para 7,0 × 10<sup>14</sup> Hz: <i>λ</i> ≈ 4,3 × 10<sup>−7</sup> m = 430 nm. Para 5,0 × 10<sup>14</sup> Hz: <i>λ</i> = 6,0 × 10<sup>−7</sup> m = 600 nm.\n2. No gráfico, em 430 nm a absorção das clorofilas é alta (bem acima de 20%) ⇒ a fotossíntese supera a respiração e a planta consome CO<sub>2</sub> ⇒ recipiente I com menos CO<sub>2</sub> ⇒ roxa.\n3. Em 600 nm a absorção é cerca de 10%, abaixo do ponto de compensação ⇒ a respiração supera a fotossíntese ⇒ recipiente II com mais CO<sub>2</sub> ⇒ amarela.\n4. As rãs (III) só respiram ⇒ mais CO<sub>2</sub> ⇒ amarela.\nGabarito: A.",
+  "topicos": [
+    "equacao-fundamental-da-ondulatoria-v-f",
+    "espectro-eletromagnetico",
+    "leitura-e-interpretacao-de-graficos"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-01T14:43:29.000Z",
+  "atualizadoEm": "2026-11-01T14:43:29.000Z"
+}

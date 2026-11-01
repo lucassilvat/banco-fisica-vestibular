@@ -1,0 +1,22 @@
+{
+  "id": "fuvest-2018-q11",
+  "banca": "Fuvest",
+  "ano": 2018,
+  "numero": "11",
+  "fase": "1ª fase · Prova V",
+  "fonte": {
+    "descricao": "Fuvest, Vestibular 2018, 1ª fase (Prova de Conhecimentos Gerais), caderno de questões"
+  },
+  "enunciado": "Em 2016, as lâmpadas incandescentes tiveram sua venda definitivamente proibida no país, por razões energéticas. Uma lâmpada fluorescente, considerada energeticamente eficiente, consome 28 W de potência e pode produzir a mesma intensidade luminosa que uma lâmpada incandescente consumindo a potência de 100 W. A vida útil média da lâmpada fluorescente é de 10.000 h e seu preço médio é de R$ 20,00, enquanto a lâmpada incandescente tem vida útil de 1.000 h e cada unidade custaria, hoje, R$ 4,00. O custo da energia é de R$ 0,25 por quilowatt-hora. O valor total, em reais, que pode ser poupado usando uma lâmpada fluorescente, ao longo da sua vida útil, ao invés de usar lâmpadas incandescentes para obter a mesma intensidade luminosa, durante o mesmo período de tempo, é\n\n(A) 90,00.\n(B) 140,00.\n(C) 200,00.\n(D) 250,00.\n(E) 290,00.",
+  "figuras": [],
+  "gabarito": "C",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. Período: 10.000 h (vida útil da fluorescente).\n2. Fluorescente: energia 0,028 kW · 10.000 h = 280 kWh ⇒ R$ 70,00; mais uma lâmpada de R$ 20,00 ⇒ R$ 90,00.\n3. Incandescente: energia 0,100 kW · 10.000 h = 1.000 kWh ⇒ R$ 250,00; são necessárias 10 lâmpadas (1.000 h cada) ⇒ R$ 40,00 ⇒ total R$ 290,00.\n4. Economia: 290,00 − 90,00 = R$ 200,00.\nGabarito: C.",
+  "topicos": [
+    "energia-eletrica-e-consumo-kwh-conta-de-luz",
+    "potencia-eletrica-e-efeito-joule"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-01T14:43:26.000Z",
+  "atualizadoEm": "2026-11-01T14:43:26.000Z"
+}

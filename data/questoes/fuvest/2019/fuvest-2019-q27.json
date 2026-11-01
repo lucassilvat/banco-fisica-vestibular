@@ -1,0 +1,23 @@
+{
+  "id": "fuvest-2019-q27",
+  "banca": "Fuvest",
+  "ano": 2019,
+  "numero": "27",
+  "fase": "1ª fase · Prova V",
+  "fonte": {
+    "descricao": "Fuvest, Vestibular 2019, 1ª fase (Prova de Conhecimentos Gerais), caderno de questões"
+  },
+  "enunciado": "O aquecimento global resulta do seguinte fenômeno: parte da energia solar incidente sobre a Terra é irradiada de volta ao espaço, sendo bloqueada, em grande parte, por gases de efeito estufa, o que aumenta a temperatura do planeta. As alternativas apresentam: I‐ o motivo pelo qual os raios solares conseguem penetrar a atmosfera terrestre, mas, ao serem refletidos, são barrados, em grande parte, pelos gases de efeito estufa; II‐ uma das causas diretas do aumento da concentração de gases de efeito estufa na atmosfera.\n\nOs itens I e II estão corretamente indicados em:\n\n(A) I A energia solar incide na atmosfera em comprimentos de onda menores e é refletida em comprimentos de onda maiores.\nII Destruição de florestas nativas.\n(B) I A energia solar incide na atmosfera em comprimentos de onda maiores e é refletida em comprimentos de onda menores.\nII Represamento dos rios para abastecimento de hidrelétricas.\n(C) I A energia solar incide na atmosfera e é refletida em ondas de mesmo comprimento.\nII Plantio de árvores exóticas no lugar de árvores nativas.\n(D) I A energia solar incide na atmosfera em comprimentos de onda maiores e é refletida em comprimentos de onda menores.\nII Uso de combustível fóssil.\n(E) I A energia solar incide na atmosfera em comprimentos de onda menores e é refletida em comprimentos de onda maiores.\nII Uso da água dos rios para o abastecimento domiciliar.",
+  "figuras": [],
+  "gabarito": "A",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. Item I (Física): o Sol, muito quente, emite principalmente em comprimentos de onda curtos (visível e ultravioleta), que atravessam a atmosfera. A superfície terrestre, bem mais fria, reemite a energia como infravermelho (comprimentos de onda maiores), absorvido por CO<sub>2</sub>, vapor d'água e metano (lei de Wien: <i>λ</i><sub>máx</sub> ∝ 1/<i>T</i>).\n2. Logo, I é \"incide em comprimentos de onda menores e é refletida (reemitida) em comprimentos de onda maiores\": alternativas A ou E.\n3. Item II: a destruição de florestas nativas (queimadas e menor absorção de CO<sub>2</sub>) aumenta diretamente a concentração de gases de efeito estufa; o uso doméstico da água dos rios (E) não.\nGabarito: A.",
+  "topicos": [
+    "efeito-estufa-e-balanco-energetico",
+    "espectro-eletromagnetico",
+    "radiacao-de-corpo-negro-e-quantizacao"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-01T14:43:25.000Z",
+  "atualizadoEm": "2026-11-01T14:43:25.000Z"
+}
