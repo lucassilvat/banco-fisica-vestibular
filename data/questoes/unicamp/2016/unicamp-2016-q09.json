@@ -1,0 +1,24 @@
+{
+  "id": "unicamp-2016-q09",
+  "banca": "Unicamp",
+  "ano": 2016,
+  "numero": "9",
+  "fase": "1ª fase · Prova Q",
+  "fonte": {
+    "descricao": "Comvest, Vestibular Unicamp 2016, 1ª fase, caderno de questões (prova Q)"
+  },
+  "enunciado": "Anemômetros são instrumentos usados para medir a velocidade do vento. A sua construção mais conhecida é a proposta por Robinson em 1846, que consiste em um rotor com quatro conchas hemisféricas presas por hastes, conforme figura abaixo. Em um anemômetro de Robinson ideal, a velocidade do vento é dada pela velocidade linear das conchas. Um anemômetro em que a distância entre as conchas e o centro de rotação é r=25 cm, em um dia cuja velocidade do vento é v=18 km/h, teria uma frequência de rotação de\n[[figura 1]]\n\na) 3 rpm.\nb) 200 rpm.\nc) 720 rpm.\nd) 1200 rpm.\n\nSe necessário, considere π ≈3.",
+  "figuras": [
+    "unicamp-2016-q09-1.png"
+  ],
+  "gabarito": "B",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. <i>v</i> = 18 km/h = 5 m/s; <i>r</i> = 0,25 m.\n2. <i>v</i> = 2π<i>r f</i> ⇒ <i>f</i> = 5/(2 · 3 · 0,25) = 10/3 Hz.\n3. Em rotações por minuto: (10/3) · 60 = 200 rpm.",
+  "topicos": [
+    "movimento-circular-uniforme-mcu",
+    "periodo-frequencia-e-velocidade-angular"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-10-07T11:30:00.000Z",
+  "atualizadoEm": "2026-10-07T11:30:00.000Z"
+}

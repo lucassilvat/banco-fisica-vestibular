@@ -1,0 +1,24 @@
+{
+  "id": "unicamp-2017-q58",
+  "banca": "Unicamp",
+  "ano": 2017,
+  "numero": "58",
+  "fase": "1ª fase",
+  "fonte": {
+    "descricao": "Comvest, Vestibular Unicamp 2017, 1ª fase, caderno de questões"
+  },
+  "enunciado": "O semáforo é um dos recursos utilizados para organizar o tráfego de veículos e de pedestres nas grandes cidades. Considere que um carro trafega em um trecho de uma via retilínea, em que temos 3 semáforos. O gráfico abaixo mostra a velocidade do carro, em função do tempo, ao passar por esse trecho em que o carro teve que parar nos três semáforos. A distância entre o primeiro e o terceiro semáforo é de\n[[figura 1]]\n\na) 330 m.\nb) 440 m.\nc) 150 m.\nd) 180 m.",
+  "figuras": [
+    "unicamp-2017-q58-1.png"
+  ],
+  "gabarito": "A",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. No gráfico <i>v</i> × <i>t</i>, a área sob a curva é o deslocamento.\n2. Primeiro trapézio (5 s a 25 s, patamar de 10 a 20 s a 10 m/s): (20 + 10)/2 · 10 = 150 m.\n3. Segundo trapézio (45 s a 65 s, patamar de 50 a 60 s a 12 m/s): (20 + 10)/2 · 12 = 180 m.\n4. Distância total: 150 + 180 = 330 m.",
+  "topicos": [
+    "graficos-do-movimento-s-t-v-t-a-t",
+    "leitura-e-interpretacao-de-graficos"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-10-07T11:30:00.000Z",
+  "atualizadoEm": "2026-10-07T11:30:00.000Z"
+}

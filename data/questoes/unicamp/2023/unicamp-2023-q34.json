@@ -1,0 +1,23 @@
+{
+  "id": "unicamp-2023-q34",
+  "banca": "Unicamp",
+  "ano": 2023,
+  "numero": "34",
+  "fase": "1ª fase · Prova Q",
+  "fonte": {
+    "descricao": "Comvest, Vestibular Unicamp 2023, 1ª fase, caderno de questões (prova Q)"
+  },
+  "enunciado": "Use os valores aproximados: <i>g</i> = 10 m/s<sup>2</sup> e π = 3.\n\nO planeta anão Ceres foi descoberto em 1801 por Giuseppe Piazzi. Resultados científicos recentes indicam que Ceres teria sido formado nas zonas mais afastadas do Sistema Solar e posteriormente lançado para a região onde se encontra atualmente, entre as órbitas de Marte e Júpiter. A tabela abaixo apresenta o período de translação <i>T</i>, a distância média ao Sol <i>R</i>, bem como <i>T</i><sup>2</sup>, <i>R</i><sup>3</sup> e a razão (<i>T</i><sup>2</sup>/<i>R</i><sup>3</sup>) para alguns planetas do Sistema Solar. De acordo com a 3ª Lei de Kepler, a razão (<i>T</i><sup>2</sup>/<i>R</i><sup>3</sup>) é constante. A partir dos dados da tabela, pode-se concluir que o período orbital de Ceres, <i>T</i><sub>Ceres</sub>, é aproximadamente igual a\n[[figura 1]]\n\na) 1,00 ano.\nb) 2,77 anos.\nc) 4,62 anos.\nd) 21,3 anos.",
+  "figuras": [
+    "unicamp-2023-q34-1.png"
+  ],
+  "gabarito": "C",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. Pela tabela, <i>T</i><sup>2</sup>/<i>R</i><sup>3</sup> = 1,0 ano<sup>2</sup>/u.a.<sup>3</sup> para todos os planetas.\n2. Para Ceres, <i>R</i><sup>3</sup> = 21,3 u.a.<sup>3</sup>, então <i>T</i><sup>2</sup> = 21,3 ano<sup>2</sup>.\n3. <i>T</i> = √21,3 ≈ 4,62 anos.",
+  "topicos": [
+    "leis-de-kepler"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-10-06T17:30:00.000Z",
+  "atualizadoEm": "2026-10-06T17:30:00.000Z"
+}

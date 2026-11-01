@@ -1,0 +1,22 @@
+{
+  "id": "unicamp-2020-q77",
+  "banca": "Unicamp",
+  "ano": 2020,
+  "numero": "77",
+  "fase": "1ª fase",
+  "fonte": {
+    "descricao": "Comvest, Vestibular Unicamp 2020, 1ª fase, caderno de questões"
+  },
+  "enunciado": "<b>Obs.: para as questões de 70 a 79, aproxime π = 3,0 sempre que necessário.</b>\n\nEm 2019 foi divulgada a primeira imagem de um buraco negro, obtida pelo uso de vários radiotelescópios. Também recentemente, uma equipe da NASA propôs a utilização de telescópios de infravermelho para detectar antecipadamente asteroides que se aproximam da Terra. Considere que um radiotelescópio detecta ondas eletromagnéticas provenientes de objetos celestes distantes na frequência de <i>f</i><sub>rádio</sub> = 1,5 GHz, e que um telescópio de infravermelho detecta ondas eletromagnéticas originadas em corpos do sistema solar na frequência de <i>f</i><sub>infravermelho</sub> = 30 THz. Qual é a razão entre os correspondentes comprimentos de onda no vácuo, <i>λ</i><sub>rádio</sub>/<i>λ</i><sub>infravermelho</sub>?\n\na) 5,0×10<sup>-5</sup>.\nb) 6,7×10<sup>-5</sup>.\nc) 2,0×10<sup>4</sup>.\nd) 6,0×10<sup>12</sup>.",
+  "figuras": [],
+  "gabarito": "C",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. No vácuo, <i>λ</i> = <i>c</i>/<i>f</i>, então <i>λ</i><sub>rádio</sub>/<i>λ</i><sub>IV</sub> = <i>f</i><sub>IV</sub>/<i>f</i><sub>rádio</sub>.\n2. Razão = 30 × 10<sup>12</sup>/1,5 × 10<sup>9</sup> = 2,0 × 10<sup>4</sup>.",
+  "topicos": [
+    "equacao-fundamental-da-ondulatoria-v-f",
+    "espectro-eletromagnetico"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-10-07T11:30:00.000Z",
+  "atualizadoEm": "2026-10-07T11:30:00.000Z"
+}

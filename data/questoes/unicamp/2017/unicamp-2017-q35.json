@@ -1,0 +1,22 @@
+{
+  "id": "unicamp-2017-q35",
+  "banca": "Unicamp",
+  "ano": 2017,
+  "numero": "35",
+  "fase": "1ª fase",
+  "fonte": {
+    "descricao": "Comvest, Vestibular Unicamp 2017, 1ª fase, caderno de questões"
+  },
+  "enunciado": "No conto “O mistério de Maria Rogêt”, de Edgar Alan Poe, ao procurar esclarecer a verdadeira identidade de um cadáver jogado na água, o detetive Dupin, mediante a análise dos fatos e das informações da imprensa, faz uso do seguinte raciocínio científico:\n\n“ (...) a gravidade específica do corpo humano, em sua condição natural, é quase igual à massa de água doce que ele desloca. (...) É evidente, contudo, que as gravidades do corpo e da massa de água deslocada são muito delicadamente equilibradas, e que uma ninharia pode fazer com que uma delas predomine. Um braço, por exemplo, erguido fora d'água e assim privado de seu equivalente é um peso adicional suficiente para imergir toda a cabeça, ao passo que a ajuda casual do menor pedaço de madeira habilitar-nos-á a elevar a cabeça, para olhar em derredor”.\n(Edgar Alan Poe, <i>apud</i> João Zanetic, <i>Física e Literatura</i>: construindo uma ponte entre as duas culturas. 2006, p. 61. Disponível em http://www.scielo.br/pdf/hcsm/v13s0/03.pdf. Acessado em 05/07/2016.)\n\nA partir do raciocínio científico presente no excerto acima, é correto afirmar que:\n\na) A densidade de massa de um corpo humano é aproximadamente igual à da água, e retirar o braço para fora da água reduziria a força de empuxo, contrária ao peso do corpo, contribuindo para seu afundamento.\nb) O corpo humano está submetido a uma aceleração gravitacional aproximadamente igual à que atua na porção de água de mesma massa que o corpo, e retirar o braço para fora da água reduziria a força de empuxo, contrária ao peso do corpo, contribuindo para seu afundamento.\nc) A densidade de massa de um corpo humano é aproximadamente igual à da água, e retirar o braço para fora da água aumentaria a força de empuxo, contrária ao peso do corpo, contribuindo para seu afundamento.\nd) O corpo humano está submetido a uma aceleração gravitacional aproximadamente igual à que atua na porção de água de mesma massa que o corpo, e retirar o braço para fora da água aumentaria a força de empuxo, contrária ao peso do corpo, contribuindo para seu afundamento.",
+  "figuras": [],
+  "gabarito": "A",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. “Gravidade específica” quase igual à da água doce significa densidade do corpo aproximadamente igual à da água, e não igualdade de acelerações gravitacionais (descarta b e d).\n2. Empuxo: <i>E</i> = <i>ρ</i><sub>água</sub> <i>g V</i><sub>submerso</sub>. Erguer o braço para fora da água reduz o volume submerso e, portanto, o empuxo; o peso, que não muda, passa a predominar e o corpo afunda (descarta c).\n3. Alternativa a.",
+  "topicos": [
+    "empuxo-e-principio-de-arquimedes",
+    "densidade-e-massa-especifica"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-10-07T11:45:00.000Z",
+  "atualizadoEm": "2026-10-07T11:45:00.000Z"
+}

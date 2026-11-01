@@ -1,0 +1,26 @@
+{
+  "id": "unicamp-2022-q61",
+  "banca": "Unicamp",
+  "ano": 2022,
+  "numero": "61",
+  "fase": "1ª fase",
+  "fonte": {
+    "descricao": "Comvest, Vestibular Unicamp 2022, 1ª fase, caderno de questões"
+  },
+  "enunciado": "<b><i>Sempre que necessário aproxime π = 3.</i></b>\n\nA figura a seguir mostra a temperatura da tigela de uma panela de arroz elétrica em função do tempo de cozimento. Ligando-se a panela, uma resistência elétrica aumenta a temperatura da tigela contendo <u>arroz e água</u> até que a água entre em ebulição. Depois que toda a água é consumida ─ por evaporação e por absorção pelo arroz ─, a temperatura da tigela volta a subir, o que é detectado por um sensor, e a panela é então desligada. A potência elétrica dissipada pela resistência elétrica, na forma de calor, é <i>P</i> = 400 W, constante durante todo o cozimento.\n\nQuanto vale a energia elétrica dissipada desde o início do processo até que toda a água seja consumida?\n[[figura 1]]\n\na) 13,3 kJ.\nb) 240 kJ.\nc) 720 kJ.\nd) 2000 kJ.",
+  "figuras": [
+    "unicamp-2022-q61-1.png"
+  ],
+  "gabarito": "C",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. Pelo gráfico, a temperatura fica em 100 °C (ebulição) até cerca de 30 min, quando volta a subir: é nesse instante que toda a água foi consumida.\n2. Energia dissipada: <i>E</i> = <i>P</i>·Δ<i>t</i> = 400 W · (30 · 60 s) = 720 000 J = 720 kJ.",
+  "topicos": [
+    "potencia-eletrica-e-efeito-joule",
+    "energia-eletrica-e-consumo-kwh-conta-de-luz",
+    "calor-latente-e-mudancas-de-fase",
+    "leitura-e-interpretacao-de-graficos"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-10-06T17:30:00.000Z",
+  "atualizadoEm": "2026-10-06T17:30:00.000Z"
+}

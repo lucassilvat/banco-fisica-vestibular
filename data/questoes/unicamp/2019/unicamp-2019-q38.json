@@ -1,0 +1,22 @@
+{
+  "id": "unicamp-2019-q38",
+  "banca": "Unicamp",
+  "ano": 2019,
+  "numero": "38",
+  "fase": "1ª fase",
+  "fonte": {
+    "descricao": "Comvest, Vestibular Unicamp 2019, 1ª fase, caderno de questões"
+  },
+  "enunciado": "<b>Nas questões seguintes, sempre que necessário, use aceleração da gravidade g = 10 m/s<sup>2</sup>, aproxime π = 3,0 e 1 atm =10<sup>5</sup> Pa.</b>\n\nO físico inglês Stephen Hawking (1942-2018), além de suas contribuições importantes para a cosmologia, a física teórica e sobre a origem do universo, nos últimos anos de sua vida passou a sugerir estratégias para salvar a raça humana de uma possível extinção, entre elas, a mudança para outro planeta. Em abril de 2018, uma empresa americana, em colaboração com a Nasa, lançou o satélite TESS, que analisará cerca de vinte mil planetas fora do sistema solar. Esses planetas orbitam estrelas situadas a menos de trezentos anos-luz da Terra, sendo que um ano-luz é a distância que a luz percorre no vácuo em um ano. Considere um ônibus espacial atual que viaja a uma velocidade média <i>v</i>=2,0×10<sup>4</sup> km/s. O tempo que esse ônibus levaria para chegar a um planeta a uma distância de 100 anos-luz é igual a\n\n(Dado: A velocidade da luz no vácuo é igual a <i>c</i>=3,0×10<sup>8</sup> m/s.)\n\na) 66 anos.\nb) 100 anos.\nc) 600 anos.\nd) 1500 anos.",
+  "figuras": [],
+  "gabarito": "D",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. <i>c</i> = 3,0 × 10<sup>5</sup> km/s, então <i>v</i> = 2,0 × 10<sup>4</sup> km/s = <i>c</i>/15.\n2. A luz leva 100 anos para percorrer 100 anos-luz; viajando 15 vezes mais devagar, o ônibus leva 15 · 100 = 1500 anos.",
+  "topicos": [
+    "movimento-retilineo-uniforme-mru",
+    "notacao-cientifica-e-ordem-de-grandeza"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-10-07T11:30:00.000Z",
+  "atualizadoEm": "2026-10-07T11:30:00.000Z"
+}

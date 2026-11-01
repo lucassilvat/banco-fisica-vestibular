@@ -1,0 +1,23 @@
+{
+  "id": "unicamp-2021a-q38",
+  "banca": "Unicamp",
+  "ano": 2021,
+  "versao": "A",
+  "numero": "38",
+  "fase": "1ª fase · Exatas e Tecnológicas / Humanas e Artes",
+  "fonte": {
+    "descricao": "Comvest, Vestibular Unicamp 2021, 1ª fase, Conhecimentos Gerais – Exatas e Tecnológicas / Humanas e Artes (provas E e G)"
+  },
+  "enunciado": "Nas questões de 33 a 40, sempre que necessário, use π = 3 e <i>g</i> = 10 m/s<sup>2</sup>.\n\nUm microchip de massa <i>m</i> = 2,0×10<sup>−6</sup> g é composto majoritariamente de silício. Durante um minuto de funcionamento, o circuito elétrico do dispositivo dissipa, na forma térmica, uma quantidade de energia <i>Q</i> = 0,96 mJ. Considere que o calor específico do silício é <i>c<sub>Si</sub></i> = 800 J/kg°C. Caso não houvesse nenhum mecanismo de escoamento de calor para fora do dispositivo, em quanto sua temperatura aumentaria após esse tempo de funcionamento?\n\na) 4,8×10<sup>1</sup> °C.\nb) 1,6×10<sup>2</sup> °C.\nc) 6,0×10<sup>2</sup> °C.\nd) 1,2×10<sup>3</sup> °C.",
+  "figuras": [],
+  "gabarito": "C",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. <i>m</i> = 2,0 × 10<sup>−6</sup> g = 2,0 × 10<sup>−9</sup> kg; <i>Q</i> = 0,96 × 10<sup>−3</sup> J.\n2. Δ<i>θ</i> = <i>Q</i>/(<i>m c</i>) = 0,96 × 10<sup>−3</sup>/(2,0 × 10<sup>−9</sup> · 800) = 0,96 × 10<sup>−3</sup>/1,6 × 10<sup>−6</sup> = 600 °C = 6,0 × 10<sup>2</sup> °C.",
+  "topicos": [
+    "calor-sensivel-e-capacidade-termica",
+    "potencia-eletrica-e-efeito-joule"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-10-07T11:30:00.000Z",
+  "atualizadoEm": "2026-10-07T11:30:00.000Z"
+}

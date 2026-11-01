@@ -1,0 +1,22 @@
+{
+  "id": "unicamp-2016-q01",
+  "banca": "Unicamp",
+  "ano": 2016,
+  "numero": "1",
+  "fase": "1ª fase · Prova Q",
+  "fonte": {
+    "descricao": "Comvest, Vestibular Unicamp 2016, 1ª fase, caderno de questões (prova Q)"
+  },
+  "enunciado": "Drones são veículos voadores não tripulados, controlados remotamente e guiados por GPS. Uma de suas potenciais aplicações é reduzir o tempo da prestação de primeiros socorros, levando pequenos equipamentos e instruções ao local do socorro, para que qualquer pessoa administre os primeiros cuidados até a chegada de uma ambulância. Considere um caso em que o drone ambulância se deslocou 9 km em 5 minutos. Nesse caso, o módulo de sua velocidade média é de aproximadamente\n\na) 1,4 m/s.\nb) 30 m/s.\nc) 45 m/s.\nd) 140 m/s.",
+  "figuras": [],
+  "gabarito": "B",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. Converta para o SI: Δ<i>s</i> = 9 km = 9000 m; Δ<i>t</i> = 5 min = 300 s.\n2. <i>v</i><sub>m</sub> = Δ<i>s</i>/Δ<i>t</i> = 9000/300 = 30 m/s.",
+  "topicos": [
+    "velocidade-media-e-aceleracao-media",
+    "grandezas-fisicas-e-sistema-internacional"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-10-07T11:30:00.000Z",
+  "atualizadoEm": "2026-10-07T11:30:00.000Z"
+}

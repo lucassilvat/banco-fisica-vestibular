@@ -1,0 +1,22 @@
+{
+  "id": "unicamp-2020-q72",
+  "banca": "Unicamp",
+  "ano": 2020,
+  "numero": "72",
+  "fase": "1ª fase",
+  "fonte": {
+    "descricao": "Comvest, Vestibular Unicamp 2020, 1ª fase, caderno de questões"
+  },
+  "enunciado": "<b>Obs.: para as questões de 70 a 79, aproxime π = 3,0 sempre que necessário.</b>\n\n<b>Texto comum às questões 71, 72 e 73.</b>\n\nAs agências espaciais NASA (norte-americana) e ESA (europeia) desenvolvem um projeto para desviar a trajetória de um asteroide através da colisão com uma sonda especialmente enviada para esse fim. A previsão é que a sonda DART (do inglês, “Teste de Redirecionamento de Asteroides Duplos”) será lançada com a finalidade de se chocar, em 2022, com Didymoon, um pequeno asteroide que orbita um asteroide maior chamado Didymos.\n\nNuma <b>colisão inelástica</b> da sonda DART com o asteroide Didymoon,\n\na) a energia cinética do conjunto sonda + asteroide <b>é conservada</b> e o momento linear do conjunto também <b>é conservado</b>.\nb) a energia cinética do conjunto sonda + asteroide <b>não é conservada</b>; já o momento linear do conjunto <b>é conservado</b>.\nc) a energia cinética do conjunto sonda + asteroide <b>é conservada</b>; já o momento linear do conjunto <b>não é conservado</b>.\nd) a energia cinética do conjunto sonda + asteroide <b>não é conservada</b> e o momento linear do conjunto também <b>não é conservado</b>.",
+  "figuras": [],
+  "gabarito": "B",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. Na colisão, as forças entre sonda e asteroide são internas ao conjunto: o momento linear total se conserva.\n2. Por ser inelástica, parte da energia cinética se converte em outras formas (deformação, calor): a energia cinética não se conserva.",
+  "topicos": [
+    "colisoes-elasticas-e-inelasticas",
+    "conservacao-da-quantidade-de-movimento"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-10-07T11:30:00.000Z",
+  "atualizadoEm": "2026-10-07T11:30:00.000Z"
+}

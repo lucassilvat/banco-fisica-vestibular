@@ -1,0 +1,22 @@
+{
+  "id": "unicamp-2016-q03",
+  "banca": "Unicamp",
+  "ano": 2016,
+  "numero": "3",
+  "fase": "1ª fase · Prova Q",
+  "fonte": {
+    "descricao": "Comvest, Vestibular Unicamp 2016, 1ª fase, caderno de questões (prova Q)"
+  },
+  "enunciado": "Um isolamento térmico eficiente é um constante desafio a ser superado para que o homem possa viver em condições extremas de temperatura. Para isso, o entendimento completo dos mecanismos de troca de calor é imprescindível.\nEm cada uma das situações descritas a seguir, você deve reconhecer o processo de troca de calor envolvido.\nI. As prateleiras de uma geladeira doméstica são grades vazadas, para facilitar fluxo de energia térmica até o congelador por [...]\nII. O único processo de troca de calor que pode ocorrer no vácuo é por [...].\nIII. Em uma garrafa térmica, é mantido vácuo entre as paredes duplas de vidro para evitar que o calor saia ou entre por [....].\nNa ordem, os processos de troca de calor utilizados para preencher as lacunas corretamente são:\n\na) condução, convecção e radiação.\nb) condução, radiação e convecção.\nc) convecção, condução e radiação.\nd) convecção, radiação e condução.",
+  "figuras": [],
+  "gabarito": "D",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. Prateleiras vazadas permitem a circulação do ar (correntes de ar frio descem, ar quente sobe): <b>convecção</b>.\n2. Só a radiação (ondas eletromagnéticas) se propaga no vácuo: <b>radiação</b>.\n3. O vácuo entre as paredes elimina o meio material necessário à <b>condução</b>.\nOrdem: convecção, radiação e condução.",
+  "topicos": [
+    "conveccao-e-irradiacao-termica",
+    "conducao-termica-lei-de-fourier"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-10-07T11:30:00.000Z",
+  "atualizadoEm": "2026-10-07T11:30:00.000Z"
+}

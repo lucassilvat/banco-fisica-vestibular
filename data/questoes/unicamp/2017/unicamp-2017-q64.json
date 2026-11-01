@@ -1,0 +1,31 @@
+{
+  "id": "unicamp-2017-q64",
+  "banca": "Unicamp",
+  "ano": 2017,
+  "numero": "64",
+  "fase": "1ª fase",
+  "fonte": {
+    "descricao": "Comvest, Vestibular Unicamp 2017, 1ª fase, caderno de questões"
+  },
+  "enunciado": "Considere que, de forma simplificada, a resolução máxima de um microscópio óptico é igual ao comprimento de onda da luz incidente no objeto a ser observado. Observando a célula representada na figura abaixo, e sabendo que o intervalo de frequências do espectro de luz visível está compreendido entre 4,0 x 10<sup>14</sup> Hz e 7,5 x 10<sup>14</sup> Hz, a menor estrutura celular que se poderia observar nesse microscópio de luz seria\n(Se necessário, utilize c = 3×10<sup>8</sup>m/s.)\n[[figura 1]]\n(Adaptado de http://educacao.uol.com.br/disciplinas/ciencias/celulas-conheca-a-historia-de-sua-descoberta-e-entenda-sua-estrutura.htm. Acessado em 25/10/2016.)\n\na) o ribossomo.\nb) o retículo endoplasmático.\nc) a mitocôndria.\nd) o cloroplasto.",
+  "figuras": [
+    "unicamp-2017-q64-1.png"
+  ],
+  "gabarito": "B",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. A melhor resolução usa o menor comprimento de onda visível, ou seja, a maior frequência: <i>λ</i> = <i>c</i>/<i>f</i> = 3 × 10<sup>8</sup>/7,5 × 10<sup>14</sup> = 4,0 × 10<sup>−7</sup> m = 400 nm.\n2. Só se veem estruturas de 400 nm ou mais. Pela figura: ribossomo 25 nm (não), retículo 420 nm, mitocôndria 1000 nm, cloroplasto 2000 nm.\n3. A menor visível é o retículo endoplasmático.",
+  "topicos": [
+    "equacao-fundamental-da-ondulatoria-v-f",
+    "espectro-eletromagnetico",
+    "instrumentos-opticos-lupa-microscopio-luneta"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-10-07T11:30:00.000Z",
+  "atualizadoEm": "2026-10-07T11:30:00.000Z",
+  "revisao": {
+    "divergenciasAceitas": [
+      "historia"
+    ],
+    "notas": "URL quebrada em linha no PDF"
+  }
+}

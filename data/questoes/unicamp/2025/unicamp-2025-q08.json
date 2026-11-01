@@ -1,0 +1,25 @@
+{
+  "id": "unicamp-2025-q08",
+  "banca": "Unicamp",
+  "ano": 2025,
+  "numero": "8",
+  "fase": "1ª fase · Prova Q",
+  "fonte": {
+    "descricao": "Comvest, Vestibular Unicamp 2025, 1ª fase, caderno de questões (prova Q)"
+  },
+  "enunciado": "Mudanças climáticas têm influenciado correntes de ar na alta atmosfera. Em particular, na região do Atlântico Norte, onde ventos fortes geralmente sopram de oeste para leste, os tempos de voos têm sofrido alterações. Em uma viagem de Baltimore (EUA) a Londres (Reino Unido), o tempo total de voo é igual a oito horas quando não há vento em toda a trajetória. Considere agora uma viagem subdividida em três trechos (A, B e C), conforme a figura a seguir. No trecho B, na direção de oeste para leste, há vento com velocidade constante de módulo |<i>v</i>⃗<sub><i>vento,solo</i></sub>| = 250 km/h, <u>em relação ao solo</u>.\n[[figura 1]]\nSendo, nos três trechos, o módulo da velocidade média do avião <u>em relação ao vento</u> |<i>v</i>⃗<sub><i>avião,vento</i></sub>| = 750 km/h, podemos afirmar que\n\na) o módulo da velocidade média do avião <u>em relação ao solo</u> no trecho B é |<i>v</i>⃗<sub><i>avião,solo</i></sub>| = 500 km/h, e o tempo de viagem no mesmo trecho é Δ<i>t</i> = 4,0 h.\nb) o módulo da velocidade média do avião <u>em relação ao solo</u> no trecho B é |<i>v</i>⃗<sub><i>avião,solo</i></sub>| = 500 km/h, e o tempo de viagem no mesmo trecho é Δ<i>t</i> = 2,0 h.\nc) o módulo da velocidade média do avião <u>em relação ao solo</u> no trecho B é |<i>v</i>⃗<sub><i>avião,solo</i></sub>| = 1000 km/h, e o tempo de viagem no mesmo trecho é Δ<i>t</i> = 4,0 h.\nd) o módulo da velocidade média do avião <u>em relação ao solo</u> no trecho B é |<i>v</i>⃗<sub><i>avião,solo</i></sub>| = 1000 km/h, e o tempo de viagem no mesmo trecho é Δ<i>t</i> = 2,0 h.",
+  "figuras": [
+    "unicamp-2025-q08-1.png"
+  ],
+  "gabarito": "D",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. No trecho B, avião e vento vão de oeste para leste: as velocidades se somam. |<i>v</i><sub>avião,solo</sub>| = 750 + 250 = 1000 km/h.\n2. Pela figura, o trecho B tem 2000 km: Δ<i>t</i> = 2000/1000 = 2,0 h.",
+  "topicos": [
+    "movimento-relativo-e-composicao-de-velocidades",
+    "velocidade-media-e-aceleracao-media",
+    "vetores-soma-e-decomposicao"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-10-06T17:30:00.000Z",
+  "atualizadoEm": "2026-10-06T17:30:00.000Z"
+}

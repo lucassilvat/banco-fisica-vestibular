@@ -1,0 +1,25 @@
+{
+  "id": "unicamp-2022-q64",
+  "banca": "Unicamp",
+  "ano": 2022,
+  "numero": "64",
+  "fase": "1ª fase",
+  "fonte": {
+    "descricao": "Comvest, Vestibular Unicamp 2022, 1ª fase, caderno de questões"
+  },
+  "enunciado": "<b><i>Sempre que necessário aproxime π = 3.</i></b>\n\nUma imagem capturada recentemente pela sonda <i>Perseverance</i> na superfície de Marte mostrou o que parece ser um arco-íris no céu daquele planeta. Na Terra, um arco-íris surge como resultado da decomposição da luz branca do Sol por refração nas gotículas quase esféricas de água, suspensas na atmosfera. Em Marte, contudo, não há chuva. Portanto, a origem do arco-íris ainda é controversa. Em relação ao fenômeno de formação do arco-íris na Terra, quando a luz solar incide em uma gotícula de água, é correto afirmar que\n[[figura 1]]\n\na) o índice de refração da água para as diferentes cores da luz branca é <u>menor</u> do que o do ar; assim, no interior das gotículas, os raios de luz das diferentes cores se <u>aproximam</u> mais da reta normal à interface entre os meios de refração, quanto maior for o índice de refração corresponde àquela cor, na água.\nb) o índice de refração da água para as diferentes cores da luz branca é <u>menor</u> do que o do ar; assim, os raios de luz das diferentes cores, no interior das gotículas, se <u>afastam</u> mais da reta normal à interface entre os meios de refração, quanto maior for o índice de refração corresponde àquela cor, na água.\nc) o índice de refração da água para as diferentes cores da luz branca é <u>maior</u> do que o do ar; assim, os raios de luz das diferentes cores, no interior das gotículas, se <u>aproximam</u> mais da reta normal à interface entre os meios de refração, quanto maior for o índice de refração corresponde àquela cor, na água.\nd) o índice de refração da água para as diferentes cores da luz branca é <u>maior</u> do que o do ar; assim, os raios de luz das diferentes cores, no interior das gotículas, se <u>afastam</u> mais da reta normal à interface entre os meios de refração, quanto maior for o índice de refração corresponde àquela cor, na água.",
+  "figuras": [
+    "unicamp-2022-q64-1.png"
+  ],
+  "gabarito": "C",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. A água é mais refringente que o ar: <i>n</i><sub>água</sub> > <i>n</i><sub>ar</sub> (descarta a e b).\n2. Pela Lei de Snell, <i>n</i><sub>ar</sub> sen <i>i</i> = <i>n</i><sub>água</sub> sen <i>r</i>: ao entrar num meio mais refringente, o raio se aproxima da normal.\n3. Quanto maior o índice da água para uma cor, menor o ângulo de refração, ou seja, mais o raio se aproxima da normal. Essa diferença entre as cores é a dispersão que forma o arco-íris.",
+  "topicos": [
+    "refracao-da-luz-e-indice-de-refracao",
+    "lei-de-snell-descartes",
+    "prismas-e-dispersao-da-luz"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-10-06T17:30:00.000Z",
+  "atualizadoEm": "2026-10-06T17:30:00.000Z"
+}

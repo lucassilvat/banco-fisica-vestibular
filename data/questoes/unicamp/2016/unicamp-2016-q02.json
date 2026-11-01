@@ -1,0 +1,27 @@
+{
+  "id": "unicamp-2016-q02",
+  "banca": "Unicamp",
+  "ano": 2016,
+  "numero": "2",
+  "fase": "1ª fase · Prova Q",
+  "fonte": {
+    "descricao": "Comvest, Vestibular Unicamp 2016, 1ª fase, caderno de questões (prova Q)"
+  },
+  "enunciado": "A demanda por trens de alta velocidade tem crescido em todo o mundo. Uma preocupação importante no projeto desses trens é o conforto dos passageiros durante a aceleração. Sendo assim, considere que, em uma viagem de trem de alta velocidade, a aceleração experimentada pelos passageiros foi limitada a <i>a<sub>max</sub></i> = 0,09<i>g</i>, onde <i>g</i>=10 m/s<sup>2</sup> é a aceleração da gravidade. Se o trem acelera a partir do repouso com aceleração constante igual a <i>a<sub>max</sub></i>, a distância mínima percorrida pelo trem para atingir uma velocidade de 1080 km/h corresponde a\n\na) 10 km.\nb) 20 km.\nc) 50 km.\nd) 100 km.",
+  "figuras": [],
+  "gabarito": "C",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. <i>a</i><sub>max</sub> = 0,09 · 10 = 0,9 m/s<sup>2</sup>; <i>v</i> = 1080 km/h = 300 m/s.\n2. Torricelli, partindo do repouso: <i>v</i><sup>2</sup> = 2<i>a</i>Δ<i>s</i> ⇒ Δ<i>s</i> = 300<sup>2</sup>/(2 · 0,9) = 90 000/1,8 = 50 000 m = 50 km.",
+  "topicos": [
+    "movimento-retilineo-uniformemente-variado-mruv"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-10-07T11:30:00.000Z",
+  "atualizadoEm": "2026-10-07T11:30:00.000Z",
+  "revisao": {
+    "divergenciasAceitas": [
+      "max"
+    ],
+    "notas": "subscrito de a_max"
+  }
+}

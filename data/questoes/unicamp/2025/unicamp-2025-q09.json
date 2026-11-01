@@ -1,0 +1,22 @@
+{
+  "id": "unicamp-2025-q09",
+  "banca": "Unicamp",
+  "ano": 2025,
+  "numero": "9",
+  "fase": "1ª fase · Prova Q",
+  "fonte": {
+    "descricao": "Comvest, Vestibular Unicamp 2025, 1ª fase, caderno de questões (prova Q)"
+  },
+  "enunciado": "<b>Texto comum às questões 9 e 10.</b>\n\nOs últimos anos testemunharam a retomada do interesse de alguns países pela exploração da Lua. Diversas missões com destino a esse satélite foram lançadas: Chandrayaan-3 (Índia, 2023), Luna 25 (Rússia, 2023), Peregrine Mission One (EUA, 2024), Slim (Japão, 2024) e Chang′e 6 (China, 2024).\n\nUma sonda descreve, em torno da Lua, uma órbita circular de raio <i>r</i> = 1,848 × 10<sup>6</sup> m e dá uma volta completa num período <i>T</i> = 2,0 h. Nesse movimento circular uniforme, qual a velocidade escalar da sonda em relação ao centro da Lua?\nSe necessário, use π ≈ 3,0.\n\na) 256,6 m/s.\nb) 1540 m/s.\nc) 3696 km/s.\nd) 5544 km/s.",
+  "figuras": [],
+  "gabarito": "B",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. <i>T</i> = 2,0 h = 7200 s.\n2. <i>v</i> = 2π<i>r</i>/<i>T</i> = (2 · 3,0 · 1,848 × 10<sup>6</sup>)/7200 = 11,088 × 10<sup>6</sup>/7200 = 1540 m/s.",
+  "topicos": [
+    "movimento-circular-uniforme-mcu",
+    "satelites-orbitas-e-imponderabilidade"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-10-06T17:30:00.000Z",
+  "atualizadoEm": "2026-10-06T17:30:00.000Z"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "unicamp-2017-q65",
+  "banca": "Unicamp",
+  "ano": 2017,
+  "numero": "65",
+  "fase": "1ª fase",
+  "fonte": {
+    "descricao": "Comvest, Vestibular Unicamp 2017, 1ª fase, caderno de questões"
+  },
+  "enunciado": "Em uma animação do Tom e Jerry, o camundongo Jerry se assusta ao ver sua imagem em uma bola de Natal cuja superfície é refletora, como mostra a reprodução abaixo. É correto afirmar que o efeito mostrado na ilustração não ocorre na realidade, pois a bola de Natal formaria uma imagem\n[[figura 1]]\n(Adaptado de https://www.youtube.com/watch?v=RtZYfTr7D_o. Acessado em 25/10/2016.)\n\na) virtual ampliada.\nb) virtual reduzida.\nc) real ampliada.\nd) real reduzida.",
+  "figuras": [
+    "unicamp-2017-q65-1.png"
+  ],
+  "gabarito": "B",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. A face externa da bola é um espelho convexo.\n2. Espelho convexo forma, para objetos reais, imagem sempre virtual, direita e reduzida, ao contrário da imagem ampliada do desenho.",
+  "topicos": [
+    "espelhos-esfericos-equacao-de-gauss-e-aumento"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-10-07T11:30:00.000Z",
+  "atualizadoEm": "2026-10-07T11:30:00.000Z"
+}

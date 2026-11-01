@@ -1,0 +1,21 @@
+{
+  "id": "unicamp-2017-q57",
+  "banca": "Unicamp",
+  "ano": 2017,
+  "numero": "57",
+  "fase": "1ª fase",
+  "fonte": {
+    "descricao": "Comvest, Vestibular Unicamp 2017, 1ª fase, caderno de questões"
+  },
+  "enunciado": "Em 2016 foi batido o recorde de voo ininterrupto mais longo da história. O avião Solar Impulse 2, movido a energia solar, percorreu quase 6480 km em aproximadamente 5 dias, partindo de Nagoya no Japão até o Havaí nos Estados Unidos da América. A velocidade escalar média desenvolvida pelo avião foi de aproximadamente\n\na) 54 km/h.\nb) 15 km/h.\nc) 1296 km/h.\nd) 198 km/h.",
+  "figuras": [],
+  "gabarito": "A",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. Δ<i>t</i> = 5 dias = 120 h.\n2. <i>v</i><sub>m</sub> = 6480/120 = 54 km/h.",
+  "topicos": [
+    "velocidade-media-e-aceleracao-media"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-10-07T11:30:00.000Z",
+  "atualizadoEm": "2026-10-07T11:30:00.000Z"
+}

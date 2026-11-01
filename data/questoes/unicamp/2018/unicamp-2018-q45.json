@@ -1,0 +1,22 @@
+{
+  "id": "unicamp-2018-q45",
+  "banca": "Unicamp",
+  "ano": 2018,
+  "numero": "45",
+  "fase": "1ª fase",
+  "fonte": {
+    "descricao": "Comvest, Vestibular Unicamp 2018, 1ª fase, caderno de questões"
+  },
+  "enunciado": "<b>Sempre que necessário, use aceleração da gravidade g = 10 m/s<sup>2</sup>.</b>\n\nUm conjunto de placas de aquecimento solar eleva a temperatura da água de um reservatório de 500 litros de 20 <sup>o</sup>C para 47 <sup>o</sup>C em algumas horas. Se no lugar das placas solares fosse usada uma resistência elétrica, quanta energia elétrica seria consumida para produzir o mesmo aquecimento? Adote 1,0 kg/litro para a densidade e 4,0 kJ/(kg∙<sup>o</sup>C) para o calor específico da água. Além disso, use 1 kWh = 10<sup>3</sup> W x 3.600 s = 3,6 x 10<sup>6</sup> J.\n\na) 15 kWh.\nb) 26 kWh.\nc) 40.000 kWh.\nd) 54.000 kWh.",
+  "figuras": [],
+  "gabarito": "A",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. <i>m</i> = 500 kg; Δ<i>θ</i> = 27 °C.\n2. <i>Q</i> = <i>m c</i> Δ<i>θ</i> = 500 · 4,0 · 27 = 54 000 kJ = 5,4 × 10<sup>7</sup> J.\n3. Em kWh: 5,4 × 10<sup>7</sup>/3,6 × 10<sup>6</sup> = 15 kWh.",
+  "topicos": [
+    "calor-sensivel-e-capacidade-termica",
+    "energia-eletrica-e-consumo-kwh-conta-de-luz"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-10-07T11:30:00.000Z",
+  "atualizadoEm": "2026-10-07T11:30:00.000Z"
+}

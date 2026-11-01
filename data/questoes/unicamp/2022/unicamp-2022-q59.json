@@ -1,0 +1,23 @@
+{
+  "id": "unicamp-2022-q59",
+  "banca": "Unicamp",
+  "ano": 2022,
+  "numero": "59",
+  "fase": "1ª fase",
+  "fonte": {
+    "descricao": "Comvest, Vestibular Unicamp 2022, 1ª fase, caderno de questões"
+  },
+  "enunciado": "<b><i>Sempre que necessário aproxime π = 3.</i></b>\n\n<b><u>USE O TEXTO A SEGUIR PARA RESPONDER ÀS QUESTÕES 59 E 60.</u></b>\n\nEm abril de 2021 faleceu o astronauta norte-americano Michael Collins, integrante da missão Apolo 11, que levou o primeiro homem à Lua. Enquanto os dois outros astronautas da missão, Neil Armstrong e Buzz Aldrin, desceram até a superfície lunar, Collins permaneceu em órbita lunar pilotando o Módulo de Comando Columbia.\n\nA órbita do Columbia era aproximadamente circular, e o módulo da aceleração gravitacional na órbita era <i>g</i><sub>orb</sub> = 1,4 m/s<sup>2</sup>. A força resultante centrípeta é desempenhada pela força gravitacional exercida pela Lua, ou seja, <i>F</i>⃗<sub>cp</sub> = <i>m</i><sub>Columbia</sub> <i>g</i>⃗<sub>orb</sub>. Sendo o módulo da velocidade do Columbia <i>v</i> = 1600 m/s, qual foi aproximadamente o período <i>T</i> da órbita?\n\na) <i>T</i> = 20 min.\nb) <i>T</i> = 2,0 h.\nc) <i>T</i> = 3,0 h.\nd) <i>T</i> = 4,0 h.",
+  "figuras": [],
+  "gabarito": "B",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. Como a gravidade faz o papel de resultante centrípeta: <i>g</i><sub>orb</sub> = <i>v</i><sup>2</sup>/<i>R</i> ⇒ <i>R</i> = <i>v</i><sup>2</sup>/<i>g</i><sub>orb</sub> = (1600)<sup>2</sup>/1,4 ≈ 1,83 × 10<sup>6</sup> m.\n2. No MCU, <i>T</i> = 2π<i>R</i>/<i>v</i> = (2 · 3 · 1,83 × 10<sup>6</sup>)/1600 ≈ 6,9 × 10<sup>3</sup> s (π = 3, conforme a instrução da prova).\n3. 6,9 × 10<sup>3</sup> s ≈ 1,9 h ≈ 2,0 h.",
+  "topicos": [
+    "satelites-orbitas-e-imponderabilidade",
+    "resultante-centripeta-curvas-loop-globo-da-morte",
+    "periodo-frequencia-e-velocidade-angular"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-10-06T17:30:00.000Z",
+  "atualizadoEm": "2026-10-06T17:30:00.000Z"
+}

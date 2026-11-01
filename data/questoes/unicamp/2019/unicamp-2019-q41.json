@@ -1,0 +1,24 @@
+{
+  "id": "unicamp-2019-q41",
+  "banca": "Unicamp",
+  "ano": 2019,
+  "numero": "41",
+  "fase": "1ª fase",
+  "fonte": {
+    "descricao": "Comvest, Vestibular Unicamp 2019, 1ª fase, caderno de questões"
+  },
+  "enunciado": "<b>Nas questões seguintes, sempre que necessário, use aceleração da gravidade g = 10 m/s<sup>2</sup>, aproxime π = 3,0 e 1 atm =10<sup>5</sup> Pa.</b>\n\n<b>Texto comum às questões 40, 41 e 42</b>\n\nDrones vêm sendo utilizados por empresas americanas para monitorar o ambiente subaquático. Esses drones podem substituir mergulhadores, sendo capazes de realizar mergulhos de até cinquenta metros de profundidade e operar por até duas horas e meia.\n\nFrequentemente esses drones são usados para medir a temperatura da água (<i>T</i>) em função da profundidade (<i>d</i>), a partir da superfície (<i>d</i> = 0), como no caso ilustrado no gráfico a seguir (dados adaptados).\n[[figura 1]]\nConsidere que a densidade da água é <i>ρ</i>=1000 kg/m<sup>3</sup> e constante para todas as profundidades medidas pelo drone. Qual é a diferença de pressão hidrostática entre a superfície e uma profundidade para a qual a temperatura da água é <i>T</i>=19 <sup>o</sup>C?\n\na) 1,4 x 10<sup>3</sup> Pa.\nb) 2,0 x 10<sup>4</sup> Pa.\nc) 4,0 x 10<sup>4</sup> Pa.\nd) 7,0 x 10<sup>4</sup> Pa.",
+  "figuras": [
+    "unicamp-2019-q41-1.png"
+  ],
+  "gabarito": "D",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. Pelo gráfico, <i>T</i> = 19,00 °C ocorre em <i>d</i> = 7 m.\n2. Stevin: Δ<i>p</i> = <i>ρ g d</i> = 1000 · 10 · 7 = 7,0 × 10<sup>4</sup> Pa.",
+  "topicos": [
+    "teorema-de-stevin-pressao-hidrostatica",
+    "leitura-e-interpretacao-de-graficos"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-10-07T11:30:00.000Z",
+  "atualizadoEm": "2026-10-07T11:30:00.000Z"
+}

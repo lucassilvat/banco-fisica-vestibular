@@ -1,0 +1,21 @@
+{
+  "id": "unicamp-2019-q81",
+  "banca": "Unicamp",
+  "ano": 2019,
+  "numero": "81",
+  "fase": "1ª fase",
+  "fonte": {
+    "descricao": "Comvest, Vestibular Unicamp 2019, 1ª fase, caderno de questões"
+  },
+  "enunciado": "Antes de Copérnico, Kepler e Galileu, os cosmólogos elaboravam sistemas que representavam os corpos celestes por meio de esferas encaixadas umas nas outras, propostas e desenvolvidas por Eudoxo e Aristóteles, de modo a distinguir os mundos celeste e terrestre. É nesse contexto, caracterizado pela tese de que o cosmo é composto de dois mundos distintos (céu e Terra), e pelo axioma platônico, que deve ser entendido o conteúdo da carta de Kepler (1604). Ele apresenta uma etapa do processo de rompimento com essa distinção e com o axioma platônico. Na carta, Kepler apresenta os procedimentos para obter as duas primeiras leis dos movimentos planetários. A importância disso é tão grande que a segunda lei aparece antes da primeira, e a lei das áreas só se torna operante numa órbita elíptica, não podendo ser aplicada às órbitas circulares sem produzir discrepâncias com relação aos dados observacionais de Tycho Brahe.\n\n(Adaptado de Claudemir Roque Tossato, Os primórdios da primeira lei dos movimentos planetários na carta de 14 de dezembro de 1604 de Kepler a Mästlin. <i>Scientiae Studia</i>, São Paulo, v. 1, n. 2, p. 199-201, jun. 2003.)\n\nConsiderando o contexto histórico descrito e as leis físicas apresentadas por Kepler, assinale a alternativa correta.\n\na) Copérnico, Kepler e Galileu fazem parte da chamada Revolução Científica que rompe com leituras especulativas do Universo, baseadas em premissas aristotélicas e tomistas, e propõe análises empiristas do mundo natural. O conceito de órbitas circulares para o movimento dos planetas em torno do Sol, em que a distância entre o planeta e o Sol permanece constante durante o movimento, foi abandonado por Kepler.\nb) A Revolução Científica da época Moderna propõe a ruptura com o ideal divino, sendo, por isso, combatida pela Igreja Católica, que defendia a orquestração divina sobre o mundo humano e natural. O conceito de órbitas circulares para o movimento dos planetas em torno do Sol, em que a distância entre o planeta e o Sol é variável durante o movimento, foi abandonado por Kepler.\nc) Copérnico, Kepler e Galileu foram perseguidos pela Igreja Católica do período Moderno, por representarem o questionamento dos ideais medievais sobre a organização do céu e da Terra e sobre a onipresença divina. O conceito de órbitas circulares para o movimento dos planetas em torno do Sol, para as quais a distância entre o planeta e o Sol é variável durante o movimento, foi abandonado por Kepler.\nd) A Revolução Científica da época Moderna, incentivada pela Igreja Católica, propõe a manutenção do antropocentrismo medieval, associado aos conhecimentos empíricos para a leitura e representação do mundo natural. O conceito de órbitas circulares para o movimento dos planetas em torno do Sol, para as quais a distância entre o planeta e o Sol permanece constante durante o movimento, foi abandonado por Kepler.",
+  "figuras": [],
+  "gabarito": "A",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. Física: em uma órbita circular a distância planeta–Sol é constante. Kepler trocou as órbitas circulares por elípticas, nas quais essa distância varia (1ª lei), e a lei das áreas (2ª lei) só funciona com órbitas elípticas. Isso descarta b e c, que dizem que a distância na órbita circular é variável.\n2. História: a Revolução Científica rompe com as leituras especulativas de base aristotélica e tomista e valoriza a observação empírica. Ela não foi incentivada pela Igreja nem manteve o antropocentrismo medieval (descarta d).\n3. Alternativa a.",
+  "topicos": [
+    "leis-de-kepler"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-10-07T11:35:00.000Z",
+  "atualizadoEm": "2026-10-07T11:35:00.000Z"
+}

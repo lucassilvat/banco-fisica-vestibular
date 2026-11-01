@@ -1,0 +1,25 @@
+{
+  "id": "unicamp-2023-q35",
+  "banca": "Unicamp",
+  "ano": 2023,
+  "numero": "35",
+  "fase": "1ª fase · Prova Q",
+  "fonte": {
+    "descricao": "Comvest, Vestibular Unicamp 2023, 1ª fase, caderno de questões (prova Q)"
+  },
+  "enunciado": "Use os valores aproximados: <i>g</i> = 10 m/s<sup>2</sup> e π = 3.\n\nSabemos que correntes elétricas acima de um décimo de Ampère podem provocar paradas cardíacas. Imediatamente após um raio atingir o solo, o potencial elétrico na superfície diminui gradativamente em função da distância ao ponto de impacto, como ilustrado pelas curvas equipotenciais da figura. Sendo a resistência do corpo humano <i>R</i> = 80 kΩ, a corrente elétrica que atravessa o corpo da pessoa ilustrada na figura, com os dois pés em contato com o chão, será igual a\n[[figura 1]]\n\na) 0,800 A.\nb) 1,25 A.\nc) 10,0 A.\nd) 11,25 A.",
+  "figuras": [
+    "unicamp-2023-q35-1.png"
+  ],
+  "gabarito": "B",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. Na figura, os pés da pessoa estão sobre as equipotenciais de 900 kV e de 800 kV: a ddp entre os pés é <i>U</i> = 100 kV.\n2. Pela 1ª Lei de Ohm: <i>i</i> = <i>U</i>/<i>R</i> = 100 × 10<sup>3</sup> V / 80 × 10<sup>3</sup> Ω = 1,25 A.",
+  "topicos": [
+    "potencial-eletrico-e-diferenca-de-potencial",
+    "primeira-lei-de-ohm",
+    "choque-eletrico-e-seguranca"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-10-06T17:30:00.000Z",
+  "atualizadoEm": "2026-10-06T17:30:00.000Z"
+}

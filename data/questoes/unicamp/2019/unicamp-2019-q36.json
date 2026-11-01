@@ -1,0 +1,23 @@
+{
+  "id": "unicamp-2019-q36",
+  "banca": "Unicamp",
+  "ano": 2019,
+  "numero": "36",
+  "fase": "1ª fase",
+  "fonte": {
+    "descricao": "Comvest, Vestibular Unicamp 2019, 1ª fase, caderno de questões"
+  },
+  "enunciado": "[[figura 1]]\n*As setas da figura indicam somente a direção da movimentação das placas tectônicas.\n\n(Adaptado de J.F. Petersen, D. Sack e R. E. Glabler, <i>Fundamentos de Geografia Física</i>. São Paulo: Cengage, 2015, p. 277.)\n\nEventos sísmicos de grande magnitude causam imensos danos. As ondas sísmicas que se originam nesses eventos e que se propagam no interior da Terra são de dois tipos: longitudinais e transversais. A figura anterior representa um tipo de contato entre placas que dá origem a ondas sísmicas. Esse tipo de contato ocorre\n\na) na Califórnia (EUA), e as ondas longitudinais são aquelas em que a oscilação se dá na direção de propagação.\nb) nos Andes (Chile), e as ondas transversais são aquelas em que a oscilação se dá perpendicularmente à direção de propagação.\nc) na Califórnia (EUA), e as ondas longitudinais são aquelas em que a oscilação se dá perpendicularmente à direção de propagação.\nd) nos Andes (Chile), e as ondas transversais são aquelas em que a oscilação se dá na direção de propagação.",
+  "figuras": [
+    "unicamp-2019-q36-1.png"
+  ],
+  "gabarito": "A",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. Física: em ondas longitudinais a oscilação ocorre na direção de propagação; em ondas transversais, perpendicularmente a ela. Isso descarta c e d.\n2. Geografia: a figura mostra placas deslizando lateralmente uma em relação à outra (a cerca e o rio ficam deslocados), um limite transformante. É o caso da falha de San Andreas, na Califórnia. Nos Andes o contato é convergente (subducção).\n3. Alternativa a.",
+  "topicos": [
+    "ondas-classificacao-e-elementos"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-10-07T11:35:00.000Z",
+  "atualizadoEm": "2026-10-07T11:35:00.000Z"
+}

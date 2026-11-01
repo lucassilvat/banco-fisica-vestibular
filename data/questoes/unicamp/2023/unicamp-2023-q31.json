@@ -1,0 +1,22 @@
+{
+  "id": "unicamp-2023-q31",
+  "banca": "Unicamp",
+  "ano": 2023,
+  "numero": "31",
+  "fase": "1ª fase · Prova Q",
+  "fonte": {
+    "descricao": "Comvest, Vestibular Unicamp 2023, 1ª fase, caderno de questões (prova Q)"
+  },
+  "enunciado": "Use os valores aproximados: <i>g</i> = 10 m/s<sup>2</sup> e π = 3.\n\n<b>Leia o texto a seguir para responder às questões 30, 31 e 32.</b>\n\nO balonismo, um esporte aeronáutico com adeptos em todo o mundo, oferece um belo espetáculo para os observadores no solo. Um maçarico é usado para aquecer o ar no interior do balão, o que faz variar a densidade do ar, permitindo o controle do movimento de subida e descida do balão.\n\nA massa total de um balão em um movimento de descida, desde a altura inicial <i>h</i> = 80 m até o solo, é <i>m</i> = 2000 kg. Qual é o trabalho da força peso sobre o balão durante a descida?\n\na) 2,0 × 10<sup>4</sup> J.\nb) 1,6 × 10<sup>5</sup> J.\nc) 2,0 × 10<sup>5</sup> J.\nd) 1,6 × 10<sup>6</sup> J.",
+  "figuras": [],
+  "gabarito": "D",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. Na descida, o peso tem o mesmo sentido do deslocamento, então seu trabalho é positivo: τ<sub>P</sub> = <i>m g h</i>.\n2. τ<sub>P</sub> = 2000 · 10 · 80 = 1,6 × 10<sup>6</sup> J.",
+  "topicos": [
+    "trabalho-de-uma-forca",
+    "energia-potencial-gravitacional"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-10-06T17:30:00.000Z",
+  "atualizadoEm": "2026-10-06T17:30:00.000Z"
+}

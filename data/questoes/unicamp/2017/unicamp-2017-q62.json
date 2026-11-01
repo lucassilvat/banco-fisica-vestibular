@@ -1,0 +1,21 @@
+{
+  "id": "unicamp-2017-q62",
+  "banca": "Unicamp",
+  "ano": 2017,
+  "numero": "62",
+  "fase": "1ª fase",
+  "fonte": {
+    "descricao": "Comvest, Vestibular Unicamp 2017, 1ª fase, caderno de questões"
+  },
+  "enunciado": "A microfluídica é uma área de pesquisa que trabalha com a manipulação precisa de líquidos em canais com dimensões submilimétricas, chamados de microcanais, possibilitando o desenvolvimento de sistemas miniaturizados de análises químicas e biológicas. Considere que uma seringa com êmbolo cilíndrico de diâmetro D = 4 mm seja usada para injetar um líquido em um microcanal cilíndrico com diâmetro de d = 500 μm. Se o êmbolo for movido com uma velocidade de V = 4 mm/s, a velocidade v do líquido no microcanal será de\n\na) 256,0 mm/s.\nb) 32,0 mm/s.\nc) 62,5 μm/s.\nd) 500,0 μm/s.",
+  "figuras": [],
+  "gabarito": "A",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. Equação da continuidade: <i>A</i><sub>1</sub><i>V</i> = <i>A</i><sub>2</sub><i>v</i>, com <i>A</i> ∝ (diâmetro)<sup>2</sup>.\n2. <i>v</i> = <i>V</i> (<i>D</i>/<i>d</i>)<sup>2</sup> = 4 · (4/0,5)<sup>2</sup> = 4 · 64 = 256 mm/s.",
+  "topicos": [
+    "vazao-e-equacao-da-continuidade"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-10-07T11:30:00.000Z",
+  "atualizadoEm": "2026-10-07T11:30:00.000Z"
+}

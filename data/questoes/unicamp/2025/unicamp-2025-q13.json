@@ -1,0 +1,31 @@
+{
+  "id": "unicamp-2025-q13",
+  "banca": "Unicamp",
+  "ano": 2025,
+  "numero": "13",
+  "fase": "1ª fase · Prova Q",
+  "fonte": {
+    "descricao": "Comvest, Vestibular Unicamp 2025, 1ª fase, caderno de questões (prova Q)"
+  },
+  "enunciado": "<b>Texto comum às questões 13 e 14.</b>\n\nA energia solar desempenha papel substancial nas soluções energéticas de desenvolvimento sustentável: além de fazer uso de tecnologia pouco agressiva ao ambiente, é uma enorme fonte de energia renovável.\n\nOperando em condições ótimas, um painel solar gera energia elétrica numa potência <i>P</i> = 462 W, com uma diferença de potencial <i>U</i><sub>painel</sub> = 42 V nos seus terminais. Para que a energia gerada seja armazenada numa bateria de diferença de potencial <i>U</i><sub>bat</sub> = 12 V, usa-se um dispositivo que ajusta a diferença de potencial, dispositivo este chamado de controlador de carga (ver figura). Se, numa situação ideal, toda a energia gerada pelo painel é armazenada na bateria, quais os valores das correntes elétricas <i>i</i><sub>painel</sub> e <i>i</i><sub>bat</sub> nos terminais do painel e da bateria, respectivamente?\n[[figura 1]]\n\na) <i>i</i><sub>painel</sub> =11 A e <i>i</i><sub>bat</sub> = 38,5 A.\nb) <i>i</i><sub>painel</sub> =11 A e <i>i</i><sub>bat</sub> = 3,1 A.\nc) <i>i</i><sub>painel</sub> =134,75 A e <i>i</i><sub>bat</sub> = 38,5 A.\nd) <i>i</i><sub>painel</sub> =134,75 A e <i>i</i><sub>bat</sub> = 3,1 A.",
+  "figuras": [
+    "unicamp-2025-q13-1.png"
+  ],
+  "gabarito": "A",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. Potência elétrica: <i>P</i> = <i>U i</i> ⇒ <i>i</i> = <i>P</i>/<i>U</i>.\n2. No painel: <i>i</i><sub>painel</sub> = 462/42 = 11 A.\n3. Situação ideal: a mesma potência chega à bateria, então <i>i</i><sub>bat</sub> = 462/12 = 38,5 A.",
+  "topicos": [
+    "potencia-eletrica-e-efeito-joule",
+    "corrente-eletrica",
+    "transformadores"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-10-06T17:30:00.000Z",
+  "atualizadoEm": "2026-10-06T17:30:00.000Z",
+  "revisao": {
+    "divergenciasAceitas": [
+      "bat"
+    ],
+    "notas": "subscrito de U_bat / i_bat"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "id": "unicamp-2023-q30",
+  "banca": "Unicamp",
+  "ano": 2023,
+  "numero": "30",
+  "fase": "1ª fase · Prova Q",
+  "fonte": {
+    "descricao": "Comvest, Vestibular Unicamp 2023, 1ª fase, caderno de questões (prova Q)"
+  },
+  "enunciado": "Use os valores aproximados: <i>g</i> = 10 m/s<sup>2</sup> e π = 3.\n\n<b>Leia o texto a seguir para responder às questões 30, 31 e 32.</b>\n\nO balonismo, um esporte aeronáutico com adeptos em todo o mundo, oferece um belo espetáculo para os observadores no solo. Um maçarico é usado para aquecer o ar no interior do balão, o que faz variar a densidade do ar, permitindo o controle do movimento de subida e descida do balão.\n\nUm balão, inicialmente em repouso no solo, decola e sobe em movimento uniformemente variado. Se o balão atinge a altura <i>h</i> = 80 m após um tempo <i>t</i> = 40 s, conclui-se que a <u>aceleração vertical</u> do balão nesse movimento é igual a\n\na) 2,0 m/s<sup>2</sup>.\nb) 4,0 m/s<sup>2</sup>.\nc) 0,05 m/s<sup>2</sup>.\nd) 0,1 m/s<sup>2</sup>.",
+  "figuras": [],
+  "gabarito": "D",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. Partindo do repouso no MUV: <i>h</i> = <i>a t</i><sup>2</sup>/2.\n2. <i>a</i> = 2<i>h</i>/<i>t</i><sup>2</sup> = 2 · 80/40<sup>2</sup> = 160/1600 = 0,1 m/s<sup>2</sup>.",
+  "topicos": [
+    "movimento-retilineo-uniformemente-variado-mruv"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-10-06T17:30:00.000Z",
+  "atualizadoEm": "2026-10-06T17:30:00.000Z"
+}

@@ -1,0 +1,684 @@
+{
+  "versao": 1,
+  "areas": [
+    {
+      "area": "Fundamentos",
+      "topicos": [
+        {
+          "id": "grandezas-fisicas-e-sistema-internacional",
+          "nome": "Grandezas físicas e Sistema Internacional"
+        },
+        {
+          "id": "analise-dimensional",
+          "nome": "Análise dimensional"
+        },
+        {
+          "id": "notacao-cientifica-e-ordem-de-grandeza",
+          "nome": "Notação científica e ordem de grandeza"
+        },
+        {
+          "id": "vetores-soma-e-decomposicao",
+          "nome": "Vetores: soma e decomposição"
+        },
+        {
+          "id": "leitura-e-interpretacao-de-graficos",
+          "nome": "Leitura e interpretação de gráficos"
+        }
+      ]
+    },
+    {
+      "area": "Cinemática",
+      "topicos": [
+        {
+          "id": "velocidade-media-e-aceleracao-media",
+          "nome": "Velocidade média e aceleração média"
+        },
+        {
+          "id": "movimento-retilineo-uniforme-mru",
+          "nome": "Movimento retilíneo uniforme (MRU)"
+        },
+        {
+          "id": "movimento-retilineo-uniformemente-variado-mruv",
+          "nome": "Movimento retilíneo uniformemente variado (MRUV)"
+        },
+        {
+          "id": "graficos-do-movimento-s-t-v-t-a-t",
+          "nome": "Gráficos do movimento (s×t, v×t, a×t)"
+        },
+        {
+          "id": "queda-livre-e-lancamento-vertical",
+          "nome": "Queda livre e lançamento vertical"
+        },
+        {
+          "id": "lancamento-horizontal",
+          "nome": "Lançamento horizontal"
+        },
+        {
+          "id": "lancamento-obliquo",
+          "nome": "Lançamento oblíquo"
+        },
+        {
+          "id": "movimento-relativo-e-composicao-de-velocidades",
+          "nome": "Movimento relativo e composição de velocidades"
+        },
+        {
+          "id": "movimento-circular-uniforme-mcu",
+          "nome": "Movimento circular uniforme (MCU)"
+        },
+        {
+          "id": "periodo-frequencia-e-velocidade-angular",
+          "nome": "Período, frequência e velocidade angular"
+        },
+        {
+          "id": "transmissao-de-movimento-circular-polias-engrenagens-coroas",
+          "nome": "Transmissão de movimento circular (polias, engrenagens, coroas)"
+        },
+        {
+          "id": "aceleracao-centripeta",
+          "nome": "Aceleração centrípeta"
+        }
+      ]
+    },
+    {
+      "area": "Dinâmica",
+      "topicos": [
+        {
+          "id": "leis-de-newton",
+          "nome": "Leis de Newton"
+        },
+        {
+          "id": "forca-peso-e-forca-normal",
+          "nome": "Força peso e força normal"
+        },
+        {
+          "id": "forca-de-atrito-estatico-e-cinetico",
+          "nome": "Força de atrito estático e cinético"
+        },
+        {
+          "id": "plano-inclinado",
+          "nome": "Plano inclinado"
+        },
+        {
+          "id": "forca-elastica-lei-de-hooke",
+          "nome": "Força elástica (Lei de Hooke)"
+        },
+        {
+          "id": "sistemas-de-blocos-fios-e-polias",
+          "nome": "Sistemas de blocos, fios e polias"
+        },
+        {
+          "id": "resultante-centripeta-curvas-loop-globo-da-morte",
+          "nome": "Resultante centrípeta (curvas, loop, globo da morte)"
+        },
+        {
+          "id": "referenciais-nao-inerciais-e-elevadores",
+          "nome": "Referenciais não inerciais e elevadores"
+        },
+        {
+          "id": "forca-de-arrasto-e-velocidade-terminal",
+          "nome": "Força de arrasto e velocidade terminal"
+        }
+      ]
+    },
+    {
+      "area": "Energia e momento",
+      "topicos": [
+        {
+          "id": "trabalho-de-uma-forca",
+          "nome": "Trabalho de uma força"
+        },
+        {
+          "id": "potencia-e-rendimento",
+          "nome": "Potência e rendimento"
+        },
+        {
+          "id": "energia-cinetica-e-teorema-trabalho-energia",
+          "nome": "Energia cinética e teorema trabalho-energia"
+        },
+        {
+          "id": "energia-potencial-gravitacional",
+          "nome": "Energia potencial gravitacional"
+        },
+        {
+          "id": "energia-potencial-elastica",
+          "nome": "Energia potencial elástica"
+        },
+        {
+          "id": "conservacao-da-energia-mecanica",
+          "nome": "Conservação da energia mecânica"
+        },
+        {
+          "id": "sistemas-dissipativos-perda-de-energia-mecanica",
+          "nome": "Sistemas dissipativos (perda de energia mecânica)"
+        },
+        {
+          "id": "impulso-e-quantidade-de-movimento",
+          "nome": "Impulso e quantidade de movimento"
+        },
+        {
+          "id": "conservacao-da-quantidade-de-movimento",
+          "nome": "Conservação da quantidade de movimento"
+        },
+        {
+          "id": "colisoes-elasticas-e-inelasticas",
+          "nome": "Colisões elásticas e inelásticas"
+        },
+        {
+          "id": "centro-de-massa",
+          "nome": "Centro de massa"
+        }
+      ]
+    },
+    {
+      "area": "Gravitação",
+      "topicos": [
+        {
+          "id": "lei-da-gravitacao-universal",
+          "nome": "Lei da gravitação universal"
+        },
+        {
+          "id": "leis-de-kepler",
+          "nome": "Leis de Kepler"
+        },
+        {
+          "id": "satelites-orbitas-e-imponderabilidade",
+          "nome": "Satélites, órbitas e imponderabilidade"
+        },
+        {
+          "id": "aceleracao-da-gravidade-e-altitude",
+          "nome": "Aceleração da gravidade e altitude"
+        }
+      ]
+    },
+    {
+      "area": "Estática",
+      "topicos": [
+        {
+          "id": "equilibrio-do-ponto-material",
+          "nome": "Equilíbrio do ponto material"
+        },
+        {
+          "id": "momento-de-uma-forca-torque",
+          "nome": "Momento de uma força (torque)"
+        },
+        {
+          "id": "equilibrio-do-corpo-extenso",
+          "nome": "Equilíbrio do corpo extenso"
+        },
+        {
+          "id": "alavancas-e-maquinas-simples",
+          "nome": "Alavancas e máquinas simples"
+        }
+      ]
+    },
+    {
+      "area": "Fluidos",
+      "topicos": [
+        {
+          "id": "densidade-e-massa-especifica",
+          "nome": "Densidade e massa específica"
+        },
+        {
+          "id": "pressao",
+          "nome": "Pressão"
+        },
+        {
+          "id": "pressao-atmosferica-e-experimento-de-torricelli",
+          "nome": "Pressão atmosférica e Experimento de Torricelli"
+        },
+        {
+          "id": "teorema-de-stevin-pressao-hidrostatica",
+          "nome": "Teorema de Stevin (pressão hidrostática)"
+        },
+        {
+          "id": "vasos-comunicantes",
+          "nome": "Vasos comunicantes"
+        },
+        {
+          "id": "principio-de-pascal-e-prensa-hidraulica",
+          "nome": "Princípio de Pascal e prensa hidráulica"
+        },
+        {
+          "id": "empuxo-e-principio-de-arquimedes",
+          "nome": "Empuxo e Princípio de Arquimedes"
+        },
+        {
+          "id": "vazao-e-equacao-da-continuidade",
+          "nome": "Vazão e equação da continuidade"
+        },
+        {
+          "id": "equacao-de-bernoulli",
+          "nome": "Equação de Bernoulli"
+        }
+      ]
+    },
+    {
+      "area": "Termologia",
+      "topicos": [
+        {
+          "id": "temperatura-e-escalas-termometricas",
+          "nome": "Temperatura e escalas termométricas"
+        },
+        {
+          "id": "dilatacao-termica-dos-solidos",
+          "nome": "Dilatação térmica dos sólidos"
+        },
+        {
+          "id": "dilatacao-dos-liquidos-e-comportamento-anomalo-da-agua",
+          "nome": "Dilatação dos líquidos e comportamento anômalo da água"
+        },
+        {
+          "id": "calor-sensivel-e-capacidade-termica",
+          "nome": "Calor sensível e capacidade térmica"
+        },
+        {
+          "id": "calor-latente-e-mudancas-de-fase",
+          "nome": "Calor latente e mudanças de fase"
+        },
+        {
+          "id": "trocas-de-calor-e-equilibrio-termico-calorimetro",
+          "nome": "Trocas de calor e equilíbrio térmico (calorímetro)"
+        },
+        {
+          "id": "diagramas-de-fase",
+          "nome": "Diagramas de fase"
+        },
+        {
+          "id": "conducao-termica-lei-de-fourier",
+          "nome": "Condução térmica (Lei de Fourier)"
+        },
+        {
+          "id": "conveccao-e-irradiacao-termica",
+          "nome": "Convecção e irradiação térmica"
+        },
+        {
+          "id": "efeito-estufa-e-balanco-energetico",
+          "nome": "Efeito estufa e balanço energético"
+        }
+      ]
+    },
+    {
+      "area": "Termodinâmica",
+      "topicos": [
+        {
+          "id": "gas-ideal-e-equacao-de-clapeyron",
+          "nome": "Gás ideal e equação de Clapeyron"
+        },
+        {
+          "id": "transformacoes-gasosas-isotermica-isobarica-isocorica-adiabatica",
+          "nome": "Transformações gasosas (isotérmica, isobárica, isocórica, adiabática)"
+        },
+        {
+          "id": "trabalho-em-transformacao-gasosa-grafico-p-v",
+          "nome": "Trabalho em transformação gasosa (gráfico p×V)"
+        },
+        {
+          "id": "energia-interna",
+          "nome": "Energia interna"
+        },
+        {
+          "id": "primeira-lei-da-termodinamica",
+          "nome": "Primeira lei da termodinâmica"
+        },
+        {
+          "id": "maquinas-termicas-e-rendimento",
+          "nome": "Máquinas térmicas e rendimento"
+        },
+        {
+          "id": "ciclo-de-carnot",
+          "nome": "Ciclo de Carnot"
+        },
+        {
+          "id": "segunda-lei-da-termodinamica-e-entropia",
+          "nome": "Segunda lei da termodinâmica e entropia"
+        },
+        {
+          "id": "refrigeradores",
+          "nome": "Refrigeradores"
+        }
+      ]
+    },
+    {
+      "area": "Óptica geométrica",
+      "topicos": [
+        {
+          "id": "principios-da-optica-geometrica-sombra-penumbra-eclipses",
+          "nome": "Princípios da óptica geométrica (sombra, penumbra, eclipses)"
+        },
+        {
+          "id": "camara-escura-de-orificio",
+          "nome": "Câmara escura de orifício"
+        },
+        {
+          "id": "reflexao-da-luz-e-espelhos-planos",
+          "nome": "Reflexão da luz e espelhos planos"
+        },
+        {
+          "id": "espelhos-esfericos-equacao-de-gauss-e-aumento",
+          "nome": "Espelhos esféricos (equação de Gauss e aumento)"
+        },
+        {
+          "id": "refracao-da-luz-e-indice-de-refracao",
+          "nome": "Refração da luz e índice de refração"
+        },
+        {
+          "id": "lei-de-snell-descartes",
+          "nome": "Lei de Snell-Descartes"
+        },
+        {
+          "id": "reflexao-total-e-fibra-optica",
+          "nome": "Reflexão total e fibra óptica"
+        },
+        {
+          "id": "dioptro-plano-profundidade-aparente",
+          "nome": "Dioptro plano (profundidade aparente)"
+        },
+        {
+          "id": "prismas-e-dispersao-da-luz",
+          "nome": "Prismas e dispersão da luz"
+        },
+        {
+          "id": "lentes-esfericas-vergencia-gauss-aumento",
+          "nome": "Lentes esféricas (vergência, Gauss, aumento)"
+        },
+        {
+          "id": "optica-da-visao-e-defeitos-visuais",
+          "nome": "Óptica da visão e defeitos visuais"
+        },
+        {
+          "id": "instrumentos-opticos-lupa-microscopio-luneta",
+          "nome": "Instrumentos ópticos (lupa, microscópio, luneta)"
+        },
+        {
+          "id": "cor-dos-objetos",
+          "nome": "Cor dos objetos"
+        }
+      ]
+    },
+    {
+      "area": "Ondulatória",
+      "topicos": [
+        {
+          "id": "movimento-harmonico-simples-mhs",
+          "nome": "Movimento harmônico simples (MHS)"
+        },
+        {
+          "id": "sistema-massa-mola",
+          "nome": "Sistema massa-mola"
+        },
+        {
+          "id": "pendulo-simples",
+          "nome": "Pêndulo simples"
+        },
+        {
+          "id": "ondas-classificacao-e-elementos",
+          "nome": "Ondas: classificação e elementos"
+        },
+        {
+          "id": "equacao-fundamental-da-ondulatoria-v-f",
+          "nome": "Equação fundamental da ondulatória (v = λf)"
+        },
+        {
+          "id": "velocidade-de-onda-em-cordas-taylor",
+          "nome": "Velocidade de onda em cordas (Taylor)"
+        },
+        {
+          "id": "reflexao-e-refracao-de-ondas",
+          "nome": "Reflexão e refração de ondas"
+        },
+        {
+          "id": "interferencia",
+          "nome": "Interferência"
+        },
+        {
+          "id": "difracao",
+          "nome": "Difração"
+        },
+        {
+          "id": "ressonancia",
+          "nome": "Ressonância"
+        },
+        {
+          "id": "ondas-estacionarias-e-cordas-vibrantes",
+          "nome": "Ondas estacionárias e cordas vibrantes"
+        },
+        {
+          "id": "tubos-sonoros",
+          "nome": "Tubos sonoros"
+        },
+        {
+          "id": "som-altura-intensidade-e-timbre",
+          "nome": "Som: altura, intensidade e timbre"
+        },
+        {
+          "id": "nivel-sonoro-decibeis",
+          "nome": "Nível sonoro (decibéis)"
+        },
+        {
+          "id": "efeito-doppler",
+          "nome": "Efeito Doppler"
+        },
+        {
+          "id": "espectro-eletromagnetico",
+          "nome": "Espectro eletromagnético"
+        },
+        {
+          "id": "polarizacao",
+          "nome": "Polarização"
+        }
+      ]
+    },
+    {
+      "area": "Eletrostática",
+      "topicos": [
+        {
+          "id": "carga-eletrica-e-processos-de-eletrizacao",
+          "nome": "Carga elétrica e processos de eletrização"
+        },
+        {
+          "id": "lei-de-coulomb",
+          "nome": "Lei de Coulomb"
+        },
+        {
+          "id": "campo-eletrico",
+          "nome": "Campo elétrico"
+        },
+        {
+          "id": "linhas-de-campo-e-campo-eletrico-uniforme",
+          "nome": "Linhas de campo e campo elétrico uniforme"
+        },
+        {
+          "id": "potencial-eletrico-e-diferenca-de-potencial",
+          "nome": "Potencial elétrico e diferença de potencial"
+        },
+        {
+          "id": "trabalho-da-forca-eletrica-e-energia-potencial-eletrica",
+          "nome": "Trabalho da força elétrica e energia potencial elétrica"
+        },
+        {
+          "id": "condutores-em-equilibrio-eletrostatico-e-blindagem",
+          "nome": "Condutores em equilíbrio eletrostático e blindagem"
+        },
+        {
+          "id": "poder-das-pontas-e-para-raios",
+          "nome": "Poder das pontas e para-raios"
+        },
+        {
+          "id": "capacitores-e-capacitancia",
+          "nome": "Capacitores e capacitância"
+        },
+        {
+          "id": "associacao-de-capacitores",
+          "nome": "Associação de capacitores"
+        }
+      ]
+    },
+    {
+      "area": "Eletrodinâmica",
+      "topicos": [
+        {
+          "id": "corrente-eletrica",
+          "nome": "Corrente elétrica"
+        },
+        {
+          "id": "primeira-lei-de-ohm",
+          "nome": "Primeira lei de Ohm"
+        },
+        {
+          "id": "segunda-lei-de-ohm-e-resistividade",
+          "nome": "Segunda lei de Ohm e resistividade"
+        },
+        {
+          "id": "associacao-de-resistores",
+          "nome": "Associação de resistores"
+        },
+        {
+          "id": "potencia-eletrica-e-efeito-joule",
+          "nome": "Potência elétrica e efeito Joule"
+        },
+        {
+          "id": "energia-eletrica-e-consumo-kwh-conta-de-luz",
+          "nome": "Energia elétrica e consumo (kWh, conta de luz)"
+        },
+        {
+          "id": "geradores-eletricos-fem-e-resistencia-interna",
+          "nome": "Geradores elétricos (fem e resistência interna)"
+        },
+        {
+          "id": "receptores-eletricos",
+          "nome": "Receptores elétricos"
+        },
+        {
+          "id": "leis-de-kirchhoff",
+          "nome": "Leis de Kirchhoff"
+        },
+        {
+          "id": "amperimetro-voltimetro-e-ponte-de-wheatstone",
+          "nome": "Amperímetro, voltímetro e ponte de Wheatstone"
+        },
+        {
+          "id": "instalacoes-eletricas-residenciais-fusiveis-e-disjuntores",
+          "nome": "Instalações elétricas residenciais, fusíveis e disjuntores"
+        },
+        {
+          "id": "choque-eletrico-e-seguranca",
+          "nome": "Choque elétrico e segurança"
+        }
+      ]
+    },
+    {
+      "area": "Eletromagnetismo",
+      "topicos": [
+        {
+          "id": "imas-e-campo-magnetico",
+          "nome": "Ímãs e campo magnético"
+        },
+        {
+          "id": "campo-magnetico-terrestre-e-bussola",
+          "nome": "Campo magnético terrestre e bússola"
+        },
+        {
+          "id": "campo-magnetico-de-fio-retilineo",
+          "nome": "Campo magnético de fio retilíneo"
+        },
+        {
+          "id": "campo-magnetico-de-espira-e-solenoide",
+          "nome": "Campo magnético de espira e solenoide"
+        },
+        {
+          "id": "forca-magnetica-sobre-carga-em-movimento",
+          "nome": "Força magnética sobre carga em movimento"
+        },
+        {
+          "id": "movimento-de-carga-em-campo-magnetico-uniforme",
+          "nome": "Movimento de carga em campo magnético uniforme"
+        },
+        {
+          "id": "forca-magnetica-sobre-condutor-retilineo",
+          "nome": "Força magnética sobre condutor retilíneo"
+        },
+        {
+          "id": "forca-entre-fios-paralelos",
+          "nome": "Força entre fios paralelos"
+        },
+        {
+          "id": "fluxo-magnetico",
+          "nome": "Fluxo magnético"
+        },
+        {
+          "id": "inducao-eletromagnetica-lei-de-faraday",
+          "nome": "Indução eletromagnética (Lei de Faraday)"
+        },
+        {
+          "id": "lei-de-lenz",
+          "nome": "Lei de Lenz"
+        },
+        {
+          "id": "transformadores",
+          "nome": "Transformadores"
+        },
+        {
+          "id": "geradores-e-motores-eletricos",
+          "nome": "Geradores e motores elétricos"
+        },
+        {
+          "id": "usinas-e-geracao-de-energia-eletrica",
+          "nome": "Usinas e geração de energia elétrica"
+        }
+      ]
+    },
+    {
+      "area": "Física moderna",
+      "topicos": [
+        {
+          "id": "relatividade-restrita-dilatacao-do-tempo-contracao-do-espaco",
+          "nome": "Relatividade restrita (dilatação do tempo, contração do espaço)"
+        },
+        {
+          "id": "equivalencia-massa-energia-e-mc",
+          "nome": "Equivalência massa-energia (E = mc²)"
+        },
+        {
+          "id": "radiacao-de-corpo-negro-e-quantizacao",
+          "nome": "Radiação de corpo negro e quantização"
+        },
+        {
+          "id": "efeito-fotoeletrico",
+          "nome": "Efeito fotoelétrico"
+        },
+        {
+          "id": "fotons-e-energia-do-foton-e-hf",
+          "nome": "Fótons e energia do fóton (E = hf)"
+        },
+        {
+          "id": "dualidade-onda-particula-de-broglie",
+          "nome": "Dualidade onda-partícula (de Broglie)"
+        },
+        {
+          "id": "modelos-atomicos-e-modelo-de-bohr",
+          "nome": "Modelos atômicos e modelo de Bohr"
+        },
+        {
+          "id": "espectros-de-emissao-e-absorcao",
+          "nome": "Espectros de emissão e absorção"
+        },
+        {
+          "id": "radioatividade-e-decaimento",
+          "nome": "Radioatividade e decaimento"
+        },
+        {
+          "id": "meia-vida",
+          "nome": "Meia-vida"
+        },
+        {
+          "id": "fissao-e-fusao-nuclear",
+          "nome": "Fissão e fusão nuclear"
+        },
+        {
+          "id": "semicondutores-led-e-laser",
+          "nome": "Semicondutores, LED e laser"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "id": "unicamp-2025-q12",
+  "banca": "Unicamp",
+  "ano": 2025,
+  "numero": "12",
+  "fase": "1ª fase · Prova Q",
+  "fonte": {
+    "descricao": "Comvest, Vestibular Unicamp 2025, 1ª fase, caderno de questões (prova Q)"
+  },
+  "enunciado": "Pesquisas recentes demonstraram que alguns compostos, como o ZnW<sub>2</sub>O<sub>8</sub>, apresentam coeficiente de dilatação térmica linear ( <i>α</i> ) negativo, diferentemente da maioria dos materiais, que se expandem com o aquecimento. O gráfico a seguir ilustra a variação, em função da temperatura, do comprimento <i>L</i> de uma barra dessa classe de materiais.\n[[figura 1]]\nConsiderando que o coeficiente de dilatação <i>α</i> seja aproximadamente constante no intervalo de temperatura entre 0<sup>o</sup> C e 50<sup>o</sup> C , pode-se dizer que o valor de <i>α</i> nesse intervalo é igual a\n\na) – 1,0×10<sup>–7</sup> <sup>o</sup>C<sup>–1</sup>.\nb) – 5,0×10<sup>–6</sup> <sup>o</sup>C<sup>–1</sup>.\nc) – 2,5×10<sup>–4</sup> <sup>o</sup>C<sup>–1</sup>.\nd) – 4,0×10<sup>–2</sup> <sup>o</sup>C<sup>–1</sup>.",
+  "figuras": [
+    "unicamp-2025-q12-1.png"
+  ],
+  "gabarito": "B",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. Do gráfico: em 0 °C, <i>L</i><sub>0</sub> = 2,0000 mm; em 50 °C, <i>L</i> = 1,9995 mm. Logo Δ<i>L</i> = −0,0005 mm.\n2. Dilatação linear: Δ<i>L</i> = <i>L</i><sub>0</sub> <i>α</i> Δ<i>θ</i> ⇒ <i>α</i> = Δ<i>L</i>/(<i>L</i><sub>0</sub> Δ<i>θ</i>).\n3. <i>α</i> = −0,0005/(2,0000 · 50) = −5,0 × 10<sup>−6</sup> °C<sup>−1</sup>.",
+  "topicos": [
+    "dilatacao-termica-dos-solidos",
+    "leitura-e-interpretacao-de-graficos"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-10-06T17:30:00.000Z",
+  "atualizadoEm": "2026-10-06T17:30:00.000Z"
+}

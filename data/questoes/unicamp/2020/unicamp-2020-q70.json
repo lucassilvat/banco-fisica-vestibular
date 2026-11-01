@@ -1,0 +1,28 @@
+{
+  "id": "unicamp-2020-q70",
+  "banca": "Unicamp",
+  "ano": 2020,
+  "numero": "70",
+  "fase": "1ª fase",
+  "fonte": {
+    "descricao": "Comvest, Vestibular Unicamp 2020, 1ª fase, caderno de questões"
+  },
+  "enunciado": "<b>Obs.: para as questões de 70 a 79, aproxime π = 3,0 sempre que necessário.</b>\n\nA volta da França é uma das maiores competições do ciclismo mundial. Num treino, um ciclista entra num circuito reto e horizontal (movimento em uma dimensão) com velocidade constante e positiva. No instante <i>t</i><sub>1</sub>, ele acelera sua bicicleta com uma aceleração constante e positiva até o instante <i>t</i><sub>2</sub>. Entre <i>t</i><sub>2</sub> e <i>t</i><sub>3</sub>, ele varia sua velocidade com uma aceleração também constante, porém negativa. Ao final do percurso, a partir do instante <i>t</i><sub>3</sub>, ele se mantém em movimento retilíneo uniforme. De acordo com essas informações, o gráfico que melhor descreve a velocidade do atleta em função do tempo é\n\na)\n[[figura 1]]\nb)\n[[figura 2]]\nc)\n[[figura 3]]\nd)\n[[figura 4]]",
+  "figuras": [
+    "unicamp-2020-q70-1.png",
+    "unicamp-2020-q70-2.png",
+    "unicamp-2020-q70-3.png",
+    "unicamp-2020-q70-4.png"
+  ],
+  "gabarito": "A",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. De 0 a <i>t</i><sub>1</sub>: velocidade constante e positiva ⇒ segmento horizontal acima de zero.\n2. De <i>t</i><sub>1</sub> a <i>t</i><sub>2</sub>: aceleração positiva constante ⇒ reta crescente.\n3. De <i>t</i><sub>2</sub> a <i>t</i><sub>3</sub>: aceleração negativa constante ⇒ reta decrescente.\n4. Depois de <i>t</i><sub>3</sub>: MRU ⇒ segmento horizontal.\nSó o gráfico a) tem essa sequência.",
+  "topicos": [
+    "graficos-do-movimento-s-t-v-t-a-t",
+    "movimento-retilineo-uniformemente-variado-mruv",
+    "movimento-retilineo-uniforme-mru"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-10-07T11:30:00.000Z",
+  "atualizadoEm": "2026-10-07T11:30:00.000Z"
+}

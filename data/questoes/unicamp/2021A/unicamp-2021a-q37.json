@@ -1,0 +1,23 @@
+{
+  "id": "unicamp-2021a-q37",
+  "banca": "Unicamp",
+  "ano": 2021,
+  "versao": "A",
+  "numero": "37",
+  "fase": "1ª fase · Exatas e Tecnológicas / Humanas e Artes",
+  "fonte": {
+    "descricao": "Comvest, Vestibular Unicamp 2021, 1ª fase, Conhecimentos Gerais – Exatas e Tecnológicas / Humanas e Artes (provas E e G)"
+  },
+  "enunciado": "Nas questões de 33 a 40, sempre que necessário, use π = 3 e <i>g</i> = 10 m/s<sup>2</sup>.\n\nEm fevereiro de 2020, a estação meteorológica de Key West, na Flórida (EUA), registrou uma revoada de pássaros migrantes que se assemelhava a uma grande tempestade. Considere uma nuvem de pássaros de forma cilíndrica, de raio <i>R</i><sub>0</sub> = 145000 m e altura <i>h</i> = 100 m, e densidade de pássaros <i>d<sub>p</sub></i> = 6,0×10<sup>−7</sup> pássaros/m<sup>3</sup>. Suponha ainda que cada pássaro tenha massa <i>m<sub>p</sub></i> = 0,5 kg e velocidade <i>v</i><sub>0</sub> = 20 m/s, todos voando na mesma direção e sentido. Assim, a energia cinética da revoada de pássaros é igual a\n\na) 3,8×10<sup>8</sup> J.\nb) 1,9×10<sup>7</sup> J.\nc) 5,2×10<sup>3</sup> J.\nd) 1,3×10<sup>1</sup> J.",
+  "figuras": [],
+  "gabarito": "A",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. Volume da nuvem: <i>V</i> = π<i>R</i><sub>0</sub><sup>2</sup><i>h</i> = 3 · (1,45 × 10<sup>5</sup>)<sup>2</sup> · 100 ≈ 6,3 × 10<sup>12</sup> m<sup>3</sup>.\n2. Número de pássaros: <i>N</i> = <i>d</i><sub>p</sub><i>V</i> ≈ 6,0 × 10<sup>−7</sup> · 6,3 × 10<sup>12</sup> ≈ 3,8 × 10<sup>6</sup>.\n3. <i>E</i><sub>c</sub> = <i>N m</i><sub>p</sub><i>v</i><sub>0</sub><sup>2</sup>/2 ≈ 3,8 × 10<sup>6</sup> · 0,5 · 400/2 ≈ 3,8 × 10<sup>8</sup> J.",
+  "topicos": [
+    "energia-cinetica-e-teorema-trabalho-energia",
+    "notacao-cientifica-e-ordem-de-grandeza"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-10-07T11:30:00.000Z",
+  "atualizadoEm": "2026-10-07T11:30:00.000Z"
+}

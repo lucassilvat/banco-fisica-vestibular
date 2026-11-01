@@ -1,0 +1,22 @@
+{
+  "id": "unicamp-2025-q11",
+  "banca": "Unicamp",
+  "ano": 2025,
+  "numero": "11",
+  "fase": "1ª fase · Prova Q",
+  "fonte": {
+    "descricao": "Comvest, Vestibular Unicamp 2025, 1ª fase, caderno de questões (prova Q)"
+  },
+  "enunciado": "O projeto internacional DUNE (<i>Deep Underground Neutrino Experiment</i>) é um gigantesco experimento idealizado para o estudo de neutrinos. Para a detecção da luz emitida quando os neutrinos atravessam enormes tanques de argônio líquido, foi projetado na Unicamp um dispositivo chamado Arapuca, cuja função é aumentar a área de coleta da luz, confinando-a no interior de uma caixa que contém os sensores. Antes de entrar na Arapuca, a luz emitida, de comprimento de onda <i>λ</i><sub>1</sub> = 128 nm, incide num material que tem por finalidade modificar o comprimento de onda da radiação, de modo que, ao emergir desse material, o novo comprimento de onda da luz passe a ser <i>λ</i><sub>2</sub> = 350 nm. Considere que, nessa etapa do experimento, ambos os feixes luminosos de comprimentos de onda <i>λ</i><sub>1</sub> e <i>λ</i><sub>2</sub> <u>propagam-se no mesmo meio</u>. Sendo <i>f</i><sub>1</sub> a frequência e <i>v</i><sub>1</sub> a velocidade da luz no comprimento de onda <i>λ</i><sub>1</sub>, e <i>f</i><sub>2</sub> a frequência e <i>v</i><sub>2</sub> a velocidade da luz no comprimento de onda <i>λ</i><sub>2</sub>, pode-se afirmar que\n\na) a frequência <i>f</i><sub>2</sub> é maior que a frequência <i>f</i><sub>1</sub>; a velocidade <i>v</i><sub>2</sub> é igual à velocidade <i>v</i><sub>1</sub>.\nb) a frequência <i>f</i><sub>2</sub> é menor que a frequência <i>f</i><sub>1</sub>; a velocidade <i>v</i><sub>2</sub> é igual à velocidade <i>v</i><sub>1</sub>.\nc) a frequência <i>f</i><sub>2</sub> é igual à frequência <i>f</i><sub>1</sub>; a velocidade <i>v</i><sub>2</sub> é maior que a velocidade <i>v</i><sub>1</sub>.\nd) a frequência <i>f</i><sub>2</sub> é igual à frequência <i>f</i><sub>1</sub>; a velocidade <i>v</i><sub>2</sub> é menor que a velocidade <i>v</i><sub>1</sub>.",
+  "figuras": [],
+  "gabarito": "B",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. Os dois feixes se propagam no mesmo meio, então têm a mesma velocidade: <i>v</i><sub>2</sub> = <i>v</i><sub>1</sub> (descarta c e d).\n2. Pela equação fundamental, <i>f</i> = <i>v</i>/<i>λ</i>: com a mesma velocidade, o maior comprimento de onda tem a menor frequência.\n3. Como <i>λ</i><sub>2</sub> = 350 nm > <i>λ</i><sub>1</sub> = 128 nm, temos <i>f</i><sub>2</sub> < <i>f</i><sub>1</sub>.",
+  "topicos": [
+    "equacao-fundamental-da-ondulatoria-v-f",
+    "espectro-eletromagnetico"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-10-06T17:30:00.000Z",
+  "atualizadoEm": "2026-10-06T17:30:00.000Z"
+}

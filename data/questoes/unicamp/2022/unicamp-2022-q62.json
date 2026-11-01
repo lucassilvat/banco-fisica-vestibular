@@ -1,0 +1,25 @@
+{
+  "id": "unicamp-2022-q62",
+  "banca": "Unicamp",
+  "ano": 2022,
+  "numero": "62",
+  "fase": "1ª fase",
+  "fonte": {
+    "descricao": "Comvest, Vestibular Unicamp 2022, 1ª fase, caderno de questões"
+  },
+  "enunciado": "<b><i>Sempre que necessário aproxime π = 3.</i></b>\n\nA autoclave, um equipamento de esterilização de objetos por meio de vapor de água em alta temperatura e pressão, foi inventada por Charles Chamberland, a pedido de Louis Pasteur. A figura a seguir mostra a curva da pressão máxima de vapor da água em função da temperatura. Para temperaturas e pressões do lado esquerdo da curva, a água encontra-se na fase líquida; do lado direito, a água está na fase de vapor. Nos pontos sobre a curva, as fases líquida e de vapor coexistem. A pressão de funcionamento de uma determinada autoclave é <i>p</i> = 3,0 atm. Se toda a água está na fase de vapor, o que se pode dizer sobre a sua temperatura <i>θ</i>?\n\nDado: 1,0 atm = 100 kPa.\n[[figura 1]]\n\na) <i>θ</i> pode ter qualquer valor maior que 100 <sup>0</sup>C.\nb) <i>θ</i> pode ter qualquer valor maior que 100 <sup>0</sup>C e menor que 133 <sup>0</sup>C.\nc) <i>θ</i> pode ter qualquer valor menor que 100 <sup>0</sup>C ou maior que 133 <sup>0</sup>C.\nd) <i>θ</i> pode ter qualquer valor maior que 133 <sup>0</sup>C.",
+  "figuras": [
+    "unicamp-2022-q62-1.png"
+  ],
+  "gabarito": "D",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. Converta a pressão: <i>p</i> = 3,0 atm = 300 kPa.\n2. No gráfico, a curva passa por 300 kPa em aproximadamente 133 °C.\n3. Para essa pressão, a fase de vapor fica à direita da curva, isto é, em temperaturas maiores: <i>θ</i> > 133 °C.",
+  "topicos": [
+    "diagramas-de-fase",
+    "pressao",
+    "leitura-e-interpretacao-de-graficos"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-10-06T17:30:00.000Z",
+  "atualizadoEm": "2026-10-06T17:30:00.000Z"
+}

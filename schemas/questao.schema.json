@@ -1,0 +1,38 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://banco-fisica-vestibular/schemas/questao.schema.json",
+  "title": "Questão de Física de vestibular",
+  "type": "object",
+  "required": ["id", "banca", "ano", "numero", "fonte", "enunciado", "figuras", "gabarito", "resolucao", "topicos", "status", "criadoEm", "atualizadoEm"],
+  "properties": {
+    "id": { "type": "string", "pattern": "^[a-z0-9]+-\\d{4}[a-z]?-q\\d{2,3}$" },
+    "banca": { "type": "string" },
+    "ano": { "type": "integer", "minimum": 1950 },
+    "versao": { "type": "string", "maxLength": 3 },
+    "numero": { "type": "string", "pattern": "^\\d+$" },
+    "fase": { "type": "string" },
+    "fonte": {
+      "type": "object",
+      "required": ["descricao"],
+      "properties": { "descricao": { "type": "string" } }
+    },
+    "enunciado": { "type": "string", "minLength": 1 },
+    "figuras": { "type": "array", "items": { "type": "string", "pattern": "\\.png$" } },
+    "gabarito": { "type": "string", "pattern": "^[A-E]?$" },
+    "gabaritoFonte": { "enum": ["", "oficial", "prova-comentada-oficial", "resolucao-propria"] },
+    "resolucao": { "type": "string" },
+    "topicos": { "type": "array", "items": { "type": "string" }, "maxItems": 6 },
+    "status": { "enum": ["rascunho", "revisado", "publicado"] },
+    "revisao": {
+      "type": "object",
+      "properties": {
+        "divergenciasAceitas": { "type": "array", "items": { "type": "string" } },
+        "notas": { "type": "string" }
+      }
+    },
+    "criadoEm": { "type": "string" },
+    "atualizadoEm": { "type": "string" },
+    "_notas": { "type": "object" }
+  },
+  "additionalProperties": false
+}

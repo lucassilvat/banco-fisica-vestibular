@@ -1,0 +1,22 @@
+{
+  "id": "unicamp-2016-q04",
+  "banca": "Unicamp",
+  "ano": 2016,
+  "numero": "4",
+  "fase": "1ª fase · Prova Q",
+  "fonte": {
+    "descricao": "Comvest, Vestibular Unicamp 2016, 1ª fase, caderno de questões (prova Q)"
+  },
+  "enunciado": "Músculos artificiais feitos de nanotubos de carbono embebidos em cera de parafina podem suportar até duzentas vezes mais peso que um músculo natural do mesmo tamanho. Considere uma fibra de músculo artificial de 1 mm de comprimento, suspensa verticalmente por uma de suas extremidades e com uma massa de 50 gramas pendurada, em repouso, em sua outra extremidade. O trabalho realizado pela fibra sobre a massa, ao se contrair 10%, erguendo a massa até uma nova posição de repouso, é\n\na) 5 x 10<sup>-3</sup> J.\nb) 5 x 10<sup>-4</sup> J.\nc) 5 x 10<sup>-5</sup> J.\nd) 5 x 10<sup>-6</sup> J.\n\nSe necessário, utilize <i>g</i> = 10 m/s<sup>2</sup>.",
+  "figuras": [],
+  "gabarito": "C",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. A fibra encurta 10% de 1 mm: a massa sobe <i>h</i> = 0,1 mm = 1 × 10<sup>−4</sup> m.\n2. Partindo do repouso e terminando em repouso, o trabalho da fibra iguala o ganho de energia potencial: τ = <i>m g h</i> = 0,050 · 10 · 1 × 10<sup>−4</sup> = 5 × 10<sup>−5</sup> J.",
+  "topicos": [
+    "trabalho-de-uma-forca",
+    "energia-potencial-gravitacional"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-10-07T11:30:00.000Z",
+  "atualizadoEm": "2026-10-07T11:30:00.000Z"
+}

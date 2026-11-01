@@ -1,0 +1,23 @@
+{
+  "id": "unicamp-2026-q14",
+  "banca": "Unicamp",
+  "ano": 2026,
+  "numero": "14",
+  "fase": "1ª fase · Prova Q",
+  "fonte": {
+    "descricao": "Comvest, Vestibular Unicamp 2026, 1ª fase, caderno de questões (prova Q)"
+  },
+  "enunciado": "<b>Texto para as questões 13 e 14.</b>\n\nRecentemente, grandes cidades iniciaram a implantação de faixas exclusivas para motocicletas como, por exemplo, a faixa azul na cidade de São Paulo. Um motociclista adentra, em <i>t</i> = 0, um percurso retilíneo de uma faixa azul com velocidade constante <i>v</i><sub>0</sub> = 36 km/h e mantém essa velocidade até o tempo <i>t</i> = 30 s (trecho I). Em seguida, continua o percurso com <u>desaceleração constante</u> (<i>a</i> < 0) até parar completamente diante de um semáforo em <i>t</i> = 50 s (trecho II). Após mais 30 s, ele retoma o movimento e mantém uma <u>aceleração constante e positiva</u> <i>a</i> = 0,8 m/s<sup>2</sup> desde <i>t</i> = 80 s até <i>t</i> = 95 s (trecho III). Posteriormente, o motociclista segue com velocidade constante até <i>t</i> = 120 s (trecho IV).\n\nA massa do conjunto motociclista + motocicleta é dada por <i>m</i> = 180 kg. Para o trecho entre os tempos <i>t</i> = 30 s e <i>t</i> = 50 s, em que o movimento tem desaceleração constante, é correto afirmar que o módulo da força resultante que age nesse conjunto é igual a\n\na) 36 N.\nb) 90 N.\nc) 324 N.\nd) 1 800 N.",
+  "figuras": [],
+  "gabarito": "B",
+  "gabaritoFonte": "prova-comentada-oficial",
+  "resolucao": "1. No trecho II a velocidade cai de 36 km/h = 10 m/s até 0 em 20 s: |<i>a</i>| = 10/20 = 0,5 m/s<sup>2</sup>.\n2. 2ª Lei de Newton: |<i>F</i><sub>res</sub>| = <i>m</i>|<i>a</i>| = 180 · 0,5 = 90 N.",
+  "topicos": [
+    "leis-de-newton",
+    "movimento-retilineo-uniformemente-variado-mruv",
+    "velocidade-media-e-aceleracao-media"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-10-06T17:30:00.000Z",
+  "atualizadoEm": "2026-10-06T17:30:00.000Z"
+}

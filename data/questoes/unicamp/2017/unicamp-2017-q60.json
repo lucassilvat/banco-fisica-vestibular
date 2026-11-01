@@ -1,0 +1,22 @@
+{
+  "id": "unicamp-2017-q60",
+  "banca": "Unicamp",
+  "ano": 2017,
+  "numero": "60",
+  "fase": "1ª fase",
+  "fonte": {
+    "descricao": "Comvest, Vestibular Unicamp 2017, 1ª fase, caderno de questões"
+  },
+  "enunciado": "Uma estrela de nêutrons é o objeto astrofísico mais denso que conhecemos, em que uma massa maior que a massa do Sol ocupa uma região do espaço de apenas alguns quilômetros de raio. Essas estrelas realizam um movimento de rotação, emitindo uma grande quantidade de radiação eletromagnética a uma frequência bem definida. Quando detectamos uma estrela de nêutrons através desse feixe de radiação, damos o nome a esse objeto de Pulsar. Considere que um Pulsar foi detectado, e que o total de energia cinética relacionada com seu movimento de rotação equivale a 2×10<sup>42</sup> J. Notou-se que, após um ano, o Pulsar perdeu 0,1% de sua energia cinética, principalmente em forma de radiação eletromagnética. A potência irradiada pelo Pulsar vale\n(Se necessário, utilize a aproximação 1 ano ~ 3,6×10<sup>7</sup> s.)\n\na) 7,2 10<sup>46</sup> W.\nb) 2,0 10<sup>39</sup> W.\nc) 5,6 10<sup>31</sup> W.\nd) 1,8 10<sup>42</sup> W.",
+  "figuras": [],
+  "gabarito": "C",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. Energia perdida em um ano: 0,1% de 2 × 10<sup>42</sup> J = 2 × 10<sup>39</sup> J.\n2. <i>P</i> = <i>E</i>/Δ<i>t</i> = 2 × 10<sup>39</sup>/3,6 × 10<sup>7</sup> ≈ 5,6 × 10<sup>31</sup> W.",
+  "topicos": [
+    "potencia-e-rendimento",
+    "notacao-cientifica-e-ordem-de-grandeza"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-10-07T11:30:00.000Z",
+  "atualizadoEm": "2026-10-07T11:30:00.000Z"
+}

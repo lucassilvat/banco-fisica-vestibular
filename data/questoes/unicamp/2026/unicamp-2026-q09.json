@@ -1,0 +1,22 @@
+{
+  "id": "unicamp-2026-q09",
+  "banca": "Unicamp",
+  "ano": 2026,
+  "numero": "9",
+  "fase": "1ª fase · Prova Q",
+  "fonte": {
+    "descricao": "Comvest, Vestibular Unicamp 2026, 1ª fase, caderno de questões (prova Q)"
+  },
+  "enunciado": "<b>Texto para as questões 9, 10 e 11.</b>\n\nAs baterias são fundamentais no mundo moderno, sendo a fonte de energia portátil que alimenta dispositivos como celulares e <i>laptops</i>, veículos elétricos e sistemas de armazenamento de energia renovável. Duas grandezas que caracterizam uma bateria é a sua capacidade de carga elétrica, expressa em miliampère-hora (mAh) e a energia que ela armazena, usualmente dada em watts-hora (Wh).\n\nUma bateria inicialmente carregada fornece uma corrente constante de <i>i</i> = 4 000 mA durante o tempo ∆<i>t</i> = 1 hora, ficando descarregada no final desse processo. A carga elétrica <i>Q</i>, que circula por essa bateria nesse intervalo de tempo é\n\na) 4 C.\nb) 4 000 C.\nc) 14 400 C.\nd) 14 400 000 C.",
+  "figuras": [],
+  "gabarito": "C",
+  "gabaritoFonte": "prova-comentada-oficial",
+  "resolucao": "1. Converta as unidades: <i>i</i> = 4000 mA = 4 A; Δ<i>t</i> = 1 h = 3600 s.\n2. <i>Q</i> = <i>i</i>·Δ<i>t</i> = 4 · 3600 = 14 400 C.",
+  "topicos": [
+    "corrente-eletrica",
+    "grandezas-fisicas-e-sistema-internacional"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-10-06T17:30:00.000Z",
+  "atualizadoEm": "2026-10-06T17:30:00.000Z"
+}

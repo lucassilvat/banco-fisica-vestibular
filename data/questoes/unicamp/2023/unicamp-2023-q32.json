@@ -1,0 +1,21 @@
+{
+  "id": "unicamp-2023-q32",
+  "banca": "Unicamp",
+  "ano": 2023,
+  "numero": "32",
+  "fase": "1ª fase · Prova Q",
+  "fonte": {
+    "descricao": "Comvest, Vestibular Unicamp 2023, 1ª fase, caderno de questões (prova Q)"
+  },
+  "enunciado": "Use os valores aproximados: <i>g</i> = 10 m/s<sup>2</sup> e π = 3.\n\n<b>Leia o texto a seguir para responder às questões 30, 31 e 32.</b>\n\nO balonismo, um esporte aeronáutico com adeptos em todo o mundo, oferece um belo espetáculo para os observadores no solo. Um maçarico é usado para aquecer o ar no interior do balão, o que faz variar a densidade do ar, permitindo o controle do movimento de subida e descida do balão.\n\nUm balão tem um volume <i>V</i> = 1,6 × 10<sup>3</sup> m<sup>3</sup> de ar quente no seu interior na temperatura <i>T</i> = 400 K e na pressão atmosférica <i>p</i><sub>0</sub> = 1,0 atm = 1,0 × 10<sup>5</sup> Pa. Sabendo-se que o ar quente se comporta como um <u>gás ideal</u> e que a constante universal dos gases é <i>R</i> ≅ 8 J/mol.K, quantos mols de ar <i>n</i> há no interior do balão?\n\na) 5,0 × 10<sup>−1</sup> mol.\nb) 4,0 × 10<sup>0</sup> mol.\nc) 5,0 × 10<sup>4</sup> mol.\nd) 4,0 × 10<sup>5</sup> mol.",
+  "figuras": [],
+  "gabarito": "C",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. Equação de Clapeyron: <i>p V</i> = <i>n R T</i> ⇒ <i>n</i> = <i>p V</i>/(<i>R T</i>).\n2. <i>n</i> = (1,0 × 10<sup>5</sup> · 1,6 × 10<sup>3</sup>)/(8 · 400) = 1,6 × 10<sup>8</sup>/3200 = 5,0 × 10<sup>4</sup> mol.",
+  "topicos": [
+    "gas-ideal-e-equacao-de-clapeyron"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-10-06T17:30:00.000Z",
+  "atualizadoEm": "2026-10-06T17:30:00.000Z"
+}

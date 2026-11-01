@@ -1,0 +1,32 @@
+{
+  "id": "unicamp-2020-q79",
+  "banca": "Unicamp",
+  "ano": 2020,
+  "numero": "79",
+  "fase": "1ª fase",
+  "fonte": {
+    "descricao": "Comvest, Vestibular Unicamp 2020, 1ª fase, caderno de questões"
+  },
+  "enunciado": "<b>Obs.: para as questões de 70 a 79, aproxime π = 3,0 sempre que necessário.</b>\n\nEm analogia com um circuito elétrico, a transpiração foliar é regulada pelo conjunto de resistências (medidas em segundos/metro) existentes na rota do vapor d’água entre os sítios de evaporação próximos à parede celular no interior da folha e a atmosfera. Simplificadamente, há as resistências dos espaços intercelulares de ar (r<sub>eia</sub>), as induzidas pela presença dos estômatos (r<sub>est</sub>) e da cutícula (r<sub>cut</sub>) e a promovida pela massa de ar próxima à superfície das folhas (r<sub>cl</sub>). O esquema abaixo representa as resistências mencionadas.\n[[figura 1]]\nA tabela a seguir apresenta os valores das resistências de duas espécies de plantas (espécie 1 e espécie 2).\n[[figura 2]]\nTendo em vista os dados apresentados e considerando que a condutância é o inverso da resistência, assinale a alternativa que indica a espécie com menor transpiração e sua respectiva condutância total à difusão do vapor d’água entre os sítios de evaporação e a atmosfera.\n\na) espécie 1; 48 x 10<sup>-4</sup> m/s.\nb) espécie 1; 125 x 10<sup>-4</sup> m/s.\nc) espécie 2; 30 x 10<sup>-4</sup> m/s.\nd) espécie 2; 200 x 10<sup>-4</sup> m/s.",
+  "figuras": [
+    "unicamp-2020-q79-1.png",
+    "unicamp-2020-q79-2.png"
+  ],
+  "gabarito": "B",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. Pelo esquema, r<sub>eia</sub> e r<sub>est</sub> estão em série; esse ramo está em paralelo com r<sub>cut</sub>; o conjunto está em série com r<sub>cl</sub>.\n2. Espécie 1: 10 + 30 = 40; 40 ∥ 120 = (40 · 120)/160 = 30; total 30 + 50 = 80 s/m.\n3. Espécie 2: 30 + 10 = 40; 40 ∥ 280 = (40 · 280)/320 = 35; total 35 + 15 = 50 s/m.\n4. Menor transpiração ↔ maior resistência total: espécie 1 (80 s/m).\n5. Condutância: 1/80 = 0,0125 m/s = 125 × 10<sup>−4</sup> m/s.",
+  "topicos": [
+    "associacao-de-resistores"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-10-07T11:20:00.000Z",
+  "atualizadoEm": "2026-10-07T11:20:00.000Z",
+  "revisao": {
+    "divergenciasAceitas": [
+      "cut",
+      "eia",
+      "est"
+    ],
+    "notas": "subscritos de r"
+  }
+}

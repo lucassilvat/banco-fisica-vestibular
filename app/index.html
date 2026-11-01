@@ -1,0 +1,444 @@
+<title>Banco de Física Vestibular</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&family=JetBrains+Mono:wght@400;500&display=swap">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
+<style>
+/* Layout: filtros por tópico à esquerda; à direita, uma questão por vez como folha de caderno de prova, com navegação e seleção para a lista. */
+:root {
+  --bg: #eef1f4; --paper: #ffffff; --ink: #18202b; --muted: #5b6676; --line: #d5dbe3;
+  --accent: #1f4fbf; --accent-ink: #ffffff; --mark: #e9785e; --mark-soft: #fbe3dc; --soft: #e4eaf6;
+  --ok: #1d7a4a; --ok-soft: #dff1e7; --danger: #b3261e;
+  --f-display: "Archivo", "Helvetica Neue", Arial, sans-serif;
+  --f-body: "Source Serif 4", Georgia, "Times New Roman", serif;
+  --f-mono: "JetBrains Mono", ui-monospace, Menlo, Consolas, monospace;
+  --r: 6px;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --bg: #12161c; --paper: #1a2029; --ink: #e6eaf0; --muted: #98a3b3; --line: #2c3542;
+  --accent: #7ea2ff; --accent-ink: #0e1420; --mark: #f08f77; --mark-soft: #3a2621; --soft: #222c3d;
+  --ok: #6fd39c; --ok-soft: #173326; --danger: #ff8a80; color-scheme: dark } }
+:root[data-theme="dark"] {
+  --bg: #12161c; --paper: #1a2029; --ink: #e6eaf0; --muted: #98a3b3; --line: #2c3542;
+  --accent: #7ea2ff; --accent-ink: #0e1420; --mark: #f08f77; --mark-soft: #3a2621; --soft: #222c3d;
+  --ok: #6fd39c; --ok-soft: #173326; --danger: #ff8a80; color-scheme: dark }
+
+* { box-sizing: border-box; }
+body { background: var(--bg); color: var(--ink); font-family: var(--f-display); font-size: 15px; line-height: 1.45; }
+button, input, select, textarea { font: inherit; color: inherit; }
+button { cursor: pointer; }
+:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.wrap { max-width: 1240px; margin: 0 auto; padding-inline: 16px; padding-block: 20px 48px; }
+header.top { display: flex; flex-wrap: wrap; align-items: end; justify-content: space-between; gap: 12px 20px; padding-bottom: 16px; border-bottom: 2px solid var(--ink); margin-bottom: 20px; }
+.brand h1 { margin: 0; font-size: clamp(1.5rem, 3.4vw, 2.1rem); font-weight: 800; letter-spacing: -0.02em; }
+.brand p { margin: 4px 0 0; color: var(--muted); font-size: 0.92rem; }
+.actions { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; }
+.btn { border: 1px solid var(--line); background: var(--paper); border-radius: var(--r); padding: 8px 14px; font-weight: 600; font-size: 0.9rem; }
+.btn:hover { border-color: var(--accent); }
+.btn.primary { background: var(--accent); color: var(--accent-ink); border-color: var(--accent); }
+.btn.ghost { background: transparent; }
+.btn[disabled] { opacity: .45; cursor: not-allowed; }
+.count { font-family: var(--f-mono); font-size: 0.78rem; background: var(--mark); color: var(--paper); border-radius: 999px; padding: 1px 7px; margin-left: 6px; }
+
+.layout { display: grid; grid-template-columns: 320px minmax(0, 1fr); gap: 24px; align-items: start; }
+@media (max-width: 860px) { .layout { grid-template-columns: minmax(0, 1fr); } #filters { display: none; } #filters.open { display: block; } .only-narrow { display: inline-flex !important; } }
+.only-narrow { display: none !important; }
+aside#filters { position: sticky; top: calc(env(safe-area-inset-top, 0px) + 12px); max-height: calc(100vh - 24px); overflow: auto; background: var(--paper); border: 1px solid var(--line); border-radius: var(--r); }
+.f-head { padding: 14px; border-bottom: 1px solid var(--line); display: grid; gap: 10px; }
+.label { font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.08em; color: var(--muted); font-weight: 700; }
+.field { width: 100%; border: 1px solid var(--line); background: var(--bg); border-radius: var(--r); padding: 8px 10px; }
+.pills { display: flex; flex-wrap: wrap; gap: 6px; }
+.pill { border: 1px solid var(--line); background: var(--paper); border-radius: 999px; padding: 4px 10px; font-size: 0.82rem; font-weight: 600; }
+.pill[aria-pressed="true"] { background: var(--ink); color: var(--paper); border-color: var(--ink); }
+details.area { border-bottom: 1px solid var(--line); }
+details.area summary { list-style: none; padding: 10px 14px; display: flex; justify-content: space-between; align-items: center; gap: 8px; font-weight: 700; font-size: 0.9rem; cursor: pointer; }
+details.area summary::-webkit-details-marker { display: none; }
+details.area summary .n { font-family: var(--f-mono); font-size: 0.75rem; color: var(--muted); font-weight: 400; }
+details.area summary::after { content: "+"; font-family: var(--f-mono); color: var(--muted); }
+details.area[open] summary::after { content: "−"; }
+.topics { display: grid; gap: 2px; padding: 0 8px 10px; }
+.topic { display: flex; align-items: flex-start; gap: 8px; padding: 6px 8px; border-radius: 4px; cursor: pointer; font-size: 0.86rem; }
+.topic:hover { background: var(--soft); }
+.topic input { margin-top: 3px; accent-color: var(--mark); flex: none; }
+.topic span.t { flex: 1; min-width: 0; }
+.topic .c { font-family: var(--f-mono); font-size: 0.72rem; color: var(--muted); font-variant-numeric: tabular-nums; }
+.topic.zero { opacity: .45; }
+.topic.on { background: var(--mark-soft); }
+
+.selbar { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; margin-bottom: 12px; min-height: 34px; }
+.chip { display: inline-flex; align-items: center; gap: 6px; background: var(--mark-soft); border: 1px solid var(--mark); border-radius: 999px; padding: 4px 6px 4px 12px; font-size: 0.84rem; font-weight: 600; }
+.chip button { border: 0; background: transparent; width: 22px; height: 22px; border-radius: 50%; line-height: 1; }
+.cap { font-family: var(--f-mono); color: var(--mark); }
+.summary { color: var(--muted); font-size: 0.9rem; }
+.summary b { color: var(--ink); font-variant-numeric: tabular-nums; }
+
+.nav { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 10px; background: var(--paper); border: 1px solid var(--line); border-radius: var(--r) var(--r) 0 0; padding: 10px 12px; }
+.nav .pos { font-family: var(--f-mono); font-size: 0.85rem; font-variant-numeric: tabular-nums; }
+.nav input[type=range] { flex: 1 1 140px; min-width: 0; accent-color: var(--accent); }
+article.q { background: var(--paper); border: 1px solid var(--line); border-top: 0; border-radius: 0 0 var(--r) var(--r); }
+.q-head { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 8px 16px; padding: 12px 18px; border-bottom: 1px dashed var(--line); }
+.q-id { font-family: var(--f-mono); font-size: 0.85rem; font-weight: 500; min-width: 0; overflow-wrap: anywhere; }
+.q-id .banca { background: var(--ink); color: var(--paper); padding: 2px 8px; border-radius: 3px; margin-right: 8px; font-weight: 600; }
+.sel { display: inline-flex; align-items: center; gap: 8px; border: 1px solid var(--line); border-radius: var(--r); padding: 6px 12px; font-weight: 600; font-size: 0.88rem; cursor: pointer; }
+.sel input { accent-color: var(--ok); width: 16px; height: 16px; }
+.sel.on { background: var(--ok-soft); border-color: var(--ok); color: var(--ok); }
+.q-body { padding: 20px 22px 8px; }
+.enunciado { font-family: var(--f-body); font-size: 1.06rem; line-height: 1.64; overflow-wrap: anywhere; max-width: 75ch; display: grid; gap: 10px; }
+.enunciado .txt { white-space: pre-wrap; }
+.enunciado sub, .enunciado sup, .res sub, .res sup { font-size: 0.72em; line-height: 0; }
+.enunciado img.fig { max-width: min(100%, 460px); border: 1px solid var(--line); border-radius: 4px; background: #fff; padding: 4px; }
+.res-wrap { margin: 8px 22px 18px; border-top: 1px solid var(--line); padding-top: 12px; display: grid; gap: 10px; max-width: 75ch; }
+.res { font-family: var(--f-body); font-size: 1rem; line-height: 1.6; white-space: pre-wrap; background: var(--soft); border-radius: var(--r); padding: 14px 16px; }
+.res .gab { font-family: var(--f-mono); font-weight: 500; display: block; margin-top: 8px; }
+.q-foot { display: flex; flex-wrap: wrap; gap: 8px 12px; align-items: center; padding: 4px 22px 18px; }
+.tag { font-size: 0.76rem; padding: 3px 9px; border-radius: 999px; background: var(--soft); border: 1px solid transparent; }
+.tag.hit { background: var(--mark-soft); border-color: var(--mark); font-weight: 600; }
+.orig { font-size: 0.8rem; color: var(--muted); }
+.empty { background: var(--paper); border: 1px dashed var(--line); border-radius: var(--r); padding: 28px 24px; display: grid; gap: 10px; }
+.empty h2 { margin: 0; font-size: 1.15rem; }
+.empty p { margin: 0; color: var(--muted); font-family: var(--f-body); }
+
+/* painel da lista */
+.overlay { position: fixed; inset: 0; background: rgba(10, 14, 20, .5); display: flex; justify-content: flex-end; z-index: 20; }
+.panel { background: var(--paper); width: min(100%, 460px); height: 100%; display: grid; grid-template-rows: auto auto 1fr auto; padding-top: env(safe-area-inset-top, 0px); padding-bottom: env(safe-area-inset-bottom, 0px); }
+.panel header { display: flex; justify-content: space-between; align-items: center; padding: 14px 16px; border-bottom: 1px solid var(--line); gap: 10px; }
+.panel h2 { margin: 0; font-size: 1.1rem; }
+.panel .opts { padding: 12px 16px; display: grid; gap: 8px; border-bottom: 1px solid var(--line); }
+.panel ol { margin: 0; padding: 8px 16px 8px 36px; overflow: auto; display: grid; gap: 6px; align-content: start; }
+.panel li { font-size: 0.9rem; }
+.panel li .row { display: flex; justify-content: space-between; gap: 8px; align-items: center; }
+.panel li button { border: 0; background: transparent; color: var(--danger); font-size: 0.82rem; }
+.panel footer { padding: 14px 16px; border-top: 1px solid var(--line); display: grid; gap: 8px; }
+.note { font-size: 0.82rem; color: var(--muted); margin: 0; }
+.toast { position: fixed; left: 50%; transform: translateX(-50%); bottom: calc(env(safe-area-inset-bottom, 0px) + 18px); background: var(--ink); color: var(--paper); padding: 10px 16px; border-radius: var(--r); font-size: 0.9rem; z-index: 30; max-width: calc(100% - 32px); }
+</style>
+
+<div class="wrap">
+  <header class="top">
+    <div class="brand">
+      <h1>Banco de Física Vestibular</h1>
+      <p>Questões de Física transcritas literalmente das provas oficiais, com resolução comentada.</p>
+    </div>
+    <div class="actions">
+      <button class="btn only-narrow" id="toggleFilters" type="button" aria-expanded="false">Filtros</button>
+      <button class="btn primary" id="listBtn" type="button">Minha lista<span class="count" id="listCount">0</span></button>
+    </div>
+  </header>
+
+  <div class="layout">
+    <aside id="filters" aria-label="Filtros">
+      <div class="f-head">
+        <div class="label">Banca</div>
+        <div class="pills" id="bancaPills"></div>
+        <div class="label">Ano</div>
+        <div class="pills" id="anoPills"></div>
+        <label class="label" for="topicSearch">Tópicos (marque vários para cruzar)</label>
+        <input class="field" id="topicSearch" type="search" placeholder="Buscar tópico, ex.: Snell, Kepler">
+      </div>
+      <div id="areaList"></div>
+    </aside>
+    <main>
+      <div class="selbar" id="selbar"></div>
+      <div id="viewer"></div>
+    </main>
+  </div>
+</div>
+
+<div class="overlay" id="overlay" hidden>
+  <section class="panel" role="dialog" aria-modal="true" aria-labelledby="panelTitle">
+    <header><h2 id="panelTitle">Minha lista</h2><button class="btn ghost" type="button" id="closePanel">Fechar</button></header>
+    <div class="opts">
+      <label class="label" for="listTitle">Título da lista</label>
+      <input class="field" id="listTitle" type="text" value="Lista de exercícios — Física">
+    </div>
+    <ol id="listItems"></ol>
+    <footer>
+      <button class="btn primary" type="button" id="exportBtn">Baixar lista (.docx)</button>
+      <p class="note" id="exportNote">Abre no Google Docs (Arquivo › Abrir › Fazer upload) e no Word. As questões vêm primeiro; gabarito e resoluções ficam ao final.</p>
+      <button class="btn ghost" type="button" id="clearList">Esvaziar lista</button>
+    </footer>
+  </section>
+</div>
+<div class="toast" id="toast" hidden></div>
+
+<script>
+const AREAS = [
+  ["Fundamentos", ["Grandezas físicas e Sistema Internacional", "Análise dimensional", "Notação científica e ordem de grandeza", "Vetores: soma e decomposição", "Leitura e interpretação de gráficos"]],
+  ["Cinemática", ["Velocidade média e aceleração média", "Movimento retilíneo uniforme (MRU)", "Movimento retilíneo uniformemente variado (MRUV)", "Gráficos do movimento (s×t, v×t, a×t)", "Queda livre e lançamento vertical", "Lançamento horizontal", "Lançamento oblíquo", "Movimento relativo e composição de velocidades", "Movimento circular uniforme (MCU)", "Período, frequência e velocidade angular", "Transmissão de movimento circular (polias, engrenagens, coroas)", "Aceleração centrípeta"]],
+  ["Dinâmica", ["Leis de Newton", "Força peso e força normal", "Força de atrito estático e cinético", "Plano inclinado", "Força elástica (Lei de Hooke)", "Sistemas de blocos, fios e polias", "Resultante centrípeta (curvas, loop, globo da morte)", "Referenciais não inerciais e elevadores", "Força de arrasto e velocidade terminal"]],
+  ["Energia e momento", ["Trabalho de uma força", "Potência e rendimento", "Energia cinética e teorema trabalho-energia", "Energia potencial gravitacional", "Energia potencial elástica", "Conservação da energia mecânica", "Sistemas dissipativos (perda de energia mecânica)", "Impulso e quantidade de movimento", "Conservação da quantidade de movimento", "Colisões elásticas e inelásticas", "Centro de massa"]],
+  ["Gravitação", ["Lei da gravitação universal", "Leis de Kepler", "Satélites, órbitas e imponderabilidade", "Aceleração da gravidade e altitude"]],
+  ["Estática", ["Equilíbrio do ponto material", "Momento de uma força (torque)", "Equilíbrio do corpo extenso", "Alavancas e máquinas simples"]],
+  ["Fluidos", ["Densidade e massa específica", "Pressão", "Pressão atmosférica e Experimento de Torricelli", "Teorema de Stevin (pressão hidrostática)", "Vasos comunicantes", "Princípio de Pascal e prensa hidráulica", "Empuxo e Princípio de Arquimedes", "Vazão e equação da continuidade", "Equação de Bernoulli"]],
+  ["Termologia", ["Temperatura e escalas termométricas", "Dilatação térmica dos sólidos", "Dilatação dos líquidos e comportamento anômalo da água", "Calor sensível e capacidade térmica", "Calor latente e mudanças de fase", "Trocas de calor e equilíbrio térmico (calorímetro)", "Diagramas de fase", "Condução térmica (Lei de Fourier)", "Convecção e irradiação térmica", "Efeito estufa e balanço energético"]],
+  ["Termodinâmica", ["Gás ideal e equação de Clapeyron", "Transformações gasosas (isotérmica, isobárica, isocórica, adiabática)", "Trabalho em transformação gasosa (gráfico p×V)", "Energia interna", "Primeira lei da termodinâmica", "Máquinas térmicas e rendimento", "Ciclo de Carnot", "Segunda lei da termodinâmica e entropia", "Refrigeradores"]],
+  ["Óptica geométrica", ["Princípios da óptica geométrica (sombra, penumbra, eclipses)", "Câmara escura de orifício", "Reflexão da luz e espelhos planos", "Espelhos esféricos (equação de Gauss e aumento)", "Refração da luz e índice de refração", "Lei de Snell-Descartes", "Reflexão total e fibra óptica", "Dioptro plano (profundidade aparente)", "Prismas e dispersão da luz", "Lentes esféricas (vergência, Gauss, aumento)", "Óptica da visão e defeitos visuais", "Instrumentos ópticos (lupa, microscópio, luneta)", "Cor dos objetos"]],
+  ["Ondulatória", ["Movimento harmônico simples (MHS)", "Sistema massa-mola", "Pêndulo simples", "Ondas: classificação e elementos", "Equação fundamental da ondulatória (v = λf)", "Velocidade de onda em cordas (Taylor)", "Reflexão e refração de ondas", "Interferência", "Difração", "Ressonância", "Ondas estacionárias e cordas vibrantes", "Tubos sonoros", "Som: altura, intensidade e timbre", "Nível sonoro (decibéis)", "Efeito Doppler", "Espectro eletromagnético", "Polarização"]],
+  ["Eletrostática", ["Carga elétrica e processos de eletrização", "Lei de Coulomb", "Campo elétrico", "Linhas de campo e campo elétrico uniforme", "Potencial elétrico e diferença de potencial", "Trabalho da força elétrica e energia potencial elétrica", "Condutores em equilíbrio eletrostático e blindagem", "Poder das pontas e para-raios", "Capacitores e capacitância", "Associação de capacitores"]],
+  ["Eletrodinâmica", ["Corrente elétrica", "Primeira lei de Ohm", "Segunda lei de Ohm e resistividade", "Associação de resistores", "Potência elétrica e efeito Joule", "Energia elétrica e consumo (kWh, conta de luz)", "Geradores elétricos (fem e resistência interna)", "Receptores elétricos", "Leis de Kirchhoff", "Amperímetro, voltímetro e ponte de Wheatstone", "Instalações elétricas residenciais, fusíveis e disjuntores", "Choque elétrico e segurança"]],
+  ["Eletromagnetismo", ["Ímãs e campo magnético", "Campo magnético terrestre e bússola", "Campo magnético de fio retilíneo", "Campo magnético de espira e solenoide", "Força magnética sobre carga em movimento", "Movimento de carga em campo magnético uniforme", "Força magnética sobre condutor retilíneo", "Força entre fios paralelos", "Fluxo magnético", "Indução eletromagnética (Lei de Faraday)", "Lei de Lenz", "Transformadores", "Geradores e motores elétricos", "Usinas e geração de energia elétrica"]],
+  ["Física moderna", ["Relatividade restrita (dilatação do tempo, contração do espaço)", "Equivalência massa-energia (E = mc²)", "Radiação de corpo negro e quantização", "Efeito fotoelétrico", "Fótons e energia do fóton (E = hf)", "Dualidade onda-partícula (de Broglie)", "Modelos atômicos e modelo de Bohr", "Espectros de emissão e absorção", "Radioatividade e decaimento", "Meia-vida", "Fissão e fusão nuclear", "Semicondutores, LED e laser"]],
+];
+const slug = s => s.normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "").slice(0, 80);
+const TOPIC = new Map();
+AREAS.forEach(([area, list]) => list.forEach(name => TOPIC.set(slug(name), { name, area })));
+const norm = s => s.normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase();
+const $ = id => document.getElementById(id);
+const state = { qs: [], sel: new Set(), bancas: new Set(), anos: new Set(), search: "", cur: null, list: [], showRes: false, ready: false, downloads: null };
+
+function store(k, v) { try { localStorage.setItem(k, JSON.stringify(v)); } catch (e) {} }
+function load(k, d) { try { const v = JSON.parse(localStorage.getItem(k)); return v == null ? d : v; } catch (e) { return d; } }
+(function init() {
+  const p = load("bfv-filtros", {});
+  (p.sel || []).forEach(t => TOPIC.has(t) && state.sel.add(t));
+  (p.bancas || []).forEach(b => state.bancas.add(b));
+  (p.anos || []).forEach(a => state.anos.add(a));
+  state.list = load("bfv-lista", []);
+  state.cur = load("bfv-atual", null);
+})();
+function savePrefs() { store("bfv-filtros", { sel: [...state.sel], bancas: [...state.bancas], anos: [...state.anos] }); }
+function saveList() { store("bfv-lista", state.list); $("listCount").textContent = state.list.length; }
+
+function el(tag, attrs = {}, ...kids) {
+  const e = document.createElement(tag);
+  for (const [k, v] of Object.entries(attrs)) {
+    if (k === "class") e.className = v; else if (k === "text") e.textContent = v;
+    else if (k.startsWith("on")) e.addEventListener(k.slice(2), v); else if (v !== false && v != null) e.setAttribute(k, v === true ? "" : v);
+  }
+  kids.flat().forEach(k => k != null && e.append(k));
+  return e;
+}
+
+const anoKey = q => String(q.ano) + (q.versao ? " " + q.versao : "");
+const sortQ = (a, b) => (a.ano - b.ano) || String(a.versao || "").localeCompare(String(b.versao || "")) || String(a.banca).localeCompare(b.banca) || (parseInt(a.numero) - parseInt(b.numero));
+function baseMatch(q) { return (!state.bancas.size || state.bancas.has(q.banca)) && (!state.anos.size || state.anos.has(anoKey(q))); }
+function topicMatch(q, sel) { const t = q.topicos || []; for (const s of sel) if (!t.includes(s)) return false; return true; }
+function filtered() { return state.qs.filter(q => baseMatch(q) && topicMatch(q, state.sel)).sort(sortQ); }
+function label(q) { return `${q.banca} ${anoKey(q)} · Questão ${q.numero}`; }
+
+function renderPills() {
+  const bancas = [...new Set(state.qs.map(q => q.banca))].sort();
+  const anos = [...new Set(state.qs.map(anoKey))].sort();
+  const mk = (box, vals, set) => { box.replaceChildren(); vals.forEach(v => box.append(el("button", { class: "pill", type: "button", "aria-pressed": set.has(v) ? "true" : "false", text: v, onclick: () => { set.has(v) ? set.delete(v) : set.add(v); savePrefs(); renderAll(); } }))); };
+  mk($("bancaPills"), bancas, state.bancas); mk($("anoPills"), anos, state.anos);
+}
+
+const openAreas = new Set();
+function renderAreas() {
+  const box = $("areaList"); box.replaceChildren();
+  const base = state.qs.filter(q => baseMatch(q) && topicMatch(q, state.sel));
+  const term = norm(state.search.trim());
+  AREAS.forEach(([area, list]) => {
+    const items = list.map(slug).filter(id => !term || norm(TOPIC.get(id).name).includes(term));
+    if (!items.length) return;
+    const selHere = items.filter(id => state.sel.has(id)).length;
+    const total = new Set(state.qs.filter(baseMatch).filter(q => (q.topicos || []).some(t => items.includes(t))).map(q => q._id)).size;
+    const d = el("details", { class: "area" });
+    if (term || selHere || openAreas.has(area)) d.open = true;
+    d.addEventListener("toggle", () => { d.open ? openAreas.add(area) : openAreas.delete(area); });
+    d.append(el("summary", {}, el("span", { text: area }), el("span", { class: "n", text: selHere ? `${selHere} marcado${selHere > 1 ? "s" : ""}` : `${total} ${total === 1 ? "questão" : "questões"}` })));
+    const t = el("div", { class: "topics" });
+    items.forEach(id => {
+      const on = state.sel.has(id);
+      const n = on ? base.length : base.filter(q => (q.topicos || []).includes(id)).length;
+      const cb = el("input", { type: "checkbox", id: "f-" + id }); cb.checked = on;
+      cb.addEventListener("change", () => { cb.checked ? state.sel.add(id) : state.sel.delete(id); savePrefs(); renderAll(); });
+      t.append(el("label", { class: "topic" + (on ? " on" : "") + (!on && !n && state.qs.length ? " zero" : ""), for: "f-" + id }, cb, el("span", { class: "t", text: TOPIC.get(id).name }), el("span", { class: "c", text: String(n) })));
+    });
+    d.append(t); box.append(d);
+  });
+}
+
+function renderSelbar(count) {
+  const bar = $("selbar"); bar.replaceChildren();
+  [...state.sel].forEach((id, i) => {
+    if (i) bar.append(el("span", { class: "cap", text: "∩" }));
+    bar.append(el("span", { class: "chip" }, TOPIC.get(id).name, el("button", { type: "button", "aria-label": "Remover " + TOPIC.get(id).name, text: "×", onclick: () => { state.sel.delete(id); savePrefs(); renderAll(); } })));
+  });
+  const s = el("span", { class: "summary" });
+  s.append(el("b", { text: String(count) }), count === 1 ? " questão" : " questões", state.sel.size > 1 ? " com todos os tópicos marcados" : state.qs.length ? ` de ${state.qs.length} no banco` : "");
+  bar.append(s);
+  if (state.sel.size || state.bancas.size || state.anos.size) bar.append(el("button", { class: "btn ghost", type: "button", text: "Limpar filtros", onclick: () => { state.sel.clear(); state.bancas.clear(); state.anos.clear(); savePrefs(); renderAll(); } }));
+}
+
+const figUrl = id => "/_blob/" + id;
+const FIG_RE = /\n?\[\[figura (\d+)\]\]\n?/g;
+function safeInline(s) {
+  return s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/&lt;(\/?)(i|b|u|sub|sup)&gt;/g, "<$1$2>");
+}
+function richEnunciado(q) {
+  const box = el("div", { class: "enunciado" });
+  const figs = q.figuras || [];
+  String(q.enunciado || "").split(FIG_RE).forEach((part, i) => {
+    if (i % 2 === 0) { if (part) { const d = el("div", { class: "txt" }); d.innerHTML = safeInline(part); box.append(d); } }
+    else { const id = figs[parseInt(part, 10) - 1]; if (id) box.append(el("img", { class: "fig", src: figUrl(id), alt: `Figura ${part} da questão`, loading: "lazy" })); }
+  });
+  return box;
+}
+
+function go(delta) {
+  const qs = filtered(); if (!qs.length) return;
+  let i = qs.findIndex(q => q._id === state.cur); if (i < 0) i = 0;
+  i = Math.min(qs.length - 1, Math.max(0, i + delta));
+  state.cur = qs[i]._id; state.showRes = false; store("bfv-atual", state.cur); renderViewer();
+  $("viewer").scrollIntoView({ block: "start", behavior: "smooth" });
+}
+
+function renderViewer() {
+  const box = $("viewer"); box.replaceChildren();
+  const qs = filtered();
+  renderSelbar(qs.length);
+  if (!state.qs.length) {
+    box.append(el("div", { class: "empty" }, el("h2", { text: state.ready ? "O banco ainda está vazio" : "Carregando questões…" }), el("p", { text: "As questões aparecem aqui, uma por vez." })));
+    return;
+  }
+  if (!qs.length) { box.append(el("div", { class: "empty" }, el("h2", { text: "Nenhuma questão cobra todos esses tópicos juntos" }), el("p", { text: "Desmarque um tópico, ano ou banca para ampliar a busca." }))); return; }
+  let i = qs.findIndex(q => q._id === state.cur); if (i < 0) { i = 0; state.cur = qs[0]._id; }
+  const q = qs[i];
+  const range = el("input", { type: "range", min: "1", max: String(qs.length), value: String(i + 1), "aria-label": "Ir para a questão" });
+  range.addEventListener("input", () => { state.cur = qs[range.value - 1]._id; state.showRes = false; store("bfv-atual", state.cur); renderViewer(); });
+  box.append(el("div", { class: "nav" },
+    el("button", { class: "btn", type: "button", text: "← Anterior", disabled: i === 0, onclick: () => go(-1) }),
+    el("span", { class: "pos", text: `${i + 1} de ${qs.length}` }), range,
+    el("button", { class: "btn", type: "button", text: "Próxima →", disabled: i === qs.length - 1, onclick: () => go(1) })));
+
+  const inList = state.list.includes(q._id);
+  const cb = el("input", { type: "checkbox", id: "selq" }); cb.checked = inList;
+  cb.addEventListener("change", () => { toggleList(q._id, cb.checked); renderViewer(); });
+  const head = el("div", { class: "q-head" },
+    el("div", { class: "q-id" }, el("span", { class: "banca", text: q.banca }), [anoKey(q), q.fase, "Questão " + q.numero].filter(Boolean).join(" · ")),
+    el("label", { class: "sel" + (inList ? " on" : ""), for: "selq" }, cb, inList ? "Na lista" : "Adicionar à lista"));
+  const res = el("div", { class: "res-wrap" });
+  const tbtn = el("button", { class: "btn", type: "button", text: state.showRes ? "Ocultar resolução" : "Ver resolução", "aria-expanded": state.showRes ? "true" : "false", onclick: () => { state.showRes = !state.showRes; renderViewer(); } });
+  res.append(tbtn);
+  if (state.showRes) {
+    const r = el("div", { class: "res" }); r.innerHTML = safeInline(q.resolucao || "Resolução ainda não cadastrada.");
+    if (q.gabarito) r.append(el("span", { class: "gab", text: "Gabarito: " + q.gabarito }));
+    res.append(r);
+  }
+  const foot = el("div", { class: "q-foot" });
+  (q.topicos || []).filter(t => TOPIC.has(t)).forEach(t => foot.append(el("span", { class: "tag" + (state.sel.has(t) ? " hit" : ""), text: TOPIC.get(t).name })));
+  if (q.origem) foot.append(el("span", { class: "orig", text: "Fonte: " + q.origem }));
+  box.append(el("article", { class: "q" }, head, el("div", { class: "q-body" }, richEnunciado(q)), res, foot));
+}
+
+function toggleList(id, on) {
+  const has = state.list.includes(id);
+  if (on && !has) state.list.push(id); if (!on && has) state.list = state.list.filter(x => x !== id);
+  saveList();
+}
+
+function renderPanel() {
+  const ol = $("listItems"); ol.replaceChildren();
+  const byId = new Map(state.qs.map(q => [q._id, q]));
+  const items = state.list.map(id => byId.get(id)).filter(Boolean);
+  if (!items.length) ol.append(el("p", { class: "note", text: "Nenhuma questão selecionada. Use “Adicionar à lista” em cada questão." }));
+  items.forEach(q => ol.append(el("li", {}, el("div", { class: "row" }, el("span", { text: label(q) }), el("button", { type: "button", text: "Remover", onclick: () => { toggleList(q._id, false); renderPanel(); renderViewer(); } })))));
+  $("exportBtn").disabled = !items.length;
+  $("exportBtn").hidden = state.downloads === null && state.ready;
+  if (state.downloads === null && state.ready) $("exportNote").textContent = "O download de arquivos não está disponível nesta visualização.";
+}
+
+function toast(msg) { const t = $("toast"); t.textContent = msg; t.hidden = false; clearTimeout(toast._t); toast._t = setTimeout(() => t.hidden = true, 3200); }
+function renderAll() { renderPills(); renderAreas(); renderViewer(); }
+
+/* ---------- exportação .docx (WordprocessingML) ---------- */
+const xesc = s => s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
+function runsFromMarkup(text, base = {}) {
+  // converte <i>, <b>, <u>, <sub>, <sup> em runs do Word
+  const out = []; const st = { ...base }; const re = /<(\/?)(i|b|u|sub|sup)>/g; let last = 0, m;
+  const push = t => { if (!t) return; const pr = [st.b ? "<w:b/>" : "", st.i ? "<w:i/>" : "", st.u ? '<w:u w:val="single"/>' : "", st.sub ? '<w:vertAlign w:val="subscript"/>' : st.sup ? '<w:vertAlign w:val="superscript"/>' : "", st.size ? `<w:sz w:val="${st.size}"/>` : ""].join("");
+    t.split("\n").forEach((seg, k) => { if (k) out.push("<w:r><w:br/></w:r>"); if (seg) out.push(`<w:r>${pr ? `<w:rPr>${pr}</w:rPr>` : ""}<w:t xml:space="preserve">${xesc(seg)}</w:t></w:r>`); }); };
+  while ((m = re.exec(text))) { push(text.slice(last, m.index)); st[m[2]] = !m[1]; last = re.lastIndex; }
+  push(text.slice(last)); return out.join("");
+}
+const para = (runs, opts = "") => `<w:p>${opts ? `<w:pPr>${opts}</w:pPr>` : ""}${runs}</w:p>`;
+function imgPara(rid, n, wpx, hpx) {
+  const maxW = 5486400; let cx = Math.round(wpx * 9525 * 0.75), cy = Math.round(hpx * 9525 * 0.75);
+  if (cx > maxW) { cy = Math.round(cy * maxW / cx); cx = maxW; }
+  return `<w:p><w:r><w:drawing><wp:inline distT="0" distB="0" distL="0" distR="0"><wp:extent cx="${cx}" cy="${cy}"/><wp:docPr id="${n}" name="Figura ${n}"/><a:graphic xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main"><a:graphicData uri="http://schemas.openxmlformats.org/drawingml/2006/picture"><pic:pic xmlns:pic="http://schemas.openxmlformats.org/drawingml/2006/picture"><pic:nvPicPr><pic:cNvPr id="${n}" name="fig${n}.png"/><pic:cNvPicPr/></pic:nvPicPr><pic:blipFill><a:blip r:embed="${rid}"/><a:stretch><a:fillRect/></a:stretch></pic:blipFill><pic:spPr><a:xfrm><a:off x="0" y="0"/><a:ext cx="${cx}" cy="${cy}"/></a:xfrm><a:prstGeom prst="rect"><a:avLst/></a:prstGeom></pic:spPr></pic:pic></a:graphicData></a:graphic></wp:inline></w:drawing></w:r></w:p>`;
+}
+async function imgInfo(id) {
+  const r = await fetch(figUrl(id)); if (!r.ok) throw new Error("figura");
+  const buf = await r.arrayBuffer();
+  const dims = await new Promise((ok, bad) => { const im = new Image(); im.onload = () => ok([im.naturalWidth, im.naturalHeight]); im.onerror = bad; im.src = URL.createObjectURL(new Blob([buf])); });
+  return { buf, w: dims[0] / 2.1, h: dims[1] / 2.1 }; // figuras recortadas a ~200 dpi
+}
+async function buildDocx(items, title) {
+  const zip = new JSZip(); const rels = []; let body = ""; let n = 0;
+  body += para(runsFromMarkup(title, { b: true, size: 32 }), '<w:jc w:val="center"/><w:spacing w:after="240"/>');
+  for (let k = 0; k < items.length; k++) {
+    const q = items[k];
+    body += para(runsFromMarkup(`Questão ${k + 1}`, { b: true, size: 26 }) + runsFromMarkup(`  (${q.banca} ${anoKey(q)})`, { size: 20 }), '<w:spacing w:before="320" w:after="120"/><w:keepNext/>');
+    const parts = String(q.enunciado).split(FIG_RE);
+    for (let i = 0; i < parts.length; i++) {
+      if (i % 2 === 0) { parts[i].split(/\n{2,}/).forEach(p => { if (p.trim()) body += para(runsFromMarkup(p), '<w:spacing w:after="120"/>'); }); }
+      else {
+        const id = (q.figuras || [])[parseInt(parts[i], 10) - 1]; if (!id) continue;
+        const info = await imgInfo(id); n++; const rid = "rIdImg" + n;
+        zip.file(`word/media/fig${n}.png`, info.buf); rels.push(`<Relationship Id="${rid}" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/image" Target="media/fig${n}.png"/>`);
+        body += imgPara(rid, n, info.w, info.h);
+      }
+    }
+  }
+  body += `<w:p><w:r><w:br w:type="page"/></w:r></w:p>`;
+  body += para(runsFromMarkup("Gabarito e resoluções", { b: true, size: 30 }), '<w:spacing w:after="240"/>');
+  items.forEach((q, k) => {
+    body += para(runsFromMarkup(`Questão ${k + 1}`, { b: true, size: 24 }) + runsFromMarkup(`  (${q.banca} ${anoKey(q)}, questão ${q.numero})  ·  Gabarito: ${q.gabarito || "—"}`, { size: 20 }), '<w:spacing w:before="240" w:after="80"/><w:keepNext/>');
+    String(q.resolucao || "").split("\n").forEach(l => { if (l.trim()) body += para(runsFromMarkup(l), '<w:spacing w:after="60"/>'); });
+  });
+  body += para(runsFromMarkup("Fontes: " + [...new Set(items.map(q => q.origem).filter(Boolean))].join("; "), { size: 18 }), '<w:spacing w:before="360"/>');
+  const doc = `<?xml version="1.0" encoding="UTF-8" standalone="yes"?><w:document xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" xmlns:wp="http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing" xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main" xmlns:pic="http://schemas.openxmlformats.org/drawingml/2006/picture"><w:body>${body}<w:sectPr><w:pgSz w:w="11906" w:h="16838"/><w:pgMar w:top="1134" w:right="1134" w:bottom="1134" w:left="1134" w:header="567" w:footer="567" w:gutter="0"/></w:sectPr></w:body></w:document>`;
+  const styles = `<?xml version="1.0" encoding="UTF-8" standalone="yes"?><w:styles xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main"><w:docDefaults><w:rPrDefault><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial" w:eastAsia="Arial"/><w:sz w:val="22"/><w:lang w:val="pt-BR"/></w:rPr></w:rPrDefault><w:pPrDefault><w:pPr><w:spacing w:after="80" w:line="276" w:lineRule="auto"/></w:pPr></w:pPrDefault></w:docDefaults><w:style w:type="paragraph" w:default="1" w:styleId="Normal"><w:name w:val="Normal"/></w:style></w:styles>`;
+  zip.file("[Content_Types].xml", `<?xml version="1.0" encoding="UTF-8" standalone="yes"?><Types xmlns="http://schemas.openxmlformats.org/package/2006/content-types"><Default Extension="rels" ContentType="application/vnd.openxmlformats-package.relationships+xml"/><Default Extension="xml" ContentType="application/xml"/><Default Extension="png" ContentType="image/png"/><Override PartName="/word/document.xml" ContentType="application/vnd.openxmlformats-officedocument.wordprocessingml.document.main+xml"/><Override PartName="/word/styles.xml" ContentType="application/vnd.openxmlformats-officedocument.wordprocessingml.styles+xml"/></Types>`);
+  zip.file("_rels/.rels", `<?xml version="1.0" encoding="UTF-8" standalone="yes"?><Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships"><Relationship Id="rId1" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/officeDocument" Target="word/document.xml"/></Relationships>`);
+  zip.file("word/_rels/document.xml.rels", `<?xml version="1.0" encoding="UTF-8" standalone="yes"?><Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships"><Relationship Id="rIdStyles" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/styles" Target="styles.xml"/>${rels.join("")}</Relationships>`);
+  zip.file("word/document.xml", doc); zip.file("word/styles.xml", styles);
+  return zip.generateAsync({ type: "uint8array", compression: "DEFLATE" });
+}
+
+$("exportBtn").addEventListener("click", async () => {
+  const byId = new Map(state.qs.map(q => [q._id, q]));
+  const items = state.list.map(id => byId.get(id)).filter(Boolean);
+  if (!items.length || !state.downloads) return;
+  const b = $("exportBtn"); b.disabled = true; b.textContent = "Gerando arquivo…";
+  try {
+    const title = $("listTitle").value.trim() || "Lista de exercícios — Física";
+    const data = await buildDocx(items, title);
+    const fname = title.replace(/[\\/:*?"<>|]+/g, " ").slice(0, 80) + ".docx";
+    await state.downloads.save({ filename: fname, data });
+    toast("Arquivo salvo. Para abrir no Google Docs: Drive › Novo › Upload.");
+  } catch (e) {
+    const c = e && e.code;
+    toast(c === "declined" ? "Download cancelado." : c === "rate_limited" ? "Já há um download aguardando confirmação." : "Não foi possível gerar o arquivo. Tente de novo.");
+  } finally { b.disabled = false; b.textContent = "Baixar lista (.docx)"; }
+});
+
+$("listBtn").addEventListener("click", () => { renderPanel(); $("overlay").hidden = false; $("closePanel").focus(); });
+$("closePanel").addEventListener("click", () => $("overlay").hidden = true);
+$("overlay").addEventListener("click", e => { if (e.target === $("overlay")) $("overlay").hidden = true; });
+$("clearList").addEventListener("click", () => { state.list = []; saveList(); renderPanel(); renderViewer(); });
+$("topicSearch").addEventListener("input", e => { state.search = e.target.value; renderAreas(); });
+$("toggleFilters").addEventListener("click", e => { const f = $("filters"); f.classList.toggle("open"); e.currentTarget.setAttribute("aria-expanded", f.classList.contains("open")); });
+document.addEventListener("keydown", e => {
+  if (e.key === "Escape") $("overlay").hidden = true;
+  if (!$("overlay").hidden || /INPUT|TEXTAREA|SELECT/.test(document.activeElement.tagName) && document.activeElement.type !== "range") return;
+  if (e.key === "ArrowRight") go(1); if (e.key === "ArrowLeft") go(-1);
+});
+
+saveList();
+renderAll();
+(async () => {
+  const c = window.claude;
+  if (!c || !c.use) { state.ready = true; state.downloads = null; renderViewer(); return; }
+  const [db, dl] = await Promise.all([c.use("db"), c.use("downloads")]);
+  state.downloads = dl;
+  if (!db) { state.ready = true; renderViewer(); return; }
+  db.collection("questoes").onSnapshot(snap => {
+    state.qs = snap.docs.map(d => ({ _id: d.id, ...d.data() }));
+    state.ready = true;
+    const ids = new Set(state.qs.map(q => q._id));
+    const before = state.list.length; state.list = state.list.filter(id => ids.has(id)); if (state.list.length !== before) saveList();
+    renderAll();
+  }, () => { state.ready = true; renderViewer(); });
+})();
+</script>

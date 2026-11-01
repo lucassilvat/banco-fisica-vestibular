@@ -1,0 +1,22 @@
+{
+  "id": "unicamp-2026-q08",
+  "banca": "Unicamp",
+  "ano": 2026,
+  "numero": "8",
+  "fase": "1ª fase · Prova Q",
+  "fonte": {
+    "descricao": "Comvest, Vestibular Unicamp 2026, 1ª fase, caderno de questões (prova Q)"
+  },
+  "enunciado": "A uniformidade da temperatura em um ambiente refrigerado depende, além do bom funcionamento do aparelho de ar condicionado, de uma instalação adequada, visando a uma transferência de calor eficiente. Isso pode ser verificado pelo instalador utilizando um termômetro de infravermelho para inspecionar diferentes áreas do recinto. Analise as <u>afirmativas</u> 1, 2, 3 e 4 sobre os mecanismos de transferência de calor: condução, convecção e radiação.\n\n1) A transferência de calor por condução térmica pode ocorrer tanto no vácuo quanto em um meio material.\n\n2) A taxa de condução de calor em uma barra não depende da diferença entre as temperaturas de suas extremidades.\n\n3) A convecção consiste no transporte de energia térmica de uma região para outra por meio do deslocamento de uma massa de fluido.\n\n4) A transferência de calor por radiação térmica pode ocorrer tanto no vácuo quanto em um meio material.\n\nAs <u>afirmativas</u> corretas são:\n\na) 1 e 2.\nb) 1 e 4.\nc) 2 e 3.\nd) 3 e 4.",
+  "figuras": [],
+  "gabarito": "D",
+  "gabaritoFonte": "prova-comentada-oficial",
+  "resolucao": "1. Afirmativa 1 é falsa: a condução exige um meio material (não ocorre no vácuo).\n2. Afirmativa 2 é falsa: pela Lei de Fourier, a taxa de condução é proporcional à diferença de temperatura entre as extremidades.\n3. Afirmativa 3 é verdadeira: convecção é o transporte de energia pelo deslocamento de massa de fluido.\n4. Afirmativa 4 é verdadeira: a radiação (ondas eletromagnéticas) se propaga no vácuo e em meios materiais.\nCorretas: 3 e 4.",
+  "topicos": [
+    "conducao-termica-lei-de-fourier",
+    "conveccao-e-irradiacao-termica"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-10-06T17:30:00.000Z",
+  "atualizadoEm": "2026-10-06T17:30:00.000Z"
+}

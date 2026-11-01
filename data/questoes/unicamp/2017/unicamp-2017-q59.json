@@ -1,0 +1,25 @@
+{
+  "id": "unicamp-2017-q59",
+  "banca": "Unicamp",
+  "ano": 2017,
+  "numero": "59",
+  "fase": "1ª fase",
+  "fonte": {
+    "descricao": "Comvest, Vestibular Unicamp 2017, 1ª fase, caderno de questões"
+  },
+  "enunciado": "Hoje é comum encontrarmos equipamentos de exercício físico em muitas praças públicas do Brasil. Esses equipamentos são voltados para pessoas de todas as idades, mas, em particular, para pessoas da terceira idade. São equipamentos exclusivamente mecânicos, sem uso de partes elétricas, em que o esforço consiste usualmente em levantar o próprio peso do praticante. Considere o esquema abaixo, em que uma pessoa de massa m = 65 kg está parada e com a perna esticada em um equipamento tipicamente encontrado nessas praças. O módulo da força <i>F</i>⃗ exercida pela perna da pessoa em razão de sua massa m é\n(Se necessário, utilize g = 10 m/s<sup>2</sup>.)\n[[figura 1]]\n\na) 1300 N.\nb) 750 N.\nc) 325 N.\nd) 560 N.",
+  "figuras": [
+    "unicamp-2017-q59-1.png"
+  ],
+  "gabarito": "C",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. O assento está preso a um braço que pode girar e forma 30° com a vertical. A pessoa fica parada, então a força da perna equilibra a componente do peso perpendicular ao braço.\n2. Essa componente vale <i>P</i> sen 30° = 650 · 0,5 = 325 N.\n3. Logo |<i>F</i>| = 325 N.",
+  "topicos": [
+    "equilibrio-do-ponto-material",
+    "vetores-soma-e-decomposicao",
+    "forca-peso-e-forca-normal"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-10-07T11:30:00.000Z",
+  "atualizadoEm": "2026-10-07T11:30:00.000Z"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "unicamp-2026-q11",
+  "banca": "Unicamp",
+  "ano": 2026,
+  "numero": "11",
+  "fase": "1ª fase · Prova Q",
+  "fonte": {
+    "descricao": "Comvest, Vestibular Unicamp 2026, 1ª fase, caderno de questões (prova Q)"
+  },
+  "enunciado": "<b>Texto para as questões 9, 10 e 11.</b>\n\nAs baterias são fundamentais no mundo moderno, sendo a fonte de energia portátil que alimenta dispositivos como celulares e <i>laptops</i>, veículos elétricos e sistemas de armazenamento de energia renovável. Duas grandezas que caracterizam uma bateria é a sua capacidade de carga elétrica, expressa em miliampère-hora (mAh) e a energia que ela armazena, usualmente dada em watts-hora (Wh).\n\nOutra bateria totalmente carregada armazena uma energia <i>E<sub>b</sub></i> = 15 Wh. Devemos elevar uma massa <i>m</i> = 45 kg até a altura <i>y</i>, em relação ao solo, para que a variação da energia potencial gravitacional <i>E<sub>p</sub></i> desse sistema mecânico seja igual à energia armazenada nessa bateria. A altura <i>y</i> deve ser\n\nDado: <i>g</i> = 10 m/s<sup>2</sup>.\n\na) 0,03 m.\nb) 3 m.\nc) 120 m.\nd) 1 200 m.",
+  "figuras": [],
+  "gabarito": "C",
+  "gabaritoFonte": "prova-comentada-oficial",
+  "resolucao": "1. Converta a energia da bateria: <i>E</i><sub>b</sub> = 15 Wh = 15 · 3600 J = 54 000 J.\n2. Iguale à energia potencial: <i>m g y</i> = <i>E</i><sub>b</sub> ⇒ <i>y</i> = 54 000/(45 · 10) = 120 m.",
+  "topicos": [
+    "energia-potencial-gravitacional",
+    "energia-eletrica-e-consumo-kwh-conta-de-luz",
+    "grandezas-fisicas-e-sistema-internacional"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-10-06T17:30:00.000Z",
+  "atualizadoEm": "2026-10-06T17:30:00.000Z"
+}

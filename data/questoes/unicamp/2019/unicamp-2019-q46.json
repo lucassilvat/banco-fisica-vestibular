@@ -1,0 +1,21 @@
+{
+  "id": "unicamp-2019-q46",
+  "banca": "Unicamp",
+  "ano": 2019,
+  "numero": "46",
+  "fase": "1ª fase",
+  "fonte": {
+    "descricao": "Comvest, Vestibular Unicamp 2019, 1ª fase, caderno de questões"
+  },
+  "enunciado": "<b>Nas questões seguintes, sempre que necessário, use aceleração da gravidade g = 10 m/s<sup>2</sup>, aproxime π = 3,0 e 1 atm =10<sup>5</sup> Pa.</b>\n\nAs cirurgias corretivas a <i>laser</i> para a visão estão cada vez mais eficientes. A técnica corretiva mais moderna é baseada na extração de um pequeno filamento da córnea, modificando a sua curvatura. No caso de uma cirurgia para correção de miopia, o procedimento é feito para deixar a córnea mais plana. Assinale a alternativa que explica corretamente o processo de correção da miopia.\n\na) Na miopia, a imagem do ponto remoto se forma antes da retina e a cirurgia visa a aumentar a distância focal da lente efetiva do olho.\nb) Na miopia, a imagem do ponto remoto se forma depois da retina e a cirurgia visa a aumentar a distância focal da lente efetiva do olho.\nc) Na miopia, a imagem do ponto remoto se forma depois da retina e a cirurgia visa a diminuir a distância focal da lente efetiva do olho.\nd) Na miopia, a imagem do ponto remoto se forma antes da retina e a cirurgia visa a diminuir a distância focal da lente efetiva do olho.",
+  "figuras": [],
+  "gabarito": "A",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. O olho míope é convergente demais: a imagem de objetos distantes se forma antes da retina.\n2. Deixar a córnea mais plana reduz a convergência (vergência), ou seja, aumenta a distância focal do sistema óptico do olho.",
+  "topicos": [
+    "optica-da-visao-e-defeitos-visuais"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-10-07T11:30:00.000Z",
+  "atualizadoEm": "2026-10-07T11:30:00.000Z"
+}

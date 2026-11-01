@@ -1,0 +1,29 @@
+{
+  "id": "unicamp-2024-q40",
+  "banca": "Unicamp",
+  "ano": 2024,
+  "numero": "40",
+  "fase": "1ª fase · Prova Q",
+  "fonte": {
+    "descricao": "Comvest, Vestibular Unicamp 2024, 1ª fase, caderno de questões (prova Q)"
+  },
+  "enunciado": "Use os valores aproximados: <i>g</i> = 10 m/s<sup>2</sup> e π = 3.\n\n<b>Texto comum às questões 39 e 40.</b>\n\nA neurotransmissão no organismo humano pode ter origem química ou elétrica. O entendimento das sinapses elétricas ocorreu só mais recentemente, graças a estudos avançados das propriedades elétricas dos neurônios. As propriedades mecânicas dos neurônios – como a elasticidade – são, por seu turno, importantes para a compreensão do desenvolvimento deles.\n\nEm um experimento destinado a investigar propriedades elásticas, uma diminuta ponta aplica uma força <i>F</i>⃗ na superfície do neurônio, produzindo uma deformação Δ<i>L</i> de forma análoga a uma mola (ver figura). Foram estudados dois neurônios distintos, designados pelos índices 1 e 2, que foram submetidos à ação de forças idênticas (<i>F</i>⃗<sub>1</sub> = <i>F</i>⃗<sub>2</sub>). As deformações observadas foram Δ<i>L</i><sub>1</sub> = 20 nm e Δ<i>L</i><sub>2</sub> = 30 nm. Se <i>k</i><sub>1</sub> = 9,0 × 10<sup>−6</sup> N/m é a constante elástica para o neurônio 1, pode-se deduzir que o valor de <i>k</i><sub>2</sub> é\n[[figura 1]]\n\na) 4,0 × 10<sup>−6</sup> N/m.\nb) 6,0 × 10<sup>−6</sup> N/m.\nc) 13,5 × 10<sup>−6</sup> N/m.\nd) 20,25 × 10<sup>−6</sup> N/m.",
+  "figuras": [
+    "unicamp-2024-q40-1.png"
+  ],
+  "gabarito": "B",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. Lei de Hooke com forças iguais: <i>k</i><sub>1</sub>Δ<i>L</i><sub>1</sub> = <i>k</i><sub>2</sub>Δ<i>L</i><sub>2</sub>.\n2. <i>k</i><sub>2</sub> = 9,0 × 10<sup>−6</sup> · 20/30 = 6,0 × 10<sup>−6</sup> N/m.",
+  "topicos": [
+    "forca-elastica-lei-de-hooke"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-10-06T17:30:00.000Z",
+  "atualizadoEm": "2026-10-06T17:30:00.000Z",
+  "revisao": {
+    "divergenciasAceitas": [
+      "elásticas"
+    ],
+    "notas": "palavra hifenizada na quebra de linha"
+  }
+}

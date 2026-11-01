@@ -1,0 +1,25 @@
+{
+  "id": "unicamp-2025-q10",
+  "banca": "Unicamp",
+  "ano": 2025,
+  "numero": "10",
+  "fase": "1ª fase · Prova Q",
+  "fonte": {
+    "descricao": "Comvest, Vestibular Unicamp 2025, 1ª fase, caderno de questões (prova Q)"
+  },
+  "enunciado": "<b>Texto comum às questões 9 e 10.</b>\n\nOs últimos anos testemunharam a retomada do interesse de alguns países pela exploração da Lua. Diversas missões com destino a esse satélite foram lançadas: Chandrayaan-3 (Índia, 2023), Luna 25 (Rússia, 2023), Peregrine Mission One (EUA, 2024), Slim (Japão, 2024) e Chang′e 6 (China, 2024).\n\nAo longo da linha que une o centro da Terra ao da Lua (ver figura A), há um ponto P para o qual as forças gravitacionais da Terra, <i>F</i>⃗<sub>Terra</sub>, e da Lua, <i>F</i>⃗<sub>Lua</sub>, exercidas sobre uma sonda, têm módulos iguais e sentidos opostos. Isso significa que, no ponto P, essas duas forças se cancelam.\n[[figura 1]]\nO gráfico da figura B representa a componente da aceleração resultante <i>a</i> das forças <i>F</i>⃗<sub>Terra</sub> e <i>F</i>⃗<sub>Lua</sub> ao longo da referida linha, sendo <i>r</i> a distância ao centro da Terra e <i>d</i> ≃ 380 000 km a distância Terra-Lua. Valores positivos de <i>a</i> indicam que o vetor aceleração aponta para a Lua, enquanto que valores negativos de <i>a</i> implicam que esse vetor aponta para a Terra.\n[[figura 2]]\nO ponto P fica aproximadamente a que distância do centro da Lua?\n\na) 38 000 km.\nb) 114 000 km.\nc) 266 000 km.\nd) 342 000 km.",
+  "figuras": [
+    "unicamp-2025-q10-1.png",
+    "unicamp-2025-q10-2.png"
+  ],
+  "gabarito": "A",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. Em P a resultante é nula, logo <i>a</i> = 0. No gráfico, isso ocorre em <i>r</i>/<i>d</i> ≈ 0,9.\n2. Distância ao centro da Terra: <i>r</i> ≈ 0,9 · 380 000 = 342 000 km.\n3. Distância ao centro da Lua: <i>d</i> − <i>r</i> ≈ 0,1 · 380 000 = 38 000 km.",
+  "topicos": [
+    "lei-da-gravitacao-universal",
+    "leitura-e-interpretacao-de-graficos"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-10-06T17:30:00.000Z",
+  "atualizadoEm": "2026-10-06T17:30:00.000Z"
+}

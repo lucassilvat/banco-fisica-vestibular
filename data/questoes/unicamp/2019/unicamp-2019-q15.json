@@ -1,0 +1,21 @@
+{
+  "id": "unicamp-2019-q15",
+  "banca": "Unicamp",
+  "ano": 2019,
+  "numero": "15",
+  "fase": "1ª fase",
+  "fonte": {
+    "descricao": "Comvest, Vestibular Unicamp 2019, 1ª fase, caderno de questões"
+  },
+  "enunciado": "Na opinião de Klaus R. Mecke, professor no Instituto de Física Teórica da Universidade de Stuttgart, Alemanha, o uso da linguagem da física na literatura obedeceria ao seguinte propósito:\n\nUma função literária central da fórmula seria simbolizar a violência. A fórmula torna-se metáfora para a violência, para o calculismo desumano, para a morte e para a fria mecânica - para o golpe de força. Recorde-se também <i>O Pêndulo de Foucault</i>, de Umberto Eco, em que a fórmula do pêndulo caracteriza o estrangulamento de um ser humano. Passo a citar: “O período de oscilação, T, é independente da massa do corpo suspenso (igualdade de todos os homens perante Deus)...”. Também aqui a fórmula constitui uma referência irônica à marginalização do sujeito, reduzido à “massa inerte” suspensa.\n\n(Adaptado de Klaus R. Mecke, A imagem da Física na Literatura. <i>Gazeta de Física</i>, 2004, p. 6-7.)\n\nSegundo Mecke, a função literária de algumas noções da Física, presentes em determinados romances, expressa\n\na) a falta de liberdade do sujeito nas relações sociais, mas o uso da independência do período do pêndulo simples com a massa do corpo suspenso, feito por Umberto Eco, está incorreto.\nb) a revogação parcial das leis da natureza, e o uso da independência do período do pêndulo simples com a massa do corpo suspenso, feito por Umberto Eco, está correto.\nc) a concordância quanto ao modo como representamos a natureza, mas o uso da independência do período do pêndulo simples com a massa do corpo suspenso, feito por Umberto Eco, está incorreto.\nd) a privação da liberdade do ser humano, e o uso da independência do período do pêndulo simples com a massa do corpo suspenso, feito por Umberto Eco, está correto.",
+  "figuras": [],
+  "gabarito": "D",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. Física: o período do pêndulo simples (para pequenas oscilações) é <i>T</i> = 2π√(<i>L</i>/<i>g</i>), que não depende da massa do corpo suspenso. O uso feito por Umberto Eco está correto (descarta a e c).\n2. Leitura: Mecke associa a fórmula à violência e à “marginalização do sujeito, reduzido à ‘massa inerte’ suspensa”, ou seja, à privação da liberdade do ser humano, e não a uma revogação das leis da natureza.\n3. Alternativa d.",
+  "topicos": [
+    "pendulo-simples"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-10-07T11:35:00.000Z",
+  "atualizadoEm": "2026-10-07T11:35:00.000Z"
+}

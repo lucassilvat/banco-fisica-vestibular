@@ -1,0 +1,24 @@
+{
+  "id": "unicamp-2017-q61",
+  "banca": "Unicamp",
+  "ano": 2017,
+  "numero": "61",
+  "fase": "1ª fase",
+  "fonte": {
+    "descricao": "Comvest, Vestibular Unicamp 2017, 1ª fase, caderno de questões"
+  },
+  "enunciado": "Fazer vácuo significa retirar o ar existente em um volume fechado. Esse processo é usado, por exemplo, para conservar alimentos ditos embalados a vácuo ou para criar ambientes controlados para experimentos científicos. A figura abaixo representa um pistão que está sendo usado para fazer vácuo em uma câmara de volume constante V<sub>C</sub> = 2,0 litros. O pistão, ligado à câmara por uma válvula A, aumenta o volume que pode ser ocupado pelo ar em V<sub>P</sub> = 0,2 litros. Em seguida, a válvula A é fechada e o ar que está dentro do pistão é expulso através de uma válvula B, ligada à atmosfera, completando um ciclo de bombeamento. Considere que o ar se comporte como um gás ideal e que, durante o ciclo completo, a temperatura não variou. Se a pressão inicial na câmara é de P<sub>i</sub> = 33 Pa, a pressão final na câmara após um ciclo de bombeamento será de\n[[figura 1]]\n\na) 30,0 Pa.\nb) 330,0 Pa.\nc) 36,3 Pa.\nd) 3,3 Pa.",
+  "figuras": [
+    "unicamp-2017-q61-1.png"
+  ],
+  "gabarito": "A",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. Com a válvula A aberta, o ar da câmara se expande isotermicamente de 2,0 L para 2,2 L: <i>P</i><sub>i</sub><i>V</i><sub>C</sub> = <i>P</i><sub>f</sub>(<i>V</i><sub>C</sub> + <i>V</i><sub>P</sub>).\n2. <i>P</i><sub>f</sub> = 33 · 2,0/2,2 = 30 Pa. Fechada a válvula A, o ar retirado pelo pistão não volta e a câmara fica com 30 Pa.",
+  "topicos": [
+    "transformacoes-gasosas-isotermica-isobarica-isocorica-adiabatica",
+    "gas-ideal-e-equacao-de-clapeyron"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-10-07T11:30:00.000Z",
+  "atualizadoEm": "2026-10-07T11:30:00.000Z"
+}

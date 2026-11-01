@@ -1,0 +1,22 @@
+{
+  "id": "unicamp-2024-q35",
+  "banca": "Unicamp",
+  "ano": 2024,
+  "numero": "35",
+  "fase": "1ª fase · Prova Q",
+  "fonte": {
+    "descricao": "Comvest, Vestibular Unicamp 2024, 1ª fase, caderno de questões (prova Q)"
+  },
+  "enunciado": "Use os valores aproximados: <i>g</i> = 10 m/s<sup>2</sup> e π = 3.\n\n<b>Texto comum às questões 34, 35, 36 e 37.</b>\n\nUma das etapas mais difíceis de um voo espacial tripulado é a reentrada na atmosfera terrestre. Ao reencontrar as camadas mais altas da atmosfera, a nave sofre forte desaceleração e sua temperatura externa atinge milhares de graus Celsius. Caso a reentrada não ocorra dentro das condições apropriadas, há risco de graves danos à nave, inclusive de explosão, e até mesmo risco de ela ser lançada de volta ao espaço.\n\nApós viajar pela atmosfera por determinado tempo, o módulo da velocidade da cápsula, que inicialmente era <i>v</i><sub>0</sub> = 7000 m/s, fica reduzido a <i>v</i> = 5000 m/s. Sendo a massa da cápsula <i>m</i> = 3000 kg, qual foi o trabalho da força resultante sobre a cápsula durante esse tempo?\n\na) −11,1 × 10<sup>10</sup> J.\nb) −3,60 × 10<sup>10</sup> J.\nc) −6,00 × 10<sup>6</sup> J.\nd) −3,00 × 10<sup>6</sup> J.",
+  "figuras": [],
+  "gabarito": "B",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. Teorema da energia cinética: τ<sub>R</sub> = Δ<i>E</i><sub>c</sub> = <i>m</i>(<i>v</i><sup>2</sup> − <i>v</i><sub>0</sub><sup>2</sup>)/2.\n2. τ<sub>R</sub> = 3000 · (5000<sup>2</sup> − 7000<sup>2</sup>)/2 = 1500 · (25 − 49) × 10<sup>6</sup> = −3,60 × 10<sup>10</sup> J.",
+  "topicos": [
+    "energia-cinetica-e-teorema-trabalho-energia",
+    "trabalho-de-uma-forca"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-10-06T17:30:00.000Z",
+  "atualizadoEm": "2026-10-06T17:30:00.000Z"
+}

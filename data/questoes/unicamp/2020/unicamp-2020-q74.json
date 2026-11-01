@@ -1,0 +1,24 @@
+{
+  "id": "unicamp-2020-q74",
+  "banca": "Unicamp",
+  "ano": 2020,
+  "numero": "74",
+  "fase": "1ª fase",
+  "fonte": {
+    "descricao": "Comvest, Vestibular Unicamp 2020, 1ª fase, caderno de questões"
+  },
+  "enunciado": "<b>Obs.: para as questões de 70 a 79, aproxime π = 3,0 sempre que necessário.</b>\n\nAs escadas flutuantes em cascata feitas em concreto armado são um elemento arquitetônico arrojado, que confere leveza a uma estrutura intrinsecamente massiva. Essas escadas são apoiadas somente na extremidade superior (normalmente em uma parede) e no chão. O esquema abaixo mostra as forças aplicadas na escada pela parede (<i>F</i>⃗<sub>P</sub>) e pelo chão (<i>F</i>⃗<sub>C</sub>), além da força peso (<i>mg</i>⃗) aplicada pela Terra, todas pertencentes a um plano vertical.\n[[figura 1]]\nCom base nesse esquema, é correto afirmar que\n\na) <i>F</i><sub>P</sub> cos<i>θ</i><sub>P</sub> = <i>F</i><sub>C</sub> cos<i>θ</i><sub>C</sub> e <i>F</i><sub>P</sub> sen<i>θ</i><sub>P</sub> + <i>F</i><sub>C</sub> sen<i>θ</i><sub>C</sub> = <i>mg</i>.\nb) <i>F</i><sub>P</sub> sen<i>θ</i><sub>P</sub> = <i>F</i><sub>C</sub> sen<i>θ</i><sub>C</sub> e <i>F</i><sub>P</sub> cos<i>θ</i><sub>P</sub> + <i>F</i><sub>C</sub> cos<i>θ</i><sub>C</sub> = <i>mg</i>.\nc) <i>F</i><sub>P</sub> cos<i>θ</i><sub>P</sub> = <i>F</i><sub>C</sub> cos<i>θ</i><sub>C</sub> e <i>F</i><sub>P</sub> + <i>F</i><sub>C</sub> = <i>mg</i>.\nd) <i>F</i><sub>P</sub> = <i>F</i><sub>C</sub> e <i>F</i><sub>P</sub> sen<i>θ</i><sub>P</sub> + <i>F</i><sub>C</sub> sen<i>θ</i><sub>C</sub> = <i>mg</i>.",
+  "figuras": [
+    "unicamp-2020-q74-1.png"
+  ],
+  "gabarito": "A",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. Escada em equilíbrio: resultante nula. Os ângulos <i>θ</i><sub>P</sub> e <i>θ</i><sub>C</sub> são medidos em relação à horizontal.\n2. Horizontal: as componentes <i>F</i><sub>P</sub> cos<i>θ</i><sub>P</sub> (para um lado) e <i>F</i><sub>C</sub> cos<i>θ</i><sub>C</sub> (para o outro) se anulam.\n3. Vertical: <i>F</i><sub>P</sub> sen<i>θ</i><sub>P</sub> + <i>F</i><sub>C</sub> sen<i>θ</i><sub>C</sub> = <i>mg</i>.",
+  "topicos": [
+    "equilibrio-do-corpo-extenso",
+    "vetores-soma-e-decomposicao"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-10-07T11:30:00.000Z",
+  "atualizadoEm": "2026-10-07T11:30:00.000Z"
+}

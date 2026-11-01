@@ -1,0 +1,23 @@
+{
+  "id": "unicamp-2018-q40",
+  "banca": "Unicamp",
+  "ano": 2018,
+  "numero": "40",
+  "fase": "1ª fase",
+  "fonte": {
+    "descricao": "Comvest, Vestibular Unicamp 2018, 1ª fase, caderno de questões"
+  },
+  "enunciado": "<b>Sempre que necessário, use aceleração da gravidade g = 10 m/s<sup>2</sup>.</b>\n\nSituado na costa peruana, Chankillo, o mais antigo observatório das Américas, é composto por treze torres que se alinham de norte a sul ao longo de uma colina. Em 21 de dezembro, quando ocorre o solstício de verão no Hemisfério Sul, o Sol nasce à direita da primeira torre (sul), na extrema direita, a partir de um ponto de observação definido. À medida que os dias passam, a posição em que o Sol nasce se desloca entre as torres rumo à esquerda (norte). Pode-se calcular o dia do ano, observando-se qual torre coincide com a posição do Sol ao amanhecer. Em 21 de junho, solstício de inverno no Hemisfério Sul, o Sol nasce à esquerda da última torre na extrema esquerda e, à medida que os dias passam, vai se movendo rumo à direita, para reiniciar o ciclo no dezembro seguinte. Sabendo que as torres de Chankillo se posicionam ao longo de 300 metros no eixo norte-sul, a velocidade escalar média com a qual a posição do nascer do Sol se desloca através das torres é de aproximadamente\n[[figura 1]]\n\na) 0,8 m/dia.\nb) 1,6 m/dia.\nc) 25 m/dia.\nd) 50 m/dia.",
+  "figuras": [
+    "unicamp-2018-q40-1.png"
+  ],
+  "gabarito": "B",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. De 21 de dezembro a 21 de junho (meio ano ≈ 182 dias) a posição percorre os 300 m.\n2. <i>v</i><sub>m</sub> ≈ 300/182 ≈ 1,6 m/dia.",
+  "topicos": [
+    "velocidade-media-e-aceleracao-media"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-10-07T11:30:00.000Z",
+  "atualizadoEm": "2026-10-07T11:30:00.000Z"
+}

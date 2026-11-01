@@ -1,0 +1,21 @@
+{
+  "id": "unicamp-2025-q14",
+  "banca": "Unicamp",
+  "ano": 2025,
+  "numero": "14",
+  "fase": "1ª fase · Prova Q",
+  "fonte": {
+    "descricao": "Comvest, Vestibular Unicamp 2025, 1ª fase, caderno de questões (prova Q)"
+  },
+  "enunciado": "<b>Texto comum às questões 13 e 14.</b>\n\nA energia solar desempenha papel substancial nas soluções energéticas de desenvolvimento sustentável: além de fazer uso de tecnologia pouco agressiva ao ambiente, é uma enorme fonte de energia renovável.\n\nA área de um painel solar que gera uma potência elétrica <i>P</i> = 462 W é <i>A</i> = 2,5 m<sup>2</sup>. A intensidade da radiação solar que incide no painel, ou seja, a potência da radiação solar por unidade de área do painel, é <i>I</i><sub>solar</sub> = 924 W/m<sup>2</sup>. Qual é a eficiência do painel solar, ou seja, qual é a razão entre a energia elétrica gerada e a energia solar que incide no painel num dado intervalo de tempo?\n\na) 5 %.\nb) 20 %.\nc) 50 %.\nd) 80 %.",
+  "figuras": [],
+  "gabarito": "B",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. Potência solar incidente: <i>P</i><sub>inc</sub> = <i>I</i><sub>solar</sub> · <i>A</i> = 924 · 2,5 = 2310 W.\n2. Para o mesmo intervalo de tempo, a razão entre energias é a razão entre potências: η = 462/2310 = 0,20 = 20 %.",
+  "topicos": [
+    "potencia-e-rendimento"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-10-06T17:30:00.000Z",
+  "atualizadoEm": "2026-10-06T17:30:00.000Z"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "unicamp-2022-q60",
+  "banca": "Unicamp",
+  "ano": 2022,
+  "numero": "60",
+  "fase": "1ª fase",
+  "fonte": {
+    "descricao": "Comvest, Vestibular Unicamp 2022, 1ª fase, caderno de questões"
+  },
+  "enunciado": "<b><i>Sempre que necessário aproxime π = 3.</i></b>\n\n<b><u>USE O TEXTO A SEGUIR PARA RESPONDER ÀS QUESTÕES 59 E 60.</u></b>\n\nEm abril de 2021 faleceu o astronauta norte-americano Michael Collins, integrante da missão Apolo 11, que levou o primeiro homem à Lua. Enquanto os dois outros astronautas da missão, Neil Armstrong e Buzz Aldrin, desceram até a superfície lunar, Collins permaneceu em órbita lunar pilotando o Módulo de Comando Columbia.\n\nA viagem desde o Columbia até a superfície da Lua foi realizada no Módulo Lunar Eagle, formado por dois estágios: um usado na descida e outro, na subida. A massa seca do estágio de subida, ou seja, sem contar a massa do combustível (quase totalmente consumido na viagem de volta), era <i>m</i> ≃ 2500 kg. Considere que o módulo da aceleração gravitacional seja aproximadamente constante e dado por <i>g</i> ≃ <i>g</i><sub>orb</sub> = 1,4 m/s<sup>2</sup> desde a superfície lunar até a órbita do Columbia, que se situava a uma altitude <i>h</i> = 110 km. Qual é a variação da energia potencial gravitacional do estágio de subida (massa seca que reencontra o Columbia) na viagem de volta?\n\na) 3,85 × 10<sup>5</sup> J.\nb) 2,75 × 10<sup>8</sup> J.\nc) 3,85 × 10<sup>8</sup> J.\nd) 2,75 × 10<sup>9</sup> J.",
+  "figuras": [],
+  "gabarito": "C",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. Com <i>g</i> constante, Δ<i>E</i><sub>p</sub> = <i>m g h</i>.\n2. Converta a altitude: <i>h</i> = 110 km = 1,1 × 10<sup>5</sup> m.\n3. Δ<i>E</i><sub>p</sub> = 2500 · 1,4 · 1,1 × 10<sup>5</sup> = 3,85 × 10<sup>8</sup> J.",
+  "topicos": [
+    "energia-potencial-gravitacional"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-10-06T17:30:00.000Z",
+  "atualizadoEm": "2026-10-06T17:30:00.000Z"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "unicamp-2018-q39",
+  "banca": "Unicamp",
+  "ano": 2018,
+  "numero": "39",
+  "fase": "1ª fase",
+  "fonte": {
+    "descricao": "Comvest, Vestibular Unicamp 2018, 1ª fase, caderno de questões"
+  },
+  "enunciado": "A figura abaixo ilustra uma alavanca que gira em torno do ponto <b>O</b>. Dois triângulos, do mesmo material e de mesma espessura, estão presos por fios de massa desprezível nos extremos da alavanca. Um triângulo é equilátero; o outro é retângulo e isósceles, e sua hipotenusa tem o mesmo comprimento que os lados do triângulo equilátero. Note que, neste caso, o peso dos objetos é proporcional à sua área. Conclui-se que, na condição de equilíbrio da alavanca, a razão das distâncias, i/e, é igual a\n[[figura 1]]\n\na) √3.\nb) √3/3.\nc) 2.\nd) 3.",
+  "figuras": [
+    "unicamp-2018-q39-1.png"
+  ],
+  "gabarito": "A",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. Seja <i>L</i> o lado do equilátero. Áreas: equilátero (√3/4)<i>L</i><sup>2</sup>; retângulo isósceles de hipotenusa <i>L</i> (catetos <i>L</i>/√2): <i>L</i><sup>2</sup>/4.\n2. Equilíbrio de momentos em O: <i>P</i><sub>e</sub> · e = <i>P</i><sub>i</sub> · i ⇒ i/e = <i>P</i><sub>e</sub>/<i>P</i><sub>i</sub>.\n3. i/e = (√3/4)/(1/4) = √3.",
+  "topicos": [
+    "momento-de-uma-forca-torque",
+    "alavancas-e-maquinas-simples",
+    "equilibrio-do-corpo-extenso"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-10-07T11:30:00.000Z",
+  "atualizadoEm": "2026-10-07T11:30:00.000Z"
+}

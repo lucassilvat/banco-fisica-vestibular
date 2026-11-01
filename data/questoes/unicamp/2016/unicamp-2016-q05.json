@@ -1,0 +1,21 @@
+{
+  "id": "unicamp-2016-q05",
+  "banca": "Unicamp",
+  "ano": 2016,
+  "numero": "5",
+  "fase": "1ª fase · Prova Q",
+  "fonte": {
+    "descricao": "Comvest, Vestibular Unicamp 2016, 1ª fase, caderno de questões (prova Q)"
+  },
+  "enunciado": "O Teatro de Luz Negra, típico da República Tcheca, é um tipo de representação cênica caracterizada pelo uso do cenário escuro com uma iluminação estratégica dos objetos exibidos. No entanto, o termo Luz Negra é fisicamente incoerente, pois a coloração negra é justamente a ausência de luz. A luz branca é a composição de luz com vários comprimentos de onda e a cor de um corpo é dada pelo comprimento de onda da luz que ele predominantemente reflete. Assim, um quadro que apresente as cores azul e branca quando iluminado pela luz solar, ao ser iluminado por uma luz monocromática de comprimento de onda correspondente à cor amarela, apresentará, respectivamente, uma coloração\n\na) amarela e branca.\nb) negra e amarela.\nc) azul e negra.\nd) totalmente negra.",
+  "figuras": [],
+  "gabarito": "B",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. A região azul reflete apenas o azul; sob luz amarela monocromática, absorve tudo e aparece <b>negra</b>.\n2. A região branca reflete todas as cores; sob luz amarela, reflete o amarelo e aparece <b>amarela</b>.",
+  "topicos": [
+    "cor-dos-objetos"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-10-07T11:30:00.000Z",
+  "atualizadoEm": "2026-10-07T11:30:00.000Z"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "unicamp-2021b-q54",
+  "banca": "Unicamp",
+  "ano": 2021,
+  "versao": "B",
+  "numero": "54",
+  "fase": "1ª fase · Biológicas e Saúde",
+  "fonte": {
+    "descricao": "Comvest, Vestibular Unicamp 2021, 1ª fase, Conhecimentos Gerais – Biológicas e Saúde (provas Q e Z)"
+  },
+  "enunciado": "Nas questões de 49 a 56, sempre que necessário, use π = 3 e <i>g</i> = 10 m/s<sup>2</sup>.\n\n<b>Texto comum para questões 54, 55 e 56.</b>\n\nLâmpadas de luz ultravioleta (UV) são indicadas para higienização e esterilização de objetos e ambientes em razão do seu potencial germicida.\n\nConsidere uma lâmpada UV de potência <i>P</i> = 100 W que funcione por Δ<i>t</i> = 15 minutos durante o processo de esterilização de um objeto. A energia elétrica consumida pela lâmpada nesse processo é igual a\n\na) 0,0066 kWh.\nb) 0,015 kWh.\nc) 0,025 kWh.\nd) 1,5 kWh.",
+  "figuras": [],
+  "gabarito": "C",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "<i>E</i> = <i>P</i>Δ<i>t</i> = 0,1 kW · 0,25 h = 0,025 kWh.",
+  "topicos": [
+    "energia-eletrica-e-consumo-kwh-conta-de-luz"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-10-07T11:30:00.000Z",
+  "atualizadoEm": "2026-10-07T11:30:00.000Z"
+}

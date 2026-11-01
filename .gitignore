@@ -1,0 +1,7 @@
+# PDFs oficiais (direitos da banca, arquivos grandes): guardados localmente, registrados no manifesto
+fontes/
+# área de trabalho temporária de cada importação
+trabalho/
+__pycache__/
+*.pyc
+.DS_Store

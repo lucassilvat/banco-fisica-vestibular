@@ -1,0 +1,22 @@
+{
+  "id": "unicamp-2018-q44",
+  "banca": "Unicamp",
+  "ano": 2018,
+  "numero": "44",
+  "fase": "1ª fase",
+  "fonte": {
+    "descricao": "Comvest, Vestibular Unicamp 2018, 1ª fase, caderno de questões"
+  },
+  "enunciado": "<b>Sempre que necessário, use aceleração da gravidade g = 10 m/s<sup>2</sup>.</b>\n\n“Gelo combustível” ou “gelo de fogo” é como são chamados os hidratos de metano que se formam a temperaturas muito baixas, em condições de pressão elevada. São geralmente encontrados em sedimentos do fundo do mar ou sob a camada de solo congelada dos polos. A considerável reserva de gelo combustível no planeta pode se tornar uma promissora fonte de energia alternativa ao petróleo. Considerando que a combustão completa de certa massa de gelo combustível libera uma quantidade de energia igual a <i>E</i> = 7,2 MJ, é correto afirmar que essa energia é capaz de manter aceso um painel de LEDs de potência <i>P</i> = 2 kW por um intervalo de tempo igual a\n\na) 1 minuto.\nb) 144 s.\nc) 1 hora.\nd) 1 dia.",
+  "figuras": [],
+  "gabarito": "C",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. Δ<i>t</i> = <i>E</i>/<i>P</i> = 7,2 × 10<sup>6</sup> J / 2 × 10<sup>3</sup> W = 3600 s.\n2. 3600 s = 1 hora.",
+  "topicos": [
+    "potencia-e-rendimento",
+    "energia-eletrica-e-consumo-kwh-conta-de-luz"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-10-07T11:30:00.000Z",
+  "atualizadoEm": "2026-10-07T11:30:00.000Z"
+}

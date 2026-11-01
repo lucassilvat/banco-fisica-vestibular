@@ -1,0 +1,26 @@
+{
+  "id": "unicamp-2024-q37",
+  "banca": "Unicamp",
+  "ano": 2024,
+  "numero": "37",
+  "fase": "1ª fase · Prova Q",
+  "fonte": {
+    "descricao": "Comvest, Vestibular Unicamp 2024, 1ª fase, caderno de questões (prova Q)"
+  },
+  "enunciado": "Use os valores aproximados: <i>g</i> = 10 m/s<sup>2</sup> e π = 3.\n\n<b>Texto comum às questões 34, 35, 36 e 37.</b>\n\nUma das etapas mais difíceis de um voo espacial tripulado é a reentrada na atmosfera terrestre. Ao reencontrar as camadas mais altas da atmosfera, a nave sofre forte desaceleração e sua temperatura externa atinge milhares de graus Celsius. Caso a reentrada não ocorra dentro das condições apropriadas, há risco de graves danos à nave, inclusive de explosão, e até mesmo risco de ela ser lançada de volta ao espaço.\n\nA temperatura extremamente elevada no exterior da cápsula ioniza o ar atmosférico à sua volta. Esses íons blindam a cápsula como uma gaiola de Faraday, impedindo, por alguns minutos, a comunicação por ondas eletromagnéticas de rádio (conversas entre a tripulação e a base na Terra, comandos à distância para ajustes de navegação, etc.). O gráfico da figura a seguir mostra que, quanto maior a temperatura do ar externo, <i>T</i><sub>ar</sub>, maior é a frequência limite da onda eletromagnética, <i>f</i><sub>0</sub>, abaixo da qual não se pode estabelecer comunicação com a cápsula. Se a temperatura do ar for <i>T</i><sub>ar</sub> = 4800 K, qual é o comprimento de onda <i>λ</i><sub>0</sub> correspondente à frequência limite <i>f</i><sub>0</sub>?\n\nDado: Velocidade da luz no vácuo: <i>c</i> = 3,0 × 10<sup>8</sup> m/s.\n[[figura 1]]\n\na) 0,06 m.\nb) 16,7 m.\nc) 0,05 m.\nd) 20 m.",
+  "figuras": [
+    "unicamp-2024-q37-1.png"
+  ],
+  "gabarito": "A",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. No gráfico, para <i>T</i><sub>ar</sub> = 4800 K a curva corta a linha de 5 GHz: <i>f</i><sub>0</sub> = 5 × 10<sup>9</sup> Hz.\n2. <i>λ</i><sub>0</sub> = <i>c</i>/<i>f</i><sub>0</sub> = 3,0 × 10<sup>8</sup>/5 × 10<sup>9</sup> = 0,06 m.",
+  "topicos": [
+    "equacao-fundamental-da-ondulatoria-v-f",
+    "espectro-eletromagnetico",
+    "condutores-em-equilibrio-eletrostatico-e-blindagem",
+    "leitura-e-interpretacao-de-graficos"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-10-06T17:30:00.000Z",
+  "atualizadoEm": "2026-10-06T17:30:00.000Z"
+}

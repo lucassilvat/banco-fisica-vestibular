@@ -1,0 +1,31 @@
+{
+  "id": "unicamp-2023-q33",
+  "banca": "Unicamp",
+  "ano": 2023,
+  "numero": "33",
+  "fase": "1ª fase · Prova Q",
+  "fonte": {
+    "descricao": "Comvest, Vestibular Unicamp 2023, 1ª fase, caderno de questões (prova Q)"
+  },
+  "enunciado": "Use os valores aproximados: <i>g</i> = 10 m/s<sup>2</sup> e π = 3.\n\nA pele humana detecta simultaneamente, com uma sensibilidade que sistemas artificiais não conseguem reproduzir, vibrações, forças estáticas, textura e escorregamento de objetos sobre sua superfície. Sensores tácteis que apresentassem respostas análogas à pele humana seriam muito desejáveis. A figura a seguir ilustra um modelo simples, utilizado no estudo da resposta da pele humana. Na referida figura, estão representados o peso <i>P</i>⃗ do bloco, a força normal <i>N</i>⃗, a força de atrito <i>f</i>⃗<sub><i>at</i></sub> aplicada pela superfície da pele no bloco de massa <i>m</i> e uma força externa <i>F</i>⃗ aplicada na mola. A constante de mola é <i>k</i> = 10 N/m, e a massa do bloco é <i>m</i> = 4 g. Na iminência de movimento, a deformação da mola é Δ<i>x</i> = 3 mm em relação ao seu comprimento de equilíbrio. Qual é o coeficiente de atrito estático entre o bloco e a pele?\n[[figura 1]]\n\na) 8,8 × 10<sup>−7</sup>.\nb) 1,1 × 10<sup>−6</sup>.\nc) 7,5 × 10<sup>−1</sup>.\nd) 1,3 × 10<sup>0</sup>.",
+  "figuras": [
+    "unicamp-2023-q33-1.png"
+  ],
+  "gabarito": "C",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. Na iminência de movimento, a força da mola iguala o atrito estático máximo: <i>k</i>Δ<i>x</i> = μ<sub>e</sub> <i>N</i>, com <i>N</i> = <i>m g</i>.\n2. Em unidades do SI: <i>k</i>Δ<i>x</i> = 10 · 3 × 10<sup>−3</sup> = 3 × 10<sup>−2</sup> N; <i>m g</i> = 4 × 10<sup>−3</sup> · 10 = 4 × 10<sup>−2</sup> N.\n3. μ<sub>e</sub> = 3 × 10<sup>−2</sup>/4 × 10<sup>−2</sup> = 0,75 = 7,5 × 10<sup>−1</sup>.",
+  "topicos": [
+    "forca-de-atrito-estatico-e-cinetico",
+    "forca-elastica-lei-de-hooke",
+    "forca-peso-e-forca-normal"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-10-06T17:30:00.000Z",
+  "atualizadoEm": "2026-10-06T17:30:00.000Z",
+  "revisao": {
+    "divergenciasAceitas": [
+      "externa"
+    ],
+    "notas": "palavra hifenizada na quebra de linha (exter-na)"
+  }
+}

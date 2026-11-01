@@ -1,0 +1,24 @@
+{
+  "id": "unicamp-2024-q39",
+  "banca": "Unicamp",
+  "ano": 2024,
+  "numero": "39",
+  "fase": "1ª fase · Prova Q",
+  "fonte": {
+    "descricao": "Comvest, Vestibular Unicamp 2024, 1ª fase, caderno de questões (prova Q)"
+  },
+  "enunciado": "Use os valores aproximados: <i>g</i> = 10 m/s<sup>2</sup> e π = 3.\n\n<b>Texto comum às questões 39 e 40.</b>\n\nA neurotransmissão no organismo humano pode ter origem química ou elétrica. O entendimento das sinapses elétricas ocorreu só mais recentemente, graças a estudos avançados das propriedades elétricas dos neurônios. As propriedades mecânicas dos neurônios – como a elasticidade – são, por seu turno, importantes para a compreensão do desenvolvimento deles.\n\nEm um estudo do comportamento elétrico de neurônios, aplica-se uma diferença de potencial elétrico (ddp, da ordem de 10<sup>−3</sup> V) e mede-se a corrente elétrica (da ordem de 10<sup>−12</sup> A) que passa pelo sistema. A partir dos resultados desse experimento, representados no gráfico da figura a seguir, conclui-se que a resistência elétrica do sistema é igual a\n[[figura 1]]\n\na) 14 Ω.\nb) 70 mΩ.\nc) 70 MΩ.\nd) 14 GΩ.",
+  "figuras": [
+    "unicamp-2024-q39-1.png"
+  ],
+  "gabarito": "D",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. O gráfico é uma reta pela origem (resistor ôhmico): <i>R</i> = <i>U</i>/<i>i</i> em qualquer ponto.\n2. Tomando o ponto (140 mV; 10 pA): <i>R</i> = 140 × 10<sup>−3</sup>/10 × 10<sup>−12</sup> = 1,4 × 10<sup>10</sup> Ω = 14 GΩ.",
+  "topicos": [
+    "primeira-lei-de-ohm",
+    "leitura-e-interpretacao-de-graficos"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-10-06T17:30:00.000Z",
+  "atualizadoEm": "2026-10-06T17:30:00.000Z"
+}

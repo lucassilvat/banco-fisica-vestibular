@@ -1,0 +1,21 @@
+{
+  "id": "unicamp-2016-q10",
+  "banca": "Unicamp",
+  "ano": 2016,
+  "numero": "10",
+  "fase": "1ª fase · Prova Q",
+  "fonte": {
+    "descricao": "Comvest, Vestibular Unicamp 2016, 1ª fase, caderno de questões (prova Q)"
+  },
+  "enunciado": "Beisebol é um esporte que envolve o arremesso, com a mão, de uma bola de 140 g de massa na direção de outro jogador que irá rebatê-la com um taco sólido. Considere que, em um arremesso, o módulo da velocidade da bola chegou a 162 km/h, imediatamente após deixar a mão do arremessador. Sabendo que o tempo de contato entre a bola e a mão do jogador foi de 0,07 s, o módulo da força média aplicada na bola foi de\n\na) 324,0 N.\nb) 90,0 N.\nc) 6,3 N.\nd) 11,3 N.",
+  "figuras": [],
+  "gabarito": "B",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. <i>v</i> = 162 km/h = 45 m/s, partindo do repouso.\n2. Teorema do impulso: <i>F</i><sub>m</sub>Δ<i>t</i> = <i>m</i>Δ<i>v</i> ⇒ <i>F</i><sub>m</sub> = 0,140 · 45/0,07 = 90 N.",
+  "topicos": [
+    "impulso-e-quantidade-de-movimento"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-10-07T11:30:00.000Z",
+  "atualizadoEm": "2026-10-07T11:30:00.000Z"
+}

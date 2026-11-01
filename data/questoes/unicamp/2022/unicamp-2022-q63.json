@@ -1,0 +1,24 @@
+{
+  "id": "unicamp-2022-q63",
+  "banca": "Unicamp",
+  "ano": 2022,
+  "numero": "63",
+  "fase": "1ª fase",
+  "fonte": {
+    "descricao": "Comvest, Vestibular Unicamp 2022, 1ª fase, caderno de questões"
+  },
+  "enunciado": "<b><i>Sempre que necessário aproxime π = 3.</i></b>\n\nAs máscaras de proteção N95 e PFF2 se tornaram ferramentas importantes no combate à disseminação do novo coronavírus durante a pandemia da Covid-19. Essas máscaras possuem fibras compostas de um material com campo elétrico permanente e são capazes de realizar uma filtragem eletrostática das partículas ou gotículas dispersas no ar. Considere um campo elétrico uniforme de módulo <i>E</i><sub>0</sub> = 4,0 × 10<sup>−2</sup> V/m em uma região do espaço. A diferença de potencial elétrico entre duas linhas tracejadas paralelas entre si e perpendiculares à direção desse campo elétrico, separadas por uma distância <i>d</i>, conforme mostra a figura a seguir, é igual a\n[[figura 1]]\n\na) 1,6 × 10<sup>−10</sup> V.\nb) 2,0 × 10<sup>−7</sup> V.\nc) 0,8 × 10<sup>−6</sup> V.\nd) 1,2 × 10<sup>−4</sup> V.",
+  "figuras": [
+    "unicamp-2022-q63-1.png"
+  ],
+  "gabarito": "B",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. Em campo elétrico uniforme, a ddp entre duas superfícies equipotenciais separadas por <i>d</i> (medida na direção do campo) é <i>U</i> = <i>E</i>·<i>d</i>.\n2. Da figura, <i>d</i> = 5,0 × 10<sup>−6</sup> m.\n3. <i>U</i> = 4,0 × 10<sup>−2</sup> · 5,0 × 10<sup>−6</sup> = 2,0 × 10<sup>−7</sup> V.",
+  "topicos": [
+    "linhas-de-campo-e-campo-eletrico-uniforme",
+    "potencial-eletrico-e-diferenca-de-potencial"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-10-06T17:30:00.000Z",
+  "atualizadoEm": "2026-10-06T17:30:00.000Z"
+}

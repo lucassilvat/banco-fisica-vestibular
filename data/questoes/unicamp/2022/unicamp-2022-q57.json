@@ -1,0 +1,22 @@
+{
+  "id": "unicamp-2022-q57",
+  "banca": "Unicamp",
+  "ano": 2022,
+  "numero": "57",
+  "fase": "1ª fase",
+  "fonte": {
+    "descricao": "Comvest, Vestibular Unicamp 2022, 1ª fase, caderno de questões"
+  },
+  "enunciado": "<b><i>Sempre que necessário aproxime π = 3.</i></b>\n\n<b><u>USE O TEXTO A SEGUIR PARA RESPONDER ÀS QUESTÕES 57 E 58.</u></b>\n\nEm 2018, a NASA lançou a sonda <i>Solar Parker</i> com o objetivo de estudar o Sol. Para isso, ao longo de suas órbitas, a sonda se aproximará gradativamente da estrela, coletando dados a cada passagem. Em abril de 2021, a <i>Solar Parker</i> fez sua oitava aproximação, atingindo dois novos recordes de artefatos realizados pelo homem: maior velocidade e máxima aproximação do Sol.\n\nUma sonda viaja a uma velocidade de módulo constante igual a <i>v</i> = 5 × 10<sup>5</sup> km/h (aproximadamente a velocidade atingida pela sonda em abril de 2021), tangenciando a superfície da Terra ao longo da Linha do Equador. Em uma hora, aproximadamente quantas voltas a sonda dá em torno da Terra?\n\nDado: Raio da Terra <i>R</i><sub><i>Terra</i></sub> = 6,0 × 10<sup>3</sup> km.\n\na) 83.\nb) 30.\nc) 14.\nd) 0,5.",
+  "figuras": [],
+  "gabarito": "C",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. Em uma hora, a sonda percorre <i>d</i> = <i>v</i>·Δ<i>t</i> = 5 × 10<sup>5</sup> km.\n2. Uma volta ao longo do Equador corresponde ao perímetro: 2π<i>R</i> = 2 · 3 · 6,0 × 10<sup>3</sup> = 3,6 × 10<sup>4</sup> km (com π = 3, conforme a instrução da prova).\n3. Número de voltas: <i>N</i> = 5 × 10<sup>5</sup> / 3,6 × 10<sup>4</sup> ≈ 13,9 ≈ 14.",
+  "topicos": [
+    "movimento-circular-uniforme-mcu",
+    "notacao-cientifica-e-ordem-de-grandeza"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-10-06T17:30:00.000Z",
+  "atualizadoEm": "2026-10-06T17:30:00.000Z"
+}

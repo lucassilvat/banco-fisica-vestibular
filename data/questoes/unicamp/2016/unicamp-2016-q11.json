@@ -1,0 +1,24 @@
+{
+  "id": "unicamp-2016-q11",
+  "banca": "Unicamp",
+  "ano": 2016,
+  "numero": "11",
+  "fase": "1ª fase · Prova Q",
+  "fonte": {
+    "descricao": "Comvest, Vestibular Unicamp 2016, 1ª fase, caderno de questões (prova Q)"
+  },
+  "enunciado": "Antonie van Leeuwenhoek e Robert Hooke trouxeram contribuições significativas para o desenvolvimento da biologia, usando microscópios ópticos. Leeuwenhoek utilizava microscópios com uma única lente, enquanto Hooke utilizava microscópios com duas lentes. A figura abaixo retrata o detalhe de um animal desenhado por Hooke. Considerando que ele tenha visto o animal na posição em que desenhou, esse mesmo animal seria visto no microscópio de Leeuwenhoek com\n[[figura 1]]\n\na) antenas à esquerda das pernas.\nb) pedipalpos à direita do abdome.\nc) abdome à esquerda das pernas.\nd) abdome à direita dos pedipalpos.",
+  "figuras": [
+    "unicamp-2016-q11-1.png"
+  ],
+  "gabarito": "D",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. Uma lente única usada como lupa forma imagem direita (não invertida).\n2. O microscópio composto (duas lentes) forma imagem final invertida, girada de 180° em relação ao objeto.\n3. Portanto a imagem de Leeuwenhoek é a do desenho de Hooke girada de 180°: o abdome, que no desenho está à esquerda, passa para a direita dos pedipalpos.",
+  "topicos": [
+    "instrumentos-opticos-lupa-microscopio-luneta",
+    "lentes-esfericas-vergencia-gauss-aumento"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-10-07T11:30:00.000Z",
+  "atualizadoEm": "2026-10-07T11:30:00.000Z"
+}

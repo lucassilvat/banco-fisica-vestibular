@@ -1,0 +1,21 @@
+{
+  "id": "unicamp-2019-q44",
+  "banca": "Unicamp",
+  "ano": 2019,
+  "numero": "44",
+  "fase": "1ª fase",
+  "fonte": {
+    "descricao": "Comvest, Vestibular Unicamp 2019, 1ª fase, caderno de questões"
+  },
+  "enunciado": "<b>Nas questões seguintes, sempre que necessário, use aceleração da gravidade g = 10 m/s<sup>2</sup>, aproxime π = 3,0 e 1 atm =10<sup>5</sup> Pa.</b>\n\n<b>Texto comum às questões 43, 44 e 45</b>\n\nA depilação a <i>laser</i> é um procedimento de eliminação dos pelos que tem se tornado bastante popular na indústria de beleza e no mundo dos esportes. O número de sessões do procedimento depende, entre outros fatores, da coloração da pele, da área a ser tratada e da quantidade de pelos nessa área.\n\nNa depilação, o <i>laser</i> age no interior da pele, produzindo uma lesão térmica que queima a raiz do pelo. Considere uma raiz de pelo de massa <i>m</i> = 2,0×10<sup>−10</sup> kg inicialmente a uma temperatura <i>T<sub>i</sub></i> = 36 <sup>o</sup>C que é aquecida pelo <i>laser</i> a uma temperatura final <i>T<sub>f</sub></i> = 46 <sup>o</sup>C. Se o calor específico da raiz é igual a <i>c</i> = 3000 J/(kg <sup>o</sup>C), o calor absorvido pela raiz do pelo durante o aquecimento é igual a\n\na) 6,0 x 10<sup>-6</sup> J.\nb) 6,0 x 10<sup>-8</sup> J.\nc) 1,3 x 10<sup>-12</sup> J.\nd) 6,0 x 10<sup>-13</sup> J.",
+  "figuras": [],
+  "gabarito": "A",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "<i>Q</i> = <i>m c</i> Δ<i>T</i> = 2,0 × 10<sup>−10</sup> · 3000 · 10 = 6,0 × 10<sup>−6</sup> J.",
+  "topicos": [
+    "calor-sensivel-e-capacidade-termica"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-10-07T11:30:00.000Z",
+  "atualizadoEm": "2026-10-07T11:30:00.000Z"
+}

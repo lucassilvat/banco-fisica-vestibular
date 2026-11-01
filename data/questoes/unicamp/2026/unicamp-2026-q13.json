@@ -1,0 +1,29 @@
+{
+  "id": "unicamp-2026-q13",
+  "banca": "Unicamp",
+  "ano": 2026,
+  "numero": "13",
+  "fase": "1ª fase · Prova Q",
+  "fonte": {
+    "descricao": "Comvest, Vestibular Unicamp 2026, 1ª fase, caderno de questões (prova Q)"
+  },
+  "enunciado": "<b>Texto para as questões 13 e 14.</b>\n\nRecentemente, grandes cidades iniciaram a implantação de faixas exclusivas para motocicletas como, por exemplo, a faixa azul na cidade de São Paulo. Um motociclista adentra, em <i>t</i> = 0, um percurso retilíneo de uma faixa azul com velocidade constante <i>v</i><sub>0</sub> = 36 km/h e mantém essa velocidade até o tempo <i>t</i> = 30 s (trecho I). Em seguida, continua o percurso com <u>desaceleração constante</u> (<i>a</i> < 0) até parar completamente diante de um semáforo em <i>t</i> = 50 s (trecho II). Após mais 30 s, ele retoma o movimento e mantém uma <u>aceleração constante e positiva</u> <i>a</i> = 0,8 m/s<sup>2</sup> desde <i>t</i> = 80 s até <i>t</i> = 95 s (trecho III). Posteriormente, o motociclista segue com velocidade constante até <i>t</i> = 120 s (trecho IV).\n\nQual é o gráfico que representa a posição <i>s</i> (<i>t</i>) do motociclista em função do tempo <i>t</i>?\n\na)\n[[figura 1]]\nb)\n[[figura 2]]\nc)\n[[figura 3]]\nd)\n[[figura 4]]",
+  "figuras": [
+    "unicamp-2026-q13-1.png",
+    "unicamp-2026-q13-2.png",
+    "unicamp-2026-q13-3.png",
+    "unicamp-2026-q13-4.png"
+  ],
+  "gabarito": "A",
+  "gabaritoFonte": "prova-comentada-oficial",
+  "resolucao": "1. Trecho I (0 a 30 s): velocidade constante de 10 m/s ⇒ reta crescente até <i>s</i> = 300 m.\n2. Trecho II (30 a 50 s): desaceleração constante até parar ⇒ parábola com concavidade para baixo, chegando a <i>s</i> = 300 + 10 · 20/2 = 400 m.\n3. De 50 a 80 s parado ⇒ <i>s</i> constante em 400 m.\n4. Trecho III (80 a 95 s): aceleração positiva ⇒ parábola com concavidade para cima.\n5. Trecho IV: velocidade constante ⇒ reta.\nSó o gráfico a) tem essas características (b tem concavidade errada no trecho II, c no trecho III, e d volta à origem).",
+  "topicos": [
+    "graficos-do-movimento-s-t-v-t-a-t",
+    "movimento-retilineo-uniforme-mru",
+    "movimento-retilineo-uniformemente-variado-mruv",
+    "leitura-e-interpretacao-de-graficos"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-10-06T17:30:00.000Z",
+  "atualizadoEm": "2026-10-06T17:30:00.000Z"
+}

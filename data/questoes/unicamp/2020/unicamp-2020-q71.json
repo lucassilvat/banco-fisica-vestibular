@@ -1,0 +1,21 @@
+{
+  "id": "unicamp-2020-q71",
+  "banca": "Unicamp",
+  "ano": 2020,
+  "numero": "71",
+  "fase": "1ª fase",
+  "fonte": {
+    "descricao": "Comvest, Vestibular Unicamp 2020, 1ª fase, caderno de questões"
+  },
+  "enunciado": "<b>Obs.: para as questões de 70 a 79, aproxime π = 3,0 sempre que necessário.</b>\n\n<b>Texto comum às questões 71, 72 e 73.</b>\n\nAs agências espaciais NASA (norte-americana) e ESA (europeia) desenvolvem um projeto para desviar a trajetória de um asteroide através da colisão com uma sonda especialmente enviada para esse fim. A previsão é que a sonda DART (do inglês, “Teste de Redirecionamento de Asteroides Duplos”) será lançada com a finalidade de se chocar, em 2022, com Didymoon, um pequeno asteroide que orbita um asteroide maior chamado Didymos.\n\nA massa da sonda DART será de <i>m<sub>sonda</sub></i> = 300 kg, e ela deverá ter a velocidade <i>v<sub>sonda</sub></i> = 6 km/s imediatamente antes de atingir Didymoon. Assim, a energia cinética da sonda antes da colisão será igual a\n\na) 1,8×10<sup>3</sup> J.\nb) 5,4×10<sup>3</sup> J.\nc) 1,8×10<sup>6</sup> J.\nd) 5,4×10<sup>9</sup> J.",
+  "figuras": [],
+  "gabarito": "D",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. <i>v</i> = 6 km/s = 6000 m/s.\n2. <i>E</i><sub>c</sub> = <i>m v</i><sup>2</sup>/2 = 300 · (6000)<sup>2</sup>/2 = 150 · 3,6 × 10<sup>7</sup> = 5,4 × 10<sup>9</sup> J.",
+  "topicos": [
+    "energia-cinetica-e-teorema-trabalho-energia"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-10-07T11:30:00.000Z",
+  "atualizadoEm": "2026-10-07T11:30:00.000Z"
+}

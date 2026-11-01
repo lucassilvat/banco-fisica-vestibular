@@ -1,0 +1,26 @@
+{
+  "id": "unicamp-2026-q10",
+  "banca": "Unicamp",
+  "ano": 2026,
+  "numero": "10",
+  "fase": "1ª fase · Prova Q",
+  "fonte": {
+    "descricao": "Comvest, Vestibular Unicamp 2026, 1ª fase, caderno de questões (prova Q)"
+  },
+  "enunciado": "<b>Texto para as questões 9, 10 e 11.</b>\n\nAs baterias são fundamentais no mundo moderno, sendo a fonte de energia portátil que alimenta dispositivos como celulares e <i>laptops</i>, veículos elétricos e sistemas de armazenamento de energia renovável. Duas grandezas que caracterizam uma bateria é a sua capacidade de carga elétrica, expressa em miliampère-hora (mAh) e a energia que ela armazena, usualmente dada em watts-hora (Wh).\n\nDe forma simplificada, o comportamento de uma bateria pode ser modelado com uma fonte ideal de diferença de potencial elétrico <i>U<sub>b</sub></i> em série com um resistor de resistência <i>R<sub>b</sub></i>. Dessa maneira, o dispositivo que é alimentado pela bateria pode, muitas vezes, ser representado por um resistor de resistência <i>R</i>.\n[[figura 1]]\nNa situação exemplificada na figura, a diferença de potencial registrada pelo voltímetro é\n\na) 0,6 V.\nb) 3,0 V.\nc) 3,6 V.\nd) 4,3 V.",
+  "figuras": [
+    "unicamp-2026-q10-1.png"
+  ],
+  "gabarito": "B",
+  "gabaritoFonte": "prova-comentada-oficial",
+  "resolucao": "1. Os resistores estão em série: <i>R</i><sub>eq</sub> = <i>R</i><sub>b</sub> + <i>R</i> = 1,2 + 6,0 = 7,2 Ω.\n2. Corrente no circuito: <i>i</i> = <i>U</i><sub>b</sub>/<i>R</i><sub>eq</sub> = 3,6/7,2 = 0,5 A.\n3. O voltímetro mede a ddp no resistor externo: <i>U</i> = <i>R i</i> = 6,0 · 0,5 = 3,0 V.",
+  "topicos": [
+    "geradores-eletricos-fem-e-resistencia-interna",
+    "primeira-lei-de-ohm",
+    "associacao-de-resistores",
+    "amperimetro-voltimetro-e-ponte-de-wheatstone"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-10-06T17:30:00.000Z",
+  "atualizadoEm": "2026-10-07T10:35:00.000Z"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "unicamp-2019-q45",
+  "banca": "Unicamp",
+  "ano": 2019,
+  "numero": "45",
+  "fase": "1ª fase",
+  "fonte": {
+    "descricao": "Comvest, Vestibular Unicamp 2019, 1ª fase, caderno de questões"
+  },
+  "enunciado": "<b>Nas questões seguintes, sempre que necessário, use aceleração da gravidade g = 10 m/s<sup>2</sup>, aproxime π = 3,0 e 1 atm =10<sup>5</sup> Pa.</b>\n\n<b>Texto comum às questões 43, 44 e 45</b>\n\nA depilação a <i>laser</i> é um procedimento de eliminação dos pelos que tem se tornado bastante popular na indústria de beleza e no mundo dos esportes. O número de sessões do procedimento depende, entre outros fatores, da coloração da pele, da área a ser tratada e da quantidade de pelos nessa área.\n\nTrês tipos de <i>laser</i> comumente utilizados para depilação têm comprimentos de onda <i>λ</i><sub>1</sub> ≈ 760 nm, <i>λ</i><sub>2</sub> ≈ 800 nm e <i>λ</i><sub>3</sub> ≈ 1060 nm, respectivamente. Se a velocidade da luz vale <i>c</i>=3,0×10<sup>8</sup> m/s, o <i>laser</i> de maior frequência tem uma frequência de aproximadamente\n\na) 3,9 x 10<sup>14</sup> Hz.\nb) 2,8 x 10<sup>5</sup> Hz.\nc) 2,5 x 10<sup>15</sup> Hz.\nd) 3,7 x 10<sup>12</sup> Hz .",
+  "figuras": [],
+  "gabarito": "A",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. Maior frequência ↔ menor comprimento de onda: <i>λ</i><sub>1</sub> = 760 nm.\n2. <i>f</i> = <i>c</i>/<i>λ</i> = 3,0 × 10<sup>8</sup>/7,6 × 10<sup>−7</sup> ≈ 3,9 × 10<sup>14</sup> Hz.",
+  "topicos": [
+    "equacao-fundamental-da-ondulatoria-v-f",
+    "espectro-eletromagnetico"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-10-07T11:30:00.000Z",
+  "atualizadoEm": "2026-10-07T11:30:00.000Z"
+}

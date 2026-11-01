@@ -1,0 +1,242 @@
+{
+ "unicamp-2016-q07-1.png": {
+  "assetId": "414c91637935a3e7dca59ce80143562c",
+  "sha256": "04e636c7fc88dbde56f87d3569927bec174731cc4eea13c89622b04d0e14b69e"
+ },
+ "unicamp-2016-q07-2.png": {
+  "assetId": "e5d16014302b3c9c7973b1062956b7c1",
+  "sha256": "f6495ff66554ac3f13b174e293e6aaed110101768a37a5784ab64e044ba2afff"
+ },
+ "unicamp-2016-q07-3.png": {
+  "assetId": "1f8059aca954e0322578fa3d3be96411",
+  "sha256": "d87b6cff329bc79fe843e707c0d3b96fbc87bf1672f1ca8212fced51cb9cd18a"
+ },
+ "unicamp-2016-q07-4.png": {
+  "assetId": "c52702a9f8b95c9e88149ec40fcb7a7b",
+  "sha256": "679d91a7cca305b86f3be98bbc61583e985de84a4bad4f462fea411326b5147c"
+ },
+ "unicamp-2016-q08-1.png": {
+  "assetId": "e255d3ea14d0f653ffe0c0f3e9b26eee",
+  "sha256": "5b8bec1b8f30350f99f628a3e17eade12a139bd7432e5bf5e45fbcdd56a6eda5"
+ },
+ "unicamp-2016-q09-1.png": {
+  "assetId": "f91b1162a1ab59de1a0f81cacdb41971",
+  "sha256": "2447f59f70dd33d635f7196e7cf74ac97c14ad326670f526917671f626896430"
+ },
+ "unicamp-2016-q11-1.png": {
+  "assetId": "75bd4140e7d188cfd9a9c3dace5d2c78",
+  "sha256": "b3f22bee4b756905e9dfa7c0b4c38408e535b21a04e784df6a4675486ead8e7f"
+ },
+ "unicamp-2017-q58-1.png": {
+  "assetId": "62b7598f84204bc8a8129f47e5afa4c5",
+  "sha256": "4e3f1c4586b7c5c5e2d52cb93005f4a1cb4d09050df217958bc8c8a2f2467f56"
+ },
+ "unicamp-2017-q59-1.png": {
+  "assetId": "d0bfc0f5be2236361010a93fe4616fb9",
+  "sha256": "1d3753ae1f8d6087c3a2fd38972bbc76292b614d57042c0acbf67ff21bd97af6"
+ },
+ "unicamp-2017-q61-1.png": {
+  "assetId": "e6a0e84e0ebe62958c9688a59433fabe",
+  "sha256": "77e63a6a77c89a32222ac6f676572a59aa40e452a3068f0e6288100114519994"
+ },
+ "unicamp-2017-q63-1.png": {
+  "assetId": "73e64accaf650f94125f217bca341f45",
+  "sha256": "6e83c8ee71946b303e65e51fd90ae150026040c628e86fb37ef1cc48908b9129"
+ },
+ "unicamp-2017-q64-1.png": {
+  "assetId": "6e6a901a3a1968e232acea9d77e56678",
+  "sha256": "dd799db3d9ab19880fcad15e4df3b2e6c52dd8c953fc8e502536a3535f96f38f"
+ },
+ "unicamp-2017-q65-1.png": {
+  "assetId": "1d44cb8bf6b6d6dc0bba9ceb92eea906",
+  "sha256": "22c7426c7b57d60da158829ee90f5a3c2375e095f8e10a23cef7ddb7ededdbe3"
+ },
+ "unicamp-2018-q39-1.png": {
+  "assetId": "d99a2928c9c1834e761c377fedadcafc",
+  "sha256": "bbaeca9018f5d770e50fa4d73811de9b3f1ca20170fe44b6b0f3cc909216d69c"
+ },
+ "unicamp-2018-q40-1.png": {
+  "assetId": "1ec2b45705c236bf8f32604177d74eb8",
+  "sha256": "f1ba6b1db3c58847249fd99cebc04b942fcf48cf8cb2103a6784f07c4c3e74f1"
+ },
+ "unicamp-2018-q46-1.png": {
+  "assetId": "4ecb5b4b8f69a47755d97235815f0572",
+  "sha256": "8383620d44d201c9667a7391b5397166eac1a0b85e88bad173c73b706ca43fa8"
+ },
+ "unicamp-2018-q47-1.png": {
+  "assetId": "c728cce3c558e9b28f84d40d2874ee74",
+  "sha256": "d30d96f16488e3cd5a0b826cfa12f4a9555cea1d91cd92250bb5cdafa33d6442"
+ },
+ "unicamp-2018-q48-1.png": {
+  "assetId": "a4bc49b27894f71933555727fcdcc295",
+  "sha256": "382ef55a06d99cef6dd15fcd2e4e681c99be4b813f2b46498594a6228c116a5c"
+ },
+ "unicamp-2019-q36-1.png": {
+  "assetId": "02d99440f27590b113f516391312e9db",
+  "sha256": "3a9a43ea5f5b90532871d8f30ed07c5c403cd1ee11281fd9b84f9c92ae3af73b"
+ },
+ "unicamp-2019-q39-1.png": {
+  "assetId": "e2d8d285f21a02b3526f14c970770cb4",
+  "sha256": "dc4521f315d78483eabf6e4123f77cdd859561953325c3d46c3e6fc521a76349"
+ },
+ "unicamp-2019-q41-1.png": {
+  "assetId": "07b0c44bbf7b4a82e9e7ad463a736503",
+  "sha256": "43e939ff64d7b0ac7e9d934d8974c4914618b82c271d6312542409f163e80f36"
+ },
+ "unicamp-2019-q42-1.png": {
+  "assetId": "5470fd2e43a8ced1e41bf3ecb75ccb3c",
+  "sha256": "d01382fc42eb470485686cbf054217f386ed5b6721a1b48fdc57c5aa0803ed56"
+ },
+ "unicamp-2020-q70-1.png": {
+  "assetId": "022a5b3010f048de6a5f744c08cf8249",
+  "sha256": "c1486831f28d38d832ec109abb420baa693e72db049466acf29c4bef7d7720bc"
+ },
+ "unicamp-2020-q70-2.png": {
+  "assetId": "ce89d476dd0d47b0536327edd872063b",
+  "sha256": "ef50d141d1adc3ad23f5209d2008090580e5bf574d8dc84f64ca4ac7071c25c2"
+ },
+ "unicamp-2020-q70-3.png": {
+  "assetId": "7bb379267f6205f80472fceddeb45873",
+  "sha256": "33d97b65f0f24a89a83b45af20de529dc180181e4a0c9ab58def770a16d7a23f"
+ },
+ "unicamp-2020-q70-4.png": {
+  "assetId": "312833bedec2529a2aa7c67ec1de430f",
+  "sha256": "15f273441cd6717a6d416381d3b66bc176925057dee51815b118ce1fbd99f2aa"
+ },
+ "unicamp-2020-q74-1.png": {
+  "assetId": "2aec8ce380ac458a76ebf8408125fd11",
+  "sha256": "5e7d868f232b81aab80b1ec3ee4db75662b0d5a955217c007eef50703d4a044c"
+ },
+ "unicamp-2020-q76-1.png": {
+  "assetId": "1ccc0717863d8938bfb578ec84109fe4",
+  "sha256": "9f808bffae048bf41660cc57f8f41406d1e0ecd577ce39c8649d8d8645eefd73"
+ },
+ "unicamp-2020-q78-1.png": {
+  "assetId": "a09ec350b0a4ef58290e2c52c33a647e",
+  "sha256": "5fc061580c5b36f620bae8cc6f705d4ffe8bf21a4aa1d8752160e7049f969afe"
+ },
+ "unicamp-2020-q78-2.png": {
+  "assetId": "57b5e9eb9b51d9e319a6cf351ab0e15b",
+  "sha256": "3a4efb01e2d0a36669bafa99ae432998002e4c7f420c10b1fd2d4f17f0339b50"
+ },
+ "unicamp-2020-q78-3.png": {
+  "assetId": "186e3f8da5f59e041267fe096a70650b",
+  "sha256": "24654595d60745e0f40e134996db03c903b7d253ed25043a6a694c5be4a1ce93"
+ },
+ "unicamp-2020-q78-4.png": {
+  "assetId": "bdada86f4bc0ce5fb630293c5fa38167",
+  "sha256": "7b417c9ec701fa7273d455755f765c7ddc4e2e0d9bfba172a41e4f737a8ab40e"
+ },
+ "unicamp-2020-q79-1.png": {
+  "assetId": "1d2cd23961757094da23bf7033ec293a",
+  "sha256": "22987d6b7fa4f5fd0f0460babb52758a9ba5812e6371879628a8b3def73583b8"
+ },
+ "unicamp-2020-q79-2.png": {
+  "assetId": "b8c7c3c9d0219bd2cfd7665bd6ab3aac",
+  "sha256": "4413d7335f323462e82a97d222faeffaf5514597552b31a24b9f775b99633283"
+ },
+ "unicamp-2021a-q34-1.png": {
+  "assetId": "0598bdb11b1c39538db27a0802747511",
+  "sha256": "3f26baa7adb0ebb71fc3526cf6fbd396b41eecc4d0bda17f498aedf40af7fa9d"
+ },
+ "unicamp-2021a-q39-1.png": {
+  "assetId": "a8602337039aab39d78e457ec6b56927",
+  "sha256": "6c78de9c2b46c88bb2a6beaf0d10f5affc42663d06ece45f27c92b13a6bea89c"
+ },
+ "unicamp-2021a-q40-1.png": {
+  "assetId": "7193d50042f605f4739e7bdc0de63f49",
+  "sha256": "7538fdd174eee82d4fcddc984d4967f65081847d2207eaba940f7bc0d84d4d39"
+ },
+ "unicamp-2021b-q56-1.png": {
+  "assetId": "95aefc912d09bfd268ec5e3285a72fe8",
+  "sha256": "a28ac6b2e19c24195d07bb95c316f135fe4031c9bd3a949d14833cbdfed92ba0"
+ },
+ "unicamp-2022-q61-1.png": {
+  "assetId": "249258e312314af9391816d08f1b8d6d",
+  "sha256": "8bde660db74d562cd413f05d0ed6a4ce13a00d270aab6636ff2ffc41e958dcd0"
+ },
+ "unicamp-2022-q62-1.png": {
+  "assetId": "316ec2cb74d6ccb3eed885751056129a",
+  "sha256": "ca2702ac3192fdfdf8783fcab1a384d8540cd6b712014e71a112c17e3ea6d0c9"
+ },
+ "unicamp-2022-q63-1.png": {
+  "assetId": "80823fcad07717a8536dba85817db99b",
+  "sha256": "1394ec9fa0e1d456960595eeb809cbf94937aafa63d88bee7397e4a82ac37a86"
+ },
+ "unicamp-2022-q64-1.png": {
+  "assetId": "bd75e14934d3e2b3ccd686e4ddc118c5",
+  "sha256": "ee96c1a35e1bccea507596770894ac4c1ddd0e60d7aeb886c3699d360ebae63b"
+ },
+ "unicamp-2023-q29-1.png": {
+  "assetId": "e7a91eb264f44e116be9431894758a81",
+  "sha256": "e36e1259939bd9de537a9572c0a975b0339eb5a0507a521afce54579a63236f0"
+ },
+ "unicamp-2023-q33-1.png": {
+  "assetId": "da22372e47e19f3e8c7080ab3f7d4c3c",
+  "sha256": "fa4a4ba95185b44764023b0d59efc66deee9188232c7831e0dccd66e10d92ec5"
+ },
+ "unicamp-2023-q34-1.png": {
+  "assetId": "e8bb6693a86b2f4a9c3381837a3fa8ce",
+  "sha256": "4d1d16f915ce74a02c2c6e6f48876dbbf34ce0c6f199fc5a61baf9d0fed04fa3"
+ },
+ "unicamp-2023-q35-1.png": {
+  "assetId": "9a2848000ca64db63ab182a964f73e22",
+  "sha256": "8026a68489244dc1999de153dbd5627cb67d75db35eb86b9b4eb48eb56bc36db"
+ },
+ "unicamp-2023-q36-1.png": {
+  "assetId": "a1b39fcb758dc3fe586198a60c720abf",
+  "sha256": "9f6169fc884c79b297caa0504b48b2278cf124baf3c08d5154cececd2671a20b"
+ },
+ "unicamp-2024-q37-1.png": {
+  "assetId": "2b5009b3fa9f8209f3a0a9af7ea16949",
+  "sha256": "19020524e8b9c1e82da6e3269e4983c0280b5722bcff59d32461691ccea7031b"
+ },
+ "unicamp-2024-q39-1.png": {
+  "assetId": "d1bce7615788123ec50f5907c78649f7",
+  "sha256": "a230ae7af694201fba72cc0ff4eed080a6ac729daa16fbcf6a6cec102ba63069"
+ },
+ "unicamp-2024-q40-1.png": {
+  "assetId": "36f412c5e1072235a38c56d25d261035",
+  "sha256": "750b3f0c0074cb318abada6f79644eb852e65eba357cb7a0846dd4aba380dec2"
+ },
+ "unicamp-2025-q08-1.png": {
+  "assetId": "aae801e54cfeab325ec379fdeefe3b63",
+  "sha256": "7237182143305faf2b3ed0f9a6974cc14c14b9ba989f076f6ba100301f877b25"
+ },
+ "unicamp-2025-q10-1.png": {
+  "assetId": "14248f8cc24d228f0f0c38d2150edad0",
+  "sha256": "3b45c81107bd7954442985770455907471088a7159ac7f9291640d1c3275ce8f"
+ },
+ "unicamp-2025-q10-2.png": {
+  "assetId": "631ca5fdc95d7cfddb70c1944e6175a7",
+  "sha256": "5104e1654acffed92ba856908a75df5f590cb9dcc774b87420d8347f3ae75f68"
+ },
+ "unicamp-2025-q12-1.png": {
+  "assetId": "0809cf23539df670a44b20a99270c820",
+  "sha256": "bf221f674e11031cb2b01ba9fe3378b1041ead03b0091c00ada9fc5125157292"
+ },
+ "unicamp-2025-q13-1.png": {
+  "assetId": "2c734483e5b5bbb4b2d29fb0b2d042dc",
+  "sha256": "71fea76507f951ffbf5f29cb980435ca7e7d09289e1ffd11c72760fda463a193"
+ },
+ "unicamp-2026-q10-1.png": {
+  "assetId": "8e71e70980f7d2df227efefa33d9b000",
+  "sha256": "8f235977df21ce7bf32b0eeb887aa937e8f49d2766cccc0ca53aa786ebdf71ab"
+ },
+ "unicamp-2026-q13-1.png": {
+  "assetId": "6f5ec0024b427020a4a415edfb6a5745",
+  "sha256": "4fbe45ad89a9625f9ab5f9667014f0fdede9701ba8e950dd2b2bbd9e8f5bb762"
+ },
+ "unicamp-2026-q13-2.png": {
+  "assetId": "886b37c325c27c8fa41ef653dc910067",
+  "sha256": "ebb070b63bf0c9c65ddd15a4d2a3f1f38cd6f228f93c3fc6280f02bc8dc85f64"
+ },
+ "unicamp-2026-q13-3.png": {
+  "assetId": "10326b66d989e39ac4a5565a4edb1ec7",
+  "sha256": "d17a281fecb9da8ef9d1a8b030c4cc0d99c831435adf2ad06ecb6e393b88ef43"
+ },
+ "unicamp-2026-q13-4.png": {
+  "assetId": "7348bf1007461fcb83e7409d4f12bcab",
+  "sha256": "d7c30cf8e2f95e2d0ee4c85064cc6205c351e8517ef2c04c4c6b12dbe68181c8"
+ }
+}

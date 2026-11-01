@@ -1,0 +1,27 @@
+{
+  "id": "unicamp-2020-q78",
+  "banca": "Unicamp",
+  "ano": 2020,
+  "numero": "78",
+  "fase": "1ª fase",
+  "fonte": {
+    "descricao": "Comvest, Vestibular Unicamp 2020, 1ª fase, caderno de questões"
+  },
+  "enunciado": "<b>Obs.: para as questões de 70 a 79, aproxime π = 3,0 sempre que necessário.</b>\n\nA lupa é um instrumento óptico simples formado por uma <b>única lente convergente</b>. Ela é usada desde a Antiguidade para observar pequenos objetos e detalhes de superfícies. A imagem formada pela lupa é direta e virtual. Qual figura abaixo representa corretamente o traçado dos raios luminosos principais provenientes de um determinado ponto de um objeto observado por uma lupa? Nessas figuras, (<i>f</i>) e (<i>f</i>′) representam os pontos focais, (<i>o</i>) o objeto e (<i>i</i>) a imagem.\n\na)\n[[figura 1]]\nb)\n[[figura 2]]\nc)\n[[figura 3]]\nd)\n[[figura 4]]",
+  "figuras": [
+    "unicamp-2020-q78-1.png",
+    "unicamp-2020-q78-2.png",
+    "unicamp-2020-q78-3.png",
+    "unicamp-2020-q78-4.png"
+  ],
+  "gabarito": "A",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. Na lupa, o objeto fica entre o foco e a lente; a imagem é virtual, direita, maior e fica do mesmo lado do objeto, mais longe da lente.\n2. Os raios refratados divergem; a imagem está no cruzamento dos prolongamentos (tracejados) desses raios.\n3. Em a), o objeto <i>o</i> está entre <i>f</i> e a lente, e a imagem <i>i</i>, maior e direita, está além de <i>f</i>, formada pelos prolongamentos: é o traçado correto.",
+  "topicos": [
+    "lentes-esfericas-vergencia-gauss-aumento",
+    "instrumentos-opticos-lupa-microscopio-luneta"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-10-07T11:30:00.000Z",
+  "atualizadoEm": "2026-10-07T11:30:00.000Z"
+}

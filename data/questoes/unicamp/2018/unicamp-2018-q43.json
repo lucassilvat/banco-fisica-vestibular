@@ -1,0 +1,22 @@
+{
+  "id": "unicamp-2018-q43",
+  "banca": "Unicamp",
+  "ano": 2018,
+  "numero": "43",
+  "fase": "1ª fase",
+  "fonte": {
+    "descricao": "Comvest, Vestibular Unicamp 2018, 1ª fase, caderno de questões"
+  },
+  "enunciado": "<b>Sempre que necessário, use aceleração da gravidade g = 10 m/s<sup>2</sup>.</b>\n\nEm junho de 2017 uma intensa onda de calor atingiu os EUA, acarretando uma série de cancelamentos de voos do aeroporto de Phoenix no Arizona. A razão é que o ar atmosférico se torna muito rarefeito quando a temperatura sobe muito, o que diminui a força de sustentação da aeronave em voo. Essa força, vertical de baixo para cima, está associada à diferença de pressão Δ<i>P</i> entre as partes inferior e superior do avião. Considere um avião de massa total <i>m</i> = 3×10<sup>5</sup> kg em voo horizontal. Sendo a área efetiva de sustentação do avião <i>A</i> = 500 m<sup>2</sup>, na situação de voo horizontal Δ<i>P</i> vale\n\na) 5x10<sup>3</sup> N/m<sup>2</sup>.\nb) 6x10<sup>3</sup> N/m<sup>2</sup>.\nc) 1,5x10<sup>6</sup> N/m<sup>2</sup>.\nd) 1,5x10<sup>8</sup> N/m<sup>2</sup>.",
+  "figuras": [],
+  "gabarito": "B",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. Em voo horizontal (equilíbrio vertical), a sustentação equilibra o peso: Δ<i>P</i> · <i>A</i> = <i>m g</i>.\n2. Δ<i>P</i> = 3 × 10<sup>5</sup> · 10/500 = 6 × 10<sup>3</sup> N/m<sup>2</sup>.",
+  "topicos": [
+    "pressao",
+    "leis-de-newton"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-10-07T11:30:00.000Z",
+  "atualizadoEm": "2026-10-07T11:30:00.000Z"
+}

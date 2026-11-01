@@ -1,0 +1,22 @@
+{
+  "id": "unicamp-2017-q32",
+  "banca": "Unicamp",
+  "ano": 2017,
+  "numero": "32",
+  "fase": "1ª fase",
+  "fonte": {
+    "descricao": "Comvest, Vestibular Unicamp 2017, 1ª fase, caderno de questões"
+  },
+  "enunciado": "Era o dia 6 de agosto de 1945. O avião B-29, Enola Gay, comandado pelo coronel Paul Tibbets, sobrevoou Hiroshima a 9.448 metros de altitude e, quando os ponteiros do relógio indicaram 8h16, bombardeou-a com uma bomba de fissão nuclear de urânio, com 3 m de comprimento e 71,1 centímetros de diâmetro e 4,4 toneladas de peso. A bomba foi detonada a 576 metros do solo. Um colossal cogumelo de fumaça envolveu a região. Corpos carbonizados jaziam por toda parte. Atônitos, sobreviventes vagavam pelos escombros à procura de comida, água e abrigo. Seus corpos estavam dilacerados, queimados, mutilados. Cerca de 40 minutos após a explosão, caiu uma chuva radioativa. Muitos se banharam e beberam dessa água. Seus destinos foram selados.\n(Adaptado de Sidnei J. Munhoz, “O pior dos fins”. <i>Revista de História da Biblioteca Nacional</i>, maio 2015. Disponível em http://www.revistadehistoria.com.br/secao/capa/o-pior-dos-fins. Acessado em 23/08/2016.)\n\nA explosão da bomba mencionada no texto\n\na) ocorre a partir da desintegração espontânea do núcleo de urânio enriquecido em núcleos mais leves, liberando uma enorme quantidade de energia. Esse bombardeio significou o início da corrida armamentista entre EUA e União Soviética.\nb) ocorre devido à desintegração do núcleo de urânio em núcleos mais leves, a partir do bombardeamento com nêutrons, liberando uma enorme quantidade de energia. Esse ataque é considerado um símbolo do final da II Guerra Mundial.\nc) ocorre a partir da combinação de núcleos de urânio enriquecido com nêutrons, formando núcleos mais pesados e liberando uma enorme quantidade de energia. Esse bombardeio foi uma resposta aos ataques do Japão a Pearl Harbor.\nd) ocorre devido à desintegração do núcleo de urânio em núcleos mais leves, a partir do bombardeamento com nêutrons, liberando uma enorme quantidade de energia. Esse ataque causou perplexidade por ser desferido contra um país que havia permanecido neutro na II Guerra Mundial.",
+  "figuras": [],
+  "gabarito": "B",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. Física: na fissão nuclear, um nêutron é absorvido pelo núcleo de urânio, que se divide em núcleos mais leves e libera nêutrons e grande energia (reação em cadeia). Não é desintegração espontânea (a) nem formação de núcleos mais pesados (c, que descreve algo próximo da fusão).\n2. História: o ataque a Hiroshima é símbolo do fim da II Guerra Mundial. O Japão era beligerante, não neutro (descarta d).\n3. Alternativa b.",
+  "topicos": [
+    "fissao-e-fusao-nuclear",
+    "radioatividade-e-decaimento"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-10-07T11:45:00.000Z",
+  "atualizadoEm": "2026-10-07T11:45:00.000Z"
+}

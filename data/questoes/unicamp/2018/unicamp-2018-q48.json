@@ -1,0 +1,24 @@
+{
+  "id": "unicamp-2018-q48",
+  "banca": "Unicamp",
+  "ano": 2018,
+  "numero": "48",
+  "fase": "1ª fase",
+  "fonte": {
+    "descricao": "Comvest, Vestibular Unicamp 2018, 1ª fase, caderno de questões"
+  },
+  "enunciado": "<b>Sempre que necessário, use aceleração da gravidade g = 10 m/s<sup>2</sup>.</b>\n\nUma lente de Fresnel é composta por um conjunto de anéis concêntricos com uma das faces plana e a outra inclinada, como mostra a figura (a). Essas lentes, geralmente mais finas que as convencionais, são usadas principalmente para concentrar um feixe luminoso em determinado ponto, ou para colimar a luz de uma fonte luminosa, produzindo um feixe paralelo, como ilustra a figura (b). Exemplos desta última aplicação são os faróis de automóveis e os faróis costeiros. O diagrama da figura (c) mostra um raio luminoso que passa por um dos anéis de uma lente de Fresnel de acrílico e sai paralelamente ao seu eixo. Se sen(θ<sub>1</sub>) = 0,5 e sen(θ<sub>2</sub>) = 0,75, o valor do índice de refração do acrílico é de\n[[figura 1]]\n\na) 1,50.\nb) 1,41.\nc) 1,25.\nd) 0,66.",
+  "figuras": [
+    "unicamp-2018-q48-1.png"
+  ],
+  "gabarito": "A",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. Na face inclinada, o raio passa do acrílico (ângulo θ<sub>1</sub>) para o ar (ângulo θ<sub>2</sub>).\n2. Snell: <i>n</i> sen θ<sub>1</sub> = 1 · sen θ<sub>2</sub> ⇒ <i>n</i> = 0,75/0,5 = 1,50.",
+  "topicos": [
+    "lei-de-snell-descartes",
+    "refracao-da-luz-e-indice-de-refracao"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-10-07T11:30:00.000Z",
+  "atualizadoEm": "2026-10-07T11:30:00.000Z"
+}

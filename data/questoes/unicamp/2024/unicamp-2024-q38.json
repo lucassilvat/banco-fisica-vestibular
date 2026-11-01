@@ -1,0 +1,22 @@
+{
+  "id": "unicamp-2024-q38",
+  "banca": "Unicamp",
+  "ano": 2024,
+  "numero": "38",
+  "fase": "1ª fase · Prova Q",
+  "fonte": {
+    "descricao": "Comvest, Vestibular Unicamp 2024, 1ª fase, caderno de questões (prova Q)"
+  },
+  "enunciado": "Use os valores aproximados: <i>g</i> = 10 m/s<sup>2</sup> e π = 3.\n\nUm corpo em queda nas proximidades da superfície terrestre sofre a ação da força gravitacional e da força de resistência do ar, <i>F</i>⃗<sub>ar</sub>; essa última atua em sentido oposto à força gravitacional. Nos primeiros instantes, <i>F</i>⃗<sub>ar</sub> ≃ 0⃗ se o corpo parte do repouso. À medida que a velocidade aumenta, <i>F</i>⃗<sub>ar</sub> também aumenta. Com isso, a aceleração do corpo diminui gradativamente, tornando-se praticamente nula a partir de certo momento. Desse ponto em diante, o corpo passa a cair com velocidade constante, chamada de <u>velocidade terminal</u>. Um objeto de massa <i>m</i> = 200 g é solto a partir de certa altura e atinge a velocidade terminal após determinado tempo. Qual é o módulo da força de resistência do ar depois que o objeto atinge a velocidade terminal?\n\na) 0,20 N.\nb) 2,0 N.\nc) 200 N.\nd) 2000 N.",
+  "figuras": [],
+  "gabarito": "B",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. Na velocidade terminal a aceleração é nula, então a resultante é zero (1ª Lei de Newton): <i>F</i><sub>ar</sub> = <i>P</i>.\n2. <i>F</i><sub>ar</sub> = <i>m g</i> = 0,200 kg · 10 m/s<sup>2</sup> = 2,0 N.",
+  "topicos": [
+    "forca-de-arrasto-e-velocidade-terminal",
+    "leis-de-newton"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-10-06T17:30:00.000Z",
+  "atualizadoEm": "2026-10-06T17:30:00.000Z"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "unicamp-2026-q12",
+  "banca": "Unicamp",
+  "ano": 2026,
+  "numero": "12",
+  "fase": "1ª fase · Prova Q",
+  "fonte": {
+    "descricao": "Comvest, Vestibular Unicamp 2026, 1ª fase, caderno de questões (prova Q)"
+  },
+  "enunciado": "O Centro de Tecnologia da Informação (CTI) Renato Archer, em Campinas (SP), possui equipamentos avançados de manufatura 3D, incluindo uma impressora capaz de produzir uma miniatura do Cristo Redentor, com pouco mais de 100 μm. Menor que um grão de areia, a peça só é visível com microscópio óptico, baseado em arranjo de um conjunto de lentes. Se uma lente delgada, de distância focal <i>f</i>, é usada para investigar um objeto de altura <i>o</i>, de forma que a imagem seja direita com altura <i>i</i> maior que a do objeto ( <i>i</i> > <i>o</i>), é correto afirmar que\n\na) a lente é <u>convergente</u> e a distância entre objeto e lente é <u>menor</u> que a distância focal.\nb) a lente é <u>divergente</u> e a distância entre objeto e lente é <u>menor</u> que a distância focal.\nc) a lente é <u>convergente</u> e a distância entre objeto e lente é <u>maior</u> que a distância focal.\nd) a lente é <u>divergente</u> e a distância entre objeto e lente é <u>maior</u> que a distância focal.",
+  "figuras": [],
+  "gabarito": "A",
+  "gabaritoFonte": "prova-comentada-oficial",
+  "resolucao": "1. Imagem direita e maior que o objeto é virtual e ampliada.\n2. Lentes divergentes só formam imagens virtuais, direitas e menores (descarta b e d).\n3. Na lente convergente, imagem direita e ampliada ocorre só com o objeto entre o foco e a lente (lupa), isto é, distância objeto-lente menor que a distância focal.",
+  "topicos": [
+    "lentes-esfericas-vergencia-gauss-aumento"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-10-06T17:30:00.000Z",
+  "atualizadoEm": "2026-10-06T17:30:00.000Z"
+}

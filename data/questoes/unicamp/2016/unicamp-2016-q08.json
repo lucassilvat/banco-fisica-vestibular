@@ -1,0 +1,26 @@
+{
+  "id": "unicamp-2016-q08",
+  "banca": "Unicamp",
+  "ano": 2016,
+  "numero": "8",
+  "fase": "1ª fase · Prova Q",
+  "fonte": {
+    "descricao": "Comvest, Vestibular Unicamp 2016, 1ª fase, caderno de questões (prova Q)"
+  },
+  "enunciado": "Um osciloscópio é um instrumento muito útil no estudo da variação temporal dos sinais elétricos em circuitos. No caso de um circuito de corrente alternada, a diferença de potencial (<i>U</i>) e a corrente do circuito (<i>i</i>) variam em função do tempo.\nConsidere um circuito com dois resistores <i>R</i><sub>1</sub> e <i>R</i><sub>2</sub> em série, alimentados por uma fonte de tensão alternada.\nA diferença de potencial nos terminais de cada resistor observada na tela do osciloscópio é representada pelo gráfico abaixo. Analisando o gráfico, pode-se afirmar que a amplitude e a frequência da onda que representa a diferença de potencial nos terminais do resistor de maior resistência são, respectivamente, iguais a\n[[figura 1]]\n\na) 4 V e 2,5 Hz.\nb) 8 V e 2,5 Hz.\nc) 4 V e 400 Hz.\nd) 8 V e 400 Hz.",
+  "figuras": [
+    "unicamp-2016-q08-1.png"
+  ],
+  "gabarito": "D",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. Em série a corrente é a mesma; por <i>U</i> = <i>R i</i>, o resistor de maior resistência tem a maior tensão: a curva de amplitude 8 V (<i>R</i><sub>1</sub>).\n2. Pelo gráfico, dois máximos consecutivos estão separados por 2,5 ms: <i>T</i> = 2,5 × 10<sup>−3</sup> s.\n3. <i>f</i> = 1/<i>T</i> = 400 Hz.",
+  "topicos": [
+    "associacao-de-resistores",
+    "primeira-lei-de-ohm",
+    "ondas-classificacao-e-elementos",
+    "leitura-e-interpretacao-de-graficos"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-10-07T11:30:00.000Z",
+  "atualizadoEm": "2026-10-07T11:30:00.000Z"
+}
