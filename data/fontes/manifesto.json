@@ -144,6 +144,78 @@
       "url": "",
       "sha256": "b6ff89a26436635f4fed4af7b9480ed5d51b3310c425b16ebde689c789d70728",
       "paginas": 25
+    },
+    {
+      "banca": "Unesp",
+      "ano": 2021,
+      "versao": "",
+      "tipo": "caderno",
+      "descricao": "Vunesp, Vestibular Unesp 2021, 1ª fase (Prova de Conhecimentos Gerais), caderno de questões",
+      "fase": "1ª fase",
+      "arquivoLocal": "fontes/unesp-2021-caderno.pdf",
+      "url": "",
+      "sha256": "eb2af81790e25da2a011a297e6a2646c7e921f9c2b99de04392767e0559d5887",
+      "paginas": 32
+    },
+    {
+      "banca": "Unesp",
+      "ano": 2022,
+      "versao": "",
+      "tipo": "caderno",
+      "descricao": "Vunesp, Vestibular Unesp 2022, 1ª fase (Prova de Conhecimentos Gerais), caderno de questões",
+      "fase": "1ª fase",
+      "arquivoLocal": "fontes/unesp-2022-caderno.pdf",
+      "url": "",
+      "sha256": "cb6435540fbb86043ea5fc5aae73badebffbba247e86fad2263755c25336c8d4",
+      "paginas": 32
+    },
+    {
+      "banca": "Unesp",
+      "ano": 2023,
+      "versao": "",
+      "tipo": "caderno",
+      "descricao": "Vunesp, Vestibular Unesp 2023, 1ª fase (Prova de Conhecimentos Gerais), caderno de questões",
+      "fase": "1ª fase",
+      "arquivoLocal": "fontes/unesp-2023-caderno.pdf",
+      "url": "",
+      "sha256": "869ff18deaa9ec35aadb4eeaae2da99a7f164c58db05630a72244f2887c17ff7",
+      "paginas": 36
+    },
+    {
+      "banca": "Unesp",
+      "ano": 2024,
+      "versao": "",
+      "tipo": "caderno",
+      "descricao": "Vunesp, Vestibular Unesp 2024, 1ª fase (Prova de Conhecimentos Gerais), caderno de questões",
+      "fase": "1ª fase",
+      "arquivoLocal": "fontes/unesp-2024-caderno.pdf",
+      "url": "",
+      "sha256": "afbb348bfadc769aefd7baaef245b69cd1b44b97ee3dc2197eca731a2a3f053d",
+      "paginas": 36
+    },
+    {
+      "banca": "Unesp",
+      "ano": 2025,
+      "versao": "",
+      "tipo": "caderno",
+      "descricao": "Vunesp, Vestibular Unesp 2025, 1ª fase (Prova de Conhecimentos Gerais), caderno de questões",
+      "fase": "1ª fase",
+      "arquivoLocal": "fontes/unesp-2025-caderno.pdf",
+      "url": "",
+      "sha256": "4ff8a9f6145631956ea88243831204cbee60d6e50a55de4c4e37e4faa540023e",
+      "paginas": 32
+    },
+    {
+      "banca": "Unesp",
+      "ano": 2026,
+      "versao": "",
+      "tipo": "caderno",
+      "descricao": "Vunesp, Vestibular Unesp 2026, 1ª fase (Prova de Conhecimentos Gerais), caderno de questões",
+      "fase": "1ª fase",
+      "arquivoLocal": "fontes/unesp-2026-caderno.pdf",
+      "url": "",
+      "sha256": "adfdcd827a4295a18136cd5bfb3e25f0390fdf9efd96ca4c62712e8eb474354c",
+      "paginas": 40
     }
   ]
 }
