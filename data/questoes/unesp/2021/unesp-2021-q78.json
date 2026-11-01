@@ -1,0 +1,34 @@
+{
+  "id": "unesp-2021-q78",
+  "banca": "Unesp",
+  "ano": 2021,
+  "numero": "78",
+  "fase": "1ª fase",
+  "fonte": {
+    "descricao": "Vunesp, Vestibular Unesp 2021, 1ª fase (Prova de Conhecimentos Gerais, cursos da área de Biológicas), caderno de questões"
+  },
+  "enunciado": "Três esferas, x, y e z, feitas com materiais diferentes e de massas iguais estavam, inicialmente, à mesma temperatura ambiente (θ<sub>amb</sub>) e foram mergulhadas, simultaneamente, em água pura em ebulição, até entrarem em equilíbrio térmico com a água. Em seguida, foram retiradas da água e deixadas sobre uma superfície isolante, até voltarem à mesma temperatura ambiente. Os calores específicos dos materiais das esferas são c<sub>x</sub>, c<sub>y</sub> e c<sub>z</sub>, de modo que c<sub>x</sub> &lt; c<sub>y</sub> &lt; c<sub>z</sub>. Com os resultados desse experimento, foram construídos o gráfico 1, relativo ao aquecimento das esferas até a temperatura de ebulição da água, e o gráfico 2, relativo ao resfriamento das esferas, até retornarem à temperatura ambiente.\n\nConsiderando que as trocas de calor tenham ocorrido a uma taxa constante, a representação dos gráficos 1 e 2 é:\n\n(A)\n[[figura 1]]\n(B)\n[[figura 2]]\n(C)\n[[figura 3]]\n(D)\n[[figura 4]]\n(E)\n[[figura 5]]",
+  "figuras": [
+    "unesp-2021-q78-1.png",
+    "unesp-2021-q78-2.png",
+    "unesp-2021-q78-3.png",
+    "unesp-2021-q78-4.png",
+    "unesp-2021-q78-5.png"
+  ],
+  "gabarito": "A",
+  "gabaritoFonte": "oficial",
+  "resolucao": "1. Com taxa de troca de calor constante (potência <i>P</i>), em um intervalo Δ<i>t</i>: <i>P</i> Δ<i>t</i> = <i>m c</i> Δ<i>θ</i> ⇒ Δ<i>θ</i>/Δ<i>t</i> = <i>P</i>/(<i>m c</i>).\n2. As massas são iguais, então a rapidez da variação de temperatura (inclinação da reta) é inversamente proporcional ao calor específico.\n3. Como c<sub>x</sub> &lt; c<sub>y</sub> &lt; c<sub>z</sub>, a esfera x tem a reta mais inclinada, seguida de y e de z, tanto no aquecimento (gráfico 1) quanto no resfriamento (gráfico 2).\n4. Logo, x chega primeiro a 100 °C e também volta primeiro a θ<sub>amb</sub>; z é a mais lenta nas duas etapas. Essa é a representação da alternativa A.\nGabarito: A.",
+  "topicos": [
+    "calor-sensivel-e-capacidade-termica",
+    "leitura-e-interpretacao-de-graficos"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-01T15:46:12.000Z",
+  "atualizadoEm": "2026-11-01T15:46:12.000Z",
+  "revisao": {
+    "divergenciasAceitas": [
+      "amb"
+    ],
+    "notas": "Na camada de texto do PDF, θ aparece como “q” (qamb); conferido na imagem."
+  }
+}

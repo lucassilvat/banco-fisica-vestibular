@@ -1,0 +1,24 @@
+{
+  "id": "unesp-2024-q79",
+  "banca": "Unesp",
+  "ano": 2024,
+  "numero": "79",
+  "fase": "1ª fase",
+  "fonte": {
+    "descricao": "Vunesp, Vestibular Unesp 2024, 1ª fase (Prova de Conhecimentos Gerais), caderno de questões"
+  },
+  "enunciado": "A escala Brix, com valores expressos em ºBx (graus brix), é uma escala numérica que indica a quantidade de sólidos solúveis em uma solução de sacarose. Essa escala é utilizada na indústria de alimentos para medir a porcentagem aproximada de açúcares em sucos de fruta, vinhos, bebidas carbonatadas etc. Uma solução de 25 ºBx, por exemplo, tem 25 gramas de açúcar de sacarose por 100 gramas da solução. O gráfico mostra a relação entre a escala Brix e o índice de refração absoluto de uma solução de sacarose.\n\n[[figura 1]]\n\n(www.omega.com. Adaptado.)\n\nConsidere um raio de luz monocromática que, propagando-se pelo ar, incide na superfície que separa o ar de uma solução de sacarose de 40 ºBx. Adotando c = 3 × 10<sup>8</sup> m/s, quando esse raio refratar-se para a solução de sacarose, terá velocidade de propagação de, aproximadamente,\n\n(A) 1,0 × 10<sup>8</sup> m/s.\n(B) 2,8 × 10<sup>8</sup> m/s.\n(C) 2,1 × 10<sup>8</sup> m/s.\n(D) 1,2 × 10<sup>8</sup> m/s.\n(E) 0,8 × 10<sup>8</sup> m/s.",
+  "figuras": [
+    "unesp-2024-q79-1.png"
+  ],
+  "gabarito": "C",
+  "gabaritoFonte": "oficial",
+  "resolucao": "1. No gráfico, 40 ºBx corresponde a índice de refração <i>n</i> ≈ 1,40.\n2. Definição de índice de refração absoluto: <i>n</i> = <i>c</i>/<i>v</i> ⇒ <i>v</i> = <i>c</i>/<i>n</i>.\n3. <i>v</i> = 3 × 10<sup>8</sup>/1,40 ≈ 2,1 × 10<sup>8</sup> m/s.\nGabarito: C.",
+  "topicos": [
+    "refracao-da-luz-e-indice-de-refracao",
+    "leitura-e-interpretacao-de-graficos"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-01T15:46:30.000Z",
+  "atualizadoEm": "2026-11-01T15:46:30.000Z"
+}

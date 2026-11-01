@@ -1,0 +1,24 @@
+{
+  "id": "unesp-2025-q90",
+  "banca": "Unesp",
+  "ano": 2025,
+  "numero": "90",
+  "fase": "1ª fase",
+  "fonte": {
+    "descricao": "Vunesp, Vestibular Unesp 2025, 1ª fase (Prova de Conhecimentos Gerais), caderno de questões"
+  },
+  "enunciado": "Uma partícula desloca-se sobre os lados de um triângulo equilátero ABC, de lado 10 cm, partindo do vértice A no sentido horário, conforme a figura. A intensidade da velocidade inicial dessa partícula, que é de 6 m/min, sempre dobra após a partícula percorrer um lado inteiro do triângulo e, durante o percurso de cada lado do triângulo, ela permanece constante.\n\n[[figura 1]]\n\nNessas condições, e desconsiderando os intervalos de tempo de aceleração dessa partícula, ela terá dado 10 voltas completas ao longo do perímetro do triângulo em, aproximadamente,\n\n(A) 2 s.\n(B) 12 s.\n(C) 6 s.\n(D) 3 s.\n(E) 1 s.",
+  "figuras": [
+    "unesp-2025-q90-1.png"
+  ],
+  "gabarito": "A",
+  "gabaritoFonte": "oficial",
+  "resolucao": "1. Unidades: lado = 10 cm = 0,1 m; velocidade inicial = 6 m/min = 0,1 m/s.\n2. O primeiro lado leva 0,1/0,1 = 1 s. Como a velocidade dobra a cada lado, os tempos formam uma progressão geométrica de razão 1/2: 1 s, 0,5 s, 0,25 s, ...\n3. 10 voltas = 30 lados. Tempo total: 1 · (1 − (1/2)<sup>30</sup>)/(1 − 1/2) = 2(1 − (1/2)<sup>30</sup>) ≈ 2 s.\nGabarito: A.",
+  "topicos": [
+    "movimento-retilineo-uniforme-mru",
+    "grandezas-fisicas-e-sistema-internacional"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-01T15:46:34.000Z",
+  "atualizadoEm": "2026-11-01T15:46:34.000Z"
+}

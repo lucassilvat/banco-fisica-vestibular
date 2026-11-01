@@ -1,0 +1,25 @@
+{
+  "id": "unesp-2024-q77",
+  "banca": "Unesp",
+  "ano": 2024,
+  "numero": "77",
+  "fase": "1ª fase",
+  "fonte": {
+    "descricao": "Vunesp, Vestibular Unesp 2024, 1ª fase (Prova de Conhecimentos Gerais), caderno de questões"
+  },
+  "enunciado": "A figura 1 representa uma molécula de DNA, que se assemelha a uma escada contorcida, isto é, tem o formato de uma dupla hélice. Analisado quimicamente, o DNA apresenta duas fitas complementares unidas por ligações existentes entre os pares de bases nitrogenadas, que podem ser adenina, citosina, timina ou guanina.\n\n[[figura 1]]\n\n(www.biologianet.com. Adaptado.)\n\nConsidere que as duas bases nitrogenadas, B<sub>1</sub> e B<sub>2</sub>, representadas na figura 2 por suas fórmulas estruturais, sejam ligadas uma à outra apenas pelas ações das forças elétricas F<sub>1</sub>, F<sub>2</sub>, F<sub>3</sub> e F<sub>4</sub> decorrentes das combinações O ··· H – N e N – H ··· N, mostradas em destaque, e que essas combinações sejam paralelas entre si.\n\n[[figura 2]]\n\n(Hugh D. Young e Roger A. Freedman. <i>Física III. Eletromagnetismo</i>, 2016. Adaptado.)\n\nSabendo que as intensidades das forças são F<sub>1</sub> = 8,0 × 10<sup>–9</sup> N, F<sub>2</sub> = 3,0 × 10<sup>–9</sup> N, F<sub>3</sub> = 2,6 × 10<sup>–9</sup> N e F<sub>4</sub> = 6,4 × 10<sup>–9</sup> N, e considerando os possíveis pareamentos entre as bases nitrogenadas no DNA, as bases B<sub>1</sub> e B<sub>2</sub> são, respectivamente,\n\n(A) guanina e timina, e a intensidade da força elétrica resultante que B<sub>2</sub> exerce em B<sub>1</sub> é 8,8 × 10<sup>–9</sup> N.\n(B) citosina e adenina, e a intensidade da força elétrica resultante que B<sub>2</sub> exerce em B<sub>1</sub> é 2,0 × 10<sup>–9</sup> N.\n(C) timina e adenina, e a intensidade da força elétrica resultante que B<sub>2</sub> exerce em B<sub>1</sub> é 8,8 × 10<sup>–9</sup> N.\n(D) timina e adenina, e a intensidade da força elétrica resultante que B<sub>2</sub> exerce em B<sub>1</sub> é 2,0 × 10<sup>–8</sup> N.\n(E) citosina e guanina, e a intensidade da força elétrica resultante que B<sub>2</sub> exerce em B<sub>1</sub> é 1,2 × 10<sup>–9</sup> N.",
+  "figuras": [
+    "unesp-2024-q77-1.png",
+    "unesp-2024-q77-2.png"
+  ],
+  "gabarito": "C",
+  "gabaritoFonte": "oficial",
+  "resolucao": "1. Pareamento: no DNA, adenina pareia com timina (duas ligações de hidrogênio) e citosina com guanina (três). Na figura há duas ligações entre B<sub>1</sub> e B<sub>2</sub>; B<sub>1</sub> é uma base de anel único com um grupo CH<sub>3</sub> (timina) e B<sub>2</sub>, de anel duplo, é a adenina. Isso elimina A, B e E.\n2. Forças que B<sub>2</sub> exerce em B<sub>1</sub>, todas na mesma direção (horizontal): pela figura, F<sub>1</sub> e F<sub>4</sub> (atrações) apontam para a direita, e F<sub>2</sub> e F<sub>3</sub> (repulsões) para a esquerda.\n3. Resultante: (8,0 + 6,4 − 3,0 − 2,6) × 10<sup>−9</sup> = 8,8 × 10<sup>−9</sup> N.\nGabarito: C.",
+  "topicos": [
+    "lei-de-coulomb",
+    "vetores-soma-e-decomposicao"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-01T15:46:30.000Z",
+  "atualizadoEm": "2026-11-01T15:46:30.000Z"
+}

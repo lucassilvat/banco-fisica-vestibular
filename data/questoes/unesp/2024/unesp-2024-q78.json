@@ -1,0 +1,24 @@
+{
+  "id": "unesp-2024-q78",
+  "banca": "Unesp",
+  "ano": 2024,
+  "numero": "78",
+  "fase": "1ª fase",
+  "fonte": {
+    "descricao": "Vunesp, Vestibular Unesp 2024, 1ª fase (Prova de Conhecimentos Gerais), caderno de questões"
+  },
+  "enunciado": "Em uma brincadeira, uma pessoa coloca um copo com a boca para baixo, encostada na superfície parada da água de uma piscina e, cuidadosamente, o afunda 2,5 m abaixo da superfície da água, onde mantém o copo em repouso, ainda de boca para baixo, com um pouco de ar aprisionado em seu interior e com um pouco de água que entrou no copo. A figura mostra o copo nessas duas posições.\n\n[[figura 1]]\n\nConsidere o ar um gás ideal e os valores 10<sup>3</sup> kg/m<sup>3</sup> para a densidade da água da piscina, 10<sup>5</sup> Pa para a pressão atmosférica local e 10 m/s<sup>2</sup> para a aceleração da gravidade. Sendo V<sub>1</sub> o volume ocupado pelo ar no copo na posição inicial, V<sub>2</sub> o volume ocupado pelo ar no copo na posição final, e considerando a temperatura do ar dentro do copo constante nesse processo, o valor da razão V<sub>2</sub>/V<sub>1</sub> é\n\n(A) 0,50.\n(B) 0,80.\n(C) 0,75.\n(D) 0,25.\n(E) 0,40.",
+  "figuras": [
+    "unesp-2024-q78-1.png"
+  ],
+  "gabarito": "B",
+  "gabaritoFonte": "oficial",
+  "resolucao": "1. Na posição inicial, o ar no copo está à pressão atmosférica: <i>p</i><sub>1</sub> = 10<sup>5</sup> Pa.\n2. Na posição final, a superfície da água dentro do copo está 2,5 m abaixo da superfície livre. Por Stevin, <i>p</i><sub>2</sub> = <i>p</i><sub>atm</sub> + <i>dgh</i> = 10<sup>5</sup> + 10<sup>3</sup> · 10 · 2,5 = 1,25 × 10<sup>5</sup> Pa.\n3. Transformação isotérmica (lei de Boyle): <i>p</i><sub>1</sub>V<sub>1</sub> = <i>p</i><sub>2</sub>V<sub>2</sub> ⇒ V<sub>2</sub>/V<sub>1</sub> = <i>p</i><sub>1</sub>/<i>p</i><sub>2</sub> = 1/1,25 = 0,80.\nGabarito: B.",
+  "topicos": [
+    "teorema-de-stevin-pressao-hidrostatica",
+    "transformacoes-gasosas-isotermica-isobarica-isocorica-adiabatica"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-01T15:46:30.000Z",
+  "atualizadoEm": "2026-11-01T15:46:30.000Z"
+}

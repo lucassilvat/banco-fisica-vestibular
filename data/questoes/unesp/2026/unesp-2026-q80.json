@@ -1,0 +1,24 @@
+{
+  "id": "unesp-2026-q80",
+  "banca": "Unesp",
+  "ano": 2026,
+  "numero": "80",
+  "fase": "1ª fase",
+  "fonte": {
+    "descricao": "Vunesp, Vestibular Unesp 2026, 1ª fase (Prova de Conhecimentos Gerais), caderno de questões"
+  },
+  "enunciado": "A auxina é um hormônio vegetal que atua no controle do desenvolvimento e do crescimento das plantas, estimulando a divisão e a expansão celular. No final do século XIX, observaram-se respostas de fotomorfogênese no ápice de mudas de gramíneas que se curvavam no sentido da luz em resposta à iluminação lateral, fenômeno conhecido no geral como fototropismo positivo.\n\n[[figura 1]]\n\nNessa situação, a absorção da luz é feita por proteínas denominadas fototropinas, que são fotorreceptores de luz azul do espectro eletromagnético visível. Esses fotorreceptores regulam o transporte da auxina, fazendo com que esse hormônio concentre-se em maior quantidade em determinadas regiões da planta. Com isso, ocorre a distensão celular, o que resulta na curvatura da planta.\n\nDe acordo com as informações do texto e da figura, e considerando apenas o espectro eletromagnético da luz visível, tem-se que as fototropinas são mais sensíveis às ondas de\n\n(A) menores comprimentos de onda, cujas ações resultam na maior concentração de auxina no lado sombreado da planta.\n(B) maiores frequências, cujas ações resultam na maior concentração de auxina no lado iluminado da planta.\n(C) menores frequências, cujas ações resultam na maior concentração de auxina no lado iluminado da planta.\n(D) maiores comprimentos de onda, cujas ações resultam na maior concentração de auxina no lado sombreado da planta.\n(E) maiores frequências, cujas ações resultam em uma mesma distribuição de auxina nos lados sombreado e iluminado da planta.",
+  "figuras": [
+    "unesp-2026-q80-1.png"
+  ],
+  "gabarito": "A",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. No espectro visível, a luz azul fica perto do extremo violeta: tem comprimentos de onda menores e frequências maiores que as demais cores (exceto o violeta). Como <i>c</i> = λ<i>f</i>, menor λ corresponde a maior <i>f</i>. Isso elimina C e D.\n2. A planta se curva em direção à luz: o lado sombreado cresce mais (distensão celular maior). Como a auxina estimula a expansão celular, ela se concentra no lado sombreado. Isso elimina B e E.\n3. Fototropinas mais sensíveis a menores comprimentos de onda, com acúmulo de auxina no lado sombreado.\nGabarito: A.",
+  "topicos": [
+    "espectro-eletromagnetico",
+    "equacao-fundamental-da-ondulatoria-v-f"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-01T15:46:38.000Z",
+  "atualizadoEm": "2026-11-01T15:46:38.000Z"
+}

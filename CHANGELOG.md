@@ -4,6 +4,21 @@ Cada versão corresponde a um lote de importação ou a uma mudança no app/pipe
 Formato: `vMAIOR.MENOR.CORREÇÃO` — MENOR sobe a cada prova importada; MAIOR, em mudanças
 de modelo de dados; CORREÇÃO, em correções de questões já publicadas.
 
+## v1.5.0 — 2026-11-01
+
+- **Unesp 2021–2026, 1ª fase (Prova de Conhecimentos Gerais)**: 49 questões, 72 figuras.
+  - Bloco de Física (Q76–Q82) de cada ano, incluídas as de tema de outra disciplina
+    (2021 Q77 respiração/pressão, Q81 escala Richter; 2024 Q77 DNA, Q80 icterícia, Q81
+    mielina; 2026 Q80 auxina).
+  - Interdisciplinares em dúvida aprovadas pelo Lucas: 2021 Q84 (Mach), 2023 Q70 (gases,
+    Química), 2023 Q87 (MUV, Matemática), 2024 Q86 (centro de massa), 2025 Q48 (velocidade
+    média, Geografia), 2025 Q84 (escalas termométricas), 2025 Q90 (MRU, Matemática).
+  - 2021 e 2022: caderno da área de Biológicas (001), registrado na fonte.
+  - Gabaritos: `oficial` em 2021, 2024 e 2025 (gabarito Vunesp, versão 1, conferido questão
+    a questão com as resoluções); `resolucao-propria` em 2022 e 2026 (conferem com gabaritos
+    divulgados por cursinhos) e 2023 (não conferido com fonte externa).
+- Script de trabalho `aplicar.py` (fora do git, em `trabalho/final/`) passou a aceitar a banca.
+
 ## v1.4.0 — 2026-11-01
 
 - **Site estático para o GitHub Pages**: novo comando `python -m pipeline site` (gera `site/`

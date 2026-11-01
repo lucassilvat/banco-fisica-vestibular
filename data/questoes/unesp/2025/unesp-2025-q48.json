@@ -1,0 +1,23 @@
+{
+  "id": "unesp-2025-q48",
+  "banca": "Unesp",
+  "ano": 2025,
+  "numero": "48",
+  "fase": "1ª fase",
+  "fonte": {
+    "descricao": "Vunesp, Vestibular Unesp 2025, 1ª fase (Prova de Conhecimentos Gerais), caderno de questões"
+  },
+  "enunciado": "Um estado brasileiro oferece duas opções de rotas, opção 1 e opção 2, para o transporte de mercadorias. A seguir, estão representadas as dimensões dos trechos de cada opção de rota e as máximas velocidades médias neles possíveis.\n\n[[figura 1]]\n\nConsiderando as características dos modais apresentados e que em, cada opção de rota, desenvolva-se sempre a máxima velocidade média permitida, tem-se que\n\n(A) a opção 2 é a mais indicada para deslocar produtos estratégicos, como as commodities, já que apresenta grande capacidade de carga e significativa agilidade no transporte, com velocidade média de 54 km/h em todo o trajeto.\n(B) a opção 1 é a mais indicada para transportar produtos de elevado valor agregado, já que apresenta agilidade, com velocidade média de 67,5 km/h, e capacidade de minimizar os custos provocados pela baixa eficiência energética de seu modal predominante.\n(C) a opção 2 é a mais indicada para o transporte de produtos com baixo valor agregado e menor urgência de entrega, já que apresenta o predomínio de um modal econômico em eficiência energética e de reduzida velocidade média, com 50 km/h.\n(D) a opção 1 é a mais indicada para deslocar produtos perecíveis, já que, somando as velocidades de seus modais, apresenta uma velocidade média capaz de concluir o transporte em pouco menos de 11 horas.\n(E) a opção 1 é a mais indicada para o transporte de produtos primários, sobretudo bens de produção, já que oferece baixo custo de transporte associado à rapidez na entrega, com velocidade média de 65 km/h.",
+  "figuras": [
+    "unesp-2025-q48-1.png"
+  ],
+  "gabarito": "C",
+  "gabaritoFonte": "oficial",
+  "resolucao": "Questão de Geografia (modais de transporte) cuja resolução depende do cálculo de velocidade média.\n1. Opção 1: ferroviário 400 km a 80 km/h ⇒ 5 h; rodoviário 1 100 km a 55 km/h ⇒ 20 h. Total: 1 500 km em 25 h ⇒ <i>v</i><sub>m</sub> = 60 km/h.\n2. Opção 2: hidroviário 1 200 km a 48 km/h ⇒ 25 h; rodoviário 300 km a 60 km/h ⇒ 5 h. Total: 1 500 km em 30 h ⇒ <i>v</i><sub>m</sub> = 50 km/h.\n3. Atenção: a velocidade média do trajeto é a distância total dividida pelo tempo total, e não a média ou a soma das velocidades dos trechos. Isso derruba A (54 km/h), B (67,5 km/h), D e E (65 km/h).\n4. A opção 2 tem velocidade média de 50 km/h e predomínio da hidrovia, modal de baixo custo energético e lento, adequado a produtos de baixo valor agregado e sem urgência.\nGabarito: C.",
+  "topicos": [
+    "velocidade-media-e-aceleracao-media"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-01T15:46:34.000Z",
+  "atualizadoEm": "2026-11-01T15:46:34.000Z"
+}

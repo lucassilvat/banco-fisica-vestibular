@@ -1,0 +1,25 @@
+{
+  "id": "unesp-2023-q78",
+  "banca": "Unesp",
+  "ano": 2023,
+  "numero": "78",
+  "fase": "1ª fase",
+  "fonte": {
+    "descricao": "Vunesp, Vestibular Unesp 2023, 1ª fase (Prova de Conhecimentos Gerais), caderno de questões"
+  },
+  "enunciado": "Funcionários de um mercado utilizam um dinamômetro funcionando como uma balança. Esse instrumento é constituído por uma mola ideal vertical e por um prato horizontal de massa 200 g, preso, em repouso, na extremidade inferior dessa mola por cabos de massas desprezíveis.\n\nAo utilizar esse dinamômetro, um funcionário deixa um pacote de café cair verticalmente, a partir do repouso, no centro do prato, de uma altura de 45 cm em relação a ele, conforme a figura. O pacote colide inelasticamente com o prato, e o conjunto começa a oscilar na direção vertical, apresentando uma velocidade de 2 m/s imediatamente após a colisão.\n\n[[figura 1]]\n\nConsiderando que o conjunto constituído pelo prato e pelo pacote de café seja isolado de forças externas nessa colisão, que g seja igual a 10 m/s<sup>2</sup> e desprezando a resistência do ar, a massa do pacote de café é de\n\n(A) 300 g.\n(B) 500 g.\n(C) 600 g.\n(D) 200 g.\n(E) 400 g.",
+  "figuras": [
+    "unesp-2023-q78-1.png"
+  ],
+  "gabarito": "E",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. Velocidade do pacote ao atingir o prato (queda livre de 0,45 m): <i>v</i> = √(2<i>gh</i>) = √(2 · 10 · 0,45) = 3 m/s.\n2. Na colisão, o sistema é isolado: a quantidade de movimento se conserva. Depois da colisão, pacote e prato seguem juntos a 2 m/s.\n3. <i>m</i> · 3 = (<i>m</i> + 0,2) · 2 ⇒ 3<i>m</i> = 2<i>m</i> + 0,4 ⇒ <i>m</i> = 0,4 kg = 400 g.\nGabarito: E.",
+  "topicos": [
+    "conservacao-da-quantidade-de-movimento",
+    "colisoes-elasticas-e-inelasticas",
+    "queda-livre-e-lancamento-vertical"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-01T15:46:25.000Z",
+  "atualizadoEm": "2026-11-01T15:46:25.000Z"
+}

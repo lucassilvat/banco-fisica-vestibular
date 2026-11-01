@@ -1,0 +1,25 @@
+{
+  "id": "unesp-2026-q77",
+  "banca": "Unesp",
+  "ano": 2026,
+  "numero": "77",
+  "fase": "1ª fase",
+  "fonte": {
+    "descricao": "Vunesp, Vestibular Unesp 2026, 1ª fase (Prova de Conhecimentos Gerais), caderno de questões"
+  },
+  "enunciado": "Oslo é uma cidade norueguesa cujas coordenadas geográficas são, aproximadamente, 60º de latitude norte e 11º de longitude leste. A figura apresenta meridianos e paralelos que permitem a localização geográfica dessa cidade no globo terrestre.\n\n[[figura 1]]\n\n(https://amigopai.wordpress.com. Adaptado.)\n\nConsidere um morador de Oslo que esteja em repouso em relação ao solo. Levando em consideração apenas o movimento de rotação da Terra e admitindo-a perfeitamente esférica, o ângulo entre o vetor aceleração centrípeta desse morador e a força gravitacional que atua sobre ele é de\n\n(A) 45º.\n(B) 60º.\n(C) 30º.\n(D) 11º.\n(E) 49º.",
+  "figuras": [
+    "unesp-2026-q77-1.png"
+  ],
+  "gabarito": "B",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. Com a rotação da Terra, o morador descreve uma circunferência no plano do paralelo de 60º N, cujo centro está sobre o eixo de rotação. A aceleração centrípeta aponta para esse centro, perpendicularmente ao eixo terrestre.\n2. A força gravitacional aponta para o centro da Terra.\n3. O ângulo entre a direção “para o centro da Terra” e o plano do equador (perpendicular ao eixo) é a latitude. Como a aceleração centrípeta é paralela ao plano do equador, o ângulo entre ela e a força gravitacional é igual à latitude: 60º.\n4. A longitude (11º) não influi.\nGabarito: B.",
+  "topicos": [
+    "aceleracao-centripeta",
+    "movimento-circular-uniforme-mcu",
+    "lei-da-gravitacao-universal"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-01T15:46:38.000Z",
+  "atualizadoEm": "2026-11-01T15:46:38.000Z"
+}

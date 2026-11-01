@@ -1,0 +1,23 @@
+{
+  "id": "unesp-2021-q80",
+  "banca": "Unesp",
+  "ano": 2021,
+  "numero": "80",
+  "fase": "1ª fase",
+  "fonte": {
+    "descricao": "Vunesp, Vestibular Unesp 2021, 1ª fase (Prova de Conhecimentos Gerais, cursos da área de Biológicas), caderno de questões"
+  },
+  "enunciado": "Em uma barbearia existem dois espelhos planos verticais, paralelos e distantes 3 m um do outro, com a face refletora de um voltada para a face refletora do outro. Um cliente está sentado de frente para um deles, a 1 m de distância dele. Na figura, fora de escala, pode-se notar a infinitude de imagens geradas devido a reflexões sucessivas nesses espelhos.\n\n[[figura 1]]\n\n(https://repositorio.unesp.com.br. Adaptado.)\n\nNessa situação, considerando as distâncias informadas e as características das imagens formadas por espelhos planos, a distância entre a cabeça do cliente, indicada pela seta azul na figura, e a imagem da sua cabeça, indicada pela seta vermelha, é de\n\n(A) 3 m.\n(B) 4 m.\n(C) 7 m.\n(D) 5 m.\n(E) 6 m.",
+  "figuras": [
+    "unesp-2021-q80-1.png"
+  ],
+  "gabarito": "E",
+  "gabaritoFonte": "oficial",
+  "resolucao": "1. Chame de E<sub>1</sub> o espelho à frente do cliente (a 1 m dele) e de E<sub>2</sub> o espelho atrás dele (a 3 − 1 = 2 m).\n2. Em um espelho plano, a imagem é simétrica ao objeto em relação ao espelho.\n3. A primeira imagem em E<sub>1</sub> fica 1 m atrás de E<sub>1</sub>, a 2 m do cliente. Ela mostra o rosto de frente.\n4. A seta vermelha indica a imagem seguinte da cabeça vista em E<sub>1</sub> (a de costas, logo depois da primeira). Ela vem da imagem formada por E<sub>2</sub>, que está 2 m atrás de E<sub>2</sub>, isto é, a 2 + 3 = 5 m de E<sub>1</sub>. Refletida em E<sub>1</sub>, essa imagem fica 5 m atrás de E<sub>1</sub>.\n5. Distância até o cliente: 1 + 5 = 6 m.\nGabarito: E.",
+  "topicos": [
+    "reflexao-da-luz-e-espelhos-planos"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-01T15:46:12.000Z",
+  "atualizadoEm": "2026-11-01T15:46:12.000Z"
+}

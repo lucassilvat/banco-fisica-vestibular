@@ -1,0 +1,24 @@
+{
+  "id": "unesp-2023-q70",
+  "banca": "Unesp",
+  "ano": 2023,
+  "numero": "70",
+  "fase": "1ª fase",
+  "fonte": {
+    "descricao": "Vunesp, Vestibular Unesp 2023, 1ª fase (Prova de Conhecimentos Gerais), caderno de questões"
+  },
+  "enunciado": "[[figura 1]]\n\n(www.aviacaocomercial.net)\n\nPara se calibrar o pneu do carro num posto de serviços, a recomendação é colocar cerca 30 PSI, sigla em inglês para a unidade de pressão “libra-força por polegada quadrada”. Para o pneu de um avião, que é preenchido com nitrogênio puro em vez de ar, a regulagem recomendada é cerca de 200 PSI à temperatura ambiente de 300 K. No entanto, no momento do pouso, essa pressão interna pode aumentar significativamente, como consequência do calor gerado pelo impacto e atrito com o solo e pela ação dos freios, com a temperatura podendo atingir 1 200 K.\n\n(www.uol.com.br. Adaptado.)\n\nSupondo que o volume do pneu não se altere, a pressão interna de nitrogênio no pneu durante o pouso pode atingir o valor de\n\n(A) 1 000 PSI.\n(B) 300 PSI.\n(C) 600 PSI.\n(D) 500 PSI.\n(E) 800 PSI.",
+  "figuras": [
+    "unesp-2023-q70-1.png"
+  ],
+  "gabarito": "E",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. A quantidade de nitrogênio e o volume do pneu não mudam: a transformação é isocórica (isovolumétrica).\n2. Para gás ideal a volume constante, a pressão é proporcional à temperatura absoluta: <i>p</i><sub>1</sub>/<i>T</i><sub>1</sub> = <i>p</i><sub>2</sub>/<i>T</i><sub>2</sub>.\n3. 200/300 = <i>p</i><sub>2</sub>/1 200 ⇒ <i>p</i><sub>2</sub> = 200 · 4 = 800 PSI.\nGabarito: E.",
+  "topicos": [
+    "transformacoes-gasosas-isotermica-isobarica-isocorica-adiabatica",
+    "gas-ideal-e-equacao-de-clapeyron"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-01T15:46:25.000Z",
+  "atualizadoEm": "2026-11-01T15:46:25.000Z"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "unesp-2026-q81",
+  "banca": "Unesp",
+  "ano": 2026,
+  "numero": "81",
+  "fase": "1ª fase",
+  "fonte": {
+    "descricao": "Vunesp, Vestibular Unesp 2026, 1ª fase (Prova de Conhecimentos Gerais), caderno de questões"
+  },
+  "enunciado": "O uso de janelas eletrocrômicas em edifícios é considerado uma das mais promissoras formas de economia de energia em ambientes fechados. Nessas janelas, a intensidade da luz do Sol que é transmitida para o interior das edificações pode ser controlada, permitindo o ajuste da luminosidade e da temperatura nos ambientes internos. O eletrocromismo consiste na mudança das propriedades ópticas de determinado material por meio da aplicação de um estímulo elétrico externo sobre ele.\n\n[[figura 1]]\n\n(https://www.explainthatstuff.com. Adaptado.)\n\nConsidere que, quando uma tensão constante de 4 V é aplicada entre as faces de uma janela eletrocrômica, estabelece-se um campo elétrico uniforme no meio que separa essas faces, e que íons de lítio, cada um com uma carga positiva de 1,6 × 10<sup>–19</sup> C, migram através desse meio, movendo-se de um eletrodo mais próximo da face interna para outro mais próximo da face externa da janela. Esse movimento dos íons altera a coloração do meio existente entre os eletrodos, aumentando a opacidade da janela. Sendo d = 5 mm a distância entre os eletrodos, a intensidade da força elétrica que atua sobre cada íon de lítio quando eles se movem nessa janela é de\n\n(A) 2,56 × 10<sup>–16</sup> N.\n(B) 6,40 × 10<sup>–19</sup> N.\n(C) 1,28 × 10<sup>–16</sup> N.\n(D) 4,00 × 10<sup>2</sup> N.\n(E) 8,00 × 10<sup>2</sup> N.",
+  "figuras": [
+    "unesp-2026-q81-1.png"
+  ],
+  "gabarito": "C",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. Em campo elétrico uniforme: <i>U</i> = <i>E</i> · <i>d</i> ⇒ <i>E</i> = 4/(5 × 10<sup>−3</sup>) = 800 V/m.\n2. Força sobre cada íon: <i>F</i> = <i>qE</i> = 1,6 × 10<sup>−19</sup> · 800 = 1,28 × 10<sup>−16</sup> N.\nGabarito: C.",
+  "topicos": [
+    "linhas-de-campo-e-campo-eletrico-uniforme",
+    "potencial-eletrico-e-diferenca-de-potencial",
+    "campo-eletrico"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-01T15:46:38.000Z",
+  "atualizadoEm": "2026-11-01T15:46:38.000Z"
+}

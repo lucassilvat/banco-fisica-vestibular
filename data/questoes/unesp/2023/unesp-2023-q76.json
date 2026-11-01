@@ -1,0 +1,26 @@
+{
+  "id": "unesp-2023-q76",
+  "banca": "Unesp",
+  "ano": 2023,
+  "numero": "76",
+  "fase": "1ª fase",
+  "fonte": {
+    "descricao": "Vunesp, Vestibular Unesp 2023, 1ª fase (Prova de Conhecimentos Gerais), caderno de questões"
+  },
+  "enunciado": "O termopar é um sensor de temperatura constituído por dois fios metálicos distintos, 1 e 2, unidos em uma das extremidades pela chamada junção de medida, e conectados na outra extremidade a um voltímetro, conforme a figura.\n\n[[figura 1]]\n\nComo esses fios são constituídos de metais diferentes, o voltímetro indica uma diferença de potencial que depende da temperatura lida pela junção de medida. Essa diferença de potencial é interpretada e determina a temperatura lida pelo termopar.\n\nOs termopares são classificados com letras, dependendo dos metais utilizados em sua confecção. O gráfico mostra como varia a diferença de potencial (U), lida pelo voltímetro, em função da temperatura (θ), indicada por três tipos de termopares, E, K e N. Nesse gráfico, a sensibilidade do termopar, medida em mV/ºC, está associada à inclinação da reta tangente à curva, em determinado ponto.\n\n[[figura 2]]\n\nDe acordo com o gráfico,\n\n(A) para uma mesma temperatura, a diferença de potencial lida pelo voltímetro é menor para o termopar do tipo E do que para o termopar do tipo K.\n(B) o termopar do tipo E apresenta uma sensibilidade menor do que o termopar do tipo K para qualquer faixa de temperatura.\n(C) para uma mesma diferença de potencial lida pelo voltímetro, o termopar do tipo N indica uma temperatura maior do que o termopar do tipo E.\n(D) na faixa de 600 ºC a 1 200 ºC, a sensibilidade do termopar do tipo K é maior do que a sensibilidade do termopar do tipo N.\n(E) dos três tipos de termopares, o do tipo N é o que apresenta maior sensibilidade.",
+  "figuras": [
+    "unesp-2023-q76-1.png",
+    "unesp-2023-q76-2.png"
+  ],
+  "gabarito": "C",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. (A) Falsa: para uma mesma temperatura, a curva E fica acima da K, ou seja, o termopar E indica maior diferença de potencial.\n2. (B) Falsa: a reta E é a mais inclinada em toda a faixa; E é o mais sensível.\n3. (C) Verdadeira: traçando uma horizontal (mesmo U), ela corta a curva E em uma temperatura menor e a curva N em uma temperatura maior, porque N é menos inclinada.\n4. (D) Falsa: de 600 ºC a 1 200 ºC, a curva N vai de cerca de 19 mV a 44 mV (≈ 0,042 mV/ºC), enquanto a reta K tem inclinação de cerca de 0,040 mV/ºC; N é ligeiramente mais sensível nessa faixa.\n5. (E) Falsa: o termopar de maior sensibilidade é o E.\nGabarito: C.",
+  "topicos": [
+    "temperatura-e-escalas-termometricas",
+    "potencial-eletrico-e-diferenca-de-potencial",
+    "leitura-e-interpretacao-de-graficos"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-01T15:46:25.000Z",
+  "atualizadoEm": "2026-11-01T15:46:25.000Z"
+}

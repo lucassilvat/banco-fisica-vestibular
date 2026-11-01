@@ -1,0 +1,26 @@
+{
+  "id": "unesp-2025-q82",
+  "banca": "Unesp",
+  "ano": 2025,
+  "numero": "82",
+  "fase": "1ª fase",
+  "fonte": {
+    "descricao": "Vunesp, Vestibular Unesp 2025, 1ª fase (Prova de Conhecimentos Gerais), caderno de questões"
+  },
+  "enunciado": "Uma situação comum em residências antigas é a incompatibilidade entre os cabos elétricos instalados e a demanda atual de energia elétrica. Nessas residências, dispositivos de proteção podem interromper o circuito quando vários eletrodomésticos são ligados simultaneamente. A figura mostra a planta da cozinha e da lavanderia de uma residência antiga, em que a instalação elétrica é protegida por um disjuntor de 30 A.\n\n[[figura 1]]\n\nNesses locais, já estão em funcionamento uma televisão (TV) e uma máquina de lavar roupas (ML). Também constam dessa instalação um forno de micro-ondas (MO), um liquidificador (LI) e um ferro de passar (FP). As potências desses eletrodomésticos estão indicadas na tabela.\n\n[[figura 2]]\n\nO disjuntor interromperá a corrente elétrica se, simultaneamente com a televisão e com a máquina de lavar,\n\n(A) for ligado o forno de micro-ondas.\n(B) forem ligados o forno de micro-ondas e o liquidificador.\n(C) forem ligados o forno de micro-ondas e o ferro de passar.\n(D) for ligado o ferro de passar.\n(E) forem ligados o liquidificador e o ferro de passar.",
+  "figuras": [
+    "unesp-2025-q82-1.png",
+    "unesp-2025-q82-2.png"
+  ],
+  "gabarito": "C",
+  "gabaritoFonte": "oficial",
+  "resolucao": "1. Os aparelhos estão ligados em paralelo à tensão de 110 V (figura); a potência total é a soma das potências e a corrente total é <i>i</i> = <i>P</i><sub>total</sub>/<i>U</i>.\n2. Potência máxima suportada pelo disjuntor: 110 · 30 = 3 300 W.\n3. TV + ML = 220 + 880 = 1 100 W. Sobram 2 200 W para os demais.\n4. (A) 880 W; (B) 880 + 550 = 1 430 W; (D) 1 430 W; (E) 550 + 1 430 = 1 980 W: todas abaixo de 2 200 W.\n5. (C) 880 + 1 430 = 2 310 W &gt; 2 200 W: total de 3 410 W, corrente de 3 410/110 = 31 A &gt; 30 A. O disjuntor desarma.\nGabarito: C.",
+  "topicos": [
+    "instalacoes-eletricas-residenciais-fusiveis-e-disjuntores",
+    "potencia-eletrica-e-efeito-joule",
+    "associacao-de-resistores"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-01T15:46:34.000Z",
+  "atualizadoEm": "2026-11-01T15:46:34.000Z"
+}

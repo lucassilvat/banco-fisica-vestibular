@@ -1,0 +1,26 @@
+{
+  "id": "unesp-2023-q81",
+  "banca": "Unesp",
+  "ano": 2023,
+  "numero": "81",
+  "fase": "1ª fase",
+  "fonte": {
+    "descricao": "Vunesp, Vestibular Unesp 2023, 1ª fase (Prova de Conhecimentos Gerais), caderno de questões"
+  },
+  "enunciado": "Nos instrumentos musicais de corda, as cordas apresentam diferentes espessuras e diferentes densidades lineares de massa, para que aquelas que emitem sons mais graves não precisem ser muito longas, o que inviabilizaria a construção do instrumento.\n\nDetalhes das cordas de um violoncelo\n\n[[figura 1]]\n\n(pt.wikipedia.org)\n\nPara ilustrar o fato de que cordas que emitem sons mais graves precisariam ser muito longas, considere duas cordas, 1 e 2, ambas com extremidades fixas, que apresentem espessuras iguais, mesma densidade linear de massa e que estejam submetidas à mesma força de tração.\n\n[[figura 2]]\n\nQuando essas cordas vibram em seus modos fundamentais, a frequência da onda sonora emitida pela corda 1 é 150 vezes maior do que a frequência da onda sonora emitida pela corda 2. Sabendo que a corda 1 mede L<sub>1</sub> = 5 cm, o comprimento L<sub>2</sub> da corda 2 deve ser de\n\n(A) 7,5 m.\n(B) 8,0 m.\n(C) 5,0 m.\n(D) 2,5 m.\n(E) 1,5 m.",
+  "figuras": [
+    "unesp-2023-q81-1.png",
+    "unesp-2023-q81-2.png"
+  ],
+  "gabarito": "A",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. Mesma tração e mesma densidade linear ⇒ mesma velocidade de propagação <i>v</i> nas duas cordas (fórmula de Taylor).\n2. No modo fundamental, L = λ/2 ⇒ f = <i>v</i>/(2L): a frequência é inversamente proporcional ao comprimento.\n3. f<sub>1</sub>/f<sub>2</sub> = L<sub>2</sub>/L<sub>1</sub> = 150 ⇒ L<sub>2</sub> = 150 · 5 cm = 750 cm = 7,5 m.\nGabarito: A.",
+  "topicos": [
+    "ondas-estacionarias-e-cordas-vibrantes",
+    "velocidade-de-onda-em-cordas-taylor",
+    "som-altura-intensidade-e-timbre"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-01T15:46:25.000Z",
+  "atualizadoEm": "2026-11-01T15:46:25.000Z"
+}

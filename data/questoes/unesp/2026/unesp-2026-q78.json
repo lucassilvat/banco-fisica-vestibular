@@ -1,0 +1,23 @@
+{
+  "id": "unesp-2026-q78",
+  "banca": "Unesp",
+  "ano": 2026,
+  "numero": "78",
+  "fase": "1ª fase",
+  "fonte": {
+    "descricao": "Vunesp, Vestibular Unesp 2026, 1ª fase (Prova de Conhecimentos Gerais), caderno de questões"
+  },
+  "enunciado": "Considere que, em uma viagem de 2 h de duração, um veículo que usa gasolina como combustível e transporta apenas seu motorista de 70 kg, mova-se com velocidade escalar média de 50 km/h, percorrendo, em média, 10 km com 1 litro de gasolina. Admita que, nessa viagem, apenas 1% da energia liberada na combustão completa da gasolina seja utilizada para mover o motorista do veículo.\n\nConsiderando que a energia de combustão da gasolina é 4 × 10<sup>7</sup> J/kg, que a densidade da gasolina é de 0,7 kg/L e adotando g = 10 m/s<sup>2</sup>, se toda a energia utilizada para mover o motorista desse veículo fosse integralmente transformada em energia potencial gravitacional desse motorista, a altura atingida por ele, em relação ao solo, seria de\n\n(A) 1 200 m.\n(B) 6 300 m.\n(C) 4 900 m.\n(D) 4 000 m.\n(E) 700 m.",
+  "figuras": [],
+  "gabarito": "D",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. Distância percorrida: 50 km/h · 2 h = 100 km. Consumo: 100/10 = 10 L de gasolina.\n2. Massa de gasolina: 10 L · 0,7 kg/L = 7 kg. Energia liberada: 7 · 4 × 10<sup>7</sup> = 2,8 × 10<sup>8</sup> J.\n3. Energia usada para mover o motorista (1%): 2,8 × 10<sup>6</sup> J.\n4. Convertida em energia potencial: <i>mgh</i> = 2,8 × 10<sup>6</sup> ⇒ <i>h</i> = 2,8 × 10<sup>6</sup>/(70 · 10) = 4 000 m.\nGabarito: D.",
+  "topicos": [
+    "energia-potencial-gravitacional",
+    "potencia-e-rendimento",
+    "velocidade-media-e-aceleracao-media"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-01T15:46:38.000Z",
+  "atualizadoEm": "2026-11-01T15:46:38.000Z"
+}

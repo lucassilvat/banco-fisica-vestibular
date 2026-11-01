@@ -1,0 +1,24 @@
+{
+  "id": "unesp-2025-q77",
+  "banca": "Unesp",
+  "ano": 2025,
+  "numero": "77",
+  "fase": "1ª fase",
+  "fonte": {
+    "descricao": "Vunesp, Vestibular Unesp 2025, 1ª fase (Prova de Conhecimentos Gerais), caderno de questões"
+  },
+  "enunciado": "Uma bola é chutada obliquamente, no instante t<sub>0</sub> = 0, com velocidade inicial v<sub>0</sub>, no ponto A de uma elevação. Essa bola descreve a trajetória indicada na figura passando pelo ponto B, ponto mais alto de sua trajetória, no instante t = 0,8 s, e atinge o solo horizontal no ponto C, no instante t = 2 s.\n\n[[figura 1]]\n\nDesprezando a resistência do ar, adotando g = 10 m/s<sup>2</sup> e sabendo que a equação da trajetória dessa bola, desde o ponto A até o ponto C, é y = –0,2 · x<sup>2</sup> + 1,6 · x + 4, o módulo de v<sub>0</sub> é\n\n(A) 4 m/s\n(B) √45 m/s\n(C) 6 m/s\n(D) 13 m/s\n(E) √89 m/s",
+  "figuras": [
+    "unesp-2025-q77-1.png"
+  ],
+  "gabarito": "E",
+  "gabaritoFonte": "oficial",
+  "resolucao": "1. Componente vertical: no ponto mais alto (t = 0,8 s) a velocidade vertical se anula: <i>v</i><sub>0y</sub> = <i>g</i> · 0,8 = 8 m/s.\n2. Abscissa de B (vértice da parábola): <i>x</i> = −1,6/(2 · (−0,2)) = 4 m.\n3. Componente horizontal (MU): <i>v</i><sub>0x</sub> = 4/0,8 = 5 m/s. (Confere: em t = 2 s, <i>x</i> = 10 m e <i>y</i> = −20 + 16 + 4 = 0, que é o ponto C no solo; e a inclinação inicial da trajetória, 1,6, é igual a <i>v</i><sub>0y</sub>/<i>v</i><sub>0x</sub> = 8/5.)\n4. Módulo: <i>v</i><sub>0</sub> = √(5² + 8²) = √89 m/s.\nGabarito: E.",
+  "topicos": [
+    "lancamento-obliquo",
+    "vetores-soma-e-decomposicao"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-01T15:46:34.000Z",
+  "atualizadoEm": "2026-11-01T15:46:34.000Z"
+}

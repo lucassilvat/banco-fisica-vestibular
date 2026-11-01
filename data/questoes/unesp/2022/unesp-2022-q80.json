@@ -1,0 +1,23 @@
+{
+  "id": "unesp-2022-q80",
+  "banca": "Unesp",
+  "ano": 2022,
+  "numero": "80",
+  "fase": "1ª fase",
+  "fonte": {
+    "descricao": "Vunesp, Vestibular Unesp 2022, 1ª fase (Prova de Conhecimentos Gerais, cursos da área de Biológicas), caderno de questões"
+  },
+  "enunciado": "Um objeto linear AB é colocado perpendicularmente ao eixo principal de um espelho esférico convexo, a uma distância d do vértice desse espelho. A figura mostra um raio de luz (R) proveniente da extremidade A do objeto e a imagem A’ desse ponto.\n\n[[figura 1]]\n\nConsiderando as dimensões indicadas na figura, a distância d é igual a:\n\n(A) (x · y)/(y − x)\n(B) (x · y)/(2 · x + y)\n(C) (x · y)/(x + y)\n(D) (x · y)/(y − 2 · x)\n(E) (2 · x · y)/(y − x)",
+  "figuras": [
+    "unesp-2022-q80-1.png"
+  ],
+  "gabarito": "D",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. Pela figura, y é a distância do vértice ao centro de curvatura, isto é, o raio de curvatura: R = y. A distância focal é f = R/2 = y/2; no referencial de Gauss, para o espelho convexo, f = −y/2.\n2. A imagem A’ é virtual (atrás do espelho), a uma distância x do vértice: p’ = −x.\n3. Equação de Gauss: 1/f = 1/p + 1/p’ ⇒ −2/y = 1/d − 1/x ⇒ 1/d = 1/x − 2/y = (y − 2x)/(x · y).\n4. Logo, d = (x · y)/(y − 2 · x).\nGabarito: D.",
+  "topicos": [
+    "espelhos-esfericos-equacao-de-gauss-e-aumento"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-01T15:46:22.000Z",
+  "atualizadoEm": "2026-11-01T15:46:22.000Z"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "unesp-2026-q82",
+  "banca": "Unesp",
+  "ano": 2026,
+  "numero": "82",
+  "fase": "1ª fase",
+  "fonte": {
+    "descricao": "Vunesp, Vestibular Unesp 2026, 1ª fase (Prova de Conhecimentos Gerais), caderno de questões"
+  },
+  "enunciado": "As figuras 1 e 2 representam o circuito elétrico do indicador do nível de combustível de um veículo. Esse indicador possui uma boia de plástico que flutua no combustível, dentro do tanque, e está conectada a uma barra de metal. A outra ponta dessa barra desliza sobre um resistor de resistência variável (reostato). Quando o tanque está cheio (figura 1), apenas uma pequena porção do resistor faz parte do circuito. Quando o tanque está vazio (figura 2), uma grande porção do resistor faz parte do circuito.\n\n[[figura 1]]\n\n(Regina Carvalho e Juan Gutierrez. <i>O automóvel na visão da física</i>, 2013. Adaptado.)\n\nA bateria do veículo faz circular uma corrente elétrica por esse circuito, que é usada para aquecer uma lâmina bimetálica constituída por dois metais, A e B, que, quando aquecida, se curva e desloca o ponteiro do mostrador, conforme a figura 1.\n\nÀ medida que o combustível vai sendo utilizado, a intensidade da corrente elétrica que passa pelo reostato vai ____________ e, para que esse indicador funcione como descrito na figura, o coeficiente de dilatação térmica do metal A da lâmina bimetálica deve ser ____________ coeficiente de dilatação térmica do metal B.\n\nAs lacunas do texto são preenchidas, respectivamente, por:\n\n(A) aumentando – maior do que o.\n(B) diminuindo – menor do que o.\n(C) diminuindo – igual ao.\n(D) diminuindo – maior do que o.\n(E) aumentando – menor do que o.",
+  "figuras": [
+    "unesp-2026-q82-1.png"
+  ],
+  "gabarito": "B",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. Com o consumo do combustível, a boia desce e uma porção maior do reostato entra no circuito: a resistência aumenta e, com a tensão da bateria fixa, a corrente diminui (<i>i</i> = <i>U</i>/<i>R</i>).\n2. Com tanque cheio (corrente maior), a lâmina aquecida se curva; na figura 1 ela se curva para o lado do metal A, que fica na parte interna (côncava) da curva.\n3. Numa lâmina bimetálica aquecida, o metal que dilata mais fica do lado externo (convexo). Logo, B dilata mais que A: o coeficiente de dilatação de A é menor que o de B.\n4. Lacunas: “diminuindo” e “menor do que o”.\nGabarito: B.",
+  "topicos": [
+    "segunda-lei-de-ohm-e-resistividade",
+    "primeira-lei-de-ohm",
+    "dilatacao-termica-dos-solidos"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-01T15:46:38.000Z",
+  "atualizadoEm": "2026-11-01T15:46:38.000Z"
+}

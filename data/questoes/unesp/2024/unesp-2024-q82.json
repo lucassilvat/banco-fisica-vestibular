@@ -1,0 +1,30 @@
+{
+  "id": "unesp-2024-q82",
+  "banca": "Unesp",
+  "ano": 2024,
+  "numero": "82",
+  "fase": "1ª fase",
+  "fonte": {
+    "descricao": "Vunesp, Vestibular Unesp 2024, 1ª fase (Prova de Conhecimentos Gerais), caderno de questões"
+  },
+  "enunciado": "Alguns peixes, como os tubarões, orientam-se sentindo o campo magnético da Terra. Como cada local na Terra tem uma assinatura magnética diferente, supõem-se que esses peixes possam guardar no cérebro algum tipo de mapa magnético que os informa sobre onde estão. Para verificar essa suposição, foi realizado um experimento colocando tubarões em um tanque cercado por um cubo envolto em fios de cobre, pelos quais fez-se passar corrente elétrica. Essa corrente modificou o campo magnético da região, desorientando os tubarões.\n\n(www.nationalgeographicbrasil.com. Adaptado.)\n\nSuponha que a figura, fora de escala, represente uma das faces do cubo que cercou o tanque em que esse experimento foi realizado, envolvido por um fio de cobre com o formato de um solenoide, percorrido por uma corrente elétrica contínua (i) no sentido indicado. Considere que um tubarão esteja nadando ao longo do eixo longitudinal do solenoide, sujeito, simultaneamente, ao campo magnético criado pela Terra na região, B⃗<sub>T</sub>, indicado na figura, e ao campo magnético criado pela corrente que circula pelo solenoide.\n\n[[figura 1]]\n\nConsidere que B⃗<sub>T</sub> esteja contido no plano da figura, que ⊙ represente um vetor saindo do plano desta folha e que ⊗ represente um vetor entrando no plano desta folha. A representação do campo magnético sentido pelo tubarão, devido aos efeitos simultâneos do campo magnético terrestre e da corrente que circula pelo solenoide, é:\n\n(A)\n[[figura 2]]\n(B)\n[[figura 3]]\n(C)\n[[figura 4]]\n(D)\n[[figura 5]]\n(E)\n[[figura 6]]",
+  "figuras": [
+    "unesp-2024-q82-1.png",
+    "unesp-2024-q82-2.png",
+    "unesp-2024-q82-3.png",
+    "unesp-2024-q82-4.png",
+    "unesp-2024-q82-5.png",
+    "unesp-2024-q82-6.png"
+  ],
+  "gabarito": "B",
+  "gabaritoFonte": "oficial",
+  "resolucao": "1. No interior do solenoide, o campo criado pela corrente tem a direção do eixo (horizontal, no plano da figura); falta achar o sentido.\n2. A corrente entra pela direita (i para cima), sobe por trás da face, passa por cima para a frente e desce pelos trechos inclinados que aparecem à frente da face; depois passa por baixo para trás e sobe de novo, avançando para a esquerda, até sair pela esquerda (i para baixo).\n3. Regra da mão direita: com os dedos acompanhando esse giro (para cima atrás, para baixo na frente), o polegar aponta para a direita. O campo do solenoide no eixo é horizontal, para a direita.\n4. O campo terrestre B⃗<sub>T</sub> é vertical, para cima, no plano da figura. A soma de um vetor para a direita com um para cima é um vetor inclinado para cima e para a direita, no plano da figura.\nGabarito: B.",
+  "topicos": [
+    "campo-magnetico-de-espira-e-solenoide",
+    "campo-magnetico-terrestre-e-bussola",
+    "vetores-soma-e-decomposicao"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-01T15:46:30.000Z",
+  "atualizadoEm": "2026-11-01T15:46:30.000Z"
+}

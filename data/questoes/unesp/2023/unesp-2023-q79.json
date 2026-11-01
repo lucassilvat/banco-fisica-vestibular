@@ -1,0 +1,25 @@
+{
+  "id": "unesp-2023-q79",
+  "banca": "Unesp",
+  "ano": 2023,
+  "numero": "79",
+  "fase": "1ª fase",
+  "fonte": {
+    "descricao": "Vunesp, Vestibular Unesp 2023, 1ª fase (Prova de Conhecimentos Gerais), caderno de questões"
+  },
+  "enunciado": "O gráfico representa a frequência média de oscilação (f) das pernas de um animal em função do comprimento de suas pernas (L), quando ele caminha de forma natural. Esse mesmo gráfico pode ser utilizado para uma pessoa caminhando nas mesmas condições.\n\n[[figura 1]]\n\n(https://wp.ufpel.edu.br)\n\nConsidere uma pessoa adulta de 80 kg, cujas pernas medem 1 m, caminhando em um parque sobre uma superfície plana e horizontal, com velocidade escalar constante. Se, em determinado trecho dessa caminhada, para cada passo dado essa pessoa deslocar-se 90 cm, sua energia cinética será de\n\n(A) 40,0 J.\n(B) 32,4 J.\n(C) 64,8 J.\n(D) 36,0 J.\n(E) 16,2 J.",
+  "figuras": [
+    "unesp-2023-q79-1.png"
+  ],
+  "gabarito": "B",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. No gráfico, para L = 1 m = 100 cm, a frequência é f = 1 passo/s.\n2. Cada passo desloca a pessoa 0,9 m; logo, <i>v</i> = 0,9 m/passo · 1 passo/s = 0,9 m/s.\n3. Energia cinética: <i>E</i><sub>c</sub> = <i>mv</i>²/2 = 80 · 0,81/2 = 32,4 J.\nGabarito: B.",
+  "topicos": [
+    "energia-cinetica-e-teorema-trabalho-energia",
+    "periodo-frequencia-e-velocidade-angular",
+    "leitura-e-interpretacao-de-graficos"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-01T15:46:25.000Z",
+  "atualizadoEm": "2026-11-01T15:46:25.000Z"
+}

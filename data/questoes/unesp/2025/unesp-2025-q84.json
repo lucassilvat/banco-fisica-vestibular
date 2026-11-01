@@ -1,0 +1,28 @@
+{
+  "id": "unesp-2025-q84",
+  "banca": "Unesp",
+  "ano": 2025,
+  "numero": "84",
+  "fase": "1ª fase",
+  "fonte": {
+    "descricao": "Vunesp, Vestibular Unesp 2025, 1ª fase (Prova de Conhecimentos Gerais), caderno de questões"
+  },
+  "enunciado": "A fórmula de conversão entre a temperatura T<sub>C</sub>, em graus Celsius, e a temperatura T<sub>F</sub>, em graus Fahrenheit, é T<sub>C</sub> = 5(T<sub>F</sub> – 32)/9. Para cálculos rápidos, ainda que não totalmente precisos, pode-se usar a fórmula T*<sub>C</sub> = (T<sub>F</sub> – 30)/2, em que T*<sub>C</sub> é a temperatura aproximada, em graus Celsius, da temperatura T<sub>F</sub>, em graus Fahrenheit.\n\nConsiderando que o erro absoluto E(T<sub>F</sub>), cometido pela fórmula de valores aproximados em relação à fórmula de valores precisos, seja dado pela função modular E(T<sub>F</sub>) = |T<sub>C</sub> – T*<sub>C</sub>|, seu gráfico pode ser representado por:\n\n(A)\n[[figura 1]]\n(B)\n[[figura 2]]\n(C)\n[[figura 3]]\n(D)\n[[figura 4]]\n(E)\n[[figura 5]]",
+  "figuras": [
+    "unesp-2025-q84-1.png",
+    "unesp-2025-q84-2.png",
+    "unesp-2025-q84-3.png",
+    "unesp-2025-q84-4.png",
+    "unesp-2025-q84-5.png"
+  ],
+  "gabarito": "B",
+  "gabaritoFonte": "oficial",
+  "resolucao": "1. Diferença entre as fórmulas: T<sub>C</sub> − T*<sub>C</sub> = 5(T<sub>F</sub> − 32)/9 − (T<sub>F</sub> − 30)/2 = [10(T<sub>F</sub> − 32) − 9(T<sub>F</sub> − 30)]/18 = (T<sub>F</sub> − 50)/18.\n2. Erro absoluto: E(T<sub>F</sub>) = |T<sub>F</sub> − 50|/18, um gráfico em “V” com vértice (erro nulo) em T<sub>F</sub> = 50.\n3. Para T<sub>F</sub> = 0: E = 50/18 = 25/9.\n4. O gráfico com zero em 50 e valor 25/9 em T<sub>F</sub> = 0 é o da alternativa B. (Em C, o valor em 0 seria 18, incompatível.)\nGabarito: B.",
+  "topicos": [
+    "temperatura-e-escalas-termometricas",
+    "leitura-e-interpretacao-de-graficos"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-01T15:46:34.000Z",
+  "atualizadoEm": "2026-11-01T15:46:34.000Z"
+}
