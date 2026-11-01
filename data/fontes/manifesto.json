@@ -216,6 +216,18 @@
       "url": "",
       "sha256": "adfdcd827a4295a18136cd5bfb3e25f0390fdf9efd96ca4c62712e8eb474354c",
       "paginas": 40
+    },
+    {
+      "banca": "fuvest",
+      "ano": 2027,
+      "versao": "",
+      "tipo": "caderno",
+      "descricao": "Fuvest, Vestibular 2027, 1ª fase (Prova de Conhecimentos Gerais), caderno de questões",
+      "fase": "1ª fase · Prova V1",
+      "arquivoLocal": "fontes/fuvest-2027-caderno.pdf",
+      "url": "",
+      "sha256": "b1a54056d72ae1a547a1665bf550b895c59816477ffeaa534995d34b7684177c",
+      "paginas": 32
     }
   ]
 }
