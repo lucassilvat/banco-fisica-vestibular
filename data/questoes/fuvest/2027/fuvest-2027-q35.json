@@ -1,0 +1,25 @@
+{
+  "id": "fuvest-2027-q35",
+  "banca": "fuvest",
+  "ano": 2027,
+  "numero": "35",
+  "fase": "1ª fase · Prova V1",
+  "fonte": {
+    "descricao": "Fuvest, Vestibular 2027, 1ª fase (Prova de Conhecimentos Gerais), caderno de questões"
+  },
+  "enunciado": "Em um laboratório, um pesquisador realiza experimentos sobre um circuito elétrico composto por fios e resistores ideais não necessariamente iguais, conforme a imagem a seguir:\n\n[[figura 1]]\n\nQuando se colocam fontes de tensão tal que (<i>c</i><sub>1</sub>, <i>c</i><sub>2</sub>) = (5,10) Volts, verifica-se que (<i>x</i>, <i>y</i>) = (5,3) Volts. Repete-se o experimento com (<i>c</i><sub>1</sub>, <i>c</i><sub>2</sub>) = (3,3) Volts, para medir (<i>x</i>, <i>y</i>) = (1,2) Volts. Quando se coloca (<i>c</i><sub>1</sub>, <i>c</i><sub>2</sub>) = (2,1) Volts, quanto deve valer 5(<i>x</i> + <i>y</i>), em Volts?\n\n(A) 7\n(B) 10\n(C) 1\n(D) 5\n(E) 2",
+  "figuras": [
+    "fuvest-2027-q35-1.png"
+  ],
+  "gabarito": "A",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. Um circuito só com resistores ôhmicos e fontes é linear: as tensões <i>x</i> e <i>y</i> são combinações lineares das tensões das fontes (princípio da superposição). Se as fontes valem uma combinação α(<i>c</i><sub>1</sub>, <i>c</i><sub>2</sub>) + β(<i>c</i>′<sub>1</sub>, <i>c</i>′<sub>2</sub>), as respostas são a mesma combinação das respostas.\n2. Escrevemos (2, 1) = α(5, 10) + β(3, 3): 5α + 3β = 2 e 10α + 3β = 1. Subtraindo: 5α = −1 ⇒ α = −0,2; então 3β = 2 + 1 = 3 ⇒ β = 1.\n3. Respostas: (<i>x</i>, <i>y</i>) = −0,2 · (5, 3) + 1 · (1, 2) = (−1 + 1; −0,6 + 2) = (0; 1,4) V.\n4. 5(<i>x</i> + <i>y</i>) = 5 · 1,4 = 7 V.\nGabarito: A.",
+  "topicos": [
+    "leis-de-kirchhoff",
+    "associacao-de-resistores",
+    "potencial-eletrico-e-diferenca-de-potencial"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-01T23:08:30.000Z",
+  "atualizadoEm": "2026-11-01T23:08:30.000Z"
+}

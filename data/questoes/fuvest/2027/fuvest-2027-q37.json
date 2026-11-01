@@ -1,0 +1,23 @@
+{
+  "id": "fuvest-2027-q37",
+  "banca": "fuvest",
+  "ano": 2027,
+  "numero": "37",
+  "fase": "1ª fase · Prova V1",
+  "fonte": {
+    "descricao": "Fuvest, Vestibular 2027, 1ª fase (Prova de Conhecimentos Gerais), caderno de questões"
+  },
+  "enunciado": "<b>Texto para as questões 36 e 37</b>\n\nNo contexto de 2026, a substituição de frotas a combustão por frotas elétricas é uma estratégia central de descarbonização para alguns países. O Uruguai, por exemplo, lidera a expansão de veículos elétricos na América Latina. Desde 2010, converteu 99% de sua matriz elétrica para fontes renováveis e locais. Essa transição estratégica permitiu ao país reduzir a dependência de combustíveis fósseis importados e foi impulsionada por incentivos fiscais agressivos.\n\nEm termos físicos, um carro elétrico pode ser modelado como um sistema simples de corrente contínua, no qual a bateria fornece a tensão, o “acelerador” atua como um resistor variável que controla a corrente, e o motor converte essa energia em movimento.\n\nA eficiência desse sistema depende da conversão da energia da bateria em movimento pelo motor, com a menor perda possível por calor (Efeito Joule).\n\nUm motorista está decidindo entre comprar um carro a gasolina ou um elétrico. No modelo elétrico, a ficha de especificação informa que, para manter uma velocidade constante de 100 km/h, o sistema opera com uma diferença de potencial de 400 V e uma corrente de 80 A.\n\nDados Adicionais:\n• Preço do carro a gasolina: R$ 120.000,00.\n• Preço do carro elétrico: R$ 160.000,00.\n• Uso mensal e perfil: O motorista percorre 2.000 km por mês, mantendo uma velocidade média de 100 km/h.\n• Custo da gasolina: R$ 0,50 por km rodado para o perfil descrito.\n• Tarifa de energia elétrica: R$ 0,80 por kWh.\n\nNa comparação entre os dois modelos, considerando os dados apresentados e um tempo de posse do carro de 5 anos, é correto afirmar que, em termos financeiros,\n\nNote e adote:\nA definição de potência elétrica (<i>P</i>) é igual à taxa de variação de energia (<i>E</i>) com o tempo (<i>t</i>), ou seja, <i>P</i> = Δ<i>E</i>/Δ<i>t</i>. Também pode ser definida como a diferença de potencial (<i>V</i>) multiplicada pela corrente elétrica (<i>i</i>), ou seja, <i>P</i> = <i>V</i> · <i>i</i>.\nDesprezar eventuais variações no preço da gasolina e da energia elétrica no período de cinco anos analisado.\n\n(A) o carro elétrico é o mais atrativo com bônus governamental de pelo menos R$ 11.000,00.\n(B) o carro elétrico é o mais atrativo com bônus governamental de pelo menos R$ 8.000,00.\n(C) o carro elétrico é o mais atrativo com bônus governamental de pelo menos R$ 5.000,00.\n(D) o carro elétrico é o mais atrativo, independentemente de bônus governamental.\n(E) o carro elétrico não é o mais atrativo, independentemente de bônus governamental.",
+  "figuras": [],
+  "gabarito": "A",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. Potência do carro elétrico: <i>P</i> = <i>V</i> · <i>i</i> = 400 · 80 = 32 000 W = 32 kW.\n2. Tempo de uso por mês: 2 000 km a 100 km/h ⇒ 20 h. Energia: 32 kW · 20 h = 640 kWh ⇒ custo de 640 · 0,80 = R$ 512,00 por mês.\n3. Gasolina: 2 000 km · R$ 0,50 = R$ 1.000,00 por mês. Economia do elétrico: R$ 488,00 por mês.\n4. Em 5 anos (60 meses): 488 · 60 = R$ 29.280,00 de economia.\n5. Diferença de preço de compra: 160 000 − 120 000 = R$ 40.000,00. Sem bônus, o elétrico sai R$ 10.720,00 mais caro: (D) é falsa.\n6. Com um bônus de pelo menos R$ 11.000,00 (&gt; R$ 10.720,00), o elétrico passa a ser o mais vantajoso; bônus de R$ 8.000,00 ou R$ 5.000,00 não bastam.\nGabarito: A.",
+  "topicos": [
+    "potencia-eletrica-e-efeito-joule",
+    "energia-eletrica-e-consumo-kwh-conta-de-luz",
+    "movimento-retilineo-uniforme-mru"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-01T23:08:30.000Z",
+  "atualizadoEm": "2026-11-01T23:08:30.000Z"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "fuvest-2027-q42",
+  "banca": "fuvest",
+  "ano": 2027,
+  "numero": "42",
+  "fase": "1ª fase · Prova V1",
+  "fonte": {
+    "descricao": "Fuvest, Vestibular 2027, 1ª fase (Prova de Conhecimentos Gerais), caderno de questões"
+  },
+  "enunciado": "Em 2026, o cenário nuclear global é definido pela estagnação dos tratados de desarmamento e por uma nítida tendência de modernização dos arsenais. Compreender os riscos desse panorama exige uma análise técnica das “zonas de impacto”, que são áreas geográficas delimitadas onde os efeitos de uma detonação manifestam-se de forma previsível.\n\nNo contexto de uma explosão nuclear, essas zonas são classificadas conforme a intensidade dos danos físicos resultantes da energia liberada. O raio de uma zona de impacto específica é proporcional à raiz cúbica da energia do artefato, conforme a relação <i>R</i> ∝ ∛<i>E</i>.\n\nA tabela a seguir mostra as zonas de impacto para uma energia de referência de 9×10<sup>14</sup> J.\n\n[[figura 1]]\n\nUma bomba atômica teórica contém 4 kg de Urânio-235. Sabe-se que apenas 2% dessa massa é convertida efetivamente em energia de explosão por meio da fissão nuclear.\n\nSuponha que uma bomba desse tipo seja detonada no Burj Khalifa, o maior prédio do mundo, localizado no centro de Dubai. As distâncias de alguns pontos turísticos em relação ao Burj Khalifa (“ponto zero”) são:\n• Dubai Mall: ~0,4 km\n• Business Bay: ~1,8 km\n• Port Rashid: ~8,2 km\n• Jumeirah Burj Al Arab: ~11,0 km\n\n[[figura 2]]\n\nCom base nas informações apresentadas, é correto afirmar:\n\nNote e adote:\nVelocidade da luz: <i>c</i> = 3×10<sup>8</sup> m/s\nA definição da energia da bomba (<i>E</i>) é igual à massa convertida em energia (<i>m</i>) multiplicada pelo quadrado da velocidade da luz (<i>c</i><sup>2</sup>), ou seja, <i>E</i> = <i>mc</i><sup>2</sup>.\n\n(A) O Jumeirah Burj Al Arab seria completamente vaporizado pela zona da bola de fogo.\n(B) A zona de destruição total se estenderia até um raio de 2,0 km, atingindo a área de Business Bay.\n(C) O Dubai Mall estaria dentro da zona de vaporização instantânea.\n(D) Pessoas localizadas em Port Rashid estariam seguras de qualquer efeito térmico, sofrendo apenas com vidros quebrados.\n(E) Nenhum dos pontos turísticos mencionados teria danos leves.",
+  "figuras": [
+    "fuvest-2027-q42-1.png",
+    "fuvest-2027-q42-2.png"
+  ],
+  "gabarito": "C",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. Massa convertida: 2% de 4 kg = 0,08 kg.\n2. Energia: <i>E</i> = <i>mc</i>² = 0,08 · (3 × 10<sup>8</sup>)² = 0,08 · 9 × 10<sup>16</sup> = 7,2 × 10<sup>15</sup> J.\n3. Razão em relação à energia de referência: 7,2 × 10<sup>15</sup>/9 × 10<sup>14</sup> = 8. Como <i>R</i> ∝ ∛<i>E</i>, os raios ficam multiplicados por ∛8 = 2.\n4. Novos raios: bola de fogo 1 km; destruição total 4 km; danos por calor 10 km; danos leves 20 km.\n5. (C) Verdadeira: o Dubai Mall (0,4 km) está dentro da bola de fogo (1 km).\n6. (A) Falsa: Burj Al Arab (11 km) fica na zona de danos leves. (B) Falsa: a destruição total vai até 4 km, não 2 km. (D) Falsa: Port Rashid (8,2 km) está dentro da zona de danos por calor (10 km). (E) Falsa: o Burj Al Arab sofreria danos leves.\nGabarito: C.",
+  "topicos": [
+    "equivalencia-massa-energia-e-mc",
+    "fissao-e-fusao-nuclear",
+    "notacao-cientifica-e-ordem-de-grandeza"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-01T23:08:30.000Z",
+  "atualizadoEm": "2026-11-01T23:08:30.000Z"
+}

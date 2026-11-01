@@ -4,6 +4,15 @@ Cada versão corresponde a um lote de importação ou a uma mudança no app/pipe
 Formato: `vMAIOR.MENOR.CORREÇÃO` — MENOR sobe a cada prova importada; MAIOR, em mudanças
 de modelo de dados; CORREÇÃO, em correções de questões já publicadas.
 
+## v1.6.0 — 2026-11-01
+
+- **Fuvest 2027, 1ª fase (Prova de Conhecimentos Gerais, caderno V1, 80 questões)**:
+  12 questões, 9 figuras: Q35, Q36, Q37, Q42, Q56, Q73, Q74, Q75 e as interdisciplinares
+  em dúvida aprovadas pelo Lucas, Q28 (oceanos), Q41 (papel com álcool e água), Q54
+  (Tensão de Hubble) e Q62 (espirometria).
+  - Gabaritos: `resolucao-propria`; a prova foi aplicada em 01.11.2026 e o gabarito oficial
+    ainda não foi conferido.
+
 ## v1.5.0 — 2026-11-01
 
 - **Unesp 2021–2026, 1ª fase (Prova de Conhecimentos Gerais)**: 49 questões, 72 figuras.

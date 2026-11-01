@@ -1,0 +1,23 @@
+{
+  "id": "fuvest-2027-q36",
+  "banca": "fuvest",
+  "ano": 2027,
+  "numero": "36",
+  "fase": "1ª fase · Prova V1",
+  "fonte": {
+    "descricao": "Fuvest, Vestibular 2027, 1ª fase (Prova de Conhecimentos Gerais), caderno de questões"
+  },
+  "enunciado": "<b>Texto para as questões 36 e 37</b>\n\nNo contexto de 2026, a substituição de frotas a combustão por frotas elétricas é uma estratégia central de descarbonização para alguns países. O Uruguai, por exemplo, lidera a expansão de veículos elétricos na América Latina. Desde 2010, converteu 99% de sua matriz elétrica para fontes renováveis e locais. Essa transição estratégica permitiu ao país reduzir a dependência de combustíveis fósseis importados e foi impulsionada por incentivos fiscais agressivos.\n\nEm termos físicos, um carro elétrico pode ser modelado como um sistema simples de corrente contínua, no qual a bateria fornece a tensão, o “acelerador” atua como um resistor variável que controla a corrente, e o motor converte essa energia em movimento.\n\nA eficiência desse sistema depende da conversão da energia da bateria em movimento pelo motor, com a menor perda possível por calor (Efeito Joule).\n\nDo ponto de vista da Física e da conservação ambiental, a afirmação de que um carro elétrico produz “poluição zero” deve ser analisada com cautela. Considerando os princípios de conservação de energia e os impactos ambientais associados, é correto afirmar:\n\n(A) O carro elétrico elimina a pegada de carbono de um indivíduo, pois, como o circuito é fechado e opera por indução eletromagnética, não há troca de matéria ou energia com o meio ambiente externo.\n(B) A eficiência ambiental de um veículo elétrico está diretamente ligada à matriz energética do país; se a corrente elétrica que carrega a bateria for obtida de termelétricas a carvão, o veículo funciona apenas como um “deslocador” de emissões de gases poluentes da cidade para a região da usina termelétrica.\n(C) O calor dissipado pelo motor elétrico (Efeito Joule) é a principal causa do aquecimento global nas cidades, sendo mais prejudicial ao meio ambiente do que a queima de combustíveis fósseis em motores a combustão interna.\n(D) Por ser um sistema elétrico resistivo, a bateria de um carro elétrico pode ser descartada em lixo comum ao final de sua vida útil, uma vez que os seus componentes químicos são convertidos integralmente em energia mecânica durante o uso.\n(E) Aumentar a voltagem do sistema de 400 V para 800 V serve principalmente para aumentar a velocidade final do carro, não possuindo qualquer relação com a preservação de recursos naturais ou redução de perdas energéticas no circuito.",
+  "figuras": [],
+  "gabarito": "B",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. Pela conservação da energia, a energia que move o carro vem da rede elétrica que carregou a bateria; o impacto ambiental depende de como essa energia foi gerada.\n2. (A) Falsa: o carro troca energia com o ambiente (recebe na recarga, dissipa calor) e não funciona “por indução” num circuito isolado.\n3. (B) Verdadeira: com eletricidade de termelétricas a carvão, as emissões apenas mudam de lugar, da cidade para a usina.\n4. (C) Falsa: o calor dissipado por efeito Joule não é a principal causa do aquecimento global (que se deve aos gases de efeito estufa).\n5. (D) Falsa: a bateria não é “convertida integralmente” em energia mecânica; seus componentes químicos permanecem e exigem descarte adequado.\n6. (E) Falsa: para a mesma potência <i>P</i> = <i>V</i> · <i>i</i>, tensão maior significa corrente menor e, portanto, menor perda <i>R</i> · <i>i</i>² nos cabos; há relação direta com a redução de perdas.\nGabarito: B.",
+  "topicos": [
+    "usinas-e-geracao-de-energia-eletrica",
+    "potencia-eletrica-e-efeito-joule",
+    "potencia-e-rendimento"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-01T23:08:30.000Z",
+  "atualizadoEm": "2026-11-01T23:08:30.000Z"
+}

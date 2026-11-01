@@ -4,8 +4,8 @@ Banco de questões de Física de vestibulares brasileiros, com enunciados transc
 literalmente das provas oficiais, resolução comentada, classificação em 151 tópicos e
 exportação de listas de exercícios (.docx, abre no Word e no Google Docs).
 
-**Situação atual (v1.5.0):** 302 questões: 116 da Unicamp (1ª fase, 2016 a 2027, incluindo
-as duas provas de 2021), 137 da Fuvest (1ª fase, 2016 a 2026) e 49 da Unesp (1ª fase,
+**Situação atual (v1.6.0):** 314 questões: 116 da Unicamp (1ª fase, 2016 a 2027, incluindo
+as duas provas de 2021), 149 da Fuvest (1ª fase, 2016 a 2027) e 49 da Unesp (1ª fase,
 2021 a 2026), com figuras recortadas dos
 cadernos oficiais. Todas passam na verificação automática.
 

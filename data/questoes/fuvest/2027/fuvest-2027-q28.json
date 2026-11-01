@@ -1,0 +1,22 @@
+{
+  "id": "fuvest-2027-q28",
+  "banca": "fuvest",
+  "ano": 2027,
+  "numero": "28",
+  "fase": "1ª fase · Prova V1",
+  "fonte": {
+    "descricao": "Fuvest, Vestibular 2027, 1ª fase (Prova de Conhecimentos Gerais), caderno de questões"
+  },
+  "enunciado": "Os oceanos, que cobrem 71% da superfície terrestre e contêm cerca de 97% da água do planeta, têm papel fundamental na mitigação dos efeitos das mudanças climáticas globais. O impacto nesse ambiente é perceptível; por exemplo, em 2024, o aquecimento das águas dos oceanos atingiu o maior nível em 65 anos de monitoramento, contribuindo para a elevação média do nível do mar em 4,7 mm por ano entre 2015 e 2024.\n\nDisponível em: https://www.gov.br/mcti/.\n\nOs oceanos apresentam importante papel no equilíbrio climático global, pois\n\n(A) apresentam calor específico reduzido quando comparado ao da superfície terrestre (continentes), absorvendo menos calor e promovendo elevação da temperatura do ar.\n(B) os ecossistemas oceânicos, como os corais e florestas de algas, são capazes de neutralizar, continuamente, o aumento da temperatura e os eventos extremos como ondas de calor marinhas.\n(C) atuam como sumidouro de calor e gás carbônico emitido pelos processos físicos e bioquímicos do planeta, sem os quais as temperaturas já teriam atingido valores superiores aos atuais.\n(D) em função de seu volume, cerca de 1,3 bilhão de quilômetros cúbicos, a absorção de calor e gás carbônico é ilimitada, mitigando os efeitos das mudanças climáticas.\n(E) as áreas costeiras, em função das grandes obras de engenharia, estão preservadas da elevação do nível médio do mar, que são da ordem de 4,7 mm por ano no ano de 2024.",
+  "figuras": [],
+  "gabarito": "C",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "Questão de Geografia/Ciências da Natureza com conteúdo de Termologia.\n1. (A) Falsa: a água tem calor específico alto (1 cal/g·°C), maior que o das rochas e solos dos continentes. Por isso os oceanos absorvem muito calor com pequena variação de temperatura.\n2. (B) Falsa: os ecossistemas não “neutralizam” continuamente o aquecimento; corais, por exemplo, sofrem branqueamento com as ondas de calor.\n3. (C) Verdadeira: graças à grande massa e ao alto calor específico da água, os oceanos armazenam a maior parte do excesso de energia do efeito estufa e dissolvem parte do CO<sub>2</sub>; sem isso, a atmosfera estaria mais quente.\n4. (D) Falsa: a absorção não é ilimitada (a água aquece, dilata e o nível sobe; a solubilidade do CO<sub>2</sub> diminui com a temperatura e a acidificação aumenta).\n5. (E) Falsa: o texto informa justamente a elevação do nível médio do mar, que afeta as áreas costeiras.\nGabarito: C.",
+  "topicos": [
+    "calor-sensivel-e-capacidade-termica",
+    "efeito-estufa-e-balanco-energetico"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-01T23:08:30.000Z",
+  "atualizadoEm": "2026-11-01T23:08:30.000Z"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "fuvest-2027-q54",
+  "banca": "fuvest",
+  "ano": 2027,
+  "numero": "54",
+  "fase": "1ª fase · Prova V1",
+  "fonte": {
+    "descricao": "Fuvest, Vestibular 2027, 1ª fase (Prova de Conhecimentos Gerais), caderno de questões"
+  },
+  "enunciado": "Existe um conflito fundamental na cosmologia contemporânea sobre a taxa de expansão do universo, conhecido como a “Tensão de Hubble”. Ao ler um artigo de divulgação científica sobre o tema, um estudante descobriu que dois métodos científicos robustos e confiáveis apresentam resultados discrepantes para o valor dessa taxa, conhecida como Constante de Hubble (<i>H</i><sub>0</sub>):\n\n• Método A (Abordagem Teórica Fundamental): Baseia-se em deduções matemáticas estritas a partir das leis fundamentais da física aplicadas ao modelo cosmológico padrão. Utilizando como ponto de partida a Radiação Cósmica de Fundo em Micro-ondas (o eco do universo primitivo), esse método calcula, teoricamente, que <i>H</i><sub>0</sub> ≈ 67,4 ± 0,5 km / s / Mpc.\n• Método B (Abordagem Observacional Empírica): Baseia-se puramente em dados observacionais diretos do universo local e tardio. Medindo a distância e o afastamento real de objetos cósmicos, como estrelas variáveis Cefeidas e supernovas do tipo Ia, esse método fornece, empiricamente, <i>H</i><sub>0</sub> ≈ 73,0 ± 1,7 km / s / Mpc.\n\nO artigo conclui que essa discrepância não configura um simples erro de calibração ou cálculo, mas sim de uma “crise na cosmologia” que pode exigir o desenvolvimento de uma “Nova Física” para reconciliar os modelos teóricos fundamentais com as observações práticas.\n\nCom base na interpretação dessas informações e nos princípios da divulgação científica confiável, assinale a alternativa que apresenta a análise mais coerente sobre a consistência dos argumentos e a natureza dos dados apresentados.\n\n(A) A conclusão de que existe uma “crise na cosmologia” é um exagero dos cientistas, pois a diferença entre 67 e 73 é pequena e seria correto usar a média aritmética entre os dois valores.\n(B) O método A é o único correto porque cálculos matemáticos não falham. O método B, por sua vez, deve ser descartado por ser baseado apenas em “olhar para o céu”, um processo sujeito a erros humanos e opiniões dos astrônomos.\n(C) A existência de uma “tensão” sugere que o Modelo Padrão da Cosmologia pode estar incompleto, indicando que a ciência avança justamente por meio da identificação de lacunas entre previsões teóricas (método A) e observações diretas (método B).\n(D) O texto perde sua credibilidade científica ao sugerir uma “Nova Física”, visto que as leis da natureza são imutáveis e qualquer diferença de dados deve ser interpretada como falha humana ou instrumental.\n(E) A expansão do universo é um fenômeno teórico que não pode ser validado por medidas diretas. Dessa forma, não há relevância na abordagem observacional empírica, o que invalida o método B.",
+  "figuras": [],
+  "gabarito": "C",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "Questão sobre natureza da ciência e medidas com incerteza (cosmologia).\n1. Os intervalos de confiança não se sobrepõem: 67,4 ± 0,5 vai até 67,9, e 73,0 ± 1,7 começa em 71,3. A diferença (≈ 5,6 km/s/Mpc) é muito maior que as incertezas; por isso não é “pequena” nem se resolve com uma média. (A) é falsa.\n2. Teoria e observação são igualmente parte do método científico; nenhuma é descartada a priori. (B) e (E) são falsas.\n3. Uma discrepância robusta entre previsão e medida é justamente o que indica que um modelo pode estar incompleto; considerar “nova física” é coerente com o funcionamento da ciência. (D) é falsa e (C) é verdadeira.\nGabarito: C.",
+  "topicos": [
+    "grandezas-fisicas-e-sistema-internacional",
+    "leitura-e-interpretacao-de-graficos"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-01T23:08:30.000Z",
+  "atualizadoEm": "2026-11-01T23:08:30.000Z"
+}
