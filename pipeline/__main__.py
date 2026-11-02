@@ -16,7 +16,11 @@ def nums(s: str) -> list[int]:
     return out
 
 
+NOMES_BANCA = {"fuvest": "Fuvest", "unicamp": "Unicamp", "unesp": "Unesp", "enem": "ENEM"}
+
+
 def registrar_prova(a):
+    a.banca = NOMES_BANCA.get(a.banca.lower(), a.banca)  # grafia única por banca (ex.: "fuvest" -> "Fuvest")
     pdf = RAIZ / "fontes" / f"{chave_prova(a.banca, a.ano, a.versao)}-{a.tipo}.pdf"
     if not pdf.exists():
         raise SystemExit(f"Copie o PDF oficial para {pdf} e rode de novo.")
