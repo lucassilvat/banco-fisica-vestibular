@@ -1,0 +1,25 @@
+{
+  "id": "fuvest-2027-q41",
+  "banca": "Fuvest",
+  "ano": 2027,
+  "numero": "41",
+  "fase": "1ª fase · Prova V1",
+  "fonte": {
+    "descricao": "Fuvest, Vestibular 2027, 1ª fase (Prova de Conhecimentos Gerais), caderno de questões"
+  },
+  "enunciado": "Em demonstrações de química e em vídeos de divulgação científica, é comum a realização de um experimento curioso: um pedaço de papel embebido em uma mistura de álcool e água é incendiado sem que o papel se queime. A chama é visível por alguns segundos, mas, após o término do experimento, o papel permanece praticamente intacto.\n\n[[figura 1]]\n\nÀ primeira vista, o resultado parece contradizer a ideia de que a combustão libera grande quantidade de energia e deveria, portanto, queimar o papel. No entanto, a explicação correta envolve a distinção entre quantidade de energia envolvida em uma reação e velocidade com que essa energia é liberada, conceitos centrais da termodinâmica e da cinética química.\n\nO papel não entra em combustão no experimento, pois\n\n(A) a combustão do álcool é endotérmica, retirando energia do papel e impedindo sua queima.\n(B) o papel não queima porque a combustão do álcool, nessas condições, consome totalmente a chama, não permitindo a combustão do papel.\n(C) a combustão do álcool é exotérmica, mas a água absorve grande parte do calor liberado, mantendo a temperatura do papel baixa e dificultando sua combustão.\n(D) a água reage com a estrutura química do papel e gera moléculas apolares que são menos voláteis, diminuindo sua inflamabilidade.\n(E) a liberação de energia em reações exotérmicas envolvendo soluções aquosas ocorre sempre de forma lenta, impedindo que o papel entre em combustão.",
+  "figuras": [
+    "fuvest-2027-q41-1.png"
+  ],
+  "gabarito": "C",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "Questão de Química com conteúdo de Termologia.\n1. A combustão do álcool é exotérmica (libera calor): (A) é falsa.\n2. A água embebida no papel tem calor específico alto e, sobretudo, grande calor latente de vaporização: o calor liberado pela chama é gasto para aquecer e evaporar a água.\n3. Enquanto houver água, a temperatura do papel fica limitada a cerca de 100 °C, abaixo da sua temperatura de ignição; o álcool queima e se esgota, e o papel não pega fogo.\n4. (B), (D) e (E) não descrevem o fenômeno: a água não reage com o papel, e a velocidade das reações exotérmicas não é “sempre lenta” em meio aquoso.\nGabarito: C.",
+  "topicos": [
+    "calor-sensivel-e-capacidade-termica",
+    "calor-latente-e-mudancas-de-fase",
+    "trocas-de-calor-e-equilibrio-termico-calorimetro"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-01T23:08:30.000Z",
+  "atualizadoEm": "2026-11-01T23:08:30.000Z"
+}

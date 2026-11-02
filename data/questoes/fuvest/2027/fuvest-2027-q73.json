@@ -1,0 +1,26 @@
+{
+  "id": "fuvest-2027-q73",
+  "banca": "Fuvest",
+  "ano": 2027,
+  "numero": "73",
+  "fase": "1ª fase · Prova V1",
+  "fonte": {
+    "descricao": "Fuvest, Vestibular 2027, 1ª fase (Prova de Conhecimentos Gerais), caderno de questões"
+  },
+  "enunciado": "<b>Texto para as questões 73 e 74</b>\n\nEm outubro de 2025, o skatista Sandro Dias (o “Mineirinho”) realizou o que foi considerado o maior <i>drop</i> de skate do mundo, descendo em uma rampa montada na lateral do Centro Administrativo Fernando Ferrari, em Porto Alegre (vide foto). Partindo do repouso de uma plataforma montada a 70 m do solo, o skatista desceu pela rampa, passando por uma parte curva (“transição”) até chegar ao ponto mais baixo da rampa, a uma altura de 9,70 m do solo. O percurso termina em um leve aclive (“flat”), conforme ilustrado na segunda figura.\n\nConsidere que Sandro pesa 70 kg e que o trabalho das forças de atrito e arrasto do ar foi de 10.710 J durante a primeira parte do percurso (até o ponto mais baixo da rampa).\n\n[[figura 1]]\n\nFoto do site <i>G1.</i>\n\n[[figura 2]]\n\nIlustração inspirada em figura de vídeo do canal <i>Ciência Todo Dia</i> do Youtube.\n\nNote e adote:\nAceleração da gravidade: g = 10 m/s<sup>2</sup>.\n\nConsiderando os efeitos das forças dissipativas mencionadas, qual a velocidade, em km/h, que Sandro alcançou no ponto mais baixo da rampa?\n\n(A) 10\n(B) 30\n(C) 47\n(D) 108\n(E) 126",
+  "figuras": [
+    "fuvest-2027-q73-1.png",
+    "fuvest-2027-q73-2.png"
+  ],
+  "gabarito": "D",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. Energia potencial perdida entre a plataforma (70 m) e o ponto mais baixo (9,70 m): <i>mg</i>Δ<i>h</i> = 70 · 10 · 60,3 = 42 210 J.\n2. Parte dessa energia é dissipada pelo atrito e pelo arrasto do ar: 10 710 J.\n3. Energia cinética no ponto mais baixo (partindo do repouso): 42 210 − 10 710 = 31 500 J.\n4. <i>mv</i>²/2 = 31 500 ⇒ <i>v</i>² = 2 · 31 500/70 = 900 ⇒ <i>v</i> = 30 m/s.\n5. Em km/h: 30 · 3,6 = 108 km/h.\nGabarito: D.",
+  "topicos": [
+    "sistemas-dissipativos-perda-de-energia-mecanica",
+    "energia-potencial-gravitacional",
+    "energia-cinetica-e-teorema-trabalho-energia"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-01T23:08:30.000Z",
+  "atualizadoEm": "2026-11-01T23:08:30.000Z"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "fuvest-2027-q75",
+  "banca": "Fuvest",
+  "ano": 2027,
+  "numero": "75",
+  "fase": "1ª fase · Prova V1",
+  "fonte": {
+    "descricao": "Fuvest, Vestibular 2027, 1ª fase (Prova de Conhecimentos Gerais), caderno de questões"
+  },
+  "enunciado": "Para vender água no Carnaval, uma pessoa colocou em uma caixa de isopor 15 copinhos de água com 350 mL cada, à temperatura de 25 °C, e 1,0 kg de gelo em blocos. Para preencher todo o volume do isopor, acrescentou 0,5 kg de gelo triturado na caixa, que foi fechada e lacrada. Sabendo que o gelo, em blocos e triturado, estava à temperatura negativa de −15 °C, qual a temperatura do conteúdo dos copinhos após toda a mistura no interior do isopor atingir o equilíbrio térmico e qual o estado físico da água na caixa?\n\nNote e adote:\nAssuma que (i) o isopor é um isolante térmico ideal, (ii) a embalagem dos copinhos é um condutor térmico ideal e (iii) as possíveis variações de volume ou pressão dos processos térmicos envolvidos são desprezíveis.\nA definição do módulo do calor trocado, quando existir transição de fase do material, é igual à quantidade de massa que mudou de fase (<i>m</i>) multiplicada pelo calor latente (<i>L</i>), ou seja, <i>Q</i> = <i>m</i> · <i>L</i>, e, quando não existir transição de fase, é igual à massa (<i>m</i>) multiplicada pelo calor específico (<i>c</i>) e a variação de temperatura (∆<i>T</i>), ou seja, <i>Q</i> = <i>m</i> · <i>c</i> · ∆<i>T</i>.\nDados: Densidade da água = 1 kg/L; Calor específico da água = 1 cal/g.°C; Calor específico do gelo = 0,5 cal/g.°C; Calor latente de evaporação da água = 540 cal/g; Calor latente de fusão do gelo = 80 cal/g.\n\n(A) É menor que 0 °C. A água dos copinhos congelou, e o gelo não derreteu.\n(B) É igual a 0 °C. O gelo derreteu parcialmente, e restou uma mistura de água líquida e gelo na caixa.\n(C) É igual a 0 °C. Todo o gelo derreteu, e restou apenas água líquida na caixa.\n(D) É maior que 0 ° C e menor que 10 °C. Todo o gelo derreteu, e restou apenas água líquida na caixa.\n(E) É igual ou maior que 10 ° C. Todo o gelo derreteu, e restou apenas água líquida na caixa.",
+  "figuras": [],
+  "gabarito": "C",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. Água nos copinhos: 15 · 350 mL = 5 250 mL ⇒ 5 250 g a 25 °C. Gelo: 1,0 + 0,5 = 1,5 kg = 1 500 g a −15 °C.\n2. Calor que a água dos copinhos cede ao esfriar até 0 °C: 5 250 · 1 · 25 = 131 250 cal.\n3. Calor para aquecer o gelo até 0 °C: 1 500 · 0,5 · 15 = 11 250 cal. Calor para derretê-lo todo: 1 500 · 80 = 120 000 cal. Total: 131 250 cal.\n4. Os dois valores são iguais: a água dos copinhos chega exatamente a 0 °C no mesmo instante em que todo o gelo termina de derreter. O equilíbrio é a 0 °C, só com água líquida.\nGabarito: C.",
+  "topicos": [
+    "trocas-de-calor-e-equilibrio-termico-calorimetro",
+    "calor-latente-e-mudancas-de-fase",
+    "calor-sensivel-e-capacidade-termica"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-01T23:08:30.000Z",
+  "atualizadoEm": "2026-11-01T23:08:30.000Z"
+}
