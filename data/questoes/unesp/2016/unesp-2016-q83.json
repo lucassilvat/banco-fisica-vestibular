@@ -1,0 +1,23 @@
+{
+  "id": "unesp-2016-q83",
+  "banca": "Unesp",
+  "ano": 2016,
+  "numero": "83",
+  "fase": "1ª fase",
+  "fonte": {
+    "descricao": "Vunesp, Vestibular Unesp 2016, 1ª fase (Prova de Conhecimentos Gerais), caderno de questões"
+  },
+  "enunciado": "As companhias de energia elétrica nos cobram pela energia que consumimos. Essa energia é dada pela expressão E = V · i · ∆t, em que V é a tensão que alimenta nossa residência, i a intensidade de corrente que circula por determinado aparelho, ∆t é o tempo em que ele fica ligado e a expressão V · i é a potência P necessária para dado aparelho funcionar.\n\nAssim, em um aparelho que suporta o dobro da tensão e consome a mesma potência P, a corrente necessária para seu funcionamento será a metade. Mas as perdas de energia que ocorrem por efeito joule (aquecimento em virtude da resistência R) são medidas por ∆E = R · i<sup>2</sup> · ∆t. Então, para um mesmo valor de R e ∆t, quando i diminui, essa perda também será reduzida.\n\nAlém disso, sendo menor a corrente, podemos utilizar condutores de menor área de secção transversal, o que implicará, ainda, economia de material usado na confecção dos condutores.\n\n(Regina Pinto de Carvalho. <i>Física do dia a dia</i>, 2003. Adaptado.)\n\nBaseando-se nas informações contidas no texto, é correto afirmar que:\n\n(A) se a resistência elétrica de um condutor é constante, em um mesmo intervalo de tempo, as perdas por efeito joule em um condutor são inversamente proporcionais à corrente que o atravessa.\n(B) é mais econômico usarmos em nossas residências correntes elétricas sob tensão de 110 V do que de 220 V.\n(C) em um mesmo intervalo de tempo, a energia elétrica consumida por um aparelho elétrico varia inversamente com a potência desse aparelho.\n(D) uma possível unidade de medida de energia elétrica é o kV · A (quilovolt - ampère), que pode, portanto, ser convertida para a unidade correspondente do Sistema Internacional, o joule.\n(E) para um valor constante de tensão elétrica, a intensidade de corrente que atravessa um condutor será tanto maior quanto maior for a área de sua secção transversal.",
+  "figuras": [],
+  "gabarito": "E",
+  "gabaritoFonte": "oficial",
+  "resolucao": "1. (A) Falsa: ∆E = R · i² · ∆t; com R e ∆t fixos, a perda é proporcional ao quadrado da corrente.\n2. (B) Falsa: pelo texto, tensão maior (220 V) exige corrente menor para a mesma potência, reduzindo perdas e material; 220 V é mais econômico.\n3. (C) Falsa: E = P · ∆t; com ∆t fixo, a energia é diretamente proporcional à potência.\n4. (D) Falsa: kV · A é unidade de potência (V · A = W), não de energia; não se converte em joule.\n5. (E) Verdadeira: pela 2ª lei de Ohm, R = ρL/A; quanto maior a área, menor a resistência e, com a mesma tensão, maior a corrente (i = V/R). É por isso que correntes maiores exigem fios mais grossos.\nGabarito: E.",
+  "topicos": [
+    "potencia-eletrica-e-efeito-joule",
+    "segunda-lei-de-ohm-e-resistividade",
+    "energia-eletrica-e-consumo-kwh-conta-de-luz"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-02T14:05:14.000Z",
+  "atualizadoEm": "2026-11-02T14:05:14.000Z"
+}

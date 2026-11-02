@@ -59,6 +59,11 @@ Para gravar questões, usam-se os lotes da etapa `publicar` (docs/WORKFLOW.md).
     interdisciplinares em dúvida (Q28, Q41, Q54, Q62). A camada de texto usa letras
     matemáticas Unicode nas fórmulas; o enunciado foi transcrito da imagem.
 
+13. v1.7.0: Unesp 2016–2020, 45 questões (bloco de Física e 9 interdisciplinares aprovadas;
+    2017 Q71, 2019 Q50 e 2020 Q73 ficaram de fora por decisão do Lucas). Textos comuns
+    ("Leia o texto para responder às questões...") repetidos em cada questão. A banca da
+    Fuvest 2027 foi corrigida para "Fuvest" e o `registrar-prova` normaliza o nome.
+
 ## Pendências
 
 - **Ativar o GitHub Pages** (v1.4.0): Settings › Pages › Source: GitHub Actions. O plano
@@ -74,6 +79,9 @@ Para gravar questões, usam-se os lotes da etapa `publicar` (docs/WORKFLOW.md).
   figura).
 - **Gabarito oficial Fuvest 2027**: conferir as 12 respostas (28C, 35A, 36B, 37A, 41C, 42C,
   54C, 56B, 62C, 73D, 74B, 75C) quando a Fuvest divulgar e trocar para `oficial`.
+- **Gabaritos Unesp 2017–2020**: `resolucao-propria` (gabaritos oficiais não encontrados em
+  texto). Conferir com atenção 2017 Q83 (sentido de giro do motor; resolvida pela figura e
+  pela coerência entre as alternativas) e 2019 Q64 (afirmação II, pressão osmótica = dgΔh).
 - **Gabaritos Unesp**: 2023 está como `resolucao-propria` sem conferência externa (o
   gabarito oficial só foi achado em imagem). 2022 confere com o Estratégia e 2026 com o
   gabarito divulgado pela Quero Bolsa; trocar para `oficial` quando houver o PDF da Vunesp.
@@ -100,7 +108,7 @@ Para gravar questões, usam-se os lotes da etapa `publicar` (docs/WORKFLOW.md).
   Q45–Q48, 2021 B Q33). Não incluir sem novo pedido.
 - **Release v1.0.0 no GitHub**: o envio de tags falhou pela sessão; criar pela aba
   Releases do site, se desejado. O `CHANGELOG.md` registra a versão.
-- **Próximas provas**: o `painel` mostra 24 tópicos sem questão (v1.6.0) (mais pobre:
+- **Próximas provas**: o `painel` mostra 21 tópicos sem questão (v1.7.0) (mais pobre:
   Eletromagnetismo). Candidatas naturais: Fuvest anteriores a 2020 (mesmo formato),
   Unicamp anteriores a 2016, depois Unesp e ENEM (exigem ajustar o segmentador).
 

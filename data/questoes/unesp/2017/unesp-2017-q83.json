@@ -1,0 +1,31 @@
+{
+  "id": "unesp-2017-q83",
+  "banca": "Unesp",
+  "ano": 2017,
+  "numero": "83",
+  "fase": "1ª fase",
+  "fonte": {
+    "descricao": "Vunesp, Vestibular Unesp 2017, 1ª fase (Prova de Conhecimentos Gerais), caderno de questões"
+  },
+  "enunciado": "Um motor elétrico é construído com uma espira retangular feita com um fio de cobre esmaltado semirraspado em uma extremidade e totalmente raspado na outra, apoiada em dois mancais soldados aos polos A e B de uma pilha. Presa a essa espira, uma hélice leve pode girar livremente no sentido horário ou anti-horário. Um ímã é fixo à pilha com um de seus polos magnéticos (X) voltado para cima, criando o campo magnético responsável pela força magnética que atua sobre a espira, conforme ilustrado na figura.\n\n[[figura 1]]\n\n(www.feiradeciencias.com.br. Adaptado.)\n\nSe A for um polo ____________, B um polo ____________ e X um polo ____________, dado um impulso inicial na espira, ela mantém-se girando no sentido ____________.\n\nAssinale a alternativa que completa, correta e respectivamente, as lacunas do texto.\n\n(A) negativo – positivo – sul – horário\n(B) negativo – positivo – norte – anti-horário\n(C) positivo – negativo – sul – anti-horário\n(D) positivo – negativo – norte – horário\n(E) negativo – positivo – norte – horário",
+  "figuras": [
+    "unesp-2017-q83-1.png"
+  ],
+  "gabarito": "E",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. A raspagem pela metade faz a corrente circular só durante meia volta, quando o lado da espira paralelo ao eixo passa junto ao ímã; assim a força magnética empurra a espira sempre no mesmo sentido de rotação.\n2. Nesse lado, a força é <i>F</i>⃗ = <i>i</i> <i>L</i>⃗ × <i>B</i>⃗: inverter o sentido da corrente (trocar os polos A e B) inverte o sentido de giro; inverter o polo X (trocar o sentido de <i>B</i>⃗) também inverte; inverter os dois mantém o sentido.\n3. Seja <i>s</i> o sentido de giro com A positivo e X norte. Então: A positivo e X sul dá o sentido oposto a <i>s</i>; A negativo e X norte, também o oposto; A negativo e X sul, de novo <i>s</i>.\n4. Testando as alternativas: (D) diz <i>s</i> = horário; (A) (duas inversões) também exige <i>s</i> = horário; (B) e (C) (uma inversão, anti-horário) também exigem <i>s</i> = horário. Só (E) (uma inversão, horário) exige <i>s</i> = anti-horário. Como a questão tem uma única resposta, A, B, C e D (que seriam todas verdadeiras juntas) não podem estar certas: <i>s</i> é anti-horário e a correta é E.\n5. Verificação direta: com B positivo, a corrente percorre o lado da espira junto ao ímã de B para A; com X norte, o campo junto ao ímã aponta para cima. Pela regra da mão direita, esse lado é empurrado para a esquerda (e para o fundo) da figura, e a hélice, vista pelo observador da figura, gira no sentido horário. Isso confirma E e mostra que D (A positivo, X norte) giraria no sentido anti-horário.\nGabarito: E.",
+  "topicos": [
+    "forca-magnetica-sobre-condutor-retilineo",
+    "geradores-e-motores-eletricos",
+    "imas-e-campo-magnetico"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-02T14:05:19.000Z",
+  "atualizadoEm": "2026-11-02T14:05:19.000Z",
+  "revisao": {
+    "divergenciasAceitas": [
+      "semirraspado"
+    ],
+    "notas": "Hífen invisível no PDF (semirras­pado). Resolução própria baseada na leitura da figura em perspectiva (sentido da corrente no lado da espira próximo ao ímã); gabarito oficial não conferido. As alternativas A–D formam pares equivalentes, o que confirma E."
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "unesp-2016-q74",
+  "banca": "Unesp",
+  "ano": 2016,
+  "numero": "74",
+  "fase": "1ª fase",
+  "fonte": {
+    "descricao": "Vunesp, Vestibular Unesp 2016, 1ª fase (Prova de Conhecimentos Gerais), caderno de questões"
+  },
+  "enunciado": "<b>Leia o texto para responder às questões de 73 a 75.</b>\n\nA bioluminescência é o fenômeno de emissão de luz visível por certos organismos vivos, resultante de uma reação química entre uma substância sintetizada pelo próprio organismo (luciferina) e oxigênio molecular, na presença de uma enzima (luciferase). Como resultado dessa reação bioquímica é gerado um produto em um estado eletronicamente excitado (oxiluciferina*). Este produto, por sua vez, desativa-se por meio da emissão de luz visível, formando o produto no estado normal ou fundamental (oxiluciferina). Ao final, a concentração de luciferase permanece constante.\n\n[[figura 1]]\n\nO esquema ilustra o mecanismo geral da reação de bioluminescência de vagalumes, no qual são formados dois produtos diferentes em estados eletronicamente excitados, responsáveis pela emissão de luz na cor verde ou na cor vermelha.\n\n[[figura 2]]\n\n(Etelvino J. H. Bechara e Vadim R. Viviani. <i>Revista virtual de química</i>, 2015. Adaptado.)\n\nConsidere o seguinte espectro da luz visível.\n\n[[figura 3]]\n\n(Ricardo Feltre. <i>Química</i>, 2004. Adaptado.)\n\nCom base nas informações apresentadas no texto e considerando a velocidade da luz igual a 300.000 km · s<sup>–1</sup>, é correto afirmar que uma das funções orgânicas e a fórmula molecular da forma aniônica da oxiluciferina do vagalume responsável pela emissão de luz com frequência igual a 4,8 × 10<sup>14</sup> Hz são, respectivamente,\n\n(A) éster e C<sub>10</sub>H<sub>5</sub>O<sub>2</sub>N<sub>2</sub>S<sub>2</sub>.\n(B) álcool e C<sub>10</sub>O<sub>2</sub>N<sub>2</sub>S<sub>2</sub>.\n(C) amina e C<sub>10</sub>O<sub>2</sub>N<sub>2</sub>S<sub>2</sub>.\n(D) amina e C<sub>10</sub>H<sub>5</sub>O<sub>2</sub>N<sub>2</sub>S<sub>2</sub>.\n(E) éter e C<sub>10</sub>H<sub>4</sub>O<sub>2</sub>N<sub>2</sub>S<sub>2</sub>.",
+  "figuras": [
+    "unesp-2016-q74-1.png",
+    "unesp-2016-q74-2.png",
+    "unesp-2016-q74-3.png"
+  ],
+  "gabarito": "D",
+  "gabaritoFonte": "oficial",
+  "resolucao": "Questão de Química com conteúdo de Ondulatória.\n1. Comprimento de onda da luz emitida: λ = <i>c</i>/<i>f</i> = 3 × 10<sup>8</sup>/4,8 × 10<sup>14</sup> = 6,25 × 10<sup>−7</sup> m = 625 nm.\n2. No espectro dado, 6,25 × 10<sup>−7</sup> m fica na região do vermelho (perto do extremo de maiores comprimentos de onda).\n3. Pelo esquema do texto, a luz vermelha é emitida pela oxiluciferina na forma ceto.\n4. Na estrutura (forma aniônica, com o grupo O<sup>−</sup> no anel benzênico), contam-se 10 átomos de C, 5 de H (ligados aos anéis), 2 de O, 2 de N e 2 de S: C<sub>10</sub>H<sub>5</sub>O<sub>2</sub>N<sub>2</sub>S<sub>2</sub>. Entre as funções listadas, a presente é a amina (nitrogênio nos anéis); não há éster, álcool nem éter.\nGabarito: D.",
+  "topicos": [
+    "equacao-fundamental-da-ondulatoria-v-f",
+    "espectro-eletromagnetico"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-02T14:05:14.000Z",
+  "atualizadoEm": "2026-11-02T14:05:14.000Z"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "unesp-2020-q70",
+  "banca": "Unesp",
+  "ano": 2020,
+  "numero": "70",
+  "fase": "1ª fase",
+  "fonte": {
+    "descricao": "Vunesp, Vestibular Unesp 2020, 1ª fase (Prova de Conhecimentos Gerais), caderno de questões"
+  },
+  "enunciado": "Parque Eólico de Osório, RS\n\n[[figura 1]]\n\nO Parque Eólico de Osório é o maior da América Latina e o segundo maior do mundo em operação. Com capacidade produtiva total de 150 MW, tem potência suficiente para abastecer anualmente o consumo residencial de energia elétrica de cerca de 650 mil pessoas.\n\n(www.osorio.rs.gov.br. Adaptado.)\n\nConsidere agora a combustão completa do metano, principal componente do gás natural, cuja entalpia de combustão completa é cerca de – 9 × 10<sup>2</sup> kJ/mol, e que as transformações de energia nessa combustão tenham eficiência ideal, de 100%.\n\nPara fornecer a mesma quantidade de energia obtida pelo Parque Eólico de Osório quando opera por 1 hora com sua capacidade máxima, uma usina termoelétrica a gás necessitaria da combustão completa de uma massa mínima de metano da ordem de\n\n(A) 10 t.\n(B) 5 t.\n(C) 25 t.\n(D) 15 t.\n(E) 20 t.",
+  "figuras": [
+    "unesp-2020-q70-1.png"
+  ],
+  "gabarito": "A",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "Questão de Química com conteúdo de Energia e Potência.\n1. Energia gerada pelo parque em 1 h: <i>E</i> = <i>P</i> Δ<i>t</i> = 150 × 10<sup>6</sup> W · 3 600 s = 5,4 × 10<sup>11</sup> J = 5,4 × 10<sup>8</sup> kJ.\n2. Quantidade de metano: 5,4 × 10<sup>8</sup>/9 × 10<sup>2</sup> = 6 × 10<sup>5</sup> mol.\n3. Massa (CH<sub>4</sub>, 16 g/mol): 6 × 10<sup>5</sup> · 16 = 9,6 × 10<sup>6</sup> g ≈ 9,6 t, da ordem de 10 t.\nGabarito: A.",
+  "topicos": [
+    "potencia-e-rendimento",
+    "usinas-e-geracao-de-energia-eletrica",
+    "notacao-cientifica-e-ordem-de-grandeza"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-02T14:05:40.000Z",
+  "atualizadoEm": "2026-11-02T14:05:40.000Z"
+}

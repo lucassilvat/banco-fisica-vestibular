@@ -1,0 +1,31 @@
+{
+  "id": "unesp-2020-q78",
+  "banca": "Unesp",
+  "ano": 2020,
+  "numero": "78",
+  "fase": "1ª fase",
+  "fonte": {
+    "descricao": "Vunesp, Vestibular Unesp 2020, 1ª fase (Prova de Conhecimentos Gerais), caderno de questões"
+  },
+  "enunciado": "A figura representa o perfil, em um plano vertical, de um trecho de uma montanha-russa em que a posição de um carrinho de dimensões desprezíveis é definida pelas coordenadas x e y, tal que, no intervalo 0 ≤ x ≤ 2π, y = cos (x).\n\n[[figura 1]]\n\nNessa montanha-russa, um carrinho trafega pelo segmento horizontal A com velocidade constante de 4 m/s. Considerando g = 10 m/s<sup>2</sup>, √2 = 1,4 e desprezando o atrito e a resistência do ar, a velocidade desse carrinho quando ele passar pela posição de coordenada x = 5π/4 m será\n\n(A) 10 m/s.\n(B) 9 m/s.\n(C) 6 m/s.\n(D) 8 m/s.\n(E) 7 m/s.",
+  "figuras": [
+    "unesp-2020-q78-1.png"
+  ],
+  "gabarito": "E",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. No trecho horizontal A, a altura é a de <i>x</i> = 0: <i>y</i> = cos 0 = 1 m.\n2. Em <i>x</i> = 5π/4: <i>y</i> = cos(5π/4) = −√2/2 ≈ −0,7 m. Desnível: 1 − (−0,7) = 1,7 m.\n3. Sem atrito, a energia mecânica se conserva: <i>v</i>² = <i>v</i><sub>0</sub>² + 2<i>g</i>Δ<i>h</i> = 16 + 2 · 10 · 1,7 = 50.\n4. <i>v</i> = √50 ≈ 7 m/s.\nGabarito: E.",
+  "topicos": [
+    "conservacao-da-energia-mecanica",
+    "energia-potencial-gravitacional"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-02T14:05:40.000Z",
+  "atualizadoEm": "2026-11-02T14:05:40.000Z",
+  "revisao": {
+    "divergenciasAceitas": [
+      "2π",
+      "5π"
+    ],
+    "notas": "π, √2 e a fração 5π/4 estão desenhados no PDF; transcritos da imagem do caderno."
+  }
+}

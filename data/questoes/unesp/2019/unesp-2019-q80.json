@@ -1,0 +1,24 @@
+{
+  "id": "unesp-2019-q80",
+  "banca": "Unesp",
+  "ano": 2019,
+  "numero": "80",
+  "fase": "1ª fase",
+  "fonte": {
+    "descricao": "Vunesp, Vestibular Unesp 2019, 1ª fase (Prova de Conhecimentos Gerais), caderno de questões"
+  },
+  "enunciado": "Define-se meia-vida térmica de um corpo (t<sub>1/2</sub>) como o tempo necessário para que a diferença de temperatura entre esse corpo e a temperatura de sua vizinhança caia para a metade.\n\n[[figura 1]]\n\nConsidere que uma panela de ferro de 2 kg, inicialmente a 110 ºC, seja colocada para esfriar em um local em que a temperatura ambiente é constante e de 30 ºC. Sabendo que o calor específico do ferro é 0,1 cal/(g · ºC), a quantidade de calor cedida pela panela para o ambiente no intervalo de tempo de três meias-vidas térmicas da panela é\n\n(A) 16 000 cal.\n(B) 14 000 cal.\n(C) 6 000 cal.\n(D) 12 000 cal.\n(E) 8 000 cal.",
+  "figuras": [
+    "unesp-2019-q80-1.png"
+  ],
+  "gabarito": "B",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. Diferença inicial de temperatura: 110 − 30 = 80 ºC.\n2. A cada meia-vida térmica ela cai à metade: 80 → 40 → 20 → 10 ºC. Após três meias-vidas, a panela está a 30 + 10 = 40 ºC.\n3. Calor cedido: <i>Q</i> = <i>m c</i> Δ<i>θ</i> = 2 000 · 0,1 · (110 − 40) = 14 000 cal.\nGabarito: B.",
+  "topicos": [
+    "calor-sensivel-e-capacidade-termica",
+    "leitura-e-interpretacao-de-graficos"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-02T14:05:33.000Z",
+  "atualizadoEm": "2026-11-02T14:05:33.000Z"
+}

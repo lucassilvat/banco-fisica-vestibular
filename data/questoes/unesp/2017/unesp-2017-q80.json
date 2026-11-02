@@ -1,0 +1,24 @@
+{
+  "id": "unesp-2017-q80",
+  "banca": "Unesp",
+  "ano": 2017,
+  "numero": "80",
+  "fase": "1ª fase",
+  "fonte": {
+    "descricao": "Vunesp, Vestibular Unesp 2017, 1ª fase (Prova de Conhecimentos Gerais), caderno de questões"
+  },
+  "enunciado": "Dentro de uma piscina, um tubo retilíneo luminescente, com 1 m de comprimento, pende, verticalmente, a partir do centro de uma boia circular opaca, de 20 cm de raio. A boia flutua, em equilíbrio, na superfície da água da piscina, como representa a figura.\n\n[[figura 1]]\n\nSabendo que o índice de refração absoluto do ar é 1,00 e que o índice de refração absoluto da água da piscina é 1,25, a parte visível desse tubo, para as pessoas que estiverem fora da piscina, terá comprimento máximo igual a\n\n(A) 45 cm.\n(B) 85 cm.\n(C) 15 cm.\n(D) 35 cm.\n(E) 65 cm.",
+  "figuras": [
+    "unesp-2017-q80-1.png"
+  ],
+  "gabarito": "B",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. Para um ponto do tubo ser visto de fora, algum raio que sai dele deve atravessar a superfície da água fora da boia sem sofrer reflexão total.\n2. Ângulo limite (água → ar): sen <i>L</i> = 1,00/1,25 = 0,8 ⇒ cos <i>L</i> = 0,6 e tg <i>L</i> = 4/3.\n3. Um ponto à profundidade <i>h</i> emite, para a borda da boia (a 0,2 m do eixo), um raio com tg <i>i</i> = 0,2/<i>h</i>. Esse é o raio de menor incidência que escapa da boia; ele sai da água se <i>i</i> &lt; <i>L</i>, isto é, 0,2/<i>h</i> &lt; 4/3 ⇒ <i>h</i> &gt; 0,15 m.\n4. Os primeiros 15 cm do tubo, logo abaixo da boia, ficam ocultos; a parte visível vai de 15 cm a 100 cm: 85 cm.\nGabarito: B.",
+  "topicos": [
+    "reflexao-total-e-fibra-optica",
+    "lei-de-snell-descartes"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-02T14:05:19.000Z",
+  "atualizadoEm": "2026-11-02T14:05:19.000Z"
+}

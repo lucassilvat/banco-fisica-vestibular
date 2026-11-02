@@ -1,0 +1,24 @@
+{
+  "id": "unesp-2018-q78",
+  "banca": "Unesp",
+  "ano": 2018,
+  "numero": "78",
+  "fase": "1ª fase",
+  "fonte": {
+    "descricao": "Vunesp, Vestibular Unesp 2018, 1ª fase (Prova de Conhecimentos Gerais), caderno de questões"
+  },
+  "enunciado": "A figura mostra a trajetória de um projétil lançado obliquamente e cinco pontos equidistantes entre si e localizados sobre o solo horizontal. Os pontos e a trajetória do projétil estão em um mesmo plano vertical.\n\n[[figura 1]]\n\nNo instante em que atingiu o ponto mais alto da trajetória, o projétil explodiu, dividindo-se em dois fragmentos, A e B, de massas M<sub>A</sub> e M<sub>B</sub>, respectivamente, tal que M<sub>A</sub> = 2M<sub>B</sub>. Desprezando a resistência do ar e considerando que a velocidade do projétil imediatamente antes da explosão era V<sub>H</sub> e que, imediatamente após a explosão, o fragmento B adquiriu velocidade V<sub>B</sub> = 5V<sub>H</sub>, com mesma direção e sentido de V<sub>H</sub>, o fragmento A atingiu o solo no ponto\n\n(A) IV.\n(B) III.\n(C) V.\n(D) I.\n(E) II.",
+  "figuras": [
+    "unesp-2018-q78-1.png"
+  ],
+  "gabarito": "E",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. Na explosão, as forças internas são muito maiores que o peso: a quantidade de movimento se conserva. Com M<sub>B</sub> = <i>m</i>, M<sub>A</sub> = 2<i>m</i> e massa total 3<i>m</i>: 3<i>m</i>V<sub>H</sub> = 2<i>m</i>V<sub>A</sub> + <i>m</i> · 5V<sub>H</sub> ⇒ V<sub>A</sub> = −V<sub>H</sub>.\n2. O fragmento A sai do ponto mais alto (sobre IV) com velocidade horizontal de mesmo módulo que antes, mas em sentido oposto.\n3. Pela figura, o projétil subiu do ponto II ao ponto mais alto, sobre IV: na subida percorreu 2<i>d</i> na horizontal. A queda a partir do topo leva o mesmo tempo da subida, e com velocidade horizontal V<sub>H</sub> para trás o fragmento A percorre 2<i>d</i> de volta: chega ao ponto II.\nGabarito: E.",
+  "topicos": [
+    "conservacao-da-quantidade-de-movimento",
+    "lancamento-obliquo"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-02T14:05:28.000Z",
+  "atualizadoEm": "2026-11-02T14:05:28.000Z"
+}

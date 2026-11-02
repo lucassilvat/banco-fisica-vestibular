@@ -1,0 +1,28 @@
+{
+  "id": "unesp-2018-q81",
+  "banca": "Unesp",
+  "ano": 2018,
+  "numero": "81",
+  "fase": "1ª fase",
+  "fonte": {
+    "descricao": "Vunesp, Vestibular Unesp 2018, 1ª fase (Prova de Conhecimentos Gerais), caderno de questões"
+  },
+  "enunciado": "Define-se a intensidade de uma onda (I) como potência transmitida por unidade de área disposta perpendicularmente à direção de propagação da onda. Porém, essa definição não é adequada para medir nossa percepção de sons, pois nosso sistema auditivo não responde de forma linear à intensidade das ondas incidentes, mas de forma logarítmica. Define-se, então, nível sonoro (β) como β = 10 log (I/I<sub>0</sub>), sendo β dado em decibels (dB) e I<sub>0</sub> = 10<sup>–12</sup> W/m<sup>2</sup>.\n\nSupondo que uma pessoa, posicionada de forma que a área de 6,0 × 10<sup>–5</sup> m<sup>2</sup> de um de seus tímpanos esteja perpendicular à direção de propagação da onda, ouça um som contínuo de nível sonoro igual a 60 dB durante 5,0 s, a quantidade de energia que atingiu seu tímpano nesse intervalo de tempo foi\n\n(A) 1,8 × 10<sup>–8</sup> J.\n(B) 3,0 × 10<sup>–12</sup> J.\n(C) 3,0 × 10<sup>–10</sup> J.\n(D) 1,8 × 10<sup>–14</sup> J.\n(E) 6,0 × 10<sup>–9</sup> J.",
+  "figuras": [],
+  "gabarito": "C",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. 60 = 10 log (I/10<sup>−12</sup>) ⇒ I/10<sup>−12</sup> = 10<sup>6</sup> ⇒ I = 10<sup>−6</sup> W/m².\n2. Potência que atinge o tímpano: <i>P</i> = I · <i>A</i> = 10<sup>−6</sup> · 6,0 × 10<sup>−5</sup> = 6,0 × 10<sup>−11</sup> W.\n3. Energia em 5,0 s: <i>E</i> = <i>P</i> Δ<i>t</i> = 6,0 × 10<sup>−11</sup> · 5,0 = 3,0 × 10<sup>−10</sup> J.\nGabarito: C.",
+  "topicos": [
+    "nivel-sonoro-decibeis",
+    "som-altura-intensidade-e-timbre"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-02T14:05:28.000Z",
+  "atualizadoEm": "2026-11-02T14:05:28.000Z",
+  "revisao": {
+    "divergenciasAceitas": [
+      "log"
+    ],
+    "notas": "A expressão de β está desenhada (editor de equações) e não consta da camada de texto; transcrita da imagem do caderno."
+  }
+}

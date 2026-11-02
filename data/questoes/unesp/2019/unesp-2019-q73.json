@@ -1,0 +1,24 @@
+{
+  "id": "unesp-2019-q73",
+  "banca": "Unesp",
+  "ano": 2019,
+  "numero": "73",
+  "fase": "1ª fase",
+  "fonte": {
+    "descricao": "Vunesp, Vestibular Unesp 2019, 1ª fase (Prova de Conhecimentos Gerais), caderno de questões"
+  },
+  "enunciado": "<b>Leia o texto para responder às questões 72 e 73.</b>\n\n[[figura 1]]\n\nTomando como base um Boeing 737-800, seus tanques de combustível podem comportar até 21 t (21 toneladas) de querosene de aviação (QAV).\n\nO consumo do QAV tem como principal variável o peso total da aeronave. Além disso, altitude, velocidade e temperatura também influenciam na conta. Quanto mais longo o percurso, mais eficiente a aeronave será, pois o consumo do QAV em altitude é muito menor, devido à atmosfera mais rarefeita, que causa menos resistência ao avanço e, ao mesmo tempo em que ocorre o consumo, reduz-se o peso da aeronave.\n\nEm voo de cruzeiro (quando o avião alcança a velocidade e altitude ideais) o consumo de QAV é de aproximadamente 2 200 kg/h. A fase do voo com maior consumo de combustível é a subida, pois a aeronave precisa de muita força para decolar e ganhar altitude. O consumo de QAV chega a ser o dobro, se comparado ao voo de cruzeiro. Já na descida, o consumo é menor, chegando a ser 1/3 em comparação ao voo de cruzeiro.\n\n(www.agenciaabear.com.br. Adaptado.)\n\nVoando na altitude de cruzeiro com uma velocidade média, em relação ao solo, de 800 km/h, um Boeing 737-800 percorreu uma distância de 2 400 km.\n\nConsidere que:\n• o QAV é constituído por hidrocarbonetos cujas cadeias carbônicas contêm, em média, 12 átomos de carbono e 26 átomos de hidrogênio, apresentando massa molar média de 170 g/mol;\n• a combustão do QAV na altitude de cruzeiro é completa.\n\nDe acordo com os dados, a massa de CO<sub>2</sub> (g) gerada pela combustão do QAV na distância percorrida pelo avião foi próxima de\n\n(A) 13 t.\n(B) 20 t.\n(C) 11 t.\n(D) 25 t.\n(E) 6 t.",
+  "figuras": [
+    "unesp-2019-q73-1.png"
+  ],
+  "gabarito": "B",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "Questão de Química com conteúdo de Cinemática.\n1. Tempo de voo: Δ<i>t</i> = 2 400/800 = 3 h.\n2. Consumo em cruzeiro (texto): 2 200 kg/h ⇒ 3 · 2 200 = 6 600 kg de QAV.\n3. Quantidade de QAV (C<sub>12</sub>H<sub>26</sub>): 6 600 000 g/170 g/mol ≈ 3,9 × 10<sup>4</sup> mol.\n4. Cada mol de C<sub>12</sub>H<sub>26</sub> produz 12 mol de CO<sub>2</sub> na combustão completa: ≈ 4,66 × 10<sup>5</sup> mol de CO<sub>2</sub>.\n5. Massa: 4,66 × 10<sup>5</sup> · 44 g ≈ 2,05 × 10<sup>7</sup> g ≈ 20 t.\nGabarito: B.",
+  "topicos": [
+    "velocidade-media-e-aceleracao-media",
+    "movimento-retilineo-uniforme-mru"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-02T14:05:33.000Z",
+  "atualizadoEm": "2026-11-02T14:05:33.000Z"
+}

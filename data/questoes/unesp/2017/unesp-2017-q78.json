@@ -1,0 +1,39 @@
+{
+  "id": "unesp-2017-q78",
+  "banca": "Unesp",
+  "ano": 2017,
+  "numero": "78",
+  "fase": "1ª fase",
+  "fonte": {
+    "descricao": "Vunesp, Vestibular Unesp 2017, 1ª fase (Prova de Conhecimentos Gerais), caderno de questões"
+  },
+  "enunciado": "Na linha de produção de uma fábrica, uma esteira rolante movimenta-se no sentido indicado na figura 1, e com velocidade constante, transportando caixas de um setor a outro. Para fazer uma inspeção, um funcionário detém uma das caixas, mantendo-a parada diante de si por alguns segundos, mas ainda apoiada na esteira que continua rolando, conforme a figura 2.\n\n[[figura 1]]\n\nNo intervalo de tempo em que a esteira continua rolando com velocidade constante e a caixa é mantida parada em relação ao funcionário (figura 2), a resultante das forças aplicadas pela esteira sobre a caixa está corretamente representada na alternativa\n\n(A)\n[[figura 2]]\n(B)\n[[figura 3]]\n(C)\n[[figura 4]]\n(D)\n[[figura 5]]\n(E)\n[[figura 6]]",
+  "figuras": [
+    "unesp-2017-q78-1.png",
+    "unesp-2017-q78-2.png",
+    "unesp-2017-q78-3.png",
+    "unesp-2017-q78-4.png",
+    "unesp-2017-q78-5.png",
+    "unesp-2017-q78-6.png"
+  ],
+  "gabarito": "C",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. A esteira exerce sobre a caixa duas forças: a normal, vertical para cima, e o atrito, na superfície de contato.\n2. Com a caixa parada e a esteira deslizando para a esquerda sob ela, há escorregamento: o atrito cinético sobre a caixa tem o sentido do movimento da esteira em relação à caixa, para a esquerda.\n3. A resultante dessas duas forças (normal para cima + atrito para a esquerda) aponta para cima e para a esquerda, como na alternativa C.\nGabarito: C.",
+  "topicos": [
+    "forca-de-atrito-estatico-e-cinetico",
+    "forca-peso-e-forca-normal",
+    "vetores-soma-e-decomposicao"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-02T14:05:19.000Z",
+  "atualizadoEm": "2026-11-02T14:05:19.000Z",
+  "revisao": {
+    "divergenciasAceitas": [
+      "representada",
+      "outro",
+      "detém",
+      "alguns"
+    ],
+    "notas": "Hífens invisíveis no PDF (a o­utro, d­etém, a­lguns); conferido na imagem."
+  }
+}

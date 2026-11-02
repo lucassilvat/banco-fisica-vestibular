@@ -1,0 +1,25 @@
+{
+  "id": "unesp-2018-q82",
+  "banca": "Unesp",
+  "ano": 2018,
+  "numero": "82",
+  "fase": "1ª fase",
+  "fonte": {
+    "descricao": "Vunesp, Vestibular Unesp 2018, 1ª fase (Prova de Conhecimentos Gerais), caderno de questões"
+  },
+  "enunciado": "Para obter experimentalmente a curva da diferença de potencial U em função da intensidade da corrente elétrica i para uma lâmpada, um aluno montou o circuito a seguir. Colocando entre os pontos A e B resistores com diversos valores de resistência, ele obteve diferentes valores de U e de i para a lâmpada.\n\n[[figura 1]]\n\nConsiderando que a bateria de 9,0 V, os aparelhos de medida e os fios de ligação sejam ideais, quando o aluno obteve as medidas U = 5,70 V e i = 0,15 A, a resistência do resistor colocado entre os pontos A e B era de\n\n(A) 100 Ω.\n(B) 33 Ω.\n(C) 56 Ω.\n(D) 68 Ω.\n(E) 22 Ω.",
+  "figuras": [
+    "unesp-2018-q82-1.png"
+  ],
+  "gabarito": "E",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. A lâmpada e o resistor entre A e B estão em série com a bateria ideal (o amperímetro ideal não tem resistência; o voltímetro ideal, ligado em paralelo com a lâmpada, não desvia corrente).\n2. Tensão no resistor: 9,0 − 5,70 = 3,30 V. A corrente é a mesma da lâmpada: 0,15 A.\n3. <i>R</i> = 3,30/0,15 = 22 Ω.\nGabarito: E.",
+  "topicos": [
+    "primeira-lei-de-ohm",
+    "associacao-de-resistores",
+    "amperimetro-voltimetro-e-ponte-de-wheatstone"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-02T14:05:28.000Z",
+  "atualizadoEm": "2026-11-02T14:05:28.000Z"
+}

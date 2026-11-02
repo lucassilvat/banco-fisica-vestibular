@@ -1,0 +1,24 @@
+{
+  "id": "unesp-2018-q80",
+  "banca": "Unesp",
+  "ano": 2018,
+  "numero": "80",
+  "fase": "1ª fase",
+  "fonte": {
+    "descricao": "Vunesp, Vestibular Unesp 2018, 1ª fase (Prova de Conhecimentos Gerais), caderno de questões"
+  },
+  "enunciado": "Um dos fatores que contribuíram para a aceitação do modelo atômico proposto por Niels Bohr em 1913 foi a explicação dos espectros da luz emitida por átomos de gases aquecidos, que podem ser observados por meio de um aparelho chamado espectroscópio, cujo esquema está representado na figura. Nesse equipamento, a luz emitida por um gás atravessa uma fenda em um anteparo opaco, forma um estreito feixe que incide em um elemento óptico, no qual sofre dispersão. Essa luz dispersada incide em um detector, onde é realizado o registro do espectro.\n\n[[figura 1]]\n\n(Bruce H. Mahan. <i>Química</i>, 1972. Adaptado.)\n\nO elemento óptico desse espectroscópio pode ser\n\n(A) um espelho convexo.\n(B) um prisma.\n(C) uma lente divergente.\n(D) uma lente convergente.\n(E) um espelho plano.",
+  "figuras": [
+    "unesp-2018-q80-1.png"
+  ],
+  "gabarito": "B",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. Dispersão é a separação da luz em suas cores (comprimentos de onda), que ocorre porque o índice de refração do material depende da frequência.\n2. Espelhos (planos ou esféricos) refletem todas as cores igualmente e não dispersam a luz. Lentes também refratam, mas são feitas para formar imagens, e não para separar as cores do feixe.\n3. O prisma desvia cada cor de um ângulo diferente e espalha o feixe em um espectro, como mostra a figura.\nGabarito: B.",
+  "topicos": [
+    "prismas-e-dispersao-da-luz",
+    "espectros-de-emissao-e-absorcao"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-02T14:05:28.000Z",
+  "atualizadoEm": "2026-11-02T14:05:28.000Z"
+}

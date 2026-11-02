@@ -1,0 +1,23 @@
+{
+  "id": "unesp-2019-q66",
+  "banca": "Unesp",
+  "ano": 2019,
+  "numero": "66",
+  "fase": "1ª fase",
+  "fonte": {
+    "descricao": "Vunesp, Vestibular Unesp 2019, 1ª fase (Prova de Conhecimentos Gerais), caderno de questões"
+  },
+  "enunciado": "A configuração anatômica do sistema circulatório humano apresenta, por analogia com os circuitos elétricos, estruturas posicionadas em série e em paralelo, o que permite a identificação de resistências vasculares contrárias ao fluxo sanguíneo. A figura mostra como algumas estruturas estão associadas no sistema circulatório humano.\n\n[[figura 1]]\n\n(Rui Curi e Joaquim P. de Araújo Filho. <i>Fisiologia básica</i>, 2009. Adaptado.)\n\nAssim como na associação entre resistores de um circuito elétrico, no sistema circulatório humano há aumento da resistência ao fluxo sanguíneo na associação de estruturas em que ocorre\n\n(A) filtração do sangue e absorção de nutrientes.\n(B) produção da bile e reabsorção de água.\n(C) produção da bile e controle da temperatura.\n(D) absorção de nutrientes e controle da temperatura.\n(E) filtração do sangue e reabsorção de água.",
+  "figuras": [
+    "unesp-2019-q66-1.png"
+  ],
+  "gabarito": "E",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "Questão de Biologia (circulação) com analogia a circuitos elétricos.\n1. Em um circuito, a associação em série aumenta a resistência equivalente (<i>R</i><sub>eq</sub> = <i>R</i><sub>1</sub> + <i>R</i><sub>2</sub>); a associação em paralelo a diminui.\n2. Na figura, as estruturas em série estão no mesmo ramo, uma depois da outra: o glomérulo e os túbulos renais (o sangue passa pelos capilares do glomérulo e depois pelos que envolvem os túbulos), e também os intestinos (e o baço) e o fígado, ligados pela veia porta.\n3. No rim, o glomérulo faz a filtração do sangue e os túbulos, a reabsorção de água: essa associação em série é a da alternativa E. As demais alternativas combinam estruturas de ramos diferentes (em paralelo).\nGabarito: E.",
+  "topicos": [
+    "associacao-de-resistores"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-02T14:05:33.000Z",
+  "atualizadoEm": "2026-11-02T14:05:33.000Z"
+}

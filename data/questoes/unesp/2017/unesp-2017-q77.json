@@ -1,0 +1,25 @@
+{
+  "id": "unesp-2017-q77",
+  "banca": "Unesp",
+  "ano": 2017,
+  "numero": "77",
+  "fase": "1ª fase",
+  "fonte": {
+    "descricao": "Vunesp, Vestibular Unesp 2017, 1ª fase (Prova de Conhecimentos Gerais), caderno de questões"
+  },
+  "enunciado": "Em um edifício em construção, João lança para José um objeto amarrado a uma corda inextensível e de massa desprezível, presa no ponto O da parede. O objeto é lançado perpendicularmente à parede e percorre, suspenso no ar, um arco de circunferência de diâmetro igual a 15 m, contido em um plano horizontal e em movimento uniforme, conforme a figura. O ponto O está sobre a mesma reta vertical que passa pelo ponto C, ponto médio do segmento que une João a José. O ângulo θ, formado entre a corda e o segmento de reta OC, é constante.\n\n[[figura 1]]\n\nConsiderando sen θ = 0,6, cos θ = 0,8, g = 10 m/s<sup>2</sup> e desprezando a resistência do ar, a velocidade angular do objeto, em seu movimento de João a José, é igual a\n\n(A) 1,0 rad/s.\n(B) 1,5 rad/s.\n(C) 2,5 rad/s.\n(D) 2,0 rad/s.\n(E) 3,0 rad/s.",
+  "figuras": [
+    "unesp-2017-q77-1.png"
+  ],
+  "gabarito": "A",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. O objeto descreve um pêndulo cônico: circunferência horizontal de raio <i>R</i> = 15/2 = 7,5 m, centro C, com a corda inclinada de θ em relação à vertical OC.\n2. Tração <i>T</i>: a componente vertical equilibra o peso, <i>T</i> cos θ = <i>mg</i>; a horizontal é a resultante centrípeta, <i>T</i> sen θ = <i>m</i>ω²<i>R</i>.\n3. Dividindo: tg θ = ω²<i>R</i>/<i>g</i> ⇒ ω² = <i>g</i> tg θ/<i>R</i> = 10 · (0,6/0,8)/7,5 = 7,5/7,5 = 1.\n4. ω = 1,0 rad/s.\nGabarito: A.",
+  "topicos": [
+    "resultante-centripeta-curvas-loop-globo-da-morte",
+    "aceleracao-centripeta",
+    "periodo-frequencia-e-velocidade-angular"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-02T14:05:19.000Z",
+  "atualizadoEm": "2026-11-02T14:05:19.000Z"
+}

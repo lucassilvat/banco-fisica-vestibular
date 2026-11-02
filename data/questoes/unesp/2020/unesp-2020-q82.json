@@ -1,0 +1,26 @@
+{
+  "id": "unesp-2020-q82",
+  "banca": "Unesp",
+  "ano": 2020,
+  "numero": "82",
+  "fase": "1ª fase",
+  "fonte": {
+    "descricao": "Vunesp, Vestibular Unesp 2020, 1ª fase (Prova de Conhecimentos Gerais), caderno de questões"
+  },
+  "enunciado": "Na maioria dos peixes elétricos as descargas são produzidas por órgãos elétricos constituídos por células, chamadas eletroplacas, empilhadas em colunas. Suponha que cada eletroplaca se comporte como um gerador ideal.\n\n[[figura 1]]\n\nSuponha que o sistema elétrico de um poraquê, peixe elétrico de água doce, seja constituído de uma coluna com 5 000 eletroplacas associadas em série, produzindo uma força eletromotriz total de 600 V.\n\n[[figura 2]]\n\n(https://hypescience.com. Adaptado.)\n\nConsidere que uma raia-torpedo, que vive na água do mar, possua um sistema elétrico formado por uma associação em paralelo de várias colunas, cada uma com 750 eletroplacas iguais às do poraquê, ligadas em série, constituindo mais da metade da massa corporal desse peixe.\n\n[[figura 3]]\n\n(www.megatimes.com.br. Adaptado.)\n\nDesconsiderando perdas internas, se em uma descarga a raia-torpedo conseguir produzir uma corrente elétrica total de 50 A durante um curto intervalo de tempo, a potência elétrica gerada por ela, nesse intervalo de tempo, será de\n\n(A) 3 500 W.\n(B) 3 000 W.\n(C) 2 500 W.\n(D) 4 500 W.\n(E) 4 000 W.",
+  "figuras": [
+    "unesp-2020-q82-1.png",
+    "unesp-2020-q82-2.png",
+    "unesp-2020-q82-3.png"
+  ],
+  "gabarito": "D",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. FEM de cada eletroplaca: 600 V/5 000 = 0,12 V.\n2. Cada coluna da raia tem 750 eletroplacas em série: 750 · 0,12 = 90 V. Colunas iguais em paralelo têm a mesma FEM: o sistema fornece 90 V.\n3. Potência gerada: <i>P</i> = <i>U</i> · <i>i</i> = 90 · 50 = 4 500 W.\nGabarito: D.",
+  "topicos": [
+    "geradores-eletricos-fem-e-resistencia-interna",
+    "potencia-eletrica-e-efeito-joule"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-02T14:05:40.000Z",
+  "atualizadoEm": "2026-11-02T14:05:40.000Z"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "unesp-2018-q77",
+  "banca": "Unesp",
+  "ano": 2018,
+  "numero": "77",
+  "fase": "1ª fase",
+  "fonte": {
+    "descricao": "Vunesp, Vestibular Unesp 2018, 1ª fase (Prova de Conhecimentos Gerais), caderno de questões"
+  },
+  "enunciado": "Uma minicama elástica é constituída por uma superfície elástica presa a um aro lateral por 32 molas idênticas, como mostra a figura. Quando uma pessoa salta sobre esta minicama, transfere para ela uma quantidade de energia que é absorvida pela superfície elástica e pelas molas.\n\n[[figura 1]]\n\nConsidere que, ao saltar sobre uma dessas minicamas, uma pessoa transfira para ela uma quantidade de energia igual a 160 J, que 45% dessa energia seja distribuída igualmente entre as 32 molas e que cada uma delas se distenda 3,0 mm. Nessa situação, a constante elástica de cada mola, em N/m, vale\n\n(A) 5,0 × 10<sup>5</sup>.\n(B) 1,6 × 10<sup>1</sup>.\n(C) 3,2 × 10<sup>3</sup>.\n(D) 5,0 × 10<sup>3</sup>.\n(E) 3,2 × 10<sup>0</sup>.",
+  "figuras": [
+    "unesp-2018-q77-1.png"
+  ],
+  "gabarito": "A",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. Energia absorvida pelas molas: 45% de 160 J = 72 J. Por mola: 72/32 = 2,25 J.\n2. Energia potencial elástica: <i>E</i> = <i>kx</i>²/2, com <i>x</i> = 3,0 mm = 3,0 × 10<sup>−3</sup> m.\n3. <i>k</i> = 2<i>E</i>/<i>x</i>² = 4,5/(9,0 × 10<sup>−6</sup>) = 5,0 × 10<sup>5</sup> N/m.\nGabarito: A.",
+  "topicos": [
+    "energia-potencial-elastica",
+    "forca-elastica-lei-de-hooke"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-02T14:05:28.000Z",
+  "atualizadoEm": "2026-11-02T14:05:28.000Z"
+}

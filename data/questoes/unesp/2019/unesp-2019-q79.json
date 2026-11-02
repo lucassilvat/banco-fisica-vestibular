@@ -1,0 +1,24 @@
+{
+  "id": "unesp-2019-q79",
+  "banca": "Unesp",
+  "ano": 2019,
+  "numero": "79",
+  "fase": "1ª fase",
+  "fonte": {
+    "descricao": "Vunesp, Vestibular Unesp 2019, 1ª fase (Prova de Conhecimentos Gerais), caderno de questões"
+  },
+  "enunciado": "As figuras representam dois modelos, 1 e 2, para o átomo de hidrogênio. No modelo 1, o elétron move-se em trajetória espiral, aproximando-se do núcleo atômico e emitindo energia continuamente, com frequência cada vez maior, uma vez que cargas elétricas aceleradas irradiam energia. Esse processo só termina quando o elétron se choca com o núcleo. No modelo 2, o elétron move-se inicialmente em determinada órbita circular estável e em movimento uniforme em relação ao núcleo, sem emitir radiação eletromagnética, apesar de apresentar aceleração centrípeta. Nesse modelo a emissão só ocorre, de forma descontínua, quando o elétron sofre transição de uma órbita mais distante do núcleo para outra mais próxima.\n\n[[figura 1]]\n\nA respeito desses modelos atômicos, pode-se afirmar que\n\n(A) o modelo 1, proposto por Bohr em 1913, está de acordo com os trabalhos apresentados na época por Einstein, Planck e Rutherford.\n(B) o modelo 2 descreve as ideias de Thomson, em que um núcleo massivo no centro mantém os elétrons em órbita circular na eletrosfera por forças de atração coulombianas.\n(C) os dois estão em total desacordo com o modelo de Rutherford para o átomo, proposto em 1911, que não previa a existência do núcleo atômico.\n(D) o modelo 1, proposto por Bohr, descreve a emissão de fótons de várias cores enquanto o elétron se dirige ao núcleo atômico.\n(E) o modelo 2, proposto por Bohr, explica satisfatoriamente o fato de um átomo de hidrogênio não emitir radiação o tempo todo.",
+  "figuras": [
+    "unesp-2019-q79-1.png"
+  ],
+  "gabarito": "E",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. O modelo 1 é a previsão da eletrodinâmica clássica para o átomo de Rutherford (carga acelerada irradia e o elétron cairia no núcleo), não o modelo de Bohr: (A) e (D) são falsas.\n2. O modelo 2 é o de Bohr (órbitas estacionárias e emissão só nas transições), e não o de Thomson, que não tinha núcleo: (B) é falsa.\n3. O modelo de Rutherford previa o núcleo atômico: (C) é falsa.\n4. No modelo de Bohr, o elétron em órbita estacionária não irradia, apesar da aceleração centrípeta; por isso o átomo não emite radiação o tempo todo: (E) é verdadeira.\nGabarito: E.",
+  "topicos": [
+    "modelos-atomicos-e-modelo-de-bohr",
+    "espectros-de-emissao-e-absorcao"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-02T14:05:33.000Z",
+  "atualizadoEm": "2026-11-02T14:05:33.000Z"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "unesp-2020-q80",
+  "banca": "Unesp",
+  "ano": 2020,
+  "numero": "80",
+  "fase": "1ª fase",
+  "fonte": {
+    "descricao": "Vunesp, Vestibular Unesp 2020, 1ª fase (Prova de Conhecimentos Gerais), caderno de questões"
+  },
+  "enunciado": "Em uma atividade de sensoriamento remoto, para fotografar determinada região da superfície terrestre, foi utilizada uma câmera fotográfica constituída de uma única lente esférica convergente. Essa câmera foi fixada em um balão que se posicionou, em repouso, verticalmente sobre a região a ser fotografada, a uma altura h da superfície.\n\n[[figura 1]]\n\nConsiderando que, nessa atividade, as dimensões das imagens nas fotografias deveriam ser 5 000 vezes menores do que as dimensões reais na superfície da Terra e sabendo que as imagens dos objetos fotografados se formaram a 20 cm da lente da câmera, a altura h em que o balão se posicionou foi de\n\n(A) 1 000 m.\n(B) 5 000 m.\n(C) 2 000 m.\n(D) 3 000 m.\n(E) 4 000 m.",
+  "figuras": [
+    "unesp-2020-q80-1.png"
+  ],
+  "gabarito": "A",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. Aumento linear transversal (em módulo): |<i>A</i>| = <i>i</i>/<i>o</i> = <i>p</i>′/<i>p</i> = 1/5 000.\n2. Com <i>p</i>′ = 20 cm = 0,20 m: <i>p</i> = 5 000 · 0,20 = 1 000 m.\n3. A distância do objeto à lente é a altura do balão: <i>h</i> = 1 000 m.\nGabarito: A.",
+  "topicos": [
+    "lentes-esfericas-vergencia-gauss-aumento",
+    "instrumentos-opticos-lupa-microscopio-luneta"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-02T14:05:40.000Z",
+  "atualizadoEm": "2026-11-02T14:05:40.000Z"
+}
