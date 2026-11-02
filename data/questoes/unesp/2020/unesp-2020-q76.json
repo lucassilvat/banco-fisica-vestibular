@@ -1,0 +1,24 @@
+{
+  "id": "unesp-2020-q76",
+  "banca": "Unesp",
+  "ano": 2020,
+  "numero": "76",
+  "fase": "1ª fase",
+  "fonte": {
+    "descricao": "Vunesp, Vestibular Unesp 2020, 1ª fase (Prova de Conhecimentos Gerais), caderno de questões"
+  },
+  "enunciado": "O gráfico representa a velocidade escalar de um nadador em função do tempo, durante um ciclo completo de braçadas em uma prova disputada no estilo nado de peito, em uma piscina.\n\n[[figura 1]]\n\n(www.if.ufrj.br. Adaptado.)\n\nConsiderando que, em um trecho de comprimento 36 m, o nadador repetiu esse ciclo de braçadas e manteve o ritmo de seu nado constante, o número de braçadas completas dadas por ele foi em torno de\n\n(A) 20.\n(B) 35.\n(C) 15.\n(D) 30.\n(E) 25.",
+  "figuras": [
+    "unesp-2020-q76-1.png"
+  ],
+  "gabarito": "E",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. Um ciclo de braçada dura 1,0 s (de 0 a 1,0 s no gráfico). O deslocamento em um ciclo é a área sob a curva v × t.\n2. De 0 a 0,4 s e de 0,8 s a 1,0 s a velocidade é cerca de 1,8 m/s: 1,8 · (0,4 + 0,2) ≈ 1,08 m.\n3. De 0,4 s a 0,8 s a velocidade cai de 1,8 m/s a zero e volta a 1,8 m/s; a área é aproximadamente a de um triângulo de base 0,4 s e altura 1,8 m/s: ≈ 0,36 m.\n4. Deslocamento por ciclo ≈ 1,44 m (velocidade média ≈ 1,44 m/s).\n5. Número de braçadas em 36 m: 36/1,44 = 25.\nGabarito: E.",
+  "topicos": [
+    "graficos-do-movimento-s-t-v-t-a-t",
+    "velocidade-media-e-aceleracao-media"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-02T14:05:40.000Z",
+  "atualizadoEm": "2026-11-02T14:05:40.000Z"
+}

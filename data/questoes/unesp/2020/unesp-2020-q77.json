@@ -1,0 +1,28 @@
+{
+  "id": "unesp-2020-q77",
+  "banca": "Unesp",
+  "ano": 2020,
+  "numero": "77",
+  "fase": "1ª fase",
+  "fonte": {
+    "descricao": "Vunesp, Vestibular Unesp 2020, 1ª fase (Prova de Conhecimentos Gerais), caderno de questões"
+  },
+  "enunciado": "Para completar minha obra, restava uma última tarefa: encontrar a lei que relaciona a distância do planeta ao Sol ao tempo que ele leva para completar sua órbita.\n\nPor fim, já quase sem esperanças, tentei T<sup>2</sup>/D<sup>3</sup>. E funcionou! Essa razão é igual para todos os planetas! No início, pensei que se tratava de um sonho. Essa é a lei que tanto procurei, a lei que liga cosmo e mente, que demonstra que toda a Criação provém de Deus. Minha busca está encerrada.\n\n(<i>Apud</i> Marcelo Gleiser. <i>A harmonia do mundo</i>, 2006. Adaptado.)\n\nA lei mencionada no texto refere-se ao trabalho de um importante pensador, que viveu\n\n(A) na Idade Média, período influenciado pelo pensamento da Igreja católica, e que buscava explicar os fenômenos da natureza por meio da intervenção divina.\n(B) na Europa posteriormente a Isaac Newton e que, sob forte influência deste filósofo e cientista, estabeleceu as bases da mecânica celeste.\n(C) em uma época de exacerbados conflitos religiosos, que culminariam na Contrarreforma católica, opondo-se ao modelo heliocêntrico de Nicolau Copérnico.\n(D) no período do Renascimento científico e que formulou três leis fundamentais do movimento planetário, baseando-se em observações do planeta Marte.\n(E) no fim da era medieval e início da Idade Moderna, período de triunfo da fé sobre a razão, o que facilitou seus trabalhos na tentativa de compreender a natureza.",
+  "figuras": [],
+  "gabarito": "D",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. A relação T²/D³ constante para todos os planetas é a 3ª lei de Kepler (lei dos períodos), publicada em <i>A harmonia do mundo</i> (1619).\n2. Johannes Kepler (1571–1630) viveu no Renascimento científico, antes de Newton, que usou suas leis; foi defensor do heliocentrismo de Copérnico. Isso elimina A, B, C e E.\n3. Kepler formulou três leis do movimento planetário a partir das observações de Marte feitas por Tycho Brahe.\nGabarito: D.",
+  "topicos": [
+    "leis-de-kepler"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-02T14:05:40.000Z",
+  "atualizadoEm": "2026-11-02T14:05:40.000Z",
+  "revisao": {
+    "divergenciasAceitas": [
+      "T2",
+      "D3"
+    ],
+    "notas": "Expoentes de T²/D³ em sobrescrito, como no caderno."
+  }
+}

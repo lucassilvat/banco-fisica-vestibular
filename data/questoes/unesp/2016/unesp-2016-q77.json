@@ -1,0 +1,24 @@
+{
+  "id": "unesp-2016-q77",
+  "banca": "Unesp",
+  "ano": 2016,
+  "numero": "77",
+  "fase": "1ª fase",
+  "fonte": {
+    "descricao": "Vunesp, Vestibular Unesp 2016, 1ª fase (Prova de Conhecimentos Gerais), caderno de questões"
+  },
+  "enunciado": "Um pequeno motor a pilha é utilizado para movimentar um carrinho de brinquedo. Um sistema de engrenagens transforma a velocidade de rotação desse motor na velocidade de rotação adequada às rodas do carrinho. Esse sistema é formado por quatro engrenagens, A, B, C e D, sendo que A está presa ao eixo do motor, B e C estão presas a um segundo eixo e D a um terceiro eixo, no qual também estão presas duas das quatro rodas do carrinho.\n\n[[figura 1]]\n\n(www.mecatronicaatual.com.br. Adaptado.)\n\nNessas condições, quando o motor girar com frequência f<sub>M</sub>, as duas rodas do carrinho girarão com frequência f<sub>R</sub>. Sabendo que as engrenagens A e C possuem 8 dentes, que as engrenagens B e D possuem 24 dentes, que não há escorregamento entre elas e que f<sub>M</sub> = 13,5 Hz, é correto afirmar que f<sub>R</sub>, em Hz, é igual a\n\n(A) 1,5.\n(B) 3,0.\n(C) 2,0.\n(D) 1,0.\n(E) 2,5.",
+  "figuras": [
+    "unesp-2016-q77-1.png"
+  ],
+  "gabarito": "A",
+  "gabaritoFonte": "oficial",
+  "resolucao": "1. Engrenagens acopladas têm a mesma velocidade linear nos dentes; como o raio é proporcional ao número de dentes, <i>f</i> · <i>N</i> (frequência × número de dentes) é o mesmo para as duas.\n2. A → B: 13,5 · 8 = <i>f</i><sub>B</sub> · 24 ⇒ <i>f</i><sub>B</sub> = 4,5 Hz.\n3. C está no mesmo eixo de B: <i>f</i><sub>C</sub> = 4,5 Hz.\n4. C → D: 4,5 · 8 = <i>f</i><sub>D</sub> · 24 ⇒ <i>f</i><sub>D</sub> = 1,5 Hz. As rodas estão no eixo de D: f<sub>R</sub> = 1,5 Hz.\nGabarito: A.",
+  "topicos": [
+    "transmissao-de-movimento-circular-polias-engrenagens-coroas",
+    "periodo-frequencia-e-velocidade-angular"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-02T14:05:14.000Z",
+  "atualizadoEm": "2026-11-02T14:05:14.000Z"
+}

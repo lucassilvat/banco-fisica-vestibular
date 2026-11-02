@@ -1,0 +1,25 @@
+{
+  "id": "unesp-2016-q80",
+  "banca": "Unesp",
+  "ano": 2016,
+  "numero": "80",
+  "fase": "1ª fase",
+  "fonte": {
+    "descricao": "Vunesp, Vestibular Unesp 2016, 1ª fase (Prova de Conhecimentos Gerais), caderno de questões"
+  },
+  "enunciado": "[[figura 1]]\n\n(www.japanican.com)\n\nO topo da montanha é gelado porque o ar quente da base da montanha, regiões baixas, vai esfriando à medida que sobe. Ao subir, o ar quente fica sujeito a pressões menores, o que o leva a se expandir rapidamente e, em seguida, a se resfriar, tornando a atmosfera no topo da montanha mais fria que a base. Além disso, o principal aquecedor da atmosfera é a própria superfície da Terra. Ao absorver energia radiante emitida pelo Sol, ela esquenta e emite ondas eletromagnéticas aquecendo o ar ao seu redor. E os raios solares que atingem as regiões altas das montanhas incidem em superfícies que absorvem quantidades menores de radiação, por serem inclinadas em comparação com as superfícies horizontais das regiões baixas. Em grandes altitudes, a quantidade de energia absorvida não é suficiente para aquecer o ar ao seu redor.\n\n(http://super.abril.com.br. Adaptado.)\n\nSegundo o texto e conhecimentos de física, o topo da montanha é mais frio que a base devido\n\n(A) à expansão adiabática sofrida pelo ar quando sobe e ao fato de o ar ser um bom condutor de calor, não retendo energia térmica e esfriando.\n(B) à expansão adiabática sofrida pelo ar quando sobe e à pouca irradiação recebida da superfície montanhosa próxima a ele.\n(C) à redução da pressão atmosférica com a altitude e ao fato de as superfícies inclinadas das montanhas impedirem a circulação do ar ao seu redor, esfriando-o.\n(D) à transformação isocórica pela qual passa o ar que sobe e à pouca irradiação recebida da superfície montanhosa próxima a ele.\n(E) à expansão isotérmica sofrida pelo ar quando sobe e à ausência do fenômeno da convecção que aqueceria o ar.",
+  "figuras": [
+    "unesp-2016-q80-1.png"
+  ],
+  "gabarito": "B",
+  "gabaritoFonte": "oficial",
+  "resolucao": "1. O ar que sobe se expande rapidamente, sem tempo para trocar calor: expansão adiabática. Pela 1ª lei (<i>Q</i> = 0), o trabalho de expansão sai da energia interna, e o ar esfria. Isso descarta (D) (isocórica) e (E) (isotérmica).\n2. O texto diz que o aquecedor da atmosfera é a superfície, que irradia; nas encostas inclinadas a superfície absorve menos radiação e, portanto, irradia menos para o ar próximo.\n3. (A) é falsa: o ar é mau condutor de calor. (C) é falsa: o texto não fala em bloqueio da circulação do ar.\nGabarito: B.",
+  "topicos": [
+    "transformacoes-gasosas-isotermica-isobarica-isocorica-adiabatica",
+    "primeira-lei-da-termodinamica",
+    "conveccao-e-irradiacao-termica"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-02T14:05:14.000Z",
+  "atualizadoEm": "2026-11-02T14:05:14.000Z"
+}

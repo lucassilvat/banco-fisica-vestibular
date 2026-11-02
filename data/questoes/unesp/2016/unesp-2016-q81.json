@@ -1,0 +1,26 @@
+{
+  "id": "unesp-2016-q81",
+  "banca": "Unesp",
+  "ano": 2016,
+  "numero": "81",
+  "fase": "1ª fase",
+  "fonte": {
+    "descricao": "Vunesp, Vestibular Unesp 2016, 1ª fase (Prova de Conhecimentos Gerais), caderno de questões"
+  },
+  "enunciado": "Quando entrou em uma ótica para comprar novos óculos, um rapaz deparou-se com três espelhos sobre o balcão: um plano, um esférico côncavo e um esférico convexo, todos capazes de formar imagens nítidas de objetos reais colocados à sua frente. Notou ainda que, ao se posicionar sempre a mesma distância desses espelhos, via três diferentes imagens de seu rosto, representadas na figura a seguir.\n\n[[figura 1]]\n\n[[figura 2]]\n\n[[figura 3]]\n\nEm seguida, associou cada imagem vista por ele a um tipo de espelho e classificou-as quanto às suas naturezas. Uma associação correta feita pelo rapaz está indicada na alternativa:\n\n(A) o espelho A é o côncavo e a imagem conjugada por ele é real.\n(B) o espelho B é o plano e a imagem conjugada por ele é real.\n(C) o espelho C é o côncavo e a imagem conjugada por ele é virtual.\n(D) o espelho A é o plano e a imagem conjugada por ele é virtual.\n(E) o espelho C é o convexo e a imagem conjugada por ele é virtual.",
+  "figuras": [
+    "unesp-2016-q81-1.png",
+    "unesp-2016-q81-2.png",
+    "unesp-2016-q81-3.png"
+  ],
+  "gabarito": "C",
+  "gabaritoFonte": "oficial",
+  "resolucao": "1. As três imagens são direitas (não invertidas). Imagem direita de objeto real em espelho é sempre virtual.\n2. A imagem A é menor que as outras: espelho convexo (imagem virtual, direita e menor).\n3. A imagem B tem tamanho intermediário (igual ao do objeto): espelho plano (virtual, direita, mesmo tamanho).\n4. A imagem C é ampliada e direita: espelho côncavo com o rosto entre o foco e o vértice (virtual, direita, maior).\n5. Associação correta: C é o côncavo, com imagem virtual.\nGabarito: C.",
+  "topicos": [
+    "espelhos-esfericos-equacao-de-gauss-e-aumento",
+    "reflexao-da-luz-e-espelhos-planos"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-02T14:05:14.000Z",
+  "atualizadoEm": "2026-11-02T14:05:14.000Z"
+}

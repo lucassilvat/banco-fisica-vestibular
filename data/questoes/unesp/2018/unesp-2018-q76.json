@@ -1,0 +1,21 @@
+{
+  "id": "unesp-2018-q76",
+  "banca": "Unesp",
+  "ano": 2018,
+  "numero": "76",
+  "fase": "1ª fase",
+  "fonte": {
+    "descricao": "Vunesp, Vestibular Unesp 2018, 1ª fase (Prova de Conhecimentos Gerais), caderno de questões"
+  },
+  "enunciado": "Juliana pratica corridas e consegue correr 5,0 km em meia hora. Seu próximo desafio é participar da corrida de São Silvestre, cujo percurso é de 15 km. Como é uma distância maior do que a que está acostumada a correr, seu instrutor orientou que diminuísse sua velocidade média habitual em 40% durante a nova prova. Se seguir a orientação de seu instrutor, Juliana completará a corrida de São Silvestre em\n\n(A) 2h40min.\n(B) 3h00min.\n(C) 2h15min.\n(D) 2h30min.\n(E) 1h52min.",
+  "figuras": [],
+  "gabarito": "D",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. Velocidade média habitual: 5,0 km/0,5 h = 10 km/h.\n2. Reduzida em 40%: 10 · 0,6 = 6 km/h.\n3. Tempo para 15 km: 15/6 = 2,5 h = 2h30min.\nGabarito: D.",
+  "topicos": [
+    "velocidade-media-e-aceleracao-media"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-02T14:05:28.000Z",
+  "atualizadoEm": "2026-11-02T14:05:28.000Z"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "unesp-2017-q82",
+  "banca": "Unesp",
+  "ano": 2017,
+  "numero": "82",
+  "fase": "1ª fase",
+  "fonte": {
+    "descricao": "Vunesp, Vestibular Unesp 2017, 1ª fase (Prova de Conhecimentos Gerais), caderno de questões"
+  },
+  "enunciado": "Três esferas puntiformes, eletrizadas com cargas elétricas q<sub>1</sub> = q<sub>2</sub> = +Q e q<sub>3</sub> = –2Q, estão fixas e dispostas sobre uma circunferência de raio r e centro C, em uma região onde a constante eletrostática é igual a k<sub>0</sub>, conforme representado na figura.\n\n[[figura 1]]\n\nConsidere V<sub>C</sub> o potencial eletrostático e E<sub>C</sub> o módulo do campo elétrico no ponto C devido às três cargas. Os valores de V<sub>C</sub> e E<sub>C</sub> são, respectivamente,\n\n(A) zero e (4 · k<sub>0</sub> · Q)/r<sup>2</sup>\n(B) (4 · k<sub>0</sub> · Q)/r e (k<sub>0</sub> · Q)/r<sup>2</sup>\n(C) zero e zero\n(D) (2 · k<sub>0</sub> · Q)/r e (2 · k<sub>0</sub> · Q)/r<sup>2</sup>\n(E) zero e (2 · k<sub>0</sub> · Q)/r<sup>2</sup>",
+  "figuras": [
+    "unesp-2017-q82-1.png"
+  ],
+  "gabarito": "E",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. As três cargas estão à mesma distância r de C (sobre a circunferência).\n2. Potencial (grandeza escalar): V<sub>C</sub> = k<sub>0</sub>(Q + Q − 2Q)/r = 0.\n3. Campo: q<sub>1</sub> e q<sub>2</sub> estão nas extremidades de um diâmetro (a figura mostra C no segmento q<sub>1</sub>q<sub>2</sub>), são iguais e estão à mesma distância de C; seus campos em C têm o mesmo módulo e sentidos opostos e se anulam.\n4. Sobra o campo de q<sub>3</sub>: E<sub>C</sub> = k<sub>0</sub> · 2Q/r² = (2 · k<sub>0</sub> · Q)/r².\nGabarito: E.",
+  "topicos": [
+    "potencial-eletrico-e-diferenca-de-potencial",
+    "campo-eletrico",
+    "vetores-soma-e-decomposicao"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-02T14:05:19.000Z",
+  "atualizadoEm": "2026-11-02T14:05:19.000Z",
+  "revisao": {
+    "divergenciasAceitas": [
+      "região",
+      "representado"
+    ],
+    "notas": "Hífens invisíveis ou quebras com hífen na camada de texto do PDF; palavras conferidas na imagem."
+  }
+}

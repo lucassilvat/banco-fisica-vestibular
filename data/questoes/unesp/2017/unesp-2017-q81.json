@@ -1,0 +1,30 @@
+{
+  "id": "unesp-2017-q81",
+  "banca": "Unesp",
+  "ano": 2017,
+  "numero": "81",
+  "fase": "1ª fase",
+  "fonte": {
+    "descricao": "Vunesp, Vestibular Unesp 2017, 1ª fase (Prova de Conhecimentos Gerais), caderno de questões"
+  },
+  "enunciado": "Radares são emissores e receptores de ondas de rádio e têm aplicações, por exemplo, na determinação de velocidades de veículos nas ruas e rodovias. Já os sonares são emissores e receptores de ondas sonoras, sendo utilizados no meio aquático para determinação da profundidade dos oceanos, localização de cardumes, dentre outras aplicações.\n\nComparando-se as ondas emitidas pelos radares e pelos sonares, temos que:\n\n(A) as ondas emitidas pelos radares são mecânicas e as ondas emitidas pelos sonares são eletromagnéticas.\n(B) ambas as ondas exigem um meio material para se propagarem e, quanto mais denso for esse meio, menores serão suas velocidades de propagação.\n(C) as ondas de rádio têm oscilações longitudinais e as ondas sonoras têm oscilações transversais.\n(D) as frequências de oscilação de ambas as ondas não dependem do meio em que se propagam.\n(E) a velocidade de propagação das ondas dos radares pela atmosfera é menor do que a velocidade de propagação das ondas dos sonares pela água.",
+  "figuras": [],
+  "gabarito": "D",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. (A) Falsa: é o contrário; ondas de rádio são eletromagnéticas e o som é onda mecânica.\n2. (B) Falsa: ondas eletromagnéticas se propagam no vácuo; e o som, em geral, é mais rápido em meios mais densos (água, sólidos) do que no ar.\n3. (C) Falsa: ondas eletromagnéticas são transversais; o som em fluidos é longitudinal.\n4. (D) Verdadeira: a frequência é determinada pela fonte e não muda quando a onda passa de um meio para outro (na refração mudam a velocidade e o comprimento de onda).\n5. (E) Falsa: as ondas de rádio no ar têm velocidade próxima de 3 × 10<sup>8</sup> m/s, muito maior que a do som na água (cerca de 1 500 m/s).\nGabarito: D.",
+  "topicos": [
+    "ondas-classificacao-e-elementos",
+    "espectro-eletromagnetico",
+    "reflexao-e-refracao-de-ondas"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-02T14:05:19.000Z",
+  "atualizadoEm": "2026-11-02T14:05:19.000Z",
+  "revisao": {
+    "divergenciasAceitas": [
+      "menores",
+      "profundidade"
+    ],
+    "notas": "Hífens invisíveis ou quebras com hífen na camada de texto do PDF; palavras conferidas na imagem."
+  }
+}

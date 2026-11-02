@@ -1,0 +1,28 @@
+{
+  "id": "unesp-2019-q64",
+  "banca": "Unesp",
+  "ano": 2019,
+  "numero": "64",
+  "fase": "1ª fase",
+  "fonte": {
+    "descricao": "Vunesp, Vestibular Unesp 2019, 1ª fase (Prova de Conhecimentos Gerais), caderno de questões"
+  },
+  "enunciado": "A figura reproduz o modelo físico proposto por Ernst Münch para explicar sua hipótese sobre o deslocamento de seiva nas plantas. Duas bolsas semipermeáveis, interconectadas por um tubo, são imersas em vasos que contêm o mesmo volume de água destilada. A bolsa 1 contém apenas água destilada e a 2, uma solução concentrada de água e açúcar. Os vasos são ligados por outro tubo, com uma torneira acoplada, que permanece fechada durante todo o experimento. Na figura, ∆h indica o desnivelamento de água ocorrido nos vasos após o início do experimento, no curto intervalo de tempo em que o açúcar permaneceu restrito à bolsa 2.\n\n[[figura 1]]\n\nSobre o experimento, foram feitas as afirmações:\n\nI. A bolsa 1 representa o sistema radicular, enquanto a bolsa 2 representa as folhas da planta.\nII. Na bolsa que corresponderia às folhas da planta, a pressão osmótica equivale ao produto entre a densidade da água, a aceleração da gravidade e o ∆h.\nIII. Enquanto fechada, a torneira equivale, na planta, ao método de anelamento do caule.\n\nÉ verdadeiro o que se afirma em\n\n(A) I e II, apenas.\n(B) II e III, apenas.\n(C) I, apenas.\n(D) II, apenas.\n(E) I, II e III.",
+  "figuras": [
+    "unesp-2019-q64-1.png"
+  ],
+  "gabarito": "A",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "Questão de Biologia (transporte de seiva elaborada) com conteúdo de Hidrostática.\n1. I. Verdadeira: no modelo de Münch, a bolsa com açúcar (2) faz o papel das folhas, onde a fotossíntese produz açúcares (fonte); a bolsa só com água (1) representa as raízes (dreno).\n2. II. Verdadeira: a água entra por osmose na bolsa 2 e é empurrada pelo tubo até a bolsa 1, que a devolve ao vaso 1; os níveis dos vasos ficam desnivelados de Δh. A pressão osmótica que sustenta esse desnível equivale à pressão hidrostática de uma coluna de água de altura Δh, isto é, <i>p</i> = <i>dg</i>Δh (teorema de Stevin).\n3. III. Falsa: o tubo com a torneira liga os dois vasos e representa o retorno da água pelo xilema; o anelamento retira a casca do caule e interrompe o floema, que no modelo corresponde ao tubo que liga as duas bolsas.\nGabarito: A.",
+  "topicos": [
+    "teorema-de-stevin-pressao-hidrostatica",
+    "vasos-comunicantes",
+    "pressao"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-02T14:05:33.000Z",
+  "atualizadoEm": "2026-11-02T14:05:33.000Z",
+  "revisao": {
+    "notas": "Resolução própria; gabarito oficial não conferido. A afirmação II (pressão osmótica = dgΔh) é a leitura usual do osmômetro; conferir quando houver o gabarito."
+  }
+}

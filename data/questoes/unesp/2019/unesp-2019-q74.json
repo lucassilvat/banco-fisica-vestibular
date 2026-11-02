@@ -1,0 +1,24 @@
+{
+  "id": "unesp-2019-q74",
+  "banca": "Unesp",
+  "ano": 2019,
+  "numero": "74",
+  "fase": "1ª fase",
+  "fonte": {
+    "descricao": "Vunesp, Vestibular Unesp 2019, 1ª fase (Prova de Conhecimentos Gerais), caderno de questões"
+  },
+  "enunciado": "A energia emitida pelo Sol é o resultado de diferentes fusões nucleares que ocorrem nesse astro. Algumas reações nucleares que ocorrem no Sol são:\n\n[[figura 1]]\n\nEstima-se que, a cada segundo, 657 milhões de toneladas de hidrogênio estejam produzindo 653 milhões de toneladas de hélio. Supõe-se que a diferença, 4 milhões de toneladas, equivalha à energia liberada e enviada para o espaço.\n\n(Angélica Ambrogi <i>et al</i>. <i>Unidades modulares de química</i>, 1987. Adaptado.)\n\nSobre a situação apresentada no texto foram feitas três afirmações:\n\nI. A quantidade de energia enviada para o espaço a cada segundo, equivalente a aproximadamente 4 milhões de toneladas de hidrogênio, pode ser estimada pela equação de Einstein, E = mc<sup>2</sup>.\nII. Todas as reações de fusão nuclear representadas são endotérmicas.\nIII. No conjunto das equações apresentadas, nota-se a presença de 3 isótopos do hidrogênio e 2 do hélio.\n\nÉ correto o que se afirma somente em\n\n(A) II.\n(B) II e III.\n(C) III.\n(D) I.\n(E) I e III.",
+  "figuras": [
+    "unesp-2019-q74-1.png"
+  ],
+  "gabarito": "E",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "Questão de Química com conteúdo de Física Moderna.\n1. I. Verdadeira: a massa “perdida” (defeito de massa) se converte em energia, estimada por <i>E</i> = <i>mc</i>².\n2. II. Falsa: as fusões representadas liberam energia (aparece “energia” nos produtos): são exotérmicas.\n3. III. Verdadeira: aparecem <sup>1</sup>H, <sup>2</sup>H e <sup>3</sup>H (três isótopos do hidrogênio) e <sup>3</sup>He e <sup>4</sup>He (dois do hélio).\nGabarito: E.",
+  "topicos": [
+    "equivalencia-massa-energia-e-mc",
+    "fissao-e-fusao-nuclear"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-02T14:05:33.000Z",
+  "atualizadoEm": "2026-11-02T14:05:33.000Z"
+}

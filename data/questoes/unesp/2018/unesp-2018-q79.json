@@ -1,0 +1,25 @@
+{
+  "id": "unesp-2018-q79",
+  "banca": "Unesp",
+  "ano": 2018,
+  "numero": "79",
+  "fase": "1ª fase",
+  "fonte": {
+    "descricao": "Vunesp, Vestibular Unesp 2018, 1ª fase (Prova de Conhecimentos Gerais), caderno de questões"
+  },
+  "enunciado": "O gráfico mostra o fluxo térmico do ser humano em função da temperatura ambiente em um experimento no qual o metabolismo basal foi mantido constante. A linha azul representa o calor trocado com o meio por evaporação (E) e a linha vermelha, o calor trocado com o meio por radiação e convecção (RC).\n\n[[figura 1]]\n\n(Eduardo A. C. Garcia. <i>Biofísica</i>, 1997. Adaptado.)\n\nSabendo que os valores positivos indicam calor recebido pelo corpo e os valores negativos indicam o calor perdido pelo corpo, conclui-se que:\n\n(A) em temperaturas entre 36 ºC e 40 ºC, o corpo recebe mais calor do ambiente do que perde.\n(B) à temperatura de 20 ºC, a perda de calor por evaporação é maior que por radiação e convecção.\n(C) a maior perda de calor ocorre à temperatura de 32 ºC.\n(D) a perda de calor por evaporação se aproxima de zero para temperaturas inferiores a 20 ºC.\n(E) à temperatura de 36 ºC, não há fluxo de calor entre o corpo e o meio.",
+  "figuras": [
+    "unesp-2018-q79-1.png"
+  ],
+  "gabarito": "D",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. (A) Falsa: entre 36 ºC e 40 ºC o corpo recebe até cerca de 55 kcal/m² por RC, mas perde de 100 a 135 kcal/m² por evaporação; perde mais do que recebe.\n2. (B) Falsa: a 20 ºC a perda por evaporação é pequena (cerca de 10 kcal/m²), bem menor que a por RC (cerca de 110 kcal/m²).\n3. (C) Falsa: a 32 ºC a perda total é cerca de 35 + 35 = 70 kcal/m²; a 16 ºC, por exemplo, ela passa de 140 kcal/m².\n4. (D) Verdadeira: abaixo de 20 ºC a curva E fica próxima de zero (cerca de −10 kcal/m²).\n5. (E) Falsa: a 36 ºC o fluxo por RC é nulo, mas há perda por evaporação (cerca de −95 kcal/m²).\nGabarito: D.",
+  "topicos": [
+    "leitura-e-interpretacao-de-graficos",
+    "conveccao-e-irradiacao-termica",
+    "calor-latente-e-mudancas-de-fase"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-02T14:05:28.000Z",
+  "atualizadoEm": "2026-11-02T14:05:28.000Z"
+}

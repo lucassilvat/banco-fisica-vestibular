@@ -1,0 +1,32 @@
+{
+  "id": "unesp-2019-q81",
+  "banca": "Unesp",
+  "ano": 2019,
+  "numero": "81",
+  "fase": "1ª fase",
+  "fonte": {
+    "descricao": "Vunesp, Vestibular Unesp 2019, 1ª fase (Prova de Conhecimentos Gerais), caderno de questões"
+  },
+  "enunciado": "Ao meio-dia, a areia de um deserto recebe grande quantidade de energia vinda do Sol. Aquecida, essa areia faz com que as camadas de ar mais próximas fiquem mais quentes do que as camadas de ar mais altas. Essa variação de temperatura altera o índice de refração do ar e contribui para a ocorrência de miragens no deserto, como esquematizado na figura 1.\n\n[[figura 1]]\n\n(www.phy.ntnu.edu.tw. Adaptado.)\n\nPara explicar esse fenômeno, um professor apresenta a seus alunos o esquema da figura 2, que mostra um raio de luz monocromático partindo do topo de uma palmeira, dirigindo-se para a areia e sofrendo refração rasante na interface entre as camadas de ar B e C.\n\n[[figura 2]]\n\nSabendo que nesse esquema as linhas que delimitam as camadas de ar são paralelas entre si, que n<sub>A</sub>, n<sub>B</sub> e n<sub>C</sub> são os índices de refração das camadas A, B e C, e sendo α o ângulo de incidência do raio na camada B, o valor de sen α é\n\n(A) n<sub>C</sub>/n<sub>B</sub>\n(B) n<sub>A</sub>/n<sub>B</sub>\n(C) n<sub>B</sub>/n<sub>A</sub>\n(D) n<sub>B</sub>/n<sub>C</sub>\n(E) n<sub>C</sub>/n<sub>A</sub>",
+  "figuras": [
+    "unesp-2019-q81-1.png",
+    "unesp-2019-q81-2.png"
+  ],
+  "gabarito": "A",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. Pela figura 2, α é o ângulo entre o raio e a normal na camada B (ao chegar à interface B/C).\n2. Na interface B/C a refração é rasante: o ângulo de refração em C é 90º.\n3. Lei de Snell: n<sub>B</sub> sen α = n<sub>C</sub> sen 90º ⇒ sen α = n<sub>C</sub>/n<sub>B</sub>. (α é o ângulo limite da interface B/C.)\nGabarito: A.",
+  "topicos": [
+    "lei-de-snell-descartes",
+    "reflexao-total-e-fibra-optica",
+    "refracao-da-luz-e-indice-de-refracao"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-02T14:05:33.000Z",
+  "atualizadoEm": "2026-11-02T14:05:33.000Z",
+  "revisao": {
+    "divergenciasAceitas": [
+      "sen"
+    ],
+    "notas": "Alternativas em forma de fração, desenhadas no PDF; transcritas da imagem do caderno."
+  }
+}

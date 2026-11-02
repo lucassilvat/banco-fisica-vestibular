@@ -1,0 +1,25 @@
+{
+  "id": "unesp-2020-q81",
+  "banca": "Unesp",
+  "ano": 2020,
+  "numero": "81",
+  "fase": "1ª fase",
+  "fonte": {
+    "descricao": "Vunesp, Vestibular Unesp 2020, 1ª fase (Prova de Conhecimentos Gerais), caderno de questões"
+  },
+  "enunciado": "A sensibilidade visual de humanos e animais encontra-se dentro de uma estreita faixa do espectro da radiação eletromagnética, com comprimentos de onda entre 380 nm e 760 nm. É notável que os vegetais também reajam à radiação dentro desse mesmo intervalo, incluindo a fotossíntese e o crescimento fototrópico. A razão para a importância dessa estreita faixa de radiação eletromagnética é o fato de a energia carregada por um fóton ser inversamente proporcional ao comprimento de onda. Assim, os comprimentos de onda mais longos não carregam energia suficiente em cada fóton para produzir um efeito fotoquímico apreciável, e os mais curtos carregam energia em quantidade que danifica os materiais orgânicos.\n\n(Knut Schmidt-Nielsen. <i>Fisiologia animal: adaptação e meio ambiente</i>, 2002. Adaptado.)\n\nA tabela apresenta o comprimento de onda de algumas cores do espectro da luz visível:\n\n[[figura 1]]\n\nSabendo que a energia carregada por um fóton de frequência f é dada por E = h × f, em que h = 6,6 × 10<sup>–34</sup> J · s, que a velocidade da luz é aproximadamente c = 3 × 10<sup>8</sup> m/s e que 1 nm = 10<sup>–9</sup> m, a cor da luz cujos fótons carregam uma quantidade de energia correspondente a 3,96 × 10<sup>–19</sup> J é\n\n(A) azul.\n(B) verde.\n(C) amarela.\n(D) laranja.\n(E) vermelha.",
+  "figuras": [
+    "unesp-2020-q81-1.png"
+  ],
+  "gabarito": "B",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. <i>E</i> = <i>hf</i> e <i>f</i> = <i>c</i>/λ ⇒ λ = <i>hc</i>/<i>E</i>.\n2. λ = (6,6 × 10<sup>−34</sup> · 3 × 10<sup>8</sup>)/3,96 × 10<sup>−19</sup> = 19,8 × 10<sup>−26</sup>/3,96 × 10<sup>−19</sup> = 5 × 10<sup>−7</sup> m = 500 nm.\n3. Na tabela, 500 nm está entre 495 nm e 570 nm: verde.\nGabarito: B.",
+  "topicos": [
+    "fotons-e-energia-do-foton-e-hf",
+    "espectro-eletromagnetico",
+    "equacao-fundamental-da-ondulatoria-v-f"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-02T14:05:40.000Z",
+  "atualizadoEm": "2026-11-02T14:05:40.000Z"
+}

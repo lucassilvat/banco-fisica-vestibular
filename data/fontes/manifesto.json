@@ -228,6 +228,66 @@
       "url": "",
       "sha256": "b1a54056d72ae1a547a1665bf550b895c59816477ffeaa534995d34b7684177c",
       "paginas": 32
+    },
+    {
+      "banca": "Unesp",
+      "ano": 2016,
+      "versao": "",
+      "tipo": "caderno",
+      "descricao": "Vunesp, Vestibular Unesp 2016, 1ª fase (Prova de Conhecimentos Gerais), caderno de questões",
+      "fase": "1ª fase",
+      "arquivoLocal": "fontes/unesp-2016-caderno.pdf",
+      "url": "",
+      "sha256": "786786fac3551c054d23d61ebe2de3c1af5e0b4a787ea224a1e2b6ecaa4fc6c0",
+      "paginas": 36
+    },
+    {
+      "banca": "Unesp",
+      "ano": 2017,
+      "versao": "",
+      "tipo": "caderno",
+      "descricao": "Vunesp, Vestibular Unesp 2017, 1ª fase (Prova de Conhecimentos Gerais), caderno de questões",
+      "fase": "1ª fase",
+      "arquivoLocal": "fontes/unesp-2017-caderno.pdf",
+      "url": "",
+      "sha256": "d9daaeab4048a99314b584dbfa9aeecaa96198b8fc6f441942bc7023f7094a07",
+      "paginas": 36
+    },
+    {
+      "banca": "Unesp",
+      "ano": 2018,
+      "versao": "",
+      "tipo": "caderno",
+      "descricao": "Vunesp, Vestibular Unesp 2018, 1ª fase (Prova de Conhecimentos Gerais), caderno de questões",
+      "fase": "1ª fase",
+      "arquivoLocal": "fontes/unesp-2018-caderno.pdf",
+      "url": "",
+      "sha256": "16444e3783bbf3dc3b50d52bbcc6a7480ff8921ded8e1447261be819c3465221",
+      "paginas": 36
+    },
+    {
+      "banca": "Unesp",
+      "ano": 2019,
+      "versao": "",
+      "tipo": "caderno",
+      "descricao": "Vunesp, Vestibular Unesp 2019, 1ª fase (Prova de Conhecimentos Gerais), caderno de questões",
+      "fase": "1ª fase",
+      "arquivoLocal": "fontes/unesp-2019-caderno.pdf",
+      "url": "",
+      "sha256": "dbeba9650b1feb964a5d84783780ff702b671540c6cb17721c70a1082376b1d5",
+      "paginas": 36
+    },
+    {
+      "banca": "Unesp",
+      "ano": 2020,
+      "versao": "",
+      "tipo": "caderno",
+      "descricao": "Vunesp, Vestibular Unesp 2020, 1ª fase (Prova de Conhecimentos Gerais), caderno de questões",
+      "fase": "1ª fase",
+      "arquivoLocal": "fontes/unesp-2020-caderno.pdf",
+      "url": "",
+      "sha256": "3f3447bdeff868b4215ca0fb7c6225b719dd97d71a697dc59c75e2cc3667c61c",
+      "paginas": 32
     }
   ]
 }

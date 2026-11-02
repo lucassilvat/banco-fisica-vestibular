@@ -1,0 +1,29 @@
+{
+  "id": "unesp-2020-q87",
+  "banca": "Unesp",
+  "ano": 2020,
+  "numero": "87",
+  "fase": "1ª fase",
+  "fonte": {
+    "descricao": "Vunesp, Vestibular Unesp 2020, 1ª fase (Prova de Conhecimentos Gerais), caderno de questões"
+  },
+  "enunciado": "O quilate do ouro é a razão entre a massa de ouro presente e a massa total da peça, multiplicada por 24. Por exemplo, uma amostra com 18 partes em massa de ouro e 6 partes em massa de outro metal (ou liga metálica) é um ouro de 18 quilates. Assim, um objeto de ouro de 18 quilates tem 3/4 de ouro e 1/4 de outro metal em massa.\n\nO ouro é utilizado na confecção de muitos objetos, inclusive em premiações esportivas. A taça da copa do mundo de futebol masculino é um exemplo desses objetos.\n\nA FIFA declara que a taça da copa do mundo de futebol masculino é maciça (sem nenhuma parte oca) e sua massa é de pouco mais de 6 kg. Acontece que, se a taça fosse mesmo de ouro e maciça, ela pesaria mais do que o informado.\n\n(“O peso da taça”. https://ipemsp.wordpress.com. Adaptado.)\n\nConsidere que a taça seja feita apenas com ouro 18 quilates, cuja composição é de ouro com densidade 19,3 g/cm<sup>3</sup> e uma liga metálica com densidade 6,1 g/cm<sup>3</sup>, e que o volume da taça é similar ao de um cilindro reto com 5 cm de raio e 36 cm de altura.\n\nUtilizando π = 3, se a taça fosse maciça, sua massa teria um valor entre\n\n(A) 30 kg e 35 kg.\n(B) 15 kg e 20 kg.\n(C) 40 kg e 45 kg.\n(D) 10 kg e 15 kg.\n(E) 20 kg e 25 kg.",
+  "figuras": [],
+  "gabarito": "A",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "Questão de Matemática com conteúdo de Densidade.\n1. Volume da taça: <i>V</i> = π<i>r</i>²<i>h</i> = 3 · 5² · 36 = 2 700 cm³.\n2. Em 1 g de ouro 18 quilates há 0,75 g de ouro (volume 0,75/19,3 ≈ 0,0389 cm³) e 0,25 g de liga (volume 0,25/6,1 ≈ 0,0410 cm³): 0,0799 cm³ por grama.\n3. Densidade média: 1/0,0799 ≈ 12,5 g/cm³.\n4. Massa: 12,5 · 2 700 ≈ 33 800 g ≈ 33,8 kg, entre 30 kg e 35 kg.\nGabarito: A.",
+  "topicos": [
+    "densidade-e-massa-especifica"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-02T14:05:40.000Z",
+  "atualizadoEm": "2026-11-02T14:05:40.000Z",
+  "revisao": {
+    "divergenciasAceitas": [
+      "3",
+      "4",
+      "1"
+    ],
+    "notas": "As frações 3/4 e 1/4 estão desenhadas no PDF; transcritas da imagem do caderno."
+  }
+}

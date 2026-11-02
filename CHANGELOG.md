@@ -4,6 +4,18 @@ Cada versão corresponde a um lote de importação ou a uma mudança no app/pipe
 Formato: `vMAIOR.MENOR.CORREÇÃO` — MENOR sobe a cada prova importada; MAIOR, em mudanças
 de modelo de dados; CORREÇÃO, em correções de questões já publicadas.
 
+## v1.7.0 — 2026-11-02
+
+- **Unesp 2016–2020, 1ª fase (Prova de Conhecimentos Gerais)**: 45 questões, 58 figuras.
+  - Bloco de Física: 2016 Q76–Q83; 2017 Q77–Q83; 2018, 2019 e 2020 Q76–Q82.
+  - Interdisciplinares aprovadas pelo Lucas: 2016 Q74; 2017 Q70; 2019 Q64, Q66, Q73, Q74
+    e Q85; 2020 Q70 e Q87. Ficaram de fora, por decisão dele, 2017 Q71, 2019 Q50 e
+    2020 Q73.
+  - Gabaritos: `oficial` em 2016 (Vunesp, versão 1, conferido questão a questão);
+    `resolucao-propria` em 2017–2020.
+- Fuvest 2027: banca padronizada como "Fuvest" (estava "fuvest"); `registrar-prova` passa
+  a normalizar o nome da banca.
+
 ## v1.6.0 — 2026-11-01
 
 - **Fuvest 2027, 1ª fase (Prova de Conhecimentos Gerais, caderno V1, 80 questões)**:

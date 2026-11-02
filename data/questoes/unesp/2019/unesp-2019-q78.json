@@ -1,0 +1,29 @@
+{
+  "id": "unesp-2019-q78",
+  "banca": "Unesp",
+  "ano": 2019,
+  "numero": "78",
+  "fase": "1ª fase",
+  "fonte": {
+    "descricao": "Vunesp, Vestibular Unesp 2019, 1ª fase (Prova de Conhecimentos Gerais), caderno de questões"
+  },
+  "enunciado": "Em determinado experimento, o desenvolvimento de uma planta em um vaso em repouso em relação à Terra é acompanhado a partir da situação inicial representada na figura.\n\nNa região do experimento, o campo gravitacional terrestre é constante e pode ser representado por linhas paralelas orientadas para o centro da Terra.\n\n[[figura 1]]\n\nSabendo que as raízes dessa planta apresentam geotropismo positivo, que seu caule apresenta geotropismo negativo e considerando apenas a influência do campo gravitacional no crescimento dessa planta, a posição relativa de suas raízes e de seu caule em relação ao campo gravitacional, após algumas semanas de observação, está corretamente representada em:\n\n(A)\n[[figura 2]]\n(B)\n[[figura 3]]\n(C)\n[[figura 4]]\n(D)\n[[figura 5]]\n(E)\n[[figura 6]]",
+  "figuras": [
+    "unesp-2019-q78-1.png",
+    "unesp-2019-q78-2.png",
+    "unesp-2019-q78-3.png",
+    "unesp-2019-q78-4.png",
+    "unesp-2019-q78-5.png",
+    "unesp-2019-q78-6.png"
+  ],
+  "gabarito": "C",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. As linhas de campo gravitacional apontam para o centro da Terra; na figura, elas estão orientadas para a direita. Ou seja, “para baixo”, nesse experimento, é a direita da figura.\n2. Geotropismo positivo: as raízes crescem no sentido do campo (para a direita). Geotropismo negativo: o caule cresce no sentido oposto (para a esquerda).\n3. A alternativa em que o caule se curva para a esquerda e as raízes para a direita é a C.\nGabarito: C.",
+  "topicos": [
+    "aceleracao-da-gravidade-e-altitude",
+    "lei-da-gravitacao-universal"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-02T14:05:33.000Z",
+  "atualizadoEm": "2026-11-02T14:05:33.000Z"
+}

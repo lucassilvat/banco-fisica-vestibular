@@ -1,0 +1,29 @@
+{
+  "id": "unesp-2019-q85",
+  "banca": "Unesp",
+  "ano": 2019,
+  "numero": "85",
+  "fase": "1ª fase",
+  "fonte": {
+    "descricao": "Vunesp, Vestibular Unesp 2019, 1ª fase (Prova de Conhecimentos Gerais), caderno de questões"
+  },
+  "enunciado": "Uma criança está sentada no topo de um escorregador cuja estrutura tem a forma de um triângulo ABC, que pode ser perfeitamente inscrito em um semicírculo de diâmetro AC = 4 m. O comprimento da escada do escorregador é AB = 2 m.\n\n[[figura 1]]\n\nConsiderando que a energia potencial gravitacional da criança no ponto B, em relação ao solo horizontal que está em A̅C̅, é igual a 342 joules, e adotando g = 5,7√3 m/s<sup>2</sup>, a massa da criança é igual a\n\n(A) 30 kg.\n(B) 25 kg.\n(C) 20 kg.\n(D) 24 kg.\n(E) 18 kg.",
+  "figuras": [
+    "unesp-2019-q85-1.png"
+  ],
+  "gabarito": "C",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "Questão de Matemática com conteúdo de Mecânica.\n1. Triângulo inscrito em semicírculo com AC como diâmetro: o ângulo em B é reto. Como AB = 2 m = AC/2, cos Â = 1/2 ⇒ Â = 60º.\n2. Altura de B em relação a AC: <i>h</i> = AB · sen 60º = 2 · (√3/2) = √3 m.\n3. <i>E</i><sub>p</sub> = <i>mgh</i> ⇒ 342 = <i>m</i> · 5,7√3 · √3 = <i>m</i> · 17,1 ⇒ <i>m</i> = 20 kg.\nGabarito: C.",
+  "topicos": [
+    "energia-potencial-gravitacional"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-02T14:05:33.000Z",
+  "atualizadoEm": "2026-11-02T14:05:33.000Z",
+  "revisao": {
+    "divergenciasAceitas": [
+      "AC"
+    ],
+    "notas": "O segmento AC (com barra) e a raiz em g = 5,7√3 m/s² estão desenhados no PDF; transcritos da imagem."
+  }
+}

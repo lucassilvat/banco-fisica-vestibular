@@ -1,0 +1,31 @@
+{
+  "id": "unesp-2019-q77",
+  "banca": "Unesp",
+  "ano": 2019,
+  "numero": "77",
+  "fase": "1ª fase",
+  "fonte": {
+    "descricao": "Vunesp, Vestibular Unesp 2019, 1ª fase (Prova de Conhecimentos Gerais), caderno de questões"
+  },
+  "enunciado": "Duas caixas, A e B, estão apoiadas, em repouso, sobre uma barra homogênea reta presa pelo seu ponto médio (ponto O) ao teto por meio de um fio inextensível. A caixa A está colocada a uma distância x do ponto O e a caixa B a uma distância y desse ponto. Nessa situação, a barra exerce sobre a caixa A uma força N⃗<sub>A</sub> e, sobre a caixa B, uma força N⃗<sub>B</sub>.\n\n[[figura 1]]\n\nUma matriz quadrada M é construída de forma que seus elementos são as intensidades de N⃗<sub>A</sub> e N⃗<sub>B</sub> e as distâncias x e y, tal que [[figura 2]]. Sendo M<sup>t</sup> a matriz transposta de M e considerando-se o sentido anti-horário como o positivo para a rotação, para que a barra permaneça em equilíbrio na horizontal é necessário que\n\n(A) det (M<sup>t</sup>) = 0.\n(B) det M &lt; 0.\n(C) det M ≠ 0.\n(D) det (M<sup>t</sup>) ≠ 0.\n(E) det M &gt; 0.",
+  "figuras": [
+    "unesp-2019-q77-1.png",
+    "unesp-2019-q77-2.png"
+  ],
+  "gabarito": "A",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. As caixas exercem sobre a barra forças iguais e opostas a N⃗<sub>A</sub> e N⃗<sub>B</sub> (3ª lei de Newton), de intensidades N<sub>A</sub> e N<sub>B</sub>, para baixo.\n2. Equilíbrio de rotação em relação a O (o peso da barra homogênea e a tração do fio atuam em O e não dão momento): N<sub>A</sub> · x = N<sub>B</sub> · y.\n3. det M = N<sub>A</sub> · x − N<sub>B</sub> · y. Portanto, o equilíbrio exige det M = 0.\n4. Como det(M<sup>t</sup>) = det M, a condição é det(M<sup>t</sup>) = 0.\nGabarito: A.",
+  "topicos": [
+    "momento-de-uma-forca-torque",
+    "equilibrio-do-corpo-extenso"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-02T14:05:33.000Z",
+  "atualizadoEm": "2026-11-02T14:05:33.000Z",
+  "revisao": {
+    "divergenciasAceitas": [
+      "Mt"
+    ],
+    "notas": "A matriz M está desenhada no caderno e entrou como figura, na posição em que aparece no texto."
+  }
+}

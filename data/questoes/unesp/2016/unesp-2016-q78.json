@@ -1,0 +1,25 @@
+{
+  "id": "unesp-2016-q78",
+  "banca": "Unesp",
+  "ano": 2016,
+  "numero": "78",
+  "fase": "1ª fase",
+  "fonte": {
+    "descricao": "Vunesp, Vestibular Unesp 2016, 1ª fase (Prova de Conhecimentos Gerais), caderno de questões"
+  },
+  "enunciado": "Algumas embalagens trazem, impressas em sua superfície externa, informações sobre a quantidade máxima de caixas iguais a ela que podem ser empilhadas, sem que haja risco de danificar a embalagem ou os produtos contidos na primeira caixa da pilha, de baixo para cima. Considere a situação em que três caixas iguais estejam empilhadas dentro de um elevador e que, em cada uma delas, esteja impressa uma imagem que indica que, no máximo, seis caixas iguais a ela podem ser empilhadas.\n\n[[figura 1]]\n\nSuponha que esse elevador esteja parado no andar térreo de um edifício e que passe a descrever um movimento uniformemente acelerado para cima. Adotando g = 10 m/s<sup>2</sup>, é correto afirmar que a maior aceleração vertical que esse elevador pode experimentar, de modo que a caixa em contato com o piso receba desse, no máximo, a mesma força que receberia se o elevador estivesse parado e, na pilha, houvesse seis caixas, é igual a\n\n(A) 4 m/s<sup>2</sup>.\n(B) 8 m/s<sup>2</sup>.\n(C) 10 m/s<sup>2</sup>.\n(D) 6 m/s<sup>2</sup>.\n(E) 2 m/s<sup>2</sup>.",
+  "figuras": [
+    "unesp-2016-q78-1.png"
+  ],
+  "gabarito": "C",
+  "gabaritoFonte": "oficial",
+  "resolucao": "1. Com o elevador parado e seis caixas de massa <i>m</i>, o piso exerce na caixa de baixo a força <i>N</i><sub>máx</sub> = 6<i>mg</i>.\n2. Com três caixas e o elevador acelerando para cima com <i>a</i>, a 2ª lei de Newton para o conjunto das três caixas dá: <i>N</i> − 3<i>mg</i> = 3<i>ma</i> ⇒ <i>N</i> = 3<i>m</i>(<i>g</i> + <i>a</i>).\n3. Condição: 3<i>m</i>(<i>g</i> + <i>a</i>) ≤ 6<i>mg</i> ⇒ <i>g</i> + <i>a</i> ≤ 2<i>g</i> ⇒ <i>a</i> ≤ <i>g</i> = 10 m/s².\nGabarito: C.",
+  "topicos": [
+    "referenciais-nao-inerciais-e-elevadores",
+    "leis-de-newton",
+    "forca-peso-e-forca-normal"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-02T14:05:14.000Z",
+  "atualizadoEm": "2026-11-02T14:05:14.000Z"
+}

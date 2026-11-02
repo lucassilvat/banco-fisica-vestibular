@@ -1,0 +1,24 @@
+{
+  "id": "unesp-2019-q82",
+  "banca": "Unesp",
+  "ano": 2019,
+  "numero": "82",
+  "fase": "1ª fase",
+  "fonte": {
+    "descricao": "Vunesp, Vestibular Unesp 2019, 1ª fase (Prova de Conhecimentos Gerais), caderno de questões"
+  },
+  "enunciado": "A configuração do campo magnético terrestre causa um efeito chamado inclinação magnética. Devido a esse fato, a agulha magnética de uma bússola próxima à superfície terrestre, se estiver livre, não se mantém na horizontal, mas geralmente inclinada em relação à horizontal (ângulo α, na figura 2). A inclinação magnética é mais acentuada em regiões de maiores latitudes. Assim, no equador terrestre a inclinação magnética fica em torno de 0º, nos polos magnéticos é de 90º, em São Paulo é de cerca de 20º, com o polo norte da bússola apontado para cima, e em Londres é de cerca de 70º, com o polo norte da bússola apontado para baixo.\n\n[[figura 1]]\n\n(http://museu.fis.uc.pt. Adaptado.)\n\nEsse efeito deve-se ao fato de a agulha magnética da bússola alinhar-se sempre na direção\n\n(A) perpendicular às linhas de indução do campo magnético da Terra e ao fato de o polo norte magnético terrestre estar próximo ao polo sul geográfico da Terra.\n(B) tangente à Linha do Equador e ao fato de o eixo de rotação da Terra coincidir com o eixo magnético que atravessa a Terra.\n(C) tangente às linhas de indução do campo magnético da Terra e ao fato de o polo norte magnético terrestre estar próximo ao polo norte geográfico da Terra.\n(D) tangente às linhas de indução do campo magnético da Terra e ao fato de o polo norte magnético terrestre estar próximo ao polo sul geográfico da Terra.\n(E) paralela ao eixo magnético terrestre e ao fato de o polo sul magnético terrestre estar próximo ao polo norte geográfico da Terra.",
+  "figuras": [
+    "unesp-2019-q82-1.png"
+  ],
+  "gabarito": "D",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. A agulha de uma bússola livre se alinha com o campo magnético local, ou seja, tangente às linhas de indução. Isso elimina A, B e E.\n2. As linhas de campo saem do polo norte magnético e entram no polo sul magnético. Como o polo norte da agulha aponta para baixo em Londres (hemisfério norte), as linhas entram na Terra ali: perto do polo norte geográfico está o polo sul magnético (como mostra a figura 1, com S junto ao N geográfico).\n3. Logo, o polo norte magnético terrestre está próximo ao polo sul geográfico. Em São Paulo (hemisfério sul) as linhas saem da Terra, e o polo norte da agulha aponta para cima, como diz o texto.\nGabarito: D.",
+  "topicos": [
+    "campo-magnetico-terrestre-e-bussola",
+    "imas-e-campo-magnetico"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-02T14:05:33.000Z",
+  "atualizadoEm": "2026-11-02T14:05:33.000Z"
+}

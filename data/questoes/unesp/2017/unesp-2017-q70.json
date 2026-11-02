@@ -1,0 +1,30 @@
+{
+  "id": "unesp-2017-q70",
+  "banca": "Unesp",
+  "ano": 2017,
+  "numero": "70",
+  "fase": "1ª fase",
+  "fonte": {
+    "descricao": "Vunesp, Vestibular Unesp 2017, 1ª fase (Prova de Conhecimentos Gerais), caderno de questões"
+  },
+  "enunciado": "O esquema representa um calorímetro utilizado para a determinação do valor energético dos alimentos.\n\n[[figura 1]]\n\n(https://quimica2bac.wordpress.com. Adaptado.)\n\nA tabela nutricional de determinado tipo de azeite de oliva traz a seguinte informação: “Uma porção de 13 mL (1 colher de sopa) equivale a 108 kcal.”\n\nConsidere que o calor específico da água seja 1 kcal · kg<sup>–1</sup> · ºC<sup>–1</sup> e que todo o calor liberado na combustão do azeite seja transferido para a água. Ao serem queimados 2,6 mL desse azeite, em um calorímetro contendo 500 g de água inicialmente a 20,0 ºC e à pressão constante, a temperatura da água lida no termômetro deverá atingir a marca de\n\n(A) 21,6 ºC.\n(B) 33,2 ºC.\n(C) 45,2 ºC.\n(D) 63,2 ºC.\n(E) 52,0 ºC.",
+  "figuras": [
+    "unesp-2017-q70-1.png"
+  ],
+  "gabarito": "D",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "Questão de Química com conteúdo de Calorimetria.\n1. Energia liberada por 2,6 mL de azeite: 2,6 mL é 1/5 de 13 mL ⇒ <i>Q</i> = 108/5 = 21,6 kcal.\n2. Todo esse calor vai para 500 g = 0,5 kg de água: <i>Q</i> = <i>m c</i> Δ<i>θ</i> ⇒ 21,6 = 0,5 · 1 · Δ<i>θ</i> ⇒ Δ<i>θ</i> = 43,2 ºC.\n3. Temperatura final: 20,0 + 43,2 = 63,2 ºC.\nGabarito: D.",
+  "topicos": [
+    "calor-sensivel-e-capacidade-termica",
+    "trocas-de-calor-e-equilibrio-termico-calorimetro"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-02T14:05:19.000Z",
+  "atualizadoEm": "2026-11-02T14:05:19.000Z",
+  "revisao": {
+    "divergenciasAceitas": [
+      "oliva"
+    ],
+    "notas": "Hífen invisível no PDF (oliv­a); conferido na imagem."
+  }
+}

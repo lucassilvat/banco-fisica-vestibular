@@ -1,0 +1,25 @@
+{
+  "id": "unesp-2016-q79",
+  "banca": "Unesp",
+  "ano": 2016,
+  "numero": "79",
+  "fase": "1ª fase",
+  "fonte": {
+    "descricao": "Vunesp, Vestibular Unesp 2016, 1ª fase (Prova de Conhecimentos Gerais), caderno de questões"
+  },
+  "enunciado": "Ótimos nadadores, os golfinhos conseguem saltar até 5 m acima do nível da água do mar. Considere que um golfinho de 100 kg, inicialmente em repouso no ponto A, situado 3 m abaixo da linha da água do mar, acione suas nadadeiras e atinja, no ponto B, determinada velocidade, quando inicia o seu movimento ascendente e seu centro de massa descreve a trajetória indicada na figura pela linha tracejada. Ao sair da água, seu centro de massa alcança o ponto C, a uma altura de 5 m acima da linha da água, com módulo da velocidade igual a 4√10 m/s, conforme a figura.\n\n[[figura 1]]\n\nConsidere que, no trajeto de B para C, o golfinho perdeu 20% da energia cinética que tinha ao chegar no ponto B, devido à resistência imposta pela água ao seu movimento. Desprezando a resistência do ar sobre o golfinho fora da água, a velocidade da água do mar e adotando g = 10 m/s<sup>2</sup>, é correto afirmar que o módulo da quantidade de movimento adquirida pelo golfinho no ponto B, em kg · m/s, é igual a\n\n(A) 1 800.\n(B) 2 000.\n(C) 1 600.\n(D) 1 000.\n(E) 800.",
+  "figuras": [
+    "unesp-2016-q79-1.png"
+  ],
+  "gabarito": "B",
+  "gabaritoFonte": "oficial",
+  "resolucao": "1. Tomando o nível de B como referência, C está 3 + 5 = 8 m acima.\n2. Energia mecânica em C: ½ · 100 · (4√10)² + 100 · 10 · 8 = 50 · 160 + 8 000 = 16 000 J.\n3. Em B, a energia mecânica é só cinética, <i>E</i><sub>cB</sub>. De B a C perdeu-se 20% de <i>E</i><sub>cB</sub>: 0,8 <i>E</i><sub>cB</sub> = 16 000 ⇒ <i>E</i><sub>cB</sub> = 20 000 J.\n4. ½ · 100 · <i>v</i><sub>B</sub>² = 20 000 ⇒ <i>v</i><sub>B</sub> = 20 m/s.\n5. Quantidade de movimento: <i>Q</i> = <i>mv</i> = 100 · 20 = 2 000 kg · m/s.\nGabarito: B.",
+  "topicos": [
+    "sistemas-dissipativos-perda-de-energia-mecanica",
+    "impulso-e-quantidade-de-movimento",
+    "conservacao-da-energia-mecanica"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-02T14:05:14.000Z",
+  "atualizadoEm": "2026-11-02T14:05:14.000Z"
+}
