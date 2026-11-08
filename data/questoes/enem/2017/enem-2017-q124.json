@@ -1,0 +1,36 @@
+{
+  "id": "enem-2017-q124",
+  "banca": "ENEM",
+  "ano": 2017,
+  "numero": "124",
+  "fase": "2º dia · Caderno Amarelo",
+  "fonte": {
+    "descricao": "INEP, ENEM 2017, 2º dia (Ciências da Natureza e Matemática), caderno de questões aplicado, Caderno 5 Amarelo"
+  },
+  "enunciado": "O brinquedo pula-pula (cama elástica) é composto por uma lona circular flexível horizontal presa por molas à sua borda. As crianças brincam pulando sobre ela, alterando e alternando suas formas de energia. Ao pular verticalmente, desprezando o atrito com o ar e os movimentos de rotação do corpo enquanto salta, uma criança realiza um movimento periódico vertical em torno da posição de equilíbrio da lona (<i>h</i> = 0), passando pelos pontos de máxima e de mínima alturas, <i>h</i><sub>máx</sub> e <i>h</i><sub>mín</sub>, respectivamente.\n\nEsquematicamente, o esboço do gráfico da energia cinética da criança em função de sua posição vertical na situação descrita é:\n\n(A)\n[[figura 1]]\n(B)\n[[figura 2]]\n(C)\n[[figura 3]]\n(D)\n[[figura 4]]\n(E)\n[[figura 5]]",
+  "figuras": [
+    "enem-2017-q124-1.png",
+    "enem-2017-q124-2.png",
+    "enem-2017-q124-3.png",
+    "enem-2017-q124-4.png",
+    "enem-2017-q124-5.png"
+  ],
+  "gabarito": "C",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. Acima da lona (<i>h</i> > 0), só o peso atua: <i>E</i><sub>c</sub> = <i>E</i><sub>c0</sub> − <i>mgh</i>, uma reta decrescente que zera em <i>h</i><sub>máx</sub>.\n2. Abaixo de <i>h</i> = 0, a lona age como mola: <i>E</i><sub>c</sub> = <i>E</i><sub>c0</sub> + <i>mg</i>|<i>h</i>| − <i>kh</i><sup>2</sup>/2, uma parábola com concavidade para baixo. A energia cinética ainda cresce logo abaixo de <i>h</i> = 0 (o peso supera a força elástica), passa por um máximo e cai a zero em <i>h</i><sub>mín</sub>.\n3. O gráfico com trecho curvo (com máximo) à esquerda de 0 e reta decrescente à direita é o C.\nGabarito: C.",
+  "topicos": [
+    "energia-potencial-elastica",
+    "conservacao-da-energia-mecanica",
+    "energia-cinetica-e-teorema-trabalho-energia"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-08T23:30:12.000Z",
+  "atualizadoEm": "2026-11-08T23:33:00.000Z",
+  "revisao": {
+    "notas": "Gabarito da resolução própria; não foi encontrado um gabarito do caderno amarelo acessível nesta sessão. Q97 confere com a questão correspondente do caderno azul (Descomplica). Trocar para 'oficial' quando houver o PDF do INEP (2017_GB_impresso_D2_CD5.pdf). No PDF, h e o subscrito aparecem colados ('hmáx', 'hmín'); conferido na imagem.",
+    "divergenciasAceitas": [
+      "máx",
+      "mín"
+    ]
+  }
+}

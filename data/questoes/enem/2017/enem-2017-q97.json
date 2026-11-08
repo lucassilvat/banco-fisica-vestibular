@@ -1,0 +1,26 @@
+{
+  "id": "enem-2017-q97",
+  "banca": "ENEM",
+  "ano": 2017,
+  "numero": "97",
+  "fase": "2º dia · Caderno Amarelo",
+  "fonte": {
+    "descricao": "INEP, ENEM 2017, 2º dia (Ciências da Natureza e Matemática), caderno de questões aplicado, Caderno 5 Amarelo"
+  },
+  "enunciado": "As centrífugas são equipamentos utilizados em laboratórios, clínicas e indústrias. Seu funcionamento faz uso da aceleração centrífuga obtida pela rotação de um recipiente e que serve para a separação de sólidos em suspensão em líquidos ou de líquidos misturados entre si.\n\nRODITI, I. <b>Dicionário Houaiss de física</b>. Rio de Janeiro: Objetiva, 2005 (adaptado).\n\nNesse aparelho, a separação das substâncias ocorre em função\n\n(A) das diferentes densidades.\n(B) dos diferentes raios de rotação.\n(C) das diferentes velocidades angulares.\n(D) das diferentes quantidades de cada substância.\n(E) da diferente coesão molecular de cada substância.",
+  "figuras": [],
+  "gabarito": "A",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. No referencial do recipiente em rotação, surge uma \"gravidade efetiva\" ω<sup>2</sup><i>r</i> apontando para fora, muito maior que <i>g</i>. Funciona como uma decantação acelerada.\n2. Como na decantação, cada porção sofre um \"empuxo\" do meio: o material mais denso que o meio vai para fora (fundo do tubo) e o menos denso fica mais perto do eixo.\n3. Todas as substâncias giram com a mesma velocidade angular (C) e a separação não depende da quantidade (D): o que decide é a densidade.\nGabarito: A.",
+  "topicos": [
+    "resultante-centripeta-curvas-loop-globo-da-morte",
+    "densidade-e-massa-especifica",
+    "referenciais-nao-inerciais-e-elevadores"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-08T23:30:12.000Z",
+  "atualizadoEm": "2026-11-08T23:33:00.000Z",
+  "revisao": {
+    "notas": "Gabarito da resolução própria; não foi encontrado um gabarito do caderno amarelo acessível nesta sessão. Q97 confere com a questão correspondente do caderno azul (Descomplica). Trocar para 'oficial' quando houver o PDF do INEP (2017_GB_impresso_D2_CD5.pdf)."
+  }
+}

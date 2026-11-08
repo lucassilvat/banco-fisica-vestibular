@@ -1,4 +1,60 @@
 {
+ "enem-2017-q101-1.png": {
+  "assetId": "cb29a6aa011fadaa8c571ff816027316",
+  "sha256": "b5075277c5a312cced0c71fb99aa68610788888b18e4e80b70c69eeecc419359"
+ },
+ "enem-2017-q103-1.png": {
+  "assetId": "4e028e1b81b9a94f3fec80b0c6ee3a38",
+  "sha256": "102a60f3711bd992360b6d46cda84b5fdec68261679097a4fe6df86529a1f172"
+ },
+ "enem-2017-q108-1.png": {
+  "assetId": "4653b08b451905b7a8a193e3b4831076",
+  "sha256": "b2bb948e89b459893def884b038d4dfccfb81d513fa9b633db25eef48bdc63d4"
+ },
+ "enem-2017-q111-1.png": {
+  "assetId": "bc93f2ffdf41d7a7254401bd3f723ec1",
+  "sha256": "4a40428c347614ac652c39264494c202f739dc2af1d33c737c08702beec41270"
+ },
+ "enem-2017-q113-1.png": {
+  "assetId": "5c67a162b1b8d82fab4febe808b3920b",
+  "sha256": "fb752b0079dfb9224d7b2d37a1b4501cf7536a04caf4865daf130baec223b498"
+ },
+ "enem-2017-q123-1.png": {
+  "assetId": "65e3ee3e69b7ffefd4a479fc49438378",
+  "sha256": "7e3e53efe69b4a30d56c1775a055adf4a641755cbdf4b559f98fb4ca2ccbc877"
+ },
+ "enem-2017-q124-1.png": {
+  "assetId": "7d94d0d2600c2c2a82aa2873d9419e38",
+  "sha256": "a7f14a54687c90191e3e7d866744f11ac04ea94e38e2ac92f30c44efe60128a5"
+ },
+ "enem-2017-q124-2.png": {
+  "assetId": "53b9caa5280d16b831ce3982d6c9322c",
+  "sha256": "ac4f04bcfeae930e912a33270412233bf97ed280a3d82c9a80b42d3838b061a3"
+ },
+ "enem-2017-q124-3.png": {
+  "assetId": "c5efcc362fca0815e22bead1e26204ea",
+  "sha256": "39bc139fdcb518e63c9d532f88aa93e2a766a2e7fc16e38d31b4cc6189fc023a"
+ },
+ "enem-2017-q124-4.png": {
+  "assetId": "16c1bae88908f5831443f6e741560a28",
+  "sha256": "c119452ab81a09672fd28fb64bab1a41802976aca3ee5283b132cbef7dcbb166"
+ },
+ "enem-2017-q124-5.png": {
+  "assetId": "4a69b4a86515671e13faa875d01659d7",
+  "sha256": "7e893fc5d106363be848a222b38b979df1b89652b47577729a4609c60e270c1c"
+ },
+ "enem-2017-q134-1.png": {
+  "assetId": "b5939edad6addabb3577bca15484fc41",
+  "sha256": "252887890aa3ddf8c9972b6f0536f1af576bc412679e8bc71b30d8a159c209df"
+ },
+ "enem-2017-q93-1.png": {
+  "assetId": "6df7c40e34d507899ea2185d45dce5df",
+  "sha256": "122310309b4c41552fe88212bc7841e2892b7ea2784e10d533c9bb4b9dd5acaf"
+ },
+ "enem-2017-q99-1.png": {
+  "assetId": "6858fd927f2874d4ad466a7982ec7a0c",
+  "sha256": "b80dcfba851cdae5a2acbc4ca4d4ac7816f942d1755e929a03396fbf04032fa3"
+ },
  "enem-2018-q106-1.png": {
   "assetId": "3bac1c591f873347801dab368404cdff",
   "sha256": "ab794b727ae96e1d21df60957ea6a576eaf708c84c6acddff3a7ea53bb2b72bb"

@@ -1,0 +1,27 @@
+{
+  "id": "enem-2017-q103",
+  "banca": "ENEM",
+  "ano": 2017,
+  "numero": "103",
+  "fase": "2º dia · Caderno Amarelo",
+  "fonte": {
+    "descricao": "INEP, ENEM 2017, 2º dia (Ciências da Natureza e Matemática), caderno de questões aplicado, Caderno 5 Amarelo"
+  },
+  "enunciado": "A figura mostra o funcionamento de uma estação híbrida de geração de eletricidade movida a energia eólica e biogás. Essa estação possibilita que a energia gerada no parque eólico seja armazenada na forma de gás hidrogênio, usado no fornecimento de energia para a rede elétrica comum e para abastecer células a combustível.\n\n[[figura 1]]\n\nDisponível em: www.enertrag.com. Acesso em: 24 abr. 2015 (adaptado).\n\nMesmo com ausência de ventos por curtos períodos, essa estação continua abastecendo a cidade onde está instalada, pois o(a)\n\n(A) planta mista de geração de energia realiza eletrólise para enviar energia à rede de distribuição elétrica.\n(B) hidrogênio produzido e armazenado é utilizado na combustão com o biogás para gerar calor e eletricidade.\n(C) conjunto de turbinas continua girando com a mesma velocidade, por inércia, mantendo a eficiência anterior.\n(D) combustão da mistura biogás-hidrogênio gera diretamente energia elétrica adicional para a manutenção da estação.\n(E) planta mista de geração de energia é capaz de utilizar todo o calor fornecido na combustão para a geração de eletricidade.",
+  "figuras": [
+    "enem-2017-q103-1.png"
+  ],
+  "gabarito": "B",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. Pelo esquema, quando há vento, parte da eletricidade das turbinas produz hidrogênio, que fica armazenado.\n2. Sem vento, o hidrogênio armazenado é misturado ao biogás na válvula e queimado na planta mista, que gera eletricidade para a rede e calor: a energia eólica guardada na forma química supre a falta de vento.\n3. A planta não faz eletrólise (A); turbinas param sem vento (C); a combustão gera calor, que é convertido em eletricidade, não \"diretamente\" (D); e nenhuma máquina térmica converte todo o calor em trabalho (E).\nGabarito: B.",
+  "topicos": [
+    "usinas-e-geracao-de-energia-eletrica",
+    "maquinas-termicas-e-rendimento"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-08T23:30:12.000Z",
+  "atualizadoEm": "2026-11-08T23:33:00.000Z",
+  "revisao": {
+    "notas": "Gabarito da resolução própria; não foi encontrado um gabarito do caderno amarelo acessível nesta sessão. Q97 confere com a questão correspondente do caderno azul (Descomplica). Trocar para 'oficial' quando houver o PDF do INEP (2017_GB_impresso_D2_CD5.pdf)."
+  }
+}

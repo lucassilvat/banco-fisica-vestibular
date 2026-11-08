@@ -1,0 +1,27 @@
+{
+  "id": "enem-2017-q123",
+  "banca": "ENEM",
+  "ano": 2017,
+  "numero": "123",
+  "fase": "2º dia · Caderno Amarelo",
+  "fonte": {
+    "descricao": "INEP, ENEM 2017, 2º dia (Ciências da Natureza e Matemática), caderno de questões aplicado, Caderno 5 Amarelo"
+  },
+  "enunciado": "A epilação a <i>laser</i> (popularmente conhecida como depilação a <i>laser</i>) consiste na aplicação de uma fonte de luz para aquecer e causar uma lesão localizada e controlada nos folículos capilares. Para evitar que outros tecidos sejam danificados, selecionam-se comprimentos de onda que são absorvidos pela melanina presente nos pelos, mas que não afetam a oxi-hemoglobina do sangue e a água dos tecidos da região em que o tratamento será aplicado. A figura mostra como é a absorção de diferentes comprimentos de onda pela melanina, oxi-hemoglobina e água.\n\n[[figura 1]]\n\nMACEDO, F. S.; MONTEIRO, E. O. Epilação com <i>laser</i> e luz intensa pulsada. <b>Revista Brasileira de Medicina</b>. Disponível em: www.moreirajr.com.br. Acesso em: 4 set. 2015 (adaptado).\n\nQual é o comprimento de onda, em nm, ideal para a epilação a <i>laser</i>?\n\n(A) 400\n(B) 700\n(C) 1 100\n(D) 900\n(E) 500",
+  "figuras": [
+    "enem-2017-q123-1.png"
+  ],
+  "gabarito": "B",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. O ideal é um comprimento de onda bem absorvido pela melanina e o menos possível pela oxi-hemoglobina e pela água.\n2. Pelo gráfico, em 700 nm a absorção da oxi-hemoglobina é praticamente nula, a da água também (ela só começa a absorver perto de 900 nm) e a melanina ainda absorve cerca de 35%.\n3. Em 400 e 500 nm a oxi-hemoglobina absorve muito; em 900 e 1 100 nm a água e a oxi-hemoglobina absorvem.\nGabarito: B.",
+  "topicos": [
+    "espectro-eletromagnetico",
+    "leitura-e-interpretacao-de-graficos"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-08T23:30:12.000Z",
+  "atualizadoEm": "2026-11-08T23:33:00.000Z",
+  "revisao": {
+    "notas": "Gabarito da resolução própria; não foi encontrado um gabarito do caderno amarelo acessível nesta sessão. Q97 confere com a questão correspondente do caderno azul (Descomplica). Trocar para 'oficial' quando houver o PDF do INEP (2017_GB_impresso_D2_CD5.pdf)."
+  }
+}

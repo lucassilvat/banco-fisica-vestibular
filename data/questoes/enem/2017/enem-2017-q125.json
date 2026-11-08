@@ -1,0 +1,25 @@
+{
+  "id": "enem-2017-q125",
+  "banca": "ENEM",
+  "ano": 2017,
+  "numero": "125",
+  "fase": "2º dia · Caderno Amarelo",
+  "fonte": {
+    "descricao": "INEP, ENEM 2017, 2º dia (Ciências da Natureza e Matemática), caderno de questões aplicado, Caderno 5 Amarelo"
+  },
+  "enunciado": "Um motorista que atende a uma chamada de celular é levado à desatenção, aumentando a possibilidade de acidentes ocorrerem em razão do aumento de seu tempo de reação. Considere dois motoristas, o primeiro atento e o segundo utilizando o celular enquanto dirige. Eles aceleram seus carros inicialmente a 1,00 m/s<sup>2</sup>. Em resposta a uma emergência, freiam com uma desaceleração igual a 5,00 m/s<sup>2</sup>. O motorista atento aciona o freio à velocidade de 14,0 m/s, enquanto o desatento, em situação análoga, leva 1,00 segundo a mais para iniciar a frenagem.\n\nQue distância o motorista desatento percorre a mais do que o motorista atento, até a parada total dos carros?\n\n(A) 2,90 m\n(B) 14,0 m\n(C) 14,5 m\n(D) 15,0 m\n(E) 17,4 m",
+  "figuras": [],
+  "gabarito": "E",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. Até 14,0 m/s os dois fazem o mesmo percurso. O desatento continua acelerando a 1,00 m/s<sup>2</sup> por mais 1,00 s: percorre 14,0 · 1 + 1 · 1<sup>2</sup>/2 = 14,5 m e chega a 15,0 m/s.\n2. Frenagem (Torricelli, <i>d</i> = <i>v</i><sup>2</sup>/2<i>a</i>): atento: 14<sup>2</sup>/10 = 19,6 m; desatento: 15<sup>2</sup>/10 = 22,5 m.\n3. Distância a mais: 14,5 + (22,5 − 19,6) = 14,5 + 2,9 = 17,4 m.\nGabarito: E.",
+  "topicos": [
+    "movimento-retilineo-uniformemente-variado-mruv",
+    "velocidade-media-e-aceleracao-media"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-08T23:30:12.000Z",
+  "atualizadoEm": "2026-11-08T23:33:00.000Z",
+  "revisao": {
+    "notas": "Gabarito da resolução própria; não foi encontrado um gabarito do caderno amarelo acessível nesta sessão. Q97 confere com a questão correspondente do caderno azul (Descomplica). Trocar para 'oficial' quando houver o PDF do INEP (2017_GB_impresso_D2_CD5.pdf)."
+  }
+}

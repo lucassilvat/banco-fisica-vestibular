@@ -1,0 +1,28 @@
+{
+  "id": "enem-2017-q93",
+  "banca": "ENEM",
+  "ano": 2017,
+  "numero": "93",
+  "fase": "2º dia · Caderno Amarelo",
+  "fonte": {
+    "descricao": "INEP, ENEM 2017, 2º dia (Ciências da Natureza e Matemática), caderno de questões aplicado, Caderno 5 Amarelo"
+  },
+  "enunciado": "Em uma colisão frontal entre dois automóveis, a força que o cinto de segurança exerce sobre o tórax e abdômen do motorista pode causar lesões graves nos órgãos internos. Pensando na segurança do seu produto, um fabricante de automóveis realizou testes em cinco modelos diferentes de cinto. Os testes simularam uma colisão de 0,30 segundo de duração, e os bonecos que representavam os ocupantes foram equipados com acelerômetros. Esse equipamento registra o módulo da desaceleração do boneco em função do tempo. Os parâmetros como massa dos bonecos, dimensões dos cintos e velocidade imediatamente antes e após o impacto foram os mesmos para todos os testes. O resultado final obtido está no gráfico de aceleração por tempo.\n\n[[figura 1]]\n\nQual modelo de cinto oferece menor risco de lesão interna ao motorista?\n\n(A) 1\n(B) 2\n(C) 3\n(D) 4\n(E) 5",
+  "figuras": [
+    "enem-2017-q93-1.png"
+  ],
+  "gabarito": "B",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. A força do cinto sobre o motorista é <i>F</i> = <i>ma</i>: o risco de lesão depende do pico de desaceleração.\n2. Como massa e velocidades antes e depois são iguais, a variação da quantidade de movimento (área sob cada curva) é a mesma em todos os testes. O melhor cinto distribui essa variação no maior intervalo de tempo, com o menor pico.\n3. Pelo gráfico, o cinto 2 tem a curva mais larga e o menor pico (cerca de 65 m/s<sup>2</sup>), contra cerca de 85 m/s<sup>2</sup> do cinto 4 e 150 a 190 m/s<sup>2</sup> dos demais.\nGabarito: B.",
+  "topicos": [
+    "impulso-e-quantidade-de-movimento",
+    "leitura-e-interpretacao-de-graficos",
+    "leis-de-newton"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-08T23:30:12.000Z",
+  "atualizadoEm": "2026-11-08T23:33:00.000Z",
+  "revisao": {
+    "notas": "Gabarito da resolução própria; não foi encontrado um gabarito do caderno amarelo acessível nesta sessão. Q97 confere com a questão correspondente do caderno azul (Descomplica). Trocar para 'oficial' quando houver o PDF do INEP (2017_GB_impresso_D2_CD5.pdf)."
+  }
+}

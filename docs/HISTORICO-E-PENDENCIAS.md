@@ -84,15 +84,34 @@ Para gravar questões, usam-se os lotes da etapa `publicar` (docs/WORKFLOW.md).
     imagem das colunas (página dividida em x ≈ 290). Os cadernos de 2022, 2024 e 2025 têm
     marca d'água "ENEM20xx" na camada de texto.
 
+15. v1.9.0–v1.16.0: ENEM 2024 → 2017 (2º dia, caderno 5 amarelo), 118 questões, com as
+    listas do item 14. Com 2025, o ENEM soma 132 questões.
+    - Gabaritos: o download do INEP é bloqueado nesta sessão, então todos ficaram
+      `resolucao-propria`, com a fonte da conferência em `revisao.notas`: 2024–2021 pelo
+      Estratégia (caderno amarelo), 2018 pelo gabarito oficial reproduzido no Guia da
+      Carreira, 2019 em parte (Estratégia e questões correspondentes do caderno azul).
+      2020 e 2017 não tinham gabarito do amarelo acessível; só uma questão de cada ano foi
+      conferida pelo caderno azul. Todas as resoluções próprias bateram com as referências.
+    - Anulada: 2024 Q102 (gabarito pretendido B, com aviso no início da resolução, como na
+      Fuvest 2022 Q54). As anulações de 2020 (Q114) e 2021 não são de Física.
+    - Camada de texto: 2021 cifrada e 2018 por OCR (conferidos pela imagem); 2019 troca as
+      ligaduras "fi"/"fl"; 2017 e 2019 usam U+2126 para Ω (o banco usa U+03A9).
+    - Layout: várias questões ocupam a largura total da página (2023: páginas 2, 3, 10, 11,
+      13 e 15; 2021 Q104; 2020 Q106, Q125, Q131; 2019 Q100, Q107, Q124; 2018 Q128, Q131;
+      2017 Q103, Q130). Foram lidas e recortadas pela página inteira.
+    - Q125 de 2020 é uma tirinha (Garfield) reproduzida do caderno, como figura da prova.
+
 ## Pendências
 
-- **ENEM, próximos anos**: importar 2024 → 2017 com a lista acima. Para **2016** é preciso
-  o caderno do **1º dia** (Ciências Humanas e Ciências da Natureza): o arquivo enviado
-  (`enem-2016-caderno.pdf`) é o do 2º dia, Linguagens e Matemática, e não foi registrado.
-- **Gabarito ENEM 2025**: trocar a fonte para o PDF do INEP
-  (`2025_GB_impresso_D2_CD5.pdf`) quando ele puder ser baixado ou o Lucas enviar
-  (registrar com `--tipo gabarito`). Hoje `oficial` foi lido em transcrição jornalística.
-- **ENEM 2025 Q115 anulada**: como na Fuvest 2022 Q54, decidir se fica no app.
+- **ENEM 2016**: falta o caderno do **1º dia** (Ciências Humanas e Ciências da Natureza):
+  o arquivo enviado (`enem-2016-caderno.pdf`) é o do 2º dia, Linguagens e Matemática, e
+  não foi registrado. Antes de transcrever, mostrar a lista de questões ao Lucas.
+- **Gabaritos oficiais do ENEM 2017–2025**: trocar `gabaritoFonte` para `oficial` com os
+  PDFs do INEP (`20xx_GB_impresso_D2_CD5.pdf`) quando puderem ser baixados ou o Lucas
+  enviar (registrar com `--tipo gabarito`). Prioridade: 2020 e 2017, que não foram
+  conferidos com nenhum gabarito do caderno amarelo. 2025 hoje é `oficial` lido em
+  transcrição jornalística.
+- **ENEM 2025 Q115 e 2024 Q102 anuladas**: como na Fuvest 2022 Q54, decidir se ficam no app.
 
 - **Ativar o GitHub Pages** (v1.4.0): Settings › Pages › Source: GitHub Actions. O plano
   gratuito exige repositório público; com repositório privado, só com GitHub Pro. O site

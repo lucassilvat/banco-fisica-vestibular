@@ -4,6 +4,14 @@ Cada versão corresponde a um lote de importação ou a uma mudança no app/pipe
 Formato: `vMAIOR.MENOR.CORREÇÃO` — MENOR sobe a cada prova importada; MAIOR, em mudanças
 de modelo de dados; CORREÇÃO, em correções de questões já publicadas.
 
+## v1.16.0 — 2026-11-08
+
+- **ENEM 2017, 2º dia (caderno 5 amarelo)**: 14 questões, 14 figuras: Q93, Q97, Q99, Q101,
+  Q103, Q108, Q111, Q113, Q123, Q124, Q125, Q127, Q130 e Q134.
+  - Gabaritos: `resolucao-propria`. Não foi encontrado gabarito do caderno amarelo acessível
+    nesta sessão; a Q97 foi conferida pela questão correspondente do caderno azul.
+  - Q103 ocupa a largura total da página.
+
 ## v1.15.0 — 2026-11-08
 
 - **ENEM 2018, 2º dia (caderno 5 amarelo)**: 15 questões, 24 figuras: Q92, Q96, Q98, Q103,
