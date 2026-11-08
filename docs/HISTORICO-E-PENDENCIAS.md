@@ -84,8 +84,8 @@ Para gravar questões, usam-se os lotes da etapa `publicar` (docs/WORKFLOW.md).
     imagem das colunas (página dividida em x ≈ 290). Os cadernos de 2022, 2024 e 2025 têm
     marca d'água "ENEM20xx" na camada de texto.
 
-15. v1.9.0–v1.16.0: ENEM 2024 → 2017 (2º dia, caderno 5 amarelo), 118 questões, com as
-    listas do item 14. Com 2025, o ENEM soma 132 questões.
+15. v1.9.0–v1.16.0: ENEM 2024 → 2017 (2º dia, caderno 5 amarelo), 121 questões, com as
+    listas do item 14. Com 2025, o ENEM soma 135 questões.
     - Gabaritos: o download do INEP é bloqueado nesta sessão, então todos ficaram
       `resolucao-propria`, com a fonte da conferência em `revisao.notas`: 2024–2021 pelo
       Estratégia (caderno amarelo), 2018 pelo gabarito oficial reproduzido no Guia da
