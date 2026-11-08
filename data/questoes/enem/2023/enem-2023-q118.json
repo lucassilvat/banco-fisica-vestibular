@@ -1,0 +1,24 @@
+{
+  "id": "enem-2023-q118",
+  "banca": "ENEM",
+  "ano": 2023,
+  "numero": "118",
+  "fase": "2º dia · Caderno Amarelo",
+  "fonte": {
+    "descricao": "INEP, ENEM 2023, 2º dia (Ciências da Natureza e Matemática), caderno de questões aplicado, Caderno 5 Amarelo"
+  },
+  "enunciado": "O consumo exagerado de refrigerantes é preocupante, pois contribui para o aumento de casos de obesidade e diabetes. Considere dois refrigerantes enlatados, um comum e um diet, e que ambos possuam a mesma quantidade de aditivos, exceto pela presença de açúcar. O refrigerante comum contém basicamente água carbonatada e grande quantidade de açúcar; já o refrigerante diet tem água carbonatada e adoçantes, cujas massas são muito pequenas.\n\nCAVAGIS, A. D. M.; PEREIRA, E. A.; OLIVEIRA, L. C. Um método simples para avaliar o teor de sacarose e CO<sub>2</sub> em refrigerantes. <b>Química Nova na Escola</b>, n. 3, ago. 2014 (adaptado).\n\nEntre as duas versões apresentadas, o refrigerante comum possui\n\n(A) maior densidade.\n(B) menor viscosidade.\n(C) maior volume de gás dissolvido.\n(D) menor massa de solutos dissolvidos.\n(E) maior temperatura de congelamento.",
+  "figuras": [],
+  "gabarito": "A",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. As duas latas têm praticamente o mesmo volume e os mesmos componentes, exceto o açúcar. O comum tem uma grande massa de açúcar dissolvida, e o diet só uma pequena massa de adoçante.\n2. Com mais massa no mesmo volume, o refrigerante comum tem maior densidade (<i>d</i> = <i>m</i>/<i>V</i>). É o que faz a lata de refrigerante comum afundar na água e a diet flutuar.\n3. Mais soluto torna a solução mais viscosa (elimina B) e baixa a temperatura de congelamento (elimina E); a massa de solutos é maior, não menor (elimina D); o gás dissolvido é o mesmo (elimina C).\nGabarito: A.",
+  "topicos": [
+    "densidade-e-massa-especifica"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-08T22:47:12.000Z",
+  "atualizadoEm": "2026-11-08T22:50:32.000Z",
+  "revisao": {
+    "notas": "Gabarito da resolução própria; confere com o gabarito do caderno amarelo publicado pela Estratégia Vestibulares. Trocar para 'oficial' quando houver o PDF do INEP (2023_GB_impresso_D2_CD5.pdf)."
+  }
+}

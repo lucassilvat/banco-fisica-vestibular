@@ -1,0 +1,26 @@
+{
+  "id": "enem-2018-q106",
+  "banca": "ENEM",
+  "ano": 2018,
+  "numero": "106",
+  "fase": "2º dia · Caderno Amarelo",
+  "fonte": {
+    "descricao": "INEP, ENEM 2018, 2º dia (Ciências da Natureza e Matemática), caderno de questões aplicado, Caderno 5 Amarelo"
+  },
+  "enunciado": "Muitos <i>smartphones</i> e <i>tablets</i> não precisam mais de teclas, uma vez que todos os comandos podem ser dados ao se pressionar a própria tela. Inicialmente essa tecnologia foi proporcionada por meio das telas resistivas, formadas basicamente por duas camadas de material condutor transparente que não se encostam até que alguém as pressione, modificando a resistência total do circuito de acordo com o ponto onde ocorre o toque. A imagem é uma simplificação do circuito formado pelas placas, em que <b>A</b> e <b>B</b> representam pontos onde o circuito pode ser fechado por meio do toque.\n\n[[figura 1]]\n\nQual é a resistência equivalente no circuito provocada por um toque que fecha o circuito no ponto <b>A</b>?\n\n(A) 1,3 kΩ\n(B) 4,0 kΩ\n(C) 6,0 kΩ\n(D) 6,7 kΩ\n(E) 12,0 kΩ",
+  "figuras": [
+    "enem-2018-q106-1.png"
+  ],
+  "gabarito": "C",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. Com o toque em <b>A</b>, o ponto do meio do ramo da direita fica ligado ao ponto do meio do ramo da esquerda. O ponto <b>B</b> continua aberto, então o resistor de baixo do ramo da direita fica sem corrente.\n2. Os dois resistores de cima (4 kΩ cada) ficam em paralelo entre o polo positivo e o ponto do meio: 4 ∥ 4 = 2 kΩ.\n3. Esse conjunto fica em série com o resistor de baixo do ramo da esquerda (4 kΩ): <i>R</i><sub>eq</sub> = 2 + 4 = 6,0 kΩ.\nGabarito: C.",
+  "topicos": [
+    "associacao-de-resistores"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-08T23:23:18.000Z",
+  "atualizadoEm": "2026-11-08T23:26:35.000Z",
+  "revisao": {
+    "notas": "Gabarito da resolução própria; confere com o gabarito oficial do caderno amarelo reproduzido pelo Guia da Carreira. Trocar para 'oficial' quando houver o PDF do INEP (2018_GB_impresso_D2_CD5.pdf). Camada de texto do caderno por OCR: fidelidade conferida pela imagem."
+  }
+}

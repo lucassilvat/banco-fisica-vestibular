@@ -1,0 +1,28 @@
+{
+  "id": "enem-2020-q134",
+  "banca": "ENEM",
+  "ano": 2020,
+  "numero": "134",
+  "fase": "2º dia · Caderno Amarelo",
+  "fonte": {
+    "descricao": "INEP, ENEM 2020, 2º dia (Ciências da Natureza e Matemática), caderno de questões aplicado, Caderno 5 Amarelo"
+  },
+  "enunciado": "Um mergulhador fica preso ao explorar uma caverna no oceano. Dentro da caverna formou-se um bolsão de ar, como mostrado na figura, onde o mergulhador se abrigou.\n\n[[figura 1]]\n\nDurante o resgate, para evitar danos a seu organismo, foi necessário que o mergulhador passasse por um processo de descompressão antes de retornar à superfície para que seu corpo ficasse novamente sob pressão atmosférica. O gráfico mostra a relação entre os tempos de descompressão recomendados para indivíduos nessa situação e a variação de pressão.\n\n[[figura 2]]\n\nConsidere que a aceleração da gravidade seja igual a 10 m s<sup>−2</sup> e que a densidade da água seja de ρ = 1 000 kg m<sup>−3</sup>.\n\nEm minutos, qual é o tempo de descompressão a que o mergulhador deverá ser submetido?\n\n(A) 100\n(B) 80\n(C) 60\n(D) 40\n(E) 20",
+  "figuras": [
+    "enem-2020-q134-1.png",
+    "enem-2020-q134-2.png"
+  ],
+  "gabarito": "C",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. O ar do bolsão está em equilíbrio com a água na sua superfície livre, que fica 50 m abaixo da superfície do mar (a distância de 30 m é horizontal e não importa).\n2. Pelo teorema de Stevin, a pressão no bolsão é <i>p</i> = <i>p</i><sub>atm</sub> + ρ<i>gh</i> = 1,0 × 10<sup>5</sup> + 1 000 · 10 · 50 = 6,0 × 10<sup>5</sup> Pa.\n3. Variação de pressão até a superfície: 6,0 × 10<sup>5</sup> − 1,0 × 10<sup>5</sup> = 5,0 × 10<sup>5</sup> Pa = 500 kPa. No gráfico, 500 kPa corresponde a 60 min.\nGabarito: C.",
+  "topicos": [
+    "teorema-de-stevin-pressao-hidrostatica",
+    "leitura-e-interpretacao-de-graficos"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-08T23:09:55.000Z",
+  "atualizadoEm": "2026-11-08T23:14:09.000Z",
+  "revisao": {
+    "notas": "Gabarito da resolução própria; não foi possível conferir com um gabarito publicado do caderno amarelo nesta sessão. Trocar para 'oficial' quando houver o PDF do INEP (2020_GB_impresso_D2_CD5.pdf). A única anulação de Ciências da Natureza no caderno amarelo (Q114) não é de Física."
+  }
+}

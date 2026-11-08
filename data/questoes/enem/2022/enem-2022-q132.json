@@ -1,0 +1,28 @@
+{
+  "id": "enem-2022-q132",
+  "banca": "ENEM",
+  "ano": 2022,
+  "numero": "132",
+  "fase": "2º dia · Caderno Amarelo",
+  "fonte": {
+    "descricao": "INEP, ENEM 2022, 2º dia (Ciências da Natureza e Matemática), caderno de questões aplicado, Caderno 5 Amarelo"
+  },
+  "enunciado": "O eixo de rotação da Terra apresenta uma inclinação em relação ao plano de sua órbita em torno do Sol, interferindo na duração do dia e da noite ao longo do ano.\n\n[[figura 1]]\n\nUma pessoa instala em sua residência uma placa fotovoltaica, que transforma energia solar em elétrica. Ela monitora a energia total produzida por essa placa em 4 dias do ano, ensolarados e sem nuvens, e lança os resultados no gráfico.\n\n[[figura 2]]\n\nDisponível em: www.fisica.ufpr.br. Acesso em: 27 maio 2022 (adaptado).\n\nPróximo a que região se situa a residência onde as placas foram instaladas?\n\n(A) Trópico de Capricórnio.\n(B) Trópico de Câncer.\n(C) Polo Norte.\n(D) Polo Sul.\n(E) Equador.",
+  "figuras": [
+    "enem-2022-q132-1.png",
+    "enem-2022-q132-2.png"
+  ],
+  "gabarito": "A",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. A energia produzida é máxima em janeiro (10/01) e mínima em julho (10/07), com valores intermediários em abril e outubro: os dias são mais longos e o Sol mais alto em janeiro. Isso caracteriza o Hemisfério Sul (verão em dezembro–janeiro), o que elimina B e C.\n2. No Equador a duração do dia e a incidência quase não variam ao longo do ano (elimina E). No Polo Sul haveria noite contínua em julho, com produção nula (elimina D).\n3. Uma variação marcada mas sem zerar corresponde a uma latitude média do Hemisfério Sul: o Trópico de Capricórnio, onde a incidência é direta ao meio-dia em 21 de dezembro, como mostra a figura.\nGabarito: A.",
+  "topicos": [
+    "efeito-estufa-e-balanco-energetico",
+    "leitura-e-interpretacao-de-graficos"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-08T22:54:03.000Z",
+  "atualizadoEm": "2026-11-08T22:57:26.000Z",
+  "revisao": {
+    "notas": "Gabarito da resolução própria; confere com o gabarito do caderno amarelo publicado pela Estratégia Vestibulares. Trocar para 'oficial' quando houver o PDF do INEP (2022_GB_impresso_D2_CD5.pdf). Camada de texto do caderno parcialmente cifrada: fidelidade conferida pela imagem e pelo OCR."
+  }
+}

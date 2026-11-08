@@ -1,0 +1,26 @@
+{
+  "id": "enem-2020-q133",
+  "banca": "ENEM",
+  "ano": 2020,
+  "numero": "133",
+  "fase": "2º dia · Caderno Amarelo",
+  "fonte": {
+    "descricao": "INEP, ENEM 2020, 2º dia (Ciências da Natureza e Matemática), caderno de questões aplicado, Caderno 5 Amarelo"
+  },
+  "enunciado": "Os manuais de refrigerador apresentam a recomendação de que o equipamento não deve ser instalado próximo a fontes de calor, como fogão e aquecedores, ou em local onde incida diretamente a luz do sol. A instalação em local inadequado prejudica o funcionamento do refrigerador e aumenta o consumo de energia.\n\nO não atendimento dessa recomendação resulta em aumento do consumo de energia porque\n\n(A) o fluxo de calor por condução no condensador sofre considerável redução.\n(B) a temperatura da substância refrigerante no condensador diminui mais rapidamente.\n(C) o fluxo de calor promove significativa elevação da temperatura no interior do refrigerador.\n(D) a liquefação da substância refrigerante no condensador exige mais trabalho do compressor.\n(E) as correntes de convecção nas proximidades do condensador ocorrem com maior dificuldade.",
+  "figuras": [],
+  "gabarito": "D",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. No condensador (a grade atrás da geladeira), o fluido refrigerante, comprimido e quente, cede calor ao ambiente e se liquefaz.\n2. Se o ambiente em volta está mais quente (fogão, sol), o fluido só consegue ceder calor e se condensar se estiver a temperatura e pressão ainda maiores. Para isso o compressor precisa comprimi-lo mais, realizando mais trabalho a cada ciclo.\n3. Mais trabalho do compressor significa maior consumo de energia elétrica.\nGabarito: D.",
+  "topicos": [
+    "refrigeradores",
+    "maquinas-termicas-e-rendimento",
+    "calor-latente-e-mudancas-de-fase"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-08T23:09:55.000Z",
+  "atualizadoEm": "2026-11-08T23:14:09.000Z",
+  "revisao": {
+    "notas": "Gabarito da resolução própria; não foi possível conferir com um gabarito publicado do caderno amarelo nesta sessão. Trocar para 'oficial' quando houver o PDF do INEP (2020_GB_impresso_D2_CD5.pdf). A única anulação de Ciências da Natureza no caderno amarelo (Q114) não é de Física."
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "enem-2020-q125",
+  "banca": "ENEM",
+  "ano": 2020,
+  "numero": "125",
+  "fase": "2º dia · Caderno Amarelo",
+  "fonte": {
+    "descricao": "INEP, ENEM 2020, 2º dia (Ciências da Natureza e Matemática), caderno de questões aplicado, Caderno 5 Amarelo"
+  },
+  "enunciado": "[[figura 1]]\n\nDAVIS, J. Disponível em: http://garfield.com. Acesso em: 10 fev. 2015.\n\nPor qual motivo ocorre a eletrização ilustrada na tirinha?\n\n(A) Troca de átomos entre a calça e os pelos do gato.\n(B) Diminuição do número de prótons nos pelos do gato.\n(C) Criação de novas partículas eletrizadas nos pelos do gato.\n(D) Movimentação de elétrons entre a calça e os pelos do gato.\n(E) Repulsão entre partículas elétricas da calça e dos pelos do gato.",
+  "figuras": [
+    "enem-2020-q125-1.png"
+  ],
+  "gabarito": "D",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. O gato se esfrega na calça: é eletrização por atrito.\n2. No atrito, elétrons passam de um material para o outro; os prótons ficam presos nos núcleos e não há criação de carga (a carga total se conserva). Um corpo fica com excesso de elétrons e o outro com falta.\n3. Os pelos ficam com carga de mesmo sinal e se repelem, o que os deixa arrepiados — mas a causa da eletrização é a transferência de elétrons entre a calça e os pelos.\nGabarito: D.",
+  "topicos": [
+    "carga-eletrica-e-processos-de-eletrizacao"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-08T23:09:55.000Z",
+  "atualizadoEm": "2026-11-08T23:14:09.000Z",
+  "revisao": {
+    "notas": "Gabarito da resolução própria; não foi possível conferir com um gabarito publicado do caderno amarelo nesta sessão. Trocar para 'oficial' quando houver o PDF do INEP (2020_GB_impresso_D2_CD5.pdf). A única anulação de Ciências da Natureza no caderno amarelo (Q114) não é de Física."
+  }
+}

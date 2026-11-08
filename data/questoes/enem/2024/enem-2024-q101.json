@@ -1,0 +1,28 @@
+{
+  "id": "enem-2024-q101",
+  "banca": "ENEM",
+  "ano": 2024,
+  "numero": "101",
+  "fase": "2º dia · Caderno Amarelo",
+  "fonte": {
+    "descricao": "INEP, ENEM 2024, 2º dia (Ciências da Natureza e Matemática), caderno de questões aplicado, Caderno 5 Amarelo"
+  },
+  "enunciado": "Placas solares comuns dependem de dias ensolarados para gerar energia. Mas podemos gerar eletricidade com a ajuda de gotas de chuva, revestindo placas solares com uma fina camada de grafeno. Os íons dissociados a partir da água da chuva (A<sup>m+</sup> e B<sup>n−</sup>) tornam a combinação grafeno e água da chuva um par perfeito para geração de energia. O processo requer apenas uma camada de grafeno para que grande quantidade de elétrons (e<sup>−</sup>) se movimente ao longo da superfície.\n\n[[figura 1]]\n\nTANG, Q. et al. A Solar Cell that is Triggered by Sun and Rain. <b>Angewandte Chemie International Edition</b>, n. 55, 2016 (adaptado).\n\nAo produzir eletricidade em dias chuvosos, o grafeno\n\n(A) oxida os cátions dissolvidos na água da chuva.\n(B) impede a difusão da água através das placas solares.\n(C) diminui a energia de ativação da reação no pseudocapacitor.\n(D) forma um compósito não metálico com os íons na água da chuva.\n(E) gera uma diferença de potencial pela interação dos elétrons com os cátions.",
+  "figuras": [
+    "enem-2024-q101-1.png"
+  ],
+  "gabarito": "E",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. A figura mostra os cátions (A<sup>m+</sup>) da água atraindo os elétrons livres do grafeno para a interface, enquanto os ânions (B<sup>n−</sup>) ficam do lado da água: forma-se uma dupla camada de cargas, como num capacitor.\n2. Essa separação de cargas cria regiões de potenciais diferentes (indicados na figura como alto e baixo potencial elétrico): há uma diferença de potencial, capaz de movimentar elétrons num circuito.\n3. O grafeno não oxida os cátions (A), não age como catalisador (C), não impede difusão (B) nem forma compósito (D).\nGabarito: E.",
+  "topicos": [
+    "potencial-eletrico-e-diferenca-de-potencial",
+    "carga-eletrica-e-processos-de-eletrizacao",
+    "geradores-eletricos-fem-e-resistencia-interna"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-08T22:33:14.000Z",
+  "atualizadoEm": "2026-11-08T22:36:47.000Z",
+  "revisao": {
+    "notas": "Gabarito da resolução própria; confere com o gabarito do caderno amarelo publicado pela Estratégia Vestibulares, que incorpora as retificações do gabarito oficial do INEP. Trocar para 'oficial' quando houver o PDF do INEP (2024_GB_impresso_D2_CD5.pdf)."
+  }
+}

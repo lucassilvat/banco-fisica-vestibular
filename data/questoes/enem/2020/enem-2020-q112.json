@@ -1,0 +1,24 @@
+{
+  "id": "enem-2020-q112",
+  "banca": "ENEM",
+  "ano": 2020,
+  "numero": "112",
+  "fase": "2º dia · Caderno Amarelo",
+  "fonte": {
+    "descricao": "INEP, ENEM 2020, 2º dia (Ciências da Natureza e Matemática), caderno de questões aplicado, Caderno 5 Amarelo"
+  },
+  "enunciado": "Há muitos mitos em relação a como se proteger de raios, cobrir espelhos e não pegar em facas, garfos e outros objetos metálicos, por exemplo. Mas, de fato, se houver uma tempestade com raios, alguns cuidados são importantes, como evitar ambientes abertos. Um bom abrigo para proteção é o interior de um automóvel, desde que este não seja conversível.\n\nOLIVEIRA, A. <b>Raios nas tempestades de verão</b>. Disponível em: http://cienciahoje.uol.com.br. Acesso em: 10 dez. 2014 (adaptado).\n\nQual o motivo físico da proteção fornecida pelos automóveis, conforme citado no texto?\n\n(A) Isolamento elétrico dos pneus.\n(B) Efeito de para-raios da antena.\n(C) Blindagem pela carcaça metálica.\n(D) Escoamento da água pela lataria.\n(E) Aterramento pelo fio terra da bateria.",
+  "figuras": [],
+  "gabarito": "C",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. A carroceria metálica fechada funciona como uma gaiola de Faraday: num condutor em equilíbrio eletrostático, as cargas ficam na superfície externa e o campo elétrico no interior é nulo.\n2. Se um raio atinge o carro, a corrente percorre a lataria por fora e segue para o solo, sem atravessar o interior. Por isso o conversível (sem teto metálico) não protege.\n3. Os pneus não isolam diante das tensões de um raio, que rompem facilmente alguns centímetros de borracha e ar.\nGabarito: C.",
+  "topicos": [
+    "condutores-em-equilibrio-eletrostatico-e-blindagem"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-08T23:09:55.000Z",
+  "atualizadoEm": "2026-11-08T23:14:09.000Z",
+  "revisao": {
+    "notas": "Gabarito da resolução própria; não foi possível conferir com um gabarito publicado do caderno amarelo nesta sessão. Trocar para 'oficial' quando houver o PDF do INEP (2020_GB_impresso_D2_CD5.pdf). A única anulação de Ciências da Natureza no caderno amarelo (Q114) não é de Física."
+  }
+}

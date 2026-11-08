@@ -1,0 +1,26 @@
+{
+  "id": "enem-2022-q126",
+  "banca": "ENEM",
+  "ano": 2022,
+  "numero": "126",
+  "fase": "2º dia · Caderno Amarelo",
+  "fonte": {
+    "descricao": "INEP, ENEM 2022, 2º dia (Ciências da Natureza e Matemática), caderno de questões aplicado, Caderno 5 Amarelo"
+  },
+  "enunciado": "Um pai faz um balanço utilizando dois segmentos paralelos e iguais da mesma corda para fixar uma tábua a uma barra horizontal. Por segurança, opta por um tipo de corda cuja tensão de ruptura seja 25% superior à tensão máxima calculada nas seguintes condições:\n• O ângulo máximo atingido pelo balanço em relação à vertical é igual a 90°;\n• Os filhos utilizarão o balanço até que tenham uma massa de 24 kg.\nAlém disso, ele aproxima o movimento do balanço para o movimento circular uniforme, considera que a aceleração da gravidade é igual a 10 m/s<sup>2</sup> e despreza forças dissipativas.\n\nQual é a tensão de ruptura da corda escolhida?\n\n(A) 120 N\n(B) 300 N\n(C) 360 N\n(D) 450 N\n(E) 900 N",
+  "figuras": [],
+  "gabarito": "D",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. A tensão é máxima no ponto mais baixo. Partindo de 90° (altura igual ao comprimento <i>L</i> da corda), a conservação da energia dá <i>v</i><sup>2</sup> = 2<i>gL</i>.\n2. No ponto mais baixo: <i>T</i><sub>total</sub> − <i>mg</i> = <i>mv</i><sup>2</sup>/<i>L</i> = 2<i>mg</i>, então <i>T</i><sub>total</sub> = 3<i>mg</i> = 3 · 24 · 10 = 720 N.\n3. São dois segmentos de corda: 720/2 = 360 N em cada um.\n4. Com 25% de segurança: 1,25 · 360 = 450 N.\nGabarito: D.",
+  "topicos": [
+    "resultante-centripeta-curvas-loop-globo-da-morte",
+    "conservacao-da-energia-mecanica",
+    "pendulo-simples"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-08T22:54:03.000Z",
+  "atualizadoEm": "2026-11-08T22:57:26.000Z",
+  "revisao": {
+    "notas": "Gabarito da resolução própria; confere com o gabarito do caderno amarelo publicado pela Estratégia Vestibulares. Trocar para 'oficial' quando houver o PDF do INEP (2022_GB_impresso_D2_CD5.pdf). Camada de texto do caderno parcialmente cifrada: fidelidade conferida pela imagem e pelo OCR."
+  }
+}

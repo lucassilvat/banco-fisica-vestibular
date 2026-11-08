@@ -1,0 +1,25 @@
+{
+  "id": "enem-2019-q132",
+  "banca": "ENEM",
+  "ano": 2019,
+  "numero": "132",
+  "fase": "2º dia · Caderno Amarelo",
+  "fonte": {
+    "descricao": "INEP, ENEM 2019, 2º dia (Ciências da Natureza e Matemática), caderno de questões aplicado, Caderno 5 Amarelo"
+  },
+  "enunciado": "Quando se considera a extrema velocidade com que a luz se espalha por todos os lados e que, quando vêm de diferentes lugares, mesmo totalmente opostos, [os raios luminosos] se atravessam uns aos outros sem se atrapalharem, compreende-se que, quando vemos um objeto luminoso, isso não poderia ocorrer pelo transporte de uma matéria que venha do objeto até nós, como uma flecha ou bala atravessa o ar; pois certamente isso repugna bastante a essas duas propriedades da luz, principalmente a última.\n\nHUYGENS, C. In: MARTINS, R. A. Tratado sobre a luz, de Cristian Huygens. <b>Caderno de História e Filosofia da Ciência</b>, supl. 4, 1986.\n\nO texto contesta que concepção acerca do comportamento da luz?\n\n(A) O entendimento de que a luz precisa de um meio de propagação, difundido pelos defensores da existência do éter.\n(B) O modelo ondulatório para a luz, o qual considera a possibilidade de interferência entre feixes luminosos.\n(C) O modelo corpuscular defendido por Newton, que descreve a luz como um feixe de partículas.\n(D) A crença na velocidade infinita da luz, defendida pela maioria dos filósofos gregos.\n(E) A ideia defendida pelos gregos de que a luz era produzida pelos olhos.",
+  "figuras": [],
+  "gabarito": "C",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. Huygens argumenta que a luz não pode ser \"o transporte de uma matéria que venha do objeto até nós, como uma flecha ou bala\": se fossem partículas materiais, feixes que se cruzam colidiriam e se atrapalhariam.\n2. Essa é a crítica ao modelo corpuscular, associado a Newton. Huygens defendia o modelo ondulatório, em que ondas podem se cruzar e seguir sem alteração (independência dos raios luminosos).\nGabarito: C.",
+  "topicos": [
+    "dualidade-onda-particula-de-broglie",
+    "principios-da-optica-geometrica-sombra-penumbra-eclipses"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-08T23:17:39.000Z",
+  "atualizadoEm": "2026-11-08T23:21:22.000Z",
+  "revisao": {
+    "notas": "Gabarito da resolução própria. Q91, Q95, Q97, Q100 e Q103 conferem com o gabarito do caderno amarelo publicado pelo Estratégia (blog, 10 nov. 2019); Q120 e Q129 conferem com as questões correspondentes do caderno azul (Descomplica). Trocar para 'oficial' quando houver o PDF do INEP (2019_GB_impresso_D2_CD5.pdf)."
+  }
+}

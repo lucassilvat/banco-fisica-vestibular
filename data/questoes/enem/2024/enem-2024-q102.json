@@ -1,0 +1,26 @@
+{
+  "id": "enem-2024-q102",
+  "banca": "ENEM",
+  "ano": 2024,
+  "numero": "102",
+  "fase": "2º dia · Caderno Amarelo",
+  "fonte": {
+    "descricao": "INEP, ENEM 2024, 2º dia (Ciências da Natureza e Matemática), caderno de questões aplicado, Caderno 5 Amarelo"
+  },
+  "enunciado": "Um estudante comprou uma cafeteira elétrica de 700 W de potência e com capacidade de 0,5 L de água (500 g). Enquanto o café estava em preparação na capacidade máxima da cafeteira, ele marcou que demorou 3 minutos para a cafeteira ferver toda a água (100 °C) a partir da temperatura ambiente de 20 °C. Em seguida, para avaliar a eficiência da cafeteira, ele calculou esse tempo desprezando quaisquer perdas energéticas. É necessária 1 cal (4,2 J) para elevar em 1 °C a temperatura de 1 grama de água.\n\nQual a eficiência energética calculada pelo estudante?\n\n(A) 100%\n(B) 75%\n(C) 60%\n(D) 7,5%\n(E) 5,1%",
+  "figuras": [],
+  "gabarito": "B",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "Atenção: esta questão foi <b>anulada</b> pelo INEP. Os dados são incompatíveis, como mostra a conta abaixo. O gabarito B indica a resposta provavelmente pretendida.\n1. Energia necessária para aquecer a água: <i>Q</i> = <i>mc</i>Δ<i>T</i> = 500 · 4,2 · (100 − 20) = 168 000 J.\n2. Tempo ideal, sem perdas: <i>t</i> = <i>Q</i>/<i>P</i> = 168 000/700 = 240 s = 4 min.\n3. A cafeteira levou só 3 min (180 s), fornecendo 700 · 180 = 126 000 J, menos que os 168 000 J necessários. A eficiência resultaria em 168 000/126 000 ≈ 133%, maior que 100%, o que é impossível.\n4. Dividindo ao contrário (126 000/168 000 = 3/4 ≈ 75%) obtém-se a alternativa B, provavelmente a resposta pretendida; mas essa razão não é uma eficiência.\nGabarito pretendido (questão anulada): B.",
+  "topicos": [
+    "potencia-e-rendimento",
+    "calor-sensivel-e-capacidade-termica",
+    "potencia-eletrica-e-efeito-joule"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-08T22:33:14.000Z",
+  "atualizadoEm": "2026-11-08T22:36:47.000Z",
+  "revisao": {
+    "notas": "Questão ANULADA pelo INEP (caderno amarelo, Q102): os dados resultam em eficiência maior que 100%. O gabarito B é a resposta provavelmente pretendida (razão invertida, 75%)."
+  }
+}

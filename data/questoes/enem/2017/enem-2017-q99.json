@@ -1,0 +1,28 @@
+{
+  "id": "enem-2017-q99",
+  "banca": "ENEM",
+  "ano": 2017,
+  "numero": "99",
+  "fase": "2º dia · Caderno Amarelo",
+  "fonte": {
+    "descricao": "INEP, ENEM 2017, 2º dia (Ciências da Natureza e Matemática), caderno de questões aplicado, Caderno 5 Amarelo"
+  },
+  "enunciado": "A figura mostra como é a emissão de radiação eletromagnética para cinco tipos de lâmpada: haleto metálico, tungstênio, mercúrio, xênon e LED (diodo emissor de luz). As áreas marcadas em cinza são proporcionais à intensidade da energia liberada pela lâmpada. As linhas pontilhadas mostram a sensibilidade do olho humano aos diferentes comprimentos de onda. UV e IV são as regiões do ultravioleta e do infravermelho, respectivamente.\n\nUm arquiteto deseja iluminar uma sala usando uma lâmpada que produza boa iluminação, mas que não aqueça o ambiente.\n\n[[figura 1]]\n\nDisponível em: http://zeiss-campus.magnet.fsu.edu. Acesso em: 8 maio 2017 (adaptado).\n\nQual tipo de lâmpada melhor atende ao desejo do arquiteto?\n\n(A) Haleto metálico.\n(B) Tungstênio.\n(C) Mercúrio.\n(D) Xênon.\n(E) LED.",
+  "figuras": [
+    "enem-2017-q99-1.png"
+  ],
+  "gabarito": "E",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. A radiação que aquece o ambiente é principalmente a infravermelha (IV); a que ilumina é a visível, onde estão as curvas de sensibilidade do olho.\n2. Tungstênio e xênon emitem muito no infravermelho; haleto metálico e mercúrio emitem também no ultravioleta e parte da energia fica fora da faixa útil.\n3. O LED concentra quase toda a emissão na faixa visível, sobre as curvas de sensibilidade do olho, sem emissão relevante no IV: ilumina bem e aquece pouco.\nGabarito: E.",
+  "topicos": [
+    "espectro-eletromagnetico",
+    "leitura-e-interpretacao-de-graficos",
+    "semicondutores-led-e-laser"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-08T23:30:12.000Z",
+  "atualizadoEm": "2026-11-08T23:33:00.000Z",
+  "revisao": {
+    "notas": "Gabarito da resolução própria; não foi encontrado um gabarito do caderno amarelo acessível nesta sessão. Q97 confere com a questão correspondente do caderno azul (Descomplica). Trocar para 'oficial' quando houver o PDF do INEP (2017_GB_impresso_D2_CD5.pdf)."
+  }
+}

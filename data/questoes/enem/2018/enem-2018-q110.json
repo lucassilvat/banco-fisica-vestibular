@@ -1,0 +1,32 @@
+{
+  "id": "enem-2018-q110",
+  "banca": "ENEM",
+  "ano": 2018,
+  "numero": "110",
+  "fase": "2º dia · Caderno Amarelo",
+  "fonte": {
+    "descricao": "INEP, ENEM 2018, 2º dia (Ciências da Natureza e Matemática), caderno de questões aplicado, Caderno 5 Amarelo"
+  },
+  "enunciado": "Ao pesquisar um resistor feito de um novo tipo de material, um cientista observou o comportamento mostrado no gráfico tensão <i>versus</i> corrente.\n\n[[figura 1]]\n\nApós a análise do gráfico, ele concluiu que a tensão em função da corrente é dada pela equação V = 10 <i>i</i> + <i>i</i><sup>2</sup>.\n\nO gráfico da resistência elétrica (<i>R</i>) do resistor em função da corrente (<i>i</i>) é\n\n(A)\n[[figura 2]]\n(B)\n[[figura 3]]\n(C)\n[[figura 4]]\n(D)\n[[figura 5]]\n(E)\n[[figura 6]]",
+  "figuras": [
+    "enem-2018-q110-1.png",
+    "enem-2018-q110-2.png",
+    "enem-2018-q110-3.png",
+    "enem-2018-q110-4.png",
+    "enem-2018-q110-5.png",
+    "enem-2018-q110-6.png"
+  ],
+  "gabarito": "D",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. A resistência elétrica é definida por <i>R</i> = <i>V</i>/<i>i</i>.\n2. Com <i>V</i> = 10<i>i</i> + <i>i</i><sup>2</sup>: <i>R</i> = (10<i>i</i> + <i>i</i><sup>2</sup>)/<i>i</i> = 10 + <i>i</i> (em Ω, com <i>i</i> em A).\n3. É uma reta que começa em 10 Ω e cresce 1 Ω por ampère, chegando a 17 Ω em 7 A: é o gráfico D.\nGabarito: D.",
+  "topicos": [
+    "primeira-lei-de-ohm",
+    "leitura-e-interpretacao-de-graficos"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-08T23:23:18.000Z",
+  "atualizadoEm": "2026-11-08T23:26:35.000Z",
+  "revisao": {
+    "notas": "Gabarito da resolução própria; confere com o gabarito oficial do caderno amarelo reproduzido pelo Guia da Carreira. Trocar para 'oficial' quando houver o PDF do INEP (2018_GB_impresso_D2_CD5.pdf). Camada de texto do caderno por OCR: fidelidade conferida pela imagem."
+  }
+}

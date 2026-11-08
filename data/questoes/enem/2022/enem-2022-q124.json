@@ -1,0 +1,26 @@
+{
+  "id": "enem-2022-q124",
+  "banca": "ENEM",
+  "ano": 2022,
+  "numero": "124",
+  "fase": "2º dia · Caderno Amarelo",
+  "fonte": {
+    "descricao": "INEP, ENEM 2022, 2º dia (Ciências da Natureza e Matemática), caderno de questões aplicado, Caderno 5 Amarelo"
+  },
+  "enunciado": "Em 2017, foi inaugurado, no estado da Bahia, o Parque Solar Lapa, composto por duas usinas (Bom Jesus da Lapa e Lapa) e capaz de gerar cerca de 300 GWh de energia por ano. Considere que cada usina apresente potência igual a 75 MW, com o parque totalizando uma potência instalada de 150 MW. Considere ainda que a irradiância solar média é de 1 500 W/m<sup>2</sup> e que a eficiência dos painéis é de 20%.\n\n<b>Parque Solar Lapa entra em operação</b>. Disponível em: www.canalbioenergia.com.br. Acesso em: 9 jun. 2022 (adaptado).\n\nNessas condições, a área total dos painéis solares que compõem o Parque Solar Lapa é mais próxima de:\n\n(A) 1 000 000 m<sup>2</sup>\n(B) 500 000 m<sup>2</sup>\n(C) 250 000 m<sup>2</sup>\n(D) 100 000 m<sup>2</sup>\n(E) 20 000 m<sup>2</sup>",
+  "figuras": [],
+  "gabarito": "B",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. Cada metro quadrado de painel recebe 1 500 W e converte 20% em eletricidade: 0,20 · 1 500 = 300 W/m<sup>2</sup>.\n2. Para a potência instalada de 150 MW: <i>A</i> = 150 × 10<sup>6</sup>/300 = 5 × 10<sup>5</sup> m<sup>2</sup> = 500 000 m<sup>2</sup>.\nGabarito: B.",
+  "topicos": [
+    "potencia-e-rendimento",
+    "energia-eletrica-e-consumo-kwh-conta-de-luz",
+    "usinas-e-geracao-de-energia-eletrica"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-08T22:54:03.000Z",
+  "atualizadoEm": "2026-11-08T22:57:26.000Z",
+  "revisao": {
+    "notas": "Gabarito da resolução própria; confere com o gabarito do caderno amarelo publicado pela Estratégia Vestibulares. Trocar para 'oficial' quando houver o PDF do INEP (2022_GB_impresso_D2_CD5.pdf). Camada de texto do caderno parcialmente cifrada: fidelidade conferida pela imagem e pelo OCR."
+  }
+}

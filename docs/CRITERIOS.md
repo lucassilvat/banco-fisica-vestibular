@@ -23,7 +23,7 @@
 | Legenda/fonte da figura | texto, logo abaixo da figura |
 | Texto comum a várias questões | repetido no início de cada uma, com o título original |
 | Instrução geral ("use g = 10 m/s²") | repetida nas questões em que vale, conforme a prova |
-| Alternativas | no fim, uma por linha, com o rótulo do caderno: `a) ...` (Unicamp), `(A) ...` (Fuvest, Unesp) |
+| Alternativas | no fim, uma por linha, com o rótulo do caderno: `a) ...` (Unicamp), `(A) ...` (Fuvest, Unesp, ENEM; no ENEM a letra é um círculo, transcrito como `(A)`) |
 | "Note e adote" (Fuvest) | bloco de texto antes das alternativas, começando por `Note e adote:` |
 | Tabela | figura recortada do caderno |
 

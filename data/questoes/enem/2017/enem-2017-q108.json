@@ -1,0 +1,27 @@
+{
+  "id": "enem-2017-q108",
+  "banca": "ENEM",
+  "ano": 2017,
+  "numero": "108",
+  "fase": "2º dia · Caderno Amarelo",
+  "fonte": {
+    "descricao": "INEP, ENEM 2017, 2º dia (Ciências da Natureza e Matemática), caderno de questões aplicado, Caderno 5 Amarelo"
+  },
+  "enunciado": "Dispositivos eletrônicos que utilizam materiais de baixo custo, como polímeros semicondutores, têm sido desenvolvidos para monitorar a concentração de amônia (gás tóxico e incolor) em granjas avícolas. A polianilina é um polímero semicondutor que tem o valor de sua resistência elétrica nominal quadruplicado quando exposta a altas concentrações de amônia. Na ausência de amônia, a polianilina se comporta como um resistor ôhmico e a sua resposta elétrica é mostrada no gráfico.\n\n[[figura 1]]\n\nO valor da resistência elétrica da polianilina na presença de altas concentrações de amônia, em ohm, é igual a\n\n(A) 0,5 × 10<sup>0</sup>.\n(B) 2,0 × 10<sup>0</sup>.\n(C) 2,5 × 10<sup>5</sup>.\n(D) 5,0 × 10<sup>5</sup>.\n(E) 2,0 × 10<sup>6</sup>.",
+  "figuras": [
+    "enem-2017-q108-1.png"
+  ],
+  "gabarito": "E",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. Do gráfico (sem amônia): para 1,0 V a corrente é 2,0 × 10<sup>−6</sup> A. Resistência nominal: <i>R</i> = <i>U</i>/<i>i</i> = 1,0/(2,0 × 10<sup>−6</sup>) = 5,0 × 10<sup>5</sup> Ω.\n2. Com altas concentrações de amônia, a resistência quadruplica: 4 · 5,0 × 10<sup>5</sup> = 2,0 × 10<sup>6</sup> Ω.\nGabarito: E.",
+  "topicos": [
+    "primeira-lei-de-ohm",
+    "leitura-e-interpretacao-de-graficos"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-08T23:30:12.000Z",
+  "atualizadoEm": "2026-11-08T23:33:00.000Z",
+  "revisao": {
+    "notas": "Gabarito da resolução própria; não foi encontrado um gabarito do caderno amarelo acessível nesta sessão. Q97 confere com a questão correspondente do caderno azul (Descomplica). Trocar para 'oficial' quando houver o PDF do INEP (2017_GB_impresso_D2_CD5.pdf)."
+  }
+}

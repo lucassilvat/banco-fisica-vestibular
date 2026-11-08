@@ -1,0 +1,28 @@
+{
+  "id": "enem-2022-q111",
+  "banca": "ENEM",
+  "ano": 2022,
+  "numero": "111",
+  "fase": "2º dia · Caderno Amarelo",
+  "fonte": {
+    "descricao": "INEP, ENEM 2022, 2º dia (Ciências da Natureza e Matemática), caderno de questões aplicado, Caderno 5 Amarelo"
+  },
+  "enunciado": "O manual de uma ducha elétrica informa que seus três níveis de aquecimento (morno, quente e superquente) apresentam as seguintes variações de temperatura da água em função de sua vazão:\n\n[[figura 1]]\n\nUtiliza-se um disjuntor para proteger o circuito dessa ducha contra sobrecargas elétricas em qualquer nível de aquecimento. Por padrão, o disjuntor é especificado pela corrente nominal igual ao múltiplo de 5 A imediatamente superior à corrente máxima do circuito. Considere que a ducha deve ser ligada em 220 V e que toda a energia é dissipada através da resistência do chuveiro e convertida em energia térmica transferida para a água, que apresenta calor específico de 4,2 J/g°C e densidade de 1 000 g/L.\n\nO disjuntor adequado para a proteção dessa ducha é especificado por:\n\n(A) 60 A\n(B) 30 A\n(C) 20 A\n(D) 10 A\n(E) 5 A",
+  "figuras": [
+    "enem-2022-q111-1.png"
+  ],
+  "gabarito": "B",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. A potência máxima ocorre no nível superquente: 3 L/min com Δ<i>T</i> = 30 °C (ou 6 L/min com 15 °C, que dá o mesmo resultado).\n2. Massa de água por segundo: 3 L/min = 3 000 g/60 s = 50 g/s. Potência: <i>P</i> = (<i>m</i>/Δ<i>t</i>) · <i>c</i> · Δ<i>T</i> = 50 · 4,2 · 30 = 6 300 W.\n3. Corrente máxima: <i>i</i> = <i>P</i>/<i>U</i> = 6 300/220 ≈ 28,6 A.\n4. O múltiplo de 5 A imediatamente superior é 30 A.\nGabarito: B.",
+  "topicos": [
+    "potencia-eletrica-e-efeito-joule",
+    "calor-sensivel-e-capacidade-termica",
+    "instalacoes-eletricas-residenciais-fusiveis-e-disjuntores"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-08T22:54:03.000Z",
+  "atualizadoEm": "2026-11-08T22:57:26.000Z",
+  "revisao": {
+    "notas": "Gabarito da resolução própria; confere com o gabarito do caderno amarelo publicado pela Estratégia Vestibulares. Trocar para 'oficial' quando houver o PDF do INEP (2022_GB_impresso_D2_CD5.pdf). Camada de texto do caderno parcialmente cifrada: fidelidade conferida pela imagem e pelo OCR."
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "enem-2022-q96",
+  "banca": "ENEM",
+  "ano": 2022,
+  "numero": "96",
+  "fase": "2º dia · Caderno Amarelo",
+  "fonte": {
+    "descricao": "INEP, ENEM 2022, 2º dia (Ciências da Natureza e Matemática), caderno de questões aplicado, Caderno 5 Amarelo"
+  },
+  "enunciado": "Em 2002, um mecânico da cidade mineira de Uberaba (MG) teve uma ideia para economizar o consumo de energia elétrica e iluminar a própria casa num dia de sol. Para isso, ele utilizou garrafas plásticas PET com água e cloro, conforme ilustram as figuras. Cada garrafa foi fixada ao telhado de sua casa em um buraco com diâmetro igual ao da garrafa, muito maior que o comprimento de onda da luz. Nos últimos dois anos, sua ideia já alcançou diversas partes do mundo e deve atingir a marca de 1 milhão de casas utilizando a “luz engarrafada”.\n\n[[figura 1]]\n\nZOBEL, G. <b>Brasileiro inventor de “luz engarrafada” tem ideia espalhada pelo mundo</b>. Disponível em: www.bbc.com. Acesso em: 23 jun. 2022 (adaptado).\n\nQue fenômeno óptico explica o funcionamento da “luz engarrafada”?\n\n(A) Difração.\n(B) Absorção.\n(C) Polarização.\n(D) Reflexão.\n(E) Refração.",
+  "figuras": [
+    "enem-2022-q96-1.png"
+  ],
+  "gabarito": "E",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. Sem a garrafa, a luz do sol entraria pelo buraco só como um feixe estreito, iluminando um pequeno ponto do chão.\n2. A luz passa do ar para a água (e o plástico) da garrafa e muda de direção ao atravessar as superfícies curvas: é a refração. Dentro da garrafa, os raios são desviados em muitas direções e saem espalhados pelo cômodo, como numa lâmpada.\n3. A difração não é relevante, porque o buraco é muito maior que o comprimento de onda da luz (o próprio texto avisa). Absorção e polarização não espalham a luz.\nGabarito: E.",
+  "topicos": [
+    "refracao-da-luz-e-indice-de-refracao",
+    "principios-da-optica-geometrica-sombra-penumbra-eclipses"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-08T22:54:03.000Z",
+  "atualizadoEm": "2026-11-08T22:57:26.000Z",
+  "revisao": {
+    "notas": "Gabarito da resolução própria; confere com o gabarito do caderno amarelo publicado pela Estratégia Vestibulares. Trocar para 'oficial' quando houver o PDF do INEP (2022_GB_impresso_D2_CD5.pdf). Camada de texto do caderno parcialmente cifrada: fidelidade conferida pela imagem e pelo OCR."
+  }
+}

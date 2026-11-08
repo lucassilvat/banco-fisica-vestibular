@@ -1,0 +1,28 @@
+{
+  "id": "enem-2018-q96",
+  "banca": "ENEM",
+  "ano": 2018,
+  "numero": "96",
+  "fase": "2º dia · Caderno Amarelo",
+  "fonte": {
+    "descricao": "INEP, ENEM 2018, 2º dia (Ciências da Natureza e Matemática), caderno de questões aplicado, Caderno 5 Amarelo"
+  },
+  "enunciado": "Muitos primatas, incluindo nós humanos, possuem visão tricromática: têm três pigmentos visuais na retina sensíveis à luz de uma determinada faixa de comprimentos de onda. Informalmente, embora os pigmentos em si não possuam cor, estes são conhecidos como pigmentos “azul”, “verde” e “vermelho” e estão associados à cor que causa grande excitação (ativação). A sensação que temos ao observar um objeto colorido decorre da ativação relativa dos três pigmentos. Ou seja, se estimulássemos a retina com uma luz na faixa de 530 nm (retângulo I no gráfico), não excitaríamos o pigmento “azul”, o pigmento “verde” seria ativado ao máximo e o “vermelho” seria ativado em aproximadamente 75%, e isso nos daria a sensação de ver uma cor amarelada. Já uma luz na faixa de comprimento de onda de 600 nm (retângulo II) estimularia o pigmento “verde” um pouco e o “vermelho” em cerca de 75%, e isso nos daria a sensação de ver laranja-avermelhado. No entanto, há características genéticas presentes em alguns indivíduos, conhecidas coletivamente como Daltonismo, em que um ou mais pigmentos não funcionam perfeitamente.\n\n[[figura 1]]\n\nDisponível em: www.comprehensivephysiology.com. Acesso em: 3 ago. 2012 (adaptado).\n\nCaso estimulássemos a retina de um indivíduo com essa característica, que não possuísse o pigmento conhecido como “verde”, com as luzes de 530 nm e 600 nm na mesma intensidade luminosa, esse indivíduo seria incapaz de\n\n(A) identificar o comprimento de onda do amarelo, uma vez que não possui o pigmento “verde”.\n(B) ver o estímulo de comprimento de onda laranja, pois não haveria estimulação de um pigmento visual.\n(C) detectar ambos os comprimentos de onda, uma vez que a estimulação dos pigmentos estaria prejudicada.\n(D) visualizar o estímulo do comprimento de onda roxo, já que este se encontra na outra ponta do espectro.\n(E) distinguir os dois comprimentos de onda, pois ambos estimulam o pigmento “vermelho” na mesma intensidade.",
+  "figuras": [
+    "enem-2018-q96-1.png"
+  ],
+  "gabarito": "E",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. Sem o pigmento \"verde\", só sobram o \"azul\" e o \"vermelho\" para perceber as duas luzes.\n2. Pelo gráfico (e pelo texto), nem 530 nm nem 600 nm ativam o pigmento \"azul\", e ambas ativam o \"vermelho\" em cerca de 75%.\n3. As duas luzes produzem exatamente a mesma resposta dos pigmentos que restam: o indivíduo vê as duas, mas não consegue distingui-las.\nGabarito: E.",
+  "topicos": [
+    "optica-da-visao-e-defeitos-visuais",
+    "cor-dos-objetos",
+    "leitura-e-interpretacao-de-graficos"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-08T23:23:18.000Z",
+  "atualizadoEm": "2026-11-08T23:26:35.000Z",
+  "revisao": {
+    "notas": "Gabarito da resolução própria; confere com o gabarito oficial do caderno amarelo reproduzido pelo Guia da Carreira. Trocar para 'oficial' quando houver o PDF do INEP (2018_GB_impresso_D2_CD5.pdf). Camada de texto do caderno por OCR: fidelidade conferida pela imagem."
+  }
+}

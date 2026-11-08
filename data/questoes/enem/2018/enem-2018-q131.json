@@ -1,0 +1,31 @@
+{
+  "id": "enem-2018-q131",
+  "banca": "ENEM",
+  "ano": 2018,
+  "numero": "131",
+  "fase": "2º dia · Caderno Amarelo",
+  "fonte": {
+    "descricao": "INEP, ENEM 2018, 2º dia (Ciências da Natureza e Matemática), caderno de questões aplicado, Caderno 5 Amarelo"
+  },
+  "enunciado": "Em desenhos animados é comum vermos a personagem tentando impulsionar um barco soprando ar contra a vela para compensar a falta de vento. Algumas vezes usam o próprio fôlego, foles ou ventiladores. Estudantes de um laboratório didático resolveram investigar essa possibilidade. Para isso, usaram dois pequenos carros de plástico, <b>A</b> e <b>B</b>, instalaram sobre estes pequenas ventoinhas e fixaram verticalmente uma cartolina de curvatura parabólica para desempenhar uma função análoga à vela de um barco. No carro <b>B</b> inverteu-se o sentido da ventoinha e manteve-se a vela, a fim de manter as características físicas do barco, massa e formato da cartolina. As figuras representam os carros produzidos. A montagem do carro <b>A</b> busca simular a situação dos desenhos animados, pois a ventoinha está direcionada para a vela.\n\n[[figura 1]]\n\n[[figura 2]]\n\nCom os carros orientados de acordo com as figuras, os estudantes ligaram as ventoinhas, aguardaram o fluxo de ar ficar permanente e determinaram os módulos das velocidades médias dos carros <b>A</b> (<i>V</i><sub>A</sub>) e <b>B</b> (<i>V</i><sub>B</sub>) para o mesmo intervalo de tempo.\n\nA respeito das intensidades das velocidades médias e do sentido de movimento do carro <b>A</b>, os estudantes observaram que:\n\n(A) <i>V</i><sub>A</sub> = 0; <i>V</i><sub>B</sub> > 0; o carro <b>A</b> não se move.\n(B) 0 < <i>V</i><sub>A</sub> < <i>V</i><sub>B</sub>; o carro <b>A</b> se move para a direita.\n(C) 0 < <i>V</i><sub>A</sub> < <i>V</i><sub>B</sub>; o carro <b>A</b> se move para a esquerda.\n(D) 0 < <i>V</i><sub>B</sub> < <i>V</i><sub>A</sub>; o carro <b>A</b> se move para a direita.\n(E) 0 < <i>V</i><sub>B</sub> < <i>V</i><sub>A</sub>; o carro <b>A</b> se move para a esquerda.",
+  "figuras": [
+    "enem-2018-q131-1.png",
+    "enem-2018-q131-2.png"
+  ],
+  "gabarito": "B",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. Considere o sistema carro + ar. O carro só ganha quantidade de movimento num sentido se o ar sair com quantidade de movimento no sentido oposto.\n2. No carro <b>B</b>, a ventoinha joga ar para a esquerda, para longe do carro: o carro é empurrado para a direita (como uma hélice).\n3. No carro <b>A</b>, a ventoinha joga ar para a direita, contra a vela côncava, que o desvia de volta para a esquerda. O ar que sai do sistema vai para a esquerda, então o carro também anda para a direita; mas parte da quantidade de movimento se perde no choque com a vela e na turbulência, e o efeito é menor: 0 < <i>V</i><sub>A</sub> < <i>V</i><sub>B</sub>.\nGabarito: B.",
+  "topicos": [
+    "conservacao-da-quantidade-de-movimento",
+    "leis-de-newton"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-08T23:23:18.000Z",
+  "atualizadoEm": "2026-11-08T23:26:35.000Z",
+  "revisao": {
+    "notas": "Gabarito da resolução própria; confere com o gabarito oficial do caderno amarelo reproduzido pelo Guia da Carreira. Trocar para 'oficial' quando houver o PDF do INEP (2018_GB_impresso_D2_CD5.pdf). Camada de texto do caderno por OCR: fidelidade conferida pela imagem. 'respeito' conferido na imagem do caderno (erro do OCR).",
+    "divergenciasAceitas": [
+      "respeito"
+    ]
+  }
+}

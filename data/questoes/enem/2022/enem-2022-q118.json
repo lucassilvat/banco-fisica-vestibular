@@ -1,0 +1,32 @@
+{
+  "id": "enem-2022-q118",
+  "banca": "ENEM",
+  "ano": 2022,
+  "numero": "118",
+  "fase": "2º dia · Caderno Amarelo",
+  "fonte": {
+    "descricao": "INEP, ENEM 2022, 2º dia (Ciências da Natureza e Matemática), caderno de questões aplicado, Caderno 5 Amarelo"
+  },
+  "enunciado": "O físico Hans C. Oersted observou que um fio transportando corrente elétrica produz um campo magnético. A presença do campo magnético foi verificada ao aproximar uma bússola de um fio conduzindo corrente elétrica. A figura ilustra um fio percorrido por uma corrente elétrica <i>i</i>, constante e com sentido para cima. Os pontos <b>A</b>, <b>B</b> e <b>C</b> estão num plano transversal e equidistantes do fio. Em cada ponto foi colocada uma bússola.\n\n[[figura 1]]\n\nConsiderando apenas o campo magnético por causa da corrente <i>i</i>, as respectivas configurações das bússolas nos pontos <b>A</b>, <b>B</b> e <b>C</b> serão\n\n(A)\n[[figura 2]]\n(B)\n[[figura 3]]\n(C)\n[[figura 4]]\n(D)\n[[figura 5]]\n(E)\n[[figura 6]]",
+  "figuras": [
+    "enem-2022-q118-1.png",
+    "enem-2022-q118-2.png",
+    "enem-2022-q118-3.png",
+    "enem-2022-q118-4.png",
+    "enem-2022-q118-5.png",
+    "enem-2022-q118-6.png"
+  ],
+  "gabarito": "D",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. As linhas de campo de um fio retilíneo são circunferências centradas no fio, num plano perpendicular a ele. Pela regra da mão direita (polegar no sentido da corrente, para cima), o campo circula no sentido anti-horário visto de cima.\n2. A agulha de cada bússola se alinha ao campo, com o polo norte (ponta escura) apontando no sentido de <i>B</i>⃗, tangente à circunferência.\n3. Visto em perspectiva: em A (atrás, à esquerda do fio) o norte aponta para a frente e para a esquerda; em B (à frente, à esquerda) aponta para a direita; em C (à frente, à direita) aponta para trás e para a direita. É a configuração D.\nGabarito: D.",
+  "topicos": [
+    "campo-magnetico-de-fio-retilineo",
+    "campo-magnetico-terrestre-e-bussola"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-08T22:54:03.000Z",
+  "atualizadoEm": "2026-11-08T22:57:26.000Z",
+  "revisao": {
+    "notas": "Gabarito da resolução própria; confere com o gabarito do caderno amarelo publicado pela Estratégia Vestibulares. Trocar para 'oficial' quando houver o PDF do INEP (2022_GB_impresso_D2_CD5.pdf). Camada de texto do caderno parcialmente cifrada: fidelidade conferida pela imagem e pelo OCR."
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "enem-2022-q105",
+  "banca": "ENEM",
+  "ano": 2022,
+  "numero": "105",
+  "fase": "2º dia · Caderno Amarelo",
+  "fonte": {
+    "descricao": "INEP, ENEM 2022, 2º dia (Ciências da Natureza e Matemática), caderno de questões aplicado, Caderno 5 Amarelo"
+  },
+  "enunciado": "Em um dia de calor intenso, dois colegas estão a brincar com a água da mangueira. Um deles quer saber até que altura o jato de água alcança, a partir da saída de água, quando a mangueira está posicionada totalmente na direção vertical. O outro colega propõe então o seguinte experimento: eles posicionarem a saída de água da mangueira na direção horizontal, a 1 m de altura em relação ao chão, e então medirem a distância horizontal entre a mangueira e o local onde a água atinge o chão. A medida dessa distância foi de 3 m, e a partir disso eles calcularam o alcance vertical do jato de água. Considere a aceleração da gravidade de 10 m s<sup>–2</sup>.\n\nO resultado que eles obtiveram foi de\n\n(A) 1,50 m.\n(B) 2,25 m.\n(C) 4,00 m.\n(D) 4,50 m.\n(E) 5,00 m.",
+  "figuras": [],
+  "gabarito": "B",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. Lançamento horizontal de 1 m de altura: tempo de queda <i>h</i> = <i>gt</i><sup>2</sup>/2, então 1 = 5<i>t</i><sup>2</sup> e <i>t</i><sup>2</sup> = 0,2 s<sup>2</sup>.\n2. Alcance horizontal: 3 = <i>v</i><sub>0</sub><i>t</i>, então <i>v</i><sub>0</sub><sup>2</sup> = 9/<i>t</i><sup>2</sup> = 9/0,2 = 45 m<sup>2</sup>/s<sup>2</sup>.\n3. Com a mangueira na vertical e a mesma velocidade de saída, a altura máxima é <i>H</i> = <i>v</i><sub>0</sub><sup>2</sup>/(2<i>g</i>) = 45/20 = 2,25 m.\nGabarito: B.",
+  "topicos": [
+    "lancamento-horizontal",
+    "queda-livre-e-lancamento-vertical",
+    "conservacao-da-energia-mecanica"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-08T22:54:03.000Z",
+  "atualizadoEm": "2026-11-08T22:57:26.000Z",
+  "revisao": {
+    "notas": "Gabarito da resolução própria; confere com o gabarito do caderno amarelo publicado pela Estratégia Vestibulares. Trocar para 'oficial' quando houver o PDF do INEP (2022_GB_impresso_D2_CD5.pdf). Camada de texto do caderno parcialmente cifrada: fidelidade conferida pela imagem e pelo OCR."
+  }
+}

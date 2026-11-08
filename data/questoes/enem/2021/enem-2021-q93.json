@@ -1,0 +1,28 @@
+{
+  "id": "enem-2021-q93",
+  "banca": "ENEM",
+  "ano": 2021,
+  "numero": "93",
+  "fase": "2º dia · Caderno Amarelo",
+  "fonte": {
+    "descricao": "INEP, ENEM 2021, 2º dia (Ciências da Natureza e Matemática), caderno de questões aplicado, Caderno 5 Amarelo"
+  },
+  "enunciado": "O alcoolômetro Gay Lussac é um instrumento destinado a medir o teor de álcool, em porcentagem de volume (v/v), de soluções de água e álcool na faixa de 0 °GL a 100 °GL, com divisões de 0,1 °GL. A concepção do alcoolômetro se baseia no princípio de flutuabilidade de Arquimedes, semelhante ao funcionamento de um densímetro. A escala do instrumento é aferida a 20 °C, sendo necessária a correção da medida, caso a temperatura da solução não esteja na temperatura de aferição. É apresentada parte da tabela de correção de um alcoolômetro, com a temperatura.\n\n[[figura 1]]\n\n<b>Manual alcoolômetro Gay Lussac</b>. Disponível em: www.incoterm.com.br. Acesso em: 4 dez. 2018 (adaptado).\n\nÉ necessária a correção da medida do instrumento, pois um aumento na temperatura promove o(a)\n\n(A) aumento da dissociação da água.\n(B) aumento da densidade da água e do álcool.\n(C) mudança do volume dos materiais por dilatação.\n(D) aumento da concentração de álcool durante a medida.\n(E) alteração das propriedades químicas da mistura álcool e água.",
+  "figuras": [
+    "enem-2021-q93-1.png"
+  ],
+  "gabarito": "C",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. O alcoolômetro é um densímetro: ele afunda mais ou menos conforme a densidade da solução, e a escala foi calibrada para 20 °C.\n2. Ao aquecer, a solução (e o próprio instrumento) se dilata: o volume aumenta e a densidade diminui, sem que a composição mude. O instrumento afunda mais e indica um teor diferente do real — por isso a tabela corrige a leitura (35,0 a 20 °C vira 34,6 a 21 °C etc.).\n3. As demais alternativas estão erradas: a densidade diminui (não aumenta), a concentração de álcool e as propriedades químicas não mudam e a dissociação da água é irrelevante.\nGabarito: C.",
+  "topicos": [
+    "dilatacao-dos-liquidos-e-comportamento-anomalo-da-agua",
+    "empuxo-e-principio-de-arquimedes",
+    "densidade-e-massa-especifica"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-08T23:00:51.000Z",
+  "atualizadoEm": "2026-11-08T23:06:47.000Z",
+  "revisao": {
+    "notas": "Gabarito da resolução própria; confere com o gabarito do caderno amarelo publicado pela Estratégia Vestibulares. Trocar para 'oficial' quando houver o PDF do INEP (2021_GB_impresso_D2_CD5.pdf). Camada de texto do caderno cifrada: fidelidade conferida pela imagem e pelo OCR."
+  }
+}

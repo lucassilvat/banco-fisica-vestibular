@@ -1,0 +1,27 @@
+{
+  "id": "enem-2018-q118",
+  "banca": "ENEM",
+  "ano": 2018,
+  "numero": "118",
+  "fase": "2º dia · Caderno Amarelo",
+  "fonte": {
+    "descricao": "INEP, ENEM 2018, 2º dia (Ciências da Natureza e Matemática), caderno de questões aplicado, Caderno 5 Amarelo"
+  },
+  "enunciado": "As pessoas que utilizam objetos cujo princípio de funcionamento é o mesmo do das alavancas aplicam uma força, chamada de força potente, em um dado ponto da barra, para superar ou equilibrar uma segunda força, chamada de resistente, em outro ponto da barra. Por causa das diferentes distâncias entre os pontos de aplicação das forças, potente e resistente, os seus efeitos também são diferentes. A figura mostra alguns exemplos desses objetos.\n\n[[figura 1]]\n\nEm qual dos objetos a força potente é maior que a força resistente?\n\n(A) Pinça.\n(B) Alicate.\n(C) Quebra-nozes.\n(D) Carrinho de mão.\n(E) Abridor de garrafa.",
+  "figuras": [
+    "enem-2018-q118-1.png"
+  ],
+  "gabarito": "A",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. Em equilíbrio, os momentos se igualam: <i>F</i><sub>potente</sub> · <i>b</i><sub>potente</sub> = <i>F</i><sub>resistente</sub> · <i>b</i><sub>resistente</sub>. A força potente é maior quando seu braço é menor que o da resistente.\n2. Na pinça (alavanca interpotente), o apoio fica numa ponta, a força resistente na outra ponta e a mão aperta no meio: o braço da força potente é menor, então ela é maior que a resistente. A pinça ganha precisão, não força.\n3. Alicate (interfixa com braço longo), quebra-nozes, carrinho de mão e abridor de garrafa (inter-resistentes) multiplicam a força: neles a potente é menor que a resistente.\nGabarito: A.",
+  "topicos": [
+    "alavancas-e-maquinas-simples",
+    "momento-de-uma-forca-torque"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-08T23:23:18.000Z",
+  "atualizadoEm": "2026-11-08T23:26:35.000Z",
+  "revisao": {
+    "notas": "Gabarito da resolução própria; confere com o gabarito oficial do caderno amarelo reproduzido pelo Guia da Carreira. Trocar para 'oficial' quando houver o PDF do INEP (2018_GB_impresso_D2_CD5.pdf). Camada de texto do caderno por OCR: fidelidade conferida pela imagem."
+  }
+}

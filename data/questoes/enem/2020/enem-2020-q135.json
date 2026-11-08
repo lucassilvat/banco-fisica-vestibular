@@ -1,0 +1,30 @@
+{
+  "id": "enem-2020-q135",
+  "banca": "ENEM",
+  "ano": 2020,
+  "numero": "135",
+  "fase": "2º dia · Caderno Amarelo",
+  "fonte": {
+    "descricao": "INEP, ENEM 2020, 2º dia (Ciências da Natureza e Matemática), caderno de questões aplicado, Caderno 5 Amarelo"
+  },
+  "enunciado": "A Torre Eiffel, com seus 324 metros de altura, feita com treliças de ferro, pesava 7 300 toneladas quando terminou de ser construída em 1889. Um arquiteto resolve construir um protótipo dessa torre em escala 1:100, usando os mesmos materiais (cada dimensão linear em escala de 1:100 do monumento real). Considere que a torre real tenha uma massa M<sub>torre</sub> e exerça na fundação sobre a qual foi erguida uma pressão P<sub>torre</sub>. O modelo construído pelo arquiteto terá uma massa M<sub>modelo</sub> e exercerá uma pressão P<sub>modelo</sub>.\n\n[[figura 1]]\n\nComo a pressão exercida pela torre se compara com a pressão exercida pelo protótipo? Ou seja, qual é a razão entre as pressões (P<sub>torre</sub>)/(P<sub>modelo</sub>) ?\n\n(A) 10<sup>0</sup>\n(B) 10<sup>1</sup>\n(C) 10<sup>2</sup>\n(D) 10<sup>4</sup>\n(E) 10<sup>6</sup>",
+  "figuras": [
+    "enem-2020-q135-1.png"
+  ],
+  "gabarito": "C",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. Com o mesmo material (mesma densidade), a massa é proporcional ao volume, que escala com o cubo das dimensões: M<sub>torre</sub>/M<sub>modelo</sub> = 100<sup>3</sup> = 10<sup>6</sup>.\n2. A área de apoio escala com o quadrado das dimensões: <i>A</i><sub>torre</sub>/<i>A</i><sub>modelo</sub> = 100<sup>2</sup> = 10<sup>4</sup>.\n3. Pressão = peso/área: P<sub>torre</sub>/P<sub>modelo</sub> = 10<sup>6</sup>/10<sup>4</sup> = 10<sup>2</sup>.\nGabarito: C.",
+  "topicos": [
+    "pressao",
+    "densidade-e-massa-especifica"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-08T23:09:55.000Z",
+  "atualizadoEm": "2026-11-08T23:14:09.000Z",
+  "revisao": {
+    "notas": "Gabarito da resolução própria; não foi possível conferir com um gabarito publicado do caderno amarelo nesta sessão. Trocar para 'oficial' quando houver o PDF do INEP (2020_GB_impresso_D2_CD5.pdf). A única anulação de Ciências da Natureza no caderno amarelo (Q114) não é de Física. 'Eiffel' aparece no PDF com a ligadura 'ﬀ'.",
+    "divergenciasAceitas": [
+      "Eiffel"
+    ]
+  }
+}

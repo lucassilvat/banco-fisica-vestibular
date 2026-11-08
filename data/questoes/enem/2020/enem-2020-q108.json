@@ -1,0 +1,30 @@
+{
+  "id": "enem-2020-q108",
+  "banca": "ENEM",
+  "ano": 2020,
+  "numero": "108",
+  "fase": "2º dia · Caderno Amarelo",
+  "fonte": {
+    "descricao": "INEP, ENEM 2020, 2º dia (Ciências da Natureza e Matemática), caderno de questões aplicado, Caderno 5 Amarelo"
+  },
+  "enunciado": "Nos desenhos animados, com frequência se vê um personagem correndo na direção de um abismo, mas, ao invés de cair, ele continua andando no vazio e só quando percebe que não há nada sob seus pés é que ele para de andar e cai verticalmente. No entanto, para observar uma trajetória de queda num experimento real, pode-se lançar uma bolinha, com velocidade constante (V<sub>0</sub>), sobre a superfície de uma mesa e verificar o seu movimento de queda até o chão.\n\nQual figura melhor representa a trajetória de queda da bolinha?\n\n(A)\n[[figura 1]]\n(B)\n[[figura 2]]\n(C)\n[[figura 3]]\n(D)\n[[figura 4]]\n(E)\n[[figura 5]]",
+  "figuras": [
+    "enem-2020-q108-1.png",
+    "enem-2020-q108-2.png",
+    "enem-2020-q108-3.png",
+    "enem-2020-q108-4.png",
+    "enem-2020-q108-5.png"
+  ],
+  "gabarito": "D",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. Ao deixar a mesa, a bolinha mantém a velocidade horizontal V<sub>0</sub> (nenhuma força horizontal, desprezando o ar) e passa a acelerar verticalmente com <i>g</i>: é um lançamento horizontal.\n2. A trajetória é um arco de parábola que sai tangente à horizontal na borda da mesa e vai ficando cada vez mais inclinada para baixo.\n3. A não é real (movimento de desenho animado), B é reta, C é queda vertical e E sai inclinada para baixo e fica mais horizontal no fim. A figura D mostra a parábola correta.\nGabarito: D.",
+  "topicos": [
+    "lancamento-horizontal"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-08T23:09:55.000Z",
+  "atualizadoEm": "2026-11-08T23:14:09.000Z",
+  "revisao": {
+    "notas": "Gabarito da resolução própria; não foi possível conferir com um gabarito publicado do caderno amarelo nesta sessão. Trocar para 'oficial' quando houver o PDF do INEP (2020_GB_impresso_D2_CD5.pdf). A única anulação de Ciências da Natureza no caderno amarelo (Q114) não é de Física."
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "id": "enem-2017-q113",
+  "banca": "ENEM",
+  "ano": 2017,
+  "numero": "113",
+  "fase": "2º dia · Caderno Amarelo",
+  "fonte": {
+    "descricao": "INEP, ENEM 2017, 2º dia (Ciências da Natureza e Matemática), caderno de questões aplicado, Caderno 5 Amarelo"
+  },
+  "enunciado": "O trombone de Quincke é um dispositivo experimental utilizado para demonstrar o fenômeno da interferência de ondas sonoras. Uma fonte emite ondas sonoras de determinada frequência na entrada do dispositivo. Essas ondas se dividem pelos dois caminhos (<i>ADC</i> e <i>AEC</i>) e se encontram no ponto <i>C</i>, a saída do dispositivo, onde se posiciona um detector. O trajeto <i>ADC</i> pode ser aumentado pelo deslocamento dessa parte do dispositivo. Com o trajeto <i>ADC</i> igual ao <i>AEC</i>, capta-se um som muito intenso na saída. Entretanto, aumentando-se gradativamente o trajeto <i>ADC</i>, até que ele fique como mostrado na figura, a intensidade do som na saída fica praticamente nula. Desta forma, conhecida a velocidade do som no interior do tubo (320 m/s), é possível determinar o valor da frequência do som produzido pela fonte.\n\n[[figura 1]]\n\nO valor da frequência, em hertz, do som produzido pela fonte sonora é\n\n(A) 3 200.\n(B) 1 600.\n(C) 800.\n(D) 640.\n(E) 400.",
+  "figuras": [
+    "enem-2017-q113-1.png"
+  ],
+  "gabarito": "C",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. Com os caminhos iguais, há interferência construtiva. Ao alongar <i>ADC</i>, o primeiro mínimo (som praticamente nulo) ocorre quando a diferença de caminhos é meio comprimento de onda.\n2. Pela figura, o lado <i>D</i> se estende 40 cm e o lado <i>E</i>, 30 cm: o trecho deslocado foi puxado 10 cm, e como o tubo vai e volta, o caminho <i>ADC</i> ficou 2 · 10 = 20 cm maior que <i>AEC</i>.\n3. λ/2 = 20 cm ⇒ λ = 0,40 m. Frequência: <i>f</i> = <i>v</i>/λ = 320/0,40 = 800 Hz.\nGabarito: C.",
+  "topicos": [
+    "interferencia",
+    "equacao-fundamental-da-ondulatoria-v-f",
+    "tubos-sonoros"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-08T23:30:12.000Z",
+  "atualizadoEm": "2026-11-08T23:33:00.000Z",
+  "revisao": {
+    "notas": "Gabarito da resolução própria; não foi encontrado um gabarito do caderno amarelo acessível nesta sessão. Q97 confere com a questão correspondente do caderno azul (Descomplica). Trocar para 'oficial' quando houver o PDF do INEP (2017_GB_impresso_D2_CD5.pdf)."
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "enem-2025-q118",
+  "banca": "ENEM",
+  "ano": 2025,
+  "numero": "118",
+  "fase": "2º dia · Caderno Amarelo",
+  "fonte": {
+    "descricao": "INEP, ENEM 2025, 2º dia (Ciências da Natureza e Matemática), caderno de questões aplicado, Caderno 5 Amarelo"
+  },
+  "enunciado": "A figura ilustra as informações contidas no manual de um sistema de alarme que utiliza transmissores e receptores de radiação eletromagnética para a detecção de movimento. O receptor é regulado pelo tempo de resposta, que corresponde ao intervalo de tempo necessário para o corpo do invasor atravessar completamente o feixe, de diâmetro d = 15 cm. Considere que a menor porção do corpo de um invasor é a sua posição de perfil, cuja espessura típica é 20 cm. São indicados cinco possíveis movimentos de um invasor e suas velocidades típicas, que devem ser observadas para a escolha do tempo de resposta.\n\n[[figura 1]]\n\n<b>Manual de referência e instalação</b>: sensor de barreira ativo. Disponível em: cs.ind.br. Acesso em: 2 dez. 2021 (adaptado).\n\nNesse sistema, o menor tempo de resposta, em milissegundo, que garante a detecção de um possível invasor é mais próximo de\n\n(A) 30 ms.\n(B) 70 ms.\n(C) 300 ms.\n(D) 400 ms.\n(E) 700 ms.",
+  "figuras": [
+    "enem-2025-q118-1.png"
+  ],
+  "gabarito": "B",
+  "gabaritoFonte": "oficial",
+  "resolucao": "1. Para atravessar completamente o feixe, o corpo percorre o diâmetro do feixe mais a própria espessura (como um trem atravessando uma ponte): Δ<i>s</i> = 15 cm + 20 cm = 35 cm = 0,35 m.\n2. O tempo de resposta precisa ser curto o bastante para detectar o movimento mais rápido da figura, 5,0 m/s: Δ<i>t</i> = Δ<i>s</i>/<i>v</i> = 0,35/5,0 = 0,07 s = 70 ms.\n3. Movimentos mais lentos levam mais tempo para atravessar o feixe e também são detectados com esse ajuste.\nGabarito: B.",
+  "topicos": [
+    "movimento-retilineo-uniforme-mru",
+    "velocidade-media-e-aceleracao-media"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-08T21:50:11.000Z",
+  "atualizadoEm": "2026-11-08T21:53:49.000Z",
+  "revisao": {
+    "notas": "Gabarito oficial do INEP (caderno 5, amarelo, aplicação regular), lido na transcrição publicada pelo O Povo em 19/11/2025; o PDF do INEP não pôde ser baixado nesta sessão. Conferido com a resolução."
+  }
+}

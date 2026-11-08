@@ -1,0 +1,25 @@
+{
+  "id": "enem-2019-q100",
+  "banca": "ENEM",
+  "ano": 2019,
+  "numero": "100",
+  "fase": "2º dia · Caderno Amarelo",
+  "fonte": {
+    "descricao": "INEP, ENEM 2019, 2º dia (Ciências da Natureza e Matemática), caderno de questões aplicado, Caderno 5 Amarelo"
+  },
+  "enunciado": "Dois amigos se encontram em um posto de gasolina para calibrar os pneus de suas bicicletas. Uma das bicicletas é de corrida (bicicleta <b>A</b>) e a outra, de passeio (bicicleta <b>B</b>). Os pneus de ambas as bicicletas têm as mesmas características, exceto que a largura dos pneus de <b>A</b> é menor que a largura dos pneus de <b>B</b>. Ao calibrarem os pneus das bicicletas <b>A</b> e <b>B</b>, respectivamente com pressões de calibração <i>p</i><sub><b>A</b></sub> e <i>p</i><sub><b>B</b></sub>, os amigos observam que o pneu da bicicleta <b>A</b> deforma, sob mesmos esforços, muito menos que o pneu da bicicleta <b>B</b>. Pode-se considerar que as massas de ar comprimido no pneu da bicicleta <b>A</b>, <i>m</i><sub><b>A</b></sub>, e no pneu da bicicleta <b>B</b>, <i>m</i><sub><b>B</b></sub>, são diretamente proporcionais aos seus volumes.\n\nComparando as pressões e massas de ar comprimido nos pneus das bicicletas, temos:\n\n(A) <i>p</i><sub><b>A</b></sub> < <i>p</i><sub><b>B</b></sub> e <i>m</i><sub><b>A</b></sub> < <i>m</i><sub><b>B</b></sub>\n(B) <i>p</i><sub><b>A</b></sub> > <i>p</i><sub><b>B</b></sub> e <i>m</i><sub><b>A</b></sub> < <i>m</i><sub><b>B</b></sub>\n(C) <i>p</i><sub><b>A</b></sub> > <i>p</i><sub><b>B</b></sub> e <i>m</i><sub><b>A</b></sub> = <i>m</i><sub><b>B</b></sub>\n(D) <i>p</i><sub><b>A</b></sub> < <i>p</i><sub><b>B</b></sub> e <i>m</i><sub><b>A</b></sub> = <i>m</i><sub><b>B</b></sub>\n(E) <i>p</i><sub><b>A</b></sub> > <i>p</i><sub><b>B</b></sub> e <i>m</i><sub><b>A</b></sub> > <i>m</i><sub><b>B</b></sub>",
+  "figuras": [],
+  "gabarito": "B",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. O pneu de A deforma muito menos sob os mesmos esforços: ele está mais \"duro\", ou seja, com maior pressão interna. Logo <i>p</i><sub>A</sub> > <i>p</i><sub>B</sub>.\n2. Os pneus são iguais exceto pela largura: o de A é mais estreito e tem menor volume. Como o enunciado manda considerar as massas de ar proporcionais aos volumes, <i>m</i><sub>A</sub> < <i>m</i><sub>B</sub>.\nGabarito: B.",
+  "topicos": [
+    "pressao",
+    "gas-ideal-e-equacao-de-clapeyron"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-08T23:17:39.000Z",
+  "atualizadoEm": "2026-11-08T23:21:22.000Z",
+  "revisao": {
+    "notas": "Gabarito da resolução própria. Q91, Q95, Q97, Q100 e Q103 conferem com o gabarito do caderno amarelo publicado pelo Estratégia (blog, 10 nov. 2019); Q120 e Q129 conferem com as questões correspondentes do caderno azul (Descomplica). Trocar para 'oficial' quando houver o PDF do INEP (2019_GB_impresso_D2_CD5.pdf)."
+  }
+}

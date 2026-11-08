@@ -1,0 +1,26 @@
+{
+  "id": "enem-2022-q92",
+  "banca": "ENEM",
+  "ano": 2022,
+  "numero": "92",
+  "fase": "2º dia · Caderno Amarelo",
+  "fonte": {
+    "descricao": "INEP, ENEM 2022, 2º dia (Ciências da Natureza e Matemática), caderno de questões aplicado, Caderno 5 Amarelo"
+  },
+  "enunciado": "Em um autódromo, os carros podem derrapar em uma curva e bater na parede de proteção. Para diminuir o impacto de uma batida, pode-se colocar na parede uma barreira de pneus, isso faz com que a colisão seja mais demorada e o carro retorne com velocidade reduzida. Outra opção é colocar uma barreira de blocos de um material que se deforma, tornando-a tão demorada quanto a colisão com os pneus, mas que não permite a volta do carro após a colisão.\n\nComparando as duas situações, como ficam a força média exercida sobre o carro e a energia mecânica dissipada?\n\n(A) A força é maior na colisão com a barreira de pneus, e a energia dissipada é maior na colisão com a barreira de blocos.\n(B) A força é maior na colisão com a barreira de blocos, e a energia dissipada é maior na colisão com a barreira de pneus.\n(C) A força é maior na colisão com a barreira de blocos, e a energia dissipada é a mesma nas duas situações.\n(D) A força é maior na colisão com a barreira de pneus, e a energia dissipada é maior na colisão com a barreira de pneus.\n(E) A força é maior na colisão com a barreira de blocos, e a energia dissipada é maior na colisão com a barreira de blocos.",
+  "figuras": [],
+  "gabarito": "A",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. Teorema do impulso: <i>F</i><sub>média</sub> · Δ<i>t</i> = Δ<i>Q</i>. As duas colisões duram o mesmo tempo, então a força média é maior onde a variação da quantidade de movimento é maior.\n2. Nos blocos o carro para: |Δ<i>Q</i>| = <i>mv</i>. Nos pneus ele para e volta com velocidade <i>v</i>′: |Δ<i>Q</i>| = <i>m</i>(<i>v</i> + <i>v</i>′), que é maior. A força média é maior com a barreira de pneus.\n3. Energia dissipada: nos blocos o carro perde toda a energia cinética; nos pneus parte dela é devolvida (o carro volta com <i>v</i>′). A energia dissipada é maior com a barreira de blocos.\nGabarito: A.",
+  "topicos": [
+    "impulso-e-quantidade-de-movimento",
+    "colisoes-elasticas-e-inelasticas",
+    "sistemas-dissipativos-perda-de-energia-mecanica"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-08T22:54:03.000Z",
+  "atualizadoEm": "2026-11-08T22:57:26.000Z",
+  "revisao": {
+    "notas": "Gabarito da resolução própria; confere com o gabarito do caderno amarelo publicado pela Estratégia Vestibulares. Trocar para 'oficial' quando houver o PDF do INEP (2022_GB_impresso_D2_CD5.pdf). Camada de texto do caderno parcialmente cifrada: fidelidade conferida pela imagem e pelo OCR."
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "enem-2021-q116",
+  "banca": "ENEM",
+  "ano": 2021,
+  "numero": "116",
+  "fase": "2º dia · Caderno Amarelo",
+  "fonte": {
+    "descricao": "INEP, ENEM 2021, 2º dia (Ciências da Natureza e Matemática), caderno de questões aplicado, Caderno 5 Amarelo"
+  },
+  "enunciado": "<b>TEXTO I</b>\n\nNo cordel intitulado <i>Senhor dos Anéis</i>, de autoria de Gonçalo Ferreira da Silva, lê-se a sextilha:\n\nA distância em relação\nAo nosso planeta amado\nPouco menos que a do Sol\nEle está distanciado\nE menos denso que a água\nQuando no normal estado\n\nMEDEIROS, A.; AGRA, J. T. M., A astronomia na literatura de cordel, <b>Física na Escola</b>, n. 1, abr. 2010 (fragmento).\n\n<b>TEXTO II</b>\n\nDistâncias médias dos planetas ao Sol e suas densidades médias\n\n[[figura 1]]\n\nu.a. = 149 600 000 km, é a unidade astronômica, *Planeta clássico, **Planeta-anão\n\n<b>Características dos planetas</b>. Disponível em: www.astronoo.com. Acesso em: 8 nov. 2019 (adaptado).\n\nConsiderando os versos da sextilha e as informações da tabela, a qual planeta o cordel faz referência?\n\n(A) Mercúrio.\n(B) Júpiter.\n(C) Urano.\n(D) Saturno.\n(E) Netuno.",
+  "figuras": [
+    "enem-2021-q116-1.png"
+  ],
+  "gabarito": "D",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. \"Menos denso que a água\" significa densidade relativa menor que 1. Na tabela, o único corpo com essa propriedade é Saturno (0,7).\n2. Confere com a distância: Saturno está a 9,6 u.a. do Sol; da Terra (a 1 u.a. do Sol), sua distância média é da ordem de 9,6 − 1 ≈ 8,6 u.a., um pouco menos que a distância de Saturno ao Sol, como dizem os versos.\n3. O título do cordel, <i>Senhor dos Anéis</i>, também aponta para Saturno.\nGabarito: D.",
+  "topicos": [
+    "densidade-e-massa-especifica",
+    "empuxo-e-principio-de-arquimedes",
+    "leis-de-kepler"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-08T23:00:51.000Z",
+  "atualizadoEm": "2026-11-08T23:06:47.000Z",
+  "revisao": {
+    "notas": "Gabarito da resolução própria; confere com o gabarito do caderno amarelo publicado pela Estratégia Vestibulares. Trocar para 'oficial' quando houver o PDF do INEP (2021_GB_impresso_D2_CD5.pdf). Camada de texto do caderno cifrada: fidelidade conferida pela imagem e pelo OCR. O OCR não captou a referência do Texto I (letra miúda); conferida na imagem do caderno.",
+    "divergenciasAceitas": [
+      "AGRA",
+      "MEDEIROS",
+      "astronomia",
+      "fragmento",
+      "literatura"
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "enem-2024-q106",
+  "banca": "ENEM",
+  "ano": 2024,
+  "numero": "106",
+  "fase": "2º dia · Caderno Amarelo",
+  "fonte": {
+    "descricao": "INEP, ENEM 2024, 2º dia (Ciências da Natureza e Matemática), caderno de questões aplicado, Caderno 5 Amarelo"
+  },
+  "enunciado": "Na tirinha, Calvin se divertia em um balanço antes de soltar-se dele e cair ao chão. Em sua fala, ele demonstra ter imaginado que permaneceria em movimento circular. Porém, a força gravitacional, que permanece atuando no garoto, modifica a direção de sua velocidade, fazendo com que ele chegue ao chão da maneira ilustrada no último quadrinho.\n\n[[figura 1]]\n\nWATTERSON, B. Disponível em: https://tiras-do-calvin.tumblr.com. Acesso em: 19 nov. 2021 (adaptado).\n\nQual vetor representa a força resultante exercida pelo chão sobre Calvin no exato momento em que ele toca o chão?\n\n(A)\n[[figura 2]]\n(B)\n[[figura 3]]\n(C)\n[[figura 4]]\n(D)\n[[figura 5]]\n(E)\n[[figura 6]]",
+  "figuras": [
+    "enem-2024-q106-1.png",
+    "enem-2024-q106-2.png",
+    "enem-2024-q106-3.png",
+    "enem-2024-q106-4.png",
+    "enem-2024-q106-5.png",
+    "enem-2024-q106-6.png"
+  ],
+  "gabarito": "A",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. O chão exerce sobre Calvin duas forças de contato: a normal, perpendicular ao chão e para cima, e o atrito, paralelo ao chão e contrário ao deslizamento.\n2. Pelos quadrinhos, ao se soltar Calvin é lançado para a esquerda (as linhas de movimento ficam atrás dele, à direita). Ao tocar o chão, ele tende a deslizar para a esquerda, e o atrito aponta para a direita.\n3. A resultante das forças do chão (normal para cima + atrito para a direita) é inclinada para cima e para a direita.\nGabarito: A.",
+  "topicos": [
+    "forca-de-atrito-estatico-e-cinetico",
+    "forca-peso-e-forca-normal",
+    "vetores-soma-e-decomposicao"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-08T22:33:14.000Z",
+  "atualizadoEm": "2026-11-08T22:36:47.000Z",
+  "revisao": {
+    "notas": "Gabarito da resolução própria; confere com o gabarito do caderno amarelo publicado pela Estratégia Vestibulares, que incorpora as retificações do gabarito oficial do INEP. Trocar para 'oficial' quando houver o PDF do INEP (2024_GB_impresso_D2_CD5.pdf)."
+  }
+}

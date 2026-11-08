@@ -1,0 +1,24 @@
+{
+  "id": "enem-2025-q97",
+  "banca": "ENEM",
+  "ano": 2025,
+  "numero": "97",
+  "fase": "2º dia · Caderno Amarelo",
+  "fonte": {
+    "descricao": "INEP, ENEM 2025, 2º dia (Ciências da Natureza e Matemática), caderno de questões aplicado, Caderno 5 Amarelo"
+  },
+  "enunciado": "<b>Por que os olhos ficam vermelhos em algumas fotografias?</b>\n\nEm fotos tiradas com câmeras fotográficas antigas, por vezes as pessoas aparecem com os olhos vermelhos. Isso ocorre porque a luz do flash da câmera incide diretamente no globo ocular, sendo refletida por uma região repleta de vasos sanguíneos.\n\nDisponível em: www.uol.com.br. Acesso em: 14 jun. 2017 (adaptado).\n\nEsse efeito é mais comum à noite ou em lugares pouco iluminados porque, com a pupila\n\n(A) dilatada, chega mais luz à retina.\n(B) retraída, chega mais luz vermelha à retina.\n(C) retraída, chega mais luz vermelha aos bastonetes.\n(D) retraída, chegam menos luzes azul e verde aos cones.\n(E) dilatada, chegam menos luzes azul e verde aos bastonetes.",
+  "figuras": [],
+  "gabarito": "A",
+  "gabaritoFonte": "oficial",
+  "resolucao": "1. A pupila funciona como o diafragma do olho: em ambientes pouco iluminados ela se dilata para deixar entrar mais luz (elimina B, C e D, que falam em pupila retraída).\n2. O flash é rápido demais para a pupila se contrair a tempo. Com a pupila dilatada, uma quantidade maior de luz do flash chega ao fundo do olho (retina e coroide, ricas em vasos sanguíneos).\n3. Essa região reflete principalmente o vermelho, e parte da luz refletida volta pela pupila larga até a câmera: os olhos aparecem vermelhos.\n4. A alternativa E erra ao dizer que chegam menos luzes azul e verde; o efeito se explica por chegar mais luz, não por filtrar cores.\nGabarito: A.",
+  "topicos": [
+    "optica-da-visao-e-defeitos-visuais"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-08T21:50:11.000Z",
+  "atualizadoEm": "2026-11-08T21:53:49.000Z",
+  "revisao": {
+    "notas": "Gabarito oficial do INEP (caderno 5, amarelo, aplicação regular), lido na transcrição publicada pelo O Povo em 19/11/2025; o PDF do INEP não pôde ser baixado nesta sessão. Conferido com a resolução."
+  }
+}

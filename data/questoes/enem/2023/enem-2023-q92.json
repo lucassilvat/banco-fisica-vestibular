@@ -1,0 +1,25 @@
+{
+  "id": "enem-2023-q92",
+  "banca": "ENEM",
+  "ano": 2023,
+  "numero": "92",
+  "fase": "2º dia · Caderno Amarelo",
+  "fonte": {
+    "descricao": "INEP, ENEM 2023, 2º dia (Ciências da Natureza e Matemática), caderno de questões aplicado, Caderno 5 Amarelo"
+  },
+  "enunciado": "Informações digitais — dados — são gravadas em discos ópticos, como CD e DVD, na forma de cavidades microscópicas. A gravação e a leitura óptica dessas informações são realizadas por um laser (fonte de luz monocromática). Quanto menores as dimensões dessas cavidades, mais dados são armazenados na mesma área do disco. O fator limitante para a leitura de dados é o espalhamento da luz pelo efeito de difração, fenômeno que ocorre quando a luz atravessa um obstáculo com dimensões da ordem de seu comprimento de onda. Essa limitação motivou o desenvolvimento de lasers com emissão em menores comprimentos de onda, possibilitando armazenar e ler dados em cavidades cada vez menores.\n\nEm qual região espectral se situa o comprimento de onda do laser que otimiza o armazenamento e a leitura de dados em discos de uma mesma área?\n\n(A) Violeta.\n(B) Azul.\n(C) Verde.\n(D) Vermelho.\n(E) Infravermelho.",
+  "figuras": [],
+  "gabarito": "A",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. A difração é significativa quando as cavidades têm dimensões da ordem do comprimento de onda. Para ler cavidades menores sem espalhamento, o laser deve ter comprimento de onda menor.\n2. Entre as opções, a ordem de comprimentos de onda é: infravermelho > vermelho > verde > azul > violeta.\n3. O menor comprimento de onda é o do violeta (por isso os discos de alta capacidade usam laser violeta, o \"Blu-ray\").\nGabarito: A.",
+  "topicos": [
+    "difracao",
+    "espectro-eletromagnetico"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-08T22:47:12.000Z",
+  "atualizadoEm": "2026-11-08T22:50:32.000Z",
+  "revisao": {
+    "notas": "Gabarito da resolução própria; confere com o gabarito do caderno amarelo publicado pela Estratégia Vestibulares. Trocar para 'oficial' quando houver o PDF do INEP (2023_GB_impresso_D2_CD5.pdf)."
+  }
+}

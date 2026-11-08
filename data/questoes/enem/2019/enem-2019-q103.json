@@ -1,0 +1,27 @@
+{
+  "id": "enem-2019-q103",
+  "banca": "ENEM",
+  "ano": 2019,
+  "numero": "103",
+  "fase": "2º dia · Caderno Amarelo",
+  "fonte": {
+    "descricao": "INEP, ENEM 2019, 2º dia (Ciências da Natureza e Matemática), caderno de questões aplicado, Caderno 5 Amarelo"
+  },
+  "enunciado": "Os olhos humanos normalmente têm três tipos de cones responsáveis pela percepção das cores: um tipo para tons vermelhos, um para tons azuis e outro para tons verdes. As diversas cores que enxergamos são o resultado da percepção das cores básicas, como indica a figura.\n\n[[figura 1]]\n\nA protanopia é um tipo de daltonismo em que há diminuição ou ausência de receptores da cor vermelha. Considere um teste com dois voluntários: uma pessoa com visão normal e outra com caso severo de protanopia. Nesse teste, eles devem escrever a cor dos cartões que lhes são mostrados. São utilizadas as cores indicadas na figura.\n\nPara qual cartão os dois voluntários identificarão a mesma cor?\n\n(A) Vermelho.\n(B) Magenta.\n(C) Amarelo.\n(D) Branco.\n(E) Azul.",
+  "figuras": [
+    "enem-2019-q103-1.png"
+  ],
+  "gabarito": "E",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. Pela figura, magenta = vermelho + azul, amarelo = vermelho + verde e branco = vermelho + verde + azul: todas essas cores dependem da percepção do vermelho.\n2. Sem os receptores do vermelho, o voluntário com protanopia não vê o cartão vermelho como vermelho e percebe magenta, amarelo e branco de forma diferente (só com as componentes azul e/ou verde).\n3. O azul não envolve o receptor do vermelho: os dois voluntários o identificam da mesma forma.\nGabarito: E.",
+  "topicos": [
+    "cor-dos-objetos",
+    "optica-da-visao-e-defeitos-visuais"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-08T23:17:39.000Z",
+  "atualizadoEm": "2026-11-08T23:21:22.000Z",
+  "revisao": {
+    "notas": "Gabarito da resolução própria. Q91, Q95, Q97, Q100 e Q103 conferem com o gabarito do caderno amarelo publicado pelo Estratégia (blog, 10 nov. 2019); Q120 e Q129 conferem com as questões correspondentes do caderno azul (Descomplica). Trocar para 'oficial' quando houver o PDF do INEP (2019_GB_impresso_D2_CD5.pdf)."
+  }
+}

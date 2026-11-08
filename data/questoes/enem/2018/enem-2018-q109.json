@@ -1,0 +1,29 @@
+{
+  "id": "enem-2018-q109",
+  "banca": "ENEM",
+  "ano": 2018,
+  "numero": "109",
+  "fase": "2º dia · Caderno Amarelo",
+  "fonte": {
+    "descricao": "INEP, ENEM 2018, 2º dia (Ciências da Natureza e Matemática), caderno de questões aplicado, Caderno 5 Amarelo"
+  },
+  "enunciado": "Alguns peixes, como o poraquê, a enguia-elétrica da Amazônia, podem produzir uma corrente elétrica quando se encontram em perigo. Um poraquê de 1 metro de comprimento, em perigo, produz uma corrente em torno de 2 ampères e uma voltagem de 600 volts.\n\nO quadro apresenta a potência aproximada de equipamentos elétricos.\n\n[[figura 1]]\n\nO equipamento elétrico que tem potência similar àquela produzida por esse peixe em perigo é o(a)\n\n(A) exaustor.\n(B) computador.\n(C) aspirador de pó.\n(D) churrasqueira elétrica.\n(E) secadora de roupas.",
+  "figuras": [
+    "enem-2018-q109-1.png"
+  ],
+  "gabarito": "D",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. Potência elétrica: <i>P</i> = <i>U</i> · <i>i</i> = 600 · 2 = 1 200 W.\n2. No quadro, a churrasqueira elétrica tem potência aproximada de 1 200 W.\nGabarito: D.",
+  "topicos": [
+    "potencia-eletrica-e-efeito-joule"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-08T23:23:18.000Z",
+  "atualizadoEm": "2026-11-08T23:26:35.000Z",
+  "revisao": {
+    "notas": "Gabarito da resolução própria; confere com o gabarito oficial do caderno amarelo reproduzido pelo Guia da Carreira. Trocar para 'oficial' quando houver o PDF do INEP (2018_GB_impresso_D2_CD5.pdf). Camada de texto do caderno por OCR: fidelidade conferida pela imagem. 'ampères' conferido na imagem do caderno (erro do OCR).",
+    "divergenciasAceitas": [
+      "ampères"
+    ]
+  }
+}

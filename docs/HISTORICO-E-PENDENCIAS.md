@@ -64,7 +64,54 @@ Para gravar questões, usam-se os lotes da etapa `publicar` (docs/WORKFLOW.md).
     ("Leia o texto para responder às questões...") repetidos em cada questão. A banca da
     Fuvest 2027 foi corrigida para "Fuvest" e o `registrar-prova` normaliza o nome.
 
+14. v1.8.0: ENEM 2025 (2º dia, caderno 5 amarelo), 14 questões. Primeira prova do ENEM.
+    Lista aprovada pelo Lucas para 2017–2025 (126 certas e 9 das 22 em dúvida):
+    - 2017: 93, 97, 99, 101, 103, 108, 111, 113, 123, 124, 125, 127, 130, 134
+    - 2018: 92, 96, 98, 103, 106, 109, 110, 117, 118, 122, 124, 127, 128, 131, 133
+    - 2019: 91, 95, 97, 100, 103, 107, 109, 113, 117, 120, 122, 124, 129, 132
+    - 2020: 92, 94, 96, 101, 106, 108, 109, 112, 113, 122, 125, 130, 131, 133, 134, 135
+    - 2021: 92, 93, 96, 99, 104, 105, 111, 112, 116, 117, 121, 126, 128, 134
+    - 2022: 92, 95, 96, 99, 101, 105, 108, 111, 115, 118, 119, 124, 126, 129, 132, 133
+    - 2023: 91, 92, 93, 95, 98, 101, 102, 106, 114, 115, 118, 119, 125, 130, 133, 135
+    - 2024: 95, 100, 101, 102, 103, 104, 106, 109, 110, 114, 117, 118, 119, 124, 126, 129
+    - 2025 (importada): 91, 97, 103, 104, 105, 113, 115, 118, 120, 124, 125, 128, 130, 135
+    Ficaram de fora, por decisão dele: 2017 Q91, Q102, Q121; 2018 Q100; 2019 Q116, Q131;
+    2020 Q99, Q118; 2021 Q127; 2022 Q130; 2024 Q98; 2025 Q101, Q110.
+    Particularidades do ENEM: as questões de Física vêm misturadas com Biologia e Química
+    (a triagem automática não basta); o segmentador acerta as 90 questões (91–180), mas as
+    regiões de coluna (x ≈ 0–283 e 258–567) sobrepõem a outra coluna e cortam questões que
+    mudam de coluna. Por isso a transcrição e as caixas das figuras foram feitas pela
+    imagem das colunas (página dividida em x ≈ 290). Os cadernos de 2022, 2024 e 2025 têm
+    marca d'água "ENEM20xx" na camada de texto.
+
+15. v1.9.0–v1.16.0: ENEM 2024 → 2017 (2º dia, caderno 5 amarelo), 121 questões, com as
+    listas do item 14. Com 2025, o ENEM soma 135 questões.
+    - Gabaritos: o download do INEP é bloqueado nesta sessão, então todos ficaram
+      `resolucao-propria`, com a fonte da conferência em `revisao.notas`: 2024–2021 pelo
+      Estratégia (caderno amarelo), 2018 pelo gabarito oficial reproduzido no Guia da
+      Carreira, 2019 em parte (Estratégia e questões correspondentes do caderno azul).
+      2020 e 2017 não tinham gabarito do amarelo acessível; só uma questão de cada ano foi
+      conferida pelo caderno azul. Todas as resoluções próprias bateram com as referências.
+    - Anulada: 2024 Q102 (gabarito pretendido B, com aviso no início da resolução, como na
+      Fuvest 2022 Q54). As anulações de 2020 (Q114) e 2021 não são de Física.
+    - Camada de texto: 2021 cifrada e 2018 por OCR (conferidos pela imagem); 2019 troca as
+      ligaduras "fi"/"fl"; 2017 e 2019 usam U+2126 para Ω (o banco usa U+03A9).
+    - Layout: várias questões ocupam a largura total da página (2023: páginas 2, 3, 10, 11,
+      13 e 15; 2021 Q104; 2020 Q106, Q125, Q131; 2019 Q100, Q107, Q124; 2018 Q128, Q131;
+      2017 Q103, Q130). Foram lidas e recortadas pela página inteira.
+    - Q125 de 2020 é uma tirinha (Garfield) reproduzida do caderno, como figura da prova.
+
 ## Pendências
+
+- **ENEM 2016**: falta o caderno do **1º dia** (Ciências Humanas e Ciências da Natureza):
+  o arquivo enviado (`enem-2016-caderno.pdf`) é o do 2º dia, Linguagens e Matemática, e
+  não foi registrado. Antes de transcrever, mostrar a lista de questões ao Lucas.
+- **Gabaritos oficiais do ENEM 2017–2025**: trocar `gabaritoFonte` para `oficial` com os
+  PDFs do INEP (`20xx_GB_impresso_D2_CD5.pdf`) quando puderem ser baixados ou o Lucas
+  enviar (registrar com `--tipo gabarito`). Prioridade: 2020 e 2017, que não foram
+  conferidos com nenhum gabarito do caderno amarelo. 2025 hoje é `oficial` lido em
+  transcrição jornalística.
+- **ENEM 2025 Q115 e 2024 Q102 anuladas**: como na Fuvest 2022 Q54, decidir se ficam no app.
 
 - **Ativar o GitHub Pages** (v1.4.0): Settings › Pages › Source: GitHub Actions. O plano
   gratuito exige repositório público; com repositório privado, só com GitHub Pro. O site

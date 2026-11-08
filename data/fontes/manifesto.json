@@ -288,6 +288,117 @@
       "url": "",
       "sha256": "3f3447bdeff868b4215ca0fb7c6225b719dd97d71a697dc59c75e2cc3667c61c",
       "paginas": 32
+    },
+    {
+      "banca": "ENEM",
+      "ano": 2017,
+      "versao": "",
+      "tipo": "caderno",
+      "descricao": "INEP, ENEM 2017, 2º dia (Ciências da Natureza e Matemática), caderno de questões aplicado, Caderno 5 Amarelo",
+      "fase": "2º dia · Caderno Amarelo",
+      "arquivoLocal": "fontes/enem-2017-caderno.pdf",
+      "url": "",
+      "sha256": "456cc94ca81dea02cc89a15d2e8a253f70e5b049e99d875025dd8dba5c2460eb",
+      "paginas": 32
+    },
+    {
+      "banca": "ENEM",
+      "ano": 2018,
+      "versao": "",
+      "tipo": "caderno",
+      "descricao": "INEP, ENEM 2018, 2º dia (Ciências da Natureza e Matemática), caderno de questões aplicado, Caderno 5 Amarelo",
+      "fase": "2º dia · Caderno Amarelo",
+      "arquivoLocal": "fontes/enem-2018-caderno.pdf",
+      "url": "",
+      "sha256": "79345b9540b7b584858fefbe4a7c50064dc385b04be288b9828ade11b288492d",
+      "paginas": 32,
+      "camadaTexto": "ocr"
+    },
+    {
+      "banca": "ENEM",
+      "ano": 2019,
+      "versao": "",
+      "tipo": "caderno",
+      "descricao": "INEP, ENEM 2019, 2º dia (Ciências da Natureza e Matemática), caderno de questões aplicado, Caderno 5 Amarelo",
+      "fase": "2º dia · Caderno Amarelo",
+      "arquivoLocal": "fontes/enem-2019-caderno.pdf",
+      "url": "",
+      "sha256": "83727df7025a435404fe1c98ee323ad6501b9d37262bdfcfccc77c193d278621",
+      "paginas": 32
+    },
+    {
+      "banca": "ENEM",
+      "ano": 2020,
+      "versao": "",
+      "tipo": "caderno",
+      "descricao": "INEP, ENEM 2020, 2º dia (Ciências da Natureza e Matemática), caderno de questões aplicado, Caderno 5 Amarelo",
+      "fase": "2º dia · Caderno Amarelo",
+      "arquivoLocal": "fontes/enem-2020-caderno.pdf",
+      "url": "",
+      "sha256": "854495fd40b9bd61b7280f7df87b7154dadb4e2ab705f12a3c757579f369c12b",
+      "paginas": 32
+    },
+    {
+      "banca": "ENEM",
+      "ano": 2021,
+      "versao": "",
+      "tipo": "caderno",
+      "descricao": "INEP, ENEM 2021, 2º dia (Ciências da Natureza e Matemática), caderno de questões aplicado, Caderno 5 Amarelo",
+      "fase": "2º dia · Caderno Amarelo",
+      "arquivoLocal": "fontes/enem-2021-caderno.pdf",
+      "url": "",
+      "sha256": "508fc9db2d39df289b8a399044516af78bda3793fd398eed39c7ab0f2a393c48",
+      "paginas": 32,
+      "camadaTexto": "ocr"
+    },
+    {
+      "banca": "ENEM",
+      "ano": 2022,
+      "versao": "",
+      "tipo": "caderno",
+      "descricao": "INEP, ENEM 2022, 2º dia (Ciências da Natureza e Matemática), caderno de questões aplicado, Caderno 5 Amarelo",
+      "fase": "2º dia · Caderno Amarelo",
+      "arquivoLocal": "fontes/enem-2022-caderno.pdf",
+      "url": "",
+      "sha256": "068a960ff3fde64d89484995f1a323676c354ad1efa27c109f09a4bb90619756",
+      "paginas": 32,
+      "camadaTexto": "ocr"
+    },
+    {
+      "banca": "ENEM",
+      "ano": 2023,
+      "versao": "",
+      "tipo": "caderno",
+      "descricao": "INEP, ENEM 2023, 2º dia (Ciências da Natureza e Matemática), caderno de questões aplicado, Caderno 5 Amarelo",
+      "fase": "2º dia · Caderno Amarelo",
+      "arquivoLocal": "fontes/enem-2023-caderno.pdf",
+      "url": "",
+      "sha256": "818b89dec87eb0b77bf77f96d3e744502c7bdffb57166d2b5137beb3a6b9ac59",
+      "paginas": 32
+    },
+    {
+      "banca": "ENEM",
+      "ano": 2024,
+      "versao": "",
+      "tipo": "caderno",
+      "descricao": "INEP, ENEM 2024, 2º dia (Ciências da Natureza e Matemática), caderno de questões aplicado, Caderno 5 Amarelo",
+      "fase": "2º dia · Caderno Amarelo",
+      "arquivoLocal": "fontes/enem-2024-caderno.pdf",
+      "url": "",
+      "sha256": "ec4e704ab4017762ffb1eba84c55285a429d3d02ed0e58258c1171315cb34937",
+      "paginas": 32
+    },
+    {
+      "banca": "ENEM",
+      "ano": 2025,
+      "versao": "",
+      "tipo": "caderno",
+      "descricao": "INEP, ENEM 2025, 2º dia (Ciências da Natureza e Matemática), caderno de questões aplicado, Caderno 5 Amarelo",
+      "fase": "2º dia · Caderno Amarelo",
+      "arquivoLocal": "fontes/enem-2025-caderno.pdf",
+      "url": "",
+      "sha256": "0a59697676989b55e6f3e40636fad164c1c26868ddba37d04e4fffc101168298",
+      "paginas": 32
     }
   ]
 }

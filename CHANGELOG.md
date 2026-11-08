@@ -4,6 +4,99 @@ Cada versão corresponde a um lote de importação ou a uma mudança no app/pipe
 Formato: `vMAIOR.MENOR.CORREÇÃO` — MENOR sobe a cada prova importada; MAIOR, em mudanças
 de modelo de dados; CORREÇÃO, em correções de questões já publicadas.
 
+## v1.16.0 — 2026-11-08
+
+- **ENEM 2017, 2º dia (caderno 5 amarelo)**: 14 questões, 14 figuras: Q93, Q97, Q99, Q101,
+  Q103, Q108, Q111, Q113, Q123, Q124, Q125, Q127, Q130 e Q134.
+  - Gabaritos: `resolucao-propria`. Não foi encontrado gabarito do caderno amarelo acessível
+    nesta sessão; a Q97 foi conferida pela questão correspondente do caderno azul.
+  - Q103 ocupa a largura total da página.
+
+## v1.15.0 — 2026-11-08
+
+- **ENEM 2018, 2º dia (caderno 5 amarelo)**: 15 questões, 24 figuras: Q92, Q96, Q98, Q103,
+  Q106, Q109, Q110, Q117, Q118, Q122, Q124, Q127, Q128, Q131 e Q133.
+  - Gabaritos: `resolucao-propria`, todos conferidos com o gabarito oficial do caderno
+    amarelo reproduzido pelo Guia da Carreira (sem anulações em Ciências da Natureza).
+  - Camada de texto por OCR; a fidelidade foi conferida pela imagem. Q128 e Q131 ocupam a
+    largura total da página.
+
+## v1.14.0 — 2026-11-08
+
+- **ENEM 2019, 2º dia (caderno 5 amarelo)**: 14 questões, 7 figuras: Q91, Q95, Q97, Q100,
+  Q103, Q107, Q109, Q113, Q117, Q120, Q122, Q124, Q129 e Q132.
+  - Gabaritos: `resolucao-propria`. Q91, Q95, Q97, Q100 e Q103 conferem com o gabarito
+    não oficial do caderno amarelo publicado pelo Estratégia; Q120 e Q129 conferem com as
+    questões correspondentes do caderno azul.
+  - A camada de texto troca as ligaduras "fi" e "fl" (por exemplo "ftia", "fgiura"); o texto
+    foi conferido pela imagem.
+
+## v1.13.0 — 2026-11-08
+
+- **ENEM 2020, 2º dia (caderno 5 amarelo)**: 16 questões, 18 figuras: Q92, Q94, Q96, Q101,
+  Q106, Q108, Q109, Q112, Q113, Q122, Q125, Q130, Q131, Q133, Q134 e Q135.
+  - Gabaritos: `resolucao-propria`. Não foi possível conferir com um gabarito publicado do
+    caderno amarelo nesta sessão (os sites encontrados usavam outra numeração); a Q106 foi
+    conferida pela questão correspondente do caderno azul. A anulação do INEP no caderno
+    amarelo (Q114) não é de Física.
+  - 'Eiffel' em Q135 e 'Pensando' em Q106 ficaram em `revisao.divergenciasAceitas`
+    (ligadura e falso aviso do verificador).
+
+## v1.12.0 — 2026-11-08
+
+- **ENEM 2021, 2º dia (caderno 5 amarelo)**: 14 questões, 22 figuras: Q92, Q93, Q96, Q99,
+  Q104, Q105, Q111, Q112, Q116, Q117, Q121, Q126, Q128 e Q134.
+  - Gabaritos: `resolucao-propria`, conferidos com o gabarito do caderno amarelo publicado
+    pela Estratégia Vestibulares.
+  - Camada de texto cifrada; a fidelidade foi conferida pela imagem e pelo OCR. Três
+    leituras erradas do OCR (Q112, Q116, Q128) ficaram registradas em
+    `revisao.divergenciasAceitas`.
+
+## v1.11.0 — 2026-11-08
+
+- **ENEM 2022, 2º dia (caderno 5 amarelo)**: 16 questões, 26 figuras: Q92, Q95, Q96, Q99,
+  Q101, Q105, Q108, Q111, Q115, Q118, Q119, Q124, Q126, Q129, Q132 e Q133.
+  - Gabaritos: `resolucao-propria`, conferidos com o gabarito do caderno amarelo publicado
+    pela Estratégia Vestibulares.
+  - Camada de texto parcialmente cifrada; a fidelidade foi conferida pela imagem e pelo OCR.
+
+## v1.10.0 — 2026-11-08
+
+- **ENEM 2023, 2º dia (caderno 5 amarelo)**: 16 questões, 11 figuras: Q91, Q92, Q93, Q95,
+  Q98, Q101, Q102, Q106, Q114, Q115, Q118, Q119, Q125, Q130, Q133 e Q135.
+  - Gabaritos: `resolucao-propria`, conferidos com o gabarito do caderno amarelo publicado
+    pela Estratégia Vestibulares.
+  - O caderno de 2023 mistura blocos em largura total da página (páginas 2, 3, 10, 11, 13
+    e 15) com o layout em duas colunas; o segmentador assume duas colunas, então essas
+    questões foram lidas e recortadas pela página inteira.
+
+## v1.9.0 — 2026-11-08
+
+- **ENEM 2024, 2º dia (caderno 5 amarelo)**: 16 questões, 29 figuras: Q95, Q100, Q101,
+  Q102, Q103, Q104, Q106, Q109, Q110, Q114, Q117, Q118, Q119, Q124, Q126 e Q129.
+  - Gabaritos: `resolucao-propria`, conferidos com o gabarito do caderno amarelo publicado
+    pela Estratégia Vestibulares, que incorpora as retificações do INEP. O PDF do INEP
+    não pôde ser baixado na sessão.
+  - **Q102 anulada pelo INEP**: com os dados, a eficiência sairia maior que 100%. Mantida
+    com a resposta provavelmente pretendida (B, razão invertida) e aviso na resolução.
+
+## v1.8.0 — 2026-11-08
+
+- **ENEM 2025, 2º dia (Ciências da Natureza, caderno 5 amarelo)**: 14 questões, 24 figuras:
+  Q91, Q97, Q103, Q104, Q105, Q113, Q115, Q118, Q120, Q124, Q125, Q128, Q130 e Q135.
+  Primeira prova do ENEM no banco (banca "ENEM", fase "2º dia · Caderno Amarelo").
+  - Gabaritos: `oficial` (INEP, caderno amarelo, aplicação regular). Lido na transcrição
+    publicada pelo O Povo em 19/11/2025, porque o PDF do INEP não pôde ser baixado na
+    sessão; as 13 respostas conferem com as resoluções.
+  - **Q115 anulada pelo INEP** (uma das três questões anuladas do 2º dia, por suspeita de
+    vazamento). Mantida no banco com a resposta pretendida (C) e aviso na resolução.
+  - Alternativas transcritas como `(A) ...`, e as alternativas-desenho viram uma figura por
+    alternativa. A fórmula do nível sonoro da Q115 é desenho no caderno e foi transcrita
+    em linha.
+- Registrados no manifesto os cadernos do 2º dia do ENEM 2017–2025 (caderno 5, amarelo).
+  Os de 2018, 2021 e 2022 têm a camada de texto cifrada e foram passados pelo OCR
+  (`camadaTexto: "ocr"`).
+
 ## v1.7.0 — 2026-11-02
 
 - **Unesp 2016–2020, 1ª fase (Prova de Conhecimentos Gerais)**: 45 questões, 58 figuras.

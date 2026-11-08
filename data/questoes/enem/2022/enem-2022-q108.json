@@ -1,0 +1,33 @@
+{
+  "id": "enem-2022-q108",
+  "banca": "ENEM",
+  "ano": 2022,
+  "numero": "108",
+  "fase": "2º dia · Caderno Amarelo",
+  "fonte": {
+    "descricao": "INEP, ENEM 2022, 2º dia (Ciências da Natureza e Matemática), caderno de questões aplicado, Caderno 5 Amarelo"
+  },
+  "enunciado": "Tribologia é o estudo da interação entre duas superfícies em contato, como desgaste e atrito, sendo de extrema importância na avaliação de diferentes produtos e de bens de consumo em geral. Para testar a conformidade de uma muleta, realiza-se um ensaio tribológico, pressionando-a verticalmente contra o piso com uma força F⃗, conforme ilustra a imagem, em que <b>CM</b> representa o centro de massa da muleta.\n\n[[figura 1]]\n\nMantendo-se a força F⃗ paralela à muleta, varia-se lentamente o ângulo entre a muleta e a vertical, até o máximo ângulo imediatamente anterior ao de escorregamento, denominado ângulo crítico. Esse ângulo também pode ser calculado a partir da identificação dos pontos de aplicação, da direção e do sentido das forças peso (P⃗), normal (N⃗) e de atrito estático (<i>f</i>⃗<sub>e</sub>).\n\nO esquema que representa corretamente todas as forças que atuam sobre a muleta quando ela atinge o ângulo crítico é:\n\n(A)\n[[figura 2]]\n(B)\n[[figura 3]]\n(C)\n[[figura 4]]\n(D)\n[[figura 5]]\n(E)\n[[figura 6]]",
+  "figuras": [
+    "enem-2022-q108-1.png",
+    "enem-2022-q108-2.png",
+    "enem-2022-q108-3.png",
+    "enem-2022-q108-4.png",
+    "enem-2022-q108-5.png",
+    "enem-2022-q108-6.png"
+  ],
+  "gabarito": "E",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. Pontos de aplicação: o peso P⃗ atua no centro de massa (CM), vertical para baixo; a normal N⃗ e o atrito <i>f</i>⃗<sub>e</sub> atuam no ponto de contato com o piso. Isso elimina A e C (peso no ponto de contato) e B e D (normal no CM).\n2. Direções: a normal é perpendicular ao piso (para cima); o atrito é paralelo ao piso.\n3. Sentido do atrito: a força F⃗, ao longo da muleta inclinada, empurra a ponta para a esquerda (tendência de escorregar para a esquerda); o atrito estático se opõe e aponta para a direita, como em E.\nGabarito: E.",
+  "topicos": [
+    "forca-de-atrito-estatico-e-cinetico",
+    "equilibrio-do-corpo-extenso",
+    "forca-peso-e-forca-normal"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-08T22:54:03.000Z",
+  "atualizadoEm": "2026-11-08T22:57:26.000Z",
+  "revisao": {
+    "notas": "Gabarito da resolução própria; confere com o gabarito do caderno amarelo publicado pela Estratégia Vestibulares. Trocar para 'oficial' quando houver o PDF do INEP (2022_GB_impresso_D2_CD5.pdf). Camada de texto do caderno parcialmente cifrada: fidelidade conferida pela imagem e pelo OCR."
+  }
+}

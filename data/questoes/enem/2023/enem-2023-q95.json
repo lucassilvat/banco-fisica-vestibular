@@ -1,0 +1,25 @@
+{
+  "id": "enem-2023-q95",
+  "banca": "ENEM",
+  "ano": 2023,
+  "numero": "95",
+  "fase": "2º dia · Caderno Amarelo",
+  "fonte": {
+    "descricao": "INEP, ENEM 2023, 2º dia (Ciências da Natureza e Matemática), caderno de questões aplicado, Caderno 5 Amarelo"
+  },
+  "enunciado": "Em uma indústria alimentícia, para produção de doce de leite, utiliza-se um tacho de parede oca com uma entrada para vapor de água a 120 °C e uma saída para água líquida em equilíbrio com o vapor a 100 °C. Ao passar pela parte oca do tacho, o vapor de água transforma-se em líquido, liberando energia. A parede transfere essa energia para o interior do tacho, resultando na evaporação de água e consequente concentração do produto.\n\nNo processo de concentração do produto, é utilizada energia proveniente\n\n(A) somente do calor latente de vaporização.\n(B) somente do calor latente de condensação.\n(C) do calor sensível e do calor latente de vaporização.\n(D) do calor sensível e do calor latente de condensação.\n(E) do calor latente de condensação e do calor latente de vaporização.",
+  "figuras": [],
+  "gabarito": "D",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. O vapor entra a 120 °C e esfria até 100 °C ainda como vapor: libera calor sensível (variação de temperatura sem mudança de fase).\n2. A 100 °C o vapor se condensa em água líquida: libera calor latente de condensação.\n3. Essas duas parcelas são a energia transferida pela parede ao produto. A vaporização ocorre no produto, consumindo essa energia; ela não é a fonte.\nGabarito: D.",
+  "topicos": [
+    "calor-latente-e-mudancas-de-fase",
+    "calor-sensivel-e-capacidade-termica"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-08T22:47:12.000Z",
+  "atualizadoEm": "2026-11-08T22:50:32.000Z",
+  "revisao": {
+    "notas": "Gabarito da resolução própria; confere com o gabarito do caderno amarelo publicado pela Estratégia Vestibulares. Trocar para 'oficial' quando houver o PDF do INEP (2023_GB_impresso_D2_CD5.pdf)."
+  }
+}

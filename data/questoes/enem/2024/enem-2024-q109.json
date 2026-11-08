@@ -1,0 +1,36 @@
+{
+  "id": "enem-2024-q109",
+  "banca": "ENEM",
+  "ano": 2024,
+  "numero": "109",
+  "fase": "2º dia · Caderno Amarelo",
+  "fonte": {
+    "descricao": "INEP, ENEM 2024, 2º dia (Ciências da Natureza e Matemática), caderno de questões aplicado, Caderno 5 Amarelo"
+  },
+  "enunciado": "O LED é um dispositivo eletrônico que conduz corrente elétrica em um único sentido, sendo caracterizado por uma tensão e uma corrente máxima de funcionamento, <i>I</i><sub>máx</sub>. Um LED acende apenas se a corrente que o percorre está no sentido permitido e se a diferença de potencial à qual está submetido é igual ou superior à sua tensão de funcionamento. A figura ilustra o símbolo do LED usado na representação de circuitos.\n\n[[figura 1]]\n\nUm estudante de física analisa as propriedades do LED em um circuito simples de corrente contínua. Ele dispõe dos seguintes materiais: uma bateria ideal de 4,5 V; dois LEDs de tensão 3,0 V e <i>I</i><sub>máx</sub> = 1,0 mA cada; e dois resistores de 1,5 kΩ cada.\n\nO circuito que o estudante pode montar, para que ambos os LEDs fiquem acesos e cada um seja percorrido por <i>I</i><sub>máx</sub>, é\n\n(A)\n[[figura 2]]\n(B)\n[[figura 3]]\n(C)\n[[figura 4]]\n(D)\n[[figura 5]]\n(E)\n[[figura 6]]",
+  "figuras": [
+    "enem-2024-q109-1.png",
+    "enem-2024-q109-2.png",
+    "enem-2024-q109-3.png",
+    "enem-2024-q109-4.png",
+    "enem-2024-q109-5.png",
+    "enem-2024-q109-6.png"
+  ],
+  "gabarito": "B",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. Cada LED precisa de 3,0 V com 1,0 mA. Sobram 4,5 − 3,0 = 1,5 V, que devem cair num resistor percorrido pela mesma corrente: <i>R</i> = 1,5 V/1,0 mA = 1,5 kΩ. Portanto, cada LED deve estar em série com um resistor de 1,5 kΩ, e os dois ramos em paralelo com a bateria (alternativas B e C).\n2. Em A e E, um único resistor seria percorrido por 2,0 mA e teria 3,0 V, sobrando só 1,5 V para os LEDs. Em D, os dois LEDs em série exigiriam 6,0 V, mais que os 4,5 V da bateria.\n3. Sentido: a corrente sai do polo positivo (+, em cima), percorre o fio superior e desce pelos ramos até o polo negativo. O LED deve conduzir de cima para baixo, com o triângulo apontando para baixo, como no circuito B. Em C, os LEDs estão invertidos e não acendem.\nGabarito: B.",
+  "topicos": [
+    "semicondutores-led-e-laser",
+    "associacao-de-resistores",
+    "primeira-lei-de-ohm"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-08T22:33:14.000Z",
+  "atualizadoEm": "2026-11-08T22:36:47.000Z",
+  "revisao": {
+    "notas": "Gabarito da resolução própria; confere com o gabarito do caderno amarelo publicado pela Estratégia Vestibulares, que incorpora as retificações do gabarito oficial do INEP. Trocar para 'oficial' quando houver o PDF do INEP (2024_GB_impresso_D2_CD5.pdf).",
+    "divergenciasAceitas": [
+      "máx"
+    ]
+  }
+}
