@@ -4,6 +4,16 @@ Cada versão corresponde a um lote de importação ou a uma mudança no app/pipe
 Formato: `vMAIOR.MENOR.CORREÇÃO` — MENOR sobe a cada prova importada; MAIOR, em mudanças
 de modelo de dados; CORREÇÃO, em correções de questões já publicadas.
 
+## v1.10.0 — 2026-11-08
+
+- **ENEM 2023, 2º dia (caderno 5 amarelo)**: 16 questões, 11 figuras: Q91, Q92, Q93, Q95,
+  Q98, Q101, Q102, Q106, Q114, Q115, Q118, Q119, Q125, Q130, Q133 e Q135.
+  - Gabaritos: `resolucao-propria`, conferidos com o gabarito do caderno amarelo publicado
+    pela Estratégia Vestibulares.
+  - O caderno de 2023 mistura blocos em largura total da página (páginas 2, 3, 10, 11, 13
+    e 15) com o layout em duas colunas; o segmentador assume duas colunas, então essas
+    questões foram lidas e recortadas pela página inteira.
+
 ## v1.9.0 — 2026-11-08
 
 - **ENEM 2024, 2º dia (caderno 5 amarelo)**: 16 questões, 29 figuras: Q95, Q100, Q101,

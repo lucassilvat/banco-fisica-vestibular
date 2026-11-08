@@ -1,0 +1,27 @@
+{
+  "id": "enem-2023-q106",
+  "banca": "ENEM",
+  "ano": 2023,
+  "numero": "106",
+  "fase": "2º dia · Caderno Amarelo",
+  "fonte": {
+    "descricao": "INEP, ENEM 2023, 2º dia (Ciências da Natureza e Matemática), caderno de questões aplicado, Caderno 5 Amarelo"
+  },
+  "enunciado": "Um professor lança uma esfera verticalmente para cima, a qual retorna, depois de alguns segundos, ao ponto de lançamento. Em seguida, lista em um quadro todas as possibilidades para as grandezas cinemáticas.\n\n[[figura 1]]\n\n*Grandezas com módulo nulo não têm sentido definido.\n\nEle solicita aos alunos que analisem as grandezas cinemáticas no instante em que a esfera atinge a altura máxima, escolhendo uma combinação para os módulos e sentidos da velocidade e da aceleração.\n\nA escolha que corresponde à combinação correta é\n\n(A) <i>v</i> = 0 e <i>a</i> ≠ 0 para cima.\n(B) <i>v</i> ≠ 0 para cima e <i>a</i> = 0.\n(C) <i>v</i> = 0 e <i>a</i> ≠ 0 para baixo.\n(D) <i>v</i> ≠ 0 para cima e <i>a</i> ≠ 0 para cima.\n(E) <i>v</i> ≠ 0 para baixo e <i>a</i> ≠ 0 para baixo.",
+  "figuras": [
+    "enem-2023-q106-1.png"
+  ],
+  "gabarito": "C",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. Na altura máxima, a esfera para de subir e começa a descer: nesse instante a velocidade é nula (<i>v</i> = 0).\n2. Durante todo o voo (sem resistência do ar) a única força é o peso, então a aceleração é a da gravidade, <i>g</i>, constante e para baixo, inclusive na altura máxima (<i>a</i> ≠ 0). Se a aceleração fosse nula ali, a esfera ficaria parada no ar.\nGabarito: C.",
+  "topicos": [
+    "queda-livre-e-lancamento-vertical",
+    "velocidade-media-e-aceleracao-media"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-08T22:47:12.000Z",
+  "atualizadoEm": "2026-11-08T22:50:32.000Z",
+  "revisao": {
+    "notas": "Gabarito da resolução própria; confere com o gabarito do caderno amarelo publicado pela Estratégia Vestibulares. Trocar para 'oficial' quando houver o PDF do INEP (2023_GB_impresso_D2_CD5.pdf)."
+  }
+}

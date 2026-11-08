@@ -1,0 +1,25 @@
+{
+  "id": "enem-2023-q125",
+  "banca": "ENEM",
+  "ano": 2023,
+  "numero": "125",
+  "fase": "2º dia · Caderno Amarelo",
+  "fonte": {
+    "descricao": "INEP, ENEM 2023, 2º dia (Ciências da Natureza e Matemática), caderno de questões aplicado, Caderno 5 Amarelo"
+  },
+  "enunciado": "A utilização de tecnologia nuclear é um tema bastante controverso, por causa do risco de acidentes graves, como aqueles ocorridos em Chernobyl (1986), em Goiânia (1987) e em Fukushima (2011). Apesar de muitas desvantagens, como a geração de resíduos tóxicos, a descontaminação ambiental dispendiosa em caso de acidentes e a utilização em armas nucleares, a geração de energia nuclear apresenta vantagens em comparação a outras fontes de energia.\n\nA geração dessa energia tem como característica:\n\n(A) Formar resíduos facilmente recicláveis.\n(B) Promover o aumento do desmatamento.\n(C) Contribuir para a produção de chuva ácida.\n(D) Emitir gases tóxicos que são lançados no ambiente.\n(E) Produzir calor sem o consumo de combustíveis fósseis.",
+  "figuras": [],
+  "gabarito": "E",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. Numa usina nuclear, o calor que gera o vapor das turbinas vem da fissão de núcleos de urânio, não da queima de carvão, petróleo ou gás. Essa é a vantagem: não há emissão de gases de combustão.\n2. Por isso, a usina não contribui para chuva ácida (C) nem emite gases tóxicos de combustão (D), e não exige desmatamento para obter combustível (B).\n3. Os resíduos radioativos não são facilmente recicláveis (A); ao contrário, são uma das desvantagens citadas.\nGabarito: E.",
+  "topicos": [
+    "fissao-e-fusao-nuclear",
+    "usinas-e-geracao-de-energia-eletrica"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-08T22:47:12.000Z",
+  "atualizadoEm": "2026-11-08T22:50:32.000Z",
+  "revisao": {
+    "notas": "Gabarito da resolução própria; confere com o gabarito do caderno amarelo publicado pela Estratégia Vestibulares. Trocar para 'oficial' quando houver o PDF do INEP (2023_GB_impresso_D2_CD5.pdf)."
+  }
+}

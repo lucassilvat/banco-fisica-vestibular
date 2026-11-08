@@ -1,0 +1,27 @@
+{
+  "id": "enem-2023-q114",
+  "banca": "ENEM",
+  "ano": 2023,
+  "numero": "114",
+  "fase": "2º dia · Caderno Amarelo",
+  "fonte": {
+    "descricao": "INEP, ENEM 2023, 2º dia (Ciências da Natureza e Matemática), caderno de questões aplicado, Caderno 5 Amarelo"
+  },
+  "enunciado": "O petróleo é uma matéria-prima muito valiosa e métodos geofísicos são úteis na sua prospecção. É possível identificar a composição de materiais estratificados medindo-se a velocidade de propagação do som (onda mecânica) através deles. Considere que uma camada de 450 m de um líquido se encontra presa no subsolo entre duas camadas rochosas, conforme o esquema. Um pulso acústico (que gera uma vibração mecânica) é emitido a partir da superfície do solo, onde são posteriormente recebidas duas vibrações refletidas (ecos). A primeira corresponde à reflexão do pulso na interface superior do líquido com a camada rochosa. A segunda vibração deve-se à reflexão do pulso na interface inferior. O tempo entre a emissão do pulso e a chegada do primeiro eco é de 0,5 s. O segundo eco chega 1,1 s após a emissão do pulso.\n\n[[figura 1]]\n\nA velocidade do som na camada líquida, em metro por segundo, é\n\n(A) 270.\n(B) 540.\n(C) 818.\n(D) 1 500.\n(E) 1 800.",
+  "figuras": [
+    "enem-2023-q114-1.png"
+  ],
+  "gabarito": "D",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. Os dois ecos percorrem o mesmo caminho na rocha superior. A diferença entre eles, 1,1 − 0,5 = 0,6 s, é o tempo gasto para atravessar a camada líquida duas vezes (descida e subida).\n2. Distância percorrida no líquido nesse intervalo: 2 · 450 = 900 m.\n3. <i>v</i> = 900/0,6 = 1 500 m/s.\nGabarito: D.",
+  "topicos": [
+    "reflexao-e-refracao-de-ondas",
+    "movimento-retilineo-uniforme-mru"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-08T22:47:12.000Z",
+  "atualizadoEm": "2026-11-08T22:50:32.000Z",
+  "revisao": {
+    "notas": "Gabarito da resolução própria; confere com o gabarito do caderno amarelo publicado pela Estratégia Vestibulares. Trocar para 'oficial' quando houver o PDF do INEP (2023_GB_impresso_D2_CD5.pdf)."
+  }
+}

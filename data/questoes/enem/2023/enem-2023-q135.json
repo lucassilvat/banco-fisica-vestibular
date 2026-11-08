@@ -1,0 +1,25 @@
+{
+  "id": "enem-2023-q135",
+  "banca": "ENEM",
+  "ano": 2023,
+  "numero": "135",
+  "fase": "2º dia · Caderno Amarelo",
+  "fonte": {
+    "descricao": "INEP, ENEM 2023, 2º dia (Ciências da Natureza e Matemática), caderno de questões aplicado, Caderno 5 Amarelo"
+  },
+  "enunciado": "Uma concessionária é responsável por um trecho de 480 quilômetros de uma rodovia. Nesse trecho, foram construídas 10 praças de pedágio, onde funcionários recebem os pagamentos nas cabines de cobrança. Também existe o serviço automático, em que os veículos providos de um dispositivo passam por uma cancela, que se abre automaticamente, evitando filas e diminuindo o tempo de viagem. Segundo a concessionária, o tempo médio para efetuar a passagem em uma cabine é de 3 minutos, e as velocidades máximas permitidas na rodovia são 100 km/h, para veículos leves, e 80 km/h, para veículos de grande porte.\n\nConsidere um carro e um caminhão viajando, ambos com velocidades constantes e iguais às máximas permitidas, e que somente o caminhão tenha o serviço automático de cobrança.\n\nComparado ao caminhão, quantos minutos a menos o carro leva para percorrer toda a rodovia?\n\n(A) 30\n(B) 42\n(C) 72\n(D) 288\n(E) 360",
+  "figuras": [],
+  "gabarito": "B",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. Carro: 480/100 = 4,8 h = 288 min em movimento, mais 10 · 3 = 30 min nas cabines, num total de 318 min.\n2. Caminhão (cobrança automática, sem paradas): 480/80 = 6 h = 360 min.\n3. Diferença: 360 − 318 = 42 min a menos para o carro.\nGabarito: B.",
+  "topicos": [
+    "movimento-retilineo-uniforme-mru",
+    "velocidade-media-e-aceleracao-media"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-08T22:47:12.000Z",
+  "atualizadoEm": "2026-11-08T22:50:32.000Z",
+  "revisao": {
+    "notas": "Gabarito da resolução própria; confere com o gabarito do caderno amarelo publicado pela Estratégia Vestibulares. Trocar para 'oficial' quando houver o PDF do INEP (2023_GB_impresso_D2_CD5.pdf)."
+  }
+}

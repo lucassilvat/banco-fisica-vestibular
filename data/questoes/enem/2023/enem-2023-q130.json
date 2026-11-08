@@ -1,0 +1,28 @@
+{
+  "id": "enem-2023-q130",
+  "banca": "ENEM",
+  "ano": 2023,
+  "numero": "130",
+  "fase": "2º dia · Caderno Amarelo",
+  "fonte": {
+    "descricao": "INEP, ENEM 2023, 2º dia (Ciências da Natureza e Matemática), caderno de questões aplicado, Caderno 5 Amarelo"
+  },
+  "enunciado": "Uma equipe de segurança do transporte de uma empresa avalia o comportamento das tensões que aparecem em duas cordas, 1 e 2, usadas para prender uma carga de massa <b>M</b> = 200 kg na carroceria, conforme a ilustração. Quando o caminhão parte do repouso, sua aceleração é constante e igual a 3 m/s<sup>2</sup> e, quando ele é freado bruscamente, sua frenagem é constante e igual a 5 m/s<sup>2</sup>. Em ambas as situações, a carga encontra-se na iminência de movimento, e o sentido do movimento do caminhão está indicado na figura. O coeficiente de atrito estático entre a caixa e o assoalho da carroceria é igual a 0,2. Considere a aceleração da gravidade igual a 10 m/s<sup>2</sup>, as tensões iniciais nas cordas iguais a zero e as duas cordas ideais.\n\n[[figura 1]]\n\nNas situações de aceleração e frenagem do caminhão, as tensões nas cordas 1 e 2, em newton, serão\n\n(A) aceleração: <i>T</i><sub>1</sub> = 0 e <i>T</i><sub>2</sub> = 200; frenagem: <i>T</i><sub>1</sub> = 600 e <i>T</i><sub>2</sub> = 0.\n(B) aceleração: <i>T</i><sub>1</sub> = 0 e <i>T</i><sub>2</sub> = 200; frenagem: <i>T</i><sub>1</sub> = 1 400 e <i>T</i><sub>2</sub> = 0.\n(C) aceleração: <i>T</i><sub>1</sub> = 0 e <i>T</i><sub>2</sub> = 600; frenagem: <i>T</i><sub>1</sub> = 600 e <i>T</i><sub>2</sub> = 0.\n(D) aceleração: <i>T</i><sub>1</sub> = 560 e <i>T</i><sub>2</sub> = 0; frenagem: <i>T</i><sub>1</sub> = 0 e <i>T</i><sub>2</sub> = 960.\n(E) aceleração: <i>T</i><sub>1</sub> = 640 e <i>T</i><sub>2</sub> = 0; frenagem: <i>T</i><sub>1</sub> = 0 e <i>T</i><sub>2</sub> = 1 040.",
+  "figuras": [
+    "enem-2023-q130-1.png"
+  ],
+  "gabarito": "A",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. Atrito estático máximo (iminência de movimento): <i>F</i><sub>at</sub> = μ<i>Mg</i> = 0,2 · 200 · 10 = 400 N. A carga deve ter a mesma aceleração do caminhão.\n2. Aceleração (3 m/s<sup>2</sup> para a frente): força resultante necessária <i>Ma</i> = 600 N para a frente. O atrito fornece 400 N; faltam 200 N, fornecidos pela corda que puxa para a frente, a corda 2 (presa do lado da cabine). <i>T</i><sub>2</sub> = 200 N e <i>T</i><sub>1</sub> = 0 (corda não empurra).\n3. Frenagem (5 m/s<sup>2</sup> para trás): resultante necessária 200 · 5 = 1 000 N para trás. O atrito fornece 400 N; faltam 600 N, fornecidos pela corda 1, que puxa para trás. <i>T</i><sub>1</sub> = 600 N e <i>T</i><sub>2</sub> = 0.\nGabarito: A.",
+  "topicos": [
+    "forca-de-atrito-estatico-e-cinetico",
+    "leis-de-newton",
+    "referenciais-nao-inerciais-e-elevadores"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-08T22:47:12.000Z",
+  "atualizadoEm": "2026-11-08T22:50:32.000Z",
+  "revisao": {
+    "notas": "Gabarito da resolução própria; confere com o gabarito do caderno amarelo publicado pela Estratégia Vestibulares. Trocar para 'oficial' quando houver o PDF do INEP (2023_GB_impresso_D2_CD5.pdf)."
+  }
+}

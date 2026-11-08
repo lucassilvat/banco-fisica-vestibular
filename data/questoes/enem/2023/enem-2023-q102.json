@@ -1,0 +1,28 @@
+{
+  "id": "enem-2023-q102",
+  "banca": "ENEM",
+  "ano": 2023,
+  "numero": "102",
+  "fase": "2º dia · Caderno Amarelo",
+  "fonte": {
+    "descricao": "INEP, ENEM 2023, 2º dia (Ciências da Natureza e Matemática), caderno de questões aplicado, Caderno 5 Amarelo"
+  },
+  "enunciado": "Uma academia decide trocar gradualmente seus aparelhos de musculação. Agora, os frequentadores que utilizam os aparelhos do tipo 1 podem também utilizar os aparelhos do tipo 2, representados na figura, para elevar cargas correspondentes às massas <b>M<sub>1</sub></b> e <b>M<sub>2</sub></b>, com velocidade constante. A fim de que o exercício seja realizado com a mesma força <i>F</i>⃗, os usuários devem ser orientados a respeito da relação entre as cargas nos dois tipos de aparelhos, já que as polias fixas apenas mudam a direção das forças, enquanto a polia móvel divide as forças.\n\nEm ambos os aparelhos, considere as cordas inextensíveis, as massas das polias e das cordas desprezíveis e que não há dissipação de energia.\n\n[[figura 1]]\n\nPara essa academia, qual deve ser a razão <b>M<sub>2</sub></b>/<b>M<sub>1</sub></b> informada aos usuários?\n\n(A) 1/4\n(B) 1/2\n(C) 1\n(D) 2\n(E) 4",
+  "figuras": [
+    "enem-2023-q102-1.png"
+  ],
+  "gabarito": "D",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. Com velocidade constante, as forças se equilibram. No aparelho 1 só há polias fixas: a tração na corda é a força aplicada, e <i>F</i> = <i>M</i><sub>1</sub><i>g</i>.\n2. No aparelho 2, a carga pende de uma polia móvel sustentada por dois trechos da mesma corda, cada um com tração <i>F</i>: 2<i>F</i> = <i>M</i><sub>2</sub><i>g</i>.\n3. Com a mesma força: <i>M</i><sub>1</sub><i>g</i> = <i>M</i><sub>2</sub><i>g</i>/2, então <i>M</i><sub>2</sub>/<i>M</i><sub>1</sub> = 2.\nGabarito: D.",
+  "topicos": [
+    "sistemas-de-blocos-fios-e-polias",
+    "alavancas-e-maquinas-simples",
+    "equilibrio-do-ponto-material"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-08T22:47:12.000Z",
+  "atualizadoEm": "2026-11-08T22:50:32.000Z",
+  "revisao": {
+    "notas": "Gabarito da resolução própria; confere com o gabarito do caderno amarelo publicado pela Estratégia Vestibulares. Trocar para 'oficial' quando houver o PDF do INEP (2023_GB_impresso_D2_CD5.pdf)."
+  }
+}
