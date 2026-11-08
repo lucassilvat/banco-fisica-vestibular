@@ -1,0 +1,33 @@
+{
+  "id": "enem-2022-q119",
+  "banca": "ENEM",
+  "ano": 2022,
+  "numero": "119",
+  "fase": "2º dia · Caderno Amarelo",
+  "fonte": {
+    "descricao": "INEP, ENEM 2022, 2º dia (Ciências da Natureza e Matemática), caderno de questões aplicado, Caderno 5 Amarelo"
+  },
+  "enunciado": "O quadro mostra valores de corrente elétrica e seus efeitos sobre o corpo humano.\n\n[[figura 1]]\n\nA corrente elétrica que percorrerá o corpo de um indivíduo depende da tensão aplicada e da resistência elétrica média do corpo humano. Esse último fator está intimamente relacionado com a umidade da pele, que seca apresenta resistência elétrica da ordem de 500 kΩ, mas, se molhada, pode chegar a apenas 1 kΩ.\n\nApesar de incomum, é possível sofrer um acidente utilizando baterias de 12 V. Considere que um indivíduo com a pele molhada sofreu uma parada respiratória ao tocar simultaneamente nos pontos A e B de uma associação de duas dessas baterias.\n\nDURAN, J. E. R. <b>Biofísica: fundamentos e aplicações</b>. São Paulo: Pearson Prentice Hall, 2003 (adaptado).\n\nQual associação de baterias foi responsável pelo acidente?\n\n(A)\n[[figura 2]]\n(B)\n[[figura 3]]\n(C)\n[[figura 4]]\n(D)\n[[figura 5]]\n(E)\n[[figura 6]]",
+  "figuras": [
+    "enem-2022-q119-1.png",
+    "enem-2022-q119-2.png",
+    "enem-2022-q119-3.png",
+    "enem-2022-q119-4.png",
+    "enem-2022-q119-5.png",
+    "enem-2022-q119-6.png"
+  ],
+  "gabarito": "A",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. Parada respiratória exige corrente entre 20 mA e 100 mA. Com a pele molhada (1 kΩ), a tensão deve ficar entre 20 V e 100 V.\n2. Associações possíveis: em série com polos encadeados (+ de uma no − da outra), as tensões se somam: 24 V, corrente de 24 mA (parada respiratória). Em série com polos iguais ligados, as tensões se anulam: 0 V. Em paralelo: 12 V, 12 mA (só contrações).\n3. Em A, A liga ao + da 1ª bateria, o − da 1ª liga ao + da 2ª e o − da 2ª vai a B: série com tensões somadas, 24 V. Em B, C e D as tensões se cancelam; em E as baterias estão em paralelo.\nGabarito: A.",
+  "topicos": [
+    "choque-eletrico-e-seguranca",
+    "geradores-eletricos-fem-e-resistencia-interna",
+    "primeira-lei-de-ohm"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-08T22:54:03.000Z",
+  "atualizadoEm": "2026-11-08T22:57:26.000Z",
+  "revisao": {
+    "notas": "Gabarito da resolução própria; confere com o gabarito do caderno amarelo publicado pela Estratégia Vestibulares. Trocar para 'oficial' quando houver o PDF do INEP (2022_GB_impresso_D2_CD5.pdf). Camada de texto do caderno parcialmente cifrada: fidelidade conferida pela imagem e pelo OCR."
+  }
+}

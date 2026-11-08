@@ -4,6 +4,14 @@ Cada versão corresponde a um lote de importação ou a uma mudança no app/pipe
 Formato: `vMAIOR.MENOR.CORREÇÃO` — MENOR sobe a cada prova importada; MAIOR, em mudanças
 de modelo de dados; CORREÇÃO, em correções de questões já publicadas.
 
+## v1.11.0 — 2026-11-08
+
+- **ENEM 2022, 2º dia (caderno 5 amarelo)**: 16 questões, 26 figuras: Q92, Q95, Q96, Q99,
+  Q101, Q105, Q108, Q111, Q115, Q118, Q119, Q124, Q126, Q129, Q132 e Q133.
+  - Gabaritos: `resolucao-propria`, conferidos com o gabarito do caderno amarelo publicado
+    pela Estratégia Vestibulares.
+  - Camada de texto parcialmente cifrada; a fidelidade foi conferida pela imagem e pelo OCR.
+
 ## v1.10.0 — 2026-11-08
 
 - **ENEM 2023, 2º dia (caderno 5 amarelo)**: 16 questões, 11 figuras: Q91, Q92, Q93, Q95,

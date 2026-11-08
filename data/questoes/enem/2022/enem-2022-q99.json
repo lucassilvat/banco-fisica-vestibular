@@ -1,0 +1,27 @@
+{
+  "id": "enem-2022-q99",
+  "banca": "ENEM",
+  "ano": 2022,
+  "numero": "99",
+  "fase": "2º dia · Caderno Amarelo",
+  "fonte": {
+    "descricao": "INEP, ENEM 2022, 2º dia (Ciências da Natureza e Matemática), caderno de questões aplicado, Caderno 5 Amarelo"
+  },
+  "enunciado": "A fim de classificar as melhores rotas em um aplicativo de trânsito, um pesquisador propõe um modelo com base em circuitos elétricos. Nesse modelo, a corrente representa o número de carros que passam por um ponto da pista no intervalo de 1 s. A diferença de potencial (d.d.p.) corresponde à quantidade de energia por carro necessária para o deslocamento de 1 m. De forma análoga à lei de Ohm, cada via é classificada pela sua resistência, sendo a de maior resistência a mais congestionada. O aplicativo mostra as rotas em ordem crescente, ou seja, da rota de menor para a de maior resistência.\n\nComo teste para o sistema, são utilizadas três possíveis vias para uma viagem de A até B, com os valores de d.d.p. e corrente conforme a tabela.\n\n[[figura 1]]\n\nNesse teste, a ordenação das rotas indicadas pelo aplicativo será:\n\n(A) 1, 2, 3.\n(B) 1, 3, 2.\n(C) 2, 1, 3.\n(D) 3, 1, 2.\n(E) 3, 2, 1.",
+  "figuras": [
+    "enem-2022-q99-1.png"
+  ],
+  "gabarito": "A",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. Pela analogia com a lei de Ohm, <i>R</i> = <i>U</i>/<i>i</i>.\n2. Rota 1: 510/4 = 127,5; rota 2: 608/4 = 152; rota 3: 575/3 ≈ 191,7.\n3. Em ordem crescente de resistência: 1, 2, 3.\nGabarito: A.",
+  "topicos": [
+    "primeira-lei-de-ohm",
+    "leitura-e-interpretacao-de-graficos"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-08T22:54:03.000Z",
+  "atualizadoEm": "2026-11-08T22:57:26.000Z",
+  "revisao": {
+    "notas": "Gabarito da resolução própria; confere com o gabarito do caderno amarelo publicado pela Estratégia Vestibulares. Trocar para 'oficial' quando houver o PDF do INEP (2022_GB_impresso_D2_CD5.pdf). Camada de texto do caderno parcialmente cifrada: fidelidade conferida pela imagem e pelo OCR."
+  }
+}

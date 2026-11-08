@@ -1,0 +1,26 @@
+{
+  "id": "enem-2022-q133",
+  "banca": "ENEM",
+  "ano": 2022,
+  "numero": "133",
+  "fase": "2º dia · Caderno Amarelo",
+  "fonte": {
+    "descricao": "INEP, ENEM 2022, 2º dia (Ciências da Natureza e Matemática), caderno de questões aplicado, Caderno 5 Amarelo"
+  },
+  "enunciado": "Uma lanterna funciona com três pilhas de resistência interna igual a 0,5 Ω cada, ligadas em série. Quando posicionadas corretamente, devem acender a lâmpada incandescente de especificações 4,5 W e 4,5 V. Cada pilha na posição correta gera uma f.e.m. (força eletromotriz) de 1,5 V. Uma pessoa, ao trocar as pilhas da lanterna, comete o equívoco de inverter a posição de uma das pilhas. Considere que as pilhas mantêm contato independentemente da posição.\n\nCom esse equívoco, qual é a intensidade de corrente que passa pela lâmpada ao se ligar a lanterna?\n\n(A) 0,25 A\n(B) 0,33 A\n(C) 0,75 A\n(D) 1,00 A\n(E) 1,33 A",
+  "figuras": [],
+  "gabarito": "A",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. Resistência da lâmpada: <i>R</i> = <i>U</i><sup>2</sup>/<i>P</i> = 4,5<sup>2</sup>/4,5 = 4,5 Ω.\n2. Com uma pilha invertida, sua f.e.m. se opõe às outras: ε<sub>total</sub> = 1,5 + 1,5 − 1,5 = 1,5 V. As resistências internas continuam em série: 3 · 0,5 = 1,5 Ω.\n3. Corrente: <i>i</i> = 1,5/(4,5 + 1,5) = 1,5/6 = 0,25 A.\nGabarito: A.",
+  "topicos": [
+    "geradores-eletricos-fem-e-resistencia-interna",
+    "primeira-lei-de-ohm",
+    "potencia-eletrica-e-efeito-joule"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-08T22:54:03.000Z",
+  "atualizadoEm": "2026-11-08T22:57:26.000Z",
+  "revisao": {
+    "notas": "Gabarito da resolução própria; confere com o gabarito do caderno amarelo publicado pela Estratégia Vestibulares. Trocar para 'oficial' quando houver o PDF do INEP (2022_GB_impresso_D2_CD5.pdf). Camada de texto do caderno parcialmente cifrada: fidelidade conferida pela imagem e pelo OCR."
+  }
+}

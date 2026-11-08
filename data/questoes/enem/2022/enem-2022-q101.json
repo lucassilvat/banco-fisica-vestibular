@@ -1,0 +1,25 @@
+{
+  "id": "enem-2022-q101",
+  "banca": "ENEM",
+  "ano": 2022,
+  "numero": "101",
+  "fase": "2º dia · Caderno Amarelo",
+  "fonte": {
+    "descricao": "INEP, ENEM 2022, 2º dia (Ciências da Natureza e Matemática), caderno de questões aplicado, Caderno 5 Amarelo"
+  },
+  "enunciado": "No processo de captação da luz pelo olho para a formação de imagens estão envolvidas duas estruturas celulares: os cones e os bastonetes. Os cones são sensíveis à energia dos fótons, e os bastonetes, à quantidade de fótons incidentes. A energia dos fótons que compõem os raios luminosos está associada à sua frequência, e a intensidade, ao número de fótons incidentes.\n\nUm animal que tem bastonetes mais sensíveis irá\n\n(A) apresentar daltonismo.\n(B) perceber cores fora do espectro do visível.\n(C) enxergar bem em ambientes mal iluminados.\n(D) necessitar de mais luminosidade para enxergar.\n(E) fazer uma pequena distinção de cores em ambientes iluminados.",
+  "figuras": [],
+  "gabarito": "C",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. Segundo o texto, os bastonetes respondem à quantidade de fótons, isto é, à intensidade da luz; quem distingue a energia (frequência, cor) dos fótons são os cones.\n2. Bastonetes mais sensíveis respondem a um número menor de fótons: o animal enxerga com pouca luz, em ambientes mal iluminados (e precisa de menos luminosidade, não de mais, o que elimina D).\n3. Daltonismo e percepção de cores (A, B, E) dependem dos cones.\nGabarito: C.",
+  "topicos": [
+    "optica-da-visao-e-defeitos-visuais",
+    "fotons-e-energia-do-foton-e-hf"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-08T22:54:03.000Z",
+  "atualizadoEm": "2026-11-08T22:57:26.000Z",
+  "revisao": {
+    "notas": "Gabarito da resolução própria; confere com o gabarito do caderno amarelo publicado pela Estratégia Vestibulares. Trocar para 'oficial' quando houver o PDF do INEP (2022_GB_impresso_D2_CD5.pdf). Camada de texto do caderno parcialmente cifrada: fidelidade conferida pela imagem e pelo OCR."
+  }
+}

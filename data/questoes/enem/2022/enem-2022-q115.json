@@ -1,0 +1,29 @@
+{
+  "id": "enem-2022-q115",
+  "banca": "ENEM",
+  "ano": 2022,
+  "numero": "115",
+  "fase": "2º dia · Caderno Amarelo",
+  "fonte": {
+    "descricao": "INEP, ENEM 2022, 2º dia (Ciências da Natureza e Matemática), caderno de questões aplicado, Caderno 5 Amarelo"
+  },
+  "enunciado": "Um Buraco Negro é um corpo celeste que possui uma grande quantidade de matéria concentrada em uma pequena região do espaço, de modo que sua força gravitacional é tão grande que qualquer partícula fica aprisionada em sua superfície, inclusive a luz. O raio dessa região caracteriza uma superfície-limite, chamada de horizonte de eventos, da qual nada consegue escapar. Considere que o Sol foi instantaneamente substituído por um Buraco Negro com a mesma massa solar, de modo que o seu horizonte de eventos seja de aproximadamente 3,0 km.\n\nSCHWARZSCHILD, K. <b>On the Gravitational Field of a Mass Point According to Einstein’s Theory</b>. Disponível em: arxiv.org. Acesso em: 26 maio 2022 (adaptado).\n\nApós a substituição descrita, o que aconteceria aos planetas do Sistema Solar?\n\n(A) Eles se moveriam em órbitas espirais, aproximando-se sucessivamente do Buraco Negro.\n(B) Eles oscilariam aleatoriamente em torno de suas órbitas elípticas originais.\n(C) Eles se moveriam em direção ao centro do Buraco Negro.\n(D) Eles passariam a precessionar mais rapidamente.\n(E) Eles manteriam suas órbitas inalteradas.",
+  "figuras": [],
+  "gabarito": "E",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. Pela lei da gravitação universal, a força sobre um planeta depende só da massa do corpo central e da distância até o centro dele: <i>F</i> = <i>GMm</i>/<i>d</i><sup>2</sup>.\n2. O buraco negro tem a mesma massa do Sol, e os planetas continuam às mesmas distâncias, muito maiores que o raio do Sol ou do horizonte de eventos. A força gravitacional sobre eles não muda.\n3. Logo, as órbitas permanecem as mesmas. O buraco negro só é \"diferente\" muito perto dele, onde nenhum planeta está.\nGabarito: E.",
+  "topicos": [
+    "lei-da-gravitacao-universal",
+    "leis-de-kepler",
+    "satelites-orbitas-e-imponderabilidade"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-08T22:54:03.000Z",
+  "atualizadoEm": "2026-11-08T22:57:26.000Z",
+  "revisao": {
+    "notas": "Gabarito da resolução própria; confere com o gabarito do caderno amarelo publicado pela Estratégia Vestibulares. Trocar para 'oficial' quando houver o PDF do INEP (2022_GB_impresso_D2_CD5.pdf). Camada de texto do caderno parcialmente cifrada: fidelidade conferida pela imagem e pelo OCR. 'Einstein’s' com apóstrofo tipográfico; o OCR lê a palavra colada.",
+    "divergenciasAceitas": [
+      "Einstein"
+    ]
+  }
+}
