@@ -1,0 +1,27 @@
+{
+  "id": "enem-2020-q96",
+  "banca": "ENEM",
+  "ano": 2020,
+  "numero": "96",
+  "fase": "2º dia · Caderno Amarelo",
+  "fonte": {
+    "descricao": "INEP, ENEM 2020, 2º dia (Ciências da Natureza e Matemática), caderno de questões aplicado, Caderno 5 Amarelo"
+  },
+  "enunciado": "Um estudante tem uma fonte de tensão com corrente contínua que opera em tensão fixa de 12 V. Como precisa alimentar equipamentos que operam em tensões menores, ele emprega quatro resistores de 100 Ω para construir um divisor de tensão. Obtém-se este divisor associando os resistores, como exibido na figura. Os aparelhos podem ser ligados entre os pontos <i>A</i>, <i>B</i>, <i>C</i>, <i>D</i> e <i>E</i>, dependendo da tensão especificada.\n\n[[figura 1]]\n\nEle tem um equipamento que opera em 9,0 V com uma resistência interna de 10 kΩ.\n\nEntre quais pontos do divisor de tensão esse equipamento deve ser ligado para funcionar corretamente e qual será o valor da intensidade da corrente nele estabelecida?\n\n(A) Entre <i>A</i> e <i>C</i>; 30 mA.\n(B) Entre <i>B</i> e <i>E</i>; 30 mA.\n(C) Entre <i>A</i> e <i>D</i>; 1,2 mA.\n(D) Entre <i>B</i> e <i>E</i>; 0,9 mA.\n(E) Entre <i>A</i> e <i>E</i>; 0,9 mA.",
+  "figuras": [
+    "enem-2020-q96-1.png"
+  ],
+  "gabarito": "D",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. Os quatro resistores iguais estão em série sob 12 V: cada um fica com 12/4 = 3 V. Entre dois pontos separados por três resistores (<i>A</i> e <i>D</i>, ou <i>B</i> e <i>E</i>) a tensão é 9 V.\n2. O equipamento (10 kΩ) é muito maior que os 300 Ω do trecho em que é ligado, então praticamente não altera a divisão de tensão: fica com 9,0 V.\n3. Corrente no equipamento: <i>i</i> = <i>U</i>/<i>R</i> = 9,0/10 000 = 9 × 10<sup>−4</sup> A = 0,9 mA. A combinação correta é <i>B</i> e <i>E</i> com 0,9 mA (a alternativa com <i>A</i> e <i>D</i> traz corrente errada).\nGabarito: D.",
+  "topicos": [
+    "associacao-de-resistores",
+    "primeira-lei-de-ohm"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-08T23:09:55.000Z",
+  "atualizadoEm": "2026-11-08T23:14:09.000Z",
+  "revisao": {
+    "notas": "Gabarito da resolução própria; não foi possível conferir com um gabarito publicado do caderno amarelo nesta sessão. Trocar para 'oficial' quando houver o PDF do INEP (2020_GB_impresso_D2_CD5.pdf). A única anulação de Ciências da Natureza no caderno amarelo (Q114) não é de Física."
+  }
+}

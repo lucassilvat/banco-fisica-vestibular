@@ -4,6 +4,17 @@ Cada versão corresponde a um lote de importação ou a uma mudança no app/pipe
 Formato: `vMAIOR.MENOR.CORREÇÃO` — MENOR sobe a cada prova importada; MAIOR, em mudanças
 de modelo de dados; CORREÇÃO, em correções de questões já publicadas.
 
+## v1.13.0 — 2026-11-08
+
+- **ENEM 2020, 2º dia (caderno 5 amarelo)**: 16 questões, 18 figuras: Q92, Q94, Q96, Q101,
+  Q106, Q108, Q109, Q112, Q113, Q122, Q125, Q130, Q131, Q133, Q134 e Q135.
+  - Gabaritos: `resolucao-propria`. Não foi possível conferir com um gabarito publicado do
+    caderno amarelo nesta sessão (os sites encontrados usavam outra numeração); a Q106 foi
+    conferida pela questão correspondente do caderno azul. A anulação do INEP no caderno
+    amarelo (Q114) não é de Física.
+  - 'Eiffel' em Q135 e 'Pensando' em Q106 ficaram em `revisao.divergenciasAceitas`
+    (ligadura e falso aviso do verificador).
+
 ## v1.12.0 — 2026-11-08
 
 - **ENEM 2021, 2º dia (caderno 5 amarelo)**: 14 questões, 22 figuras: Q92, Q93, Q96, Q99,

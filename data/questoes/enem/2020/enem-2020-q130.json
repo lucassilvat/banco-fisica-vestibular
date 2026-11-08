@@ -1,0 +1,26 @@
+{
+  "id": "enem-2020-q130",
+  "banca": "ENEM",
+  "ano": 2020,
+  "numero": "130",
+  "fase": "2º dia · Caderno Amarelo",
+  "fonte": {
+    "descricao": "INEP, ENEM 2020, 2º dia (Ciências da Natureza e Matemática), caderno de questões aplicado, Caderno 5 Amarelo"
+  },
+  "enunciado": "Em uma usina geradora de energia elétrica, seja através de uma queda-d’água ou através de vapor sob pressão, as pás do gerador são postas a girar. O movimento relativo de um ímã em relação a um conjunto de bobinas produz um fluxo magnético variável através delas, gerando uma diferença de potencial em seus terminais. Durante o funcionamento de um dos geradores, o operador da usina percebeu que houve um aumento inesperado da diferença de potencial elétrico nos terminais das bobinas.\n\nNessa situação, o aumento do módulo da diferença de potencial obtida nos terminais das bobinas resulta do aumento do(a)\n\n(A) intervalo de tempo em que as bobinas ficam imersas no campo magnético externo, por meio de uma diminuição de velocidade no eixo de rotação do gerador.\n(B) fluxo magnético através das bobinas, por meio de um aumento em sua área interna exposta ao campo magnético aplicado.\n(C) intensidade do campo magnético no qual as bobinas estão imersas, por meio de aplicação de campos magnéticos mais intensos.\n(D) rapidez com que o fluxo magnético varia através das bobinas, por meio de um aumento em sua velocidade angular.\n(E) resistência interna do condutor que constitui as bobinas, por meio de um aumento na espessura dos terminais.",
+  "figuras": [],
+  "gabarito": "D",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. Lei de Faraday: |ε| = |ΔΦ/Δ<i>t</i>|. A tensão induzida depende da rapidez com que o fluxo varia, não do valor do fluxo em si.\n2. Num gerador em funcionamento, a área das bobinas e o campo do ímã são fixos; o que pode mudar inesperadamente é a velocidade de rotação (por exemplo, mais vazão de água ou de vapor). Girando mais depressa, o fluxo varia mais rápido e a tensão aumenta.\n3. A diminui a rapidez (efeito oposto); B e C exigiriam mudar a construção do gerador; E não aumenta a tensão gerada.\nGabarito: D.",
+  "topicos": [
+    "inducao-eletromagnetica-lei-de-faraday",
+    "usinas-e-geracao-de-energia-eletrica",
+    "geradores-e-motores-eletricos"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-08T23:09:55.000Z",
+  "atualizadoEm": "2026-11-08T23:14:09.000Z",
+  "revisao": {
+    "notas": "Gabarito da resolução própria; não foi possível conferir com um gabarito publicado do caderno amarelo nesta sessão. Trocar para 'oficial' quando houver o PDF do INEP (2020_GB_impresso_D2_CD5.pdf). A única anulação de Ciências da Natureza no caderno amarelo (Q114) não é de Física."
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "id": "enem-2020-q131",
+  "banca": "ENEM",
+  "ano": 2020,
+  "numero": "131",
+  "fase": "2º dia · Caderno Amarelo",
+  "fonte": {
+    "descricao": "INEP, ENEM 2020, 2º dia (Ciências da Natureza e Matemática), caderno de questões aplicado, Caderno 5 Amarelo"
+  },
+  "enunciado": "Herschel, em 1880, começou a escrever sobre a condensação da luz solar no foco de uma lente e queria verificar de que maneira os raios coloridos contribuem para o aquecimento. Para isso, ele projetou sobre um anteparo o espectro solar obtido com um prisma, colocou termômetros nas diversas faixas de cores e verificou nos dados obtidos que um dos termômetros iluminados indicou um aumento de temperatura maior para uma determinada faixa de frequências.\n\nSAYURI, M.; GASPAR, M. B. Infravermelho na sala de aula. Disponível em: www.cienciamao.usp.br. Acesso em: 15 ago. 2016 (adaptado).\n\nPara verificar a hipótese de Herschel, um estudante montou o dispositivo apresentado na figura. Nesse aparato, cinco recipientes contendo água, à mesma temperatura inicial, e separados por um material isolante térmico e refletor são posicionados lado a lado (A, B, C, D e E) no interior de uma caixa de material isolante térmico e opaco. A luz solar, ao entrar na caixa, atravessa o prisma e incide sobre os recipientes. O estudante aguarda até que ocorra o aumento da temperatura e a afere em cada recipiente.\n\n[[figura 1]]\n\nEm qual dos recipientes a água terá maior temperatura ao final do experimento?\n\n(A) A\n(B) B\n(C) C\n(D) D\n(E) E",
+  "figuras": [
+    "enem-2020-q131-1.png"
+  ],
+  "gabarito": "A",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. O prisma desvia menos as radiações de menor frequência: o vermelho fica de um lado do espectro (perto do recipiente B) e o violeta do outro.\n2. Além do vermelho, ainda menos desviada, fica a radiação infravermelha, invisível. Foi justamente ali que Herschel registrou o maior aquecimento, o que levou à descoberta do infravermelho.\n3. Na montagem, a região além do vermelho incide sobre o recipiente A, que terá a maior temperatura.\nGabarito: A.",
+  "topicos": [
+    "espectro-eletromagnetico",
+    "prismas-e-dispersao-da-luz",
+    "conveccao-e-irradiacao-termica"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-08T23:09:55.000Z",
+  "atualizadoEm": "2026-11-08T23:14:09.000Z",
+  "revisao": {
+    "notas": "Gabarito da resolução própria; não foi possível conferir com um gabarito publicado do caderno amarelo nesta sessão. Trocar para 'oficial' quando houver o PDF do INEP (2020_GB_impresso_D2_CD5.pdf). A única anulação de Ciências da Natureza no caderno amarelo (Q114) não é de Física."
+  }
+}

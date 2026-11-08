@@ -1,0 +1,25 @@
+{
+  "id": "enem-2020-q92",
+  "banca": "ENEM",
+  "ano": 2020,
+  "numero": "92",
+  "fase": "2º dia · Caderno Amarelo",
+  "fonte": {
+    "descricao": "INEP, ENEM 2020, 2º dia (Ciências da Natureza e Matemática), caderno de questões aplicado, Caderno 5 Amarelo"
+  },
+  "enunciado": "As panelas de pressão reduzem o tempo de cozimento dos alimentos por elevar a temperatura de ebulição da água. Os usuários conhecedores do utensílio normalmente abaixam a intensidade do fogo em panelas de pressão após estas iniciarem a saída dos vapores.\n\nAo abaixar o fogo, reduz-se a chama, pois assim evita-se o(a)\n\n(A) aumento da pressão interna e os riscos de explosão.\n(B) dilatação da panela e a desconexão com sua tampa.\n(C) perda da qualidade nutritiva do alimento.\n(D) deformação da borracha de vedação.\n(E) consumo de gás desnecessário.",
+  "figuras": [],
+  "gabarito": "E",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. Quando o vapor começa a sair pela válvula, a pressão interna já atingiu o valor regulado pela válvula, e a água ferve na temperatura correspondente a essa pressão (acima de 100 °C).\n2. A partir daí, chama mais forte não aumenta a pressão nem a temperatura: a válvula libera o excesso de vapor. O calor extra só vaporiza mais água, que escapa.\n3. Basta fornecer calor suficiente para manter a ebulição; abaixar o fogo evita gastar gás à toa. A segurança contra explosão é garantida pela válvula, não pela chama.\nGabarito: E.",
+  "topicos": [
+    "calor-latente-e-mudancas-de-fase",
+    "pressao"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-08T23:09:55.000Z",
+  "atualizadoEm": "2026-11-08T23:14:09.000Z",
+  "revisao": {
+    "notas": "Gabarito da resolução própria; não foi possível conferir com um gabarito publicado do caderno amarelo nesta sessão. Trocar para 'oficial' quando houver o PDF do INEP (2020_GB_impresso_D2_CD5.pdf). A única anulação de Ciências da Natureza no caderno amarelo (Q114) não é de Física."
+  }
+}

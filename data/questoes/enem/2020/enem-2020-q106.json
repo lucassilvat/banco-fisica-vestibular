@@ -1,0 +1,34 @@
+{
+  "id": "enem-2020-q106",
+  "banca": "ENEM",
+  "ano": 2020,
+  "numero": "106",
+  "fase": "2º dia · Caderno Amarelo",
+  "fonte": {
+    "descricao": "INEP, ENEM 2020, 2º dia (Ciências da Natureza e Matemática), caderno de questões aplicado, Caderno 5 Amarelo"
+  },
+  "enunciado": "Uma pessoa percebe que a bateria de seu veículo fica descarregada após cinco dias sem uso. No início desse período, a bateria funcionava normalmente e estava com o total de sua carga nominal, de 60 Ah. Pensando na possibilidade de haver uma corrente de fuga, que se estabelece mesmo com os dispositivos elétricos do veículo desligados, ele associa um amperímetro digital ao circuito do veículo.\n\nQual dos esquemas indica a maneira com que o amperímetro deve ser ligado e a leitura por ele realizada?\n\n(A)\n[[figura 1]]\n(B)\n[[figura 2]]\n(C)\n[[figura 3]]\n(D)\n[[figura 4]]\n(E)\n[[figura 5]]",
+  "figuras": [
+    "enem-2020-q106-1.png",
+    "enem-2020-q106-2.png",
+    "enem-2020-q106-3.png",
+    "enem-2020-q106-4.png",
+    "enem-2020-q106-5.png"
+  ],
+  "gabarito": "B",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. Corrente de fuga média: <i>i</i> = <i>Q</i>/Δ<i>t</i> = 60 Ah/(5 · 24 h) = 60/120 = 0,5 A.\n2. O amperímetro mede a corrente que passa por ele, então deve ficar em série com o circuito do veículo: um cabo do circuito é desligado de um polo da bateria e o amperímetro é intercalado nesse caminho.\n3. Em A e C o amperímetro está ligado entre os polos da bateria (em paralelo), o que não mede a corrente do circuito do veículo; D e E indicam 12 A, valor incompatível com uma descarga em cinco dias. Só B combina a ligação em série com a leitura de 0,5 A.\nGabarito: B.",
+  "topicos": [
+    "amperimetro-voltimetro-e-ponte-de-wheatstone",
+    "corrente-eletrica"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-08T23:09:55.000Z",
+  "atualizadoEm": "2026-11-08T23:14:09.000Z",
+  "revisao": {
+    "notas": "Gabarito da resolução própria; não foi possível conferir com um gabarito publicado do caderno amarelo nesta sessão. Trocar para 'oficial' quando houver o PDF do INEP (2020_GB_impresso_D2_CD5.pdf). A única anulação de Ciências da Natureza no caderno amarelo (Q114) não é de Física. 'Pensando' está no caderno (camada de texto confirma); aviso do verificador aceito.",
+    "divergenciasAceitas": [
+      "Pensando"
+    ]
+  }
+}
