@@ -1,0 +1,28 @@
+{
+  "id": "enem-2018-q128",
+  "banca": "ENEM",
+  "ano": 2018,
+  "numero": "128",
+  "fase": "2º dia · Caderno Amarelo",
+  "fonte": {
+    "descricao": "INEP, ENEM 2018, 2º dia (Ciências da Natureza e Matemática), caderno de questões aplicado, Caderno 5 Amarelo"
+  },
+  "enunciado": "A figura representa um prisma óptico, constituído de um material transparente, cujo índice de refração é crescente com a frequência da luz que sobre ele incide. Um feixe luminoso, composto por luzes vermelha, azul e verde, incide na face A, emerge na face B e, após ser refletido por um espelho, incide num filme para fotografia colorida, revelando três pontos.\n\n[[figura 1]]\n\n[[figura 2]]\n\nObservando os pontos luminosos revelados no filme, de baixo para cima, constatam-se as seguintes cores:\n\n(A) Vermelha, verde, azul.\n(B) Verde, vermelha, azul.\n(C) Azul, verde, vermelha.\n(D) Verde, azul, vermelha.\n(E) Azul, vermelha, verde.",
+  "figuras": [
+    "enem-2018-q128-1.png",
+    "enem-2018-q128-2.png"
+  ],
+  "gabarito": "A",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. O índice de refração cresce com a frequência: a luz azul (maior frequência) é a mais desviada e a vermelha (menor frequência) a menos desviada. Ao sair pela face B, o azul desce mais inclinado, o vermelho menos e o verde fica entre eles.\n2. O raio vermelho, menos inclinado, atinge o espelho mais longe do prisma (mais perto do filme); o azul atinge o espelho mais perto do prisma.\n3. Após a reflexão, os raios sobem com as mesmas inclinações. O vermelho, que parte mais perto do filme e com menor inclinação, chega ao filme mais baixo; o azul, mais alto. De baixo para cima: vermelha, verde, azul.\nGabarito: A.",
+  "topicos": [
+    "prismas-e-dispersao-da-luz",
+    "reflexao-da-luz-e-espelhos-planos"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-08T23:23:18.000Z",
+  "atualizadoEm": "2026-11-08T23:26:35.000Z",
+  "revisao": {
+    "notas": "Gabarito da resolução própria; confere com o gabarito oficial do caderno amarelo reproduzido pelo Guia da Carreira. Trocar para 'oficial' quando houver o PDF do INEP (2018_GB_impresso_D2_CD5.pdf). Camada de texto do caderno por OCR: fidelidade conferida pela imagem."
+  }
+}

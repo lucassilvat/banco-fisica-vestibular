@@ -4,6 +4,15 @@ Cada versão corresponde a um lote de importação ou a uma mudança no app/pipe
 Formato: `vMAIOR.MENOR.CORREÇÃO` — MENOR sobe a cada prova importada; MAIOR, em mudanças
 de modelo de dados; CORREÇÃO, em correções de questões já publicadas.
 
+## v1.15.0 — 2026-11-08
+
+- **ENEM 2018, 2º dia (caderno 5 amarelo)**: 15 questões, 24 figuras: Q92, Q96, Q98, Q103,
+  Q106, Q109, Q110, Q117, Q118, Q122, Q124, Q127, Q128, Q131 e Q133.
+  - Gabaritos: `resolucao-propria`, todos conferidos com o gabarito oficial do caderno
+    amarelo reproduzido pelo Guia da Carreira (sem anulações em Ciências da Natureza).
+  - Camada de texto por OCR; a fidelidade foi conferida pela imagem. Q128 e Q131 ocupam a
+    largura total da página.
+
 ## v1.14.0 — 2026-11-08
 
 - **ENEM 2019, 2º dia (caderno 5 amarelo)**: 14 questões, 7 figuras: Q91, Q95, Q97, Q100,

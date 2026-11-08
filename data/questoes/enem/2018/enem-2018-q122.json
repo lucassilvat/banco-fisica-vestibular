@@ -1,0 +1,27 @@
+{
+  "id": "enem-2018-q122",
+  "banca": "ENEM",
+  "ano": 2018,
+  "numero": "122",
+  "fase": "2º dia · Caderno Amarelo",
+  "fonte": {
+    "descricao": "INEP, ENEM 2018, 2º dia (Ciências da Natureza e Matemática), caderno de questões aplicado, Caderno 5 Amarelo"
+  },
+  "enunciado": "Alguns materiais sólidos são compostos por átomos que interagem entre si formando ligações que podem ser covalentes, iônicas ou metálicas. A figura apresenta a energia potencial de ligação em função da distância interatômica em um sólido cristalino. Analisando essa figura, observa-se que, na temperatura de zero kelvin, a distância de equilíbrio da ligação entre os átomos (<i>R</i><sub>0</sub>) corresponde ao valor mínimo de energia potencial. Acima dessa temperatura, a energia térmica fornecida aos átomos aumenta sua energia cinética e faz com que eles oscilem em torno de uma posição de equilíbrio média (círculos cheios), que é diferente para cada temperatura. A distância de ligação pode variar sobre toda a extensão das linhas horizontais, identificadas com o valor da temperatura, de <i>T</i><sub>1</sub> a <i>T</i><sub>4</sub> (temperaturas crescentes).\n\n[[figura 1]]\n\nO deslocamento observado na distância média revela o fenômeno da\n\n(A) ionização.\n(B) dilatação.\n(C) dissociação.\n(D) quebra de ligações covalentes.\n(E) formação de ligações metálicas.",
+  "figuras": [
+    "enem-2018-q122-1.png"
+  ],
+  "gabarito": "B",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. A curva de energia potencial é assimétrica: sobe muito rápido para distâncias menores que <i>R</i><sub>0</sub> e devagar para distâncias maiores.\n2. Com mais energia, os átomos oscilam entre os extremos de cada linha horizontal, e o ponto médio (círculos cheios) se desloca para distâncias maiores à medida que a temperatura sobe de <i>T</i><sub>1</sub> a <i>T</i><sub>4</sub>.\n3. O aumento da distância média entre os átomos com a temperatura é a origem microscópica da dilatação térmica. As ligações não se rompem (os átomos continuam no \"poço\" de energia negativa).\nGabarito: B.",
+  "topicos": [
+    "dilatacao-termica-dos-solidos",
+    "leitura-e-interpretacao-de-graficos"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-08T23:23:18.000Z",
+  "atualizadoEm": "2026-11-08T23:26:35.000Z",
+  "revisao": {
+    "notas": "Gabarito da resolução própria; confere com o gabarito oficial do caderno amarelo reproduzido pelo Guia da Carreira. Trocar para 'oficial' quando houver o PDF do INEP (2018_GB_impresso_D2_CD5.pdf). Camada de texto do caderno por OCR: fidelidade conferida pela imagem."
+  }
+}

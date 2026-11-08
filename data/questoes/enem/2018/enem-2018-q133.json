@@ -1,0 +1,26 @@
+{
+  "id": "enem-2018-q133",
+  "banca": "ENEM",
+  "ano": 2018,
+  "numero": "133",
+  "fase": "2º dia · Caderno Amarelo",
+  "fonte": {
+    "descricao": "INEP, ENEM 2018, 2º dia (Ciências da Natureza e Matemática), caderno de questões aplicado, Caderno 5 Amarelo"
+  },
+  "enunciado": "Visando a melhoria estética de um veículo, o vendedor de uma loja sugere ao consumidor que ele troque as rodas de seu automóvel de aro 15 polegadas para aro 17 polegadas, o que corresponde a um diâmetro maior do conjunto roda e pneu.\n\nDuas consequências provocadas por essa troca de aro são:\n\n(A) Elevar a posição do centro de massa do veículo tornando-o mais instável e aumentar a velocidade do automóvel em relação à indicada no velocímetro.\n(B) Abaixar a posição do centro de massa do veículo tornando-o mais instável e diminuir a velocidade do automóvel em relação à indicada no velocímetro.\n(C) Elevar a posição do centro de massa do veículo tornando-o mais estável e aumentar a velocidade do automóvel em relação à indicada no velocímetro.\n(D) Abaixar a posição do centro de massa do veículo tornando-o mais estável e diminuir a velocidade do automóvel em relação à indicada no velocímetro.\n(E) Elevar a posição do centro de massa do veículo tornando-o mais estável e diminuir a velocidade do automóvel em relação à indicada no velocímetro.",
+  "figuras": [],
+  "gabarito": "A",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. Rodas de diâmetro maior levantam a carroceria: o centro de massa sobe e o veículo fica mais instável (tomba com mais facilidade em curvas).\n2. O velocímetro mede, na prática, a frequência de rotação das rodas e a converte em velocidade usando o raio original: <i>v</i> = ω<i>R</i>.\n3. Com raio maior, para a mesma rotação o carro anda mais rápido (<i>v</i> = ω<i>R</i> maior) do que o velocímetro indica.\nGabarito: A.",
+  "topicos": [
+    "equilibrio-do-corpo-extenso",
+    "movimento-circular-uniforme-mcu",
+    "centro-de-massa"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-08T23:23:18.000Z",
+  "atualizadoEm": "2026-11-08T23:26:35.000Z",
+  "revisao": {
+    "notas": "Gabarito da resolução própria; confere com o gabarito oficial do caderno amarelo reproduzido pelo Guia da Carreira. Trocar para 'oficial' quando houver o PDF do INEP (2018_GB_impresso_D2_CD5.pdf). Camada de texto do caderno por OCR: fidelidade conferida pela imagem."
+  }
+}

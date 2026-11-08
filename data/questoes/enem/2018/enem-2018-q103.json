@@ -1,0 +1,25 @@
+{
+  "id": "enem-2018-q103",
+  "banca": "ENEM",
+  "ano": 2018,
+  "numero": "103",
+  "fase": "2º dia · Caderno Amarelo",
+  "fonte": {
+    "descricao": "INEP, ENEM 2018, 2º dia (Ciências da Natureza e Matemática), caderno de questões aplicado, Caderno 5 Amarelo"
+  },
+  "enunciado": "Talvez você já tenha bebido suco usando dois canudinhos iguais. Entretanto, pode-se verificar que, se colocar um canudo imerso no suco e outro do lado de fora do líquido, fazendo a sucção simultaneamente em ambos, você terá dificuldade em bebê-lo.\n\nEssa dificuldade ocorre porque o(a)\n\n(A) força necessária para a sucção do ar e do suco simultaneamente dobra de valor.\n(B) densidade do ar é menor que a do suco, portanto, o volume de ar aspirado é muito maior que o volume de suco.\n(C) velocidade com que o suco sobe deve ser constante nos dois canudos, o que é impossível com um dos canudos de fora.\n(D) peso da coluna de suco é consideravelmente maior que o peso da coluna de ar, o que dificulta a sucção do líquido.\n(E) pressão no interior da boca assume praticamente o mesmo valor daquela que atua sobre o suco.",
+  "figuras": [],
+  "gabarito": "E",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. O suco sobe pelo canudo porque, ao sugar, a pressão na boca fica menor que a pressão atmosférica que atua sobre a superfície do suco; essa diferença de pressão empurra o líquido para cima.\n2. Com um canudo fora do líquido, o ar externo entra livremente por ele e a pressão dentro da boca não consegue cair: fica praticamente igual à atmosférica, a mesma que atua sobre o suco.\n3. Sem diferença de pressão, não há o que empurre o suco pelo outro canudo.\nGabarito: E.",
+  "topicos": [
+    "pressao-atmosferica-e-experimento-de-torricelli",
+    "teorema-de-stevin-pressao-hidrostatica"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-08T23:23:18.000Z",
+  "atualizadoEm": "2026-11-08T23:26:35.000Z",
+  "revisao": {
+    "notas": "Gabarito da resolução própria; confere com o gabarito oficial do caderno amarelo reproduzido pelo Guia da Carreira. Trocar para 'oficial' quando houver o PDF do INEP (2018_GB_impresso_D2_CD5.pdf). Camada de texto do caderno por OCR: fidelidade conferida pela imagem."
+  }
+}

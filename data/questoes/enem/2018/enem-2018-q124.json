@@ -1,0 +1,28 @@
+{
+  "id": "enem-2018-q124",
+  "banca": "ENEM",
+  "ano": 2018,
+  "numero": "124",
+  "fase": "2º dia · Caderno Amarelo",
+  "fonte": {
+    "descricao": "INEP, ENEM 2018, 2º dia (Ciências da Natureza e Matemática), caderno de questões aplicado, Caderno 5 Amarelo"
+  },
+  "enunciado": "Nos manuais de instalação de equipamentos de som há o alerta aos usuários para que observem a correta polaridade dos fios ao realizarem as conexões das caixas de som. As figuras ilustram o esquema de conexão das caixas de som de um equipamento de som mono, no qual os alto-falantes emitem as mesmas ondas. No primeiro caso, a ligação obedece às especificações do fabricante e no segundo mostra uma ligação na qual a polaridade está invertida.\n\n[[figura 1]]\n\n[[figura 2]]\n\nO que ocorre com os alto-falantes <b>E</b> e <b>D</b> se forem conectados de acordo com o segundo esquema?\n\n(A) O alto-falante <b>E</b> funciona normalmente e o <b>D</b> entra em curto-circuito e não emite som.\n(B) O alto-falante <b>E</b> emite ondas sonoras com frequências ligeiramente diferentes do alto-falante <b>D</b> provocando o fenômeno de batimento.\n(C) O alto-falante <b>E</b> emite ondas sonoras com frequências e fases diferentes do alto-falante <b>D</b> provocando o fenômeno conhecido como ruído.\n(D) O alto-falante <b>E</b> emite ondas sonoras que apresentam um lapso de tempo em relação às emitidas pelo alto-falante <b>D</b> provocando o fenômeno de reverberação.\n(E) O alto-falante <b>E</b> emite ondas sonoras em oposição de fase às emitidas pelo alto-falante <b>D</b> provocando o fenômeno de interferência destrutiva nos pontos equidistantes aos alto-falantes.",
+  "figuras": [
+    "enem-2018-q124-1.png",
+    "enem-2018-q124-2.png"
+  ],
+  "gabarito": "E",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. Invertendo os fios de <b>D</b>, a corrente nele tem sentido oposto ao de <b>E</b> a cada instante: quando o cone de <b>E</b> avança, o de <b>D</b> recua. Os dois emitem a mesma frequência, mas em oposição de fase.\n2. Em pontos equidistantes dos dois alto-falantes, as ondas chegam ao mesmo tempo e com fases opostas: compressão de uma coincide com rarefação da outra e há interferência destrutiva (som enfraquecido).\n3. Não há curto-circuito (o alto-falante continua ligado aos dois terminais) nem mudança de frequência.\nGabarito: E.",
+  "topicos": [
+    "interferencia",
+    "som-altura-intensidade-e-timbre"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-08T23:23:18.000Z",
+  "atualizadoEm": "2026-11-08T23:26:35.000Z",
+  "revisao": {
+    "notas": "Gabarito da resolução própria; confere com o gabarito oficial do caderno amarelo reproduzido pelo Guia da Carreira. Trocar para 'oficial' quando houver o PDF do INEP (2018_GB_impresso_D2_CD5.pdf). Camada de texto do caderno por OCR: fidelidade conferida pela imagem."
+  }
+}

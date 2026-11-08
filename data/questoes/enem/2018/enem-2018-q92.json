@@ -1,0 +1,25 @@
+{
+  "id": "enem-2018-q92",
+  "banca": "ENEM",
+  "ano": 2018,
+  "numero": "92",
+  "fase": "2º dia · Caderno Amarelo",
+  "fonte": {
+    "descricao": "INEP, ENEM 2018, 2º dia (Ciências da Natureza e Matemática), caderno de questões aplicado, Caderno 5 Amarelo"
+  },
+  "enunciado": "A tecnologia de comunicação da etiqueta RFID (chamada de etiqueta inteligente) é usada há anos para rastrear gado, vagões de trem, bagagem aérea e carros nos pedágios. Um modelo mais barato dessas etiquetas pode funcionar sem baterias e é constituído por três componentes: um microprocessador de silício; uma bobina de metal, feita de cobre ou de alumínio, que é enrolada em um padrão circular; e um encapsulador, que é um material de vidro ou polímero envolvendo o microprocessador e a bobina. Na presença de um campo de radiofrequência gerado pelo leitor, a etiqueta transmite sinais. A distância de leitura é determinada pelo tamanho da bobina e pela potência da onda de rádio emitida pelo leitor.\n\nDisponível em: http://eletronicos.hsw.uol.com.br. Acesso em: 27 fev. 2012 (adaptado).\n\nA etiqueta funciona sem pilhas porque o campo\n\n(A) elétrico da onda de rádio agita elétrons da bobina.\n(B) elétrico da onda de rádio cria uma tensão na bobina.\n(C) magnético da onda de rádio induz corrente na bobina.\n(D) magnético da onda de rádio aquece os fios da bobina.\n(E) magnético da onda de rádio diminui a ressonância no interior da bobina.",
+  "figuras": [],
+  "gabarito": "C",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. A onda de rádio do leitor tem um campo magnético que varia no tempo. Esse campo atravessa a bobina da etiqueta, e o fluxo magnético nela varia.\n2. Pela lei de Faraday, a variação do fluxo induz uma força eletromotriz e uma corrente na bobina, que alimenta o microprocessador e permite transmitir o sinal — por isso não há necessidade de pilhas.\n3. A bobina é justamente o elemento que capta a variação de fluxo magnético; aquecer os fios (D) não fornece energia útil ao circuito.\nGabarito: C.",
+  "topicos": [
+    "inducao-eletromagnetica-lei-de-faraday",
+    "espectro-eletromagnetico"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-08T23:23:18.000Z",
+  "atualizadoEm": "2026-11-08T23:26:35.000Z",
+  "revisao": {
+    "notas": "Gabarito da resolução própria; confere com o gabarito oficial do caderno amarelo reproduzido pelo Guia da Carreira. Trocar para 'oficial' quando houver o PDF do INEP (2018_GB_impresso_D2_CD5.pdf). Camada de texto do caderno por OCR: fidelidade conferida pela imagem."
+  }
+}
