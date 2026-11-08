@@ -4,6 +4,16 @@ Cada versão corresponde a um lote de importação ou a uma mudança no app/pipe
 Formato: `vMAIOR.MENOR.CORREÇÃO` — MENOR sobe a cada prova importada; MAIOR, em mudanças
 de modelo de dados; CORREÇÃO, em correções de questões já publicadas.
 
+## v1.9.0 — 2026-11-08
+
+- **ENEM 2024, 2º dia (caderno 5 amarelo)**: 16 questões, 29 figuras: Q95, Q100, Q101,
+  Q102, Q103, Q104, Q106, Q109, Q110, Q114, Q117, Q118, Q119, Q124, Q126 e Q129.
+  - Gabaritos: `resolucao-propria`, conferidos com o gabarito do caderno amarelo publicado
+    pela Estratégia Vestibulares, que incorpora as retificações do INEP. O PDF do INEP
+    não pôde ser baixado na sessão.
+  - **Q102 anulada pelo INEP**: com os dados, a eficiência sairia maior que 100%. Mantida
+    com a resposta provavelmente pretendida (B, razão invertida) e aviso na resolução.
+
 ## v1.8.0 — 2026-11-08
 
 - **ENEM 2025, 2º dia (Ciências da Natureza, caderno 5 amarelo)**: 14 questões, 24 figuras:

@@ -1,0 +1,28 @@
+{
+  "id": "enem-2024-q104",
+  "banca": "ENEM",
+  "ano": 2024,
+  "numero": "104",
+  "fase": "2º dia · Caderno Amarelo",
+  "fonte": {
+    "descricao": "INEP, ENEM 2024, 2º dia (Ciências da Natureza e Matemática), caderno de questões aplicado, Caderno 5 Amarelo"
+  },
+  "enunciado": "Para os circuitos de maratonas aquáticas realizadas em mares calmos e próximos à praia, é montado um sistema de boias que determinam o trajeto a ser seguido pelos nadadores. Uma das dificuldades desse tipo de circuito é compensar os efeitos da corrente marinha. O diagrama contém o circuito em que deve ser realizada uma volta no sentido anti-horário. As quatro boias estão numeradas de 1 a 4. Existe uma corrente marinha de velocidade υ⃗<sub>c</sub>, cujo módulo é 30 metros por minuto, paralela à praia em toda a área do circuito. Nas arestas mais longas, o nadador precisará nadar na direção apontada pelos vetores υ⃗<sub>n</sub> dos pontos 1 até 2 e de 3 até 4. Considere que a velocidade do nadador é de 50 metros por minuto, em relação à água, durante todo o circuito.\n\n[[figura 1]]\n\nNessa situação, em quantos minutos o nadador completará a prova?\n\n(A) 42\n(B) 65\n(C) 72\n(D) 105\n(E) 120",
+  "figuras": [
+    "enem-2024-q104-1.png"
+  ],
+  "gabarito": "B",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. A corrente (30 m/min) é paralela aos lados curtos (2–3 e 4–1, de 400 m) e perpendicular aos lados longos (1–2 e 3–4, de 800 m).\n2. Lados longos: o nadador inclina sua velocidade (50 m/min em relação à água) para anular a corrente. A componente que compensa a corrente vale 30 m/min, e a componente útil, ao longo do lado, vale √(50² − 30²) = 40 m/min. Tempo em cada lado: 800/40 = 20 min; nos dois, 40 min.\n3. Lado 2 → 3, contra a corrente: 50 − 30 = 20 m/min, então 400/20 = 20 min.\n4. Lado 4 → 1, a favor da corrente: 50 + 30 = 80 m/min, então 400/80 = 5 min.\n5. Total: 40 + 20 + 5 = 65 min.\nGabarito: B.",
+  "topicos": [
+    "movimento-relativo-e-composicao-de-velocidades",
+    "vetores-soma-e-decomposicao",
+    "movimento-retilineo-uniforme-mru"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-08T22:33:14.000Z",
+  "atualizadoEm": "2026-11-08T22:36:47.000Z",
+  "revisao": {
+    "notas": "Gabarito da resolução própria; confere com o gabarito do caderno amarelo publicado pela Estratégia Vestibulares, que incorpora as retificações do gabarito oficial do INEP. Trocar para 'oficial' quando houver o PDF do INEP (2024_GB_impresso_D2_CD5.pdf)."
+  }
+}
