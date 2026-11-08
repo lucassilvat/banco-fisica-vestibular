@@ -1,0 +1,28 @@
+{
+  "id": "enem-2025-q104",
+  "banca": "ENEM",
+  "ano": 2025,
+  "numero": "104",
+  "fase": "2º dia · Caderno Amarelo",
+  "fonte": {
+    "descricao": "INEP, ENEM 2025, 2º dia (Ciências da Natureza e Matemática), caderno de questões aplicado, Caderno 5 Amarelo"
+  },
+  "enunciado": "A Figura 1 apresenta o esquema de um tubo de imagem em que um filamento, na posição A, libera elétrons por efeito termiônico. Esses elétrons formam um feixe estreito, que é acelerado por campos elétricos em direção à parte interna da tela. Nesse caminho, o feixe de elétrons passa por outro campo elétrico, na região B, atingindo, em seguida, a parte interna da tela do tubo, a qual é recoberta por um material que emite luz ao receber o impacto dos elétrons.\n\n[[figura 1]]\n\nNa Figura 2, a carga negativa representa o feixe de elétrons que é acelerado e, posteriormente, atinge um ponto da tela. O campo elétrico na região B apresenta a seguinte configuração:\n\n[[figura 2]]\n\nGrupo de Reelaboração do Ensino de Física. <b>Física 3: eletromagnetismo</b>. São Paulo: Edusp, 2000 (adaptado).\n\nNessa situação, qual ponto da tela será atingido pelo feixe de elétrons?\n\n(A) 1\n(B) 2\n(C) 3\n(D) 4\n(E) 5",
+  "figuras": [
+    "enem-2025-q104-1.png",
+    "enem-2025-q104-2.png"
+  ],
+  "gabarito": "B",
+  "gabaritoFonte": "oficial",
+  "resolucao": "1. A força elétrica sobre uma carga é <i>F</i>⃗ = <i>qE</i>⃗. Para o elétron (<i>q</i> < 0), a força tem sentido oposto ao do campo.\n2. Na Figura 2 o campo <i>E</i>⃗ aponta para cima; logo, na região B, os elétrons sofrem força para baixo, perpendicular à velocidade <i>v</i>⃗.\n3. O feixe, que seguiria reto até o ponto 5 (centro da tela), é desviado para baixo e atinge o ponto inferior da tela, o ponto 2 (o ponto 1 é o superior; 3 e 4 corresponderiam a desvios na horizontal).\nGabarito: B.",
+  "topicos": [
+    "campo-eletrico",
+    "linhas-de-campo-e-campo-eletrico-uniforme"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-08T21:50:11.000Z",
+  "atualizadoEm": "2026-11-08T21:53:49.000Z",
+  "revisao": {
+    "notas": "Gabarito oficial do INEP (caderno 5, amarelo, aplicação regular), lido na transcrição publicada pelo O Povo em 19/11/2025; o PDF do INEP não pôde ser baixado nesta sessão. Conferido com a resolução."
+  }
+}

@@ -1,4 +1,100 @@
 {
+ "enem-2025-q103-1.png": {
+  "assetId": "9478a1a46fcd5281a261652536fb0999",
+  "sha256": "b003b4ded13a4137c8acf2b030787d2f44844e742b58444afa2a6cbc324659d8"
+ },
+ "enem-2025-q103-2.png": {
+  "assetId": "6e375d22a4c9a2b229e7d9bf49fde3ea",
+  "sha256": "7e25603519fc73492639119b15acf2c240da48278f23ed95592c5184e8e34943"
+ },
+ "enem-2025-q103-3.png": {
+  "assetId": "289aada95104838a8c89a67877a72d93",
+  "sha256": "e419a759419bdb37f5ea31c4a5979139af5b06ba8df254d32f00c6392c7665a8"
+ },
+ "enem-2025-q103-4.png": {
+  "assetId": "f985a3139e67e64c7717c5a885a78d31",
+  "sha256": "e0e13778430f91b7706fd8b6d5b451d7876d85be59c08e37a1f597b67d86852d"
+ },
+ "enem-2025-q103-5.png": {
+  "assetId": "82213ae7d5290bcc372805c090d5802d",
+  "sha256": "044f6c1c524f603a6c94c6a8071e1b800e89037f7c190c848c6025bc201a6a5f"
+ },
+ "enem-2025-q104-1.png": {
+  "assetId": "207984877fdc5575ba23c96d1f4abb26",
+  "sha256": "5471a534fb9b6702b69424281e887fb6698125d868445b5ab161be7fa7fe4876"
+ },
+ "enem-2025-q104-2.png": {
+  "assetId": "3027dabad10e96a29514408e64d5af91",
+  "sha256": "891e030a0823a9becbe642da1a80e4da5dd597883cfd590a65dabd26b524eaa5"
+ },
+ "enem-2025-q105-1.png": {
+  "assetId": "a96157e6e03e94f37890633e28acdb04",
+  "sha256": "fdd62affc28ae01d25ef2821fb4abb2701d2304fe0c5f8707f2ef39afbbbbc30"
+ },
+ "enem-2025-q113-1.png": {
+  "assetId": "f6b6e93aa910571bd342ab70da551040",
+  "sha256": "b7cfe0bc3789927292c3b0fb474a01aa395e0883dcb26064be74c76af14c8ceb"
+ },
+ "enem-2025-q113-2.png": {
+  "assetId": "33cb84ba0b33c17d0a8205a5d5a1d8db",
+  "sha256": "532eac9e14308accabdfda8a52d39ca27a824fe9516e635011ae7634276f9ba9"
+ },
+ "enem-2025-q113-3.png": {
+  "assetId": "cfd2d3612fd1c5b97dd335e23b334498",
+  "sha256": "f01caa96018f30a622c527bce35d353f663d8f3719a9c6e8e04dfb56e4eef1e9"
+ },
+ "enem-2025-q113-4.png": {
+  "assetId": "9dafbf2c9ca7a62596c5bf5286c6ba10",
+  "sha256": "6772677daf76b7a35d5835b162ea52ad0560675a0e980ce61aaa3cf6b5265d70"
+ },
+ "enem-2025-q113-5.png": {
+  "assetId": "d33fe3ab8243acfdf3218ddffe47f737",
+  "sha256": "9af74c237320ae4745a4c9b0f046b1202d5a3812e2348c0e6014386b359ddaab"
+ },
+ "enem-2025-q118-1.png": {
+  "assetId": "9c288c478c420fd366a53daa6212b532",
+  "sha256": "b3ad4d7484140879e370cdc728bfd9901a315dbe80164d258356351e9f6fd0c0"
+ },
+ "enem-2025-q120-1.png": {
+  "assetId": "f8366fae6d0378da86f6212b51952516",
+  "sha256": "8f6c81aeeb80476269d1e53504ef16faa10638875726f64f5a92ec97f79b717f"
+ },
+ "enem-2025-q125-1.png": {
+  "assetId": "cffc77329108dd7cfcfe4aa655c5a835",
+  "sha256": "6818889cc3b06e5628cafc73f25ecf456b5caad91c5cad9aed3ac92687e5e978"
+ },
+ "enem-2025-q125-2.png": {
+  "assetId": "efaa53278eda12ae68368517a39eb497",
+  "sha256": "42b24ca39fb6ef9407640b6a1a539c08933a072f38ecd3ad1875c329337e4003"
+ },
+ "enem-2025-q125-3.png": {
+  "assetId": "bd93d9c7a904ba44a324db81cb2060c9",
+  "sha256": "d9b8e558708ca08a9f6f8abf9397312e4600ac950f8a834a85ee9521a103dde6"
+ },
+ "enem-2025-q125-4.png": {
+  "assetId": "d88aecc0ac01ee19a052ab9a43de5416",
+  "sha256": "805d9771a28d0557838c24193114e0f4765f03353f06d9c5214aba079ec86806"
+ },
+ "enem-2025-q125-5.png": {
+  "assetId": "c9aeee5e7fa1b7b2cb072721e42daa72",
+  "sha256": "40d1461e771a844cddb0b2f8d3c70a06f1ced1cad03f4ebf5bc5b4c446df26be"
+ },
+ "enem-2025-q125-6.png": {
+  "assetId": "6b925f28066a2bfe0ab31315a9fcb3d8",
+  "sha256": "89d549528b409f717e13603db36fe661f8e6ea301ac809963d3d1a5d1f76bd9d"
+ },
+ "enem-2025-q128-1.png": {
+  "assetId": "5b210c48ce0a6fa13e12287201c4b4d9",
+  "sha256": "1ff35600423dd296da59632e147858b832ae28fb3a52ae20356317ec0189f06d"
+ },
+ "enem-2025-q130-1.png": {
+  "assetId": "ff4b3dc1a1e6315140d0edd6a8d116e8",
+  "sha256": "30c1dc267aec138ecd6582f3577b3dfb0c7af983f0a42c18f1328d69645a1d8e"
+ },
+ "enem-2025-q135-1.png": {
+  "assetId": "0c4f68cc3ce04983dd1fa293d2ce4c3a",
+  "sha256": "f9b07f414b4cee7570cae8e72a504ac41fd985120174e0326356070ac8480d30"
+ },
  "fuvest-2016-q12-1.png": {
   "assetId": "79a9135780bc03455a39707bf554cc15",
   "sha256": "93685ebc53f7ed1e8065907fa92a4f299a88bdfcae6ed80a7adc7d66ff4668e0"

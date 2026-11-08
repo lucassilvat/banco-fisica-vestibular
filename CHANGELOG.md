@@ -4,6 +4,23 @@ Cada versão corresponde a um lote de importação ou a uma mudança no app/pipe
 Formato: `vMAIOR.MENOR.CORREÇÃO` — MENOR sobe a cada prova importada; MAIOR, em mudanças
 de modelo de dados; CORREÇÃO, em correções de questões já publicadas.
 
+## v1.8.0 — 2026-11-08
+
+- **ENEM 2025, 2º dia (Ciências da Natureza, caderno 5 amarelo)**: 14 questões, 24 figuras:
+  Q91, Q97, Q103, Q104, Q105, Q113, Q115, Q118, Q120, Q124, Q125, Q128, Q130 e Q135.
+  Primeira prova do ENEM no banco (banca "ENEM", fase "2º dia · Caderno Amarelo").
+  - Gabaritos: `oficial` (INEP, caderno amarelo, aplicação regular). Lido na transcrição
+    publicada pelo O Povo em 19/11/2025, porque o PDF do INEP não pôde ser baixado na
+    sessão; as 13 respostas conferem com as resoluções.
+  - **Q115 anulada pelo INEP** (uma das três questões anuladas do 2º dia, por suspeita de
+    vazamento). Mantida no banco com a resposta pretendida (C) e aviso na resolução.
+  - Alternativas transcritas como `(A) ...`, e as alternativas-desenho viram uma figura por
+    alternativa. A fórmula do nível sonoro da Q115 é desenho no caderno e foi transcrita
+    em linha.
+- Registrados no manifesto os cadernos do 2º dia do ENEM 2017–2025 (caderno 5, amarelo).
+  Os de 2018, 2021 e 2022 têm a camada de texto cifrada e foram passados pelo OCR
+  (`camadaTexto: "ocr"`).
+
 ## v1.7.0 — 2026-11-02
 
 - **Unesp 2016–2020, 1ª fase (Prova de Conhecimentos Gerais)**: 45 questões, 58 figuras.

@@ -1,0 +1,32 @@
+{
+  "id": "enem-2025-q103",
+  "banca": "ENEM",
+  "ano": 2025,
+  "numero": "103",
+  "fase": "2º dia · Caderno Amarelo",
+  "fonte": {
+    "descricao": "INEP, ENEM 2025, 2º dia (Ciências da Natureza e Matemática), caderno de questões aplicado, Caderno 5 Amarelo"
+  },
+  "enunciado": "Para transportar uma caixa do primeiro para o segundo piso de uma construção, um trabalhador precisará arrasta-lá sobre um plano inclinado. O trabalhador começa a arrastar a caixa no primeiro piso, exercendo sobre ela uma força de grande intensidade, paralela ao seu deslocamento. Na medida em que a caixa sobe o plano inclinado, ele decide reduzir a força sobre ela, arrastando-a lentamente até chegar ao segundo piso. Considere que a caixa permanece em movimento nos encontros dos pisos com o plano inclinado, e que a rugosidade entre as superfícies permanece a mesma durante todo o percurso.\n\nO comportamento da força de atrito entre a caixa e o chão no plano inclinado é representado em:\n\n(A)\n[[figura 1]]\n(B)\n[[figura 2]]\n(C)\n[[figura 3]]\n(D)\n[[figura 4]]\n(E)\n[[figura 5]]",
+  "figuras": [
+    "enem-2025-q103-1.png",
+    "enem-2025-q103-2.png",
+    "enem-2025-q103-3.png",
+    "enem-2025-q103-4.png",
+    "enem-2025-q103-5.png"
+  ],
+  "gabarito": "C",
+  "gabaritoFonte": "oficial",
+  "resolucao": "1. A caixa está sempre em movimento sobre o plano inclinado, então o atrito é cinético: <i>F</i><sub>at</sub> = μ<sub>c</sub><i>N</i>.\n2. No plano inclinado de ângulo θ, a normal vale <i>N</i> = <i>mg</i> cos θ, que não depende da força aplicada pelo trabalhador (a força é paralela ao deslocamento, portanto paralela ao plano).\n3. Como a rugosidade (μ<sub>c</sub>) e a inclinação não mudam, <i>F</i><sub>at</sub> = μ<sub>c</sub><i>mg</i> cos θ é constante durante todo o trajeto no plano, mesmo quando o trabalhador reduz a força. Reduzir a força só muda a aceleração da caixa, não o atrito.\n4. O gráfico correto é uma reta horizontal.\nGabarito: C.",
+  "topicos": [
+    "forca-de-atrito-estatico-e-cinetico",
+    "plano-inclinado",
+    "leitura-e-interpretacao-de-graficos"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-08T21:50:11.000Z",
+  "atualizadoEm": "2026-11-08T21:53:49.000Z",
+  "revisao": {
+    "notas": "Gabarito oficial do INEP (caderno 5, amarelo, aplicação regular), lido na transcrição publicada pelo O Povo em 19/11/2025; o PDF do INEP não pôde ser baixado nesta sessão. Conferido com a resolução."
+  }
+}

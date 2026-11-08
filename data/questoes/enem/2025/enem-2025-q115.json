@@ -1,0 +1,25 @@
+{
+  "id": "enem-2025-q115",
+  "banca": "ENEM",
+  "ano": 2025,
+  "numero": "115",
+  "fase": "2º dia · Caderno Amarelo",
+  "fonte": {
+    "descricao": "INEP, ENEM 2025, 2º dia (Ciências da Natureza e Matemática), caderno de questões aplicado, Caderno 5 Amarelo"
+  },
+  "enunciado": "O nível sonoro, em decibel (dB), é calculado pela expressão:\n\n<i>n</i> = 10 log<sub>10</sub>(<i>I</i>/<i>I</i><sub>0</sub>)\n\nUma conversa normal entre duas pessoas gera sons de níveis sonoros entre 50 e 60 dB, enquanto pessoas gritando podem gerar sons de níveis superiores a 100 dB. Supondo que, no centro de um estádio de futebol, foram realizadas medidas para avaliar o ruído médio de uma pessoa gritando a palavra “gol” em diferentes posições das arquibancadas. O valor médio obtido, considerando um grande número de medidas, foi de 100 dB. Com esse dado, estimou-se o ruído sonoro produzido por 10 000 pessoas, distribuídas aleatoriamente nas arquibancadas, enquanto gritavam, simultaneamente, a palavra “gol”.\n\nO valor médio estimado para o ruído produzido por essas pessoas, na posição central desse estádio hipotético, foi de\n\n(A) 60 dB.\n(B) 104 dB.\n(C) 140 dB.\n(D) 400 dB.\n(E) 800 dB.",
+  "figuras": [],
+  "gabarito": "C",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "Atenção: esta questão foi <b>anulada</b> pelo INEP (uma das três questões anuladas do 2º dia do ENEM 2025, depois da suspeita de vazamento de itens semelhantes antes da prova). A resposta pretendida é a da alternativa C.\n1. Uma pessoa: 100 = 10 log(<i>I</i><sub>1</sub>/<i>I</i><sub>0</sub>), então <i>I</i><sub>1</sub> = 10<sup>10</sup> <i>I</i><sub>0</sub>.\n2. Fontes sonoras independentes somam intensidades (não níveis em dB): <i>I</i> = 10 000 · <i>I</i><sub>1</sub> = 10<sup>4</sup> · 10<sup>10</sup> <i>I</i><sub>0</sub> = 10<sup>14</sup> <i>I</i><sub>0</sub>.\n3. <i>n</i> = 10 log(10<sup>14</sup>) = 140 dB. Em resumo: multiplicar a intensidade por 10<sup>4</sup> soma 10 · 4 = 40 dB ao nível.\n4. As alternativas D e E vêm do erro de somar ou multiplicar os decibéis diretamente.\nGabarito pretendido: C.",
+  "topicos": [
+    "nivel-sonoro-decibeis",
+    "som-altura-intensidade-e-timbre"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-08T21:50:11.000Z",
+  "atualizadoEm": "2026-11-08T21:53:49.000Z",
+  "revisao": {
+    "notas": "Questão ANULADA pelo INEP (anuladas do caderno amarelo do 2º dia: 115, 121 e 178). O gabarito C indica a resposta pretendida (140 dB). Fórmula do nível sonoro desenhada no caderno (editor de equações), transcrita em linha."
+  }
+}

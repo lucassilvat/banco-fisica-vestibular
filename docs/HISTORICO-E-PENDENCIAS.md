@@ -64,7 +64,35 @@ Para gravar questões, usam-se os lotes da etapa `publicar` (docs/WORKFLOW.md).
     ("Leia o texto para responder às questões...") repetidos em cada questão. A banca da
     Fuvest 2027 foi corrigida para "Fuvest" e o `registrar-prova` normaliza o nome.
 
+14. v1.8.0: ENEM 2025 (2º dia, caderno 5 amarelo), 14 questões. Primeira prova do ENEM.
+    Lista aprovada pelo Lucas para 2017–2025 (126 certas e 9 das 22 em dúvida):
+    - 2017: 93, 97, 99, 101, 103, 108, 111, 113, 123, 124, 125, 127, 130, 134
+    - 2018: 92, 96, 98, 103, 106, 109, 110, 117, 118, 122, 124, 127, 128, 131, 133
+    - 2019: 91, 95, 97, 100, 103, 107, 109, 113, 117, 120, 122, 124, 129, 132
+    - 2020: 92, 94, 96, 101, 106, 108, 109, 112, 113, 122, 125, 130, 131, 133, 134, 135
+    - 2021: 92, 93, 96, 99, 104, 105, 111, 112, 116, 117, 121, 126, 128, 134
+    - 2022: 92, 95, 96, 99, 101, 105, 108, 111, 115, 118, 119, 124, 126, 129, 132, 133
+    - 2023: 91, 92, 93, 95, 98, 101, 102, 106, 114, 115, 118, 119, 125, 130, 133, 135
+    - 2024: 95, 100, 101, 102, 103, 104, 106, 109, 110, 114, 117, 118, 119, 124, 126, 129
+    - 2025 (importada): 91, 97, 103, 104, 105, 113, 115, 118, 120, 124, 125, 128, 130, 135
+    Ficaram de fora, por decisão dele: 2017 Q91, Q102, Q121; 2018 Q100; 2019 Q116, Q131;
+    2020 Q99, Q118; 2021 Q127; 2022 Q130; 2024 Q98; 2025 Q101, Q110.
+    Particularidades do ENEM: as questões de Física vêm misturadas com Biologia e Química
+    (a triagem automática não basta); o segmentador acerta as 90 questões (91–180), mas as
+    regiões de coluna (x ≈ 0–283 e 258–567) sobrepõem a outra coluna e cortam questões que
+    mudam de coluna. Por isso a transcrição e as caixas das figuras foram feitas pela
+    imagem das colunas (página dividida em x ≈ 290). Os cadernos de 2022, 2024 e 2025 têm
+    marca d'água "ENEM20xx" na camada de texto.
+
 ## Pendências
+
+- **ENEM, próximos anos**: importar 2024 → 2017 com a lista acima. Para **2016** é preciso
+  o caderno do **1º dia** (Ciências Humanas e Ciências da Natureza): o arquivo enviado
+  (`enem-2016-caderno.pdf`) é o do 2º dia, Linguagens e Matemática, e não foi registrado.
+- **Gabarito ENEM 2025**: trocar a fonte para o PDF do INEP
+  (`2025_GB_impresso_D2_CD5.pdf`) quando ele puder ser baixado ou o Lucas enviar
+  (registrar com `--tipo gabarito`). Hoje `oficial` foi lido em transcrição jornalística.
+- **ENEM 2025 Q115 anulada**: como na Fuvest 2022 Q54, decidir se fica no app.
 
 - **Ativar o GitHub Pages** (v1.4.0): Settings › Pages › Source: GitHub Actions. O plano
   gratuito exige repositório público; com repositório privado, só com GitHub Pro. O site

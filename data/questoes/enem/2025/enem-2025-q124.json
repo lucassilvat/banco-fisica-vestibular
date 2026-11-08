@@ -1,0 +1,26 @@
+{
+  "id": "enem-2025-q124",
+  "banca": "ENEM",
+  "ano": 2025,
+  "numero": "124",
+  "fase": "2º dia · Caderno Amarelo",
+  "fonte": {
+    "descricao": "INEP, ENEM 2025, 2º dia (Ciências da Natureza e Matemática), caderno de questões aplicado, Caderno 5 Amarelo"
+  },
+  "enunciado": "A laje de um depósito de bebidas tem 50 m<sup>2</sup> de área útil de armazenamento e foi projetada para suportar pressões de até 10<sup>4</sup> Pa. O gerente do estabelecimento pretende armazenar um produto cuja densidade é 1 250 kg/m<sup>3</sup>. Considere a aceleração da gravidade igual a 10 m/s<sup>2</sup>.\n\nA altura máxima, em metro, de empilhamento do produto que essa laje é capaz de suportar é\n\n(A) 0,16 m.\n(B) 0,50 m.\n(C) 0,80 m.\n(D) 1,60 m.\n(E) 8,00 m.",
+  "figuras": [],
+  "gabarito": "C",
+  "gabaritoFonte": "oficial",
+  "resolucao": "1. Uma pilha de altura <i>h</i> sobre a área <i>A</i> tem massa <i>m</i> = <i>dAh</i> e peso <i>P</i> = <i>dAhg</i>.\n2. A pressão sobre a laje é <i>p</i> = <i>P</i>/<i>A</i> = <i>dgh</i> (não depende da área; os 50 m<sup>2</sup> não entram na conta).\n3. Pressão máxima: 10<sup>4</sup> = 1 250 · 10 · <i>h</i> ⇒ <i>h</i> = 10 000/12 500 = 0,80 m.\nGabarito: C.",
+  "topicos": [
+    "pressao",
+    "densidade-e-massa-especifica",
+    "forca-peso-e-forca-normal"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-08T21:50:11.000Z",
+  "atualizadoEm": "2026-11-08T21:53:49.000Z",
+  "revisao": {
+    "notas": "Gabarito oficial do INEP (caderno 5, amarelo, aplicação regular), lido na transcrição publicada pelo O Povo em 19/11/2025; o PDF do INEP não pôde ser baixado nesta sessão. Conferido com a resolução."
+  }
+}

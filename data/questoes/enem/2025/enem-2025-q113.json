@@ -1,0 +1,31 @@
+{
+  "id": "enem-2025-q113",
+  "banca": "ENEM",
+  "ano": 2025,
+  "numero": "113",
+  "fase": "2º dia · Caderno Amarelo",
+  "fonte": {
+    "descricao": "INEP, ENEM 2025, 2º dia (Ciências da Natureza e Matemática), caderno de questões aplicado, Caderno 5 Amarelo"
+  },
+  "enunciado": "Em sua maioria, os equipamentos eletrônicos domésticos demandam baixa potência elétrica em corrente contínua. Para alimentá-los, uma fonte externa ou embutida transforma a corrente alternada em corrente contínua de baixa tensão. Entretanto, cada equipamento tem suas especificidades, e muitas vezes não é possível simplesmente trocar essas fontes sem levar em conta a tensão, a corrente ou a potência elétrica de saída.\n\nConsidere um equipamento de resistência elétrica R<sub>C</sub> que funciona corretamente apenas em um dado valor de tensão. Porém, a única fonte de alimentação disponível fornece uma tensão 20% superior à tensão recomendada. Para adaptar essa fonte ao aparelho, a associação de um resistor de proteção R<sub>P</sub>, de potência adequada, se faz necessária.\n\nA configuração adequada do circuito e o valor do resistor de proteção, em relação ao valor da resistência do equipamento, são:\n\n(A)\n[[figura 1]]\n(B)\n[[figura 2]]\n(C)\n[[figura 3]]\n(D)\n[[figura 4]]\n(E)\n[[figura 5]]",
+  "figuras": [
+    "enem-2025-q113-1.png",
+    "enem-2025-q113-2.png",
+    "enem-2025-q113-3.png",
+    "enem-2025-q113-4.png",
+    "enem-2025-q113-5.png"
+  ],
+  "gabarito": "E",
+  "gabaritoFonte": "oficial",
+  "resolucao": "1. Em paralelo, o equipamento ficaria submetido à tensão total da fonte, 20% acima da recomendada; o resistor de proteção não ajudaria (elimina A e B). O resistor de proteção precisa ficar em série, para \"absorver\" a tensão excedente.\n2. Seja <i>U</i> a tensão recomendada. A fonte fornece 1,2<i>U</i>; em série, o resistor deve ficar com 1,2<i>U</i> − <i>U</i> = 0,2<i>U</i>.\n3. Em série a corrente <i>i</i> é a mesma nos dois: <i>U</i> = R<sub>C</sub><i>i</i> e 0,2<i>U</i> = R<sub>P</sub><i>i</i>. Dividindo: R<sub>P</sub>/R<sub>C</sub> = 0,2, ou seja, R<sub>P</sub> = 0,2 R<sub>C</sub>.\n4. Circuito em série com R<sub>P</sub> = 0,2 R<sub>C</sub>.\nGabarito: E.",
+  "topicos": [
+    "associacao-de-resistores",
+    "primeira-lei-de-ohm"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-08T21:50:11.000Z",
+  "atualizadoEm": "2026-11-08T21:53:49.000Z",
+  "revisao": {
+    "notas": "Gabarito oficial do INEP (caderno 5, amarelo, aplicação regular), lido na transcrição publicada pelo O Povo em 19/11/2025; o PDF do INEP não pôde ser baixado nesta sessão. Conferido com a resolução."
+  }
+}

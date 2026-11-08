@@ -1,0 +1,27 @@
+{
+  "id": "enem-2025-q105",
+  "banca": "ENEM",
+  "ano": 2025,
+  "numero": "105",
+  "fase": "2º dia · Caderno Amarelo",
+  "fonte": {
+    "descricao": "INEP, ENEM 2025, 2º dia (Ciências da Natureza e Matemática), caderno de questões aplicado, Caderno 5 Amarelo"
+  },
+  "enunciado": "A tirinha ilustra um processo físico em que uma onda sonora, produzida pela Mônica, causa a quebra das taças de cristal. O fenômeno ondulatório que provoca a quebra das taças só é possível em razão de uma característica da voz produzida pela Mônica naquele momento, que, diferentemente do que sugere a tirinha, não está relacionada à sua intensidade.\n\n[[figura 1]]\n\nDisponível em: https://artedafisicapibid.blogspot.com. Acesso em: 23 nov. 2021 (adaptado).\n\nEsse fenômeno e a característica associada à voz da Mônica são, respectivamente,\n\n(A) reflexão e comprimento de onda.\n(B) ressonância e frequência.\n(C) interferência e velocidade.\n(D) ressonância e timbre.\n(E) reflexão e amplitude.",
+  "figuras": [
+    "enem-2025-q105-1.png"
+  ],
+  "gabarito": "B",
+  "gabaritoFonte": "oficial",
+  "resolucao": "1. Uma taça de cristal tem frequências naturais de vibração. Quando o som incide com frequência igual a uma delas, a taça absorve energia com eficiência máxima e a amplitude da vibração cresce até a taça se romper: é a ressonância (elimina A, C e E).\n2. O que permite a ressonância é a frequência do som (a altura da voz), não a intensidade, como o próprio texto avisa. O timbre caracteriza a forma da onda (a \"qualidade\" da voz) e não determina a ressonância (elimina D).\nGabarito: B.",
+  "topicos": [
+    "ressonancia",
+    "som-altura-intensidade-e-timbre"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-08T21:50:11.000Z",
+  "atualizadoEm": "2026-11-08T21:53:49.000Z",
+  "revisao": {
+    "notas": "Gabarito oficial do INEP (caderno 5, amarelo, aplicação regular), lido na transcrição publicada pelo O Povo em 19/11/2025; o PDF do INEP não pôde ser baixado nesta sessão. Conferido com a resolução."
+  }
+}

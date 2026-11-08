@@ -1,0 +1,27 @@
+{
+  "id": "enem-2025-q135",
+  "banca": "ENEM",
+  "ano": 2025,
+  "numero": "135",
+  "fase": "2º dia · Caderno Amarelo",
+  "fonte": {
+    "descricao": "INEP, ENEM 2025, 2º dia (Ciências da Natureza e Matemática), caderno de questões aplicado, Caderno 5 Amarelo"
+  },
+  "enunciado": "Réguas elétricas são dispositivos que permitem a ligação segura e simultânea de dois ou mais aparelhos eletroeletrônicos à rede elétrica. Uma estudante comprou uma régua com seis tomadas, conforme a figura. Essa régua suporta uma intensidade máxima de corrente elétrica igual a 20 A. Acima desse valor, o fusível de segurança da régua se rompe, inutilizando-a até que um novo fusível seja instalado. Considere as potências nominais de alguns aparelhos eletroeletrônicos apresentadas no quadro.\n\n[[figura 1]]\n\nEm um dia quente, a estudante mantém o computador e o condicionador de ar portátil ligados à régua permanentemente. Nessa situação, ela tenta realizar algumas atividades, uma de cada vez, utilizando a mesma régua, na seguinte ordem:\n1º – imprimir um trabalho escolar;\n2º – fazer um café com a cafeteira;\n3º – ligar a luminária;\n4º – secar os cabelos.\nSabe-se que a régua foi ligada à tensão elétrica de 110 V, adequada para o funcionamento desses aparelhos.\n\nConsiderando a ordem das tentativas, quantas atividades a estudante conseguiu realizar sem queimar o fusível?\n\n(A) 4\n(B) 3\n(C) 2\n(D) 1\n(E) 0",
+  "figuras": [
+    "enem-2025-q135-1.png"
+  ],
+  "gabarito": "D",
+  "gabaritoFonte": "oficial",
+  "resolucao": "1. Potência máxima que a régua suporta: <i>P</i><sub>máx</sub> = <i>Ui</i><sub>máx</sub> = 110 · 20 = 2 200 W.\n2. Ligados permanentemente: computador + condicionador = 250 + 1 100 = 1 350 W.\n3. 1ª atividade, impressora: 1 350 + 660 = 2 010 W ≤ 2 200 W. Realizada (as atividades são feitas uma de cada vez, então a impressora é desligada depois).\n4. 2ª atividade, cafeteira: 1 350 + 900 = 2 250 W > 2 200 W (corrente ≈ 20,5 A). O fusível se rompe e a régua fica inutilizada; as tentativas seguintes (luminária e secador) não são possíveis.\n5. A estudante realizou apenas 1 atividade.\nGabarito: D.",
+  "topicos": [
+    "potencia-eletrica-e-efeito-joule",
+    "instalacoes-eletricas-residenciais-fusiveis-e-disjuntores"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-08T21:50:11.000Z",
+  "atualizadoEm": "2026-11-08T21:53:49.000Z",
+  "revisao": {
+    "notas": "Gabarito oficial do INEP (caderno 5, amarelo, aplicação regular), lido na transcrição publicada pelo O Povo em 19/11/2025; o PDF do INEP não pôde ser baixado nesta sessão. Conferido com a resolução."
+  }
+}
