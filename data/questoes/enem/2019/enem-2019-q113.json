@@ -1,0 +1,27 @@
+{
+  "id": "enem-2019-q113",
+  "banca": "ENEM",
+  "ano": 2019,
+  "numero": "113",
+  "fase": "2º dia · Caderno Amarelo",
+  "fonte": {
+    "descricao": "INEP, ENEM 2019, 2º dia (Ciências da Natureza e Matemática), caderno de questões aplicado, Caderno 5 Amarelo"
+  },
+  "enunciado": "Em uma aula experimental de calorimetria, uma professora queimou 2,5 g de castanha-de-caju crua para aquecer 350 g de água, em um recipiente apropriado para diminuir as perdas de calor. Com base na leitura da tabela nutricional a seguir e da medida da temperatura da água, após a queima total do combustível, ela concluiu que 50% da energia disponível foi aproveitada. O calor específico da água é 1 cal g<sup>−1</sup> °C<sup>−1</sup>, e sua temperatura inicial era de 20 °C.\n\n[[figura 1]]\n\nQual foi a temperatura da água, em grau Celsius, medida ao final do experimento?\n\n(A) 25\n(B) 27\n(C) 45\n(D) 50\n(E) 70",
+  "figuras": [
+    "enem-2019-q113-1.png"
+  ],
+  "gabarito": "C",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. Pela tabela, 10 g de castanha fornecem 70 kcal; então 2,5 g fornecem 70 · 2,5/10 = 17,5 kcal = 17 500 cal.\n2. Aproveitamento de 50%: a água recebe <i>Q</i> = 8 750 cal.\n3. <i>Q</i> = <i>mc</i>Δθ ⇒ Δθ = 8 750/(350 · 1) = 25 °C. Temperatura final: 20 + 25 = 45 °C.\nGabarito: C.",
+  "topicos": [
+    "calor-sensivel-e-capacidade-termica",
+    "potencia-e-rendimento"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-08T23:17:39.000Z",
+  "atualizadoEm": "2026-11-08T23:21:22.000Z",
+  "revisao": {
+    "notas": "Gabarito da resolução própria. Q91, Q95, Q97, Q100 e Q103 conferem com o gabarito do caderno amarelo publicado pelo Estratégia (blog, 10 nov. 2019); Q120 e Q129 conferem com as questões correspondentes do caderno azul (Descomplica). Trocar para 'oficial' quando houver o PDF do INEP (2019_GB_impresso_D2_CD5.pdf)."
+  }
+}

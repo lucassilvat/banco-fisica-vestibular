@@ -1,0 +1,26 @@
+{
+  "id": "enem-2019-q129",
+  "banca": "ENEM",
+  "ano": 2019,
+  "numero": "129",
+  "fase": "2º dia · Caderno Amarelo",
+  "fonte": {
+    "descricao": "INEP, ENEM 2019, 2º dia (Ciências da Natureza e Matemática), caderno de questões aplicado, Caderno 5 Amarelo"
+  },
+  "enunciado": "A maioria das pessoas fica com a visão embaçada ao abrir os olhos debaixo dʼágua. Mas há uma exceção: o povo moken, que habita a costa da Tailândia. Essa característica se deve principalmente à adaptabilidade do olho e à plasticidade do cérebro, o que significa que você também, com algum treinamento, poderia enxergar relativamente bem debaixo dʼágua. Estudos mostraram que as pupilas de olhos de indivíduos moken sofrem redução significativa debaixo dʼágua, o que faz com que os raios luminosos incidam quase paralelamente ao eixo óptico da pupila.\n\nGISLÉN, A. et al. Visual Training Improves Underwater Vision in Children. <b>Vision Research</b>, n. 46, 2006 (adaptado).\n\nA acuidade visual associada à redução das pupilas é fisicamente explicada pela diminuição\n\n(A) da intensidade luminosa incidente na retina.\n(B) da difração dos feixes luminosos que atravessam a pupila.\n(C) da intensidade dos feixes luminosos em uma direção por polarização.\n(D) do desvio dos feixes luminosos refratados no interior do olho.\n(E) das reflexões dos feixes luminosos no interior do olho.",
+  "figuras": [],
+  "gabarito": "D",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. Debaixo d’água, o índice de refração da água é próximo ao da córnea: a córnea quase não desvia a luz e a imagem deixa de se formar sobre a retina (visão embaçada).\n2. Com a pupila reduzida, só passam raios próximos do eixo óptico, quase paralelos a ele. Esses raios sofrem pouco desvio na refração, como numa câmara escura de orifício, e chegam à retina formando uma mancha pequena: a imagem fica mais nítida.\n3. A redução da intensidade (A) seria uma consequência, não a causa da nitidez; a difração (B) até aumenta com aberturas menores; polarização (C) e reflexões (E) não são o mecanismo envolvido.\nGabarito: D.",
+  "topicos": [
+    "optica-da-visao-e-defeitos-visuais",
+    "refracao-da-luz-e-indice-de-refracao",
+    "camara-escura-de-orificio"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-08T23:17:39.000Z",
+  "atualizadoEm": "2026-11-08T23:21:22.000Z",
+  "revisao": {
+    "notas": "Gabarito da resolução própria. Q91, Q95, Q97, Q100 e Q103 conferem com o gabarito do caderno amarelo publicado pelo Estratégia (blog, 10 nov. 2019); Q120 e Q129 conferem com as questões correspondentes do caderno azul (Descomplica). Trocar para 'oficial' quando houver o PDF do INEP (2019_GB_impresso_D2_CD5.pdf)."
+  }
+}

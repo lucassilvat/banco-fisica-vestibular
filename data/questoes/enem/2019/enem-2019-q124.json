@@ -1,0 +1,25 @@
+{
+  "id": "enem-2019-q124",
+  "banca": "ENEM",
+  "ano": 2019,
+  "numero": "124",
+  "fase": "2º dia · Caderno Amarelo",
+  "fonte": {
+    "descricao": "INEP, ENEM 2019, 2º dia (Ciências da Natureza e Matemática), caderno de questões aplicado, Caderno 5 Amarelo"
+  },
+  "enunciado": "Em 1962, um <i>jingle</i> (vinheta musical) criado por Heitor Carillo fez tanto sucesso que extrapolou as fronteiras do rádio e chegou à televisão ilustrado por um desenho animado. Nele, uma pessoa respondia ao fantasma que batia em sua porta, personificando o “frio”, que não o deixaria entrar, pois não abriria a porta e compraria lãs e cobertores para aquecer sua casa. Apesar de memorável, tal comercial televisivo continha incorreções a respeito de conceitos físicos relativos à calorimetria.\n\nDUARTE, M. <b>Jingle é a alma do negócio: livro revela os bastidores das músicas de propagandas</b>. Disponível em: https://guiadoscuriosos.uol.com.br. Acesso em: 24 abr. 2019 (adaptado).\n\nPara solucionar essas incorreções, deve-se associar à porta e aos cobertores, respectivamente, as funções de:\n\n(A) Aquecer a casa e os corpos.\n(B) Evitar a entrada do frio na casa e nos corpos.\n(C) Minimizar a perda de calor pela casa e pelos corpos.\n(D) Diminuir a entrada do frio na casa e aquecer os corpos.\n(E) Aquecer a casa e reduzir a perda de calor pelos corpos.",
+  "figuras": [],
+  "gabarito": "C",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. \"Frio\" não é uma entidade que entra: o que existe é calor, energia que flui do corpo mais quente para o mais frio.\n2. No inverno, a casa e as pessoas estão mais quentes que o ambiente e perdem calor para ele. A porta fechada reduz essa perda pela casa.\n3. Cobertores não produzem calor: são isolantes térmicos que reduzem a perda de calor do corpo, que é a fonte de energia. Assim, ambos minimizam a perda de calor.\nGabarito: C.",
+  "topicos": [
+    "conducao-termica-lei-de-fourier",
+    "trocas-de-calor-e-equilibrio-termico-calorimetro"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-08T23:17:39.000Z",
+  "atualizadoEm": "2026-11-08T23:21:22.000Z",
+  "revisao": {
+    "notas": "Gabarito da resolução própria. Q91, Q95, Q97, Q100 e Q103 conferem com o gabarito do caderno amarelo publicado pelo Estratégia (blog, 10 nov. 2019); Q120 e Q129 conferem com as questões correspondentes do caderno azul (Descomplica). Trocar para 'oficial' quando houver o PDF do INEP (2019_GB_impresso_D2_CD5.pdf)."
+  }
+}

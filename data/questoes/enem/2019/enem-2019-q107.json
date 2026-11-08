@@ -1,0 +1,25 @@
+{
+  "id": "enem-2019-q107",
+  "banca": "ENEM",
+  "ano": 2019,
+  "numero": "107",
+  "fase": "2º dia · Caderno Amarelo",
+  "fonte": {
+    "descricao": "INEP, ENEM 2019, 2º dia (Ciências da Natureza e Matemática), caderno de questões aplicado, Caderno 5 Amarelo"
+  },
+  "enunciado": "Em qualquer obra de construção civil é fundamental a utilização de equipamentos de proteção individual, tal como capacetes. Por exemplo, a queda livre de um tijolo de massa 2,5 kg de uma altura de 5 m, cujo impacto contra um capacete pode durar até 0,5 s, resulta em uma força impulsiva média maior do que o peso do tijolo. Suponha que a aceleração gravitacional seja 10 m s<sup>−2</sup> e que o efeito de resistência do ar seja desprezível.\n\nA força impulsiva média gerada por esse impacto equivale ao peso de quantos tijolos iguais?\n\n(A) 2\n(B) 5\n(C) 10\n(D) 20\n(E) 50",
+  "figuras": [],
+  "gabarito": "A",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. Velocidade ao atingir o capacete (queda livre de 5 m): <i>v</i><sup>2</sup> = 2<i>gh</i> = 2 · 10 · 5 = 100 ⇒ <i>v</i> = 10 m/s.\n2. O tijolo para no impacto: |Δ<i>Q</i>| = <i>mv</i> = 2,5 · 10 = 25 kg·m/s.\n3. Força impulsiva média: <i>F</i> = |Δ<i>Q</i>|/Δ<i>t</i> = 25/0,5 = 50 N. O peso de um tijolo é 2,5 · 10 = 25 N, então a força equivale ao peso de 50/25 = 2 tijolos.\nGabarito: A.",
+  "topicos": [
+    "impulso-e-quantidade-de-movimento",
+    "queda-livre-e-lancamento-vertical"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-08T23:17:39.000Z",
+  "atualizadoEm": "2026-11-08T23:21:22.000Z",
+  "revisao": {
+    "notas": "Gabarito da resolução própria. Q91, Q95, Q97, Q100 e Q103 conferem com o gabarito do caderno amarelo publicado pelo Estratégia (blog, 10 nov. 2019); Q120 e Q129 conferem com as questões correspondentes do caderno azul (Descomplica). Trocar para 'oficial' quando houver o PDF do INEP (2019_GB_impresso_D2_CD5.pdf)."
+  }
+}

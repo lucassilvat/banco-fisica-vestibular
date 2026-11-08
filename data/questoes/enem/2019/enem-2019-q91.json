@@ -1,0 +1,28 @@
+{
+  "id": "enem-2019-q91",
+  "banca": "ENEM",
+  "ano": 2019,
+  "numero": "91",
+  "fase": "2º dia · Caderno Amarelo",
+  "fonte": {
+    "descricao": "INEP, ENEM 2019, 2º dia (Ciências da Natureza e Matemática), caderno de questões aplicado, Caderno 5 Amarelo"
+  },
+  "enunciado": "Uma casa tem um cabo elétrico mal dimensionado, de resistência igual a 10 Ω, que a conecta à rede elétrica de 120 V. Nessa casa, cinco lâmpadas, de resistência igual a 200 Ω, estão conectadas ao mesmo circuito que uma televisão de resistência igual a 50 Ω, conforme ilustrado no esquema. A televisão funciona apenas com tensão entre 90 V e 130 V.\n\n[[figura 1]]\n\nO número máximo de lâmpadas que podem ser ligadas sem que a televisão pare de funcionar é:\n\n(A) 1.\n(B) 2.\n(C) 3.\n(D) 4.\n(E) 5.",
+  "figuras": [
+    "enem-2019-q91-1.png"
+  ],
+  "gabarito": "B",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. Lâmpadas e televisão estão em paralelo entre si, e esse conjunto está em série com o cabo de 10 Ω. A tensão na televisão é 120 V menos a queda no cabo: <i>U</i><sub>TV</sub> = 120 − 10<i>i</i>.\n2. Para <i>U</i><sub>TV</sub> ≥ 90 V, a queda no cabo deve ser no máximo 30 V, isto é, <i>i</i> ≤ 3 A. Então a resistência do conjunto em paralelo deve ser <i>R</i><sub>p</sub> ≥ 90/3 = 30 Ω.\n3. Com <i>n</i> lâmpadas: 1/<i>R</i><sub>p</sub> = 1/50 + <i>n</i>/200 = (4 + <i>n</i>)/200 ⇒ <i>R</i><sub>p</sub> = 200/(4 + <i>n</i>). Para <i>n</i> = 2: <i>R</i><sub>p</sub> = 33,3 Ω (TV com 92,3 V, funciona). Para <i>n</i> = 3: <i>R</i><sub>p</sub> ≈ 28,6 Ω (TV com ≈ 89,4 V, desliga).\nGabarito: B.",
+  "topicos": [
+    "associacao-de-resistores",
+    "primeira-lei-de-ohm",
+    "instalacoes-eletricas-residenciais-fusiveis-e-disjuntores"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-08T23:17:39.000Z",
+  "atualizadoEm": "2026-11-08T23:21:22.000Z",
+  "revisao": {
+    "notas": "Gabarito da resolução própria. Q91, Q95, Q97, Q100 e Q103 conferem com o gabarito do caderno amarelo publicado pelo Estratégia (blog, 10 nov. 2019); Q120 e Q129 conferem com as questões correspondentes do caderno azul (Descomplica). Trocar para 'oficial' quando houver o PDF do INEP (2019_GB_impresso_D2_CD5.pdf)."
+  }
+}

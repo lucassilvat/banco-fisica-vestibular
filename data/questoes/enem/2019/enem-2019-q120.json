@@ -1,0 +1,27 @@
+{
+  "id": "enem-2019-q120",
+  "banca": "ENEM",
+  "ano": 2019,
+  "numero": "120",
+  "fase": "2º dia · Caderno Amarelo",
+  "fonte": {
+    "descricao": "INEP, ENEM 2019, 2º dia (Ciências da Natureza e Matemática), caderno de questões aplicado, Caderno 5 Amarelo"
+  },
+  "enunciado": "Na madrugada de 11 de março de 1978, partes de um foguete soviético reentraram na atmosfera acima da cidade do Rio de Janeiro e caíram no Oceano Atlântico. Foi um belo espetáculo, os inúmeros fragmentos entrando em ignição devido ao atrito com a atmosfera brilharam intensamente, enquanto “cortavam o céu”. Mas se a reentrada tivesse acontecido alguns minutos depois, teríamos uma tragédia, pois a queda seria na área urbana do Rio de Janeiro e não no oceano.\n\n[[figura 1]]\n\nLAS CASAS, R. <b>Lixo espacial</b>. Observatório Astronômico Frei Rosário, ICEx, UFMG. Disponível em: www.observatorio.ufmg.br. Acesso em: 27 set. 2011 (adaptado).\n\nDe acordo com os fatos relatados, a velocidade angular do foguete em relação à Terra no ponto de reentrada era\n\n(A) igual à da Terra e no mesmo sentido.\n(B) superior à da Terra e no mesmo sentido.\n(C) inferior à da Terra e no sentido oposto.\n(D) igual à da Terra e no sentido oposto.\n(E) superior à da Terra e no sentido oposto.",
+  "figuras": [
+    "enem-2019-q120-1.png"
+  ],
+  "gabarito": "B",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. A Terra gira de oeste para leste, e o Oceano Atlântico fica a leste do Rio de Janeiro.\n2. Os fragmentos reentraram sobre o Rio e caíram no oceano, mais a leste: avançaram para leste mais depressa do que a cidade, que também se desloca para leste com a rotação. O foguete girava no mesmo sentido da Terra, com velocidade angular maior.\n3. Se a velocidade angular fosse igual à da Terra, os fragmentos cairiam sobre o próprio Rio; se fosse em sentido oposto, cairiam a oeste da cidade, e não no oceano.\nGabarito: B.",
+  "topicos": [
+    "movimento-relativo-e-composicao-de-velocidades",
+    "periodo-frequencia-e-velocidade-angular"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-08T23:17:39.000Z",
+  "atualizadoEm": "2026-11-08T23:21:22.000Z",
+  "revisao": {
+    "notas": "Gabarito da resolução própria. Q91, Q95, Q97, Q100 e Q103 conferem com o gabarito do caderno amarelo publicado pelo Estratégia (blog, 10 nov. 2019); Q120 e Q129 conferem com as questões correspondentes do caderno azul (Descomplica). Trocar para 'oficial' quando houver o PDF do INEP (2019_GB_impresso_D2_CD5.pdf)."
+  }
+}

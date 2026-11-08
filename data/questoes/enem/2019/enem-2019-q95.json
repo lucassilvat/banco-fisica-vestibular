@@ -1,0 +1,25 @@
+{
+  "id": "enem-2019-q95",
+  "banca": "ENEM",
+  "ano": 2019,
+  "numero": "95",
+  "fase": "2º dia · Caderno Amarelo",
+  "fonte": {
+    "descricao": "INEP, ENEM 2019, 2º dia (Ciências da Natureza e Matemática), caderno de questões aplicado, Caderno 5 Amarelo"
+  },
+  "enunciado": "As redes de alta tensão para transmissão de energia elétrica geram campo magnético variável o suficiente para induzir corrente elétrica no arame das cercas. Tanto os animais quanto os funcionários das propriedades rurais ou das concessionárias de energia devem ter muito cuidado ao se aproximarem de uma cerca quando esta estiver próxima a uma rede de alta tensão, pois, se tocarem no arame da cerca, poderão sofrer choque elétrico.\n\nPara minimizar este tipo de problema, deve-se:\n\n(A) Fazer o aterramento dos arames da cerca.\n(B) Acrescentar fusível de segurança na cerca.\n(C) Realizar o aterramento da rede de alta tensão.\n(D) Instalar fusível de segurança na rede de alta tensão.\n(E) Utilizar fios encapados com isolante na rede de alta tensão.",
+  "figuras": [],
+  "gabarito": "A",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. O campo magnético variável da rede induz uma força eletromotriz no arame, que fica com um potencial diferente do solo. Quem toca o arame fecha o circuito com a terra e leva choque.\n2. Ligando o arame à terra (aterramento), ele passa a ficar no potencial do solo: as cargas induzidas escoam para a terra e não há diferença de potencial entre o arame e a pessoa no chão.\n3. Fusível na cerca não impede a indução; aterrar a rede ou encapar os fios não elimina o campo magnético variável, que continua induzindo corrente na cerca.\nGabarito: A.",
+  "topicos": [
+    "inducao-eletromagnetica-lei-de-faraday",
+    "choque-eletrico-e-seguranca"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-08T23:17:39.000Z",
+  "atualizadoEm": "2026-11-08T23:21:22.000Z",
+  "revisao": {
+    "notas": "Gabarito da resolução própria. Q91, Q95, Q97, Q100 e Q103 conferem com o gabarito do caderno amarelo publicado pelo Estratégia (blog, 10 nov. 2019); Q120 e Q129 conferem com as questões correspondentes do caderno azul (Descomplica). Trocar para 'oficial' quando houver o PDF do INEP (2019_GB_impresso_D2_CD5.pdf)."
+  }
+}

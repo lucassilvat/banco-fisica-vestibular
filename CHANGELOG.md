@@ -4,6 +4,16 @@ Cada versão corresponde a um lote de importação ou a uma mudança no app/pipe
 Formato: `vMAIOR.MENOR.CORREÇÃO` — MENOR sobe a cada prova importada; MAIOR, em mudanças
 de modelo de dados; CORREÇÃO, em correções de questões já publicadas.
 
+## v1.14.0 — 2026-11-08
+
+- **ENEM 2019, 2º dia (caderno 5 amarelo)**: 14 questões, 7 figuras: Q91, Q95, Q97, Q100,
+  Q103, Q107, Q109, Q113, Q117, Q120, Q122, Q124, Q129 e Q132.
+  - Gabaritos: `resolucao-propria`. Q91, Q95, Q97, Q100 e Q103 conferem com o gabarito
+    não oficial do caderno amarelo publicado pelo Estratégia; Q120 e Q129 conferem com as
+    questões correspondentes do caderno azul.
+  - A camada de texto troca as ligaduras "fi" e "fl" (por exemplo "ftia", "fgiura"); o texto
+    foi conferido pela imagem.
+
 ## v1.13.0 — 2026-11-08
 
 - **ENEM 2020, 2º dia (caderno 5 amarelo)**: 16 questões, 18 figuras: Q92, Q94, Q96, Q101,

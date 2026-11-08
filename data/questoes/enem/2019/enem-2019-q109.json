@@ -1,0 +1,27 @@
+{
+  "id": "enem-2019-q109",
+  "banca": "ENEM",
+  "ano": 2019,
+  "numero": "109",
+  "fase": "2º dia · Caderno Amarelo",
+  "fonte": {
+    "descricao": "INEP, ENEM 2019, 2º dia (Ciências da Natureza e Matemática), caderno de questões aplicado, Caderno 5 Amarelo"
+  },
+  "enunciado": "O espectrômetro de massa de tempo de voo é um dispositivo utilizado para medir a massa de íons. Nele, um íon de carga elétrica <i>q</i> é lançado em uma região de campo magnético constante <i>B</i>⃗, descrevendo uma trajetória helicoidal, conforme a figura. Essa trajetória é formada pela composição de um movimento circular uniforme no plano yz e uma translação ao longo do eixo x. A vantagem desse dispositivo é que a velocidade angular do movimento helicoidal do íon é independente de sua velocidade inicial. O dispositivo então mede o tempo <i>t</i> de voo para <i>N</i> voltas do íon. Logo, com base nos valores <i>q, B, N</i> e <i>t</i>, pode-se determinar a massa do íon.\n\n[[figura 1]]\n\nA massa do íon medida por esse dispositivo será\n\n(A) <i>qBt</i>/(2π<i>N</i>)\n(B) <i>qBt</i>/(π<i>N</i>)\n(C) 2<i>qBt</i>/(π<i>N</i>)\n(D) <i>qBt</i>/<i>N</i>\n(E) 2<i>qBt</i>/<i>N</i>",
+  "figuras": [
+    "enem-2019-q109-1.png"
+  ],
+  "gabarito": "A",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. No movimento circular (plano yz), a força magnética é a resultante centrípeta: <i>qvB</i> = <i>m</i>ω<sup>2</sup><i>r</i> com <i>v</i> = ω<i>r</i> ⇒ ω = <i>qB</i>/<i>m</i>, que não depende da velocidade.\n2. O íon dá <i>N</i> voltas no tempo <i>t</i>: ω = 2π<i>N</i>/<i>t</i>.\n3. Igualando: <i>qB</i>/<i>m</i> = 2π<i>N</i>/<i>t</i> ⇒ <i>m</i> = <i>qBt</i>/(2π<i>N</i>).\nGabarito: A.",
+  "topicos": [
+    "movimento-de-carga-em-campo-magnetico-uniforme",
+    "periodo-frequencia-e-velocidade-angular"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-08T23:17:39.000Z",
+  "atualizadoEm": "2026-11-08T23:21:22.000Z",
+  "revisao": {
+    "notas": "Gabarito da resolução própria. Q91, Q95, Q97, Q100 e Q103 conferem com o gabarito do caderno amarelo publicado pelo Estratégia (blog, 10 nov. 2019); Q120 e Q129 conferem com as questões correspondentes do caderno azul (Descomplica). Trocar para 'oficial' quando houver o PDF do INEP (2019_GB_impresso_D2_CD5.pdf)."
+  }
+}
