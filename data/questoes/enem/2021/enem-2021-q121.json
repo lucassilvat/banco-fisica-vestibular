@@ -1,0 +1,32 @@
+{
+  "id": "enem-2021-q121",
+  "banca": "ENEM",
+  "ano": 2021,
+  "numero": "121",
+  "fase": "2º dia · Caderno Amarelo",
+  "fonte": {
+    "descricao": "INEP, ENEM 2021, 2º dia (Ciências da Natureza e Matemática), caderno de questões aplicado, Caderno 5 Amarelo"
+  },
+  "enunciado": "Duas esferas carregadas com cargas iguais em módulo e sinais contrários estão ligadas por uma haste rígida isolante na forma de haltere. O sistema se movimenta sob ação da gravidade numa região que tem um campo magnético horizontal uniforme (<i>B</i>⃗), da esquerda para a direita. A imagem apresenta o sistema visto de cima para baixo, no mesmo sentido da aceleração da gravidade (<i>g</i>⃗) que atua na região.\n\n[[figura 1]]\n\nVisto de cima, o diagrama esquemático das forças magnéticas que atuam no sistema, no momento inicial em que as cargas penetram na região de campo magnético, está representado em\n\n(A)\n[[figura 2]]\n(B)\n[[figura 3]]\n(C)\n[[figura 4]]\n(D)\n[[figura 5]]\n(E)\n[[figura 6]]",
+  "figuras": [
+    "enem-2021-q121-1.png",
+    "enem-2021-q121-2.png",
+    "enem-2021-q121-3.png",
+    "enem-2021-q121-4.png",
+    "enem-2021-q121-5.png",
+    "enem-2021-q121-6.png"
+  ],
+  "gabarito": "A",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. O sistema cai: as duas cargas têm velocidade <i>v</i>⃗ no sentido de <i>g</i>⃗, ou seja, entrando no plano do desenho (⊗). O campo <i>B</i>⃗ aponta para a direita.\n2. Pela regra da mão direita (<i>F</i>⃗ = <i>q</i> <i>v</i>⃗ × <i>B</i>⃗), para carga positiva: dedos no sentido de <i>v</i>⃗ (para dentro), curvando para <i>B</i>⃗ (direita), o polegar aponta para baixo no desenho. A força na carga positiva aponta para baixo.\n3. Na carga negativa a força tem sentido oposto: para cima no desenho. As forças são verticais no desenho e opostas, como em A.\nGabarito: A.",
+  "topicos": [
+    "forca-magnetica-sobre-carga-em-movimento",
+    "vetores-soma-e-decomposicao"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-08T23:00:51.000Z",
+  "atualizadoEm": "2026-11-08T23:06:47.000Z",
+  "revisao": {
+    "notas": "Gabarito da resolução própria; confere com o gabarito do caderno amarelo publicado pela Estratégia Vestibulares. Trocar para 'oficial' quando houver o PDF do INEP (2021_GB_impresso_D2_CD5.pdf). Camada de texto do caderno cifrada: fidelidade conferida pela imagem e pelo OCR."
+  }
+}
