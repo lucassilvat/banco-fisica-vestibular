@@ -1,0 +1,29 @@
+{
+  "id": "acafe-2021-verao-q30",
+  "banca": "Acafe",
+  "ano": 2021,
+  "edicao": "Verão",
+  "numero": "30",
+  "fase": "Medicina · Verão",
+  "fonte": {
+    "descricao": "Acafe, Vestibular de Medicina Verão 2021, prova com gabarito e justificativas divulgada pela Acafe"
+  },
+  "enunciado": "Um rapaz lança aqui na Terra uma pedra de 100 g verticalmente para cima e ela atinge a altura máxima de 5 m. Imagine agora que essa pedra foi lançada da mesma forma e com a mesma velocidade inicial na Lua.\n\nCom base no exposto, marque a alternativa <b>correta</b> que indica qual a relação entre o tempo de subida da pedra na Terra e o tempo de subida da pedra na Lua.\n\nFORMULÁRIO DE FÍSICA\n<i>g</i><sub><i>T</i></sub> = 10 <i>m</i>/<i>s</i><sup>2</sup>\n<i>g</i><sub><i>T</i></sub> = 1,6 <i>m</i>/<i>s</i><sup>2</sup>\n\nA. <i>t</i><sub><i>Terra</i></sub> = 0,16 · <i>t</i><sub><i>Lua</i></sub>\nB. <i>t</i><sub><i>Terra</i></sub> = (10/1,6) · <i>t</i><sub><i>Lua</i></sub>\nC. <i>t</i><sub><i>Terra</i></sub> = 0,10 · <i>t</i><sub><i>Lua</i></sub>\nD. <i>t</i><sub><i>Terra</i></sub> = 1,6 · <i>t</i><sub><i>Lua</i></sub>",
+  "figuras": [],
+  "gabarito": "A",
+  "gabaritoFonte": "oficial",
+  "resolucao": "1. Na subida a velocidade cai de <i>v</i><sub>0</sub> a zero com aceleração −<i>g</i>: 0 = <i>v</i><sub>0</sub> − <i>gt</i> ⇒ <i>t</i> = <i>v</i><sub>0</sub>/<i>g</i>.\n2. Na Terra: 0 = <i>v</i><sub>0</sub><sup>2</sup> − 2 · 10 · 5 ⇒ <i>v</i><sub>0</sub> = 10 m/s e <i>t</i><sub>Terra</sub> = 10/10 = 1,0 s.\n3. Na Lua, com a mesma <i>v</i><sub>0</sub> e <i>g</i><sub>Lua</sub> = 1,6 m/s<sup>2</sup> (o segundo valor do formulário, impresso na prova com o índice <i>T</i>): <i>t</i><sub>Lua</sub> = 10/1,6 = 6,25 s.\n4. Razão: <i>t</i><sub>Terra</sub>/<i>t</i><sub>Lua</sub> = <i>g</i><sub>Lua</sub>/<i>g</i><sub>Terra</sub> = 1,6/10 = 0,16 ⇒ <i>t</i><sub>Terra</sub> = 0,16 · <i>t</i><sub>Lua</sub>. A massa de 100 g não interfere.\nGabarito: A.",
+  "topicos": [
+    "queda-livre-e-lancamento-vertical",
+    "aceleracao-da-gravidade-e-altitude"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-10T16:17:39.000Z",
+  "atualizadoEm": "2026-11-10T16:17:39.000Z",
+  "revisao": {
+    "notas": "Enunciado transcrito da prova com gabarito e justificativas divulgada pela própria Acafe (o caderno aplicado não foi obtido; exceção autorizada pelo Lucas). Gabarito oficial, do mesmo documento. Destaque em vermelho da alternativa correta não reproduzido. A prova com justificativas da Verão 2021 imprime a alternativa correta seguida da justificativa e só depois as demais; a ordem das alternativas foi mantida como no PDF, por decisão do Lucas (caderno aplicado não obtido). Dados do FORMULÁRIO DE FÍSICA da prova (pág. 3) incluídos antes das alternativas, só os necessários; a prova imprime o valor lunar como 'g_T = 1,6 m/s²' (transcrito literalmente). Alternativas em letras matemáticas Unicode no PDF ('0, 16'); B é a fração 10/1,6, transcrita em linha com parênteses. Divergência aceita: 0,16.",
+    "divergenciasAceitas": [
+      "0,16"
+    ]
+  }
+}

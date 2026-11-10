@@ -1,0 +1,28 @@
+{
+  "id": "acafe-2021-verao-q29",
+  "banca": "Acafe",
+  "ano": 2021,
+  "edicao": "Verão",
+  "numero": "29",
+  "fase": "Medicina · Verão",
+  "fonte": {
+    "descricao": "Acafe, Vestibular de Medicina Verão 2021, prova com gabarito e justificativas divulgada pela Acafe"
+  },
+  "enunciado": "Um carrinho de brinquedo descreve um círculo, no sentido anti-horário, com velocidade de módulo constante.\n\n[[figura 1]]\n\nA figura que representa corretamente os vetores velocidade e aceleração é a:\n\nA. Figura (c)\nB. Figura (b)\nC. Figura (a)\nD. Figura (d)",
+  "figuras": [
+    "acafe-2021-verao-q29-1.png"
+  ],
+  "gabarito": "A",
+  "gabaritoFonte": "oficial",
+  "resolucao": "1. Movimento circular com velocidade de módulo constante é MCU: a velocidade é tangente à trajetória, no sentido do movimento, e a aceleração é só centrípeta (radial, apontando para o centro), perpendicular à velocidade.\n2. Nas quatro figuras o carrinho está no ponto mais à direita do círculo. Girando no sentido anti-horário, nesse ponto ele sobe: velocidade vertical para cima.\n3. A aceleração deve apontar para o centro, ou seja, horizontal para a esquerda.\n4. (a) tem aceleração paralela à velocidade; (b) tem aceleração para fora do círculo; (d) tem a velocidade apontando para o centro. Só a figura (c) tem velocidade tangente para cima e aceleração para o centro.\nGabarito: A.",
+  "topicos": [
+    "movimento-circular-uniforme-mcu",
+    "aceleracao-centripeta"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-10T16:17:39.000Z",
+  "atualizadoEm": "2026-11-10T16:17:39.000Z",
+  "revisao": {
+    "notas": "Enunciado transcrito da prova com gabarito e justificativas divulgada pela própria Acafe (o caderno aplicado não foi obtido; exceção autorizada pelo Lucas). Gabarito oficial, do mesmo documento. Destaque em vermelho da alternativa correta não reproduzido. A prova com justificativas da Verão 2021 imprime a alternativa correta seguida da justificativa e só depois as demais; a ordem das alternativas foi mantida como no PDF, por decisão do Lucas (caderno aplicado não obtido)."
+  }
+}

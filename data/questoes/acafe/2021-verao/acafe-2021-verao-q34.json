@@ -1,0 +1,30 @@
+{
+  "id": "acafe-2021-verao-q34",
+  "banca": "Acafe",
+  "ano": 2021,
+  "edicao": "Verão",
+  "numero": "34",
+  "fase": "Medicina · Verão",
+  "fonte": {
+    "descricao": "Acafe, Vestibular de Medicina Verão 2021, prova com gabarito e justificativas divulgada pela Acafe"
+  },
+  "enunciado": "<b>Travando o calor</b>\n\nA Física moderna está possibilitando cada vez mais descobertas e desenvolvimento tecnológico. Um exemplo dessas possibilidades está sendo investigada na Universidade Nacional de Cingapura, onde pesquisadores estão utilizando o princípio da \"simetria anti-paridade-tempo (APT)” para “travar”, em certa posição, o movimento da energia térmica de materiais mais quentes.\n\n<b>Fonte</b>: Disponível em: https://www.inovacaotecnologica.com.br/noticias/noticia.php?artigo=calor-travado-lugar-sem-se-espalhar&id=01017019 0812#.XXlDli5KjIU. Acesso em: 10 de set. de 2019 [Adaptada].\n\nAnalise, com base na física clássica, as afirmações a seguir:\n\nI. <i>A energia interna de um corpo depende da sua temperatura.</i>\nII. <i>A energia térmica é propagada de uma extremidade para a outra de uma colher por meio da convecção térmica.</i>\nIII. <i>Só pode ser chamado de calor a energia térmica em trânsito.</i>\nIV. <i>O fluxo de energia térmica de um sistema para outro depende da diferença de temperatura entre esses sistemas.</i>\nV. <i>A agitação das moléculas de um corpo influencia no valor de sua energia interna total.</i>\n\nA opção contendo apenas afirmações <b>corretas</b> é:\n\nA. I - II - IV\nB. III - IV - V\nC. II - V - IV\nD. I - II - III",
+  "figuras": [],
+  "gabarito": "B",
+  "gabaritoFonte": "oficial",
+  "resolucao": "1. II – Incorreta: numa colher (sólido) o calor se propaga por condução; convecção exige movimento de fluido. Isso elimina A, C e D, que contêm II; resta B.\n2. III – Correta: calor é a energia térmica em trânsito, transferida por causa de uma diferença de temperatura.\n3. IV – Correta: pela lei de Fourier, Φ = <i>kA</i>Δ<i>θ</i>/<i>e</i>; o fluxo depende da diferença de temperatura.\n4. V – Correta: a energia interna é a soma das energias (cinéticas e potenciais) das partículas; a agitação molecular contribui para ela.\n5. I – A banca a considera incorreta, porque a energia interna depende também do número de partículas (da massa) do corpo, não só da temperatura. Mesmo sem decidir sobre I, a eliminação pelo item II já leva à alternativa B.\nGabarito: B.",
+  "topicos": [
+    "conducao-termica-lei-de-fourier",
+    "energia-interna",
+    "conveccao-e-irradiacao-termica"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-10T16:17:39.000Z",
+  "atualizadoEm": "2026-11-10T16:17:39.000Z",
+  "revisao": {
+    "notas": "Enunciado transcrito da prova com gabarito e justificativas divulgada pela própria Acafe (o caderno aplicado não foi obtido; exceção autorizada pelo Lucas). Gabarito oficial, do mesmo documento. Destaque em vermelho da alternativa correta não reproduzido. A prova com justificativas da Verão 2021 imprime a alternativa correta seguida da justificativa e só depois as demais; a ordem das alternativas foi mantida como no PDF, por decisão do Lucas (caderno aplicado não obtido). Os itens I a V aparecem, no texto do PDF, depois das alternativas A e B (na imagem estão no lugar certo). URL da fonte quebrada em duas linhas no PDF; transcrita inteira. Divergência aceita: espalhar.",
+    "divergenciasAceitas": [
+      "espalhar"
+    ]
+  }
+}

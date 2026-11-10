@@ -122,10 +122,13 @@ Para gravar questões, usam-se os lotes da etapa `publicar` (docs/WORKFLOW.md).
     Inverno 2022 Q31 (resultado em cal, alternativas em J), Inverno 2022 Q32 (a banca trocou as
     pressões; o certo é ≈ 12,4 cm³), Verão 2025 Q33 (sem converter J em cal; o certo é 125 mg).
     Verão 2022 Q32: o formulário traz cos 30° desenhado como raiz de 3/2.
+18. v1.19.0: Acafe Verão 2021, Q29–Q35. A prova com justificativas imprime a alternativa
+    correta logo após o enunciado e as demais depois da justificativa; o Lucas decidiu manter
+    a ordem do PDF. Gabaritos: 29A, 30A, 31C, 32D, 33C, 34B, 35B. Q30 usa o formulário da
+    prova, que traz o valor da Lua como "g_T = 1,6 m/s²" (transcrito literalmente).
 
 ## Pendências
 
-- **Acafe Verão 2021**: na prova com justificativas a alternativa correta aparece sempre como "A", seguida da justificativa; a ordem aplicada das alternativas é desconhecida. Falta o caderno aplicado (o PDF está registrado no manifesto, sem questões).
 - **Acafe Inverno 2025 Q32**: a "Imagem ilustrativa da experiência de Joule" não está no PDF; a legenda foi mantida, sem figura. Q35: a distinção entre IV e V (condução × convecção) é discutível; anotada na resolução.
 - **Acafe Inverno 2026 Q29**: as alternativas são frações desenhadas como equação; transcritas em linha, com parênteses.
 

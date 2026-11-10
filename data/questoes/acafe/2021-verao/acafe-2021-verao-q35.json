@@ -1,0 +1,29 @@
+{
+  "id": "acafe-2021-verao-q35",
+  "banca": "Acafe",
+  "ano": 2021,
+  "edicao": "Verão",
+  "numero": "35",
+  "fase": "Medicina · Verão",
+  "fonte": {
+    "descricao": "Acafe, Vestibular de Medicina Verão 2021, prova com gabarito e justificativas divulgada pela Acafe"
+  },
+  "enunciado": "Existem vários modelos de motor elétrico didático para se apresentar em feiras de ciência. Um estudante montou um deles, o qual funciona com um solenoide, que é ligado e desligado, um eixo de ferro, um pedaço de papel alumínio e uma bateria. O papel alumínio realiza a função de interruptor, ligando e desligando o circuito. Desta forma, quando o circuito é ligado, o solenoide atrai o eixo de ferro. O esquema visto de cima está sendo mostrado na figura abaixo.\n\n[[figura 1]]\n\nCom base no exposto, marque com <b>V</b> as afirmações verdadeiras e com <b>F</b> as falsas.\n\n( ) <i>O campo magnético gerado no interior do solenoide é diretamente proporcional ao seu número de espiras.</i>\n( ) <i>Se invertermos os polos da bateria, a força magnética aplicada sobre o eixo de ferro, quando o circuito estiver ligado, será de repulsão.</i>\n( ) <i>O papel alumínio, funcionando como interruptor, faz com que, no interior do solenoide, o fluxo magnético seja variável.</i>\n( ) <i>O campo magnético gerado no interior do solenoide é diretamente proporcional ao comprimento do solenoide.</i>\n( ) <i>Se trocarmos a bateria por outra de maior ddp, o eixo de ferro será atraído com uma força magnética mais intensa.</i>\n\nA sequência <b>correta,</b> de cima para baixo, é:\n\nA. F - F - V - V - F\nB. V - F - V - F - V\nC. V - F - V - V - F\nD. V - F - F - V - V",
+  "figuras": [
+    "acafe-2021-verao-q35-1.png"
+  ],
+  "gabarito": "B",
+  "gabaritoFonte": "oficial",
+  "resolucao": "1. No interior de um solenoide longo, <i>B</i> = <i>μNi</i>/<i>l</i>.\n2. 1ª – V: com o mesmo comprimento e a mesma corrente, <i>B</i> é proporcional ao número de espiras <i>N</i>.\n3. 2ª – F: o eixo de ferro não é ímã; é magnetizado pelo próprio campo do solenoide e é sempre atraído, qualquer que seja o sentido da corrente.\n4. 3ª – V: ao ligar e desligar o circuito, o campo aparece e desaparece; o fluxo magnético no interior do solenoide varia com o tempo.\n5. 4ª – F: <i>B</i> é inversamente proporcional ao comprimento <i>l</i>.\n6. 5ª – V: com ddp maior a corrente aumenta, o campo aumenta e a força de atração sobre o ferro fica mais intensa.\n7. Sequência: V – F – V – F – V.\nGabarito: B.",
+  "topicos": [
+    "campo-magnetico-de-espira-e-solenoide",
+    "imas-e-campo-magnetico",
+    "fluxo-magnetico"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-10T16:17:39.000Z",
+  "atualizadoEm": "2026-11-10T16:17:39.000Z",
+  "revisao": {
+    "notas": "Enunciado transcrito da prova com gabarito e justificativas divulgada pela própria Acafe (o caderno aplicado não foi obtido; exceção autorizada pelo Lucas). Gabarito oficial, do mesmo documento. Destaque em vermelho da alternativa correta não reproduzido. A prova com justificativas da Verão 2021 imprime a alternativa correta seguida da justificativa e só depois as demais; a ordem das alternativas foi mantida como no PDF, por decisão do Lucas (caderno aplicado não obtido)."
+  }
+}

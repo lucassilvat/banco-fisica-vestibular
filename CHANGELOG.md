@@ -4,6 +4,18 @@ Cada versão corresponde a um lote de importação ou a uma mudança no app/pipe
 Formato: `vMAIOR.MENOR.CORREÇÃO` — MENOR sobe a cada prova importada; MAIOR, em mudanças
 de modelo de dados; CORREÇÃO, em correções de questões já publicadas.
 
+## v1.19.0 — 2026-11-10
+
+- **Acafe, Vestibular de Medicina Verão 2021**: 7 questões, 5 figuras: Q29 a Q35.
+  - Fonte e gabaritos como nas demais provas da Acafe (prova com gabarito e justificativas;
+    `oficial`). Nesse PDF a alternativa correta vem logo depois do enunciado, seguida da
+    justificativa, e as demais depois; por decisão do Lucas, as alternativas ficaram na ordem
+    do PDF (A, B, C, D como impressas), registrado em `revisao.notas`.
+  - Q30: dados do "FORMULÁRIO DE FÍSICA" da prova antes das alternativas; o valor lunar está
+    impresso como "g_T = 1,6 m/s²" e foi transcrito literalmente (a resolução explica).
+  - Q31 e Q32: as figuras não aparecem na renderização da página; recortadas da imagem
+    embutida no PDF.
+
 ## v1.18.0 — 2026-11-10
 
 - **Acafe, Vestibular de Medicina, Inverno 2021 a Inverno 2026** (10 provas): 70 questões,

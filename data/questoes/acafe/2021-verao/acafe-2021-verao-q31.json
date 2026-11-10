@@ -1,0 +1,27 @@
+{
+  "id": "acafe-2021-verao-q31",
+  "banca": "Acafe",
+  "ano": 2021,
+  "edicao": "Verão",
+  "numero": "31",
+  "fase": "Medicina · Verão",
+  "fonte": {
+    "descricao": "Acafe, Vestibular de Medicina Verão 2021, prova com gabarito e justificativas divulgada pela Acafe"
+  },
+  "enunciado": "Em uma simulação de colisão, esquematizada da figura abaixo, um carro a 90 km/h, transportando um boneco de 80 Kg, bate frontalmente com uma parede. O tempo de colisão foi de 0,10 s.\n\n[[figura 1]]\n\nAdaptada de: https://shaikmoin.wordpress.com/2014/05/12/seat-belt/\n\nA alternativa <b>correta</b> que apresenta o módulo da força média que o cinto de segurança exerce sobre o boneco durante a colisão, em <b>Newtons</b>, é:\n\nA. 16000\nB. 7200\nC. 20000\nD. 2000",
+  "figuras": [
+    "acafe-2021-verao-q31-1.png"
+  ],
+  "gabarito": "C",
+  "gabaritoFonte": "oficial",
+  "resolucao": "1. Velocidade inicial do boneco: 90 km/h = 90/3,6 = 25 m/s; ao fim da colisão ele para.\n2. Teorema do impulso: |<i>I</i>| = |Δ<i>Q</i>| = |0 − <i>mv</i>| = 80 · 25 = 2.000 N·s.\n3. Força média: <i>F</i><sub>m</sub> = |<i>I</i>|/Δ<i>t</i> = 2.000/0,10 = 20.000 N.\n4. 2.000 (D) é o impulso, não a força.\nGabarito: C.",
+  "topicos": [
+    "impulso-e-quantidade-de-movimento"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-10T16:17:39.000Z",
+  "atualizadoEm": "2026-11-10T16:17:39.000Z",
+  "revisao": {
+    "notas": "Enunciado transcrito da prova com gabarito e justificativas divulgada pela própria Acafe (o caderno aplicado não foi obtido; exceção autorizada pelo Lucas). Gabarito oficial, do mesmo documento. Destaque em vermelho da alternativa correta não reproduzido. A prova com justificativas da Verão 2021 imprime a alternativa correta seguida da justificativa e só depois as demais; a ordem das alternativas foi mantida como no PDF, por decisão do Lucas (caderno aplicado não obtido). A figura não aparece na renderização da página (está no PDF como imagem com transparência); o recorte veio da imagem embutida."
+  }
+}

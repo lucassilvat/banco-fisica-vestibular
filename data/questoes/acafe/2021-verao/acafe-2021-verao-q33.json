@@ -1,0 +1,27 @@
+{
+  "id": "acafe-2021-verao-q33",
+  "banca": "Acafe",
+  "ano": 2021,
+  "edicao": "Verão",
+  "numero": "33",
+  "fase": "Medicina · Verão",
+  "fonte": {
+    "descricao": "Acafe, Vestibular de Medicina Verão 2021, prova com gabarito e justificativas divulgada pela Acafe"
+  },
+  "enunciado": "Um professor de Física desafiou seus alunos a criarem um método experimental para encontrar a massa <b>m</b> de um cubo, mas sem usarem balanças. Marta, uma de suas alunas, realizou os seguintes procedimentos (esquematizados na figura abaixo): (1) preparou uma tábua com área <b>A</b> na parte superior, espessura <b>h</b> e com massa 10,0 kg; (2) verificou que a tábua ficou 1,0 cm imersa ao ser colocada na água; (3) verificou que a tábua ficou 1,6 cm imersa quando o cubo de massa <b>m</b> foi colocado na sua parte superior; (4) finalmente, calculou o valor da massa <b>m</b> do cubo com os dados obtidos.\n\n[[figura 1]]\n\nA alternativa <b>correta</b> que apresenta o valor da massa <b>m</b> do cubo, em <b>quilogramas</b>, é:\n\nA. 8,0\nB. 0,6\nC. 6,0\nD. 16",
+  "figuras": [
+    "acafe-2021-verao-q33-1.png"
+  ],
+  "gabarito": "C",
+  "gabaritoFonte": "oficial",
+  "resolucao": "1. Nos dois casos o sistema flutua em equilíbrio: empuxo = peso. O volume submerso da tábua é <i>A</i> vezes a profundidade imersa.\n2. Só a tábua: <i>d</i><sub>água</sub> · <i>A</i> · 1,0 · <i>g</i> = 10 · <i>g</i>.\n3. Tábua com o cubo (o cubo fica fora da água): <i>d</i><sub>água</sub> · <i>A</i> · 1,6 · <i>g</i> = (10 + <i>m</i>) · <i>g</i>.\n4. Dividindo as equações: 1,6/1,0 = (10 + <i>m</i>)/10 ⇒ 16 = 10 + <i>m</i> ⇒ <i>m</i> = 6,0 kg. Não é preciso conhecer <i>A</i>, <i>h</i> nem a densidade da água.\nGabarito: C.",
+  "topicos": [
+    "empuxo-e-principio-de-arquimedes"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-10T16:17:39.000Z",
+  "atualizadoEm": "2026-11-10T16:17:39.000Z",
+  "revisao": {
+    "notas": "Enunciado transcrito da prova com gabarito e justificativas divulgada pela própria Acafe (o caderno aplicado não foi obtido; exceção autorizada pelo Lucas). Gabarito oficial, do mesmo documento. Destaque em vermelho da alternativa correta não reproduzido. A prova com justificativas da Verão 2021 imprime a alternativa correta seguida da justificativa e só depois as demais; a ordem das alternativas foi mantida como no PDF, por decisão do Lucas (caderno aplicado não obtido)."
+  }
+}

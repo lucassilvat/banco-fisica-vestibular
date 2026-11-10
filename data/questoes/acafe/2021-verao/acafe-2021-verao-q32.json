@@ -1,0 +1,29 @@
+{
+  "id": "acafe-2021-verao-q32",
+  "banca": "Acafe",
+  "ano": 2021,
+  "edicao": "Verão",
+  "numero": "32",
+  "fase": "Medicina · Verão",
+  "fonte": {
+    "descricao": "Acafe, Vestibular de Medicina Verão 2021, prova com gabarito e justificativas divulgada pela Acafe"
+  },
+  "enunciado": "A Energia Eólica é limpa e renovável, não emite poluentes, além de não exaurir na natureza. É considerada a fonte de energia mais limpa do planeta. Pode ser obtida em locais diversificados da Terra, desde que sejam implantadas as instalações adequadas, denominadas Aerogeradores, que são capazes de captar o movimento do vento. Na figura abaixo é apresentado o esquema básico de funcionamento de um Aerogerador.\n\n[[figura 1]]\n\nAdaptada de: https://yasminroohi.com/wind-turbine-system-components\n\nConsiderando o exposto e a figura acima, assinale a alternativa <b>correta</b> que completa as lacunas das frases a seguir.\n\n<i>O vento possui__________________ que é transmitida para as pás, fazendo o rotor girar. O rotor transmite o movimento ao multiplicador de velocidade. No multiplicador de velocidade as duas engrenagens possuem a mesma velocidade __________________ no ponto de contato, mas diferentes velocidades __________________, o que permite que o eixo do gerador atue com sua velocidade ideal. Finalmente, o gerador transforma a __________________ em _________________.</i>\n\nA. energia cinética - angular - lineares - energia cinética - energia elétrica\nB. energia potencial - angular - lineares - energia térmica - energia cinética\nC. energia cinética - angular - lineares - energia multiplicada - energia elétrica\nD. energia cinética - linear - angulares - energia cinética - energia elétrica",
+  "figuras": [
+    "acafe-2021-verao-q32-1.png"
+  ],
+  "gabarito": "D",
+  "gabaritoFonte": "oficial",
+  "resolucao": "1. O vento é ar em movimento: a energia que ele transfere às pás é energia cinética. Isso elimina B.\n2. Engrenagens acopladas pelos dentes têm a mesma velocidade linear (tangencial) no ponto de contato. Como <i>v</i> = <i>ωR</i> e os raios são diferentes, as velocidades angulares são diferentes: a engrenagem menor gira mais rápido. Isso elimina A e C, que trocam linear e angular.\n3. O gerador converte a energia cinética de rotação em energia elétrica (indução eletromagnética).\n4. Sequência: energia cinética – linear – angulares – energia cinética – energia elétrica.\nGabarito: D.",
+  "topicos": [
+    "transmissao-de-movimento-circular-polias-engrenagens-coroas",
+    "geradores-e-motores-eletricos",
+    "energia-cinetica-e-teorema-trabalho-energia"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-10T16:17:39.000Z",
+  "atualizadoEm": "2026-11-10T16:17:39.000Z",
+  "revisao": {
+    "notas": "Enunciado transcrito da prova com gabarito e justificativas divulgada pela própria Acafe (o caderno aplicado não foi obtido; exceção autorizada pelo Lucas). Gabarito oficial, do mesmo documento. Destaque em vermelho da alternativa correta não reproduzido. A prova com justificativas da Verão 2021 imprime a alternativa correta seguida da justificativa e só depois as demais; a ordem das alternativas foi mantida como no PDF, por decisão do Lucas (caderno aplicado não obtido). A figura não aparece na renderização da página (está no PDF como imagem com transparência); o recorte veio da imagem embutida. O título da questão no PDF é '32' sem parêntese."
+  }
+}
