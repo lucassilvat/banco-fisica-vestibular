@@ -1,0 +1,27 @@
+{
+  "id": "acafe-2022-verao-q31",
+  "banca": "Acafe",
+  "ano": 2022,
+  "edicao": "Verão",
+  "numero": "31",
+  "fase": "Medicina · Verão",
+  "fonte": {
+    "descricao": "Acafe, Vestibular de Medicina Verão 2022 (14/11/2021), prova com gabarito e justificativas divulgada pela Acafe"
+  },
+  "enunciado": "Em uma forma de esterilização, com dimensões de 20 cm x 40 cm, desprezando a altura da borda, feita de um material cujo coeficiente de dilatação linear α = 10.10-6 °C-1, tem a temperatura alterada de 90ºC para 10ºC respectivamente. Determine a área total final, após a variação de temperatura.\n\n[[figura 1]]\n\nA. 798,72 cm<sup>2</sup>\nB. 801,28 cm<sup>2</sup>\nC. 800,72 cm<sup>2</sup>\nD. 799,12 cm<sup>2</sup>",
+  "figuras": [
+    "acafe-2022-verao-q31-1.png"
+  ],
+  "gabarito": "A",
+  "gabaritoFonte": "oficial",
+  "resolucao": "1. Área inicial: <i>A</i><sub>0</sub> = 20 · 40 = 800 cm<sup>2</sup>.\n2. Coeficiente de dilatação superficial: <i>β</i> = 2<i>α</i> = 20 × 10<sup>−6</sup> °C<sup>−1</sup>. Variação de temperatura: Δ<i>θ</i> = 10 − 90 = −80 °C (a forma esfria e contrai).\n3. Δ<i>A</i> = <i>A</i><sub>0</sub><i>β</i>Δ<i>θ</i> = 800 · 20 × 10<sup>−6</sup> · (−80) = −1,28 cm<sup>2</sup>.\n4. Área final: 800 − 1,28 = 798,72 cm<sup>2</sup>.\nGabarito: A.",
+  "topicos": [
+    "dilatacao-termica-dos-solidos"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-10T14:13:20.000Z",
+  "atualizadoEm": "2026-11-10T14:13:20.000Z",
+  "revisao": {
+    "notas": "Enunciado transcrito da prova com gabarito e justificativas divulgada pela própria Acafe (o caderno aplicado não foi obtido; exceção autorizada pelo Lucas). Gabarito oficial, do mesmo documento. Destaque em vermelho da alternativa correta não reproduzido."
+  }
+}

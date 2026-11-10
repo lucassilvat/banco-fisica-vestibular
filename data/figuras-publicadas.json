@@ -1,5 +1,121 @@
 {
- "acafe-2026-q34-1.png": {
+ "acafe-2021-inverno-q30-1.png": {
+  "assetId": "a640ccc1b63da78e07f7dfb7ecb74ec6",
+  "sha256": "97d1b592de1f7e6f4e0698fdbe4c14e05ac72839229efe2d901d3a4838384615"
+ },
+ "acafe-2021-inverno-q35-1.png": {
+  "assetId": "df2d2347fb1e4a1b1e261e956ca6a1d2",
+  "sha256": "40ef2417a64b8153b12db568c684c3801915d06a418455459ee0b5d2617eb0dc"
+ },
+ "acafe-2022-verao-q29-1.png": {
+  "assetId": "ecc5c59e2093c61a48cf8fb6b554cfb6",
+  "sha256": "d89f837ab4aafb7a95db30cfd764cba1a5b82b7d954c00d8deb0acb53aea1eae"
+ },
+ "acafe-2022-verao-q31-1.png": {
+  "assetId": "537f2f9e82dacad8966b0bad5d7f3e61",
+  "sha256": "937255623b1dee377fc45c67d6004359aff981abe73061c176c8a909c90dd101"
+ },
+ "acafe-2022-verao-q32-1.png": {
+  "assetId": "f9ad1bfada915dbc0848ac51a2458e2d",
+  "sha256": "140bdcded288b9795b901cf47b0027ec5fb3945986815d22af87621eb15bba38"
+ },
+ "acafe-2022-verao-q32-2.png": {
+  "assetId": "14e11d641fabd24d6e420ac7ea086266",
+  "sha256": "31090e873179e11de1509de6761eae4c4fe68f20d45f9a3dc4f77e3041ba7c3b"
+ },
+ "acafe-2022-verao-q34-1.png": {
+  "assetId": "0175e0655d3956237e8109dd68b051de",
+  "sha256": "3cc3d75a5d0f98906c5bda927d36d8153209aabb46019dc1b0db5fa9140614a2"
+ },
+ "acafe-2023-inverno-q29-1.png": {
+  "assetId": "9c4de671262c58310ad17a1238280bd3",
+  "sha256": "6a7fff0f92af137137e6f01f2805a221e99f154f22b3eacf568b8f133b8807a7"
+ },
+ "acafe-2023-inverno-q30-1.png": {
+  "assetId": "a9de438e94e295720f56d47e4bf9ebca",
+  "sha256": "b4091720b5f679dd000c6c9dddd032ce2c4c7a5869b2ffbf8f4ae420483df4e7"
+ },
+ "acafe-2023-inverno-q31-1.png": {
+  "assetId": "4c484b779d29130812652dcccdb4b65d",
+  "sha256": "bfd6dfb404356c2431d05344c0d11bf06395011b68c0a3673eb1fe0549fb9a1b"
+ },
+ "acafe-2023-inverno-q31-2.png": {
+  "assetId": "8431441d3f02794ef0b69de1a032edc4",
+  "sha256": "466765d96122910fded883258cdb4bc400a12a104f7bc21aa51e8642ee1eb3d7"
+ },
+ "acafe-2023-inverno-q32-1.png": {
+  "assetId": "4573bc06aa8e486dc07f0c9238e87dd9",
+  "sha256": "296207b6eef086bc9fe1bc8cf134c619cd1d132187d8616136e6f17433f0d652"
+ },
+ "acafe-2023-inverno-q32-2.png": {
+  "assetId": "142061fc21e96a63f8ce2e1f1714c359",
+  "sha256": "c2a4c28cd5d260fde19959d28a4be0cdffd51fe5d3b2fa9b94dafdd42683da1f"
+ },
+ "acafe-2023-inverno-q33-1.png": {
+  "assetId": "24ac59fc867152451c65e7d2e51ee955",
+  "sha256": "afd4cb26e9f0af0e3bffa28c34306794aba0a5d839f1cfd3f942ca915b95467e"
+ },
+ "acafe-2023-inverno-q34-1.png": {
+  "assetId": "fdf7cd1921583a13a00fafc586bd48ee",
+  "sha256": "54e7eefcd9dd17a369b307e860ad6534469c4998cf7f499211c0046e23f6f9dd"
+ },
+ "acafe-2023-inverno-q35-1.png": {
+  "assetId": "4f9d9ef824790b7ec84a70b86e1b107c",
+  "sha256": "7ea28d9083e7d2d7aa7fd8df30a7b8be4d453a5a057ee0e2df6ab7c5ca0d6a95"
+ },
+ "acafe-2023-verao-q29-1.png": {
+  "assetId": "dcf889b932b2f3a60b0e87deb6950654",
+  "sha256": "8cad8ebb510323224362977567bfb406465f290006841ecdc839c82d87f0c14c"
+ },
+ "acafe-2023-verao-q30-1.png": {
+  "assetId": "2b9cdd0ba03de9c583e66e5ccd8b8af9",
+  "sha256": "5ec53e17290ff5e27fbcacfd4d541ea30b04c16b660fa308cd905a8ee26765b2"
+ },
+ "acafe-2023-verao-q31-1.png": {
+  "assetId": "f7c2a161c9c8160b7c42472e3259dc5f",
+  "sha256": "51ecff3a31cb38dd43b78eb0e3d76f9a0f0032d2748e88d6b146fb07adc59b3a"
+ },
+ "acafe-2023-verao-q31-2.png": {
+  "assetId": "2d43163c4dc3ff8c2da56bf818a5e00d",
+  "sha256": "b117a2d66779ac333e70ab457db73d5a0cfa530c7831ca80170bcf6362b1461e"
+ },
+ "acafe-2023-verao-q32-1.png": {
+  "assetId": "c50f9088f22ac7ade2b5489eeb4b1127",
+  "sha256": "473a9192adfe2a1cf94c14bcb9165c4ed4cdc53348fa174ea137e5a5a97fc3d6"
+ },
+ "acafe-2023-verao-q34-1.png": {
+  "assetId": "52e36331e9a482ab649f4aa74945af6c",
+  "sha256": "ca9278f4945dc43ed8d39e239bd668541cf56409e5fa16fbb4ebc9e9cb528fa2"
+ },
+ "acafe-2023-verao-q35-1.png": {
+  "assetId": "db0fec336f22de28183254978a73ce77",
+  "sha256": "4ae5facf6ce8a305ed5e4401bbf9f08d0b84a2288b2b1ae1211e99dcb676c692"
+ },
+ "acafe-2024-inverno-q31-1.png": {
+  "assetId": "b14667087c18e3957399fe392b9510a7",
+  "sha256": "832fdeb7e915763761ce28186f468f5578bf0cce4a9e9775ce1f59fa4ecd2fbd"
+ },
+ "acafe-2024-inverno-q35-1.png": {
+  "assetId": "877fed54b4cd6120d491f5a6b193e990",
+  "sha256": "81d835b3a615d6e3159d2d32534fd95dd308bd6f2e87f0690c7a645db2e9197f"
+ },
+ "acafe-2025-inverno-q31-1.png": {
+  "assetId": "04e9f82c6ac9eedf8ca553fb4a59112e",
+  "sha256": "7f1a687f1337cd35aa42b2a1da1cd8ebb5915e51b752ddcfa62f927fc11b4878"
+ },
+ "acafe-2026-inverno-q29-1.png": {
+  "assetId": "64fe9dfaf620537b2df9a9baf4a3f3fc",
+  "sha256": "a5540f7fa5a808b887f88d0d709c66be397388a0a31c7ce6aef0d60b478d7d04"
+ },
+ "acafe-2026-inverno-q32-1.png": {
+  "assetId": "5b0d3ade1f1c640e86101892f9367e03",
+  "sha256": "674e3054ab0f3a1f8c240196df59ea67bf1d6ed19843a72741aec1a3765db6de"
+ },
+ "acafe-2026-inverno-q35-1.png": {
+  "assetId": "07400616509e461b5049fc3a11b00ee1",
+  "sha256": "e0a97ffc27e60ad16b617ddce8b0f96f15376398d8d8e97818be939f578fe4f8"
+ },
+ "acafe-2026-verao-q34-1.png": {
   "assetId": "a10f125e71d64b10432818ac6d8bbc0b",
   "sha256": "88e51dad2ddf3902007434018f7fee23e9ea20d7eecb2192c8b2c8851b715df4"
  },

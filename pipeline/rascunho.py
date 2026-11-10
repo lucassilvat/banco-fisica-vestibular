@@ -26,9 +26,10 @@ def executar(chave: str, numeros: list[int]):
     agora = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%S.000Z")
     for n in numeros:
         body, alts, figs, compartilhado = ex.extract(doc, seg[str(n)], str(outdir), n)
-        q = {"id": id_questao(fonte["banca"], fonte["ano"], fonte.get("versao", ""), n),
+        q = {"id": id_questao(fonte["banca"], fonte["ano"], fonte.get("versao", ""), n, fonte.get("edicao", "")),
              "banca": fonte["banca"], "ano": fonte["ano"]}
         if fonte.get("versao"): q["versao"] = fonte["versao"]
+        if fonte.get("edicao"): q["edicao"] = fonte["edicao"]
         q.update(numero=str(n), fase=fonte.get("fase", "1ª fase"), fonte={"descricao": fonte["descricao"]},
                  enunciado="\n\n".join(body) + ("\n\n" + "\n".join(alts) if alts else ""),
                  figuras=[], gabarito="", gabaritoFonte="", resolucao="", topicos=[], status="rascunho",

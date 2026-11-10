@@ -1,0 +1,28 @@
+{
+  "id": "acafe-2024-inverno-q35",
+  "banca": "Acafe",
+  "ano": 2024,
+  "edicao": "Inverno",
+  "numero": "35",
+  "fase": "Medicina · Inverno",
+  "fonte": {
+    "descricao": "Acafe, Vestibular de Medicina Inverno 2024 (09/06/2024), prova com gabarito e justificativas divulgada pela Acafe"
+  },
+  "enunciado": "Uma carga ao penetrar perpendicularmente as linhas de um campo magnético sofre a ação da força magnética, que não é capaz de alterar o módulo da sua velocidade, mas apenas direção e sentido do movimento, gerando o que se denomina deflexão magnética e o movimento realizado dentro do campo passa a ser um movimento circular uniforme (M.C.U.).\n\nImagine se uma partícula com carga negativa de módulo 1,6x10<sup>-19</sup> C, massa de 14,4x10<sup>-25</sup> kg, que entra em um campo com velocidade de 1,6x10<sup>4</sup> m/s, como na figura abaixo, de intensidade 0,8 T.\n\n[[figura 1]]\n\nAssinale a alternativa que apresenta o valor do raio da trajetória circular e se a partícula sofrerá uma deflexão para baixo ou para cima, no instante em que penetra no campo magnético.\n\nA. 18 cm, sentido “para baixo”\nB. 18 cm, sentido “para cima”\nC. 36 cm, sentido “para cima”\nD. 36 cm, sentido “para baixo”",
+  "figuras": [
+    "acafe-2024-inverno-q35-1.png"
+  ],
+  "gabarito": "A",
+  "gabaritoFonte": "oficial",
+  "resolucao": "1. Raio: <i>R</i> = <i>mv</i>/(|<i>q</i>|<i>B</i>) = (14,4 × 10<sup>−25</sup> · 1,6 × 10<sup>4</sup>)/(1,6 × 10<sup>−19</sup> · 0,8) = 14,4 × 10<sup>−21</sup>/(0,8 × 10<sup>−19</sup>) = 0,18 m = 18 cm.\n2. Sentido: pela figura, a velocidade aponta para a direita e o campo entra na página (×). Para uma carga positiva, a regra da mão direita (<i>F</i>⃗ = <i>qv</i>⃗ × <i>B</i>⃗) daria força para cima; como a carga é negativa, a força é para baixo.\nGabarito: A.",
+  "topicos": [
+    "movimento-de-carga-em-campo-magnetico-uniforme",
+    "forca-magnetica-sobre-carga-em-movimento"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-10T14:13:24.000Z",
+  "atualizadoEm": "2026-11-10T14:13:24.000Z",
+  "revisao": {
+    "notas": "Enunciado transcrito da prova com gabarito e justificativas divulgada pela própria Acafe (o caderno aplicado não foi obtido; exceção autorizada pelo Lucas). Gabarito oficial, do mesmo documento. Destaque em vermelho da alternativa correta não reproduzido."
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "id": "acafe-2022-verao-q29",
+  "banca": "Acafe",
+  "ano": 2022,
+  "edicao": "Verão",
+  "numero": "29",
+  "fase": "Medicina · Verão",
+  "fonte": {
+    "descricao": "Acafe, Vestibular de Medicina Verão 2022 (14/11/2021), prova com gabarito e justificativas divulgada pela Acafe"
+  },
+  "enunciado": "Uma comissão de engenheiros necessita fornecer alguns dados técnicos a uma fábrica de pneus. Para uma curva de raio 120 metros, quando um veículo entra na mesma com velocidade 108 km/h, qual deverá ser o coeficiente de atrito ‘µ’ entre os pneus e o asfalto para o carro não derrapar? Dados: g = 10 m/s2\n\n[[figura 1]]\n\nA. 0,09\nB. 0,75\nC. 0,9\nD. 0,075",
+  "figuras": [
+    "acafe-2022-verao-q29-1.png"
+  ],
+  "gabarito": "B",
+  "gabaritoFonte": "oficial",
+  "resolucao": "1. Conversão: <i>v</i> = 108 km/h = 30 m/s.\n2. Em curva plana, quem faz a resultante centrípeta é o atrito estático: <i>μmg</i> = <i>mv</i><sup>2</sup>/<i>R</i>.\n3. Coeficiente mínimo: <i>μ</i> = <i>v</i><sup>2</sup>/(<i>Rg</i>) = 900/(120 · 10) = 0,75.\nGabarito: B.",
+  "topicos": [
+    "resultante-centripeta-curvas-loop-globo-da-morte",
+    "forca-de-atrito-estatico-e-cinetico"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-10T14:13:20.000Z",
+  "atualizadoEm": "2026-11-10T14:13:20.000Z",
+  "revisao": {
+    "notas": "Enunciado transcrito da prova com gabarito e justificativas divulgada pela própria Acafe (o caderno aplicado não foi obtido; exceção autorizada pelo Lucas). Gabarito oficial, do mesmo documento. Destaque em vermelho da alternativa correta não reproduzido."
+  }
+}

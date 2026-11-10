@@ -1,0 +1,26 @@
+{
+  "id": "acafe-2021-inverno-q34",
+  "banca": "Acafe",
+  "ano": 2021,
+  "edicao": "Inverno",
+  "numero": "34",
+  "fase": "Medicina · Inverno",
+  "fonte": {
+    "descricao": "Acafe, Vestibular de Medicina Inverno 2021, prova com gabarito e justificativas divulgada pela Acafe"
+  },
+  "enunciado": "Uma pessoa demora 20 minutos em seu banho diário. Os valores nominais do chuveiro são: Potência – 5.400 Watts e tensão 220 volts. A companhia de fornecimento da energia elétrica tarifa o consumo de cada 1 KW.h em R$ 0,30. Quanto esta pessoa gasta mensalmente com seus banhos? Considere que a pessoa toma um banho por dia, e que o mês tem 30 dias.\n\nAssinale a alternativa que contém o custo mensal.\n\nA. R$ 15,80\nB. R$ 17,40\nC. R$ 18,60\nD. R$ 16,20",
+  "figuras": [],
+  "gabarito": "D",
+  "gabaritoFonte": "oficial",
+  "resolucao": "1. Potência: <i>P</i> = 5.400 W = 5,4 kW. Tempo de uso por mês: 30 · 20 min = 600 min = 10 h.\n2. Energia consumida: <i>E</i> = <i>P</i> · Δ<i>t</i> = 5,4 · 10 = 54 kWh.\n3. Custo: 54 · 0,30 = R$ 16,20. A tensão de 220 V não é necessária.\nGabarito: D.",
+  "topicos": [
+    "energia-eletrica-e-consumo-kwh-conta-de-luz",
+    "potencia-eletrica-e-efeito-joule"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-10T14:13:20.000Z",
+  "atualizadoEm": "2026-11-10T14:13:20.000Z",
+  "revisao": {
+    "notas": "Enunciado transcrito da prova com gabarito e justificativas divulgada pela própria Acafe (o caderno aplicado não foi obtido; exceção autorizada pelo Lucas). Gabarito oficial, do mesmo documento. Destaque em vermelho da alternativa correta não reproduzido."
+  }
+}

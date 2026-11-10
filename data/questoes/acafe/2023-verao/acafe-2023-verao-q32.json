@@ -1,0 +1,28 @@
+{
+  "id": "acafe-2023-verao-q32",
+  "banca": "Acafe",
+  "ano": 2023,
+  "edicao": "Verão",
+  "numero": "32",
+  "fase": "Medicina · Verão",
+  "fonte": {
+    "descricao": "Acafe, Vestibular de Medicina Verão 2023 (15/11/2022), prova com gabarito e justificativas divulgada pela Acafe"
+  },
+  "enunciado": "O ruído ou som em determinados ambientes pode ser bastante prejudicial para a saúde humana, o que pode levar a problemas como estresse ou mesmo perda da capacidade auditiva. Dessa maneira, é necessário que se tenha o controle sonoro para a preservação do bem-estar das pessoas que convivem ou trabalham em determinado ambiente. Alguns instrumentos de medição como o <b><i>decibelímetro</i></b> pode ser usado para fazer tal aferição. Considere um alto-falante megafone de resistência interna <b><i>R</i></b>, conectado a uma bateria externa ideal de 150V e um amperímetro ideal, conforme mostra a figura abaixo.\n\n[[figura 1]]\n\nEm uma determinada aferição, a 10m de distância do alto-falante, a onda sonora do megafone é detectada pelo decibelímetro com um nível de 110dB. Sabendo que 80% da energia do circuito megafone é convertido em onda sonora e o limiar de audibilidade possui intensidade 10<sup>-12</sup>W/m<sup>2</sup>, a leitura do amperímetro ideal e a resistência interna R do circuito do alto-falante são, respectivamente:\n\nDADOS PARA REALIZAÇÃO DAS QUESTÕES\nπ= 3\n\nA. 1,4 A e 187Ω\nB. 1,0 A e 30Ω\nC. 2,0 A e 60Ω\nD. 2,5 A e 120Ω",
+  "figuras": [
+    "acafe-2023-verao-q32-1.png"
+  ],
+  "gabarito": "B",
+  "gabaritoFonte": "oficial",
+  "resolucao": "1. Intensidade a 10 m: <i>N</i> = 10 log(<i>I</i>/<i>I</i><sub>0</sub>) ⇒ 110 = 10 log(<i>I</i>/10<sup>−12</sup>) ⇒ <i>I</i> = 10<sup>−1</sup> W/m<sup>2</sup>.\n2. Potência sonora (emissão em todas as direções, <i>I</i> = <i>P</i>/(4π<i>d</i><sup>2</sup>), com π = 3): <i>P</i><sub>sonora</sub> = 10<sup>−1</sup> · 4 · 3 · 10<sup>2</sup> = 120 W.\n3. Como 80% da energia vira som: <i>P</i><sub>total</sub> = 120/0,8 = 150 W.\n4. Leitura do amperímetro: <i>P</i> = <i>Ui</i> ⇒ 150 = 150<i>i</i> ⇒ <i>i</i> = 1,0 A.\n5. Os 20% restantes (30 W) são dissipados na resistência interna: <i>P</i><sub>diss</sub> = <i>Ri</i><sup>2</sup> ⇒ 30 = <i>R</i> · 1<sup>2</sup> ⇒ <i>R</i> = 30 Ω.\nGabarito: B.",
+  "topicos": [
+    "nivel-sonoro-decibeis",
+    "potencia-eletrica-e-efeito-joule"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-10T14:13:22.000Z",
+  "atualizadoEm": "2026-11-10T14:13:22.000Z",
+  "revisao": {
+    "notas": "Enunciado transcrito da prova com gabarito e justificativas divulgada pela própria Acafe (o caderno aplicado não foi obtido; exceção autorizada pelo Lucas). Gabarito oficial, do mesmo documento. Destaque em vermelho da alternativa correta não reproduzido. π = 3 do formulário da prova incluído antes das alternativas (decisão do Lucas)."
+  }
+}

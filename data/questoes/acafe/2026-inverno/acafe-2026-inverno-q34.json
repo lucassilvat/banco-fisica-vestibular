@@ -1,0 +1,27 @@
+{
+  "id": "acafe-2026-inverno-q34",
+  "banca": "Acafe",
+  "ano": 2026,
+  "edicao": "Inverno",
+  "numero": "34",
+  "fase": "Medicina · Inverno",
+  "fonte": {
+    "descricao": "Acafe, Vestibular de Medicina Inverno 2026 (21/06/2026), prova com gabarito e justificativas divulgada pela Acafe"
+  },
+  "enunciado": "Em Física, as forças e os seus efeitos dinâmicos podem ser analisados e classificados segundo diferentes critérios conceituais. Algumas interações são consideradas fundamentais por não serem explicadas a partir de outras interações físicas conhecidas, enquanto outras surgem como manifestações macroscópicas dessas propriedades.\n\nNo domínio da Mecânica Clássica, há forças que atuam por contato mecânico direto entre os corpos, bem como forças que atuam à distância, mediadas por campos físicos. Além disso, a descrição do movimento e a própria identificação das forças dependem crucialmente do referencial adotado: enquanto nos referenciais inerciais aplicam-se estritamente as Leis de Newton baseadas em interações reais entre corpos, nos referenciais não inerciais (acelerados) faz-se necessária a introdução de forças fictícias para a correta descrição matemática do movimento a partir das equações newtonianas.\n\nCom base nessas considerações, analise as afirmações.\n\nI. No contexto macroscópico da Mecânica Clássica, forças de contato, como o atrito, diferenciam-se das forças de campo (como a gravitacional) pelo critério de proximidade geométrica das superfícies, sendo ambas consideradas interações reais por possuírem correspondência direta com a Terceira Lei de Newton (ação e reação).\nII. A força centrífuga é classificada como uma força fictícia e, embora não possua um corpo agente que a origine e nem um par de ação e reação, sua existência e atuação são dinamicamente reais e mensuráveis para um observador situado em um referencial não inercial em rotação.\nIII. A força Normal é uma força fundamental, pois resulta diretamente da interação mecânica e do suporte mútuo estabelecido entre os corpos em contato direto.\nIV. Forças fictícias, como a força centrífuga, não correspondem a interações físicas reais originadas por outros corpos e surgem exclusivamente quando a análise do movimento é feita a partir de referenciais não inerciais.\nV. As forças gravitacional, elétrica e de atrito são classicamente classificadas como forças de campo, possuindo a capacidade de atuar à distância sem a necessidade de contato físico macroscópico direto entre os corpos.\n\nAssinale a alternativa <b>CORRETA</b>.\n\nA. Apenas I, II e IV são verdadeiras.\nB. Apenas I, II e V são verdadeiras.\nC. Apenas I, III e IV são verdadeiras.\nD. Apenas II, III e V são verdadeiras.",
+  "figuras": [],
+  "gabarito": "A",
+  "gabaritoFonte": "oficial",
+  "resolucao": "1. I – Verdadeira: contato e campo são distinguidos pela necessidade (ou não) de contato entre as superfícies; ambas são interações reais, com par de ação e reação.\n2. II – Verdadeira: a centrífuga não tem agente nem reação, mas, para o observador no referencial em rotação, seus efeitos são percebidos e medidos.\n3. III – Falsa: a normal é uma força de contato, manifestação macroscópica da interação eletromagnética entre as moléculas; não é uma das interações fundamentais.\n4. IV – Verdadeira: forças fictícias só aparecem na descrição a partir de referenciais não inerciais e não são interações com outros corpos.\n5. V – Falsa: o atrito é força de contato, não de campo.\n6. Verdadeiras: I, II e IV.\nGabarito: A.",
+  "topicos": [
+    "leis-de-newton",
+    "referenciais-nao-inerciais-e-elevadores",
+    "forca-de-atrito-estatico-e-cinetico"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-10T14:13:27.000Z",
+  "atualizadoEm": "2026-11-10T14:13:27.000Z",
+  "revisao": {
+    "notas": "Enunciado transcrito da prova com gabarito e justificativas divulgada pela própria Acafe (o caderno aplicado não foi obtido; exceção autorizada pelo Lucas). Gabarito oficial, do mesmo documento. Destaque em vermelho da alternativa correta não reproduzido."
+  }
+}

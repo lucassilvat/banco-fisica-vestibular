@@ -1,0 +1,28 @@
+{
+  "id": "acafe-2023-inverno-q33",
+  "banca": "Acafe",
+  "ano": 2023,
+  "edicao": "Inverno",
+  "numero": "33",
+  "fase": "Medicina · Inverno",
+  "fonte": {
+    "descricao": "Acafe, Vestibular de Medicina Inverno 2023 (04/06/2023), prova com gabarito e justificativas divulgada pela Acafe"
+  },
+  "enunciado": "Os marca-passos cardíacos são aparelhos criados para o tratamento dos distúrbios de ritmo do coração. Além disso, os marcapassos podem ser utilizados para ressincronizar o coração. Quando há uma diferença no tempo de contração das câmeras do coração (ventrículos direito e esquerdo), acontece o distúrbio que chamamos de dissincronismo dos ventrículos. Isto faz com que o coração perca potência e efetividade de contração de maneira importante. Quando esta perda de potência ocorre em um coração, já doente e enfraquecido, pode gerar um significativo aumento de sintomas, como fraqueza e falta de ar, por exemplo, que caracterizam um quadro de insuficiência cardíaca. Por isso, existe um grupo de marca-passos chamados de ressincronizadores cardíacos, que atuam para corrigir este dissincronismo e melhorar a eficácia da contratilidade cardíaca.\n\n[[figura 1]]\n\nEsses marca-passos utilizam baterias como fonte de energia, dessa forma, considere uma bateria de íon-lítio utilizada em marca-passos cardíaco, bastante leve, hermeticamente fechada para não liberar gases, com durabilidade em torno de 10 anos, e com alta densidade de carga de 0,8mAh/cm<sup>3</sup>.\n\nO número de elétrons existentes na pilha, com volume de 2,0dm<sup>3</sup>, é:\n\nDados para realização das questões\n|<i>e</i>| = 1,6. 10<sup>−19</sup><i>C</i>\n\nA. 3,6.10<sup>22</sup> elétrons\nB. 1,8.10<sup>19</sup> elétrons\nC. 1,6.10<sup>16</sup> elétrons\nD. 4.10<sup>18</sup> elétrons",
+  "figuras": [
+    "acafe-2023-inverno-q33-1.png"
+  ],
+  "gabarito": "A",
+  "gabaritoFonte": "oficial",
+  "resolucao": "1. Volume: 2,0 dm<sup>3</sup> = 2.000 cm<sup>3</sup>. Carga: <i>Q</i> = 0,8 mAh/cm<sup>3</sup> · 2.000 cm<sup>3</sup> = 1.600 mAh = 1,6 Ah.\n2. Em coulombs: 1 Ah = 1 A · 3.600 s = 3.600 C ⇒ <i>Q</i> = 1,6 · 3.600 = 5.760 C.\n3. Número de elétrons: <i>n</i> = <i>Q</i>/|<i>e</i>| = 5.760/1,6 × 10<sup>−19</sup> = 3,6 × 10<sup>22</sup>.\nGabarito: A.",
+  "topicos": [
+    "corrente-eletrica",
+    "carga-eletrica-e-processos-de-eletrizacao"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-10T14:13:23.000Z",
+  "atualizadoEm": "2026-11-10T14:13:23.000Z",
+  "revisao": {
+    "notas": "Enunciado transcrito da prova com gabarito e justificativas divulgada pela própria Acafe (o caderno aplicado não foi obtido; exceção autorizada pelo Lucas). Gabarito oficial, do mesmo documento. Destaque em vermelho da alternativa correta não reproduzido. Dados do formulário da prova incluídos antes das alternativas (decisão do Lucas: só os dados necessários)."
+  }
+}

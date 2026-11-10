@@ -1,0 +1,26 @@
+{
+  "id": "acafe-2025-inverno-q35",
+  "banca": "Acafe",
+  "ano": 2025,
+  "edicao": "Inverno",
+  "numero": "35",
+  "fase": "Medicina · Inverno",
+  "fonte": {
+    "descricao": "Acafe, Vestibular de Medicina Inverno 2025 (01/06/2025), prova com gabarito e justificativas divulgada pela Acafe"
+  },
+  "enunciado": "Durante uma madrugada gelada de julho, em Caxias do Sul (RS), com temperatura ambiente de -1 °C, um morador de rua foi encontrado inconsciente e com sinais de hipotermia. Ele foi imediatamente levado ao pronto-socorro por uma equipe de emergência. No hospital, foi atendido por uma médica plantonista, que também leciona fisiologia para residentes. Ao examinar o paciente, ela verificou que sua temperatura corporal estava em 32 °C, o que indicava um caso moderado de hipotermia. Imediatamente, ela iniciou o protocolo de reaquecimento com cobertores térmicos, infusão de soro aquecido e ar quente úmido direcionado ao rosto.\n\nCom base nesse caso e nos mecanismos físicos de propagação de calor, analise as afirmações.\n\nI. O uso de ar quente, direcionado ao rosto, é um exemplo de convecção forçada, que acelera a troca de calor entre o ar e a pele do paciente.\nII. A radiação térmica não atua de forma relevante nesse caso, pois o corpo humano não emite nem absorve calor por radiação à temperaturas inferiores a 37 °C.\nIII. O cobertor térmico reduz a perda de calor por condução e radiação, agindo como uma barreira isolante entre o corpo e o meio ambiente.\nIV. A infusão de soro aquecido é um exemplo de condução, pois o calor é transferido diretamente entre o líquido e os tecidos corporais.\nV. O calor transferido do soro aquecido para o corpo do paciente é predominantemente por convecção, já que o sangue circulante distribui esse calor por todo o organismo.\n\nAssinale a alternativa que contém apenas as afirmações <b>CORRETAS</b>.\n\nA. II, IV e V\nB. I, II e V\nC. I, III e IV\nD. I, III, IV e V",
+  "figuras": [],
+  "gabarito": "C",
+  "gabaritoFonte": "oficial",
+  "resolucao": "1. I – Correta: ar quente soprado (movimento imposto ao fluido) é convecção forçada, que intensifica a troca de calor.\n2. II – Incorreta: todo corpo acima do zero absoluto emite e absorve radiação térmica; o corpo humano emite no infravermelho em qualquer temperatura corporal.\n3. III – Correta: o cobertor térmico isola (reduz condução) e reflete a radiação emitida pelo corpo.\n4. IV – Correta (conforme a banca): o soro aquecido cede calor diretamente, por contato, ao sangue e aos tecidos.\n5. V – Incorreta segundo o gabarito oficial: a banca considera a transferência do soro para os tecidos como condução; a distribuição pelo sangue circulante (transporte por movimento do fluido) não é o mecanismo pelo qual o soro transfere calor ao corpo.\n6. Corretas: I, III e IV.\nObservação: a distinção entre IV e V é discutível, porque a distribuição do calor pelo sangue em circulação é, de fato, um transporte convectivo.\nGabarito: C.",
+  "topicos": [
+    "conducao-termica-lei-de-fourier",
+    "conveccao-e-irradiacao-termica"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-10T14:13:26.000Z",
+  "atualizadoEm": "2026-11-10T14:13:26.000Z",
+  "revisao": {
+    "notas": "Enunciado transcrito da prova com gabarito e justificativas divulgada pela própria Acafe (o caderno aplicado não foi obtido; exceção autorizada pelo Lucas). Gabarito oficial, do mesmo documento. Destaque em vermelho da alternativa correta não reproduzido."
+  }
+}

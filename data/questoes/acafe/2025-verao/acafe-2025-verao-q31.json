@@ -1,0 +1,27 @@
+{
+  "id": "acafe-2025-verao-q31",
+  "banca": "Acafe",
+  "ano": 2025,
+  "edicao": "Verão",
+  "numero": "31",
+  "fase": "Medicina · Verão",
+  "fonte": {
+    "descricao": "Acafe, Vestibular de Medicina Verão 2025 (24/11/2024), prova com gabarito e justificativas divulgada pela Acafe"
+  },
+  "enunciado": "Sadi Carnot, considerado o pai da termodinâmica, foi um físico francês do século XIX que desenvolveu conceitos fundamentais para o estudo da eficiência das máquinas térmicas. Em sua obra “<i>Reflexões sobre a Potência Motriz do Fogo</i>”, Carnot explorou o ciclo de operações de uma máquina térmica ideal, hoje conhecido como Ciclo de Carnot. Sua contribuição ajudou a formular a Segunda Lei da Termodinâmica, que estabelece limites fundamentais para o rendimento de qualquer máquina.\n\nCom base nos conceitos de Carnot e nas leis da termodinâmica, assinale a alternativa <b>CORRETA</b>.\n\nA. O ciclo de Carnot consiste, exclusivamente, em processos isotérmicos e adiabáticos, nos quais o trabalho realizado é máximo.\nB. Uma máquina de Carnot pode atingir 100% de rendimento se for operada entre uma fonte quente a 500 K e uma fonte fria a 300 K, desde que o ciclo seja ideal.\nC. Segundo o princípio de Carnot, algumas máquinas térmicas, como as frigoríficas, podem ter rendimento superior a uma máquina de Carnot, que opera entre as mesmas fontes térmicas.\nD. O ciclo de Carnot descreve um processo real onde a entropia do sistema diminui, violando a segunda lei da termodinâmica.",
+  "figuras": [],
+  "gabarito": "A",
+  "gabaritoFonte": "oficial",
+  "resolucao": "1. A – Correta: o ciclo de Carnot tem duas isotermas e duas adiabáticas reversíveis, e uma máquina que o percorre tem o máximo rendimento (máximo trabalho para o calor recebido) entre duas temperaturas.\n2. B – Incorreta: o rendimento de Carnot é <i>η</i> = 1 − <i>T</i><sub>F</sub>/<i>T</i><sub>Q</sub> = 1 − 300/500 = 40%; 100% exigiria fonte fria a 0 K.\n3. C – Incorreta: nenhuma máquina operando entre as mesmas fontes supera o rendimento de Carnot.\n4. D – Incorreta: o ciclo de Carnot é ideal (reversível) e não viola a segunda lei; num ciclo a entropia do sistema volta ao valor inicial.\nGabarito: A.",
+  "topicos": [
+    "ciclo-de-carnot",
+    "maquinas-termicas-e-rendimento",
+    "segunda-lei-da-termodinamica-e-entropia"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-10T14:13:25.000Z",
+  "atualizadoEm": "2026-11-10T14:13:25.000Z",
+  "revisao": {
+    "notas": "Enunciado transcrito da prova com gabarito e justificativas divulgada pela própria Acafe (o caderno aplicado não foi obtido; exceção autorizada pelo Lucas). Gabarito oficial, do mesmo documento. Destaque em vermelho da alternativa correta não reproduzido."
+  }
+}

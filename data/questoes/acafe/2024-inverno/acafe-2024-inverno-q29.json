@@ -1,0 +1,26 @@
+{
+  "id": "acafe-2024-inverno-q29",
+  "banca": "Acafe",
+  "ano": 2024,
+  "edicao": "Inverno",
+  "numero": "29",
+  "fase": "Medicina · Inverno",
+  "fonte": {
+    "descricao": "Acafe, Vestibular de Medicina Inverno 2024 (09/06/2024), prova com gabarito e justificativas divulgada pela Acafe"
+  },
+  "enunciado": "Um motorista pretende percorrer a distância entre duas cidades A e B, fazendo uma parte do percurso a 30 km/h, uma segunda parte idêntica à primeira a 60 km/h, e à última parte, correspondente a 30% da distância até então percorrida, a 20 km/h.\n\nDetermine a velocidade média escalar em todo o percurso.\n\nA. 26,0 km/h\nB. 32,5 km/h\nC. 35,3 km/h\nD. 36,6 km/h",
+  "figuras": [],
+  "gabarito": "B",
+  "gabaritoFonte": "oficial",
+  "resolucao": "1. Chamando de <i>x</i> cada uma das duas primeiras partes: a terceira vale 30% de 2<i>x</i> = 0,6<i>x</i>. Distância total: <i>x</i> + <i>x</i> + 0,6<i>x</i> = 2,6<i>x</i>.\n2. Tempos: <i>x</i>/30 + <i>x</i>/60 + 0,6<i>x</i>/20 = (2<i>x</i> + <i>x</i> + 1,8<i>x</i>)/60 = 4,8<i>x</i>/60 = 0,08<i>x</i> (em h, com <i>x</i> em km).\n3. Velocidade média: <i>v</i><sub>m</sub> = 2,6<i>x</i>/0,08<i>x</i> = 32,5 km/h.\nGabarito: B.",
+  "topicos": [
+    "velocidade-media-e-aceleracao-media",
+    "movimento-retilineo-uniforme-mru"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-10T14:13:24.000Z",
+  "atualizadoEm": "2026-11-10T14:13:24.000Z",
+  "revisao": {
+    "notas": "Enunciado transcrito da prova com gabarito e justificativas divulgada pela própria Acafe (o caderno aplicado não foi obtido; exceção autorizada pelo Lucas). Gabarito oficial, do mesmo documento. Destaque em vermelho da alternativa correta não reproduzido."
+  }
+}

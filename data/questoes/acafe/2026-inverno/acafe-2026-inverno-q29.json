@@ -1,0 +1,29 @@
+{
+  "id": "acafe-2026-inverno-q29",
+  "banca": "Acafe",
+  "ano": 2026,
+  "edicao": "Inverno",
+  "numero": "29",
+  "fase": "Medicina · Inverno",
+  "fonte": {
+    "descricao": "Acafe, Vestibular de Medicina Inverno 2026 (21/06/2026), prova com gabarito e justificativas divulgada pela Acafe"
+  },
+  "enunciado": "Três corpos, de massas m<sub>1</sub>, m<sub>2</sub> e m<sub>3</sub>, estão suspensos verticalmente em equilíbrio por fios ideais, conforme a Figura 4.\n\n[[figura 1]]\n\nO corpo de massa m<sub>1</sub> encontra-se preso ao teto por um fio ideal, sujeito a uma tensão T<sub>1</sub>. Do corpo m<sub>1</sub> pende um segundo fio ideal, sujeito a uma tensão T<sub>2</sub>, ao qual está preso o corpo de massa m<sub>2</sub>. Do corpo m<sub>2</sub> pende um terceiro fio ideal, sujeito a uma tensão T<sub>3</sub>, ao qual está preso o corpo de massa m<sub>3</sub>.\nSabe-se que as massas dos corpos diminuem sucessivamente em 20% em relação à massa do corpo anterior, sendo a maior delas a massa m<sub>1</sub>.\nDesprezando a massa dos fios e considerando o sistema em equilíbrio sob a ação da gravidade, as relações entre as tensões abaixo está <b>CORRETA</b> em:\n\nA. (T<sub>1</sub>−T<sub>3</sub>)/T<sub>2</sub> = 25/16\nB. (T<sub>1</sub>−T<sub>2</sub>)/T<sub>3</sub> = 25/16\nC. (T<sub>2</sub>−T<sub>3</sub>)/T<sub>1</sub> = 25/16\nD. T<sub>1</sub>/(T<sub>2</sub>−T<sub>3</sub>) = 25/16",
+  "figuras": [
+    "acafe-2026-inverno-q29-1.png"
+  ],
+  "gabarito": "B",
+  "gabaritoFonte": "oficial",
+  "resolucao": "1. Massas: <i>m</i><sub>2</sub> = 0,8<i>m</i><sub>1</sub> e <i>m</i><sub>3</sub> = 0,8<i>m</i><sub>2</sub> = 0,64<i>m</i><sub>1</sub> = (16/25)<i>m</i><sub>1</sub>.\n2. Equilíbrio de cada trecho: <i>T</i><sub>3</sub> = <i>m</i><sub>3</sub><i>g</i>; <i>T</i><sub>2</sub> = (<i>m</i><sub>2</sub> + <i>m</i><sub>3</sub>)<i>g</i>; <i>T</i><sub>1</sub> = (<i>m</i><sub>1</sub> + <i>m</i><sub>2</sub> + <i>m</i><sub>3</sub>)<i>g</i>.\n3. <i>T</i><sub>1</sub> − <i>T</i><sub>2</sub> = <i>m</i><sub>1</sub><i>g</i> (equilíbrio do corpo 1). Logo (<i>T</i><sub>1</sub> − <i>T</i><sub>2</sub>)/<i>T</i><sub>3</sub> = <i>m</i><sub>1</sub>/<i>m</i><sub>3</sub> = 1/0,64 = 25/16.\n4. Conferindo as outras: em A, (<i>m</i><sub>1</sub> + <i>m</i><sub>2</sub>)/(<i>m</i><sub>2</sub> + <i>m</i><sub>3</sub>) = 1,8/1,44 = 1,25 = 5/4; em C e D, <i>T</i><sub>2</sub> − <i>T</i><sub>3</sub> = <i>m</i><sub>2</sub><i>g</i> e as razões valem 0,8/2,44 e 2,44/0,8, diferentes de 25/16.\nGabarito: B.",
+  "topicos": [
+    "leis-de-newton",
+    "equilibrio-do-ponto-material",
+    "sistemas-de-blocos-fios-e-polias"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-10T14:13:27.000Z",
+  "atualizadoEm": "2026-11-10T14:13:27.000Z",
+  "revisao": {
+    "notas": "Enunciado transcrito da prova com gabarito e justificativas divulgada pela própria Acafe (o caderno aplicado não foi obtido; exceção autorizada pelo Lucas). Gabarito oficial, do mesmo documento. Destaque em vermelho da alternativa correta não reproduzido. As alternativas são frações desenhadas (editor de equações); transcritas em linha com barra, com parênteses para indicar o numerador."
+  }
+}

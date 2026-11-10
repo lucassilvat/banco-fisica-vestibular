@@ -1,0 +1,27 @@
+{
+  "id": "acafe-2024-inverno-q31",
+  "banca": "Acafe",
+  "ano": 2024,
+  "edicao": "Inverno",
+  "numero": "31",
+  "fase": "Medicina · Inverno",
+  "fonte": {
+    "descricao": "Acafe, Vestibular de Medicina Inverno 2024 (09/06/2024), prova com gabarito e justificativas divulgada pela Acafe"
+  },
+  "enunciado": "Quando Isaac Newton, por volta de 1686, publicou seu livro <i>Philosphiae Naturalis Principia Mathematica</i>, conhecido como os “<i>Principia</i>”, marcou profundamente todo conhecimento físico elaborado nos 200 anos seguintes, seja nos movimentos de corpos na superfície da Terra, seja nos movimentos celestes, até então estudados por Kepler, Galileu entre outros.\n\n[[figura 1]]\n\nObservando a figura acima, de um menino remando sua canoa em um lago de águas paradas, analise as afirmações, considerando que o menino sempre estará em repouso em relação à canoa.\n\nI. O movimento da canoa pode ser explicado pela 3ª Lei de Newton, conhecida como a lei da Ação e Reação.\nII. Como a força de reação a remada da canoa é feita sobre o menino, a sua aceleração só depende da sua massa, sendo tanto menor quanto menor for a massa do menino.\nIII. Desprezando qualquer tipo de atrito, caso o menino em movimento com o barco pare de remar, ele tenderá a permanecer em movimento retilíneo com velocidade constante.\nIV. Como o menino é puxado para baixo pelo seu peso, a reação ao peso do menino é provocada pela canoa sobre ele, sendo o sentido de baixo para cima.\nV. A dificuldade que o menino encontra de iniciar seu movimento juntamente com a canoa é explicada pela 1ª lei de Newton.\n\nA alternativa que contém exatamente o número de sentenças <b>VERDADEIRAS</b> é:\n\nA. 1 sentença correta.\nB. 2 sentenças corretas.\nC. 3 sentenças corretas.\nD. 4 sentenças corretas.",
+  "figuras": [
+    "acafe-2024-inverno-q31-1.png"
+  ],
+  "gabarito": "C",
+  "gabaritoFonte": "oficial",
+  "resolucao": "1. I – Verdadeira: o remo empurra a água para trás e a água empurra o remo (e o conjunto menino-canoa) para a frente: ação e reação.\n2. II – Falsa: a força da água atua sobre o conjunto menino + canoa; a aceleração depende da massa total, e seria maior (não menor) para massa menor.\n3. III – Verdadeira: sem atritos e sem força resultante, o conjunto mantém velocidade constante em linha reta (inércia).\n4. IV – Falsa: a reação ao peso do menino é a força que ele exerce sobre a Terra; a força da canoa sobre ele é a normal, que não forma par ação-reação com o peso.\n5. V – Verdadeira: a resistência a sair do repouso é a inércia, descrita pela 1ª lei de Newton.\n6. São verdadeiras I, III e V: três sentenças.\nGabarito: C.",
+  "topicos": [
+    "leis-de-newton"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-10T14:13:24.000Z",
+  "atualizadoEm": "2026-11-10T14:13:24.000Z",
+  "revisao": {
+    "notas": "Enunciado transcrito da prova com gabarito e justificativas divulgada pela própria Acafe (o caderno aplicado não foi obtido; exceção autorizada pelo Lucas). Gabarito oficial, do mesmo documento. Destaque em vermelho da alternativa correta não reproduzido."
+  }
+}

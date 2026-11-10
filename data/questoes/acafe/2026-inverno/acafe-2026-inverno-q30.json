@@ -1,0 +1,26 @@
+{
+  "id": "acafe-2026-inverno-q30",
+  "banca": "Acafe",
+  "ano": 2026,
+  "edicao": "Inverno",
+  "numero": "30",
+  "fase": "Medicina · Inverno",
+  "fonte": {
+    "descricao": "Acafe, Vestibular de Medicina Inverno 2026 (21/06/2026), prova com gabarito e justificativas divulgada pela Acafe"
+  },
+  "enunciado": "No início do século XIX, o mineralogista alemão Friedrich Mohs propôs uma classificação empírica para comparar materiais quanto à sua resistência ao risco e ao desgaste superficial. Essa classificação, conhecida como escala de Mohs, organiza diferentes substâncias, segundo sua dureza relativa, definida pela capacidade de um material riscar outro.\n\nNa escala de Mohs, materiais como o talco, o gesso e a calcita ocupam posições inferiores, enquanto o quartzo, o coríndon e o diamante encontram-se em posições mais elevadas, sendo o diamante o material de maior dureza nessa escala. A necessidade dessa classificação surge em contextos nos quais o desgaste mecânico por abrasão é relevante, como no polimento e acabamento de restaurações odontológicas com instrumentos revestidos por partículas de diamante, nos quais a interação entre superfícies sólidas e tecidos biológicos exige controle preciso do desgaste.\n\nDo ponto de vista físico, a dureza está associada à resistência, à deformação localizada e ao risco, enquanto o atrito refere-se às forças que surgem quando há movimento relativo entre superfícies em contato.\n\nEmbora ambos os fenômenos envolvam contato mecânico, dureza e atrito representam propriedades físicas distintas e independentes. Além disso, processos de abrasão e atrito envolvem transferência e transformação de energia, sendo comum a conversão de parte da energia mecânica em energia térmica, o que pode ser relevante em aplicações na saúde devido aos efeitos do aquecimento sobre tecidos vivos.\n\nCom base no texto relacionado à escala de Mohs e em conceitos físicos, à abrasão, ao atrito e à energia envolvida nesses processos, analise as afirmações.\n\nI. A escala de Mohs é uma classificação comparativa e empírica, que ordena materiais de acordo com sua resistência ao risco, não fornecendo valores quantitativos de dureza.\nII. Um material de maior dureza na escala de Mohs, necessariamente, produz menor atrito quando em contato com materiais menos duros.\nIII. Em processos de abrasão utilizados em aplicações na saúde, a eficiência do desgaste depende da dureza relativa entre os materiais em contato e da energia mecânica transferida durante o movimento.\nIV. Materiais mais duros, por promoverem maior abrasão, apresentam necessariamente maior condutividade térmica, o que reduz o aquecimento em procedimentos na saúde.\nV. Em qualquer processo real de atrito ou abrasão, parte da energia mecânica fornecida ao sistema é transformada em energia térmica.\n\nAssinale a alternativa <b>CORRETA</b>.\n\nA. Apenas as afirmações II, III e V são verdadeiras.\nB. Apenas as afirmações I, II e IV são verdadeiras.\nC. Apenas as afirmações I, III e V são verdadeiras.\nD. Apenas as afirmações III, IV e V são verdadeiras.",
+  "figuras": [],
+  "gabarito": "C",
+  "gabaritoFonte": "oficial",
+  "resolucao": "1. I – Verdadeira: a escala de Mohs é ordinal (um material risca os de posição inferior); não mede a dureza quantitativamente.\n2. II – Falsa: o texto afirma que dureza e atrito são propriedades distintas e independentes; maior dureza não implica, necessariamente, menor atrito.\n3. III – Verdadeira: o desgaste por abrasão depende de qual material é mais duro e da energia mecânica envolvida no movimento.\n4. IV – Falsa: dureza e condutividade térmica são propriedades independentes; não há relação necessária entre elas.\n5. V – Verdadeira: atrito e abrasão são processos dissipativos; parte da energia mecânica sempre se converte em energia térmica.\n6. Verdadeiras: I, III e V.\nGabarito: C.",
+  "topicos": [
+    "forca-de-atrito-estatico-e-cinetico",
+    "sistemas-dissipativos-perda-de-energia-mecanica"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-10T14:13:27.000Z",
+  "atualizadoEm": "2026-11-10T14:13:27.000Z",
+  "revisao": {
+    "notas": "Enunciado transcrito da prova com gabarito e justificativas divulgada pela própria Acafe (o caderno aplicado não foi obtido; exceção autorizada pelo Lucas). Gabarito oficial, do mesmo documento. Destaque em vermelho da alternativa correta não reproduzido."
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "acafe-2024-verao-q30",
+  "banca": "Acafe",
+  "ano": 2024,
+  "edicao": "Verão",
+  "numero": "30",
+  "fase": "Medicina · Verão",
+  "fonte": {
+    "descricao": "Acafe, Vestibular de Medicina Verão 2024 (19/11/2023), prova com gabarito e justificativas divulgada pela Acafe"
+  },
+  "enunciado": "Seda de aranha produzida por bicho-da-seda é 6 vezes mais forte que material à prova de balas.\n\n<i>“Cientistas criaram bichos-da-seda geneticamente modificados para que eles produzam seda de aranha, que os aracnídeos usam para fazer suas teias.\n\nO resultado foi impressionante: As fibras são seis vezes mais resistentes do que o Kevlar, o material usado em coletes à prova de balas, apresentando uma resistência à tração de 1.299 MPa e uma tenacidade de 319 MJ/m</i><sup><i>3</i></sup><i>.”</i>\n\n<i>Disponível em:</i> <u><i>https://www.inovacaotecnologica.com.br/noticias/noticia.php?artigo=bicho-seda-produz-seda-aranha-mais-forte-material-prova-balas&id=010160230925</i></u><i>, Acessado em 26/09/2023:</i>\n\nNa reportagem acima observa-se a citação a uma grandeza denominada de tenacidade, encontrada nas fibras de aranha produzidas pelos bichos-da-seda.\nA unidade da tenacidade, MJ/m<sup>3</sup>, também pode ser expressa em unidades das grandezas fundamentais (básicas), comprimento, tempo e massa.\nAssinale a alternativa abaixo que expressa <b>CORRETAMENTE</b> a unidade equivalente à tenacidade, no sistema internacional.\n\nA. kg . m<sup>-1</sup> . s<sup>-2</sup>\nB. m . s<sup>-2</sup>\nC. kg . m . s<sup>-3</sup>\nD. kg<sup>-2</sup> . m<sup>-1</sup> . s<sup>2</sup>",
+  "figuras": [],
+  "gabarito": "A",
+  "gabaritoFonte": "oficial",
+  "resolucao": "1. O prefixo M não altera a dimensão; basta analisar J/m<sup>3</sup>.\n2. 1 J = 1 N · m = 1 kg · m · s<sup>−2</sup> · m = 1 kg · m<sup>2</sup> · s<sup>−2</sup>.\n3. J/m<sup>3</sup> = kg · m<sup>2</sup> · s<sup>−2</sup>/m<sup>3</sup> = kg · m<sup>−1</sup> · s<sup>−2</sup> (a mesma dimensão da pressão, N/m<sup>2</sup>).\nGabarito: A.",
+  "topicos": [
+    "analise-dimensional",
+    "grandezas-fisicas-e-sistema-internacional"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-10T14:13:24.000Z",
+  "atualizadoEm": "2026-11-10T14:13:24.000Z",
+  "revisao": {
+    "notas": "Enunciado transcrito da prova com gabarito e justificativas divulgada pela própria Acafe (o caderno aplicado não foi obtido; exceção autorizada pelo Lucas). Gabarito oficial, do mesmo documento. Destaque em vermelho da alternativa correta não reproduzido."
+  }
+}

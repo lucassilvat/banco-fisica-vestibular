@@ -1,0 +1,26 @@
+{
+  "id": "acafe-2022-inverno-q34",
+  "banca": "Acafe",
+  "ano": 2022,
+  "edicao": "Inverno",
+  "numero": "34",
+  "fase": "Medicina · Inverno",
+  "fonte": {
+    "descricao": "Acafe, Vestibular de Medicina Inverno 2022 (12/06/2022), prova com gabarito e justificativas divulgada pela Acafe"
+  },
+  "enunciado": "O Poraquê, uma espécie de peixe elétrico da região norte, é capaz de aplicar em sua vítima descargas elétricas de 60 volts (V) e 16 amperes (A) com duração de 5 mili segundos (ms) e a um ritmo de 75 descargas por segundo.\n\nA quantidade de energia liberada pelo peixe a cada segundo é:\n\nA. 7,20.10<sup>4</sup> J\nB. 3,60.10<sup>4</sup> J\nC. 4,80.10<sup>3</sup> J\nD. 3,60.10<sup>2</sup> J",
+  "figuras": [],
+  "gabarito": "D",
+  "gabaritoFonte": "oficial",
+  "resolucao": "1. Potência durante uma descarga: <i>P</i> = <i>Ui</i> = 60 · 16 = 960 W.\n2. Energia de uma descarga: <i>E</i><sub>1</sub> = <i>P</i>Δ<i>t</i> = 960 · 5 × 10<sup>−3</sup> = 4,8 J.\n3. Em 1 s ocorrem 75 descargas: <i>E</i> = 75 · 4,8 = 360 J = 3,60 · 10<sup>2</sup> J.\nGabarito: D.",
+  "topicos": [
+    "potencia-eletrica-e-efeito-joule",
+    "corrente-eletrica"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-10T14:13:21.000Z",
+  "atualizadoEm": "2026-11-10T14:13:21.000Z",
+  "revisao": {
+    "notas": "Enunciado transcrito da prova com gabarito e justificativas divulgada pela própria Acafe (o caderno aplicado não foi obtido; exceção autorizada pelo Lucas). Gabarito oficial, do mesmo documento. Destaque em vermelho da alternativa correta não reproduzido."
+  }
+}

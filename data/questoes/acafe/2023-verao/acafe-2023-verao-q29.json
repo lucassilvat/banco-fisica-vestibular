@@ -1,0 +1,29 @@
+{
+  "id": "acafe-2023-verao-q29",
+  "banca": "Acafe",
+  "ano": 2023,
+  "edicao": "Verão",
+  "numero": "29",
+  "fase": "Medicina · Verão",
+  "fonte": {
+    "descricao": "Acafe, Vestibular de Medicina Verão 2023 (15/11/2022), prova com gabarito e justificativas divulgada pela Acafe"
+  },
+  "enunciado": "Dois móveis A e B descrevem trajetórias retilíneas e seus movimentos estão representados no gráfico, posição (X), em função do tempo de movimento(t) a seguir. O móvel A inicia seu movimento com velocidade de módulo 12m/s.\n\n[[figura 1]]\n\nSabendo que os móveis se encontram no instante t = 5s e que a distância inicial entre eles é de 15m, o módulo da velocidade do móvel B é:\n\nA. 10 m/s\nB. 6 m/s\nC. 4 m/s\nD. 2 m/s",
+  "figuras": [
+    "acafe-2023-verao-q29-1.png"
+  ],
+  "gabarito": "C",
+  "gabaritoFonte": "oficial",
+  "resolucao": "1. O gráfico de A é uma parábola com vértice em <i>t</i> = 6 s: A tem movimento uniformemente variado e para (<i>v</i> = 0) em <i>t</i> = 6 s. Partindo com |<i>v</i><sub>0</sub>| = 12 m/s, o módulo da aceleração é <i>a</i> = 12/6 = 2 m/s<sup>2</sup>.\n2. Funções horárias (A começa 15 m acima de B, com velocidade negativa): <i>X</i><sub>A</sub> = <i>X</i><sub>0B</sub> + 15 − 12<i>t</i> + <i>t</i><sup>2</sup>; o gráfico de B é uma reta descendente, então <i>X</i><sub>B</sub> = <i>X</i><sub>0B</sub> − <i>vt</i>.\n3. Encontro em <i>t</i> = 5 s: 15 − 60 + 25 = −5<i>v</i> ⇒ −20 = −5<i>v</i> ⇒ <i>v</i> = 4 m/s.\nGabarito: C.",
+  "topicos": [
+    "graficos-do-movimento-s-t-v-t-a-t",
+    "movimento-retilineo-uniformemente-variado-mruv",
+    "movimento-retilineo-uniforme-mru"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-10T14:13:22.000Z",
+  "atualizadoEm": "2026-11-10T14:13:22.000Z",
+  "revisao": {
+    "notas": "Enunciado transcrito da prova com gabarito e justificativas divulgada pela própria Acafe (o caderno aplicado não foi obtido; exceção autorizada pelo Lucas). Gabarito oficial, do mesmo documento. Destaque em vermelho da alternativa correta não reproduzido."
+  }
+}

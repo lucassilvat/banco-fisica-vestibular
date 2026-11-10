@@ -1,0 +1,27 @@
+{
+  "id": "acafe-2022-inverno-q29",
+  "banca": "Acafe",
+  "ano": 2022,
+  "edicao": "Inverno",
+  "numero": "29",
+  "fase": "Medicina · Inverno",
+  "fonte": {
+    "descricao": "Acafe, Vestibular de Medicina Inverno 2022 (12/06/2022), prova com gabarito e justificativas divulgada pela Acafe"
+  },
+  "enunciado": "Um carrinho de massa 200 kg em repouso, localizado no ponto mais alto no início de uma montanha russa, é liberado no ponto ‘1’ a 40 m de altura. Após alguns sobe e desce do percurso chega a uma segunda lombada, num ponto ‘2’ de altura 36,8 m. (dado: g = 10 m/s<sup>2</sup>)\n\nA velocidade no ponto mais alto dessa 2ª lombada é:\n\nA. 10 m/s\nB. 6 m/s\nC. 8 m/s\nD. 12 m/s",
+  "figuras": [],
+  "gabarito": "C",
+  "gabaritoFonte": "oficial",
+  "resolucao": "1. Sem atritos (a questão não menciona perdas), a energia mecânica se conserva entre os pontos 1 e 2: <i>mgh</i><sub>1</sub> = <i>mgh</i><sub>2</sub> + <i>mv</i><sub>2</sub><sup>2</sup>/2.\n2. <i>v</i><sub>2</sub><sup>2</sup> = 2<i>g</i>(<i>h</i><sub>1</sub> − <i>h</i><sub>2</sub>) = 2 · 10 · (40 − 36,8) = 64.\n3. <i>v</i><sub>2</sub> = 8 m/s. A massa de 200 kg não interfere no resultado.\nGabarito: C.",
+  "topicos": [
+    "conservacao-da-energia-mecanica",
+    "energia-potencial-gravitacional",
+    "energia-cinetica-e-teorema-trabalho-energia"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-10T14:13:21.000Z",
+  "atualizadoEm": "2026-11-10T14:13:21.000Z",
+  "revisao": {
+    "notas": "Enunciado transcrito da prova com gabarito e justificativas divulgada pela própria Acafe (o caderno aplicado não foi obtido; exceção autorizada pelo Lucas). Gabarito oficial, do mesmo documento. Destaque em vermelho da alternativa correta não reproduzido."
+  }
+}

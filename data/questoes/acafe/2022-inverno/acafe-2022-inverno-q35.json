@@ -1,0 +1,26 @@
+{
+  "id": "acafe-2022-inverno-q35",
+  "banca": "Acafe",
+  "ano": 2022,
+  "edicao": "Inverno",
+  "numero": "35",
+  "fase": "Medicina · Inverno",
+  "fonte": {
+    "descricao": "Acafe, Vestibular de Medicina Inverno 2022 (12/06/2022), prova com gabarito e justificativas divulgada pela Acafe"
+  },
+  "enunciado": "A corrente elétrica contínua em uma dada linha de transmissão é de 4.000 A. Um esportista de trilha perdido, andando perto da linha de transmissão, tenta se orientar utilizando uma bússola. O campo magnético terrestre é de B<sub>T</sub> = 5,0.10<sup>-5</sup> T perto da superfície da Terra. A permeabilidade magnética é µ<sub>0</sub> = 4.π.10<sup>-7</sup> m/A.\n\nA distância que o esportista deverá se manter da linha de transmissão, para que o campo gerado pela corrente tenha o módulo igual ao do campo magnético terrestre, é:\n\nA. 1,2.10<sup>1</sup> m\nB. 1,6.10<sup>1</sup> m\nC. 2.10<sup>1</sup> m\nD. 8.10<sup>0</sup> m",
+  "figuras": [],
+  "gabarito": "B",
+  "gabaritoFonte": "oficial",
+  "resolucao": "1. Campo de um fio retilíneo longo: <i>B</i> = <i>μ</i><sub>0</sub><i>i</i>/(2π<i>d</i>).\n2. Igualando ao campo terrestre: <i>d</i> = <i>μ</i><sub>0</sub><i>i</i>/(2π<i>B</i><sub>T</sub>) = (4π × 10<sup>−7</sup> · 4.000)/(2π · 5,0 × 10<sup>−5</sup>).\n3. <i>d</i> = (2 × 10<sup>−7</sup> · 4.000)/(5,0 × 10<sup>−5</sup>) = (8 × 10<sup>−4</sup>)/(5 × 10<sup>−5</sup>) = 16 m = 1,6 · 10<sup>1</sup> m.\nGabarito: B.",
+  "topicos": [
+    "campo-magnetico-de-fio-retilineo",
+    "campo-magnetico-terrestre-e-bussola"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-10T14:13:21.000Z",
+  "atualizadoEm": "2026-11-10T14:13:21.000Z",
+  "revisao": {
+    "notas": "Enunciado transcrito da prova com gabarito e justificativas divulgada pela própria Acafe (o caderno aplicado não foi obtido; exceção autorizada pelo Lucas). Gabarito oficial, do mesmo documento. Destaque em vermelho da alternativa correta não reproduzido."
+  }
+}

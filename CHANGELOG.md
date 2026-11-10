@@ -4,6 +4,23 @@ Cada versão corresponde a um lote de importação ou a uma mudança no app/pipe
 Formato: `vMAIOR.MENOR.CORREÇÃO` — MENOR sobe a cada prova importada; MAIOR, em mudanças
 de modelo de dados; CORREÇÃO, em correções de questões já publicadas.
 
+## v1.18.0 — 2026-11-10
+
+- **Acafe, Vestibular de Medicina, Inverno 2021 a Inverno 2026** (10 provas): 70 questões,
+  29 figuras, Q29 a Q35 de cada prova (Inverno 2021; Verão e Inverno de 2022 a 2025;
+  Inverno 2026).
+  - Fonte do enunciado e gabaritos: como na v1.17.0 (prova com gabarito e justificativas
+    da Acafe; `oficial`).
+  - Novo campo `edicao` (`Verão`/`Inverno`): entra no id (`acafe-2025-verao-q29`), na pasta e
+    na `fase` (`Medicina · Verão`); o app mostra só o ano. As 7 questões da Verão 2026 foram
+    renomeadas para `acafe-2026-verao-qNN` (e a figura para `acafe-2026-verao-q34-1.png`).
+  - Fora, por decisão do Lucas: Verão 2023 Q37, Verão 2025 Q39 e Inverno 2025 Q36.
+    Verão 2021 não entrou: a ordem aplicada das alternativas é desconhecida.
+  - Erros da banca anotados nas resoluções (gabarito oficial mantido): Verão 2022 Q33,
+    Inverno 2022 Q31 e Q32, Verão 2025 Q33.
+  - Pipeline: `--edicao` em `registrar-prova`; segmentador Acafe aceita título "NN" sem
+    parêntese e escolhe os títulos em sequência; `figuras detectar` apaga recortes antigos.
+
 ## v1.17.0 — 2026-11-10
 
 - **Acafe, Vestibular de Medicina Verão 2026** (02/11/2025): 7 questões, 1 figura: Q29 a Q35

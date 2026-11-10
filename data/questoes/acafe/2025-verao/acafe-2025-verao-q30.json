@@ -1,0 +1,26 @@
+{
+  "id": "acafe-2025-verao-q30",
+  "banca": "Acafe",
+  "ano": 2025,
+  "edicao": "Verão",
+  "numero": "30",
+  "fase": "Medicina · Verão",
+  "fonte": {
+    "descricao": "Acafe, Vestibular de Medicina Verão 2025 (24/11/2024), prova com gabarito e justificativas divulgada pela Acafe"
+  },
+  "enunciado": "A ortopedia é a especialidade médica que cuida do sistema musculoesquelético, abrangendo ossos, articulações, ligamentos, tendões e músculos. Um médico ortopedista, frequentemente, lida com lesões causadas por acidentes, incluindo fraturas e impactos.\nSuponha que um ortopedista esteja analisando o impacto de uma colisão lateral entre dois veículos em um cruzamento, em termos das forças aplicadas sobre o corpo humano, especificamente no fêmur de um paciente.\n\nA força varia durante a colisão pela função horária:\n\n<i>F</i>(<i>t</i>) <i>=</i> <i>500.t</i>\n\nonde F é a força em newtons e t é o tempo em segundos. Sabendo disso, o valor da variação da quantidade de movimento provocada pela ação desta força no fêmur durante os primeiros 4 segundos da colisão é:\n\nA. 1500 N.s\nB. 2000 N.s\nC. 4000 N.s\nD. 5000 N.s",
+  "figuras": [],
+  "gabarito": "C",
+  "gabaritoFonte": "oficial",
+  "resolucao": "1. Pelo teorema do impulso, Δ<i>Q</i> = <i>I</i>, e o impulso de uma força variável é a área sob o gráfico <i>F</i> × <i>t</i>.\n2. Em <i>t</i> = 4 s, <i>F</i> = 500 · 4 = 2.000 N. O gráfico é uma reta a partir da origem: a área é um triângulo.\n3. <i>I</i> = (4 · 2.000)/2 = 4.000 N·s ⇒ Δ<i>Q</i> = 4.000 N·s.\nGabarito: C.",
+  "topicos": [
+    "impulso-e-quantidade-de-movimento",
+    "leitura-e-interpretacao-de-graficos"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-10T14:13:25.000Z",
+  "atualizadoEm": "2026-11-10T14:13:25.000Z",
+  "revisao": {
+    "notas": "Enunciado transcrito da prova com gabarito e justificativas divulgada pela própria Acafe (o caderno aplicado não foi obtido; exceção autorizada pelo Lucas). Gabarito oficial, do mesmo documento. Destaque em vermelho da alternativa correta não reproduzido."
+  }
+}

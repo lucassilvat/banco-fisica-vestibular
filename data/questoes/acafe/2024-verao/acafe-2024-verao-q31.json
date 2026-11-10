@@ -1,0 +1,27 @@
+{
+  "id": "acafe-2024-verao-q31",
+  "banca": "Acafe",
+  "ano": 2024,
+  "edicao": "Verão",
+  "numero": "31",
+  "fase": "Medicina · Verão",
+  "fonte": {
+    "descricao": "Acafe, Vestibular de Medicina Verão 2024 (19/11/2023), prova com gabarito e justificativas divulgada pela Acafe"
+  },
+  "enunciado": "Chamada de “ciência do olho” a oftalmologia é uma área da medicina que tem evoluído muito nas últimas décadas. A solução de várias ametropias passa pelo conhecimento de alguns conceitos físicos, mas especificamente na área da óptica.\n\nSobre os conceitos físicos da óptica, as ametropias da visão e suas correções é correto afirmar que:\n\nA. como o índice de refração da córnea (n ≈ 1,38) é maior que o do ar (n = 1), um raio luminoso ao penetrar obliquamente na córnea, vindo do ar, tende a diminuir sua velocidade e se afastar da normal.\nB. a capacidade que uma lente esférica tem de convergir ou divergir os raios de luz, pode ser determinada pela convergência (vergência) da lente, que tem como unidade de medida o m<sup>-1</sup>, no sistema internacional.\nC. anormalidades nos músculos ciliares, levam a dificuldade na acomodação visual para o ponto próximo, provocando uma ametropia denominada de miopia.\nD. a ametropia nas células fotorreceptoras chamadas cones, presentes na retina é conhecida como Daltonismo, cuja dificuldade pode ser na percepção da cor vermelha, cujo comprimento de onda é o menor no espectro visível.",
+  "figuras": [],
+  "gabarito": "B",
+  "gabaritoFonte": "oficial",
+  "resolucao": "1. A – Incorreta: ao passar para um meio mais refringente a luz diminui a velocidade e se aproxima da normal (não se afasta).\n2. B – Correta: a vergência <i>V</i> = 1/<i>f</i> mede a capacidade de convergir ou divergir a luz; no SI a unidade é m<sup>−1</sup> (a dioptria, \"grau\").\n3. C – Incorreta: a dificuldade de acomodação para perto por perda de capacidade dos músculos ciliares (e do cristalino) é a presbiopia; a miopia é a dificuldade de ver de longe.\n4. D – Incorreta: o vermelho tem o maior comprimento de onda do espectro visível, não o menor.\nGabarito: B.",
+  "topicos": [
+    "lentes-esfericas-vergencia-gauss-aumento",
+    "optica-da-visao-e-defeitos-visuais",
+    "refracao-da-luz-e-indice-de-refracao"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-10T14:13:24.000Z",
+  "atualizadoEm": "2026-11-10T14:13:24.000Z",
+  "revisao": {
+    "notas": "Enunciado transcrito da prova com gabarito e justificativas divulgada pela própria Acafe (o caderno aplicado não foi obtido; exceção autorizada pelo Lucas). Gabarito oficial, do mesmo documento. Destaque em vermelho da alternativa correta não reproduzido."
+  }
+}

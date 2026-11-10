@@ -1,0 +1,29 @@
+{
+  "id": "acafe-2024-inverno-q33",
+  "banca": "Acafe",
+  "ano": 2024,
+  "edicao": "Inverno",
+  "numero": "33",
+  "fase": "Medicina · Inverno",
+  "fonte": {
+    "descricao": "Acafe, Vestibular de Medicina Inverno 2024 (09/06/2024), prova com gabarito e justificativas divulgada pela Acafe"
+  },
+  "enunciado": "H1N1, covid ou mesmo dengue, todas as três doenças apresentam como um dos sintomas em comum a febre, ou seja, um aumento da temperatura corporal. A febre não é uma causa, mas, sim, uma consequência, da reação do organismo, quando algo está errado. O aumento da temperatura tem como objetivo a eliminação de vírus ou de bactérias.\n\nAssinale a alternativa que contém a capacidade térmica de uma pessoa que possui uma massa de 80 kg e apresenta uma febre com aumento de 2°C em sua temperatura corporal, considerando o calor específico médio do corpo humano como 3,5 kJ/kg °C e caso a quantidade de calor gerada pelo corpo da pessoa para este acréscimo, seja, também, totalmente, usada para aquecer uma amostra de água para a mesma variação de temperatura, esta massa de água seria maior ou menor que a massa de 80 kg da pessoa.\n\nCONSTANTES FÍSICAS\n1 <i>cal</i> = 4,2 <i>J</i>\n<i>c</i><sub>á<i>gua</i></sub> = 1 <i>cal</i>/<i>g</i>.°<i>C</i>\n\nA. 230 kJ/°C, massa menor que do corpo.\nB. 230 kJ/°C, massa maior que do corpo.\nC. 280 kJ/°C, massa menor que do corpo.\nD. 280 kJ/°C, massa maior que do corpo.",
+  "figuras": [],
+  "gabarito": "C",
+  "gabaritoFonte": "oficial",
+  "resolucao": "1. Capacidade térmica: <i>C</i> = <i>mc</i> = 80 · 3,5 = 280 kJ/°C. Isso elimina A e B.\n2. Calor para aumentar 2 °C: <i>Q</i> = <i>C</i>Δ<i>θ</i> = 280 · 2 = 560 kJ.\n3. Calor específico da água: 1 cal/g·°C = 4,2 J/g·°C = 4,2 kJ/kg·°C, maior que o do corpo (3,5 kJ/kg·°C).\n4. Massa de água aquecida em 2 °C com 560 kJ: <i>m</i> = 560/(4,2 · 2) ≈ 66,7 kg, menor que 80 kg (a água precisa de mais calor por kg).\nGabarito: C.",
+  "topicos": [
+    "calor-sensivel-e-capacidade-termica"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-10T14:13:24.000Z",
+  "atualizadoEm": "2026-11-10T14:13:24.000Z",
+  "revisao": {
+    "notas": "Enunciado transcrito da prova com gabarito e justificativas divulgada pela própria Acafe (o caderno aplicado não foi obtido; exceção autorizada pelo Lucas). Gabarito oficial, do mesmo documento. Destaque em vermelho da alternativa correta não reproduzido. Dados do formulário da prova (CONSTANTES FÍSICAS) incluídos antes das alternativas (decisão do Lucas: só os dados necessários). Divergências aceitas: palavras dos dados do formulário, que no PDF estão em letras matemáticas Unicode (𝑐𝑎𝑙, á𝑔𝑢𝑎, 𝑎𝑡𝑚, 𝑀𝑜𝑙).",
+    "divergenciasAceitas": [
+      "cal",
+      "gua"
+    ]
+  }
+}

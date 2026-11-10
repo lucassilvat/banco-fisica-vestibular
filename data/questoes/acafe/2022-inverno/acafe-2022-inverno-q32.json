@@ -1,0 +1,26 @@
+{
+  "id": "acafe-2022-inverno-q32",
+  "banca": "Acafe",
+  "ano": 2022,
+  "edicao": "Inverno",
+  "numero": "32",
+  "fase": "Medicina · Inverno",
+  "fonte": {
+    "descricao": "Acafe, Vestibular de Medicina Inverno 2022 (12/06/2022), prova com gabarito e justificativas divulgada pela Acafe"
+  },
+  "enunciado": "No fundo de um lago, um peixe está a 20 m de profundidade, libera uma bolha de ar com volume de 4 cm<sup>3</sup>, cuja temperatura da água nessa profundidade é de 7ºC.\n\nAssinale a alternativa que apresenta o volume desta bolha ao chegar no limite da lâmina de água, onde a temperatura na superfície é de 17ºC e a pressão é de 1 atm.\n\nA. 1,035 cm<sup>3</sup>\nB. 5,666 cm<sup>3</sup>\nC. 4,142 ml\nD. 9,714 ml",
+  "figuras": [],
+  "gabarito": "C",
+  "gabaritoFonte": "oficial",
+  "resolucao": "Atenção: pela física da situação, a resposta é cerca de 12,4 cm<sup>3</sup>, que não aparece entre as alternativas. O gabarito oficial (C) resulta de a resolução da banca ter trocado as pressões inicial e final.\n1. Pressão no fundo: cada 10 m de água acrescentam cerca de 1 atm; a 20 m, <i>p</i><sub>1</sub> = 1 + 2 = 3 atm. Na superfície, <i>p</i><sub>2</sub> = 1 atm.\n2. Temperaturas absolutas: <i>T</i><sub>1</sub> = 7 + 273 = 280 K; <i>T</i><sub>2</sub> = 17 + 273 = 290 K.\n3. Equação geral dos gases: <i>p</i><sub>1</sub><i>V</i><sub>1</sub>/<i>T</i><sub>1</sub> = <i>p</i><sub>2</sub><i>V</i><sub>2</sub>/<i>T</i><sub>2</sub> ⇒ 3 · 4/280 = 1 · <i>V</i><sub>2</sub>/290 ⇒ <i>V</i><sub>2</sub> = 12 · 290/280 ≈ 12,4 cm<sup>3</sup>. A bolha sobe para pressão menor e se expande.\n4. A resolução divulgada pela banca toma 1 atm como pressão no fundo e 3 atm na superfície (troca as pressões) e chega a 4,142 cm<sup>3</sup> (= 4,142 mL), a alternativa C. Nenhuma alternativa corresponde ao resultado correto.\nGabarito: C.",
+  "topicos": [
+    "gas-ideal-e-equacao-de-clapeyron",
+    "teorema-de-stevin-pressao-hidrostatica"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-10T14:13:21.000Z",
+  "atualizadoEm": "2026-11-10T14:13:21.000Z",
+  "revisao": {
+    "notas": "Enunciado transcrito da prova com gabarito e justificativas divulgada pela própria Acafe (o caderno aplicado não foi obtido; exceção autorizada pelo Lucas). Gabarito oficial, do mesmo documento. Destaque em vermelho da alternativa correta não reproduzido. Questão sem alternativa correta pela física da situação (≈ 12,4 cm³): o gabarito oficial (C) vem da resolução da banca, que trocou as pressões inicial e final. Não se sabe se foi anulada."
+  }
+}

@@ -96,6 +96,7 @@ def detectar(chave: str, numeros: list[int]):
         manual = str(n) in ajustes
         bxs = ajustes[str(n)] if manual else _detectar(doc, seg[str(n)])
         res = []
+        for velho in out.glob(f"q{n:03d}-*.png"): velho.unlink()   # recortes de uma rodada anterior
         for k, (p, a, b, c, e) in enumerate(bxs, 1):
             pg = doc[p - 1]; R = pymupdf.Rect(a, b, c, e)
             if not manual: R = _aparar(pg, R)
@@ -120,7 +121,7 @@ def detectar(chave: str, numeros: list[int]):
 def aplicar(chave: str, numero: int):
     """Copia os recortes aprovados para data/figuras e preenche o campo 'figuras' da questão."""
     fonte = fonte_da_prova(chave); out = pasta_trabalho(chave) / "figuras"
-    qid = id_questao(fonte["banca"], fonte["ano"], fonte.get("versao", ""), numero)
+    qid = id_questao(fonte["banca"], fonte["ano"], fonte.get("versao", ""), numero, fonte.get("edicao", ""))
     alvo = [q for _, q in carregar_questoes(qid) if q["id"] == qid]
     if not alvo: raise SystemExit(f"Questão {qid} não existe. Rode 'rascunho' antes.")
     q = alvo[0]; nomes = []

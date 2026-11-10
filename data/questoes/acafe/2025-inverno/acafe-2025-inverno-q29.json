@@ -1,0 +1,27 @@
+{
+  "id": "acafe-2025-inverno-q29",
+  "banca": "Acafe",
+  "ano": 2025,
+  "edicao": "Inverno",
+  "numero": "29",
+  "fase": "Medicina · Inverno",
+  "fonte": {
+    "descricao": "Acafe, Vestibular de Medicina Inverno 2025 (01/06/2025), prova com gabarito e justificativas divulgada pela Acafe"
+  },
+  "enunciado": "Um feliz candidato, aprovado no vestibular para Medicina, logo se depara com disciplinas que não esperava encontrar em destaque: Física e Matemática. Durante aulas de diagnóstico por imagem e fisiologia cardíaca, percebe que exames como eletrocardiograma (ECG), espirometria e tomografia computadorizada envolvem funções matemáticas e gráficos, que descrevem relações entre grandezas físicas por meio de representações matemáticas.\nSurpreso, começa a entender como as ciências exatas são fundamentais para a prática médica.\n\nCom base nesse contexto, analise as proposições.\n\nI. A leitura de um eletrocardiograma pode ser interpretada como um gráfico da corrente elétrica em função do tempo. A forma da curva lembra funções periódicas, e a área sob o gráfico representa a quantidade de carga elétrica que atravessa o coração, naquele intervalo de tempo.\nII. A curva volume-tempo, representada no gráfico de volume por tempo obtido na espirometria, corresponde a uma função constante, já que durante a respiração o volume de ar nos pulmões se mantém praticamente inalterado.\nIII. A interpretação da tomografia depende, exclusivamente, de conhecimentos em Química e Biologia, já que os gráficos gerados — como os de intensidade da radiação por posição — não exigem análise matemática ou física, por parte do profissional da saúde.\nIV. A inclinação de um gráfico de impulso por velocidade revela a massa de um corpo, conceito aplicado em fisioterapia e medicina esportiva para avaliar o controle de força e desempenho muscular, por meio de plataformas de força.\nV. Funções periódicas são pouco úteis na Medicina, já que os ritmos biológicos, como frequência cardíaca e respiratória, apresentam variações imprevisíveis e não seguem padrões regulares.\n\nAssinale a alternativa <b>CORRETA</b>.\n\nA. Apenas as afirmativas I, III e IV estão corretas.\nB. Apenas as afirmativas I, II e IV estão corretas.\nC. Apenas as afirmativas I e IV estão corretas.\nD. Apenas a afirmativa I, II e V está correta.",
+  "figuras": [],
+  "gabarito": "C",
+  "gabaritoFonte": "oficial",
+  "resolucao": "1. I – Correta (na leitura da banca): num gráfico de corrente × tempo, a área sob a curva é a carga, pois <i>Q</i> = <i>i</i>Δ<i>t</i>; o traçado do ECG é periódico.\n2. II – Incorreta: na respiração o volume de ar nos pulmões varia continuamente (inspiração e expiração); o gráfico não é constante.\n3. III – Incorreta: a tomografia baseia-se na atenuação da radiação (Física) e na reconstrução matemática das imagens.\n4. IV – Correta: o impulso é igual à variação da quantidade de movimento, <i>I</i> = <i>m</i>Δ<i>v</i>; num gráfico de impulso × velocidade a inclinação é a massa.\n5. V – Incorreta: ritmos cardíaco e respiratório são aproximadamente periódicos e descritos por funções periódicas.\n6. Corretas: I e IV.\nGabarito: C.",
+  "topicos": [
+    "leitura-e-interpretacao-de-graficos",
+    "impulso-e-quantidade-de-movimento",
+    "corrente-eletrica"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-10T14:13:26.000Z",
+  "atualizadoEm": "2026-11-10T14:13:26.000Z",
+  "revisao": {
+    "notas": "Enunciado transcrito da prova com gabarito e justificativas divulgada pela própria Acafe (o caderno aplicado não foi obtido; exceção autorizada pelo Lucas). Gabarito oficial, do mesmo documento. Destaque em vermelho da alternativa correta não reproduzido."
+  }
+}

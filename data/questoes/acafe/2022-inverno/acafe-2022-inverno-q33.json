@@ -1,0 +1,27 @@
+{
+  "id": "acafe-2022-inverno-q33",
+  "banca": "Acafe",
+  "ano": 2022,
+  "edicao": "Inverno",
+  "numero": "33",
+  "fase": "Medicina · Inverno",
+  "fonte": {
+    "descricao": "Acafe, Vestibular de Medicina Inverno 2022 (12/06/2022), prova com gabarito e justificativas divulgada pela Acafe"
+  },
+  "enunciado": "Com relação à eletrostática, é correto afirmar que:\n\nA. em uma esfera metálica, eletricamente carregada, as cargas distribuem-se uniformemente, ocupando todo o volume.\nB. a capacitância de um capacitor plano, com vácuo entre as placas, aumenta quando um dielétrico é inserido preenchendo todo o espaço entre suas armaduras.\nC. uma carga elétrica positiva, colocada entre cargas negativas, é repelida por ambas.\nD. superfície equipotencial é a região do espaço onde todos os pontos têm a mesma potência elétrica.",
+  "figuras": [],
+  "gabarito": "B",
+  "gabaritoFonte": "oficial",
+  "resolucao": "1. A – Incorreta: em um condutor em equilíbrio eletrostático o excesso de cargas fica na superfície externa, não no volume.\n2. B – Correta: <i>C</i> = <i>κε</i><sub>0</sub><i>A</i>/<i>d</i>; ao inserir um dielétrico de constante <i>κ</i> > 1 preenchendo o espaço, a capacitância aumenta <i>κ</i> vezes.\n3. C – Incorreta: cargas de sinais opostos se atraem; a carga positiva é atraída pelas negativas.\n4. D – Incorreta: superfície equipotencial é aquela em que todos os pontos têm o mesmo potencial elétrico, não a mesma \"potência\".\nGabarito: B.",
+  "topicos": [
+    "capacitores-e-capacitancia",
+    "condutores-em-equilibrio-eletrostatico-e-blindagem",
+    "potencial-eletrico-e-diferenca-de-potencial"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-10T14:13:21.000Z",
+  "atualizadoEm": "2026-11-10T14:13:21.000Z",
+  "revisao": {
+    "notas": "Enunciado transcrito da prova com gabarito e justificativas divulgada pela própria Acafe (o caderno aplicado não foi obtido; exceção autorizada pelo Lucas). Gabarito oficial, do mesmo documento. Destaque em vermelho da alternativa correta não reproduzido."
+  }
+}

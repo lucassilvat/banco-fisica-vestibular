@@ -33,14 +33,17 @@ def manifesto() -> list:
     return json.loads((DADOS / "fontes" / "manifesto.json").read_text(encoding="utf-8"))["provas"]
 
 
-def chave_prova(banca: str, ano: int, versao: str = "") -> str:
-    """Identificador de uma prova: unicamp-2021A, fuvest-2024, enem-2023-azul..."""
-    return f"{banca.lower()}-{ano}{versao or ''}"
+def chave_prova(banca: str, ano: int, versao: str = "", edicao: str = "") -> str:
+    """Identificador de uma prova: unicamp-2021A, fuvest-2024, acafe-2025-inverno...
+
+    `edicao` separa provas da mesma banca e ano sem virar rótulo no app (Acafe: Verão/Inverno);
+    o app mostra só o ano, e a edição aparece na fase."""
+    return f"{banca.lower()}-{ano}{versao or ''}" + (f"-{slug(edicao)}" if edicao else "")
 
 
 def fonte_da_prova(chave: str, tipo: str = "caderno") -> dict:
     for p in manifesto():
-        if chave_prova(p["banca"], p["ano"], p.get("versao", "")) == chave and p["tipo"] == tipo:
+        if chave_prova(p["banca"], p["ano"], p.get("versao", ""), p.get("edicao", "")) == chave and p["tipo"] == tipo:
             return p
     raise SystemExit(f"Prova '{chave}' ({tipo}) não está em data/fontes/manifesto.json. Registre-a com: python -m pipeline registrar-prova")
 
@@ -58,12 +61,13 @@ def pasta_trabalho(chave: str) -> Path:
     return d
 
 
-def id_questao(banca: str, ano: int, versao: str, numero) -> str:
-    return f"{banca.lower()}-{ano}{(versao or '').lower()}-q{int(numero):02d}"
+def id_questao(banca: str, ano: int, versao: str, numero, edicao: str = "") -> str:
+    return f"{banca.lower()}-{ano}{(versao or '').lower()}" + (f"-{slug(edicao)}" if edicao else "") + f"-q{int(numero):02d}"
 
 
 def caminho_questao(q: dict) -> Path:
-    return QUESTOES / q["banca"].lower() / f"{q['ano']}{q.get('versao', '')}" / f"{q['id']}.json"
+    pasta = f"{q['ano']}{q.get('versao', '')}" + (f"-{slug(q['edicao'])}" if q.get("edicao") else "")
+    return QUESTOES / q["banca"].lower() / pasta / f"{q['id']}.json"
 
 
 def carregar_questoes(filtro: str | None = None) -> list[tuple[Path, dict]]:

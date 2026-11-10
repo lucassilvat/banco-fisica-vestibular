@@ -1,0 +1,30 @@
+{
+  "id": "acafe-2023-inverno-q32",
+  "banca": "Acafe",
+  "ano": 2023,
+  "edicao": "Inverno",
+  "numero": "32",
+  "fase": "Medicina · Inverno",
+  "fonte": {
+    "descricao": "Acafe, Vestibular de Medicina Inverno 2023 (04/06/2023), prova com gabarito e justificativas divulgada pela Acafe"
+  },
+  "enunciado": "Um dos vícios que afeta a saúde de jovens e adultos é o uso recorrente do celular (smartphone). A cabeça humana pesa aproximadamente 50N, mas como o pescoço inclina para a frente e para baixo, a força sobre a coluna cervical começa a aumentar<b>.</b> Considerando que a aceleração de gravidade seja 10m/s<sup>2</sup>, veja que em um ângulo de 15<sup>0</sup>, este peso equivale a uma massa de 12 kg, a 30<sup>0</sup> é 18 kg, a 45<sup>0</sup> é 22 kg, e a 60<sup>0</sup> é 27 kg.\n\n[[figura 1]]\n\nEsse é o peso ao olhar para um smartphone – o que milhões de pessoas fazem por horas, todos os dias, de acordo com estudo publicado por <i>Kenneth Hansraj</i> na <i>National Library of Medicine</i>. O estudo será publicado na <i>Surgical Technology International</i>. Ao longo do tempo, dizem os pesquisadores, essa má postura, às vezes chamada de “pescoço de texto” ou “text neck” pode levar a um desgaste e lesões no início da coluna vertebral, com a aceleração do processo degenerativo, com importantes consequências.\n\n[[figura 2]]\n\nA Figura 4 mostra uma cabeça humana inclinada para frente sendo suportada pela força muscular <i>F</i>⃗<sub><i>m</i></sub> , exercida pelos músculos do pescoço e pela força de contato <i>F</i>⃗<sub><i>c</i></sub> exercida pela coluna vertebral, assim o módulo da força <i>F</i>⃗<sub><i>c</i></sub> para manter a cabeça em equilíbrio em relação ao ponto S da figura é:\n\nDados para realização das questões\nsen θ = 0,6\ncos θ = 0,8\nsen α = 0,8\ncos α = 0,6\n\nA. 68,75N\nB. 110N\nC. 187,5N\nD. 250N",
+  "figuras": [
+    "acafe-2023-inverno-q32-1.png",
+    "acafe-2023-inverno-q32-2.png"
+  ],
+  "gabarito": "C",
+  "gabaritoFonte": "oficial",
+  "resolucao": "1. Pela Figura 4, o peso <i>P</i> = 50 N atua a 8 cm de S, e a força muscular <i>F</i><sub>m</sub> atua na extremidade a 10 cm, ou seja, a 10 − 8 = 2 cm de S, formando ângulo <i>α</i> com a horizontal. A força <i>F</i><sub>c</sub> passa por S e não produz torque em relação a esse ponto.\n2. Equilíbrio de rotação em relação a S (só a componente vertical de <i>F</i><sub>m</sub> tem braço de 2 cm): <i>P</i> · 8 = <i>F</i><sub>m</sub> sen <i>α</i> · 2 ⇒ 50 · 8 = <i>F</i><sub>m</sub> · 0,8 · 2 ⇒ <i>F</i><sub>m</sub> = 250 N.\n3. Equilíbrio de translação na horizontal: <i>F</i><sub>c</sub> cos <i>θ</i> = <i>F</i><sub>m</sub> cos <i>α</i> ⇒ <i>F</i><sub>c</sub> · 0,8 = 250 · 0,6 ⇒ <i>F</i><sub>c</sub> = 187,5 N.\nGabarito: C.",
+  "topicos": [
+    "equilibrio-do-corpo-extenso",
+    "momento-de-uma-forca-torque",
+    "vetores-soma-e-decomposicao"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-10T14:13:23.000Z",
+  "atualizadoEm": "2026-11-10T14:13:23.000Z",
+  "revisao": {
+    "notas": "Enunciado transcrito da prova com gabarito e justificativas divulgada pela própria Acafe (o caderno aplicado não foi obtido; exceção autorizada pelo Lucas). Gabarito oficial, do mesmo documento. Destaque em vermelho da alternativa correta não reproduzido. Dados do formulário da prova incluídos antes das alternativas (decisão do Lucas: só os dados necessários)."
+  }
+}

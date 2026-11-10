@@ -1,0 +1,29 @@
+{
+  "id": "acafe-2026-inverno-q32",
+  "banca": "Acafe",
+  "ano": 2026,
+  "edicao": "Inverno",
+  "numero": "32",
+  "fase": "Medicina · Inverno",
+  "fonte": {
+    "descricao": "Acafe, Vestibular de Medicina Inverno 2026 (21/06/2026), prova com gabarito e justificativas divulgada pela Acafe"
+  },
+  "enunciado": "No final do século XVI, Tycho Brahe realizava medições astronômicas em uma época em que a marcação do tempo dependia de instrumentos rudimentares, como ampulhetas e relógios de água. A busca por maior precisão impulsionou o desenvolvimento dos relógios mecânicos, nos quais o tempo passou a ser definido pela contagem regular de movimentos periódicos.\n\n[[figura 1]]\n\nEm um relógio mecânico analógico, essa contagem é realizada por meio da transmissão de movimento por meio de um sistema de engrenagens. A Figura 5 representa um mecanismo interno desse tipo, constituído por quatro engrenagens, numeradas de 1 a 4, distribuídas em três eixos de rotação distintos. A engrenagem 1, a menor do conjunto, localizada no eixo inferior, possui raio r<sub>1</sub> = 1,0 cm e gira com velocidade tangencial periférica constante, correspondente a 240 rpm na temperatura de calibração. Essa engrenagem engrena com a engrenagem 2, de raio r<sub>2</sub> = 4,0 cm, solidária ao mesmo eixo da engrenagem 3, de raior<sub>3</sub> = 1,5 cm. A engrenagem 3 engrena com a engrenagem 4, de raio r<sub>4</sub> = 6,0 cm, responsável pela saída do sistema.\n\nO relógio encontra-se corretamente calibrado a 20 °C.\n\nApós a calibração, o relógio é deixado exposto ao Sol por um longo período, elevando significativamente sua temperatura. Admita transmissão sem escorregamento entre as engrenagens, e que estas sentem o efeito do aumento de temperatura, sem alteração do mecanismo interno.\n\nDetermine a frequência de rotação da engrenagem 4, em hertz, na condição de calibração (20 °C), e indique a alternativa que apresenta se, após o aquecimento, o relógio adianta ou atrasa em relação ao tempo real.\n\nA. 0,25 Hz e o relógio adianta.\nB. 0,25 Hz e o relógio atrasa.\nC. 15 Hz e o relógio adianta.\nD. 15 Hz e o relógio atrasa.",
+  "figuras": [
+    "acafe-2026-inverno-q32-1.png"
+  ],
+  "gabarito": "B",
+  "gabaritoFonte": "oficial",
+  "resolucao": "1. Engrenagem 1: 240 rpm = 240/60 = 4 Hz.\n2. Engrenagens engrenadas têm a mesma velocidade linear na periferia: <i>f</i><sub>1</sub><i>r</i><sub>1</sub> = <i>f</i><sub>2</sub><i>r</i><sub>2</sub> ⇒ <i>f</i><sub>2</sub> = 4 · 1,0/4,0 = 1 Hz.\n3. A engrenagem 3 é solidária à 2 (mesmo eixo): <i>f</i><sub>3</sub> = 1 Hz.\n4. <i>f</i><sub>3</sub><i>r</i><sub>3</sub> = <i>f</i><sub>4</sub><i>r</i><sub>4</sub> ⇒ <i>f</i><sub>4</sub> = 1 · 1,5/6,0 = 0,25 Hz. Isso elimina C e D.\n5. Aquecimento: todas as engrenagens dilatam e os raios aumentam na mesma proporção. Com a velocidade tangencial da engrenagem 1 constante, sua frequência <i>f</i><sub>1</sub> = <i>v</i>/(2π<i>r</i><sub>1</sub>) diminui; as razões entre raios se mantêm, logo <i>f</i><sub>4</sub> também diminui.\n6. O mecanismo gira mais devagar do que na calibração: o relógio atrasa.\nGabarito: B.",
+  "topicos": [
+    "transmissao-de-movimento-circular-polias-engrenagens-coroas",
+    "periodo-frequencia-e-velocidade-angular",
+    "dilatacao-termica-dos-solidos"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-10T14:13:27.000Z",
+  "atualizadoEm": "2026-11-10T14:13:27.000Z",
+  "revisao": {
+    "notas": "Enunciado transcrito da prova com gabarito e justificativas divulgada pela própria Acafe (o caderno aplicado não foi obtido; exceção autorizada pelo Lucas). Gabarito oficial, do mesmo documento. Destaque em vermelho da alternativa correta não reproduzido. 'raior3' (sem espaço) como no original."
+  }
+}

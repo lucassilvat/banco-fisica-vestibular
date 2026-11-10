@@ -1,0 +1,29 @@
+{
+  "id": "acafe-2023-inverno-q29",
+  "banca": "Acafe",
+  "ano": 2023,
+  "edicao": "Inverno",
+  "numero": "29",
+  "fase": "Medicina · Inverno",
+  "fonte": {
+    "descricao": "Acafe, Vestibular de Medicina Inverno 2023 (04/06/2023), prova com gabarito e justificativas divulgada pela Acafe"
+  },
+  "enunciado": "Os seres vivos estão sob influência de vários campos físicos como gravitacionais e geomagnéticos, desde o começo de sua existência, por conta disto, são sensíveis a eles e podem detectar campos magnéticos estáticos por meio de estruturas especializadas ou órgãos, ou podem ser afetados por variações temporais desses campos magnéticos (Belova & Acosta-Avalos, 2015).\n\n[[figura 1]]\n\nConsidere uma partícula com massa 4.10<sup>-4</sup> kg positivamente carregada, com carga elétrica de módulo 5μC, sendo lançada, conforme mostra a Figura 1. No instante t = 0, o lançamento ocorre no ponto O com velocidade 72km/h em uma direção perpendicular a um vetor campo magnético <i>B</i>⃗ , de módulo 80T, orientado conforme a Figura 1. Baseado nos conceitos de magnetismo e eletromagnetismo, a velocidade média entre os instantes t = 0 e t = 4,5s é aproximadamente:\n\nDados para realização das questões\nπ = 3,0\n√2 = 1,4\n\nA. 3,4 m/s\nB. 4,8 m/s\nC. 5,5 m/s\nD. 6,2 m/s",
+  "figuras": [
+    "acafe-2023-inverno-q29-1.png"
+  ],
+  "gabarito": "D",
+  "gabaritoFonte": "oficial",
+  "resolucao": "1. A partícula entra perpendicularmente ao campo uniforme: descreve MCU, com a força magnética como resultante centrípeta (o peso é desprezível diante dela).\n2. <i>v</i> = 72 km/h = 20 m/s. Raio: <i>R</i> = <i>mv</i>/(|<i>q</i>|<i>B</i>) = (4 × 10<sup>−4</sup> · 20)/(5 × 10<sup>−6</sup> · 80) = 8 × 10<sup>−3</sup>/4 × 10<sup>−4</sup> = 20 m.\n3. Período: <i>T</i> = 2π<i>m</i>/(|<i>q</i>|<i>B</i>) = 2 · 3 · 4 × 10<sup>−4</sup>/(4 × 10<sup>−4</sup>) = 6 s.\n4. Em 4,5 s a partícula percorre 4,5/6 = 3/4 de volta (270º). O deslocamento é a corda que une dois pontos separados por 90º na circunferência (o arco de 270º e o de 90º têm a mesma corda): |Δ<i>r</i>⃗| = <i>R</i>√2 = 20 · 1,4 = 28 m.\n5. Velocidade média (vetorial): <i>v</i><sub>m</sub> = 28/4,5 ≈ 6,2 m/s.\nGabarito: D.",
+  "topicos": [
+    "movimento-de-carga-em-campo-magnetico-uniforme",
+    "forca-magnetica-sobre-carga-em-movimento",
+    "velocidade-media-e-aceleracao-media"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-10T14:13:23.000Z",
+  "atualizadoEm": "2026-11-10T14:13:23.000Z",
+  "revisao": {
+    "notas": "Enunciado transcrito da prova com gabarito e justificativas divulgada pela própria Acafe (o caderno aplicado não foi obtido; exceção autorizada pelo Lucas). Gabarito oficial, do mesmo documento. Destaque em vermelho da alternativa correta não reproduzido. Dados do formulário da prova incluídos antes das alternativas (decisão do Lucas: só os dados necessários). O símbolo μ (de 5μC) está em fonte de símbolos e não aparece na camada de texto; transcrito da imagem."
+  }
+}

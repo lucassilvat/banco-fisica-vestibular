@@ -1,0 +1,30 @@
+{
+  "id": "acafe-2025-verao-q33",
+  "banca": "Acafe",
+  "ano": 2025,
+  "edicao": "Verão",
+  "numero": "33",
+  "fase": "Medicina · Verão",
+  "fonte": {
+    "descricao": "Acafe, Vestibular de Medicina Verão 2025 (24/11/2024), prova com gabarito e justificativas divulgada pela Acafe"
+  },
+  "enunciado": "<b>Gasto energético de uma criança obesa em atividade física.</b>\n\nDe acordo com dados do Ministério da Saúde, a obesidade infantil afeta aproximadamente 3,1 milhões de crianças menores de 10 anos no Brasil. Sabendo que a obesidade infantil é uma realidade nacional, causada principalmente pelo sedentarismo infantil, consumo de alimentos e bebidas hipercalóricos, maus hábitos quanto ao uso de aparelhos eletrônicos, entre outros, um médico do esporte montou uma planilha de exercícios para uma criança obesa com 30 kg de massa.\nEntre os exercícios, havia um conhecido como <i>burpee</i>, que consiste de a criança inicialmente deitada se levantar e dar um salto e elevando seu centro de massa do solo até uma altura máxima de 0,5m. O médico solicitou que fossem realizadas três séries de 10 repetições cada, levando 15 minutos no máximo, com 1 minuto de descanso entre cada série.\n\nAssinale a alternativa que apresenta a quantidade de gordura, em miligramas, perdida pela criança ao final do exercício, considerando que toda energia desenvolvida no exercício foi usada na “<i>queima</i>” de gordura corporal e que 1g de gordura “<i>queimada</i>” equivale a 9 kcal de energia proveniente do exercício.\n\nCONSTANTES FÍSICAS\n<i>g</i> = 10<i>m</i>/<i>s</i><sup>2</sup>\n1 <i>cal</i> = 4 <i>J</i>\n\nA. 16,6 mg\nB. 50 mg\nC. 166,6 mg\nD. 500 mg",
+  "figuras": [],
+  "gabarito": "D",
+  "gabaritoFonte": "oficial",
+  "resolucao": "Atenção: com a conversão de unidades dada na própria prova (1 cal = 4 J), a resposta é 125 mg, que não aparece entre as alternativas. O gabarito oficial (D, 500 mg) vem da resolução da banca, que tratou a energia em joules como se estivesse em calorias.\n1. Energia de uma repetição (elevar o centro de massa em 0,5 m): <i>E</i> = <i>mgh</i> = 30 · 10 · 0,5 = 150 J.\n2. Total de repetições: 3 séries × 10 = 30 ⇒ <i>E</i> = 30 · 150 = 4.500 J.\n3. Em calorias: 4.500 J/4 = 1.125 cal = 1,125 kcal.\n4. Gordura: 1,125/9 = 0,125 g = 125 mg.\n5. A banca dividiu 4.500 (J) por 9.000 (cal por grama de gordura) sem converter unidades, obtendo 0,5 g = 500 mg (alternativa D).\nGabarito: D.",
+  "topicos": [
+    "energia-potencial-gravitacional",
+    "trabalho-de-uma-forca",
+    "potencia-e-rendimento"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-10T14:13:25.000Z",
+  "atualizadoEm": "2026-11-10T14:13:25.000Z",
+  "revisao": {
+    "notas": "Enunciado transcrito da prova com gabarito e justificativas divulgada pela própria Acafe (o caderno aplicado não foi obtido; exceção autorizada pelo Lucas). Gabarito oficial, do mesmo documento. Destaque em vermelho da alternativa correta não reproduzido. Dados do formulário da prova (CONSTANTES FÍSICAS) incluídos antes das alternativas (decisão do Lucas: só os dados necessários). Questão sem alternativa correta com a conversão 1 cal = 4 J dada na prova (125 mg); o gabarito oficial (D) decorre de a banca não converter J em cal. Não se sabe se foi anulada. Divergências aceitas: palavras dos dados do formulário, que no PDF estão em letras matemáticas Unicode (𝑐𝑎𝑙, á𝑔𝑢𝑎, 𝑎𝑡𝑚, 𝑀𝑜𝑙).",
+    "divergenciasAceitas": [
+      "cal"
+    ]
+  }
+}

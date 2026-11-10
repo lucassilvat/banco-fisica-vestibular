@@ -1,0 +1,26 @@
+{
+  "id": "acafe-2021-inverno-q33",
+  "banca": "Acafe",
+  "ano": 2021,
+  "edicao": "Inverno",
+  "numero": "33",
+  "fase": "Medicina · Inverno",
+  "fonte": {
+    "descricao": "Acafe, Vestibular de Medicina Inverno 2021, prova com gabarito e justificativas divulgada pela Acafe"
+  },
+  "enunciado": "Na formação das imagens na retina da visão humana, tendo em vista uma pessoa com boa saúde visual, o cristalino funciona como uma lente:\n\nA. convergente, formando imagens reais, invertidas e diminuídas.\nB. convergente, formando imagens reais, direitas e diminuídas.\nC. divergente, formando imagens virtuais, invertidas e diminuídas.\nD. divergente, formando imagens reais, direitas e diminuídas.",
+  "figuras": [],
+  "gabarito": "A",
+  "gabaritoFonte": "oficial",
+  "resolucao": "1. Para projetar uma imagem na retina (anteparo), a imagem precisa ser real; só uma lente convergente forma imagem real de objeto real. Isso elimina C e D.\n2. Os objetos observados estão, em geral, além do dobro da distância focal do sistema óptico do olho; a lente convergente forma então imagem real, invertida e menor que o objeto.\n3. Imagem real de objeto real formada por lente é sempre invertida, o que elimina B. (O cérebro é que interpreta a imagem como direita.)\nGabarito: A.",
+  "topicos": [
+    "optica-da-visao-e-defeitos-visuais",
+    "lentes-esfericas-vergencia-gauss-aumento"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-10T14:13:20.000Z",
+  "atualizadoEm": "2026-11-10T14:13:20.000Z",
+  "revisao": {
+    "notas": "Enunciado transcrito da prova com gabarito e justificativas divulgada pela própria Acafe (o caderno aplicado não foi obtido; exceção autorizada pelo Lucas). Gabarito oficial, do mesmo documento. Destaque em vermelho da alternativa correta não reproduzido."
+  }
+}

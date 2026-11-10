@@ -1,0 +1,26 @@
+{
+  "id": "acafe-2022-inverno-q31",
+  "banca": "Acafe",
+  "ano": 2022,
+  "edicao": "Inverno",
+  "numero": "31",
+  "fase": "Medicina · Inverno",
+  "fonte": {
+    "descricao": "Acafe, Vestibular de Medicina Inverno 2022 (12/06/2022), prova com gabarito e justificativas divulgada pela Acafe"
+  },
+  "enunciado": "Um bloco de gelo de 50 g, inicialmente a -15ºC, recebe calor até transformar-se em água a 25ºC. (Dados: calor específico da água=1cal/g.ºC; calor específico do gelo=0,5cal/g.ºC; calor latente de fusão da água= 80cal/g)\n\nAssinale a alternativa que determina a quantidade de calor envolvido no processo.\n\nA. 5.735 J\nB. 5.875 J\nC. 5.985 J\nD. 5.625 J",
+  "figuras": [],
+  "gabarito": "D",
+  "gabaritoFonte": "oficial",
+  "resolucao": "1. Aquecimento do gelo de −15 ºC a 0 ºC: <i>Q</i><sub>1</sub> = <i>mc</i>Δ<i>θ</i> = 50 · 0,5 · 15 = 375 cal.\n2. Fusão a 0 ºC: <i>Q</i><sub>2</sub> = <i>mL</i> = 50 · 80 = 4.000 cal.\n3. Aquecimento da água de 0 ºC a 25 ºC: <i>Q</i><sub>3</sub> = 50 · 1 · 25 = 1.250 cal.\n4. Total: <i>Q</i> = 375 + 4.000 + 1.250 = 5.625 cal.\nObservação: o valor calculado está em calorias (os dados estão em cal); as alternativas trazem \"J\", o que é uma inconsistência de unidade da prova. Em joules seriam cerca de 23.600 J (1 cal ≈ 4,2 J). O gabarito oficial é D.\nGabarito: D.",
+  "topicos": [
+    "calor-sensivel-e-capacidade-termica",
+    "calor-latente-e-mudancas-de-fase"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-10T14:13:21.000Z",
+  "atualizadoEm": "2026-11-10T14:13:21.000Z",
+  "revisao": {
+    "notas": "Enunciado transcrito da prova com gabarito e justificativas divulgada pela própria Acafe (o caderno aplicado não foi obtido; exceção autorizada pelo Lucas). Gabarito oficial, do mesmo documento. Destaque em vermelho da alternativa correta não reproduzido. Inconsistência na prova: o cálculo dá 5.625 cal, e as alternativas estão em J; gabarito oficial D."
+  }
+}

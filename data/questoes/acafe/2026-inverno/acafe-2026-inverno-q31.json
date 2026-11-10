@@ -1,0 +1,27 @@
+{
+  "id": "acafe-2026-inverno-q31",
+  "banca": "Acafe",
+  "ano": 2026,
+  "edicao": "Inverno",
+  "numero": "31",
+  "fase": "Medicina · Inverno",
+  "fonte": {
+    "descricao": "Acafe, Vestibular de Medicina Inverno 2026 (21/06/2026), prova com gabarito e justificativas divulgada pela Acafe"
+  },
+  "enunciado": "Reportagens recentes têm destacado uma mudança de comportamento entre jovens adultos, que vêm substituindo baladas noturnas por práticas associadas à saúde e ao bem-estar. A reportagem <b>“Suor e endorfina: geração Z troca baladas por comemorações fitness”</b> relata que “um número crescente de jovens está substituindo baladas por aulões comemorativos em academias, parques e espaços de treino, associando lazer à prática de atividade física e à busca por saúde e bem-estar”. (<i>Adaptado de: METRÓPOLES.</i> <b><i>Suor e endorfina: geração Z troca baladas por comemorações fitness</i></b><i>. Disponível em: https://www.metropoles.com/vida-e-estilo/suor-e-endorfina-gen-z-troca-festa-em-bar-por-comemoracoes-fitness. Acesso em:</i> 2026.)\n\nDo ponto de vista médico-científico, a prática regular de exercícios físicos está associada ao aumento do gasto energético e à utilização de energia química proveniente da alimentação para a contração muscular.\n\nDurante a atividade física, parte dessa energia contribui para o movimento do corpo, enquanto outra parte é convertida em calor, participando da regulação térmica do organismo.\n\nSob a ótica da Física, o exercício físico envolve a realização de trabalho mecânico, a transformação de diferentes formas de energia e a atuação de processos dissipativos, sendo possível analisar essas transformações a partir do comportamento do centro de massa do corpo humano e das trocas energéticas estabelecidas com o ambiente.\n\nCom base nesses conceitos, analise as afirmações.\n\nI. Durante a execução de exercícios como saltos ou agachamentos, parte da energia química, proveniente da alimentação, é convertida em trabalho mecânico associado ao deslocamento do centro de massa do corpo.\nII. O corpo humano, durante a prática de exercícios físicos, pode ser tratado como um sistema ideal, no qual a energia química, utilizada pelos músculos, transforma-se exclusivamente, em energia mecânica.\nIII. Em um salto vertical, o gasto energético do corpo humano é nulo durante a fase em que não há contato com o solo, pois nesse intervalo não há forças musculares realizando trabalho mecânico.\nIV. A prática de exercícios físicos envolve processos dissipativos, nos quais parte da energia, inicialmente, disponível é transformada em calor, de maneira irreversível, resultando em aumento da entropia do conjunto corpo–ambiente.\nV. Em exercícios realizados em repouso aparente, como a sustentação estática de um peso, não há realização de trabalho mecânico, nem transformação de energia no corpo humano.\n\nAssinale a alternativa <b>CORRETA</b>.\n\nA. Apenas as afirmações I, IV e V são corretas.\nB. Apenas as afirmações I, III e IV são corretas.\nC. Apenas as afirmações II, III e V são corretas.\nD. Apenas as afirmações I e IV são corretas.",
+  "figuras": [],
+  "gabarito": "D",
+  "gabaritoFonte": "oficial",
+  "resolucao": "1. I – Correta: nos saltos e agachamentos os músculos convertem energia química em trabalho que eleva o centro de massa (energia potencial gravitacional e cinética).\n2. II – Incorreta: o corpo não é um sistema ideal; boa parte da energia química vira calor.\n3. III – Incorreta: no ar o corpo continua consumindo energia (metabolismo basal, respiração, contrações musculares internas); o gasto energético não é nulo.\n4. IV – Correta: há dissipação irreversível de energia em calor, com aumento da entropia do conjunto corpo–ambiente.\n5. V – Incorreta: mesmo sem deslocamento (trabalho mecânico externo nulo), os músculos consomem energia química, que vira calor; há transformação de energia.\n6. Corretas: I e IV.\nGabarito: D.",
+  "topicos": [
+    "trabalho-de-uma-forca",
+    "sistemas-dissipativos-perda-de-energia-mecanica",
+    "segunda-lei-da-termodinamica-e-entropia"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-10T14:13:27.000Z",
+  "atualizadoEm": "2026-11-10T14:13:27.000Z",
+  "revisao": {
+    "notas": "Enunciado transcrito da prova com gabarito e justificativas divulgada pela própria Acafe (o caderno aplicado não foi obtido; exceção autorizada pelo Lucas). Gabarito oficial, do mesmo documento. Destaque em vermelho da alternativa correta não reproduzido."
+  }
+}

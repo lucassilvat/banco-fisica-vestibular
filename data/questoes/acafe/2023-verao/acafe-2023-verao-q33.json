@@ -1,0 +1,27 @@
+{
+  "id": "acafe-2023-verao-q33",
+  "banca": "Acafe",
+  "ano": 2023,
+  "edicao": "Verão",
+  "numero": "33",
+  "fase": "Medicina · Verão",
+  "fonte": {
+    "descricao": "Acafe, Vestibular de Medicina Verão 2023 (15/11/2022), prova com gabarito e justificativas divulgada pela Acafe"
+  },
+  "enunciado": "Para resfriar água para beber, um estudante colocou 600mL de água em uma garrafa pet de capacidade 2,0L no interior de um freezer a 7<sup>0</sup>C. Inicialmente, a água e a garrafa estavam à temperatura ambiente de 27<sup>O</sup>C (um dia típico de verão). Após alcançar o equilíbrio térmico, o ar no interior da garrafa, que, inicialmente, está sobre pressão de 1 atm, sofre uma transformação isobárica no decorrer do seu resfriamento, vindo a amassar-se. Considerando que a garrafa com água é o único objeto no interior do freezer e que o ar no interior da garrafa se comporta como um gás ideal, o módulo do trabalho realizado sobre o ar no interior da garrafa devido ao resfriamento foi, aproximadamente:\n\nA. 30J\nB. 15J\nC. 25J\nD. 10J",
+  "figuras": [],
+  "gabarito": "D",
+  "gabaritoFonte": "oficial",
+  "resolucao": "1. Volume inicial de ar: 2,0 − 0,6 = 1,4 L = 1,4 × 10<sup>−3</sup> m<sup>3</sup>, a <i>T</i><sub>0</sub> = 27 + 273 = 300 K. Temperatura final: <i>T</i> = 7 + 273 = 280 K.\n2. Transformação isobárica: <i>V</i>/<i>T</i> constante ⇒ <i>V</i> = 1,4 · 280/300 ≈ 1,307 L. Δ<i>V</i> ≈ −0,093 L = −9,3 × 10<sup>−5</sup> m<sup>3</sup>.\n3. Trabalho: |<i>W</i>| = <i>p</i>|Δ<i>V</i>| = 1 × 10<sup>5</sup> · 9,3 × 10<sup>−5</sup> ≈ 9,3 J ≈ 10 J (1 atm ≈ 10<sup>5</sup> Pa). Como o gás é comprimido, o trabalho é realizado sobre o ar.\nGabarito: D.",
+  "topicos": [
+    "transformacoes-gasosas-isotermica-isobarica-isocorica-adiabatica",
+    "trabalho-em-transformacao-gasosa-grafico-p-v",
+    "gas-ideal-e-equacao-de-clapeyron"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-10T14:13:22.000Z",
+  "atualizadoEm": "2026-11-10T14:13:22.000Z",
+  "revisao": {
+    "notas": "Enunciado transcrito da prova com gabarito e justificativas divulgada pela própria Acafe (o caderno aplicado não foi obtido; exceção autorizada pelo Lucas). Gabarito oficial, do mesmo documento. Destaque em vermelho da alternativa correta não reproduzido."
+  }
+}

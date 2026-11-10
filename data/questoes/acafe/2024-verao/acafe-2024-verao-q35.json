@@ -1,0 +1,31 @@
+{
+  "id": "acafe-2024-verao-q35",
+  "banca": "Acafe",
+  "ano": 2024,
+  "edicao": "Verão",
+  "numero": "35",
+  "fase": "Medicina · Verão",
+  "fonte": {
+    "descricao": "Acafe, Vestibular de Medicina Verão 2024 (19/11/2023), prova com gabarito e justificativas divulgada pela Acafe"
+  },
+  "enunciado": "Um ebulidor é um equipamento utilizado para aquecer líquidos, popularmente conhecido como “<i>rabo quente</i>”, que utiliza do efeito joule criado por um resistor (ôhmico) percorrido por uma corrente elétrica.\n\nUm “<i>rabo quente</i>” de 750 W - 220 V, é utilizado para aquecer um litro de água, ao nível do mar, de 25°C até atingir o ponto de ebulição, sem iniciar a fervura. Erroneamente foi utilizado em uma cidade com tensão de 110 V, gerando uma alteração no tempo de aquecimento. Para solucionar o problema foi alterado o resistor (ôhmico) original por outro com as mesmas características do primeiro só diferenciando em seu comprimento. Determine, respectivamente, a mudança que ocorreu no tempo de aquecimento da água com o resistor (ôhmico) original e a alteração necessária no comprimento do segundo resistor (ôhmico) utilizado em relação ao original, e marque a alternativa <b>CORRETA</b>.\n\nDados para realização das questões\n<i>μ</i><sub>á<i>gua</i></sub> = 1 <i>g</i>/<i>cm</i><sup>3</sup>\n<i>c</i><sub>á<i>gua</i></sub> = 1 <i>cal</i>/<i>g</i>.°<i>C</i>\n1 <i>cal</i> = 4 <i>J</i>\n\nA. Aumentou em 20 minutos e diminuiu 75% do comprimento original.\nB. Aumentou em 5 minutos e diminuiu 50% do comprimento original.\nC. Diminuiu em 20 minutos e aumentou em 25% do comprimento original.\nD. Diminuiu em 5 minutos e aumentou em 75% do comprimento original.",
+  "figuras": [],
+  "gabarito": "A",
+  "gabaritoFonte": "oficial",
+  "resolucao": "1. Massa de água: 1 L = 1.000 cm<sup>3</sup> ⇒ <i>m</i> = 1.000 g. Calor para ir de 25 °C a 100 °C (ebulição ao nível do mar): <i>Q</i> = <i>mc</i>Δ<i>θ</i> = 1.000 · 1 · 75 = 75.000 cal = 300.000 J.\n2. Em 220 V: Δ<i>t</i><sub>1</sub> = 300.000/750 = 400 s.\n3. Em 110 V com o mesmo resistor (<i>P</i> = <i>U</i><sup>2</sup>/<i>R</i>): a potência cai para 1/4, isto é, 187,5 W. Δ<i>t</i><sub>2</sub> = 300.000/187,5 = 1.600 s. O tempo aumentou 1.200 s = 20 minutos.\n4. Para voltar a 750 W em 110 V: <i>R</i>’ = 110<sup>2</sup>/750 = <i>R</i>/4. Com o mesmo material e a mesma seção (<i>R</i> = <i>ρL</i>/<i>A</i>), o comprimento deve ser 1/4 do original: diminuir 75%.\nGabarito: A.",
+  "topicos": [
+    "potencia-eletrica-e-efeito-joule",
+    "segunda-lei-de-ohm-e-resistividade",
+    "calor-sensivel-e-capacidade-termica"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-10T14:13:24.000Z",
+  "atualizadoEm": "2026-11-10T14:13:24.000Z",
+  "revisao": {
+    "notas": "Enunciado transcrito da prova com gabarito e justificativas divulgada pela própria Acafe (o caderno aplicado não foi obtido; exceção autorizada pelo Lucas). Gabarito oficial, do mesmo documento. Destaque em vermelho da alternativa correta não reproduzido. Dados do formulário da prova incluídos antes das alternativas (decisão do Lucas: só os dados necessários). Divergências aceitas: palavras dos dados do formulário, que no PDF estão em letras matemáticas Unicode (𝑐𝑎𝑙, á𝑔𝑢𝑎, 𝑎𝑡𝑚, 𝑀𝑜𝑙).",
+    "divergenciasAceitas": [
+      "cal",
+      "gua"
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "acafe-2026-inverno-q35",
+  "banca": "Acafe",
+  "ano": 2026,
+  "edicao": "Inverno",
+  "numero": "35",
+  "fase": "Medicina · Inverno",
+  "fonte": {
+    "descricao": "Acafe, Vestibular de Medicina Inverno 2026 (21/06/2026), prova com gabarito e justificativas divulgada pela Acafe"
+  },
+  "enunciado": "O ouvido humano é um sistema biológico altamente especializado, cujo estudo e diagnóstico das alterações auditivas são atribuições da Otorrinolaringologia. Estruturas como o ouvido externo, o ouvido médio e o ouvido interno, onde se localiza o labirinto, atuam de forma integrada para que as ondas sonoras sejam captadas, transmitidas e convertidas em sinais nervosos. Nesse processo, características físicas do som, como frequência e nível sonoro, estão diretamente associadas à percepção de sons graves ou agudos e fracos ou intensos.\n\nNa prática médica, essa capacidade é avaliada por meio da audiometria tonal limiar, exame que determina o menor nível sonoro necessário para que sons de diferentes frequências sejam percebidos pelo indivíduo. Do ponto de vista físico, a audiometria fundamenta-se na propagação de ondas sonoras e na utilização da escala de decibéis, que expressa níveis sonoros de forma logarítmica. Alterações estruturais ou funcionais do sistema auditivo, como o dano acústico por disparo, o cerúmen incrustado e a otosclerose, produzem padrões distintos de resposta auditiva, representados em audiogramas.\nO gráfico a seguir apresenta audiogramas correspondentes a essas três condições clínicas. No eixo horizontal está representada a frequência do som, em hertz (Hz). Embora seja denominado como perda auditiva, o eixo vertical do gráfico indica o quanto o nível sonoro deve ser acrescido, em relação à faixa auditiva considerada normal, para que o som seja percebido pelo indivíduo.\n\n[[figura 1]]\n\nCom base na análise do gráfico (Figura 6) e nos conceitos físicos envolvidos, analise as afirmações.\n\nI. Para a frequência de 4 kHz, o indivíduo com dano por disparo necessita de um nível sonoro maior que aquele com otosclerose, indicando maior comprometimento auditivo, nessa faixa de frequência.\nII. Na frequência de 500 Hz, a diferença observada entre os valores indicados para o cerúmen incrustado e para a otosclerose é de aproximadamente 30 unidades, o que indica que a intensidade sonora mínima necessária para percepção, no primeiro caso, é cerca de 30 vezes maior que no segundo.\nIII. Na frequência de 8 kHz, a diferença entre os valores indicados para o dano por disparo e para a otosclerose sugere que a intensidade sonora mínima necessária para a percepção do som, no primeiro caso, é aproximadamente 10 vezes maior que no segundo.\nIV. Na frequência de 4 kHz, compreendida na faixa associada à fala humana, o gráfico indica que o dano por disparo compromete mais, severamente, a percepção sonora que o cerúmen incrustado, exigindo níveis sonoros mais elevados para a detecção do estímulo.\nV. A análise do gráfico permite concluir que a perda auditiva associada ao cerúmen incrustado apresenta comportamento, aproximadamente, uniforme ao longo das frequências analisadas.\n\nAssinale a alternativa <b>CORRETA</b>.\n\nA. Apenas 2 afirmações são verdadeiras.\nB. Apenas 3 afirmações são verdadeiras.\nC. Apenas 4 afirmações são verdadeiras.\nD. Todas as afirmações são verdadeiras.",
+  "figuras": [
+    "acafe-2026-inverno-q35-1.png"
+  ],
+  "gabarito": "B",
+  "gabaritoFonte": "oficial",
+  "resolucao": "1. No gráfico, valores mais abaixo indicam perda maior (mais decibéis necessários). Uma diferença de 10 dB corresponde a intensidade 10 vezes maior; 20 dB, 100 vezes; 30 dB, 1.000 vezes.\n2. I – Verdadeira: em 4 kHz, dano por disparo ≈ 60 dB e otosclerose ≈ 45 dB.\n3. II – Falsa: em 500 Hz, cerúmen ≈ 20 dB e otosclerose ≈ 50 dB. A diferença de 30 dB significa intensidade cerca de 1.000 vezes maior (não 30), e quem precisa de mais intensidade é a otosclerose, não o cerúmen.\n4. III – Verdadeira: em 8 kHz, dano por disparo ≈ 50 dB e otosclerose ≈ 40 dB; 10 dB a mais equivale a intensidade cerca de 10 vezes maior.\n5. IV – Verdadeira: em 4 kHz o dano por disparo (≈ 60 dB) exige nível bem maior que o cerúmen (≈ 25 dB).\n6. V – Falsa: a curva do cerúmen varia ao longo das frequências (cerca de 40 dB em 125 Hz, perto de 20 dB nas frequências médias e cerca de 35 dB em 8 kHz), não é uniforme.\n7. Verdadeiras: I, III e IV (três afirmações).\nGabarito: B.",
+  "topicos": [
+    "nivel-sonoro-decibeis",
+    "som-altura-intensidade-e-timbre",
+    "leitura-e-interpretacao-de-graficos"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-10T14:13:27.000Z",
+  "atualizadoEm": "2026-11-10T14:13:27.000Z",
+  "revisao": {
+    "notas": "Enunciado transcrito da prova com gabarito e justificativas divulgada pela própria Acafe (o caderno aplicado não foi obtido; exceção autorizada pelo Lucas). Gabarito oficial, do mesmo documento. Destaque em vermelho da alternativa correta não reproduzido."
+  }
+}

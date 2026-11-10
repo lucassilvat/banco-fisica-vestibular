@@ -1,0 +1,29 @@
+{
+  "id": "acafe-2022-verao-q32",
+  "banca": "Acafe",
+  "ano": 2022,
+  "edicao": "Verão",
+  "numero": "32",
+  "fase": "Medicina · Verão",
+  "fonte": {
+    "descricao": "Acafe, Vestibular de Medicina Verão 2022 (14/11/2021), prova com gabarito e justificativas divulgada pela Acafe"
+  },
+  "enunciado": "Em uma lâmina de faces paralelas de espessura 2 cm, um raio de luz monocromático incide em uma das faces por um ângulo ‘i = 60º’ com a normal e se refrata por um ângulo ‘r’ = 30º com a normal. Determine o desvio lateral sofrido pelo raio luminoso ao atravessar a lâmina.\n\n[[figura 1]]\n\n[[figura 2]]\n\nA. √3/3 cm\nB. 2√3/3 cm\nC. √6/2 cm\nD. √2/6 cm",
+  "figuras": [
+    "acafe-2022-verao-q32-1.png",
+    "acafe-2022-verao-q32-2.png"
+  ],
+  "gabarito": "B",
+  "gabaritoFonte": "oficial",
+  "resolucao": "1. Dentro da lâmina o raio percorre o segmento <i>AB</i> = <i>e</i>/cos <i>r</i>, em que <i>e</i> = 2 cm é a espessura.\n2. O desvio lateral <i>d</i> é a distância entre o raio emergente e o prolongamento do incidente: <i>d</i> = <i>AB</i> · sen(<i>i</i> − <i>r</i>) = <i>e</i> · sen(<i>i</i> − <i>r</i>)/cos <i>r</i>.\n3. Com <i>i</i> = 60º e <i>r</i> = 30º: <i>d</i> = 2 · sen 30º/cos 30º = 2 · (1/2)/(√3/2) = 2/√3 = 2√3/3 cm.\nObservação: na prova, o valor de cos 30º (e de sen 60º) aparece desenhado como raiz de 3/2; o valor correto, usado acima, é √3/2.\nGabarito: B.",
+  "topicos": [
+    "refracao-da-luz-e-indice-de-refracao",
+    "lei-de-snell-descartes"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-10T14:13:20.000Z",
+  "atualizadoEm": "2026-11-10T14:13:20.000Z",
+  "revisao": {
+    "notas": "Enunciado transcrito da prova com gabarito e justificativas divulgada pela própria Acafe (o caderno aplicado não foi obtido; exceção autorizada pelo Lucas). Gabarito oficial, do mesmo documento. Destaque em vermelho da alternativa correta não reproduzido. Os valores de seno e cosseno dados na prova estão desenhados (editor de equações) e entram como figura 1."
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "acafe-2022-verao-q34",
+  "banca": "Acafe",
+  "ano": 2022,
+  "edicao": "Verão",
+  "numero": "34",
+  "fase": "Medicina · Verão",
+  "fonte": {
+    "descricao": "Acafe, Vestibular de Medicina Verão 2022 (14/11/2021), prova com gabarito e justificativas divulgada pela Acafe"
+  },
+  "enunciado": "O esquema abaixo mostra dois circuitos nos quais se desliza uma barra condutora com a mesma velocidade « através do mesmo campo magnético uniforme e ao longo de um fio em forma de U». Os lados paralelos do fio estão separados por uma distância 2L, no circuito 1, e por L, no circuito 2. A corrente induzida no circuito 1 está no sentido anti-horário. Analise a validade das afirmações a seguir.\n\n[[figura 1]]\n\nI. O sentido do campo magnético é para dentro da página.\nII. O sentido da corrente induzida no circuito 2 é anti-horário.\nIII. A força eletromotriz (fem) induzida no circuito 1 é igual à do circuito 2.\n\nAssinale a alternativa <b>CORRETA</b>:\n\nA. Apenas as afirmações I e II são verdadeiras.\nB. Apenas as afirmações I e III são verdadeiras.\nC. Apenas as afirmações II e III são verdadeiras.\nD. Todas as afirmações são verdadeiras.",
+  "figuras": [
+    "acafe-2022-verao-q34-1.png"
+  ],
+  "gabarito": "A",
+  "gabaritoFonte": "oficial",
+  "resolucao": "1. Nos dois circuitos a barra se afasta da base do U (velocidade para cima na figura): a área do circuito e o fluxo magnético aumentam.\n2. I – Verdadeira: corrente anti-horária cria, no interior do circuito, campo saindo da página. Pela lei de Lenz, esse campo induzido se opõe ao aumento do fluxo; logo o campo externo aponta para dentro da página.\n3. II – Verdadeira: o circuito 2 está no mesmo campo, com a barra movendo-se no mesmo sentido; o fluxo para dentro também aumenta e a corrente induzida também é anti-horária.\n4. III – Falsa: a fem de movimento é <i>ε</i> = <i>BLv</i>. Com o mesmo <i>B</i> e o mesmo <i>v</i>, o circuito 1 (comprimento 2<i>L</i>) tem fem duas vezes maior que o circuito 2.\nGabarito: A.",
+  "topicos": [
+    "inducao-eletromagnetica-lei-de-faraday",
+    "lei-de-lenz",
+    "fluxo-magnetico"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-10T14:13:20.000Z",
+  "atualizadoEm": "2026-11-10T14:13:20.000Z",
+  "revisao": {
+    "notas": "Enunciado transcrito da prova com gabarito e justificativas divulgada pela própria Acafe (o caderno aplicado não foi obtido; exceção autorizada pelo Lucas). Gabarito oficial, do mesmo documento. Destaque em vermelho da alternativa correta não reproduzido."
+  }
+}

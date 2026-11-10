@@ -1,0 +1,27 @@
+{
+  "id": "acafe-2025-verao-q29",
+  "banca": "Acafe",
+  "ano": 2025,
+  "edicao": "Verão",
+  "numero": "29",
+  "fase": "Medicina · Verão",
+  "fonte": {
+    "descricao": "Acafe, Vestibular de Medicina Verão 2025 (24/11/2024), prova com gabarito e justificativas divulgada pela Acafe"
+  },
+  "enunciado": "Radicais livres são moléculas ou átomos altamente reativos que têm um elétron desemparelhado. Um elétron desemparelhado é um elétron que não forma par com outro elétron em um orbital atômico. Em átomos ou moléculas estáveis, os elétrons, geralmente, se emparelham em orbitais, onde os spins (uma propriedade quântica) são opostos, tornando o sistema mais estável. Quando um elétron está desemparelhado, ele torna a molécula ou átomo altamente reativo, como acontece com os radicais livres. Isso ocorre porque o elétron desemparelhado procura se emparelhar, reagindo facilmente com outras moléculas para formar ligações. Em resumo, é esse elétron solitário que dá aos radicais livres suas características reativas e potencialmente danosas.\nNo nosso corpo, eles são subprodutos naturais do metabolismo, especialmente durante a respiração celular. Eles podem ser benéficos em pequenas quantidades, ajudando a combater infecções e desempenhando um papel no sistema imunológico. Porém, em excesso, radicais livres podem danificar células, proteínas e DNA, contribuindo para o envelhecimento e várias doenças, incluindo câncer, doenças cardiovasculares e neurodegenerativas.\nPara combater os efeitos nocivos dos radicais livres, o corpo usa antioxidantes, que neutralizam esses radicais antes que possam causar danos. Manter uma dieta rica em frutas e vegetais pode ajudar a fornecer esses antioxidantes.\n\nConsiderando um radical livre do tipo aníon em um ambiente biológico que interage com uma célula por meio de forças eletrostáticas, assinale a alternativa <b>CORRETA</b>.\n\nA. Os radicais livres irão se mover para as regiões da célula com maior concentração de elétrons, devido à atração eletrostática, na tentativa de neutralização.\nB. Os radicais livres são atraídos pelas proteínas da membrana celular devido à sua carga líquida negativa.\nC. Os radicais livres afastam-se das células devido à repulsão eletrostática, já que ambas as superfícies são carregadas negativamente.\nD. Os radicais livres irão se mover para as regiões da célula com maior potencial elétrico, devido à ação da força eletrostática presente no campo elétrico.",
+  "figuras": [],
+  "gabarito": "D",
+  "gabaritoFonte": "oficial",
+  "resolucao": "1. O radical é um ânion: carga negativa.\n2. A – Incorreta: regiões com excesso de elétrons (negativas) repelem o ânion.\n3. B – Incorreta: carga líquida negativa (das proteínas) repeliria o ânion, em vez de atraí-lo.\n4. C – Incorreta: o próprio texto diz que os radicais reagem com as células e as danificam; não há repulsão generalizada que os afaste delas.\n5. D – Correta: o campo elétrico aponta para potenciais decrescentes, e a força sobre carga negativa (<i>F</i>⃗ = <i>qE</i>⃗, com <i>q</i> < 0) é oposta ao campo; logo o ânion tende a se mover para regiões de maior potencial elétrico.\nGabarito: D.",
+  "topicos": [
+    "campo-eletrico",
+    "potencial-eletrico-e-diferenca-de-potencial",
+    "lei-de-coulomb"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-10T14:13:25.000Z",
+  "atualizadoEm": "2026-11-10T14:13:25.000Z",
+  "revisao": {
+    "notas": "Enunciado transcrito da prova com gabarito e justificativas divulgada pela própria Acafe (o caderno aplicado não foi obtido; exceção autorizada pelo Lucas). Gabarito oficial, do mesmo documento. Destaque em vermelho da alternativa correta não reproduzido."
+  }
+}

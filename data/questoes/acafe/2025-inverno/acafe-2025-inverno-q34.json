@@ -1,0 +1,28 @@
+{
+  "id": "acafe-2025-inverno-q34",
+  "banca": "Acafe",
+  "ano": 2025,
+  "edicao": "Inverno",
+  "numero": "34",
+  "fase": "Medicina · Inverno",
+  "fonte": {
+    "descricao": "Acafe, Vestibular de Medicina Inverno 2025 (01/06/2025), prova com gabarito e justificativas divulgada pela Acafe"
+  },
+  "enunciado": "O estudo do magnetismo remonta à Antiguidade. Segundo relatos lendários, um lavrador chamado Magnes, da região da Magnésia, teria notado que a ponta de seu cajado de ferro e as ferraduras de seus bois ficaram “presas” a certas pedras do solo. Essas pedras continham magnetita, um minério natural de ferro que exibe propriedades magnéticas. Esse fenômeno chamou tanto a atenção que a própria palavra “magnetismo” deriva dessa região. Desde então, o ser humano passou a investigar os efeitos misteriosos dessa força invisível, culminando no desenvolvimento do eletromagnetismo moderno.\n\nDurante uma aula sobre esses fenômenos, uma professora propôs um desafio conceitual aos seus alunos: compreender o comportamento do campo magnético tanto em aplicações tecnológicas quanto nos fenômenos naturais, como o magnetismo terrestre.\n\nCom base nos conceitos físicos e nos conhecimentos relacionados ao magnetismo, analise as afirmações.\n\nI. O vetor campo magnético em um ponto sempre tangencia as linhas de campo magnético naquele ponto, e sua direção indica o alinhamento de uma bússola ali posicionada.\nII. O campo magnético criado por um fio retilíneo, percorrido por corrente elétrica, forma linhas concêntricas ao redor do fio, e sua direção pode ser determinada pela regra da mão esquerda.\nIII. Substâncias ferromagnéticas, como o cobalto, são fortemente atraídas por ímãs naturais, como a magnetita.\nIV. No interior de um solenoide longo, percorrido por corrente contínua, o campo magnético é praticamente uniforme e paralelo ao eixo do solenoide, com intensidade proporcional ao número de espiras por unidade de comprimento.\nV. O polo norte geográfico da Terra coincide com seu polo norte magnético, pois é para lá que a extremidade norte da agulha da bússola aponta.\n\nAssinale a alternativa que contém apenas as afirmativas <b>VERDADEIRAS</b>.\n\nA. I, III e IV\nB. I, II e IV\nC. I, II, III e V\nD. II, III e V",
+  "figuras": [],
+  "gabarito": "A",
+  "gabaritoFonte": "oficial",
+  "resolucao": "1. I – Verdadeira: o campo é tangente às linhas de campo, e a agulha de uma bússola se alinha com ele.\n2. II – Falsa: as linhas são circunferências concêntricas ao fio, mas o sentido é dado pela regra da mão direita.\n3. III – Verdadeira: ferro, cobalto e níquel são ferromagnéticos e são fortemente atraídos por ímãs.\n4. IV – Verdadeira: no solenoide longo, <i>B</i> = <i>μ</i><sub>0</sub><i>Ni</i>/<i>L</i>, uniforme e paralelo ao eixo, proporcional a <i>N</i>/<i>L</i>.\n5. V – Falsa: o norte da bússola é atraído por um polo sul magnético; perto do polo norte geográfico está o polo sul magnético, e os polos geográficos e magnéticos não coincidem.\n6. Verdadeiras: I, III e IV.\nGabarito: A.",
+  "topicos": [
+    "imas-e-campo-magnetico",
+    "campo-magnetico-de-fio-retilineo",
+    "campo-magnetico-de-espira-e-solenoide",
+    "campo-magnetico-terrestre-e-bussola"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-10T14:13:26.000Z",
+  "atualizadoEm": "2026-11-10T14:13:26.000Z",
+  "revisao": {
+    "notas": "Enunciado transcrito da prova com gabarito e justificativas divulgada pela própria Acafe (o caderno aplicado não foi obtido; exceção autorizada pelo Lucas). Gabarito oficial, do mesmo documento. Destaque em vermelho da alternativa correta não reproduzido."
+  }
+}

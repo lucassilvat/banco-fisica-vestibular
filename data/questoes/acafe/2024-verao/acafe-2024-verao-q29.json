@@ -1,0 +1,27 @@
+{
+  "id": "acafe-2024-verao-q29",
+  "banca": "Acafe",
+  "ano": 2024,
+  "edicao": "Verão",
+  "numero": "29",
+  "fase": "Medicina · Verão",
+  "fonte": {
+    "descricao": "Acafe, Vestibular de Medicina Verão 2024 (19/11/2023), prova com gabarito e justificativas divulgada pela Acafe"
+  },
+  "enunciado": "A Biofísica é uma ciência interdisciplinar, pois trabalha com a Biologia e com a Física. Busca pelos conhecimentos físicos soluções para problemas nos sistemas biológicos. O biofísico atua desde a medicina, passando pela nutrição, fisioterapia até terapias ocupacionais, tenta compreender a relação entre energia, matéria, tempo e espaço nas interações biológicas.\n\nFazendo uma relação entre conceitos físicos aplicados a sistemas biológicos, assinale a opção <b>CORRETA</b>:\n\nA. A radiação ultravioleta (UV) pode ser classificada em UVA, UVB e UVC, sendo a duas primeiras mais nocivas à saúde, devido a energia associada aos seus fótons. Quanto à energia presente nos fótons da UV, pode-se afirmar ser maior que a energia presente nos fótons do Raio X.\nB. O impulso nervoso entre neurônios deve-se a diferença de potencial na membrana neural, esta diferença deve ser nula para que ocorra a descarga elétrica (corrente elétrica).\nC. Quando uma pessoa segura um objeto na mão e levanta-o dobrando o antebraço, tem-se o antebraço agindo como uma alavanca interpotente.\nD. O suor é composto, principalmente, de água e tem como função regular a temperatura corporal. A água por ter um alto calor específico impede o resfriamento do corpo humano, evitando a perda de calor para o meio externo.",
+  "figuras": [],
+  "gabarito": "C",
+  "gabaritoFonte": "oficial",
+  "resolucao": "1. A – Incorreta: os raios X têm frequência maior que a UV; como <i>E</i> = <i>hf</i>, seus fótons têm mais energia que os da UV. (Além disso, entre as faixas de UV, a UVC é a de fótons mais energéticos.)\n2. B – Incorreta: a corrente (impulso nervoso) existe justamente porque há diferença de potencial; com ddp nula não há descarga.\n3. C – Correta: ao levantar um objeto dobrando o antebraço, o apoio é o cotovelo, a força potente (bíceps) atua entre o apoio e a carga (na mão): alavanca interpotente.\n4. D – Incorreta: a evaporação do suor retira calor do corpo (calor latente), promovendo o resfriamento; não o impede.\nGabarito: C.",
+  "topicos": [
+    "alavancas-e-maquinas-simples",
+    "fotons-e-energia-do-foton-e-hf",
+    "calor-latente-e-mudancas-de-fase"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-10T14:13:24.000Z",
+  "atualizadoEm": "2026-11-10T14:13:24.000Z",
+  "revisao": {
+    "notas": "Enunciado transcrito da prova com gabarito e justificativas divulgada pela própria Acafe (o caderno aplicado não foi obtido; exceção autorizada pelo Lucas). Gabarito oficial, do mesmo documento. Destaque em vermelho da alternativa correta não reproduzido."
+  }
+}

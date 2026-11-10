@@ -5,10 +5,11 @@
   "type": "object",
   "required": ["id", "banca", "ano", "numero", "fonte", "enunciado", "figuras", "gabarito", "resolucao", "topicos", "status", "criadoEm", "atualizadoEm"],
   "properties": {
-    "id": { "type": "string", "pattern": "^[a-z0-9]+-\\d{4}[a-z]?-q\\d{2,3}$" },
+    "id": { "type": "string", "pattern": "^[a-z0-9]+-\\d{4}[a-z]?(-[a-z]+)?-q\\d{2,3}$" },
     "banca": { "type": "string" },
     "ano": { "type": "integer", "minimum": 1950 },
     "versao": { "type": "string", "maxLength": 3 },
+    "edicao": { "type": "string", "description": "edição da prova no mesmo ano (ex.: Verão, Inverno); entra no id, não no rótulo do app" },
     "numero": { "type": "string", "pattern": "^\\d+$" },
     "fase": { "type": "string" },
     "fonte": {

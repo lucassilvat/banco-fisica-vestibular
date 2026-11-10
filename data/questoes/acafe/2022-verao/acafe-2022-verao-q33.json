@@ -1,0 +1,25 @@
+{
+  "id": "acafe-2022-verao-q33",
+  "banca": "Acafe",
+  "ano": 2022,
+  "edicao": "Verão",
+  "numero": "33",
+  "fase": "Medicina · Verão",
+  "fonte": {
+    "descricao": "Acafe, Vestibular de Medicina Verão 2022 (14/11/2021), prova com gabarito e justificativas divulgada pela Acafe"
+  },
+  "enunciado": "Uma fonte com velocidade V<sub>F1</sub>= 40 m/s emite uma frequência f<sub>F</sub>= 1000 Hz na direção de um observador em movimento contrário com velocidade V<sub>O1</sub>= 20 m/s. Após se cruzarem continuam a se afastar com diferentes velocidades. A fonte com velocidades: a fonte V<sub>F2</sub>= 60 m/s, o observador V<sub>O2</sub>= 40 m/s. Determine em módulo a variação de frequência (∆f ’) entre a aproximação (f<sub>1</sub>’) e o afastamento (f<sub>2</sub>’). (velocidade do som V<sub>S</sub>= 340 m/s).\n\nA. |124| <i>Hz</i>\nB. |515| <i>Hz</i>\nC. |550| <i>Hz</i>\nD. |116| <i>Hz</i>",
+  "figuras": [],
+  "gabarito": "C",
+  "gabaritoFonte": "oficial",
+  "resolucao": "Atenção: pelos dados do enunciado, a resposta correta é 450 Hz, que não aparece entre as alternativas. O gabarito oficial (C, 550 Hz) vem de um erro de subtração na resolução divulgada pela própria Acafe (1200 − 750 escrito como 550).\n1. Efeito Doppler: <i>f</i>’ = <i>f</i><sub>F</sub> · (<i>v</i><sub>S</sub> ± <i>v</i><sub>O</sub>)/(<i>v</i><sub>S</sub> ∓ <i>v</i><sub>F</sub>), com sinais que aumentam a frequência na aproximação e a diminuem no afastamento.\n2. Aproximação (observador indo em direção à fonte e fonte indo em direção ao observador): <i>f</i><sub>1</sub>’ = 1000 · (340 + 20)/(340 − 40) = 1000 · 360/300 = 1200 Hz.\n3. Afastamento: <i>f</i><sub>2</sub>’ = 1000 · (340 − 40)/(340 + 60) = 1000 · 300/400 = 750 Hz.\n4. Variação: |Δ<i>f</i>’| = |1200 − 750| = 450 Hz. Nenhuma alternativa traz esse valor; a banca considerou 550 Hz.\nGabarito: C.",
+  "topicos": [
+    "efeito-doppler"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-10T14:13:20.000Z",
+  "atualizadoEm": "2026-11-10T14:13:20.000Z",
+  "revisao": {
+    "notas": "Enunciado transcrito da prova com gabarito e justificativas divulgada pela própria Acafe (o caderno aplicado não foi obtido; exceção autorizada pelo Lucas). Gabarito oficial, do mesmo documento. Destaque em vermelho da alternativa correta não reproduzido. Questão sem alternativa correta: a resposta pelos dados é 450 Hz; o gabarito oficial (C, 550 Hz) decorre de erro de subtração na resolução da banca. Não se sabe se foi anulada."
+  }
+}

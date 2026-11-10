@@ -1,0 +1,28 @@
+{
+  "id": "acafe-2023-inverno-q34",
+  "banca": "Acafe",
+  "ano": 2023,
+  "edicao": "Inverno",
+  "numero": "34",
+  "fase": "Medicina · Inverno",
+  "fonte": {
+    "descricao": "Acafe, Vestibular de Medicina Inverno 2023 (04/06/2023), prova com gabarito e justificativas divulgada pela Acafe"
+  },
+  "enunciado": "Uma miniatura do famoso Mickey Mouse com 8cm de altura é posto a oscilar em um de pêndulo. O pêndulo utilizado por Mickey é considerado um oscilador simples, tendo os pontos A e C como pontos de inversão e o ponto B sendo o ponto mais baixo da trajetória. Próximo a esse oscilador existe um espelho convexo fixo com raio de curvatura 30cm.\n\n[[figura 1]]\n\nSabendo que o comprimento L da haste do pêndulo vale 2,5m e que no instante t = 0, Mickey parte do ponto A com velocidade nula, pode-se afirmar que o período do seu movimento e a altura de sua imagem vista no espelho convexo, no instante t = 0,75s, são respectivamente:\n\nDados para realização das questões\nπ = 3,0\ng = 10m/s<sup>2</sup>\n\nA. 3s e 4cm\nB. 3s e 6cm\nC. 6s e 4cm\nD. 6s e 6cm",
+  "figuras": [
+    "acafe-2023-inverno-q34-1.png"
+  ],
+  "gabarito": "B",
+  "gabaritoFonte": "oficial",
+  "resolucao": "1. Período do pêndulo simples: <i>T</i> = 2π√(<i>L</i>/<i>g</i>) = 2 · 3 · √(2,5/10) = 6 · 0,5 = 3 s. Isso elimina C e D.\n2. Partindo de A (extremo) em <i>t</i> = 0, em <i>t</i> = 0,75 s = <i>T</i>/4 Mickey está no ponto mais baixo, B.\n3. Em B, pela figura, ele está a <i>p</i> = 5 cm do espelho convexo, cuja distância focal é <i>f</i> = −<i>R</i>/2 = −15 cm.\n4. Equação de Gauss: 1/<i>p</i>’ = 1/<i>f</i> − 1/<i>p</i> = −1/15 − 1/5 = −4/15 ⇒ <i>p</i>’ = −3,75 cm (imagem virtual).\n5. Aumento: <i>A</i> = −<i>p</i>’/<i>p</i> = 3,75/5 = 0,75 ⇒ altura da imagem: 0,75 · 8 = 6 cm (direita e menor).\nGabarito: B.",
+  "topicos": [
+    "pendulo-simples",
+    "espelhos-esfericos-equacao-de-gauss-e-aumento"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-10T14:13:23.000Z",
+  "atualizadoEm": "2026-11-10T14:13:23.000Z",
+  "revisao": {
+    "notas": "Enunciado transcrito da prova com gabarito e justificativas divulgada pela própria Acafe (o caderno aplicado não foi obtido; exceção autorizada pelo Lucas). Gabarito oficial, do mesmo documento. Destaque em vermelho da alternativa correta não reproduzido. Dados do formulário da prova incluídos antes das alternativas (decisão do Lucas: só os dados necessários)."
+  }
+}

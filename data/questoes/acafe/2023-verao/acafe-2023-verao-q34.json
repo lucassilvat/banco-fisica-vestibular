@@ -1,0 +1,28 @@
+{
+  "id": "acafe-2023-verao-q34",
+  "banca": "Acafe",
+  "ano": 2023,
+  "edicao": "Verão",
+  "numero": "34",
+  "fase": "Medicina · Verão",
+  "fonte": {
+    "descricao": "Acafe, Vestibular de Medicina Verão 2023 (15/11/2022), prova com gabarito e justificativas divulgada pela Acafe"
+  },
+  "enunciado": "Hot Wheels é uma marca americana de miniaturas de carros de brinquedos da categoria <i>die-cast</i>, que engloba modelos feitos com metal injetado. Na figura abaixo, tem-se uma situação em que o carrinho está no ponto A(o ponto mais baixo da trajetória circular) iniciando uma manobra super radical chamada <i>“looping”</i>.\n\n[[figura 1]]\n\nDesprezando qualquer forma de atrito, a velocidade do carrinho no ponto A para que a força de contato entre o carrinho e pista no ponto B (topo da trajetória circular) seja o triplo do seu peso é:\n\nDADOS PARA REALIZAÇÃO DAS QUESTÕES\n<i>g</i> = 10 m/s<sup>2</sup>\n\nA. 4√2\nB. 2\nC. 4\nD. 3√3",
+  "figuras": [
+    "acafe-2023-verao-q34-1.png"
+  ],
+  "gabarito": "A",
+  "gabaritoFonte": "oficial",
+  "resolucao": "1. Pela figura, a altura do looping é <i>H</i> = 80 cm = 2<i>R</i> ⇒ <i>R</i> = 0,4 m.\n2. No topo B, normal e peso apontam para o centro: <i>N</i> + <i>mg</i> = <i>mv</i><sub>B</sub><sup>2</sup>/<i>R</i>. Com <i>N</i> = 3<i>mg</i>: <i>v</i><sub>B</sub><sup>2</sup> = 4<i>gR</i> = 4 · 10 · 0,4 = 16.\n3. Conservação da energia de A (base) até B (altura 2<i>R</i>): <i>v</i><sub>A</sub><sup>2</sup> = <i>v</i><sub>B</sub><sup>2</sup> + 2<i>g</i>(2<i>R</i>) = 16 + 16 = 32.\n4. <i>v</i><sub>A</sub> = √32 = 4√2 m/s.\nGabarito: A.",
+  "topicos": [
+    "resultante-centripeta-curvas-loop-globo-da-morte",
+    "conservacao-da-energia-mecanica"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-10T14:13:22.000Z",
+  "atualizadoEm": "2026-11-10T14:13:22.000Z",
+  "revisao": {
+    "notas": "Enunciado transcrito da prova com gabarito e justificativas divulgada pela própria Acafe (o caderno aplicado não foi obtido; exceção autorizada pelo Lucas). Gabarito oficial, do mesmo documento. Destaque em vermelho da alternativa correta não reproduzido. g = 10 m/s² do formulário da prova incluído antes das alternativas (decisão do Lucas)."
+  }
+}

@@ -111,7 +111,23 @@ Para gravar questões, usam-se os lotes da etapa `publicar` (docs/WORKFLOW.md).
     diz "cai para 1m/s" (o certo é 0,1 m/s); na Q29 a banca usa distância percorrida como
     "velocidade escalar média" (pelo deslocamento daria a alternativa B), registrado na resolução.
 
+17. v1.18.0: Acafe, Vestibular de Medicina Inverno 2021 a Inverno 2026 (10 provas), 70
+    questões (Q29–Q35 de cada uma), com a mesma exceção de fonte (prova com gabarito e
+    justificativas da Acafe) e gabaritos `oficial`. Decisões do Lucas: a prova fica marcada só
+    com o ano, e "Verão"/"Inverno" é descritivo (campo `edicao`, que entra no id, na pasta e
+    na `fase`); as questões da Verão 2026 foram renomeadas (`acafe-2026-qNN` →
+    `acafe-2026-verao-qNN`). Ficaram de fora Verão 2023 Q37, Verão 2025 Q39 e Inverno 2025 Q36.
+    Verão 2021 não entrou (ver pendências). Erros da banca registrados nas resoluções, com o
+    gabarito oficial mantido: Verão 2022 Q33 (o certo é 450 Hz; a banca errou a subtração),
+    Inverno 2022 Q31 (resultado em cal, alternativas em J), Inverno 2022 Q32 (a banca trocou as
+    pressões; o certo é ≈ 12,4 cm³), Verão 2025 Q33 (sem converter J em cal; o certo é 125 mg).
+    Verão 2022 Q32: o formulário traz cos 30° desenhado como raiz de 3/2.
+
 ## Pendências
+
+- **Acafe Verão 2021**: na prova com justificativas a alternativa correta aparece sempre como "A", seguida da justificativa; a ordem aplicada das alternativas é desconhecida. Falta o caderno aplicado (o PDF está registrado no manifesto, sem questões).
+- **Acafe Inverno 2025 Q32**: a "Imagem ilustrativa da experiência de Joule" não está no PDF; a legenda foi mantida, sem figura. Q35: a distinção entre IV e V (condução × convecção) é discutível; anotada na resolução.
+- **Acafe Inverno 2026 Q29**: as alternativas são frações desenhadas como equação; transcritas em linha, com parênteses.
 
 - **ENEM 2016**: falta o caderno do **1º dia** (Ciências Humanas e Ciências da Natureza):
   o arquivo enviado (`enem-2016-caderno.pdf`) é o do 2º dia, Linguagens e Matemática, e

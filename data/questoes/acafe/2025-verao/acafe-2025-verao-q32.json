@@ -1,0 +1,26 @@
+{
+  "id": "acafe-2025-verao-q32",
+  "banca": "Acafe",
+  "ano": 2025,
+  "edicao": "Verão",
+  "numero": "32",
+  "fase": "Medicina · Verão",
+  "fonte": {
+    "descricao": "Acafe, Vestibular de Medicina Verão 2025 (24/11/2024), prova com gabarito e justificativas divulgada pela Acafe"
+  },
+  "enunciado": "Durante um exame oftalmológico, um médico utiliza uma lente de contato especial para observar o interior do olho do paciente. A lente tem um índice de refração igual a 1,50 e está em contato com o humor aquoso do olho, que possui um índice de refração igual a 1,23.\n\nConsiderando que a luz incide da lente para o humor aquoso. Assinale a alternativa <b>CORRETA</b> sobre as condições necessárias para ocorrer a reflexão total e sobre o ângulo limite para a reflexão total interna na interface entre a lente e o humor aquoso.\n\nA. Para que ocorra a reflexão total, a luz deve passar do humor aquoso para a lente, não da lente para o humor aquoso, com um ângulo de incidência no mínimo igual ao ângulo limite.\nB. A reflexão total ocorre quando a luz incide da lente para o humor aquoso com um ângulo de incidência maior que 45°, pois esse é o ângulo limite para os índices de refração dados.\nC. Para que ocorra a reflexão total, a luz deve incidir da lente para o humor aquoso, com um ângulo de incidência cujo seno é superior a 0,82.\nD. A reflexão total ocorre quando a luz incide da lente para o humor aquoso com um ângulo de incidência maior que 30°, pois esse é o ângulo limite para os índices de refração dados.",
+  "figuras": [],
+  "gabarito": "C",
+  "gabaritoFonte": "oficial",
+  "resolucao": "1. Reflexão total só ocorre quando a luz vai do meio mais refringente para o menos refringente: da lente (1,50) para o humor aquoso (1,23). Isso elimina A.\n2. Ângulo limite: sen <i>L</i> = <i>n</i><sub>menor</sub>/<i>n</i><sub>maior</sub> = 1,23/1,50 = 0,82 (<i>L</i> ≈ 55°), o que elimina B (45°) e D (30°).\n3. Há reflexão total para ângulos de incidência maiores que <i>L</i>, isto é, com seno maior que 0,82.\nGabarito: C.",
+  "topicos": [
+    "reflexao-total-e-fibra-optica",
+    "lei-de-snell-descartes"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-10T14:13:25.000Z",
+  "atualizadoEm": "2026-11-10T14:13:25.000Z",
+  "revisao": {
+    "notas": "Enunciado transcrito da prova com gabarito e justificativas divulgada pela própria Acafe (o caderno aplicado não foi obtido; exceção autorizada pelo Lucas). Gabarito oficial, do mesmo documento. Destaque em vermelho da alternativa correta não reproduzido."
+  }
+}

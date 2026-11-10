@@ -27,7 +27,9 @@
 | Instrução geral ("use g = 10 m/s²") | repetida nas questões em que vale, conforme a prova |
 | Alternativas | no fim, uma por linha, com o rótulo do caderno: `a) ...` (Unicamp), `(A) ...` (Fuvest, Unesp, ENEM; no ENEM a letra é um círculo, transcrito como `(A)`) |
 | Alternativas (Acafe) | `A. ...`, como no caderno |
-| Formulário/constantes (Acafe) | não se repete o quadro; só o dado necessário, como bloco `CONSTANTES FÍSICAS` antes das alternativas |
+| Formulário/constantes (Acafe) | não se repete o quadro; só o dado necessário, como bloco antes das alternativas, com o título literal da prova (`CONSTANTES FÍSICAS`, `Dados para realização das questões` ou `DADOS PARA REALIZAÇÃO DAS QUESTÕES`) |
+| Edição (Acafe) | Verão/Inverno é descritivo: campo `edicao` e `fase` (`Medicina · Inverno`); a prova fica marcada só com o ano |
+| Itens I, II... e ( ) (Acafe) | um por linha; o destaque em vermelho da alternativa correta não é reproduzido; legendas "FIGURA N" vão no recorte |
 | "Note e adote" (Fuvest) | bloco de texto antes das alternativas, começando por `Note e adote:` |
 | Tabela | figura recortada do caderno |
 

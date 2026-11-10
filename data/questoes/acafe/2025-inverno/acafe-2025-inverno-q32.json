@@ -1,0 +1,31 @@
+{
+  "id": "acafe-2025-inverno-q32",
+  "banca": "Acafe",
+  "ano": 2025,
+  "edicao": "Inverno",
+  "numero": "32",
+  "fase": "Medicina · Inverno",
+  "fonte": {
+    "descricao": "Acafe, Vestibular de Medicina Inverno 2025 (01/06/2025), prova com gabarito e justificativas divulgada pela Acafe"
+  },
+  "enunciado": "Durante uma aula experimental, os alunos analisam um sistema inspirado na famosa experiência de Joule, tal experiência demonstrou que o trabalho mecânico pode se transformar em calor, estabelecendo a equivalência entre energia mecânica e energia térmica. Ao usar pás agitadas por massas em queda para aquecer água, Joule provou que o calor é uma forma de energia — e não uma substância, como se pensava antes, conforme ilustração abaixo.\n\nImagem ilustrativa da experiência de Joule\n\nNa aula, uma massa de 5,0 kg é presa a uma corda ideal que passa por roldanas fixas e sem atrito. A extremidade da corda está conectada a um eixo com pás mergulhadas em 800 g de água. Quando a massa é abandonada de uma altura de 3,0 m, ela aciona o sistema de pás, que agitam a água e provocam um aumento de temperatura. Ao atingir o solo, a massa possui uma velocidade de 4,0 m/s. Ao final do processo, sabe-se que 40% da energia mecânica inicial foi convertida em calor transferido para a água.\n\nCom base nesses dados, assinale a alternativa que apresenta os valores aproximados da variação de temperatura da água e da porcentagem de energia mecânica dissipada em outras formas que não o calor absorvido pela água.\n\nCONSTANTES FÍSICAS\n<i>g</i> = 10 <i>m</i>/<i>s</i><sup>2</sup>\n<i>c</i><sub>á<i>gua</i></sub> = 1 <i>cal</i>/<i>g</i>.°<i>C</i>\n1 <i>cal</i> = 4,2 <i>J</i>\n\nA. A variação de temperatura da água é de 0,29°C e a energia dissipada em outras formas é de 20%.\nB. A variação de temperatura da água é de 0,02°C e a energia dissipada em outras formas é de 33%.\nC. A variação de temperatura da água é de 0,18°C e a energia dissipada em outras formas é de 40%.\nD. A variação de temperatura da água é de 0,02°C e a energia dissipada em outras formas é de 40%.",
+  "figuras": [],
+  "gabarito": "B",
+  "gabaritoFonte": "oficial",
+  "resolucao": "1. Energia mecânica inicial: <i>E</i> = <i>mgh</i> = 5,0 · 10 · 3,0 = 150 J.\n2. Energia cinética ao chegar ao solo: <i>mv</i><sup>2</sup>/2 = 5,0 · 16/2 = 40 J.\n3. Calor para a água: 40% de 150 J = 60 J = 60/4,2 ≈ 14,3 cal. Δ<i>θ</i> = <i>Q</i>/(<i>mc</i>) = 14,3/(800 · 1) ≈ 0,018 °C ≈ 0,02 °C.\n4. Energia dissipada em outras formas: 150 − 40 − 60 = 50 J, isto é, 50/150 ≈ 33% da energia inicial.\nGabarito: B.",
+  "topicos": [
+    "calor-sensivel-e-capacidade-termica",
+    "sistemas-dissipativos-perda-de-energia-mecanica",
+    "conservacao-da-energia-mecanica"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-10T14:13:26.000Z",
+  "atualizadoEm": "2026-11-10T14:13:26.000Z",
+  "revisao": {
+    "notas": "Enunciado transcrito da prova com gabarito e justificativas divulgada pela própria Acafe (o caderno aplicado não foi obtido; exceção autorizada pelo Lucas). Gabarito oficial, do mesmo documento. Destaque em vermelho da alternativa correta não reproduzido. Dados do formulário da prova (CONSTANTES FÍSICAS) incluídos antes das alternativas (decisão do Lucas: só os dados necessários). A 'Imagem ilustrativa da experiência de Joule' não está no PDF divulgado (só um ícone quebrado); o enunciado foi mantido com a legenda e sem figura. A imagem não é necessária para resolver. Divergências aceitas: palavras dos dados do formulário, que no PDF estão em letras matemáticas Unicode (𝑐𝑎𝑙, á𝑔𝑢𝑎, 𝑎𝑡𝑚, 𝑀𝑜𝑙).",
+    "divergenciasAceitas": [
+      "cal",
+      "gua"
+    ]
+  }
+}

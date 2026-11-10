@@ -1,0 +1,29 @@
+{
+  "id": "acafe-2023-inverno-q35",
+  "banca": "Acafe",
+  "ano": 2023,
+  "edicao": "Inverno",
+  "numero": "35",
+  "fase": "Medicina · Inverno",
+  "fonte": {
+    "descricao": "Acafe, Vestibular de Medicina Inverno 2023 (04/06/2023), prova com gabarito e justificativas divulgada pela Acafe"
+  },
+  "enunciado": "João Pedro é um estudante muito dedicado e ao mesmo tempo um garoto que se preocupa com a qualidade de vida humana e o bem-estar do planeta. Baseado em suas aulas de física, ele monta um experimento para aquecer a água, que está dentro de um recipiente totalmente isolado, utilizando um gerador de corrente elétrica alternada e sua própria bicicleta.\n\n[[figura 1]]\n\nO experimento funciona da seguinte maneira, João Pedro aciona o movimento da coroa com os pedais da bicicleta, a correia transmite o movimento até a catraca, que movimenta a roda. A roda está conectada a uma fita isolante, que transmite o movimento ao gerador, e, por fim, a água é aquecida no interior do recipiente.\n\nDe acordo com o exposto acima sobre o experimento, analise as afirmativas.\n\nI. No gerador responsável pela transmissão de energia, as energias envolvidas no processo são: cinética, potencial gravitacional, elétrica e térmica.\nII. O princípio de funcionamento do gerador está baseado na lei de Lenz.\nIII. A transmissão de movimentos entre a coroa e a catraca na bicicleta ocorre, pois ambas têm a mesma velocidade angular.\nIV. Para aumentar a potência de aquecimento da água, no reservatório, deve-se reduzir o diâmetro da catraca e/ou aumentar o diâmetro da coroa da bicicleta.\n\nMarque a alternativa <b>CORRETA</b>.\n\nA. Apenas as afirmativas I e III estão corretas.\nB. Apenas as afirmativas I, II e IV estão corretas.\nC. Apenas a afirmativa IV está correta.\nD. Apenas as afirmativas II e III estão corretas.",
+  "figuras": [
+    "acafe-2023-inverno-q35-1.png"
+  ],
+  "gabarito": "C",
+  "gabaritoFonte": "oficial",
+  "resolucao": "1. I – Incorreta: no gerador a energia cinética de rotação é convertida em energia elétrica, que depois vira térmica na água; não há papel para a energia potencial gravitacional.\n2. II – Incorreta (conforme a banca): o funcionamento do gerador se baseia na indução eletromagnética (lei de Faraday); a lei de Lenz só determina o sentido da corrente induzida.\n3. III – Incorreta: coroa e catraca, ligadas pela correia, têm a mesma velocidade linear na borda; como os raios são diferentes, as velocidades angulares são diferentes (<i>ω</i> = <i>v</i>/<i>R</i>).\n4. IV – Correta: com a mesma velocidade linear da correia, catraca menor ou coroa maior aumenta a frequência de rotação da catraca (e da roda), girando o gerador mais rápido; a fem induzida e a potência elétrica entregue à água aumentam.\n5. Só a IV está correta.\nGabarito: C.",
+  "topicos": [
+    "transmissao-de-movimento-circular-polias-engrenagens-coroas",
+    "inducao-eletromagnetica-lei-de-faraday",
+    "geradores-e-motores-eletricos"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-10T14:13:23.000Z",
+  "atualizadoEm": "2026-11-10T14:13:23.000Z",
+  "revisao": {
+    "notas": "Enunciado transcrito da prova com gabarito e justificativas divulgada pela própria Acafe (o caderno aplicado não foi obtido; exceção autorizada pelo Lucas). Gabarito oficial, do mesmo documento. Destaque em vermelho da alternativa correta não reproduzido."
+  }
+}

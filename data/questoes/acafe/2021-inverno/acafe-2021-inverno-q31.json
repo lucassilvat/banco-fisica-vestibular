@@ -1,0 +1,26 @@
+{
+  "id": "acafe-2021-inverno-q31",
+  "banca": "Acafe",
+  "ano": 2021,
+  "edicao": "Inverno",
+  "numero": "31",
+  "fase": "Medicina · Inverno",
+  "fonte": {
+    "descricao": "Acafe, Vestibular de Medicina Inverno 2021, prova com gabarito e justificativas divulgada pela Acafe"
+  },
+  "enunciado": "Um jogador de 80 kg teve de ser retirado do campo em uma maca. A maca tem 2 metros de comprimento e os maqueiros, mantendo a mesma na horizontal, seguiram suas extremidades. O centro de massa do jogador está a 0,8 m de um dos maqueiros, desprezando a massa da maca, determine a intensidade do módulo da força vertical exercida por este maqueiro que está mais próximo do centro de massa. (adote: g= 10 m/s<sup>2</sup>)\n\nA. 320 N\nB. 400 N\nC. 960 N\nD. 480 N",
+  "figuras": [],
+  "gabarito": "D",
+  "gabaritoFonte": "oficial",
+  "resolucao": "1. Peso do jogador: <i>P</i> = <i>mg</i> = 80 · 10 = 800 N, aplicado a 0,8 m do maqueiro mais próximo (1) e a 2 − 0,8 = 1,2 m do outro (2).\n2. Equilíbrio de momentos em relação à extremidade do maqueiro 2: <i>F</i><sub>1</sub> · 2 = 800 · 1,2 ⇒ <i>F</i><sub>1</sub> = 480 N.\n3. Conferência: <i>F</i><sub>2</sub> = 800 − 480 = 320 N; o maqueiro mais próximo do centro de massa faz a maior força.\nGabarito: D.",
+  "topicos": [
+    "equilibrio-do-corpo-extenso",
+    "momento-de-uma-forca-torque"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-10T14:13:20.000Z",
+  "atualizadoEm": "2026-11-10T14:13:20.000Z",
+  "revisao": {
+    "notas": "Enunciado transcrito da prova com gabarito e justificativas divulgada pela própria Acafe (o caderno aplicado não foi obtido; exceção autorizada pelo Lucas). Gabarito oficial, do mesmo documento. Destaque em vermelho da alternativa correta não reproduzido."
+  }
+}

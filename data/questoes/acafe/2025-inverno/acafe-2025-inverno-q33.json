@@ -1,0 +1,25 @@
+{
+  "id": "acafe-2025-inverno-q33",
+  "banca": "Acafe",
+  "ano": 2025,
+  "edicao": "Inverno",
+  "numero": "33",
+  "fase": "Medicina · Inverno",
+  "fonte": {
+    "descricao": "Acafe, Vestibular de Medicina Inverno 2025 (01/06/2025), prova com gabarito e justificativas divulgada pela Acafe"
+  },
+  "enunciado": "Durante os treinamentos preparatórios para os Jogos Olímpicos de Paris 2024, a Seleção Brasileira Feminina de Futebol realizou uma atividade técnica, voltada para os chutes de longa distância. Jogadoras como Marta, Kerolin e Gabi Nunes participaram de lançamentos de bola com velocidade inicial de 20 m/s, variando apenas o ângulo de chute, sempre com a bola partindo do solo e retornando ao mesmo nível.\n\nApesar de acertarem o alvo com frequência, graças à experiência, intuição e repetição, um professor de Educação Física da comissão técnica sugeriu que fosse explorado com as atletas os fundamentos físicos por trás desses movimentos, destacando a influência no ângulo de lançamento, na altura máxima atingida e no tempo de permanência da bola no ar — em um cenário idealizado, sem resistência do ar.\n\nCom base nesse contexto e nos princípios do movimento oblíquo, analise as afirmações.\n\nI. Se o alcance da bola em um dos lançamentos realizados por Marta foi de 40 m, é correto afirmar que o ângulo de lançamento foi de 45º.\nII. Para a mesma velocidade inicial, lançamentos com ângulos complementares atingem o mesmo alcance.\nIII. Para um ângulo de 60º, o alcance da bola em um chute realizado por Kerolin foi de aproximadamente 9,8 m.\nIV. O movimento oblíquo pode ser analisado como a combinação de um movimento retilíneo uniforme, no eixo horizontal, e um movimento uniformemente variado no eixo vertical.\nV. Supondo que a componente vertical da velocidade fosse de aproximadamente 14 m/s, o tempo total de voo, em um dos chutes realizados por Gabi Nunes, foi de aproximadamente 2,8 s.\n\nAssinale a alternativa que contém apenas as afirmativas <b>VERDADEIRAS</b>.\n\nCONSTANTES FÍSICAS\n<i>g</i> = 10 <i>m</i>/<i>s</i><sup>2</sup>\n√3 = 1,73\n\nA. I, II, III e IV\nB. I, II e III\nC. I, IV e V\nD. I, II, IV e V",
+  "figuras": [],
+  "gabarito": "D",
+  "gabaritoFonte": "oficial",
+  "resolucao": "1. Alcance no mesmo nível: <i>A</i> = <i>v</i><sub>0</sub><sup>2</sup> sen 2<i>θ</i>/<i>g</i> = 400 sen 2<i>θ</i>/10 = 40 sen 2<i>θ</i> (m).\n2. I – Verdadeira: <i>A</i> = 40 m ⇒ sen 2<i>θ</i> = 1 ⇒ <i>θ</i> = 45º.\n3. II – Verdadeira: sen 2<i>θ</i> = sen(180º − 2<i>θ</i>) = sen 2(90º − <i>θ</i>); ângulos complementares dão o mesmo alcance.\n4. III – Falsa: para 60º, <i>A</i> = 40 sen 120º = 40 · √3/2 = 20 · 1,73 ≈ 34,6 m.\n5. IV – Verdadeira: sem resistência do ar, a horizontal é MRU e a vertical é MUV (aceleração <i>g</i>).\n6. V – Verdadeira: tempo de voo <i>t</i> = 2<i>v</i><sub>y</sub>/<i>g</i> = 2 · 14/10 = 2,8 s.\n7. Verdadeiras: I, II, IV e V.\nGabarito: D.",
+  "topicos": [
+    "lancamento-obliquo"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-10T14:13:26.000Z",
+  "atualizadoEm": "2026-11-10T14:13:26.000Z",
+  "revisao": {
+    "notas": "Enunciado transcrito da prova com gabarito e justificativas divulgada pela própria Acafe (o caderno aplicado não foi obtido; exceção autorizada pelo Lucas). Gabarito oficial, do mesmo documento. Destaque em vermelho da alternativa correta não reproduzido. Dados do formulário da prova (CONSTANTES FÍSICAS) incluídos antes das alternativas (decisão do Lucas: só os dados necessários)."
+  }
+}

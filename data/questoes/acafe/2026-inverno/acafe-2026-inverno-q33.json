@@ -1,0 +1,26 @@
+{
+  "id": "acafe-2026-inverno-q33",
+  "banca": "Acafe",
+  "ano": 2026,
+  "edicao": "Inverno",
+  "numero": "33",
+  "fase": "Medicina · Inverno",
+  "fonte": {
+    "descricao": "Acafe, Vestibular de Medicina Inverno 2026 (21/06/2026), prova com gabarito e justificativas divulgada pela Acafe"
+  },
+  "enunciado": "Enquanto você lê esta questão e organiza o raciocínio para resolvê-la, bilhões de neurônios no seu sistema nervoso estão ativos. Cada pensamento, cada decisão e cada cálculo realizado durante a prova envolve a propagação de sinais elétricos ao longo de neurônios, fenômeno conhecido como potencial de ação. Esses sinais dependem do deslocamento ordenado de íons através da membrana neuronal, como o ion Na<sup>+</sup>, cuja movimentação altera a energia do sistema e sustenta processos essenciais como percepção, memória e movimento voluntário. Embora o funcionamento real de um neurônio seja biologicamente complexo, modelos físicos simplificados permitem compreender aspectos essenciais desse mecanismo.\n\nConsidere um modelo no qual um íon Na<sup>+</sup> atravessa uma região da membrana celular onde existe um campo elétrico supostamente uniforme, que realiza trabalho sobre a carga ao longo de uma trajetória retilínea.\n\nDurante a travessia, o íon sofre um aumento de energia (de natureza mecânica) em 4,8 x 10<sup>−21</sup> J ao percorrer uma distância de 2,0 nm no sentido do campo. Despreze colisões, efeitos dissipativos e quaisquer outras forças além da força elétrica.\n\nAssinale a alternativa que apresenta o módulo do campo elétrico uniforme nessa região da membrana.\n\nCONSTANTES FÍSICAS\n<i>e</i> = ±1,6<i>x</i>10<sup>−19</sup> <i>C</i>\n1<i>nm</i> = 10<sup>−9</sup><i>m</i>\n\nA. 1,5 × 10<sup>7</sup> V/m\nB. 1,5 × 10<sup>6</sup> V/m\nC. 3,0 × 10<sup>8</sup> V/m\nD. 3,0 × 10<sup>7</sup> V/m",
+  "figuras": [],
+  "gabarito": "A",
+  "gabaritoFonte": "oficial",
+  "resolucao": "1. O trabalho da força elétrica é igual ao aumento de energia cinética do íon: <i>W</i> = |<i>q</i>|<i>Ed</i>.\n2. O íon Na<sup>+</sup> tem carga <i>e</i> = 1,6 × 10<sup>−19</sup> C; <i>d</i> = 2,0 nm = 2,0 × 10<sup>−9</sup> m.\n3. <i>E</i> = <i>W</i>/(<i>ed</i>) = 4,8 × 10<sup>−21</sup>/(1,6 × 10<sup>−19</sup> · 2,0 × 10<sup>−9</sup>) = 4,8 × 10<sup>−21</sup>/3,2 × 10<sup>−28</sup> = 1,5 × 10<sup>7</sup> V/m.\nGabarito: A.",
+  "topicos": [
+    "trabalho-da-forca-eletrica-e-energia-potencial-eletrica",
+    "linhas-de-campo-e-campo-eletrico-uniforme"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-10T14:13:27.000Z",
+  "atualizadoEm": "2026-11-10T14:13:27.000Z",
+  "revisao": {
+    "notas": "Enunciado transcrito da prova com gabarito e justificativas divulgada pela própria Acafe (o caderno aplicado não foi obtido; exceção autorizada pelo Lucas). Gabarito oficial, do mesmo documento. Destaque em vermelho da alternativa correta não reproduzido. Dados do formulário da prova (CONSTANTES FÍSICAS) incluídos antes das alternativas (decisão do Lucas: só os dados necessários)."
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "id": "acafe-2024-verao-q32",
+  "banca": "Acafe",
+  "ano": 2024,
+  "edicao": "Verão",
+  "numero": "32",
+  "fase": "Medicina · Verão",
+  "fonte": {
+    "descricao": "Acafe, Vestibular de Medicina Verão 2024 (19/11/2023), prova com gabarito e justificativas divulgada pela Acafe"
+  },
+  "enunciado": "Um professor de física propôs aos seus alunos a construção de um simples circuito elétrico, para tanto forneceu-lhes duas baterias, A e B, sendo suas f.e.m., respectivamente, iguais a 3,0 V e 2,0 V e cada uma com uma resistência interna (r) de 0,5 Ω. Estas baterias em série, deveriam ser associadas a três resistores ôhmicos, R<sub>1</sub>, R<sub>2</sub> e R<sub>3</sub>, sendo R<sub>1</sub> e R<sub>2</sub> associados em paralelo e R<sub>3</sub> em série a estes e as baterias.\n\nInicialmente um aluno inadvertidamente ligou a bateria B de maneira invertida, causando uma diminuição na corrente no circuito, em seguida, após ser corrigido pelo professor, associou corretamente ambas as baterias e conseguiu atingir o objetivo desejado pelo professor.\nAnalise a alternativa que apresenta <b>CORRETA</b> e respectivamente a tensão nos terminais da bateria B, quando ligada na situação incorreta (inicial) e a potência dissipada na bateria A, quando ligada na situação correta (final).\n\nDADOS: R<sub>1</sub> = 6 Ω; R<sub>2</sub> = 3 Ω e R<sub>3</sub> = 1 Ω\n\nA. 1,87 V; 3,75 W\nB. 1,87 V; 0,78 W\nC. 2,12 V; 0,78 W\nD. 2,12 V; 3,75 W",
+  "figuras": [],
+  "gabarito": "C",
+  "gabaritoFonte": "oficial",
+  "resolucao": "1. Resistência externa: <i>R</i><sub>1</sub> // <i>R</i><sub>2</sub> = 6 · 3/(6 + 3) = 2 Ω; em série com <i>R</i><sub>3</sub>: 2 + 1 = 3 Ω. Resistências internas em série: 0,5 + 0,5 = 1 Ω. Resistência total: 4 Ω.\n2. Situação incorreta (B invertida): as f.e.m. se opõem; a resultante é 3,0 − 2,0 = 1,0 V e <i>i</i> = 1,0/4 = 0,25 A. A corrente entra em B pelo polo positivo (B funciona como receptor): <i>U</i><sub>B</sub> = <i>ε</i> + <i>ri</i> = 2,0 + 0,5 · 0,25 = 2,125 V ≈ 2,12 V.\n3. Situação correta: f.e.m. somadas, 5,0 V; <i>i</i> = 5,0/4 = 1,25 A.\n4. Potência dissipada na resistência interna de A: <i>P</i> = <i>ri</i><sup>2</sup> = 0,5 · 1,25<sup>2</sup> ≈ 0,78 W.\nGabarito: C.",
+  "topicos": [
+    "geradores-eletricos-fem-e-resistencia-interna",
+    "receptores-eletricos",
+    "associacao-de-resistores",
+    "potencia-eletrica-e-efeito-joule"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-10T14:13:24.000Z",
+  "atualizadoEm": "2026-11-10T14:13:24.000Z",
+  "revisao": {
+    "notas": "Enunciado transcrito da prova com gabarito e justificativas divulgada pela própria Acafe (o caderno aplicado não foi obtido; exceção autorizada pelo Lucas). Gabarito oficial, do mesmo documento. Destaque em vermelho da alternativa correta não reproduzido."
+  }
+}

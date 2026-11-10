@@ -1,0 +1,26 @@
+{
+  "id": "acafe-2025-verao-q34",
+  "banca": "Acafe",
+  "ano": 2025,
+  "edicao": "Verão",
+  "numero": "34",
+  "fase": "Medicina · Verão",
+  "fonte": {
+    "descricao": "Acafe, Vestibular de Medicina Verão 2025 (24/11/2024), prova com gabarito e justificativas divulgada pela Acafe"
+  },
+  "enunciado": "Em uma das provas de ciclismo de pista dos Jogos Olímpicos de Paris 2024, um atleta, em sua tentativa de quebrar o recorde mundial, percorreu uma pista circular de raio R com velocidade angular constante ω. Considerando que a massa total do atleta com a bicicleta seja m, e que a força normal exercida pela pista sobre a bicicleta é N.\n\nAssinale a alternativa que relaciona a força centrípeta (Fc) com as demais grandezas físicas envolvidas no movimento.\n\nA. Fc = m.ω².R\nB. Fc = N – m.ω².R\nC. Fc = N\nD. Fc = m.ω².R + N",
+  "figuras": [],
+  "gabarito": "A",
+  "gabaritoFonte": "oficial",
+  "resolucao": "1. Em movimento circular uniforme, a resultante centrípeta tem módulo <i>F</i><sub>c</sub> = <i>ma</i><sub>c</sub>, com <i>a</i><sub>c</sub> = <i>v</i><sup>2</sup>/<i>R</i>.\n2. Como <i>v</i> = <i>ωR</i>: <i>a</i><sub>c</sub> = <i>ω</i><sup>2</sup><i>R</i> ⇒ <i>F</i><sub>c</sub> = <i>mω</i><sup>2</sup><i>R</i>.\n3. A centrípeta é a resultante das forças reais (normal, atrito, peso); não se soma a elas nem é, em geral, igual só à normal. As demais alternativas misturam a resultante com uma de suas componentes.\nGabarito: A.",
+  "topicos": [
+    "resultante-centripeta-curvas-loop-globo-da-morte",
+    "periodo-frequencia-e-velocidade-angular"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-10T14:13:25.000Z",
+  "atualizadoEm": "2026-11-10T14:13:25.000Z",
+  "revisao": {
+    "notas": "Enunciado transcrito da prova com gabarito e justificativas divulgada pela própria Acafe (o caderno aplicado não foi obtido; exceção autorizada pelo Lucas). Gabarito oficial, do mesmo documento. Destaque em vermelho da alternativa correta não reproduzido."
+  }
+}

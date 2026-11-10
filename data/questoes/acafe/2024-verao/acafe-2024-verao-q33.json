@@ -1,0 +1,27 @@
+{
+  "id": "acafe-2024-verao-q33",
+  "banca": "Acafe",
+  "ano": 2024,
+  "edicao": "Verão",
+  "numero": "33",
+  "fase": "Medicina · Verão",
+  "fonte": {
+    "descricao": "Acafe, Vestibular de Medicina Verão 2024 (19/11/2023), prova com gabarito e justificativas divulgada pela Acafe"
+  },
+  "enunciado": "A audição humana é um dos sentidos que nos une ao mundo exterior, facilita na compreensão e interação do meio em que vivemos. O ouvido humano é constituído de três partes, ouvido externo, ouvido médio, onde se encontra a membrana timpânica, os ossículos martelo, estribo e bigorna e o ouvido interno, onde pode-se observar o labirinto.\n\nA percepção do som no ouvido médio e interno está associada às qualidades fisiológicas do som e mensuradas por grandezas físicas como a Intensidade sonora e o Nível sonoro. Sobre o tema, assinale a alternativa <b>CORRETA</b>.\n\nA. A intensidade sonora é uma grandeza chamada de adimensional e sua unidade no sistema internacional é W/m².\nB. O som é classificado como baixo, quando apresenta um pequeno período de oscilação.\nC. O Efeito Doppler é percebido devido à posição instantânea entre o observador e a fonte sonora.\nD. O timbre sonoro é uma das qualidades fisiológicas do som e não está associado a frequência nem a amplitude da onda sonora, mas sim ao formato desta onda.",
+  "figuras": [],
+  "gabarito": "D",
+  "gabaritoFonte": "oficial",
+  "resolucao": "1. A – Incorreta: a intensidade sonora tem dimensão (potência por área, W/m<sup>2</sup>); adimensional é o nível sonoro (em decibéis).\n2. B – Incorreta: som baixo (grave) tem frequência baixa, isto é, período grande.\n3. C – Incorreta: o efeito Doppler depende do movimento relativo (velocidade) entre fonte e observador, não da posição.\n4. D – Correta: o timbre distingue sons de mesma altura e mesma intensidade e está ligado à forma da onda (composição de harmônicos).\nGabarito: D.",
+  "topicos": [
+    "som-altura-intensidade-e-timbre",
+    "nivel-sonoro-decibeis",
+    "efeito-doppler"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-10T14:13:24.000Z",
+  "atualizadoEm": "2026-11-10T14:13:24.000Z",
+  "revisao": {
+    "notas": "Enunciado transcrito da prova com gabarito e justificativas divulgada pela própria Acafe (o caderno aplicado não foi obtido; exceção autorizada pelo Lucas). Gabarito oficial, do mesmo documento. Destaque em vermelho da alternativa correta não reproduzido."
+  }
+}

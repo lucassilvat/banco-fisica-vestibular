@@ -1,0 +1,29 @@
+{
+  "id": "acafe-2023-inverno-q30",
+  "banca": "Acafe",
+  "ano": 2023,
+  "edicao": "Inverno",
+  "numero": "30",
+  "fase": "Medicina · Inverno",
+  "fonte": {
+    "descricao": "Acafe, Vestibular de Medicina Inverno 2023 (04/06/2023), prova com gabarito e justificativas divulgada pela Acafe"
+  },
+  "enunciado": "Na Figura 2 tem-se um gerador de ondas estacionárias, que embora não seja um aparelho de precisão, é útil para se fazer uma análise qualitativa de fenômenos associados ao movimento ondulatório unidimensional.\n\n[[figura 1]]\n\nConsidere o sistema do gerador, acima, formado por uma massa de 5kg pendurada por um fio de comprimento um metro e densidade linear igual a <i>μ</i>. Este fio é conectado a uma fonte de energia elétrica que, na configuração ilustrada acima, faz a corda vibrar com uma frequência de 400Hz.\n\nDe acordo com os fenômenos ondulatórios, analise as afirmativas e marque <b>V</b> para as afirmativas <b>VERDADEIRAS</b> e <b>F</b> para as <b>FALSAS</b>.\n\n( ) Ondas estacionárias são oscilações periódicas produzidas pela interferência entre ondas de mesma frequência e que se propagam ao longo da mesma direção e do mesmo sentido.\n( ) O som produzido por um saxofone ocorre por meio de ondas estacionárias.\n( ) A frequência fundamental ou primeiro harmônico produzido na corda é de 100Hz.\n( ) A densidade linear <i>μ</i>, mencionada no enunciado vale 1,25g/m.\n( ) Aumentando-se a frequência de vibração do gerador, tem-se uma redução do comprimento de onda produzido na corda.\n( ) No fenômeno da difração em fendas simples, quanto maior o tamanho da fenda, mais acentuada será a difração.\n\nAssinale a alternativa <b>CORRETA</b>.\n\nDados para realização das questões\ng = 10m/s<sup>2</sup>\n\nA. F, F, V, F, F, V\nB. F, V, V, V, V. F\nC. V, V, F, V, F, F\nD. V, F, F, F, V, V",
+  "figuras": [
+    "acafe-2023-inverno-q30-1.png"
+  ],
+  "gabarito": "B",
+  "gabaritoFonte": "oficial",
+  "resolucao": "1. 1ª – Falsa: ondas estacionárias resultam da superposição de ondas iguais que se propagam na mesma direção, em sentidos opostos.\n2. 2ª – Verdadeira: no saxofone (instrumento de sopro), o som vem de ondas estacionárias na coluna de ar do tubo.\n3. 3ª – Verdadeira: na figura a corda de 1 m vibra com 4 ventres (4º harmônico) a 400 Hz; a fundamental é 400/4 = 100 Hz.\n4. 4ª – Verdadeira: com 4 ventres em 1 m, <i>λ</i> = 0,5 m e <i>v</i> = <i>λf</i> = 0,5 · 400 = 200 m/s. A tração é o peso pendurado: <i>F</i> = 5 · 10 = 50 N. De <i>v</i> = √(<i>F</i>/<i>μ</i>): <i>μ</i> = 50/200<sup>2</sup> = 1,25 × 10<sup>−3</sup> kg/m = 1,25 g/m.\n5. 5ª – Verdadeira: a velocidade na corda depende só da tração e de <i>μ</i>; com <i>v</i> constante, aumentar <i>f</i> reduz <i>λ</i> = <i>v</i>/<i>f</i>.\n6. 6ª – Falsa: a difração é mais acentuada quando a fenda é menor (da ordem do comprimento de onda).\n7. Sequência: F, V, V, V, V, F.\nGabarito: B.",
+  "topicos": [
+    "ondas-estacionarias-e-cordas-vibrantes",
+    "velocidade-de-onda-em-cordas-taylor",
+    "difracao"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-10T14:13:23.000Z",
+  "atualizadoEm": "2026-11-10T14:13:23.000Z",
+  "revisao": {
+    "notas": "Enunciado transcrito da prova com gabarito e justificativas divulgada pela própria Acafe (o caderno aplicado não foi obtido; exceção autorizada pelo Lucas). Gabarito oficial, do mesmo documento. Destaque em vermelho da alternativa correta não reproduzido. Dados do formulário da prova incluídos antes das alternativas (decisão do Lucas: só os dados necessários). O símbolo μ da densidade linear foi transcrito da imagem."
+  }
+}

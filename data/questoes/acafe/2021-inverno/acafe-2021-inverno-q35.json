@@ -1,0 +1,27 @@
+{
+  "id": "acafe-2021-inverno-q35",
+  "banca": "Acafe",
+  "ano": 2021,
+  "edicao": "Inverno",
+  "numero": "35",
+  "fase": "Medicina · Inverno",
+  "fonte": {
+    "descricao": "Acafe, Vestibular de Medicina Inverno 2021, prova com gabarito e justificativas divulgada pela Acafe"
+  },
+  "enunciado": "Três barras, <u>AB</u>, <u>CD</u> e <u>EF</u>, são aparentemente idênticas\n\n[[figura 1]]\n\nObserva-se, experimentalmente, que A atrai D e repele E; B repele F e atrai C. Logo é <b>correto</b> afirmar que:\n\nA. AB e EF são ímãs.\nB. AB e CD são ímãs.\nC. CD e EF são ímãs.\nD. As três são ímãs.",
+  "figuras": [
+    "acafe-2021-inverno-q35-1.png"
+  ],
+  "gabarito": "A",
+  "gabaritoFonte": "oficial",
+  "resolucao": "1. Atração acontece entre polos opostos de ímãs ou entre um ímã e um material ferromagnético não imantado; repulsão só acontece entre dois ímãs (polos de mesmo nome).\n2. A repele E e B repele F: logo AB e EF são, com certeza, ímãs.\n3. A atrai D e B atrai C: as duas extremidades de CD são atraídas por AB. Isso é compatível com CD ser apenas um material ferromagnético não imantado; não há observação de repulsão envolvendo CD, então não se pode afirmar que CD é ímã.\n4. A única afirmação garantida pelas observações é que AB e EF são ímãs.\nGabarito: A.",
+  "topicos": [
+    "imas-e-campo-magnetico"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-10T14:13:20.000Z",
+  "atualizadoEm": "2026-11-10T14:13:20.000Z",
+  "revisao": {
+    "notas": "Enunciado transcrito da prova com gabarito e justificativas divulgada pela própria Acafe (o caderno aplicado não foi obtido; exceção autorizada pelo Lucas). Gabarito oficial, do mesmo documento. Destaque em vermelho da alternativa correta não reproduzido."
+  }
+}

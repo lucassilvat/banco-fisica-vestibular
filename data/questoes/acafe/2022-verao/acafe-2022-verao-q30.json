@@ -1,0 +1,26 @@
+{
+  "id": "acafe-2022-verao-q30",
+  "banca": "Acafe",
+  "ano": 2022,
+  "edicao": "Verão",
+  "numero": "30",
+  "fase": "Medicina · Verão",
+  "fonte": {
+    "descricao": "Acafe, Vestibular de Medicina Verão 2022 (14/11/2021), prova com gabarito e justificativas divulgada pela Acafe"
+  },
+  "enunciado": "A lei da gravitação universal é uma força pela qual os dois objetos sofrem atração de campo e obedece à lei do inverso do quadrado da distância. Levando em conta que a força peso de um objeto pode ser igualada à força gravitacional, pode-se determinar a aceleração da gravidade conhecendo a massa do planeta Terra e a distância do seu centro ao ponto de interesse. De um modo geral, utilizamos o raio médio terrestre para obter g (médio). Logo, nosso planeta é achatado nos polos em relação ao Equador. Assim sendo, pode-se afirmar, quanto ao valor de g, que:\n\nA. g (polos) > g (Equador) > g (médio).\nB. g (médio) > g (polos) > g (Equador).\nC. g (Equador) > g (médio) > g (polos).\nD. g (polos) > g (médio) > g (Equador).",
+  "figuras": [],
+  "gabarito": "D",
+  "gabaritoFonte": "oficial",
+  "resolucao": "1. Igualando peso e força gravitacional: <i>mg</i> = <i>GMm</i>/<i>R</i><sup>2</sup> ⇒ <i>g</i> = <i>GM</i>/<i>R</i><sup>2</sup>; quanto menor a distância ao centro, maior <i>g</i>.\n2. Com a Terra achatada nos polos: <i>R</i><sub>polo</sub> < <i>R</i><sub>médio</sub> < <i>R</i><sub>Equador</sub>.\n3. Logo <i>g</i>(polos) > <i>g</i>(médio) > <i>g</i>(Equador). (No Equador o efeito da rotação reduz ainda mais o <i>g</i> efetivo, reforçando a ordem.)\nGabarito: D.",
+  "topicos": [
+    "aceleracao-da-gravidade-e-altitude",
+    "lei-da-gravitacao-universal"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-10T14:13:20.000Z",
+  "atualizadoEm": "2026-11-10T14:13:20.000Z",
+  "revisao": {
+    "notas": "Enunciado transcrito da prova com gabarito e justificativas divulgada pela própria Acafe (o caderno aplicado não foi obtido; exceção autorizada pelo Lucas). Gabarito oficial, do mesmo documento. Destaque em vermelho da alternativa correta não reproduzido."
+  }
+}

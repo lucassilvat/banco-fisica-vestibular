@@ -1,0 +1,26 @@
+{
+  "id": "acafe-2025-verao-q35",
+  "banca": "Acafe",
+  "ano": 2025,
+  "edicao": "Verão",
+  "numero": "35",
+  "fase": "Medicina · Verão",
+  "fonte": {
+    "descricao": "Acafe, Vestibular de Medicina Verão 2025 (24/11/2024), prova com gabarito e justificativas divulgada pela Acafe"
+  },
+  "enunciado": "Um sistema formado por três cordas coplanares, 1, 2 e 3, mantêm suspensa uma esfera homogênea de massa m, as três cordas são inextensíveis e de massas desprezíveis. A corda 1 exerce uma tração T<sub>1</sub> e a corda 2 uma tração T<sub>2</sub>, ambas para cima. Considerando que ângulo entre T<sub>1</sub> e a vertical é de 30° e o ângulo entre T<sub>2</sub> e a vertical é de 60°, e que T<sub>3</sub>, vertical para baixo, mantém a esfera em equilíbrio, determine a relação entre as intensidades das trações T<sub>1</sub>, T<sub>2</sub> e T<sub>3</sub>:\n\nA. <i>T</i><sub>1</sub> = <i>T</i><sub>2</sub> = <i>T</i><sub>3</sub>/2\nB. <i>T</i><sub>1</sub> = <i>T</i><sub>2</sub> = <i>T</i><sub>3</sub>. √3\nC. <i>T</i><sub>1</sub> = <i>T</i><sub>3</sub> . √3/2 <i>e</i> <i>T</i><sub>2</sub> = <i>T</i><sub>3</sub>/2\nD. <i>T</i><sub>1</sub> = <i>T</i><sub>3</sub>/2 <i>e</i> <i>T</i><sub>2</sub> = <i>T</i><sub>3</sub>. √3/2",
+  "figuras": [],
+  "gabarito": "C",
+  "gabaritoFonte": "oficial",
+  "resolucao": "1. Equilíbrio na horizontal: <i>T</i><sub>1</sub> sen 30° = <i>T</i><sub>2</sub> sen 60° ⇒ <i>T</i><sub>1</sub>/2 = <i>T</i><sub>2</sub>√3/2 ⇒ <i>T</i><sub>1</sub> = √3 <i>T</i><sub>2</sub>.\n2. Equilíbrio na vertical: <i>T</i><sub>1</sub> cos 30° + <i>T</i><sub>2</sub> cos 60° = <i>T</i><sub>3</sub> ⇒ √3<i>T</i><sub>2</sub> · √3/2 + <i>T</i><sub>2</sub>/2 = <i>T</i><sub>3</sub> ⇒ 2<i>T</i><sub>2</sub> = <i>T</i><sub>3</sub>.\n3. <i>T</i><sub>2</sub> = <i>T</i><sub>3</sub>/2 e <i>T</i><sub>1</sub> = √3<i>T</i><sub>3</sub>/2.\nGabarito: C.",
+  "topicos": [
+    "equilibrio-do-ponto-material",
+    "vetores-soma-e-decomposicao"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-10T14:13:25.000Z",
+  "atualizadoEm": "2026-11-10T14:13:25.000Z",
+  "revisao": {
+    "notas": "Enunciado transcrito da prova com gabarito e justificativas divulgada pela própria Acafe (o caderno aplicado não foi obtido; exceção autorizada pelo Lucas). Gabarito oficial, do mesmo documento. Destaque em vermelho da alternativa correta não reproduzido. As alternativas são fórmulas de editor de equações; transcritas da imagem."
+  }
+}

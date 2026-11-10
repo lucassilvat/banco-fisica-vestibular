@@ -1,0 +1,26 @@
+{
+  "id": "acafe-2024-inverno-q30",
+  "banca": "Acafe",
+  "ano": 2024,
+  "edicao": "Inverno",
+  "numero": "30",
+  "fase": "Medicina · Inverno",
+  "fonte": {
+    "descricao": "Acafe, Vestibular de Medicina Inverno 2024 (09/06/2024), prova com gabarito e justificativas divulgada pela Acafe"
+  },
+  "enunciado": "As emergências dos hospitais estão cada vez mais cheias de pacientes, entre os quais estão os acidentados por colisões entre veículos e atropelamentos. Com o intuito de diminuir estes acidentes os carros atuais estão sendo fabricados com o sistema de frenagem AEB (<i>Automatic Emergrncy Braking</i>), o qual é capaz de detectar objetos, via sensores, instalados no veículo e acionar, automaticamente, os freios para evitar a colisão.\n\nVamos supor que o automóvel deseje parar em 4 s, percorrendo uma distância de 80 m com uma desaceleração constante, a velocidade do automóvel, em km/h, no início da frenagem, é:\n\nA. 80 km/h\nB. 120 km/h\nC. 100 km/h\nD. 144 km/h",
+  "figuras": [],
+  "gabarito": "D",
+  "gabaritoFonte": "oficial",
+  "resolucao": "1. Com desaceleração constante até parar, a velocidade média é a média entre a inicial e a final (zero): <i>v</i><sub>m</sub> = <i>v</i><sub>0</sub>/2.\n2. <i>v</i><sub>m</sub> = Δ<i>S</i>/Δ<i>t</i> = 80/4 = 20 m/s ⇒ <i>v</i><sub>0</sub> = 40 m/s.\n3. Em km/h: 40 · 3,6 = 144 km/h.\nGabarito: D.",
+  "topicos": [
+    "movimento-retilineo-uniformemente-variado-mruv",
+    "velocidade-media-e-aceleracao-media"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-10T14:13:24.000Z",
+  "atualizadoEm": "2026-11-10T14:13:24.000Z",
+  "revisao": {
+    "notas": "Enunciado transcrito da prova com gabarito e justificativas divulgada pela própria Acafe (o caderno aplicado não foi obtido; exceção autorizada pelo Lucas). Gabarito oficial, do mesmo documento. Destaque em vermelho da alternativa correta não reproduzido."
+  }
+}

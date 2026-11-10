@@ -1,0 +1,30 @@
+{
+  "id": "acafe-2025-inverno-q31",
+  "banca": "Acafe",
+  "ano": 2025,
+  "edicao": "Inverno",
+  "numero": "31",
+  "fase": "Medicina · Inverno",
+  "fonte": {
+    "descricao": "Acafe, Vestibular de Medicina Inverno 2025 (01/06/2025), prova com gabarito e justificativas divulgada pela Acafe"
+  },
+  "enunciado": "Em 2004, o mergulhador australiano, David Shaw, faleceu durante uma tentativa de resgate no sistema de cavernas submersas Boesmansgat, na África do Sul, onde atingiu profundidades superiores a 270 metros, onde a pressão ultrapassa 28 atm.\n\nConsidere uma etapa intermediária do mergulho, a 40 metros de profundidade, em que a pressão total era de aproximadamente 5 atm. Durante a subida rápida para a superfície (1atm), sem pausas para descompressão, parte do nitrogênio dissolvido em seu sangue passou à forma gasosa, formando bolhas no sistema circulatório — uma condição chamada embolia gasosa, com risco variável, dependendo do volume e da localização das bolhas.\nConsidere que, só ao atingir a superfície, 0,003 mol de gás nitrogênio transformaram-se em três bolhas gasosas idênticas, cada uma se alojando em uma das seguintes regiões:\n\n1. <i>Artéria cerebral.</i>\n2. <i>Ventrículo direito do coração.</i>\n3. <i>Veia cava/pulmão.</i>\n\nCom base nos volumes das bolhas, pode-se com o auxílio da tabela abaixo, avaliar o risco da presença da bolha em cada região citada.\n\n[[figura 1]]\n\nSabendo que o gás comporta-se como ideal e a temperatura corporal manteve-se constante em 37 °C, calcule o volume de cada bolha e, com base nas informações fornecidas, assinale a alternativa que apresenta o volume de cada bolha individual e as regiões em que há risco clínico grave ou extremo.\n\nCONSTANTES FÍSICAS\n<i>R</i> = 0,082 <i>atm</i>.<i>L</i>/<i>Mol</i>.<i>K</i>\n\nA. Volume de 76,3 mL – Risco nos casos (1) e (2) apenas.\nB. Volume de 76,3 mL – Risco nos casos (1), (2) e (3).\nC. Volume de 25,4 mL – Sem riscos graves nos casos (1), (2) e (3).\nD. Volume de 25,4 mL – Risco nos casos (1) e (2) apenas.",
+  "figuras": [
+    "acafe-2025-inverno-q31-1.png"
+  ],
+  "gabarito": "D",
+  "gabaritoFonte": "oficial",
+  "resolucao": "1. Cada bolha tem 0,003/3 = 0,001 mol, à pressão de 1 atm (superfície) e <i>T</i> = 37 + 273 = 310 K.\n2. Equação de Clapeyron: <i>V</i> = <i>nRT</i>/<i>p</i> = 0,001 · 0,082 · 310/1 ≈ 0,0254 L = 25,4 mL. Isso elimina A e B.\n3. Pela tabela, 25,4 mL está na faixa de 20 a 50 mL: risco grave na artéria cerebral (1) e no ventrículo direito (2), e moderado na veia cava/pulmão (3).\n4. Risco grave ou extremo apenas em (1) e (2).\nGabarito: D.",
+  "topicos": [
+    "gas-ideal-e-equacao-de-clapeyron"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-10T14:13:26.000Z",
+  "atualizadoEm": "2026-11-10T14:13:26.000Z",
+  "revisao": {
+    "notas": "Enunciado transcrito da prova com gabarito e justificativas divulgada pela própria Acafe (o caderno aplicado não foi obtido; exceção autorizada pelo Lucas). Gabarito oficial, do mesmo documento. Destaque em vermelho da alternativa correta não reproduzido. Dados do formulário da prova (CONSTANTES FÍSICAS) incluídos antes das alternativas (decisão do Lucas: só os dados necessários). Tabela entra como figura. Divergências aceitas: palavras dos dados do formulário, que no PDF estão em letras matemáticas Unicode (𝑐𝑎𝑙, á𝑔𝑢𝑎, 𝑎𝑡𝑚, 𝑀𝑜𝑙).",
+    "divergenciasAceitas": [
+      "Mol"
+    ]
+  }
+}

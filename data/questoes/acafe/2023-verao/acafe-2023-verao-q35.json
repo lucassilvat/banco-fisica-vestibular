@@ -1,0 +1,27 @@
+{
+  "id": "acafe-2023-verao-q35",
+  "banca": "Acafe",
+  "ano": 2023,
+  "edicao": "Verão",
+  "numero": "35",
+  "fase": "Medicina · Verão",
+  "fonte": {
+    "descricao": "Acafe, Vestibular de Medicina Verão 2023 (15/11/2022), prova com gabarito e justificativas divulgada pela Acafe"
+  },
+  "enunciado": "Um condutor metálico, conectado a uma fonte de tensão contínua, está suspenso por um fio ligado a um dinamômetro, cuja leitura é 5N, conforme mostra a figura 1.\n\n[[figura 1]]\n\nConsiderando apenas a ação do campo gravitacional e do campo magnético sobre o condutor, se este for imerso no campo magnético uniforme, representado na figura 2, a leitura do dinamômetro é:\n\nA. maior que 5N\nB. menor que 5N\nC. igual a 5N\nD. zero",
+  "figuras": [
+    "acafe-2023-verao-q35-1.png"
+  ],
+  "gabarito": "B",
+  "gabaritoFonte": "oficial",
+  "resolucao": "1. Sem campo magnético, a leitura (5 N) é o peso do condutor.\n2. Sentido da corrente: pela figura, o polo positivo da bateria está à esquerda; a corrente convencional sai por ele, sobe pelo lado esquerdo e percorre o condutor suspenso da esquerda para a direita.\n3. Campo magnético entrando na página (×). Pela regra da mão direita (<i>F</i>⃗ = <i>iL</i>⃗ × <i>B</i>⃗), corrente para a direita e campo para dentro dão força magnética vertical para cima.\n4. A força magnética para cima alivia o fio: a leitura do dinamômetro fica menor que 5 N (o enunciado não dá valores para dizer se chega a zero).\nGabarito: B.",
+  "topicos": [
+    "forca-magnetica-sobre-condutor-retilineo"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-10T14:13:22.000Z",
+  "atualizadoEm": "2026-11-10T14:13:22.000Z",
+  "revisao": {
+    "notas": "Enunciado transcrito da prova com gabarito e justificativas divulgada pela própria Acafe (o caderno aplicado não foi obtido; exceção autorizada pelo Lucas). Gabarito oficial, do mesmo documento. Destaque em vermelho da alternativa correta não reproduzido."
+  }
+}

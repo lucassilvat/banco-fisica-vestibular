@@ -1,0 +1,30 @@
+{
+  "id": "acafe-2023-verao-q31",
+  "banca": "Acafe",
+  "ano": 2023,
+  "edicao": "Verão",
+  "numero": "31",
+  "fase": "Medicina · Verão",
+  "fonte": {
+    "descricao": "Acafe, Vestibular de Medicina Verão 2023 (15/11/2022), prova com gabarito e justificativas divulgada pela Acafe"
+  },
+  "enunciado": "O Ecografia Modo-A\n\nNesse exame, são feitas medidas repetidas do comprimento axial do olho e outras medidas internas do globo ocular. Ele é importante no cálculo de lentes intraoculares, principalmente nos pacientes com cataratas mais avançadas, nos portadores de alta miopia e em outras condições especiais.\n\n[[figura 1]]\n\n[[figura 2]]\n\nEm um exame oftalmológico pelo <i>modo-A,</i> detectou-se um eco proveniente de um elemento estranho no humor vítreo. O intervalo de tempo entre o pulso emitido e o eco recebido, medido no osciloscópio, foi de 0,01ms. Desprezando a espessura dos elementos oculares entre a córnea e o elemento estranho, e considerando a velocidade do ultrassom no humor vítreo 1500m/s, a córnea estará a ________ milímetros do elemento estranho. Indivíduos que possuem ________, terão dificuldade de realizar o exame, devido a(o) ________, em consequência da ________.\n\nAssinale a alternativa que completa, <b>corretamente</b>, os espaços em branco na informação acima.\n\nA. 7,5 – astigmatismo – formação irregular da córnea – distorção das imagens\nB. 15 – miopia – alongamento do globo ocular – dificuldade de enxergar de longe\nC. 15 – miopia – formação irregular da córnea – dificuldade de enxergar de perto\nD. 7,5 – astigmatismo – alongamento do globo ocular – dificuldade de enxergar de perto",
+  "figuras": [
+    "acafe-2023-verao-q31-1.png",
+    "acafe-2023-verao-q31-2.png"
+  ],
+  "gabarito": "A",
+  "gabaritoFonte": "oficial",
+  "resolucao": "1. O ultrassom vai até o elemento estranho e volta (eco): 2<i>x</i> = <i>v</i>Δ<i>t</i> ⇒ <i>x</i> = 1500 · 0,01 × 10<sup>−3</sup>/2 = 7,5 × 10<sup>−3</sup> m = 7,5 mm. Isso elimina B e C.\n2. Entre A e D: o astigmatismo é causado por curvatura irregular da córnea (não pelo alongamento do globo ocular, que é a causa da miopia) e provoca imagens distorcidas, em qualquer distância.\n3. A única sequência coerente é: 7,5 – astigmatismo – formação irregular da córnea – distorção das imagens.\nGabarito: A.",
+  "topicos": [
+    "reflexao-e-refracao-de-ondas",
+    "optica-da-visao-e-defeitos-visuais",
+    "movimento-retilineo-uniforme-mru"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-10T14:13:22.000Z",
+  "atualizadoEm": "2026-11-10T14:13:22.000Z",
+  "revisao": {
+    "notas": "Enunciado transcrito da prova com gabarito e justificativas divulgada pela própria Acafe (o caderno aplicado não foi obtido; exceção autorizada pelo Lucas). Gabarito oficial, do mesmo documento. Destaque em vermelho da alternativa correta não reproduzido."
+  }
+}

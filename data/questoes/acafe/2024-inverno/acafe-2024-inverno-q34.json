@@ -1,0 +1,28 @@
+{
+  "id": "acafe-2024-inverno-q34",
+  "banca": "Acafe",
+  "ano": 2024,
+  "edicao": "Inverno",
+  "numero": "34",
+  "fase": "Medicina · Inverno",
+  "fonte": {
+    "descricao": "Acafe, Vestibular de Medicina Inverno 2024 (09/06/2024), prova com gabarito e justificativas divulgada pela Acafe"
+  },
+  "enunciado": "Vários exames de diagnósticos são feitos por meio de ondas, por exemplo, raio X, ultrassonografia, ressonância magnética, radioterapia ou até audiometria. Analisando o caráter ondulatório, no ponto de vista da Física, destes e de outros exames médicos.\n\nSobre este assunto, analise as afirmativas e coloque V para verdadeira e F para falsa.\n\n( ) O raio X é classificado como uma onda eletromagnética do tipo transversal.\n( ) O fenômeno da ressonância ocorre quando uma onda apresenta uma frequência igual a frequência natural de um objeto, este fenômeno está presente também em eletrodomésticos como o forno de micro-ondas.\n( ) O ultrassom é uma onda eletromagnética com um período superior a 5x10<sup>-5</sup> s.\n( ) As ondas de rádio, bem como as ondas sonoras, são classificadas como ondas mecânicas, por isso não se propagam no vácuo.\n( ) Um dos fenômenos presentes no exame de ultrassom é a reflexão ondulatória.\n\nAssinale a alternativa que apresenta a sequência <b>CORRETA,</b> de cima para baixo.\n\nA. V, F, F, F, V\nB. V, V, F, F, V\nC. V, V, V, F, V\nD. V, F, V, V, F",
+  "figuras": [],
+  "gabarito": "B",
+  "gabaritoFonte": "oficial",
+  "resolucao": "1. 1ª – Verdadeira: o raio X é onda eletromagnética, portanto transversal.\n2. 2ª – Verdadeira: ressonância é a transferência eficiente de energia quando a frequência excitadora coincide com uma frequência natural; o forno de micro-ondas usa frequência que excita as moléculas de água do alimento.\n3. 3ª – Falsa: o ultrassom é onda mecânica (e, com frequência acima de 20 kHz, tem período menor que 5 × 10<sup>−5</sup> s).\n4. 4ª – Falsa: ondas de rádio são eletromagnéticas e se propagam no vácuo.\n5. 5ª – Verdadeira: a ultrassonografia se baseia nos ecos, isto é, na reflexão das ondas nas interfaces entre tecidos.\n6. Sequência: V, V, F, F, V.\nGabarito: B.",
+  "topicos": [
+    "espectro-eletromagnetico",
+    "ressonancia",
+    "ondas-classificacao-e-elementos",
+    "reflexao-e-refracao-de-ondas"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-10T14:13:24.000Z",
+  "atualizadoEm": "2026-11-10T14:13:24.000Z",
+  "revisao": {
+    "notas": "Enunciado transcrito da prova com gabarito e justificativas divulgada pela própria Acafe (o caderno aplicado não foi obtido; exceção autorizada pelo Lucas). Gabarito oficial, do mesmo documento. Destaque em vermelho da alternativa correta não reproduzido."
+  }
+}

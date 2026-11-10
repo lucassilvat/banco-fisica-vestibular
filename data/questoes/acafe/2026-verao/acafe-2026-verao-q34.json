@@ -1,7 +1,8 @@
 {
-  "id": "acafe-2026-q34",
+  "id": "acafe-2026-verao-q34",
   "banca": "Acafe",
   "ano": 2026,
+  "edicao": "Verão",
   "numero": "34",
   "fase": "Medicina · Verão",
   "fonte": {
@@ -9,7 +10,7 @@
   },
   "enunciado": "Segundo a American Heart Association (AHA), o uso precoce de desfibriladores automáticos pode aumentar em até 70% a chance de sobrevivência após uma parada cardíaca súbita. Esses aparelhos funcionam com circuitos elétricos simples, capazes de acumular e descarregar energia rapidamente por meio de capacitores.\n\nO esquema a seguir representa parte do circuito RC, com resistores ôhmicos, também presentes nos desfibriladores, onde uma fonte ideal de 300 V está ligada em série com uma chave A. Após a chave, o circuito divide-se em três ramos em paralelo.\nApós a chave ser fechada, o circuito permanece assim por tempo suficiente para que os capacitores fiquem completamente carregados. Em seguida, a chave é aberta, isolando a fonte.\n\nDados:\n- Ramo 1: R<sub>1</sub> = 2 kΩ em série com C<sub>1</sub> = 10 µF\n- Ramo 2: R<sub>2</sub> = 1 kΩ em série com C<sub>2</sub> = 20 µF\n- Ramo 3: R<sub>3</sub> = 4 kΩ e R<sub>4</sub> = 6 kΩ em série.\n\n[[figura 1]]\n\nAnalise as afirmativas.\n\nI. Com a chave A fechada, a corrente que atravessa a fonte ideal é de 30 mA.\nII. Com a chave A fechada, a energia armazenada no capacitor C<sub>1</sub>, totalmente carregado, é de 450 mJ.\nIII. Com a chave A fechada e o capacitor C<sub>2</sub> completamente carregado, o potencial elétrico sobre ele é menor que 300 V, pois está em série com o resistor R<sub>2</sub>.\nIV. Com os capacitores completamente carregados, a carga elétrica total acumulada na associação é de 9 mC.\nV. Com a chave A aberta, não haverá corrente percorrendo o circuito RC.\n\nAssinale a alternativa <b>CORRETA</b>.\n\nA. Somente as afirmativas II, IV e V estão corretas.\nB. Somente as afirmativas I, II e IV estão corretas.\nC. Somente as afirmativas I, II, IV e V estão corretas.\nD. Somente as afirmativas I, III e IV estão corretas.",
   "figuras": [
-    "acafe-2026-q34-1.png"
+    "acafe-2026-verao-q34-1.png"
   ],
   "gabarito": "B",
   "gabaritoFonte": "oficial",

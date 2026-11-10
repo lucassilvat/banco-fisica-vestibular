@@ -1,0 +1,28 @@
+{
+  "id": "acafe-2021-inverno-q30",
+  "banca": "Acafe",
+  "ano": 2021,
+  "edicao": "Inverno",
+  "numero": "30",
+  "fase": "Medicina · Inverno",
+  "fonte": {
+    "descricao": "Acafe, Vestibular de Medicina Inverno 2021, prova com gabarito e justificativas divulgada pela Acafe"
+  },
+  "enunciado": "Uma criança boiando na água de uma piscina, ao inspirar o ar e mantê-lo, por alguns segundos, preso nos pulmões, observa-se a sua elevação em relação ao nível da água. Esse fenômeno pode ser explicado pela(o):\n\n[[figura 1]]\n\nA. aumento do peso da água deslocada.\nB. aumento do empuxo da água da piscina.\nC. diminuição da densidade média da criança.\nD. diminuição da densidade da água da piscina.",
+  "figuras": [
+    "acafe-2021-inverno-q30-1.png"
+  ],
+  "gabarito": "C",
+  "gabaritoFonte": "oficial",
+  "resolucao": "1. Um corpo flutuando está em equilíbrio: o empuxo é igual ao peso. Como a massa de ar inspirada é desprezível, o peso da criança praticamente não muda; logo o empuxo (e o peso da água deslocada) também não aumenta. Isso elimina A e B.\n2. A densidade da água não muda ao a criança respirar, o que elimina D.\n3. Ao encher os pulmões, o volume do corpo aumenta e a massa quase não varia: a densidade média da criança (<i>m</i>/<i>V</i>) diminui.\n4. Com densidade média menor, a fração do volume que precisa ficar submersa para equilibrar o peso é menor (<i>V</i><sub>sub</sub>/<i>V</i> = <i>d</i><sub>criança</sub>/<i>d</i><sub>água</sub>), e a criança sobe em relação ao nível da água.\nGabarito: C.",
+  "topicos": [
+    "empuxo-e-principio-de-arquimedes",
+    "densidade-e-massa-especifica"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-10T14:13:20.000Z",
+  "atualizadoEm": "2026-11-10T14:13:20.000Z",
+  "revisao": {
+    "notas": "Enunciado transcrito da prova com gabarito e justificativas divulgada pela própria Acafe (o caderno aplicado não foi obtido; exceção autorizada pelo Lucas). Gabarito oficial, do mesmo documento. Destaque em vermelho da alternativa correta não reproduzido."
+  }
+}

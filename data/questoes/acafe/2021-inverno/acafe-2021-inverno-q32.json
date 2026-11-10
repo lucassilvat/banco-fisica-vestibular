@@ -1,0 +1,25 @@
+{
+  "id": "acafe-2021-inverno-q32",
+  "banca": "Acafe",
+  "ano": 2021,
+  "edicao": "Inverno",
+  "numero": "32",
+  "fase": "Medicina · Inverno",
+  "fonte": {
+    "descricao": "Acafe, Vestibular de Medicina Inverno 2021, prova com gabarito e justificativas divulgada pela Acafe"
+  },
+  "enunciado": "Analise as afirmações a seguir.\n\nI. <i>Dois instrumentos musicais diferentes são acionados e emitem uma mesma nota musical.</i>\nII. <i>Dois instrumentos iguais estão emitindo uma mesma nota musical, porém com volumes (intensidades) diferentes.</i>\nIII. <i>Um mesmo instrumento é utilizado para emitir duas notas musicais diferentes.</i>\n\nAssinale a principal característica que difere cada um dos dois sons emitidos nas situações I, II e III, respectivamente.\n\nA. Frequência, comprimento de onda e amplitude.\nB. Timbre, amplitude e frequência.\nC. Amplitude, comprimento de onda e frequência.\nD. Amplitude, timbre e frequência.",
+  "figuras": [],
+  "gabarito": "B",
+  "gabaritoFonte": "oficial",
+  "resolucao": "1. I: a mesma nota tem a mesma frequência fundamental; o que distingue instrumentos diferentes é o timbre (a forma da onda, isto é, os harmônicos que acompanham a fundamental).\n2. II: mesma nota e mesmo instrumento com volumes diferentes: muda a intensidade, ligada à amplitude da onda.\n3. III: notas diferentes têm alturas diferentes, ou seja, frequências diferentes.\n4. Sequência: timbre, amplitude e frequência.\nGabarito: B.",
+  "topicos": [
+    "som-altura-intensidade-e-timbre"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-10T14:13:20.000Z",
+  "atualizadoEm": "2026-11-10T14:13:20.000Z",
+  "revisao": {
+    "notas": "Enunciado transcrito da prova com gabarito e justificativas divulgada pela própria Acafe (o caderno aplicado não foi obtido; exceção autorizada pelo Lucas). Gabarito oficial, do mesmo documento. Destaque em vermelho da alternativa correta não reproduzido."
+  }
+}

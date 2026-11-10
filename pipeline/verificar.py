@@ -60,7 +60,7 @@ def checar(q: dict, topicos: set) -> tuple[list, list]:
     if re.search(r"</?(?!(?:i|b|u|sub|sup)>)[a-z]+[^>]*>", q.get("enunciado", "")):
         erros.append("marcação HTML não permitida no enunciado (use só i, b, u, sub, sup)")
     # fidelidade ao PDF
-    pdf = _texto_pdf(chave_prova(q["banca"], q["ano"], q.get("versao", "")))
+    pdf = _texto_pdf(chave_prova(q["banca"], q["ano"], q.get("versao", ""), q.get("edicao", "")))
     if pdf is None:
         avisos.append("PDF da prova ausente em fontes/: fidelidade não conferida")
     else:

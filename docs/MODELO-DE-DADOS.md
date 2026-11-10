@@ -3,14 +3,15 @@
 A fonte da verdade são os arquivos em `data/`. O banco do app é uma cópia gerada pela
 etapa `publicar`. Assim, trocar o app (por exemplo, ao virar SaaS) não mexe nos dados.
 
-## Questão: `data/questoes/<banca>/<ano><versao>/<id>.json`
+## Questão: `data/questoes/<banca>/<ano><versao>[-<edicao>]/<id>.json`
 
 Esquema formal: `schemas/questao.schema.json`.
 
 | Campo | Tipo | Exemplo / observação |
 |---|---|---|
-| `id` | texto | `unicamp-2021a-q35` = banca-ano+versão-qNN |
+| `id` | texto | `unicamp-2021a-q35` = banca-ano+versão-qNN; com edição: `acafe-2025-verao-q29` |
 | `banca`, `ano`, `versao` | texto, número, texto | `Unicamp`, `2021`, `A` (versão só quando a banca aplicou provas diferentes no mesmo ano) |
+| `edicao` | texto | opcional: `Verão`, `Inverno` (Acafe, dois vestibulares por ano). Entra no id, na pasta e na chave da prova; o app mostra só o ano, e a edição aparece na `fase` (`Medicina · Verão`) |
 | `numero` | texto | número da questão no caderno |
 | `fase` | texto | `1ª fase · Prova Q` |
 | `fonte.descricao` | texto | caderno de onde o texto foi transcrito (casa com `data/fontes/manifesto.json`) |

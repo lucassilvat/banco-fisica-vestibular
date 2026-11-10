@@ -1,0 +1,29 @@
+{
+  "id": "acafe-2023-inverno-q31",
+  "banca": "Acafe",
+  "ano": 2023,
+  "edicao": "Inverno",
+  "numero": "31",
+  "fase": "Medicina · Inverno",
+  "fonte": {
+    "descricao": "Acafe, Vestibular de Medicina Inverno 2023 (04/06/2023), prova com gabarito e justificativas divulgada pela Acafe"
+  },
+  "enunciado": "<b>Botox e o Microagulhamento.</b>\n\nO <b>botox</b>, nome popular da toxina botulínica, é uma substância química que atua impedindo a contração dos músculos. Muito utilizado para o tratamento de diversas doenças, tornou-se o principal recurso estético para a redução de <b>rugas e linhas de expressão.</b> A substância foi descoberta ainda no século XIX, mas seu uso só se popularizou nos consultórios médicos a partir de 1977, quando o botox foi utilizado pela primeira vez para testes no tratamento de estrabismo.\n\n[[figura 1]]\n\nDe lá para cá, passou a ser usado para reduzir os sintomas de alterações, como, <u>bruxismo</u>, doenças neurológicas, ortopédicas e oftalmológicas. Desde 2002, a <b><i>Food and Drug Administration</i></b> (<b><i>FDA</i></b>) – órgão regulador de medicamentos dos Estados Unidos – aprovou a utilização do botox para fins estéticos. Segundo o <u>Censo de 20</u>22 da <b>Sociedade Brasileira de Cirurgia Plástica</b>, a aplicação de toxina botulínica aparece como procedimento não cirúrgico mais realizado no <b>Brasil</b>, chegando a 95% dos tratamentos.\n\nApesar de um importante aliado para a saúde e beleza, é fundamental que o procedimento seja realizado por profissionais qualificados e habilitados. Tudo isso porque se a aplicação for realizada de forma indevida, podem ocorrer efeitos colaterais, como, paralisação de um grupo muscular.\n\nO método do microagulhamento contempla mínimas perfurações na pele com pequenas agulhas, visando estimular a fabricação de colágeno e fibras naturais, o que deixa a textura mais harmônica.\nLeia mais em: <u>https://saude.abril.com.br/medicina/de-botox-a-lifiting-desvende-os-procedimentos-esteticos/</u>\n\nConsidere uma seringa contendo toxina botulínica para aplicação por microagulhamento com áreas de secção transversal conforme a figura 3.\n\n[[figura 2]]\n\nSe o profissional aplicar uma força de 60N no êmbolo da seringa, a força aplicada na saída da agulha vale ____________ e o acréscimo de pressão do fluído ___________________.\n\nAssinale a alternativa que completa correta e sequencialmente a informação acima.\n\nA. 0,3N – será totalmente transmitido a todos os pontos das partículas da toxina\nB. 0,03N – será maior na agulha da seringa devido a redução da área de contato\nC. 0,3N – será menor no êmbolo da seringa devido ao aumento da área de contato\nD. 0,03N – será crescente no sentido êmbolo-agulha",
+  "figuras": [
+    "acafe-2023-inverno-q31-1.png",
+    "acafe-2023-inverno-q31-2.png"
+  ],
+  "gabarito": "A",
+  "gabaritoFonte": "oficial",
+  "resolucao": "1. Pelo princípio de Pascal, o acréscimo de pressão aplicado ao fluido é transmitido integralmente a todos os seus pontos: <i>F</i><sub>1</sub>/<i>A</i><sub>1</sub> = <i>F</i><sub>2</sub>/<i>A</i><sub>2</sub>. Isso descarta as afirmações de pressão maior, menor ou crescente (B, C e D).\n2. Áreas na mesma unidade: <i>A</i><sub>êmbolo</sub> = 0,04 dm<sup>2</sup> = 0,04 · 10<sup>4</sup> mm<sup>2</sup> = 400 mm<sup>2</sup>; <i>A</i><sub>agulha</sub> = 2 mm<sup>2</sup>.\n3. <i>F</i><sub>agulha</sub> = 60 · 2/400 = 0,3 N.\nGabarito: A.",
+  "topicos": [
+    "principio-de-pascal-e-prensa-hidraulica",
+    "pressao"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-10T14:13:23.000Z",
+  "atualizadoEm": "2026-11-10T14:13:23.000Z",
+  "revisao": {
+    "notas": "Enunciado transcrito da prova com gabarito e justificativas divulgada pela própria Acafe (o caderno aplicado não foi obtido; exceção autorizada pelo Lucas). Gabarito oficial, do mesmo documento. Destaque em vermelho da alternativa correta não reproduzido."
+  }
+}

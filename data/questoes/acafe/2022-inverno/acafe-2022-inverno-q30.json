@@ -1,0 +1,26 @@
+{
+  "id": "acafe-2022-inverno-q30",
+  "banca": "Acafe",
+  "ano": 2022,
+  "edicao": "Inverno",
+  "numero": "30",
+  "fase": "Medicina · Inverno",
+  "fonte": {
+    "descricao": "Acafe, Vestibular de Medicina Inverno 2022 (12/06/2022), prova com gabarito e justificativas divulgada pela Acafe"
+  },
+  "enunciado": "Quando um automóvel, com velocidade constante de 60 km/h, passa por uma lombada e, em seguida, por uma depressão (buraco), o motorista sofre sensações diferentes nas duas situações.\n\nA força que o banco exerce sobre o motorista, nas respectivas situações, é:\n\nA. menor que o peso do motorista; maior que o peso do motorista.\nB. maior que o peso do motorista; menor que o peso do motorista.\nC. maior que o peso do motorista nas duas situações.\nD. menor que o peso do motorista nas duas situações.",
+  "figuras": [],
+  "gabarito": "A",
+  "gabaritoFonte": "oficial",
+  "resolucao": "1. Nos dois trechos o motorista descreve um arco de circunferência, e a resultante das forças verticais (peso <i>P</i> e normal <i>N</i> do banco) é centrípeta.\n2. No alto da lombada o centro da curva está abaixo do motorista: <i>P</i> − <i>N</i> = <i>mv</i><sup>2</sup>/<i>R</i> ⇒ <i>N</i> < <i>P</i> (sensação de ficar mais leve).\n3. No fundo da depressão o centro da curva está acima: <i>N</i> − <i>P</i> = <i>mv</i><sup>2</sup>/<i>R</i> ⇒ <i>N</i> > <i>P</i> (sensação de ficar mais pesado).\nGabarito: A.",
+  "topicos": [
+    "resultante-centripeta-curvas-loop-globo-da-morte",
+    "forca-peso-e-forca-normal"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-10T14:13:21.000Z",
+  "atualizadoEm": "2026-11-10T14:13:21.000Z",
+  "revisao": {
+    "notas": "Enunciado transcrito da prova com gabarito e justificativas divulgada pela própria Acafe (o caderno aplicado não foi obtido; exceção autorizada pelo Lucas). Gabarito oficial, do mesmo documento. Destaque em vermelho da alternativa correta não reproduzido."
+  }
+}

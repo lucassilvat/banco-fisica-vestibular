@@ -36,7 +36,7 @@ def executar(chave: str, dpi: int = 300):
     out = arquivo_ocr(chave); out.write_text("\n".join(partes), encoding="utf-8")
     man_p = DADOS / "fontes" / "manifesto.json"; man = json.loads(man_p.read_text(encoding="utf-8"))
     for p in man["provas"]:
-        if chave_prova(p["banca"], p["ano"], p.get("versao", "")) == chave and p["tipo"] == "caderno":
+        if chave_prova(p["banca"], p["ano"], p.get("versao", ""), p.get("edicao", "")) == chave and p["tipo"] == "caderno":
             p["camadaTexto"] = "ocr"
     man_p.write_text(json.dumps(man, ensure_ascii=False, indent=2), encoding="utf-8")
     print(f"OCR de {len(doc)} páginas em {out}; manifesto marcado com camadaTexto = ocr.")

@@ -1,0 +1,26 @@
+{
+  "id": "acafe-2021-inverno-q29",
+  "banca": "Acafe",
+  "ano": 2021,
+  "edicao": "Inverno",
+  "numero": "29",
+  "fase": "Medicina · Inverno",
+  "fonte": {
+    "descricao": "Acafe, Vestibular de Medicina Inverno 2021, prova com gabarito e justificativas divulgada pela Acafe"
+  },
+  "enunciado": "Um carro estacionado em repouso em uma ladeira, com declive suave de 20º, posicionado a 10 metros do ponto mais alto da rua, perde seus freios e desce a ladeira, colidindo com um poste a 50 metros do ponto mais alto da mesma rua. O espaço percorrido teve um intervalo de 4 segundos. Determine a velocidade final no momento do impacto neste poste.\n\nA. 10 m/s\nB. 20 m/s\nC. 15 m/s\nD. 25 m/s",
+  "figuras": [],
+  "gabarito": "B",
+  "gabaritoFonte": "oficial",
+  "resolucao": "1. O carro parte do repouso a 10 m do topo e colide a 50 m do topo: percorre Δ<i>S</i> = 50 − 10 = 40 m em Δ<i>t</i> = 4 s.\n2. Descendo a ladeira sem freios (e sem atritos considerados), o movimento é uniformemente variado a partir do repouso: Δ<i>S</i> = <i>at</i><sup>2</sup>/2 ⇒ 40 = <i>a</i> · 16/2 ⇒ <i>a</i> = 5 m/s<sup>2</sup>.\n3. Velocidade final: <i>v</i> = <i>at</i> = 5 · 4 = 20 m/s.\n4. Outra forma: no MUV a partir do repouso, a velocidade média é metade da final; <i>v</i><sub>m</sub> = 40/4 = 10 m/s ⇒ <i>v</i> = 20 m/s. O ângulo de 20º não é necessário.\nGabarito: B.",
+  "topicos": [
+    "movimento-retilineo-uniformemente-variado-mruv",
+    "velocidade-media-e-aceleracao-media"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-10T14:13:20.000Z",
+  "atualizadoEm": "2026-11-10T14:13:20.000Z",
+  "revisao": {
+    "notas": "Enunciado transcrito da prova com gabarito e justificativas divulgada pela própria Acafe (o caderno aplicado não foi obtido; exceção autorizada pelo Lucas). Gabarito oficial, do mesmo documento. Destaque em vermelho da alternativa correta não reproduzido."
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "acafe-2023-verao-q30",
+  "banca": "Acafe",
+  "ano": 2023,
+  "edicao": "Verão",
+  "numero": "30",
+  "fase": "Medicina · Verão",
+  "fonte": {
+    "descricao": "Acafe, Vestibular de Medicina Verão 2023 (15/11/2022), prova com gabarito e justificativas divulgada pela Acafe"
+  },
+  "enunciado": "O interior da célula está separado do seu externo por uma membrana celular, graças a ela, são mantidas as diferenças de composição entre as soluções internas e externas. O gráfico a seguir mostra o comportamento do potencial elétrico entre o exterior, a membrana e o interior de uma célula.\n\n[[figura 1]]\n\nAnalise as afirmações em relação aos conceitos de eletrostática.\n\nI. O campo elétrico no exterior e interior da célula é nulo.\nII. O campo elétrico na membrana celular é constante e diferente de zero.\nIII. Se a distância entre o interior e o exterior da célula é 80Å, então o campo elétrico que existe na membrana é 8,75.10<sup>6</sup> V/m.\nIV. O vetor campo elétrico na membrana é orientado do interior para o exterior da célula.\nV. Um ânion com carga elétrica elementar(e) no interior da membrana estará submetido a uma força elétrica de módulo 1,4pN.\n\nA alternativa que contém as afirmativas <b>CORRETAS</b> é.\n\nDADOS PARA REALIZAÇÃO DAS QUESTÕES\n1Å = 10<sup>−10</sup> m\ne = 1,6 × 10<sup>−19</sup> C\n\nA. III, IV e V\nB. I, II e IV\nC. II, IV e V\nD. I, II, III e V",
+  "figuras": [
+    "acafe-2023-verao-q30-1.png"
+  ],
+  "gabarito": "D",
+  "gabaritoFonte": "oficial",
+  "resolucao": "1. I – Correta: no exterior e no interior o potencial é constante; como <i>E</i> = −Δ<i>V</i>/Δ<i>x</i>, o campo é nulo nessas regiões.\n2. II – Correta: na membrana o potencial varia linearmente com <i>x</i>; o campo é uniforme e não nulo.\n3. III – Correta: <i>U</i> = <i>Ed</i> ⇒ <i>E</i> = 70 × 10<sup>−3</sup> V/(80 × 10<sup>−10</sup> m) = 8,75 × 10<sup>6</sup> V/m.\n4. IV – Incorreta: o campo aponta no sentido dos potenciais decrescentes, do exterior (0 mV) para o interior (−70 mV).\n5. V – Correta: <i>F</i> = |<i>q</i>|<i>E</i> = 1,6 × 10<sup>−19</sup> · 8,75 × 10<sup>6</sup> = 1,4 × 10<sup>−12</sup> N = 1,4 pN.\n6. Corretas: I, II, III e V.\nGabarito: D.",
+  "topicos": [
+    "linhas-de-campo-e-campo-eletrico-uniforme",
+    "potencial-eletrico-e-diferenca-de-potencial",
+    "campo-eletrico"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-10T14:13:22.000Z",
+  "atualizadoEm": "2026-11-10T14:13:22.000Z",
+  "revisao": {
+    "notas": "Enunciado transcrito da prova com gabarito e justificativas divulgada pela própria Acafe (o caderno aplicado não foi obtido; exceção autorizada pelo Lucas). Gabarito oficial, do mesmo documento. Destaque em vermelho da alternativa correta não reproduzido. Dados do formulário da prova incluídos antes das alternativas (decisão do Lucas: só os dados necessários)."
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "id": "acafe-2024-inverno-q32",
+  "banca": "Acafe",
+  "ano": 2024,
+  "edicao": "Inverno",
+  "numero": "32",
+  "fase": "Medicina · Inverno",
+  "fonte": {
+    "descricao": "Acafe, Vestibular de Medicina Inverno 2024 (09/06/2024), prova com gabarito e justificativas divulgada pela Acafe"
+  },
+  "enunciado": "Hoje é noite de plantão na UTI em um hospital, em Florianópolis, e o jovem médico residente já pensa no paciente do “<i>Leito</i> 20”, um senhor de certa idade, inquieto e que apresenta resistência a permanecer com o soro venoso, dificultando a administração dos medicamentos. Lembrando das suas aulas de Física, o jovem doutor resolve explicar para o paciente como ocorre a “disputa” entre a pressão hidrostática do soro e a pressão sanguínea, e que quanto maior for a diferença entre a altura da bolsa de soro e o braço do paciente, mais fácil será para administrar o soro, evitando o retorno do sangue pela mangueira.\n\nAssim, ambos resolveram calcular a que altura, em relação ao braço do paciente a bolsa deverá permanecer. Considerando que a densidade do soro é igual a da água e a pressão arterial desse paciente, na média, é igual a 90 mmHg.\n\nA altura mínima aproximadamente encontrada para que as pressões se igualem é:\n\nCONSTANTES FÍSICAS\n<i>g</i> = 10 <i>m</i>/<i>s</i><sup>2</sup>\n<i>μ</i><sub>á<i>gua</i></sub> = 10<sup>3</sup> <i>kg</i>/<i>m</i><sup>3</sup>\n1 <i>atm</i> = 10<sup>5</sup><i>Pa</i>\n1 <i>atm</i> = 760 <i>mmHg</i>\n\nA. 0,43 m\nB. 0,90 m\nC. 1,18 m\nD. 1,50 m",
+  "figuras": [],
+  "gabarito": "C",
+  "gabaritoFonte": "oficial",
+  "resolucao": "1. Pressão arterial em pascal: 90 mmHg = (90/760) · 10<sup>5</sup> Pa ≈ 1,18 × 10<sup>4</sup> Pa.\n2. A coluna de soro deve exercer essa pressão: <i>p</i> = <i>μgh</i> ⇒ <i>h</i> = 1,18 × 10<sup>4</sup>/(10<sup>3</sup> · 10) ≈ 1,18 m.\nGabarito: C.",
+  "topicos": [
+    "teorema-de-stevin-pressao-hidrostatica",
+    "pressao"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-10T14:13:24.000Z",
+  "atualizadoEm": "2026-11-10T14:13:24.000Z",
+  "revisao": {
+    "notas": "Enunciado transcrito da prova com gabarito e justificativas divulgada pela própria Acafe (o caderno aplicado não foi obtido; exceção autorizada pelo Lucas). Gabarito oficial, do mesmo documento. Destaque em vermelho da alternativa correta não reproduzido. Dados do formulário da prova (CONSTANTES FÍSICAS) incluídos antes das alternativas (decisão do Lucas: só os dados necessários). Divergências aceitas: palavras dos dados do formulário, que no PDF estão em letras matemáticas Unicode (𝑐𝑎𝑙, á𝑔𝑢𝑎, 𝑎𝑡𝑚, 𝑀𝑜𝑙).",
+    "divergenciasAceitas": [
+      "atm",
+      "gua"
+    ]
+  }
+}

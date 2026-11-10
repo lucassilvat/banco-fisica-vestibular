@@ -1,0 +1,28 @@
+{
+  "id": "acafe-2025-inverno-q30",
+  "banca": "Acafe",
+  "ano": 2025,
+  "edicao": "Inverno",
+  "numero": "30",
+  "fase": "Medicina · Inverno",
+  "fonte": {
+    "descricao": "Acafe, Vestibular de Medicina Inverno 2025 (01/06/2025), prova com gabarito e justificativas divulgada pela Acafe"
+  },
+  "enunciado": "Durante processos de reabilitação, é comum o uso de terapias aquáticas que exploram propriedades físicas dos fluidos para reduzir impactos sobre o corpo humano. A imersão parcial ou total do corpo em água modifica a percepção de peso e facilita movimentos articulares, o que é amplamente utilizado em sessões de fisioterapia, principalmente para pacientes com restrições motoras ou em recuperação de lesões. Em uma sessão de hidroterapia, um paciente com massa de 75 kg permanece em pé dentro de uma piscina, com o corpo submerso até a altura do abdômen. A fisioterapeuta explica que, devido à força exercida pelo líquido sobre seu corpo, causada pela diferença de pressão entre partes submersas, o paciente sente alívio nas articulações, facilitando os movimentos. Nessa situação, o volume submerso do corpo do paciente é de 1,875 × 10<sup>4</sup> cm<sup>3</sup>.\n\nAssinale a alternativa que apresenta a porcentagem aproximada de alívio, do peso corporal sentido pelo paciente e o princípio físico que melhor explica esse fenômeno.\n\nCONSTANTES FÍSICAS\n<i>g</i> = 10 <i>m</i>/<i>s</i><sup>2</sup>\n<i>d</i><sub>á<i>gua</i></sub> = 10<sup>3</sup> <i>kg</i>/<i>m</i><sup>3</sup>\n\nA. A porcentagem aproximada de alívio do peso corporal é de 25%, e esse fenômeno é melhor explicado pelo princípio de Arquimedes.\nB. A porcentagem aproximada de alívio do peso corporal é de 75%, e esse fenômeno é melhor explicado pelo princípio de Pascal.\nC. A porcentagem aproximada de alívio do peso corporal é de 25%, e esse fenômeno é melhor explicado pelo princípio de Stevin.\nD. A porcentagem aproximada de alívio do peso corporal é de 75%, e esse fenômeno é melhor explicado pelo princípio de Arquimedes.",
+  "figuras": [],
+  "gabarito": "A",
+  "gabaritoFonte": "oficial",
+  "resolucao": "1. A força para cima causada pela diferença de pressão entre as partes submersas é o empuxo: princípio de Arquimedes. Isso elimina B e C.\n2. Volume submerso: 1,875 × 10<sup>4</sup> cm<sup>3</sup> = 1,875 × 10<sup>−2</sup> m<sup>3</sup>. Empuxo: <i>E</i> = <i>d</i><i>gV</i> = 10<sup>3</sup> · 10 · 1,875 × 10<sup>−2</sup> = 187,5 N.\n3. Peso: <i>P</i> = 75 · 10 = 750 N. Alívio: 187,5/750 = 0,25 = 25%.\nGabarito: A.",
+  "topicos": [
+    "empuxo-e-principio-de-arquimedes"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-10T14:13:26.000Z",
+  "atualizadoEm": "2026-11-10T14:13:26.000Z",
+  "revisao": {
+    "notas": "Enunciado transcrito da prova com gabarito e justificativas divulgada pela própria Acafe (o caderno aplicado não foi obtido; exceção autorizada pelo Lucas). Gabarito oficial, do mesmo documento. Destaque em vermelho da alternativa correta não reproduzido. Dados do formulário da prova (CONSTANTES FÍSICAS) incluídos antes das alternativas (decisão do Lucas: só os dados necessários). Divergências aceitas: palavras dos dados do formulário, que no PDF estão em letras matemáticas Unicode (𝑐𝑎𝑙, á𝑔𝑢𝑎, 𝑎𝑡𝑚, 𝑀𝑜𝑙).",
+    "divergenciasAceitas": [
+      "gua"
+    ]
+  }
+}

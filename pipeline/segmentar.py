@@ -37,9 +37,11 @@ def titulos(doc, so_numero=False):
     return achados
 
 
-# Acafe: coluna única; título "NN)" em negrito no início do parágrafo; a versão divulgada
-# traz depois de cada questão o quadro "Dados da questão" (gabarito e justificativa), que fica fora.
-TITULO_ACAFE = re.compile(r"(\d{2})\)")
+# Acafe: coluna única; título "NN)" (ou só "NN", Verão 2021) em negrito no início da linha. As
+# versões divulgadas trazem depois de cada questão o gabarito e a justificativa ("Dados da
+# questão", "Informações da questão", "Alternativa correta letra: X"...), que ficam fora.
+TITULO_ACAFE = re.compile(r"\{?(\d{2})\}?\s*(\)|$)")
+FIM_ACAFE = re.compile(r"(Dados da questão|Informações da questão|Alternativa correta|Gabarito\b|Justificativa)")
 
 
 def segmentos_coluna_unica(doc, margem_inferior=30, topo=20):
@@ -51,12 +53,20 @@ def segmentos_coluna_unica(doc, margem_inferior=30, topo=20):
                 sp = [s for s in l["spans"] if s["text"].strip()]
                 if not sp: continue
                 t = "".join(s["text"] for s in l["spans"]).strip()
-                m = TITULO_ACAFE.match(t)
-                if m and "Bold" in sp[0]["font"]:
+                m = TITULO_ACAFE.match(sp[0]["text"].strip()) or TITULO_ACAFE.match(t[:4])
+                negrito = "Bold" in sp[0]["font"] or sp[0]["flags"] & 16
+                if m and negrito and l["bbox"][0] < 120 and 1 <= int(m.group(1)) <= 90:
                     marcos.append((pi, l["bbox"][1], int(m.group(1))))
-                elif t.startswith("Dados da questão"):
+                elif FIM_ACAFE.match(t):
                     marcos.append((pi, l["bbox"][1], None))
     marcos.sort()
+    # um número pode aparecer como falso título (instruções, tabelas): fica a 1ª ocorrência
+    # depois da questão anterior
+    escolhidos, pos = set(), (-1, -1)
+    for n in sorted({m[2] for m in marcos if m[2] is not None}):
+        cand = [m for m in marcos if m[2] == n and (m[0], m[1]) > pos]
+        if cand: escolhidos.add(cand[0]); pos = (cand[0][0], cand[0][1])
+    marcos = [m for m in marcos if m[2] is None or m in escolhidos]
     seg = {}
     for i, (pi, y, n) in enumerate(marcos):
         if n is None or n in seg: continue

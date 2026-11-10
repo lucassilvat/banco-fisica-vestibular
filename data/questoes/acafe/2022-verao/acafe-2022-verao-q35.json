@@ -1,0 +1,26 @@
+{
+  "id": "acafe-2022-verao-q35",
+  "banca": "Acafe",
+  "ano": 2022,
+  "edicao": "Verão",
+  "numero": "35",
+  "fase": "Medicina · Verão",
+  "fonte": {
+    "descricao": "Acafe, Vestibular de Medicina Verão 2022 (14/11/2021), prova com gabarito e justificativas divulgada pela Acafe"
+  },
+  "enunciado": "Atualmente, há um sistema de navegação de alta precisão que depende de satélites artificiais em órbita em torno da Terra. Para que não haja erros significativos nas posições fornecidas por esses satélites, é necessário corrigir relativisticamente o intervalo de tempo, medido pelo relógio a bordo de cada um desses satélites. A Teoria da Relatividade Especial (Einstein) prevê que, se não for feito esse tipo de correção, um relógio a bordo não marcará o mesmo intervalo de tempo que outro relógio em repouso na superfície da Terra, mesmo sabendo-se que ambos os relógios estão sempre em perfeitas condições de funcionamento e foram sincronizados antes do satélite se lançado.\n\nSe não for feita a correção relativística para o tempo medido pelo relógio de bordo:\n\nA. ele ficará cada vez mais adiantado em relação ao relógio em Terra.\nB. ele se adiantará em relação as relógio em Terra, enquanto ele for acelerado em relação à Terra.\nC. ele ficará cada vez mais atrasado em relação ao relógio em Terra.\nD. ele atrasará em relação ao relógio em Terra durante metade de sua órbita e se adiantará durante a metade da outra órbita.",
+  "figuras": [],
+  "gabarito": "C",
+  "gabaritoFonte": "oficial",
+  "resolucao": "1. Pela Relatividade Especial, um relógio em movimento em relação a um referencial marca intervalos de tempo menores que os relógios em repouso nesse referencial (dilatação do tempo: Δ<i>t</i> = <i>γ</i>Δ<i>t</i><sub>0</sub>, com <i>γ</i> > 1).\n2. O satélite está sempre em movimento em relação à Terra (velocidade orbital de módulo praticamente constante), então o relógio de bordo atrasa continuamente: o atraso se acumula a cada órbita.\n3. A e B contrariam a dilatação; D não faz sentido, porque o efeito depende do módulo da velocidade, não do sentido do movimento.\nObservação: no GPS real, o efeito gravitacional da Relatividade Geral (que adianta o relógio do satélite) é maior que o da Relatividade Especial; a questão pede apenas a previsão da Relatividade Especial.\nGabarito: C.",
+  "topicos": [
+    "relatividade-restrita-dilatacao-do-tempo-contracao-do-espaco",
+    "satelites-orbitas-e-imponderabilidade"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-10T14:13:20.000Z",
+  "atualizadoEm": "2026-11-10T14:13:20.000Z",
+  "revisao": {
+    "notas": "Enunciado transcrito da prova com gabarito e justificativas divulgada pela própria Acafe (o caderno aplicado não foi obtido; exceção autorizada pelo Lucas). Gabarito oficial, do mesmo documento. Destaque em vermelho da alternativa correta não reproduzido."
+  }
+}

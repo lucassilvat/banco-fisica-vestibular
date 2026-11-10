@@ -1,0 +1,28 @@
+{
+  "id": "acafe-2024-verao-q34",
+  "banca": "Acafe",
+  "ano": 2024,
+  "edicao": "Verão",
+  "numero": "34",
+  "fase": "Medicina · Verão",
+  "fonte": {
+    "descricao": "Acafe, Vestibular de Medicina Verão 2024 (19/11/2023), prova com gabarito e justificativas divulgada pela Acafe"
+  },
+  "enunciado": "A cada dia o avanço da tecnologia tem trazido uma maior praticidade na vida das pessoas. Um dos fatores que faz com que a ciência continue com este avanço é o estudo das ondas e seus fenômenos.\n\nSobre o estudo da ondulatória, analise as sentenças.\n\nI. No vácuo o período da micro-onda é menor que o período do Raio X.\nII. O fenômeno da polarização só ocorre nas ondas eletromagnéticas, pois são transversais.\nIII. A onda de calor é uma onda transversal.\nIV. O reforço sonoro é um caso de reflexão de ondas.\nV. As ondas estacionárias ocorrem devido a dois fenômenos ondulatórios simultâneos, interferência e difração.\n\nA alternativa que contém exatamente o número de sentenças verdadeiras é:\n\nA. 1\nB. 2\nC. 3\nD. 4",
+  "figuras": [],
+  "gabarito": "B",
+  "gabaritoFonte": "oficial",
+  "resolucao": "1. I – Falsa: a micro-onda tem frequência muito menor que o raio X, portanto período maior.\n2. II – Falsa: a polarização ocorre em qualquer onda transversal, inclusive mecânica (por exemplo, numa corda); não é exclusiva das eletromagnéticas.\n3. III – Verdadeira: a \"onda de calor\" (radiação infravermelha) é eletromagnética e, portanto, transversal.\n4. IV – Verdadeira: o reforço acontece quando o som refletido chega ao ouvinte quase ao mesmo tempo que o som direto; é um fenômeno de reflexão.\n5. V – Falsa: ondas estacionárias resultam de reflexão e interferência, não de difração.\n6. Duas sentenças verdadeiras (III e IV).\nGabarito: B.",
+  "topicos": [
+    "espectro-eletromagnetico",
+    "polarizacao",
+    "reflexao-e-refracao-de-ondas",
+    "ondas-estacionarias-e-cordas-vibrantes"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-10T14:13:24.000Z",
+  "atualizadoEm": "2026-11-10T14:13:24.000Z",
+  "revisao": {
+    "notas": "Enunciado transcrito da prova com gabarito e justificativas divulgada pela própria Acafe (o caderno aplicado não foi obtido; exceção autorizada pelo Lucas). Gabarito oficial, do mesmo documento. Destaque em vermelho da alternativa correta não reproduzido."
+  }
+}
