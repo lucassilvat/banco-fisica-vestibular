@@ -1,0 +1,30 @@
+{
+  "id": "acafe-2026-q32",
+  "banca": "Acafe",
+  "ano": 2026,
+  "numero": "32",
+  "fase": "Medicina · Verão",
+  "fonte": {
+    "descricao": "Acafe, Vestibular de Medicina Verão 2026 (02/11/2025), prova com gabarito e justificativas divulgada pela Acafe"
+  },
+  "enunciado": "A radioatividade é um tema comum às disciplinas de Física e Química, sendo amplamente aplicada na medicina diagnóstica. Um dos radioisótopos mais utilizados é o Tecnécio-99m, que emite radiação gama e possui meia-vida de 6 horas, ideal para procedimentos como a cintilografia óssea.\n\nUm paciente recebe 160 mg de Tecnécio-99m, às 8h da manhã, para a realização de uma cintilografia óssea, com o objetivo de investigar possíveis metástases ósseas, decorrentes de um câncer de próstata, previamente diagnosticado.\n\nAnalise as afirmativas.\n\nI. A radiação gama possui alta frequência e pequeno comprimento de onda, características típicas de radiações eletromagnéticas de alta energia.\nII. Às 20h, restarão 80 mg do isótopo no organismo.\nIII. A radiação gama, emitida pelo decaimento do Tecnécio-99m, permite sua detecção externa, uma vez que ela atravessa tecidos biológicos com relativa facilidade.\nIV. Em um campo magnético, a radiação alfa sofre desvio em sentido oposto ao da radiação beta, enquanto a radiação gama não sofre qualquer desvio em seu movimento.\nV. Como as células e moléculas do corpo humano, por onde a radiação gama atravessa, são de dimensões muito pequenas, a radiação sofre grande difração, sendo este um fenômeno necessário para a realização da cintilografia médica.\n\nAssinale a alternativa <b>CORRETA</b>.\n\nA. Apenas duas são verdadeiras.\nB. Apenas três são verdadeiras.\nC. Apenas quatro são verdadeiras.\nD. Todas são verdadeiras.",
+  "figuras": [],
+  "gabarito": "B",
+  "gabaritoFonte": "oficial",
+  "resolucao": "1. I – Verdadeira: a radiação gama é uma onda eletromagnética de frequência muito alta e comprimento de onda muito pequeno; como <i>E</i> = <i>hf</i>, seus fótons têm alta energia.\n2. II – Falsa: das 8h às 20h passam 12 h, ou seja, 12/6 = 2 meias-vidas. A massa cai para 160 · (1/2)<sup>2</sup> = 40 mg, não 80 mg.\n3. III – Verdadeira: a radiação gama é muito penetrante, atravessa os tecidos e pode ser captada por detectores externos (gama-câmara).\n4. IV – Verdadeira: a partícula alfa tem carga positiva e a beta (elétron) tem carga negativa, então a força magnética <i>F</i> = |<i>q</i>|<i>vB</i>·sen<i>θ</i> as desvia em sentidos opostos; a radiação gama não tem carga e não é desviada.\n5. V – Falsa: a difração só é acentuada quando o comprimento de onda é da ordem das dimensões do obstáculo. O comprimento de onda da radiação gama é muito menor que células e moléculas, então a difração é desprezível; o exame se baseia na penetração da radiação, não na difração.\n6. São verdadeiras I, III e IV: três afirmativas.\nGabarito: B.",
+  "topicos": [
+    "radioatividade-e-decaimento",
+    "meia-vida",
+    "espectro-eletromagnetico",
+    "forca-magnetica-sobre-carga-em-movimento"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-10T12:50:19.000Z",
+  "atualizadoEm": "2026-11-10T12:50:19.000Z",
+  "revisao": {
+    "notas": "Enunciado transcrito da prova com gabarito e justificativas divulgada pela própria Acafe (o caderno aplicado não foi obtido; decisão do Lucas em 10/11/2026). Gabarito oficial, do mesmo documento. Destaque em vermelho da alternativa correta não reproduzido. 'meia' é 'meia-vida' com hífen na quebra de linha.",
+    "divergenciasAceitas": [
+      "meia"
+    ]
+  }
+}

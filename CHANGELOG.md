@@ -4,6 +4,20 @@ Cada versão corresponde a um lote de importação ou a uma mudança no app/pipe
 Formato: `vMAIOR.MENOR.CORREÇÃO` — MENOR sobe a cada prova importada; MAIOR, em mudanças
 de modelo de dados; CORREÇÃO, em correções de questões já publicadas.
 
+## v1.17.0 — 2026-11-10
+
+- **Acafe, Vestibular de Medicina Verão 2026** (02/11/2025): 7 questões, 1 figura: Q29 a Q35
+  (bloco de Física). Primeira prova da Acafe. Q36 (Química, fissão nuclear) ficou de fora por
+  decisão do Lucas.
+  - Fonte do enunciado: a prova com gabarito e justificativas divulgada pela própria Acafe
+    (o caderno aplicado é de difícil acesso). Exceção à regra "prova comentada não é fonte",
+    autorizada pelo Lucas; registrada em `revisao.notas` de cada questão.
+  - Gabaritos: `oficial`, do mesmo documento; todas as resoluções próprias conferem.
+  - O formulário e a tabela de constantes do início do bloco não são repetidos: só entra o
+    dado de que a questão precisa (Q29: `CONSTANTES FÍSICAS` / g = 10 m/s², antes das alternativas).
+  - Pipeline: segmentador de coluna única para chaves `acafe-*` (título "NN)" em negrito; o
+    quadro "Dados da questão" fica fora do segmento); `registrar-prova` normaliza "Acafe".
+
 ## v1.16.0 — 2026-11-08
 
 - **ENEM 2017, 2º dia (caderno 5 amarelo)**: 14 questões, 14 figuras: Q93, Q97, Q99, Q101,

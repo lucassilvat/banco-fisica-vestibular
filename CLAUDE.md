@@ -13,7 +13,8 @@ Responda e escreva documentação em português do Brasil.
 2. **Nunca publicar sem `python -m pipeline verificar` sem erros.** Avisos de fidelidade
    são olhados um a um; os legítimos vão para `revisao.divergenciasAceitas`.
 3. **Fonte oficial.** Só PDFs registrados em `data/fontes/manifesto.json`. Prova
-   comentada não é fonte de enunciado (só de gabarito, marcado como tal).
+   comentada não é fonte de enunciado (só de gabarito, marcado como tal); exceção: Acafe
+   (ver `docs/CRITERIOS.md`).
 4. **Resolução comentada passo a passo** em toda questão revisada.
 5. Na dúvida se uma questão é de Física, mostrar a lista ao Lucas antes de transcrever.
 

@@ -1,0 +1,25 @@
+{
+  "id": "acafe-2026-q31",
+  "banca": "Acafe",
+  "ano": 2026,
+  "numero": "31",
+  "fase": "Medicina · Verão",
+  "fonte": {
+    "descricao": "Acafe, Vestibular de Medicina Verão 2026 (02/11/2025), prova com gabarito e justificativas divulgada pela Acafe"
+  },
+  "enunciado": "O astrônomo Edwin Hubble (1889–1953) foi responsável por uma verdadeira revolução na cosmologia moderna ao demonstrar, a partir de observações astronômicas, que existem outras galáxias além da Via Láctea e que o universo está em expansão acelerada. Sua contribuição deu origem à chamada Lei de Hubble, e sustentou as bases da teoria do Big Bang.\n\nEm sua homenagem, foi lançado em 1990 o Telescópio Espacial Hubble, posicionado fora da atmosfera terrestre, com o objetivo de capturar imagens precisas e detalhadas do universo profundo.\nEm 2025, comemoram-se os 35 anos do Hubble, marco da instrumentação óptica astronômica moderna. Essa data serve de inspiração para revisitarmos os fundamentos físicos dos instrumentos ópticos clássicos como lupas, microscópios e lunetas, que possibilitam ao ser humano enxergar o que está além da capacidade natural dos olhos.\n\nCom base nos conhecimentos de óptica geométrica, em relação aos instrumentos ópticos tradicionais, analise as proposições.\n\nI. A lupa é formada por uma lente convergente, e a imagem formada é virtual, direita e maior que o objeto.\nII. No microscópio composto, a objetiva forma uma imagem real e invertida, que é ampliada novamente pela ocular, gerando uma imagem final virtual e invertida.\nIII. A luneta astronômica tradicional utiliza duas lentes convergentes (objetiva e ocular), resultando em uma imagem final real, invertida e ampliada.\nIV. A distância focal da objetiva de um microscópio composto costuma ser menor que a da ocular, enquanto na luneta astronômica ocorre o contrário — a objetiva tem distância focal maior que a ocular.\nV. A luneta terrestre (como a de Galileu) utiliza uma ocular divergente, o que proporciona uma imagem direita, ao contrário das lunetas astronômicas e do microscópio composto, que utilizam oculares convergentes e produzem imagens invertidas.\nVI. A vergência da ocular de uma luneta terrestre é positiva, enquanto a da luneta astronômica é negativa, o que permite identificar o tipo de instrumento óptico, observando a natureza da lente utilizada.\n\nAssinale a alternativa <b>CORRETA</b>.\n\nA. Apenas as proposições I, III e VI estão corretas.\nB. Apenas as proposições III, IV e V estão corretas.\nC. Apenas as proposições I, II, IV e V estão corretas.\nD. Apenas as proposições II e VI estão corretas.",
+  "figuras": [],
+  "gabarito": "C",
+  "gabaritoFonte": "oficial",
+  "resolucao": "1. I – Correta: a lupa é uma lente convergente com o objeto entre o foco e a lente; a imagem é virtual, direita e maior.\n2. II – Correta: a objetiva forma uma imagem real e invertida, que serve de objeto para a ocular; esta funciona como lupa e dá a imagem final virtual, ampliada e invertida em relação ao objeto.\n3. III – Incorreta: na luneta astronômica a ocular também funciona como lupa, logo a imagem final é virtual (e invertida), não real.\n4. IV – Correta: no microscópio a objetiva tem distância focal pequena (para ampliar objetos próximos); na luneta a objetiva tem distância focal grande, maior que a da ocular, e o aumento angular é <i>f</i><sub>obj</sub>/<i>f</i><sub>oc</sub>.\n5. V – Correta: na luneta de Galileu a ocular é divergente e a imagem final é direita; na luneta astronômica e no microscópio composto, as oculares são convergentes e a imagem final é invertida.\n6. VI – Incorreta: os sinais estão trocados; a ocular divergente (luneta de Galileu) tem vergência negativa, e a ocular convergente (luneta astronômica) tem vergência positiva.\n7. Corretas: I, II, IV e V.\nGabarito: C.",
+  "topicos": [
+    "instrumentos-opticos-lupa-microscopio-luneta",
+    "lentes-esfericas-vergencia-gauss-aumento"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-10T12:50:19.000Z",
+  "atualizadoEm": "2026-11-10T12:50:19.000Z",
+  "revisao": {
+    "notas": "Enunciado transcrito da prova com gabarito e justificativas divulgada pela própria Acafe (o caderno aplicado não foi obtido; decisão do Lucas em 10/11/2026). Gabarito oficial, do mesmo documento. Destaque em vermelho da alternativa correta não reproduzido."
+  }
+}

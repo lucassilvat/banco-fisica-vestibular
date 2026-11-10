@@ -16,7 +16,7 @@ def nums(s: str) -> list[int]:
     return out
 
 
-NOMES_BANCA = {"fuvest": "Fuvest", "unicamp": "Unicamp", "unesp": "Unesp", "enem": "ENEM"}
+NOMES_BANCA = {"fuvest": "Fuvest", "unicamp": "Unicamp", "unesp": "Unesp", "enem": "ENEM", "acafe": "Acafe"}
 
 
 def registrar_prova(a):

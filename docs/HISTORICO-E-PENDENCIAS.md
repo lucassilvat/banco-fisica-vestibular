@@ -101,6 +101,16 @@ Para gravar questões, usam-se os lotes da etapa `publicar` (docs/WORKFLOW.md).
       2017 Q103, Q130). Foram lidas e recortadas pela página inteira.
     - Q125 de 2020 é uma tirinha (Garfield) reproduzida do caderno, como figura da prova.
 
+16. v1.17.0: Acafe, Vestibular de Medicina Verão 2026, Q29–Q35 (bloco de Física). Primeira
+    prova da Acafe: coluna única, alternativas "A.", itens em algarismos romanos. O Lucas
+    autorizou usar como fonte do enunciado a prova com gabarito e justificativas divulgada
+    pela própria Acafe (o caderno aplicado é de difícil acesso) e marcar o gabarito como
+    `oficial`. Decisão dele: não repetir o formulário/constantes do bloco; só o dado necessário
+    entra na questão (Q29: g = 10 m/s², bloco "CONSTANTES FÍSICAS" antes das alternativas).
+    Q36 (Química, fissão) ficou de fora. Observações: a justificativa da banca para a Q33
+    diz "cai para 1m/s" (o certo é 0,1 m/s); na Q29 a banca usa distância percorrida como
+    "velocidade escalar média" (pelo deslocamento daria a alternativa B), registrado na resolução.
+
 ## Pendências
 
 - **ENEM 2016**: falta o caderno do **1º dia** (Ciências Humanas e Ciências da Natureza):

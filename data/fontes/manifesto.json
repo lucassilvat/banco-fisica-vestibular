@@ -399,6 +399,18 @@
       "url": "",
       "sha256": "0a59697676989b55e6f3e40636fad164c1c26868ddba37d04e4fffc101168298",
       "paginas": 32
+    },
+    {
+      "banca": "Acafe",
+      "ano": 2026,
+      "versao": "",
+      "tipo": "caderno",
+      "descricao": "Acafe, Vestibular de Medicina Verão 2026 (02/11/2025), prova com gabarito e justificativas divulgada pela Acafe",
+      "fase": "Medicina · Verão",
+      "arquivoLocal": "fontes/acafe-2026-caderno.pdf",
+      "url": "",
+      "sha256": "3fe89df2bc30e5d87bb5fe25c1ca4c05ef042df18abb28be384f2b0c760615ea",
+      "paginas": 73
     }
   ]
 }

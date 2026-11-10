@@ -7,6 +7,8 @@
   ("calcule" não vira "determine"), sem mencionar figura que o original não menciona.
 - Fonte: **caderno de questões aplicado**, da banca. Prova comentada, resolução de
   cursinho ou site de terceiros não servem como fonte do texto.
+  Exceção autorizada pelo Lucas: Acafe, cuja prova com gabarito e justificativas é divulgada
+  pela própria banca (o caderno aplicado é de difícil acesso).
 - Se o texto literal não puder ser obtido (PDF escaneado ilegível, trecho faltando),
   a questão **não entra**; registre o motivo no commit ou na conversa.
 - Erros do original ficam como estão (ex.: Unicamp 2017 Q60, alternativas sem "×").
@@ -24,6 +26,8 @@
 | Texto comum a várias questões | repetido no início de cada uma, com o título original |
 | Instrução geral ("use g = 10 m/s²") | repetida nas questões em que vale, conforme a prova |
 | Alternativas | no fim, uma por linha, com o rótulo do caderno: `a) ...` (Unicamp), `(A) ...` (Fuvest, Unesp, ENEM; no ENEM a letra é um círculo, transcrito como `(A)`) |
+| Alternativas (Acafe) | `A. ...`, como no caderno |
+| Formulário/constantes (Acafe) | não se repete o quadro; só o dado necessário, como bloco `CONSTANTES FÍSICAS` antes das alternativas |
 | "Note e adote" (Fuvest) | bloco de texto antes das alternativas, começando por `Note e adote:` |
 | Tabela | figura recortada do caderno |
 

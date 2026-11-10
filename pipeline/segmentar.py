@@ -37,6 +37,41 @@ def titulos(doc, so_numero=False):
     return achados
 
 
+# Acafe: coluna única; título "NN)" em negrito no início do parágrafo; a versão divulgada
+# traz depois de cada questão o quadro "Dados da questão" (gabarito e justificativa), que fica fora.
+TITULO_ACAFE = re.compile(r"(\d{2})\)")
+
+
+def segmentos_coluna_unica(doc, margem_inferior=30, topo=20):
+    W, H = doc[0].rect.width, doc[0].rect.height
+    marcos = []   # (pagina, y, numero ou None para fim de questão)
+    for pi, pg in enumerate(doc):
+        for b in pg.get_text("dict")["blocks"]:
+            for l in b.get("lines", []):
+                sp = [s for s in l["spans"] if s["text"].strip()]
+                if not sp: continue
+                t = "".join(s["text"] for s in l["spans"]).strip()
+                m = TITULO_ACAFE.match(t)
+                if m and "Bold" in sp[0]["font"]:
+                    marcos.append((pi, l["bbox"][1], int(m.group(1))))
+                elif t.startswith("Dados da questão"):
+                    marcos.append((pi, l["bbox"][1], None))
+    marcos.sort()
+    seg = {}
+    for i, (pi, y, n) in enumerate(marcos):
+        if n is None or n in seg: continue
+        prox = marcos[i + 1] if i + 1 < len(marcos) else None
+        regs, cp, cy = [], pi, y - 2
+        while True:
+            if prox and prox[0] == cp:
+                regs.append([cp + 1, 0, cy, W, prox[1] - 2]); break
+            regs.append([cp + 1, 0, cy, W, H - margem_inferior])
+            if prox is None or len(regs) > 3: break
+            cp, cy = cp + 1, topo
+        seg[n] = [r for r in regs if r[4] - r[2] > 5]   # descarta faixa vazia quando a questão termina no fim da página
+    return seg
+
+
 def titulos_ocr(doc, extra=None):
     """Títulos desenhados como vetor (sem texto no PDF, ex.: Fuvest 2018): acha "NN" por OCR."""
     import subprocess, tempfile
@@ -81,7 +116,10 @@ def segmentos(doc, margem_inferior=30, topo=40, so_numero=False, extra=None):
 def executar(chave: str):
     doc = pymupdf.open(pdf_da_prova(chave))
     extra = pasta_trabalho(chave) / "titulos-ajustes.json"   # {"11": [pagina0, [x0,y0,x1,y1]]} para títulos que o OCR não achou
-    seg = segmentos(doc, so_numero=chave.startswith("fuvest"), extra=str(extra) if extra.exists() else None)
+    if chave.startswith("acafe"):
+        seg = segmentos_coluna_unica(doc)
+    else:
+        seg = segmentos(doc, so_numero=chave.startswith("fuvest"), extra=str(extra) if extra.exists() else None)
     d = pasta_trabalho(chave)
     (d / "segmentos.json").write_text(json.dumps(seg, indent=1))
     linhas = []

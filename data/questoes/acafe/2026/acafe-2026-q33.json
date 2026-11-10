@@ -1,0 +1,24 @@
+{
+  "id": "acafe-2026-q33",
+  "banca": "Acafe",
+  "ano": 2026,
+  "numero": "33",
+  "fase": "Medicina · Verão",
+  "fonte": {
+    "descricao": "Acafe, Vestibular de Medicina Verão 2026 (02/11/2025), prova com gabarito e justificativas divulgada pela Acafe"
+  },
+  "enunciado": "Durante um exame de imagem por Doppler vascular, um neurologista observa um aneurisma fusiforme em uma artéria cerebral de um paciente. A artéria saudável possui diâmetro interno de 8 mm e conduz sangue com velocidade média de 0,4 m/s. No trecho com aneurisma, o diâmetro da artéria dobra, atingindo 16 mm, e o escoamento permanece estável. Sabe-se que o sangue pode ser tratado como fluido incompressível em regime laminar permanente.\n\nCom base nessas informações, analise as afirmativas.\n\nI. A velocidade do sangue no aneurisma é de aproximadamente 0,1 m/s, considerando a densidade do sangue constante.\nII. A velocidade da corrente sanguínea é maior no interior do aneurisma, em razão do maior volume de sangue que atravessa a artéria.\nIII. A vazão sanguínea se mantém constante ao longo da parte da artéria examinada.\nIV. A relação entre áreas e velocidades só é válida para fluidos ideais, ou seja, sem viscosidade.\nV. A redução da velocidade do sangue, no interior do aneurisma, pode favorecer a formação de trombos.\n\nAssinale a alternativa <b>CORRETA</b>.\n\nA. Somente as afirmativas II e III estão corretas.\nB. Somente as afirmativas I e IV estão corretas.\nC. Somente as afirmativas I, III e V estão corretas.\nD. Todas as afirmativas estão corretas.",
+  "figuras": [],
+  "gabarito": "C",
+  "gabaritoFonte": "oficial",
+  "resolucao": "1. Para fluido incompressível em regime permanente vale a equação da continuidade: <i>A</i><sub>1</sub><i>v</i><sub>1</sub> = <i>A</i><sub>2</sub><i>v</i><sub>2</sub> (vazão constante).\n2. A área da seção é proporcional ao quadrado do diâmetro (<i>A</i> = π<i>d</i><sup>2</sup>/4). Se o diâmetro dobra, de 8 mm para 16 mm, a área fica 4 vezes maior.\n3. I – Correta: <i>v</i><sub>2</sub> = <i>v</i><sub>1</sub>/4 = 0,4/4 = 0,1 m/s.\n4. II – Incorreta: a velocidade diminui no aneurisma, porque a mesma vazão passa por uma área maior.\n5. III – Correta: a vazão é a mesma em todas as seções do trecho examinado.\n6. IV – Incorreta: a equação da continuidade decorre da conservação da massa de um fluido incompressível em regime permanente e vale também para fluidos viscosos; a hipótese de fluido ideal é exigida pela equação de Bernoulli, não pela continuidade.\n7. V – Correta (conhecimento de Biologia): o fluxo lento aumenta o tempo de permanência do sangue no local, o que favorece a formação de trombos.\nGabarito: C.",
+  "topicos": [
+    "vazao-e-equacao-da-continuidade"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-10T12:50:19.000Z",
+  "atualizadoEm": "2026-11-10T12:50:19.000Z",
+  "revisao": {
+    "notas": "Enunciado transcrito da prova com gabarito e justificativas divulgada pela própria Acafe (o caderno aplicado não foi obtido; decisão do Lucas em 10/11/2026). Gabarito oficial, do mesmo documento. Destaque em vermelho da alternativa correta não reproduzido."
+  }
+}

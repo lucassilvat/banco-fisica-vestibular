@@ -1,0 +1,29 @@
+{
+  "id": "acafe-2026-q34",
+  "banca": "Acafe",
+  "ano": 2026,
+  "numero": "34",
+  "fase": "Medicina · Verão",
+  "fonte": {
+    "descricao": "Acafe, Vestibular de Medicina Verão 2026 (02/11/2025), prova com gabarito e justificativas divulgada pela Acafe"
+  },
+  "enunciado": "Segundo a American Heart Association (AHA), o uso precoce de desfibriladores automáticos pode aumentar em até 70% a chance de sobrevivência após uma parada cardíaca súbita. Esses aparelhos funcionam com circuitos elétricos simples, capazes de acumular e descarregar energia rapidamente por meio de capacitores.\n\nO esquema a seguir representa parte do circuito RC, com resistores ôhmicos, também presentes nos desfibriladores, onde uma fonte ideal de 300 V está ligada em série com uma chave A. Após a chave, o circuito divide-se em três ramos em paralelo.\nApós a chave ser fechada, o circuito permanece assim por tempo suficiente para que os capacitores fiquem completamente carregados. Em seguida, a chave é aberta, isolando a fonte.\n\nDados:\n- Ramo 1: R<sub>1</sub> = 2 kΩ em série com C<sub>1</sub> = 10 µF\n- Ramo 2: R<sub>2</sub> = 1 kΩ em série com C<sub>2</sub> = 20 µF\n- Ramo 3: R<sub>3</sub> = 4 kΩ e R<sub>4</sub> = 6 kΩ em série.\n\n[[figura 1]]\n\nAnalise as afirmativas.\n\nI. Com a chave A fechada, a corrente que atravessa a fonte ideal é de 30 mA.\nII. Com a chave A fechada, a energia armazenada no capacitor C<sub>1</sub>, totalmente carregado, é de 450 mJ.\nIII. Com a chave A fechada e o capacitor C<sub>2</sub> completamente carregado, o potencial elétrico sobre ele é menor que 300 V, pois está em série com o resistor R<sub>2</sub>.\nIV. Com os capacitores completamente carregados, a carga elétrica total acumulada na associação é de 9 mC.\nV. Com a chave A aberta, não haverá corrente percorrendo o circuito RC.\n\nAssinale a alternativa <b>CORRETA</b>.\n\nA. Somente as afirmativas II, IV e V estão corretas.\nB. Somente as afirmativas I, II e IV estão corretas.\nC. Somente as afirmativas I, II, IV e V estão corretas.\nD. Somente as afirmativas I, III e IV estão corretas.",
+  "figuras": [
+    "acafe-2026-q34-1.png"
+  ],
+  "gabarito": "B",
+  "gabaritoFonte": "oficial",
+  "resolucao": "1. Com a chave fechada e os capacitores completamente carregados, não há corrente nos ramos 1 e 2 (capacitor carregado se comporta como circuito aberto). Só o ramo 3 conduz.\n2. I – Correta: <i>R</i><sub>eq</sub> = <i>R</i><sub>3</sub> + <i>R</i><sub>4</sub> = 4 + 6 = 10 kΩ; <i>i</i> = <i>U</i>/<i>R</i><sub>eq</sub> = 300/(10 × 10<sup>3</sup>) = 0,03 A = 30 mA.\n3. Como não há corrente em <i>R</i><sub>1</sub> e <i>R</i><sub>2</sub>, a ddp nesses resistores é nula e cada capacitor fica com a ddp total dos ramos: 300 V.\n4. II – Correta: <i>E</i> = <i>C</i><i>U</i><sup>2</sup>/2 = (10 × 10<sup>−6</sup> · 300<sup>2</sup>)/2 = 0,45 J = 450 mJ.\n5. III – Incorreta: com C<sub>2</sub> carregado não há corrente em R<sub>2</sub>, então a ddp em C<sub>2</sub> é 300 V.\n6. IV – Correta: <i>Q</i><sub>1</sub> = <i>C</i><sub>1</sub><i>U</i> = 10 × 10<sup>−6</sup> · 300 = 3 mC; <i>Q</i><sub>2</sub> = <i>C</i><sub>2</sub><i>U</i> = 20 × 10<sup>−6</sup> · 300 = 6 mC; total 9 mC.\n7. V – Incorreta: ao abrir a chave, só a fonte sai do circuito; os três ramos continuam ligados entre si e formam malhas fechadas. Os capacitores carregados se descarregam através dos resistores (principalmente pelo ramo 3), e há corrente transitória.\nGabarito: B.",
+  "topicos": [
+    "capacitores-e-capacitancia",
+    "associacao-de-capacitores",
+    "associacao-de-resistores",
+    "primeira-lei-de-ohm"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-10T12:50:19.000Z",
+  "atualizadoEm": "2026-11-10T12:50:19.000Z",
+  "revisao": {
+    "notas": "Enunciado transcrito da prova com gabarito e justificativas divulgada pela própria Acafe (o caderno aplicado não foi obtido; decisão do Lucas em 10/11/2026). Gabarito oficial, do mesmo documento. Destaque em vermelho da alternativa correta não reproduzido."
+  }
+}

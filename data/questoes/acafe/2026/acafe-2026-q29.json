@@ -1,0 +1,26 @@
+{
+  "id": "acafe-2026-q29",
+  "banca": "Acafe",
+  "ano": 2026,
+  "numero": "29",
+  "fase": "Medicina · Verão",
+  "fonte": {
+    "descricao": "Acafe, Vestibular de Medicina Verão 2026 (02/11/2025), prova com gabarito e justificativas divulgada pela Acafe"
+  },
+  "enunciado": "Que bom se tivesse sido assim...\n\nFim de tarde em Pisa. O jovem Galileu, com a mente inquieta e as pernas ligeiramente trêmulas diante do seu medo de altura, sobe com cuidado os degraus da famosa torre. Nas mãos, duas esferas idênticas no tamanho, mas diferentes na densidade: uma oca, outra maciça.\nLá embaixo, aglomeram-se professores ranzinzas, estudantes curiosos, e um monge franciscano de cara fechada — enviado pelas autoridades acadêmicas para vigiar de perto qualquer possível ofensa ao bom e velho Aristóteles.\n\"Ambas cairão ao mesmo tempo!\", diz o jovem com a voz firme (mas as mãos talvez nem tanto).\nO monge sorri de canto e responde, ajeitando o capuz:\n\"Veremos... embora duvide que uma esfera de vento possa acompanhar uma de verdade. Mas faça seu teatrinho, jovem.\"\nGalileu respira fundo, avança até a beira da torre, vence o frio na barriga, estica os braços, solta as esferas e ouve apenas um TOC.\nAmbas tocam o chão exatamente juntas.\nA multidão silencia. Os estudantes entreolham-se. Um professor pigarreia. O monge fecha o semblante, murmura algo em latim e desaparece pelas vielas de Pisa.\nTalvez nunca tenha sido assim. Mas... que bom se tivesse sido.\nAgora você, imaginando-se com uma das esferas de Galileu, deseja determinar a velocidade escalar média da mesma entre o final do 1º segundo de lançamento e o final do 4º segundo, sendo ela lançada para cima a partir do solo com uma velocidade de 30 m/s.\n\nDesprezando a resistência do ar, a alternativa que apresenta o valor aproximadamente <b>CORRETO</b> da velocidade escalar média é:\n\nCONSTANTES FÍSICAS\n<i>g</i> = 10 m/s<sup>2</sup>\n\nA. 8,3 m/s\nB. 5,0 m/s\nC. 3,2 m/s\nD. 12,0 m/s",
+  "figuras": [],
+  "gabarito": "A",
+  "gabaritoFonte": "oficial",
+  "resolucao": "1. Orientando a trajetória para cima a partir do solo, com <i>v</i><sub>0</sub> = 30 m/s e <i>g</i> = 10 m/s<sup>2</sup>: <i>S</i> = 30<i>t</i> − 5<i>t</i><sup>2</sup> e <i>v</i> = 30 − 10<i>t</i> (SI).\n2. A esfera para no ponto mais alto quando <i>v</i> = 0: <i>t</i> = 3 s, com <i>S</i>(3) = 90 − 45 = 45 m.\n3. Posições nos instantes pedidos: <i>S</i>(1) = 30 − 5 = 25 m e <i>S</i>(4) = 120 − 80 = 40 m.\n4. Como o movimento muda de sentido em <i>t</i> = 3 s, a distância percorrida é a soma dos trechos: de 1 s a 3 s a esfera sobe 45 − 25 = 20 m; de 3 s a 4 s desce 45 − 40 = 5 m. Total: 25 m.\n5. Intervalo de tempo: Δ<i>t</i> = 4 − 1 = 3 s. Velocidade escalar média: 25/3 ≈ 8,3 m/s.\nGabarito: A.\nObservação: a banca entende \"velocidade escalar média\" como distância percorrida dividida pelo tempo. Usando o deslocamento escalar (<i>S</i>(4) − <i>S</i>(1) = 15 m), obter-se-ia 15/3 = 5,0 m/s, a alternativa B.",
+  "topicos": [
+    "queda-livre-e-lancamento-vertical",
+    "velocidade-media-e-aceleracao-media",
+    "movimento-retilineo-uniformemente-variado-mruv"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-10T12:50:19.000Z",
+  "atualizadoEm": "2026-11-10T12:50:19.000Z",
+  "revisao": {
+    "notas": "Enunciado transcrito da prova com gabarito e justificativas divulgada pela própria Acafe (o caderno aplicado não foi obtido; decisão do Lucas em 10/11/2026). Gabarito oficial, do mesmo documento. Destaque em vermelho da alternativa correta não reproduzido. O caderno traz um formulário e uma tabela de constantes no início do bloco de Física; por decisão do Lucas, só o dado necessário (g = 10 m/s², da tabela CONSTANTES FÍSICAS) foi incluído, antes das alternativas."
+  }
+}
