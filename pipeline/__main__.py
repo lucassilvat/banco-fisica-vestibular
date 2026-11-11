@@ -16,7 +16,7 @@ def nums(s: str) -> list[int]:
     return out
 
 
-NOMES_BANCA = {"fuvest": "Fuvest", "unicamp": "Unicamp", "unesp": "Unesp", "enem": "ENEM", "acafe": "Acafe"}
+NOMES_BANCA = {"fuvest": "Fuvest", "unicamp": "Unicamp", "unesp": "Unesp", "enem": "ENEM", "acafe": "Acafe", "einstein": "Einstein"}
 
 
 def registrar_prova(a):
@@ -26,7 +26,7 @@ def registrar_prova(a):
         raise SystemExit(f"Copie o PDF oficial para {pdf} e rode de novo.")
     import pymupdf
     man_p = DADOS / "fontes" / "manifesto.json"; man = json.loads(man_p.read_text(encoding="utf-8"))
-    reg = dict(banca=a.banca, ano=a.ano, versao=a.versao, **({"edicao": a.edicao} if a.edicao else {}), tipo=a.tipo, descricao=a.descricao, fase=a.fase,
+    reg = dict(banca=a.banca, ano=a.ano, versao=a.versao, **({"edicao": a.edicao} if a.edicao else {}), tipo=a.tipo, **({"questoes": "discursivas"} if a.discursivas else {}), **({"layout": a.layout} if a.layout else {}), descricao=a.descricao, fase=a.fase,
                arquivoLocal=str(pdf.relative_to(RAIZ)), url=a.url, sha256=hashlib.sha256(pdf.read_bytes()).hexdigest(),
                paginas=len(pymupdf.open(pdf)))
     man["provas"] = [p for p in man["provas"] if p["arquivoLocal"] != reg["arquivoLocal"]] + [reg]
@@ -36,8 +36,8 @@ def registrar_prova(a):
 
 def painel(_):
     qs = [q for _, q in carregar_questoes()]
-    print(f"{len(qs)} questões | status: {dict(Counter(q['status'] for q in qs))}")
-    print("por prova:", dict(sorted(Counter(f"{q['banca']} {q['ano']}{q.get('versao','')}" for q in qs).items())))
+    print(f"{len(qs)} questões | status: {dict(Counter(q['status'] for q in qs))} | tipo: {dict(Counter(q.get('tipo', 'objetiva') for q in qs))}")
+    print("por prova:", dict(sorted(Counter(f"{q['banca']} {q['ano']}{q.get('versao','')}" + (f" {q['edicao']}" if q.get('edicao') else "") for q in qs).items())))
     uso = Counter(t for q in qs for t in q["topicos"])
     vazios = []
     for area in taxonomia()["areas"]:
@@ -53,8 +53,10 @@ def main():
     s = p.add_subparsers(dest="cmd", required=True)
     r = s.add_parser("registrar-prova", help="1. registra um PDF oficial em data/fontes/manifesto.json")
     r.add_argument("banca"); r.add_argument("ano", type=int); r.add_argument("--versao", default="")
-    r.add_argument("--edicao", default="", help="separa provas da mesma banca e ano sem virar rótulo no app (ex.: Verão, Inverno)")
+    r.add_argument("--edicao", default="", help="separa provas da mesma banca e ano sem virar rótulo de ano no app (ex.: Verão, Inverno, Prova I)")
     r.add_argument("--tipo", default="caderno", choices=["caderno", "gabarito", "prova-comentada"])
+    r.add_argument("--discursivas", action="store_true", help="caderno de questões discursivas (os rascunhos saem com tipo 'discursiva')")
+    r.add_argument("--layout", default="", choices=["", "largura-total"], help="largura-total: uma questão por página, sem colunas (Einstein, Prova II)")
     r.add_argument("--descricao", required=True); r.add_argument("--fase", default="1ª fase"); r.add_argument("--url", default="")
     r.set_defaults(f=registrar_prova)
     x = s.add_parser("segmentar", help="2. divide o caderno em questões"); x.add_argument("prova")

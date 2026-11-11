@@ -1,0 +1,25 @@
+{
+  "id": "einstein-2023-prova-i-q36",
+  "banca": "Einstein",
+  "ano": 2023,
+  "edicao": "Prova I",
+  "numero": "36",
+  "fase": "Prova I",
+  "fonte": {
+    "descricao": "Vunesp, Vestibular Einstein 2023 (Faculdade Israelita de Ciências da Saúde Albert Einstein), Prova I (objetiva), caderno de questões"
+  },
+  "enunciado": "Parte da energia que ingerimos quando nos alimentamos é utilizada apenas para manter nosso organismo funcionando. A tabela mostra valores aproximados do consumo de energia (potência média diária) por algumas estruturas do corpo de um ser humano adulto.\n\n[[figura 1]]\n\n(Otaviano A. M. Helene. <i>Um pouco da física do cotidiano</i>, 2016.)\n\nNa embalagem de um pacote de arroz há a seguinte informação: valor energético de uma porção de 50 g = 700 kJ. Sabendo que 1 h = 3 600 s, a quantidade de arroz que uma pessoa adulta precisa ingerir apenas para repor a energia gasta pelas estruturas indicadas na tabela em um intervalo de tempo de 10 h é de, aproximadamente,\n\n(A) 200 g.\n(B) 100 g.\n(C) 300 g.\n(D) 400 g.\n(E) 500 g.",
+  "figuras": [
+    "einstein-2023-prova-i-q36-1.png"
+  ],
+  "gabarito": "A",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. Potência total das estruturas da tabela: <i>P</i> = 20 + 10 + 25 + 7 + 18 = 80 W.\n2. Intervalo de tempo: Δ<i>t</i> = 10 h = 10 · 3 600 s = 36 000 s.\n3. Energia gasta: <i>E</i> = <i>P</i> · Δ<i>t</i> = 80 · 36 000 = 2 880 000 J = 2 880 kJ.\n4. Cada 50 g de arroz fornecem 700 kJ. Por proporção: <i>m</i> = (2 880/700) · 50 g ≈ 4,1 · 50 g ≈ 206 g.\n5. O valor mais próximo é 200 g.\nGabarito: A.",
+  "topicos": [
+    "potencia-e-rendimento",
+    "grandezas-fisicas-e-sistema-internacional"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-10T16:52:23.000Z",
+  "atualizadoEm": "2026-11-10T16:54:14.000Z"
+}

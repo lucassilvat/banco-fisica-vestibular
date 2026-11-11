@@ -1,0 +1,32 @@
+{
+  "id": "einstein-2023-prova-i-q39",
+  "banca": "Einstein",
+  "ano": 2023,
+  "edicao": "Prova I",
+  "numero": "39",
+  "fase": "Prova I",
+  "fonte": {
+    "descricao": "Vunesp, Vestibular Einstein 2023 (Faculdade Israelita de Ciências da Saúde Albert Einstein), Prova I (objetiva), caderno de questões"
+  },
+  "enunciado": "A velocidade de propagação de uma onda em uma corda pode ser calculada pela expressão v = √(T/μ), em que T é a intensidade da força com que a corda é tracionada e μ é sua densidade linear de massa. Considere que uma corda tenha massa de 120 g, 3 m de comprimento e que se pretenda estabelecer ondas estacionárias nessa corda, como representado na figura.\n\n[[figura 1]]\n\nPara que a frequência de oscilação das ondas nessa corda seja de 30 Hz, deve-se submetê-la a uma força de tração de intensidade\n\n(A) 108 N.\n(B) 144 N.\n(C) 216 N.\n(D) 180 N.\n(E) 72 N.",
+  "figuras": [
+    "einstein-2023-prova-i-q39-1.png"
+  ],
+  "gabarito": "B",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. A figura mostra 3 fusos (ventres) em 3 m: cada fuso mede meio comprimento de onda, λ/2 = 1 m ⇒ λ = 2 m.\n2. Velocidade da onda: <i>v</i> = λ · <i>f</i> = 2 · 30 = 60 m/s.\n3. Densidade linear: μ = <i>m</i>/<i>L</i> = 0,120 kg / 3 m = 0,04 kg/m.\n4. Da expressão dada, <i>v</i><sup>2</sup> = <i>T</i>/μ ⇒ <i>T</i> = μ · <i>v</i><sup>2</sup> = 0,04 · 3 600 = 144 N.\nGabarito: B.",
+  "topicos": [
+    "velocidade-de-onda-em-cordas-taylor",
+    "ondas-estacionarias-e-cordas-vibrantes",
+    "equacao-fundamental-da-ondulatoria-v-f"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-10T16:52:23.000Z",
+  "atualizadoEm": "2026-11-10T16:54:14.000Z",
+  "revisao": {
+    "divergenciasAceitas": [
+      "estabelecer"
+    ],
+    "notas": "A expressão v = √(T/μ) é desenhada no caderno como fração sob radical; transcrita em linha, com parênteses. Divergência aceita: 'estabelecer': na camada de texto do PDF a palavra traz um hífen discricionário (U+00AD) no meio."
+  }
+}

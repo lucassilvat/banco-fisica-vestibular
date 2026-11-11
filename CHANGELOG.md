@@ -4,6 +4,28 @@ Cada versão corresponde a um lote de importação ou a uma mudança no app/pipe
 Formato: `vMAIOR.MENOR.CORREÇÃO` — MENOR sobe a cada prova importada; MAIOR, em mudanças
 de modelo de dados; CORREÇÃO, em correções de questões já publicadas.
 
+## v2.0.0 — 2026-11-11
+
+- **Modelo de dados: questões discursivas.** Novo campo `tipo` (`objetiva`, padrão quando
+  ausente, ou `discursiva`). Nas discursivas, `gabarito` fica vazio e a resposta de cada item
+  vai em `respostas` (`[{"item": "a", "texto": "..."}]`). Esquema, `verificar` (exige
+  respostas, itens únicos e presentes no enunciado como `a)`), `publicar`, `site`,
+  `rascunho` e `painel` atualizados. As 578 questões anteriores continuam válidas.
+- **App:** selo "Discursiva" no cabeçalho da questão, respostas por item ao fim da
+  resolução e no gabarito da lista .docx, filtro "Tipo de questão" (aparece quando há os
+  dois tipos), ordenação por fase dentro do ano e fase no rótulo da lista.
+- **Einstein (Vunesp), Vestibular 2023 a 2027**: 30 questões, 34 figuras.
+  - Prova I (objetiva): Q36 a Q40 de cada ano (25 questões).
+  - Prova II (discursiva): Q03 de cada ano (5 questões).
+  - Por decisão do Lucas, o ano fica limpo e Prova I/Prova II vai no campo `edicao` (id
+    `einstein-2025-prova-ii-q03`, pasta `einstein/2025-prova-ii`, `fase` `Prova II`), como
+    na Acafe; não se usa mais o modelo `versao` da Unicamp 2021 A/B.
+  - Gabaritos e respostas: `resolucao-propria` (o Lucas fará a conferência depois).
+  - Fora: 2024 Prova I Q49 (Matemática, anos-luz) e 2025 Prova I Q33 (Química, GNV).
+- **Pipeline:** `registrar-prova --discursivas` e `--layout largura-total`; segmentador de
+  largura total (uma questão por página, termina no quadro "RESOLUÇÃO E RESPOSTA");
+  banca "Einstein" normalizada; id aceita edição com mais de uma palavra (`prova-ii`).
+
 ## v1.19.0 — 2026-11-10
 
 - **Acafe, Vestibular de Medicina Verão 2021**: 7 questões, 5 figuras: Q29 a Q35.

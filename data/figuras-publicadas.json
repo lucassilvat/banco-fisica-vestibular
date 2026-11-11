@@ -139,6 +139,142 @@
   "assetId": "a10f125e71d64b10432818ac6d8bbc0b",
   "sha256": "88e51dad2ddf3902007434018f7fee23e9ea20d7eecb2192c8b2c8851b715df4"
  },
+ "einstein-2023-prova-i-q36-1.png": {
+  "assetId": "7879c534c7288c62a713bc4e2818d6d3",
+  "sha256": "9ca582550b98b8adda39af63083972ae777576750d6866a0e442ec17698f7310"
+ },
+ "einstein-2023-prova-i-q37-1.png": {
+  "assetId": "05b2d3ad826cfe40d62dcf2417918c16",
+  "sha256": "32fa636e359d668b59d7bdc1ef8ef275bee9b06d6f6670ef12321a530d974655"
+ },
+ "einstein-2023-prova-i-q38-1.png": {
+  "assetId": "dd125b7edc0bbe3486459ab2471d0939",
+  "sha256": "f684e8b2afbc15b2ed218e521324e48b0caeddcf0c710b1b20f4eb36a817340b"
+ },
+ "einstein-2023-prova-i-q39-1.png": {
+  "assetId": "c3e773c87c5d02627264e99be869a542",
+  "sha256": "6beb6535f8f71979404a14b8f6a28686f3d6da0cea8a091f4696614025fdc610"
+ },
+ "einstein-2023-prova-i-q40-1.png": {
+  "assetId": "352c91b6cdc533b2c4ada2b3b5925c87",
+  "sha256": "0b2429909b55c1e208a714f81257718c3ec93007438b4b093e688915dc3abcd6"
+ },
+ "einstein-2023-prova-ii-q03-1.png": {
+  "assetId": "53132ac7f436380540231628931b080f",
+  "sha256": "bd7d127e102695e58fbad474a3efd5972355372c264c9c3b3ada91ab121311db"
+ },
+ "einstein-2023-prova-ii-q03-2.png": {
+  "assetId": "9a765a4aa58139c52a743e35704492f1",
+  "sha256": "b6fe591b7ebccd70b572f26a2e07d7c258c31d33a84967d0a32cae813157a94c"
+ },
+ "einstein-2024-prova-i-q36-1.png": {
+  "assetId": "cc636cca53a926894f251a806799f68a",
+  "sha256": "3c281a1ba2711e5f6042df5318aae96f90a4c30349dca5519409cfcfa0478dee"
+ },
+ "einstein-2024-prova-i-q37-1.png": {
+  "assetId": "0460dac9eec07ac9811a5336a1e6be1b",
+  "sha256": "d9590b79ce42db13ecac62c7c42dde19d0805b17d4b639d1f95f6dc604c6d363"
+ },
+ "einstein-2024-prova-i-q38-1.png": {
+  "assetId": "148546a6d79485928f0e45312c686ba0",
+  "sha256": "979338cda49c24ae882dc171b4ee1a66c35dda7501c56a4a98073a46477090f7"
+ },
+ "einstein-2024-prova-i-q39-1.png": {
+  "assetId": "f2af2f2f0fce24838cf762bc55f1ca9b",
+  "sha256": "37cd99be99b08f35918544cba771e8bc79253c1ec1805ee060b3c6e3fc6cfa7d"
+ },
+ "einstein-2024-prova-i-q40-1.png": {
+  "assetId": "285f050a6c32c6017d05fdcf8e071692",
+  "sha256": "cfb4c35118fe24188d60880c066c089d6e3d767aa879ea1eca855fffe7988609"
+ },
+ "einstein-2024-prova-i-q40-2.png": {
+  "assetId": "4bf3cb55bda4a4fefdc3893bfd1d1b93",
+  "sha256": "36ecc9ea7a62ead1f68d2456dbb4483c64cf8f42561066cc1e0c11fdbe992bf4"
+ },
+ "einstein-2024-prova-ii-q03-1.png": {
+  "assetId": "c11c0775c97dab9b46bda0132050eaf0",
+  "sha256": "7ed1ca1c1a20da2f64d271e1b76d42578dbb74c890b30ab7be4f63bb7ec069ff"
+ },
+ "einstein-2025-prova-i-q36-1.png": {
+  "assetId": "bb037a0cf037a0c02c3d13868e4070a3",
+  "sha256": "4ac49ad53fd3fa42fb83d84908f9ab8c879767c2eacb24c604e04557e43e7470"
+ },
+ "einstein-2025-prova-i-q37-1.png": {
+  "assetId": "133991d5078c0ba892df0aa3ca44f908",
+  "sha256": "4980e85559010b5972522539e72fa9e4d88e81fcaa279079099305d13d07424f"
+ },
+ "einstein-2025-prova-i-q38-1.png": {
+  "assetId": "e5a1d90ed189bd0404d3360a5823c07f",
+  "sha256": "a0a1ac38f8fdbc29affea2552b21c08671fa687b7b6496fd3eae763c2dc12ff9"
+ },
+ "einstein-2025-prova-i-q38-2.png": {
+  "assetId": "4c258ad7a3b926514c0ee81687e1306f",
+  "sha256": "9ca4a5bae38ddc5f2b0c64ac4d0182edfedf7a6dd3ef7491082ee65c95dc2100"
+ },
+ "einstein-2025-prova-i-q39-1.png": {
+  "assetId": "2ec0b75d0d35edde65001744da80f049",
+  "sha256": "9bada802b69a5d0b7b12b6d6f6f474e0c45a0d707604ac6f48d896a46cc516e0"
+ },
+ "einstein-2025-prova-i-q40-1.png": {
+  "assetId": "71b6d8bfd4424c38c261d281bda1e236",
+  "sha256": "fabf227012ac435cdd6659059d62a46d1bdda036733662775900a18e5b93a620"
+ },
+ "einstein-2025-prova-i-q40-2.png": {
+  "assetId": "c9fdd0ec874f50a03145c2465b36e44b",
+  "sha256": "ccc71a7233719858f17711f3588ebd5320c2e6ad8a56d4bfadea04151ef4fdd9"
+ },
+ "einstein-2025-prova-ii-q03-1.png": {
+  "assetId": "270a2b08247e1d58df8de6daa810931e",
+  "sha256": "d65783fe6df3572b94f2a3bac0611e5d53fbf4842c6587c2f88f58ccd31df8cf"
+ },
+ "einstein-2026-prova-i-q36-1.png": {
+  "assetId": "86e526b8ece23f38afd0ff86231a1289",
+  "sha256": "6a1ceef9d3e543bbe633e2c9dbb18c7c22db4ae8b34e6610b82168b65157e88b"
+ },
+ "einstein-2026-prova-i-q38-1.png": {
+  "assetId": "9a33147c2b7f66435df954b6e5cade5f",
+  "sha256": "c84a42ef7b6ac7673a77cf6fc69fc6d6e7359c716b3999a1cc52b101752f10d0"
+ },
+ "einstein-2026-prova-i-q40-1.png": {
+  "assetId": "3e3bce0d076bd857d902cfc92ee9396c",
+  "sha256": "4ab7462b17d4cff0d441531915ba6ce25d38d88af670907b8bc7d0a79130ec30"
+ },
+ "einstein-2026-prova-i-q40-2.png": {
+  "assetId": "50a12188183699addb18c4f72f93a876",
+  "sha256": "abb11c5f86dd0e3c398b0d765aecba2e976615e6b09450d6a597344dfdbde33e"
+ },
+ "einstein-2026-prova-ii-q03-1.png": {
+  "assetId": "956183b0403d0d7daa9c3ae182825c34",
+  "sha256": "a6b4bd6d50f11c097d43aca80797d47f03bed45aea3dcb599f47b39b42a472a7"
+ },
+ "einstein-2027-prova-i-q36-1.png": {
+  "assetId": "d421f61d849851f6cf271baf220f41c8",
+  "sha256": "d5b8adf08f1cef8ad017ff6d33fd059426aa1f9e66296d58874b904b10fd32a2"
+ },
+ "einstein-2027-prova-i-q37-1.png": {
+  "assetId": "328e7c03c65f7e35c21f467031f964e5",
+  "sha256": "5c3779206e491867b61ede1ad5d0ac1bf32361d037b7c7be1e7277c3ef306b05"
+ },
+ "einstein-2027-prova-i-q38-1.png": {
+  "assetId": "6ff237b96f6213a8541d29c3eae9c9fc",
+  "sha256": "420115a07601694fb07b437ef839f7989591185fbb7f0ae4047baa19fee2c37e"
+ },
+ "einstein-2027-prova-i-q38-2.png": {
+  "assetId": "02a6791f56fb213c5b5f5f28a0ae897b",
+  "sha256": "bb3b4815318344e4ba49a13358cda5e695bff32f93777dd243d26724d3419db1"
+ },
+ "einstein-2027-prova-i-q39-1.png": {
+  "assetId": "b929d465450c8db240dd590794883569",
+  "sha256": "9d9c9360982b9f3bf1bb6ccda6da1a838e00292e7a21ad6a0f96fbdd1a2b078d"
+ },
+ "einstein-2027-prova-i-q40-1.png": {
+  "assetId": "c3ca76e671d395d976464c124f7bfb8c",
+  "sha256": "968e4c1facf527f2c4fb6770bb19722e55f45d7f46d446986f2ae9974268b8c8"
+ },
+ "einstein-2027-prova-ii-q03-1.png": {
+  "assetId": "6826b83badf26f7f24f9198b6017e1a5",
+  "sha256": "528fbf98b1d8883655838ec5a815d5556f48e040b5f2eebf7e2f3d781167bb2c"
+ },
  "enem-2017-q101-1.png": {
   "assetId": "cb29a6aa011fadaa8c571ff816027316",
   "sha256": "b5075277c5a312cced0c71fb99aa68610788888b18e4e80b70c69eeecc419359"

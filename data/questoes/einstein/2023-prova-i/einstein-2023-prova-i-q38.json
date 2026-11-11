@@ -1,0 +1,24 @@
+{
+  "id": "einstein-2023-prova-i-q38",
+  "banca": "Einstein",
+  "ano": 2023,
+  "edicao": "Prova I",
+  "numero": "38",
+  "fase": "Prova I",
+  "fonte": {
+    "descricao": "Vunesp, Vestibular Einstein 2023 (Faculdade Israelita de Ciências da Saúde Albert Einstein), Prova I (objetiva), caderno de questões"
+  },
+  "enunciado": "Fazendo experimentos com um espelho esférico côncavo, uma pessoa colocou um objeto linear diante desse espelho, a 40 cm de seu vértice, e viu que a imagem do objeto se formou também a 40 cm do vértice do espelho e era invertida, conforme a figura.\n\n[[figura 1]]\n\nEm seguida, essa pessoa movimentou o objeto e o colocou, perpendicularmente ao eixo principal do espelho, a 10 cm de seu vértice. Nessa nova posição, viu que a imagem era\n\n(A) real e se formou a 20 cm do espelho.\n(B) real e se formou a 30 cm do espelho.\n(C) virtual e se formou a 30 cm do espelho.\n(D) virtual e se formou a 15 cm do espelho.\n(E) virtual e se formou a 20 cm do espelho.",
+  "figuras": [
+    "einstein-2023-prova-i-q38-1.png"
+  ],
+  "gabarito": "E",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. Objeto e imagem no mesmo ponto, com imagem real e invertida do mesmo tamanho: o objeto está no centro de curvatura. Logo <i>R</i> = 40 cm e a distância focal é <i>f</i> = <i>R</i>/2 = 20 cm.\n2. (Conferindo pela equação de Gauss: 1/<i>f</i> = 1/40 + 1/40 = 1/20 ⇒ <i>f</i> = 20 cm.)\n3. Nova posição: <i>p</i> = 10 cm (entre o foco e o vértice). 1/<i>p</i>' = 1/<i>f</i> – 1/<i>p</i> = 1/20 – 1/10 = –1/20 ⇒ <i>p</i>' = –20 cm.\n4. <i>p</i>' negativo: imagem virtual, atrás do espelho, a 20 cm dele (a situação de um espelho de aumento).\nGabarito: E.",
+  "topicos": [
+    "espelhos-esfericos-equacao-de-gauss-e-aumento"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-10T16:52:23.000Z",
+  "atualizadoEm": "2026-11-10T16:54:14.000Z"
+}

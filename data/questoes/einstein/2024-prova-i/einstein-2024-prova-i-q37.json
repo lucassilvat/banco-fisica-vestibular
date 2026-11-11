@@ -1,0 +1,28 @@
+{
+  "id": "einstein-2024-prova-i-q37",
+  "banca": "Einstein",
+  "ano": 2024,
+  "edicao": "Prova I",
+  "numero": "37",
+  "fase": "Prova I",
+  "fonte": {
+    "descricao": "Vunesp, Vestibular Einstein 2024 (Faculdade Israelita de Ciências da Saúde Albert Einstein), Prova I (objetiva), caderno de questões"
+  },
+  "enunciado": "Um móbile é composto de duas hastes, cinco fios e três objetos pendentes, um representando a Terra, de massa m<sub>T</sub>, outro representando o Sol, de massa m<sub>S</sub>, e outro representando a Lua, de massa m<sub>L</sub>.\n\n[[figura 1]]\n\nSabendo que o móbile está em equilíbrio com as hastes na posição horizontal, desprezando as massas das hastes e dos fios e considerando as medidas indicadas na figura, a razão m<sub>T</sub>/m<sub>L</sub> é\n\n(A) 7,0.\n(B) 5,0.\n(C) 5,5.\n(D) 3,5.\n(E) 7,5.",
+  "figuras": [
+    "einstein-2024-prova-i-q37-1.png"
+  ],
+  "gabarito": "E",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. Haste de baixo, em equilíbrio em torno do fio que a sustenta (momentos iguais): <i>m</i><sub>S</sub> · <i>g</i> · 30 = <i>m</i><sub>L</sub> · <i>g</i> · 60 ⇒ <i>m</i><sub>S</sub> = 2<i>m</i><sub>L</sub>.\n2. O fio que sustenta a haste de baixo (de massa desprezível) puxa a haste de cima com o peso de Sol e Lua: (<i>m</i><sub>S</sub> + <i>m</i><sub>L</sub>) · <i>g</i> = 3<i>m</i><sub>L</sub> · <i>g</i>, a 50 cm do ponto de suspensão.\n3. Haste de cima: <i>m</i><sub>T</sub> · <i>g</i> · 20 = 3<i>m</i><sub>L</sub> · <i>g</i> · 50 ⇒ <i>m</i><sub>T</sub> = 150<i>m</i><sub>L</sub>/20 = 7,5<i>m</i><sub>L</sub>.\n4. <i>m</i><sub>T</sub>/<i>m</i><sub>L</sub> = 7,5.\nGabarito: E.",
+  "topicos": [
+    "momento-de-uma-forca-torque",
+    "equilibrio-do-corpo-extenso"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-10T16:52:24.000Z",
+  "atualizadoEm": "2026-11-10T16:56:21.000Z",
+  "revisao": {
+    "notas": "A razão mT/mL é desenhada no caderno como fração empilhada; transcrita em linha, com barra."
+  }
+}

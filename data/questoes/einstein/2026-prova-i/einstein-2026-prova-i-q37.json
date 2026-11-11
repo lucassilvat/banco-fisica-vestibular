@@ -1,0 +1,24 @@
+{
+  "id": "einstein-2026-prova-i-q37",
+  "banca": "Einstein",
+  "ano": 2026,
+  "edicao": "Prova I",
+  "numero": "37",
+  "fase": "Prova I",
+  "fonte": {
+    "descricao": "Vunesp, Vestibular Einstein 2026 (Faculdade Israelita de Ciências da Saúde Albert Einstein), Prova I (objetiva), caderno de questões"
+  },
+  "enunciado": "Para aquecer um pouco de água, uma pessoa, em uma cidade no nível do mar, coloca 0,2 kg de água a 20 ºC em uma xícara dentro de um forno de micro-ondas de 1 200 W de potência e programa o forno para o tempo de um minuto e quarenta segundos. Adotando o valor de 4 × 10<sup>3</sup> J/(kg · ºC) para o calor específico da água e considerando que apenas 50% da energia elétrica consumida por esse forno são utilizados para aquecer a água, ao final do tempo programado a água na xícara terá atingido a temperatura de\n\n(A) 95 ºC e não terá sido iniciada a vaporização.\n(B) 100 ºC e terá sido iniciada a vaporização.\n(C) 85 ºC e não terá sido iniciada a vaporização.\n(D) 100 ºC e não terá sido iniciada a vaporização.\n(E) 90 ºC e não terá sido iniciada a vaporização.",
+  "figuras": [],
+  "gabarito": "A",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. Tempo: 1 min 40 s = 100 s. Energia consumida: <i>E</i> = <i>P</i> · Δ<i>t</i> = 1 200 · 100 = 120 000 J.\n2. Energia que aquece a água (50%): <i>Q</i> = 60 000 J.\n3. Calor sensível: <i>Q</i> = <i>mc</i>Δθ ⇒ Δθ = 60 000/(0,2 · 4 000) = 60 000/800 = 75 ºC.\n4. Temperatura final: 20 + 75 = 95 ºC.\n5. Ao nível do mar a água ferve a 100 ºC; a 95 ºC a vaporização (ebulição) ainda não começou.\nGabarito: A.",
+  "topicos": [
+    "calor-sensivel-e-capacidade-termica",
+    "potencia-e-rendimento",
+    "calor-latente-e-mudancas-de-fase"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-10T16:52:27.000Z",
+  "atualizadoEm": "2026-11-10T16:59:12.000Z"
+}

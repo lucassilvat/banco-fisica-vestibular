@@ -1,0 +1,26 @@
+{
+  "id": "einstein-2026-prova-i-q36",
+  "banca": "Einstein",
+  "ano": 2026,
+  "edicao": "Prova I",
+  "numero": "36",
+  "fase": "Prova I",
+  "fonte": {
+    "descricao": "Vunesp, Vestibular Einstein 2026 (Faculdade Israelita de Ciências da Saúde Albert Einstein), Prova I (objetiva), caderno de questões"
+  },
+  "enunciado": "Dois blocos, A e B, de massas m<sub>A</sub> = 6 kg e m<sub>B</sub> = 2 kg, estão em repouso, ligados por um fio ideal que passa por uma polia de massa desprezível, fixa em uma haste horizontal. Inicialmente, o sistema não se movimenta devido à ação de um conjunto de travas que prende o bloco B ao solo. Nessa situação, a base do bloco A está a 3,2 m de altura e o bloco B está em contato com o solo, conforme a figura 1. Quando o bloco B é liberado, os blocos passam a se mover livres da ação de quaisquer forças dissipativas e, em um dado instante, as bases dos blocos A e B estão a uma mesma altura em relação ao solo, conforme a figura 2.\n\n[[figura 1]]\n\nAdotando g = 10 m/s<sup>2</sup>, a velocidade v dos blocos A e B, no instante em que suas bases estiverem a uma mesma altura h em relação ao solo, é de\n\n(A) 5 m/s.\n(B) 1 m/s.\n(C) 4 m/s.\n(D) 2 m/s.\n(E) 3 m/s.",
+  "figuras": [
+    "einstein-2026-prova-i-q36-1.png"
+  ],
+  "gabarito": "C",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. O fio é inextensível: quando A desce uma distância <i>d</i>, B sobe a mesma distância <i>d</i>.\n2. As bases ficam na mesma altura <i>h</i> quando 3,2 – <i>d</i> = <i>d</i> ⇒ <i>d</i> = 1,6 m (e <i>h</i> = 1,6 m).\n3. Sem forças dissipativas, a energia mecânica do sistema se conserva. Energia potencial perdida: <i>m</i><sub>A</sub><i>gd</i> – <i>m</i><sub>B</sub><i>gd</i> = (6 – 2) · 10 · 1,6 = 64 J.\n4. Essa energia vira energia cinética dos dois blocos, que têm a mesma velocidade: (<i>m</i><sub>A</sub> + <i>m</i><sub>B</sub>)<i>v</i><sup>2</sup>/2 = 64 ⇒ 8<i>v</i><sup>2</sup>/2 = 64 ⇒ <i>v</i><sup>2</sup> = 16 ⇒ <i>v</i> = 4 m/s.\n5. (Pela dinâmica: <i>a</i> = (6 – 2) · 10/8 = 5 m/s<sup>2</sup> e <i>v</i><sup>2</sup> = 2 · 5 · 1,6 = 16, o mesmo resultado.)\nGabarito: C.",
+  "topicos": [
+    "conservacao-da-energia-mecanica",
+    "sistemas-de-blocos-fios-e-polias",
+    "energia-potencial-gravitacional"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-10T16:52:27.000Z",
+  "atualizadoEm": "2026-11-10T16:59:12.000Z"
+}

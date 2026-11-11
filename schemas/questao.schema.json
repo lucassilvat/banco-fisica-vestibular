@@ -5,13 +5,14 @@
   "type": "object",
   "required": ["id", "banca", "ano", "numero", "fonte", "enunciado", "figuras", "gabarito", "resolucao", "topicos", "status", "criadoEm", "atualizadoEm"],
   "properties": {
-    "id": { "type": "string", "pattern": "^[a-z0-9]+-\\d{4}[a-z]?(-[a-z]+)?-q\\d{2,3}$" },
+    "id": { "type": "string", "pattern": "^[a-z0-9]+-\\d{4}[a-z]?(-[a-z0-9]+)*-q\\d{2,3}$" },
     "banca": { "type": "string" },
     "ano": { "type": "integer", "minimum": 1950 },
     "versao": { "type": "string", "maxLength": 3 },
-    "edicao": { "type": "string", "description": "edição da prova no mesmo ano (ex.: Verão, Inverno); entra no id, não no rótulo do app" },
+    "edicao": { "type": "string", "description": "edição da prova no mesmo ano (ex.: Verão, Inverno; Prova I, Prova II); entra no id e na fase, não no rótulo de ano do app" },
     "numero": { "type": "string", "pattern": "^\\d+$" },
     "fase": { "type": "string" },
+    "tipo": { "enum": ["objetiva", "discursiva"], "description": "ausente = objetiva" },
     "fonte": {
       "type": "object",
       "required": ["descricao"],
@@ -19,8 +20,18 @@
     },
     "enunciado": { "type": "string", "minLength": 1 },
     "figuras": { "type": "array", "items": { "type": "string", "pattern": "\\.png$" } },
-    "gabarito": { "type": "string", "pattern": "^[A-E]?$" },
+    "gabarito": { "type": "string", "pattern": "^[A-E]?$", "description": "A–E nas objetivas; vazio nas discursivas" },
     "gabaritoFonte": { "enum": ["", "oficial", "prova-comentada-oficial", "resolucao-propria"] },
+    "respostas": {
+      "type": "array",
+      "description": "só nas discursivas: resposta final de cada item, na ordem do enunciado (item vazio quando a questão não tem itens)",
+      "items": {
+        "type": "object",
+        "required": ["item", "texto"],
+        "properties": { "item": { "type": "string", "pattern": "^[a-z]?$" }, "texto": { "type": "string", "minLength": 1 } },
+        "additionalProperties": false
+      }
+    },
     "resolucao": { "type": "string" },
     "topicos": { "type": "array", "items": { "type": "string" }, "maxItems": 6 },
     "status": { "enum": ["rascunho", "revisado", "publicado"] },

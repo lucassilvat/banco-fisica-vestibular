@@ -1,0 +1,25 @@
+{
+  "id": "einstein-2027-prova-i-q36",
+  "banca": "Einstein",
+  "ano": 2027,
+  "edicao": "Prova I",
+  "numero": "36",
+  "fase": "Prova I",
+  "fonte": {
+    "descricao": "Vunesp, Vestibular Einstein 2027 (Faculdade Israelita de Ciências da Saúde Albert Einstein), Prova I (objetiva), caderno de questões"
+  },
+  "enunciado": "Uma bermuda jeans molhada é colocada em um cabide e o conjunto é pendurado, para secar, na corda de um varal. Essa corda tem massa desprezível e está presa em duas paredes verticais paralelas entre si, como mostra a figura.\n\n[[figura 1]]\n\nSabendo que a massa do conjunto bermuda + cabide é de 1,2 kg, que o conjunto está em equilíbrio na posição mostrada na figura e adotando cos (60<sup>o</sup>) = 0,50, sen (60<sup>o</sup>) = 0,87 e g = 10 m/s<sup>2</sup>, a intensidade da força que a corda do varal exerce em cada uma das paredes em que ela está presa é de\n\n(A) 12 N.\n(B) 24 N.\n(C) 10 N.\n(D) 6 N.\n(E) 8 N.",
+  "figuras": [
+    "einstein-2027-prova-i-q36-1.png"
+  ],
+  "gabarito": "A",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. Peso do conjunto: <i>P</i> = <i>mg</i> = 1,2 · 10 = 12 N.\n2. A figura é simétrica: os dois trechos da corda fazem 60º com a vertical (as paredes) e têm a mesma tração <i>T</i>.\n3. Equilíbrio do ponto em que o cabide se apoia na corda: as componentes horizontais das trações se anulam e as verticais equilibram o peso: 2<i>T</i> · cos 60º = <i>P</i> ⇒ 2<i>T</i> · 0,50 = 12 ⇒ <i>T</i> = 12 N.\n4. Corda de massa desprezível: a força que ela exerce em cada parede tem intensidade igual à tração, 12 N.\nGabarito: A.",
+  "topicos": [
+    "equilibrio-do-ponto-material",
+    "vetores-soma-e-decomposicao"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-10T16:52:29.000Z",
+  "atualizadoEm": "2026-11-10T17:00:27.000Z"
+}

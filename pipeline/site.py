@@ -27,6 +27,8 @@ CABECALHO = (
 def documento_site(q: dict) -> dict:
     d = {k: q[k] for k in ("id", "banca", "ano", "numero", "fase", "enunciado", "gabarito", "resolucao", "topicos") if k in q}
     if q.get("versao"): d["versao"] = q["versao"]
+    if q.get("tipo") == "discursiva":
+        d["tipo"] = "discursiva"; d["respostas"] = q.get("respostas", [])
     d["origem"] = q["fonte"]["descricao"]
     d["figuras"] = list(q["figuras"])
     return d

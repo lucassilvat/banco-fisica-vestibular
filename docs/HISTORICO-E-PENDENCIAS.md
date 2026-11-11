@@ -126,8 +126,27 @@ Para gravar questões, usam-se os lotes da etapa `publicar` (docs/WORKFLOW.md).
     correta logo após o enunciado e as demais depois da justificativa; o Lucas decidiu manter
     a ordem do PDF. Gabaritos: 29A, 30A, 31C, 32D, 33C, 34B, 35B. Q30 usa o formulário da
     prova, que traz o valor da Lua como "g_T = 1,6 m/s²" (transcrito literalmente).
+19. v2.0.0: modelo de dados com questões **discursivas** (`tipo`, `respostas`) e
+    Einstein (Vunesp) 2023–2027: Prova I Q36–Q40 e Prova II Q03 de cada ano, 30 questões.
+    Decisões do Lucas: o ano fica limpo e Prova I/Prova II é descritivo (campo `edicao`,
+    como na Acafe); "o modelo da Unicamp 2021 A/B foi um erro" e não se repete; o banco
+    deve aceitar discursivas desde já, porque virão outras provas discursivas; gabaritos
+    serão conferidos depois por ele. Caderno da Prova II em coluna única, uma questão por
+    página: `--layout largura-total`. Os PDFs do Einstein têm hífens discricionários
+    (U+00AD) no meio de palavras e subscritos colados (`Qint`, `Pinicial`): divergências
+    registradas em `revisao.divergenciasAceitas`.
 
 ## Pendências
+
+- **Gabaritos Einstein 2023–2027**: todos `resolucao-propria`, inclusive as respostas das
+  discursivas. Prova I: 2023 36A 37C 38E 39B 40C; 2024 36D 37E 38C 39A 40B; 2025 36A 37B
+  38B 39E 40D; 2026 36C 37A 38D 39D 40B; 2027 36A 37C 38B 39E 40D. Prova II Q03: 2023
+  1,25 m/s² e –1,5 × 10⁵ J; 26 s e 120 m · 2024 1,5 s; 10 kg e 60 N · 2025 4,08 s; 12,8 m
+  · 2026 45 J; 20 m · 2027 10 m/s; 20 m/s. Conferir com atenção 2025 Q38 (leitura de β e δ
+  na figura) e 2027 Q38 (A × B: depende de admitir que o índice da casca é maior que o do ar).
+- **Unicamp 2021 A/B no modelo antigo**: o Lucas considera um erro marcar a prova no ano
+  ("2021 A"). Migrar para `edicao` (ano 2021 limpo) exige renomear 16 questões e figuras e
+  regravar no app; fazer só com pedido dele.
 
 - **Acafe Inverno 2025 Q32**: a "Imagem ilustrativa da experiência de Joule" não está no PDF; a legenda foi mantida, sem figura. Q35: a distinção entre IV e V (condução × convecção) é discutível; anotada na resolução.
 - **Acafe Inverno 2026 Q29**: as alternativas são frações desenhadas como equação; transcritas em linha, com parênteses.

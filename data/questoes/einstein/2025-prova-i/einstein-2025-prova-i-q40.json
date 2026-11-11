@@ -1,0 +1,30 @@
+{
+  "id": "einstein-2025-prova-i-q40",
+  "banca": "Einstein",
+  "ano": 2025,
+  "edicao": "Prova I",
+  "numero": "40",
+  "fase": "Prova I",
+  "fonte": {
+    "descricao": "Vunesp, Vestibular Einstein 2025 (Faculdade Israelita de Ciências da Saúde Albert Einstein), Prova I (objetiva), caderno de questões"
+  },
+  "enunciado": "Um circuito elétrico simples é formado por um gerador e um amperímetro ideais e um fio de cobre de resistência R. Nesse circuito, a indicação no amperímetro é i<sub>1</sub>, conforme a figura 1. Os demais fios de ligação têm resistência desprezível.\n\n[[figura 1]]\n\nPara montar um segundo circuito, esse mesmo fio é cortado em três pedaços de mesmo comprimento e esses pedaços são ligados ao mesmo gerador, conforme a figura 2. Nessa situação, a indicação no amperímetro é i<sub>2</sub>.\n\n[[figura 2]]\n\nComparando os valores de i<sub>1</sub> e de i<sub>2</sub>, tem-se que:\n\n(A) i<sub>2</sub> = i<sub>1</sub>\n(B) i<sub>2</sub> = 3i<sub>1</sub>\n(C) i<sub>2</sub> = i<sub>1</sub>/3\n(D) i<sub>2</sub> = 9i<sub>1</sub>\n(E) i<sub>2</sub> = i<sub>1</sub>/9",
+  "figuras": [
+    "einstein-2025-prova-i-q40-1.png",
+    "einstein-2025-prova-i-q40-2.png"
+  ],
+  "gabarito": "D",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. Segunda lei de Ohm: <i>R</i> = ρ<i>L</i>/<i>A</i>. Cada pedaço tem um terço do comprimento: <i>R</i><sub>pedaço</sub> = <i>R</i>/3.\n2. Na figura 2 os três pedaços estão em paralelo: <i>R</i><sub>eq</sub> = (<i>R</i>/3)/3 = <i>R</i>/9.\n3. O gerador é ideal (mesma tensão <i>U</i> nos dois circuitos): <i>i</i><sub>1</sub> = <i>U</i>/<i>R</i> e <i>i</i><sub>2</sub> = <i>U</i>/(<i>R</i>/9) = 9<i>U</i>/<i>R</i>.\n4. <i>i</i><sub>2</sub> = 9<i>i</i><sub>1</sub>.\nGabarito: D.",
+  "topicos": [
+    "segunda-lei-de-ohm-e-resistividade",
+    "associacao-de-resistores",
+    "primeira-lei-de-ohm"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-10T16:52:26.000Z",
+  "atualizadoEm": "2026-11-10T16:57:52.000Z",
+  "revisao": {
+    "notas": "As alternativas são desenhadas no caderno com o editor de equações (C e E como frações empilhadas); transcritas da imagem, em linha, com barra."
+  }
+}
