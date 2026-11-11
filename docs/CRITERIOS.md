@@ -29,7 +29,7 @@
 | Alternativas (Acafe) | `A. ...`, como no caderno |
 | Formulário/constantes (Acafe) | não se repete o quadro; só o dado necessário, como bloco antes das alternativas, com o título literal da prova (`CONSTANTES FÍSICAS`, `Dados para realização das questões` ou `DADOS PARA REALIZAÇÃO DAS QUESTÕES`) |
 | Edição (Acafe) | Verão/Inverno é descritivo: campo `edicao` e `fase` (`Medicina · Inverno`); a prova fica marcada só com o ano |
-| Edição (Einstein) | Prova I (objetiva) e Prova II (discursiva) são do mesmo vestibular e ano: campo `edicao` e `fase` (`Prova I`, `Prova II`); o ano fica limpo (o "2021 A/B" da Unicamp é o modelo antigo, não repetir) |
+| Edição (Einstein) | Prova I (objetiva) e Prova II (discursiva) são do mesmo vestibular e ano: campo `edicao` e `fase` (`Prova I`, `Prova II`); o ano fica limpo (a Unicamp 2021 também usa `edicao`: `Exatas e Humanas`, `Biológicas e Saúde`) |
 | Itens de questão discursiva | `a) ...`, `b) ...` no fim do enunciado, um por linha, sem o negrito do rótulo; o quadro "RESOLUÇÃO E RESPOSTA" e a marca d'água "RASCUNHO" ficam fora |
 | Título de texto de apoio (Einstein) | linha própria, antes do texto (ex.: `O “pêndulo humano” é atração radical na Serra Catarinense`) |
 | Listas com marcador (•) | um item por linha, começando por `• ` |
@@ -49,7 +49,7 @@ Não entra questão em que a Física só aparece como cenário e não é usada n
 
 **Química com conteúdo físico forte**: na importação da Fuvest 2020–2026 o Lucas mandou
 incluir (ex.: Fuvest 2020 Q2, Q8, Q11; 2023 Q71). As da Unicamp que ficaram de fora
-(2020 Q45 a Q48, 2021 B Q33, 2027 Q25) continuam em aberto até nova decisão.
+(2020 Q45 a Q48, 2021 Biológicas e Saúde Q33, 2027 Q25) continuam em aberto até nova decisão.
 
 ## Tópicos
 

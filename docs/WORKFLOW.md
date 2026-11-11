@@ -42,8 +42,8 @@ uma questão por página (Einstein, Prova II): `--layout largura-total`. Exemplo
 python -m pipeline registrar-prova Einstein 2025 --edicao "Prova II" --fase "Prova II" --discursivas --layout largura-total --descricao "Vunesp, Vestibular Einstein 2025 (...), Prova II (discursiva), caderno de questões"
 ```
 
-O modelo antigo `--versao` (`unicamp-2021A`, "2021 A" no app) não deve ser usado em provas
-novas: o ano fica limpo e a distinção vai em `--edicao`. Os PDFs ficam
+Não use `--versao` (modelo antigo, que marcava a prova no ano, "2021 A"): o ano fica limpo e
+a distinção vai em `--edicao`. Os PDFs ficam
 fora do git; o manifesto guarda o sha256 para saber exatamente de qual arquivo cada
 questão foi transcrita.
 

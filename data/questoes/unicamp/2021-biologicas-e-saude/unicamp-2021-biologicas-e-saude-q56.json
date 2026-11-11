@@ -1,8 +1,8 @@
 {
-  "id": "unicamp-2021b-q56",
+  "id": "unicamp-2021-biologicas-e-saude-q56",
   "banca": "Unicamp",
   "ano": 2021,
-  "versao": "B",
+  "edicao": "Biológicas e Saúde",
   "numero": "56",
   "fase": "1ª fase · Biológicas e Saúde",
   "fonte": {
@@ -10,7 +10,7 @@
   },
   "enunciado": "Nas questões de 49 a 56, sempre que necessário, use π = 3 e <i>g</i> = 10 m/s<sup>2</sup>.\n\n<b>Texto comum para questões 54, 55 e 56.</b>\n\nLâmpadas de luz ultravioleta (UV) são indicadas para higienização e esterilização de objetos e ambientes em razão do seu potencial germicida.\n\nA ação germicida da luz UV varia conforme o comprimento de onda (<i>λ</i>) da radiação. O gráfico a seguir mostra a eficiência germicida da luz UV em função de <i>λ</i>, em sua atuação durante certo tempo sobre um agente patogênico.\n[[figura 1]]\nPode-se afirmar que a frequência da luz UV que gera eficiência germicida máxima neste caso é\n\na) 0,9×10<sup>6</sup> Hz.\nb) 8,1×10<sup>10</sup> Hz.\nc) 5,4×10<sup>12</sup> Hz.\nd) 1,1×10<sup>15</sup> Hz.\n\nDado: Velocidade da luz: <i>c</i> = 3,0×10<sup>8</sup> m/s.",
   "figuras": [
-    "unicamp-2021b-q56-1.png"
+    "unicamp-2021-biologicas-e-saude-q56-1.png"
   ],
   "gabarito": "D",
   "gabaritoFonte": "resolucao-propria",

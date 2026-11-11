@@ -1,8 +1,8 @@
 {
-  "id": "unicamp-2021a-q34",
+  "id": "unicamp-2021-exatas-e-humanas-q34",
   "banca": "Unicamp",
   "ano": 2021,
-  "versao": "A",
+  "edicao": "Exatas e Humanas",
   "numero": "34",
   "fase": "1ª fase · Exatas e Tecnológicas / Humanas e Artes",
   "fonte": {
@@ -10,7 +10,7 @@
   },
   "enunciado": "Nas questões de 33 a 40, sempre que necessário, use π = 3 e <i>g</i> = 10 m/s<sup>2</sup>.\n\nA figura abaixo mostra o braço de um toca-discos de vinil. Nela são indicadas, nos seus respectivos pontos de atuação, as seguintes forças: peso do braço (<i>P</i>⃗<sub><i>B</i></sub>), peso do contrapeso (<i>P</i>⃗<sub><i>C</i></sub>) e força normal aplicada pelo suporte do braço (<i>N</i>⃗). Para que o braço fique em equilíbrio, é necessário que a soma dos torques seja igual a zero. No caso do braço da figura, o módulo do torque de cada força em relação ao ponto <i>O</i> (suporte do braço) é igual ao produto do módulo da força pela distância do ponto de aplicação da força até <i>O</i>. Adote torque positivo para forças que tendem a acelerar o braço no sentido horário e torque negativo para o sentido anti-horário. Sendo |<i>P</i>⃗<sub><i>C</i></sub>| = 1,5 N, |<i>P</i>⃗<sub><i>B</i></sub>| = 0,3 N e |<i>N</i>⃗| = 1,8 N, qual deve ser a distância <i>D</i> do contrapeso ao ponto <i>O</i> para que o braço fique em equilíbrio?\n[[figura 1]]\n\na) 2,0 cm.\nb) 2,4 cm.\nc) 3,6 cm.\nd) 6,0 cm.",
   "figuras": [
-    "unicamp-2021a-q34-1.png"
+    "unicamp-2021-exatas-e-humanas-q34-1.png"
   ],
   "gabarito": "B",
   "gabaritoFonte": "resolucao-propria",

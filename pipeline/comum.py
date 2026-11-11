@@ -35,7 +35,9 @@ def manifesto() -> list:
 
 
 def chave_prova(banca: str, ano: int, versao: str = "", edicao: str = "") -> str:
-    """Identificador de uma prova: unicamp-2021A, fuvest-2024, acafe-2025-inverno, einstein-2025-prova-i...
+    """Identificador de uma prova: fuvest-2024, acafe-2025-inverno, unicamp-2021-biologicas-e-saude, einstein-2025-prova-i...
+
+    `versao` é o modelo antigo (marcava a prova no ano, "2021A") e não deve ser usado.
 
     `edicao` separa provas da mesma banca e ano sem virar rótulo de ano no app (Acafe:
     Verão/Inverno; Einstein: Prova I/Prova II); o ano fica limpo e a edição aparece na fase."""

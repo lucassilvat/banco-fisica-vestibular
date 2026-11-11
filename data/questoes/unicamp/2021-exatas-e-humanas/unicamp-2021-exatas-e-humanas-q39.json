@@ -1,8 +1,8 @@
 {
-  "id": "unicamp-2021a-q39",
+  "id": "unicamp-2021-exatas-e-humanas-q39",
   "banca": "Unicamp",
   "ano": 2021,
-  "versao": "A",
+  "edicao": "Exatas e Humanas",
   "numero": "39",
   "fase": "1ª fase · Exatas e Tecnológicas / Humanas e Artes",
   "fonte": {
@@ -10,7 +10,7 @@
   },
   "enunciado": "Nas questões de 33 a 40, sempre que necessário, use π = 3 e <i>g</i> = 10 m/s<sup>2</sup>.\n\nA diferença de potencial elétrico, <i>U</i>, é proporcional à corrente elétrica, <i>i</i>, em um trecho de um circuito elétrico resistivo, com constante de proporcionalidade dada pela resistência equivalente, <i>R</i><sub>eq</sub>, no trecho do circuito. Além disso, no caso de resistores dispostos em série, a resistência equivalente é dada pela soma das resistências (<i>R</i><sub>eq</sub> = <i>R</i><sub>1</sub> + <i>R</i><sub>2</sub> +...). A corrente elétrica, <i>i<sub>B</sub></i>, no trecho <i>B</i> do circuito abaixo é três vezes maior que a corrente elétrica no trecho <i>A</i>, ou seja, <i>i<sub>B</sub></i>/<i>i<sub>A</sub></i> = 3. Quanto vale a resistência <i>R<sub>B2</sub></i>?\n[[figura 1]]\n\na) 2,0 Ω.\nb) 14 Ω.\nc) 18 Ω.\nd) 66 Ω.",
   "figuras": [
-    "unicamp-2021a-q39-1.png"
+    "unicamp-2021-exatas-e-humanas-q39-1.png"
   ],
   "gabarito": "A",
   "gabaritoFonte": "resolucao-propria",

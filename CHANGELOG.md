@@ -22,6 +22,12 @@ de modelo de dados; CORREÇÃO, em correções de questões já publicadas.
     na Acafe; não se usa mais o modelo `versao` da Unicamp 2021 A/B.
   - Gabaritos e respostas: `resolucao-propria` (o Lucas fará a conferência depois).
   - Fora: 2024 Prova I Q49 (Matemática, anos-luz) e 2025 Prova I Q33 (Química, GNV).
+- **Unicamp 2021 no modelo novo**: as 16 questões saem de `versao` A/B ("2021 A", "2021 B"
+  no app) para `edicao` (`Exatas e Humanas`, `Biológicas e Saúde`), com o ano limpo. Ids,
+  pastas e figuras renomeados (`unicamp-2021a-q34` → `unicamp-2021-exatas-e-humanas-q34`;
+  `unicamp-2021b-q56` → `unicamp-2021-biologicas-e-saude-q56`); no app, regravadas com os
+  ids novos e as antigas apagadas. Listas salvas no navegador perdem essas questões e
+  precisam ser remontadas. `versao` fica marcado como obsoleto.
 - **Pipeline:** `registrar-prova --discursivas` e `--layout largura-total`; segmentador de
   largura total (uma questão por página, termina no quadro "RESOLUÇÃO E RESPOSTA");
   banca "Einstein" normalizada; id aceita edição com mais de uma palavra (`prova-ii`).

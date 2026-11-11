@@ -1,8 +1,8 @@
 {
-  "id": "unicamp-2021a-q40",
+  "id": "unicamp-2021-exatas-e-humanas-q40",
   "banca": "Unicamp",
   "ano": 2021,
-  "versao": "A",
+  "edicao": "Exatas e Humanas",
   "numero": "40",
   "fase": "1ª fase · Exatas e Tecnológicas / Humanas e Artes",
   "fonte": {
@@ -10,7 +10,7 @@
   },
   "enunciado": "Nas questões de 33 a 40, sempre que necessário, use π = 3 e <i>g</i> = 10 m/s<sup>2</sup>.\n\nUm dos fatores que determinam a capacidade de armazenamento de dados nos discos <i>laser</i> é o comprimento de onda do <i>laser</i> usado para gravação e leitura (ver figura abaixo). Isto porque o diâmetro <i>d</i> do feixe <i>laser</i> no ponto de leitura no disco é diretamente proporcional ao comprimento de onda, <i>λ</i>. No caso do Blu-Ray, usa-se um comprimento de onda na faixa azul (daí o nome, em inglês), que é menor que o do CD e o do DVD. As lentes usadas no leitor de Blu-Ray são tais que vale a relação <i>d</i><sub>BR</sub> ≈ 1,2 <i>λ</i><sub>BR</sub>.\n[[figura 1]]\nA partir das informações da figura, conclui-se que a frequência do <i>laser</i> usado no leitor Blu-Ray é\n\na) 3,2×10<sup>14</sup> Hz.\nb) 5,2×10<sup>14</sup> Hz.\nc) 6,2×10<sup>14</sup> Hz.\nd) 7,5×10<sup>14</sup> Hz.",
   "figuras": [
-    "unicamp-2021a-q40-1.png"
+    "unicamp-2021-exatas-e-humanas-q40-1.png"
   ],
   "gabarito": "D",
   "gabaritoFonte": "resolucao-propria",
