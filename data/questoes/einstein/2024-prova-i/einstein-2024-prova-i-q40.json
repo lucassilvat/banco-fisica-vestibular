@@ -1,0 +1,26 @@
+{
+  "id": "einstein-2024-prova-i-q40",
+  "banca": "Einstein",
+  "ano": 2024,
+  "edicao": "Prova I",
+  "numero": "40",
+  "fase": "Prova I",
+  "fonte": {
+    "descricao": "Vunesp, Vestibular Einstein 2024 (Faculdade Israelita de Ciências da Saúde Albert Einstein), Prova I (objetiva), caderno de questões"
+  },
+  "enunciado": "Tubarões apresentam estruturas sensoriais próximas aos seus focinhos chamadas de ampolas de Lorenzini, com a capacidade de detectar campos elétricos muito sutis, gerados por outros animais. São eletrorreceptores que, além de facilitar a caça de suas presas, possibilitam-lhes orientar-se durante a navegação.\n\n[[figura 1]]\n\n(https://lemundo.com.br)\n\nAlguns tubarões podem detectar campos elétricos muito fracos, da ordem de 10<sup>–6</sup> V/m. Para se ter uma ideia da grande sensibilidade elétrica dos sensores desses animais, considere que esse mesmo campo elétrico seja produzido entre duas placas metálicas paralelas ligadas a uma pilha AA comum, de 1,5 V, como mostrado na figura.\n\n[[figura 2]]\n\nNesse caso, a distância d entre essas placas deverá ser de\n\n(A) 1,5 × 10<sup>0</sup> m.\n(B) 1,5 × 10<sup>6</sup> m.\n(C) 1,5 × 10<sup>–2</sup> m.\n(D) 1,5 × 10<sup>2</sup> m.\n(E) 1,5 × 10<sup>–6</sup> m.",
+  "figuras": [
+    "einstein-2024-prova-i-q40-1.png",
+    "einstein-2024-prova-i-q40-2.png"
+  ],
+  "gabarito": "B",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. Entre placas paralelas o campo é uniforme e <i>U</i> = <i>E</i> · <i>d</i>.\n2. <i>d</i> = <i>U</i>/<i>E</i> = 1,5 V / 10<sup>–6</sup> V/m = 1,5 × 10<sup>6</sup> m.\n3. Seriam placas a 1 500 km de distância ligadas a uma pilha comum: é essa a sensibilidade dos sensores dos tubarões.\nGabarito: B.",
+  "topicos": [
+    "linhas-de-campo-e-campo-eletrico-uniforme",
+    "potencial-eletrico-e-diferenca-de-potencial"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-10T16:52:24.000Z",
+  "atualizadoEm": "2026-11-10T16:56:21.000Z"
+}

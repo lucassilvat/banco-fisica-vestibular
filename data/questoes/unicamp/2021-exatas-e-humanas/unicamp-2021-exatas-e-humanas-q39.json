@@ -1,0 +1,25 @@
+{
+  "id": "unicamp-2021-exatas-e-humanas-q39",
+  "banca": "Unicamp",
+  "ano": 2021,
+  "edicao": "Exatas e Humanas",
+  "numero": "39",
+  "fase": "1ª fase · Exatas e Tecnológicas / Humanas e Artes",
+  "fonte": {
+    "descricao": "Comvest, Vestibular Unicamp 2021, 1ª fase, Conhecimentos Gerais – Exatas e Tecnológicas / Humanas e Artes (provas E e G)"
+  },
+  "enunciado": "Nas questões de 33 a 40, sempre que necessário, use π = 3 e <i>g</i> = 10 m/s<sup>2</sup>.\n\nA diferença de potencial elétrico, <i>U</i>, é proporcional à corrente elétrica, <i>i</i>, em um trecho de um circuito elétrico resistivo, com constante de proporcionalidade dada pela resistência equivalente, <i>R</i><sub>eq</sub>, no trecho do circuito. Além disso, no caso de resistores dispostos em série, a resistência equivalente é dada pela soma das resistências (<i>R</i><sub>eq</sub> = <i>R</i><sub>1</sub> + <i>R</i><sub>2</sub> +...). A corrente elétrica, <i>i<sub>B</sub></i>, no trecho <i>B</i> do circuito abaixo é três vezes maior que a corrente elétrica no trecho <i>A</i>, ou seja, <i>i<sub>B</sub></i>/<i>i<sub>A</sub></i> = 3. Quanto vale a resistência <i>R<sub>B2</sub></i>?\n[[figura 1]]\n\na) 2,0 Ω.\nb) 14 Ω.\nc) 18 Ω.\nd) 66 Ω.",
+  "figuras": [
+    "unicamp-2021-exatas-e-humanas-q39-1.png"
+  ],
+  "gabarito": "A",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. Os trechos A e B estão em paralelo sob <i>U</i> = 12 V: <i>i</i><sub>A</sub> = 12/24 = 0,5 A.\n2. <i>i</i><sub>B</sub> = 3 · 0,5 = 1,5 A ⇒ <i>R</i><sub>B</sub> = 12/1,5 = 8,0 Ω.\n3. Em série: <i>R</i><sub>B2</sub> = 8,0 − 6,0 = 2,0 Ω.",
+  "topicos": [
+    "associacao-de-resistores",
+    "primeira-lei-de-ohm"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-10-07T11:30:00.000Z",
+  "atualizadoEm": "2026-10-07T11:30:00.000Z"
+}

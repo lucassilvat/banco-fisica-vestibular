@@ -12,6 +12,7 @@ FONTES = RAIZ / "fontes"          # PDFs oficiais (fora do git)
 TRABALHO = RAIZ / "trabalho"      # área de trabalho por prova (fora do git)
 
 STATUS = ("rascunho", "revisado", "publicado")
+TIPOS = ("objetiva", "discursiva")   # ausência de "tipo" = objetiva
 FIG_RE = re.compile(r"\[\[figura (\d+)\]\]")
 
 
@@ -34,10 +35,12 @@ def manifesto() -> list:
 
 
 def chave_prova(banca: str, ano: int, versao: str = "", edicao: str = "") -> str:
-    """Identificador de uma prova: unicamp-2021A, fuvest-2024, acafe-2025-inverno...
+    """Identificador de uma prova: fuvest-2024, acafe-2025-inverno, unicamp-2021-biologicas-e-saude, einstein-2025-prova-i...
 
-    `edicao` separa provas da mesma banca e ano sem virar rótulo no app (Acafe: Verão/Inverno);
-    o app mostra só o ano, e a edição aparece na fase."""
+    `versao` é o modelo antigo (marcava a prova no ano, "2021A") e não deve ser usado.
+
+    `edicao` separa provas da mesma banca e ano sem virar rótulo de ano no app (Acafe:
+    Verão/Inverno; Einstein: Prova I/Prova II); o ano fica limpo e a edição aparece na fase."""
     return f"{banca.lower()}-{ano}{versao or ''}" + (f"-{slug(edicao)}" if edicao else "")
 
 
@@ -84,3 +87,7 @@ def salvar_questao(q: dict) -> Path:
     p.parent.mkdir(parents=True, exist_ok=True)
     p.write_text(json.dumps(q, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     return p
+
+
+def tipo_questao(q: dict) -> str:
+    return q.get("tipo") or "objetiva"

@@ -24,7 +24,8 @@ Para gravar questões, usam-se os lotes da etapa `publicar` (docs/WORKFLOW.md).
    prova comentada não é fonte de enunciado (só de gabarito).
 3. Importados os cadernos da Unicamp 2022–2026, depois 2016–2021 (2021 teve duas provas:
    A = Exatas e Tecnológicas / Humanas e Artes, provas E e G; B = Biológicas e Saúde,
-   provas Q e Z; no app aparecem como "2021 A" e "2021 B").
+   provas Q e Z; no app apareciam como "2021 A" e "2021 B" até a v2.0.0, quando passaram ao
+   campo `edicao`: `Exatas e Humanas` e `Biológicas e Saúde`).
 4. App mudou para **uma questão por vez**, com navegação, resolução no fim de cada
    questão e **seleção de questões para lista .docx** (questões primeiro, gabarito e
    resoluções ao final).
@@ -126,8 +127,29 @@ Para gravar questões, usam-se os lotes da etapa `publicar` (docs/WORKFLOW.md).
     correta logo após o enunciado e as demais depois da justificativa; o Lucas decidiu manter
     a ordem do PDF. Gabaritos: 29A, 30A, 31C, 32D, 33C, 34B, 35B. Q30 usa o formulário da
     prova, que traz o valor da Lua como "g_T = 1,6 m/s²" (transcrito literalmente).
+19. v2.0.0: modelo de dados com questões **discursivas** (`tipo`, `respostas`) e
+    Einstein (Vunesp) 2023–2027: Prova I Q36–Q40 e Prova II Q03 de cada ano, 30 questões.
+    Decisões do Lucas: o ano fica limpo e Prova I/Prova II é descritivo (campo `edicao`,
+    como na Acafe); "o modelo da Unicamp 2021 A/B foi um erro" e não se repete; o banco
+    deve aceitar discursivas desde já, porque virão outras provas discursivas; gabaritos
+    serão conferidos depois por ele. Caderno da Prova II em coluna única, uma questão por
+    página: `--layout largura-total`. Os PDFs do Einstein têm hífens discricionários
+    (U+00AD) no meio de palavras e subscritos colados (`Qint`, `Pinicial`): divergências
+    registradas em `revisao.divergenciasAceitas`.
+    A pedido dele, a Unicamp 2021 saiu do modelo `versao` ("2021 A"/"2021 B") para `edicao`:
+    `unicamp-2021a-qNN` → `unicamp-2021-exatas-e-humanas-qNN` e `unicamp-2021b-qNN` →
+    `unicamp-2021-biologicas-e-saude-qNN` (questões, pastas e figuras; no app, documentos
+    regravados com os ids novos e os antigos apagados; as figuras não precisaram ser
+    reenviadas). Nenhuma questão usa mais `versao`.
 
 ## Pendências
+
+- **Gabaritos Einstein 2023–2027**: todos `resolucao-propria`, inclusive as respostas das
+  discursivas. Prova I: 2023 36A 37C 38E 39B 40C; 2024 36D 37E 38C 39A 40B; 2025 36A 37B
+  38B 39E 40D; 2026 36C 37A 38D 39D 40B; 2027 36A 37C 38B 39E 40D. Prova II Q03: 2023
+  1,25 m/s² e –1,5 × 10⁵ J; 26 s e 120 m · 2024 1,5 s; 10 kg e 60 N · 2025 4,08 s; 12,8 m
+  · 2026 45 J; 20 m · 2027 10 m/s; 20 m/s. Conferir com atenção 2025 Q38 (leitura de β e δ
+  na figura) e 2027 Q38 (A × B: depende de admitir que o índice da casca é maior que o do ar).
 
 - **Acafe Inverno 2025 Q32**: a "Imagem ilustrativa da experiência de Joule" não está no PDF; a legenda foi mantida, sem figura. Q35: a distinção entre IV e V (condução × convecção) é discutível; anotada na resolução.
 - **Acafe Inverno 2026 Q29**: as alternativas são frações desenhadas como equação; transcritas em linha, com parênteses.
@@ -166,7 +188,7 @@ Para gravar questões, usam-se os lotes da etapa `publicar` (docs/WORKFLOW.md).
 - **Fuvest 2022 Q54 anulada**: mantida no banco com o gabarito pretendido (B) e aviso.
   Decidir se fica no app ou sai.
 - **Critério "Química com Física forte"**: na Fuvest o Lucas mandou incluir. Decidir se
-  vale também para as Unicamp que ficaram de fora (2020 Q45–Q48, 2021 B Q33, 2027 Q25).
+  vale também para as Unicamp que ficaram de fora (2020 Q45–Q48, 2021 Biológicas e Saúde Q33, 2027 Q25).
 
 - **Gabarito oficial 2027**: as 7 questões estão com `resolucao-propria`. Gabaritos da
   resolução: 8A, 9B, 10D, 11C, 12B, 13B, 14D.
@@ -181,7 +203,7 @@ Para gravar questões, usam-se os lotes da etapa `publicar` (docs/WORKFLOW.md).
 - **2017 Q38**: o gabarito considera energia ∝ v² (fator 1/4); está registrada a
   observação sobre v³ (fator 1/8). Decidir se vale manter a observação.
 - **Em aberto, "por enquanto, não"**: questões de Química com Física forte (Unicamp 2020
-  Q45–Q48, 2021 B Q33). Não incluir sem novo pedido.
+  Q45–Q48, 2021 Biológicas e Saúde Q33). Não incluir sem novo pedido.
 - **Release v1.0.0 no GitHub**: o envio de tags falhou pela sessão; criar pela aba
   Releases do site, se desejado. O `CHANGELOG.md` registra a versão.
 - **Próximas provas**: o `painel` mostra 21 tópicos sem questão (v1.7.0) (mais pobre:

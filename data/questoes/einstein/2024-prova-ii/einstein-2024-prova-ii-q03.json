@@ -1,0 +1,38 @@
+{
+  "id": "einstein-2024-prova-ii-q03",
+  "banca": "Einstein",
+  "ano": 2024,
+  "edicao": "Prova II",
+  "numero": "3",
+  "fase": "Prova II",
+  "tipo": "discursiva",
+  "fonte": {
+    "descricao": "Vunesp, Vestibular Einstein 2024 (Faculdade Israelita de Ciências da Saúde Albert Einstein), Prova II (discursiva), caderno de questões"
+  },
+  "enunciado": "Em uma obra, uma caixa A é mantida em repouso no alto de uma prancha de madeira inclinada de um ângulo θ com a horizontal, com o auxílio de um sistema formado por duas polias e fios, todos ideais, e de um bloco B de massa 12 kg. A caixa A está inicialmente a 6,75 m de distância do ponto em que a prancha toca o solo (ponto S).\n\n[[figura 1]]\n\nDesprezando os atritos e adotando g = 10 m/s<sup>2</sup> e sen θ = 0,6, calcule:\n\na) o intervalo de tempo necessário, em segundos, para que a caixa A chegue ao ponto S, considerando que o fio que prende essa caixa se rompa.\nb) a massa da caixa A, em kg, e a intensidade da força de tração, em N, que o fio ligado a essa caixa exerce no ponto em que ele está preso no teto (ponto T), na situação de equilíbrio mostrada na figura.",
+  "figuras": [
+    "einstein-2024-prova-ii-q03-1.png"
+  ],
+  "gabarito": "",
+  "gabaritoFonte": "resolucao-propria",
+  "respostas": [
+    {
+      "item": "a",
+      "texto": "Δ<i>t</i> = 1,5 s"
+    },
+    {
+      "item": "b",
+      "texto": "<i>m</i><sub>A</sub> = 10 kg; <i>T</i> = 60 N"
+    }
+  ],
+  "resolucao": "a)\n1. Rompido o fio, sem atrito, a única força que acelera a caixa ao longo da prancha é a componente do peso: <i>a</i> = <i>g</i> · sen θ = 10 · 0,6 = 6 m/s<sup>2</sup>.\n2. A caixa parte do repouso e percorre 6,75 m: <i>d</i> = <i>at</i><sup>2</sup>/2 ⇒ 6,75 = 6<i>t</i><sup>2</sup>/2 ⇒ <i>t</i><sup>2</sup> = 2,25 ⇒ <i>t</i> = 1,5 s.\nb)\n3. O mesmo fio sai da caixa A, passa pela polia fixa no alto da prancha, desce, contorna a polia móvel que sustenta B e sobe até o teto (ponto T). Fio ideal: a tração <i>T</i> é a mesma em todo ele.\n4. Equilíbrio da polia móvel (ideal) com o bloco B: 2<i>T</i> = <i>m</i><sub>B</sub> · <i>g</i> = 12 · 10 = 120 N ⇒ <i>T</i> = 60 N. Essa é a força que o fio exerce no teto.\n5. Equilíbrio da caixa A ao longo da prancha (fio paralelo à prancha): <i>T</i> = <i>m</i><sub>A</sub> · <i>g</i> · sen θ ⇒ 60 = <i>m</i><sub>A</sub> · 10 · 0,6 ⇒ <i>m</i><sub>A</sub> = 10 kg.",
+  "topicos": [
+    "plano-inclinado",
+    "sistemas-de-blocos-fios-e-polias",
+    "equilibrio-do-ponto-material",
+    "movimento-retilineo-uniformemente-variado-mruv"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-10T16:54:43.000Z",
+  "atualizadoEm": "2026-11-10T16:57:52.000Z"
+}

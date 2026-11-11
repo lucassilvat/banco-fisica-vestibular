@@ -1,0 +1,43 @@
+{
+  "id": "einstein-2025-prova-ii-q03",
+  "banca": "Einstein",
+  "ano": 2025,
+  "edicao": "Prova II",
+  "numero": "3",
+  "fase": "Prova II",
+  "tipo": "discursiva",
+  "fonte": {
+    "descricao": "Vunesp, Vestibular Einstein 2025 (Faculdade Israelita de Ciências da Saúde Albert Einstein), Prova II (discursiva), caderno de questões"
+  },
+  "enunciado": "O “pêndulo humano” é atração radical na Serra Catarinense\n\nO salto de pêndulo desafia o turista aventureiro a se jogar de corpo e alma em uma queda de dezenas de metros, a uma velocidade que pode atingir mais de 100 km/h, junto às paredes rochosas que circundam a cachoeira Cascata do Avencal. São segundos de queda seguidos por um balanço gigante.\n\n(https://catracalivre.com.br. Adaptado.)\n\nA figura mostra uma pessoa de 60 kg na atração do pêndulo humano. A pessoa deixa seu corpo cair a partir do repouso, do ponto A, de uma altura h, presa a uma corda de massa desprezível de 64 m de comprimento.\n\n[[figura 1]]\n\nNessa situação, considere que a resistência do ar possa ser desprezada e que o período de oscilação desse pêndulo (T), em segundos, possa ser calculado por T = 2,04 · √L, em que L é o comprimento da corda, em metros. Sabendo que, quando a pessoa atinge o ponto B, ponto mais baixo de sua trajetória circular, a intensidade da tração na corda é de 840 N e adotando g = 10 m/s<sup>2</sup>, calcule:\n\na) o intervalo de tempo, em segundos, para que essa pessoa, partindo do ponto A, atinja o ponto B pela primeira vez.\nb) o valor da altura h, em metros.",
+  "figuras": [
+    "einstein-2025-prova-ii-q03-1.png"
+  ],
+  "gabarito": "",
+  "gabaritoFonte": "resolucao-propria",
+  "respostas": [
+    {
+      "item": "a",
+      "texto": "Δ<i>t</i> = 4,08 s"
+    },
+    {
+      "item": "b",
+      "texto": "<i>h</i> = 12,8 m"
+    }
+  ],
+  "resolucao": "a)\n1. Período do pêndulo com <i>L</i> = 64 m: <i>T</i> = 2,04 · √64 = 2,04 · 8 = 16,32 s.\n2. De A (extremo da oscilação) até B (ponto mais baixo) a pessoa percorre um quarto de oscilação: Δ<i>t</i> = <i>T</i>/4 = 16,32/4 = 4,08 s.\nb)\n3. Em B, a resultante das forças (tração para cima, peso para baixo) é a resultante centrípeta: <i>T</i> – <i>mg</i> = <i>mv</i><sup>2</sup>/<i>L</i>.\n4. 840 – 60 · 10 = 60 · <i>v</i><sup>2</sup>/64 ⇒ 240 = 60<i>v</i><sup>2</sup>/64 ⇒ <i>v</i><sup>2</sup> = 256 ⇒ <i>v</i> = 16 m/s.\n5. Sem resistência do ar, a energia mecânica se conserva entre A (repouso) e B: <i>mgh</i> = <i>mv</i><sup>2</sup>/2 ⇒ <i>h</i> = <i>v</i><sup>2</sup>/(2<i>g</i>) = 256/20 = 12,8 m.",
+  "topicos": [
+    "pendulo-simples",
+    "resultante-centripeta-curvas-loop-globo-da-morte",
+    "conservacao-da-energia-mecanica"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-10T16:54:45.000Z",
+  "atualizadoEm": "2026-11-10T16:58:18.000Z",
+  "revisao": {
+    "divergenciasAceitas": [
+      "2,04"
+    ],
+    "notas": "A expressão T = 2,04 · √L é desenhada no caderno com o editor de equações; transcrita da imagem, em linha. Divergência aceita: '2,04': trecho desenhado com o editor de equações, sem camada de texto."
+  }
+}

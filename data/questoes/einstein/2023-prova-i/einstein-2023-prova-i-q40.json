@@ -1,0 +1,32 @@
+{
+  "id": "einstein-2023-prova-i-q40",
+  "banca": "Einstein",
+  "ano": 2023,
+  "edicao": "Prova I",
+  "numero": "40",
+  "fase": "Prova I",
+  "fonte": {
+    "descricao": "Vunesp, Vestibular Einstein 2023 (Faculdade Israelita de Ciências da Saúde Albert Einstein), Prova I (objetiva), caderno de questões"
+  },
+  "enunciado": "Em uma aula de eletricidade, o professor pede a um dos estudantes que faça contato entre os dois polos de uma pilha utilizando um clip metálico de resistência elétrica desprezível, como mostrado na figura. Depois de alguns segundos, o estudante nota que a pilha ficou bastante quente, a ponto de não conseguir segurá-la com suas mãos.\n\n[[figura 1]]\n\nEm seguida, o professor comenta que esse aquecimento é uma demonstração do efeito Joule que, nesse caso, foi bastante intenso porque, pela pilha, circulou a maior corrente elétrica que pode atravessá-la, chamada “corrente de curto-circuito”, uma vez que o clip metálico\n\n(A) igualou a diferença de potencial entre os extremos da pilha à sua força eletromotriz.\n(B) inverteu as polaridades da pilha, transformando-a em um receptor elétrico.\n(C) tornou nula a diferença de potencial entre os extremos da pilha.\n(D) diminuiu a resistência interna da pilha a um valor desprezível.\n(E) elevou a força eletromotriz da pilha.",
+  "figuras": [
+    "einstein-2023-prova-i-q40-1.png"
+  ],
+  "gabarito": "C",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. Para um gerador real: <i>U</i> = ε – <i>r</i> · <i>i</i>, em que <i>U</i> é a diferença de potencial entre os polos, ε a força eletromotriz e <i>r</i> a resistência interna.\n2. O clip liga os polos com resistência desprezível: <i>U</i> = <i>R</i><sub>clip</sub> · <i>i</i> ≈ 0.\n3. Com <i>U</i> = 0: <i>i</i> = ε/<i>r</i>, a maior corrente possível (corrente de curto-circuito). Toda a potência ε · <i>i</i> é dissipada na resistência interna, por isso a pilha esquenta.\n4. A – Incorreta: <i>U</i> = ε só ocorre com a pilha em aberto (<i>i</i> = 0). B – Incorreta: a corrente continua saindo pelo polo positivo; não há inversão. D e E – Incorretas: ε e <i>r</i> são características da pilha e não mudam com o clip.\nGabarito: C.",
+  "topicos": [
+    "geradores-eletricos-fem-e-resistencia-interna",
+    "potencia-eletrica-e-efeito-joule"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-10T16:52:23.000Z",
+  "atualizadoEm": "2026-11-10T16:54:14.000Z",
+  "revisao": {
+    "divergenciasAceitas": [
+      "estudantes",
+      "segundos"
+    ],
+    "notas": "Divergência aceita: 'estudantes' e 'segundos': na camada de texto do PDF a palavra traz um hífen discricionário (U+00AD) no meio."
+  }
+}

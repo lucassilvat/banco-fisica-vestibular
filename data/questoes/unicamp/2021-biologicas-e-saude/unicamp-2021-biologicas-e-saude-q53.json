@@ -1,0 +1,22 @@
+{
+  "id": "unicamp-2021-biologicas-e-saude-q53",
+  "banca": "Unicamp",
+  "ano": 2021,
+  "edicao": "Biológicas e Saúde",
+  "numero": "53",
+  "fase": "1ª fase · Biológicas e Saúde",
+  "fonte": {
+    "descricao": "Comvest, Vestibular Unicamp 2021, 1ª fase, Conhecimentos Gerais – Biológicas e Saúde (provas Q e Z)"
+  },
+  "enunciado": "Nas questões de 49 a 56, sempre que necessário, use π = 3 e <i>g</i> = 10 m/s<sup>2</sup>.\n\n<b>Texto comum para questões 52 e 53.</b>\n\nEm março de 2020, a Unicamp e o <i>Fermi National Accelerator Laboratory (Fermilab)</i>, dos Estados Unidos, assinaram um acordo de cooperação científica com o objetivo de desenvolver tanques para conter argônio líquido a baixíssimas temperaturas (criostatos). Esses tanques abrigarão detectores para o estudo dos neutrinos.\n\nA pressão exercida na base de certo tanque do <i>Fermilab</i> pela coluna de argônio líquido no seu interior é <i>P</i> = 5,6×10<sup>4</sup> N/m<sup>2</sup>. A densidade do argônio líquido no tanque é <i>d</i> = 1400 kg/m<sup>3</sup>. Assim, a altura do tanque será de\n\na) 2,0 m.\nb) 4,0 m.\nc) 7,8 m.\nd) 25,0 m.",
+  "figuras": [],
+  "gabarito": "B",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. Pressão da coluna líquida: <i>P</i> = <i>d g h</i>.\n2. <i>h</i> = 5,6 × 10<sup>4</sup>/(1400 · 10) = 4,0 m.",
+  "topicos": [
+    "teorema-de-stevin-pressao-hidrostatica"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-10-07T11:30:00.000Z",
+  "atualizadoEm": "2026-10-07T11:30:00.000Z"
+}

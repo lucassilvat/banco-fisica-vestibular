@@ -1,0 +1,37 @@
+{
+  "id": "einstein-2026-prova-ii-q03",
+  "banca": "Einstein",
+  "ano": 2026,
+  "edicao": "Prova II",
+  "numero": "3",
+  "fase": "Prova II",
+  "tipo": "discursiva",
+  "fonte": {
+    "descricao": "Vunesp, Vestibular Einstein 2026 (Faculdade Israelita de Ciências da Saúde Albert Einstein), Prova II (discursiva), caderno de questões"
+  },
+  "enunciado": "Um vaso de 0,4 kg cai da sacada de um apartamento e, em seu movimento vertical, esse vaso passa pela visão de João e pela visão de José, que estão nas sacadas de seus apartamentos, com um intervalo de tempo de 0,5 s. Nesse intervalo de tempo, o vaso percorre a distância de 11,25 m, como mostra a figura.\n\n[[figura 1]]\n\nSabendo que o vaso caiu a partir do repouso de uma altura h acima da posição em que se encontra João, adotando g = 10 m/s<sup>2</sup> e desprezando a resistência do ar, calcule:\n\na) a variação da energia cinética do vaso, em joules, entre o instante de sua passagem diante de João e o instante de sua passagem diante de José.\nb) o valor de h, em metros.",
+  "figuras": [
+    "einstein-2026-prova-ii-q03-1.png"
+  ],
+  "gabarito": "",
+  "gabaritoFonte": "resolucao-propria",
+  "respostas": [
+    {
+      "item": "a",
+      "texto": "Δ<i>E</i><sub>c</sub> = 45 J"
+    },
+    {
+      "item": "b",
+      "texto": "<i>h</i> = 20 m"
+    }
+  ],
+  "resolucao": "a)\n1. Sem resistência do ar, só o peso realiza trabalho. Pelo teorema da energia cinética: Δ<i>E</i><sub>c</sub> = τ<sub>peso</sub> = <i>mg</i>Δ<i>s</i> = 0,4 · 10 · 11,25 = 45 J.\nb)\n2. Seja <i>v</i><sub>0</sub> a velocidade do vaso diante de João. No trecho até José (MUV com <i>a</i> = <i>g</i>): Δ<i>s</i> = <i>v</i><sub>0</sub><i>t</i> + <i>gt</i><sup>2</sup>/2 ⇒ 11,25 = 0,5<i>v</i><sub>0</sub> + 5 · 0,25 ⇒ 0,5<i>v</i><sub>0</sub> = 10 ⇒ <i>v</i><sub>0</sub> = 20 m/s.\n3. (Conferindo o item a: diante de José, <i>v</i> = 20 + 10 · 0,5 = 25 m/s e Δ<i>E</i><sub>c</sub> = 0,4 · (25<sup>2</sup> – 20<sup>2</sup>)/2 = 0,2 · 225 = 45 J.)\n4. O vaso partiu do repouso a uma altura <i>h</i> acima de João: <i>v</i><sub>0</sub><sup>2</sup> = 2<i>gh</i> ⇒ <i>h</i> = 400/20 = 20 m.",
+  "topicos": [
+    "queda-livre-e-lancamento-vertical",
+    "energia-cinetica-e-teorema-trabalho-energia",
+    "movimento-retilineo-uniformemente-variado-mruv"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-10T16:54:46.000Z",
+  "atualizadoEm": "2026-11-10T16:59:28.000Z"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "einstein-2023-prova-i-q37",
+  "banca": "Einstein",
+  "ano": 2023,
+  "edicao": "Prova I",
+  "numero": "37",
+  "fase": "Prova I",
+  "fonte": {
+    "descricao": "Vunesp, Vestibular Einstein 2023 (Faculdade Israelita de Ciências da Saúde Albert Einstein), Prova I (objetiva), caderno de questões"
+  },
+  "enunciado": "No início de um dia, uma piscina de fundo plano e horizontal continha água a 15 ºC, até o nível de 1 cm abaixo da borda. Nesse dia, quando a água foi aquecida a 35 ºC, a piscina ficou completamente cheia, como mostra a figura.\n\n[[figura 1]]\n\nSabendo que a dilatação volumétrica sofrida por um líquido é diretamente proporcional ao volume inicial desse líquido e à variação de temperatura sofrida por ele, e considerando que o coeficiente de dilatação volumétrica da água nessa faixa de temperatura é 2 × 10<sup>–4</sup> ºC<sup>–1</sup>, a profundidade H dessa piscina é de, aproximadamente,\n\n(A) 2,0 m.\n(B) 1,5 m.\n(C) 2,5 m.\n(D) 1,0 m.\n(E) 0,5 m.",
+  "figuras": [
+    "einstein-2023-prova-i-q37-1.png"
+  ],
+  "gabarito": "C",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. Seja <i>A</i> a área do fundo da piscina. Volume inicial da água: <i>V</i><sub>0</sub> = <i>A</i> · (<i>H</i> – 0,01), com <i>H</i> em metros.\n2. Para encher a piscina, o volume da água precisa aumentar o que faltava até a borda: Δ<i>V</i> = <i>A</i> · 0,01 (desprezando a dilatação da própria piscina, como sugere o enunciado).\n3. Dilatação volumétrica: Δ<i>V</i> = <i>V</i><sub>0</sub> · γ · Δθ, com γ = 2 × 10<sup>–4</sup> ºC<sup>–1</sup> e Δθ = 35 – 15 = 20 ºC.\n4. <i>A</i> · 0,01 = <i>A</i> · (<i>H</i> – 0,01) · 2 × 10<sup>–4</sup> · 20 ⇒ 0,01 = (<i>H</i> – 0,01) · 4 × 10<sup>–3</sup> ⇒ <i>H</i> – 0,01 = 2,5 m.\n5. <i>H</i> ≈ 2,51 m ≈ 2,5 m.\nGabarito: C.",
+  "topicos": [
+    "dilatacao-dos-liquidos-e-comportamento-anomalo-da-agua"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-10T16:52:23.000Z",
+  "atualizadoEm": "2026-11-10T16:54:14.000Z"
+}

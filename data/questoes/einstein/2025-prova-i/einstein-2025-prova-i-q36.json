@@ -1,0 +1,31 @@
+{
+  "id": "einstein-2025-prova-i-q36",
+  "banca": "Einstein",
+  "ano": 2025,
+  "edicao": "Prova I",
+  "numero": "36",
+  "fase": "Prova I",
+  "fonte": {
+    "descricao": "Vunesp, Vestibular Einstein 2025 (Faculdade Israelita de Ciências da Saúde Albert Einstein), Prova I (objetiva), caderno de questões"
+  },
+  "enunciado": "O fenômeno da fadiga térmica pode ocorrer no sistema de freios de um veículo pesado, se o condutor utilizar os freios para controlar continuamente a velocidade desse veículo, em um longo trecho de declive. Ao final desse trecho, o atrito entre as pastilhas e os discos de freio pode não ser suficiente para frear o veículo porque o grande aquecimento provocado por esse atrito diminui o coeficiente de atrito entre os materiais do freio. O gráfico mostra como varia o coeficiente de atrito entre o aço do disco de freio e o material que recobre as pastilhas do freio de um caminhão, em função da temperatura.\n\n[[figura 1]]\n\nConsidere que, em uma frenagem contínua em um longo trecho de declive de uma rodovia, as forças de compressão entre as pastilhas e os discos de freio das rodas desse caminhão se mantenham constantes. Se, nessa frenagem, a temperatura do freio aumentar de 200 ºC para 350 ºC, as intensidades das forças de atrito entre as pastilhas e os discos de freio sofrerão uma redução de\n\n(A) 40%.\n(B) 20%.\n(C) 25%.\n(D) 10%.\n(E) 50%.",
+  "figuras": [
+    "einstein-2025-prova-i-q36-1.png"
+  ],
+  "gabarito": "A",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. Força de atrito: <i>F</i><sub>at</sub> = μ · <i>N</i>. Com a força de compressão <i>N</i> constante, <i>F</i><sub>at</sub> é proporcional a μ.\n2. Leitura do gráfico (linhas de grade a cada 0,025): a 200 ºC, μ ≈ 0,375; a 350 ºC, μ ≈ 0,225.\n3. Redução relativa: (0,375 – 0,225)/0,375 = 0,150/0,375 = 0,40.\n4. A força de atrito diminui 40%.\nGabarito: A.",
+  "topicos": [
+    "forca-de-atrito-estatico-e-cinetico",
+    "leitura-e-interpretacao-de-graficos"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-10T16:52:26.000Z",
+  "atualizadoEm": "2026-11-10T16:57:52.000Z",
+  "revisao": {
+    "divergenciasAceitas": [
+      "intensidades"
+    ],
+    "notas": "Divergência aceita: 'intensidades': na camada de texto do PDF a palavra traz um hífen discricionário (U+00AD) no meio."
+  }
+}

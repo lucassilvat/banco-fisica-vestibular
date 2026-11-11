@@ -30,9 +30,11 @@ def executar(chave: str, numeros: list[int]):
              "banca": fonte["banca"], "ano": fonte["ano"]}
         if fonte.get("versao"): q["versao"] = fonte["versao"]
         if fonte.get("edicao"): q["edicao"] = fonte["edicao"]
-        q.update(numero=str(n), fase=fonte.get("fase", "1ª fase"), fonte={"descricao": fonte["descricao"]},
+        q["numero"] = str(n); q["fase"] = fonte.get("fase", "1ª fase")
+        if fonte.get("questoes") == "discursivas": q["tipo"] = "discursiva"
+        q.update(fonte={"descricao": fonte["descricao"]},
                  enunciado="\n\n".join(body) + ("\n\n" + "\n".join(alts) if alts else ""),
-                 figuras=[], gabarito="", gabaritoFonte="", resolucao="", topicos=[], status="rascunho",
+                 figuras=[], gabarito="", gabaritoFonte="", **({"respostas": []} if q.get("tipo") == "discursiva" else {}), resolucao="", topicos=[], status="rascunho",
                  criadoEm=agora, atualizadoEm=agora,
                  _notas={"figurasDetectadas": figs, "textoCompartilhadoDepois": compartilhado,
                          "aviso": "Rascunho automático: confira contra trabalho/<prova>/imagens antes de revisar."})

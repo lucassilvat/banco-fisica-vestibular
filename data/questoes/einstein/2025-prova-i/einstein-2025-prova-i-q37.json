@@ -1,0 +1,34 @@
+{
+  "id": "einstein-2025-prova-i-q37",
+  "banca": "Einstein",
+  "ano": 2025,
+  "edicao": "Prova I",
+  "numero": "37",
+  "fase": "Prova I",
+  "fonte": {
+    "descricao": "Vunesp, Vestibular Einstein 2025 (Faculdade Israelita de Ciências da Saúde Albert Einstein), Prova I (objetiva), caderno de questões"
+  },
+  "enunciado": "O diagrama pressão x volume representa um ciclo termodinâmico efetuado por um gás refrigerante de um sistema de ar condicionado utilizado no processo de resfriamento do interior de um veículo. Nesse processo, o gás absorve calor do interior do veículo (Q<sub>int</sub>) e libera calor para o meio exterior (Q<sub>ext</sub>).\n\n[[figura 1]]\n\nSabe-se que, nesse ciclo:\n\n• AB representa uma compressão adiabática;\n• BC representa uma compressão isobárica;\n• CD representa uma expansão adiabática;\n• DA representa uma expansão isobárica.\n\nConsiderando o gás ideal e a primeira lei da termodinâmica, o gás do sistema de ar condicionado sofreu aquecimento nas transformações\n\n(A) CD e DA.\n(B) AB e DA.\n(C) BC e CD.\n(D) BC e DA.\n(E) AB e CD.",
+  "figuras": [
+    "einstein-2025-prova-i-q37-1.png"
+  ],
+  "gabarito": "B",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. Para gás ideal, a temperatura cresce quando a energia interna cresce (Δ<i>U</i> > 0). Primeira lei: Δ<i>U</i> = <i>Q</i> – τ.\n2. AB, compressão adiabática: <i>Q</i> = 0 e τ < 0 (o gás recebe trabalho) ⇒ Δ<i>U</i> = –τ > 0: aquecimento.\n3. BC, compressão isobárica: <i>pV</i> = <i>nRT</i> com <i>p</i> constante e <i>V</i> diminuindo ⇒ <i>T</i> diminui: resfriamento (o gás libera <i>Q</i><sub>ext</sub>).\n4. CD, expansão adiabática: <i>Q</i> = 0 e τ > 0 ⇒ Δ<i>U</i> = –τ < 0: resfriamento.\n5. DA, expansão isobárica: <i>p</i> constante e <i>V</i> aumentando ⇒ <i>T</i> aumenta: aquecimento (o gás absorve <i>Q</i><sub>int</sub>).\n6. Aquecimento em AB e DA.\nGabarito: B.",
+  "topicos": [
+    "primeira-lei-da-termodinamica",
+    "transformacoes-gasosas-isotermica-isobarica-isocorica-adiabatica",
+    "refrigeradores",
+    "trabalho-em-transformacao-gasosa-grafico-p-v"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-10T16:52:26.000Z",
+  "atualizadoEm": "2026-11-10T16:57:52.000Z",
+  "revisao": {
+    "divergenciasAceitas": [
+      "ext",
+      "int"
+    ],
+    "notas": "Divergência aceita: 'int' e 'ext': na camada de texto do PDF o subscrito vem colado à letra (Qint, Qext)."
+  }
+}

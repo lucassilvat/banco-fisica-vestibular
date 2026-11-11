@@ -1,0 +1,26 @@
+{
+  "id": "einstein-2025-prova-i-q38",
+  "banca": "Einstein",
+  "ano": 2025,
+  "edicao": "Prova I",
+  "numero": "38",
+  "fase": "Prova I",
+  "fonte": {
+    "descricao": "Vunesp, Vestibular Einstein 2025 (Faculdade Israelita de Ciências da Saúde Albert Einstein), Prova I (objetiva), caderno de questões"
+  },
+  "enunciado": "O brilho de um diamante deve-se ao seu alto índice de refração em relação ao ar e à sua lapidação, ou seja, à forma como a pedra é cortada, com muitas faces em ângulos variados. O índice de refração de um diamante em relação ao ar é tal que o ângulo limite para refração dentro do diamante é de 24º. A figura 1 mostra a imagem de um diamante e a figura 2 mostra uma secção transversal desse diamante e três raios de luz monocromática, a, b e c, e suas trajetórias, após incidirem sobre faces desse diamante.\n\n[[figura 1]]\n\n(https://seara.ufc.br)\n\n[[figura 2]]\n\nConsiderando as informações apresentadas, tem-se que:\n\n(A) α > 24º, β < 24º e δ > 24º\n(B) α > 24º, β < 24º e δ = 24º\n(C) α > 24º, β > 24º e δ = 24º\n(D) α = 24º, β < 24º e δ > 24º\n(E) α < 24º, β > 24º e δ = 24º",
+  "figuras": [
+    "einstein-2025-prova-i-q38-1.png",
+    "einstein-2025-prova-i-q38-2.png"
+  ],
+  "gabarito": "B",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. Ao tentar sair do diamante para o ar, a luz: refrata se o ângulo de incidência é menor que o limite (24º); sai rasante à face (refratada a 90º) se é igual ao limite; sofre reflexão total se é maior que o limite.\n2. Raio a: incide na face inferior com ângulo α e é totalmente refletido (não há raio refratado para fora) ⇒ α > 24º.\n3. Raio c: incide na face superior direita com ângulo β e sai do diamante, desviando-se da normal sem ficar rente à face ⇒ β < 24º.\n4. Raio b: incide na face inferior direita com ângulo δ e sai paralelo a essa face (rasante) ⇒ δ = 24º, o ângulo limite.\nGabarito: B.",
+  "topicos": [
+    "reflexao-total-e-fibra-optica",
+    "refracao-da-luz-e-indice-de-refracao"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-10T16:52:26.000Z",
+  "atualizadoEm": "2026-11-10T16:57:52.000Z"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "einstein-2027-prova-i-q38",
+  "banca": "Einstein",
+  "ano": 2027,
+  "edicao": "Prova I",
+  "numero": "38",
+  "fase": "Prova I",
+  "fonte": {
+    "descricao": "Vunesp, Vestibular Einstein 2027 (Faculdade Israelita de Ciências da Saúde Albert Einstein), Prova I (objetiva), caderno de questões"
+  },
+  "enunciado": "A endoscopia é um exame das estruturas internas do corpo por meio de um tubo flexível (endoscópio) que possui, em sua extremidade, uma fonte de luz e uma pequena câmera, que permitem ao médico visualizar o revestimento do trato digestório. Esse exame baseia-se no fenômeno da reflexão total interna em cabos de fibras ópticas para iluminar o interior do corpo humano e transmitir imagens de alta resolução para um monitor externo por meio dessas fibras.\n\nA figura ilustra uma endoscopia do trato digestório de uma pessoa e, em detalhe, uma fibra óptica conduzindo um raio de luz. Essa fibra é composta de um núcleo (N) revestido por uma casca (C), ambos transparentes e imersos no ar.\n\n[[figura 1]]\n\n(www.msdmanuals.com. Adaptado.)\n\n[[figura 2]]\n\n(https://petfisicauem.wixsite.com. Adaptado.)\n\nSendo n<sub>Ar</sub>, n<sub>N</sub> e n<sub>C</sub> os índices de refração absolutos do ar, do núcleo e da casca, respectivamente, para que o fenômeno da reflexão total ocorra dentro das fibras ópticas, é necessário que:\n\n(A) n<sub>N</sub> > n<sub>C</sub> = n<sub>Ar</sub>\n(B) n<sub>N</sub> > n<sub>C</sub> > n<sub>Ar</sub>\n(C) n<sub>N</sub> < n<sub>C</sub> = n<sub>Ar</sub>\n(D) n<sub>N</sub> < n<sub>C</sub> < n<sub>Ar</sub>\n(E) n<sub>N</sub> = n<sub>C</sub> > n<sub>Ar</sub>",
+  "figuras": [
+    "einstein-2027-prova-i-q38-1.png",
+    "einstein-2027-prova-i-q38-2.png"
+  ],
+  "gabarito": "B",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. Reflexão total só acontece quando a luz vai de um meio mais refringente para um menos refringente, com ângulo de incidência maior que o ângulo limite (sen <i>L</i> = <i>n</i><sub>menor</sub>/<i>n</i><sub>maior</sub>).\n2. Na figura, a luz se reflete na fronteira entre o núcleo e a casca: é preciso <i>n</i><sub>N</sub> > <i>n</i><sub>C</sub>. Isso elimina C, D e E.\n3. A casca é um material transparente (vidro ou plástico), cujo índice de refração é maior que o do ar: <i>n</i><sub>C</sub> > <i>n</i><sub>Ar</sub>. A igualdade da alternativa A só valeria se a casca fosse o próprio ar.\n4. <i>n</i><sub>N</sub> > <i>n</i><sub>C</sub> > <i>n</i><sub>Ar</sub>.\nGabarito: B.",
+  "topicos": [
+    "reflexao-total-e-fibra-optica",
+    "refracao-da-luz-e-indice-de-refracao"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-10T16:52:29.000Z",
+  "atualizadoEm": "2026-11-10T17:00:27.000Z"
+}

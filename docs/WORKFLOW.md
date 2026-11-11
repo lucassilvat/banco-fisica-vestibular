@@ -33,7 +33,17 @@ python -m pipeline registrar-prova Unicamp 2015 --descricao "Vestibular Unicamp 
 python -m pipeline registrar-prova Unicamp 2015 --tipo gabarito --descricao "Gabarito oficial 1ª fase 2015"
 ```
 
-A chave da prova passa a ser `unicamp-2015` (com versão: `unicamp-2021A`). Os PDFs ficam
+A chave da prova passa a ser `unicamp-2015` (com edição: `acafe-2025-inverno`,
+`einstein-2025-prova-ii`). Caderno de questões discursivas: acrescente `--discursivas`
+(os rascunhos já saem com `tipo: "discursiva"` e `respostas: []`); caderno em coluna única,
+uma questão por página (Einstein, Prova II): `--layout largura-total`. Exemplo:
+
+```
+python -m pipeline registrar-prova Einstein 2025 --edicao "Prova II" --fase "Prova II" --discursivas --layout largura-total --descricao "Vunesp, Vestibular Einstein 2025 (...), Prova II (discursiva), caderno de questões"
+```
+
+Não use `--versao` (modelo antigo, que marcava a prova no ano, "2021 A"): o ano fica limpo e
+a distinção vai em `--edicao`. Os PDFs ficam
 fora do git; o manifesto guarda o sha256 para saber exatamente de qual arquivo cada
 questão foi transcrita.
 

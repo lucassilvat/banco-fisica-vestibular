@@ -1,0 +1,24 @@
+{
+  "id": "unicamp-2021-biologicas-e-saude-q50",
+  "banca": "Unicamp",
+  "ano": 2021,
+  "edicao": "Biológicas e Saúde",
+  "numero": "50",
+  "fase": "1ª fase · Biológicas e Saúde",
+  "fonte": {
+    "descricao": "Comvest, Vestibular Unicamp 2021, 1ª fase, Conhecimentos Gerais – Biológicas e Saúde (provas Q e Z)"
+  },
+  "enunciado": "Nas questões de 49 a 56, sempre que necessário, use π = 3 e <i>g</i> = 10 m/s<sup>2</sup>.\n\n<b>Texto comum para questões 49 e 50.</b>\n\nRecentemente, uma equipe internacional de cientistas detectou a explosão de uma estrela conhecida como SN2016aps, que teria sido a explosão de supernova mais brilhante já registrada.\n\nOs cientistas estimam que, no momento da explosão, a massa da supernova SN2016aps era 50 a 100 vezes maior que a massa do Sol. Se o Sol tivesse a massa dessa supernova, mantendo-se a sua distância da Terra,\n\na) a velocidade de translação da Terra em torno do Sol deveria aumentar e o período do ano terrestre diminuir.\nb) a velocidade de translação da Terra em torno do Sol deveria diminuir e o período do ano terrestre aumentar.\nc) a velocidade de translação da Terra em torno do Sol e o período do ano terrestre deveriam diminuir.\nd) a velocidade de translação da Terra em torno do Sol e o período do ano terrestre deveriam aumentar.",
+  "figuras": [],
+  "gabarito": "A",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. Na órbita circular, a gravidade é a resultante centrípeta: <i>GMm</i>/<i>r</i><sup>2</sup> = <i>m v</i><sup>2</sup>/<i>r</i> ⇒ <i>v</i> = √(<i>GM</i>/<i>r</i>).\n2. Com <i>M</i> maior e <i>r</i> igual, <i>v</i> aumenta.\n3. <i>T</i> = 2π<i>r</i>/<i>v</i>: com <i>v</i> maior, o período (o ano) diminui.",
+  "topicos": [
+    "lei-da-gravitacao-universal",
+    "satelites-orbitas-e-imponderabilidade",
+    "resultante-centripeta-curvas-loop-globo-da-morte"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-10-07T11:30:00.000Z",
+  "atualizadoEm": "2026-10-07T11:30:00.000Z"
+}

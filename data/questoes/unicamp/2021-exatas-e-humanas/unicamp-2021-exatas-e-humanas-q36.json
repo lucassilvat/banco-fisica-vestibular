@@ -1,0 +1,22 @@
+{
+  "id": "unicamp-2021-exatas-e-humanas-q36",
+  "banca": "Unicamp",
+  "ano": 2021,
+  "edicao": "Exatas e Humanas",
+  "numero": "36",
+  "fase": "1ª fase · Exatas e Tecnológicas / Humanas e Artes",
+  "fonte": {
+    "descricao": "Comvest, Vestibular Unicamp 2021, 1ª fase, Conhecimentos Gerais – Exatas e Tecnológicas / Humanas e Artes (provas E e G)"
+  },
+  "enunciado": "Nas questões de 33 a 40, sempre que necessário, use π = 3 e <i>g</i> = 10 m/s<sup>2</sup>.\n\nA força de atrito cinético entre a agulha e um disco de vinil tem módulo |<i>F</i>⃗<sub><i>at</i></sub>| = 8,0×10<sup>−3</sup> N. Sendo o módulo da força normal |<i>N</i>⃗| = 2,0×10<sup>−2</sup> N, o coeficiente de atrito cinético, <i>μ<sub>c</sub></i>, entre a agulha e o disco é igual a\n\na) 1,6×10<sup>−5</sup>.\nb) 5,0×10<sup>−2</sup>.\nc) 4,0×10<sup>−1</sup>.\nd) 2,5×10<sup>0</sup>.",
+  "figuras": [],
+  "gabarito": "C",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "<i>μ</i><sub>c</sub> = <i>F</i><sub>at</sub>/<i>N</i> = 8,0 × 10<sup>−3</sup>/2,0 × 10<sup>−2</sup> = 0,40 = 4,0 × 10<sup>−1</sup>.",
+  "topicos": [
+    "forca-de-atrito-estatico-e-cinetico"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-10-07T11:30:00.000Z",
+  "atualizadoEm": "2026-10-07T11:30:00.000Z"
+}

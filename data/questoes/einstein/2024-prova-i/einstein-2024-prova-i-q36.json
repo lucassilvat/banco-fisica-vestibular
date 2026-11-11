@@ -1,0 +1,26 @@
+{
+  "id": "einstein-2024-prova-i-q36",
+  "banca": "Einstein",
+  "ano": 2024,
+  "edicao": "Prova I",
+  "numero": "36",
+  "fase": "Prova I",
+  "fonte": {
+    "descricao": "Vunesp, Vestibular Einstein 2024 (Faculdade Israelita de Ciências da Saúde Albert Einstein), Prova I (objetiva), caderno de questões"
+  },
+  "enunciado": "O mecanismo mostrado na figura foi adaptado para afiar facas. Ele é constituído de engrenagens de tamanhos diferentes e de uma fita abrasiva. O motor que faz a engrenagem 1 girar tem frequência de 75 rpm e os pinos com os quais a fita abrasiva faz contato têm raios de curvatura iguais, medindo 5 cm cada um. Nesse procedimento, a faca é mantida em contato com a fita abrasiva e em repouso em relação ao solo.\n\n[[figura 1]]\n\n(www.redutoresibr.com.br. Adaptado.)\n\nSabendo que o número de dentes na periferia de uma engrenagem é diretamente proporcional ao raio dessa engrenagem, que não há escorregamento entre a fita abrasiva e os pinos com os quais ela faz contato e adotando π = 3, a velocidade escalar com que a fita passa pela faca que está sendo afiada é de\n\n(A) 2,0 m/s.\n(B) 2,5 m/s.\n(C) 3,5 m/s.\n(D) 3,0 m/s.\n(E) 1,5 m/s.",
+  "figuras": [
+    "einstein-2024-prova-i-q36-1.png"
+  ],
+  "gabarito": "D",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. Engrenagens que se tocam têm a mesma velocidade linear na periferia: <i>f</i><sub>A</sub> · <i>R</i><sub>A</sub> = <i>f</i><sub>B</sub> · <i>R</i><sub>B</sub>. Como o raio é proporcional ao número de dentes <i>N</i>, vale <i>f</i><sub>A</sub> · <i>N</i><sub>A</sub> = <i>f</i><sub>B</sub> · <i>N</i><sub>B</sub>.\n2. Engrenagem 1 (56 dentes, 75 rpm) aciona a engrenagem 2 (14 dentes): <i>f</i><sub>2</sub> = 75 · 56/14 = 300 rpm.\n3. A engrenagem 3 está no mesmo eixo da engrenagem 2 (mesma frequência): <i>f</i><sub>3</sub> = 300 rpm.\n4. A engrenagem 3 (28 dentes) aciona a engrenagem 4 (14 dentes): <i>f</i><sub>4</sub> = 300 · 28/14 = 600 rpm = 10 Hz.\n5. O pino que move a fita está no eixo da engrenagem 4. Sem escorregamento, a fita tem a velocidade da periferia do pino: <i>v</i> = 2π<i>R</i><i>f</i> = 2 · 3 · 0,05 · 10 = 3,0 m/s.\nGabarito: D.",
+  "topicos": [
+    "transmissao-de-movimento-circular-polias-engrenagens-coroas",
+    "periodo-frequencia-e-velocidade-angular",
+    "movimento-circular-uniforme-mcu"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-10T16:52:24.000Z",
+  "atualizadoEm": "2026-11-10T16:56:21.000Z"
+}

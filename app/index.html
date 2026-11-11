@@ -89,6 +89,9 @@ article.q { background: var(--paper); border: 1px solid var(--line); border-top:
 .res-wrap { margin: 8px 22px 18px; border-top: 1px solid var(--line); padding-top: 12px; display: grid; gap: 10px; max-width: 75ch; }
 .res { font-family: var(--f-body); font-size: 1rem; line-height: 1.6; white-space: pre-wrap; background: var(--soft); border-radius: var(--r); padding: 14px 16px; }
 .res .gab { font-family: var(--f-mono); font-weight: 500; display: block; margin-top: 8px; }
+.res .resp { display: block; margin-top: 8px; font-family: var(--f-body); }
+.res .resp b { font-family: var(--f-mono); font-weight: 500; }
+.q-tipo { font-family: var(--f-mono); font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.06em; border: 1px solid var(--mark); color: var(--mark); border-radius: 3px; padding: 1px 6px; margin-left: 8px; }
 .q-foot { display: flex; flex-wrap: wrap; gap: 8px 12px; align-items: center; padding: 4px 22px 18px; }
 .tag { font-size: 0.76rem; padding: 3px 9px; border-radius: 999px; background: var(--soft); border: 1px solid transparent; }
 .tag.hit { background: var(--mark-soft); border-color: var(--mark); font-weight: 600; }
@@ -131,6 +134,8 @@ article.q { background: var(--paper); border: 1px solid var(--line); border-top:
         <div class="pills" id="bancaPills"></div>
         <div class="label">Ano</div>
         <div class="pills" id="anoPills"></div>
+        <div class="label" id="tipoLabel" hidden>Tipo de questão</div>
+        <div class="pills" id="tipoPills" hidden></div>
         <label class="label" for="topicSearch">Tópicos (marque vários para cruzar)</label>
         <input class="field" id="topicSearch" type="search" placeholder="Buscar tópico, ex.: Snell, Kepler">
       </div>
@@ -183,7 +188,7 @@ const TOPIC = new Map();
 AREAS.forEach(([area, list]) => list.forEach(name => TOPIC.set(slug(name), { name, area })));
 const norm = s => s.normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase();
 const $ = id => document.getElementById(id);
-const state = { qs: [], sel: new Set(), bancas: new Set(), anos: new Set(), search: "", cur: null, list: [], showRes: false, ready: false, downloads: null };
+const state = { qs: [], sel: new Set(), bancas: new Set(), anos: new Set(), tipos: new Set(), search: "", cur: null, list: [], showRes: false, ready: false, downloads: null };
 
 function store(k, v) { try { localStorage.setItem(k, JSON.stringify(v)); } catch (e) {} }
 function load(k, d) { try { const v = JSON.parse(localStorage.getItem(k)); return v == null ? d : v; } catch (e) { return d; } }
@@ -192,10 +197,11 @@ function load(k, d) { try { const v = JSON.parse(localStorage.getItem(k)); retur
   (p.sel || []).forEach(t => TOPIC.has(t) && state.sel.add(t));
   (p.bancas || []).forEach(b => state.bancas.add(b));
   (p.anos || []).forEach(a => state.anos.add(a));
+  (p.tipos || []).forEach(t => state.tipos.add(t));
   state.list = load("bfv-lista", []);
   state.cur = load("bfv-atual", null);
 })();
-function savePrefs() { store("bfv-filtros", { sel: [...state.sel], bancas: [...state.bancas], anos: [...state.anos] }); }
+function savePrefs() { store("bfv-filtros", { sel: [...state.sel], bancas: [...state.bancas], anos: [...state.anos], tipos: [...state.tipos] }); }
 function saveList() { store("bfv-lista", state.list); $("listCount").textContent = state.list.length; }
 
 function el(tag, attrs = {}, ...kids) {
@@ -209,17 +215,23 @@ function el(tag, attrs = {}, ...kids) {
 }
 
 const anoKey = q => String(q.ano) + (q.versao ? " " + q.versao : "");
-const sortQ = (a, b) => (a.ano - b.ano) || String(a.versao || "").localeCompare(String(b.versao || "")) || String(a.banca).localeCompare(b.banca) || (parseInt(a.numero) - parseInt(b.numero));
-function baseMatch(q) { return (!state.bancas.size || state.bancas.has(q.banca)) && (!state.anos.size || state.anos.has(anoKey(q))); }
+// Discursivas (tipo "discursiva") trazem "respostas" [{item, texto}] em vez de gabarito A–E.
+const TIPOS = { objetiva: "Objetiva", discursiva: "Discursiva" };
+const tipoQ = q => q.tipo === "discursiva" ? "discursiva" : "objetiva";
+const sortQ = (a, b) => (a.ano - b.ano) || String(a.versao || "").localeCompare(String(b.versao || "")) || String(a.banca).localeCompare(b.banca) || String(a.fase || "").localeCompare(String(b.fase || "")) || (parseInt(a.numero) - parseInt(b.numero));
+function baseMatch(q) { return (!state.bancas.size || state.bancas.has(q.banca)) && (!state.anos.size || state.anos.has(anoKey(q))) && (!state.tipos.size || state.tipos.has(TIPOS[tipoQ(q)])); }
 function topicMatch(q, sel) { const t = q.topicos || []; for (const s of sel) if (!t.includes(s)) return false; return true; }
 function filtered() { return state.qs.filter(q => baseMatch(q) && topicMatch(q, state.sel)).sort(sortQ); }
-function label(q) { return `${q.banca} ${anoKey(q)} · Questão ${q.numero}`; }
+function label(q) { return [`${q.banca} ${anoKey(q)}`, q.fase, `Questão ${q.numero}`].filter(Boolean).join(" · "); }
 
 function renderPills() {
   const bancas = [...new Set(state.qs.map(q => q.banca))].sort();
   const anos = [...new Set(state.qs.map(anoKey))].sort();
   const mk = (box, vals, set) => { box.replaceChildren(); vals.forEach(v => box.append(el("button", { class: "pill", type: "button", "aria-pressed": set.has(v) ? "true" : "false", text: v, onclick: () => { set.has(v) ? set.delete(v) : set.add(v); savePrefs(); renderAll(); } }))); };
   mk($("bancaPills"), bancas, state.bancas); mk($("anoPills"), anos, state.anos);
+  const tipos = Object.values(TIPOS).filter(v => state.qs.some(q => TIPOS[tipoQ(q)] === v));
+  $("tipoLabel").hidden = $("tipoPills").hidden = tipos.length < 2;
+  mk($("tipoPills"), tipos, state.tipos);
 }
 
 const openAreas = new Set();
@@ -257,7 +269,7 @@ function renderSelbar(count) {
   const s = el("span", { class: "summary" });
   s.append(el("b", { text: String(count) }), count === 1 ? " questão" : " questões", state.sel.size > 1 ? " com todos os tópicos marcados" : state.qs.length ? ` de ${state.qs.length} no banco` : "");
   bar.append(s);
-  if (state.sel.size || state.bancas.size || state.anos.size) bar.append(el("button", { class: "btn ghost", type: "button", text: "Limpar filtros", onclick: () => { state.sel.clear(); state.bancas.clear(); state.anos.clear(); savePrefs(); renderAll(); } }));
+  if (state.sel.size || state.bancas.size || state.anos.size || state.tipos.size) bar.append(el("button", { class: "btn ghost", type: "button", text: "Limpar filtros", onclick: () => { state.sel.clear(); state.bancas.clear(); state.anos.clear(); state.tipos.clear(); savePrefs(); renderAll(); } }));
 }
 
 // No artefato do Claude as figuras vêm do armazenamento do artefato; no site estático
@@ -308,14 +320,18 @@ function renderViewer() {
   const cb = el("input", { type: "checkbox", id: "selq" }); cb.checked = inList;
   cb.addEventListener("change", () => { toggleList(q._id, cb.checked); renderViewer(); });
   const head = el("div", { class: "q-head" },
-    el("div", { class: "q-id" }, el("span", { class: "banca", text: q.banca }), [anoKey(q), q.fase, "Questão " + q.numero].filter(Boolean).join(" · ")),
+    el("div", { class: "q-id" }, el("span", { class: "banca", text: q.banca }), [anoKey(q), q.fase, "Questão " + q.numero].filter(Boolean).join(" · "), tipoQ(q) === "discursiva" ? el("span", { class: "q-tipo", text: "Discursiva" }) : null),
     el("label", { class: "sel" + (inList ? " on" : ""), for: "selq" }, cb, inList ? "Na lista" : "Adicionar à lista"));
   const res = el("div", { class: "res-wrap" });
   const tbtn = el("button", { class: "btn", type: "button", text: state.showRes ? "Ocultar resolução" : "Ver resolução", "aria-expanded": state.showRes ? "true" : "false", onclick: () => { state.showRes = !state.showRes; renderViewer(); } });
   res.append(tbtn);
   if (state.showRes) {
     const r = el("div", { class: "res" }); r.innerHTML = safeInline(q.resolucao || "Resolução ainda não cadastrada.");
-    if (q.gabarito) r.append(el("span", { class: "gab", text: "Gabarito: " + q.gabarito }));
+    if (tipoQ(q) === "discursiva" && (q.respostas || []).length) {
+      const box = el("span", { class: "resp" }, el("b", { text: (q.respostas.length > 1 ? "Respostas" : "Resposta") }));
+      q.respostas.forEach(x => { const s = el("span", { class: "resp" }); s.innerHTML = (x.item ? `<b>${x.item})</b> ` : "") + safeInline(x.texto); box.append(s); });
+      r.append(box);
+    } else if (q.gabarito) r.append(el("span", { class: "gab", text: "Gabarito: " + q.gabarito }));
     res.append(r);
   }
   const foot = el("div", { class: "q-foot" });
@@ -386,7 +402,9 @@ async function buildDocx(items, title) {
   body += `<w:p><w:r><w:br w:type="page"/></w:r></w:p>`;
   body += para(runsFromMarkup("Gabarito e resoluções", { b: true, size: 30 }), '<w:spacing w:after="240"/>');
   items.forEach((q, k) => {
-    body += para(runsFromMarkup(`Questão ${k + 1}`, { b: true, size: 24 }) + runsFromMarkup(`  (${q.banca} ${anoKey(q)}, questão ${q.numero})  ·  Gabarito: ${q.gabarito || "—"}`, { size: 20 }), '<w:spacing w:before="240" w:after="80"/><w:keepNext/>');
+    const disc = tipoQ(q) === "discursiva";
+    body += para(runsFromMarkup(`Questão ${k + 1}`, { b: true, size: 24 }) + runsFromMarkup(`  (${[`${q.banca} ${anoKey(q)}`, q.fase].filter(Boolean).join(", ")}, questão ${q.numero})` + (disc ? "" : `  ·  Gabarito: ${q.gabarito || "—"}`), { size: 20 }), '<w:spacing w:before="240" w:after="80"/><w:keepNext/>');
+    if (disc) (q.respostas || []).forEach((x, j) => { body += para(runsFromMarkup(j ? "" : "Resposta" + (q.respostas.length > 1 ? "s" : "") + ": ", { b: true }) + runsFromMarkup((x.item ? x.item + ") " : "") + x.texto), '<w:spacing w:after="60"/><w:keepNext/>'); });
     String(q.resolucao || "").split("\n").forEach(l => { if (l.trim()) body += para(runsFromMarkup(l), '<w:spacing w:after="60"/>'); });
   });
   body += para(runsFromMarkup("Fontes: " + [...new Set(items.map(q => q.origem).filter(Boolean))].join("; "), { size: 18 }), '<w:spacing w:before="360"/>');

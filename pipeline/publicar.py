@@ -29,6 +29,8 @@ def _sha(nome):
 def documento_app(q: dict, reg: dict) -> dict:
     d = {k: q[k] for k in ("banca", "ano", "numero", "fase", "enunciado", "gabarito", "resolucao", "topicos", "criadoEm", "atualizadoEm") if k in q}
     if q.get("versao"): d["versao"] = q["versao"]
+    if q.get("tipo") == "discursiva":
+        d["tipo"] = "discursiva"; d["respostas"] = q.get("respostas", [])
     d["origem"] = q["fonte"]["descricao"]
     d["figuras"] = [reg[f]["assetId"] for f in q["figuras"]]
     return d

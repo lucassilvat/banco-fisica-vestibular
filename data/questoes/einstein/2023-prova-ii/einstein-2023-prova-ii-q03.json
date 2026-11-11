@@ -1,0 +1,39 @@
+{
+  "id": "einstein-2023-prova-ii-q03",
+  "banca": "Einstein",
+  "ano": 2023,
+  "edicao": "Prova II",
+  "numero": "3",
+  "fase": "Prova II",
+  "tipo": "discursiva",
+  "fonte": {
+    "descricao": "Vunesp, Vestibular Einstein 2023 (Faculdade Israelita de Ciências da Saúde Albert Einstein), Prova II (discursiva), caderno de questões"
+  },
+  "enunciado": "Em uma viagem, um veículo de 1 000 kg passou pelo trecho ABCD da rodovia mostrada em uma visão superior na figura. Os trechos AB e CD são retilíneos e têm comprimentos L. O trecho BC é circular, de raio de curvatura R.\n\n[[figura 1]]\n\nO gráfico, fora de escala, mostra como variou a velocidade escalar desse veículo em função do tempo, ao longo do trecho ABCD da rodovia.\n\n[[figura 2]]\n\na) Calcule a intensidade da aceleração escalar do veículo, em m/s<sup>2</sup>, no trecho BC. Em seguida, calcule o trabalho, em joules, realizado pela resultante das forças que atuaram sobre o veículo entre os pontos A e D.\nb) Calcule o instante t<sub>D</sub>, em segundos, em que o veículo passou pelo ponto D. Em seguida, adotando π = 3, calcule o raio de curvatura R, em metros, do trecho BC.",
+  "figuras": [
+    "einstein-2023-prova-ii-q03-1.png",
+    "einstein-2023-prova-ii-q03-2.png"
+  ],
+  "gabarito": "",
+  "gabaritoFonte": "resolucao-propria",
+  "respostas": [
+    {
+      "item": "a",
+      "texto": "|<i>a</i>| = 1,25 m/s<sup>2</sup>; τ<sub>AD</sub> = –1,5 × 10<sup>5</sup> J"
+    },
+    {
+      "item": "b",
+      "texto": "<i>t</i><sub>D</sub> = 26 s; <i>R</i> = 120 m"
+    }
+  ],
+  "resolucao": "a)\n1. No trecho BC (de 6 s a 14 s) a velocidade cai de 20 m/s para 10 m/s: <i>a</i> = Δ<i>v</i>/Δ<i>t</i> = (10 – 20)/(14 – 6) = –10/8 = –1,25 m/s<sup>2</sup>. Intensidade: 1,25 m/s<sup>2</sup>.\n2. Teorema da energia cinética entre A (20 m/s) e D (10 m/s): τ<sub>R</sub> = Δ<i>E</i><sub>c</sub> = (1/2) · 1 000 · (10<sup>2</sup> – 20<sup>2</sup>) = 500 · (–300) = –150 000 J.\n3. τ<sub>R</sub> = –1,5 × 10<sup>5</sup> J (trabalho resistente, pois o veículo perdeu energia cinética).\nb)\n4. Trecho AB: velocidade constante de 20 m/s durante 6 s ⇒ <i>L</i> = 20 · 6 = 120 m.\n5. Trecho CD: mesmo comprimento <i>L</i> = 120 m, percorrido a 10 m/s ⇒ Δ<i>t</i> = 120/10 = 12 s. Logo <i>t</i><sub>D</sub> = 14 + 12 = 26 s.\n6. Comprimento do arco BC = área sob o gráfico entre 6 s e 14 s (trapézio): <i>s</i> = (20 + 10)/2 · 8 = 120 m.\n7. A figura mostra que o arco BC corresponde a um ângulo central de 60° = π/3 rad. Comprimento do arco: <i>s</i> = (π/3) · <i>R</i> = (3/3) · <i>R</i> = <i>R</i> (com π = 3).\n8. <i>R</i> = 120 m.",
+  "topicos": [
+    "graficos-do-movimento-s-t-v-t-a-t",
+    "energia-cinetica-e-teorema-trabalho-energia",
+    "movimento-retilineo-uniformemente-variado-mruv",
+    "movimento-retilineo-uniforme-mru"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-10T16:54:42.000Z",
+  "atualizadoEm": "2026-11-10T16:55:22.000Z"
+}

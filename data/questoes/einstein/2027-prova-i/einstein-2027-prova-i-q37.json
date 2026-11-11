@@ -1,0 +1,31 @@
+{
+  "id": "einstein-2027-prova-i-q37",
+  "banca": "Einstein",
+  "ano": 2027,
+  "edicao": "Prova I",
+  "numero": "37",
+  "fase": "Prova I",
+  "fonte": {
+    "descricao": "Vunesp, Vestibular Einstein 2027 (Faculdade Israelita de Ciências da Saúde Albert Einstein), Prova I (objetiva), caderno de questões"
+  },
+  "enunciado": "Para aumentar a eficiência de determinado processo industrial, foi necessário reduzir a pressão de certa massa constante de gás de um valor P<sub>inicial</sub> = 24 kPa para um valor P<sub>final</sub>, enquanto a temperatura desse gás foi mantida constante, por meio do movimento de um pistão que permitiu que o volume ocupado pelo gás aumentasse do valor V<sub>inicial</sub> = 0,1 m<sup>3</sup> para o valor V<sub>final</sub> = 0,8 m<sup>3</sup>. O diagrama pressão × volume, mostrado na figura, representa essa transformação gasosa.\n\n[[figura 1]]\n\nConsiderando que o gás utilizado nesse processo industrial possa ser considerado um gás ideal, o valor de P<sub>final</sub>, indicado no gráfico, é\n\n(A) 12 kPa.\n(B) 2 kPa.\n(C) 3 kPa.\n(D) 6 kPa.\n(E) 4 kPa.",
+  "figuras": [
+    "einstein-2027-prova-i-q37-1.png"
+  ],
+  "gabarito": "C",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. Massa constante e temperatura constante: transformação isotérmica, <i>pV</i> = constante (lei de Boyle).\n2. <i>P</i><sub>inicial</sub> · <i>V</i><sub>inicial</sub> = <i>P</i><sub>final</sub> · <i>V</i><sub>final</sub> ⇒ 24 · 0,1 = <i>P</i><sub>final</sub> · 0,8.\n3. <i>P</i><sub>final</sub> = 2,4/0,8 = 3 kPa.\nGabarito: C.",
+  "topicos": [
+    "transformacoes-gasosas-isotermica-isobarica-isocorica-adiabatica",
+    "gas-ideal-e-equacao-de-clapeyron"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-10T16:52:29.000Z",
+  "atualizadoEm": "2026-11-10T17:00:27.000Z",
+  "revisao": {
+    "divergenciasAceitas": [
+      "inicial"
+    ],
+    "notas": "Divergência aceita: 'inicial': na camada de texto do PDF o subscrito vem colado à letra (Pinicial, Vinicial)."
+  }
+}

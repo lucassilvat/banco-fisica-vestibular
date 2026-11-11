@@ -1,0 +1,24 @@
+{
+  "id": "einstein-2025-prova-i-q39",
+  "banca": "Einstein",
+  "ano": 2025,
+  "edicao": "Prova I",
+  "numero": "39",
+  "fase": "Prova I",
+  "fonte": {
+    "descricao": "Vunesp, Vestibular Einstein 2025 (Faculdade Israelita de Ciências da Saúde Albert Einstein), Prova I (objetiva), caderno de questões"
+  },
+  "enunciado": "A figura mostra uma corda na qual se propaga uma onda transversal. As cristas e os vales dessa onda estão todos contidos no plano xy e a velocidade de propagação da onda tem a mesma direção e o mesmo sentido do eixo x.\n\n[[figura 1]]\n\nCom relação à direção de oscilação dos pontos dessa corda e à matéria transportada pela onda, tem-se que todos os pontos da corda, atingidos pela onda, oscilam\n\n(A) nas direções x e y e, enquanto se propaga, a onda não transporta matéria.\n(B) apenas na direção y e, enquanto se propaga, a onda transporta matéria.\n(C) nas direções x e y e, enquanto se propaga, a onda transporta matéria.\n(D) apenas na direção x e, enquanto se propaga, a onda não transporta matéria.\n(E) apenas na direção y e, enquanto se propaga, a onda não transporta matéria.",
+  "figuras": [
+    "einstein-2025-prova-i-q39-1.png"
+  ],
+  "gabarito": "E",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. Onda transversal: os pontos do meio oscilam perpendicularmente à direção de propagação. A onda se propaga em x e está contida no plano xy, então os pontos oscilam apenas na direção y.\n2. Ondas transportam energia e quantidade de movimento, mas não matéria: cada ponto da corda oscila em torno de sua posição de equilíbrio.\n3. Isso elimina A e C (oscilação em x), D (oscilação só em x, que seria onda longitudinal) e B (transporte de matéria).\nGabarito: E.",
+  "topicos": [
+    "ondas-classificacao-e-elementos"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-10T16:52:26.000Z",
+  "atualizadoEm": "2026-11-10T16:57:52.000Z"
+}

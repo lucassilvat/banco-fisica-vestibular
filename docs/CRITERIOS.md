@@ -29,6 +29,10 @@
 | Alternativas (Acafe) | `A. ...`, como no caderno |
 | Formulário/constantes (Acafe) | não se repete o quadro; só o dado necessário, como bloco antes das alternativas, com o título literal da prova (`CONSTANTES FÍSICAS`, `Dados para realização das questões` ou `DADOS PARA REALIZAÇÃO DAS QUESTÕES`) |
 | Edição (Acafe) | Verão/Inverno é descritivo: campo `edicao` e `fase` (`Medicina · Inverno`); a prova fica marcada só com o ano |
+| Edição (Einstein) | Prova I (objetiva) e Prova II (discursiva) são do mesmo vestibular e ano: campo `edicao` e `fase` (`Prova I`, `Prova II`); o ano fica limpo (a Unicamp 2021 também usa `edicao`: `Exatas e Humanas`, `Biológicas e Saúde`) |
+| Itens de questão discursiva | `a) ...`, `b) ...` no fim do enunciado, um por linha, sem o negrito do rótulo; o quadro "RESOLUÇÃO E RESPOSTA" e a marca d'água "RASCUNHO" ficam fora |
+| Título de texto de apoio (Einstein) | linha própria, antes do texto (ex.: `O “pêndulo humano” é atração radical na Serra Catarinense`) |
+| Listas com marcador (•) | um item por linha, começando por `• ` |
 | Itens I, II... e ( ) (Acafe) | um por linha; o destaque em vermelho da alternativa correta não é reproduzido; legendas "FIGURA N" vão no recorte |
 | "Note e adote" (Fuvest) | bloco de texto antes das alternativas, começando por `Note e adote:` |
 | Tabela | figura recortada do caderno |
@@ -45,7 +49,7 @@ Não entra questão em que a Física só aparece como cenário e não é usada n
 
 **Química com conteúdo físico forte**: na importação da Fuvest 2020–2026 o Lucas mandou
 incluir (ex.: Fuvest 2020 Q2, Q8, Q11; 2023 Q71). As da Unicamp que ficaram de fora
-(2020 Q45 a Q48, 2021 B Q33, 2027 Q25) continuam em aberto até nova decisão.
+(2020 Q45 a Q48, 2021 Biológicas e Saúde Q33, 2027 Q25) continuam em aberto até nova decisão.
 
 ## Tópicos
 
@@ -60,3 +64,6 @@ incluir (ex.: Fuvest 2020 Q2, Q8, Q11; 2023 Q71). As da Unicamp que ficaram de f
 - Quando a alternativa correta depender de uma leitura discutível (ex.: 2017 Q38, energia
   ∝ v² ou v³), registrar a observação no fim da resolução.
 - `gabaritoFonte`: `oficial`, `prova-comentada-oficial` ou `resolucao-propria`.
+- **Questão discursiva** (`tipo: "discursiva"`): sem `gabarito` (fica vazio); a resposta
+  final de cada item vai em `respostas` (`[{"item": "a", "texto": "..."}]`, com as unidades),
+  e a resolução separa os itens com linhas `a)`, `b)` antes dos passos numerados.

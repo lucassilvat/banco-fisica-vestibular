@@ -1,0 +1,24 @@
+{
+  "id": "einstein-2026-prova-i-q38",
+  "banca": "Einstein",
+  "ano": 2026,
+  "edicao": "Prova I",
+  "numero": "38",
+  "fase": "Prova I",
+  "fonte": {
+    "descricao": "Vunesp, Vestibular Einstein 2026 (Faculdade Israelita de Ciências da Saúde Albert Einstein), Prova I (objetiva), caderno de questões"
+  },
+  "enunciado": "Renato para a 1,2 m de distância de um espelho plano e vê sua própria imagem e a imagem de um relógio pendurado na parede atrás de si, paralela à parede na qual se encontra o espelho, como mostra a figura.\n\n[[figura 1]]\n\nSabendo que a distância entre as imagens vistas por Renato é de 4,6 m, a distância entre as duas paredes é de\n\n(A) 5,2 m.\n(B) 11,6 m.\n(C) 7,0 m.\n(D) 5,8 m.\n(E) 2,4 m.",
+  "figuras": [
+    "einstein-2026-prova-i-q38-1.png"
+  ],
+  "gabarito": "D",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. No espelho plano, a imagem fica atrás do espelho, à mesma distância que o objeto está à frente.\n2. Renato está a 1,2 m do espelho: sua imagem está 1,2 m atrás do espelho.\n3. O relógio está na parede oposta, a uma distância <i>D</i> do espelho (a distância entre as paredes): sua imagem está <i>D</i> atrás do espelho.\n4. As duas imagens estão do mesmo lado do espelho, alinhadas na direção perpendicular a ele: <i>D</i> – 1,2 = 4,6 ⇒ <i>D</i> = 5,8 m.\nGabarito: D.",
+  "topicos": [
+    "reflexao-da-luz-e-espelhos-planos"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-10T16:52:27.000Z",
+  "atualizadoEm": "2026-11-10T16:59:12.000Z"
+}

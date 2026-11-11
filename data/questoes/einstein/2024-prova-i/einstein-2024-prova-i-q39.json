@@ -1,0 +1,24 @@
+{
+  "id": "einstein-2024-prova-i-q39",
+  "banca": "Einstein",
+  "ano": 2024,
+  "edicao": "Prova I",
+  "numero": "39",
+  "fase": "Prova I",
+  "fonte": {
+    "descricao": "Vunesp, Vestibular Einstein 2024 (Faculdade Israelita de Ciências da Saúde Albert Einstein), Prova I (objetiva), caderno de questões"
+  },
+  "enunciado": "Vergência de uma lente é uma grandeza que mede a capacidade dessa lente em desviar a luz que incide sobre ela. A vergência é definida como sendo o inverso da distância focal da lente e é medida em dioptrias (di), no Sistema Internacional de Unidades. Considere que um objeto linear real seja colocado, em repouso, a 50 cm de uma lente gaussiana de vergência 2,5 di.\n\n[[figura 1]]\n\nSe a imagem desse objeto for projetada em um anteparo, ela será vista\n\n(A) quatro vezes maior que o objeto.\n(B) duas vezes maior que o objeto.\n(C) do mesmo tamanho que o objeto.\n(D) duas vezes menor que o objeto.\n(E) quatro vezes menor que o objeto.",
+  "figuras": [
+    "einstein-2024-prova-i-q39-1.png"
+  ],
+  "gabarito": "A",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. Distância focal: <i>f</i> = 1/<i>V</i> = 1/2,5 = 0,4 m = 40 cm (lente convergente).\n2. Equação de Gauss com <i>p</i> = 50 cm: 1/<i>p</i>' = 1/<i>f</i> – 1/<i>p</i> = 1/40 – 1/50 = (5 – 4)/200 = 1/200 ⇒ <i>p</i>' = 200 cm.\n3. <i>p</i>' positivo: imagem real, que pode ser projetada num anteparo.\n4. Aumento linear: <i>A</i> = –<i>p</i>'/<i>p</i> = –200/50 = –4. A imagem é invertida e quatro vezes maior que o objeto.\nGabarito: A.",
+  "topicos": [
+    "lentes-esfericas-vergencia-gauss-aumento"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-10T16:52:24.000Z",
+  "atualizadoEm": "2026-11-10T16:56:21.000Z"
+}

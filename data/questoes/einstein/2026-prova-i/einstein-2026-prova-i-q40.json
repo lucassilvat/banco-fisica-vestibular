@@ -1,0 +1,33 @@
+{
+  "id": "einstein-2026-prova-i-q40",
+  "banca": "Einstein",
+  "ano": 2026,
+  "edicao": "Prova I",
+  "numero": "40",
+  "fase": "Prova I",
+  "fonte": {
+    "descricao": "Vunesp, Vestibular Einstein 2026 (Faculdade Israelita de Ciências da Saúde Albert Einstein), Prova I (objetiva), caderno de questões"
+  },
+  "enunciado": "No circuito elétrico mostrado na figura, há três resistores ôhmicos e três pares de contatos, X, Y e Z, inicialmente vazios, nos quais pretende-se ligar uma lâmpada em cada um. O gerador e os fios de ligação são ideais.\n\n[[figura 1]]\n\nExistem três lâmpadas, L<sub>1</sub>, L<sub>2</sub> e L<sub>3</sub> de 10 W cada uma, disponíveis para serem integradas a esse circuito. Essas lâmpadas estão indicadas a seguir, junto com seus respectivos valores nominais:\n\n[[figura 2]]\n\nPara que essas lâmpadas acendam e funcionem de acordo com seus valores nominais, deve-se conectar as lâmpadas, L<sub>1</sub>, L<sub>2</sub> e L<sub>3</sub>, respectivamente, nos pares de contatos\n\n(A) X, Y e Z.\n(B) Y, Z e X.\n(C) Y, X e Z.\n(D) Z, Y e X.\n(E) Z, X e Y.",
+  "figuras": [
+    "einstein-2026-prova-i-q40-1.png",
+    "einstein-2026-prova-i-q40-2.png"
+  ],
+  "gabarito": "B",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. Os três ramos estão em paralelo com o gerador ideal: cada ramo fica sob 60 V.\n2. Dados nominais de cada lâmpada (<i>i</i> = <i>P</i>/<i>U</i>, <i>R</i> = <i>U</i>/<i>i</i>): L<sub>1</sub>: 30 V, <i>i</i> = 1/3 A, <i>R</i> = 90 Ω. L<sub>2</sub>: 60 V, <i>i</i> = 1/6 A, <i>R</i> = 360 Ω. L<sub>3</sub>: 20 V, <i>i</i> = 0,5 A, <i>R</i> = 40 Ω.\n3. Contato Z (sem resistor): a lâmpada recebe os 60 V do gerador ⇒ L<sub>2</sub>.\n4. Contato Y (90 Ω em série): com L<sub>1</sub>, <i>R</i><sub>total</sub> = 90 + 90 = 180 Ω, <i>i</i> = 60/180 = 1/3 A e a lâmpada fica com 90 · 1/3 = 30 V ⇒ L<sub>1</sub>.\n5. Contato X (40 Ω + 40 Ω = 80 Ω em série): com L<sub>3</sub>, <i>R</i><sub>total</sub> = 80 + 40 = 120 Ω, <i>i</i> = 60/120 = 0,5 A e a lâmpada fica com 40 · 0,5 = 20 V ⇒ L<sub>3</sub>.\n6. L<sub>1</sub>, L<sub>2</sub> e L<sub>3</sub> em Y, Z e X, respectivamente.\nGabarito: B.",
+  "topicos": [
+    "associacao-de-resistores",
+    "potencia-eletrica-e-efeito-joule",
+    "primeira-lei-de-ohm"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-10T16:52:27.000Z",
+  "atualizadoEm": "2026-11-10T16:59:12.000Z",
+  "revisao": {
+    "divergenciasAceitas": [
+      "vazios"
+    ],
+    "notas": "Divergência aceita: 'vazios': na camada de texto do PDF a palavra traz um hífen discricionário (U+00AD) no meio."
+  }
+}

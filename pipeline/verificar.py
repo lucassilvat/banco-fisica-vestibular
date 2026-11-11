@@ -13,7 +13,7 @@ import re
 import subprocess
 from functools import lru_cache
 
-from .comum import FIG_RE, FIGURAS, RAIZ, STATUS, carregar_questoes, chave_prova, fonte_da_prova, ids_topicos
+from .comum import FIG_RE, FIGURAS, RAIZ, STATUS, TIPOS, carregar_questoes, chave_prova, fonte_da_prova, ids_topicos, tipo_questao
 
 OBRIG = ["id", "banca", "ano", "numero", "fonte", "enunciado", "figuras", "gabarito", "resolucao", "topicos", "status"]
 
@@ -45,8 +45,23 @@ def checar(q: dict, topicos: set) -> tuple[list, list]:
         if c not in q: erros.append(f"campo ausente: {c}")
     if q.get("status") not in STATUS: erros.append(f"status inválido: {q.get('status')}")
     final = q.get("status") in ("revisado", "publicado")
+    tipo = tipo_questao(q)
+    if tipo not in TIPOS: erros.append(f"tipo inválido: {q.get('tipo')}")
+    if tipo == "discursiva":
+        resp = q.get("respostas", [])
+        if q.get("gabarito"): erros.append("discursiva não tem gabarito A–E (use respostas)")
+        itens = [r.get("item", "") for r in resp]
+        if len(set(itens)) != len(itens): erros.append("respostas com item repetido")
+        if any(not str(r.get("texto", "")).strip() for r in resp): erros.append("resposta vazia")
+        for it in itens:
+            if it and not re.search(rf"(?m)^{it}\)", q.get("enunciado", "")): erros.append(f"item {it}) das respostas não aparece no enunciado")
+        if any(re.search(r"</?(?!(?:i|b|u|sub|sup)>)[a-z]+[^>]*>", r.get("texto", "")) for r in resp):
+            erros.append("marcação HTML não permitida nas respostas")
+    elif "respostas" in q:
+        erros.append("questão objetiva não tem respostas (use gabarito)")
     if final:
-        if q.get("gabarito") not in list("ABCDE"): erros.append("gabarito deve ser A–E")
+        if tipo == "objetiva" and q.get("gabarito") not in list("ABCDE"): erros.append("gabarito deve ser A–E")
+        if tipo == "discursiva" and not q.get("respostas"): erros.append("discursiva sem respostas")
         if not q.get("resolucao", "").strip(): erros.append("resolução vazia")
         if not q.get("topicos"): erros.append("sem tópicos")
         if "_notas" in q: avisos.append("campo _notas ainda presente (apague ao revisar)")

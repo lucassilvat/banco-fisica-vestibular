@@ -1,0 +1,23 @@
+{
+  "id": "unicamp-2021-biologicas-e-saude-q49",
+  "banca": "Unicamp",
+  "ano": 2021,
+  "edicao": "Biológicas e Saúde",
+  "numero": "49",
+  "fase": "1ª fase · Biológicas e Saúde",
+  "fonte": {
+    "descricao": "Comvest, Vestibular Unicamp 2021, 1ª fase, Conhecimentos Gerais – Biológicas e Saúde (provas Q e Z)"
+  },
+  "enunciado": "Nas questões de 49 a 56, sempre que necessário, use π = 3 e <i>g</i> = 10 m/s<sup>2</sup>.\n\n<b>Texto comum para questões 49 e 50.</b>\n\nRecentemente, uma equipe internacional de cientistas detectou a explosão de uma estrela conhecida como SN2016aps, que teria sido a explosão de supernova mais brilhante já registrada.\n\nA SN2016aps dista da Terra 4,0 bilhões de anos-luz, enquanto a supernova DES16C2nm, localizada a 10,5 bilhões de anos-luz de distância da Terra, é a mais distante já descoberta. Considere que uma explosão das duas supernovas ocorra simultaneamente. Quando o sinal luminoso da explosão da supernova mais próxima for detectado na Terra, a radiação luminosa da supernova DES16C2nm estará a uma distância da Terra aproximadamente igual a\n\na) 6,5×10<sup>9</sup> km.\nb) 9,0×10<sup>15</sup> km.\nc) 3,6×10<sup>16</sup> km.\nd) 5,9×10<sup>22</sup> km.\n\nDados: 1 ano ≈ 3,0×10<sup>7</sup> s\nVelocidade da luz: <i>c</i> = 3,0×10<sup>8</sup> m/s",
+  "figuras": [],
+  "gabarito": "D",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. A luz da supernova mais próxima leva 4,0 bilhões de anos para chegar. Nesse tempo, a luz da DES16C2nm também percorre 4,0 bilhões de anos-luz e ainda falta 10,5 − 4,0 = 6,5 bilhões de anos-luz.\n2. 1 ano-luz = 3,0 × 10<sup>8</sup> m/s · 3,0 × 10<sup>7</sup> s = 9,0 × 10<sup>15</sup> m = 9,0 × 10<sup>12</sup> km.\n3. 6,5 × 10<sup>9</sup> · 9,0 × 10<sup>12</sup> ≈ 5,9 × 10<sup>22</sup> km.",
+  "topicos": [
+    "movimento-retilineo-uniforme-mru",
+    "notacao-cientifica-e-ordem-de-grandeza"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-10-07T11:30:00.000Z",
+  "atualizadoEm": "2026-10-07T11:30:00.000Z"
+}

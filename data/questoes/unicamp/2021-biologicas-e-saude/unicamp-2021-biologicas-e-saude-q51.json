@@ -1,0 +1,24 @@
+{
+  "id": "unicamp-2021-biologicas-e-saude-q51",
+  "banca": "Unicamp",
+  "ano": 2021,
+  "edicao": "Biológicas e Saúde",
+  "numero": "51",
+  "fase": "1ª fase · Biológicas e Saúde",
+  "fonte": {
+    "descricao": "Comvest, Vestibular Unicamp 2021, 1ª fase, Conhecimentos Gerais – Biológicas e Saúde (provas Q e Z)"
+  },
+  "enunciado": "Nas questões de 49 a 56, sempre que necessário, use π = 3 e <i>g</i> = 10 m/s<sup>2</sup>.\n\nUma cápsula destinada a levar astronautas à Estação Espacial Internacional (ISS) tem massa <i>m</i> = 7500 kg, incluindo as massas dos próprios astronautas. A cápsula é impulsionada até a órbita da ISS por um foguete lançador e por propulsores próprios para os ajustes finais. O aumento da energia potencial gravitacional devido ao deslocamento da cápsula desde a superfície da Terra até a ISS é dado por Δ<i>U</i> = 3,0×10<sup>10</sup> J. A velocidade da ISS é <i>v<sub>ISS</sub></i> ≈ 8000 m/s. A velocidade inicial da cápsula em razão do movimento de rotação da Terra pode ser desprezada. Sem levar em conta a energia perdida pelo atrito com o ar durante o lançamento, pode-se dizer que o trabalho realizado pelo foguete e pelos propulsores sobre a cápsula é de\n\na) 2,1×10<sup>11</sup> J.\nb) 2,4×10<sup>11</sup> J.\nc) 2,7×10<sup>11</sup> J.\nd) 5,1×10<sup>11</sup> J.",
+  "figuras": [],
+  "gabarito": "C",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. O trabalho do foguete e dos propulsores fornece a energia cinética final e o aumento de energia potencial: τ = Δ<i>E</i><sub>c</sub> + Δ<i>U</i>.\n2. Δ<i>E</i><sub>c</sub> = 7500 · 8000<sup>2</sup>/2 = 2,4 × 10<sup>11</sup> J.\n3. τ = 2,4 × 10<sup>11</sup> + 0,3 × 10<sup>11</sup> = 2,7 × 10<sup>11</sup> J.",
+  "topicos": [
+    "energia-cinetica-e-teorema-trabalho-energia",
+    "energia-potencial-gravitacional",
+    "trabalho-de-uma-forca"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-10-07T11:30:00.000Z",
+  "atualizadoEm": "2026-10-07T11:30:00.000Z"
+}

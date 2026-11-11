@@ -1,0 +1,22 @@
+{
+  "id": "unicamp-2021-exatas-e-humanas-q35",
+  "banca": "Unicamp",
+  "ano": 2021,
+  "edicao": "Exatas e Humanas",
+  "numero": "35",
+  "fase": "1ª fase · Exatas e Tecnológicas / Humanas e Artes",
+  "fonte": {
+    "descricao": "Comvest, Vestibular Unicamp 2021, 1ª fase, Conhecimentos Gerais – Exatas e Tecnológicas / Humanas e Artes (provas E e G)"
+  },
+  "enunciado": "Nas questões de 33 a 40, sempre que necessário, use π = 3 e <i>g</i> = 10 m/s<sup>2</sup>.\n\nA força normal aplicada pela agulha de um toca-discos sobre o disco tem módulo igual a |<i>N</i>⃗| = 2,0×10<sup>−2</sup> N. A área de contato entre a agulha e o disco é igual a 1,6×10<sup>−3</sup> mm<sup>2</sup>. Qual é a pressão exercida pela agulha sobre o disco?\n\nDado: 1,0 atm = 1,0×10<sup>5</sup> N/m<sup>2</sup>.\n\na) 1,25×10<sup>−4</sup> atm.\nb) 3,20×10<sup>−3</sup> atm.\nc) 3,20×10<sup>1</sup> atm.\nd) 1,25×10<sup>2</sup> atm.",
+  "figuras": [],
+  "gabarito": "D",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. <i>A</i> = 1,6 × 10<sup>−3</sup> mm<sup>2</sup> = 1,6 × 10<sup>−9</sup> m<sup>2</sup>.\n2. <i>p</i> = <i>N</i>/<i>A</i> = 2,0 × 10<sup>−2</sup>/1,6 × 10<sup>−9</sup> = 1,25 × 10<sup>7</sup> N/m<sup>2</sup>.\n3. Em atm: 1,25 × 10<sup>7</sup>/1,0 × 10<sup>5</sup> = 1,25 × 10<sup>2</sup> atm.",
+  "topicos": [
+    "pressao"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-10-07T11:30:00.000Z",
+  "atualizadoEm": "2026-10-07T11:30:00.000Z"
+}

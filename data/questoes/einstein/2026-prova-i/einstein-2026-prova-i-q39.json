@@ -1,0 +1,29 @@
+{
+  "id": "einstein-2026-prova-i-q39",
+  "banca": "Einstein",
+  "ano": 2026,
+  "edicao": "Prova I",
+  "numero": "39",
+  "fase": "Prova I",
+  "fonte": {
+    "descricao": "Vunesp, Vestibular Einstein 2026 (Faculdade Israelita de Ciências da Saúde Albert Einstein), Prova I (objetiva), caderno de questões"
+  },
+  "enunciado": "A imagiologia médica é uma área da medicina que faz uso de diversas tecnologias para criar imagens do interior do corpo, sem a necessidade de procedimentos invasivos. Ela auxilia no diagnóstico, no tratamento e no monitoramento de doenças. Dentre os exames realizados em imagiologia médica, destacam-se:\n\n• tomografia computadorizada (TC) – exame que utiliza raios X e um computador.\n• ultrassonografia (USG) – exame que utiliza ondas sonoras de alta frequência.\n• ressonância magnética (RM) – exame que utiliza um intenso campo magnético e ondas de rádio.\n\nDentre os exames de imagem citados, são empregadas ondas eletromagnéticas em\n\n(A) TC e USG, apenas.\n(B) USG e RM, apenas.\n(C) TC, USG e RM.\n(D) TC e RM, apenas.\n(E) TC, apenas.",
+  "figuras": [],
+  "gabarito": "D",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. Raios X (TC) e ondas de rádio (RM) são faixas do espectro eletromagnético.\n2. O ultrassom (USG) é onda sonora, mecânica, que precisa de um meio material para se propagar: não é onda eletromagnética.\n3. Ondas eletromagnéticas em TC e RM, apenas.\nGabarito: D.",
+  "topicos": [
+    "espectro-eletromagnetico",
+    "ondas-classificacao-e-elementos"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-10T16:52:27.000Z",
+  "atualizadoEm": "2026-11-10T16:59:12.000Z",
+  "revisao": {
+    "divergenciasAceitas": [
+      "intenso"
+    ],
+    "notas": "Divergência aceita: 'intenso': na camada de texto do PDF a palavra traz um hífen discricionário (U+00AD) no meio."
+  }
+}

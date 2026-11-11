@@ -1,0 +1,38 @@
+{
+  "id": "einstein-2027-prova-ii-q03",
+  "banca": "Einstein",
+  "ano": 2027,
+  "edicao": "Prova II",
+  "numero": "3",
+  "fase": "Prova II",
+  "tipo": "discursiva",
+  "fonte": {
+    "descricao": "Vunesp, Vestibular Einstein 2027 (Faculdade Israelita de Ciências da Saúde Albert Einstein), Prova II (discursiva), caderno de questões"
+  },
+  "enunciado": "Do alto de uma ponte sobre um rio, uma pedra é abandonada do repouso de uma altura de 30 m em relação às águas do rio.\n\n[[figura 1]]\n\n(Imagem gerada por IA. https://chatgpt.com. Adaptado.)\n\nDesprezando a resistência do ar e adotando g = 10 m/s<sup>2</sup>, calcule, em m/s:\n\na) a velocidade escalar média dessa pedra nos primeiros 20 m de sua queda.\nb) a velocidade escalar dessa pedra no instante em que sua energia potencial gravitacional, em relação à superfície da água do rio, for igual à metade de sua energia cinética.",
+  "figuras": [
+    "einstein-2027-prova-ii-q03-1.png"
+  ],
+  "gabarito": "",
+  "gabaritoFonte": "resolucao-propria",
+  "respostas": [
+    {
+      "item": "a",
+      "texto": "<i>v</i><sub>m</sub> = 10 m/s"
+    },
+    {
+      "item": "b",
+      "texto": "<i>v</i> = 20 m/s"
+    }
+  ],
+  "resolucao": "a)\n1. Queda livre a partir do repouso: Δ<i>s</i> = <i>gt</i><sup>2</sup>/2 ⇒ 20 = 10<i>t</i><sup>2</sup>/2 ⇒ <i>t</i><sup>2</sup> = 4 ⇒ <i>t</i> = 2 s.\n2. Velocidade escalar média: <i>v</i><sub>m</sub> = Δ<i>s</i>/Δ<i>t</i> = 20/2 = 10 m/s.\n3. (No MUV, também <i>v</i><sub>m</sub> = (<i>v</i><sub>0</sub> + <i>v</i>)/2 = (0 + 20)/2 = 10 m/s, pois após 2 s a velocidade é 20 m/s.)\nb)\n4. Sem resistência do ar, a energia mecânica se conserva. Com referência na água: <i>E</i><sub>m</sub> = <i>mg</i> · 30.\n5. No instante pedido, <i>E</i><sub>p</sub> = <i>E</i><sub>c</sub>/2 ⇒ <i>E</i><sub>m</sub> = <i>E</i><sub>p</sub> + <i>E</i><sub>c</sub> = 3<i>E</i><sub>c</sub>/2.\n6. <i>E</i><sub>c</sub> = (2/3) · <i>mg</i> · 30 = 20<i>mg</i> ⇒ <i>mv</i><sup>2</sup>/2 = 20<i>m</i> · 10 ⇒ <i>v</i><sup>2</sup> = 400 ⇒ <i>v</i> = 20 m/s (a pedra está, então, a 10 m acima da água).",
+  "topicos": [
+    "queda-livre-e-lancamento-vertical",
+    "conservacao-da-energia-mecanica",
+    "velocidade-media-e-aceleracao-media",
+    "energia-potencial-gravitacional"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-10T16:54:47.000Z",
+  "atualizadoEm": "2026-11-10T17:00:43.000Z"
+}

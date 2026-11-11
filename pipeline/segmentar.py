@@ -12,7 +12,7 @@ import re
 
 import pymupdf
 
-from .comum import pasta_trabalho, pdf_da_prova
+from .comum import fonte_da_prova, pasta_trabalho, pdf_da_prova
 
 TITULO = re.compile(r"QUEST[ÃA]O\s+(\d+)", re.I)
 # Fuvest: o título é só o número ("01", ou "{ 01}" a partir de 2025), em corpo >= 12 pt
@@ -123,11 +123,33 @@ def segmentos(doc, margem_inferior=30, topo=40, so_numero=False, extra=None):
     return seg
 
 
+# Largura total (Einstein, Prova II discursiva): uma questão por página, em coluna única; a
+# questão termina no quadro "RESOLUÇÃO E RESPOSTA" (espaço do candidato), que fica fora.
+# O texto "RASCUNHO" em marca d'água no meio da página é ignorado.
+FIM_LARGURA_TOTAL = re.compile(r"RESOLU[ÇC][ÃA]O E RESPOSTA", re.I)
+
+
+def segmentos_largura_total(doc, margem_inferior=30):
+    W, H = doc[0].rect.width, doc[0].rect.height
+    t = titulos(doc); seg = {}
+    for n, (pi, bb) in sorted(t.items()):
+        fim = None
+        for b in doc[pi].get_text("dict")["blocks"]:
+            for l in b.get("lines", []):
+                s = "".join(x["text"] for x in l["spans"]).strip()
+                if FIM_LARGURA_TOTAL.search(s) and l["bbox"][1] > bb[1]:
+                    fim = min(fim or 1e9, l["bbox"][1])
+        seg[n] = [[pi + 1, 0, bb[1] - 2, W, (fim or H - margem_inferior) - 2]]
+    return seg
+
+
 def executar(chave: str):
     doc = pymupdf.open(pdf_da_prova(chave))
     extra = pasta_trabalho(chave) / "titulos-ajustes.json"   # {"11": [pagina0, [x0,y0,x1,y1]]} para títulos que o OCR não achou
     if chave.startswith("acafe"):
         seg = segmentos_coluna_unica(doc)
+    elif fonte_da_prova(chave).get("layout") == "largura-total":
+        seg = segmentos_largura_total(doc)
     else:
         seg = segmentos(doc, so_numero=chave.startswith("fuvest"), extra=str(extra) if extra.exists() else None)
     d = pasta_trabalho(chave)
