@@ -20,7 +20,8 @@
 | Itálico, negrito, sublinhado | `<i>`, `<b>`, `<u>` (nenhuma outra marcação HTML) |
 | Índices e expoentes | `<sub>`, `<sup>`: `<i>v</i><sub>0</sub>`, `m/s<sup>2</sup>` |
 | Vetor | letra + seta combinante: `<i>F</i>⃗` |
-| Fração empilhada | em linha com barra: `<i>g</i> = <i>GM</i>/<i>R</i><sup>2</sup>` |
+| Fração empilhada, raiz, fórmula montada | LaTeX entre `\(` e `\)`, só quando o caderno imprime assim: `\(g = \dfrac{GM}{R^2}\)` (ver "Fórmulas" abaixo) |
+| Barra em linha (`1/3`, `m/s`) | como no caderno, com barra |
 | Figura | `[[figura N]]` numa linha própria, no ponto em que aparece |
 | Legenda/fonte da figura | texto, logo abaixo da figura |
 | Texto comum a várias questões | repetido no início de cada uma, com o título original |
@@ -36,6 +37,29 @@
 | Itens I, II... e ( ) (Acafe) | um por linha; o destaque em vermelho da alternativa correta não é reproduzido; legendas "FIGURA N" vão no recorte |
 | "Note e adote" (Fuvest) | bloco de texto antes das alternativas, começando por `Note e adote:` |
 | Tabela | figura recortada do caderno |
+
+## Fórmulas (LaTeX)
+
+Desde a v2.1.0, frações, raízes e equações podem ser escritas em LaTeX entre `\(` e `\)`.
+O app desenha a fórmula (MathML) e a lista .docx a converte em equação editável do Word.
+Não se usa `$...$`, porque o banco tem "R$".
+
+- **Enunciado:** empilha-se só o que o caderno imprime empilhado (fração com traço,
+  radical, expoente sobre fração). Barra em linha impressa no caderno (`1/3 do volume`,
+  `(T²/R³)`, todas as unidades como `m/s²`) fica com barra. Cada fórmula é conferida contra
+  a imagem da questão. Fórmula desenhada pela banca e transcrita assim deixa de ser
+  divergência a registrar.
+- **Resolução e respostas:** texto nosso, então frações e equações vão em LaTeX sempre que
+  ajudam a leitura. Conversões de unidade em cadeia podem ficar em texto.
+- **Escrita:** vírgula decimal e milhar com espaço como no resto do banco (`3,6`, `54 000`);
+  índice que é palavra fica reto (`R_{\text{eq}}`, `F_{\text{res}}`); índice que é letra
+  segue a prova (`U_b`); unidade fica fora da fórmula (`\(... = 0,5\) A`); módulo com
+  `\left|a\right|`; `\dfrac` para frações; `\sen` para seno.
+- **Comandos aceitos:** `\frac \dfrac \tfrac \sqrt \sqrt[n] \vec \text \left \right`,
+  letras gregas (`\Delta`, `\rho`...), `\cdot \times \approx \neq \leq \geq \Rightarrow \to
+  \propto \pm \infty \circ`, `\sen \cos \tg \log \ln`, espaços `\, \; \quad`; índices `_` e `^`.
+  Fora disso o `verificar` acusa erro (a lista fica em `LATEX_CMDS`, em `pipeline/verificar.py`,
+  e precisa bater com `parseTex` em `app/index.html`).
 
 ## O que entra no banco
 

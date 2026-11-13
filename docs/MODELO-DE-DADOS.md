@@ -17,7 +17,7 @@ Esquema formal: `schemas/questao.schema.json`.
 | `numero` | texto | número da questão no caderno |
 | `fase` | texto | `1ª fase · Prova Q` |
 | `fonte.descricao` | texto | caderno de onde o texto foi transcrito (casa com `data/fontes/manifesto.json`) |
-| `enunciado` | texto | literal, com `<i> <b> <u> <sub> <sup>` e `[[figura N]]` |
+| `enunciado` | texto | literal, com `<i> <b> <u> <sub> <sup>`, `[[figura N]]` e fórmulas LaTeX entre `\(` e `\)` (docs/CRITERIOS.md) |
 | `figuras` | lista | arquivos em `data/figuras/`, na ordem de `[[figura 1]]`, `[[figura 2]]`... |
 | `gabarito` | `A`–`E` | vazio nas discursivas |
 | `respostas` | lista | só nas discursivas: `[{"item": "a", "texto": "..."}]`, resposta final de cada item, na ordem do enunciado (`item` vazio se a questão não tem itens); mesma marcação do enunciado |

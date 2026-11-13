@@ -1,4 +1,4 @@
-"""Etapa 8: verificações automáticas (rodar antes de marcar 'revisado' e antes de publicar).
+r"""Etapa 8: verificações automáticas (rodar antes de marcar 'revisado' e antes de publicar).
 
 Estrutura (sempre): campos obrigatórios, status válido, gabarito, tópicos existentes na
 taxonomia, número de [[figura N]] == número de arquivos e arquivos presentes.
@@ -8,12 +8,62 @@ número do enunciado precisam existir no texto do PDF. Divergências comuns e le
 quebras de linha com hífen, subscritos colados ("max", "eia"), URLs quebradas. Cada uma
 precisa ser olhada; quando legítima, registre-a na própria questão em
 revisao.divergenciasAceitas (com o motivo em revisao.notas) para não reaparecer.
+
+Fórmulas: trechos entre \( e \) são LaTeX (subconjunto desenhado pelo app e convertido em
+equação do Word). Confere-se que os delimitadores e as chaves fecham e que só há comandos
+aceitos (LATEX_CMDS, que precisa bater com o analisador parseTex de app/index.html). Para a
+fidelidade, a fórmula é "desmontada" em texto simples antes da comparação com o PDF.
 """
 import re
 import subprocess
 from functools import lru_cache
 
 from .comum import FIG_RE, FIGURAS, RAIZ, STATUS, TIPOS, carregar_questoes, chave_prova, fonte_da_prova, ids_topicos, tipo_questao
+
+MATH_RE = re.compile(r"\\\((.+?)\\\)")
+LATEX_CMDS = {
+    # estrutura
+    "frac", "dfrac", "tfrac", "sqrt", "vec", "overrightarrow", "text", "mathrm", "textrm", "left", "right",
+    # letras gregas e símbolos
+    "alpha", "beta", "gamma", "delta", "epsilon", "varepsilon", "zeta", "eta", "theta", "iota", "kappa", "lambda",
+    "mu", "nu", "xi", "pi", "rho", "sigma", "tau", "phi", "varphi", "chi", "psi", "omega",
+    "Gamma", "Delta", "Theta", "Lambda", "Pi", "Sigma", "Phi", "Psi", "Omega", "ell",
+    # operadores e relações
+    "cdot", "times", "div", "pm", "approx", "neq", "ne", "leq", "le", "geq", "ge", "Rightarrow", "rightarrow", "to",
+    "Leftrightarrow", "propto", "infty", "circ", "sim", "equiv", "parallel", "perp", "ldots", "cdots",
+    # funções e espaços
+    "sen", "sin", "cos", "tg", "tan", "log", "ln", "quad",
+}
+LATEX_SIMBOLOS = {",", ";", " ", "!", "%", "{", "}", "|"}
+
+
+def checar_latex(texto: str, campo: str) -> list:
+    """Erros de fórmula: delimitador sem par, chave sem par, comando fora do subconjunto."""
+    erros = []
+    sem_math = MATH_RE.sub(" ", texto)
+    if "\\(" in sem_math or "\\)" in sem_math:
+        erros.append(f"{campo}: \\( sem \\) correspondente")
+    for tex in MATH_RE.findall(texto):
+        limpo = re.sub(r"\\[{}]", "", tex); prof = 0
+        for ch in limpo:
+            prof += {"{": 1, "}": -1}.get(ch, 0)
+            if prof < 0: break
+        if prof: erros.append(f"{campo}: chaves sem par em \\({tex}\\)")
+        for cmd in re.findall(r"\\([a-zA-Z]+|.)", tex):
+            if cmd not in LATEX_CMDS and cmd not in LATEX_SIMBOLOS:
+                erros.append(f"{campo}: comando não suportado \\{cmd} em \\({tex}\\)")
+    return erros
+
+
+def desmontar_latex(texto: str) -> str:
+    """Fórmula -> texto simples, para comparar com o PDF (\\frac{2h}{t^2} -> 2h t 2)."""
+    def plano(m):
+        t = m.group(1)
+        t = re.sub(r"\\[,;! ]", "", t)                 # espaços finos (54\\,000 -> 54000)
+        t = re.sub(r"\\[a-zA-Z]+", " ", t)             # comandos
+        return " " + re.sub(r"[{}^_\[\]]", " ", t) + " "
+    return MATH_RE.sub(plano, texto)
+
 
 OBRIG = ["id", "banca", "ano", "numero", "fonte", "enunciado", "figuras", "gabarito", "resolucao", "topicos", "status"]
 
@@ -74,13 +124,17 @@ def checar(q: dict, topicos: set) -> tuple[list, list]:
         if not (FIGURAS / f).exists(): erros.append(f"figura ausente: data/figuras/{f}")
     if re.search(r"</?(?!(?:i|b|u|sub|sup)>)[a-z]+[^>]*>", q.get("enunciado", "")):
         erros.append("marcação HTML não permitida no enunciado (use só i, b, u, sub, sup)")
+    erros += checar_latex(q.get("enunciado", ""), "enunciado")
+    erros += checar_latex(q.get("resolucao", ""), "resolução")
+    for r in q.get("respostas", []):
+        erros += checar_latex(str(r.get("texto", "")), f"resposta {r.get('item', '')}".strip())
     # fidelidade ao PDF
     pdf = _texto_pdf(chave_prova(q["banca"], q["ano"], q.get("versao", ""), q.get("edicao", "")))
     if pdf is None:
         avisos.append("PDF da prova ausente em fontes/: fidelidade não conferida")
     else:
         palavras, compacto = pdf
-        limpo = re.sub(r"<[^>]+>|\[\[figura \d+\]\]", " ", q.get("enunciado", ""))
+        limpo = re.sub(r"<[^>]+>|\[\[figura \d+\]\]", " ", desmontar_latex(q.get("enunciado", "")))
         aceitos = set(q.get("revisao", {}).get("divergenciasAceitas", []))
         faltam = sorted({w for w in re.findall(r"[A-Za-zÀ-ÿ']{3,}", limpo) if w not in palavras} - aceitos)
         nums = sorted({n for n in re.findall(r"\d+(?:[.,]\d+)*", limpo) if n not in compacto} - aceitos)

@@ -11,7 +11,7 @@
   "figuras": [],
   "gabarito": "C",
   "gabaritoFonte": "prova-comentada-oficial",
-  "resolucao": "1. Converta a energia da bateria: <i>E</i><sub>b</sub> = 15 Wh = 15 · 3600 J = 54 000 J.\n2. Iguale à energia potencial: <i>m g y</i> = <i>E</i><sub>b</sub> ⇒ <i>y</i> = 54 000/(45 · 10) = 120 m.",
+  "resolucao": "1. Converta a energia da bateria: <i>E</i><sub>b</sub> = 15 Wh = 15 · 3600 J = 54 000 J.\n2. Iguale à energia potencial: \\(m g y = E_b \\Rightarrow y = \\dfrac{E_b}{m g} = \\dfrac{54 000}{45 \\cdot 10} = 120\\) m.",
   "topicos": [
     "energia-potencial-gravitacional",
     "energia-eletrica-e-consumo-kwh-conta-de-luz",
@@ -19,5 +19,5 @@
   ],
   "status": "publicado",
   "criadoEm": "2026-10-06T17:30:00.000Z",
-  "atualizadoEm": "2026-10-06T17:30:00.000Z"
+  "atualizadoEm": "2026-11-13T12:00:00.000Z"
 }

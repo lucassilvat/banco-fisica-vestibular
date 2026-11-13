@@ -141,8 +141,15 @@ Para gravar questões, usam-se os lotes da etapa `publicar` (docs/WORKFLOW.md).
     `unicamp-2021-biologicas-e-saude-qNN` (questões, pastas e figuras; no app, documentos
     regravados com os ids novos e os antigos apagados; as figuras não precisaram ser
     reenviadas). Nenhuma questão usa mais `versao`.
+20. v2.1.0: fórmulas em LaTeX (`\(...\)`), desenhadas no app e convertidas em equação do
+    Word no .docx; testado na Unicamp 2026 (resoluções reescritas; enunciados sem fração
+    empilhada). Regra do Lucas mantida: no enunciado, só se empilha o que o caderno empilha.
 
 ## Pendências
+
+- **Fórmulas no restante do banco**: converter as resoluções das outras provas (em lote) e
+  rever os enunciados prova a prova contra os PDFs, que o Lucas envia. As provas da Unicamp
+  2016–2025 também precisam ser registradas no manifesto (hoje ele começa na 2027).
 
 - **Gabaritos Einstein 2023–2027**: todos `resolucao-propria`, inclusive as respostas das
   discursivas. Prova I: 2023 36A 37C 38E 39B 40C; 2024 36D 37E 38C 39A 40B; 2025 36A 37B

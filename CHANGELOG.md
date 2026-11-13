@@ -4,6 +4,24 @@ Cada versão corresponde a um lote de importação ou a uma mudança no app/pipe
 Formato: `vMAIOR.MENOR.CORREÇÃO` — MENOR sobe a cada prova importada; MAIOR, em mudanças
 de modelo de dados; CORREÇÃO, em correções de questões já publicadas.
 
+## v2.1.0 — 2026-11-13
+
+- **Fórmulas em LaTeX.** Trechos entre `\(` e `\)` no enunciado, na resolução e nas
+  respostas são desenhados pelo app (fração empilhada, raiz, vetor, índices) e viram
+  equação editável do Word na lista .docx. Um único analisador (`parseTex`, em
+  `app/index.html`) gera MathML para a tela e OMML para o Word, sem biblioteca externa: o
+  KaTeX foi descartado porque o artefato não carrega CSS nem fontes de CDN. Fórmula com
+  erro aparece como código em vermelho na tela e como texto no .docx.
+- **`verificar`:** acusa `\(` sem par, chave sem par e comando fora do subconjunto aceito;
+  na comparação com o PDF, a fórmula é desmontada em texto simples.
+- **Critérios:** a regra "fração empilhada vira barra em linha" foi trocada por LaTeX, só
+  onde o caderno empilha; barra impressa em linha continua barra (docs/CRITERIOS.md).
+- **Teste com a Unicamp 2026:** os 7 enunciados (Q8–Q14) foram conferidos com o caderno e
+  não têm fração empilhada (só unidades em linha), então ficam como estavam. Resoluções de
+  Q9, Q10, Q11, Q13 e Q14 reescritas em LaTeX, mesmo conteúdo. Caderno registrado no
+  manifesto (`fontes/unicamp-2026-caderno.pdf`), o que passa a permitir conferir a
+  fidelidade dessas questões.
+
 ## v2.0.0 — 2026-11-11
 
 - **Modelo de dados: questões discursivas.** Novo campo `tipo` (`objetiva`, padrão quando

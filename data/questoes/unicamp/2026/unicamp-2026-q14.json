@@ -11,7 +11,7 @@
   "figuras": [],
   "gabarito": "B",
   "gabaritoFonte": "prova-comentada-oficial",
-  "resolucao": "1. No trecho II a velocidade cai de 36 km/h = 10 m/s até 0 em 20 s: |<i>a</i>| = 10/20 = 0,5 m/s<sup>2</sup>.\n2. 2ª Lei de Newton: |<i>F</i><sub>res</sub>| = <i>m</i>|<i>a</i>| = 180 · 0,5 = 90 N.",
+  "resolucao": "1. No trecho II a velocidade cai de 36 km/h = 10 m/s até 0 em 20 s: \\(\\left|a\\right| = \\dfrac{10}{20} = 0,5\\) m/s<sup>2</sup>.\n2. 2ª Lei de Newton: \\(\\left|F_{\\text{res}}\\right| = m\\left|a\\right| = 180 \\cdot 0,5 = 90\\) N.",
   "topicos": [
     "leis-de-newton",
     "movimento-retilineo-uniformemente-variado-mruv",
@@ -19,5 +19,5 @@
   ],
   "status": "publicado",
   "criadoEm": "2026-10-06T17:30:00.000Z",
-  "atualizadoEm": "2026-10-06T17:30:00.000Z"
+  "atualizadoEm": "2026-11-13T12:00:00.000Z"
 }
