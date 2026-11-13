@@ -11,7 +11,7 @@
   "figuras": [],
   "gabarito": "D",
   "gabaritoFonte": "oficial",
-  "resolucao": "1. Sem resistência do ar, as duas esferas caem em queda livre com a mesma aceleração <i>g</i>, independentemente da massa: (C) é falsa.\n2. Partindo do repouso, da mesma altura <i>h</i> e com a mesma aceleração, chegam juntas ao solo, com a mesma velocidade <i>v</i> = √(2<i>gh</i>): (A) e (E) são falsas.\n3. A energia mecânica inicial é <i>mgh</i>, que depende da massa; como a esfera de aço tem massa maior, sua energia mecânica é maior: (B) é falsa.\n4. No solo, <i>E</i><sub>c</sub> = <i>mv</i>²/2 com o mesmo <i>v</i> para as duas; a de aço, de maior massa, tem mais energia cinética: (D) é verdadeira.\nGabarito: D.",
+  "resolucao": "1. Sem resistência do ar, as duas esferas caem em queda livre com a mesma aceleração <i>g</i>, independentemente da massa: (C) é falsa.\n2. Partindo do repouso, da mesma altura <i>h</i> e com a mesma aceleração, chegam juntas ao solo, com a mesma velocidade \\(v = \\sqrt{2gh}\\): (A) e (E) são falsas.\n3. A energia mecânica inicial é <i>mgh</i>, que depende da massa; como a esfera de aço tem massa maior, sua energia mecânica é maior: (B) é falsa.\n4. No solo, \\(E_{\\text{c}} = \\dfrac{m v^2}{2}\\) com o mesmo <i>v</i> para as duas; a de aço, de maior massa, tem mais energia cinética: (D) é verdadeira.\nGabarito: D.",
   "topicos": [
     "queda-livre-e-lancamento-vertical",
     "conservacao-da-energia-mecanica",
@@ -19,7 +19,7 @@
   ],
   "status": "publicado",
   "criadoEm": "2026-11-01T15:46:12.000Z",
-  "atualizadoEm": "2026-11-01T15:46:12.000Z",
+  "atualizadoEm": "2026-11-13T15:00:00.000Z",
   "revisao": {
     "divergenciasAceitas": [
       "horizontal"

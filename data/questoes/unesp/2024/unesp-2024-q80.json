@@ -13,14 +13,14 @@
   ],
   "gabarito": "D",
   "gabaritoFonte": "oficial",
-  "resolucao": "1. A curva de absorção tem máximo em 461 nm (luz azul).\n2. Frequência correspondente: <i>f</i> = <i>c</i>/λ = 3 × 10<sup>8</sup>/(461 × 10<sup>−9</sup>) ≈ 6,5 × 10<sup>14</sup> Hz. Logo, (D) é correta.\n3. (A) Falsa: 425 nm a 475 nm são comprimentos de onda; as frequências são da ordem de 10<sup>14</sup> Hz, não 0,4 Hz.\n4. (B) Falsa: acima do verde (≳ 500 nm) a absorção é praticamente nula.\n5. (C) Falsa: a luz ultravioleta tem frequência maior que a azul; ela não é efetiva porque é absorvida pelo vidro da lâmpada e pela cobertura.\n6. (E) Falsa: frequências maiores que a do verde (azul, violeta) são justamente as mais absorvidas.\nGabarito: D.",
+  "resolucao": "1. A curva de absorção tem máximo em 461 nm (luz azul).\n2. Frequência correspondente: \\(f = \\dfrac{c}{\\lambda} = \\dfrac{3 \\times 10^8}{461 \\times 10^{-9}} \\approx 6,5 \\times 10^{14}\\) Hz. Logo, (D) é correta.\n3. (A) Falsa: 425 nm a 475 nm são comprimentos de onda; as frequências são da ordem de 10<sup>14</sup> Hz, não 0,4 Hz.\n4. (B) Falsa: acima do verde (≳ 500 nm) a absorção é praticamente nula.\n5. (C) Falsa: a luz ultravioleta tem frequência maior que a azul; ela não é efetiva porque é absorvida pelo vidro da lâmpada e pela cobertura.\n6. (E) Falsa: frequências maiores que a do verde (azul, violeta) são justamente as mais absorvidas.\nGabarito: D.",
   "topicos": [
     "espectro-eletromagnetico",
     "equacao-fundamental-da-ondulatoria-v-f"
   ],
   "status": "publicado",
   "criadoEm": "2026-11-01T15:46:30.000Z",
-  "atualizadoEm": "2026-11-01T15:46:30.000Z",
+  "atualizadoEm": "2026-11-13T15:00:00.000Z",
   "revisao": {
     "divergenciasAceitas": [
       "amarelada"

@@ -14,7 +14,7 @@
   ],
   "gabarito": "A",
   "gabaritoFonte": "resolucao-propria",
-  "resolucao": "1. Mesma tração e mesma densidade linear ⇒ mesma velocidade de propagação <i>v</i> nas duas cordas (fórmula de Taylor).\n2. No modo fundamental, L = λ/2 ⇒ f = <i>v</i>/(2L): a frequência é inversamente proporcional ao comprimento.\n3. f<sub>1</sub>/f<sub>2</sub> = L<sub>2</sub>/L<sub>1</sub> = 150 ⇒ L<sub>2</sub> = 150 · 5 cm = 750 cm = 7,5 m.\nGabarito: A.",
+  "resolucao": "1. Mesma tração e mesma densidade linear ⇒ mesma velocidade de propagação <i>v</i> nas duas cordas (fórmula de Taylor).\n2. No modo fundamental, \\(\\mathrm{L} = \\dfrac{\\lambda}{2} \\Rightarrow \\mathrm{f} = \\dfrac{v}{2\\mathrm{L}}\\): a frequência é inversamente proporcional ao comprimento.\n3. \\(\\dfrac{\\mathrm{f}_1}{\\mathrm{f}_2} = \\dfrac{\\mathrm{L}_2}{\\mathrm{L}_1} = 150\\) ⇒ L<sub>2</sub> = 150 · 5 cm = 750 cm = 7,5 m.\nGabarito: A.",
   "topicos": [
     "ondas-estacionarias-e-cordas-vibrantes",
     "velocidade-de-onda-em-cordas-taylor",
@@ -22,5 +22,5 @@
   ],
   "status": "publicado",
   "criadoEm": "2026-11-01T15:46:25.000Z",
-  "atualizadoEm": "2026-11-01T15:46:25.000Z"
+  "atualizadoEm": "2026-11-13T15:00:00.000Z"
 }

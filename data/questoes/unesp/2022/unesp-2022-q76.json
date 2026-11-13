@@ -7,13 +7,13 @@
   "fonte": {
     "descricao": "Vunesp, Vestibular Unesp 2022, 1ª fase (Prova de Conhecimentos Gerais, cursos da área de Biológicas), caderno de questões"
   },
-  "enunciado": "Quando a luz de um semáforo fica verde, um veículo parado parte com aceleração escalar constante, a<sub>1</sub>, e se move por uma rua retilínea até atingir uma velocidade máxima, V<sub>máx</sub>, em um intervalo de tempo T<sub>1</sub>. A partir desse instante, inicia um processo de frenagem, também com aceleração escalar constante, até parar novamente, no semáforo seguinte, em um intervalo de tempo T<sub>2</sub>. O gráfico representa a variação da velocidade desse veículo em função do tempo, nesse movimento.\n\n[[figura 1]]\n\nNo trajeto entre os dois semáforos, a velocidade escalar média desse veículo foi de:\n\n(A) 2 × a<sub>1</sub> × T<sub>1</sub>\n(B) a<sub>1</sub> × (T<sub>1</sub> + T<sub>2</sub>)/2\n(C) 2 × a<sub>1</sub> × (T<sub>1</sub> + T<sub>2</sub>)\n(D) a<sub>1</sub> × T<sub>1</sub>/2\n(E) a<sub>1</sub> × T<sub>1</sub>",
+  "enunciado": "Quando a luz de um semáforo fica verde, um veículo parado parte com aceleração escalar constante, a<sub>1</sub>, e se move por uma rua retilínea até atingir uma velocidade máxima, V<sub>máx</sub>, em um intervalo de tempo T<sub>1</sub>. A partir desse instante, inicia um processo de frenagem, também com aceleração escalar constante, até parar novamente, no semáforo seguinte, em um intervalo de tempo T<sub>2</sub>. O gráfico representa a variação da velocidade desse veículo em função do tempo, nesse movimento.\n\n[[figura 1]]\n\nNo trajeto entre os dois semáforos, a velocidade escalar média desse veículo foi de:\n\n(A) \\(2 \\times \\mathrm{a}_1 \\times \\mathrm{T}_1\\)\n(B) \\(\\dfrac{\\mathrm{a}_1 \\times (\\mathrm{T}_1 + \\mathrm{T}_2)}{2}\\)\n(C) \\(2 \\times \\mathrm{a}_1 \\times (\\mathrm{T}_1 + \\mathrm{T}_2)\\)\n(D) \\(\\dfrac{\\mathrm{a}_1 \\times \\mathrm{T}_1}{2}\\)\n(E) \\(\\mathrm{a}_1 \\times \\mathrm{T}_1\\)",
   "figuras": [
     "unesp-2022-q76-1.png"
   ],
   "gabarito": "D",
   "gabaritoFonte": "resolucao-propria",
-  "resolucao": "1. Na fase de aceleração, partindo do repouso: V<sub>máx</sub> = a<sub>1</sub> · T<sub>1</sub>.\n2. No gráfico v × t, o deslocamento é a área sob a curva, um triângulo de base T<sub>1</sub> + T<sub>2</sub> e altura V<sub>máx</sub>: Δs = V<sub>máx</sub>(T<sub>1</sub> + T<sub>2</sub>)/2.\n3. Velocidade escalar média: v<sub>m</sub> = Δs/Δt = [V<sub>máx</sub>(T<sub>1</sub> + T<sub>2</sub>)/2]/(T<sub>1</sub> + T<sub>2</sub>) = V<sub>máx</sub>/2.\n4. Substituindo V<sub>máx</sub>: v<sub>m</sub> = a<sub>1</sub> × T<sub>1</sub>/2.\nGabarito: D.",
+  "resolucao": "1. Na fase de aceleração, partindo do repouso: V<sub>máx</sub> = a<sub>1</sub> · T<sub>1</sub>.\n2. No gráfico v × t, o deslocamento é a área sob a curva, um triângulo de base T<sub>1</sub> + T<sub>2</sub> e altura V<sub>máx</sub>: \\(\\Delta\\mathrm{s} = \\dfrac{\\mathrm{V}_{\\text{máx}}(\\mathrm{T}_1 + \\mathrm{T}_2)}{2}\\).\n3. Velocidade escalar média: \\(\\mathrm{v}_\\mathrm{m} = \\dfrac{\\Delta\\mathrm{s}}{\\Delta\\mathrm{t}} = \\dfrac{\\tfrac{\\mathrm{V}_{\\text{máx}}(\\mathrm{T}_1 + \\mathrm{T}_2)}{2}}{\\mathrm{T}_1 + \\mathrm{T}_2} = \\dfrac{\\mathrm{V}_{\\text{máx}}}{2}\\).\n4. Substituindo V<sub>máx</sub>: \\(\\mathrm{v}_\\mathrm{m} = \\dfrac{\\mathrm{a}_1 \\times \\mathrm{T}_1}{2}\\).\nGabarito: D.",
   "topicos": [
     "velocidade-media-e-aceleracao-media",
     "movimento-retilineo-uniformemente-variado-mruv",
@@ -21,7 +21,7 @@
   ],
   "status": "publicado",
   "criadoEm": "2026-11-01T15:46:22.000Z",
-  "atualizadoEm": "2026-11-01T15:46:22.000Z",
+  "atualizadoEm": "2026-11-13T15:00:00.000Z",
   "revisao": {
     "divergenciasAceitas": [
       "máx"

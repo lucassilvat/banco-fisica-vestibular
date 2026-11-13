@@ -13,13 +13,13 @@
   ],
   "gabarito": "C",
   "gabaritoFonte": "resolucao-propria",
-  "resolucao": "Questão de Matemática com conteúdo de Mecânica.\n1. Triângulo inscrito em semicírculo com AC como diâmetro: o ângulo em B é reto. Como AB = 2 m = AC/2, cos Â = 1/2 ⇒ Â = 60º.\n2. Altura de B em relação a AC: <i>h</i> = AB · sen 60º = 2 · (√3/2) = √3 m.\n3. <i>E</i><sub>p</sub> = <i>mgh</i> ⇒ 342 = <i>m</i> · 5,7√3 · √3 = <i>m</i> · 17,1 ⇒ <i>m</i> = 20 kg.\nGabarito: C.",
+  "resolucao": "Questão de Matemática com conteúdo de Mecânica.\n1. Triângulo inscrito em semicírculo com AC como diâmetro: o ângulo em B é reto. Como AB = 2 m \\(= \\dfrac{\\mathrm{AC}}{2}\\), cos Â \\(= \\dfrac{1}{2}\\) ⇒ Â = 60º.\n2. Altura de B em relação a AC: \\(h = \\mathrm{AB} \\cdot \\sen 60° = 2 \\cdot \\dfrac{\\sqrt{3}}{2} = \\sqrt{3}\\) m.\n3. <i>E</i><sub>p</sub> = <i>mgh</i> ⇒ \\(342 = m \\cdot 5,7\\sqrt{3} \\cdot \\sqrt{3} = m \\cdot 17,1\\) ⇒ <i>m</i> = 20 kg.\nGabarito: C.",
   "topicos": [
     "energia-potencial-gravitacional"
   ],
   "status": "publicado",
   "criadoEm": "2026-11-02T14:05:33.000Z",
-  "atualizadoEm": "2026-11-02T14:05:33.000Z",
+  "atualizadoEm": "2026-11-13T15:00:00.000Z",
   "revisao": {
     "divergenciasAceitas": [
       "AC"

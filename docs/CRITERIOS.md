@@ -54,8 +54,9 @@ Não se usa `$...$`, porque o banco tem "R$".
 - **Escrita:** vírgula decimal e milhar com espaço como no resto do banco (`3,6`, `54 000`);
   índice que é palavra fica reto (`R_{\text{eq}}`, `F_{\text{res}}`); índice que é letra
   segue a prova (`U_b`); unidade fica fora da fórmula (`\(... = 0,5\) A`); módulo com
-  `\left|a\right|`; `\dfrac` para frações; `\sen` para seno.
-- **Comandos aceitos:** `\frac \dfrac \tfrac \sqrt \sqrt[n] \vec \boldsymbol \text \left \right`,
+  `\left|a\right|`; `\dfrac` para frações; `\sen` para seno. Variável que o caderno
+  imprime reta (padrão da Unesp) vai com `\mathrm{...}`, para não virar itálico.
+- **Comandos aceitos:** `\frac \dfrac \tfrac \sqrt \sqrt[n] \vec \boldsymbol \text \mathrm \left \right`,
   letras gregas (`\Delta`, `\rho`...), `\cdot \times \approx \neq \leq \geq \Rightarrow \to
   \propto \pm \infty \circ`, `\sen \cos \tg \log \ln`, espaços `\, \; \quad`; índices `_` e `^`.
   Fora disso o `verificar` acusa erro (a lista fica em `LATEX_CMDS`, em `pipeline/verificar.py`,

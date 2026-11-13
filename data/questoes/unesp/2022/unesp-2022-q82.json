@@ -14,12 +14,12 @@
   ],
   "gabarito": "B",
   "gabaritoFonte": "resolucao-propria",
-  "resolucao": "1. Pelas embalagens, o chuveiro tem potência de 7 500 W e a lâmpada, 20 W.\n2. Energia consumida pelo chuveiro em 12 min = 0,2 h: <i>E</i> = 7 500 · 0,2 = 1 500 Wh.\n3. Tempo para a lâmpada consumir a mesma energia: Δ<i>t</i> = <i>E</i>/<i>P</i> = 1 500/20 = 75 h.\nGabarito: B.",
+  "resolucao": "1. Pelas embalagens, o chuveiro tem potência de 7 500 W e a lâmpada, 20 W.\n2. Energia consumida pelo chuveiro em 12 min = 0,2 h: <i>E</i> = 7 500 · 0,2 = 1 500 Wh.\n3. Tempo para a lâmpada consumir a mesma energia: \\(\\Delta t = \\dfrac{E}{P} = \\dfrac{1 500}{20} = 75\\) h.\nGabarito: B.",
   "topicos": [
     "energia-eletrica-e-consumo-kwh-conta-de-luz",
     "potencia-eletrica-e-efeito-joule"
   ],
   "status": "publicado",
   "criadoEm": "2026-11-01T15:46:22.000Z",
-  "atualizadoEm": "2026-11-01T15:46:22.000Z"
+  "atualizadoEm": "2026-11-13T15:00:00.000Z"
 }

@@ -13,12 +13,12 @@
   ],
   "gabarito": "A",
   "gabaritoFonte": "oficial",
-  "resolucao": "1. A resistência de um trecho de material é <i>R</i> = ρ<i>L</i>/<i>A</i>: com resistividade muito maior, a mielina oferece resistência muito maior à passagem de corrente.\n2. A mielina funciona, portanto, como um isolante em torno do axônio, que é o bom condutor. O sinal elétrico fica confinado no axônio, com pouca perda de carga para o meio externo.\n3. Com menos fuga de corrente, o sinal se propaga com mais eficiência, o que aumenta a velocidade de transmissão (como se sabe da Biologia, fibras mielinizadas conduzem mais rápido).\nGabarito: A.",
+  "resolucao": "1. A resistência de um trecho de material é \\(R = \\dfrac{\\rho L}{A}\\): com resistividade muito maior, a mielina oferece resistência muito maior à passagem de corrente.\n2. A mielina funciona, portanto, como um isolante em torno do axônio, que é o bom condutor. O sinal elétrico fica confinado no axônio, com pouca perda de carga para o meio externo.\n3. Com menos fuga de corrente, o sinal se propaga com mais eficiência, o que aumenta a velocidade de transmissão (como se sabe da Biologia, fibras mielinizadas conduzem mais rápido).\nGabarito: A.",
   "topicos": [
     "segunda-lei-de-ohm-e-resistividade",
     "corrente-eletrica"
   ],
   "status": "publicado",
   "criadoEm": "2026-11-01T15:46:30.000Z",
-  "atualizadoEm": "2026-11-01T15:46:30.000Z"
+  "atualizadoEm": "2026-11-13T15:00:00.000Z"
 }

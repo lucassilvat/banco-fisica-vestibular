@@ -11,7 +11,7 @@
   "figuras": [],
   "gabarito": "D",
   "gabaritoFonte": "resolucao-propria",
-  "resolucao": "1. Distância percorrida: 50 km/h · 2 h = 100 km. Consumo: 100/10 = 10 L de gasolina.\n2. Massa de gasolina: 10 L · 0,7 kg/L = 7 kg. Energia liberada: 7 · 4 × 10<sup>7</sup> = 2,8 × 10<sup>8</sup> J.\n3. Energia usada para mover o motorista (1%): 2,8 × 10<sup>6</sup> J.\n4. Convertida em energia potencial: <i>mgh</i> = 2,8 × 10<sup>6</sup> ⇒ <i>h</i> = 2,8 × 10<sup>6</sup>/(70 · 10) = 4 000 m.\nGabarito: D.",
+  "resolucao": "1. Distância percorrida: 50 km/h · 2 h = 100 km. Consumo: \\(\\dfrac{100}{10} = 10\\) L de gasolina.\n2. Massa de gasolina: 10 L · 0,7 kg/L = 7 kg. Energia liberada: 7 · 4 × 10<sup>7</sup> = 2,8 × 10<sup>8</sup> J.\n3. Energia usada para mover o motorista (1%): 2,8 × 10<sup>6</sup> J.\n4. Convertida em energia potencial: <i>mgh</i> = 2,8 × 10<sup>6</sup> ⇒ \\(h = \\dfrac{2,8 \\times 10^6}{70 \\cdot 10} = 4 000\\) m.\nGabarito: D.",
   "topicos": [
     "energia-potencial-gravitacional",
     "potencia-e-rendimento",
@@ -19,5 +19,5 @@
   ],
   "status": "publicado",
   "criadoEm": "2026-11-01T15:46:38.000Z",
-  "atualizadoEm": "2026-11-01T15:46:38.000Z"
+  "atualizadoEm": "2026-11-13T15:00:00.000Z"
 }

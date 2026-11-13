@@ -13,7 +13,7 @@
   ],
   "gabarito": "A",
   "gabaritoFonte": "resolucao-propria",
-  "resolucao": "1. O objeto descreve um pêndulo cônico: circunferência horizontal de raio <i>R</i> = 15/2 = 7,5 m, centro C, com a corda inclinada de θ em relação à vertical OC.\n2. Tração <i>T</i>: a componente vertical equilibra o peso, <i>T</i> cos θ = <i>mg</i>; a horizontal é a resultante centrípeta, <i>T</i> sen θ = <i>m</i>ω²<i>R</i>.\n3. Dividindo: tg θ = ω²<i>R</i>/<i>g</i> ⇒ ω² = <i>g</i> tg θ/<i>R</i> = 10 · (0,6/0,8)/7,5 = 7,5/7,5 = 1.\n4. ω = 1,0 rad/s.\nGabarito: A.",
+  "resolucao": "1. O objeto descreve um pêndulo cônico: circunferência horizontal de raio \\(R = \\dfrac{15}{2} = 7,5\\) m, centro C, com a corda inclinada de θ em relação à vertical OC.\n2. Tração <i>T</i>: a componente vertical equilibra o peso, <i>T</i> cos θ = <i>mg</i>; a horizontal é a resultante centrípeta, <i>T</i> sen θ = <i>m</i>ω²<i>R</i>.\n3. Dividindo: \\(\\tg\\theta = \\dfrac{\\omega^2 R}{g} \\Rightarrow \\omega^2 = \\dfrac{g\\tg\\theta}{R} = \\dfrac{10 \\cdot \\tfrac{0,6}{0,8}}{7,5} = \\dfrac{7,5}{7,5} = 1\\).\n4. ω = 1,0 rad/s.\nGabarito: A.",
   "topicos": [
     "resultante-centripeta-curvas-loop-globo-da-morte",
     "aceleracao-centripeta",
@@ -21,5 +21,5 @@
   ],
   "status": "publicado",
   "criadoEm": "2026-11-02T14:05:19.000Z",
-  "atualizadoEm": "2026-11-02T14:05:19.000Z"
+  "atualizadoEm": "2026-11-13T15:00:00.000Z"
 }

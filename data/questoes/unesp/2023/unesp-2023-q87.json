@@ -7,17 +7,17 @@
   "fonte": {
     "descricao": "Vunesp, Vestibular Unesp 2023, 1ª fase (Prova de Conhecimentos Gerais), caderno de questões"
   },
-  "enunciado": "Observe a figura, formada por um triângulo PQR inscrito em uma circunferência de diâmetro PR = 10 m, em que PQ = 6 m. Uma partícula se move sobre a linha contínua, iniciando seu movimento em P, passando por Q, depois por R e, finalmente, voltando a P, como mostram as setas sobre a trajetória.\n\n[[figura 1]]\n\nA partícula parte de P com velocidade inicial de 8 m/s, e o módulo de sua velocidade aumenta uniformemente ao longo da trajetória, até chegar novamente em P, com velocidade de 10 m/s. Adotando π = 3, o módulo da aceleração escalar dessa partícula ao longo de todo seu percurso é de:\n\n(A) 36/89 m/s<sup>2</sup>\n(B) 3/25 m/s<sup>2</sup>\n(C) 2/11 m/s<sup>2</sup>\n(D) 18/29 m/s<sup>2</sup>\n(E) 1/11 m/s<sup>2</sup>",
+  "enunciado": "Observe a figura, formada por um triângulo PQR inscrito em uma circunferência de diâmetro PR = 10 m, em que PQ = 6 m. Uma partícula se move sobre a linha contínua, iniciando seu movimento em P, passando por Q, depois por R e, finalmente, voltando a P, como mostram as setas sobre a trajetória.\n\n[[figura 1]]\n\nA partícula parte de P com velocidade inicial de 8 m/s, e o módulo de sua velocidade aumenta uniformemente ao longo da trajetória, até chegar novamente em P, com velocidade de 10 m/s. Adotando π = 3, o módulo da aceleração escalar dessa partícula ao longo de todo seu percurso é de:\n\n(A) \\(\\dfrac{36}{89}\\) m/s<sup>2</sup>\n(B) \\(\\dfrac{3}{25}\\) m/s<sup>2</sup>\n(C) \\(\\dfrac{2}{11}\\) m/s<sup>2</sup>\n(D) \\(\\dfrac{18}{29}\\) m/s<sup>2</sup>\n(E) \\(\\dfrac{1}{11}\\) m/s<sup>2</sup>",
   "figuras": [
     "unesp-2023-q87-1.png"
   ],
   "gabarito": "D",
   "gabaritoFonte": "resolucao-propria",
-  "resolucao": "1. Como PR é diâmetro, o ângulo em Q é reto (triângulo inscrito numa semicircunferência). Então QR = √(10² − 6²) = 8 m.\n2. A volta de R a P é pela semicircunferência de raio 5 m: comprimento π · 5 = 3 · 5 = 15 m.\n3. Comprimento total do percurso: 6 + 8 + 15 = 29 m.\n4. Com aceleração escalar constante, vale a equação de Torricelli: <i>v</i>² = <i>v</i><sub>0</sub>² + 2<i>a</i>Δ<i>s</i> ⇒ 100 = 64 + 2<i>a</i> · 29 ⇒ <i>a</i> = 36/58 = 18/29 m/s².\nGabarito: D.",
+  "resolucao": "1. Como PR é diâmetro, o ângulo em Q é reto (triângulo inscrito numa semicircunferência). Então \\(\\mathrm{QR} = \\sqrt{10^2 - 6^2} = 8\\) m.\n2. A volta de R a P é pela semicircunferência de raio 5 m: comprimento π · 5 = 3 · 5 = 15 m.\n3. Comprimento total do percurso: 6 + 8 + 15 = 29 m.\n4. Com aceleração escalar constante, vale a equação de Torricelli: <i>v</i>² = <i>v</i><sub>0</sub>² + 2<i>a</i>Δ<i>s</i> ⇒ 100 = 64 + 2<i>a</i> · 29 ⇒ \\(a = \\dfrac{36}{58} = \\dfrac{18}{29}\\) m/s².\nGabarito: D.",
   "topicos": [
     "movimento-retilineo-uniformemente-variado-mruv"
   ],
   "status": "publicado",
   "criadoEm": "2026-11-01T15:46:25.000Z",
-  "atualizadoEm": "2026-11-01T15:46:25.000Z"
+  "atualizadoEm": "2026-11-13T15:00:00.000Z"
 }

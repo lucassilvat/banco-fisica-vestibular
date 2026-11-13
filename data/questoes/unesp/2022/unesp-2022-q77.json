@@ -13,7 +13,7 @@
   ],
   "gabarito": "C",
   "gabaritoFonte": "resolucao-propria",
-  "resolucao": "1. O fio (65 cm), o raio da trajetória (60 cm) e a distância vertical entre a mão e o plano da trajetória formam um triângulo retângulo: <i>h</i> = √(65² − 60²) = 25 cm.\n2. Sobre a esfera atuam o peso e a tração. Como o movimento é num plano horizontal, a componente vertical da tração equilibra o peso: <i>T</i> · (25/65) = <i>mg</i>.\n3. Com <i>m</i> = 0,5 kg: <i>T</i> = 0,5 · 10 · 65/25 = 13 N.\n4. (A componente horizontal, <i>T</i> · 60/65 = 12 N, é a resultante centrípeta.)\nGabarito: C.",
+  "resolucao": "1. O fio (65 cm), o raio da trajetória (60 cm) e a distância vertical entre a mão e o plano da trajetória formam um triângulo retângulo: \\(h = \\sqrt{65^2 - 60^2} = 25\\) cm.\n2. Sobre a esfera atuam o peso e a tração. Como o movimento é num plano horizontal, a componente vertical da tração equilibra o peso: \\(T \\cdot \\dfrac{25}{65} = mg\\).\n3. Com <i>m</i> = 0,5 kg: \\(T = \\dfrac{0,5 \\cdot 10 \\cdot 65}{25} = 13\\) N.\n4. (A componente horizontal, \\(T \\cdot \\dfrac{60}{65} = 12\\) N, é a resultante centrípeta.)\nGabarito: C.",
   "topicos": [
     "resultante-centripeta-curvas-loop-globo-da-morte",
     "vetores-soma-e-decomposicao",
@@ -21,5 +21,5 @@
   ],
   "status": "publicado",
   "criadoEm": "2026-11-01T15:46:22.000Z",
-  "atualizadoEm": "2026-11-01T15:46:22.000Z"
+  "atualizadoEm": "2026-11-13T15:00:00.000Z"
 }

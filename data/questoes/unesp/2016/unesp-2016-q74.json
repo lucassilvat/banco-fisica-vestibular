@@ -15,12 +15,12 @@
   ],
   "gabarito": "D",
   "gabaritoFonte": "oficial",
-  "resolucao": "Questão de Química com conteúdo de Ondulatória.\n1. Comprimento de onda da luz emitida: λ = <i>c</i>/<i>f</i> = 3 × 10<sup>8</sup>/4,8 × 10<sup>14</sup> = 6,25 × 10<sup>−7</sup> m = 625 nm.\n2. No espectro dado, 6,25 × 10<sup>−7</sup> m fica na região do vermelho (perto do extremo de maiores comprimentos de onda).\n3. Pelo esquema do texto, a luz vermelha é emitida pela oxiluciferina na forma ceto.\n4. Na estrutura (forma aniônica, com o grupo O<sup>−</sup> no anel benzênico), contam-se 10 átomos de C, 5 de H (ligados aos anéis), 2 de O, 2 de N e 2 de S: C<sub>10</sub>H<sub>5</sub>O<sub>2</sub>N<sub>2</sub>S<sub>2</sub>. Entre as funções listadas, a presente é a amina (nitrogênio nos anéis); não há éster, álcool nem éter.\nGabarito: D.",
+  "resolucao": "Questão de Química com conteúdo de Ondulatória.\n1. Comprimento de onda da luz emitida: \\(\\lambda = \\dfrac{c}{f} = \\dfrac{3 \\times 10^8}{4,8 \\times 10^{14}} = 6,25 \\times 10^{-7}\\) m = 625 nm.\n2. No espectro dado, 6,25 × 10<sup>−7</sup> m fica na região do vermelho (perto do extremo de maiores comprimentos de onda).\n3. Pelo esquema do texto, a luz vermelha é emitida pela oxiluciferina na forma ceto.\n4. Na estrutura (forma aniônica, com o grupo O<sup>−</sup> no anel benzênico), contam-se 10 átomos de C, 5 de H (ligados aos anéis), 2 de O, 2 de N e 2 de S: C<sub>10</sub>H<sub>5</sub>O<sub>2</sub>N<sub>2</sub>S<sub>2</sub>. Entre as funções listadas, a presente é a amina (nitrogênio nos anéis); não há éster, álcool nem éter.\nGabarito: D.",
   "topicos": [
     "equacao-fundamental-da-ondulatoria-v-f",
     "espectro-eletromagnetico"
   ],
   "status": "publicado",
   "criadoEm": "2026-11-02T14:05:14.000Z",
-  "atualizadoEm": "2026-11-02T14:05:14.000Z"
+  "atualizadoEm": "2026-11-13T15:00:00.000Z"
 }

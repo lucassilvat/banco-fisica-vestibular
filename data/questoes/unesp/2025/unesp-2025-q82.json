@@ -14,7 +14,7 @@
   ],
   "gabarito": "C",
   "gabaritoFonte": "oficial",
-  "resolucao": "1. Os aparelhos estão ligados em paralelo à tensão de 110 V (figura); a potência total é a soma das potências e a corrente total é <i>i</i> = <i>P</i><sub>total</sub>/<i>U</i>.\n2. Potência máxima suportada pelo disjuntor: 110 · 30 = 3 300 W.\n3. TV + ML = 220 + 880 = 1 100 W. Sobram 2 200 W para os demais.\n4. (A) 880 W; (B) 880 + 550 = 1 430 W; (D) 1 430 W; (E) 550 + 1 430 = 1 980 W: todas abaixo de 2 200 W.\n5. (C) 880 + 1 430 = 2 310 W &gt; 2 200 W: total de 3 410 W, corrente de 3 410/110 = 31 A &gt; 30 A. O disjuntor desarma.\nGabarito: C.",
+  "resolucao": "1. Os aparelhos estão ligados em paralelo à tensão de 110 V (figura); a potência total é a soma das potências e a corrente total é \\(i = \\dfrac{P_{\\text{total}}}{U}\\).\n2. Potência máxima suportada pelo disjuntor: 110 · 30 = 3 300 W.\n3. TV + ML = 220 + 880 = 1 100 W. Sobram 2 200 W para os demais.\n4. (A) 880 W; (B) 880 + 550 = 1 430 W; (D) 1 430 W; (E) 550 + 1 430 = 1 980 W: todas abaixo de 2 200 W.\n5. (C) 880 + 1 430 = 2 310 W &gt; 2 200 W: total de 3 410 W, corrente de \\(\\dfrac{3 410}{110} = 31\\) A &gt; 30 A. O disjuntor desarma.\nGabarito: C.",
   "topicos": [
     "instalacoes-eletricas-residenciais-fusiveis-e-disjuntores",
     "potencia-eletrica-e-efeito-joule",
@@ -22,5 +22,5 @@
   ],
   "status": "publicado",
   "criadoEm": "2026-11-01T15:46:34.000Z",
-  "atualizadoEm": "2026-11-01T15:46:34.000Z"
+  "atualizadoEm": "2026-11-13T15:00:00.000Z"
 }

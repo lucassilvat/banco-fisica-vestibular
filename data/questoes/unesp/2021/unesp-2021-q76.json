@@ -13,11 +13,11 @@
   ],
   "gabarito": "D",
   "gabaritoFonte": "oficial",
-  "resolucao": "1. Como 60² + 80² = 100², o triângulo ABC é retângulo em B, e BD é a altura relativa à hipotenusa AC (o ângulo em D é reto, como indica a figura).\n2. Relações métricas: BD = AB · BC/AC = 60 · 80/100 = 48 m; DC = BC²/AC = 80²/100 = 64 m.\n3. Comprimento da volta BCDB: BC + CD + DB = 80 + 64 + 48 = 192 m.\n4. Velocidade escalar média: <i>v</i><sub>m</sub> = Δ<i>s</i>/Δ<i>t</i> = 192/40 = 4,8 m/s.\nGabarito: D.",
+  "resolucao": "1. Como 60² + 80² = 100², o triângulo ABC é retângulo em B, e BD é a altura relativa à hipotenusa AC (o ângulo em D é reto, como indica a figura).\n2. Relações métricas: \\(\\mathrm{BD} = \\dfrac{\\mathrm{AB} \\cdot \\mathrm{BC}}{\\mathrm{AC}} = \\dfrac{60 \\cdot 80}{100} = 48\\) m; \\(\\mathrm{DC} = \\dfrac{\\mathrm{BC}^2}{\\mathrm{AC}} = \\dfrac{80^2}{100} = 64\\) m.\n3. Comprimento da volta BCDB: BC + CD + DB = 80 + 64 + 48 = 192 m.\n4. Velocidade escalar média: \\(v_{\\text{m}} = \\dfrac{\\Delta s}{\\Delta t} = \\dfrac{192}{40} = 4,8\\) m/s.\nGabarito: D.",
   "topicos": [
     "velocidade-media-e-aceleracao-media"
   ],
   "status": "publicado",
   "criadoEm": "2026-11-01T15:46:12.000Z",
-  "atualizadoEm": "2026-11-01T15:46:12.000Z"
+  "atualizadoEm": "2026-11-13T15:00:00.000Z"
 }

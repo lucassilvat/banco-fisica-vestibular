@@ -13,7 +13,7 @@
   ],
   "gabarito": "A",
   "gabaritoFonte": "resolucao-propria",
-  "resolucao": "Questão de Química com conteúdo de Energia e Potência.\n1. Energia gerada pelo parque em 1 h: <i>E</i> = <i>P</i> Δ<i>t</i> = 150 × 10<sup>6</sup> W · 3 600 s = 5,4 × 10<sup>11</sup> J = 5,4 × 10<sup>8</sup> kJ.\n2. Quantidade de metano: 5,4 × 10<sup>8</sup>/9 × 10<sup>2</sup> = 6 × 10<sup>5</sup> mol.\n3. Massa (CH<sub>4</sub>, 16 g/mol): 6 × 10<sup>5</sup> · 16 = 9,6 × 10<sup>6</sup> g ≈ 9,6 t, da ordem de 10 t.\nGabarito: A.",
+  "resolucao": "Questão de Química com conteúdo de Energia e Potência.\n1. Energia gerada pelo parque em 1 h: <i>E</i> = <i>P</i> Δ<i>t</i> = 150 × 10<sup>6</sup> W · 3 600 s = 5,4 × 10<sup>11</sup> J = 5,4 × 10<sup>8</sup> kJ.\n2. Quantidade de metano: \\(\\dfrac{5,4 \\times 10^8}{9 \\times 10^2} = 6 \\times 10^5\\) mol.\n3. Massa (CH<sub>4</sub>, 16 g/mol): 6 × 10<sup>5</sup> · 16 = 9,6 × 10<sup>6</sup> g ≈ 9,6 t, da ordem de 10 t.\nGabarito: A.",
   "topicos": [
     "potencia-e-rendimento",
     "usinas-e-geracao-de-energia-eletrica",
@@ -21,5 +21,5 @@
   ],
   "status": "publicado",
   "criadoEm": "2026-11-02T14:05:40.000Z",
-  "atualizadoEm": "2026-11-02T14:05:40.000Z"
+  "atualizadoEm": "2026-11-13T15:00:00.000Z"
 }

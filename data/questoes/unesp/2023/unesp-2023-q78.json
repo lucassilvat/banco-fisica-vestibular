@@ -13,7 +13,7 @@
   ],
   "gabarito": "E",
   "gabaritoFonte": "resolucao-propria",
-  "resolucao": "1. Velocidade do pacote ao atingir o prato (queda livre de 0,45 m): <i>v</i> = √(2<i>gh</i>) = √(2 · 10 · 0,45) = 3 m/s.\n2. Na colisão, o sistema é isolado: a quantidade de movimento se conserva. Depois da colisão, pacote e prato seguem juntos a 2 m/s.\n3. <i>m</i> · 3 = (<i>m</i> + 0,2) · 2 ⇒ 3<i>m</i> = 2<i>m</i> + 0,4 ⇒ <i>m</i> = 0,4 kg = 400 g.\nGabarito: E.",
+  "resolucao": "1. Velocidade do pacote ao atingir o prato (queda livre de 0,45 m): \\(v = \\sqrt{2gh} = \\sqrt{2 \\cdot 10 \\cdot 0,45} = 3\\) m/s.\n2. Na colisão, o sistema é isolado: a quantidade de movimento se conserva. Depois da colisão, pacote e prato seguem juntos a 2 m/s.\n3. <i>m</i> · 3 = (<i>m</i> + 0,2) · 2 ⇒ 3<i>m</i> = 2<i>m</i> + 0,4 ⇒ <i>m</i> = 0,4 kg = 400 g.\nGabarito: E.",
   "topicos": [
     "conservacao-da-quantidade-de-movimento",
     "colisoes-elasticas-e-inelasticas",
@@ -21,5 +21,5 @@
   ],
   "status": "publicado",
   "criadoEm": "2026-11-01T15:46:25.000Z",
-  "atualizadoEm": "2026-11-01T15:46:25.000Z"
+  "atualizadoEm": "2026-11-13T15:00:00.000Z"
 }

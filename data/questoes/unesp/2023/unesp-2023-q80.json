@@ -19,12 +19,12 @@
   ],
   "gabarito": "C",
   "gabaritoFonte": "resolucao-propria",
-  "resolucao": "1. α é medido em relação à superfície; o ângulo de refração <i>r</i>, medido em relação à normal, vale <i>r</i> = 90° − α. Menor α significa maior <i>r</i>.\n2. Lei de Snell: <i>n</i><sub>ar</sub> sen <i>i</i> = <i>n</i><sub>líq</sub> sen <i>r</i>. Com o mesmo ângulo de incidência, sen <i>r</i> = sen <i>i</i>/<i>n</i><sub>líq</sub> é maior quanto menor for <i>n</i><sub>líq</sub>.\n3. O menor índice da tabela é o da propanona (acetona), <i>n</i> = 1,35.\n4. A propanona é a cetona de três carbonos, H<sub>3</sub>C–CO–CH<sub>3</sub>, com o grupo C=O no carbono central: fórmula da alternativa C. (A é o isopropanol; B, o propanal; D, o ácido propanoico; E, o glicerol.)\nGabarito: C.",
+  "resolucao": "1. α é medido em relação à superfície; o ângulo de refração <i>r</i>, medido em relação à normal, vale <i>r</i> = 90° − α. Menor α significa maior <i>r</i>.\n2. Lei de Snell: <i>n</i><sub>ar</sub> sen <i>i</i> = <i>n</i><sub>líq</sub> sen <i>r</i>. Com o mesmo ângulo de incidência, \\(\\sen r = \\dfrac{\\sen i}{n_{\\text{líq}}}\\) é maior quanto menor for <i>n</i><sub>líq</sub>.\n3. O menor índice da tabela é o da propanona (acetona), <i>n</i> = 1,35.\n4. A propanona é a cetona de três carbonos, H<sub>3</sub>C–CO–CH<sub>3</sub>, com o grupo C=O no carbono central: fórmula da alternativa C. (A é o isopropanol; B, o propanal; D, o ácido propanoico; E, o glicerol.)\nGabarito: C.",
   "topicos": [
     "lei-de-snell-descartes",
     "refracao-da-luz-e-indice-de-refracao"
   ],
   "status": "publicado",
   "criadoEm": "2026-11-01T15:46:25.000Z",
-  "atualizadoEm": "2026-11-01T15:46:25.000Z"
+  "atualizadoEm": "2026-11-13T15:00:00.000Z"
 }

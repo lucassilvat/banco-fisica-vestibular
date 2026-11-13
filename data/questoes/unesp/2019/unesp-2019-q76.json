@@ -7,21 +7,21 @@
   "fonte": {
     "descricao": "Vunesp, Vestibular Unesp 2019, 1ª fase (Prova de Conhecimentos Gerais), caderno de questões"
   },
-  "enunciado": "No interior de uma quantidade de água, as moléculas atraem-se devido às ligações de hidrogênio, de modo que a força resultante sobre cada molécula é nula. Entretanto, na superfície, as moléculas de água estão em contato tanto com outras moléculas de água como com moléculas de gases e vapores presentes no ar. A atração do ar pelas moléculas de água é menor do que a atração das moléculas de água entre si, de modo que a força resultante nas moléculas da superfície não é nula, criando a chamada tensão superficial, que funciona como uma fina membrana elástica na superfície da água.\n\n(www.if.ufrgs.br. Adaptado.)\n\nA intensidade da tensão superficial (σ) é dada pela razão entre a intensidade da força (F⃗) exercida pela superfície do líquido, devido à tensão superficial, e o comprimento (L) da linha ao longo da qual a força atua: σ = F/L.\n\nUma agulha cilíndrica de 5,0 cm de comprimento é colocada deitada, em repouso, sobre a superfície da água contida em um copo, com tensão superficial σ = 0,073 N/m.\n\n[[figura 1]]\n\n(https://slideplayer.com.br)\n\nNesse caso, a agulha ficará sujeita à sua força peso (P⃗) e às forças F⃗<sub>1</sub> e F⃗<sub>2</sub> de mesma intensidade, causadas pela tensão superficial da água, tangentes à seção transversal circular da agulha nos pontos de contato com a água, formando um ângulo θ com a vertical.\n\nSeção transversal circular da agulha\n\n[[figura 2]]\n\nQuando a agulha estiver na iminência de afundar, F⃗<sub>1</sub> e F⃗<sub>2</sub> terão direção vertical. Adotando-se g = 10 m/s<sup>2</sup>, a maior massa que essa agulha pode ter sem que afunde totalmente é\n\n(A) 1,460 g.\n(B) 7,300 g.\n(C) 0,365 g.\n(D) 0,730 g.\n(E) 0,146 g.",
+  "enunciado": "No interior de uma quantidade de água, as moléculas atraem-se devido às ligações de hidrogênio, de modo que a força resultante sobre cada molécula é nula. Entretanto, na superfície, as moléculas de água estão em contato tanto com outras moléculas de água como com moléculas de gases e vapores presentes no ar. A atração do ar pelas moléculas de água é menor do que a atração das moléculas de água entre si, de modo que a força resultante nas moléculas da superfície não é nula, criando a chamada tensão superficial, que funciona como uma fina membrana elástica na superfície da água.\n\n(www.if.ufrgs.br. Adaptado.)\n\nA intensidade da tensão superficial (σ) é dada pela razão entre a intensidade da força (F⃗) exercida pela superfície do líquido, devido à tensão superficial, e o comprimento (L) da linha ao longo da qual a força atua: \\(\\sigma = \\dfrac{\\mathrm{F}}{\\mathrm{L}}\\).\n\nUma agulha cilíndrica de 5,0 cm de comprimento é colocada deitada, em repouso, sobre a superfície da água contida em um copo, com tensão superficial σ = 0,073 N/m.\n\n[[figura 1]]\n\n(https://slideplayer.com.br)\n\nNesse caso, a agulha ficará sujeita à sua força peso (P⃗) e às forças F⃗<sub>1</sub> e F⃗<sub>2</sub> de mesma intensidade, causadas pela tensão superficial da água, tangentes à seção transversal circular da agulha nos pontos de contato com a água, formando um ângulo θ com a vertical.\n\nSeção transversal circular da agulha\n\n[[figura 2]]\n\nQuando a agulha estiver na iminência de afundar, F⃗<sub>1</sub> e F⃗<sub>2</sub> terão direção vertical. Adotando-se g = 10 m/s<sup>2</sup>, a maior massa que essa agulha pode ter sem que afunde totalmente é\n\n(A) 1,460 g.\n(B) 7,300 g.\n(C) 0,365 g.\n(D) 0,730 g.\n(E) 0,146 g.",
   "figuras": [
     "unesp-2019-q76-1.png",
     "unesp-2019-q76-2.png"
   ],
   "gabarito": "D",
   "gabaritoFonte": "resolucao-propria",
-  "resolucao": "1. Cada força de tensão superficial tem intensidade <i>F</i> = σ<i>L</i> = 0,073 · 0,050 = 3,65 × 10<sup>−3</sup> N.\n2. Na iminência de afundar, F⃗<sub>1</sub> e F⃗<sub>2</sub> ficam verticais (para cima) e equilibram o peso máximo: <i>P</i> = 2<i>F</i> = 7,3 × 10<sup>−3</sup> N.\n3. Massa: <i>m</i> = <i>P</i>/<i>g</i> = 7,3 × 10<sup>−4</sup> kg = 0,730 g.\nGabarito: D.",
+  "resolucao": "1. Cada força de tensão superficial tem intensidade <i>F</i> = σ<i>L</i> = 0,073 · 0,050 = 3,65 × 10<sup>−3</sup> N.\n2. Na iminência de afundar, F⃗<sub>1</sub> e F⃗<sub>2</sub> ficam verticais (para cima) e equilibram o peso máximo: <i>P</i> = 2<i>F</i> = 7,3 × 10<sup>−3</sup> N.\n3. Massa: \\(m = \\dfrac{P}{g}\\) = 7,3 × 10<sup>−4</sup> kg = 0,730 g.\nGabarito: D.",
   "topicos": [
     "equilibrio-do-ponto-material",
     "forca-peso-e-forca-normal"
   ],
   "status": "publicado",
   "criadoEm": "2026-11-02T14:05:33.000Z",
-  "atualizadoEm": "2026-11-02T14:05:33.000Z",
+  "atualizadoEm": "2026-11-13T15:00:00.000Z",
   "revisao": {
     "divergenciasAceitas": [
       "σ"

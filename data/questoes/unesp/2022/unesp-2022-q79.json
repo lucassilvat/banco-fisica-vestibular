@@ -13,7 +13,7 @@
   ],
   "gabarito": "E",
   "gabaritoFonte": "resolucao-propria",
-  "resolucao": "1. Calor necessário para aquecer a peça de 20 ºC a 80 ºC: <i>Q</i> = <i>m c</i> Δ<i>θ</i> = 200 · 0,03 · 60 = 360 cal.\n2. Em joules: 360 · 4 = 1 440 J.\n3. Pelo gráfico, a potência absorvida é constante e igual a 2 W: Δ<i>t</i> = <i>Q</i>/<i>P</i> = 1 440/2 = 720 s.\n4. 720 s = 12 min.\nGabarito: E.",
+  "resolucao": "1. Calor necessário para aquecer a peça de 20 ºC a 80 ºC: <i>Q</i> = <i>m c</i> Δ<i>θ</i> = 200 · 0,03 · 60 = 360 cal.\n2. Em joules: 360 · 4 = 1 440 J.\n3. Pelo gráfico, a potência absorvida é constante e igual a 2 W: \\(\\Delta t = \\dfrac{Q}{P} = \\dfrac{1 440}{2} = 720\\) s.\n4. 720 s = 12 min.\nGabarito: E.",
   "topicos": [
     "calor-sensivel-e-capacidade-termica",
     "potencia-e-rendimento",
@@ -21,5 +21,5 @@
   ],
   "status": "publicado",
   "criadoEm": "2026-11-01T15:46:22.000Z",
-  "atualizadoEm": "2026-11-01T15:46:22.000Z"
+  "atualizadoEm": "2026-11-13T15:00:00.000Z"
 }

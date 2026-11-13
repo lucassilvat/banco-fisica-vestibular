@@ -13,7 +13,7 @@
   ],
   "gabarito": "D",
   "gabaritoFonte": "resolucao-propria",
-  "resolucao": "1. No gráfico, entre Q e S (gerador) o potencial sobe de 0 para 80 V; entre T e U (R<sub>1</sub>) cai de 80 V para 30 V; entre X e Y (R<sub>2</sub>) cai de 30 V para 0. Nos fios o potencial não muda.\n2. Os resistores estão em série com o amperímetro: a corrente em ambos é 2 A.\n3. Lei de Ohm: R<sub>1</sub> = U<sub>1</sub>/i = (80 − 30)/2 = 25 Ω; R<sub>2</sub> = U<sub>2</sub>/i = 30/2 = 15 Ω.\nGabarito: D.",
+  "resolucao": "1. No gráfico, entre Q e S (gerador) o potencial sobe de 0 para 80 V; entre T e U (R<sub>1</sub>) cai de 80 V para 30 V; entre X e Y (R<sub>2</sub>) cai de 30 V para 0. Nos fios o potencial não muda.\n2. Os resistores estão em série com o amperímetro: a corrente em ambos é 2 A.\n3. Lei de Ohm: \\(\\mathrm{R}_1 = \\dfrac{\\mathrm{U}_1}{\\mathrm{i}} = \\dfrac{80 - 30}{2} = 25\\) Ω; \\(\\mathrm{R}_2 = \\dfrac{\\mathrm{U}_2}{\\mathrm{i}} = \\dfrac{30}{2} = 15\\) Ω.\nGabarito: D.",
   "topicos": [
     "primeira-lei-de-ohm",
     "associacao-de-resistores",
@@ -21,5 +21,5 @@
   ],
   "status": "publicado",
   "criadoEm": "2026-11-01T15:46:25.000Z",
-  "atualizadoEm": "2026-11-01T15:46:25.000Z"
+  "atualizadoEm": "2026-11-13T15:00:00.000Z"
 }

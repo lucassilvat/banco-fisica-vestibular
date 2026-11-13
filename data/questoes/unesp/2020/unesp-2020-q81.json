@@ -13,7 +13,7 @@
   ],
   "gabarito": "B",
   "gabaritoFonte": "resolucao-propria",
-  "resolucao": "1. <i>E</i> = <i>hf</i> e <i>f</i> = <i>c</i>/λ ⇒ λ = <i>hc</i>/<i>E</i>.\n2. λ = (6,6 × 10<sup>−34</sup> · 3 × 10<sup>8</sup>)/3,96 × 10<sup>−19</sup> = 19,8 × 10<sup>−26</sup>/3,96 × 10<sup>−19</sup> = 5 × 10<sup>−7</sup> m = 500 nm.\n3. Na tabela, 500 nm está entre 495 nm e 570 nm: verde.\nGabarito: B.",
+  "resolucao": "1. \\(E = hf\\) e \\(f = \\dfrac{c}{\\lambda} \\Rightarrow \\lambda = \\dfrac{hc}{E}\\).\n2. \\(\\lambda = \\dfrac{6,6 \\times 10^{-34} \\cdot 3 \\times 10^8}{3,96 \\times 10^{-19}} = \\dfrac{19,8 \\times 10^{-26}}{3,96 \\times 10^{-19}} = 5 \\times 10^{-7}\\) m = 500 nm.\n3. Na tabela, 500 nm está entre 495 nm e 570 nm: verde.\nGabarito: B.",
   "topicos": [
     "fotons-e-energia-do-foton-e-hf",
     "espectro-eletromagnetico",
@@ -21,5 +21,5 @@
   ],
   "status": "publicado",
   "criadoEm": "2026-11-02T14:05:40.000Z",
-  "atualizadoEm": "2026-11-02T14:05:40.000Z"
+  "atualizadoEm": "2026-11-13T15:00:00.000Z"
 }

@@ -13,12 +13,12 @@
   ],
   "gabarito": "A",
   "gabaritoFonte": "oficial",
-  "resolucao": "1. Unidades: lado = 10 cm = 0,1 m; velocidade inicial = 6 m/min = 0,1 m/s.\n2. O primeiro lado leva 0,1/0,1 = 1 s. Como a velocidade dobra a cada lado, os tempos formam uma progressão geométrica de razão 1/2: 1 s, 0,5 s, 0,25 s, ...\n3. 10 voltas = 30 lados. Tempo total: 1 · (1 − (1/2)<sup>30</sup>)/(1 − 1/2) = 2(1 − (1/2)<sup>30</sup>) ≈ 2 s.\nGabarito: A.",
+  "resolucao": "1. Unidades: lado = 10 cm = 0,1 m; velocidade inicial = 6 m/min = 0,1 m/s.\n2. O primeiro lado leva \\(\\dfrac{0,1}{0,1} = 1\\) s. Como a velocidade dobra a cada lado, os tempos formam uma progressão geométrica de razão \\(\\tfrac{1}{2}\\): 1 s, 0,5 s, 0,25 s, ...\n3. 10 voltas = 30 lados. Tempo total: \\(\\dfrac{1 \\cdot \\left(1 - \\left(\\tfrac{1}{2}\\right)^{30}\\right)}{1 - \\tfrac{1}{2}} = 2\\left(1 - \\left(\\tfrac{1}{2}\\right)^{30}\\right) \\approx 2\\) s.\nGabarito: A.",
   "topicos": [
     "movimento-retilineo-uniforme-mru",
     "grandezas-fisicas-e-sistema-internacional"
   ],
   "status": "publicado",
   "criadoEm": "2026-11-01T15:46:34.000Z",
-  "atualizadoEm": "2026-11-01T15:46:34.000Z"
+  "atualizadoEm": "2026-11-13T15:00:00.000Z"
 }

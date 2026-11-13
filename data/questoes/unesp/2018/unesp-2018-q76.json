@@ -11,11 +11,11 @@
   "figuras": [],
   "gabarito": "D",
   "gabaritoFonte": "resolucao-propria",
-  "resolucao": "1. Velocidade média habitual: 5,0 km/0,5 h = 10 km/h.\n2. Reduzida em 40%: 10 · 0,6 = 6 km/h.\n3. Tempo para 15 km: 15/6 = 2,5 h = 2h30min.\nGabarito: D.",
+  "resolucao": "1. Velocidade média habitual: \\(\\dfrac{5,0\\ \\text{km}}{0,5\\ \\text{h}} = 10\\) km/h.\n2. Reduzida em 40%: 10 · 0,6 = 6 km/h.\n3. Tempo para 15 km: \\(\\dfrac{15}{6} = 2,5\\) h = 2h30min.\nGabarito: D.",
   "topicos": [
     "velocidade-media-e-aceleracao-media"
   ],
   "status": "publicado",
   "criadoEm": "2026-11-02T14:05:28.000Z",
-  "atualizadoEm": "2026-11-02T14:05:28.000Z"
+  "atualizadoEm": "2026-11-13T15:00:00.000Z"
 }

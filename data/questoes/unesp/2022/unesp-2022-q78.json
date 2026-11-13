@@ -13,12 +13,12 @@
   ],
   "gabarito": "C",
   "gabaritoFonte": "resolucao-propria",
-  "resolucao": "1. Sem atrito e sem resistência do ar, a energia mecânica se conserva do ponto 1 (repouso, a 1,8 m do solo) ao ponto 3 (a 1,6 m do solo).\n2. No ponto mais alto da trajetória parabólica, a componente vertical da velocidade é nula: a velocidade é só horizontal, <i>v</i><sub>x</sub>.\n3. <i>mg</i> · 1,8 = <i>mg</i> · 1,6 + <i>m</i><i>v</i><sub>x</sub>²/2 ⇒ <i>v</i><sub>x</sub>² = 2 · 10 · 0,2 = 4 ⇒ <i>v</i><sub>x</sub> = 2,0 m/s.\nGabarito: C.",
+  "resolucao": "1. Sem atrito e sem resistência do ar, a energia mecânica se conserva do ponto 1 (repouso, a 1,8 m do solo) ao ponto 3 (a 1,6 m do solo).\n2. No ponto mais alto da trajetória parabólica, a componente vertical da velocidade é nula: a velocidade é só horizontal, <i>v</i><sub>x</sub>.\n3. \\(mg \\cdot 1,8 = mg \\cdot 1,6 + \\dfrac{m v_x^2}{2} \\Rightarrow v_x^2 = 2 \\cdot 10 \\cdot 0,2 = 4 \\Rightarrow v_x = 2,0\\) m/s.\nGabarito: C.",
   "topicos": [
     "conservacao-da-energia-mecanica",
     "lancamento-obliquo"
   ],
   "status": "publicado",
   "criadoEm": "2026-11-01T15:46:22.000Z",
-  "atualizadoEm": "2026-11-01T15:46:22.000Z"
+  "atualizadoEm": "2026-11-13T15:00:00.000Z"
 }

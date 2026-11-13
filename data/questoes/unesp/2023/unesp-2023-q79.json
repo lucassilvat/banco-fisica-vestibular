@@ -13,7 +13,7 @@
   ],
   "gabarito": "B",
   "gabaritoFonte": "resolucao-propria",
-  "resolucao": "1. No gráfico, para L = 1 m = 100 cm, a frequência é f = 1 passo/s.\n2. Cada passo desloca a pessoa 0,9 m; logo, <i>v</i> = 0,9 m/passo · 1 passo/s = 0,9 m/s.\n3. Energia cinética: <i>E</i><sub>c</sub> = <i>mv</i>²/2 = 80 · 0,81/2 = 32,4 J.\nGabarito: B.",
+  "resolucao": "1. No gráfico, para L = 1 m = 100 cm, a frequência é f = 1 passo/s.\n2. Cada passo desloca a pessoa 0,9 m; logo, <i>v</i> = 0,9 m/passo · 1 passo/s = 0,9 m/s.\n3. Energia cinética: \\(E_{\\text{c}} = \\dfrac{m v^2}{2} = \\dfrac{80 \\cdot 0,81}{2} = 32,4\\) J.\nGabarito: B.",
   "topicos": [
     "energia-cinetica-e-teorema-trabalho-energia",
     "periodo-frequencia-e-velocidade-angular",
@@ -21,5 +21,5 @@
   ],
   "status": "publicado",
   "criadoEm": "2026-11-01T15:46:25.000Z",
-  "atualizadoEm": "2026-11-01T15:46:25.000Z"
+  "atualizadoEm": "2026-11-13T15:00:00.000Z"
 }

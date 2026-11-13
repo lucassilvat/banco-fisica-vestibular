@@ -7,20 +7,20 @@
   "fonte": {
     "descricao": "Vunesp, Vestibular Unesp 2022, 1ª fase (Prova de Conhecimentos Gerais, cursos da área de Biológicas), caderno de questões"
   },
-  "enunciado": "Quando uma onda se propaga por águas rasas, isto é, onde a profundidade é menor do que metade do comprimento da onda, sua velocidade de propagação pode ser calculada com a expressão v = √(g × h), em que g é a aceleração da gravidade local e h a profundidade das águas na região. Dessa forma, se uma onda passar de uma região com certa profundidade para outra com profundidade diferente, ela sofrerá variação em sua velocidade de propagação, o que caracteriza o fenômeno de refração dessa onda. A figura mostra uma mesma onda propagando-se por uma região de profundidade h<sub>1</sub> = 3,6 m com comprimento de onda λ<sub>1</sub> = 12 m e, em seguida, propagando-se por uma região de profundidade h<sub>2</sub> = 0,9 m com comprimento de onda λ<sub>2</sub>.\n\n[[figura 1]]\n\nNa situação apresentada, o comprimento de onda λ<sub>2</sub> é\n\n(A) 6 m.\n(B) 2 m.\n(C) 8 m.\n(D) 1 m.\n(E) 4 m.",
+  "enunciado": "Quando uma onda se propaga por águas rasas, isto é, onde a profundidade é menor do que metade do comprimento da onda, sua velocidade de propagação pode ser calculada com a expressão \\(\\mathrm{v} = \\sqrt{\\mathrm{g} \\times \\mathrm{h}}\\), em que g é a aceleração da gravidade local e h a profundidade das águas na região. Dessa forma, se uma onda passar de uma região com certa profundidade para outra com profundidade diferente, ela sofrerá variação em sua velocidade de propagação, o que caracteriza o fenômeno de refração dessa onda. A figura mostra uma mesma onda propagando-se por uma região de profundidade h<sub>1</sub> = 3,6 m com comprimento de onda λ<sub>1</sub> = 12 m e, em seguida, propagando-se por uma região de profundidade h<sub>2</sub> = 0,9 m com comprimento de onda λ<sub>2</sub>.\n\n[[figura 1]]\n\nNa situação apresentada, o comprimento de onda λ<sub>2</sub> é\n\n(A) 6 m.\n(B) 2 m.\n(C) 8 m.\n(D) 1 m.\n(E) 4 m.",
   "figuras": [
     "unesp-2022-q81-1.png"
   ],
   "gabarito": "A",
   "gabaritoFonte": "resolucao-propria",
-  "resolucao": "1. Na refração, a frequência da onda não muda (é imposta pela fonte).\n2. Velocidades: v<sub>1</sub> = √(g · 3,6) e v<sub>2</sub> = √(g · 0,9); a razão é v<sub>2</sub>/v<sub>1</sub> = √(0,9/3,6) = √(1/4) = 1/2.\n3. Como v = λf com f constante, λ é proporcional a v: λ<sub>2</sub> = λ<sub>1</sub> · v<sub>2</sub>/v<sub>1</sub> = 12 · 1/2 = 6 m.\nGabarito: A.",
+  "resolucao": "1. Na refração, a frequência da onda não muda (é imposta pela fonte).\n2. Velocidades: \\(\\mathrm{v}_1 = \\sqrt{\\mathrm{g} \\cdot 3,6}\\) e \\(\\mathrm{v}_2 = \\sqrt{\\mathrm{g} \\cdot 0,9}\\); a razão é \\(\\dfrac{\\mathrm{v}_2}{\\mathrm{v}_1} = \\sqrt{\\dfrac{0,9}{3,6}} = \\sqrt{\\dfrac{1}{4}} = \\dfrac{1}{2}\\).\n3. Como v = λf com f constante, λ é proporcional a v: \\(\\lambda_2 = \\lambda_1 \\cdot \\dfrac{\\mathrm{v}_2}{\\mathrm{v}_1} = 12 \\cdot \\dfrac{1}{2} = 6\\) m.\nGabarito: A.",
   "topicos": [
     "reflexao-e-refracao-de-ondas",
     "equacao-fundamental-da-ondulatoria-v-f"
   ],
   "status": "publicado",
   "criadoEm": "2026-11-01T15:46:22.000Z",
-  "atualizadoEm": "2026-11-01T15:46:22.000Z",
+  "atualizadoEm": "2026-11-13T15:00:00.000Z",
   "revisao": {
     "divergenciasAceitas": [
       "gravidade"
