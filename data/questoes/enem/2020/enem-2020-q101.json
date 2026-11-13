@@ -11,14 +11,14 @@
   "figuras": [],
   "gabarito": "C",
   "gabaritoFonte": "resolucao-propria",
-  "resolucao": "1. O aquecedor de 50 W compensa exatamente a perda de calor: o aquário perde 50 J por segundo. Em 1 h: <i>Q</i> = 50 · 3 600 = 180 000 J.\n2. Massa de água: 50 L × 1 kg/L = 50 kg.\n3. <i>Q</i> = <i>mc</i>Δθ ⇒ Δθ = 180 000/(50 · 4 000) = 0,9 °C.\nGabarito: C.",
+  "resolucao": "1. O aquecedor de 50 W compensa exatamente a perda de calor: o aquário perde 50 J por segundo. Em 1 h: <i>Q</i> = 50 · 3 600 = 180 000 J.\n2. Massa de água: 50 L × 1 kg/L = 50 kg.\n3. <i>Q</i> = <i>mc</i>Δθ ⇒ \\(\\Delta\\theta = \\dfrac{180 000}{50 \\cdot 4 000} = 0,9\\) °C.\nGabarito: C.",
   "topicos": [
     "calor-sensivel-e-capacidade-termica",
     "potencia-e-rendimento"
   ],
   "status": "publicado",
   "criadoEm": "2026-11-08T23:09:55.000Z",
-  "atualizadoEm": "2026-11-08T23:14:09.000Z",
+  "atualizadoEm": "2026-11-13T15:00:00.000Z",
   "revisao": {
     "notas": "Gabarito da resolução própria; não foi possível conferir com um gabarito publicado do caderno amarelo nesta sessão. Trocar para 'oficial' quando houver o PDF do INEP (2020_GB_impresso_D2_CD5.pdf). A única anulação de Ciências da Natureza no caderno amarelo (Q114) não é de Física."
   }

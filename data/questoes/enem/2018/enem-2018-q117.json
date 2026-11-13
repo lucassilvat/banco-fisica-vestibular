@@ -7,18 +7,18 @@
   "fonte": {
     "descricao": "INEP, ENEM 2018, 2º dia (Ciências da Natureza e Matemática), caderno de questões aplicado, Caderno 5 Amarelo"
   },
-  "enunciado": "O sonorizador é um dispositivo físico implantado sobre a superfície de uma rodovia de modo que provoque uma trepidação e ruído quando da passagem de um veículo sobre ele, alertando para uma situação atípica à frente, como obras, pedágios ou travessia de pedestres. Ao passar sobre os sonorizadores, a suspensão do veículo sofre vibrações que produzem ondas sonoras, resultando em um barulho peculiar. Considere um veículo que passe com velocidade constante igual a 108 km/h sobre um sonorizador cujas faixas são separadas por uma distância de 8 cm.\n\nDisponível em: www.denatran.gov.br. Acesso em: 2 set. 2015 (adaptado).\n\nA frequência da vibração do automóvel percebida pelo condutor durante a passagem nesse sonorizador é mais próxima de\n\n(A) 8,6 hertz.\n(B) 13,5 hertz.\n(C) 375 hertz.\n(D) 1 350 hertz.\n(E) 4 860 hertz.",
+  "enunciado": "O sonorizador é um dispositivo físico implantado sobre a superfície de uma rodovia de modo que provoque uma trepidação e ruído quando da passagem de um veículo sobre ele, alertando para uma situação atípica à frente, como obras, pedágios ou travessia de pedestres. Ao passar sobre os sonorizadores, a suspensão do veículo sofre vibrações que produzem ondas sonoras, resultando em um barulho peculiar. Considere um veículo que passe com velocidade constante igual a \\(108\\,\\dfrac{\\text{km}}{\\text{h}}\\) sobre um sonorizador cujas faixas são separadas por uma distância de 8 cm.\n\nDisponível em: www.denatran.gov.br. Acesso em: 2 set. 2015 (adaptado).\n\nA frequência da vibração do automóvel percebida pelo condutor durante a passagem nesse sonorizador é mais próxima de\n\n(A) 8,6 hertz.\n(B) 13,5 hertz.\n(C) 375 hertz.\n(D) 1 350 hertz.\n(E) 4 860 hertz.",
   "figuras": [],
   "gabarito": "C",
   "gabaritoFonte": "resolucao-propria",
-  "resolucao": "1. Velocidade: 108 km/h = 30 m/s.\n2. O carro recebe um \"solavanco\" a cada faixa, ou seja, a cada 8 cm = 0,08 m. O intervalo entre faixas é <i>T</i> = 0,08/30 s.\n3. Frequência: <i>f</i> = 1/<i>T</i> = 30/0,08 = 375 Hz.\nGabarito: C.",
+  "resolucao": "1. Velocidade: 108 km/h = 30 m/s.\n2. O carro recebe um \"solavanco\" a cada faixa, ou seja, a cada 8 cm = 0,08 m. O intervalo entre faixas é \\(T = \\dfrac{0,08}{30}\\) s.\n3. Frequência: \\(f = \\dfrac{1}{T} = \\dfrac{30}{0,08} = 375\\) Hz.\nGabarito: C.",
   "topicos": [
     "periodo-frequencia-e-velocidade-angular",
     "movimento-retilineo-uniforme-mru"
   ],
   "status": "publicado",
   "criadoEm": "2026-11-08T23:23:18.000Z",
-  "atualizadoEm": "2026-11-08T23:26:35.000Z",
+  "atualizadoEm": "2026-11-13T15:00:00.000Z",
   "revisao": {
     "notas": "Gabarito da resolução própria; confere com o gabarito oficial do caderno amarelo reproduzido pelo Guia da Carreira. Trocar para 'oficial' quando houver o PDF do INEP (2018_GB_impresso_D2_CD5.pdf). Camada de texto do caderno por OCR: fidelidade conferida pela imagem."
   }

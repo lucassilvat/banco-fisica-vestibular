@@ -11,14 +11,14 @@
   "figuras": [],
   "gabarito": "B",
   "gabaritoFonte": "resolucao-propria",
-  "resolucao": "1. Carro: 480/100 = 4,8 h = 288 min em movimento, mais 10 · 3 = 30 min nas cabines, num total de 318 min.\n2. Caminhão (cobrança automática, sem paradas): 480/80 = 6 h = 360 min.\n3. Diferença: 360 − 318 = 42 min a menos para o carro.\nGabarito: B.",
+  "resolucao": "1. Carro: \\(\\dfrac{480}{100} = 4,8\\) h = 288 min em movimento, mais 10 · 3 = 30 min nas cabines, num total de 318 min.\n2. Caminhão (cobrança automática, sem paradas): \\(\\dfrac{480}{80} = 6\\) h = 360 min.\n3. Diferença: 360 − 318 = 42 min a menos para o carro.\nGabarito: B.",
   "topicos": [
     "movimento-retilineo-uniforme-mru",
     "velocidade-media-e-aceleracao-media"
   ],
   "status": "publicado",
   "criadoEm": "2026-11-08T22:47:12.000Z",
-  "atualizadoEm": "2026-11-08T22:50:32.000Z",
+  "atualizadoEm": "2026-11-13T15:00:00.000Z",
   "revisao": {
     "notas": "Gabarito da resolução própria; confere com o gabarito do caderno amarelo publicado pela Estratégia Vestibulares. Trocar para 'oficial' quando houver o PDF do INEP (2023_GB_impresso_D2_CD5.pdf)."
   }

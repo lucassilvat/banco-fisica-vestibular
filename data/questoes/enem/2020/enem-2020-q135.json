@@ -13,14 +13,14 @@
   ],
   "gabarito": "C",
   "gabaritoFonte": "resolucao-propria",
-  "resolucao": "1. Com o mesmo material (mesma densidade), a massa é proporcional ao volume, que escala com o cubo das dimensões: M<sub>torre</sub>/M<sub>modelo</sub> = 100<sup>3</sup> = 10<sup>6</sup>.\n2. A área de apoio escala com o quadrado das dimensões: <i>A</i><sub>torre</sub>/<i>A</i><sub>modelo</sub> = 100<sup>2</sup> = 10<sup>4</sup>.\n3. Pressão = peso/área: P<sub>torre</sub>/P<sub>modelo</sub> = 10<sup>6</sup>/10<sup>4</sup> = 10<sup>2</sup>.\nGabarito: C.",
+  "resolucao": "1. Com o mesmo material (mesma densidade), a massa é proporcional ao volume, que escala com o cubo das dimensões: \\(\\dfrac{\\mathrm{M}_{\\text{torre}}}{\\mathrm{M}_{\\text{modelo}}} = 100^3 = 10^6\\).\n2. A área de apoio escala com o quadrado das dimensões: \\(\\dfrac{A_{\\text{torre}}}{A_{\\text{modelo}}} = 100^2 = 10^4\\).\n3. Pressão = peso/área: \\(\\dfrac{\\mathrm{P}_{\\text{torre}}}{\\mathrm{P}_{\\text{modelo}}} = \\dfrac{10^6}{10^4} = 10^2\\).\nGabarito: C.",
   "topicos": [
     "pressao",
     "densidade-e-massa-especifica"
   ],
   "status": "publicado",
   "criadoEm": "2026-11-08T23:09:55.000Z",
-  "atualizadoEm": "2026-11-08T23:14:09.000Z",
+  "atualizadoEm": "2026-11-13T15:00:00.000Z",
   "revisao": {
     "notas": "Gabarito da resolução própria; não foi possível conferir com um gabarito publicado do caderno amarelo nesta sessão. Trocar para 'oficial' quando houver o PDF do INEP (2020_GB_impresso_D2_CD5.pdf). A única anulação de Ciências da Natureza no caderno amarelo (Q114) não é de Física. 'Eiffel' aparece no PDF com a ligadura 'ﬀ'.",
     "divergenciasAceitas": [

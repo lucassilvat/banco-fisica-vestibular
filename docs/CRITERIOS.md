@@ -55,7 +55,9 @@ Não se usa `$...$`, porque o banco tem "R$".
   índice que é palavra fica reto (`R_{\text{eq}}`, `F_{\text{res}}`); índice que é letra
   segue a prova (`U_b`); unidade fica fora da fórmula (`\(... = 0,5\) A`); módulo com
   `\left|a\right|`; `\dfrac` para frações; `\sen` para seno. Variável que o caderno
-  imprime reta (padrão da Unesp) vai com `\mathrm{...}`, para não virar itálico.
+  imprime reta (padrão da Unesp) vai com `\mathrm{...}`, para não virar itálico; reta e em
+  negrito (ENEM), com `\mathbf{...}`. Unidade que o caderno imprime empilhada (`km` sobre
+  `h`) também vai empilhada: `\(108\,\dfrac{\text{km}}{\text{h}}\)`.
 - **Comandos aceitos:** `\frac \dfrac \tfrac \sqrt \sqrt[n] \vec \boldsymbol \text \mathrm \left \right`,
   letras gregas (`\Delta`, `\rho`...), `\cdot \times \approx \neq \leq \geq \Rightarrow \to
   \propto \pm \infty \circ`, `\sen \cos \tg \log \ln`, espaços `\, \; \quad`; índices `_` e `^`.

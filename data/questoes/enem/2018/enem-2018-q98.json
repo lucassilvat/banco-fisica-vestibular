@@ -13,7 +13,7 @@
   ],
   "gabarito": "B",
   "gabaritoFonte": "resolucao-propria",
-  "resolucao": "1. Sem atrito, a energia potencial elástica vira energia cinética: <i>kx</i><sup>2</sup>/2 = <i>mv</i><sup>2</sup>/2 ⇒ <i>v</i> = <i>x</i>√(<i>k</i>/<i>m</i>).\n2. A velocidade é proporcional à deformação <i>x</i>: para quadruplicar <i>v</i> com a mesma mola, basta quadruplicar <i>x</i>.\n3. Mantendo <i>x</i>, seria preciso uma constante elástica 16 vezes maior (<i>v</i> ∝ √<i>k</i>), o que não aparece nas alternativas.\nGabarito: B.",
+  "resolucao": "1. Sem atrito, a energia potencial elástica vira energia cinética: \\(\\dfrac{kx^2}{2} = \\dfrac{mv^2}{2} \\Rightarrow v = x\\sqrt{\\dfrac{k}{m}}\\).\n2. A velocidade é proporcional à deformação <i>x</i>: para quadruplicar <i>v</i> com a mesma mola, basta quadruplicar <i>x</i>.\n3. Mantendo <i>x</i>, seria preciso uma constante elástica 16 vezes maior (\\(v \\propto \\sqrt{k}\\)), o que não aparece nas alternativas.\nGabarito: B.",
   "topicos": [
     "energia-potencial-elastica",
     "conservacao-da-energia-mecanica",
@@ -21,7 +21,7 @@
   ],
   "status": "publicado",
   "criadoEm": "2026-11-08T23:23:18.000Z",
-  "atualizadoEm": "2026-11-08T23:26:35.000Z",
+  "atualizadoEm": "2026-11-13T15:00:00.000Z",
   "revisao": {
     "notas": "Gabarito da resolução própria; confere com o gabarito oficial do caderno amarelo reproduzido pelo Guia da Carreira. Trocar para 'oficial' quando houver o PDF do INEP (2018_GB_impresso_D2_CD5.pdf). Camada de texto do caderno por OCR: fidelidade conferida pela imagem."
   }

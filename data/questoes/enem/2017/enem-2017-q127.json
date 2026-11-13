@@ -11,7 +11,7 @@
   "figuras": [],
   "gabarito": "A",
   "gabaritoFonte": "resolucao-propria",
-  "resolucao": "1. Tensão máxima do gerador: <i>V</i> = <i>NBA</i> · 2π<i>f</i>. Corrente de curto-circuito: <i>i</i> = <i>V</i>/<i>R</i>, em que <i>R</i> é a resistência do próprio fio.\n2. Dobrando <i>N</i>: <i>V</i> dobra, e o comprimento do fio (e sua resistência, <i>R</i> = ρ<i>L</i>/<i>A</i><sub>fio</sub>) também dobra. Assim <i>i</i> = <i>V</i>/<i>R</i> não muda.\n3. Dobrar <i>f</i> ou <i>B</i> dobra <i>V</i> sem mudar <i>R</i> (a corrente dobraria); dobrar a área das espiras aumenta o fio por um fator √2 só; dobrar o diâmetro do fio não altera <i>V</i>.\nGabarito: A.",
+  "resolucao": "1. Tensão máxima do gerador: <i>V</i> = <i>NBA</i> · 2π<i>f</i>. Corrente de curto-circuito: \\(i = \\dfrac{V}{R}\\), em que <i>R</i> é a resistência do próprio fio.\n2. Dobrando <i>N</i>: <i>V</i> dobra, e o comprimento do fio (e sua resistência, \\(R = \\dfrac{\\rho L}{A_{\\text{fio}}}\\)) também dobra. Assim \\(i = \\dfrac{V}{R}\\) não muda.\n3. Dobrar <i>f</i> ou <i>B</i> dobra <i>V</i> sem mudar <i>R</i> (a corrente dobraria); dobrar a área das espiras aumenta o fio por um fator \\(\\sqrt{2}\\) só; dobrar o diâmetro do fio não altera <i>V</i>.\nGabarito: A.",
   "topicos": [
     "inducao-eletromagnetica-lei-de-faraday",
     "geradores-e-motores-eletricos",
@@ -19,7 +19,7 @@
   ],
   "status": "publicado",
   "criadoEm": "2026-11-08T23:30:12.000Z",
-  "atualizadoEm": "2026-11-08T23:33:00.000Z",
+  "atualizadoEm": "2026-11-13T15:00:00.000Z",
   "revisao": {
     "notas": "Gabarito da resolução própria; não foi encontrado um gabarito do caderno amarelo acessível nesta sessão. Q97 confere com a questão correspondente do caderno azul (Descomplica). Trocar para 'oficial' quando houver o PDF do INEP (2017_GB_impresso_D2_CD5.pdf)."
   }

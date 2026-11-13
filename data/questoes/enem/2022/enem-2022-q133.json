@@ -11,7 +11,7 @@
   "figuras": [],
   "gabarito": "A",
   "gabaritoFonte": "resolucao-propria",
-  "resolucao": "1. Resistência da lâmpada: <i>R</i> = <i>U</i><sup>2</sup>/<i>P</i> = 4,5<sup>2</sup>/4,5 = 4,5 Ω.\n2. Com uma pilha invertida, sua f.e.m. se opõe às outras: ε<sub>total</sub> = 1,5 + 1,5 − 1,5 = 1,5 V. As resistências internas continuam em série: 3 · 0,5 = 1,5 Ω.\n3. Corrente: <i>i</i> = 1,5/(4,5 + 1,5) = 1,5/6 = 0,25 A.\nGabarito: A.",
+  "resolucao": "1. Resistência da lâmpada: \\(R = \\dfrac{U^2}{P} = \\dfrac{4,5^2}{4,5} = 4,5\\) Ω.\n2. Com uma pilha invertida, sua f.e.m. se opõe às outras: ε<sub>total</sub> = 1,5 + 1,5 − 1,5 = 1,5 V. As resistências internas continuam em série: 3 · 0,5 = 1,5 Ω.\n3. Corrente: \\(i = \\dfrac{1,5}{4,5 + 1,5} = \\dfrac{1,5}{6} = 0,25\\) A.\nGabarito: A.",
   "topicos": [
     "geradores-eletricos-fem-e-resistencia-interna",
     "primeira-lei-de-ohm",
@@ -19,7 +19,7 @@
   ],
   "status": "publicado",
   "criadoEm": "2026-11-08T22:54:03.000Z",
-  "atualizadoEm": "2026-11-08T22:57:26.000Z",
+  "atualizadoEm": "2026-11-13T15:00:00.000Z",
   "revisao": {
     "notas": "Gabarito da resolução própria; confere com o gabarito do caderno amarelo publicado pela Estratégia Vestibulares. Trocar para 'oficial' quando houver o PDF do INEP (2022_GB_impresso_D2_CD5.pdf). Camada de texto do caderno parcialmente cifrada: fidelidade conferida pela imagem e pelo OCR."
   }

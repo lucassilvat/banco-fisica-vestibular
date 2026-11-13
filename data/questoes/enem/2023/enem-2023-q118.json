@@ -11,13 +11,13 @@
   "figuras": [],
   "gabarito": "A",
   "gabaritoFonte": "resolucao-propria",
-  "resolucao": "1. As duas latas têm praticamente o mesmo volume e os mesmos componentes, exceto o açúcar. O comum tem uma grande massa de açúcar dissolvida, e o diet só uma pequena massa de adoçante.\n2. Com mais massa no mesmo volume, o refrigerante comum tem maior densidade (<i>d</i> = <i>m</i>/<i>V</i>). É o que faz a lata de refrigerante comum afundar na água e a diet flutuar.\n3. Mais soluto torna a solução mais viscosa (elimina B) e baixa a temperatura de congelamento (elimina E); a massa de solutos é maior, não menor (elimina D); o gás dissolvido é o mesmo (elimina C).\nGabarito: A.",
+  "resolucao": "1. As duas latas têm praticamente o mesmo volume e os mesmos componentes, exceto o açúcar. O comum tem uma grande massa de açúcar dissolvida, e o diet só uma pequena massa de adoçante.\n2. Com mais massa no mesmo volume, o refrigerante comum tem maior densidade (\\(d = \\dfrac{m}{V}\\)). É o que faz a lata de refrigerante comum afundar na água e a diet flutuar.\n3. Mais soluto torna a solução mais viscosa (elimina B) e baixa a temperatura de congelamento (elimina E); a massa de solutos é maior, não menor (elimina D); o gás dissolvido é o mesmo (elimina C).\nGabarito: A.",
   "topicos": [
     "densidade-e-massa-especifica"
   ],
   "status": "publicado",
   "criadoEm": "2026-11-08T22:47:12.000Z",
-  "atualizadoEm": "2026-11-08T22:50:32.000Z",
+  "atualizadoEm": "2026-11-13T15:00:00.000Z",
   "revisao": {
     "notas": "Gabarito da resolução própria; confere com o gabarito do caderno amarelo publicado pela Estratégia Vestibulares. Trocar para 'oficial' quando houver o PDF do INEP (2023_GB_impresso_D2_CD5.pdf)."
   }

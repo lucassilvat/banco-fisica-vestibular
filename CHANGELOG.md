@@ -4,6 +4,23 @@ Cada versão corresponde a um lote de importação ou a uma mudança no app/pipe
 Formato: `vMAIOR.MENOR.CORREÇÃO` — MENOR sobe a cada prova importada; MAIOR, em mudanças
 de modelo de dados; CORREÇÃO, em correções de questões já publicadas.
 
+## v2.5.0 — 2026-11-13
+
+- **Fórmulas no ENEM 2017–2025.** Os 9 cadernos (2º dia, caderno 5 amarelo) enviados pelo
+  Lucas conferem com o sha256 do manifesto; as 135 questões passam na fidelidade sem aviso
+  (2018, 2021 e 2022 pelo texto de OCR).
+- **Enunciados:** 13 têm fração empilhada no caderno e passaram a LaTeX: 2017 Q134 (todas as
+  alternativas); 2018 Q117 (km/h); 2019 Q97 (1/3), Q109 (todas as alternativas) e Q122
+  (k<sub>A</sub>/k<sub>B</sub>); 2021 Q126 (as duas fórmulas da condução e os dois ½); 2022 Q95 (m/s),
+  Q111 (J/g°C e g/L), Q124 (W/m²) e Q126 (m/s²); 2023 Q93 (W/m²) e Q102 (M<sub>2</sub>/M<sub>1</sub>,
+  ¼ e ½); 2025 Q115 (fórmula do nível sonoro). Unidades que o caderno imprime empilhadas
+  também ficam empilhadas; as que imprime em linha continuam com barra (ex.: 2020 Q135,
+  (P<sub>torre</sub>)/(P<sub>modelo</sub>)).
+- **Resoluções:** 61 questões com frações, raízes e equações em LaTeX, mesmo conteúdo.
+- **Conversor de fórmulas:** `\mathbf{...}` para letra reta em negrito (o ENEM imprime
+  assim M<sub>1</sub>, M<sub>2</sub> e os índices A e B). No app o negrito vem do CSS; no .docx, do
+  estilo da equação (o LibreOffice mostra essas letras em itálico; o Word, em negrito reto).
+
 ## v2.4.0 — 2026-11-13
 
 - **Fórmulas na Unesp 2016–2026.** Os 11 PDFs enviados pelo Lucas conferem com o sha256 do

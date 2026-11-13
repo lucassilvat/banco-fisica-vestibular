@@ -13,7 +13,7 @@
   ],
   "gabarito": "B",
   "gabaritoFonte": "resolucao-propria",
-  "resolucao": "1. A corrente (30 m/min) é paralela aos lados curtos (2–3 e 4–1, de 400 m) e perpendicular aos lados longos (1–2 e 3–4, de 800 m).\n2. Lados longos: o nadador inclina sua velocidade (50 m/min em relação à água) para anular a corrente. A componente que compensa a corrente vale 30 m/min, e a componente útil, ao longo do lado, vale √(50² − 30²) = 40 m/min. Tempo em cada lado: 800/40 = 20 min; nos dois, 40 min.\n3. Lado 2 → 3, contra a corrente: 50 − 30 = 20 m/min, então 400/20 = 20 min.\n4. Lado 4 → 1, a favor da corrente: 50 + 30 = 80 m/min, então 400/80 = 5 min.\n5. Total: 40 + 20 + 5 = 65 min.\nGabarito: B.",
+  "resolucao": "1. A corrente (30 m/min) é paralela aos lados curtos (2–3 e 4–1, de 400 m) e perpendicular aos lados longos (1–2 e 3–4, de 800 m).\n2. Lados longos: o nadador inclina sua velocidade (50 m/min em relação à água) para anular a corrente. A componente que compensa a corrente vale 30 m/min, e a componente útil, ao longo do lado, vale \\(\\sqrt{50^2 - 30^2} = 40\\) m/min. Tempo em cada lado: \\(\\dfrac{800}{40} = 20\\) min; nos dois, 40 min.\n3. Lado 2 → 3, contra a corrente: 50 − 30 = 20 m/min, então \\(\\dfrac{400}{20} = 20\\) min.\n4. Lado 4 → 1, a favor da corrente: 50 + 30 = 80 m/min, então \\(\\dfrac{400}{80} = 5\\) min.\n5. Total: 40 + 20 + 5 = 65 min.\nGabarito: B.",
   "topicos": [
     "movimento-relativo-e-composicao-de-velocidades",
     "vetores-soma-e-decomposicao",
@@ -21,7 +21,7 @@
   ],
   "status": "publicado",
   "criadoEm": "2026-11-08T22:33:14.000Z",
-  "atualizadoEm": "2026-11-08T22:36:47.000Z",
+  "atualizadoEm": "2026-11-13T15:00:00.000Z",
   "revisao": {
     "notas": "Gabarito da resolução própria; confere com o gabarito do caderno amarelo publicado pela Estratégia Vestibulares, que incorpora as retificações do gabarito oficial do INEP. Trocar para 'oficial' quando houver o PDF do INEP (2024_GB_impresso_D2_CD5.pdf)."
   }

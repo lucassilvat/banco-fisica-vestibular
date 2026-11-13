@@ -11,7 +11,7 @@
   "figuras": [],
   "gabarito": "E",
   "gabaritoFonte": "resolucao-propria",
-  "resolucao": "1. Pela lei da gravitação universal, a força sobre um planeta depende só da massa do corpo central e da distância até o centro dele: <i>F</i> = <i>GMm</i>/<i>d</i><sup>2</sup>.\n2. O buraco negro tem a mesma massa do Sol, e os planetas continuam às mesmas distâncias, muito maiores que o raio do Sol ou do horizonte de eventos. A força gravitacional sobre eles não muda.\n3. Logo, as órbitas permanecem as mesmas. O buraco negro só é \"diferente\" muito perto dele, onde nenhum planeta está.\nGabarito: E.",
+  "resolucao": "1. Pela lei da gravitação universal, a força sobre um planeta depende só da massa do corpo central e da distância até o centro dele: \\(F = \\dfrac{GMm}{d^2}\\).\n2. O buraco negro tem a mesma massa do Sol, e os planetas continuam às mesmas distâncias, muito maiores que o raio do Sol ou do horizonte de eventos. A força gravitacional sobre eles não muda.\n3. Logo, as órbitas permanecem as mesmas. O buraco negro só é \"diferente\" muito perto dele, onde nenhum planeta está.\nGabarito: E.",
   "topicos": [
     "lei-da-gravitacao-universal",
     "leis-de-kepler",
@@ -19,7 +19,7 @@
   ],
   "status": "publicado",
   "criadoEm": "2026-11-08T22:54:03.000Z",
-  "atualizadoEm": "2026-11-08T22:57:26.000Z",
+  "atualizadoEm": "2026-11-13T15:00:00.000Z",
   "revisao": {
     "notas": "Gabarito da resolução própria; confere com o gabarito do caderno amarelo publicado pela Estratégia Vestibulares. Trocar para 'oficial' quando houver o PDF do INEP (2022_GB_impresso_D2_CD5.pdf). Camada de texto do caderno parcialmente cifrada: fidelidade conferida pela imagem e pelo OCR. 'Einstein’s' com apóstrofo tipográfico; o OCR lê a palavra colada.",
     "divergenciasAceitas": [

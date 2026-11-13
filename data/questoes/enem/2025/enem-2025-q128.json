@@ -13,14 +13,14 @@
   ],
   "gabarito": "D",
   "gabaritoFonte": "oficial",
-  "resolucao": "1. Tempo: 6 min = 0,1 h. A velocidade em relação ao solo deve ser: Leste 20/0,1 = 200 km/h; Norte 20/0,1 = 200 km/h; para cima 1/0,1 = 10 km/h.\n2. Composição de velocidades: <i>v</i>⃗<sub>solo</sub> = <i>v</i>⃗<sub>ar</sub> + <i>v</i>⃗<sub>vento</sub>, logo <i>v</i>⃗<sub>ar</sub> = <i>v</i>⃗<sub>solo</sub> − <i>v</i>⃗<sub>vento</sub>, componente a componente (princípio da independência).\n3. Leste: 200 − 30 = 170 km/h. Norte: 200 − (−20) = 220 km/h (o vento empurra para o Sul, e o piloto compensa). Vertical: 10 − (−1) = 11 km/h para cima.\nGabarito: D.",
+  "resolucao": "1. Tempo: 6 min = 0,1 h. A velocidade em relação ao solo deve ser: Leste \\(\\dfrac{20}{0,1} = 200\\) km/h; Norte \\(\\dfrac{20}{0,1} = 200\\) km/h; para cima \\(\\dfrac{1}{0,1} = 10\\) km/h.\n2. Composição de velocidades: <i>v</i>⃗<sub>solo</sub> = <i>v</i>⃗<sub>ar</sub> + <i>v</i>⃗<sub>vento</sub>, logo <i>v</i>⃗<sub>ar</sub> = <i>v</i>⃗<sub>solo</sub> − <i>v</i>⃗<sub>vento</sub>, componente a componente (princípio da independência).\n3. Leste: 200 − 30 = 170 km/h. Norte: 200 − (−20) = 220 km/h (o vento empurra para o Sul, e o piloto compensa). Vertical: 10 − (−1) = 11 km/h para cima.\nGabarito: D.",
   "topicos": [
     "movimento-relativo-e-composicao-de-velocidades",
     "vetores-soma-e-decomposicao"
   ],
   "status": "publicado",
   "criadoEm": "2026-11-08T21:50:11.000Z",
-  "atualizadoEm": "2026-11-08T21:53:49.000Z",
+  "atualizadoEm": "2026-11-13T15:00:00.000Z",
   "revisao": {
     "notas": "Gabarito oficial do INEP (caderno 5, amarelo, aplicação regular), lido na transcrição publicada pelo O Povo em 19/11/2025; o PDF do INEP não pôde ser baixado nesta sessão. Conferido com a resolução."
   }

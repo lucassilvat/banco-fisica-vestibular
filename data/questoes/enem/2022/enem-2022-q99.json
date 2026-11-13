@@ -13,14 +13,14 @@
   ],
   "gabarito": "A",
   "gabaritoFonte": "resolucao-propria",
-  "resolucao": "1. Pela analogia com a lei de Ohm, <i>R</i> = <i>U</i>/<i>i</i>.\n2. Rota 1: 510/4 = 127,5; rota 2: 608/4 = 152; rota 3: 575/3 ≈ 191,7.\n3. Em ordem crescente de resistência: 1, 2, 3.\nGabarito: A.",
+  "resolucao": "1. Pela analogia com a lei de Ohm, \\(R = \\dfrac{U}{i}\\).\n2. Rota 1: \\(\\dfrac{510}{4} = 127,5\\); rota 2: \\(\\dfrac{608}{4} = 152\\); rota 3: \\(\\dfrac{575}{3} \\approx 191,7\\).\n3. Em ordem crescente de resistência: 1, 2, 3.\nGabarito: A.",
   "topicos": [
     "primeira-lei-de-ohm",
     "leitura-e-interpretacao-de-graficos"
   ],
   "status": "publicado",
   "criadoEm": "2026-11-08T22:54:03.000Z",
-  "atualizadoEm": "2026-11-08T22:57:26.000Z",
+  "atualizadoEm": "2026-11-13T15:00:00.000Z",
   "revisao": {
     "notas": "Gabarito da resolução própria; confere com o gabarito do caderno amarelo publicado pela Estratégia Vestibulares. Trocar para 'oficial' quando houver o PDF do INEP (2022_GB_impresso_D2_CD5.pdf). Camada de texto do caderno parcialmente cifrada: fidelidade conferida pela imagem e pelo OCR."
   }

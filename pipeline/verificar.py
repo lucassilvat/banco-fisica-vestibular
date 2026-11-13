@@ -23,7 +23,7 @@ from .comum import FIG_RE, FIGURAS, RAIZ, STATUS, TIPOS, carregar_questoes, chav
 MATH_RE = re.compile(r"\\\((.+?)\\\)")
 LATEX_CMDS = {
     # estrutura
-    "frac", "dfrac", "tfrac", "sqrt", "vec", "overrightarrow", "boldsymbol", "text", "mathrm", "textrm", "left", "right",
+    "frac", "dfrac", "tfrac", "sqrt", "vec", "overrightarrow", "boldsymbol", "text", "mathrm", "mathbf", "textrm", "left", "right",
     # letras gregas e símbolos
     "alpha", "beta", "gamma", "delta", "epsilon", "varepsilon", "zeta", "eta", "theta", "iota", "kappa", "lambda",
     "mu", "nu", "xi", "pi", "rho", "sigma", "tau", "phi", "varphi", "chi", "psi", "omega",

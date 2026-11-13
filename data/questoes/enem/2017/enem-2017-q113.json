@@ -13,7 +13,7 @@
   ],
   "gabarito": "C",
   "gabaritoFonte": "resolucao-propria",
-  "resolucao": "1. Com os caminhos iguais, há interferência construtiva. Ao alongar <i>ADC</i>, o primeiro mínimo (som praticamente nulo) ocorre quando a diferença de caminhos é meio comprimento de onda.\n2. Pela figura, o lado <i>D</i> se estende 40 cm e o lado <i>E</i>, 30 cm: o trecho deslocado foi puxado 10 cm, e como o tubo vai e volta, o caminho <i>ADC</i> ficou 2 · 10 = 20 cm maior que <i>AEC</i>.\n3. λ/2 = 20 cm ⇒ λ = 0,40 m. Frequência: <i>f</i> = <i>v</i>/λ = 320/0,40 = 800 Hz.\nGabarito: C.",
+  "resolucao": "1. Com os caminhos iguais, há interferência construtiva. Ao alongar <i>ADC</i>, o primeiro mínimo (som praticamente nulo) ocorre quando a diferença de caminhos é meio comprimento de onda.\n2. Pela figura, o lado <i>D</i> se estende 40 cm e o lado <i>E</i>, 30 cm: o trecho deslocado foi puxado 10 cm, e como o tubo vai e volta, o caminho <i>ADC</i> ficou 2 · 10 = 20 cm maior que <i>AEC</i>.\n3. \\(\\dfrac{\\lambda}{2} = 20\\) cm ⇒ λ = 0,40 m. Frequência: \\(f = \\dfrac{v}{\\lambda} = \\dfrac{320}{0,40} = 800\\) Hz.\nGabarito: C.",
   "topicos": [
     "interferencia",
     "equacao-fundamental-da-ondulatoria-v-f",
@@ -21,7 +21,7 @@
   ],
   "status": "publicado",
   "criadoEm": "2026-11-08T23:30:12.000Z",
-  "atualizadoEm": "2026-11-08T23:33:00.000Z",
+  "atualizadoEm": "2026-11-13T15:00:00.000Z",
   "revisao": {
     "notas": "Gabarito da resolução própria; não foi encontrado um gabarito do caderno amarelo acessível nesta sessão. Q97 confere com a questão correspondente do caderno azul (Descomplica). Trocar para 'oficial' quando houver o PDF do INEP (2017_GB_impresso_D2_CD5.pdf)."
   }

@@ -18,14 +18,14 @@
   ],
   "gabarito": "D",
   "gabaritoFonte": "resolucao-propria",
-  "resolucao": "1. A resistência elétrica é definida por <i>R</i> = <i>V</i>/<i>i</i>.\n2. Com <i>V</i> = 10<i>i</i> + <i>i</i><sup>2</sup>: <i>R</i> = (10<i>i</i> + <i>i</i><sup>2</sup>)/<i>i</i> = 10 + <i>i</i> (em Ω, com <i>i</i> em A).\n3. É uma reta que começa em 10 Ω e cresce 1 Ω por ampère, chegando a 17 Ω em 7 A: é o gráfico D.\nGabarito: D.",
+  "resolucao": "1. A resistência elétrica é definida por \\(R = \\dfrac{V}{i}\\).\n2. Com <i>V</i> = 10<i>i</i> + <i>i</i><sup>2</sup>: \\(R = \\dfrac{10i + i^2}{i} = 10 + i\\) (em Ω, com <i>i</i> em A).\n3. É uma reta que começa em 10 Ω e cresce 1 Ω por ampère, chegando a 17 Ω em 7 A: é o gráfico D.\nGabarito: D.",
   "topicos": [
     "primeira-lei-de-ohm",
     "leitura-e-interpretacao-de-graficos"
   ],
   "status": "publicado",
   "criadoEm": "2026-11-08T23:23:18.000Z",
-  "atualizadoEm": "2026-11-08T23:26:35.000Z",
+  "atualizadoEm": "2026-11-13T15:00:00.000Z",
   "revisao": {
     "notas": "Gabarito da resolução própria; confere com o gabarito oficial do caderno amarelo reproduzido pelo Guia da Carreira. Trocar para 'oficial' quando houver o PDF do INEP (2018_GB_impresso_D2_CD5.pdf). Camada de texto do caderno por OCR: fidelidade conferida pela imagem."
   }

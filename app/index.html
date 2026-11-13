@@ -354,6 +354,7 @@ function parseTex(src) {
     if (c === "vec" || c === "overrightarrow") return { t: "vec", b: arg() };
     if (c === "boldsymbol") return { t: "bold", b: arg() };
     if (c === "text" || c === "mathrm" || c === "textrm") return { t: "text", v: rawGroup() };
+    if (c === "mathbf") return { t: "text", v: rawGroup(), bf: true };
     if (c === "left") { const o = delim(); const b = row(["right"]); if (!peek()) err("\\left sem \\right"); p++; return { t: "fence", o, cl: delim(), b }; }
     if (TEX_FN.includes(c)) return { t: "fn", v: c };
     if (c in TEX_SYM) return { t: "mi", v: TEX_SYM[c], up: UP_GREEK.test(TEX_SYM[c]) };
@@ -380,7 +381,7 @@ function texToMathML(n) {
     case "mn": return `<mn>${mesc(n.v)}</mn>`;
     case "mo": return n.fixo ? `<mo stretchy="false">${mesc(n.v)}</mo>` : `<mo>${mesc(n.v)}</mo>`;
     case "fn": return `<mspace width="0.167em"/><mi>${n.v}</mi><mo>&#x2061;</mo>`;
-    case "text": return `<mtext>${mesc(n.v)}</mtext>`;
+    case "text": return n.bf ? `<mtext style="font-weight:bold">${mesc(n.v)}</mtext>` : `<mtext>${mesc(n.v)}</mtext>`;
     case "space": return `<mspace width="${n.w}"/>`;
     case "frac": { const f = `<mfrac>${one(n.n)}${one(n.d)}</mfrac>`; return n.small ? `<mstyle displaystyle="false">${f}</mstyle>` : f; }
     case "sqrt": return n.idx ? `<mroot>${one(n.b)}${one(n.idx)}</mroot>` : `<msqrt>${texToMathML(n.b)}</msqrt>`;
@@ -401,7 +402,7 @@ function texToOMML(n) {
     case "bold": return texToOMML(emBold(n.b));
     case "mn": case "mo": return run(n.v, false);
     case "fn": return run(n.v, true);
-    case "text": return `<m:r><m:rPr>${/\s/.test(n.v) ? "<m:nor/>" : '<m:sty m:val="p"/>'}</m:rPr><m:t xml:space="preserve">${mesc(n.v)}</m:t></m:r>`;
+    case "text": return `<m:r><m:rPr>${/\s/.test(n.v) ? "<m:nor/>" : `<m:sty m:val="${n.bf ? "b" : "p"}"/>`}</m:rPr><m:t xml:space="preserve">${mesc(n.v)}</m:t></m:r>`;
     case "space": return n.w === "0em" ? "" : `<m:r><m:rPr><m:nor/></m:rPr><m:t xml:space="preserve">${n.w === "1em" ? "\u2003" : "\u2009"}</m:t></m:r>`;
     case "frac": return `<m:f>${n.small ? '<m:fPr><m:type m:val="lin"/></m:fPr>' : ""}<m:num>${e(n.n)}</m:num><m:den>${e(n.d)}</m:den></m:f>`;
     case "sqrt": return n.idx ? `<m:rad><m:deg>${e(n.idx)}</m:deg><m:e>${e(n.b)}</m:e></m:rad>` : `<m:rad><m:radPr><m:degHide m:val="1"/></m:radPr><m:deg/><m:e>${e(n.b)}</m:e></m:rad>`;

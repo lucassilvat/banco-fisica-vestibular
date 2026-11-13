@@ -13,14 +13,14 @@
   ],
   "gabarito": "D",
   "gabaritoFonte": "resolucao-propria",
-  "resolucao": "1. Fase acelerada: 72 km/h = 20 m/s. Tempo: <i>t</i> = 20/1 = 20 s. Distância: <i>d</i> = <i>at</i><sup>2</sup>/2 = 1 · 20<sup>2</sup>/2 = 200 m.\n2. Depois, o veículo segue a 20 m/s. O semáforo A (a 500 m) deve abrir quando o veículo está a 400 m de O: faltam 200 m após a aceleração, ou seja, 10 s. Instante: 20 + 10 = 30 s.\n3. B (a 1 000 m) abre com o veículo a 900 m: mais 500 m a 20 m/s = 25 s ⇒ 55 s. C (a 1 500 m) abre com o veículo a 1 400 m: mais 25 s ⇒ 80 s.\nGabarito: D.",
+  "resolucao": "1. Fase acelerada: 72 km/h = 20 m/s. Tempo: \\(t = \\dfrac{20}{1} = 20\\) s. Distância: \\(d = \\dfrac{at^2}{2} = \\dfrac{1 \\cdot 20^2}{2} = 200\\) m.\n2. Depois, o veículo segue a 20 m/s. O semáforo A (a 500 m) deve abrir quando o veículo está a 400 m de O: faltam 200 m após a aceleração, ou seja, 10 s. Instante: 20 + 10 = 30 s.\n3. B (a 1 000 m) abre com o veículo a 900 m: mais 500 m a 20 m/s = 25 s ⇒ 55 s. C (a 1 500 m) abre com o veículo a 1 400 m: mais 25 s ⇒ 80 s.\nGabarito: D.",
   "topicos": [
     "movimento-retilineo-uniformemente-variado-mruv",
     "movimento-retilineo-uniforme-mru"
   ],
   "status": "publicado",
   "criadoEm": "2026-11-08T23:09:55.000Z",
-  "atualizadoEm": "2026-11-08T23:14:09.000Z",
+  "atualizadoEm": "2026-11-13T15:00:00.000Z",
   "revisao": {
     "notas": "Gabarito da resolução própria; não foi possível conferir com um gabarito publicado do caderno amarelo nesta sessão. Trocar para 'oficial' quando houver o PDF do INEP (2020_GB_impresso_D2_CD5.pdf). A única anulação de Ciências da Natureza no caderno amarelo (Q114) não é de Física."
   }

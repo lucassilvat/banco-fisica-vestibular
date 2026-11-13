@@ -11,7 +11,7 @@
   "figuras": [],
   "gabarito": "B",
   "gabaritoFonte": "resolucao-propria",
-  "resolucao": "Atenção: esta questão foi <b>anulada</b> pelo INEP. Os dados são incompatíveis, como mostra a conta abaixo. O gabarito B indica a resposta provavelmente pretendida.\n1. Energia necessária para aquecer a água: <i>Q</i> = <i>mc</i>Δ<i>T</i> = 500 · 4,2 · (100 − 20) = 168 000 J.\n2. Tempo ideal, sem perdas: <i>t</i> = <i>Q</i>/<i>P</i> = 168 000/700 = 240 s = 4 min.\n3. A cafeteira levou só 3 min (180 s), fornecendo 700 · 180 = 126 000 J, menos que os 168 000 J necessários. A eficiência resultaria em 168 000/126 000 ≈ 133%, maior que 100%, o que é impossível.\n4. Dividindo ao contrário (126 000/168 000 = 3/4 ≈ 75%) obtém-se a alternativa B, provavelmente a resposta pretendida; mas essa razão não é uma eficiência.\nGabarito pretendido (questão anulada): B.",
+  "resolucao": "Atenção: esta questão foi <b>anulada</b> pelo INEP. Os dados são incompatíveis, como mostra a conta abaixo. O gabarito B indica a resposta provavelmente pretendida.\n1. Energia necessária para aquecer a água: <i>Q</i> = <i>mc</i>Δ<i>T</i> = 500 · 4,2 · (100 − 20) = 168 000 J.\n2. Tempo ideal, sem perdas: \\(t = \\dfrac{Q}{P} = \\dfrac{168 000}{700} = 240\\) s = 4 min.\n3. A cafeteira levou só 3 min (180 s), fornecendo 700 · 180 = 126 000 J, menos que os 168 000 J necessários. A eficiência resultaria em \\(\\dfrac{168 000}{126 000} \\approx 133\\%\\), maior que 100%, o que é impossível.\n4. Dividindo ao contrário (\\(\\dfrac{126 000}{168 000} = \\dfrac{3}{4} \\approx 75\\%\\)) obtém-se a alternativa B, provavelmente a resposta pretendida; mas essa razão não é uma eficiência.\nGabarito pretendido (questão anulada): B.",
   "topicos": [
     "potencia-e-rendimento",
     "calor-sensivel-e-capacidade-termica",
@@ -19,7 +19,7 @@
   ],
   "status": "publicado",
   "criadoEm": "2026-11-08T22:33:14.000Z",
-  "atualizadoEm": "2026-11-08T22:36:47.000Z",
+  "atualizadoEm": "2026-11-13T15:00:00.000Z",
   "revisao": {
     "notas": "Questão ANULADA pelo INEP (caderno amarelo, Q102): os dados resultam em eficiência maior que 100%. O gabarito B é a resposta provavelmente pretendida (razão invertida, 75%)."
   }

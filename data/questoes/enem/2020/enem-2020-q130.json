@@ -11,7 +11,7 @@
   "figuras": [],
   "gabarito": "D",
   "gabaritoFonte": "resolucao-propria",
-  "resolucao": "1. Lei de Faraday: |ε| = |ΔΦ/Δ<i>t</i>|. A tensão induzida depende da rapidez com que o fluxo varia, não do valor do fluxo em si.\n2. Num gerador em funcionamento, a área das bobinas e o campo do ímã são fixos; o que pode mudar inesperadamente é a velocidade de rotação (por exemplo, mais vazão de água ou de vapor). Girando mais depressa, o fluxo varia mais rápido e a tensão aumenta.\n3. A diminui a rapidez (efeito oposto); B e C exigiriam mudar a construção do gerador; E não aumenta a tensão gerada.\nGabarito: D.",
+  "resolucao": "1. Lei de Faraday: \\(\\left|\\varepsilon\\right| = \\left|\\dfrac{\\Delta\\Phi}{\\Delta t}\\right|\\). A tensão induzida depende da rapidez com que o fluxo varia, não do valor do fluxo em si.\n2. Num gerador em funcionamento, a área das bobinas e o campo do ímã são fixos; o que pode mudar inesperadamente é a velocidade de rotação (por exemplo, mais vazão de água ou de vapor). Girando mais depressa, o fluxo varia mais rápido e a tensão aumenta.\n3. A diminui a rapidez (efeito oposto); B e C exigiriam mudar a construção do gerador; E não aumenta a tensão gerada.\nGabarito: D.",
   "topicos": [
     "inducao-eletromagnetica-lei-de-faraday",
     "usinas-e-geracao-de-energia-eletrica",
@@ -19,7 +19,7 @@
   ],
   "status": "publicado",
   "criadoEm": "2026-11-08T23:09:55.000Z",
-  "atualizadoEm": "2026-11-08T23:14:09.000Z",
+  "atualizadoEm": "2026-11-13T15:00:00.000Z",
   "revisao": {
     "notas": "Gabarito da resolução própria; não foi possível conferir com um gabarito publicado do caderno amarelo nesta sessão. Trocar para 'oficial' quando houver o PDF do INEP (2020_GB_impresso_D2_CD5.pdf). A única anulação de Ciências da Natureza no caderno amarelo (Q114) não é de Física."
   }
