@@ -8,9 +8,9 @@ de modelo de dados; CORREÇÃO, em correções de questões já publicadas.
 
 - **Fórmulas na Fuvest 2016–2026 e 2027.** Os 11 PDFs enviados pelo Lucas conferem com o
   sha256 do manifesto; as 137 questões de 2016–2026 passam na fidelidade sem aviso.
-- **Enunciados:** 12 têm fração empilhada (ou radical com fração) no caderno e passaram a
+- **Enunciados:** 14 têm fração empilhada (ou radical com fração) no caderno e passaram a
   LaTeX: 2016 Q24 (½ e ¼ das alternativas), Q26 e Q28; 2019 Q17, Q20 e Q23; 2020 Q71;
-  2021 Q46; 2023 Q36 e Q78; 2025 Q19; 2026 Q76. Na 2023 Q78 e na 2016 Q28 a transcrição
+  2021 Q46; 2023 Q36 e Q78; 2025 Q19; 2026 Q76; 2027 Q37 e Q42. Na 2023 Q78 e na 2016 Q28 a transcrição
   antiga tinha parênteses que não existem no caderno; saíram com a fração empilhada (os
   parênteses que o caderno imprime, como em 2019 Q17 e Q20, ficaram). Ficam com barra, como
   no caderno: 2016 Q12, 2017 Q76 (½ inclinado), 2019 Q45, 2020 Q75, 2021 Q49, 2022 Q54,
@@ -20,7 +20,10 @@ de modelo de dados; CORREÇÃO, em correções de questões já publicadas.
 - **Conversor de fórmulas:** `\boldsymbol` (vetor em negrito da 2021 Q46), número com
   milhar por ponto (`8.800`, padrão da Fuvest), `\log_{10}` com o índice junto do log,
   espaço antes de sen/cos/log e parênteses comuns que não esticam ao lado de frações.
-- Os enunciados da Fuvest 2027 não foram revistos (o PDF não estava disponível).
+- **Fuvest 2027:** com o PDF enviado depois (sha256 confere com o manifesto), as 12 questões
+  passam na fidelidade sem aviso. Dois enunciados passaram a LaTeX: Q37 (\(P = \Delta E/\Delta t\),
+  fração empilhada no "Note e adote") e Q42 (raiz cúbica com o traço do radical). VEF1/CVF da Q62
+  e as unidades ficam em linha, como no caderno.
 
 ## v2.2.0 — 2026-11-13
 
