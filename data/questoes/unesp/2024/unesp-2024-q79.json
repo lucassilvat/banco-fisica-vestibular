@@ -13,12 +13,12 @@
   ],
   "gabarito": "C",
   "gabaritoFonte": "oficial",
-  "resolucao": "1. No gráfico, 40 ºBx corresponde a índice de refração <i>n</i> ≈ 1,40.\n2. Definição de índice de refração absoluto: <i>n</i> = <i>c</i>/<i>v</i> ⇒ <i>v</i> = <i>c</i>/<i>n</i>.\n3. <i>v</i> = 3 × 10<sup>8</sup>/1,40 ≈ 2,1 × 10<sup>8</sup> m/s.\nGabarito: C.",
+  "resolucao": "1. No gráfico, 40 ºBx corresponde a índice de refração <i>n</i> ≈ 1,40.\n2. Definição de índice de refração absoluto: \\(n = \\dfrac{c}{v} \\Rightarrow v = \\dfrac{c}{n}\\).\n3. \\(v = \\dfrac{3 \\times 10^8}{1,40} \\approx 2,1 \\times 10^8\\) m/s.\nGabarito: C.",
   "topicos": [
     "refracao-da-luz-e-indice-de-refracao",
     "leitura-e-interpretacao-de-graficos"
   ],
   "status": "publicado",
   "criadoEm": "2026-11-01T15:46:30.000Z",
-  "atualizadoEm": "2026-11-01T15:46:30.000Z"
+  "atualizadoEm": "2026-11-13T15:00:00.000Z"
 }

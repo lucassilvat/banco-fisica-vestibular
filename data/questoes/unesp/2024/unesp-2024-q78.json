@@ -13,12 +13,12 @@
   ],
   "gabarito": "B",
   "gabaritoFonte": "oficial",
-  "resolucao": "1. Na posição inicial, o ar no copo está à pressão atmosférica: <i>p</i><sub>1</sub> = 10<sup>5</sup> Pa.\n2. Na posição final, a superfície da água dentro do copo está 2,5 m abaixo da superfície livre. Por Stevin, <i>p</i><sub>2</sub> = <i>p</i><sub>atm</sub> + <i>dgh</i> = 10<sup>5</sup> + 10<sup>3</sup> · 10 · 2,5 = 1,25 × 10<sup>5</sup> Pa.\n3. Transformação isotérmica (lei de Boyle): <i>p</i><sub>1</sub>V<sub>1</sub> = <i>p</i><sub>2</sub>V<sub>2</sub> ⇒ V<sub>2</sub>/V<sub>1</sub> = <i>p</i><sub>1</sub>/<i>p</i><sub>2</sub> = 1/1,25 = 0,80.\nGabarito: B.",
+  "resolucao": "1. Na posição inicial, o ar no copo está à pressão atmosférica: <i>p</i><sub>1</sub> = 10<sup>5</sup> Pa.\n2. Na posição final, a superfície da água dentro do copo está 2,5 m abaixo da superfície livre. Por Stevin, <i>p</i><sub>2</sub> = <i>p</i><sub>atm</sub> + <i>dgh</i> = 10<sup>5</sup> + 10<sup>3</sup> · 10 · 2,5 = 1,25 × 10<sup>5</sup> Pa.\n3. Transformação isotérmica (lei de Boyle): <i>p</i><sub>1</sub>V<sub>1</sub> = <i>p</i><sub>2</sub>V<sub>2</sub> ⇒ \\(\\dfrac{\\mathrm{V}_2}{\\mathrm{V}_1} = \\dfrac{p_1}{p_2} = \\dfrac{1}{1,25} = 0,80\\).\nGabarito: B.",
   "topicos": [
     "teorema-de-stevin-pressao-hidrostatica",
     "transformacoes-gasosas-isotermica-isobarica-isocorica-adiabatica"
   ],
   "status": "publicado",
   "criadoEm": "2026-11-01T15:46:30.000Z",
-  "atualizadoEm": "2026-11-01T15:46:30.000Z"
+  "atualizadoEm": "2026-11-13T15:00:00.000Z"
 }

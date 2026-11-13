@@ -13,12 +13,12 @@
   ],
   "gabarito": "B",
   "gabaritoFonte": "resolucao-propria",
-  "resolucao": "1. Para um ponto do tubo ser visto de fora, algum raio que sai dele deve atravessar a superfície da água fora da boia sem sofrer reflexão total.\n2. Ângulo limite (água → ar): sen <i>L</i> = 1,00/1,25 = 0,8 ⇒ cos <i>L</i> = 0,6 e tg <i>L</i> = 4/3.\n3. Um ponto à profundidade <i>h</i> emite, para a borda da boia (a 0,2 m do eixo), um raio com tg <i>i</i> = 0,2/<i>h</i>. Esse é o raio de menor incidência que escapa da boia; ele sai da água se <i>i</i> &lt; <i>L</i>, isto é, 0,2/<i>h</i> &lt; 4/3 ⇒ <i>h</i> &gt; 0,15 m.\n4. Os primeiros 15 cm do tubo, logo abaixo da boia, ficam ocultos; a parte visível vai de 15 cm a 100 cm: 85 cm.\nGabarito: B.",
+  "resolucao": "1. Para um ponto do tubo ser visto de fora, algum raio que sai dele deve atravessar a superfície da água fora da boia sem sofrer reflexão total.\n2. Ângulo limite (água → ar): \\(\\sen L = \\dfrac{1,00}{1,25} = 0,8\\) ⇒ cos <i>L</i> = 0,6 e \\(\\tg L = \\dfrac{4}{3}\\).\n3. Um ponto à profundidade <i>h</i> emite, para a borda da boia (a 0,2 m do eixo), um raio com \\(\\tg i = \\dfrac{0,2}{h}\\). Esse é o raio de menor incidência que escapa da boia; ele sai da água se <i>i</i> &lt; <i>L</i>, isto é, \\(\\dfrac{0,2}{h} < \\dfrac{4}{3} \\Rightarrow h > 0,15\\) m.\n4. Os primeiros 15 cm do tubo, logo abaixo da boia, ficam ocultos; a parte visível vai de 15 cm a 100 cm: 85 cm.\nGabarito: B.",
   "topicos": [
     "reflexao-total-e-fibra-optica",
     "lei-de-snell-descartes"
   ],
   "status": "publicado",
   "criadoEm": "2026-11-02T14:05:19.000Z",
-  "atualizadoEm": "2026-11-02T14:05:19.000Z"
+  "atualizadoEm": "2026-11-13T15:00:00.000Z"
 }

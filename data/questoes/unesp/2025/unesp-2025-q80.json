@@ -13,11 +13,11 @@
   ],
   "gabarito": "B",
   "gabaritoFonte": "oficial",
-  "resolucao": "1. O aumento linear transversal é a razão entre o tamanho da imagem e o tamanho do objeto: A = <i>i</i>/<i>o</i>.\n2. Na figura 1, a imagem da lapiseira tem 1,6 cm de largura com A<sub>1</sub> = 2: <i>o</i> = 1,6/2 = 0,8 cm (largura real da lapiseira).\n3. Na figura 2, a mesma lapiseira com A<sub>2</sub> = 0,8: L = 0,8 · 0,8 = 0,64 cm.\nGabarito: B.",
+  "resolucao": "1. O aumento linear transversal é a razão entre o tamanho da imagem e o tamanho do objeto: \\(\\mathrm{A} = \\dfrac{i}{o}\\).\n2. Na figura 1, a imagem da lapiseira tem 1,6 cm de largura com A<sub>1</sub> = 2: \\(o = \\dfrac{1,6}{2} = 0,8\\) cm (largura real da lapiseira).\n3. Na figura 2, a mesma lapiseira com A<sub>2</sub> = 0,8: L = 0,8 · 0,8 = 0,64 cm.\nGabarito: B.",
   "topicos": [
     "lentes-esfericas-vergencia-gauss-aumento"
   ],
   "status": "publicado",
   "criadoEm": "2026-11-01T15:46:34.000Z",
-  "atualizadoEm": "2026-11-01T15:46:34.000Z"
+  "atualizadoEm": "2026-11-13T15:00:00.000Z"
 }

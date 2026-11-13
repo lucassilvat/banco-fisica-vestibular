@@ -13,12 +13,12 @@
   ],
   "gabarito": "D",
   "gabaritoFonte": "oficial",
-  "resolucao": "1. No referencial do caminhão, o carro precisa percorrer o comprimento do caminhão (30 m, pela placa) mais o próprio comprimento (4 m): 34 m.\n2. Velocidade relativa: <i>v</i><sub>rel</sub> = 34/8,5 = 4 m/s.\n3. Como os dois andam no mesmo sentido, <i>v</i><sub>rel</sub> = <i>v</i><sub>carro</sub> − <i>v</i><sub>caminhão</sub> ⇒ <i>v</i><sub>caminhão</sub> = 30 − 4 = 26 m/s.\nGabarito: D.",
+  "resolucao": "1. No referencial do caminhão, o carro precisa percorrer o comprimento do caminhão (30 m, pela placa) mais o próprio comprimento (4 m): 34 m.\n2. Velocidade relativa: \\(v_{\\text{rel}} = \\dfrac{34}{8,5} = 4\\) m/s.\n3. Como os dois andam no mesmo sentido, <i>v</i><sub>rel</sub> = <i>v</i><sub>carro</sub> − <i>v</i><sub>caminhão</sub> ⇒ <i>v</i><sub>caminhão</sub> = 30 − 4 = 26 m/s.\nGabarito: D.",
   "topicos": [
     "movimento-relativo-e-composicao-de-velocidades",
     "movimento-retilineo-uniforme-mru"
   ],
   "status": "publicado",
   "criadoEm": "2026-11-02T14:05:14.000Z",
-  "atualizadoEm": "2026-11-02T14:05:14.000Z"
+  "atualizadoEm": "2026-11-13T15:00:00.000Z"
 }

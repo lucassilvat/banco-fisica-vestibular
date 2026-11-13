@@ -4,6 +4,19 @@ Cada versão corresponde a um lote de importação ou a uma mudança no app/pipe
 Formato: `vMAIOR.MENOR.CORREÇÃO` — MENOR sobe a cada prova importada; MAIOR, em mudanças
 de modelo de dados; CORREÇÃO, em correções de questões já publicadas.
 
+## v2.4.0 — 2026-11-13
+
+- **Fórmulas na Unesp 2016–2026.** Os 11 PDFs enviados pelo Lucas conferem com o sha256 do
+  manifesto; as 94 questões passam na fidelidade.
+- **Enunciados:** 18 têm fração empilhada ou radical no caderno e passaram a LaTeX: 2016 Q79
+  (\(4\sqrt{10}\)); 2017 Q79 e Q82; 2018 Q81; 2019 Q76 e Q81; 2020 Q78, Q79 e Q87; 2022 Q76
+  (todas as alternativas), Q80 e Q81; 2023 Q87; 2024 Q86; 2025 Q77 e Q84; 2026 Q76 e Q79.
+  Ficam em linha, como no caderno: 2019 Q73 (1/3), Q80 (t1/2) e Q85 (√3), 2020 Q77 (T²/D³)
+  e Q78 (√2), 2023 Q76 e todas as unidades.
+- **Resoluções:** 62 questões com frações, raízes e equações em LaTeX, mesmo conteúdo.
+- **Variáveis retas:** a Unesp imprime as variáveis sem itálico; nas fórmulas dos enunciados
+  (e das resoluções que citam essas variáveis) elas vão com `\mathrm{...}`.
+
 ## v2.3.0 — 2026-11-13
 
 - **Fórmulas na Fuvest 2016–2026 e 2027.** Os 11 PDFs enviados pelo Lucas conferem com o

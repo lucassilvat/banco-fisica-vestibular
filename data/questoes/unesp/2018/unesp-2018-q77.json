@@ -13,12 +13,12 @@
   ],
   "gabarito": "A",
   "gabaritoFonte": "resolucao-propria",
-  "resolucao": "1. Energia absorvida pelas molas: 45% de 160 J = 72 J. Por mola: 72/32 = 2,25 J.\n2. Energia potencial elástica: <i>E</i> = <i>kx</i>²/2, com <i>x</i> = 3,0 mm = 3,0 × 10<sup>−3</sup> m.\n3. <i>k</i> = 2<i>E</i>/<i>x</i>² = 4,5/(9,0 × 10<sup>−6</sup>) = 5,0 × 10<sup>5</sup> N/m.\nGabarito: A.",
+  "resolucao": "1. Energia absorvida pelas molas: 45% de 160 J = 72 J. Por mola: \\(\\dfrac{72}{32} = 2,25\\) J.\n2. Energia potencial elástica: \\(E = \\dfrac{k x^2}{2}\\), com <i>x</i> = 3,0 mm = 3,0 × 10<sup>−3</sup> m.\n3. \\(k = \\dfrac{2E}{x^2} = \\dfrac{4,5}{9,0 \\times 10^{-6}} = 5,0 \\times 10^5\\) N/m.\nGabarito: A.",
   "topicos": [
     "energia-potencial-elastica",
     "forca-elastica-lei-de-hooke"
   ],
   "status": "publicado",
   "criadoEm": "2026-11-02T14:05:28.000Z",
-  "atualizadoEm": "2026-11-02T14:05:28.000Z"
+  "atualizadoEm": "2026-11-13T15:00:00.000Z"
 }

@@ -13,14 +13,14 @@
   ],
   "gabarito": "D",
   "gabaritoFonte": "resolucao-propria",
-  "resolucao": "Questão de Química com conteúdo de Calorimetria.\n1. Energia liberada por 2,6 mL de azeite: 2,6 mL é 1/5 de 13 mL ⇒ <i>Q</i> = 108/5 = 21,6 kcal.\n2. Todo esse calor vai para 500 g = 0,5 kg de água: <i>Q</i> = <i>m c</i> Δ<i>θ</i> ⇒ 21,6 = 0,5 · 1 · Δ<i>θ</i> ⇒ Δ<i>θ</i> = 43,2 ºC.\n3. Temperatura final: 20,0 + 43,2 = 63,2 ºC.\nGabarito: D.",
+  "resolucao": "Questão de Química com conteúdo de Calorimetria.\n1. Energia liberada por 2,6 mL de azeite: 2,6 mL é \\(\\tfrac{1}{5}\\) de 13 mL ⇒ \\(Q = \\dfrac{108}{5} = 21,6\\) kcal.\n2. Todo esse calor vai para 500 g = 0,5 kg de água: <i>Q</i> = <i>m c</i> Δ<i>θ</i> ⇒ 21,6 = 0,5 · 1 · Δ<i>θ</i> ⇒ Δ<i>θ</i> = 43,2 ºC.\n3. Temperatura final: 20,0 + 43,2 = 63,2 ºC.\nGabarito: D.",
   "topicos": [
     "calor-sensivel-e-capacidade-termica",
     "trocas-de-calor-e-equilibrio-termico-calorimetro"
   ],
   "status": "publicado",
   "criadoEm": "2026-11-02T14:05:19.000Z",
-  "atualizadoEm": "2026-11-02T14:05:19.000Z",
+  "atualizadoEm": "2026-11-13T15:00:00.000Z",
   "revisao": {
     "divergenciasAceitas": [
       "oliva"

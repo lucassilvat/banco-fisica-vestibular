@@ -13,12 +13,12 @@
   ],
   "gabarito": "E",
   "gabaritoFonte": "resolucao-propria",
-  "resolucao": "1. A quantidade de nitrogênio e o volume do pneu não mudam: a transformação é isocórica (isovolumétrica).\n2. Para gás ideal a volume constante, a pressão é proporcional à temperatura absoluta: <i>p</i><sub>1</sub>/<i>T</i><sub>1</sub> = <i>p</i><sub>2</sub>/<i>T</i><sub>2</sub>.\n3. 200/300 = <i>p</i><sub>2</sub>/1 200 ⇒ <i>p</i><sub>2</sub> = 200 · 4 = 800 PSI.\nGabarito: E.",
+  "resolucao": "1. A quantidade de nitrogênio e o volume do pneu não mudam: a transformação é isocórica (isovolumétrica).\n2. Para gás ideal a volume constante, a pressão é proporcional à temperatura absoluta: \\(\\dfrac{p_1}{T_1} = \\dfrac{p_2}{T_2}\\).\n3. \\(\\dfrac{200}{300} = \\dfrac{p_2}{1 200}\\) ⇒ <i>p</i><sub>2</sub> = 200 · 4 = 800 PSI.\nGabarito: E.",
   "topicos": [
     "transformacoes-gasosas-isotermica-isobarica-isocorica-adiabatica",
     "gas-ideal-e-equacao-de-clapeyron"
   ],
   "status": "publicado",
   "criadoEm": "2026-11-01T15:46:25.000Z",
-  "atualizadoEm": "2026-11-01T15:46:25.000Z"
+  "atualizadoEm": "2026-11-13T15:00:00.000Z"
 }

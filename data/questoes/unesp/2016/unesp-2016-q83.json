@@ -11,7 +11,7 @@
   "figuras": [],
   "gabarito": "E",
   "gabaritoFonte": "oficial",
-  "resolucao": "1. (A) Falsa: ∆E = R · i² · ∆t; com R e ∆t fixos, a perda é proporcional ao quadrado da corrente.\n2. (B) Falsa: pelo texto, tensão maior (220 V) exige corrente menor para a mesma potência, reduzindo perdas e material; 220 V é mais econômico.\n3. (C) Falsa: E = P · ∆t; com ∆t fixo, a energia é diretamente proporcional à potência.\n4. (D) Falsa: kV · A é unidade de potência (V · A = W), não de energia; não se converte em joule.\n5. (E) Verdadeira: pela 2ª lei de Ohm, R = ρL/A; quanto maior a área, menor a resistência e, com a mesma tensão, maior a corrente (i = V/R). É por isso que correntes maiores exigem fios mais grossos.\nGabarito: E.",
+  "resolucao": "1. (A) Falsa: ∆E = R · i² · ∆t; com R e ∆t fixos, a perda é proporcional ao quadrado da corrente.\n2. (B) Falsa: pelo texto, tensão maior (220 V) exige corrente menor para a mesma potência, reduzindo perdas e material; 220 V é mais econômico.\n3. (C) Falsa: E = P · ∆t; com ∆t fixo, a energia é diretamente proporcional à potência.\n4. (D) Falsa: kV · A é unidade de potência (V · A = W), não de energia; não se converte em joule.\n5. (E) Verdadeira: pela 2ª lei de Ohm, \\(\\mathrm{R} = \\dfrac{\\rho \\mathrm{L}}{\\mathrm{A}}\\); quanto maior a área, menor a resistência e, com a mesma tensão, maior a corrente (\\(\\mathrm{i} = \\dfrac{\\mathrm{V}}{\\mathrm{R}}\\)). É por isso que correntes maiores exigem fios mais grossos.\nGabarito: E.",
   "topicos": [
     "potencia-eletrica-e-efeito-joule",
     "segunda-lei-de-ohm-e-resistividade",
@@ -19,5 +19,5 @@
   ],
   "status": "publicado",
   "criadoEm": "2026-11-02T14:05:14.000Z",
-  "atualizadoEm": "2026-11-02T14:05:14.000Z"
+  "atualizadoEm": "2026-11-13T15:00:00.000Z"
 }

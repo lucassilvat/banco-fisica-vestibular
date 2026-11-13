@@ -149,6 +149,8 @@ Para gravar questões, usam-se os lotes da etapa `publicar` (docs/WORKFLOW.md).
     resoluções em LaTeX.
 22. v2.3.0: Fuvest 2016–2027 com fórmulas: 14 enunciados com fração empilhada e
     91 questões com resoluções em LaTeX. Conversor ganhou `\boldsymbol` e milhar com ponto.
+23. v2.4.0: Unesp 2016–2026 com fórmulas: 18 enunciados com fração empilhada ou radical e
+    62 questões com resoluções em LaTeX. Variáveis retas da Unesp com `\mathrm{...}`.
 
 ## Pendências
 
@@ -156,8 +158,8 @@ Para gravar questões, usam-se os lotes da etapa `publicar` (docs/WORKFLOW.md).
   conferidos no caderno das provas S e W (o registrado no manifesto é o das provas R e Z, que
   não estava disponível): as 7 questões batem com ele, nenhuma tem fração empilhada (a unidade
   da Q12 está em linha, J/(g.°C)), e nada mudou. Fuvest
-  concluída (v2.3.0), inclusive a 2027. Faltam
-  Unesp, ENEM, Acafe e Einstein: resoluções em lote e enunciados prova a prova
+  concluída (v2.3.0), inclusive a 2027. Unesp concluída (v2.4.0). Faltam
+  ENEM, Acafe e Einstein: resoluções em lote e enunciados prova a prova
   contra os PDFs. Para achar as frações empilhadas, procurar traços horizontais curtos com
   texto acima e abaixo na região de cada questão (PyMuPDF `get_drawings`): foi assim que se
   acharam as 4 da Unicamp; o resto foi conferido na imagem.

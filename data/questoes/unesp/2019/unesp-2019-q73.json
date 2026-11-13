@@ -13,12 +13,12 @@
   ],
   "gabarito": "B",
   "gabaritoFonte": "resolucao-propria",
-  "resolucao": "Questão de Química com conteúdo de Cinemática.\n1. Tempo de voo: Δ<i>t</i> = 2 400/800 = 3 h.\n2. Consumo em cruzeiro (texto): 2 200 kg/h ⇒ 3 · 2 200 = 6 600 kg de QAV.\n3. Quantidade de QAV (C<sub>12</sub>H<sub>26</sub>): 6 600 000 g/170 g/mol ≈ 3,9 × 10<sup>4</sup> mol.\n4. Cada mol de C<sub>12</sub>H<sub>26</sub> produz 12 mol de CO<sub>2</sub> na combustão completa: ≈ 4,66 × 10<sup>5</sup> mol de CO<sub>2</sub>.\n5. Massa: 4,66 × 10<sup>5</sup> · 44 g ≈ 2,05 × 10<sup>7</sup> g ≈ 20 t.\nGabarito: B.",
+  "resolucao": "Questão de Química com conteúdo de Cinemática.\n1. Tempo de voo: \\(\\Delta t = \\dfrac{2 400}{800} = 3\\) h.\n2. Consumo em cruzeiro (texto): 2 200 kg/h ⇒ 3 · 2 200 = 6 600 kg de QAV.\n3. Quantidade de QAV (C<sub>12</sub>H<sub>26</sub>): \\(\\dfrac{6 600 000\\ \\text{g}}{170\\ \\text{g/mol}} \\approx 3,9 \\times 10^4\\) mol.\n4. Cada mol de C<sub>12</sub>H<sub>26</sub> produz 12 mol de CO<sub>2</sub> na combustão completa: ≈ 4,66 × 10<sup>5</sup> mol de CO<sub>2</sub>.\n5. Massa: 4,66 × 10<sup>5</sup> · 44 g ≈ 2,05 × 10<sup>7</sup> g ≈ 20 t.\nGabarito: B.",
   "topicos": [
     "velocidade-media-e-aceleracao-media",
     "movimento-retilineo-uniforme-mru"
   ],
   "status": "publicado",
   "criadoEm": "2026-11-02T14:05:33.000Z",
-  "atualizadoEm": "2026-11-02T14:05:33.000Z"
+  "atualizadoEm": "2026-11-13T15:00:00.000Z"
 }

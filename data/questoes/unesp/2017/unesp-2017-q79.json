@@ -7,20 +7,20 @@
   "fonte": {
     "descricao": "Vunesp, Vestibular Unesp 2017, 1ª fase (Prova de Conhecimentos Gerais), caderno de questões"
   },
-  "enunciado": "Um garoto arremessa uma bola com velocidade inicial inclinada de um ângulo α com a horizontal. A bola abandona a mão do garoto com energia cinética E<sub>0</sub> e percorre uma trajetória parabólica contida em um plano vertical, representada parcialmente na figura.\n\n[[figura 1]]\n\nDesprezando-se a resistência do ar, a energia cinética da bola no ponto mais alto de sua trajetória é\n\n(A) E<sub>0</sub> · sen α\n(B) E<sub>0</sub> · cos α\n(C) E<sub>0</sub> · cos<sup>2</sup> α\n(D) E<sub>0</sub> · sen<sup>2</sup> α\n(E) (E<sub>0</sub> · sen<sup>2</sup> α)/2",
+  "enunciado": "Um garoto arremessa uma bola com velocidade inicial inclinada de um ângulo α com a horizontal. A bola abandona a mão do garoto com energia cinética E<sub>0</sub> e percorre uma trajetória parabólica contida em um plano vertical, representada parcialmente na figura.\n\n[[figura 1]]\n\nDesprezando-se a resistência do ar, a energia cinética da bola no ponto mais alto de sua trajetória é\n\n(A) E<sub>0</sub> · sen α\n(B) E<sub>0</sub> · cos α\n(C) E<sub>0</sub> · cos<sup>2</sup> α\n(D) E<sub>0</sub> · sen<sup>2</sup> α\n(E) \\(\\dfrac{\\mathrm{E}_0 \\cdot \\sen^2\\alpha}{2}\\)",
   "figuras": [
     "unesp-2017-q79-1.png"
   ],
   "gabarito": "C",
   "gabaritoFonte": "resolucao-propria",
-  "resolucao": "1. No lançamento: E<sub>0</sub> = <i>mv</i><sub>0</sub>²/2.\n2. Sem resistência do ar, a componente horizontal da velocidade é constante: <i>v</i><sub>x</sub> = <i>v</i><sub>0</sub> cos α. No ponto mais alto a componente vertical é nula, e a velocidade é só <i>v</i><sub>x</sub>.\n3. Energia cinética no topo: <i>m</i>(<i>v</i><sub>0</sub> cos α)²/2 = E<sub>0</sub> · cos² α.\nGabarito: C.",
+  "resolucao": "1. No lançamento: \\(\\mathrm{E}_0 = \\dfrac{m v_0^2}{2}\\).\n2. Sem resistência do ar, a componente horizontal da velocidade é constante: <i>v</i><sub>x</sub> = <i>v</i><sub>0</sub> cos α. No ponto mais alto a componente vertical é nula, e a velocidade é só <i>v</i><sub>x</sub>.\n3. Energia cinética no topo: \\(\\dfrac{m(v_0\\cos\\alpha)^2}{2} = \\mathrm{E}_0 \\cdot \\cos^2\\alpha\\).\nGabarito: C.",
   "topicos": [
     "lancamento-obliquo",
     "energia-cinetica-e-teorema-trabalho-energia"
   ],
   "status": "publicado",
   "criadoEm": "2026-11-02T14:05:19.000Z",
-  "atualizadoEm": "2026-11-02T14:05:19.000Z",
+  "atualizadoEm": "2026-11-13T15:00:00.000Z",
   "revisao": {
     "divergenciasAceitas": [
       "inclinada",

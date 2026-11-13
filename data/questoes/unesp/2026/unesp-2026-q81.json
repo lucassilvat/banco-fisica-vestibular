@@ -13,7 +13,7 @@
   ],
   "gabarito": "C",
   "gabaritoFonte": "resolucao-propria",
-  "resolucao": "1. Em campo elétrico uniforme: <i>U</i> = <i>E</i> · <i>d</i> ⇒ <i>E</i> = 4/(5 × 10<sup>−3</sup>) = 800 V/m.\n2. Força sobre cada íon: <i>F</i> = <i>qE</i> = 1,6 × 10<sup>−19</sup> · 800 = 1,28 × 10<sup>−16</sup> N.\nGabarito: C.",
+  "resolucao": "1. Em campo elétrico uniforme: <i>U</i> = <i>E</i> · <i>d</i> ⇒ \\(E = \\dfrac{4}{5 \\times 10^{-3}} = 800\\) V/m.\n2. Força sobre cada íon: <i>F</i> = <i>qE</i> = 1,6 × 10<sup>−19</sup> · 800 = 1,28 × 10<sup>−16</sup> N.\nGabarito: C.",
   "topicos": [
     "linhas-de-campo-e-campo-eletrico-uniforme",
     "potencial-eletrico-e-diferenca-de-potencial",
@@ -21,5 +21,5 @@
   ],
   "status": "publicado",
   "criadoEm": "2026-11-01T15:46:38.000Z",
-  "atualizadoEm": "2026-11-01T15:46:38.000Z"
+  "atualizadoEm": "2026-11-13T15:00:00.000Z"
 }

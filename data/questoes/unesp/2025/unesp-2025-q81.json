@@ -13,12 +13,12 @@
   ],
   "gabarito": "E",
   "gabaritoFonte": "oficial",
-  "resolucao": "1. Pela figura, um comprimento de onda (uma oscilação completa da corda) mede λ = 0,6 m, e a frente da onda está a 1,8 m do pino.\n2. Velocidade de propagação: <i>v</i> = λ<i>f</i> = 0,6 · 3 = 1,8 m/s.\n3. Tempo para a frente da onda chegar ao pino: Δ<i>t</i> = 1,8/1,8 = 1,0 s.\nGabarito: E.",
+  "resolucao": "1. Pela figura, um comprimento de onda (uma oscilação completa da corda) mede λ = 0,6 m, e a frente da onda está a 1,8 m do pino.\n2. Velocidade de propagação: <i>v</i> = λ<i>f</i> = 0,6 · 3 = 1,8 m/s.\n3. Tempo para a frente da onda chegar ao pino: \\(\\Delta t = \\dfrac{1,8}{1,8} = 1,0\\) s.\nGabarito: E.",
   "topicos": [
     "equacao-fundamental-da-ondulatoria-v-f",
     "ondas-classificacao-e-elementos"
   ],
   "status": "publicado",
   "criadoEm": "2026-11-01T15:46:34.000Z",
-  "atualizadoEm": "2026-11-01T15:46:34.000Z"
+  "atualizadoEm": "2026-11-13T15:00:00.000Z"
 }

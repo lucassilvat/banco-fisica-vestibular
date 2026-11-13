@@ -13,7 +13,7 @@
   ],
   "gabarito": "B",
   "gabaritoFonte": "resolucao-propria",
-  "resolucao": "1. Com o consumo do combustível, a boia desce e uma porção maior do reostato entra no circuito: a resistência aumenta e, com a tensão da bateria fixa, a corrente diminui (<i>i</i> = <i>U</i>/<i>R</i>).\n2. Com tanque cheio (corrente maior), a lâmina aquecida se curva; na figura 1 ela se curva para o lado do metal A, que fica na parte interna (côncava) da curva.\n3. Numa lâmina bimetálica aquecida, o metal que dilata mais fica do lado externo (convexo). Logo, B dilata mais que A: o coeficiente de dilatação de A é menor que o de B.\n4. Lacunas: “diminuindo” e “menor do que o”.\nGabarito: B.",
+  "resolucao": "1. Com o consumo do combustível, a boia desce e uma porção maior do reostato entra no circuito: a resistência aumenta e, com a tensão da bateria fixa, a corrente diminui (\\(i = \\dfrac{U}{R}\\)).\n2. Com tanque cheio (corrente maior), a lâmina aquecida se curva; na figura 1 ela se curva para o lado do metal A, que fica na parte interna (côncava) da curva.\n3. Numa lâmina bimetálica aquecida, o metal que dilata mais fica do lado externo (convexo). Logo, B dilata mais que A: o coeficiente de dilatação de A é menor que o de B.\n4. Lacunas: “diminuindo” e “menor do que o”.\nGabarito: B.",
   "topicos": [
     "segunda-lei-de-ohm-e-resistividade",
     "primeira-lei-de-ohm",
@@ -21,5 +21,5 @@
   ],
   "status": "publicado",
   "criadoEm": "2026-11-01T15:46:38.000Z",
-  "atualizadoEm": "2026-11-01T15:46:38.000Z"
+  "atualizadoEm": "2026-11-13T15:00:00.000Z"
 }

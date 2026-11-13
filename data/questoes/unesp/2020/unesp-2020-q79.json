@@ -7,19 +7,19 @@
   "fonte": {
     "descricao": "Vunesp, Vestibular Unesp 2020, 1ª fase (Prova de Conhecimentos Gerais), caderno de questões"
   },
-  "enunciado": "Para obter energia térmica, com a finalidade de fundir determinada massa de gelo, produziu-se a combustão de um mol de gás butano (C<sub>4</sub>H<sub>10</sub>), a 1 atm e a 25 ºC. A reação de combustão desse gás é:\n\nC<sub>4</sub>H<sub>10</sub> (<i>g</i>) + 13/2 O<sub>2</sub> (<i>g</i>) → 4CO<sub>2</sub> (<i>g</i>) + 5H<sub>2</sub>O (ℓ)\n\nAs entalpias-padrão de formação (ΔH) das substâncias citadas estão indicadas na tabela:\n\n[[figura 1]]\n\nConsiderando que a energia térmica proveniente dessa reação foi integralmente absorvida por um grande bloco de gelo a 0 ºC e adotando 320 J/g para o calor latente de fusão do gelo, a massa de água líquida obtida a 0 ºC, nesse processo, pelo derretimento do gelo foi de, aproximadamente,\n\n(A) 7 kg.\n(B) 5 kg.\n(C) 3 kg.\n(D) 10 kg.\n(E) 9 kg.",
+  "enunciado": "Para obter energia térmica, com a finalidade de fundir determinada massa de gelo, produziu-se a combustão de um mol de gás butano (C<sub>4</sub>H<sub>10</sub>), a 1 atm e a 25 ºC. A reação de combustão desse gás é:\n\nC<sub>4</sub>H<sub>10</sub> (<i>g</i>) + \\(\\dfrac{13}{2}\\) O<sub>2</sub> (<i>g</i>) → 4CO<sub>2</sub> (<i>g</i>) + 5H<sub>2</sub>O (ℓ)\n\nAs entalpias-padrão de formação (ΔH) das substâncias citadas estão indicadas na tabela:\n\n[[figura 1]]\n\nConsiderando que a energia térmica proveniente dessa reação foi integralmente absorvida por um grande bloco de gelo a 0 ºC e adotando 320 J/g para o calor latente de fusão do gelo, a massa de água líquida obtida a 0 ºC, nesse processo, pelo derretimento do gelo foi de, aproximadamente,\n\n(A) 7 kg.\n(B) 5 kg.\n(C) 3 kg.\n(D) 10 kg.\n(E) 9 kg.",
   "figuras": [
     "unesp-2020-q79-1.png"
   ],
   "gabarito": "E",
   "gabaritoFonte": "resolucao-propria",
-  "resolucao": "Questão de Química (termoquímica) com conteúdo de Calorimetria.\n1. ΔH da combustão = Σ produtos − Σ reagentes = [4(−393) + 5(−286)] − [(−126) + 0] = −1 572 − 1 430 + 126 = −2 876 kJ por mol de butano.\n2. Calor liberado: 2 876 kJ = 2,876 × 10<sup>6</sup> J.\n3. Fusão do gelo: <i>Q</i> = <i>mL</i> ⇒ <i>m</i> = 2,876 × 10<sup>6</sup>/320 ≈ 8 990 g ≈ 9 kg.\nGabarito: E.",
+  "resolucao": "Questão de Química (termoquímica) com conteúdo de Calorimetria.\n1. ΔH da combustão = Σ produtos − Σ reagentes = [4(−393) + 5(−286)] − [(−126) + 0] = −1 572 − 1 430 + 126 = −2 876 kJ por mol de butano.\n2. Calor liberado: 2 876 kJ = 2,876 × 10<sup>6</sup> J.\n3. Fusão do gelo: <i>Q</i> = <i>mL</i> ⇒ \\(m = \\dfrac{2,876 \\times 10^6}{320} \\approx 8 990\\) g ≈ 9 kg.\nGabarito: E.",
   "topicos": [
     "calor-latente-e-mudancas-de-fase"
   ],
   "status": "publicado",
   "criadoEm": "2026-11-02T14:05:40.000Z",
-  "atualizadoEm": "2026-11-02T14:05:40.000Z",
+  "atualizadoEm": "2026-11-13T15:00:00.000Z",
   "revisao": {
     "divergenciasAceitas": [
       "13"

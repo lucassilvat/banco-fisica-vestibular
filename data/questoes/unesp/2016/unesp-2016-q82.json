@@ -13,7 +13,7 @@
   ],
   "gabarito": "B",
   "gabaritoFonte": "oficial",
-  "resolucao": "1. Na figura, os 3 m vão de uma crista a um vale separados por um comprimento de onda e meio: 1,5λ = 3 m ⇒ λ = 2 m.\n2. Frequência: <i>f</i> = <i>v</i>/λ = 10/2 = 5 Hz ⇒ período <i>T</i> = 0,2 s.\n3. Do vale à crista o ponto P leva meio período: Δ<i>t</i> = 0,1 s, percorrendo a distância vertical entre vale e crista, 0,8 m.\n4. Velocidade escalar média: 0,8/0,1 = 8 m/s.\nGabarito: B.",
+  "resolucao": "1. Na figura, os 3 m vão de uma crista a um vale separados por um comprimento de onda e meio: 1,5λ = 3 m ⇒ λ = 2 m.\n2. Frequência: \\(f = \\dfrac{v}{\\lambda} = \\dfrac{10}{2} = 5\\) Hz ⇒ período <i>T</i> = 0,2 s.\n3. Do vale à crista o ponto P leva meio período: Δ<i>t</i> = 0,1 s, percorrendo a distância vertical entre vale e crista, 0,8 m.\n4. Velocidade escalar média: \\(\\dfrac{0,8}{0,1} = 8\\) m/s.\nGabarito: B.",
   "topicos": [
     "ondas-classificacao-e-elementos",
     "equacao-fundamental-da-ondulatoria-v-f",
@@ -21,5 +21,5 @@
   ],
   "status": "publicado",
   "criadoEm": "2026-11-02T14:05:14.000Z",
-  "atualizadoEm": "2026-11-02T14:05:14.000Z"
+  "atualizadoEm": "2026-11-13T15:00:00.000Z"
 }

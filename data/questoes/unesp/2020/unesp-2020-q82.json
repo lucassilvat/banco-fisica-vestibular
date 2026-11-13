@@ -15,12 +15,12 @@
   ],
   "gabarito": "D",
   "gabaritoFonte": "resolucao-propria",
-  "resolucao": "1. FEM de cada eletroplaca: 600 V/5 000 = 0,12 V.\n2. Cada coluna da raia tem 750 eletroplacas em série: 750 · 0,12 = 90 V. Colunas iguais em paralelo têm a mesma FEM: o sistema fornece 90 V.\n3. Potência gerada: <i>P</i> = <i>U</i> · <i>i</i> = 90 · 50 = 4 500 W.\nGabarito: D.",
+  "resolucao": "1. FEM de cada eletroplaca: \\(\\dfrac{600\\ \\text{V}}{5 000} = 0,12\\) V.\n2. Cada coluna da raia tem 750 eletroplacas em série: 750 · 0,12 = 90 V. Colunas iguais em paralelo têm a mesma FEM: o sistema fornece 90 V.\n3. Potência gerada: <i>P</i> = <i>U</i> · <i>i</i> = 90 · 50 = 4 500 W.\nGabarito: D.",
   "topicos": [
     "geradores-eletricos-fem-e-resistencia-interna",
     "potencia-eletrica-e-efeito-joule"
   ],
   "status": "publicado",
   "criadoEm": "2026-11-02T14:05:40.000Z",
-  "atualizadoEm": "2026-11-02T14:05:40.000Z"
+  "atualizadoEm": "2026-11-13T15:00:00.000Z"
 }

@@ -17,14 +17,14 @@
   ],
   "gabarito": "A",
   "gabaritoFonte": "oficial",
-  "resolucao": "1. Com taxa de troca de calor constante (potência <i>P</i>), em um intervalo Δ<i>t</i>: <i>P</i> Δ<i>t</i> = <i>m c</i> Δ<i>θ</i> ⇒ Δ<i>θ</i>/Δ<i>t</i> = <i>P</i>/(<i>m c</i>).\n2. As massas são iguais, então a rapidez da variação de temperatura (inclinação da reta) é inversamente proporcional ao calor específico.\n3. Como c<sub>x</sub> &lt; c<sub>y</sub> &lt; c<sub>z</sub>, a esfera x tem a reta mais inclinada, seguida de y e de z, tanto no aquecimento (gráfico 1) quanto no resfriamento (gráfico 2).\n4. Logo, x chega primeiro a 100 °C e também volta primeiro a θ<sub>amb</sub>; z é a mais lenta nas duas etapas. Essa é a representação da alternativa A.\nGabarito: A.",
+  "resolucao": "1. Com taxa de troca de calor constante (potência <i>P</i>), em um intervalo Δ<i>t</i>: \\(P\\,\\Delta t = mc\\,\\Delta\\theta \\Rightarrow \\dfrac{\\Delta\\theta}{\\Delta t} = \\dfrac{P}{mc}\\).\n2. As massas são iguais, então a rapidez da variação de temperatura (inclinação da reta) é inversamente proporcional ao calor específico.\n3. Como c<sub>x</sub> &lt; c<sub>y</sub> &lt; c<sub>z</sub>, a esfera x tem a reta mais inclinada, seguida de y e de z, tanto no aquecimento (gráfico 1) quanto no resfriamento (gráfico 2).\n4. Logo, x chega primeiro a 100 °C e também volta primeiro a θ<sub>amb</sub>; z é a mais lenta nas duas etapas. Essa é a representação da alternativa A.\nGabarito: A.",
   "topicos": [
     "calor-sensivel-e-capacidade-termica",
     "leitura-e-interpretacao-de-graficos"
   ],
   "status": "publicado",
   "criadoEm": "2026-11-01T15:46:12.000Z",
-  "atualizadoEm": "2026-11-01T15:46:12.000Z",
+  "atualizadoEm": "2026-11-13T15:00:00.000Z",
   "revisao": {
     "divergenciasAceitas": [
       "amb"

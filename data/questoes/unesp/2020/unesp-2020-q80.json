@@ -13,12 +13,12 @@
   ],
   "gabarito": "A",
   "gabaritoFonte": "resolucao-propria",
-  "resolucao": "1. Aumento linear transversal (em módulo): |<i>A</i>| = <i>i</i>/<i>o</i> = <i>p</i>′/<i>p</i> = 1/5 000.\n2. Com <i>p</i>′ = 20 cm = 0,20 m: <i>p</i> = 5 000 · 0,20 = 1 000 m.\n3. A distância do objeto à lente é a altura do balão: <i>h</i> = 1 000 m.\nGabarito: A.",
+  "resolucao": "1. Aumento linear transversal (em módulo): \\(\\left|A\\right| = \\dfrac{i}{o} = \\dfrac{p′}{p} = \\dfrac{1}{5 000}\\).\n2. Com <i>p</i>′ = 20 cm = 0,20 m: <i>p</i> = 5 000 · 0,20 = 1 000 m.\n3. A distância do objeto à lente é a altura do balão: <i>h</i> = 1 000 m.\nGabarito: A.",
   "topicos": [
     "lentes-esfericas-vergencia-gauss-aumento",
     "instrumentos-opticos-lupa-microscopio-luneta"
   ],
   "status": "publicado",
   "criadoEm": "2026-11-02T14:05:40.000Z",
-  "atualizadoEm": "2026-11-02T14:05:40.000Z"
+  "atualizadoEm": "2026-11-13T15:00:00.000Z"
 }
