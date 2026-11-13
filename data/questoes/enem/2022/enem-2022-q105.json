@@ -11,7 +11,7 @@
   "figuras": [],
   "gabarito": "B",
   "gabaritoFonte": "resolucao-propria",
-  "resolucao": "1. Lançamento horizontal de 1 m de altura: tempo de queda <i>h</i> = <i>gt</i><sup>2</sup>/2, então 1 = 5<i>t</i><sup>2</sup> e <i>t</i><sup>2</sup> = 0,2 s<sup>2</sup>.\n2. Alcance horizontal: 3 = <i>v</i><sub>0</sub><i>t</i>, então <i>v</i><sub>0</sub><sup>2</sup> = 9/<i>t</i><sup>2</sup> = 9/0,2 = 45 m<sup>2</sup>/s<sup>2</sup>.\n3. Com a mangueira na vertical e a mesma velocidade de saída, a altura máxima é <i>H</i> = <i>v</i><sub>0</sub><sup>2</sup>/(2<i>g</i>) = 45/20 = 2,25 m.\nGabarito: B.",
+  "resolucao": "1. Lançamento horizontal de 1 m de altura: tempo de queda \\(h = \\dfrac{gt^2}{2}\\), então 1 = 5<i>t</i><sup>2</sup> e <i>t</i><sup>2</sup> = 0,2 s<sup>2</sup>.\n2. Alcance horizontal: 3 = <i>v</i><sub>0</sub><i>t</i>, então \\(v_0^2 = \\dfrac{9}{t^2} = \\dfrac{9}{0,2} = 45\\) m<sup>2</sup>/s<sup>2</sup>.\n3. Com a mangueira na vertical e a mesma velocidade de saída, a altura máxima é \\(H = \\dfrac{v_0^2}{2g} = \\dfrac{45}{20} = 2,25\\) m.\nGabarito: B.",
   "topicos": [
     "lancamento-horizontal",
     "queda-livre-e-lancamento-vertical",
@@ -19,7 +19,7 @@
   ],
   "status": "publicado",
   "criadoEm": "2026-11-08T22:54:03.000Z",
-  "atualizadoEm": "2026-11-08T22:57:26.000Z",
+  "atualizadoEm": "2026-11-13T15:00:00.000Z",
   "revisao": {
     "notas": "Gabarito da resolução própria; confere com o gabarito do caderno amarelo publicado pela Estratégia Vestibulares. Trocar para 'oficial' quando houver o PDF do INEP (2022_GB_impresso_D2_CD5.pdf). Camada de texto do caderno parcialmente cifrada: fidelidade conferida pela imagem e pelo OCR."
   }

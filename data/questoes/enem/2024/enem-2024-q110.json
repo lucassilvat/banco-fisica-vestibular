@@ -13,7 +13,7 @@
   ],
   "gabarito": "B",
   "gabaritoFonte": "resolucao-propria",
-  "resolucao": "1. Correntes nominais: L<sub>1</sub>: <i>i</i> = 9/6 = 1,5 A; L<sub>2</sub>: <i>i</i> = 18/12 = 1,5 A. Em série, as duas funcionam juntas com 1,5 A, e a bateria deve fornecer 6 + 12 = 18 V.\n2. O amperímetro ideal (resistência desprezível) liga o ponto P a um ponto do fio, igualando seus potenciais. Para que as lâmpadas fiquem exatamente nas tensões nominais, o ponto do fio deve estar no mesmo potencial que P teria: 6 V abaixo do lado de L<sub>1</sub> (lado Q) e 12 V acima do lado de L<sub>2</sub> (lado R). Assim, nenhuma corrente passa pelo amperímetro e as lâmpadas não são afetadas.\n3. No fio homogêneo, a tensão se distribui proporcionalmente ao comprimento (segunda lei de Ohm). O ponto deve ficar a 6/18 = 1/3 do fio a partir de Q: 48/3 = 16 cm.\n4. Cada segmento mede 48/6 = 8 cm; 16 cm a partir de Q é o ponto <i>B</i>. É o princípio da ponte de Wheatstone equilibrada: 4 Ω/8 Ω = 16 cm/32 cm.\nGabarito: B.",
+  "resolucao": "1. Correntes nominais: L<sub>1</sub>: \\(i = \\dfrac{9}{6} = 1,5\\) A; L<sub>2</sub>: \\(i = \\dfrac{18}{12} = 1,5\\) A. Em série, as duas funcionam juntas com 1,5 A, e a bateria deve fornecer 6 + 12 = 18 V.\n2. O amperímetro ideal (resistência desprezível) liga o ponto P a um ponto do fio, igualando seus potenciais. Para que as lâmpadas fiquem exatamente nas tensões nominais, o ponto do fio deve estar no mesmo potencial que P teria: 6 V abaixo do lado de L<sub>1</sub> (lado Q) e 12 V acima do lado de L<sub>2</sub> (lado R). Assim, nenhuma corrente passa pelo amperímetro e as lâmpadas não são afetadas.\n3. No fio homogêneo, a tensão se distribui proporcionalmente ao comprimento (segunda lei de Ohm). O ponto deve ficar a \\(\\dfrac{6}{18} = \\dfrac{1}{3}\\) do fio a partir de Q: \\(\\dfrac{48}{3} = 16\\) cm.\n4. Cada segmento mede \\(\\dfrac{48}{6} = 8\\) cm; 16 cm a partir de Q é o ponto <i>B</i>. É o princípio da ponte de Wheatstone equilibrada: \\(\\dfrac{4\\ \\Omega}{8\\ \\Omega} = \\dfrac{16\\ \\text{cm}}{32\\ \\text{cm}}\\).\nGabarito: B.",
   "topicos": [
     "associacao-de-resistores",
     "segunda-lei-de-ohm-e-resistividade",
@@ -22,7 +22,7 @@
   ],
   "status": "publicado",
   "criadoEm": "2026-11-08T22:33:14.000Z",
-  "atualizadoEm": "2026-11-08T22:36:47.000Z",
+  "atualizadoEm": "2026-11-13T15:00:00.000Z",
   "revisao": {
     "notas": "Gabarito da resolução própria; confere com o gabarito do caderno amarelo publicado pela Estratégia Vestibulares, que incorpora as retificações do gabarito oficial do INEP. Trocar para 'oficial' quando houver o PDF do INEP (2024_GB_impresso_D2_CD5.pdf)."
   }

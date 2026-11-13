@@ -13,7 +13,7 @@
   ],
   "gabarito": "D",
   "gabaritoFonte": "resolucao-propria",
-  "resolucao": "1. Chame de E e D os nós da esquerda e da direita (ligados à fonte), S o nó de cima e I o de baixo. O fusível (resistência desprezível) liga o ponto entre o resistor de 120 Ω e o de 30 Ω ao nó I. Assim, o 120 Ω fica entre E e I, e o 30 Ω entre S e I.\n2. Entre E e I há 60 Ω em paralelo com 120 Ω: 40 Ω. Ponte: E–S = 60 Ω, S–D = 60 Ω, E–I = 40 Ω, I–D = 40 Ω. Como 60/60 = 40/40, a ponte está equilibrada: S e I ficam no mesmo potencial (<i>U</i>/2) e não passa corrente no resistor de 30 Ω.\n3. A corrente do fusível é a do resistor de 120 Ω: <i>i</i> = (<i>U</i>/2)/120 = <i>U</i>/240. Para <i>i</i> ≤ 0,5 A: <i>U</i> ≤ 120 V.\nGabarito: D.",
+  "resolucao": "1. Chame de E e D os nós da esquerda e da direita (ligados à fonte), S o nó de cima e I o de baixo. O fusível (resistência desprezível) liga o ponto entre o resistor de 120 Ω e o de 30 Ω ao nó I. Assim, o 120 Ω fica entre E e I, e o 30 Ω entre S e I.\n2. Entre E e I há 60 Ω em paralelo com 120 Ω: 40 Ω. Ponte: E–S = 60 Ω, S–D = 60 Ω, E–I = 40 Ω, I–D = 40 Ω. Como \\(\\dfrac{60}{60} = \\dfrac{40}{40}\\), a ponte está equilibrada: S e I ficam no mesmo potencial (\\(\\dfrac{U}{2}\\)) e não passa corrente no resistor de 30 Ω.\n3. A corrente do fusível é a do resistor de 120 Ω: \\(i = \\dfrac{U/2}{120} = \\dfrac{U}{240}\\). Para <i>i</i> ≤ 0,5 A: <i>U</i> ≤ 120 V.\nGabarito: D.",
   "topicos": [
     "amperimetro-voltimetro-e-ponte-de-wheatstone",
     "associacao-de-resistores",
@@ -21,7 +21,7 @@
   ],
   "status": "publicado",
   "criadoEm": "2026-11-08T23:30:12.000Z",
-  "atualizadoEm": "2026-11-08T23:33:00.000Z",
+  "atualizadoEm": "2026-11-13T15:00:00.000Z",
   "revisao": {
     "notas": "Gabarito da resolução própria; não foi encontrado um gabarito do caderno amarelo acessível nesta sessão. Q97 confere com a questão correspondente do caderno azul (Descomplica). Trocar para 'oficial' quando houver o PDF do INEP (2017_GB_impresso_D2_CD5.pdf)."
   }

@@ -11,14 +11,14 @@
   "figuras": [],
   "gabarito": "C",
   "gabaritoFonte": "resolucao-propria",
-  "resolucao": "1. Num tubo fechado de comprimento <i>L</i>, as frequências de ressonância são os harmônicos ímpares: <i>f</i><sub>n</sub> = <i>n</i> · <i>v</i>/(4<i>L</i>), com <i>n</i> = 1, 3, 5, …\n2. Com <i>L</i> = 30 m: <i>v</i>/(4<i>L</i>) = 360/120 = 3 Hz. Os harmônicos são 3 Hz, 9 Hz, 15 Hz, … e 135 Hz = 45 × 3 Hz é o harmônico de ordem 45 (o menor medido pelo aparelho).\n3. Duas ressonâncias consecutivas diferem de 2 × 3 Hz = 6 Hz: a próxima é 135 + 6 = 141 Hz.\nGabarito: C.",
+  "resolucao": "1. Num tubo fechado de comprimento <i>L</i>, as frequências de ressonância são os harmônicos ímpares: \\(f_n = n \\cdot \\dfrac{v}{4L}\\), com <i>n</i> = 1, 3, 5, …\n2. Com <i>L</i> = 30 m: \\(\\dfrac{v}{4L} = \\dfrac{360}{120} = 3\\) Hz. Os harmônicos são 3 Hz, 9 Hz, 15 Hz, … e 135 Hz = 45 × 3 Hz é o harmônico de ordem 45 (o menor medido pelo aparelho).\n3. Duas ressonâncias consecutivas diferem de 2 × 3 Hz = 6 Hz: a próxima é 135 + 6 = 141 Hz.\nGabarito: C.",
   "topicos": [
     "tubos-sonoros",
     "ressonancia"
   ],
   "status": "publicado",
   "criadoEm": "2026-11-08T23:09:55.000Z",
-  "atualizadoEm": "2026-11-08T23:14:09.000Z",
+  "atualizadoEm": "2026-11-13T15:00:00.000Z",
   "revisao": {
     "notas": "Gabarito da resolução própria; não foi possível conferir com um gabarito publicado do caderno amarelo nesta sessão. Trocar para 'oficial' quando houver o PDF do INEP (2020_GB_impresso_D2_CD5.pdf). A única anulação de Ciências da Natureza no caderno amarelo (Q114) não é de Física."
   }

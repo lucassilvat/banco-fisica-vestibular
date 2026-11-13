@@ -11,14 +11,14 @@
   "figuras": [],
   "gabarito": "A",
   "gabaritoFonte": "resolucao-propria",
-  "resolucao": "1. Tempo de cruzeiro por ano: 80% de 1 000 h = 800 h.\n2. Dose anual: 800 h · 2 μSv/h = 1 600 μSv = 1,6 mSv.\n3. Número de radiografias equivalentes: 1,6/0,2 = 8.\nGabarito: A.",
+  "resolucao": "1. Tempo de cruzeiro por ano: 80% de 1 000 h = 800 h.\n2. Dose anual: 800 h · 2 μSv/h = 1 600 μSv = 1,6 mSv.\n3. Número de radiografias equivalentes: \\(\\dfrac{1,6}{0,2} = 8\\).\nGabarito: A.",
   "topicos": [
     "radioatividade-e-decaimento",
     "grandezas-fisicas-e-sistema-internacional"
   ],
   "status": "publicado",
   "criadoEm": "2026-11-08T22:47:12.000Z",
-  "atualizadoEm": "2026-11-08T22:50:32.000Z",
+  "atualizadoEm": "2026-11-13T15:00:00.000Z",
   "revisao": {
     "notas": "Gabarito da resolução própria; confere com o gabarito do caderno amarelo publicado pela Estratégia Vestibulares. Trocar para 'oficial' quando houver o PDF do INEP (2023_GB_impresso_D2_CD5.pdf)."
   }

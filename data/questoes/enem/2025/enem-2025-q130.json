@@ -13,14 +13,14 @@
   ],
   "gabarito": "E",
   "gabaritoFonte": "oficial",
-  "resolucao": "1. A sensibilidade do sensor é quanto a resistência muda por grau de temperatura: Δ<i>R</i>/Δ<i>T</i> = B, a inclinação da reta. O valor da resistência em si (constante A) não importa.\n2. Inclinações lidas no gráfico, entre −50 °C e cerca de 320 °C (Δ<i>T</i> ≈ 370 °C):\n• Sensor 1: de 225 para 230 Ω, cerca de 0,01 Ω/°C;\n• Sensor 2: de 75 para 225 Ω, cerca de 0,41 Ω/°C;\n• Sensor 3: de 147 para 168 Ω, cerca de 0,06 Ω/°C;\n• Sensor 4: de 90 para 148 Ω, cerca de 0,16 Ω/°C;\n• Sensor 5: de 65 para 145 Ω, cerca de 0,22 Ω/°C.\n3. As retas mais inclinadas são as dos sensores 2 e 5.\nGabarito: E.",
+  "resolucao": "1. A sensibilidade do sensor é quanto a resistência muda por grau de temperatura: \\(\\dfrac{\\Delta R}{\\Delta T} = \\mathrm{B}\\), a inclinação da reta. O valor da resistência em si (constante A) não importa.\n2. Inclinações lidas no gráfico, entre −50 °C e cerca de 320 °C (Δ<i>T</i> ≈ 370 °C):\n• Sensor 1: de 225 para 230 Ω, cerca de 0,01 Ω/°C;\n• Sensor 2: de 75 para 225 Ω, cerca de 0,41 Ω/°C;\n• Sensor 3: de 147 para 168 Ω, cerca de 0,06 Ω/°C;\n• Sensor 4: de 90 para 148 Ω, cerca de 0,16 Ω/°C;\n• Sensor 5: de 65 para 145 Ω, cerca de 0,22 Ω/°C.\n3. As retas mais inclinadas são as dos sensores 2 e 5.\nGabarito: E.",
   "topicos": [
     "temperatura-e-escalas-termometricas",
     "leitura-e-interpretacao-de-graficos"
   ],
   "status": "publicado",
   "criadoEm": "2026-11-08T21:50:11.000Z",
-  "atualizadoEm": "2026-11-08T21:53:49.000Z",
+  "atualizadoEm": "2026-11-13T15:00:00.000Z",
   "revisao": {
     "notas": "Gabarito oficial do INEP (caderno 5, amarelo, aplicação regular), lido na transcrição publicada pelo O Povo em 19/11/2025; o PDF do INEP não pôde ser baixado nesta sessão. Conferido com a resolução."
   }

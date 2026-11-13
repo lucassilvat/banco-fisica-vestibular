@@ -18,14 +18,14 @@
   ],
   "gabarito": "D",
   "gabaritoFonte": "resolucao-propria",
-  "resolucao": "1. Como os íons ocupam os espaços entre as moléculas, o volume continua 2 L = 2 000 cm<sup>3</sup>. A massa de água é 2 000 g.\n2. Densidades: A: (2 000 + 100)/2 000 = 1,05 g/cm<sup>3</sup>; B: (2 000 + 200)/2 000 = 1,10 g/cm<sup>3</sup>. Em relação à água (1,00 g/cm<sup>3</sup>), aumentos de 0,05 e 0,10 g/cm<sup>3</sup>: uma e duas divisões da escala.\n3. Em líquido mais denso, o densímetro precisa deslocar menos volume para equilibrar seu peso e flutua mais alto: em A ele sobe uma divisão em relação à água pura e em B, duas. É a situação representada em D.\nGabarito: D.",
+  "resolucao": "1. Como os íons ocupam os espaços entre as moléculas, o volume continua 2 L = 2 000 cm<sup>3</sup>. A massa de água é 2 000 g.\n2. Densidades: A: \\(\\dfrac{2 000 + 100}{2 000} = 1,05\\) g/cm<sup>3</sup>; B: \\(\\dfrac{2 000 + 200}{2 000} = 1,10\\) g/cm<sup>3</sup>. Em relação à água (1,00 g/cm<sup>3</sup>), aumentos de 0,05 e 0,10 g/cm<sup>3</sup>: uma e duas divisões da escala.\n3. Em líquido mais denso, o densímetro precisa deslocar menos volume para equilibrar seu peso e flutua mais alto: em A ele sobe uma divisão em relação à água pura e em B, duas. É a situação representada em D.\nGabarito: D.",
   "topicos": [
     "empuxo-e-principio-de-arquimedes",
     "densidade-e-massa-especifica"
   ],
   "status": "publicado",
   "criadoEm": "2026-11-08T23:23:18.000Z",
-  "atualizadoEm": "2026-11-08T23:26:35.000Z",
+  "atualizadoEm": "2026-11-13T15:00:00.000Z",
   "revisao": {
     "notas": "Gabarito da resolução própria; confere com o gabarito oficial do caderno amarelo reproduzido pelo Guia da Carreira. Trocar para 'oficial' quando houver o PDF do INEP (2018_GB_impresso_D2_CD5.pdf). Camada de texto do caderno por OCR: fidelidade conferida pela imagem."
   }

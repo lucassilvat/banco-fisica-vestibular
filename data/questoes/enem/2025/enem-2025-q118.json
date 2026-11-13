@@ -13,14 +13,14 @@
   ],
   "gabarito": "B",
   "gabaritoFonte": "oficial",
-  "resolucao": "1. Para atravessar completamente o feixe, o corpo percorre o diâmetro do feixe mais a própria espessura (como um trem atravessando uma ponte): Δ<i>s</i> = 15 cm + 20 cm = 35 cm = 0,35 m.\n2. O tempo de resposta precisa ser curto o bastante para detectar o movimento mais rápido da figura, 5,0 m/s: Δ<i>t</i> = Δ<i>s</i>/<i>v</i> = 0,35/5,0 = 0,07 s = 70 ms.\n3. Movimentos mais lentos levam mais tempo para atravessar o feixe e também são detectados com esse ajuste.\nGabarito: B.",
+  "resolucao": "1. Para atravessar completamente o feixe, o corpo percorre o diâmetro do feixe mais a própria espessura (como um trem atravessando uma ponte): Δ<i>s</i> = 15 cm + 20 cm = 35 cm = 0,35 m.\n2. O tempo de resposta precisa ser curto o bastante para detectar o movimento mais rápido da figura, 5,0 m/s: \\(\\Delta t = \\dfrac{\\Delta s}{v} = \\dfrac{0,35}{5,0} = 0,07\\) s = 70 ms.\n3. Movimentos mais lentos levam mais tempo para atravessar o feixe e também são detectados com esse ajuste.\nGabarito: B.",
   "topicos": [
     "movimento-retilineo-uniforme-mru",
     "velocidade-media-e-aceleracao-media"
   ],
   "status": "publicado",
   "criadoEm": "2026-11-08T21:50:11.000Z",
-  "atualizadoEm": "2026-11-08T21:53:49.000Z",
+  "atualizadoEm": "2026-11-13T15:00:00.000Z",
   "revisao": {
     "notas": "Gabarito oficial do INEP (caderno 5, amarelo, aplicação regular), lido na transcrição publicada pelo O Povo em 19/11/2025; o PDF do INEP não pôde ser baixado nesta sessão. Conferido com a resolução."
   }

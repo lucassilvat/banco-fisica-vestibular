@@ -17,14 +17,14 @@
   ],
   "gabarito": "E",
   "gabaritoFonte": "oficial",
-  "resolucao": "1. Em paralelo, o equipamento ficaria submetido à tensão total da fonte, 20% acima da recomendada; o resistor de proteção não ajudaria (elimina A e B). O resistor de proteção precisa ficar em série, para \"absorver\" a tensão excedente.\n2. Seja <i>U</i> a tensão recomendada. A fonte fornece 1,2<i>U</i>; em série, o resistor deve ficar com 1,2<i>U</i> − <i>U</i> = 0,2<i>U</i>.\n3. Em série a corrente <i>i</i> é a mesma nos dois: <i>U</i> = R<sub>C</sub><i>i</i> e 0,2<i>U</i> = R<sub>P</sub><i>i</i>. Dividindo: R<sub>P</sub>/R<sub>C</sub> = 0,2, ou seja, R<sub>P</sub> = 0,2 R<sub>C</sub>.\n4. Circuito em série com R<sub>P</sub> = 0,2 R<sub>C</sub>.\nGabarito: E.",
+  "resolucao": "1. Em paralelo, o equipamento ficaria submetido à tensão total da fonte, 20% acima da recomendada; o resistor de proteção não ajudaria (elimina A e B). O resistor de proteção precisa ficar em série, para \"absorver\" a tensão excedente.\n2. Seja <i>U</i> a tensão recomendada. A fonte fornece 1,2<i>U</i>; em série, o resistor deve ficar com 1,2<i>U</i> − <i>U</i> = 0,2<i>U</i>.\n3. Em série a corrente <i>i</i> é a mesma nos dois: <i>U</i> = R<sub>C</sub><i>i</i> e 0,2<i>U</i> = R<sub>P</sub><i>i</i>. Dividindo: \\(\\dfrac{\\mathrm{R}_\\mathrm{P}}{\\mathrm{R}_\\mathrm{C}} = 0,2\\), ou seja, R<sub>P</sub> = 0,2 R<sub>C</sub>.\n4. Circuito em série com R<sub>P</sub> = 0,2 R<sub>C</sub>.\nGabarito: E.",
   "topicos": [
     "associacao-de-resistores",
     "primeira-lei-de-ohm"
   ],
   "status": "publicado",
   "criadoEm": "2026-11-08T21:50:11.000Z",
-  "atualizadoEm": "2026-11-08T21:53:49.000Z",
+  "atualizadoEm": "2026-11-13T15:00:00.000Z",
   "revisao": {
     "notas": "Gabarito oficial do INEP (caderno 5, amarelo, aplicação regular), lido na transcrição publicada pelo O Povo em 19/11/2025; o PDF do INEP não pôde ser baixado nesta sessão. Conferido com a resolução."
   }

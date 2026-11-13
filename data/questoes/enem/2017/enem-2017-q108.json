@@ -13,14 +13,14 @@
   ],
   "gabarito": "E",
   "gabaritoFonte": "resolucao-propria",
-  "resolucao": "1. Do gráfico (sem amônia): para 1,0 V a corrente é 2,0 × 10<sup>−6</sup> A. Resistência nominal: <i>R</i> = <i>U</i>/<i>i</i> = 1,0/(2,0 × 10<sup>−6</sup>) = 5,0 × 10<sup>5</sup> Ω.\n2. Com altas concentrações de amônia, a resistência quadruplica: 4 · 5,0 × 10<sup>5</sup> = 2,0 × 10<sup>6</sup> Ω.\nGabarito: E.",
+  "resolucao": "1. Do gráfico (sem amônia): para 1,0 V a corrente é 2,0 × 10<sup>−6</sup> A. Resistência nominal: \\(R = \\dfrac{U}{i} = \\dfrac{1,0}{2,0 \\times 10^{-6}} = 5,0 \\times 10^5\\) Ω.\n2. Com altas concentrações de amônia, a resistência quadruplica: 4 · 5,0 × 10<sup>5</sup> = 2,0 × 10<sup>6</sup> Ω.\nGabarito: E.",
   "topicos": [
     "primeira-lei-de-ohm",
     "leitura-e-interpretacao-de-graficos"
   ],
   "status": "publicado",
   "criadoEm": "2026-11-08T23:30:12.000Z",
-  "atualizadoEm": "2026-11-08T23:33:00.000Z",
+  "atualizadoEm": "2026-11-13T15:00:00.000Z",
   "revisao": {
     "notas": "Gabarito da resolução própria; não foi encontrado um gabarito do caderno amarelo acessível nesta sessão. Q97 confere com a questão correspondente do caderno azul (Descomplica). Trocar para 'oficial' quando houver o PDF do INEP (2017_GB_impresso_D2_CD5.pdf)."
   }

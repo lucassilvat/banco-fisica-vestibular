@@ -13,14 +13,14 @@
   ],
   "gabarito": "D",
   "gabaritoFonte": "resolucao-propria",
-  "resolucao": "1. O volume de cada moeda é o aumento do nível da água quando ela é inserida (1 mL = 1 cm<sup>3</sup>): A: 5 → 7 mL (2 cm<sup>3</sup>); B: 7 → 10 mL (3 cm<sup>3</sup>); C: 10 → 12 mL (2 cm<sup>3</sup>); D: 12 → 16 mL (4 cm<sup>3</sup>).\n2. Densidades: A = 26/2 = 13 g/cm<sup>3</sup>; B = 27/3 = 9 g/cm<sup>3</sup>; C = 10/2 = 5 g/cm<sup>3</sup>; D = 36/4 = 9 g/cm<sup>3</sup>.\n3. Só B e D têm a densidade do cobre (9 g/cm<sup>3</sup>).\nGabarito: D.",
+  "resolucao": "1. O volume de cada moeda é o aumento do nível da água quando ela é inserida (1 mL = 1 cm<sup>3</sup>): A: 5 → 7 mL (2 cm<sup>3</sup>); B: 7 → 10 mL (3 cm<sup>3</sup>); C: 10 → 12 mL (2 cm<sup>3</sup>); D: 12 → 16 mL (4 cm<sup>3</sup>).\n2. Densidades: A = \\(\\dfrac{26}{2} = 13\\) g/cm<sup>3</sup>; B = \\(\\dfrac{27}{3} = 9\\) g/cm<sup>3</sup>; C = \\(\\dfrac{10}{2} = 5\\) g/cm<sup>3</sup>; D = \\(\\dfrac{36}{4} = 9\\) g/cm<sup>3</sup>.\n3. Só B e D têm a densidade do cobre (9 g/cm<sup>3</sup>).\nGabarito: D.",
   "topicos": [
     "densidade-e-massa-especifica",
     "leitura-e-interpretacao-de-graficos"
   ],
   "status": "publicado",
   "criadoEm": "2026-11-08T23:09:55.000Z",
-  "atualizadoEm": "2026-11-08T23:14:09.000Z",
+  "atualizadoEm": "2026-11-13T15:00:00.000Z",
   "revisao": {
     "notas": "Gabarito da resolução própria; não foi possível conferir com um gabarito publicado do caderno amarelo nesta sessão. Trocar para 'oficial' quando houver o PDF do INEP (2020_GB_impresso_D2_CD5.pdf). A única anulação de Ciências da Natureza no caderno amarelo (Q114) não é de Física."
   }

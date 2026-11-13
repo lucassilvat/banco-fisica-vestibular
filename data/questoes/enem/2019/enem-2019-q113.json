@@ -13,14 +13,14 @@
   ],
   "gabarito": "C",
   "gabaritoFonte": "resolucao-propria",
-  "resolucao": "1. Pela tabela, 10 g de castanha fornecem 70 kcal; então 2,5 g fornecem 70 · 2,5/10 = 17,5 kcal = 17 500 cal.\n2. Aproveitamento de 50%: a água recebe <i>Q</i> = 8 750 cal.\n3. <i>Q</i> = <i>mc</i>Δθ ⇒ Δθ = 8 750/(350 · 1) = 25 °C. Temperatura final: 20 + 25 = 45 °C.\nGabarito: C.",
+  "resolucao": "1. Pela tabela, 10 g de castanha fornecem 70 kcal; então 2,5 g fornecem \\(\\dfrac{70 \\cdot 2,5}{10} = 17,5\\) kcal = 17 500 cal.\n2. Aproveitamento de 50%: a água recebe <i>Q</i> = 8 750 cal.\n3. <i>Q</i> = <i>mc</i>Δθ ⇒ \\(\\Delta\\theta = \\dfrac{8 750}{350 \\cdot 1} = 25\\) °C. Temperatura final: 20 + 25 = 45 °C.\nGabarito: C.",
   "topicos": [
     "calor-sensivel-e-capacidade-termica",
     "potencia-e-rendimento"
   ],
   "status": "publicado",
   "criadoEm": "2026-11-08T23:17:39.000Z",
-  "atualizadoEm": "2026-11-08T23:21:22.000Z",
+  "atualizadoEm": "2026-11-13T15:00:00.000Z",
   "revisao": {
     "notas": "Gabarito da resolução própria. Q91, Q95, Q97, Q100 e Q103 conferem com o gabarito do caderno amarelo publicado pelo Estratégia (blog, 10 nov. 2019); Q120 e Q129 conferem com as questões correspondentes do caderno azul (Descomplica). Trocar para 'oficial' quando houver o PDF do INEP (2019_GB_impresso_D2_CD5.pdf)."
   }

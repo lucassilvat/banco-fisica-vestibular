@@ -7,20 +7,20 @@
   "fonte": {
     "descricao": "INEP, ENEM 2019, 2º dia (Ciências da Natureza e Matemática), caderno de questões aplicado, Caderno 5 Amarelo"
   },
-  "enunciado": "Numa feira de ciências, um estudante utilizará o disco de Maxwell (ioiô) para demonstrar o princípio da conservação da energia. A apresentação consistirá em duas etapas:\n\nEtapa 1 - a explicação de que, à medida que o disco desce, parte de sua energia potencial gravitacional é transformada em energia cinética de translação e energia cinética de rotação;\n\nEtapa 2 - o cálculo da energia cinética de rotação do disco no ponto mais baixo de sua trajetória, supondo o sistema conservativo.\n\nAo preparar a segunda etapa, ele considera a aceleração da gravidade igual a 10 m s<sup>−2</sup> e a velocidade linear do centro de massa do disco desprezível em comparação com a velocidade angular. Em seguida, mede a altura do topo do disco em relação ao chão no ponto mais baixo de sua trajetória, obtendo 1/3 da altura da haste do brinquedo.\n\nAs especificações de tamanho do brinquedo, isto é, de comprimento (C), largura (L) e altura (A), assim como da massa de seu disco de metal, foram encontradas pelo estudante no recorte de manual ilustrado a seguir.\n\n[[figura 1]]\n\nO resultado do cálculo da etapa 2, em joule, é:\n\n(A) 4,10 × 10<sup>−2</sup>\n(B) 8,20 × 10<sup>−2</sup>\n(C) 1,23 × 10<sup>−1</sup>\n(D) 8,20 × 10<sup>4</sup>\n(E) 1,23 × 10<sup>5</sup>",
+  "enunciado": "Numa feira de ciências, um estudante utilizará o disco de Maxwell (ioiô) para demonstrar o princípio da conservação da energia. A apresentação consistirá em duas etapas:\n\nEtapa 1 - a explicação de que, à medida que o disco desce, parte de sua energia potencial gravitacional é transformada em energia cinética de translação e energia cinética de rotação;\n\nEtapa 2 - o cálculo da energia cinética de rotação do disco no ponto mais baixo de sua trajetória, supondo o sistema conservativo.\n\nAo preparar a segunda etapa, ele considera a aceleração da gravidade igual a 10 m s<sup>−2</sup> e a velocidade linear do centro de massa do disco desprezível em comparação com a velocidade angular. Em seguida, mede a altura do topo do disco em relação ao chão no ponto mais baixo de sua trajetória, obtendo \\(\\dfrac{1}{3}\\) da altura da haste do brinquedo.\n\nAs especificações de tamanho do brinquedo, isto é, de comprimento (C), largura (L) e altura (A), assim como da massa de seu disco de metal, foram encontradas pelo estudante no recorte de manual ilustrado a seguir.\n\n[[figura 1]]\n\nO resultado do cálculo da etapa 2, em joule, é:\n\n(A) 4,10 × 10<sup>−2</sup>\n(B) 8,20 × 10<sup>−2</sup>\n(C) 1,23 × 10<sup>−1</sup>\n(D) 8,20 × 10<sup>4</sup>\n(E) 1,23 × 10<sup>5</sup>",
   "figuras": [
     "enem-2019-q97-1.png"
   ],
   "gabarito": "B",
   "gabaritoFonte": "resolucao-propria",
-  "resolucao": "1. A altura do brinquedo é <i>h</i> = 410 mm = 0,41 m. O disco parte do alto da haste e, no ponto mais baixo, seu topo fica a <i>h</i>/3: ele desce 2<i>h</i>/3, como indica a figura.\n2. Descida: Δ<i>h</i> = (2/3) · 0,41 ≈ 0,273 m.\n3. Sistema conservativo e energia cinética de translação desprezível: toda a energia potencial perdida vira energia cinética de rotação: <i>E</i> = <i>mg</i>Δ<i>h</i> = 0,030 · 10 · 0,273 ≈ 8,20 × 10<sup>−2</sup> J.\nGabarito: B.",
+  "resolucao": "1. A altura do brinquedo é <i>h</i> = 410 mm = 0,41 m. O disco parte do alto da haste e, no ponto mais baixo, seu topo fica a \\(\\dfrac{h}{3}\\): ele desce \\(\\dfrac{2h}{3}\\), como indica a figura.\n2. Descida: \\(\\Delta h = \\dfrac{2}{3} \\cdot 0,41 \\approx 0,273\\) m.\n3. Sistema conservativo e energia cinética de translação desprezível: toda a energia potencial perdida vira energia cinética de rotação: <i>E</i> = <i>mg</i>Δ<i>h</i> = 0,030 · 10 · 0,273 ≈ 8,20 × 10<sup>−2</sup> J.\nGabarito: B.",
   "topicos": [
     "conservacao-da-energia-mecanica",
     "energia-potencial-gravitacional"
   ],
   "status": "publicado",
   "criadoEm": "2026-11-08T23:17:39.000Z",
-  "atualizadoEm": "2026-11-08T23:21:22.000Z",
+  "atualizadoEm": "2026-11-13T15:00:00.000Z",
   "revisao": {
     "notas": "Gabarito da resolução própria. Q91, Q95, Q97, Q100 e Q103 conferem com o gabarito do caderno amarelo publicado pelo Estratégia (blog, 10 nov. 2019); Q120 e Q129 conferem com as questões correspondentes do caderno azul (Descomplica). Trocar para 'oficial' quando houver o PDF do INEP (2019_GB_impresso_D2_CD5.pdf)."
   }

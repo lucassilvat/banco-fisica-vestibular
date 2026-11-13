@@ -18,14 +18,14 @@
   ],
   "gabarito": "B",
   "gabaritoFonte": "oficial",
-  "resolucao": "1. Cada placa é um gerador com ε = 40 V (tensão em circuito aberto). Operando com 7,5 A, sua tensão é 34 V, então a resistência interna é <i>r</i> = (ε − <i>U</i>)/<i>i</i> = (40 − 34)/7,5 = 0,8 Ω.\n2. A bomba precisa de 100 V ± 5 V, isto é, entre 95 V e 105 V. Placas em série somam as tensões de operação: 2 placas dão 68 V (pouco); 3 placas dão 3 · 34 = 102 V (dentro da faixa). O menor número é 3.\n3. Gerador equivalente de 3 placas em série: ε<sub>eq</sub> = 3 · 40 = 120 V e <i>r</i><sub>eq</sub> = 3 · 0,8 = 2,4 Ω.\n4. Conferência: <i>U</i> = 120 − 2,4 · 7,5 = 102 V na bomba. A alternativa D usa os 102 V como se fossem a fem, o que é um erro.\nGabarito: B.",
+  "resolucao": "1. Cada placa é um gerador com ε = 40 V (tensão em circuito aberto). Operando com 7,5 A, sua tensão é 34 V, então a resistência interna é \\(r = \\dfrac{\\varepsilon - U}{i} = \\dfrac{40 - 34}{7,5} = 0,8\\) Ω.\n2. A bomba precisa de 100 V ± 5 V, isto é, entre 95 V e 105 V. Placas em série somam as tensões de operação: 2 placas dão 68 V (pouco); 3 placas dão 3 · 34 = 102 V (dentro da faixa). O menor número é 3.\n3. Gerador equivalente de 3 placas em série: ε<sub>eq</sub> = 3 · 40 = 120 V e <i>r</i><sub>eq</sub> = 3 · 0,8 = 2,4 Ω.\n4. Conferência: <i>U</i> = 120 − 2,4 · 7,5 = 102 V na bomba. A alternativa D usa os 102 V como se fossem a fem, o que é um erro.\nGabarito: B.",
   "topicos": [
     "geradores-eletricos-fem-e-resistencia-interna",
     "primeira-lei-de-ohm"
   ],
   "status": "publicado",
   "criadoEm": "2026-11-08T21:50:11.000Z",
-  "atualizadoEm": "2026-11-08T21:53:49.000Z",
+  "atualizadoEm": "2026-11-13T15:00:00.000Z",
   "revisao": {
     "notas": "Gabarito oficial do INEP (caderno 5, amarelo, aplicação regular), lido na transcrição publicada pelo O Povo em 19/11/2025; o PDF do INEP não pôde ser baixado nesta sessão. Conferido com a resolução."
   }

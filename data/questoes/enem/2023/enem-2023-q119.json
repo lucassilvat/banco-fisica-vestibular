@@ -17,7 +17,7 @@
   ],
   "gabarito": "E",
   "gabaritoFonte": "resolucao-propria",
-  "resolucao": "1. Volume e quantidade de ar constantes: transformação isocórica. Pela equação dos gases ideais, <i>P</i>/<i>T</i> = constante, com <i>T</i> em kelvin; a pressão é diretamente proporcional à temperatura absoluta.\n2. No gráfico <i>P</i> × <i>T</i> (em K), o processo é um segmento de reta cujo prolongamento passa pela origem.\n3. No resfriamento, a temperatura cai de <i>T</i><sub>0</sub> para <i>T</i>, e a pressão cai junto, a partir de <i>P</i><sub>0</sub>. É o que mostra o gráfico E (reta crescente percorrida no sentido da diminuição). Em A e B a pressão não acompanha a temperatura; em C e D a pressão aumenta ao esfriar.\nGabarito: E.",
+  "resolucao": "1. Volume e quantidade de ar constantes: transformação isocórica. Pela equação dos gases ideais, \\(\\dfrac{P}{T}\\) = constante, com <i>T</i> em kelvin; a pressão é diretamente proporcional à temperatura absoluta.\n2. No gráfico <i>P</i> × <i>T</i> (em K), o processo é um segmento de reta cujo prolongamento passa pela origem.\n3. No resfriamento, a temperatura cai de <i>T</i><sub>0</sub> para <i>T</i>, e a pressão cai junto, a partir de <i>P</i><sub>0</sub>. É o que mostra o gráfico E (reta crescente percorrida no sentido da diminuição). Em A e B a pressão não acompanha a temperatura; em C e D a pressão aumenta ao esfriar.\nGabarito: E.",
   "topicos": [
     "transformacoes-gasosas-isotermica-isobarica-isocorica-adiabatica",
     "gas-ideal-e-equacao-de-clapeyron",
@@ -25,7 +25,7 @@
   ],
   "status": "publicado",
   "criadoEm": "2026-11-08T22:47:12.000Z",
-  "atualizadoEm": "2026-11-08T22:50:32.000Z",
+  "atualizadoEm": "2026-11-13T15:00:00.000Z",
   "revisao": {
     "notas": "Gabarito da resolução própria; confere com o gabarito do caderno amarelo publicado pela Estratégia Vestibulares. Trocar para 'oficial' quando houver o PDF do INEP (2023_GB_impresso_D2_CD5.pdf)."
   }

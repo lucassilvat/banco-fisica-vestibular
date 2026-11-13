@@ -13,14 +13,14 @@
   ],
   "gabarito": "D",
   "gabaritoFonte": "resolucao-propria",
-  "resolucao": "1. No ponto em que a atleta está, atuam o peso (800 N, para baixo) e as trações das duas metades da fita, iguais por simetria e inclinadas 10° com a horizontal.\n2. Equilíbrio na vertical: 2<i>T</i> sen 10° = <i>P</i> ⇒ 2<i>T</i> · 0,17 = 800 ⇒ <i>T</i> = 800/0,34 ≈ 2 353 N.\n3. Essa é a força que a fita exerce em cada árvore: ≈ 2,4 × 10<sup>3</sup> N. Ângulos pequenos geram trações bem maiores que o peso.\nGabarito: D.",
+  "resolucao": "1. No ponto em que a atleta está, atuam o peso (800 N, para baixo) e as trações das duas metades da fita, iguais por simetria e inclinadas 10° com a horizontal.\n2. Equilíbrio na vertical: 2<i>T</i> sen 10° = <i>P</i> ⇒ 2<i>T</i> · 0,17 = 800 ⇒ \\(T = \\dfrac{800}{0,34} \\approx 2 353\\) N.\n3. Essa é a força que a fita exerce em cada árvore: ≈ 2,4 × 10<sup>3</sup> N. Ângulos pequenos geram trações bem maiores que o peso.\nGabarito: D.",
   "topicos": [
     "equilibrio-do-ponto-material",
     "vetores-soma-e-decomposicao"
   ],
   "status": "publicado",
   "criadoEm": "2026-11-08T23:17:39.000Z",
-  "atualizadoEm": "2026-11-08T23:21:22.000Z",
+  "atualizadoEm": "2026-11-13T15:00:00.000Z",
   "revisao": {
     "notas": "Gabarito da resolução própria. Q91, Q95, Q97, Q100 e Q103 conferem com o gabarito do caderno amarelo publicado pelo Estratégia (blog, 10 nov. 2019); Q120 e Q129 conferem com as questões correspondentes do caderno azul (Descomplica). Trocar para 'oficial' quando houver o PDF do INEP (2019_GB_impresso_D2_CD5.pdf)."
   }

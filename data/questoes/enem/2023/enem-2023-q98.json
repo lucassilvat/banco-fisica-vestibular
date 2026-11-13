@@ -13,14 +13,14 @@
   ],
   "gabarito": "C",
   "gabaritoFonte": "resolucao-propria",
-  "resolucao": "1. Cada conjunto (lâmpada de resistência <i>r</i> em paralelo com <i>R</i>) tem resistência <i>rR</i>/(<i>r</i> + <i>R</i>), menor que <i>R</i>.\n2. Quando L<sub>2</sub> queima, o seu conjunto passa a ser só o resistor <i>R</i>: a resistência desse trecho aumenta e, com ela, a resistência total do circuito em série.\n3. Com a tensão da fonte constante, a corrente total diminui. Os conjuntos de L<sub>1</sub> e L<sub>3</sub> não mudaram, então recebem menos corrente e menos tensão: <i>P</i> = <i>U</i><sup>2</sup>/<i>r</i> diminui nas duas lâmpadas, que ficam igualmente menos brilhantes.\nGabarito: C.",
+  "resolucao": "1. Cada conjunto (lâmpada de resistência <i>r</i> em paralelo com <i>R</i>) tem resistência \\(\\dfrac{rR}{r + R}\\), menor que <i>R</i>.\n2. Quando L<sub>2</sub> queima, o seu conjunto passa a ser só o resistor <i>R</i>: a resistência desse trecho aumenta e, com ela, a resistência total do circuito em série.\n3. Com a tensão da fonte constante, a corrente total diminui. Os conjuntos de L<sub>1</sub> e L<sub>3</sub> não mudaram, então recebem menos corrente e menos tensão: \\(P = \\dfrac{U^2}{r}\\) diminui nas duas lâmpadas, que ficam igualmente menos brilhantes.\nGabarito: C.",
   "topicos": [
     "associacao-de-resistores",
     "potencia-eletrica-e-efeito-joule"
   ],
   "status": "publicado",
   "criadoEm": "2026-11-08T22:47:12.000Z",
-  "atualizadoEm": "2026-11-08T22:50:32.000Z",
+  "atualizadoEm": "2026-11-13T15:00:00.000Z",
   "revisao": {
     "notas": "Gabarito da resolução própria; confere com o gabarito do caderno amarelo publicado pela Estratégia Vestibulares. Trocar para 'oficial' quando houver o PDF do INEP (2023_GB_impresso_D2_CD5.pdf)."
   }

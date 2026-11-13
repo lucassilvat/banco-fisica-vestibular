@@ -11,14 +11,14 @@
   "figuras": [],
   "gabarito": "A",
   "gabaritoFonte": "resolucao-propria",
-  "resolucao": "1. Velocidade ao atingir o capacete (queda livre de 5 m): <i>v</i><sup>2</sup> = 2<i>gh</i> = 2 · 10 · 5 = 100 ⇒ <i>v</i> = 10 m/s.\n2. O tijolo para no impacto: |Δ<i>Q</i>| = <i>mv</i> = 2,5 · 10 = 25 kg·m/s.\n3. Força impulsiva média: <i>F</i> = |Δ<i>Q</i>|/Δ<i>t</i> = 25/0,5 = 50 N. O peso de um tijolo é 2,5 · 10 = 25 N, então a força equivale ao peso de 50/25 = 2 tijolos.\nGabarito: A.",
+  "resolucao": "1. Velocidade ao atingir o capacete (queda livre de 5 m): <i>v</i><sup>2</sup> = 2<i>gh</i> = 2 · 10 · 5 = 100 ⇒ <i>v</i> = 10 m/s.\n2. O tijolo para no impacto: |Δ<i>Q</i>| = <i>mv</i> = 2,5 · 10 = 25 kg·m/s.\n3. Força impulsiva média: \\(F = \\dfrac{\\left|\\Delta Q\\right|}{\\Delta t} = \\dfrac{25}{0,5} = 50\\) N. O peso de um tijolo é 2,5 · 10 = 25 N, então a força equivale ao peso de \\(\\dfrac{50}{25} = 2\\) tijolos.\nGabarito: A.",
   "topicos": [
     "impulso-e-quantidade-de-movimento",
     "queda-livre-e-lancamento-vertical"
   ],
   "status": "publicado",
   "criadoEm": "2026-11-08T23:17:39.000Z",
-  "atualizadoEm": "2026-11-08T23:21:22.000Z",
+  "atualizadoEm": "2026-11-13T15:00:00.000Z",
   "revisao": {
     "notas": "Gabarito da resolução própria. Q91, Q95, Q97, Q100 e Q103 conferem com o gabarito do caderno amarelo publicado pelo Estratégia (blog, 10 nov. 2019); Q120 e Q129 conferem com as questões correspondentes do caderno azul (Descomplica). Trocar para 'oficial' quando houver o PDF do INEP (2019_GB_impresso_D2_CD5.pdf)."
   }

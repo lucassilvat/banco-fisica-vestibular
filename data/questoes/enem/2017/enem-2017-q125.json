@@ -11,14 +11,14 @@
   "figuras": [],
   "gabarito": "E",
   "gabaritoFonte": "resolucao-propria",
-  "resolucao": "1. Até 14,0 m/s os dois fazem o mesmo percurso. O desatento continua acelerando a 1,00 m/s<sup>2</sup> por mais 1,00 s: percorre 14,0 · 1 + 1 · 1<sup>2</sup>/2 = 14,5 m e chega a 15,0 m/s.\n2. Frenagem (Torricelli, <i>d</i> = <i>v</i><sup>2</sup>/2<i>a</i>): atento: 14<sup>2</sup>/10 = 19,6 m; desatento: 15<sup>2</sup>/10 = 22,5 m.\n3. Distância a mais: 14,5 + (22,5 − 19,6) = 14,5 + 2,9 = 17,4 m.\nGabarito: E.",
+  "resolucao": "1. Até 14,0 m/s os dois fazem o mesmo percurso. O desatento continua acelerando a 1,00 m/s<sup>2</sup> por mais 1,00 s: percorre \\(14,0 \\cdot 1 + \\dfrac{1 \\cdot 1^2}{2} = 14,5\\) m e chega a 15,0 m/s.\n2. Frenagem (Torricelli, \\(d = \\dfrac{v^2}{2a}\\)): atento: \\(\\dfrac{14^2}{10} = 19,6\\) m; desatento: \\(\\dfrac{15^2}{10} = 22,5\\) m.\n3. Distância a mais: 14,5 + (22,5 − 19,6) = 14,5 + 2,9 = 17,4 m.\nGabarito: E.",
   "topicos": [
     "movimento-retilineo-uniformemente-variado-mruv",
     "velocidade-media-e-aceleracao-media"
   ],
   "status": "publicado",
   "criadoEm": "2026-11-08T23:30:12.000Z",
-  "atualizadoEm": "2026-11-08T23:33:00.000Z",
+  "atualizadoEm": "2026-11-13T15:00:00.000Z",
   "revisao": {
     "notas": "Gabarito da resolução própria; não foi encontrado um gabarito do caderno amarelo acessível nesta sessão. Q97 confere com a questão correspondente do caderno azul (Descomplica). Trocar para 'oficial' quando houver o PDF do INEP (2017_GB_impresso_D2_CD5.pdf)."
   }
