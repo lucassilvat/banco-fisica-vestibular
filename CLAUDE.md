@@ -17,6 +17,9 @@ Responda e escreva documentação em português do Brasil.
    (ver `docs/CRITERIOS.md`).
 4. **Resolução comentada passo a passo** em toda questão revisada.
 5. Na dúvida se uma questão é de Física, mostrar a lista ao Lucas antes de transcrever.
+6. **Merge só pelo Lucas.** Mudanças sobem ao GitHub num ramo novo, com pull request para
+   o `main`. Nunca enviar direto ao `main` nem fazer o merge do pull request, mesmo que
+   haja permissão para isso: o merge é sempre feito pelo Lucas.
 
 ## Fluxo
 
