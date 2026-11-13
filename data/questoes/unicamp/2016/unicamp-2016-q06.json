@@ -11,12 +11,12 @@
   "figuras": [],
   "gabarito": "C",
   "gabaritoFonte": "resolucao-propria",
-  "resolucao": "1. Colisão perfeitamente inelástica: a quantidade de movimento se conserva. Adote positivo o sentido das partículas.\n2. <i>Q</i><sub>antes</sub> = 5 · 2 × 10<sup>5</sup> − 95 · 4 × 10<sup>3</sup> = 1,0 × 10<sup>6</sup> − 3,8 × 10<sup>5</sup> = 6,2 × 10<sup>5</sup> kg·m/s.\n3. <i>v</i> = <i>Q</i>/(<i>m</i><sub>p</sub> + <i>M</i><sub>s</sub>) = 6,2 × 10<sup>5</sup>/100 = 6200 m/s.",
+  "resolucao": "1. Colisão perfeitamente inelástica: a quantidade de movimento se conserva. Adote positivo o sentido das partículas.\n2. <i>Q</i><sub>antes</sub> = 5 · 2 × 10<sup>5</sup> − 95 · 4 × 10<sup>3</sup> = 1,0 × 10<sup>6</sup> − 3,8 × 10<sup>5</sup> = 6,2 × 10<sup>5</sup> kg·m/s.\n3. \\(v = \\dfrac{Q}{m_{\\text{p}} + M_{\\text{s}}} = \\dfrac{6,2 \\times 10^5}{100} = 6200\\) m/s.",
   "topicos": [
     "conservacao-da-quantidade-de-movimento",
     "colisoes-elasticas-e-inelasticas"
   ],
   "status": "publicado",
   "criadoEm": "2026-10-07T11:30:00.000Z",
-  "atualizadoEm": "2026-10-07T11:30:00.000Z"
+  "atualizadoEm": "2026-11-13T12:00:00.000Z"
 }

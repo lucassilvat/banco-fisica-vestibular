@@ -13,7 +13,7 @@
   ],
   "gabarito": "B",
   "gabaritoFonte": "resolucao-propria",
-  "resolucao": "1. A melhor resolução usa o menor comprimento de onda visível, ou seja, a maior frequência: <i>λ</i> = <i>c</i>/<i>f</i> = 3 × 10<sup>8</sup>/7,5 × 10<sup>14</sup> = 4,0 × 10<sup>−7</sup> m = 400 nm.\n2. Só se veem estruturas de 400 nm ou mais. Pela figura: ribossomo 25 nm (não), retículo 420 nm, mitocôndria 1000 nm, cloroplasto 2000 nm.\n3. A menor visível é o retículo endoplasmático.",
+  "resolucao": "1. A melhor resolução usa o menor comprimento de onda visível, ou seja, a maior frequência: \\(\\lambda = \\dfrac{c}{f} = \\dfrac{3 \\times 10^8}{7,5 \\times 10^{14}} = 4,0 \\times 10^{-7}\\) m = 400 nm.\n2. Só se veem estruturas de 400 nm ou mais. Pela figura: ribossomo 25 nm (não), retículo 420 nm, mitocôndria 1000 nm, cloroplasto 2000 nm.\n3. A menor visível é o retículo endoplasmático.",
   "topicos": [
     "equacao-fundamental-da-ondulatoria-v-f",
     "espectro-eletromagnetico",
@@ -21,7 +21,7 @@
   ],
   "status": "publicado",
   "criadoEm": "2026-10-07T11:30:00.000Z",
-  "atualizadoEm": "2026-10-07T11:30:00.000Z",
+  "atualizadoEm": "2026-11-13T12:00:00.000Z",
   "revisao": {
     "divergenciasAceitas": [
       "historia"

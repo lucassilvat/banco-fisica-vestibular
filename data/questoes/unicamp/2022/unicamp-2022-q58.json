@@ -11,12 +11,12 @@
   "figuras": [],
   "gabarito": "B",
   "gabaritoFonte": "resolucao-propria",
-  "resolucao": "1. A aceleração gravitacional é a força por unidade de massa: <i>g</i> = <i>F</i>/<i>m</i> = <i>GM</i>/<i>r</i><sup>2</sup>.\n2. Converta a distância: <i>r</i> = 1,0 × 10<sup>7</sup> km = 1,0 × 10<sup>10</sup> m.\n3. <i>g</i> = (6,7 × 10<sup>−11</sup> · 2,0 × 10<sup>30</sup>) / (1,0 × 10<sup>10</sup>)<sup>2</sup> = 13,4 × 10<sup>19</sup> / 10<sup>20</sup> = 1,34 m/s<sup>2</sup>.",
+  "resolucao": "1. A aceleração gravitacional é a força por unidade de massa: \\(g = \\dfrac{F}{m} = \\dfrac{GM}{r^2}\\).\n2. Converta a distância: <i>r</i> = 1,0 × 10<sup>7</sup> km = 1,0 × 10<sup>10</sup> m.\n3. \\(g = \\dfrac{6,7 \\times 10^{-11} \\cdot 2,0 \\times 10^{30}}{(1,0 \\times 10^{10})^2} = \\dfrac{13,4 \\times 10^{19}}{10^{20}} = 1,34\\) m/s<sup>2</sup>.",
   "topicos": [
     "lei-da-gravitacao-universal",
     "aceleracao-da-gravidade-e-altitude"
   ],
   "status": "publicado",
   "criadoEm": "2026-10-06T17:30:00.000Z",
-  "atualizadoEm": "2026-10-06T17:30:00.000Z"
+  "atualizadoEm": "2026-11-13T12:00:00.000Z"
 }

@@ -14,12 +14,12 @@
   ],
   "gabarito": "A",
   "gabaritoFonte": "resolucao-propria",
-  "resolucao": "1. Em P a resultante é nula, logo <i>a</i> = 0. No gráfico, isso ocorre em <i>r</i>/<i>d</i> ≈ 0,9.\n2. Distância ao centro da Terra: <i>r</i> ≈ 0,9 · 380 000 = 342 000 km.\n3. Distância ao centro da Lua: <i>d</i> − <i>r</i> ≈ 0,1 · 380 000 = 38 000 km.",
+  "resolucao": "1. Em P a resultante é nula, logo <i>a</i> = 0. No gráfico, isso ocorre em \\(\\dfrac{r}{d} \\approx 0,9\\).\n2. Distância ao centro da Terra: <i>r</i> ≈ 0,9 · 380 000 = 342 000 km.\n3. Distância ao centro da Lua: <i>d</i> − <i>r</i> ≈ 0,1 · 380 000 = 38 000 km.",
   "topicos": [
     "lei-da-gravitacao-universal",
     "leitura-e-interpretacao-de-graficos"
   ],
   "status": "publicado",
   "criadoEm": "2026-10-06T17:30:00.000Z",
-  "atualizadoEm": "2026-10-06T17:30:00.000Z"
+  "atualizadoEm": "2026-11-13T12:00:00.000Z"
 }

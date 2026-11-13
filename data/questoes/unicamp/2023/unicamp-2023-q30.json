@@ -11,11 +11,11 @@
   "figuras": [],
   "gabarito": "D",
   "gabaritoFonte": "resolucao-propria",
-  "resolucao": "1. Partindo do repouso no MUV: <i>h</i> = <i>a t</i><sup>2</sup>/2.\n2. <i>a</i> = 2<i>h</i>/<i>t</i><sup>2</sup> = 2 · 80/40<sup>2</sup> = 160/1600 = 0,1 m/s<sup>2</sup>.",
+  "resolucao": "1. Partindo do repouso no MUV: \\(h = \\dfrac{a t^2}{2}\\).\n2. \\(a = \\dfrac{2h}{t^2} = \\dfrac{2 \\cdot 80}{40^2} = \\dfrac{160}{1600} = 0,1\\) m/s<sup>2</sup>.",
   "topicos": [
     "movimento-retilineo-uniformemente-variado-mruv"
   ],
   "status": "publicado",
   "criadoEm": "2026-10-06T17:30:00.000Z",
-  "atualizadoEm": "2026-10-06T17:30:00.000Z"
+  "atualizadoEm": "2026-11-13T12:00:00.000Z"
 }

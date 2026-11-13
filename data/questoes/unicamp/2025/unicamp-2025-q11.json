@@ -11,12 +11,12 @@
   "figuras": [],
   "gabarito": "B",
   "gabaritoFonte": "resolucao-propria",
-  "resolucao": "1. Os dois feixes se propagam no mesmo meio, então têm a mesma velocidade: <i>v</i><sub>2</sub> = <i>v</i><sub>1</sub> (descarta c e d).\n2. Pela equação fundamental, <i>f</i> = <i>v</i>/<i>λ</i>: com a mesma velocidade, o maior comprimento de onda tem a menor frequência.\n3. Como <i>λ</i><sub>2</sub> = 350 nm > <i>λ</i><sub>1</sub> = 128 nm, temos <i>f</i><sub>2</sub> < <i>f</i><sub>1</sub>.",
+  "resolucao": "1. Os dois feixes se propagam no mesmo meio, então têm a mesma velocidade: <i>v</i><sub>2</sub> = <i>v</i><sub>1</sub> (descarta c e d).\n2. Pela equação fundamental, \\(f = \\dfrac{v}{\\lambda}\\): com a mesma velocidade, o maior comprimento de onda tem a menor frequência.\n3. Como <i>λ</i><sub>2</sub> = 350 nm > <i>λ</i><sub>1</sub> = 128 nm, temos <i>f</i><sub>2</sub> < <i>f</i><sub>1</sub>.",
   "topicos": [
     "equacao-fundamental-da-ondulatoria-v-f",
     "espectro-eletromagnetico"
   ],
   "status": "publicado",
   "criadoEm": "2026-10-06T17:30:00.000Z",
-  "atualizadoEm": "2026-10-06T17:30:00.000Z"
+  "atualizadoEm": "2026-11-13T12:00:00.000Z"
 }

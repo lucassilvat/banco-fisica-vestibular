@@ -11,7 +11,7 @@
   "figuras": [],
   "gabarito": "B",
   "gabaritoFonte": "resolucao-propria",
-  "resolucao": "1. Como a gravidade faz o papel de resultante centrípeta: <i>g</i><sub>orb</sub> = <i>v</i><sup>2</sup>/<i>R</i> ⇒ <i>R</i> = <i>v</i><sup>2</sup>/<i>g</i><sub>orb</sub> = (1600)<sup>2</sup>/1,4 ≈ 1,83 × 10<sup>6</sup> m.\n2. No MCU, <i>T</i> = 2π<i>R</i>/<i>v</i> = (2 · 3 · 1,83 × 10<sup>6</sup>)/1600 ≈ 6,9 × 10<sup>3</sup> s (π = 3, conforme a instrução da prova).\n3. 6,9 × 10<sup>3</sup> s ≈ 1,9 h ≈ 2,0 h.",
+  "resolucao": "1. Como a gravidade faz o papel de resultante centrípeta: \\(g_{\\text{orb}} = \\dfrac{v^2}{R} \\Rightarrow R = \\dfrac{v^2}{g_{\\text{orb}}} = \\dfrac{(1600)^2}{1,4} \\approx 1,83 \\times 10^6\\) m.\n2. No MCU, \\(T = \\dfrac{2\\pi R}{v} = \\dfrac{2 \\cdot 3 \\cdot 1,83 \\times 10^6}{1600} \\approx 6,9 \\times 10^3\\) s (π = 3, conforme a instrução da prova).\n3. 6,9 × 10<sup>3</sup> s ≈ 1,9 h ≈ 2,0 h.",
   "topicos": [
     "satelites-orbitas-e-imponderabilidade",
     "resultante-centripeta-curvas-loop-globo-da-morte",
@@ -19,5 +19,5 @@
   ],
   "status": "publicado",
   "criadoEm": "2026-10-06T17:30:00.000Z",
-  "atualizadoEm": "2026-10-06T17:30:00.000Z"
+  "atualizadoEm": "2026-11-13T12:00:00.000Z"
 }

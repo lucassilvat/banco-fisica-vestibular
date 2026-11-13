@@ -11,12 +11,12 @@
   "figuras": [],
   "gabarito": "B",
   "gabaritoFonte": "resolucao-propria",
-  "resolucao": "1. Potência elétrica: <i>P</i> = <i>U i</i>.\n2. <i>i</i> = <i>P</i>/<i>U</i> = 3,0/12 = 0,25 A. Alternativa b.\n3. Observação: 4,0 A (c) é <i>U</i>/<i>P</i> e 36 A (d) é <i>P</i> · <i>U</i>, combinações sem sentido físico.",
+  "resolucao": "1. Potência elétrica: <i>P</i> = <i>U i</i>.\n2. \\(i = \\dfrac{P}{U} = \\dfrac{3,0}{12} = 0,25\\) A. Alternativa b.\n3. Observação: 4,0 A (c) é \\(\\dfrac{U}{P}\\) e 36 A (d) é <i>P</i> · <i>U</i>, combinações sem sentido físico.",
   "topicos": [
     "potencia-eletrica-e-efeito-joule",
     "corrente-eletrica"
   ],
   "status": "publicado",
   "criadoEm": "2026-11-01T01:52:45.000Z",
-  "atualizadoEm": "2026-11-01T01:54:49.000Z"
+  "atualizadoEm": "2026-11-13T12:00:00.000Z"
 }

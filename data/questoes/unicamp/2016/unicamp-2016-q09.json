@@ -13,12 +13,12 @@
   ],
   "gabarito": "B",
   "gabaritoFonte": "resolucao-propria",
-  "resolucao": "1. <i>v</i> = 18 km/h = 5 m/s; <i>r</i> = 0,25 m.\n2. <i>v</i> = 2π<i>r f</i> ⇒ <i>f</i> = 5/(2 · 3 · 0,25) = 10/3 Hz.\n3. Em rotações por minuto: (10/3) · 60 = 200 rpm.",
+  "resolucao": "1. <i>v</i> = 18 km/h = 5 m/s; <i>r</i> = 0,25 m.\n2. \\(v = 2\\pi r f \\Rightarrow f = \\dfrac{5}{2 \\cdot 3 \\cdot 0,25} = \\dfrac{10}{3}\\) Hz.\n3. Em rotações por minuto: \\(\\dfrac{10}{3} \\cdot 60 = 200\\) rpm.",
   "topicos": [
     "movimento-circular-uniforme-mcu",
     "periodo-frequencia-e-velocidade-angular"
   ],
   "status": "publicado",
   "criadoEm": "2026-10-07T11:30:00.000Z",
-  "atualizadoEm": "2026-10-07T11:30:00.000Z"
+  "atualizadoEm": "2026-11-13T12:00:00.000Z"
 }

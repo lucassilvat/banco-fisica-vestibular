@@ -12,11 +12,11 @@
   "figuras": [],
   "gabarito": "B",
   "gabaritoFonte": "resolucao-propria",
-  "resolucao": "<i>P</i> = <i>U i</i> ⇒ <i>i</i> = 60/100 = 0,60 A.",
+  "resolucao": "\\(P = U i \\Rightarrow i = \\dfrac{60}{100} = 0,60\\) A.",
   "topicos": [
     "potencia-eletrica-e-efeito-joule"
   ],
   "status": "publicado",
   "criadoEm": "2026-10-07T11:30:00.000Z",
-  "atualizadoEm": "2026-10-07T11:30:00.000Z"
+  "atualizadoEm": "2026-11-13T12:00:00.000Z"
 }

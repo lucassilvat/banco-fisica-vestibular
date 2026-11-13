@@ -159,8 +159,13 @@ documentos cada), grave-os no banco do app e finalize com:
 
 ```
 python -m pipeline publicar marcar unicamp-2015
+git switch -c unicamp-2015
 git add -A && git commit -m "Unicamp 2015: 8 questões de Física"
+git push -u origin unicamp-2015
 ```
+
+Abra um pull request do ramo para o `main`. O merge é sempre feito pelo Lucas: o Claude
+não envia direto ao `main` nem faz o merge.
 
 ---
 

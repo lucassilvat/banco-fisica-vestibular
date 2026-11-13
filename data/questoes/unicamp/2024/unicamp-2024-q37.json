@@ -13,7 +13,7 @@
   ],
   "gabarito": "A",
   "gabaritoFonte": "resolucao-propria",
-  "resolucao": "1. No gráfico, para <i>T</i><sub>ar</sub> = 4800 K a curva corta a linha de 5 GHz: <i>f</i><sub>0</sub> = 5 × 10<sup>9</sup> Hz.\n2. <i>λ</i><sub>0</sub> = <i>c</i>/<i>f</i><sub>0</sub> = 3,0 × 10<sup>8</sup>/5 × 10<sup>9</sup> = 0,06 m.",
+  "resolucao": "1. No gráfico, para <i>T</i><sub>ar</sub> = 4800 K a curva corta a linha de 5 GHz: <i>f</i><sub>0</sub> = 5 × 10<sup>9</sup> Hz.\n2. \\(\\lambda_0 = \\dfrac{c}{f_0} = \\dfrac{3,0 \\times 10^8}{5 \\times 10^9} = 0,06\\) m.",
   "topicos": [
     "equacao-fundamental-da-ondulatoria-v-f",
     "espectro-eletromagnetico",
@@ -22,5 +22,5 @@
   ],
   "status": "publicado",
   "criadoEm": "2026-10-06T17:30:00.000Z",
-  "atualizadoEm": "2026-10-06T17:30:00.000Z"
+  "atualizadoEm": "2026-11-13T12:00:00.000Z"
 }

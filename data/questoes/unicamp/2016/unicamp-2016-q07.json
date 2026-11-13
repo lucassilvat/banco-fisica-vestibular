@@ -16,7 +16,7 @@
   ],
   "gabarito": "A",
   "gabaritoFonte": "resolucao-propria",
-  "resolucao": "1. Com a mesma tensão da rede, <i>P</i> = <i>U</i><sup>2</sup>/<i>R</i>: maior potência exige menor resistência.\n2. Logo: MQ ↔ menor resistência (<i>R</i>), Q ↔ 2<i>R</i>, M ↔ maior resistência (3<i>R</i>).\n3. No esquema a), entre N e MQ há um resistor, entre N e Q há dois e entre N e M há três. É o único que atende a essa ordem.",
+  "resolucao": "1. Com a mesma tensão da rede, \\(P = \\dfrac{U^2}{R}\\): maior potência exige menor resistência.\n2. Logo: MQ ↔ menor resistência (<i>R</i>), Q ↔ 2<i>R</i>, M ↔ maior resistência (3<i>R</i>).\n3. No esquema a), entre N e MQ há um resistor, entre N e Q há dois e entre N e M há três. É o único que atende a essa ordem.",
   "topicos": [
     "associacao-de-resistores",
     "potencia-eletrica-e-efeito-joule",
@@ -24,5 +24,5 @@
   ],
   "status": "publicado",
   "criadoEm": "2026-10-07T11:30:00.000Z",
-  "atualizadoEm": "2026-10-07T11:30:00.000Z"
+  "atualizadoEm": "2026-11-13T12:00:00.000Z"
 }

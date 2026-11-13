@@ -11,12 +11,12 @@
   "figuras": [],
   "gabarito": "D",
   "gabaritoFonte": "resolucao-propria",
-  "resolucao": "1. <i>T</i> = 7 + 273 = 280 K; <i>V</i> = 24 ml = 24 × 10<sup>−6</sup> m<sup>3</sup>.\n2. <i>n</i> = <i>p V</i>/(<i>R T</i>) = 2,8 × 10<sup>5</sup> · 24 × 10<sup>−6</sup>/(8 · 280) = 6,72/2240 = 3,0 × 10<sup>−3</sup> mol.",
+  "resolucao": "1. <i>T</i> = 7 + 273 = 280 K; <i>V</i> = 24 ml = 24 × 10<sup>−6</sup> m<sup>3</sup>.\n2. \\(n = \\dfrac{pV}{RT} = \\dfrac{2,8 \\times 10^5 \\cdot 24 \\times 10^{-6}}{8 \\cdot 280} = \\dfrac{6,72}{2240} = 3,0 \\times 10^{-3}\\) mol.",
   "topicos": [
     "gas-ideal-e-equacao-de-clapeyron",
     "temperatura-e-escalas-termometricas"
   ],
   "status": "publicado",
   "criadoEm": "2026-10-07T11:30:00.000Z",
-  "atualizadoEm": "2026-10-07T11:30:00.000Z"
+  "atualizadoEm": "2026-11-13T12:00:00.000Z"
 }

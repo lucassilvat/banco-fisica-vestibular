@@ -11,12 +11,12 @@
   "figuras": [],
   "gabarito": "A",
   "gabaritoFonte": "resolucao-propria",
-  "resolucao": "1. A 2ª lei nos <i>Principia</i>: a variação do <b>movimento</b> (quantidade de movimento) é proporcional à <b>força</b> motriz imprimida e ocorre ao longo da linha <b>reta</b> em que essa força é <b>imprimida</b>. Lacunas (1) a (4): motion, force, straight, impressed.\n2. Um impulso instantâneo, como num choque, é o caso <b>discreto</b> (5). A desaceleração contínua num meio resistente é a ação <b>contínua</b> (6).\n3. Em linguagem atual: <i>F</i>Δ<i>t</i> = Δ(<i>mv</i>) cobre os impulsos (casos discretos), e <i>F</i> = Δ(<i>mv</i>)/Δ<i>t</i> cobre as forças contínuas. Alternativa a.",
+  "resolucao": "1. A 2ª lei nos <i>Principia</i>: a variação do <b>movimento</b> (quantidade de movimento) é proporcional à <b>força</b> motriz imprimida e ocorre ao longo da linha <b>reta</b> em que essa força é <b>imprimida</b>. Lacunas (1) a (4): motion, force, straight, impressed.\n2. Um impulso instantâneo, como num choque, é o caso <b>discreto</b> (5). A desaceleração contínua num meio resistente é a ação <b>contínua</b> (6).\n3. Em linguagem atual: \\(F\\,\\Delta t = \\Delta(mv)\\) cobre os impulsos (casos discretos), e \\(F = \\dfrac{\\Delta(mv)}{\\Delta t}\\) cobre as forças contínuas. Alternativa a.",
   "topicos": [
     "leis-de-newton",
     "impulso-e-quantidade-de-movimento"
   ],
   "status": "publicado",
   "criadoEm": "2026-10-07T11:40:00.000Z",
-  "atualizadoEm": "2026-10-07T11:40:00.000Z"
+  "atualizadoEm": "2026-11-13T12:00:00.000Z"
 }

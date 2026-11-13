@@ -13,12 +13,12 @@
   ],
   "gabarito": "C",
   "gabaritoFonte": "resolucao-propria",
-  "resolucao": "1. Cada salto corresponde a uma volta da corda: <i>f</i> = 105/30 s = 3,5 Hz.\n2. <i>v</i> = 2π<i>r f</i> = 2 · 3 · 0,90 m · 3,5 Hz = 18,9 m/s (π = 3).",
+  "resolucao": "1. Cada salto corresponde a uma volta da corda: \\(f = \\dfrac{105}{30\\ \\text{s}} = 3,5\\) Hz.\n2. <i>v</i> = 2π<i>r f</i> = 2 · 3 · 0,90 m · 3,5 Hz = 18,9 m/s (π = 3).",
   "topicos": [
     "movimento-circular-uniforme-mcu",
     "periodo-frequencia-e-velocidade-angular"
   ],
   "status": "publicado",
   "criadoEm": "2026-10-06T17:30:00.000Z",
-  "atualizadoEm": "2026-10-06T17:30:00.000Z"
+  "atualizadoEm": "2026-11-13T12:00:00.000Z"
 }

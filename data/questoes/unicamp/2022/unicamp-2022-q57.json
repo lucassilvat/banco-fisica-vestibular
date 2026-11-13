@@ -11,12 +11,12 @@
   "figuras": [],
   "gabarito": "C",
   "gabaritoFonte": "resolucao-propria",
-  "resolucao": "1. Em uma hora, a sonda percorre <i>d</i> = <i>v</i>·Δ<i>t</i> = 5 × 10<sup>5</sup> km.\n2. Uma volta ao longo do Equador corresponde ao perímetro: 2π<i>R</i> = 2 · 3 · 6,0 × 10<sup>3</sup> = 3,6 × 10<sup>4</sup> km (com π = 3, conforme a instrução da prova).\n3. Número de voltas: <i>N</i> = 5 × 10<sup>5</sup> / 3,6 × 10<sup>4</sup> ≈ 13,9 ≈ 14.",
+  "resolucao": "1. Em uma hora, a sonda percorre <i>d</i> = <i>v</i>·Δ<i>t</i> = 5 × 10<sup>5</sup> km.\n2. Uma volta ao longo do Equador corresponde ao perímetro: 2π<i>R</i> = 2 · 3 · 6,0 × 10<sup>3</sup> = 3,6 × 10<sup>4</sup> km (com π = 3, conforme a instrução da prova).\n3. Número de voltas: \\(N = \\dfrac{5 \\times 10^5}{3,6 \\times 10^4} \\approx 13,9 \\approx 14\\).",
   "topicos": [
     "movimento-circular-uniforme-mcu",
     "notacao-cientifica-e-ordem-de-grandeza"
   ],
   "status": "publicado",
   "criadoEm": "2026-10-06T17:30:00.000Z",
-  "atualizadoEm": "2026-10-06T17:30:00.000Z"
+  "atualizadoEm": "2026-11-13T12:00:00.000Z"
 }

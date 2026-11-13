@@ -12,7 +12,7 @@
   "figuras": [],
   "gabarito": "C",
   "gabaritoFonte": "resolucao-propria",
-  "resolucao": "1. O trabalho do foguete e dos propulsores fornece a energia cinética final e o aumento de energia potencial: τ = Δ<i>E</i><sub>c</sub> + Δ<i>U</i>.\n2. Δ<i>E</i><sub>c</sub> = 7500 · 8000<sup>2</sup>/2 = 2,4 × 10<sup>11</sup> J.\n3. τ = 2,4 × 10<sup>11</sup> + 0,3 × 10<sup>11</sup> = 2,7 × 10<sup>11</sup> J.",
+  "resolucao": "1. O trabalho do foguete e dos propulsores fornece a energia cinética final e o aumento de energia potencial: τ = Δ<i>E</i><sub>c</sub> + Δ<i>U</i>.\n2. \\(\\Delta E_{\\text{c}} = \\dfrac{7500 \\cdot 8000^2}{2} = 2,4 \\times 10^{11}\\) J.\n3. τ = 2,4 × 10<sup>11</sup> + 0,3 × 10<sup>11</sup> = 2,7 × 10<sup>11</sup> J.",
   "topicos": [
     "energia-cinetica-e-teorema-trabalho-energia",
     "energia-potencial-gravitacional",
@@ -20,5 +20,5 @@
   ],
   "status": "publicado",
   "criadoEm": "2026-10-07T11:30:00.000Z",
-  "atualizadoEm": "2026-10-07T11:30:00.000Z"
+  "atualizadoEm": "2026-11-13T12:00:00.000Z"
 }

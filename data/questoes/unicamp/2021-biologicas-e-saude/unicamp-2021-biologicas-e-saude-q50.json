@@ -12,7 +12,7 @@
   "figuras": [],
   "gabarito": "A",
   "gabaritoFonte": "resolucao-propria",
-  "resolucao": "1. Na órbita circular, a gravidade é a resultante centrípeta: <i>GMm</i>/<i>r</i><sup>2</sup> = <i>m v</i><sup>2</sup>/<i>r</i> ⇒ <i>v</i> = √(<i>GM</i>/<i>r</i>).\n2. Com <i>M</i> maior e <i>r</i> igual, <i>v</i> aumenta.\n3. <i>T</i> = 2π<i>r</i>/<i>v</i>: com <i>v</i> maior, o período (o ano) diminui.",
+  "resolucao": "1. Na órbita circular, a gravidade é a resultante centrípeta: \\(\\dfrac{GMm}{r^2} = \\dfrac{m v^2}{r} \\Rightarrow v = \\sqrt{\\dfrac{GM}{r}}\\).\n2. Com <i>M</i> maior e <i>r</i> igual, <i>v</i> aumenta.\n3. \\(T = \\dfrac{2\\pi r}{v}\\): com <i>v</i> maior, o período (o ano) diminui.",
   "topicos": [
     "lei-da-gravitacao-universal",
     "satelites-orbitas-e-imponderabilidade",
@@ -20,5 +20,5 @@
   ],
   "status": "publicado",
   "criadoEm": "2026-10-07T11:30:00.000Z",
-  "atualizadoEm": "2026-10-07T11:30:00.000Z"
+  "atualizadoEm": "2026-11-13T12:00:00.000Z"
 }

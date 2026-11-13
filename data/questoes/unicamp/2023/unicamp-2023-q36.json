@@ -13,7 +13,7 @@
   ],
   "gabarito": "A",
   "gabaritoFonte": "resolucao-propria",
-  "resolucao": "1. Snell na situação crítica: <i>n</i><sub>1</sub> sen 90° = <i>n</i><sub>2</sub> sen <i>θ</i><sub>C</sub> ⇒ <i>n</i><sub>1</sub> = 1,8 · 0,8 = 1,44.\n2. Como sen <i>θ</i><sub>C</sub> = <i>n</i><sub>1</sub>/<i>n</i><sub>2</sub>, um líquido de índice maior aumenta sen <i>θ</i><sub>C</sub> e, portanto, o ângulo crítico fica maior que 56°.",
+  "resolucao": "1. Snell na situação crítica: <i>n</i><sub>1</sub> sen 90° = <i>n</i><sub>2</sub> sen <i>θ</i><sub>C</sub> ⇒ <i>n</i><sub>1</sub> = 1,8 · 0,8 = 1,44.\n2. Como \\(\\sen\\theta_C = \\dfrac{n_1}{n_2}\\), um líquido de índice maior aumenta sen <i>θ</i><sub>C</sub> e, portanto, o ângulo crítico fica maior que 56°.",
   "topicos": [
     "lei-de-snell-descartes",
     "reflexao-total-e-fibra-optica",
@@ -21,5 +21,5 @@
   ],
   "status": "publicado",
   "criadoEm": "2026-10-06T17:30:00.000Z",
-  "atualizadoEm": "2026-10-06T17:30:00.000Z"
+  "atualizadoEm": "2026-11-13T12:00:00.000Z"
 }

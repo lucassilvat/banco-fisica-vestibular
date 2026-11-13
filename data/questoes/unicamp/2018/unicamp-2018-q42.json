@@ -11,12 +11,12 @@
   "figuras": [],
   "gabarito": "C",
   "gabaritoFonte": "resolucao-propria",
-  "resolucao": "1. Teorema da energia cinética, partindo do repouso: τ<sub>R</sub> = <i>m v</i><sup>2</sup>/2.\n2. τ<sub>R</sub> = 6,0 × 10<sup>3</sup> · (3,0 × 10<sup>3</sup>)<sup>2</sup>/2 = 2,7 × 10<sup>10</sup> J = 27 GJ.",
+  "resolucao": "1. Teorema da energia cinética, partindo do repouso: \\(\\tau_{\\text{R}} = \\dfrac{m v^2}{2}\\).\n2. \\(\\tau_{\\text{R}} = \\dfrac{6,0 \\times 10^3 \\cdot (3,0 \\times 10^3)^2}{2} = 2,7 \\times 10^{10}\\) J = 27 GJ.",
   "topicos": [
     "energia-cinetica-e-teorema-trabalho-energia",
     "satelites-orbitas-e-imponderabilidade"
   ],
   "status": "publicado",
   "criadoEm": "2026-10-07T11:30:00.000Z",
-  "atualizadoEm": "2026-10-07T11:30:00.000Z"
+  "atualizadoEm": "2026-11-13T12:00:00.000Z"
 }

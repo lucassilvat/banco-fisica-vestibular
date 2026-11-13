@@ -85,6 +85,8 @@ article.q { background: var(--paper); border: 1px solid var(--line); border-top:
 .enunciado { font-family: var(--f-body); font-size: 1.06rem; line-height: 1.64; overflow-wrap: anywhere; max-width: 75ch; display: grid; gap: 10px; }
 .enunciado .txt { white-space: pre-wrap; }
 .enunciado sub, .enunciado sup, .res sub, .res sup { font-size: 0.72em; line-height: 0; }
+.enunciado math, .res math { font-family: "STIX Two Math", "Cambria Math", "Latin Modern Math", math; font-size: 1.08em; padding: 0.3em 0.1em; }
+.tex-err { font-family: var(--f-mono); font-size: 0.85em; color: var(--danger); }
 .enunciado img.fig { max-width: min(100%, 460px); border: 1px solid var(--line); border-radius: 4px; background: #fff; padding: 4px; }
 .res-wrap { margin: 8px 22px 18px; border-top: 1px solid var(--line); padding-top: 12px; display: grid; gap: 10px; max-width: 75ch; }
 .res { font-family: var(--f-body); font-size: 1rem; line-height: 1.6; white-space: pre-wrap; background: var(--soft); border-radius: var(--r); padding: 14px 16px; }
@@ -277,8 +279,139 @@ function renderSelbar(count) {
 let STATIC = false;
 const figUrl = id => STATIC ? "figuras/" + id : "/_blob/" + id;
 const FIG_RE = /\n?\[\[figura (\d+)\]\]\n?/g;
+/* ---------- fórmulas ----------
+   Trechos entre \( e \) são LaTeX (subconjunto, ver docs/CRITERIOS.md). Um único analisador gera
+   MathML para a tela (o navegador desenha sem biblioteca externa) e OMML para o .docx (equação
+   editável do Word). Os comandos aceitos precisam bater com LATEX_CMDS em pipeline/verificar.py. */
+const MATH_RE = /\\\((.+?)\\\)/g;
+const TEX_SYM = {
+  alpha: "α", beta: "β", gamma: "γ", delta: "δ", epsilon: "ϵ", varepsilon: "ε", zeta: "ζ", eta: "η", theta: "θ", iota: "ι", kappa: "κ", lambda: "λ", mu: "μ", nu: "ν", xi: "ξ", pi: "π", rho: "ρ", sigma: "σ", tau: "τ", phi: "ϕ", varphi: "φ", chi: "χ", psi: "ψ", omega: "ω",
+  Gamma: "Γ", Delta: "Δ", Theta: "Θ", Lambda: "Λ", Pi: "Π", Sigma: "Σ", Phi: "Φ", Psi: "Ψ", Omega: "Ω", ell: "ℓ",
+};
+const TEX_OP = { cdot: "·", times: "×", div: "÷", pm: "±", approx: "≈", neq: "≠", ne: "≠", leq: "≤", le: "≤", geq: "≥", ge: "≥", Rightarrow: "⇒", rightarrow: "→", to: "→", Leftrightarrow: "⇔", propto: "∝", infty: "∞", circ: "∘", sim: "∼", equiv: "≡", parallel: "∥", perp: "⊥", ldots: "…", cdots: "⋯", "%": "%", "|": "‖", "{": "{", "}": "}" };
+const TEX_FN = ["sen", "sin", "cos", "tg", "tan", "log", "ln"];
+const TEX_SPACE = { ",": "0.167em", ";": "0.278em", " ": "0.25em", quad: "1em", "!": "0em" };
+const UP_GREEK = /^[ΓΔΘΛΠΣΦΨΩ]$/;
+function parseTex(src) {
+  // tokens: comando, número (com vírgula decimal e milhar com espaço), letra, símbolo
+  const toks = []; const re = /\\([a-zA-Z]+|.)|(\d{1,3}(?:[ \u00a0]\d{3})+(?:,\d+)?|\d+(?:,\d+)?)|(\s+)|(.)/gsu; let m;
+  while ((m = re.exec(src))) {
+    const pos = { i: m.index, end: re.lastIndex };
+    if (m[1] != null) toks.push({ k: "cmd", v: m[1], ...pos }); else if (m[2] != null) toks.push({ k: "num", v: m[2].replace(/[ \u00a0]/g, "\u202f"), ...pos }); else if (m[4] != null) toks.push({ k: "ch", v: m[4], ...pos });
+  }
+  let p = 0;
+  const err = msg => { throw new Error(msg + " em \\(" + src + "\\)"); };
+  const peek = () => toks[p];
+  function rawGroup() { // conteúdo cru de {...} (para \text), com os espaços
+    if (!peek() || peek().v !== "{") err("esperava {");
+    let i = peek().end, depth = 1, out = "";
+    for (; i < src.length; i++) {
+      const ch = src[i];
+      if (ch === "\\") { const m2 = /^\\([a-zA-Z]+|.)/.exec(src.slice(i)); const c = m2[1]; out += c === " " ? " " : (TEX_OP[c] || TEX_SYM[c] || err("comando \\" + c + " dentro de \\text")); i += m2[0].length - 1; continue; }
+      if (ch === "{") depth++;
+      if (ch === "}" && !--depth) break;
+      out += ch;
+    }
+    if (depth) err("{ sem fechamento");
+    while (p < toks.length && toks[p].i <= i) p++;
+    return out;
+  }
+  function row(stop) {
+    const c = [];
+    while (p < toks.length) {
+      const t = peek();
+      if (t.k === "ch" && stop.includes(t.v)) break;
+      if (t.k === "cmd" && t.v === "right" && stop.includes("right")) break;
+      let a = atom();
+      while (peek() && peek().k === "ch" && (peek().v === "^" || peek().v === "_")) {
+        const op = toks[p++].v; const s = arg();
+        if (op === "^") a = a.t === "sub" ? { t: "subsup", b: a.b, sub: a.s, sup: s } : { t: "sup", b: a, s };
+        else a = a.t === "sup" ? { t: "subsup", b: a.b, sub: s, sup: a.s } : { t: "sub", b: a, s };
+      }
+      c.push(a);
+    }
+    return { t: "row", c };
+  }
+  function group() { p++; const r = row(["}"]); if (!peek()) err("{ sem fechamento"); p++; return r; }
+  function arg() { const t = peek(); if (!t) err("argumento ausente"); return t.k === "ch" && t.v === "{" ? group() : atom(); }
+  function delim() { const t = toks[p++]; if (!t) err("delimitador ausente"); return t.k === "cmd" ? (t.v === "{" || t.v === "}" ? t.v : t.v === "|" ? "‖" : err("delimitador \\" + t.v)) : t.v === "." ? "" : t.v; }
+  function atom() {
+    const t = toks[p++];
+    if (t.k === "num") return { t: "mn", v: t.v };
+    if (t.k === "ch") {
+      if (t.v === "{") { p--; return group(); }
+      if (t.v === "}" || t.v === "^" || t.v === "_") err("“" + t.v + "” fora de lugar");
+      if (/\p{L}/u.test(t.v)) return { t: "mi", v: t.v, up: UP_GREEK.test(t.v) };
+      return { t: "mo", v: t.v === "-" ? "−" : t.v };
+    }
+    const c = t.v;
+    if (c === "frac" || c === "dfrac" || c === "tfrac") return { t: "frac", n: arg(), d: arg(), small: c === "tfrac" };
+    if (c === "sqrt") {
+      let idx = null;
+      if (peek() && peek().v === "[") { p++; idx = row(["]"]); if (!peek()) err("[ sem fechamento"); p++; }
+      return { t: "sqrt", idx, b: arg() };
+    }
+    if (c === "vec" || c === "overrightarrow") return { t: "vec", b: arg() };
+    if (c === "text" || c === "mathrm" || c === "textrm") return { t: "text", v: rawGroup() };
+    if (c === "left") { const o = delim(); const b = row(["right"]); if (!peek()) err("\\left sem \\right"); p++; return { t: "fence", o, cl: delim(), b }; }
+    if (TEX_FN.includes(c)) return { t: "fn", v: c };
+    if (c in TEX_SYM) return { t: "mi", v: TEX_SYM[c], up: UP_GREEK.test(TEX_SYM[c]) };
+    if (c in TEX_OP) return { t: "mo", v: TEX_OP[c] };
+    if (c in TEX_SPACE) return { t: "space", w: TEX_SPACE[c] };
+    err("comando não suportado \\" + c);
+  }
+  const r = row([]); if (p < toks.length) err("sobra “" + toks[p].v + "”"); return r;
+}
+const mesc = s => s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
+function texToMathML(n) {
+  const one = x => x.t === "row" && x.c.length === 1 ? texToMathML(x.c[0]) : `<mrow>${texToMathML(x)}</mrow>`;
+  switch (n.t) {
+    case "row": return n.c.map(texToMathML).join("");
+    case "mi": return n.up ? `<mi mathvariant="normal">${mesc(n.v)}</mi>` : `<mi>${mesc(n.v)}</mi>`;
+    case "mn": return `<mn>${mesc(n.v)}</mn>`;
+    case "mo": return `<mo>${mesc(n.v)}</mo>`;
+    case "fn": return `<mi>${n.v}</mi><mo>&#x2061;</mo>`;
+    case "text": return `<mtext>${mesc(n.v)}</mtext>`;
+    case "space": return `<mspace width="${n.w}"/>`;
+    case "frac": { const f = `<mfrac>${one(n.n)}${one(n.d)}</mfrac>`; return n.small ? `<mstyle displaystyle="false">${f}</mstyle>` : f; }
+    case "sqrt": return n.idx ? `<mroot>${one(n.b)}${one(n.idx)}</mroot>` : `<msqrt>${texToMathML(n.b)}</msqrt>`;
+    case "sup": return `<msup>${one(n.b)}${one(n.s)}</msup>`;
+    case "sub": return `<msub>${one(n.b)}${one(n.s)}</msub>`;
+    case "subsup": return `<msubsup>${one(n.b)}${one(n.sub)}${one(n.sup)}</msubsup>`;
+    case "vec": return `<mover accent="true">${one(n.b)}<mo stretchy="false">→</mo></mover>`;
+    case "fence": return `<mrow><mo>${mesc(n.o)}</mo>${texToMathML(n.b)}<mo>${mesc(n.cl)}</mo></mrow>`;
+  }
+  return "";
+}
+function texToOMML(n) {
+  const run = (v, up) => `<m:r>${up ? '<m:rPr><m:sty m:val="p"/></m:rPr>' : ""}<m:t xml:space="preserve">${mesc(v)}</m:t></m:r>`;
+  const e = x => texToOMML(x);
+  switch (n.t) {
+    case "row": return n.c.map(texToOMML).join("");
+    case "mi": return run(n.v, n.up);
+    case "mn": case "mo": return run(n.v, false);
+    case "fn": return run(n.v, true);
+    case "text": return `<m:r><m:rPr>${/\s/.test(n.v) ? "<m:nor/>" : '<m:sty m:val="p"/>'}</m:rPr><m:t xml:space="preserve">${mesc(n.v)}</m:t></m:r>`;
+    case "space": return n.w === "0em" ? "" : `<m:r><m:rPr><m:nor/></m:rPr><m:t xml:space="preserve">${n.w === "1em" ? "\u2003" : "\u2009"}</m:t></m:r>`;
+    case "frac": return `<m:f>${n.small ? '<m:fPr><m:type m:val="lin"/></m:fPr>' : ""}<m:num>${e(n.n)}</m:num><m:den>${e(n.d)}</m:den></m:f>`;
+    case "sqrt": return n.idx ? `<m:rad><m:deg>${e(n.idx)}</m:deg><m:e>${e(n.b)}</m:e></m:rad>` : `<m:rad><m:radPr><m:degHide m:val="1"/></m:radPr><m:deg/><m:e>${e(n.b)}</m:e></m:rad>`;
+    case "sup": return `<m:sSup><m:e>${e(n.b)}</m:e><m:sup>${e(n.s)}</m:sup></m:sSup>`;
+    case "sub": return `<m:sSub><m:e>${e(n.b)}</m:e><m:sub>${e(n.s)}</m:sub></m:sSub>`;
+    case "subsup": return `<m:sSubSup><m:e>${e(n.b)}</m:e><m:sub>${e(n.sub)}</m:sub><m:sup>${e(n.sup)}</m:sup></m:sSubSup>`;
+    case "vec": return `<m:acc><m:accPr><m:chr m:val="⃗"/></m:accPr><m:e>${e(n.b)}</m:e></m:acc>`;
+    case "fence": return `<m:d><m:dPr><m:begChr m:val="${mesc(n.o)}"/><m:endChr m:val="${mesc(n.cl)}"/></m:dPr><m:e>${e(n.b)}</m:e></m:d>`;
+  }
+  return "";
+}
+function mathHTML(tex) {
+  try { return `<math displaystyle="true">${texToMathML(parseTex(tex))}</math>`; }
+  catch (e) { console.warn(e.message); return `<code class="tex-err" title="${mesc(e.message)}">${mesc(tex)}</code>`; }
+}
 function safeInline(s) {
-  return s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/&lt;(\/?)(i|b|u|sub|sup)&gt;/g, "<$1$2>");
+  const math = [];
+  s = s.replace(MATH_RE, (_, tex) => { math.push(tex); return `\u0000${math.length - 1}\u0000`; });
+  return s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/&lt;(\/?)(i|b|u|sub|sup)&gt;/g, "<$1$2>")
+    .replace(/\u0000(\d+)\u0000/g, (_, k) => mathHTML(math[k]));
 }
 function richEnunciado(q) {
   const box = el("div", { class: "enunciado" });
@@ -363,11 +496,15 @@ function renderAll() { renderPills(); renderAreas(); renderViewer(); }
 /* ---------- exportação .docx (WordprocessingML) ---------- */
 const xesc = s => s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
 function runsFromMarkup(text, base = {}) {
-  // converte <i>, <b>, <u>, <sub>, <sup> em runs do Word
-  const out = []; const st = { ...base }; const re = /<(\/?)(i|b|u|sub|sup)>/g; let last = 0, m;
+  // converte <i>, <b>, <u>, <sub>, <sup> em runs do Word e \( ... \) em equação do Word (OMML)
+  const out = []; const st = { ...base }; const re = /<(\/?)(i|b|u|sub|sup)>|\\\((.+?)\\\)/g; let last = 0, m;
   const push = t => { if (!t) return; const pr = [st.b ? "<w:b/>" : "", st.i ? "<w:i/>" : "", st.u ? '<w:u w:val="single"/>' : "", st.sub ? '<w:vertAlign w:val="subscript"/>' : st.sup ? '<w:vertAlign w:val="superscript"/>' : "", st.size ? `<w:sz w:val="${st.size}"/>` : ""].join("");
     t.split("\n").forEach((seg, k) => { if (k) out.push("<w:r><w:br/></w:r>"); if (seg) out.push(`<w:r>${pr ? `<w:rPr>${pr}</w:rPr>` : ""}<w:t xml:space="preserve">${xesc(seg)}</w:t></w:r>`); }); };
-  while ((m = re.exec(text))) { push(text.slice(last, m.index)); st[m[2]] = !m[1]; last = re.lastIndex; }
+  while ((m = re.exec(text))) {
+    push(text.slice(last, m.index)); last = re.lastIndex;
+    if (m[3] == null) { st[m[2]] = !m[1]; continue; }
+    try { out.push(`<m:oMath>${texToOMML(parseTex(m[3]))}</m:oMath>`); } catch (e) { push(m[0]); }
+  }
   push(text.slice(last)); return out.join("");
 }
 const para = (runs, opts = "") => `<w:p>${opts ? `<w:pPr>${opts}</w:pPr>` : ""}${runs}</w:p>`;
@@ -408,7 +545,7 @@ async function buildDocx(items, title) {
     String(q.resolucao || "").split("\n").forEach(l => { if (l.trim()) body += para(runsFromMarkup(l), '<w:spacing w:after="60"/>'); });
   });
   body += para(runsFromMarkup("Fontes: " + [...new Set(items.map(q => q.origem).filter(Boolean))].join("; "), { size: 18 }), '<w:spacing w:before="360"/>');
-  const doc = `<?xml version="1.0" encoding="UTF-8" standalone="yes"?><w:document xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" xmlns:wp="http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing" xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main" xmlns:pic="http://schemas.openxmlformats.org/drawingml/2006/picture"><w:body>${body}<w:sectPr><w:pgSz w:w="11906" w:h="16838"/><w:pgMar w:top="1134" w:right="1134" w:bottom="1134" w:left="1134" w:header="567" w:footer="567" w:gutter="0"/></w:sectPr></w:body></w:document>`;
+  const doc = `<?xml version="1.0" encoding="UTF-8" standalone="yes"?><w:document xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" xmlns:wp="http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing" xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main" xmlns:pic="http://schemas.openxmlformats.org/drawingml/2006/picture" xmlns:m="http://schemas.openxmlformats.org/officeDocument/2006/math"><w:body>${body}<w:sectPr><w:pgSz w:w="11906" w:h="16838"/><w:pgMar w:top="1134" w:right="1134" w:bottom="1134" w:left="1134" w:header="567" w:footer="567" w:gutter="0"/></w:sectPr></w:body></w:document>`;
   const styles = `<?xml version="1.0" encoding="UTF-8" standalone="yes"?><w:styles xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main"><w:docDefaults><w:rPrDefault><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial" w:eastAsia="Arial"/><w:sz w:val="22"/><w:lang w:val="pt-BR"/></w:rPr></w:rPrDefault><w:pPrDefault><w:pPr><w:spacing w:after="80" w:line="276" w:lineRule="auto"/></w:pPr></w:pPrDefault></w:docDefaults><w:style w:type="paragraph" w:default="1" w:styleId="Normal"><w:name w:val="Normal"/></w:style></w:styles>`;
   zip.file("[Content_Types].xml", `<?xml version="1.0" encoding="UTF-8" standalone="yes"?><Types xmlns="http://schemas.openxmlformats.org/package/2006/content-types"><Default Extension="rels" ContentType="application/vnd.openxmlformats-package.relationships+xml"/><Default Extension="xml" ContentType="application/xml"/><Default Extension="png" ContentType="image/png"/><Override PartName="/word/document.xml" ContentType="application/vnd.openxmlformats-officedocument.wordprocessingml.document.main+xml"/><Override PartName="/word/styles.xml" ContentType="application/vnd.openxmlformats-officedocument.wordprocessingml.styles+xml"/></Types>`);
   zip.file("_rels/.rels", `<?xml version="1.0" encoding="UTF-8" standalone="yes"?><Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships"><Relationship Id="rId1" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/officeDocument" Target="word/document.xml"/></Relationships>`);

@@ -7,16 +7,16 @@
   "fonte": {
     "descricao": "Comvest, Vestibular Unicamp 2018, 1ª fase, caderno de questões"
   },
-  "enunciado": "<b>Sempre que necessário, use aceleração da gravidade g = 10 m/s<sup>2</sup>.</b>\n\nRecentemente, a agência espacial americana anunciou a descoberta de um planeta a trinta e nove anos-luz da Terra, orbitando uma estrela anã vermelha que faz parte da constelação de Cetus. O novo planeta possui dimensões e massa pouco maiores do que as da Terra e se tornou um dos principais candidatos a abrigar vida fora do sistema solar. Considere este novo planeta esférico com um raio igual a <i>R<sub>P</sub></i> = 2<i>R<sub>T</sub></i> e massa <i>M<sub>P</sub></i> = 8<i>M<sub>T</sub></i>, em que <i>R<sub>T</sub></i> e <i>M<sub>T</sub></i> são o raio e a massa da Terra, respectivamente. Para planetas esféricos de massa <i>M</i> e raio <i>R</i>, a aceleração da gravidade na superfície do planeta é dada por <i>g</i> = <i>GM</i>/<i>R</i><sup>2</sup>, em que <i>G</i> é uma constante universal. Assim, considerando a Terra esférica e usando a aceleração da gravidade na sua superfície, o valor da aceleração da gravidade na superfície do novo planeta será de\n\na) 5 m/s<sup>2</sup>.\nb) 20 m/s<sup>2</sup>.\nc) 40 m/s<sup>2</sup>.\nd) 80 m/s<sup>2</sup>.",
+  "enunciado": "<b>Sempre que necessário, use aceleração da gravidade g = 10 m/s<sup>2</sup>.</b>\n\nRecentemente, a agência espacial americana anunciou a descoberta de um planeta a trinta e nove anos-luz da Terra, orbitando uma estrela anã vermelha que faz parte da constelação de Cetus. O novo planeta possui dimensões e massa pouco maiores do que as da Terra e se tornou um dos principais candidatos a abrigar vida fora do sistema solar. Considere este novo planeta esférico com um raio igual a <i>R<sub>P</sub></i> = 2<i>R<sub>T</sub></i> e massa <i>M<sub>P</sub></i> = 8<i>M<sub>T</sub></i>, em que <i>R<sub>T</sub></i> e <i>M<sub>T</sub></i> são o raio e a massa da Terra, respectivamente. Para planetas esféricos de massa <i>M</i> e raio <i>R</i>, a aceleração da gravidade na superfície do planeta é dada por \\(g = \\dfrac{GM}{R^2}\\), em que <i>G</i> é uma constante universal. Assim, considerando a Terra esférica e usando a aceleração da gravidade na sua superfície, o valor da aceleração da gravidade na superfície do novo planeta será de\n\na) 5 m/s<sup>2</sup>.\nb) 20 m/s<sup>2</sup>.\nc) 40 m/s<sup>2</sup>.\nd) 80 m/s<sup>2</sup>.",
   "figuras": [],
   "gabarito": "B",
   "gabaritoFonte": "resolucao-propria",
-  "resolucao": "1. <i>g</i><sub>P</sub> = <i>G</i>(8<i>M</i><sub>T</sub>)/(2<i>R</i><sub>T</sub>)<sup>2</sup> = (8/4) <i>G M</i><sub>T</sub>/<i>R</i><sub>T</sub><sup>2</sup> = 2<i>g</i><sub>T</sub>.\n2. <i>g</i><sub>P</sub> = 2 · 10 = 20 m/s<sup>2</sup>.",
+  "resolucao": "1. \\(g_P = \\dfrac{G(8M_T)}{(2R_T)^2} = \\dfrac{8}{4} \\cdot \\dfrac{GM_T}{R_T^2} = 2g_T\\).\n2. <i>g</i><sub>P</sub> = 2 · 10 = 20 m/s<sup>2</sup>.",
   "topicos": [
     "lei-da-gravitacao-universal",
     "aceleracao-da-gravidade-e-altitude"
   ],
   "status": "publicado",
   "criadoEm": "2026-10-07T11:30:00.000Z",
-  "atualizadoEm": "2026-10-07T11:30:00.000Z"
+  "atualizadoEm": "2026-11-13T12:00:00.000Z"
 }

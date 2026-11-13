@@ -13,13 +13,13 @@
   ],
   "gabarito": "B",
   "gabaritoFonte": "resolucao-propria",
-  "resolucao": "1. Lei de Hooke com forças iguais: <i>k</i><sub>1</sub>Δ<i>L</i><sub>1</sub> = <i>k</i><sub>2</sub>Δ<i>L</i><sub>2</sub>.\n2. <i>k</i><sub>2</sub> = 9,0 × 10<sup>−6</sup> · 20/30 = 6,0 × 10<sup>−6</sup> N/m.",
+  "resolucao": "1. Lei de Hooke com forças iguais: <i>k</i><sub>1</sub>Δ<i>L</i><sub>1</sub> = <i>k</i><sub>2</sub>Δ<i>L</i><sub>2</sub>.\n2. \\(k_2 = \\dfrac{9,0 \\times 10^{-6} \\cdot 20}{30} = 6,0 \\times 10^{-6}\\) N/m.",
   "topicos": [
     "forca-elastica-lei-de-hooke"
   ],
   "status": "publicado",
   "criadoEm": "2026-10-06T17:30:00.000Z",
-  "atualizadoEm": "2026-10-06T17:30:00.000Z",
+  "atualizadoEm": "2026-11-13T12:00:00.000Z",
   "revisao": {
     "divergenciasAceitas": [
       "elásticas"

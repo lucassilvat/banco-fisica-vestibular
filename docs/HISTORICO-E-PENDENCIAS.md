@@ -141,8 +141,21 @@ Para gravar questões, usam-se os lotes da etapa `publicar` (docs/WORKFLOW.md).
     `unicamp-2021-biologicas-e-saude-qNN` (questões, pastas e figuras; no app, documentos
     regravados com os ids novos e os antigos apagados; as figuras não precisaram ser
     reenviadas). Nenhuma questão usa mais `versao`.
+20. v2.1.0: fórmulas em LaTeX (`\(...\)`), desenhadas no app e convertidas em equação do
+    Word no .docx; testado na Unicamp 2026 (resoluções reescritas; enunciados sem fração
+    empilhada). Regra do Lucas mantida: no enunciado, só se empilha o que o caderno empilha.
+21. v2.2.0: Unicamp 2016–2025 e 2027 com fórmulas. Cadernos 2016–2025 registrados no
+    manifesto; 4 enunciados com fração empilhada (2018 Q41, Q46, Q47; 2019 Q42) e 78
+    resoluções em LaTeX.
 
 ## Pendências
+
+- **Fórmulas no restante do banco**: Unicamp concluída (v2.2.0), exceto os enunciados da
+  2027, que esperam o PDF (conferir se `0,4 J / (g .°C)` da Q12 está empilhado). Faltam
+  Fuvest, Unesp, ENEM, Acafe e Einstein: resoluções em lote e enunciados prova a prova
+  contra os PDFs. Para achar as frações empilhadas, procurar traços horizontais curtos com
+  texto acima e abaixo na região de cada questão (PyMuPDF `get_drawings`): foi assim que se
+  acharam as 4 da Unicamp; o resto foi conferido na imagem.
 
 - **Gabaritos Einstein 2023–2027**: todos `resolucao-propria`, inclusive as respostas das
   discursivas. Prova I: 2023 36A 37C 38E 39B 40C; 2024 36D 37E 38C 39A 40B; 2025 36A 37B

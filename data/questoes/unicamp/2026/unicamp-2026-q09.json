@@ -11,12 +11,12 @@
   "figuras": [],
   "gabarito": "C",
   "gabaritoFonte": "prova-comentada-oficial",
-  "resolucao": "1. Converta as unidades: <i>i</i> = 4000 mA = 4 A; Δ<i>t</i> = 1 h = 3600 s.\n2. <i>Q</i> = <i>i</i>·Δ<i>t</i> = 4 · 3600 = 14 400 C.",
+  "resolucao": "1. Converta as unidades: <i>i</i> = 4000 mA = 4 A; Δ<i>t</i> = 1 h = 3600 s.\n2. \\(Q = i \\cdot \\Delta t = 4 \\cdot 3600 = 14 400\\) C.",
   "topicos": [
     "corrente-eletrica",
     "grandezas-fisicas-e-sistema-internacional"
   ],
   "status": "publicado",
   "criadoEm": "2026-10-06T17:30:00.000Z",
-  "atualizadoEm": "2026-10-06T17:30:00.000Z"
+  "atualizadoEm": "2026-11-13T12:00:00.000Z"
 }
