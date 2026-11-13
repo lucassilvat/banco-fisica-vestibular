@@ -152,8 +152,10 @@ Para gravar questões, usam-se os lotes da etapa `publicar` (docs/WORKFLOW.md).
 
 ## Pendências
 
-- **Fórmulas no restante do banco**: Unicamp concluída (v2.2.0), exceto os enunciados da
-  2027, que esperam o PDF (conferir se `0,4 J / (g .°C)` da Q12 está empilhado). Fuvest
+- **Fórmulas no restante do banco**: Unicamp concluída (v2.2.0). Os enunciados da 2027 foram
+  conferidos no caderno das provas S e W (o registrado no manifesto é o das provas R e Z, que
+  não estava disponível): as 7 questões batem com ele, nenhuma tem fração empilhada (a unidade
+  da Q12 está em linha, J/(g.°C)), e nada mudou. Fuvest
   concluída (v2.3.0), inclusive a 2027. Faltam
   Unesp, ENEM, Acafe e Einstein: resoluções em lote e enunciados prova a prova
   contra os PDFs. Para achar as frações empilhadas, procurar traços horizontais curtos com

@@ -24,6 +24,9 @@ de modelo de dados; CORREÇÃO, em correções de questões já publicadas.
   passam na fidelidade sem aviso. Dois enunciados passaram a LaTeX: Q37 (\(P = \Delta E/\Delta t\),
   fração empilhada no "Note e adote") e Q42 (raiz cúbica com o traço do radical). VEF1/CVF da Q62
   e as unidades ficam em linha, como no caderno.
+- **Unicamp 2027:** enunciados conferidos no caderno das provas S e W (mesmas questões,
+  numeradas 48–55; o caderno registrado é o das provas R e Z). Nenhuma fração empilhada;
+  nada mudou.
 
 ## v2.2.0 — 2026-11-13
 
