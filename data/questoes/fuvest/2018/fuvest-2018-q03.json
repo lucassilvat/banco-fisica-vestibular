@@ -11,7 +11,7 @@
   "figuras": [],
   "gabarito": "B",
   "gabaritoFonte": "resolucao-propria",
-  "resolucao": "1. Área: <i>A</i> = π<i>r</i><sup>2</sup> = 3 · (6,6 × 10<sup>5</sup> m)<sup>2</sup> ≈ 1,31 × 10<sup>12</sup> m<sup>2</sup>.\n2. Volume de chuva por dia: 0,015 m · 1,31 × 10<sup>12</sup> m<sup>2</sup> ≈ 1,96 × 10<sup>10</sup> m<sup>3</sup> ⇒ massa ≈ 1,96 × 10<sup>13</sup> kg.\n3. Energia liberada na condensação por dia: <i>Q</i> = <i>m L</i> ≈ 1,96 × 10<sup>13</sup> · 2 × 10<sup>6</sup> ≈ 3,9 × 10<sup>19</sup> J.\n4. Potência: 3,9 × 10<sup>19</sup>/8,6 × 10<sup>4</sup> ≈ 4,6 × 10<sup>14</sup> W.\nGabarito: B.",
+  "resolucao": "1. Área: <i>A</i> = π<i>r</i><sup>2</sup> = 3 · (6,6 × 10<sup>5</sup> m)<sup>2</sup> ≈ 1,31 × 10<sup>12</sup> m<sup>2</sup>.\n2. Volume de chuva por dia: 0,015 m · 1,31 × 10<sup>12</sup> m<sup>2</sup> ≈ 1,96 × 10<sup>10</sup> m<sup>3</sup> ⇒ massa ≈ 1,96 × 10<sup>13</sup> kg.\n3. Energia liberada na condensação por dia: <i>Q</i> = <i>m L</i> ≈ 1,96 × 10<sup>13</sup> · 2 × 10<sup>6</sup> ≈ 3,9 × 10<sup>19</sup> J.\n4. Potência: \\(\\dfrac{3,9 \\times 10^{19}}{8,6 \\times 10^4} \\approx 4,6 \\times 10^{14}\\) W.\nGabarito: B.",
   "topicos": [
     "calor-latente-e-mudancas-de-fase",
     "potencia-e-rendimento",
@@ -20,5 +20,5 @@
   ],
   "status": "publicado",
   "criadoEm": "2026-11-01T14:43:26.000Z",
-  "atualizadoEm": "2026-11-01T14:43:26.000Z"
+  "atualizadoEm": "2026-11-13T13:00:00.000Z"
 }

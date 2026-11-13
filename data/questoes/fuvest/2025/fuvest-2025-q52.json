@@ -11,12 +11,12 @@
   "figuras": [],
   "gabarito": "D",
   "gabaritoFonte": "oficial",
-  "resolucao": "1. O período de cos(2π<i>f t</i>) é <i>T</i> = 1/<i>f</i>.\n2. Multiplicando <i>f</i> por 3, o período passa a <i>T</i>/3: o gráfico completa um ciclo em um terço do tempo.\n3. Em termos de transformação de gráfico, trocar <i>t</i> por 3<i>t</i> comprime a curva horizontalmente pelo fator 3; a amplitude (escala vertical) não muda.\n4. Fisicamente, com a mesma velocidade de propagação, λ = <i>v</i>/<i>f</i> também fica 3 vezes menor.\nGabarito: D.",
+  "resolucao": "1. O período de cos(2π<i>f t</i>) é \\(T = \\dfrac{1}{f}\\).\n2. Multiplicando <i>f</i> por 3, o período passa a \\(\\dfrac{T}{3}\\): o gráfico completa um ciclo em um terço do tempo.\n3. Em termos de transformação de gráfico, trocar <i>t</i> por 3<i>t</i> comprime a curva horizontalmente pelo fator 3; a amplitude (escala vertical) não muda.\n4. Fisicamente, com a mesma velocidade de propagação, \\(\\lambda = \\dfrac{v}{f}\\) também fica 3 vezes menor.\nGabarito: D.",
   "topicos": [
     "ondas-classificacao-e-elementos",
     "equacao-fundamental-da-ondulatoria-v-f"
   ],
   "status": "publicado",
   "criadoEm": "2026-11-01T12:54:06.000Z",
-  "atualizadoEm": "2026-11-01T12:54:06.000Z"
+  "atualizadoEm": "2026-11-13T13:00:00.000Z"
 }

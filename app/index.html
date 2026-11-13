@@ -294,7 +294,7 @@ const TEX_SPACE = { ",": "0.167em", ";": "0.278em", " ": "0.25em", quad: "1em", 
 const UP_GREEK = /^[ΓΔΘΛΠΣΦΨΩ]$/;
 function parseTex(src) {
   // tokens: comando, número (com vírgula decimal e milhar com espaço), letra, símbolo
-  const toks = []; const re = /\\([a-zA-Z]+|.)|(\d{1,3}(?:[ \u00a0]\d{3})+(?:,\d+)?|\d+(?:,\d+)?)|(\s+)|(.)/gsu; let m;
+  const toks = []; const re = /\\([a-zA-Z]+|.)|(\d{1,3}(?:[ \u00a0]\d{3})+(?:,\d+)?|\d{1,3}(?:\.\d{3})+(?:,\d+)?|\d+(?:,\d+)?)|(\s+)|(.)/gsu; let m;
   while ((m = re.exec(src))) {
     const pos = { i: m.index, end: re.lastIndex };
     if (m[1] != null) toks.push({ k: "cmd", v: m[1], ...pos }); else if (m[2] != null) toks.push({ k: "num", v: m[2].replace(/[ \u00a0]/g, "\u202f"), ...pos }); else if (m[4] != null) toks.push({ k: "ch", v: m[4], ...pos });
@@ -342,7 +342,7 @@ function parseTex(src) {
       if (t.v === "{") { p--; return group(); }
       if (t.v === "}" || t.v === "^" || t.v === "_") err("“" + t.v + "” fora de lugar");
       if (/\p{L}/u.test(t.v)) return { t: "mi", v: t.v, up: UP_GREEK.test(t.v) };
-      return { t: "mo", v: t.v === "-" ? "−" : t.v };
+      return { t: "mo", v: t.v === "-" ? "−" : t.v, fixo: "()[]|".includes(t.v) };
     }
     const c = t.v;
     if (c === "frac" || c === "dfrac" || c === "tfrac") return { t: "frac", n: arg(), d: arg(), small: c === "tfrac" };
@@ -352,6 +352,7 @@ function parseTex(src) {
       return { t: "sqrt", idx, b: arg() };
     }
     if (c === "vec" || c === "overrightarrow") return { t: "vec", b: arg() };
+    if (c === "boldsymbol") return { t: "bold", b: arg() };
     if (c === "text" || c === "mathrm" || c === "textrm") return { t: "text", v: rawGroup() };
     if (c === "left") { const o = delim(); const b = row(["right"]); if (!peek()) err("\\left sem \\right"); p++; return { t: "fence", o, cl: delim(), b }; }
     if (TEX_FN.includes(c)) return { t: "fn", v: c };
@@ -363,20 +364,28 @@ function parseTex(src) {
   const r = row([]); if (p < toks.length) err("sobra “" + toks[p].v + "”"); return r;
 }
 const mesc = s => s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
+function emBold(n) { // \boldsymbol: marca as letras do argumento como negrito itálico
+  if (n.t === "mi") return { ...n, bold: true };
+  const m = { ...n };
+  for (const k of ["c"]) if (m[k]) m[k] = m[k].map(emBold);
+  for (const k of ["b", "s", "n", "d", "sub", "sup", "idx"]) if (m[k]) m[k] = emBold(m[k]);
+  return m;
+}
 function texToMathML(n) {
   const one = x => x.t === "row" && x.c.length === 1 ? texToMathML(x.c[0]) : `<mrow>${texToMathML(x)}</mrow>`;
   switch (n.t) {
     case "row": return n.c.map(texToMathML).join("");
-    case "mi": return n.up ? `<mi mathvariant="normal">${mesc(n.v)}</mi>` : `<mi>${mesc(n.v)}</mi>`;
+    case "mi": return n.bold ? `<mi mathvariant="bold-italic">${mesc(n.v)}</mi>` : n.up ? `<mi mathvariant="normal">${mesc(n.v)}</mi>` : `<mi>${mesc(n.v)}</mi>`;
+    case "bold": return texToMathML(emBold(n.b));
     case "mn": return `<mn>${mesc(n.v)}</mn>`;
-    case "mo": return `<mo>${mesc(n.v)}</mo>`;
-    case "fn": return `<mi>${n.v}</mi><mo>&#x2061;</mo>`;
+    case "mo": return n.fixo ? `<mo stretchy="false">${mesc(n.v)}</mo>` : `<mo>${mesc(n.v)}</mo>`;
+    case "fn": return `<mspace width="0.167em"/><mi>${n.v}</mi><mo>&#x2061;</mo>`;
     case "text": return `<mtext>${mesc(n.v)}</mtext>`;
     case "space": return `<mspace width="${n.w}"/>`;
     case "frac": { const f = `<mfrac>${one(n.n)}${one(n.d)}</mfrac>`; return n.small ? `<mstyle displaystyle="false">${f}</mstyle>` : f; }
     case "sqrt": return n.idx ? `<mroot>${one(n.b)}${one(n.idx)}</mroot>` : `<msqrt>${texToMathML(n.b)}</msqrt>`;
     case "sup": return `<msup>${one(n.b)}${one(n.s)}</msup>`;
-    case "sub": return `<msub>${one(n.b)}${one(n.s)}</msub>`;
+    case "sub": return n.b.t === "fn" ? `<mspace width="0.167em"/><msub><mi>${n.b.v}</mi>${one(n.s)}</msub><mo>&#x2061;</mo>` : `<msub>${one(n.b)}${one(n.s)}</msub>`;
     case "subsup": return `<msubsup>${one(n.b)}${one(n.sub)}${one(n.sup)}</msubsup>`;
     case "vec": return `<mover accent="true">${one(n.b)}<mo stretchy="false">→</mo></mover>`;
     case "fence": return `<mrow><mo>${mesc(n.o)}</mo>${texToMathML(n.b)}<mo>${mesc(n.cl)}</mo></mrow>`;
@@ -388,7 +397,8 @@ function texToOMML(n) {
   const e = x => texToOMML(x);
   switch (n.t) {
     case "row": return n.c.map(texToOMML).join("");
-    case "mi": return run(n.v, n.up);
+    case "mi": return n.bold ? `<m:r><m:rPr><m:sty m:val="bi"/></m:rPr><m:t xml:space="preserve">${mesc(n.v)}</m:t></m:r>` : run(n.v, n.up);
+    case "bold": return texToOMML(emBold(n.b));
     case "mn": case "mo": return run(n.v, false);
     case "fn": return run(n.v, true);
     case "text": return `<m:r><m:rPr>${/\s/.test(n.v) ? "<m:nor/>" : '<m:sty m:val="p"/>'}</m:rPr><m:t xml:space="preserve">${mesc(n.v)}</m:t></m:r>`;

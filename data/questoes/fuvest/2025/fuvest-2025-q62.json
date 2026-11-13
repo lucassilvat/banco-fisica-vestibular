@@ -13,7 +13,7 @@
   ],
   "gabarito": "D",
   "gabaritoFonte": "oficial",
-  "resolucao": "1. No topo (repouso, 50 m): <i>E</i> = <i>m g h</i> = 300 · 10 · 50 = 150 000 J.\n2. No ponto mais baixo (altura ≈ 0, 30 m/s): <i>E</i> = <i>m v</i><sup>2</sup>/2 = 300 · 900/2 = 135 000 J.\n3. Energia mecânica perdida: 150 000 − 135 000 = 15 000 J.\nGabarito: D.",
+  "resolucao": "1. No topo (repouso, 50 m): <i>E</i> = <i>m g h</i> = 300 · 10 · 50 = 150 000 J.\n2. No ponto mais baixo (altura ≈ 0, 30 m/s): \\(E = \\dfrac{m v^2}{2} = \\dfrac{300 \\cdot 900}{2} = 135 000\\) J.\n3. Energia mecânica perdida: 150 000 − 135 000 = 15 000 J.\nGabarito: D.",
   "topicos": [
     "sistemas-dissipativos-perda-de-energia-mecanica",
     "energia-potencial-gravitacional",
@@ -21,5 +21,5 @@
   ],
   "status": "publicado",
   "criadoEm": "2026-11-01T12:54:06.000Z",
-  "atualizadoEm": "2026-11-01T12:54:06.000Z"
+  "atualizadoEm": "2026-11-13T13:00:00.000Z"
 }

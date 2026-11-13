@@ -13,7 +13,7 @@
   ],
   "gabarito": "E",
   "gabaritoFonte": "resolucao-propria",
-  "resolucao": "1. Resultante na queda: <i>F</i><sub><i>R</i></sub> = <i>m g</i> − <i>b v</i> (reta decrescente do gráfico).\n2. Em <i>v</i> = 0: <i>F</i><sub><i>R</i></sub> = <i>m g</i> = 3 × 10<sup>−14</sup> N.\n3. A resultante se anula na velocidade terminal, <i>v</i> = 1 × 10<sup>−4</sup> m/s: <i>b v</i> = <i>m g</i> ⇒ <i>b</i> = 3 × 10<sup>−14</sup>/10<sup>−4</sup> = 3,0 × 10<sup>−10</sup> N·s/m (é o módulo da inclinação da reta).\nGabarito: E.",
+  "resolucao": "1. Resultante na queda: <i>F</i><sub><i>R</i></sub> = <i>m g</i> − <i>b v</i> (reta decrescente do gráfico).\n2. Em <i>v</i> = 0: <i>F</i><sub><i>R</i></sub> = <i>m g</i> = 3 × 10<sup>−14</sup> N.\n3. A resultante se anula na velocidade terminal, <i>v</i> = 1 × 10<sup>−4</sup> m/s: <i>b v</i> = <i>m g</i> ⇒ \\(b = \\dfrac{3 \\times 10^{-14}}{10^{-4}} = 3,0 \\times 10^{-10}\\) N·s/m (é o módulo da inclinação da reta).\nGabarito: E.",
   "topicos": [
     "forca-de-arrasto-e-velocidade-terminal",
     "leis-de-newton",
@@ -21,5 +21,5 @@
   ],
   "status": "publicado",
   "criadoEm": "2026-11-01T14:43:28.000Z",
-  "atualizadoEm": "2026-11-01T14:43:28.000Z"
+  "atualizadoEm": "2026-11-13T13:00:00.000Z"
 }

@@ -11,7 +11,7 @@
   "figuras": [],
   "gabarito": "E",
   "gabaritoFonte": "resolucao-propria",
-  "resolucao": "1. Com segurança, a pessoa deve parar no máximo ao chegar ao chão: queda total de 30 m, com o elástico esticado <i>x</i> = 30 − 10 = 20 m.\n2. Conservação da energia (no ponto mais baixo a velocidade é zero): <i>m g h</i> = <i>k x</i><sup>2</sup>/2.\n3. 120 · 10 · 30 = <i>k</i> · 20<sup>2</sup>/2 ⇒ 36 000 = 200 <i>k</i> ⇒ <i>k</i> = 180 N/m.\n4. Com <i>k</i> menor, o elástico esticaria mais de 20 m e a pessoa atingiria o chão; por isso 180 N/m é o valor mínimo.\nGabarito: E.",
+  "resolucao": "1. Com segurança, a pessoa deve parar no máximo ao chegar ao chão: queda total de 30 m, com o elástico esticado <i>x</i> = 30 − 10 = 20 m.\n2. Conservação da energia (no ponto mais baixo a velocidade é zero): \\(mgh = \\dfrac{k x^2}{2}\\).\n3. \\(120 \\cdot 10 \\cdot 30 = \\dfrac{k \\cdot 20^2}{2}\\) ⇒ 36 000 = 200 <i>k</i> ⇒ <i>k</i> = 180 N/m.\n4. Com <i>k</i> menor, o elástico esticaria mais de 20 m e a pessoa atingiria o chão; por isso 180 N/m é o valor mínimo.\nGabarito: E.",
   "topicos": [
     "energia-potencial-elastica",
     "conservacao-da-energia-mecanica",
@@ -19,5 +19,5 @@
   ],
   "status": "publicado",
   "criadoEm": "2026-11-01T12:54:17.000Z",
-  "atualizadoEm": "2026-11-01T12:54:17.000Z"
+  "atualizadoEm": "2026-11-13T13:00:00.000Z"
 }

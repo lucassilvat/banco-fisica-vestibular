@@ -11,7 +11,7 @@
   "figuras": [],
   "gabarito": "E",
   "gabaritoFonte": "resolucao-propria",
-  "resolucao": "1. Energia elétrica total consumida: <i>E</i> = <i>P</i> · Δ<i>t</i> = 1600 W · (20 · 60 s) = 1,92 × 10<sup>6</sup> J = 1920 kJ.\n2. Massa de água: 540 mL · 1 g/mL = 540 g ⇒ <i>n</i> = 540/18 = 30 mol.\n3. Energia para vaporizar (calor latente, já na temperatura de ebulição): 30 mol · 40 kJ/mol = 1200 kJ.\n4. Fração: 1200/1920 = 0,625 ≈ 62%.\nGabarito: E.",
+  "resolucao": "1. Energia elétrica total consumida: <i>E</i> = <i>P</i> · Δ<i>t</i> = 1600 W · (20 · 60 s) = 1,92 × 10<sup>6</sup> J = 1920 kJ.\n2. Massa de água: 540 mL · 1 g/mL = 540 g ⇒ \\(n = \\dfrac{540}{18} = 30\\) mol.\n3. Energia para vaporizar (calor latente, já na temperatura de ebulição): 30 mol · 40 kJ/mol = 1200 kJ.\n4. Fração: \\(\\dfrac{1200}{1920} = 0,625 \\approx 62\\ \\%\\).\nGabarito: E.",
   "topicos": [
     "potencia-eletrica-e-efeito-joule",
     "calor-latente-e-mudancas-de-fase",
@@ -20,5 +20,5 @@
   ],
   "status": "publicado",
   "criadoEm": "2026-11-01T12:54:17.000Z",
-  "atualizadoEm": "2026-11-01T12:54:17.000Z"
+  "atualizadoEm": "2026-11-13T13:00:00.000Z"
 }

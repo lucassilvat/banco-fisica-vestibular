@@ -13,7 +13,7 @@
   ],
   "gabarito": "A",
   "gabaritoFonte": "resolucao-propria",
-  "resolucao": "1. Seguindo os fios: <i>R</i><sub>1</sub> e <i>R</i><sub>2</sub> estão em série, e esse ramo está em paralelo com <i>R</i><sub>3</sub>. O amperímetro mede a corrente total (2 A) e o voltímetro mede a tensão em <i>R</i><sub>1</sub>.\n2. Com resistências iguais (<i>R</i>), o ramo <i>R</i><sub>1</sub> + <i>R</i><sub>2</sub> (2<i>R</i>) recebe metade da corrente de <i>R</i><sub>3</sub> (<i>R</i>): <i>i</i> + 2<i>i</i> = 2 A ⇒ <i>i</i> = 2/3 A no ramo de <i>R</i><sub>1</sub> e <i>R</i><sub>2</sub>.\n3. Voltímetro: <i>R</i> · 2/3 = 6 V ⇒ <i>R</i> = 9 Ω.\n4. Potência em <i>R</i><sub>2</sub>: <i>P</i> = <i>R i</i><sup>2</sup> = 9 · (2/3)<sup>2</sup> = 4 W.\nGabarito: A.",
+  "resolucao": "1. Seguindo os fios: <i>R</i><sub>1</sub> e <i>R</i><sub>2</sub> estão em série, e esse ramo está em paralelo com <i>R</i><sub>3</sub>. O amperímetro mede a corrente total (2 A) e o voltímetro mede a tensão em <i>R</i><sub>1</sub>.\n2. Com resistências iguais (<i>R</i>), o ramo <i>R</i><sub>1</sub> + <i>R</i><sub>2</sub> (2<i>R</i>) recebe metade da corrente de <i>R</i><sub>3</sub> (<i>R</i>): <i>i</i> + 2<i>i</i> = 2 A ⇒ \\(i = \\dfrac{2}{3}\\) A no ramo de <i>R</i><sub>1</sub> e <i>R</i><sub>2</sub>.\n3. Voltímetro: \\(R \\cdot \\dfrac{2}{3} = 6\\) V ⇒ <i>R</i> = 9 Ω.\n4. Potência em <i>R</i><sub>2</sub>: \\(P = R i^2 = 9 \\cdot \\left(\\dfrac{2}{3}\\right)^2 = 4\\) W.\nGabarito: A.",
   "topicos": [
     "associacao-de-resistores",
     "potencia-eletrica-e-efeito-joule",
@@ -21,5 +21,5 @@
   ],
   "status": "publicado",
   "criadoEm": "2026-11-01T14:43:29.000Z",
-  "atualizadoEm": "2026-11-01T14:43:29.000Z"
+  "atualizadoEm": "2026-11-13T13:00:00.000Z"
 }

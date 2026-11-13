@@ -11,7 +11,7 @@
   "figuras": [],
   "gabarito": "B",
   "gabaritoFonte": "resolucao-propria",
-  "resolucao": "1. Sem resistência do ar, a energia mecânica se conserva: a energia cinética ao chegar ao solo é igual à energia potencial inicial, <i>E</i><sub>c</sub> = <i>m g h</i>.\n2. Mesma altura ⇒ <i>E</i><sub>c</sub> proporcional à massa. A maçã com o dobro do peso (dobro da massa) chega com o dobro da energia cinética.\n3. Observação: as duas chegam com a mesma velocidade (<i>v</i> = √(2<i>gh</i>)); o que dobra é a energia, por causa da massa.\nGabarito: B.",
+  "resolucao": "1. Sem resistência do ar, a energia mecânica se conserva: a energia cinética ao chegar ao solo é igual à energia potencial inicial, <i>E</i><sub>c</sub> = <i>m g h</i>.\n2. Mesma altura ⇒ <i>E</i><sub>c</sub> proporcional à massa. A maçã com o dobro do peso (dobro da massa) chega com o dobro da energia cinética.\n3. Observação: as duas chegam com a mesma velocidade (\\(v = \\sqrt{2gh}\\)); o que dobra é a energia, por causa da massa.\nGabarito: B.",
   "topicos": [
     "conservacao-da-energia-mecanica",
     "energia-potencial-gravitacional",
@@ -19,5 +19,5 @@
   ],
   "status": "publicado",
   "criadoEm": "2026-11-01T12:54:14.000Z",
-  "atualizadoEm": "2026-11-01T12:54:14.000Z"
+  "atualizadoEm": "2026-11-13T13:00:00.000Z"
 }

@@ -11,14 +11,14 @@
   "figuras": [],
   "gabarito": "A",
   "gabaritoFonte": "resolucao-propria",
-  "resolucao": "1. Seja 3<i>d</i> a distância total (cada terço vale <i>d</i>). Tempos: <i>d</i>/60, <i>d</i>/40 e <i>d</i>/20.\n2. Tempo total: <i>d</i>(1/60 + 1/40 + 1/20) = <i>d</i>(2 + 3 + 6)/120 = 11<i>d</i>/120.\n3. Velocidade média = distância total/tempo total = 3<i>d</i>/(11<i>d</i>/120) = 360/11 ≈ 32,7 km/h ≈ 32,5 km/h.\n4. Atenção: não é a média aritmética (40 km/h), pois o veículo passa mais tempo nos trechos lentos.\nGabarito: A.",
+  "resolucao": "1. Seja 3<i>d</i> a distância total (cada terço vale <i>d</i>). Tempos: \\(\\dfrac{d}{60}\\), \\(\\dfrac{d}{40}\\) e \\(\\dfrac{d}{20}\\).\n2. Tempo total: \\(d\\left(\\dfrac{1}{60} + \\dfrac{1}{40} + \\dfrac{1}{20}\\right) = \\dfrac{d(2 + 3 + 6)}{120} = \\dfrac{11d}{120}\\).\n3. \\(v_{\\text{m}} = \\dfrac{\\text{distância total}}{\\text{tempo total}} = \\dfrac{3d}{\\tfrac{11d}{120}} = \\dfrac{360}{11} \\approx 32,7\\) km/h ≈ 32,5 km/h.\n4. Atenção: não é a média aritmética (40 km/h), pois o veículo passa mais tempo nos trechos lentos.\nGabarito: A.",
   "topicos": [
     "velocidade-media-e-aceleracao-media",
     "movimento-retilineo-uniforme-mru"
   ],
   "status": "publicado",
   "criadoEm": "2026-11-01T14:43:29.000Z",
-  "atualizadoEm": "2026-11-01T14:43:29.000Z",
+  "atualizadoEm": "2026-11-13T13:00:00.000Z",
   "revisao": {
     "notas": "No PDF de 2016, símbolos e números escritos com o editor de equações não aparecem na camada de texto; esses trechos foram transcritos da imagem do caderno e conferidos visualmente.",
     "divergenciasAceitas": [

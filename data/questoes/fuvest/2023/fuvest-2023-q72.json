@@ -11,7 +11,7 @@
   "figuras": [],
   "gabarito": "A",
   "gabaritoFonte": "resolucao-propria",
-  "resolucao": "1. A energia de um fóton é <i>E</i> = <i>hc</i>/λ: quanto maior o comprimento de onda, menor a energia. Pelo texto, só é ionizante a radiação com energia acima de 10 eV (λ abaixo de cerca de 120–200 nm, ultravioleta longínquo).\n2. (A) Correta: luz visível (λ ≈ 400–700 nm, energia de 2 a 3 eV), micro-ondas e <i>laser</i> vermelho têm λ muito maior que 200 nm ⇒ não ionizantes.\n3. (B) Errada: é o contrário; λ maior ⇒ menor energia ⇒ menor poder ionizante.\n4. (C) Errada: luz visível é radiação eletromagnética.\n5. (D) Errada: no efeito fotoelétrico a radiação arranca elétrons da matéria, o que é justamente a característica descrita para a radiação ionizante no 2º texto.\n6. (E) Errada: arrancar elétrons altera as ligações químicas e, portanto, as propriedades das moléculas (é o que causa danos biológicos).\nGabarito: A.",
+  "resolucao": "1. A energia de um fóton é \\(E = \\dfrac{hc}{\\lambda}\\): quanto maior o comprimento de onda, menor a energia. Pelo texto, só é ionizante a radiação com energia acima de 10 eV (λ abaixo de cerca de 120–200 nm, ultravioleta longínquo).\n2. (A) Correta: luz visível (λ ≈ 400–700 nm, energia de 2 a 3 eV), micro-ondas e <i>laser</i> vermelho têm λ muito maior que 200 nm ⇒ não ionizantes.\n3. (B) Errada: é o contrário; λ maior ⇒ menor energia ⇒ menor poder ionizante.\n4. (C) Errada: luz visível é radiação eletromagnética.\n5. (D) Errada: no efeito fotoelétrico a radiação arranca elétrons da matéria, o que é justamente a característica descrita para a radiação ionizante no 2º texto.\n6. (E) Errada: arrancar elétrons altera as ligações químicas e, portanto, as propriedades das moléculas (é o que causa danos biológicos).\nGabarito: A.",
   "topicos": [
     "espectro-eletromagnetico",
     "fotons-e-energia-do-foton-e-hf",
@@ -19,5 +19,5 @@
   ],
   "status": "publicado",
   "criadoEm": "2026-11-01T12:54:11.000Z",
-  "atualizadoEm": "2026-11-01T12:54:11.000Z"
+  "atualizadoEm": "2026-11-13T13:00:00.000Z"
 }

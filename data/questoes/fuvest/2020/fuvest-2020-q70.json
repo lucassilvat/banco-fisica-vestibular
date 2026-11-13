@@ -11,7 +11,7 @@
   "figuras": [],
   "gabarito": "A",
   "gabaritoFonte": "resolucao-propria",
-  "resolucao": "1. <i>h</i> = <i>E</i>/<i>f</i> ⇒ [<i>h</i>] = J/Hz = J · s.\n2. Joule em unidades de base: J = N · m = (kg · m/s<sup>2</sup>) · m = kg · m<sup>2</sup>/s<sup>2</sup>.\n3. [<i>h</i>] = kg · m<sup>2</sup>/s<sup>2</sup> · s = kg · m<sup>2</sup>/s.\nGabarito: A.",
+  "resolucao": "1. \\(h = \\dfrac{E}{f}\\) ⇒ [<i>h</i>] = J/Hz = J · s.\n2. Joule em unidades de base: J = N · m = (kg · m/s<sup>2</sup>) · m = kg · m<sup>2</sup>/s<sup>2</sup>.\n3. [<i>h</i>] = kg · m<sup>2</sup>/s<sup>2</sup> · s = kg · m<sup>2</sup>/s.\nGabarito: A.",
   "topicos": [
     "analise-dimensional",
     "grandezas-fisicas-e-sistema-internacional",
@@ -19,5 +19,5 @@
   ],
   "status": "publicado",
   "criadoEm": "2026-11-01T12:54:17.000Z",
-  "atualizadoEm": "2026-11-01T12:54:17.000Z"
+  "atualizadoEm": "2026-11-13T13:00:00.000Z"
 }

@@ -7,11 +7,11 @@
   "fonte": {
     "descricao": "Fuvest, Vestibular 2016, 1ª fase (Prova de Conhecimentos Gerais), caderno de questões"
   },
-  "enunciado": "Uma bola de massa <i>m</i> é solta do alto de um edifício. Quando está passando pela posição <i>y</i> = <i>h</i>, o módulo de sua velocidade é <i>v</i>. Sabendo-se que o solo, origem para a escala de energia potencial, tem coordenada <i>y</i> = <i>h</i><sub>0</sub>, tal que <i>h</i> > <i>h</i><sub>0</sub> > 0, a energia mecânica da bola em <i>y</i> = (<i>h</i> − <i>h</i><sub>0</sub>)/2 é igual a\n\nNote e adote:\nDesconsidere a resistência do ar.\n<i>g</i> é a aceleração da gravidade.\n\na) ½<i>mg</i>(<i>h</i> − <i>h</i><sub>0</sub>) + ¼<i>mv</i><sup>2</sup>\nb) ½<i>mg</i>(<i>h</i> − <i>h</i><sub>0</sub>) + ½<i>mv</i><sup>2</sup>\nc) ½<i>mg</i>(<i>h</i> − <i>h</i><sub>0</sub>) + 2<i>mv</i><sup>2</sup>\nd) <i>mgh</i> + ½<i>mv</i><sup>2</sup>\ne) <i>mg</i>(<i>h</i> − <i>h</i><sub>0</sub>) + ½<i>mv</i><sup>2</sup>",
+  "enunciado": "Uma bola de massa <i>m</i> é solta do alto de um edifício. Quando está passando pela posição <i>y</i> = <i>h</i>, o módulo de sua velocidade é <i>v</i>. Sabendo-se que o solo, origem para a escala de energia potencial, tem coordenada <i>y</i> = <i>h</i><sub>0</sub>, tal que <i>h</i> > <i>h</i><sub>0</sub> > 0, a energia mecânica da bola em <i>y</i> = (<i>h</i> − <i>h</i><sub>0</sub>)/2 é igual a\n\nNote e adote:\nDesconsidere a resistência do ar.\n<i>g</i> é a aceleração da gravidade.\n\na) \\(\\tfrac{1}{2}mg(h - h_0) + \\tfrac{1}{4}mv^2\\)\nb) \\(\\tfrac{1}{2}mg(h - h_0) + \\tfrac{1}{2}mv^2\\)\nc) \\(\\tfrac{1}{2}mg(h - h_0) + 2mv^2\\)\nd) \\(mgh + \\tfrac{1}{2}mv^2\\)\ne) \\(mg(h - h_0) + \\tfrac{1}{2}mv^2\\)",
   "figuras": [],
   "gabarito": "E",
   "gabaritoFonte": "resolucao-propria",
-  "resolucao": "1. Sem resistência do ar, a energia mecânica é a mesma em qualquer ponto da queda; basta calculá-la em <i>y</i> = <i>h</i>.\n2. Com o zero da energia potencial no solo (<i>y</i> = <i>h</i><sub>0</sub>), a altura da bola em <i>y</i> = <i>h</i> é <i>h</i> − <i>h</i><sub>0</sub> ⇒ <i>E</i><sub>p</sub> = <i>mg</i>(<i>h</i> − <i>h</i><sub>0</sub>).\n3. Energia cinética nesse ponto: ½<i>mv</i><sup>2</sup>.\n4. <i>E</i> = <i>mg</i>(<i>h</i> − <i>h</i><sub>0</sub>) + ½<i>mv</i><sup>2</sup>, também na posição (<i>h</i> − <i>h</i><sub>0</sub>)/2 pedida.\nGabarito: E.",
+  "resolucao": "1. Sem resistência do ar, a energia mecânica é a mesma em qualquer ponto da queda; basta calculá-la em <i>y</i> = <i>h</i>.\n2. Com o zero da energia potencial no solo (<i>y</i> = <i>h</i><sub>0</sub>), a altura da bola em <i>y</i> = <i>h</i> é <i>h</i> − <i>h</i><sub>0</sub> ⇒ <i>E</i><sub>p</sub> = <i>mg</i>(<i>h</i> − <i>h</i><sub>0</sub>).\n3. Energia cinética nesse ponto: ½<i>mv</i><sup>2</sup>.\n4. \\(E = mg(h - h_0) + \\dfrac{1}{2}mv^2\\), também na posição \\(\\dfrac{h - h_0}{2}\\) pedida.\nGabarito: E.",
   "topicos": [
     "conservacao-da-energia-mecanica",
     "energia-potencial-gravitacional",
@@ -19,7 +19,7 @@
   ],
   "status": "publicado",
   "criadoEm": "2026-11-01T14:43:29.000Z",
-  "atualizadoEm": "2026-11-01T14:43:29.000Z",
+  "atualizadoEm": "2026-11-13T13:00:00.000Z",
   "revisao": {
     "notas": "No PDF de 2016, símbolos e números escritos com o editor de equações não aparecem na camada de texto; esses trechos foram transcritos da imagem do caderno e conferidos visualmente.",
     "divergenciasAceitas": [

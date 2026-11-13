@@ -11,7 +11,7 @@
   "figuras": [],
   "gabarito": "C",
   "gabaritoFonte": "resolucao-propria",
-  "resolucao": "1. Tempo: 5 × 10<sup>9</sup> anos · 3 × 10<sup>7</sup> s/ano = 1,5 × 10<sup>17</sup> s.\n2. Energia irradiada: <i>E</i> = <i>P</i> · Δ<i>t</i> = 4 × 10<sup>26</sup> · 1,5 × 10<sup>17</sup> = 6 × 10<sup>43</sup> J.\n3. Massa equivalente: Δ<i>m</i> = <i>E</i>/<i>c</i><sup>2</sup> = 6 × 10<sup>43</sup>/9 × 10<sup>16</sup> ≈ 7 × 10<sup>26</sup> kg ⇒ mais próximo de 10<sup>27</sup> kg.\nGabarito: C.",
+  "resolucao": "1. Tempo: 5 × 10<sup>9</sup> anos · 3 × 10<sup>7</sup> s/ano = 1,5 × 10<sup>17</sup> s.\n2. Energia irradiada: <i>E</i> = <i>P</i> · Δ<i>t</i> = 4 × 10<sup>26</sup> · 1,5 × 10<sup>17</sup> = 6 × 10<sup>43</sup> J.\n3. Massa equivalente: \\(\\Delta m = \\dfrac{E}{c^2} = \\dfrac{6 \\times 10^{43}}{9 \\times 10^{16}} \\approx 7 \\times 10^{26}\\) kg ⇒ mais próximo de 10<sup>27</sup> kg.\nGabarito: C.",
   "topicos": [
     "equivalencia-massa-energia-e-mc",
     "fissao-e-fusao-nuclear",
@@ -19,5 +19,5 @@
   ],
   "status": "publicado",
   "criadoEm": "2026-11-01T12:54:20.000Z",
-  "atualizadoEm": "2026-11-01T12:54:20.000Z"
+  "atualizadoEm": "2026-11-13T13:00:00.000Z"
 }

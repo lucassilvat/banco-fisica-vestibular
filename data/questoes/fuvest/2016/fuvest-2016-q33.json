@@ -11,14 +11,14 @@
   "figuras": [],
   "gabarito": "B",
   "gabaritoFonte": "resolucao-propria",
-  "resolucao": "1. Isolando a constante: <i>α</i> = Δ<i>m</i>/(<i>v S</i> Δ<i>t</i>).\n2. Unidades: kg/((m/s) · m<sup>2</sup> · s) = kg/m<sup>3</sup> = kg.m<sup>−3</sup> (unidade de densidade: faz sentido, é a densidade de água disponível na nuvem).\nGabarito: B.",
+  "resolucao": "1. Isolando a constante: \\(\\alpha = \\dfrac{\\Delta m}{v S\\,\\Delta t}\\).\n2. Unidades: \\(\\dfrac{\\text{kg}}{(\\text{m/s}) \\cdot \\text{m}^2 \\cdot \\text{s}} = \\dfrac{\\text{kg}}{\\text{m}^3}\\) = kg.m<sup>−3</sup> (unidade de densidade: faz sentido, é a densidade de água disponível na nuvem).\nGabarito: B.",
   "topicos": [
     "analise-dimensional",
     "grandezas-fisicas-e-sistema-internacional"
   ],
   "status": "publicado",
   "criadoEm": "2026-11-01T14:43:29.000Z",
-  "atualizadoEm": "2026-11-01T14:43:29.000Z",
+  "atualizadoEm": "2026-11-13T13:00:00.000Z",
   "revisao": {
     "notas": "No PDF de 2016, símbolos e números escritos com o editor de equações não aparecem na camada de texto; esses trechos foram transcritos da imagem do caderno e conferidos visualmente."
   }

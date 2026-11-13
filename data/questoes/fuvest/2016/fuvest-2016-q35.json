@@ -14,7 +14,7 @@
   ],
   "gabarito": "B",
   "gabaritoFonte": "resolucao-propria",
-  "resolucao": "1. Potência média necessária: <i>P</i> = <i>E</i>/Δ<i>t</i> = 8,8 × 10<sup>9</sup> Wh/8.800 h = 10<sup>6</sup> W = 1.000 kW.\n2. No gráfico, 1.000 kW corresponde a ventos de cerca de 9 a 10 m/s, acima de 8,5 m/s: faixa mais escura do mapa.\n3. Entre os locais citados, só o nordeste do Amapá (litoral norte) está na faixa acima de 8,5 m/s; o noroeste do Pará, o sudeste do Tocantins e o leste da Bahia têm ventos mais fracos, e o sudoeste do Rio Grande do Norte fica fora da faixa mais escura do litoral.\nGabarito: B.",
+  "resolucao": "1. Potência média necessária: \\(P = \\dfrac{E}{\\Delta t} = \\dfrac{8,8 \\times 10^9\\ \\text{Wh}}{8.800\\ \\text{h}} = 10^6\\) W = 1.000 kW.\n2. No gráfico, 1.000 kW corresponde a ventos de cerca de 9 a 10 m/s, acima de 8,5 m/s: faixa mais escura do mapa.\n3. Entre os locais citados, só o nordeste do Amapá (litoral norte) está na faixa acima de 8,5 m/s; o noroeste do Pará, o sudeste do Tocantins e o leste da Bahia têm ventos mais fracos, e o sudoeste do Rio Grande do Norte fica fora da faixa mais escura do litoral.\nGabarito: B.",
   "topicos": [
     "potencia-e-rendimento",
     "usinas-e-geracao-de-energia-eletrica",
@@ -22,5 +22,5 @@
   ],
   "status": "publicado",
   "criadoEm": "2026-11-01T14:43:29.000Z",
-  "atualizadoEm": "2026-11-01T14:43:29.000Z"
+  "atualizadoEm": "2026-11-13T13:00:00.000Z"
 }

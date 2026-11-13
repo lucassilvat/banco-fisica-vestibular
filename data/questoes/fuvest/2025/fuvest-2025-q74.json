@@ -13,7 +13,7 @@
   ],
   "gabarito": "D",
   "gabaritoFonte": "oficial",
-  "resolucao": "1. Diferença de pressão entre dentro e fora: 5 atm − 1 atm = 4 atm = 4 × 10<sup>5</sup> Pa.\n2. Área da rolha: <i>A</i> = π<i>r</i><sup>2</sup> = 3 · (0,01 m)<sup>2</sup> = 3 × 10<sup>−4</sup> m<sup>2</sup>.\n3. Força resultante: <i>F</i> = Δ<i>p</i> · <i>A</i> = 4 × 10<sup>5</sup> · 3 × 10<sup>−4</sup> = 120 N.\n4. 2ª lei de Newton: <i>a</i> = <i>F</i>/<i>m</i> = 120/0,010 = 12 000 m/s<sup>2</sup>.\nGabarito: D.",
+  "resolucao": "1. Diferença de pressão entre dentro e fora: 5 atm − 1 atm = 4 atm = 4 × 10<sup>5</sup> Pa.\n2. Área da rolha: <i>A</i> = π<i>r</i><sup>2</sup> = 3 · (0,01 m)<sup>2</sup> = 3 × 10<sup>−4</sup> m<sup>2</sup>.\n3. Força resultante: <i>F</i> = Δ<i>p</i> · <i>A</i> = 4 × 10<sup>5</sup> · 3 × 10<sup>−4</sup> = 120 N.\n4. 2ª lei de Newton: \\(a = \\dfrac{F}{m} = \\dfrac{120}{0,010} = 12 000\\) m/s<sup>2</sup>.\nGabarito: D.",
   "topicos": [
     "pressao",
     "leis-de-newton",
@@ -21,7 +21,7 @@
   ],
   "status": "publicado",
   "criadoEm": "2026-11-01T12:54:06.000Z",
-  "atualizadoEm": "2026-11-01T12:54:06.000Z",
+  "atualizadoEm": "2026-11-13T13:00:00.000Z",
   "revisao": {
     "divergenciasAceitas": [
       "vin"

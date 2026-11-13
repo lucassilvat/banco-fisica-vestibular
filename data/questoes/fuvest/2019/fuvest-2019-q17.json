@@ -7,11 +7,11 @@
   "fonte": {
     "descricao": "Fuvest, Vestibular 2019, 1ª fase (Prova de Conhecimentos Gerais), caderno de questões"
   },
-  "enunciado": "Um rapaz de massa <i>m</i><sub>1</sub> corre numa pista horizontal e pula sobre um <i>skate</i> de massa <i>m</i><sub>2</sub>, que se encontra inicialmente em repouso. Com o impacto, o <i>skate</i> adquire velocidade e o conjunto rapaz+<i>skate</i> segue em direção a uma rampa e atinge uma altura máxima <i>h</i>. A velocidade do rapaz, imediatamente antes de tocar no <i>skate</i>, é dada por\n\nNote e adote:\nConsidere que o sistema rapaz + <i>skate</i> não perde energia devido a forças dissipativas, após a colisão.\n\n(A) ((<i>m</i><sub>1</sub> + <i>m</i><sub>2</sub>)/<i>m</i><sub>2</sub>)√(<i>gh</i>)\n(B) ((<i>m</i><sub>1</sub> + <i>m</i><sub>2</sub>)/2<i>m</i><sub>1</sub>)√(<i>gh</i>)\n(C) (<i>m</i><sub>1</sub>/<i>m</i><sub>2</sub>)√(2<i>gh</i>)\n(D) ((<i>m</i><sub>1</sub> + <i>m</i><sub>2</sub>)/<i>m</i><sub>1</sub>)√(2<i>gh</i>)\n(E) ((2<i>m</i><sub>1</sub> + <i>m</i><sub>2</sub>)/<i>m</i><sub>1</sub>)√(<i>gh</i>)",
+  "enunciado": "Um rapaz de massa <i>m</i><sub>1</sub> corre numa pista horizontal e pula sobre um <i>skate</i> de massa <i>m</i><sub>2</sub>, que se encontra inicialmente em repouso. Com o impacto, o <i>skate</i> adquire velocidade e o conjunto rapaz+<i>skate</i> segue em direção a uma rampa e atinge uma altura máxima <i>h</i>. A velocidade do rapaz, imediatamente antes de tocar no <i>skate</i>, é dada por\n\nNote e adote:\nConsidere que o sistema rapaz + <i>skate</i> não perde energia devido a forças dissipativas, após a colisão.\n\n(A) \\(\\dfrac{(m_1 + m_2)}{m_2}\\sqrt{gh}\\)\n(B) \\(\\dfrac{(m_1 + m_2)}{2m_1}\\sqrt{gh}\\)\n(C) \\(\\dfrac{m_1}{m_2}\\sqrt{2gh}\\)\n(D) \\(\\dfrac{(m_1 + m_2)}{m_1}\\sqrt{2gh}\\)\n(E) \\(\\dfrac{(2m_1 + m_2)}{m_1}\\sqrt{gh}\\)",
   "figuras": [],
   "gabarito": "D",
   "gabaritoFonte": "resolucao-propria",
-  "resolucao": "1. Subida na rampa (sem dissipação após a colisão): o conjunto, com velocidade <i>V</i>, atinge altura <i>h</i> ⇒ <i>V</i><sup>2</sup>/2 = <i>g h</i> ⇒ <i>V</i> = √(2<i>gh</i>).\n2. Colisão perfeitamente inelástica (rapaz e <i>skate</i> seguem juntos), com conservação da quantidade de movimento: <i>m</i><sub>1</sub> <i>v</i> = (<i>m</i><sub>1</sub> + <i>m</i><sub>2</sub>) <i>V</i>.\n3. <i>v</i> = ((<i>m</i><sub>1</sub> + <i>m</i><sub>2</sub>)/<i>m</i><sub>1</sub>)√(2<i>gh</i>).\nGabarito: D.",
+  "resolucao": "1. Subida na rampa (sem dissipação após a colisão): o conjunto, com velocidade <i>V</i>, atinge altura <i>h</i> ⇒ \\(\\dfrac{V^2}{2} = gh \\Rightarrow V = \\sqrt{2gh}\\).\n2. Colisão perfeitamente inelástica (rapaz e <i>skate</i> seguem juntos), com conservação da quantidade de movimento: <i>m</i><sub>1</sub> <i>v</i> = (<i>m</i><sub>1</sub> + <i>m</i><sub>2</sub>) <i>V</i>.\n3. \\(v = \\dfrac{m_1 + m_2}{m_1}\\sqrt{2gh}\\).\nGabarito: D.",
   "topicos": [
     "conservacao-da-quantidade-de-movimento",
     "colisoes-elasticas-e-inelasticas",
@@ -19,5 +19,5 @@
   ],
   "status": "publicado",
   "criadoEm": "2026-11-01T14:43:25.000Z",
-  "atualizadoEm": "2026-11-01T14:43:25.000Z"
+  "atualizadoEm": "2026-11-13T13:00:00.000Z"
 }

@@ -13,7 +13,7 @@
   ],
   "gabarito": "D",
   "gabaritoFonte": "resolucao-propria",
-  "resolucao": "1. A melhor resposta auditiva é a de menor α. No gráfico, o menor valor (15 dB) ocorre em <i>f</i> = 1000 Hz.\n2. Equação fundamental da ondulatória: λ = <i>v</i>/<i>f</i> = 340/1000 = 0,34 m = 34 cm.\nGabarito: D.",
+  "resolucao": "1. A melhor resposta auditiva é a de menor α. No gráfico, o menor valor (15 dB) ocorre em <i>f</i> = 1000 Hz.\n2. Equação fundamental da ondulatória: \\(\\lambda = \\dfrac{v}{f} = \\dfrac{340}{1000} = 0,34\\) m = 34 cm.\nGabarito: D.",
   "topicos": [
     "equacao-fundamental-da-ondulatoria-v-f",
     "som-altura-intensidade-e-timbre",
@@ -21,5 +21,5 @@
   ],
   "status": "publicado",
   "criadoEm": "2026-11-01T12:54:03.000Z",
-  "atualizadoEm": "2026-11-01T12:54:03.000Z"
+  "atualizadoEm": "2026-11-13T13:00:00.000Z"
 }

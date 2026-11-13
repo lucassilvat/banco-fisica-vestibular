@@ -13,7 +13,7 @@
   ],
   "gabarito": "A",
   "gabaritoFonte": "resolucao-propria",
-  "resolucao": "1. Física: <i>λ</i> = <i>c</i>/<i>f</i>. Para 7,0 × 10<sup>14</sup> Hz: <i>λ</i> ≈ 4,3 × 10<sup>−7</sup> m = 430 nm. Para 5,0 × 10<sup>14</sup> Hz: <i>λ</i> = 6,0 × 10<sup>−7</sup> m = 600 nm.\n2. No gráfico, em 430 nm a absorção das clorofilas é alta (bem acima de 20%) ⇒ a fotossíntese supera a respiração e a planta consome CO<sub>2</sub> ⇒ recipiente I com menos CO<sub>2</sub> ⇒ roxa.\n3. Em 600 nm a absorção é cerca de 10%, abaixo do ponto de compensação ⇒ a respiração supera a fotossíntese ⇒ recipiente II com mais CO<sub>2</sub> ⇒ amarela.\n4. As rãs (III) só respiram ⇒ mais CO<sub>2</sub> ⇒ amarela.\nGabarito: A.",
+  "resolucao": "1. Física: \\(\\lambda = \\dfrac{c}{f}\\). Para 7,0 × 10<sup>14</sup> Hz: <i>λ</i> ≈ 4,3 × 10<sup>−7</sup> m = 430 nm. Para 5,0 × 10<sup>14</sup> Hz: <i>λ</i> = 6,0 × 10<sup>−7</sup> m = 600 nm.\n2. No gráfico, em 430 nm a absorção das clorofilas é alta (bem acima de 20%) ⇒ a fotossíntese supera a respiração e a planta consome CO<sub>2</sub> ⇒ recipiente I com menos CO<sub>2</sub> ⇒ roxa.\n3. Em 600 nm a absorção é cerca de 10%, abaixo do ponto de compensação ⇒ a respiração supera a fotossíntese ⇒ recipiente II com mais CO<sub>2</sub> ⇒ amarela.\n4. As rãs (III) só respiram ⇒ mais CO<sub>2</sub> ⇒ amarela.\nGabarito: A.",
   "topicos": [
     "equacao-fundamental-da-ondulatoria-v-f",
     "espectro-eletromagnetico",
@@ -21,5 +21,5 @@
   ],
   "status": "publicado",
   "criadoEm": "2026-11-01T14:43:29.000Z",
-  "atualizadoEm": "2026-11-01T14:43:29.000Z"
+  "atualizadoEm": "2026-11-13T13:00:00.000Z"
 }

@@ -11,7 +11,7 @@
   "figuras": [],
   "gabarito": "D",
   "gabaritoFonte": "resolucao-propria",
-  "resolucao": "1. Movimento uniforme: Δ<i>t</i> = Δ<i>s</i>/<i>v</i>.\n2. Mesma unidade de comprimento: 5.000 km = 5 × 10<sup>3</sup> × 10<sup>5</sup> cm = 5 × 10<sup>8</sup> cm.\n3. Δ<i>t</i> = 5 × 10<sup>8</sup> cm / (2,0 cm/ano) = 2,5 × 10<sup>8</sup> anos = 250.000.000 anos.\nGabarito: D.",
+  "resolucao": "1. Movimento uniforme: \\(\\Delta t = \\dfrac{\\Delta s}{v}\\).\n2. Mesma unidade de comprimento: 5.000 km = 5 × 10<sup>3</sup> × 10<sup>5</sup> cm = 5 × 10<sup>8</sup> cm.\n3. \\(\\Delta t = \\dfrac{5 \\times 10^8\\ \\text{cm}}{2,0\\ \\text{cm/ano}} = 2,5 \\times 10^8\\) anos = 250.000.000 anos.\nGabarito: D.",
   "topicos": [
     "movimento-retilineo-uniforme-mru",
     "notacao-cientifica-e-ordem-de-grandeza",
@@ -19,5 +19,5 @@
   ],
   "status": "publicado",
   "criadoEm": "2026-11-01T12:54:14.000Z",
-  "atualizadoEm": "2026-11-01T12:54:14.000Z"
+  "atualizadoEm": "2026-11-13T13:00:00.000Z"
 }

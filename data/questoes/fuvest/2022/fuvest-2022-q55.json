@@ -13,12 +13,12 @@
   ],
   "gabarito": "C",
   "gabaritoFonte": "resolucao-propria",
-  "resolucao": "1. O componente se comporta como resistor ôhmico onde a curva ddp × corrente é uma reta passando pela origem: no trecho inicial (correntes baixas).\n2. Nesse trecho, lê-se aproximadamente 0,2 V para 0,25 A (ou 0,4 V para 0,5 A).\n3. <i>R</i> = <i>U</i>/<i>i</i> = 0,4/0,5 = 0,8 Ω.\nGabarito: C.",
+  "resolucao": "1. O componente se comporta como resistor ôhmico onde a curva ddp × corrente é uma reta passando pela origem: no trecho inicial (correntes baixas).\n2. Nesse trecho, lê-se aproximadamente 0,2 V para 0,25 A (ou 0,4 V para 0,5 A).\n3. \\(R = \\dfrac{U}{i} = \\dfrac{0,4}{0,5} = 0,8\\) Ω.\nGabarito: C.",
   "topicos": [
     "primeira-lei-de-ohm",
     "leitura-e-interpretacao-de-graficos"
   ],
   "status": "publicado",
   "criadoEm": "2026-11-01T12:54:14.000Z",
-  "atualizadoEm": "2026-11-01T12:54:14.000Z"
+  "atualizadoEm": "2026-11-13T13:00:00.000Z"
 }

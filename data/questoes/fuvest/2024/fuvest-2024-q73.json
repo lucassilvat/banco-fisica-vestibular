@@ -13,12 +13,12 @@
   ],
   "gabarito": "C",
   "gabaritoFonte": "resolucao-propria",
-  "resolucao": "1. Os acúmulos de areia marcam os <b>nós</b> da onda estacionária (deslocamento nulo).\n2. Na régua, os acúmulos estão em cerca de 1,2; 4,6; 8,0; 11,4; 14,8 e 18,2 cm: são 6 nós, separados por 5 intervalos ao longo de ≈ 17 cm ⇒ distância entre nós ≈ 3,4 cm.\n3. A distância entre nós consecutivos é <i>λ</i>/2 ⇒ <i>λ</i> ≈ 2 · 3,4 = 6,8 cm.\nGabarito: C.",
+  "resolucao": "1. Os acúmulos de areia marcam os <b>nós</b> da onda estacionária (deslocamento nulo).\n2. Na régua, os acúmulos estão em cerca de 1,2; 4,6; 8,0; 11,4; 14,8 e 18,2 cm: são 6 nós, separados por 5 intervalos ao longo de ≈ 17 cm ⇒ distância entre nós ≈ 3,4 cm.\n3. A distância entre nós consecutivos é \\(\\dfrac{\\lambda}{2}\\) ⇒ <i>λ</i> ≈ 2 · 3,4 = 6,8 cm.\nGabarito: C.",
   "topicos": [
     "ondas-estacionarias-e-cordas-vibrantes",
     "ondas-classificacao-e-elementos"
   ],
   "status": "publicado",
   "criadoEm": "2026-11-01T12:54:08.000Z",
-  "atualizadoEm": "2026-11-01T12:54:08.000Z"
+  "atualizadoEm": "2026-11-13T13:00:00.000Z"
 }

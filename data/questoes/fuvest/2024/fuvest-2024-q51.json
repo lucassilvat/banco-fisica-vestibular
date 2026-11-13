@@ -13,7 +13,7 @@
   ],
   "gabarito": "C",
   "gabaritoFonte": "resolucao-propria",
-  "resolucao": "1. A velocidade é máxima quando não há perdas: a energia mecânica se conserva.\n2. <i>m g h</i> = <i>m v</i><sup>2</sup>/2 ⇒ <i>v</i> = √(2<i>gh</i>) = √(2 · 10 · 2,45) = √49 = 7 m/s.\nGabarito: C.",
+  "resolucao": "1. A velocidade é máxima quando não há perdas: a energia mecânica se conserva.\n2. \\(mgh = \\dfrac{m v^2}{2} \\Rightarrow v = \\sqrt{2gh} = \\sqrt{2 \\cdot 10 \\cdot 2,45} = \\sqrt{49} = 7\\) m/s.\nGabarito: C.",
   "topicos": [
     "conservacao-da-energia-mecanica",
     "energia-potencial-gravitacional",
@@ -21,5 +21,5 @@
   ],
   "status": "publicado",
   "criadoEm": "2026-11-01T12:54:08.000Z",
-  "atualizadoEm": "2026-11-01T12:54:08.000Z"
+  "atualizadoEm": "2026-11-13T13:00:00.000Z"
 }

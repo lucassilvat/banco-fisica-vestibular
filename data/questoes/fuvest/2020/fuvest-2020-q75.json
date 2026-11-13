@@ -13,12 +13,12 @@
   ],
   "gabarito": "D",
   "gabaritoFonte": "resolucao-propria",
-  "resolucao": "1. A corrente máxima suportada, <i>V</i>/(<i>R</i> + <i>L</i>), é a que passaria pela lâmpada em série com um resistor <i>R</i>. A lâmpada queima se a resistência em série com ela for <b>menor</b> que <i>R</i>.\n2. Circuito 1: dois <i>R</i><sub><i>D</i></sub> em série com a lâmpada: <i>R</i>/2 + <i>R</i>/2 = <i>R</i> ⇒ <i>i</i> = <i>V</i>/(<i>R</i> + <i>L</i>), igual ao limite, não superior ⇒ não queima.\n3. Circuito 2: dois <i>R</i><sub><i>D</i></sub> em paralelo (<i>R</i>/4) em série com a lâmpada ⇒ <i>i</i> = <i>V</i>/(<i>R</i>/4 + <i>L</i>) > <i>V</i>/(<i>R</i> + <i>L</i>) ⇒ queima.\n4. Circuito 3: o ramo com a lâmpada tem só um <i>R</i><sub><i>D</i></sub> em série e está ligado diretamente à fonte (em paralelo com o outro <i>R</i><sub><i>D</i></sub>) ⇒ corrente na lâmpada <i>V</i>/(<i>R</i>/2 + <i>L</i>) > <i>V</i>/(<i>R</i> + <i>L</i>) ⇒ queima.\nGabarito: D.",
+  "resolucao": "1. A corrente máxima suportada, \\(\\dfrac{V}{R + L}\\), é a que passaria pela lâmpada em série com um resistor <i>R</i>. A lâmpada queima se a resistência em série com ela for <b>menor</b> que <i>R</i>.\n2. Circuito 1: dois <i>R</i><sub><i>D</i></sub> em série com a lâmpada: \\(\\dfrac{R}{2} + \\dfrac{R}{2} = R \\Rightarrow i = \\dfrac{V}{R + L}\\), igual ao limite, não superior ⇒ não queima.\n3. Circuito 2: dois <i>R</i><sub><i>D</i></sub> em paralelo (\\(\\dfrac{R}{4}\\)) em série com a lâmpada ⇒ \\(i = \\dfrac{V}{\\tfrac{R}{4} + L} > \\dfrac{V}{R + L}\\) ⇒ queima.\n4. Circuito 3: o ramo com a lâmpada tem só um <i>R</i><sub><i>D</i></sub> em série e está ligado diretamente à fonte (em paralelo com o outro <i>R</i><sub><i>D</i></sub>) ⇒ corrente na lâmpada \\(\\dfrac{V}{\\tfrac{R}{2} + L} > \\dfrac{V}{R + L}\\) ⇒ queima.\nGabarito: D.",
   "topicos": [
     "associacao-de-resistores",
     "primeira-lei-de-ohm"
   ],
   "status": "publicado",
   "criadoEm": "2026-11-01T12:54:17.000Z",
-  "atualizadoEm": "2026-11-01T12:54:17.000Z"
+  "atualizadoEm": "2026-11-13T13:00:00.000Z"
 }

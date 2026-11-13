@@ -13,14 +13,14 @@
   ],
   "gabarito": "E",
   "gabaritoFonte": "resolucao-propria",
-  "resolucao": "1. No triângulo retângulo Terra–Lua–Sol (ângulo reto na Lua), o cateto <i>d<sub>L</sub></i> é adjacente ao ângulo <i>α</i> na Terra e <i>d<sub>S</sub></i> é a hipotenusa: <i>d<sub>L</sub></i>/<i>d<sub>S</sub></i> = cos <i>α</i>.\n2. Em MCU, o ângulo varrido é proporcional ao tempo. De minguante a crescente (pelo lado do Sol), a Lua varre 2<i>α</i>; o ciclo completo (360°) dura <i>t</i><sub>1</sub> + <i>t</i><sub>2</sub> = 29,7 dias.\n3. 2<i>α</i>/360° = <i>t</i><sub>2</sub>/(<i>t</i><sub>1</sub> + <i>t</i><sub>2</sub>) ⇒ <i>α</i> = 180° · 14,8/29,7 ≈ 89,7°.\n4. <i>d<sub>L</sub></i>/<i>d<sub>S</sub></i> ≈ cos 89,7°.\nGabarito: E.",
+  "resolucao": "1. No triângulo retângulo Terra–Lua–Sol (ângulo reto na Lua), o cateto <i>d<sub>L</sub></i> é adjacente ao ângulo <i>α</i> na Terra e <i>d<sub>S</sub></i> é a hipotenusa: \\(\\dfrac{d_L}{d_S} = \\cos\\alpha\\).\n2. Em MCU, o ângulo varrido é proporcional ao tempo. De minguante a crescente (pelo lado do Sol), a Lua varre 2<i>α</i>; o ciclo completo (360°) dura <i>t</i><sub>1</sub> + <i>t</i><sub>2</sub> = 29,7 dias.\n3. \\(\\dfrac{2\\alpha}{360°} = \\dfrac{t_2}{t_1 + t_2} \\Rightarrow \\alpha = 180° \\cdot \\dfrac{14,8}{29,7} \\approx 89,7°\\).\n4. \\(\\dfrac{d_L}{d_S} \\approx \\cos 89,7°\\).\nGabarito: E.",
   "topicos": [
     "movimento-circular-uniforme-mcu",
     "periodo-frequencia-e-velocidade-angular"
   ],
   "status": "publicado",
   "criadoEm": "2026-11-01T14:43:29.000Z",
-  "atualizadoEm": "2026-11-01T14:43:29.000Z",
+  "atualizadoEm": "2026-11-13T13:00:00.000Z",
   "revisao": {
     "notas": "No PDF de 2016, símbolos e números escritos com o editor de equações não aparecem na camada de texto; esses trechos foram transcritos da imagem do caderno e conferidos visualmente.",
     "divergenciasAceitas": [

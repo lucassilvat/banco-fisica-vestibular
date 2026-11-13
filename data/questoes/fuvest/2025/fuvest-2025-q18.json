@@ -13,7 +13,7 @@
   ],
   "gabarito": "E",
   "gabaritoFonte": "oficial",
-  "resolucao": "1. Leitura do gráfico: no intervalo de 38 s a velocidade cai de 7,82 m.p.h. para 2,5 m.p.h. ⇒ Δ<i>v</i> = 5,32 m.p.h. = 5,32 · 0,5 ≈ 2,66 m/s.\n2. Massa: 100 mil toneladas = 10<sup>5</sup> · 10<sup>3</sup> kg = 10<sup>8</sup> kg.\n3. Teorema do impulso: <i>F</i> · Δ<i>t</i> = <i>m</i> Δ<i>v</i> ⇒ <i>F</i> = 10<sup>8</sup> · 2,66/38 ≈ 7 × 10<sup>6</sup> N.\nGabarito: E.",
+  "resolucao": "1. Leitura do gráfico: no intervalo de 38 s a velocidade cai de 7,82 m.p.h. para 2,5 m.p.h. ⇒ Δ<i>v</i> = 5,32 m.p.h. = 5,32 · 0,5 ≈ 2,66 m/s.\n2. Massa: 100 mil toneladas = 10<sup>5</sup> · 10<sup>3</sup> kg = 10<sup>8</sup> kg.\n3. Teorema do impulso: <i>F</i> · Δ<i>t</i> = <i>m</i> Δ<i>v</i> ⇒ \\(F = \\dfrac{10^8 \\cdot 2,66}{38} \\approx 7 \\times 10^6\\) N.\nGabarito: E.",
   "topicos": [
     "impulso-e-quantidade-de-movimento",
     "leis-de-newton",
@@ -22,5 +22,5 @@
   ],
   "status": "publicado",
   "criadoEm": "2026-11-01T12:54:06.000Z",
-  "atualizadoEm": "2026-11-01T12:54:06.000Z"
+  "atualizadoEm": "2026-11-13T13:00:00.000Z"
 }

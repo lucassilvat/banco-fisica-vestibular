@@ -14,7 +14,7 @@
   ],
   "gabarito": "D",
   "gabaritoFonte": "resolucao-propria",
-  "resolucao": "1. Forças no objeto: peso (para baixo), tração do fio (para baixo, pois o fio o prende ao fundo) e empuxo (para cima). Equilíbrio: <i>E</i> = <i>P</i> + <i>T</i>.\n2. A tração se anula quando <i>E</i> = <i>P</i> ⇒ <i>d</i><sub>óleo</sub> <i>V g</i> = <i>M g</i> ⇒ <i>d</i><sub>óleo</sub> = <i>M</i>/<i>V</i> = 18/20 = 0,90 g/cm<sup>3</sup>.\n3. No gráfico, a densidade do óleo vale 0,90 g/cm<sup>3</sup> em 150 °C.\nGabarito: D.",
+  "resolucao": "1. Forças no objeto: peso (para baixo), tração do fio (para baixo, pois o fio o prende ao fundo) e empuxo (para cima). Equilíbrio: <i>E</i> = <i>P</i> + <i>T</i>.\n2. A tração se anula quando <i>E</i> = <i>P</i> ⇒ <i>d</i><sub>óleo</sub> <i>V g</i> = <i>M g</i> ⇒ \\(d_{\\text{óleo}} = \\dfrac{M}{V} = \\dfrac{18}{20} = 0,90\\) g/cm<sup>3</sup>.\n3. No gráfico, a densidade do óleo vale 0,90 g/cm<sup>3</sup> em 150 °C.\nGabarito: D.",
   "topicos": [
     "empuxo-e-principio-de-arquimedes",
     "densidade-e-massa-especifica",
@@ -22,5 +22,5 @@
   ],
   "status": "publicado",
   "criadoEm": "2026-11-01T12:54:08.000Z",
-  "atualizadoEm": "2026-11-01T12:54:08.000Z"
+  "atualizadoEm": "2026-11-13T13:00:00.000Z"
 }

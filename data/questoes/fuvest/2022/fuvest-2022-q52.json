@@ -13,7 +13,7 @@
   ],
   "gabarito": "D",
   "gabaritoFonte": "resolucao-propria",
-  "resolucao": "1. A bola vermelha vai em linha reta até a caçapa do canto: desloca-se 40 cm para a esquerda e 40 cm para cima (direção a 45°).\n2. Colisão elástica oblíqua entre massas iguais, uma delas em repouso: as velocidades após o choque são perpendiculares entre si e, somadas vetorialmente, dão <i>v</i>⃗<sub>0</sub> (conservação da quantidade de movimento).\n3. Como <i>v</i>⃗<sub>0</sub> é vertical e a vermelha sai a 45° para a esquerda, a branca sai a 45° para a direita, e as componentes horizontais se cancelam ⇒ as duas têm a mesma velocidade, <i>v</i><sub>0</sub>/√2.\n4. No mesmo intervalo de tempo, as duas percorrem a mesma distância: a branca também sobe 40 cm (chegando à borda superior junto com a vermelha) e anda 40 cm para a direita.\n5. Na borda superior, a vermelha está 40 cm à esquerda da posição inicial e a branca 40 cm à direita ⇒ <i>d</i> = 80 cm.\nGabarito: D.",
+  "resolucao": "1. A bola vermelha vai em linha reta até a caçapa do canto: desloca-se 40 cm para a esquerda e 40 cm para cima (direção a 45°).\n2. Colisão elástica oblíqua entre massas iguais, uma delas em repouso: as velocidades após o choque são perpendiculares entre si e, somadas vetorialmente, dão <i>v</i>⃗<sub>0</sub> (conservação da quantidade de movimento).\n3. Como <i>v</i>⃗<sub>0</sub> é vertical e a vermelha sai a 45° para a esquerda, a branca sai a 45° para a direita, e as componentes horizontais se cancelam ⇒ as duas têm a mesma velocidade, \\(\\dfrac{v_0}{\\sqrt{2}}\\).\n4. No mesmo intervalo de tempo, as duas percorrem a mesma distância: a branca também sobe 40 cm (chegando à borda superior junto com a vermelha) e anda 40 cm para a direita.\n5. Na borda superior, a vermelha está 40 cm à esquerda da posição inicial e a branca 40 cm à direita ⇒ <i>d</i> = 80 cm.\nGabarito: D.",
   "topicos": [
     "colisoes-elasticas-e-inelasticas",
     "conservacao-da-quantidade-de-movimento",
@@ -21,5 +21,5 @@
   ],
   "status": "publicado",
   "criadoEm": "2026-11-01T12:54:14.000Z",
-  "atualizadoEm": "2026-11-01T12:54:14.000Z"
+  "atualizadoEm": "2026-11-13T13:00:00.000Z"
 }

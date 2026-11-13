@@ -147,12 +147,17 @@ Para gravar questões, usam-se os lotes da etapa `publicar` (docs/WORKFLOW.md).
 21. v2.2.0: Unicamp 2016–2025 e 2027 com fórmulas. Cadernos 2016–2025 registrados no
     manifesto; 4 enunciados com fração empilhada (2018 Q41, Q46, Q47; 2019 Q42) e 78
     resoluções em LaTeX.
+22. v2.3.0: Fuvest 2016–2027 com fórmulas: 14 enunciados com fração empilhada e
+    91 questões com resoluções em LaTeX. Conversor ganhou `\boldsymbol` e milhar com ponto.
 
 ## Pendências
 
-- **Fórmulas no restante do banco**: Unicamp concluída (v2.2.0), exceto os enunciados da
-  2027, que esperam o PDF (conferir se `0,4 J / (g .°C)` da Q12 está empilhado). Faltam
-  Fuvest, Unesp, ENEM, Acafe e Einstein: resoluções em lote e enunciados prova a prova
+- **Fórmulas no restante do banco**: Unicamp concluída (v2.2.0). Os enunciados da 2027 foram
+  conferidos no caderno das provas S e W (o registrado no manifesto é o das provas R e Z, que
+  não estava disponível): as 7 questões batem com ele, nenhuma tem fração empilhada (a unidade
+  da Q12 está em linha, J/(g.°C)), e nada mudou. Fuvest
+  concluída (v2.3.0), inclusive a 2027. Faltam
+  Unesp, ENEM, Acafe e Einstein: resoluções em lote e enunciados prova a prova
   contra os PDFs. Para achar as frações empilhadas, procurar traços horizontais curtos com
   texto acima e abaixo na região de cada questão (PyMuPDF `get_drawings`): foi assim que se
   acharam as 4 da Unicamp; o resto foi conferido na imagem.

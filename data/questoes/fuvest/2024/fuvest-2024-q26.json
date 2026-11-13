@@ -18,7 +18,7 @@
   ],
   "gabarito": "C",
   "gabaritoFonte": "resolucao-propria",
-  "resolucao": "1. Pela tabela, a luz amarela tem <i>f</i> ≈ 5,0 × 10<sup>14</sup> Hz.\n2. Comprimento de onda: <i>λ</i> = <i>c</i>/<i>f</i> = 3 × 10<sup>8</sup>/5,0 × 10<sup>14</sup> = 6 × 10<sup>−7</sup> m = 600 nm.\n3. Procura-se a curva cujo máximo está em <i>λ</i><sub>máx</sub> ≈ 600 nm. Nos gráficos, os máximos estão aproximadamente em: (A) 200 nm; (B) 400 nm; (C) 600 nm; (D) 1000 nm; (E) 1200 nm.\n4. Logo, a curva C (<i>T</i> = 4829 K). Confere com a lei de Wien: <i>λ</i><sub>máx</sub> · <i>T</i> ≈ 2,9 × 10<sup>−3</sup> m·K ⇒ <i>λ</i><sub>máx</sub> ≈ 2,9 × 10<sup>−3</sup>/4829 ≈ 600 nm.\nGabarito: C.",
+  "resolucao": "1. Pela tabela, a luz amarela tem <i>f</i> ≈ 5,0 × 10<sup>14</sup> Hz.\n2. Comprimento de onda: \\(\\lambda = \\dfrac{c}{f} = \\dfrac{3 \\times 10^8}{5,0 \\times 10^{14}} = 6 \\times 10^{-7}\\) m = 600 nm.\n3. Procura-se a curva cujo máximo está em <i>λ</i><sub>máx</sub> ≈ 600 nm. Nos gráficos, os máximos estão aproximadamente em: (A) 200 nm; (B) 400 nm; (C) 600 nm; (D) 1000 nm; (E) 1200 nm.\n4. Logo, a curva C (<i>T</i> = 4829 K). Confere com a lei de Wien: <i>λ</i><sub>máx</sub> · <i>T</i> ≈ 2,9 × 10<sup>−3</sup> m·K ⇒ \\(\\lambda_{\\text{máx}} \\approx \\dfrac{2,9 \\times 10^{-3}}{4829}\\) ≈ 600 nm.\nGabarito: C.",
   "topicos": [
     "radiacao-de-corpo-negro-e-quantizacao",
     "equacao-fundamental-da-ondulatoria-v-f",
@@ -27,7 +27,7 @@
   ],
   "status": "publicado",
   "criadoEm": "2026-11-01T12:54:08.000Z",
-  "atualizadoEm": "2026-11-01T12:54:08.000Z",
+  "atualizadoEm": "2026-11-13T13:00:00.000Z",
   "revisao": {
     "divergenciasAceitas": [
       "máx"

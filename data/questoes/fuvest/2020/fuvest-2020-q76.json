@@ -13,7 +13,7 @@
   ],
   "gabarito": "D",
   "gabaritoFonte": "resolucao-propria",
-  "resolucao": "1. Diâmetro efetivo do EHT: 12 700 km ≈ 10<sup>4</sup> km. No gráfico (escala log-log), para 10<sup>4</sup> km a resolução angular é cerca de 10<sup>−10</sup> rad.\n2. (Confere com o critério de Rayleigh: θ ≈ 1,22 λ/<i>D</i> = 1,22 · 1,3 × 10<sup>−3</sup> m/1,27 × 10<sup>7</sup> m ≈ 1,2 × 10<sup>−10</sup> rad.)\n3. Para ângulos pequenos, a separação mínima é <i>s</i> = θ · <i>D</i><sub>M87</sub> = 10<sup>−10</sup> · 5 × 10<sup>20</sup> km = 5 × 10<sup>10</sup> km.\nGabarito: D.",
+  "resolucao": "1. Diâmetro efetivo do EHT: 12 700 km ≈ 10<sup>4</sup> km. No gráfico (escala log-log), para 10<sup>4</sup> km a resolução angular é cerca de 10<sup>−10</sup> rad.\n2. (Confere com o critério de Rayleigh: \\(\\theta \\approx 1,22\\,\\dfrac{\\lambda}{D} = 1,22 \\cdot \\dfrac{1,3 \\times 10^{-3}\\ \\text{m}}{1,27 \\times 10^7\\ \\text{m}} \\approx 1,2 \\times 10^{-10}\\) rad.)\n3. Para ângulos pequenos, a separação mínima é <i>s</i> = θ · <i>D</i><sub>M87</sub> = 10<sup>−10</sup> · 5 × 10<sup>20</sup> km = 5 × 10<sup>10</sup> km.\nGabarito: D.",
   "topicos": [
     "difracao",
     "leitura-e-interpretacao-de-graficos",
@@ -21,5 +21,5 @@
   ],
   "status": "publicado",
   "criadoEm": "2026-11-01T12:54:17.000Z",
-  "atualizadoEm": "2026-11-01T12:54:17.000Z"
+  "atualizadoEm": "2026-11-13T13:00:00.000Z"
 }

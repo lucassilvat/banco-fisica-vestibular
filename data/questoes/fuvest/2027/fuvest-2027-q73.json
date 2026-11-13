@@ -14,7 +14,7 @@
   ],
   "gabarito": "D",
   "gabaritoFonte": "resolucao-propria",
-  "resolucao": "1. Energia potencial perdida entre a plataforma (70 m) e o ponto mais baixo (9,70 m): <i>mg</i>Δ<i>h</i> = 70 · 10 · 60,3 = 42 210 J.\n2. Parte dessa energia é dissipada pelo atrito e pelo arrasto do ar: 10 710 J.\n3. Energia cinética no ponto mais baixo (partindo do repouso): 42 210 − 10 710 = 31 500 J.\n4. <i>mv</i>²/2 = 31 500 ⇒ <i>v</i>² = 2 · 31 500/70 = 900 ⇒ <i>v</i> = 30 m/s.\n5. Em km/h: 30 · 3,6 = 108 km/h.\nGabarito: D.",
+  "resolucao": "1. Energia potencial perdida entre a plataforma (70 m) e o ponto mais baixo (9,70 m): <i>mg</i>Δ<i>h</i> = 70 · 10 · 60,3 = 42 210 J.\n2. Parte dessa energia é dissipada pelo atrito e pelo arrasto do ar: 10 710 J.\n3. Energia cinética no ponto mais baixo (partindo do repouso): 42 210 − 10 710 = 31 500 J.\n4. \\(\\dfrac{m v^2}{2} = 31 500 \\Rightarrow v^2 = \\dfrac{2 \\cdot 31 500}{70} = 900 \\Rightarrow v = 30\\) m/s.\n5. Em km/h: 30 · 3,6 = 108 km/h.\nGabarito: D.",
   "topicos": [
     "sistemas-dissipativos-perda-de-energia-mecanica",
     "energia-potencial-gravitacional",
@@ -22,5 +22,5 @@
   ],
   "status": "publicado",
   "criadoEm": "2026-11-01T23:08:30.000Z",
-  "atualizadoEm": "2026-11-01T23:08:30.000Z"
+  "atualizadoEm": "2026-11-13T13:00:00.000Z"
 }

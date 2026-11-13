@@ -13,12 +13,12 @@
   ],
   "gabarito": "C",
   "gabaritoFonte": "resolucao-propria",
-  "resolucao": "Questão de Biologia resolvida por leitura de gráfico volume × tempo.\n1. CVF (valor final das curvas): as duas tendem a cerca de 6,5 L. (A) é falsa.\n2. VEF1 (volume em <i>t</i> = 1 s): A ≈ 5,0 L; B ≈ 4,0 L. (B) é falsa.\n3. Razão VEF1/CVF: A ≈ 5,0/6,5 ≈ 77% (normal); B ≈ 4,0/6,5 ≈ 62% &lt; 70%: padrão obstrutivo. (C) é verdadeira e (E) é falsa.\n4. Fluxo médio no primeiro segundo (vazão = volume/tempo): A ≈ 5 L/s e B ≈ 4 L/s; o de A é maior. (D) é falsa.\nGabarito: C.",
+  "resolucao": "Questão de Biologia resolvida por leitura de gráfico volume × tempo.\n1. CVF (valor final das curvas): as duas tendem a cerca de 6,5 L. (A) é falsa.\n2. VEF1 (volume em <i>t</i> = 1 s): A ≈ 5,0 L; B ≈ 4,0 L. (B) é falsa.\n3. Razão VEF1/CVF: A ≈ \\(\\dfrac{5,0}{6,5}\\) ≈ 77% (normal); B ≈ \\(\\dfrac{4,0}{6,5}\\) ≈ 62% &lt; 70%: padrão obstrutivo. (C) é verdadeira e (E) é falsa.\n4. Fluxo médio no primeiro segundo (vazão = volume/tempo): A ≈ 5 L/s e B ≈ 4 L/s; o de A é maior. (D) é falsa.\nGabarito: C.",
   "topicos": [
     "leitura-e-interpretacao-de-graficos",
     "vazao-e-equacao-da-continuidade"
   ],
   "status": "publicado",
   "criadoEm": "2026-11-01T23:08:30.000Z",
-  "atualizadoEm": "2026-11-01T23:08:30.000Z"
+  "atualizadoEm": "2026-11-13T13:00:00.000Z"
 }

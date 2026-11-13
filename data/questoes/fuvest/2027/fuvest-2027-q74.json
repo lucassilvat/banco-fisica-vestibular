@@ -14,7 +14,7 @@
   ],
   "gabarito": "B",
   "gabaritoFonte": "resolucao-propria",
-  "resolucao": "1. Na “transição”, Sandro percorre um trecho curvo, côncavo para cima, cujo centro de curvatura fica acima da pista. Há, portanto, uma resultante centrípeta apontando para esse centro.\n2. Na direção radial atuam a normal <i>N</i> (para o centro) e a componente radial do peso, <i>P</i> cos θ (para fora): <i>N</i> − <i>P</i> cos θ = <i>mv</i>²/<i>R</i> &gt; 0.\n3. Logo, <i>N</i> &gt; <i>P</i> cos θ: a normal supera a componente radial do peso, e o skatista sente uma “sobrecarga” nas pernas. (B) é verdadeira.\n4. (A) e (C) são falsas: há contato com a rampa e normal não nula. (D) é falsa: não há equilíbrio (há aceleração centrípeta). (E) é falsa: a trajetória é curva.\nGabarito: B.",
+  "resolucao": "1. Na “transição”, Sandro percorre um trecho curvo, côncavo para cima, cujo centro de curvatura fica acima da pista. Há, portanto, uma resultante centrípeta apontando para esse centro.\n2. Na direção radial atuam a normal <i>N</i> (para o centro) e a componente radial do peso, <i>P</i> cos θ (para fora): \\(N - P\\cos\\theta = \\dfrac{m v^2}{R} > 0\\).\n3. Logo, <i>N</i> &gt; <i>P</i> cos θ: a normal supera a componente radial do peso, e o skatista sente uma “sobrecarga” nas pernas. (B) é verdadeira.\n4. (A) e (C) são falsas: há contato com a rampa e normal não nula. (D) é falsa: não há equilíbrio (há aceleração centrípeta). (E) é falsa: a trajetória é curva.\nGabarito: B.",
   "topicos": [
     "resultante-centripeta-curvas-loop-globo-da-morte",
     "forca-peso-e-forca-normal",
@@ -22,5 +22,5 @@
   ],
   "status": "publicado",
   "criadoEm": "2026-11-01T23:08:30.000Z",
-  "atualizadoEm": "2026-11-01T23:08:30.000Z"
+  "atualizadoEm": "2026-11-13T13:00:00.000Z"
 }
