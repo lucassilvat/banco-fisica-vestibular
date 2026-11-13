@@ -13,7 +13,7 @@
   ],
   "gabarito": "E",
   "gabaritoFonte": "resolucao-propria",
-  "resolucao": "1. No primeiro harmônico, λ = 2<i>L</i> nos dois casos (mesma corda, mesmo comprimento).\n2. <i>v</i> = λ<i>f</i> ⇒ com λ fixo, dobrar a frequência significa dobrar a velocidade da onda.\n3. <i>v</i> ∝ √<i>T</i>, e a tração é o peso pendurado (<i>T</i> = <i>m g</i>) ⇒ para dobrar <i>v</i>, a tração deve ser 4 vezes maior.\n4. <i>M</i>/<i>m</i><sub>0</sub> = 4.\nGabarito: E.",
+  "resolucao": "1. No primeiro harmônico, λ = 2<i>L</i> nos dois casos (mesma corda, mesmo comprimento).\n2. <i>v</i> = λ<i>f</i> ⇒ com λ fixo, dobrar a frequência significa dobrar a velocidade da onda.\n3. \\(v \\propto \\sqrt{T}\\), e a tração é o peso pendurado (<i>T</i> = <i>m g</i>) ⇒ para dobrar <i>v</i>, a tração deve ser 4 vezes maior.\n4. \\(\\dfrac{M}{m_0} = 4\\).\nGabarito: E.",
   "topicos": [
     "ondas-estacionarias-e-cordas-vibrantes",
     "velocidade-de-onda-em-cordas-taylor",
@@ -21,5 +21,5 @@
   ],
   "status": "publicado",
   "criadoEm": "2026-11-01T12:54:20.000Z",
-  "atualizadoEm": "2026-11-01T12:54:20.000Z"
+  "atualizadoEm": "2026-11-13T13:00:00.000Z"
 }

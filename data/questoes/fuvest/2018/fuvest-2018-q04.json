@@ -11,7 +11,7 @@
   "figuras": [],
   "gabarito": "A",
   "gabaritoFonte": "resolucao-propria",
-  "resolucao": "1. Queda livre: <i>h</i> = <i>g t</i><sup>2</sup>/2 ⇒ 45 = 5 <i>t</i><sup>2</sup> ⇒ <i>t</i><sub>queda</sub> = 3 s.\n2. O som sobe 45 m com velocidade constante: <i>t</i><sub>som</sub> = 45/360 = 0,125 s.\n3. Total: 3 + 0,125 ≈ 3,1 s.\nGabarito: A.",
+  "resolucao": "1. Queda livre: \\(h = \\dfrac{g t^2}{2} \\Rightarrow 45 = 5t^2 \\Rightarrow t_{\\text{queda}} = 3\\) s.\n2. O som sobe 45 m com velocidade constante: \\(t_{\\text{som}} = \\dfrac{45}{360} = 0,125\\) s.\n3. Total: 3 + 0,125 ≈ 3,1 s.\nGabarito: A.",
   "topicos": [
     "queda-livre-e-lancamento-vertical",
     "movimento-retilineo-uniforme-mru",
@@ -19,5 +19,5 @@
   ],
   "status": "publicado",
   "criadoEm": "2026-11-01T14:43:26.000Z",
-  "atualizadoEm": "2026-11-01T14:43:26.000Z"
+  "atualizadoEm": "2026-11-13T13:00:00.000Z"
 }

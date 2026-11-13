@@ -14,7 +14,7 @@
   ],
   "gabarito": "C",
   "gabaritoFonte": "resolucao-propria",
-  "resolucao": "1. Massa convertida: 2% de 4 kg = 0,08 kg.\n2. Energia: <i>E</i> = <i>mc</i>² = 0,08 · (3 × 10<sup>8</sup>)² = 0,08 · 9 × 10<sup>16</sup> = 7,2 × 10<sup>15</sup> J.\n3. Razão em relação à energia de referência: 7,2 × 10<sup>15</sup>/9 × 10<sup>14</sup> = 8. Como <i>R</i> ∝ ∛<i>E</i>, os raios ficam multiplicados por ∛8 = 2.\n4. Novos raios: bola de fogo 1 km; destruição total 4 km; danos por calor 10 km; danos leves 20 km.\n5. (C) Verdadeira: o Dubai Mall (0,4 km) está dentro da bola de fogo (1 km).\n6. (A) Falsa: Burj Al Arab (11 km) fica na zona de danos leves. (B) Falsa: a destruição total vai até 4 km, não 2 km. (D) Falsa: Port Rashid (8,2 km) está dentro da zona de danos por calor (10 km). (E) Falsa: o Burj Al Arab sofreria danos leves.\nGabarito: C.",
+  "resolucao": "1. Massa convertida: 2% de 4 kg = 0,08 kg.\n2. Energia: <i>E</i> = <i>mc</i>² = 0,08 · (3 × 10<sup>8</sup>)² = 0,08 · 9 × 10<sup>16</sup> = 7,2 × 10<sup>15</sup> J.\n3. Razão em relação à energia de referência: \\(\\dfrac{7,2 \\times 10^{15}}{9 \\times 10^{14}} = 8\\). Como \\(R \\propto \\sqrt[3]{E}\\), os raios ficam multiplicados por \\(\\sqrt[3]{8} = 2\\).\n4. Novos raios: bola de fogo 1 km; destruição total 4 km; danos por calor 10 km; danos leves 20 km.\n5. (C) Verdadeira: o Dubai Mall (0,4 km) está dentro da bola de fogo (1 km).\n6. (A) Falsa: Burj Al Arab (11 km) fica na zona de danos leves. (B) Falsa: a destruição total vai até 4 km, não 2 km. (D) Falsa: Port Rashid (8,2 km) está dentro da zona de danos por calor (10 km). (E) Falsa: o Burj Al Arab sofreria danos leves.\nGabarito: C.",
   "topicos": [
     "equivalencia-massa-energia-e-mc",
     "fissao-e-fusao-nuclear",
@@ -22,5 +22,5 @@
   ],
   "status": "publicado",
   "criadoEm": "2026-11-01T23:08:30.000Z",
-  "atualizadoEm": "2026-11-01T23:08:30.000Z"
+  "atualizadoEm": "2026-11-13T13:00:00.000Z"
 }

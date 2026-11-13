@@ -11,7 +11,7 @@
   "figuras": [],
   "gabarito": "C",
   "gabaritoFonte": "resolucao-propria",
-  "resolucao": "1. A razão <i>r</i> = <i>M</i><sub>235</sub>/<i>M</i><sub>238</sub> evolui como <i>r</i>(<i>t</i>) = <i>r</i>(0) · 10<sup>−(λ<sub>235</sub> − λ<sub>238</sub>)<i>t</i></sup>, com λ<sub>235</sub> − λ<sub>238</sub> = 3,2 × 10<sup>−10</sup> ano<sup>−1</sup>.\n2. Da época do reator (3%) até hoje (0,7%): 0,7/3 ≈ 0,23 = 10<sup>−3,2 × 10<sup>−10</sup> <i>t</i></sup>.\n3. log<sub>10</sub> 0,23 = −0,64 ⇒ 3,2 × 10<sup>−10</sup> <i>t</i> = 0,64 ⇒ <i>t</i> = 2,0 × 10<sup>9</sup> anos.\nGabarito: C.",
+  "resolucao": "1. A razão \\(r = \\dfrac{M_{235}}{M_{238}}\\) evolui como <i>r</i>(<i>t</i>) = <i>r</i>(0) · 10<sup>−(λ<sub>235</sub> − λ<sub>238</sub>)<i>t</i></sup>, com λ<sub>235</sub> − λ<sub>238</sub> = 3,2 × 10<sup>−10</sup> ano<sup>−1</sup>.\n2. Da época do reator (3%) até hoje (0,7%): \\(\\dfrac{0,7}{3} \\approx 0,23\\) = 10<sup>−3,2 × 10<sup>−10</sup> <i>t</i></sup>.\n3. log<sub>10</sub> 0,23 = −0,64 ⇒ 3,2 × 10<sup>−10</sup> <i>t</i> = 0,64 ⇒ <i>t</i> = 2,0 × 10<sup>9</sup> anos.\nGabarito: C.",
   "topicos": [
     "radioatividade-e-decaimento",
     "meia-vida",
@@ -19,5 +19,5 @@
   ],
   "status": "publicado",
   "criadoEm": "2026-11-01T14:43:28.000Z",
-  "atualizadoEm": "2026-11-01T14:43:28.000Z"
+  "atualizadoEm": "2026-11-13T13:00:00.000Z"
 }

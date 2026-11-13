@@ -13,14 +13,14 @@
   ],
   "gabarito": "B",
   "gabaritoFonte": "resolucao-propria",
-  "resolucao": "1. Quantidade de H<sub>2</sub> consumida: 4,80 kJ/(240 kJ/mol) = 0,020 mol.\n2. Cada H<sub>2</sub> libera 2 elétrons (H<sub>2</sub> → 2 H<sup>+</sup> + 2 e<sup>−</sup>) ⇒ 0,040 mol de elétrons.\n3. Carga: <i>Q</i> = 0,040 · 96.500 = 3.860 C.\n4. Corrente: <i>i</i> = <i>Q</i>/Δ<i>t</i> = 3.860/600 s ≈ 6,43 A.\nGabarito: B.",
+  "resolucao": "1. Quantidade de H<sub>2</sub> consumida: \\(\\dfrac{4,80\\ \\text{kJ}}{240\\ \\text{kJ/mol}} = 0,020\\) mol.\n2. Cada H<sub>2</sub> libera 2 elétrons (H<sub>2</sub> → 2 H<sup>+</sup> + 2 e<sup>−</sup>) ⇒ 0,040 mol de elétrons.\n3. Carga: <i>Q</i> = 0,040 · 96.500 = 3.860 C.\n4. Corrente: \\(i = \\dfrac{Q}{\\Delta t} = \\dfrac{3.860}{600\\ \\text{s}} \\approx 6,43\\) A.\nGabarito: B.",
   "topicos": [
     "corrente-eletrica",
     "geradores-eletricos-fem-e-resistencia-interna"
   ],
   "status": "publicado",
   "criadoEm": "2026-11-01T14:43:28.000Z",
-  "atualizadoEm": "2026-11-01T14:43:28.000Z",
+  "atualizadoEm": "2026-11-13T13:00:00.000Z",
   "revisao": {
     "notas": "A equação química faz parte da imagem do esquema no caderno; foi transcrita como texto, com a mesma redação."
   }

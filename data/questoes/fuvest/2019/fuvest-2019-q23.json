@@ -7,16 +7,16 @@
   "fonte": {
     "descricao": "Fuvest, Vestibular 2019, 1ª fase (Prova de Conhecimentos Gerais), caderno de questões"
   },
-  "enunciado": "Três amigos vão acampar e descobrem que nenhum deles trouxe fósforos. Para acender o fogo e fazer o almoço, resolvem improvisar e prendem um pedaço de filme plástico transparente num aro de “cipó”. Colocam um pouco de água sobre o plástico, formando uma poça de aproximadamente 14 cm de diâmetro e 1 cm de profundidade máxima, cuja forma pode ser aproximada pela de uma calota esférica. Quando o sol está a pino, para aproveitamento máximo da energia solar, a distância, em cm, entre o centro do filme e a palha seca usada para iniciar o fogo, é, aproximadamente,\n\nNote e adote:\nPara uma lente plano‐convexa, 1/<i>f</i> = (<i>n</i> − 1) 1/<i>R</i> , sendo <i>n</i> o índice de refração da lente e <i>R</i> o seu raio de curvatura.\nÍndice de refração da água = 1,33.\n\n(A) 75\n(B) 50\n(C) 25\n(D) 14\n(E) 7",
+  "enunciado": "Três amigos vão acampar e descobrem que nenhum deles trouxe fósforos. Para acender o fogo e fazer o almoço, resolvem improvisar e prendem um pedaço de filme plástico transparente num aro de “cipó”. Colocam um pouco de água sobre o plástico, formando uma poça de aproximadamente 14 cm de diâmetro e 1 cm de profundidade máxima, cuja forma pode ser aproximada pela de uma calota esférica. Quando o sol está a pino, para aproveitamento máximo da energia solar, a distância, em cm, entre o centro do filme e a palha seca usada para iniciar o fogo, é, aproximadamente,\n\nNote e adote:\nPara uma lente plano‐convexa, \\(\\tfrac{1}{f} = (n - 1)\\tfrac{1}{R}\\) , sendo <i>n</i> o índice de refração da lente e <i>R</i> o seu raio de curvatura.\nÍndice de refração da água = 1,33.\n\n(A) 75\n(B) 50\n(C) 25\n(D) 14\n(E) 7",
   "figuras": [],
   "gabarito": "A",
   "gabaritoFonte": "resolucao-propria",
-  "resolucao": "1. A poça é uma lente plano-convexa de água. Raio de curvatura da calota de base com raio 7 cm e altura 1 cm: <i>R</i> = (7<sup>2</sup> + 1<sup>2</sup>)/(2 · 1) = 50/2 = 25 cm.\n2. 1/<i>f</i> = (1,33 − 1) · 1/25 ⇒ <i>f</i> = 25/0,33 ≈ 76 cm.\n3. Os raios do Sol (a pino, paralelos) convergem no foco: a palha deve ficar a cerca de 75 cm do centro do filme.\nGabarito: A.",
+  "resolucao": "1. A poça é uma lente plano-convexa de água. Raio de curvatura da calota de base com raio 7 cm e altura 1 cm: \\(R = \\dfrac{7^2 + 1^2}{2 \\cdot 1} = \\dfrac{50}{2} = 25\\) cm.\n2. \\(\\dfrac{1}{f} = (1,33 - 1) \\cdot \\dfrac{1}{25} \\Rightarrow f = \\dfrac{25}{0,33} \\approx 76\\) cm.\n3. Os raios do Sol (a pino, paralelos) convergem no foco: a palha deve ficar a cerca de 75 cm do centro do filme.\nGabarito: A.",
   "topicos": [
     "lentes-esfericas-vergencia-gauss-aumento",
     "refracao-da-luz-e-indice-de-refracao"
   ],
   "status": "publicado",
   "criadoEm": "2026-11-01T14:43:25.000Z",
-  "atualizadoEm": "2026-11-01T14:43:25.000Z"
+  "atualizadoEm": "2026-11-13T13:00:00.000Z"
 }

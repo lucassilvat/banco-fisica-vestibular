@@ -7,13 +7,13 @@
   "fonte": {
     "descricao": "Fuvest, Vestibular 2020, 1ª fase (Prova de Conhecimentos Gerais), caderno de questões"
   },
-  "enunciado": "A transmissão de dados de telefonia celular por meio de ondas eletromagnéticas está sujeita a perdas que aumentam com a distância <i>d</i> entre a antena transmissora e a antena receptora. Uma aproximação frequentemente usada para expressar a perda <i>L</i>, em decibéis (dB), do sinal em função de <i>d</i>, no espaço livre de obstáculos, é dada pela expressão\n\n<i>L</i> = 20 log<sub>10</sub> (4π<i>d</i>/<i>λ</i>),\n\nem que λ é o comprimento de onda do sinal. O gráfico a seguir mostra <i>L</i> (em dB) <i>versus d</i> (em metros) para um determinado comprimento de onda λ.\n\n[[figura 1]]\n\nCom base no gráfico, a frequência do sinal é aproximadamente\n\nNote e adote:\nVelocidade da luz no vácuo: c = 3×10<sup>8</sup> m/s;\nπ ≅ 3;\n1 GHz = 10<sup>9</sup> Hz.\n\n(A) 2,5 GHz.\n(B) 5 GHz.\n(C) 12 GHz.\n(D) 40 GHz.\n(E) 100 GHz.",
+  "enunciado": "A transmissão de dados de telefonia celular por meio de ondas eletromagnéticas está sujeita a perdas que aumentam com a distância <i>d</i> entre a antena transmissora e a antena receptora. Uma aproximação frequentemente usada para expressar a perda <i>L</i>, em decibéis (dB), do sinal em função de <i>d</i>, no espaço livre de obstáculos, é dada pela expressão\n\n\\(L = 20\\log_{10}\\left(\\dfrac{4\\pi d}{\\lambda}\\right)\\),\n\nem que λ é o comprimento de onda do sinal. O gráfico a seguir mostra <i>L</i> (em dB) <i>versus d</i> (em metros) para um determinado comprimento de onda λ.\n\n[[figura 1]]\n\nCom base no gráfico, a frequência do sinal é aproximadamente\n\nNote e adote:\nVelocidade da luz no vácuo: c = 3×10<sup>8</sup> m/s;\nπ ≅ 3;\n1 GHz = 10<sup>9</sup> Hz.\n\n(A) 2,5 GHz.\n(B) 5 GHz.\n(C) 12 GHz.\n(D) 40 GHz.\n(E) 100 GHz.",
   "figuras": [
     "fuvest-2020-q71-1.png"
   ],
   "gabarito": "A",
   "gabaritoFonte": "resolucao-propria",
-  "resolucao": "1. Escolhe-se um ponto fácil do gráfico: <i>d</i> = 10 m, <i>L</i> = 60 dB.\n2. 60 = 20 log<sub>10</sub>(4π<i>d</i>/λ) ⇒ log<sub>10</sub>(4π<i>d</i>/λ) = 3 ⇒ 4π<i>d</i>/λ = 1000.\n3. λ = 4π · 10/1000 = 4 · 3 · 10/1000 = 0,12 m. (Confere com <i>d</i> = 1 m, <i>L</i> ≈ 40 dB: 4π · 1/0,12 = 100.)\n4. <i>f</i> = <i>c</i>/λ = 3 × 10<sup>8</sup>/0,12 = 2,5 × 10<sup>9</sup> Hz = 2,5 GHz.\nGabarito: A.",
+  "resolucao": "1. Escolhe-se um ponto fácil do gráfico: <i>d</i> = 10 m, <i>L</i> = 60 dB.\n2. \\(60 = 20\\log_{10}\\left(\\dfrac{4\\pi d}{\\lambda}\\right) \\Rightarrow \\log_{10}\\left(\\dfrac{4\\pi d}{\\lambda}\\right) = 3 \\Rightarrow \\dfrac{4\\pi d}{\\lambda} = 1000\\).\n3. \\(\\lambda = \\dfrac{4\\pi \\cdot 10}{1000} = \\dfrac{4 \\cdot 3 \\cdot 10}{1000} = 0,12\\) m. (Confere com <i>d</i> = 1 m, <i>L</i> ≈ 40 dB: \\(\\dfrac{4\\pi \\cdot 1}{0,12} = 100\\).)\n4. \\(f = \\dfrac{c}{\\lambda} = \\dfrac{3 \\times 10^8}{0,12} = 2,5 \\times 10^9\\) Hz = 2,5 GHz.\nGabarito: A.",
   "topicos": [
     "equacao-fundamental-da-ondulatoria-v-f",
     "espectro-eletromagnetico",
@@ -22,7 +22,7 @@
   ],
   "status": "publicado",
   "criadoEm": "2026-11-01T12:54:17.000Z",
-  "atualizadoEm": "2026-11-01T12:54:17.000Z",
+  "atualizadoEm": "2026-11-13T13:00:00.000Z",
   "revisao": {
     "divergenciasAceitas": [
       "versus"

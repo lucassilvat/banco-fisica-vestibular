@@ -13,14 +13,14 @@
   ],
   "gabarito": "C",
   "gabaritoFonte": "resolucao-propria",
-  "resolucao": "1. Para atingir a moeda, o raio refratado deve ir da borda da caixa até o centro do fundo: deslocamento horizontal de 0,5 m (raio da base) em 0,87 m de profundidade.\n2. Ângulo de refração <i>r</i> com a vertical: tg <i>r</i> = 0,5/0,87 ⇒ <i>r</i> = 30° (sen 30° = 0,5, cos 30° = 0,87).\n3. Snell na superfície: 1,0 · sen θ = 1,4 · sen 30° = 0,70 ⇒ θ = 45°.\nGabarito: C.",
+  "resolucao": "1. Para atingir a moeda, o raio refratado deve ir da borda da caixa até o centro do fundo: deslocamento horizontal de 0,5 m (raio da base) em 0,87 m de profundidade.\n2. Ângulo de refração <i>r</i> com a vertical: \\(\\tg r = \\dfrac{0,5}{0,87}\\) ⇒ <i>r</i> = 30° (sen 30° = 0,5, cos 30° = 0,87).\n3. Snell na superfície: 1,0 · sen θ = 1,4 · sen 30° = 0,70 ⇒ θ = 45°.\nGabarito: C.",
   "topicos": [
     "lei-de-snell-descartes",
     "refracao-da-luz-e-indice-de-refracao"
   ],
   "status": "publicado",
   "criadoEm": "2026-11-01T14:43:29.000Z",
-  "atualizadoEm": "2026-11-01T14:43:29.000Z",
+  "atualizadoEm": "2026-11-13T13:00:00.000Z",
   "revisao": {
     "notas": "No PDF de 2016, símbolos e números escritos com o editor de equações não aparecem na camada de texto; esses trechos foram transcritos da imagem do caderno e conferidos visualmente.",
     "divergenciasAceitas": [

@@ -11,7 +11,7 @@
   "figuras": [],
   "gabarito": "D",
   "gabaritoFonte": "resolucao-propria",
-  "resolucao": "1. Raio de Schwarzschild com os dados do Note e adote: <i>R</i><sub>Sc</sub> = 2<i>GM</i>/<i>c</i><sup>2</sup> = 2 · 10<sup>−10</sup> · 2×10<sup>30</sup> / (3×10<sup>8</sup>)<sup>2</sup> = 4×10<sup>20</sup> / 9×10<sup>16</sup> ≈ 4,4×10<sup>3</sup> m.\n2. As duas esferas têm a mesma massa <i>M</i>. Como densidade = <i>M</i>/(4π<i>R</i><sup>3</sup>/3), a razão entre as densidades é o inverso da razão entre os volumes: ρ<sub>BN</sub>/ρ<sub>Sol</sub> = (<i>R</i><sub>Sol</sub>/<i>R</i><sub>Sc</sub>)<sup>3</sup>.\n3. <i>R</i><sub>Sol</sub>/<i>R</i><sub>Sc</sub> = 10<sup>9</sup>/4,4×10<sup>3</sup> ≈ 2,3×10<sup>5</sup>.\n4. (2,3×10<sup>5</sup>)<sup>3</sup> ≈ 12×10<sup>15</sup> ≈ 1,2×10<sup>16</sup> ⇒ ordem de grandeza 10<sup>16</sup>.\nGabarito: D.\nObservação: o Note e adote usa <i>G</i> = 10<sup>−10</sup> N·m²/kg² (o valor real é cerca de 6,7×10<sup>−11</sup>); com o valor real a ordem de grandeza continua 10<sup>16</sup>.",
+  "resolucao": "1. Raio de Schwarzschild com os dados do Note e adote: \\(R_{\\text{Sc}} = \\dfrac{2GM}{c^2} = \\dfrac{2 \\cdot 10^{-10} \\cdot 2 \\times 10^{30}}{(3 \\times 10^8)^2} = \\dfrac{4 \\times 10^{20}}{9 \\times 10^{16}} \\approx 4,4 \\times 10^3\\) m.\n2. As duas esferas têm a mesma massa <i>M</i>. Como \\(\\text{densidade} = \\dfrac{M}{\\tfrac{4}{3}\\pi R^3}\\), a razão entre as densidades é o inverso da razão entre os volumes: \\(\\dfrac{\\rho_{\\text{BN}}}{\\rho_{\\text{Sol}}} = \\left(\\dfrac{R_{\\text{Sol}}}{R_{\\text{Sc}}}\\right)^3\\).\n3. \\(\\dfrac{R_{\\text{Sol}}}{R_{\\text{Sc}}} = \\dfrac{10^9}{4,4 \\times 10^3} \\approx 2,3 \\times 10^5\\).\n4. (2,3×10<sup>5</sup>)<sup>3</sup> ≈ 12×10<sup>15</sup> ≈ 1,2×10<sup>16</sup> ⇒ ordem de grandeza 10<sup>16</sup>.\nGabarito: D.\nObservação: o Note e adote usa <i>G</i> = 10<sup>−10</sup> N·m²/kg² (o valor real é cerca de 6,7×10<sup>−11</sup>); com o valor real a ordem de grandeza continua 10<sup>16</sup>.",
   "topicos": [
     "lei-da-gravitacao-universal",
     "densidade-e-massa-especifica",
@@ -19,5 +19,5 @@
   ],
   "status": "publicado",
   "criadoEm": "2026-11-01T12:54:03.000Z",
-  "atualizadoEm": "2026-11-01T12:54:03.000Z"
+  "atualizadoEm": "2026-11-13T13:00:00.000Z"
 }

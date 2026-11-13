@@ -13,12 +13,12 @@
   ],
   "gabarito": "E",
   "gabaritoFonte": "resolucao-propria",
-  "resolucao": "1. A imagem deve se formar sobre o sensor: a distância lente–sensor é a distância da imagem <i>p</i>′.\n2. Equação de Gauss com <i>f</i> = 20 mm e <i>p</i> = 2 m = 2.000 mm: 1/<i>p</i>′ = 1/20 − 1/2.000 = 99/2.000 ⇒ <i>p</i>′ ≈ 20,2 mm.\n3. Como o objeto está muito longe comparado com <i>f</i>, a imagem fica praticamente no foco: ≈ 20 mm.\nGabarito: E.",
+  "resolucao": "1. A imagem deve se formar sobre o sensor: a distância lente–sensor é a distância da imagem <i>p</i>′.\n2. Equação de Gauss com <i>f</i> = 20 mm e <i>p</i> = 2 m = 2.000 mm: \\(\\dfrac{1}{p′} = \\dfrac{1}{20} - \\dfrac{1}{2.000} = \\dfrac{99}{2.000} \\Rightarrow p′ \\approx 20,2\\) mm.\n3. Como o objeto está muito longe comparado com <i>f</i>, a imagem fica praticamente no foco: ≈ 20 mm.\nGabarito: E.",
   "topicos": [
     "lentes-esfericas-vergencia-gauss-aumento",
     "instrumentos-opticos-lupa-microscopio-luneta"
   ],
   "status": "publicado",
   "criadoEm": "2026-11-01T14:43:26.000Z",
-  "atualizadoEm": "2026-11-01T14:43:26.000Z"
+  "atualizadoEm": "2026-11-13T13:00:00.000Z"
 }

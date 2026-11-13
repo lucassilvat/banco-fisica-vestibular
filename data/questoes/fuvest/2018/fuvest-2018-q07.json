@@ -13,7 +13,7 @@
   ],
   "gabarito": "C",
   "gabaritoFonte": "resolucao-propria",
-  "resolucao": "1. Velocidade no ponto mais baixo (conservação da energia): <i>v</i><sup>2</sup> = 2<i>g h</i> = 2 · 10 · 1,2 = 24 m<sup>2</sup>/s<sup>2</sup>.\n2. No ponto mais baixo, a resultante é centrípeta: <i>T</i> − <i>m g</i> = <i>m v</i><sup>2</sup>/<i>L</i> ⇒ <i>T</i> = 600 + 60 · 24/2 = 600 + 720 = 1.320 N.\n3. Com fator de segurança 7: 7 · 1.320 = 9.240 N.\n4. Servem as cordas com tensão de ruptura acima de 9.240 N: III (12.400 N), IV e V.\nGabarito: C.",
+  "resolucao": "1. Velocidade no ponto mais baixo (conservação da energia): <i>v</i><sup>2</sup> = 2<i>g h</i> = 2 · 10 · 1,2 = 24 m<sup>2</sup>/s<sup>2</sup>.\n2. No ponto mais baixo, a resultante é centrípeta: \\(T - mg = \\dfrac{m v^2}{L} \\Rightarrow T = 600 + \\dfrac{60 \\cdot 24}{2} = 600 + 720 = 1.320\\) N.\n3. Com fator de segurança 7: 7 · 1.320 = 9.240 N.\n4. Servem as cordas com tensão de ruptura acima de 9.240 N: III (12.400 N), IV e V.\nGabarito: C.",
   "topicos": [
     "resultante-centripeta-curvas-loop-globo-da-morte",
     "conservacao-da-energia-mecanica",
@@ -21,5 +21,5 @@
   ],
   "status": "publicado",
   "criadoEm": "2026-11-01T14:43:26.000Z",
-  "atualizadoEm": "2026-11-01T14:43:26.000Z"
+  "atualizadoEm": "2026-11-13T13:00:00.000Z"
 }

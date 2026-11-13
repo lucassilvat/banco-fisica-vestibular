@@ -11,12 +11,12 @@
   "figuras": [],
   "gabarito": "B",
   "gabaritoFonte": "resolucao-propria",
-  "resolucao": "1. Massa total aniquilada: 2<i>m</i> (elétron + pósitron), repartida igualmente entre os dois fótons ⇒ cada fóton tem a energia de repouso de uma partícula: <i>E</i> = <i>mc</i><sup>2</sup>.\n2. <i>E</i> = 9 × 10<sup>−31</sup> · (3 × 10<sup>8</sup>)<sup>2</sup> = 8,1 × 10<sup>−14</sup> J.\n3. Em eV: 8,1 × 10<sup>−14</sup>/1,6 × 10<sup>−19</sup> ≈ 5,1 × 10<sup>5</sup> eV ≈ 0,5 MeV.\nGabarito: B.",
+  "resolucao": "1. Massa total aniquilada: 2<i>m</i> (elétron + pósitron), repartida igualmente entre os dois fótons ⇒ cada fóton tem a energia de repouso de uma partícula: <i>E</i> = <i>mc</i><sup>2</sup>.\n2. <i>E</i> = 9 × 10<sup>−31</sup> · (3 × 10<sup>8</sup>)<sup>2</sup> = 8,1 × 10<sup>−14</sup> J.\n3. Em eV: \\(\\dfrac{8,1 \\times 10^{-14}}{1,6 \\times 10^{-19}} \\approx 5,1 \\times 10^5\\) eV ≈ 0,5 MeV.\nGabarito: B.",
   "topicos": [
     "equivalencia-massa-energia-e-mc",
     "fotons-e-energia-do-foton-e-hf"
   ],
   "status": "publicado",
   "criadoEm": "2026-11-01T14:43:29.000Z",
-  "atualizadoEm": "2026-11-01T14:43:29.000Z"
+  "atualizadoEm": "2026-11-13T13:00:00.000Z"
 }

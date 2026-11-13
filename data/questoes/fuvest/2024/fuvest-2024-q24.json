@@ -11,7 +11,7 @@
   "figuras": [],
   "gabarito": "B",
   "gabaritoFonte": "resolucao-propria",
-  "resolucao": "1. A luz tem comportamento dual: interferência e difração mostram seu caráter ondulatório; o efeito fotoelétrico e o efeito Compton, seu caráter corpuscular (fótons).\n2. (A) Errada: o próprio texto cita o fóton, de natureza corpuscular.\n3. (B) Correta: segundo o texto, os experimentos de Compton com raios X espalhados por grafite consolidaram a hipótese dos fótons, isto é, o comportamento corpuscular da radiação.\n4. (C) Errada: <i>E</i> = <i>hf</i> = <i>hc</i>/λ depende do comprimento de onda.\n5. (D) Errada: a hipótese corpuscular foi confirmada experimentalmente (Compton).\n6. (E) Errada: Einstein não invalidou os experimentos de interferência; os dois comportamentos coexistem.\nGabarito: B.",
+  "resolucao": "1. A luz tem comportamento dual: interferência e difração mostram seu caráter ondulatório; o efeito fotoelétrico e o efeito Compton, seu caráter corpuscular (fótons).\n2. (A) Errada: o próprio texto cita o fóton, de natureza corpuscular.\n3. (B) Correta: segundo o texto, os experimentos de Compton com raios X espalhados por grafite consolidaram a hipótese dos fótons, isto é, o comportamento corpuscular da radiação.\n4. (C) Errada: \\(E = hf = \\dfrac{hc}{\\lambda}\\) depende do comprimento de onda.\n5. (D) Errada: a hipótese corpuscular foi confirmada experimentalmente (Compton).\n6. (E) Errada: Einstein não invalidou os experimentos de interferência; os dois comportamentos coexistem.\nGabarito: B.",
   "topicos": [
     "dualidade-onda-particula-de-broglie",
     "fotons-e-energia-do-foton-e-hf",
@@ -20,5 +20,5 @@
   ],
   "status": "publicado",
   "criadoEm": "2026-11-01T12:54:08.000Z",
-  "atualizadoEm": "2026-11-01T12:54:08.000Z"
+  "atualizadoEm": "2026-11-13T13:00:00.000Z"
 }

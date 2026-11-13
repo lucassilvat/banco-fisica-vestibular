@@ -13,12 +13,12 @@
   ],
   "gabarito": "C",
   "gabaritoFonte": "resolucao-propria",
-  "resolucao": "1. Na foto, <i>R</i><sub>2</sub> e <i>R</i><sub>3</sub> têm os dois terminais nas mesmas linhas (nós) ⇒ estão em paralelo: 100 kΩ ∥ 100 kΩ = 50 kΩ.\n2. Esse conjunto está em série com <i>R</i><sub>1</sub>, que liga o nó do meio ao cabo vermelho: <i>R</i><sub>eq</sub> = 150 + 50 = 200 kΩ.\n3. Toda a corrente da fonte passa por <i>R</i><sub>1</sub>: <i>i</i> = <i>U</i>/<i>R</i><sub>eq</sub> = 5/(200 × 10<sup>3</sup>) = 2,5 × 10<sup>−5</sup> A = 25,0 μA.\nGabarito: C.",
+  "resolucao": "1. Na foto, <i>R</i><sub>2</sub> e <i>R</i><sub>3</sub> têm os dois terminais nas mesmas linhas (nós) ⇒ estão em paralelo: 100 kΩ ∥ 100 kΩ = 50 kΩ.\n2. Esse conjunto está em série com <i>R</i><sub>1</sub>, que liga o nó do meio ao cabo vermelho: <i>R</i><sub>eq</sub> = 150 + 50 = 200 kΩ.\n3. Toda a corrente da fonte passa por <i>R</i><sub>1</sub>: \\(i = \\dfrac{U}{R_{\\text{eq}}} = \\dfrac{5}{200 \\times 10^3} = 2,5 \\times 10^{-5}\\) A = 25,0 μA.\nGabarito: C.",
   "topicos": [
     "associacao-de-resistores",
     "primeira-lei-de-ohm"
   ],
   "status": "publicado",
   "criadoEm": "2026-11-01T12:54:08.000Z",
-  "atualizadoEm": "2026-11-01T12:54:08.000Z"
+  "atualizadoEm": "2026-11-13T13:00:00.000Z"
 }

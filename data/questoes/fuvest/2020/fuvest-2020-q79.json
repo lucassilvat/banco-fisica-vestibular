@@ -11,7 +11,7 @@
   "figuras": [],
   "gabarito": "C",
   "gabaritoFonte": "resolucao-propria",
-  "resolucao": "1. <i>P</i> ∝ √(ℓ/<i>g</i>). O comprimento ℓ da haste metálica depende da temperatura (dilatação térmica).\n2. Conversões: 0 °C = 273 K; 250 K = −23 °C; 32 °F = 0 °C.\n3. Situação 2 × 1: mesma <i>g</i>, temperatura menor ⇒ haste mais curta ⇒ <i>P</i><sub>2</sub> < <i>P</i><sub>1</sub>.\n4. Situação 3 × 1: mesma temperatura (0 °C) ⇒ mesmo ℓ, mas <i>g</i> seis vezes menor ⇒ <i>P</i><sub>3</sub> = √6 · <i>P</i><sub>1</sub> > <i>P</i><sub>1</sub>.\n5. Logo, <i>P</i><sub>2</sub> < <i>P</i><sub>1</sub> < <i>P</i><sub>3</sub>.\nGabarito: C.",
+  "resolucao": "1. \\(P \\propto \\sqrt{\\dfrac{\\ell}{g}}\\). O comprimento ℓ da haste metálica depende da temperatura (dilatação térmica).\n2. Conversões: 0 °C = 273 K; 250 K = −23 °C; 32 °F = 0 °C.\n3. Situação 2 × 1: mesma <i>g</i>, temperatura menor ⇒ haste mais curta ⇒ <i>P</i><sub>2</sub> < <i>P</i><sub>1</sub>.\n4. Situação 3 × 1: mesma temperatura (0 °C) ⇒ mesmo ℓ, mas <i>g</i> seis vezes menor ⇒ \\(P_3 = \\sqrt{6} \\cdot P_1 > P_1\\).\n5. Logo, <i>P</i><sub>2</sub> < <i>P</i><sub>1</sub> < <i>P</i><sub>3</sub>.\nGabarito: C.",
   "topicos": [
     "pendulo-simples",
     "dilatacao-termica-dos-solidos",
@@ -20,7 +20,7 @@
   ],
   "status": "publicado",
   "criadoEm": "2026-11-01T12:54:17.000Z",
-  "atualizadoEm": "2026-11-01T12:54:17.000Z",
+  "atualizadoEm": "2026-11-13T13:00:00.000Z",
   "revisao": {
     "divergenciasAceitas": [
       "P"

@@ -13,7 +13,7 @@
   ],
   "gabarito": "A",
   "gabaritoFonte": "resolucao-propria",
-  "resolucao": "1. Corrente nominal do LED: <i>i</i> = <i>P</i>/<i>U</i> = 8/4 = 2 A (a mesma no resistor, pois estão em série).\n2. Tensão no resistor: 6 − 4 = 2 V.\n3. <i>R</i> = <i>U</i>/<i>i</i> = 2/2 = 1,0 Ω.\nGabarito: A.",
+  "resolucao": "1. Corrente nominal do LED: \\(i = \\dfrac{P}{U} = \\dfrac{8}{4} = 2\\) A (a mesma no resistor, pois estão em série).\n2. Tensão no resistor: 6 − 4 = 2 V.\n3. \\(R = \\dfrac{U}{i} = \\dfrac{2}{2} = 1,0\\) Ω.\nGabarito: A.",
   "topicos": [
     "primeira-lei-de-ohm",
     "potencia-eletrica-e-efeito-joule",
@@ -21,5 +21,5 @@
   ],
   "status": "publicado",
   "criadoEm": "2026-11-01T14:43:26.000Z",
-  "atualizadoEm": "2026-11-01T14:43:26.000Z"
+  "atualizadoEm": "2026-11-13T13:00:00.000Z"
 }

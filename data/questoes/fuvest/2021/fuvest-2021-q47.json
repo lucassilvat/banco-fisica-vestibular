@@ -13,7 +13,7 @@
   ],
   "gabarito": "C",
   "gabaritoFonte": "resolucao-propria",
-  "resolucao": "1. No gráfico, entre 20 s e 30 s há cerca de 7 oscilações completas (picos aproximadamente a cada 1,4 s) ⇒ período <i>T</i> ≈ 1,4 s.\n2. Pêndulo simples: <i>T</i> = 2<i>π</i>√(ℓ/<i>g</i>) ⇒ ℓ = <i>g T</i><sup>2</sup>/(4<i>π</i><sup>2</sup>).\n3. ℓ ≈ 10 · (1,4)<sup>2</sup>/(4 · 9) = 19,6/36 ≈ 0,54 m ≈ 50 cm.\n4. As outras alternativas ficam muito longe: 10 cm daria <i>T</i> ≈ 0,6 s e 100 cm daria <i>T</i> ≈ 1,9 s.\nGabarito: C.",
+  "resolucao": "1. No gráfico, entre 20 s e 30 s há cerca de 7 oscilações completas (picos aproximadamente a cada 1,4 s) ⇒ período <i>T</i> ≈ 1,4 s.\n2. Pêndulo simples: \\(T = 2\\pi\\sqrt{\\dfrac{\\ell}{g}} \\Rightarrow \\ell = \\dfrac{g T^2}{4\\pi^2}\\).\n3. \\(\\ell \\approx \\dfrac{10 \\cdot (1,4)^2}{4 \\cdot 9} = \\dfrac{19,6}{36} \\approx 0,54\\) m ≈ 50 cm.\n4. As outras alternativas ficam muito longe: 10 cm daria <i>T</i> ≈ 0,6 s e 100 cm daria <i>T</i> ≈ 1,9 s.\nGabarito: C.",
   "topicos": [
     "pendulo-simples",
     "movimento-harmonico-simples-mhs",
@@ -21,5 +21,5 @@
   ],
   "status": "publicado",
   "criadoEm": "2026-11-01T12:54:20.000Z",
-  "atualizadoEm": "2026-11-01T12:54:20.000Z"
+  "atualizadoEm": "2026-11-13T13:00:00.000Z"
 }

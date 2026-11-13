@@ -11,7 +11,7 @@
   "figuras": [],
   "gabarito": "C",
   "gabaritoFonte": "resolucao-propria",
-  "resolucao": "1. Interpretação cinética: a energia cinética média das moléculas é proporcional à temperatura absoluta (<i>m v</i><sup>2</sup>/2 ∝ <i>T</i>). Moléculas mais rápidas escapam mais facilmente.\n2. I. Errada: com a mesma velocidade de escape, o corpo mais quente tem moléculas mais rápidas e perde mais gás; a temperatura importa.\n3. II. Errada: à mesma temperatura, a molécula mais leve (H<sub>2</sub>, 2 u) é mais rápida que a de N<sub>2</sub> (28 u); o hidrogênio escapa mais facilmente.\n4. III. Correta: com temperaturas iguais, as velocidades moleculares são iguais; quanto maior a velocidade de escape, menos moléculas a atingem e mais gás é retido.\nGabarito: C.",
+  "resolucao": "1. Interpretação cinética: a energia cinética média das moléculas é proporcional à temperatura absoluta (\\(\\dfrac{m v^2}{2} \\propto T\\)). Moléculas mais rápidas escapam mais facilmente.\n2. I. Errada: com a mesma velocidade de escape, o corpo mais quente tem moléculas mais rápidas e perde mais gás; a temperatura importa.\n3. II. Errada: à mesma temperatura, a molécula mais leve (H<sub>2</sub>, 2 u) é mais rápida que a de N<sub>2</sub> (28 u); o hidrogênio escapa mais facilmente.\n4. III. Correta: com temperaturas iguais, as velocidades moleculares são iguais; quanto maior a velocidade de escape, menos moléculas a atingem e mais gás é retido.\nGabarito: C.",
   "topicos": [
     "satelites-orbitas-e-imponderabilidade",
     "gas-ideal-e-equacao-de-clapeyron",
@@ -19,5 +19,5 @@
   ],
   "status": "publicado",
   "criadoEm": "2026-11-01T12:54:17.000Z",
-  "atualizadoEm": "2026-11-01T12:54:17.000Z"
+  "atualizadoEm": "2026-11-13T13:00:00.000Z"
 }

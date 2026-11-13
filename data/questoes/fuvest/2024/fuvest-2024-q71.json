@@ -13,12 +13,12 @@
   ],
   "gabarito": "B",
   "gabaritoFonte": "resolucao-propria",
-  "resolucao": "1. Massas de água: copo 250 g; vasilha 1000 g. Como é tudo água, o calor específico se cancela e a temperatura de equilíbrio é a média ponderada pelas massas.\n2. Passo 2: <i>θ</i><sub>1</sub> = (250 · 100 + 1000 · 25)/1250 = 50 000/1250 = 40 °C.\n3. Passo 4 (água nova a 25 °C): <i>θ</i><sub>2</sub> = (250 · 40 + 1000 · 25)/1250 = 35 000/1250 = 28 °C.\nGabarito: B.",
+  "resolucao": "1. Massas de água: copo 250 g; vasilha 1000 g. Como é tudo água, o calor específico se cancela e a temperatura de equilíbrio é a média ponderada pelas massas.\n2. Passo 2: \\(\\theta_1 = \\dfrac{250 \\cdot 100 + 1000 \\cdot 25}{1250} = \\dfrac{50 000}{1250} = 40\\) °C.\n3. Passo 4 (água nova a 25 °C): \\(\\theta_2 = \\dfrac{250 \\cdot 40 + 1000 \\cdot 25}{1250} = \\dfrac{35 000}{1250} = 28\\) °C.\nGabarito: B.",
   "topicos": [
     "trocas-de-calor-e-equilibrio-termico-calorimetro",
     "calor-sensivel-e-capacidade-termica"
   ],
   "status": "publicado",
   "criadoEm": "2026-11-01T12:54:08.000Z",
-  "atualizadoEm": "2026-11-01T12:54:08.000Z"
+  "atualizadoEm": "2026-11-13T13:00:00.000Z"
 }

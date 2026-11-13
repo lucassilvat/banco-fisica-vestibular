@@ -11,7 +11,7 @@
   "figuras": [],
   "gabarito": "A",
   "gabaritoFonte": "resolucao-propria",
-  "resolucao": "1. Quando a faixa está esticada 10 m além do comprimento natural, Helena caiu 15 + 10 = 25 m.\n2. Energia potencial gravitacional perdida: <i>m g h</i> = 50 · 10 · 25 = 12.500 J.\n3. Energia elástica armazenada: <i>k x</i><sup>2</sup>/2 = 250 · 10<sup>2</sup>/2 = 12.500 J.\n4. Toda a energia gravitacional virou elástica: a energia cinética é zero ⇒ <i>v</i> = 0 (é o ponto mais baixo do salto).\nGabarito: A.",
+  "resolucao": "1. Quando a faixa está esticada 10 m além do comprimento natural, Helena caiu 15 + 10 = 25 m.\n2. Energia potencial gravitacional perdida: <i>m g h</i> = 50 · 10 · 25 = 12.500 J.\n3. Energia elástica armazenada: \\(\\dfrac{k x^2}{2} = \\dfrac{250 \\cdot 10^2}{2} = 12.500\\) J.\n4. Toda a energia gravitacional virou elástica: a energia cinética é zero ⇒ <i>v</i> = 0 (é o ponto mais baixo do salto).\nGabarito: A.",
   "topicos": [
     "energia-potencial-elastica",
     "conservacao-da-energia-mecanica",
@@ -19,5 +19,5 @@
   ],
   "status": "publicado",
   "criadoEm": "2026-11-01T14:43:28.000Z",
-  "atualizadoEm": "2026-11-01T14:43:28.000Z"
+  "atualizadoEm": "2026-11-13T13:00:00.000Z"
 }

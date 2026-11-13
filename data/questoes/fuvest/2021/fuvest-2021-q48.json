@@ -11,7 +11,7 @@
   "figuras": [],
   "gabarito": "B",
   "gabaritoFonte": "resolucao-propria",
-  "resolucao": "1. Vazão de 10 L/s = 10 kg/s de água caindo 15 m. Potência da usina (100% de eficiência): <i>P</i> = (<i>m</i>/Δ<i>t</i>) <i>g h</i> = 10 · 10 · 15 = 1500 W = 1,5 kW.\n2. Energia em um mês: 1,5 kW · (30 · 24 h) = 1,5 · 720 = 1080 kWh.\n3. Falta: 2000 − 1080 = 920 kWh por mês.\n4. Painéis: 920/40 = 23.\nGabarito: B.",
+  "resolucao": "1. Vazão de 10 L/s = 10 kg/s de água caindo 15 m. Potência da usina (100% de eficiência): \\(P = \\dfrac{m}{\\Delta t}\\,g h = 10 \\cdot 10 \\cdot 15 = 1500\\) W = 1,5 kW.\n2. Energia em um mês: 1,5 kW · (30 · 24 h) = 1,5 · 720 = 1080 kWh.\n3. Falta: 2000 − 1080 = 920 kWh por mês.\n4. Painéis: \\(\\dfrac{920}{40} = 23\\).\nGabarito: B.",
   "topicos": [
     "usinas-e-geracao-de-energia-eletrica",
     "potencia-e-rendimento",
@@ -20,5 +20,5 @@
   ],
   "status": "publicado",
   "criadoEm": "2026-11-01T12:54:20.000Z",
-  "atualizadoEm": "2026-11-01T12:54:20.000Z"
+  "atualizadoEm": "2026-11-13T13:00:00.000Z"
 }

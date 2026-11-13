@@ -13,11 +13,11 @@
   ],
   "gabarito": "B",
   "gabaritoFonte": "resolucao-propria",
-  "resolucao": "1. Recipiente cheio de água: 350,0 g. Com a amostra (44,0 g) dentro e completado com água: 389,0 g.\n2. Se nada saísse, seria 350,0 + 44,0 = 394,0 g. A diferença, 394,0 − 389,0 = 5,0 g, é a água que a amostra deslocou.\n3. Volume da amostra = volume de água deslocada = 5,0 g/(1,0 g/cm<sup>3</sup>) = 5,0 cm<sup>3</sup>.\n4. Densidade: 44,0/5,0 = 8,8 g/cm<sup>3</sup> ⇒ bronze.\nGabarito: B.",
+  "resolucao": "1. Recipiente cheio de água: 350,0 g. Com a amostra (44,0 g) dentro e completado com água: 389,0 g.\n2. Se nada saísse, seria 350,0 + 44,0 = 394,0 g. A diferença, 394,0 − 389,0 = 5,0 g, é a água que a amostra deslocou.\n3. Volume da amostra = volume de água deslocada = \\(\\dfrac{5,0\\ \\text{g}}{1,0\\ \\text{g/cm}^3} = 5,0\\) cm<sup>3</sup>.\n4. Densidade: \\(\\dfrac{44,0}{5,0} = 8,8\\) g/cm<sup>3</sup> ⇒ bronze.\nGabarito: B.",
   "topicos": [
     "densidade-e-massa-especifica"
   ],
   "status": "publicado",
   "criadoEm": "2026-11-01T14:43:25.000Z",
-  "atualizadoEm": "2026-11-01T14:43:25.000Z"
+  "atualizadoEm": "2026-11-13T13:00:00.000Z"
 }

@@ -13,7 +13,7 @@
   ],
   "gabarito": "B",
   "gabaritoFonte": "resolucao-propria",
-  "resolucao": "1. Descida da esfera 1 (conservação da energia): <i>v</i><sub>1</sub> = √(2<i>gh</i>).\n2. Colisão perfeitamente inelástica (as esferas ficam unidas), com conservação da quantidade de movimento: <i>m v</i><sub>1</sub> = 2<i>m v</i> ⇒ <i>v</i> = <i>v</i><sub>1</sub>/2.\n3. Subida do conjunto: <i>h</i>′ = <i>v</i><sup>2</sup>/(2<i>g</i>) = (<i>v</i><sub>1</sub>/2)<sup>2</sup>/(2<i>g</i>) = (1/4) · <i>v</i><sub>1</sub><sup>2</sup>/(2<i>g</i>) = <i>h</i>/4.\nGabarito: B.",
+  "resolucao": "1. Descida da esfera 1 (conservação da energia): \\(v_1 = \\sqrt{2gh}\\).\n2. Colisão perfeitamente inelástica (as esferas ficam unidas), com conservação da quantidade de movimento: \\(m v_1 = 2m v \\Rightarrow v = \\dfrac{v_1}{2}\\).\n3. Subida do conjunto: \\(h′ = \\dfrac{v^2}{2g} = \\dfrac{\\left(\\tfrac{v_1}{2}\\right)^2}{2g} = \\dfrac{1}{4} \\cdot \\dfrac{v_1^2}{2g} = \\dfrac{h}{4}\\).\nGabarito: B.",
   "topicos": [
     "colisoes-elasticas-e-inelasticas",
     "conservacao-da-quantidade-de-movimento",
@@ -21,5 +21,5 @@
   ],
   "status": "publicado",
   "criadoEm": "2026-11-01T12:54:11.000Z",
-  "atualizadoEm": "2026-11-01T12:54:11.000Z"
+  "atualizadoEm": "2026-11-13T13:00:00.000Z"
 }

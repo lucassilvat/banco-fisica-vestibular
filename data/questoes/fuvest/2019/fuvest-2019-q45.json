@@ -13,12 +13,12 @@
   ],
   "gabarito": "A",
   "gabaritoFonte": "resolucao-propria",
-  "resolucao": "1. Parte biológica: o tecido que acumula amido para nutrir o embrião é o endosperma (região A). Isso já elimina B, C, D e E.\n2. Conferindo a pressão (equação de Clapeyron): massa de vapor = 9% de 4,5 mg = 0,405 mg ⇒ <i>n</i> = 0,405 × 10<sup>−3</sup> g/18 g/mol = 2,25 × 10<sup>−5</sup> mol.\n3. <i>T</i> = 177 + 273 = 450 K; <i>V</i> = 0,1 mL = 1 × 10<sup>−4</sup> L.\n4. <i>P</i> = <i>nRT</i>/<i>V</i> = 2,25 × 10<sup>−5</sup> · 0,082 · 450/10<sup>−4</sup> ≈ 8,3 atm.\nGabarito: A.",
+  "resolucao": "1. Parte biológica: o tecido que acumula amido para nutrir o embrião é o endosperma (região A). Isso já elimina B, C, D e E.\n2. Conferindo a pressão (equação de Clapeyron): massa de vapor = 9% de 4,5 mg = 0,405 mg ⇒ \\(n = \\dfrac{0,405 \\times 10^{-3}\\ \\text{g}}{18\\ \\text{g/mol}} = 2,25 \\times 10^{-5}\\) mol.\n3. <i>T</i> = 177 + 273 = 450 K; <i>V</i> = 0,1 mL = 1 × 10<sup>−4</sup> L.\n4. \\(P = \\dfrac{nRT}{V} = \\dfrac{2,25 \\times 10^{-5} \\cdot 0,082 \\cdot 450}{10^{-4}} \\approx 8,3\\) atm.\nGabarito: A.",
   "topicos": [
     "gas-ideal-e-equacao-de-clapeyron",
     "calor-latente-e-mudancas-de-fase"
   ],
   "status": "publicado",
   "criadoEm": "2026-11-01T14:43:25.000Z",
-  "atualizadoEm": "2026-11-01T14:43:25.000Z"
+  "atualizadoEm": "2026-11-13T13:00:00.000Z"
 }

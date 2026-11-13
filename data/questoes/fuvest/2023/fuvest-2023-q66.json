@@ -11,7 +11,7 @@
   "figuras": [],
   "gabarito": "A",
   "gabaritoFonte": "resolucao-propria",
-  "resolucao": "1. Campo uniforme: <i>U</i> = <i>E</i> · <i>d</i> = 10<sup>4</sup> V/m · 100 m = 10<sup>6</sup> V.\n2. Energia (trabalho da força elétrica) para deslocar a carga: <i>W</i> = <i>q U</i> = 30 · 10<sup>6</sup> = 3 × 10<sup>7</sup> J.\n3. Potência: <i>P</i> = <i>W</i>/Δ<i>t</i> = 3 × 10<sup>7</sup>/10<sup>−3</sup> = 3 × 10<sup>10</sup> W = 30 GW.\n(Equivalente: corrente <i>i</i> = 30 C/10<sup>−3</sup> s = 3 × 10<sup>4</sup> A e <i>P</i> = <i>U i</i>.)\nGabarito: A.",
+  "resolucao": "1. Campo uniforme: <i>U</i> = <i>E</i> · <i>d</i> = 10<sup>4</sup> V/m · 100 m = 10<sup>6</sup> V.\n2. Energia (trabalho da força elétrica) para deslocar a carga: <i>W</i> = <i>q U</i> = 30 · 10<sup>6</sup> = 3 × 10<sup>7</sup> J.\n3. Potência: \\(P = \\dfrac{W}{\\Delta t} = \\dfrac{3 \\times 10^7}{10^{-3}} = 3 \\times 10^{10}\\) W = 30 GW.\n(Equivalente: corrente \\(i = \\dfrac{30\\ \\text{C}}{10^{-3}\\ \\text{s}} = 3 \\times 10^4\\) A e <i>P</i> = <i>U i</i>.)\nGabarito: A.",
   "topicos": [
     "linhas-de-campo-e-campo-eletrico-uniforme",
     "potencia-eletrica-e-efeito-joule",
@@ -19,5 +19,5 @@
   ],
   "status": "publicado",
   "criadoEm": "2026-11-01T12:54:11.000Z",
-  "atualizadoEm": "2026-11-01T12:54:11.000Z"
+  "atualizadoEm": "2026-11-13T13:00:00.000Z"
 }

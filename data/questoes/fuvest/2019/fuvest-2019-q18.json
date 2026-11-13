@@ -13,12 +13,12 @@
   ],
   "gabarito": "E",
   "gabaritoFonte": "resolucao-propria",
-  "resolucao": "1. Pela figura, <i>q</i> está a uma distância <i>d</i> abaixo da carga de cima e, em relação às de baixo, a <i>d</i> na horizontal e <i>d</i> na vertical ⇒ distância <i>d</i>√2.\n2. Cargas de sinais opostos se atraem: cada força aponta de <i>q</i> para a carga <i>Q</i> correspondente.\n3. Carga de cima: <i>F</i><sub>1</sub> = <i>k Q</i>|<i>q</i>|/<i>d</i><sup>2</sup> = 9 × 10<sup>9</sup> · 2 × 10<sup>−4</sup> · 2 × 10<sup>−5</sup>/36 = 36/36 = 1,0 N, para cima.\n4. Cada carga de baixo: <i>F</i><sub>2</sub> = 36/(2 · 36) = 0,5 N, a 45° para baixo. As componentes horizontais se anulam; as verticais somam 2 · 0,5 · cos 45° ≈ 0,71 N para baixo.\n5. Resultante: 1,0 − 0,71 ≈ 0,3 N, ao longo do eixo y, para cima.\nGabarito: E.",
+  "resolucao": "1. Pela figura, <i>q</i> está a uma distância <i>d</i> abaixo da carga de cima e, em relação às de baixo, a <i>d</i> na horizontal e <i>d</i> na vertical ⇒ distância \\(d\\sqrt{2}\\).\n2. Cargas de sinais opostos se atraem: cada força aponta de <i>q</i> para a carga <i>Q</i> correspondente.\n3. Carga de cima: \\(F_1 = \\dfrac{kQ\\left|q\\right|}{d^2} = \\dfrac{9 \\times 10^9 \\cdot 2 \\times 10^{-4} \\cdot 2 \\times 10^{-5}}{36} = \\dfrac{36}{36} = 1,0\\) N, para cima.\n4. Cada carga de baixo: \\(F_2 = \\dfrac{36}{2 \\cdot 36} = 0,5\\) N, a 45° para baixo. As componentes horizontais se anulam; as verticais somam 2 · 0,5 · cos 45° ≈ 0,71 N para baixo.\n5. Resultante: 1,0 − 0,71 ≈ 0,3 N, ao longo do eixo y, para cima.\nGabarito: E.",
   "topicos": [
     "lei-de-coulomb",
     "vetores-soma-e-decomposicao"
   ],
   "status": "publicado",
   "criadoEm": "2026-11-01T14:43:25.000Z",
-  "atualizadoEm": "2026-11-01T14:43:25.000Z"
+  "atualizadoEm": "2026-11-13T13:00:00.000Z"
 }

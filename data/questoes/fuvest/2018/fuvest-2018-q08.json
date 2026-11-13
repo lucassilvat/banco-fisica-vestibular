@@ -11,12 +11,12 @@
   "figuras": [],
   "gabarito": "B",
   "gabaritoFonte": "resolucao-propria",
-  "resolucao": "1. A meia-vida do césio-137 é 30 anos. Em 120 anos passam 120/30 = 4 meias-vidas.\n2. Fração restante: (1/2)<sup>4</sup> = 1/16 = 0,0625 ≈ 6,3%.\nGabarito: B.",
+  "resolucao": "1. A meia-vida do césio-137 é 30 anos. Em 120 anos passam \\(\\dfrac{120}{30} = 4\\) meias-vidas.\n2. Fração restante: \\(\\left(\\dfrac{1}{2}\\right)^4 = \\dfrac{1}{16} = 0,0625 \\approx 6,3\\ \\%\\).\nGabarito: B.",
   "topicos": [
     "meia-vida",
     "radioatividade-e-decaimento"
   ],
   "status": "publicado",
   "criadoEm": "2026-11-01T14:43:26.000Z",
-  "atualizadoEm": "2026-11-01T14:43:26.000Z"
+  "atualizadoEm": "2026-11-13T13:00:00.000Z"
 }

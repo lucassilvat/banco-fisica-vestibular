@@ -13,7 +13,7 @@
   ],
   "gabarito": "B",
   "gabaritoFonte": "resolucao-propria",
-  "resolucao": "1. Na primeira face, a incidência é perpendicular: a onda entra sem desvio.\n2. Na face inclinada (hipotenusa), pela geometria do triângulo, o ângulo de incidência dentro do bloco é igual ao ângulo de 25° do prisma.\n3. A onda sai desviada 15° em relação à direção de incidência, afastando-se da normal: o ângulo de refração no ar é 25° + 15° = 40°.\n4. Snell: <i>n</i> sen 25° = 1,0 · sen 40° ⇒ <i>n</i> = 0,6/0,4 = 1,5.\nGabarito: B.",
+  "resolucao": "1. Na primeira face, a incidência é perpendicular: a onda entra sem desvio.\n2. Na face inclinada (hipotenusa), pela geometria do triângulo, o ângulo de incidência dentro do bloco é igual ao ângulo de 25° do prisma.\n3. A onda sai desviada 15° em relação à direção de incidência, afastando-se da normal: o ângulo de refração no ar é 25° + 15° = 40°.\n4. Snell: \\(n \\sen 25° = 1,0 \\cdot \\sen 40° \\Rightarrow n = \\dfrac{0,6}{0,4} = 1,5\\).\nGabarito: B.",
   "topicos": [
     "lei-de-snell-descartes",
     "prismas-e-dispersao-da-luz",
@@ -21,5 +21,5 @@
   ],
   "status": "publicado",
   "criadoEm": "2026-11-01T14:43:28.000Z",
-  "atualizadoEm": "2026-11-01T14:43:28.000Z"
+  "atualizadoEm": "2026-11-13T13:00:00.000Z"
 }

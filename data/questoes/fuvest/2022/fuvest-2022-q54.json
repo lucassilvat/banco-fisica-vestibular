@@ -13,7 +13,7 @@
   ],
   "gabarito": "B",
   "gabaritoFonte": "resolucao-propria",
-  "resolucao": "Atenção: esta questão foi <b>anulada</b> pela Fuvest. O sentido pretendido é o da alternativa B, mas o módulo correto da força inclui a velocidade <i>v</i>, que não aparece em nenhuma alternativa.\n1. Eixos da figura: <i>z</i> para cima, <i>y</i> para a direita e <i>x</i> saindo do papel. O fio da esquerda tem corrente para cima (+<i>z</i>) e o da direita, para baixo (−<i>z</i>).\n2. Regra da mão direita no ponto da carga: o fio da esquerda (carga à sua direita) gera campo entrando no papel (−<i>x</i>); o fio da direita, com corrente oposta e a carga à sua esquerda, também gera campo para −<i>x</i>.\n3. Os campos se somam: <i>B</i> = 2 · <i>μ</i><sub>0</sub><i>I</i>/(2π<i>R</i>) = <i>μ</i><sub>0</sub><i>I</i>/(π<i>R</i>), no sentido −<i>x</i>.\n4. Força de Lorentz: <i>F</i>⃗ = <i>Q v</i>⃗ × <i>B</i>⃗, com <i>v</i>⃗ ao longo de +<i>z</i> e <i>B</i>⃗ ao longo de −<i>x</i>: <i>ẑ</i> × (−<i>x̂</i>) = −<i>ŷ</i> ⇒ a força aponta para −<i>y</i>.\n5. Módulo: <i>F</i> = <i>Q v μ</i><sub>0</sub><i>I</i>/(π<i>R</i>). As alternativas B a E omitem <i>v</i> (são dimensionalmente incorretas), por isso a questão foi anulada.\nGabarito pretendido: B (questão anulada).",
+  "resolucao": "Atenção: esta questão foi <b>anulada</b> pela Fuvest. O sentido pretendido é o da alternativa B, mas o módulo correto da força inclui a velocidade <i>v</i>, que não aparece em nenhuma alternativa.\n1. Eixos da figura: <i>z</i> para cima, <i>y</i> para a direita e <i>x</i> saindo do papel. O fio da esquerda tem corrente para cima (+<i>z</i>) e o da direita, para baixo (−<i>z</i>).\n2. Regra da mão direita no ponto da carga: o fio da esquerda (carga à sua direita) gera campo entrando no papel (−<i>x</i>); o fio da direita, com corrente oposta e a carga à sua esquerda, também gera campo para −<i>x</i>.\n3. Os campos se somam: \\(B = 2 \\cdot \\dfrac{\\mu_0 I}{2\\pi R} = \\dfrac{\\mu_0 I}{\\pi R}\\), no sentido −<i>x</i>.\n4. Força de Lorentz: <i>F</i>⃗ = <i>Q v</i>⃗ × <i>B</i>⃗, com <i>v</i>⃗ ao longo de +<i>z</i> e <i>B</i>⃗ ao longo de −<i>x</i>: <i>ẑ</i> × (−<i>x̂</i>) = −<i>ŷ</i> ⇒ a força aponta para −<i>y</i>.\n5. Módulo: \\(F = \\dfrac{Q v \\mu_0 I}{\\pi R}\\). As alternativas B a E omitem <i>v</i> (são dimensionalmente incorretas), por isso a questão foi anulada.\nGabarito pretendido: B (questão anulada).",
   "topicos": [
     "forca-magnetica-sobre-carga-em-movimento",
     "campo-magnetico-de-fio-retilineo",
@@ -21,7 +21,7 @@
   ],
   "status": "publicado",
   "criadoEm": "2026-11-01T12:54:14.000Z",
-  "atualizadoEm": "2026-11-01T12:54:14.000Z",
+  "atualizadoEm": "2026-11-13T13:00:00.000Z",
   "revisao": {
     "notas": "Questão ANULADA pela Fuvest (inconsistência nas respostas: o módulo correto é QvμoI/πR, mas nenhuma alternativa traz a velocidade v). O gabarito B indica a resposta pretendida (direção −y)."
   }

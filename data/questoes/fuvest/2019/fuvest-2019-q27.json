@@ -11,7 +11,7 @@
   "figuras": [],
   "gabarito": "A",
   "gabaritoFonte": "resolucao-propria",
-  "resolucao": "1. Item I (Física): o Sol, muito quente, emite principalmente em comprimentos de onda curtos (visível e ultravioleta), que atravessam a atmosfera. A superfície terrestre, bem mais fria, reemite a energia como infravermelho (comprimentos de onda maiores), absorvido por CO<sub>2</sub>, vapor d'água e metano (lei de Wien: <i>λ</i><sub>máx</sub> ∝ 1/<i>T</i>).\n2. Logo, I é \"incide em comprimentos de onda menores e é refletida (reemitida) em comprimentos de onda maiores\": alternativas A ou E.\n3. Item II: a destruição de florestas nativas (queimadas e menor absorção de CO<sub>2</sub>) aumenta diretamente a concentração de gases de efeito estufa; o uso doméstico da água dos rios (E) não.\nGabarito: A.",
+  "resolucao": "1. Item I (Física): o Sol, muito quente, emite principalmente em comprimentos de onda curtos (visível e ultravioleta), que atravessam a atmosfera. A superfície terrestre, bem mais fria, reemite a energia como infravermelho (comprimentos de onda maiores), absorvido por CO<sub>2</sub>, vapor d'água e metano (lei de Wien: \\(\\lambda_{\\text{máx}} \\propto \\dfrac{1}{T}\\)).\n2. Logo, I é \"incide em comprimentos de onda menores e é refletida (reemitida) em comprimentos de onda maiores\": alternativas A ou E.\n3. Item II: a destruição de florestas nativas (queimadas e menor absorção de CO<sub>2</sub>) aumenta diretamente a concentração de gases de efeito estufa; o uso doméstico da água dos rios (E) não.\nGabarito: A.",
   "topicos": [
     "efeito-estufa-e-balanco-energetico",
     "espectro-eletromagnetico",
@@ -19,5 +19,5 @@
   ],
   "status": "publicado",
   "criadoEm": "2026-11-01T14:43:25.000Z",
-  "atualizadoEm": "2026-11-01T14:43:25.000Z"
+  "atualizadoEm": "2026-11-13T13:00:00.000Z"
 }

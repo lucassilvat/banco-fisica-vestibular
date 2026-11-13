@@ -13,7 +13,7 @@
   ],
   "gabarito": "C",
   "gabaritoFonte": "resolucao-propria",
-  "resolucao": "1. Sistema isolado, sem trabalho e sem troca de calor com o exterior ⇒ pela 1ª lei, a energia interna total se conserva.\n2. Antes: <i>U</i> = (3/2)<i>R</i>(<i>n</i><sub>1</sub><i>T</i><sub>1</sub> + <i>n</i><sub>2</sub><i>T</i><sub>2</sub>) = (3/2)<i>R</i>(1 · 4<i>T</i> + 2 · <i>T</i>) = (3/2)<i>R</i> · 6<i>T</i>.\n3. Depois: <i>U</i> = (3/2)(<i>n</i><sub>1</sub> + <i>n</i><sub>2</sub>)<i>R T</i><sub><i>m</i></sub> = (3/2)<i>R</i> · 3<i>T</i><sub><i>m</i></sub>.\n4. Igualando: 3<i>T</i><sub><i>m</i></sub> = 6<i>T</i> ⇒ <i>T</i><sub><i>m</i></sub> = 2<i>T</i> (média das temperaturas ponderada pelo número de mols).\nGabarito: C.",
+  "resolucao": "1. Sistema isolado, sem trabalho e sem troca de calor com o exterior ⇒ pela 1ª lei, a energia interna total se conserva.\n2. Antes: \\(U = \\dfrac{3}{2}R(n_1 T_1 + n_2 T_2) = \\dfrac{3}{2}R(1 \\cdot 4T + 2 \\cdot T) = \\dfrac{3}{2}R \\cdot 6T\\).\n3. Depois: \\(U = \\dfrac{3}{2}(n_1 + n_2)R T_m = \\dfrac{3}{2}R \\cdot 3T_m\\).\n4. Igualando: 3<i>T</i><sub><i>m</i></sub> = 6<i>T</i> ⇒ <i>T</i><sub><i>m</i></sub> = 2<i>T</i> (média das temperaturas ponderada pelo número de mols).\nGabarito: C.",
   "topicos": [
     "energia-interna",
     "primeira-lei-da-termodinamica",
@@ -21,7 +21,7 @@
   ],
   "status": "publicado",
   "criadoEm": "2026-11-01T12:54:11.000Z",
-  "atualizadoEm": "2026-11-01T12:54:11.000Z",
+  "atualizadoEm": "2026-11-13T13:00:00.000Z",
   "revisao": {
     "divergenciasAceitas": [
       "nRT"

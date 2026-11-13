@@ -14,12 +14,12 @@
   ],
   "gabarito": "A",
   "gabaritoFonte": "resolucao-propria",
-  "resolucao": "1. A energia para quebrar a ligação é a profundidade do \"poço\" de energia potencial: o mínimo do gráfico é cerca de −6 × 10<sup>−19</sup> J, e afastar o átomo até muito longe leva a energia a zero.\n2. Energia necessária: <i>E</i> ≈ 6 × 10<sup>−19</sup> J.\n3. <i>f</i> = <i>E</i>/<i>h</i> = 6 × 10<sup>−19</sup>/6 × 10<sup>−34</sup> = 1 × 10<sup>15</sup> Hz (ultravioleta).\nGabarito: A.",
+  "resolucao": "1. A energia para quebrar a ligação é a profundidade do \"poço\" de energia potencial: o mínimo do gráfico é cerca de −6 × 10<sup>−19</sup> J, e afastar o átomo até muito longe leva a energia a zero.\n2. Energia necessária: <i>E</i> ≈ 6 × 10<sup>−19</sup> J.\n3. \\(f = \\dfrac{E}{h} = \\dfrac{6 \\times 10^{-19}}{6 \\times 10^{-34}} = 1 \\times 10^{15}\\) Hz (ultravioleta).\nGabarito: A.",
   "topicos": [
     "fotons-e-energia-do-foton-e-hf",
     "leitura-e-interpretacao-de-graficos"
   ],
   "status": "publicado",
   "criadoEm": "2026-11-01T14:43:28.000Z",
-  "atualizadoEm": "2026-11-01T14:43:28.000Z"
+  "atualizadoEm": "2026-11-13T13:00:00.000Z"
 }

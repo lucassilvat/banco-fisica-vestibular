@@ -11,12 +11,12 @@
   "figuras": [],
   "gabarito": "C",
   "gabaritoFonte": "resolucao-propria",
-  "resolucao": "1. Com tensão fixa, <i>P</i> = <i>U</i><sup>2</sup>/<i>R</i>: verão 220<sup>2</sup>/22 = 2.200 W; inverno 220<sup>2</sup>/11 = 4.400 W (o dobro).\n2. Com o mesmo fluxo de água, o calor por segundo é <i>P</i> = (<i>m</i>/Δ<i>t</i>) <i>c</i> Δ<i>θ</i> ⇒ Δ<i>θ</i> é proporcional à potência.\n3. Dobrando a potência, Δ<i>θ</i> passa de 5 °C para 10 °C.\nGabarito: C.",
+  "resolucao": "1. Com tensão fixa, \\(P = \\dfrac{U^2}{R}\\): verão \\(\\dfrac{220^2}{22} = 2.200\\) W; inverno \\(\\dfrac{220^2}{11} = 4.400\\) W (o dobro).\n2. Com o mesmo fluxo de água, o calor por segundo é \\(P = \\dfrac{m}{\\Delta t}\\,c\\,\\Delta\\theta\\) ⇒ Δ<i>θ</i> é proporcional à potência.\n3. Dobrando a potência, Δ<i>θ</i> passa de 5 °C para 10 °C.\nGabarito: C.",
   "topicos": [
     "potencia-eletrica-e-efeito-joule",
     "calor-sensivel-e-capacidade-termica"
   ],
   "status": "publicado",
   "criadoEm": "2026-11-01T14:43:25.000Z",
-  "atualizadoEm": "2026-11-01T14:43:25.000Z"
+  "atualizadoEm": "2026-11-13T13:00:00.000Z"
 }

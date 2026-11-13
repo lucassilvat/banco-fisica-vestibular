@@ -15,7 +15,7 @@
   ],
   "gabarito": "E",
   "gabaritoFonte": "oficial",
-  "resolucao": "1. Há reflexão total para ângulos de incidência entre <i>θ</i><sub>L</sub> e 90°. O intervalo é maior quanto <b>menor</b> for <i>θ</i><sub>L</sub>.\n2. sen <i>θ</i><sub>L</sub> = <i>n</i><sub>2</sub>/<i>n</i><sub>1</sub> ⇒ com <i>n</i><sub>2</sub> fixo, <i>θ</i><sub>L</sub> diminui quando <i>n</i><sub>1</sub> aumenta.\n3. Os materiais A (<i>n</i><sub>1</sub> < <i>n</i><sub>2</sub>) e B (<i>n</i><sub>1</sub> = <i>n</i><sub>2</sub>) nem permitem reflexão total.\n4. O maior índice da tabela é o do material E (1,4889): sen <i>θ</i><sub>L</sub> = 1,0003/1,4889 ≈ 0,67 ⇒ <i>θ</i><sub>L</sub> ≈ 42°, o menor ângulo limite.\nGabarito: E.",
+  "resolucao": "1. Há reflexão total para ângulos de incidência entre <i>θ</i><sub>L</sub> e 90°. O intervalo é maior quanto <b>menor</b> for <i>θ</i><sub>L</sub>.\n2. \\(\\sen\\theta_L = \\dfrac{n_2}{n_1}\\) ⇒ com <i>n</i><sub>2</sub> fixo, <i>θ</i><sub>L</sub> diminui quando <i>n</i><sub>1</sub> aumenta.\n3. Os materiais A (<i>n</i><sub>1</sub> < <i>n</i><sub>2</sub>) e B (<i>n</i><sub>1</sub> = <i>n</i><sub>2</sub>) nem permitem reflexão total.\n4. O maior índice da tabela é o do material E (1,4889): \\(\\sen\\theta_L = \\dfrac{1,0003}{1,4889} \\approx 0,67\\) ⇒ <i>θ</i><sub>L</sub> ≈ 42°, o menor ângulo limite.\nGabarito: E.",
   "topicos": [
     "reflexao-total-e-fibra-optica",
     "refracao-da-luz-e-indice-de-refracao",
@@ -23,5 +23,5 @@
   ],
   "status": "publicado",
   "criadoEm": "2026-11-01T12:54:06.000Z",
-  "atualizadoEm": "2026-11-01T12:54:06.000Z"
+  "atualizadoEm": "2026-11-13T13:00:00.000Z"
 }

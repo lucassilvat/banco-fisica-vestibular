@@ -13,12 +13,12 @@
   ],
   "gabarito": "B",
   "gabaritoFonte": "oficial",
-  "resolucao": "1. Desaceleração: <i>a</i> = 200 <i>g</i> = 2000 m/s<sup>2</sup>; tempo: <i>t</i> = 2,0 ms = 2,0 × 10<sup>−3</sup> s.\n2. Como o crânio para no fim do intervalo, a velocidade inicial é <i>v</i><sub>0</sub> = <i>a t</i> = 2000 · 2 × 10<sup>−3</sup> = 4 m/s.\n3. No MRUV até parar, a distância é <i>d</i> = <i>v</i><sub>0</sub> <i>t</i>/2 (velocidade média vezes tempo) = 4 · 2 × 10<sup>−3</sup>/2 = 4 × 10<sup>−3</sup> m = 4,0 mm.\nGabarito: B.",
+  "resolucao": "1. Desaceleração: <i>a</i> = 200 <i>g</i> = 2000 m/s<sup>2</sup>; tempo: <i>t</i> = 2,0 ms = 2,0 × 10<sup>−3</sup> s.\n2. Como o crânio para no fim do intervalo, a velocidade inicial é <i>v</i><sub>0</sub> = <i>a t</i> = 2000 · 2 × 10<sup>−3</sup> = 4 m/s.\n3. No MRUV até parar, a distância é \\(d = \\dfrac{v_0 t}{2}\\) (velocidade média vezes tempo) \\(= \\dfrac{4 \\cdot 2 \\times 10^{-3}}{2} = 4 \\times 10^{-3}\\) m = 4,0 mm.\nGabarito: B.",
   "topicos": [
     "movimento-retilineo-uniformemente-variado-mruv",
     "velocidade-media-e-aceleracao-media"
   ],
   "status": "publicado",
   "criadoEm": "2026-11-01T12:54:06.000Z",
-  "atualizadoEm": "2026-11-01T12:54:06.000Z"
+  "atualizadoEm": "2026-11-13T13:00:00.000Z"
 }
