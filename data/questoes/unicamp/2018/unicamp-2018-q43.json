@@ -11,12 +11,12 @@
   "figuras": [],
   "gabarito": "B",
   "gabaritoFonte": "resolucao-propria",
-  "resolucao": "1. Em voo horizontal (equilíbrio vertical), a sustentação equilibra o peso: Δ<i>P</i> · <i>A</i> = <i>m g</i>.\n2. Δ<i>P</i> = 3 × 10<sup>5</sup> · 10/500 = 6 × 10<sup>3</sup> N/m<sup>2</sup>.",
+  "resolucao": "1. Em voo horizontal (equilíbrio vertical), a sustentação equilibra o peso: Δ<i>P</i> · <i>A</i> = <i>m g</i>.\n2. \\(\\Delta P = \\dfrac{3 \\times 10^5 \\cdot 10}{500} = 6 \\times 10^3\\) N/m<sup>2</sup>.",
   "topicos": [
     "pressao",
     "leis-de-newton"
   ],
   "status": "publicado",
   "criadoEm": "2026-10-07T11:30:00.000Z",
-  "atualizadoEm": "2026-10-07T11:30:00.000Z"
+  "atualizadoEm": "2026-11-13T12:00:00.000Z"
 }

@@ -11,12 +11,12 @@
   "figuras": [],
   "gabarito": "B",
   "gabaritoFonte": "resolucao-propria",
-  "resolucao": "1. Geografia: a região que mais produz energia eólica no Brasil é o Nordeste (descarta a e d).\n2. Física: a energia cinética de uma porção de ar de massa <i>m</i> é <i>E</i><sub>c</sub> = <i>m v</i><sup>2</sup>/2. Com a densidade constante, a mesma porção de ar tem a mesma massa; reduzir <i>v</i> à metade divide a energia por 4.\n3. Energia produzida: 7800/4 = 1950 MWh. Alternativa b.\nObservação: se também se levasse em conta que, com vento mais lento, passa menos ar pela turbina no mesmo tempo, a potência cairia com <i>v</i><sup>3</sup> (fator 1/8). As alternativas e o gabarito supõem a mesma massa de ar (fator 1/4).",
+  "resolucao": "1. Geografia: a região que mais produz energia eólica no Brasil é o Nordeste (descarta a e d).\n2. Física: a energia cinética de uma porção de ar de massa <i>m</i> é \\(E_{\\text{c}} = \\dfrac{m v^2}{2}\\). Com a densidade constante, a mesma porção de ar tem a mesma massa; reduzir <i>v</i> à metade divide a energia por 4.\n3. Energia produzida: \\(\\dfrac{7800}{4} = 1950\\) MWh. Alternativa b.\nObservação: se também se levasse em conta que, com vento mais lento, passa menos ar pela turbina no mesmo tempo, a potência cairia com <i>v</i><sup>3</sup> (fator \\(\\tfrac{1}{8}\\)). As alternativas e o gabarito supõem a mesma massa de ar (fator \\(\\tfrac{1}{4}\\)).",
   "topicos": [
     "energia-cinetica-e-teorema-trabalho-energia",
     "usinas-e-geracao-de-energia-eletrica"
   ],
   "status": "publicado",
   "criadoEm": "2026-10-07T11:45:00.000Z",
-  "atualizadoEm": "2026-10-07T11:45:00.000Z"
+  "atualizadoEm": "2026-11-13T12:00:00.000Z"
 }

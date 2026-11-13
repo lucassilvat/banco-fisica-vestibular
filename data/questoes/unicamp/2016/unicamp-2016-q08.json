@@ -13,7 +13,7 @@
   ],
   "gabarito": "D",
   "gabaritoFonte": "resolucao-propria",
-  "resolucao": "1. Em série a corrente é a mesma; por <i>U</i> = <i>R i</i>, o resistor de maior resistência tem a maior tensão: a curva de amplitude 8 V (<i>R</i><sub>1</sub>).\n2. Pelo gráfico, dois máximos consecutivos estão separados por 2,5 ms: <i>T</i> = 2,5 × 10<sup>−3</sup> s.\n3. <i>f</i> = 1/<i>T</i> = 400 Hz.",
+  "resolucao": "1. Em série a corrente é a mesma; por <i>U</i> = <i>R i</i>, o resistor de maior resistência tem a maior tensão: a curva de amplitude 8 V (<i>R</i><sub>1</sub>).\n2. Pelo gráfico, dois máximos consecutivos estão separados por 2,5 ms: <i>T</i> = 2,5 × 10<sup>−3</sup> s.\n3. \\(f = \\dfrac{1}{T} = 400\\) Hz.",
   "topicos": [
     "associacao-de-resistores",
     "primeira-lei-de-ohm",
@@ -22,5 +22,5 @@
   ],
   "status": "publicado",
   "criadoEm": "2026-10-07T11:30:00.000Z",
-  "atualizadoEm": "2026-10-07T11:30:00.000Z"
+  "atualizadoEm": "2026-11-13T12:00:00.000Z"
 }

@@ -11,12 +11,12 @@
   "figuras": [],
   "gabarito": "C",
   "gabaritoFonte": "resolucao-propria",
-  "resolucao": "1. Δ<i>t</i> = <i>E</i>/<i>P</i> = 7,2 × 10<sup>6</sup> J / 2 × 10<sup>3</sup> W = 3600 s.\n2. 3600 s = 1 hora.",
+  "resolucao": "1. \\(\\Delta t = \\dfrac{E}{P} = \\dfrac{7,2 \\times 10^6\\ \\text{J}}{2 \\times 10^3\\ \\text{W}} = 3600\\) s.\n2. 3600 s = 1 hora.",
   "topicos": [
     "potencia-e-rendimento",
     "energia-eletrica-e-consumo-kwh-conta-de-luz"
   ],
   "status": "publicado",
   "criadoEm": "2026-10-07T11:30:00.000Z",
-  "atualizadoEm": "2026-10-07T11:30:00.000Z"
+  "atualizadoEm": "2026-11-13T12:00:00.000Z"
 }

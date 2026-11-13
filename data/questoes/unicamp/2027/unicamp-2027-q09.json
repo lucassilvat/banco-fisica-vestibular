@@ -11,12 +11,12 @@
   "figuras": [],
   "gabarito": "B",
   "gabaritoFonte": "resolucao-propria",
-  "resolucao": "1. Na superfície, a força gravitacional sobre o corpo é o seu peso: <i>F</i> = <i>G M m</i>/<i>R</i><sup>2</sup> = <i>m g</i>.\n2. Dividindo por <i>m</i>: <i>g</i> = <i>G M</i>/<i>R</i><sup>2</sup>.\n3. Logo <i>g</i> não depende de <i>m</i>, é diretamente proporcional a <i>M</i> e inversamente proporcional a <i>R</i><sup>2</sup>. Alternativa b.\n4. Observação: a <u>força</u> gravitacional é proporcional a <i>m</i> (alternativa c); a pergunta, sublinhada no enunciado, é sobre a <u>aceleração</u>.",
+  "resolucao": "1. Na superfície, a força gravitacional sobre o corpo é o seu peso: \\(F = \\dfrac{GMm}{R^2} = mg\\).\n2. Dividindo por <i>m</i>: \\(g = \\dfrac{GM}{R^2}\\).\n3. Logo <i>g</i> não depende de <i>m</i>, é diretamente proporcional a <i>M</i> e inversamente proporcional a <i>R</i><sup>2</sup>. Alternativa b.\n4. Observação: a <u>força</u> gravitacional é proporcional a <i>m</i> (alternativa c); a pergunta, sublinhada no enunciado, é sobre a <u>aceleração</u>.",
   "topicos": [
     "aceleracao-da-gravidade-e-altitude",
     "lei-da-gravitacao-universal"
   ],
   "status": "publicado",
   "criadoEm": "2026-11-01T01:52:45.000Z",
-  "atualizadoEm": "2026-11-01T01:54:49.000Z"
+  "atualizadoEm": "2026-11-13T12:00:00.000Z"
 }

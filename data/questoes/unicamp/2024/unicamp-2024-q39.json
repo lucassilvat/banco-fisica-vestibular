@@ -13,12 +13,12 @@
   ],
   "gabarito": "D",
   "gabaritoFonte": "resolucao-propria",
-  "resolucao": "1. O gráfico é uma reta pela origem (resistor ôhmico): <i>R</i> = <i>U</i>/<i>i</i> em qualquer ponto.\n2. Tomando o ponto (140 mV; 10 pA): <i>R</i> = 140 × 10<sup>−3</sup>/10 × 10<sup>−12</sup> = 1,4 × 10<sup>10</sup> Ω = 14 GΩ.",
+  "resolucao": "1. O gráfico é uma reta pela origem (resistor ôhmico): \\(R = \\dfrac{U}{i}\\) em qualquer ponto.\n2. Tomando o ponto (140 mV; 10 pA): \\(R = \\dfrac{140 \\times 10^{-3}}{10 \\times 10^{-12}} = 1,4 \\times 10^{10}\\) Ω = 14 GΩ.",
   "topicos": [
     "primeira-lei-de-ohm",
     "leitura-e-interpretacao-de-graficos"
   ],
   "status": "publicado",
   "criadoEm": "2026-10-06T17:30:00.000Z",
-  "atualizadoEm": "2026-10-06T17:30:00.000Z"
+  "atualizadoEm": "2026-11-13T12:00:00.000Z"
 }

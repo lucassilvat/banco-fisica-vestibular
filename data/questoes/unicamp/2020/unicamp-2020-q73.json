@@ -11,12 +11,12 @@
   "figuras": [],
   "gabarito": "B",
   "gabaritoFonte": "resolucao-propria",
-  "resolucao": "1. <i>ω</i> = 2π/<i>T</i> = 2 · 3,0/12 = 0,5 rad/h.\n2. <i>a</i><sub>cp</sub> = <i>ω</i><sup>2</sup><i>r</i> = 0,25 · 1,6 = 0,40 km/h<sup>2</sup> = 4,0 × 10<sup>−1</sup> km/h<sup>2</sup>.",
+  "resolucao": "1. \\(\\omega = \\dfrac{2\\pi}{T} = \\dfrac{2 \\cdot 3,0}{12} = 0,5\\) rad/h.\n2. <i>a</i><sub>cp</sub> = <i>ω</i><sup>2</sup><i>r</i> = 0,25 · 1,6 = 0,40 km/h<sup>2</sup> = 4,0 × 10<sup>−1</sup> km/h<sup>2</sup>.",
   "topicos": [
     "aceleracao-centripeta",
     "movimento-circular-uniforme-mcu"
   ],
   "status": "publicado",
   "criadoEm": "2026-10-07T11:30:00.000Z",
-  "atualizadoEm": "2026-10-07T11:30:00.000Z"
+  "atualizadoEm": "2026-11-13T12:00:00.000Z"
 }

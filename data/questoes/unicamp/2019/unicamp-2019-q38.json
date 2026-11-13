@@ -11,12 +11,12 @@
   "figuras": [],
   "gabarito": "D",
   "gabaritoFonte": "resolucao-propria",
-  "resolucao": "1. <i>c</i> = 3,0 × 10<sup>5</sup> km/s, então <i>v</i> = 2,0 × 10<sup>4</sup> km/s = <i>c</i>/15.\n2. A luz leva 100 anos para percorrer 100 anos-luz; viajando 15 vezes mais devagar, o ônibus leva 15 · 100 = 1500 anos.",
+  "resolucao": "1. <i>c</i> = 3,0 × 10<sup>5</sup> km/s, então <i>v</i> = 2,0 × 10<sup>4</sup> km/s \\(= \\dfrac{c}{15}\\).\n2. A luz leva 100 anos para percorrer 100 anos-luz; viajando 15 vezes mais devagar, o ônibus leva 15 · 100 = 1500 anos.",
   "topicos": [
     "movimento-retilineo-uniforme-mru",
     "notacao-cientifica-e-ordem-de-grandeza"
   ],
   "status": "publicado",
   "criadoEm": "2026-10-07T11:30:00.000Z",
-  "atualizadoEm": "2026-10-07T11:30:00.000Z"
+  "atualizadoEm": "2026-11-13T12:00:00.000Z"
 }

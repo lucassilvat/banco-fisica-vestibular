@@ -13,7 +13,7 @@
   ],
   "gabarito": "A",
   "gabaritoFonte": "resolucao-propria",
-  "resolucao": "1. Potência elétrica: <i>P</i> = <i>U i</i> ⇒ <i>i</i> = <i>P</i>/<i>U</i>.\n2. No painel: <i>i</i><sub>painel</sub> = 462/42 = 11 A.\n3. Situação ideal: a mesma potência chega à bateria, então <i>i</i><sub>bat</sub> = 462/12 = 38,5 A.",
+  "resolucao": "1. Potência elétrica: \\(P = U i \\Rightarrow i = \\dfrac{P}{U}\\).\n2. No painel: \\(i_{\\text{painel}} = \\dfrac{462}{42} = 11\\) A.\n3. Situação ideal: a mesma potência chega à bateria, então \\(i_{\\text{bat}} = \\dfrac{462}{12} = 38,5\\) A.",
   "topicos": [
     "potencia-eletrica-e-efeito-joule",
     "corrente-eletrica",
@@ -21,7 +21,7 @@
   ],
   "status": "publicado",
   "criadoEm": "2026-10-06T17:30:00.000Z",
-  "atualizadoEm": "2026-10-06T17:30:00.000Z",
+  "atualizadoEm": "2026-11-13T12:00:00.000Z",
   "revisao": {
     "divergenciasAceitas": [
       "bat"

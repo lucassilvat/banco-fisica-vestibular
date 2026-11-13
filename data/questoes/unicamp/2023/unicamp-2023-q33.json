@@ -13,7 +13,7 @@
   ],
   "gabarito": "C",
   "gabaritoFonte": "resolucao-propria",
-  "resolucao": "1. Na iminência de movimento, a força da mola iguala o atrito estático máximo: <i>k</i>Δ<i>x</i> = μ<sub>e</sub> <i>N</i>, com <i>N</i> = <i>m g</i>.\n2. Em unidades do SI: <i>k</i>Δ<i>x</i> = 10 · 3 × 10<sup>−3</sup> = 3 × 10<sup>−2</sup> N; <i>m g</i> = 4 × 10<sup>−3</sup> · 10 = 4 × 10<sup>−2</sup> N.\n3. μ<sub>e</sub> = 3 × 10<sup>−2</sup>/4 × 10<sup>−2</sup> = 0,75 = 7,5 × 10<sup>−1</sup>.",
+  "resolucao": "1. Na iminência de movimento, a força da mola iguala o atrito estático máximo: <i>k</i>Δ<i>x</i> = μ<sub>e</sub> <i>N</i>, com <i>N</i> = <i>m g</i>.\n2. Em unidades do SI: <i>k</i>Δ<i>x</i> = 10 · 3 × 10<sup>−3</sup> = 3 × 10<sup>−2</sup> N; <i>m g</i> = 4 × 10<sup>−3</sup> · 10 = 4 × 10<sup>−2</sup> N.\n3. \\(\\mu_{\\text{e}} = \\dfrac{3 \\times 10^{-2}}{4 \\times 10^{-2}} = 0,75 = 7,5 \\times 10^{-1}\\).",
   "topicos": [
     "forca-de-atrito-estatico-e-cinetico",
     "forca-elastica-lei-de-hooke",
@@ -21,7 +21,7 @@
   ],
   "status": "publicado",
   "criadoEm": "2026-10-06T17:30:00.000Z",
-  "atualizadoEm": "2026-10-06T17:30:00.000Z",
+  "atualizadoEm": "2026-11-13T12:00:00.000Z",
   "revisao": {
     "divergenciasAceitas": [
       "externa"

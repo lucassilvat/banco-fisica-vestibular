@@ -7,13 +7,13 @@
   "fonte": {
     "descricao": "Comvest, Vestibular Unicamp 2018, 1ª fase, caderno de questões"
   },
-  "enunciado": "<b>Sempre que necessário, use aceleração da gravidade g = 10 m/s<sup>2</sup>.</b>\n\nMateriais termoelétricos são aqueles com alto potencial de transformar calor em energia elétrica. A capacidade de conversão de calor em eletricidade é quantificada pela grandeza <i>F</i> = <i>S</i><sup>2</sup>/(<i>ρκ</i>) <i>T</i>, que é adimensional e função da temperatura <i>T</i> e das propriedades do material: resistividade elétrica <i>ρ</i>, condutividade térmica <i>κ</i>, coeficiente Seebeck <i>S</i>. O gráfico a seguir mostra <i>ρ</i> em função de <i>T</i> para certo material termoelétrico. Analisando o gráfico e considerando <i>κ</i> = 2,0 W/(m×K) e <i>S</i> = 300 <i>μ</i>V/K para esse material, a uma temperatura <i>T</i> = 300 K, conclui-se que a grandeza <i>F</i> desse material a essa temperatura vale\n[[figura 1]]\n\na) 0,003.\nb) 0,6.\nc) 0,9.\nd) 90.",
+  "enunciado": "<b>Sempre que necessário, use aceleração da gravidade g = 10 m/s<sup>2</sup>.</b>\n\nMateriais termoelétricos são aqueles com alto potencial de transformar calor em energia elétrica. A capacidade de conversão de calor em eletricidade é quantificada pela grandeza \\(F = \\dfrac{S^2}{\\rho\\kappa}\\,T\\), que é adimensional e função da temperatura <i>T</i> e das propriedades do material: resistividade elétrica <i>ρ</i>, condutividade térmica <i>κ</i>, coeficiente Seebeck <i>S</i>. O gráfico a seguir mostra <i>ρ</i> em função de <i>T</i> para certo material termoelétrico. Analisando o gráfico e considerando <i>κ</i> = 2,0 W/(m×K) e <i>S</i> = 300 <i>μ</i>V/K para esse material, a uma temperatura <i>T</i> = 300 K, conclui-se que a grandeza <i>F</i> desse material a essa temperatura vale\n[[figura 1]]\n\na) 0,003.\nb) 0,6.\nc) 0,9.\nd) 90.",
   "figuras": [
     "unicamp-2018-q47-1.png"
   ],
   "gabarito": "C",
   "gabaritoFonte": "resolucao-propria",
-  "resolucao": "1. No gráfico, em <i>T</i> = 300 K, <i>ρ</i> ≈ 1,5 × 10<sup>−3</sup> Ω·cm = 1,5 × 10<sup>−5</sup> Ω·m.\n2. <i>S</i><sup>2</sup> = (3 × 10<sup>−4</sup>)<sup>2</sup> = 9 × 10<sup>−8</sup> V<sup>2</sup>/K<sup>2</sup>.\n3. <i>F</i> = <i>S</i><sup>2</sup><i>T</i>/(<i>ρκ</i>) = 9 × 10<sup>−8</sup> · 300/(1,5 × 10<sup>−5</sup> · 2,0) = 2,7 × 10<sup>−5</sup>/3,0 × 10<sup>−5</sup> = 0,9.",
+  "resolucao": "1. No gráfico, em <i>T</i> = 300 K, <i>ρ</i> ≈ 1,5 × 10<sup>−3</sup> Ω·cm = 1,5 × 10<sup>−5</sup> Ω·m.\n2. <i>S</i><sup>2</sup> = (3 × 10<sup>−4</sup>)<sup>2</sup> = 9 × 10<sup>−8</sup> V<sup>2</sup>/K<sup>2</sup>.\n3. \\(F = \\dfrac{S^2 T}{\\rho\\kappa} = \\dfrac{9 \\times 10^{-8} \\cdot 300}{1,5 \\times 10^{-5} \\cdot 2,0} = \\dfrac{2,7 \\times 10^{-5}}{3,0 \\times 10^{-5}} = 0,9\\).",
   "topicos": [
     "segunda-lei-de-ohm-e-resistividade",
     "leitura-e-interpretacao-de-graficos",
@@ -21,7 +21,7 @@
   ],
   "status": "publicado",
   "criadoEm": "2026-10-07T11:30:00.000Z",
-  "atualizadoEm": "2026-10-07T11:30:00.000Z",
+  "atualizadoEm": "2026-11-13T12:00:00.000Z",
   "revisao": {
     "divergenciasAceitas": [
       "m×K"

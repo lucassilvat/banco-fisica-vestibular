@@ -11,11 +11,11 @@
   "figuras": [],
   "gabarito": "C",
   "gabaritoFonte": "resolucao-propria",
-  "resolucao": "1. Equação de Clapeyron: <i>p V</i> = <i>n R T</i> ⇒ <i>n</i> = <i>p V</i>/(<i>R T</i>).\n2. <i>n</i> = (1,0 × 10<sup>5</sup> · 1,6 × 10<sup>3</sup>)/(8 · 400) = 1,6 × 10<sup>8</sup>/3200 = 5,0 × 10<sup>4</sup> mol.",
+  "resolucao": "1. Equação de Clapeyron: \\(pV = nRT \\Rightarrow n = \\dfrac{pV}{RT}\\).\n2. \\(n = \\dfrac{1,0 \\times 10^5 \\cdot 1,6 \\times 10^3}{8 \\cdot 400} = \\dfrac{1,6 \\times 10^8}{3200} = 5,0 \\times 10^4\\) mol.",
   "topicos": [
     "gas-ideal-e-equacao-de-clapeyron"
   ],
   "status": "publicado",
   "criadoEm": "2026-10-06T17:30:00.000Z",
-  "atualizadoEm": "2026-10-06T17:30:00.000Z"
+  "atualizadoEm": "2026-11-13T12:00:00.000Z"
 }

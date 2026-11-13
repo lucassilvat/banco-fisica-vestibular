@@ -14,12 +14,12 @@
   ],
   "gabarito": "B",
   "gabaritoFonte": "resolucao-propria",
-  "resolucao": "1. A normal atua em O: torque nulo.\n2. O peso do braço (a 12 cm, à esquerda de O) e o do contrapeso (a <i>D</i>, à direita) têm torques opostos: <i>P</i><sub>B</sub> · 12 = <i>P</i><sub>C</sub> · <i>D</i>.\n3. <i>D</i> = 0,3 · 12/1,5 = 2,4 cm.",
+  "resolucao": "1. A normal atua em O: torque nulo.\n2. O peso do braço (a 12 cm, à esquerda de O) e o do contrapeso (a <i>D</i>, à direita) têm torques opostos: <i>P</i><sub>B</sub> · 12 = <i>P</i><sub>C</sub> · <i>D</i>.\n3. \\(D = \\dfrac{0,3 \\cdot 12}{1,5} = 2,4\\) cm.",
   "topicos": [
     "momento-de-uma-forca-torque",
     "equilibrio-do-corpo-extenso"
   ],
   "status": "publicado",
   "criadoEm": "2026-10-07T11:30:00.000Z",
-  "atualizadoEm": "2026-10-07T11:30:00.000Z"
+  "atualizadoEm": "2026-11-13T12:00:00.000Z"
 }

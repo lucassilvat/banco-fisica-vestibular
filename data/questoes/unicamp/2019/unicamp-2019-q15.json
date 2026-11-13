@@ -11,11 +11,11 @@
   "figuras": [],
   "gabarito": "D",
   "gabaritoFonte": "resolucao-propria",
-  "resolucao": "1. Física: o período do pêndulo simples (para pequenas oscilações) é <i>T</i> = 2π√(<i>L</i>/<i>g</i>), que não depende da massa do corpo suspenso. O uso feito por Umberto Eco está correto (descarta a e c).\n2. Leitura: Mecke associa a fórmula à violência e à “marginalização do sujeito, reduzido à ‘massa inerte’ suspensa”, ou seja, à privação da liberdade do ser humano, e não a uma revogação das leis da natureza.\n3. Alternativa d.",
+  "resolucao": "1. Física: o período do pêndulo simples (para pequenas oscilações) é \\(T = 2\\pi\\sqrt{\\dfrac{L}{g}}\\), que não depende da massa do corpo suspenso. O uso feito por Umberto Eco está correto (descarta a e c).\n2. Leitura: Mecke associa a fórmula à violência e à “marginalização do sujeito, reduzido à ‘massa inerte’ suspensa”, ou seja, à privação da liberdade do ser humano, e não a uma revogação das leis da natureza.\n3. Alternativa d.",
   "topicos": [
     "pendulo-simples"
   ],
   "status": "publicado",
   "criadoEm": "2026-10-07T11:35:00.000Z",
-  "atualizadoEm": "2026-10-07T11:35:00.000Z"
+  "atualizadoEm": "2026-11-13T12:00:00.000Z"
 }

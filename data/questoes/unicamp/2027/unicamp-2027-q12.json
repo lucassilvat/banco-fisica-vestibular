@@ -16,7 +16,7 @@
   ],
   "gabarito": "B",
   "gabaritoFonte": "resolucao-propria",
-  "resolucao": "1. Na fase líquida vale o calor sensível: <i>Q</i> = <i>m c</i> Δ<i>T</i> ⇒ Δ<i>T</i> = 80/(10 · 0,4) = 20 °C.\n2. Logo <i>T</i><sub>3</sub> = <i>T</i><sub>2</sub> + 20 = 30 + 20 = 50 °C, atingida em <i>t</i> = 230 s.\n3. O gráfico deve ter: aquecimento do sólido de 20 °C a 30 °C; um patamar em 30 °C (fusão, temperatura constante enquanto recebe calor latente); aquecimento do líquido até 50 °C em 230 s.\n4. Eliminação: c não tem patamar (não mostra a mudança de fase); d mostra resfriamento; a chega a 120 °C em 230 s. Só b atende a tudo: patamar em 30 °C e 50 °C em 230 s. Alternativa b.",
+  "resolucao": "1. Na fase líquida vale o calor sensível: \\(Q = mc\\,\\Delta T \\Rightarrow \\Delta T = \\dfrac{80}{10 \\cdot 0,4} = 20\\) °C.\n2. Logo <i>T</i><sub>3</sub> = <i>T</i><sub>2</sub> + 20 = 30 + 20 = 50 °C, atingida em <i>t</i> = 230 s.\n3. O gráfico deve ter: aquecimento do sólido de 20 °C a 30 °C; um patamar em 30 °C (fusão, temperatura constante enquanto recebe calor latente); aquecimento do líquido até 50 °C em 230 s.\n4. Eliminação: c não tem patamar (não mostra a mudança de fase); d mostra resfriamento; a chega a 120 °C em 230 s. Só b atende a tudo: patamar em 30 °C e 50 °C em 230 s. Alternativa b.",
   "topicos": [
     "calor-latente-e-mudancas-de-fase",
     "calor-sensivel-e-capacidade-termica",
@@ -24,7 +24,7 @@
   ],
   "status": "publicado",
   "criadoEm": "2026-11-01T01:52:45.000Z",
-  "atualizadoEm": "2026-11-01T01:54:49.000Z",
+  "atualizadoEm": "2026-11-13T12:00:00.000Z",
   "revisao": {
     "divergenciasAceitas": [
       "liq"

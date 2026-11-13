@@ -13,12 +13,12 @@
   ],
   "gabarito": "D",
   "gabaritoFonte": "resolucao-propria",
-  "resolucao": "1. Com o alarme ativado, a chave fecha e as quatro resistências ficam em paralelo, todas ligadas diretamente à bateria.\n2. Resistores iguais em paralelo: <i>R</i><sub>eq</sub> = <i>R</i>/4 = 1,2 kΩ/4 = 0,3 kΩ = 300 Ω.\n3. Corrente total: <i>i</i> = <i>U</i><sub>b</sub>/<i>R</i><sub>eq</sub> = 9,0/300 = 0,030 A = 30 mA. Alternativa d.\n4. Conferência: cada ramo conduz 9,0/1 200 = 7,5 mA (alternativa b), e 4 · 7,5 = 30 mA. Com o alarme desligado seriam três ramos, 22,5 mA (alternativa c).",
+  "resolucao": "1. Com o alarme ativado, a chave fecha e as quatro resistências ficam em paralelo, todas ligadas diretamente à bateria.\n2. Resistores iguais em paralelo: \\(R_{\\text{eq}} = \\dfrac{R}{4} = \\dfrac{1,2\\ \\text{k}\\Omega}{4} = 0,3\\) kΩ = 300 Ω.\n3. Corrente total: \\(i = \\dfrac{U_b}{R_{\\text{eq}}} = \\dfrac{9,0}{300} = 0,030\\) A = 30 mA. Alternativa d.\n4. Conferência: cada ramo conduz \\(\\dfrac{9,0}{1 200} = 7,5\\) mA (alternativa b), e 4 · 7,5 = 30 mA. Com o alarme desligado seriam três ramos, 22,5 mA (alternativa c).",
   "topicos": [
     "associacao-de-resistores",
     "primeira-lei-de-ohm"
   ],
   "status": "publicado",
   "criadoEm": "2026-11-01T01:52:45.000Z",
-  "atualizadoEm": "2026-11-01T01:54:49.000Z"
+  "atualizadoEm": "2026-11-13T12:00:00.000Z"
 }

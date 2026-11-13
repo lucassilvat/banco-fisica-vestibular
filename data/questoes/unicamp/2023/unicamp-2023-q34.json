@@ -13,11 +13,11 @@
   ],
   "gabarito": "C",
   "gabaritoFonte": "resolucao-propria",
-  "resolucao": "1. Pela tabela, <i>T</i><sup>2</sup>/<i>R</i><sup>3</sup> = 1,0 ano<sup>2</sup>/u.a.<sup>3</sup> para todos os planetas.\n2. Para Ceres, <i>R</i><sup>3</sup> = 21,3 u.a.<sup>3</sup>, então <i>T</i><sup>2</sup> = 21,3 ano<sup>2</sup>.\n3. <i>T</i> = √21,3 ≈ 4,62 anos.",
+  "resolucao": "1. Pela tabela, \\(\\dfrac{T^2}{R^3} = 1,0\\) ano<sup>2</sup>/u.a.<sup>3</sup> para todos os planetas.\n2. Para Ceres, <i>R</i><sup>3</sup> = 21,3 u.a.<sup>3</sup>, então <i>T</i><sup>2</sup> = 21,3 ano<sup>2</sup>.\n3. \\(T = \\sqrt{21,3} \\approx 4,62\\) anos.",
   "topicos": [
     "leis-de-kepler"
   ],
   "status": "publicado",
   "criadoEm": "2026-10-06T17:30:00.000Z",
-  "atualizadoEm": "2026-10-06T17:30:00.000Z"
+  "atualizadoEm": "2026-11-13T12:00:00.000Z"
 }

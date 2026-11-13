@@ -7,20 +7,20 @@
   "fonte": {
     "descricao": "Comvest, Vestibular Unicamp 2019, 1ª fase, caderno de questões"
   },
-  "enunciado": "<b>Nas questões seguintes, sempre que necessário, use aceleração da gravidade g = 10 m/s<sup>2</sup>, aproxime π = 3,0 e 1 atm =10<sup>5</sup> Pa.</b>\n\n<b>Texto comum às questões 40, 41 e 42</b>\n\nDrones vêm sendo utilizados por empresas americanas para monitorar o ambiente subaquático. Esses drones podem substituir mergulhadores, sendo capazes de realizar mergulhos de até cinquenta metros de profundidade e operar por até duas horas e meia.\n\nLeve em conta ainda os dados mostrados no gráfico da questão anterior, referentes à temperatura da água (<i>T</i>) em função da profundidade (<i>d</i>). Considere um volume cilíndrico de água cuja base tem área <i>A</i>=2 m<sup>2</sup>, a face superior está na superfície a uma temperatura constante <i>T<sub>A</sub></i> e a face inferior está a uma profundidade <i>d</i> a uma temperatura constante <i>T<sub>B</sub></i>, como mostra a figura a seguir. Na situação estacionária, nas proximidades da superfície, a temperatura da água decai linearmente em função de <i>d</i>, de forma que a taxa de transferência de calor por unidade de tempo (Φ), por condução da face superior para a face inferior, é aproximadamente constante e dada por Φ = <i>κA</i>(<i>T<sub>A</sub></i> − <i>T<sub>B</sub></i>)/<i>d</i>, em que <i>κ</i> = 0,6 W/(m × <sup>o</sup>C) é a condutividade térmica da água. Assim, a razão (<i>T<sub>A</sub></i> − <i>T<sub>B</sub></i>)/<i>d</i> é constante para todos os pontos da região de queda linear da temperatura da água mostrados no gráfico apresentado.\n\nUtilizando as temperaturas da água na superfície e na profundidade <i>d</i> do gráfico e a fórmula fornecida, conclui-se que, na região de queda linear da temperatura da água em função de <i>d</i>, Φ é igual a\n[[figura 1]]\n\na) 0,03 W.\nb) 0,05 W.\nc) 0,40 W.\nd) 1,20 W.",
+  "enunciado": "<b>Nas questões seguintes, sempre que necessário, use aceleração da gravidade g = 10 m/s<sup>2</sup>, aproxime π = 3,0 e 1 atm =10<sup>5</sup> Pa.</b>\n\n<b>Texto comum às questões 40, 41 e 42</b>\n\nDrones vêm sendo utilizados por empresas americanas para monitorar o ambiente subaquático. Esses drones podem substituir mergulhadores, sendo capazes de realizar mergulhos de até cinquenta metros de profundidade e operar por até duas horas e meia.\n\nLeve em conta ainda os dados mostrados no gráfico da questão anterior, referentes à temperatura da água (<i>T</i>) em função da profundidade (<i>d</i>). Considere um volume cilíndrico de água cuja base tem área <i>A</i>=2 m<sup>2</sup>, a face superior está na superfície a uma temperatura constante <i>T<sub>A</sub></i> e a face inferior está a uma profundidade <i>d</i> a uma temperatura constante <i>T<sub>B</sub></i>, como mostra a figura a seguir. Na situação estacionária, nas proximidades da superfície, a temperatura da água decai linearmente em função de <i>d</i>, de forma que a taxa de transferência de calor por unidade de tempo (Φ), por condução da face superior para a face inferior, é aproximadamente constante e dada por \\(\\Phi = \\kappa A\\,\\dfrac{T_A - T_B}{d}\\), em que \\(\\kappa = 0,6\\,\\dfrac{\\text{W}}{\\text{m} \\times {}^{\\text{o}}\\text{C}}\\) é a condutividade térmica da água. Assim, a razão \\(\\dfrac{T_A - T_B}{d}\\) é constante para todos os pontos da região de queda linear da temperatura da água mostrados no gráfico apresentado.\n\nUtilizando as temperaturas da água na superfície e na profundidade <i>d</i> do gráfico e a fórmula fornecida, conclui-se que, na região de queda linear da temperatura da água em função de <i>d</i>, Φ é igual a\n[[figura 1]]\n\na) 0,03 W.\nb) 0,05 W.\nc) 0,40 W.\nd) 1,20 W.",
   "figuras": [
     "unicamp-2019-q42-1.png"
   ],
   "gabarito": "A",
   "gabaritoFonte": "resolucao-propria",
-  "resolucao": "1. Na região linear do gráfico (0 a 4 m, reta tracejada), a temperatura cai de 19,30 °C para 19,20 °C em 4 m: (<i>T</i><sub>A</sub> − <i>T</i><sub>B</sub>)/<i>d</i> = 0,10/4 = 0,025 °C/m.\n2. Φ = <i>κ A</i> (<i>T</i><sub>A</sub> − <i>T</i><sub>B</sub>)/<i>d</i> = 0,6 · 2 · 0,025 = 0,03 W.",
+  "resolucao": "1. Na região linear do gráfico (0 a 4 m, reta tracejada), a temperatura cai de 19,30 °C para 19,20 °C em 4 m: \\(\\dfrac{T_A - T_B}{d} = \\dfrac{0,10}{4} = 0,025\\) °C/m.\n2. \\(\\Phi = \\kappa A\\,\\dfrac{T_A - T_B}{d} = 0,6 \\cdot 2 \\cdot 0,025 = 0,03\\) W.",
   "topicos": [
     "conducao-termica-lei-de-fourier",
     "leitura-e-interpretacao-de-graficos"
   ],
   "status": "publicado",
   "criadoEm": "2026-10-07T11:30:00.000Z",
-  "atualizadoEm": "2026-10-07T11:30:00.000Z",
+  "atualizadoEm": "2026-11-13T12:00:00.000Z",
   "revisao": {
     "divergenciasAceitas": [
       "conclui"

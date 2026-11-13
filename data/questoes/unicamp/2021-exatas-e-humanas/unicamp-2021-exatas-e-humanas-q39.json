@@ -14,12 +14,12 @@
   ],
   "gabarito": "A",
   "gabaritoFonte": "resolucao-propria",
-  "resolucao": "1. Os trechos A e B estão em paralelo sob <i>U</i> = 12 V: <i>i</i><sub>A</sub> = 12/24 = 0,5 A.\n2. <i>i</i><sub>B</sub> = 3 · 0,5 = 1,5 A ⇒ <i>R</i><sub>B</sub> = 12/1,5 = 8,0 Ω.\n3. Em série: <i>R</i><sub>B2</sub> = 8,0 − 6,0 = 2,0 Ω.",
+  "resolucao": "1. Os trechos A e B estão em paralelo sob <i>U</i> = 12 V: \\(i_A = \\dfrac{12}{24} = 0,5\\) A.\n2. \\(i_B = 3 \\cdot 0,5 = 1,5\\) A ⇒ \\(R_B = \\dfrac{12}{1,5} = 8,0\\) Ω.\n3. Em série: <i>R</i><sub>B2</sub> = 8,0 − 6,0 = 2,0 Ω.",
   "topicos": [
     "associacao-de-resistores",
     "primeira-lei-de-ohm"
   ],
   "status": "publicado",
   "criadoEm": "2026-10-07T11:30:00.000Z",
-  "atualizadoEm": "2026-10-07T11:30:00.000Z"
+  "atualizadoEm": "2026-11-13T12:00:00.000Z"
 }

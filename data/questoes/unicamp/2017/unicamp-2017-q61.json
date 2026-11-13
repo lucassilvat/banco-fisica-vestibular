@@ -13,12 +13,12 @@
   ],
   "gabarito": "A",
   "gabaritoFonte": "resolucao-propria",
-  "resolucao": "1. Com a válvula A aberta, o ar da câmara se expande isotermicamente de 2,0 L para 2,2 L: <i>P</i><sub>i</sub><i>V</i><sub>C</sub> = <i>P</i><sub>f</sub>(<i>V</i><sub>C</sub> + <i>V</i><sub>P</sub>).\n2. <i>P</i><sub>f</sub> = 33 · 2,0/2,2 = 30 Pa. Fechada a válvula A, o ar retirado pelo pistão não volta e a câmara fica com 30 Pa.",
+  "resolucao": "1. Com a válvula A aberta, o ar da câmara se expande isotermicamente de 2,0 L para 2,2 L: <i>P</i><sub>i</sub><i>V</i><sub>C</sub> = <i>P</i><sub>f</sub>(<i>V</i><sub>C</sub> + <i>V</i><sub>P</sub>).\n2. \\(P_{\\text{f}} = \\dfrac{33 \\cdot 2,0}{2,2} = 30\\) Pa. Fechada a válvula A, o ar retirado pelo pistão não volta e a câmara fica com 30 Pa.",
   "topicos": [
     "transformacoes-gasosas-isotermica-isobarica-isocorica-adiabatica",
     "gas-ideal-e-equacao-de-clapeyron"
   ],
   "status": "publicado",
   "criadoEm": "2026-10-07T11:30:00.000Z",
-  "atualizadoEm": "2026-10-07T11:30:00.000Z"
+  "atualizadoEm": "2026-11-13T12:00:00.000Z"
 }

@@ -11,12 +11,12 @@
   "figuras": [],
   "gabarito": "C",
   "gabaritoFonte": "resolucao-propria",
-  "resolucao": "1. No vácuo, <i>λ</i> = <i>c</i>/<i>f</i>, então <i>λ</i><sub>rádio</sub>/<i>λ</i><sub>IV</sub> = <i>f</i><sub>IV</sub>/<i>f</i><sub>rádio</sub>.\n2. Razão = 30 × 10<sup>12</sup>/1,5 × 10<sup>9</sup> = 2,0 × 10<sup>4</sup>.",
+  "resolucao": "1. No vácuo, \\(\\lambda = \\dfrac{c}{f}\\), então \\(\\dfrac{\\lambda_{\\text{rádio}}}{\\lambda_{\\text{IV}}} = \\dfrac{f_{\\text{IV}}}{f_{\\text{rádio}}}\\).\n2. Razão \\(= \\dfrac{30 \\times 10^{12}}{1,5 \\times 10^9} = 2,0 \\times 10^4\\).",
   "topicos": [
     "equacao-fundamental-da-ondulatoria-v-f",
     "espectro-eletromagnetico"
   ],
   "status": "publicado",
   "criadoEm": "2026-10-07T11:30:00.000Z",
-  "atualizadoEm": "2026-10-07T11:30:00.000Z"
+  "atualizadoEm": "2026-11-13T12:00:00.000Z"
 }

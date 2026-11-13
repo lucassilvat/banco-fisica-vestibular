@@ -13,12 +13,12 @@
   ],
   "gabarito": "B",
   "gabaritoFonte": "resolucao-propria",
-  "resolucao": "1. Do gráfico: em 0 °C, <i>L</i><sub>0</sub> = 2,0000 mm; em 50 °C, <i>L</i> = 1,9995 mm. Logo Δ<i>L</i> = −0,0005 mm.\n2. Dilatação linear: Δ<i>L</i> = <i>L</i><sub>0</sub> <i>α</i> Δ<i>θ</i> ⇒ <i>α</i> = Δ<i>L</i>/(<i>L</i><sub>0</sub> Δ<i>θ</i>).\n3. <i>α</i> = −0,0005/(2,0000 · 50) = −5,0 × 10<sup>−6</sup> °C<sup>−1</sup>.",
+  "resolucao": "1. Do gráfico: em 0 °C, <i>L</i><sub>0</sub> = 2,0000 mm; em 50 °C, <i>L</i> = 1,9995 mm. Logo Δ<i>L</i> = −0,0005 mm.\n2. Dilatação linear: \\(\\Delta L = L_0\\,\\alpha\\,\\Delta\\theta \\Rightarrow \\alpha = \\dfrac{\\Delta L}{L_0\\,\\Delta\\theta}\\).\n3. \\(\\alpha = \\dfrac{-0,0005}{2,0000 \\cdot 50} = -5,0 \\times 10^{-6}\\) °C<sup>−1</sup>.",
   "topicos": [
     "dilatacao-termica-dos-solidos",
     "leitura-e-interpretacao-de-graficos"
   ],
   "status": "publicado",
   "criadoEm": "2026-10-06T17:30:00.000Z",
-  "atualizadoEm": "2026-10-06T17:30:00.000Z"
+  "atualizadoEm": "2026-11-13T12:00:00.000Z"
 }

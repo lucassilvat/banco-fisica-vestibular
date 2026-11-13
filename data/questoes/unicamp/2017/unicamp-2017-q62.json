@@ -11,11 +11,11 @@
   "figuras": [],
   "gabarito": "A",
   "gabaritoFonte": "resolucao-propria",
-  "resolucao": "1. Equação da continuidade: <i>A</i><sub>1</sub><i>V</i> = <i>A</i><sub>2</sub><i>v</i>, com <i>A</i> ∝ (diâmetro)<sup>2</sup>.\n2. <i>v</i> = <i>V</i> (<i>D</i>/<i>d</i>)<sup>2</sup> = 4 · (4/0,5)<sup>2</sup> = 4 · 64 = 256 mm/s.",
+  "resolucao": "1. Equação da continuidade: <i>A</i><sub>1</sub><i>V</i> = <i>A</i><sub>2</sub><i>v</i>, com <i>A</i> ∝ (diâmetro)<sup>2</sup>.\n2. \\(v = V\\left(\\dfrac{D}{d}\\right)^2 = 4 \\cdot \\left(\\dfrac{4}{0,5}\\right)^2 = 4 \\cdot 64 = 256\\) mm/s.",
   "topicos": [
     "vazao-e-equacao-da-continuidade"
   ],
   "status": "publicado",
   "criadoEm": "2026-10-07T11:30:00.000Z",
-  "atualizadoEm": "2026-10-07T11:30:00.000Z"
+  "atualizadoEm": "2026-11-13T12:00:00.000Z"
 }

@@ -11,12 +11,12 @@
   "figuras": [],
   "gabarito": "C",
   "gabaritoFonte": "resolucao-propria",
-  "resolucao": "1. Energia perdida em um ano: 0,1% de 2 × 10<sup>42</sup> J = 2 × 10<sup>39</sup> J.\n2. <i>P</i> = <i>E</i>/Δ<i>t</i> = 2 × 10<sup>39</sup>/3,6 × 10<sup>7</sup> ≈ 5,6 × 10<sup>31</sup> W.",
+  "resolucao": "1. Energia perdida em um ano: 0,1% de 2 × 10<sup>42</sup> J = 2 × 10<sup>39</sup> J.\n2. \\(P = \\dfrac{E}{\\Delta t} = \\dfrac{2 \\times 10^{39}}{3,6 \\times 10^7} \\approx 5,6 \\times 10^{31}\\) W.",
   "topicos": [
     "potencia-e-rendimento",
     "notacao-cientifica-e-ordem-de-grandeza"
   ],
   "status": "publicado",
   "criadoEm": "2026-10-07T11:30:00.000Z",
-  "atualizadoEm": "2026-10-07T11:30:00.000Z"
+  "atualizadoEm": "2026-11-13T12:00:00.000Z"
 }

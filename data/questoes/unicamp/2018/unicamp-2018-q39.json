@@ -13,7 +13,7 @@
   ],
   "gabarito": "A",
   "gabaritoFonte": "resolucao-propria",
-  "resolucao": "1. Seja <i>L</i> o lado do equilátero. Áreas: equilátero (√3/4)<i>L</i><sup>2</sup>; retângulo isósceles de hipotenusa <i>L</i> (catetos <i>L</i>/√2): <i>L</i><sup>2</sup>/4.\n2. Equilíbrio de momentos em O: <i>P</i><sub>e</sub> · e = <i>P</i><sub>i</sub> · i ⇒ i/e = <i>P</i><sub>e</sub>/<i>P</i><sub>i</sub>.\n3. i/e = (√3/4)/(1/4) = √3.",
+  "resolucao": "1. Seja <i>L</i> o lado do equilátero. Áreas: equilátero \\(\\dfrac{\\sqrt{3}}{4}L^2\\); retângulo isósceles de hipotenusa <i>L</i> (catetos \\(\\dfrac{L}{\\sqrt{2}}\\)): \\(\\dfrac{L^2}{4}\\).\n2. Equilíbrio de momentos em O: \\(P_{\\text{e}} \\cdot e = P_{\\text{i}} \\cdot i \\Rightarrow \\dfrac{i}{e} = \\dfrac{P_{\\text{e}}}{P_{\\text{i}}}\\).\n3. \\(\\dfrac{i}{e} = \\dfrac{\\tfrac{\\sqrt{3}}{4}}{\\tfrac{1}{4}} = \\sqrt{3}\\).",
   "topicos": [
     "momento-de-uma-forca-torque",
     "alavancas-e-maquinas-simples",
@@ -21,5 +21,5 @@
   ],
   "status": "publicado",
   "criadoEm": "2026-10-07T11:30:00.000Z",
-  "atualizadoEm": "2026-10-07T11:30:00.000Z"
+  "atualizadoEm": "2026-11-13T12:00:00.000Z"
 }

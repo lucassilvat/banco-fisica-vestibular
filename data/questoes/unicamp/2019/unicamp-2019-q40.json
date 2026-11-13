@@ -11,11 +11,11 @@
   "figuras": [],
   "gabarito": "B",
   "gabaritoFonte": "resolucao-propria",
-  "resolucao": "1. Δ<i>t</i> = 90 min = 1,5 h.\n2. <i>i</i> = <i>q</i>/Δ<i>t</i> = 900 mAh/1,5 h = 600 mA.",
+  "resolucao": "1. Δ<i>t</i> = 90 min = 1,5 h.\n2. \\(i = \\dfrac{q}{\\Delta t} = \\dfrac{900\\ \\text{mAh}}{1,5\\ \\text{h}} = 600\\) mA.",
   "topicos": [
     "corrente-eletrica"
   ],
   "status": "publicado",
   "criadoEm": "2026-10-07T11:30:00.000Z",
-  "atualizadoEm": "2026-10-07T11:30:00.000Z"
+  "atualizadoEm": "2026-11-13T12:00:00.000Z"
 }

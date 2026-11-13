@@ -4,6 +4,24 @@ Cada versão corresponde a um lote de importação ou a uma mudança no app/pipe
 Formato: `vMAIOR.MENOR.CORREÇÃO` — MENOR sobe a cada prova importada; MAIOR, em mudanças
 de modelo de dados; CORREÇÃO, em correções de questões já publicadas.
 
+## v2.2.0 — 2026-11-13
+
+- **Fórmulas na Unicamp 2016–2025 e 2027.** Cadernos de 2016 a 2025 (11 PDFs, com as duas
+  provas de 2021) registrados no manifesto; as 102 questões passam a ter a fidelidade
+  conferida pelo `verificar` (todas sem aviso).
+- **Enunciados:** os traços de fração desenhados no caderno foram localizados no PDF e
+  conferidos na imagem. Só 4 enunciados têm fração empilhada e passaram a LaTeX: 2018 Q41
+  (\(g = GM/R^2\)), Q46 (\(F = i_S/i_V\)), Q47 (\(F = S^2T/\rho\kappa\)) e 2019 Q42 (fórmula de
+  Φ, unidade de κ e razão \((T_A − T_B)/d\)). Na 2018 Q47 e na 2019 Q42 a transcrição antiga
+  tinha parênteses que não existem no caderno; com a fração empilhada eles saíram. Ficam
+  com barra, como no caderno: 2018 Q39 (i/e, √3/3), 2019 Q39 (1/3), 2020 Q77 (barra
+  inclinada), 2021 Exatas e Humanas Q39, 2022 Q58, 2023 Q34 e todas as unidades.
+- **Resoluções:** 78 resoluções reescritas (74 de 2016–2025 e 4 de 2027) com frações, raízes e equações em LaTeX
+  , mesmo conteúdo. Conversões de unidade em cadeia ficaram em texto.
+- **App:** espaço vertical em volta das fórmulas (frações em linhas seguidas não se
+  sobrepõem mais) e o hífen dentro de fórmula vira sinal de menos.
+- Os enunciados da Unicamp 2027 não foram revistos (o PDF não estava disponível).
+
 ## v2.1.0 — 2026-11-13
 
 - **Fórmulas em LaTeX.** Trechos entre `\(` e `\)` no enunciado, na resolução e nas

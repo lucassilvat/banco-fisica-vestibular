@@ -85,7 +85,7 @@ article.q { background: var(--paper); border: 1px solid var(--line); border-top:
 .enunciado { font-family: var(--f-body); font-size: 1.06rem; line-height: 1.64; overflow-wrap: anywhere; max-width: 75ch; display: grid; gap: 10px; }
 .enunciado .txt { white-space: pre-wrap; }
 .enunciado sub, .enunciado sup, .res sub, .res sup { font-size: 0.72em; line-height: 0; }
-.enunciado math, .res math { font-family: "STIX Two Math", "Cambria Math", "Latin Modern Math", math; font-size: 1.08em; margin-inline: 0.1em; }
+.enunciado math, .res math { font-family: "STIX Two Math", "Cambria Math", "Latin Modern Math", math; font-size: 1.08em; padding: 0.3em 0.1em; }
 .tex-err { font-family: var(--f-mono); font-size: 0.85em; color: var(--danger); }
 .enunciado img.fig { max-width: min(100%, 460px); border: 1px solid var(--line); border-radius: 4px; background: #fff; padding: 4px; }
 .res-wrap { margin: 8px 22px 18px; border-top: 1px solid var(--line); padding-top: 12px; display: grid; gap: 10px; max-width: 75ch; }
@@ -342,7 +342,7 @@ function parseTex(src) {
       if (t.v === "{") { p--; return group(); }
       if (t.v === "}" || t.v === "^" || t.v === "_") err("“" + t.v + "” fora de lugar");
       if (/\p{L}/u.test(t.v)) return { t: "mi", v: t.v, up: UP_GREEK.test(t.v) };
-      return { t: "mo", v: t.v };
+      return { t: "mo", v: t.v === "-" ? "−" : t.v };
     }
     const c = t.v;
     if (c === "frac" || c === "dfrac" || c === "tfrac") return { t: "frac", n: arg(), d: arg(), small: c === "tfrac" };
