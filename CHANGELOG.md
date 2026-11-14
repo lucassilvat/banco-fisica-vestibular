@@ -4,6 +4,20 @@ Cada versão corresponde a um lote de importação ou a uma mudança no app/pipe
 Formato: `vMAIOR.MENOR.CORREÇÃO` — MENOR sobe a cada prova importada; MAIOR, em mudanças
 de modelo de dados; CORREÇÃO, em correções de questões já publicadas.
 
+## v2.8.0 — 2026-11-14
+
+- **Resolução animada (piloto).** Adicional à resolução comentada, que não muda: botão
+  "Resolução animada" no app, com a cena desenhada à esquerda e o passo à direita (conceito
+  físico, texto, equações uma a uma, pergunta "Pense antes de avançar"). Três questões:
+  Unesp 2025 Q78 (plano inclinado, com controle da aceleração da esteira), ENEM 2023 Q98
+  (circuito, com a corrente e o brilho das lâmpadas antes e depois da queima de L<sub>2</sub>)
+  e Unicamp 2017 Q58 (área sob o gráfico v × t, com o carro percorrendo a via).
+- **Roteiros** em `data/animacoes/<id>.json` (esquema `schemas/animacao.schema.json`,
+  explicação em `docs/ANIMACOES.md`); coleção `animacoes` no banco do app e `animacoes.json`
+  no site estático. Novo comando `python -m pipeline animacoes verificar|preparar`.
+- **Vídeo em Manim** gerado do mesmo roteiro: `videos/manim_roteiro.py` (por enquanto só o
+  modelo plano inclinado). Os vídeos ficam fora do git.
+
 ## v2.7.0 — 2026-11-14
 
 - **Fórmulas no Einstein 2023–2027 (Prova I e Prova II).** Os 10 cadernos enviados pelo

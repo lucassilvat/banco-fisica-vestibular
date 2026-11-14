@@ -4,7 +4,7 @@ import hashlib
 import json
 from collections import Counter
 
-from . import figuras, ocr, publicar, rascunho, renderizar, segmentar, site, triagem, verificar
+from . import animacoes, figuras, ocr, publicar, rascunho, renderizar, segmentar, site, triagem, verificar
 from .comum import DADOS, RAIZ, carregar_questoes, chave_prova, taxonomia
 
 
@@ -80,6 +80,9 @@ def main():
     x.set_defaults(f=lambda a: publicar.preparar(*(a.args[:1])) if a.acao == "preparar" else publicar.registrar(*a.args) if a.acao == "registrar" else publicar.marcar(*(a.args[:1])))
     x = s.add_parser("site", help="gera o site estático do app (GitHub Pages)"); x.add_argument("destino", nargs="?", default="site")
     x.set_defaults(f=lambda a: site.executar(a.destino))
+    x = s.add_parser("animacoes", help="resoluções animadas: verificar roteiros / preparar lotes")
+    x.add_argument("acao", choices=["verificar", "preparar"]); x.add_argument("filtro", nargs="?")
+    x.set_defaults(f=lambda a: animacoes.executar(a.acao, a.filtro))
     x = s.add_parser("painel", help="cobertura do banco por prova e por tópico"); x.set_defaults(f=painel)
     a = p.parse_args(); a.f(a)
 

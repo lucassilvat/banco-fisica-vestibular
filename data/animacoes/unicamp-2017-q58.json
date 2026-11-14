@@ -1,0 +1,57 @@
+{
+  "id": "unicamp-2017-q58",
+  "titulo": "A área sob o gráfico é a distância percorrida",
+  "conceitos": ["Leitura do gráfico v × t", "Deslocamento como área sob v × t", "Área do trapézio"],
+  "cena": {
+    "modelo": "grafico-vt",
+    "parametros": {
+      "pontos": [[0, 0], [5, 0], [10, 10], [20, 10], [25, 0], [45, 0], [50, 12], [60, 12], [65, 0], [70, 0]],
+      "tMax": 70, "vMax": 14, "passoT": 5, "passoV": 2,
+      "trechos": [[5, 25], [45, 65]],
+      "paradas": [[0, 5], [25, 45], [65, 70]]
+    }
+  },
+  "passos": [
+    {
+      "titulo": "Onde o carro está parado",
+      "conceito": "Leitura do gráfico v × t",
+      "texto": "Onde <i>v</i> = 0, o carro está parado: são as esperas nos semáforos (até 5 s, de 25 s a 45 s e a partir de 65 s). A distância entre o 1º e o 3º semáforo é tudo o que o carro anda entre a primeira e a última parada.",
+      "cena": { "mostrar": ["eixos", "curva", "estrada", "paradas"], "destacar": ["paradas"] }
+    },
+    {
+      "titulo": "Por que a área vale a distância",
+      "conceito": "Deslocamento como área sob v × t",
+      "texto": "Num intervalo curto Δ<i>t</i>, a velocidade quase não muda, e o carro anda \\(v \\cdot \\Delta t\\): é a área de uma faixa fina sob a curva. Somando todas as faixas, a área total sob o gráfico é o deslocamento.",
+      "equacoes": ["\\Delta s \\approx v \\cdot \\Delta t"],
+      "cena": { "ocultar": ["paradas"], "mostrar": ["faixa"], "destacar": ["faixa"] }
+    },
+    {
+      "titulo": "Do 1º ao 2º semáforo",
+      "conceito": "Área do trapézio",
+      "texto": "De 5 s a 25 s a figura é um trapézio: base maior de 20 s (de 5 s a 25 s), base menor de 10 s (o patamar, de 10 s a 20 s) e altura de 10 m/s.",
+      "equacoes": ["\\Delta s_{1} = \\dfrac{20 + 10}{2} \\cdot 10 = 150\\ \\text{m}"],
+      "pergunta": {
+        "texto": "Dá para conferir sem a fórmula do trapézio?",
+        "resposta": "Sim: dois triângulos (½ · 5 · 10 = 25 m cada) e um retângulo (10 · 10 = 100 m) somam 150 m."
+      },
+      "cena": { "ocultar": ["faixa"], "mostrar": ["area-1", "cotas-1"], "destacar": ["area-1"] }
+    },
+    {
+      "titulo": "Do 2º ao 3º semáforo",
+      "conceito": "Área do trapézio",
+      "texto": "De 45 s a 65 s, outro trapézio com as mesmas bases (20 s e 10 s), agora com altura de 12 m/s.",
+      "equacoes": ["\\Delta s_{2} = \\dfrac{20 + 10}{2} \\cdot 12 = 180\\ \\text{m}"],
+      "cena": { "ocultar": ["cotas-1"], "mostrar": ["area-2", "cotas-2"], "destacar": ["area-2"] }
+    },
+    {
+      "titulo": "A viagem completa",
+      "conceito": "Deslocamento como área sob v × t",
+      "texto": "Veja o carro percorrer o trecho enquanto a área se acumula. As alternativas (c) 150 m e (d) 180 m são as distâncias de cada trecho isolado; a pergunta é do 1º ao 3º semáforo. Resposta: <b>(a) 330 m</b>.",
+      "equacoes": ["\\Delta s = 150 + 180 = 330\\ \\text{m}"],
+      "cena": { "ocultar": ["cotas-2"], "estado": { "percorrer": true } }
+    }
+  ],
+  "status": "revisado",
+  "criadoEm": "2026-11-14T21:00:00-03:00",
+  "atualizadoEm": "2026-11-14T21:00:00-03:00"
+}

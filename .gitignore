@@ -6,3 +6,7 @@ __pycache__/
 *.pyc
 .DS_Store
 /site/
+
+# vídeos renderizados pelo Manim (videos/manim_roteiro.py)
+/media/
+*.mp4

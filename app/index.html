@@ -115,6 +115,74 @@ article.q { background: var(--paper); border: 1px solid var(--line); border-top:
 .panel footer { padding: 14px 16px; border-top: 1px solid var(--line); display: grid; gap: 8px; }
 .note { font-size: 0.82rem; color: var(--muted); margin: 0; }
 .toast { position: fixed; left: 50%; transform: translateX(-50%); bottom: calc(env(safe-area-inset-bottom, 0px) + 18px); background: var(--ink); color: var(--paper); padding: 10px 16px; border-radius: var(--r); font-size: 0.9rem; z-index: 30; max-width: calc(100% - 32px); }
+/* ---------- resolução animada (player) ---------- */
+:root { --anim-acel: #7a45c9; --anim-luz: #f6c344; --anim-fio: #3a4452; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { --anim-acel: #b892ff; --anim-luz: #ffd463; --anim-fio: #aab4c2; } }
+:root[data-theme="dark"] { --anim-acel: #b892ff; --anim-luz: #ffd463; --anim-fio: #aab4c2; }
+.res-actions { display: flex; flex-wrap: wrap; gap: 8px; }
+.btn.anim-btn { border-color: var(--accent); color: var(--accent); }
+.btn.anim-btn::before { content: "▶"; font-size: 0.75em; margin-right: 7px; }
+.ap-overlay { position: fixed; inset: 0; background: rgba(10, 14, 20, .6); z-index: 30; display: flex; align-items: center; justify-content: center; padding: 12px; }
+.ap { background: var(--paper); color: var(--ink); width: min(1180px, 100%); max-height: 100%; border-radius: 10px; display: grid; grid-template-rows: auto minmax(0, 1fr) auto; overflow: hidden; box-shadow: 0 20px 60px rgba(0,0,0,.35); }
+.ap > header { display: flex; align-items: flex-start; justify-content: space-between; gap: 12px; padding: 14px 18px 10px; border-bottom: 1px solid var(--line); }
+.ap > header h2 { margin: 0; font-size: 1.12rem; line-height: 1.3; }
+.ap .ap-sub { font-family: var(--f-mono); font-size: 0.78rem; color: var(--muted); margin-top: 3px; }
+.ap .ap-chips { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 8px; }
+.ap .ap-chip { font-size: 0.74rem; border: 1px solid var(--line); border-radius: 999px; padding: 1px 9px; color: var(--muted); }
+.ap .ap-chip.on { border-color: var(--accent); color: var(--accent); background: var(--soft); }
+.ap-body { display: grid; grid-template-columns: minmax(0, 1.45fr) minmax(300px, 1fr); min-height: 0; overflow: auto; }
+.ap-stage { padding: 12px 14px; display: grid; align-content: start; gap: 8px; border-right: 1px solid var(--line); background: var(--bg); }
+.ap-stage svg { width: 100%; height: auto; display: block; background: var(--paper); border-radius: 8px; border: 1px solid var(--line); font-family: var(--f-display); }
+.ap-ctrl:empty { display: none; }
+.ap-ctrl { background: var(--paper); border: 1px solid var(--line); border-radius: 8px; padding: 10px 12px; display: grid; gap: 6px; font-size: 0.9rem; }
+.ap-ctrl input[type=range] { width: 100%; accent-color: var(--accent); }
+.ap-ctrl .ok { color: var(--ok); font-weight: 600; } .ap-ctrl .bad { color: var(--danger); font-weight: 600; }
+.ap-step { padding: 16px 20px; overflow: auto; display: grid; align-content: start; gap: 12px; }
+.ap-step .ap-conc { font-family: var(--f-mono); font-size: 0.76rem; text-transform: uppercase; letter-spacing: .05em; color: var(--accent); }
+.ap-step h3 { margin: 0; font-size: 1.15rem; }
+.ap-step .ap-txt { font-family: var(--f-body); font-size: 1.02rem; line-height: 1.6; margin: 0; }
+.ap-eqs { display: grid; gap: 6px; background: var(--soft); border-radius: var(--r); padding: 10px 14px; font-size: 1.08rem; }
+.ap-eqs > div { opacity: 0; transform: translateY(6px); animation: apIn .45s ease forwards; }
+.ap-q { border: 1px dashed var(--mark); border-radius: var(--r); padding: 10px 12px; font-family: var(--f-body); display: grid; gap: 8px; }
+.ap-q b.k { font-family: var(--f-display); font-size: 0.8rem; color: var(--mark); text-transform: uppercase; letter-spacing: .05em; }
+.ap-q .ans { background: var(--mark-soft); border-radius: 4px; padding: 8px 10px; }
+.ap > footer { display: flex; align-items: center; justify-content: space-between; gap: 10px; padding: 10px 18px; border-top: 1px solid var(--line); flex-wrap: wrap; }
+.ap-dots { display: flex; gap: 6px; align-items: center; flex-wrap: wrap; }
+.ap-dots button { width: 26px; height: 26px; border-radius: 50%; border: 1px solid var(--line); background: var(--paper); font-size: 0.75rem; font-family: var(--f-mono); padding: 0; }
+.ap-dots button.on { background: var(--accent); color: var(--accent-ink); border-color: var(--accent); }
+.ap-dots button.done { border-color: var(--accent); }
+.ap-nav { display: flex; gap: 8px; }
+@media (max-width: 860px) {
+  .ap-overlay { padding: 0; }
+  .ap { border-radius: 0; height: 100%; }
+  .ap-body { grid-template-columns: minmax(0, 1fr); }
+  .ap-stage { border-right: 0; border-bottom: 1px solid var(--line); }
+}
+@keyframes apIn { to { opacity: 1; transform: none; } }
+/* elementos da cena */
+.ae { opacity: 0; transition: opacity .45s ease; pointer-events: none; }
+.ae.on { opacity: 1; }
+.ae.on.entra .draw { stroke-dasharray: 1; stroke-dashoffset: 1; animation: apDraw .8s ease forwards; }
+.ae.on.entra { animation: apFade .5s ease; }
+.ae.hl { animation: apPulse 1.6s ease-in-out 2; }
+@keyframes apDraw { to { stroke-dashoffset: 0; } }
+@keyframes apFade { from { opacity: 0; } to { opacity: 1; } }
+@keyframes apPulse { 0%, 100% { filter: none; } 50% { filter: drop-shadow(0 0 5px var(--anim-luz)) drop-shadow(0 0 2px var(--anim-luz)); } }
+@media (prefers-reduced-motion: reduce) { .ae, .ae.on.entra, .ae.hl, .ap-eqs > div { animation: none !important; transition: none; opacity: 1; } .ae:not(.on) { opacity: 0; } }
+.ap svg text { fill: var(--ink); font-size: 15px; }
+.ap svg .t-mute { fill: var(--muted); font-size: 13px; }
+.ap svg .t-b { font-weight: 700; }
+.ap svg .ln { stroke: var(--ink); stroke-width: 2; fill: none; }
+.ap svg .ln-mute { stroke: var(--muted); stroke-width: 1; fill: none; }
+.ap svg .grid { stroke: var(--line); stroke-width: 1; stroke-dasharray: 2 3; }
+.ap svg .v-peso { stroke: var(--mark); fill: var(--mark); } .ap svg text.v-peso { stroke: none; }
+.ap svg .v-normal { stroke: var(--accent); fill: var(--accent); } .ap svg text.v-normal { stroke: none; }
+.ap svg .v-atrito { stroke: var(--ok); fill: var(--ok); } .ap svg text.v-atrito { stroke: none; }
+.ap svg .v-acel { stroke: var(--anim-acel); fill: var(--anim-acel); } .ap svg text.v-acel { stroke: none; }
+.ap svg .v-comp { stroke: var(--mark); fill: var(--mark); stroke-dasharray: 6 4; opacity: .8; } .ap svg text.v-comp { stroke: none; stroke-dasharray: none; }
+.ap svg .fio { stroke: var(--anim-fio); stroke-width: 2.5; fill: none; stroke-linejoin: round; }
+.ap svg .fio.aberto { stroke-dasharray: 4 5; opacity: .5; }
+.ap svg .dot { fill: var(--accent); }
 </style>
 
 <div class="wrap">
@@ -190,7 +258,7 @@ const TOPIC = new Map();
 AREAS.forEach(([area, list]) => list.forEach(name => TOPIC.set(slug(name), { name, area })));
 const norm = s => s.normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase();
 const $ = id => document.getElementById(id);
-const state = { qs: [], sel: new Set(), bancas: new Set(), anos: new Set(), tipos: new Set(), search: "", cur: null, list: [], showRes: false, ready: false, downloads: null };
+const state = { qs: [], sel: new Set(), bancas: new Set(), anos: new Set(), tipos: new Set(), search: "", cur: null, list: [], showRes: false, ready: false, downloads: null, anims: new Map(), player: null };
 
 function store(k, v) { try { localStorage.setItem(k, JSON.stringify(v)); } catch (e) {} }
 function load(k, d) { try { const v = JSON.parse(localStorage.getItem(k)); return v == null ? d : v; } catch (e) { return d; } }
@@ -468,7 +536,8 @@ function renderViewer() {
     el("label", { class: "sel" + (inList ? " on" : ""), for: "selq" }, cb, inList ? "Na lista" : "Adicionar à lista"));
   const res = el("div", { class: "res-wrap" });
   const tbtn = el("button", { class: "btn", type: "button", text: state.showRes ? "Ocultar resolução" : "Ver resolução", "aria-expanded": state.showRes ? "true" : "false", onclick: () => { state.showRes = !state.showRes; renderViewer(); } });
-  res.append(tbtn);
+  const rot = state.anims.get(q._id);
+  res.append(el("div", { class: "res-actions" }, tbtn, rot ? el("button", { class: "btn anim-btn", type: "button", text: "Resolução animada", title: "Passo a passo animado, com os conceitos físicos", onclick: () => openPlayer(q, rot) }) : null));
   if (state.showRes) {
     const r = el("div", { class: "res" }); r.innerHTML = safeInline(q.resolucao || "Resolução ainda não cadastrada.");
     if (tipoQ(q) === "discursiva" && (q.respostas || []).length) {
@@ -582,6 +651,452 @@ $("exportBtn").addEventListener("click", async () => {
   } finally { b.disabled = false; b.textContent = "Baixar lista (.docx)"; }
 });
 
+/* ---------- resolução animada ----------
+   Roteiros em data/animacoes/<id>.json (coleção "animacoes" no app; animacoes.json no site).
+   Cada roteiro escolhe um modelo de cena (CENAS) e uma lista de passos; a cena de um passo é o
+   acúmulo de "mostrar"/"ocultar"/"estado" dos passos anteriores. Os nomes de elementos e de
+   estado precisam bater com MODELOS em pipeline/animacoes.py. */
+const SVGNS = "http://www.w3.org/2000/svg";
+function S(tag, attrs = {}, parent) {
+  const n = document.createElementNS(SVGNS, tag);
+  for (const [k, v] of Object.entries(attrs)) if (v != null) n.setAttribute(k, v);
+  if (parent) parent.append(n);
+  return n;
+}
+function sLabel(parent, x, y, main, sub, cls = "", anchor = "middle") { // texto com subscrito opcional
+  const t = S("text", { x, y, "text-anchor": anchor, class: cls, "dominant-baseline": "middle" }, parent);
+  t.append(document.createTextNode(main));
+  if (sub) { const s = S("tspan", { "baseline-shift": "sub", "font-size": "70%" }, t); s.textContent = sub; }
+  return t;
+}
+function sArrow(parent, cls, w = 3) { // seta com ponta desenhada (sem marker), reposicionável
+  const g = S("g", { class: cls }, parent);
+  const line = S("line", { "stroke-width": w, "stroke-linecap": "round", pathLength: 1, class: "draw" }, g);
+  const head = S("polygon", { stroke: "none" }, g);
+  g.set = (x1, y1, x2, y2) => {
+    const dx = x2 - x1, dy = y2 - y1, L = Math.hypot(dx, dy) || 1, ux = dx / L, uy = dy / L, h = Math.min(13, L * 0.45);
+    line.setAttribute("x1", x1); line.setAttribute("y1", y1); line.setAttribute("x2", x2 - ux * h * 0.8); line.setAttribute("y2", y2 - uy * h * 0.8);
+    head.setAttribute("points", `${x2},${y2} ${x2 - ux * h - uy * h * 0.45},${y2 - uy * h + ux * h * 0.45} ${x2 - ux * h + uy * h * 0.45},${y2 - uy * h - ux * h * 0.45}`);
+    return g;
+  };
+  return g;
+}
+const fmt = (x, d = 2) => x.toFixed(d).replace(".", ",");
+function arcPath(cx, cy, r, a1, a2) { // ângulos em graus, sentido da tela (y para baixo)
+  const p = a => [cx + r * Math.cos(a * Math.PI / 180), cy + r * Math.sin(a * Math.PI / 180)];
+  const [x1, y1] = p(a1), [x2, y2] = p(a2);
+  return `M${x1},${y1} A${r},${r} 0 0 ${a2 > a1 ? 1 : 0} ${x2},${y2}`;
+}
+
+const CENAS = {};
+
+/* Plano inclinado com esteira: caixa, forças, decomposição do peso, balanço de forças e
+   controle da aceleração da esteira. */
+CENAS["plano-inclinado"] = (svg, P, ctrl) => {
+  svg.setAttribute("viewBox", "0 0 640 430");
+  const sen = P.senTheta, cos = P.cosTheta, mu = P.mu, g = P.g;
+  const deg = Math.atan2(sen, cos) * 180 / Math.PI, aMax = mu * g * cos - g * sen;
+  const O = [70, 300], Lr = 440, u = [cos, -sen], n = [-sen, -cos];
+  const pt = (s, h) => [O[0] + s * u[0] + h * n[0], O[1] + s * u[1] + h * n[1]];
+  const el = {};
+  // cenário fixo (sempre visível quando "rampa" aparece)
+  el.rampa = S("g", { class: "ae" }, svg);
+  S("line", { x1: 10, y1: 300, x2: 630, y2: 300, class: "ln" }, el.rampa);
+  S("rect", { x: 10, y: 284, width: 60, height: 16, fill: "#c98a5a", opacity: .8 }, el.rampa);
+  const T = pt(Lr, 0);
+  S("rect", { x: T[0], y: T[1] - 2, width: 200, height: 16, fill: "#c98a5a", opacity: .8 }, el.rampa);
+  [530, 600].forEach(x => S("rect", { x, y: T[1] + 14, width: 7, height: 300 - T[1] - 14, fill: "#a8692e" }, el.rampa));
+  const b0 = pt(0, 0), b1 = pt(Lr, 0), c0 = pt(0, -18), c1 = pt(Lr, -18);
+  S("polygon", { points: [b0, b1, c1, c0].map(p => p.join(",")).join(" "), fill: "var(--paper)", stroke: "var(--ink)", "stroke-width": 2 }, el.rampa);
+  const fita = S("line", { x1: pt(14, -3)[0], y1: pt(14, -3)[1], x2: pt(Lr - 14, -3)[0], y2: pt(Lr - 14, -3)[1], stroke: "var(--muted)", "stroke-width": 2, "stroke-dasharray": "10 9" }, el.rampa);
+  [pt(9, -9), pt(Lr - 9, -9)].forEach(([x, y]) => { S("circle", { cx: x, cy: y, r: 11, fill: "#f2c230", stroke: "var(--ink)", "stroke-width": 1.5 }, el.rampa); S("circle", { cx: x, cy: y, r: 2.5, fill: "var(--ink)" }, el.rampa); });
+  el.angulo = S("g", { class: "ae" }, svg);
+  S("path", { d: arcPath(O[0], O[1], 56, 0, -deg), class: "ln draw", pathLength: 1 }, el.angulo);
+  sLabel(el.angulo, O[0] + 74 * Math.cos(-deg / 2 * Math.PI / 180), O[1] + 74 * Math.sin(-deg / 2 * Math.PI / 180), "θ");
+  // caixa e marca na esteira (para ver se escorrega)
+  const marca = S("circle", { r: 4, fill: "var(--anim-acel)", class: "ae" }, svg);
+  el.caixa = S("g", { class: "ae" }, svg);
+  const caixa = S("g", {}, el.caixa);
+  S("rect", { x: -28, y: -46, width: 56, height: 46, fill: "#f07a2a", stroke: "var(--ink)", "stroke-width": 2, rx: 2 }, caixa);
+  // forças (posicionadas por layout)
+  const mk = (id, cls) => (el[id] = S("g", { class: "ae" }, svg), el[id]);
+  mk("eixos"); const ex = S("line", { class: "ln-mute", "stroke-dasharray": "5 5" }, el.eixos), ey = S("line", { class: "ln-mute", "stroke-dasharray": "5 5" }, el.eixos);
+  const lx = sLabel(el.eixos, 0, 0, "x", "", "t-mute"), ly = sLabel(el.eixos, 0, 0, "y", "", "t-mute");
+  mk("componentes"); const aPx = sArrow(el.componentes, "v-comp", 2.5), aPy = sArrow(el.componentes, "v-comp", 2.5);
+  const pr1 = S("line", { class: "ln-mute", "stroke-dasharray": "3 4" }, el.componentes), pr2 = S("line", { class: "ln-mute", "stroke-dasharray": "3 4" }, el.componentes);
+  const lPx = sLabel(el.componentes, 0, 0, "P", "x", "v-comp"), lPy = sLabel(el.componentes, 0, 0, "P", "y", "v-comp");
+  mk("angulo-peso"); const arcP = S("path", { class: "ln draw", pathLength: 1, "stroke-width": 1.5 }, el["angulo-peso"]); const lth = sLabel(el["angulo-peso"], 0, 0, "θ");
+  mk("peso"); const aP = sArrow(el.peso, "v-peso"); const lP = sLabel(el.peso, 0, 0, "P", "", "v-peso t-b");
+  mk("normal"); const aN = sArrow(el.normal, "v-normal"); const lN = sLabel(el.normal, 0, 0, "N", "", "v-normal t-b");
+  mk("atrito"); const aF = sArrow(el.atrito, "v-atrito"); const lF = sLabel(el.atrito, 0, 0, "f", "", "v-atrito t-b");
+  mk("aceleracao"); const aA = sArrow(el.aceleracao, "v-acel", 3); const lA = sLabel(el.aceleracao, 0, 0, "a", "", "v-acel t-b");
+  const K = 10; // px por (N/kg): o peso de uma caixa de massa m vale 10m e mede 100 px
+  function layout(s, fNec) {
+    const [px, py] = pt(s, 0);
+    caixa.setAttribute("transform", `translate(${px},${py}) rotate(${-deg})`);
+    const C = pt(s, 23), add = (p, v, k) => [p[0] + v[0] * k, p[1] + v[1] * k];
+    const Pt = [C[0], C[1] + g * K]; aP.set(...C, ...Pt); lP.setAttribute("x", Pt[0] + 14); lP.setAttribute("y", Pt[1] - 4);
+    const Nt = add(C, n, g * cos * K); aN.set(...C, ...Nt); const lNp = add(Nt, n, 14); lN.setAttribute("x", lNp[0]); lN.setAttribute("y", lNp[1]);
+    const Ft = add(C, u, fNec * K); aF.set(...C, ...Ft); const lFp = add(Ft, u, 14); lF.setAttribute("x", lFp[0]); lF.setAttribute("y", lFp[1] - 6);
+    const PxT = add(C, u, -g * sen * K), PyT = add(C, n, -g * cos * K);
+    aPx.set(...C, ...PxT); aPy.set(...C, ...PyT);
+    pr1.setAttribute("x1", Pt[0]); pr1.setAttribute("y1", Pt[1]); pr1.setAttribute("x2", PxT[0]); pr1.setAttribute("y2", PxT[1]);
+    pr2.setAttribute("x1", Pt[0]); pr2.setAttribute("y1", Pt[1]); pr2.setAttribute("x2", PyT[0]); pr2.setAttribute("y2", PyT[1]);
+    const lpx = add(PxT, u, -16); lPx.setAttribute("x", lpx[0]); lPx.setAttribute("y", lpx[1]);
+    const lpy = add(PyT, n, -6); lPy.setAttribute("x", lpy[0] + 16); lPy.setAttribute("y", lpy[1] + 4);
+    const a1 = Math.atan2(-n[1], -n[0]) * 180 / Math.PI;
+    arcP.setAttribute("d", arcPath(C[0], C[1], 36, a1, 90));
+    const am = (a1 + 90) / 2 * Math.PI / 180; lth.setAttribute("x", C[0] + 50 * Math.cos(am)); lth.setAttribute("y", C[1] + 50 * Math.sin(am));
+    const e1 = add(C, u, -150), e2 = add(C, u, 170), e3 = add(C, n, -60), e4 = add(C, n, 130);
+    ex.setAttribute("x1", e1[0]); ex.setAttribute("y1", e1[1]); ex.setAttribute("x2", e2[0]); ex.setAttribute("y2", e2[1]);
+    ey.setAttribute("x1", e3[0]); ey.setAttribute("y1", e3[1]); ey.setAttribute("x2", e4[0]); ey.setAttribute("y2", e4[1]);
+    const lxp = add(e2, u, 10), lyp = add(e4, n, 10); lx.setAttribute("x", lxp[0]); lx.setAttribute("y", lxp[1]); ly.setAttribute("x", lyp[0]); ly.setAttribute("y", lyp[1]);
+    const A0 = add(add(C, n, 72), u, -10), A1 = add(A0, u, 46); aA.set(...A0, ...A1); const la = add(A1, n, 12); lA.setAttribute("x", la[0]); lA.setAttribute("y", la[1]);
+  }
+  // balanço das forças ao longo da rampa (barras, em unidades de m · N/kg)
+  el.balanco = S("g", { class: "ae" }, svg);
+  const BX = 230, BK = 40;
+  const t1 = sLabel(el.balanco, BX - 12, 342, "", "", "", "end"), t2 = sLabel(el.balanco, BX - 12, 380, "", "", "", "end");
+  const bar1 = S("rect", { x: BX, y: 331, height: 22, class: "v-atrito", opacity: .85 }, el.balanco);
+  const bar2 = S("rect", { x: BX, y: 369, height: 22, class: "v-peso", opacity: .85 }, el.balanco);
+  const sobra = S("rect", { y: 326, height: 70, fill: "var(--anim-acel)", opacity: .22 }, el.balanco);
+  const tSobra = sLabel(el.balanco, 0, 412, "", "", "v-acel t-b", "middle");
+  function balanco(modo, a) {
+    const fm = mu * g * cos, ps = g * sen;
+    if (modo === "controle") {
+      const nec = ps + a, ok = nec <= fm + 1e-9;
+      t1.textContent = `máximo: ${fmt(fm, 1)}m`; t2.textContent = `necessário: ${fmt(nec, 2)}m`;
+      bar1.setAttribute("width", fm * BK); bar2.setAttribute("width", nec * BK); bar2.setAttribute("class", ok ? "v-atrito" : "v-peso");
+      bar2.setAttribute("opacity", ok ? .5 : .85);
+      sobra.setAttribute("x", BX + Math.min(fm, nec) * BK); sobra.setAttribute("width", Math.abs(fm - nec) * BK);
+      tSobra.textContent = ok ? "" : "falta atrito: a caixa escorrega";
+      tSobra.setAttribute("x", BX + fm * BK);
+    } else {
+      t1.textContent = `atrito máximo: ${fmt(fm, 1)}m`; t2.textContent = `Pₓ = mg sen θ: ${fmt(ps, 0)}m`;
+      bar1.setAttribute("width", fm * BK); bar2.setAttribute("width", ps * BK); bar2.setAttribute("class", "v-peso"); bar2.setAttribute("opacity", .85);
+      sobra.setAttribute("x", BX + ps * BK); sobra.setAttribute("width", (fm - ps) * BK);
+      tSobra.textContent = `sobra ${fmt(fm - ps, 1)}m = m · a`; tSobra.setAttribute("x", BX + fm * BK + 40);
+    }
+  }
+  let raf = 0, estado = {};
+  const S0 = 200, PXM = 30;
+  function anima(getA) {
+    const t0 = performance.now();
+    const loop = now => {
+      const t = ((now - t0) / 1000) % 5.2, tt = Math.min(t, 4);
+      const a = getA(), aCaixa = Math.min(a, aMax);
+      const sB = 110 + PXM * 0.5 * a * tt * tt, sC = 110 + PXM * 0.5 * aCaixa * tt * tt;
+      fita.setAttribute("stroke-dashoffset", -(sB - 110));
+      const m = pt(Math.min(sB, Lr - 20), 0); marca.setAttribute("cx", m[0]); marca.setAttribute("cy", m[1]);
+      layout(Math.min(sC, Lr - 40), Math.min(g * sen + a, mu * g * cos));
+      raf = requestAnimationFrame(loop);
+    };
+    raf = requestAnimationFrame(loop);
+  }
+  layout(S0, mu * g * cos); balanco("normal");
+  return {
+    el,
+    update(est) {
+      cancelAnimationFrame(raf); ctrl.replaceChildren(); estado = est;
+      marca.classList.remove("on"); fita.setAttribute("stroke-dashoffset", 0);
+      if (est.controle === "aceleracao") {
+        let a = aMax;
+        const lab = el => document.createElement(el);
+        const l = lab("label"), r = lab("input"), out = lab("div");
+        Object.assign(r, { type: "range", min: "0", max: "1", step: "0.05", value: String(a) }); r.setAttribute("aria-label", "Aceleração da esteira");
+        const show = () => {
+          a = parseFloat(r.value); const nec = g * sen + a, ok = nec <= mu * g * cos + 1e-9;
+          l.innerHTML = `Aceleração da esteira: <b>a = ${fmt(a)} m/s²</b>`;
+          out.innerHTML = `Atrito necessário: m(${fmt(g * sen, 0)} + ${fmt(a)}) = ${fmt(nec)}m · máximo: ${fmt(mu * g * cos, 1)}m → ` + (ok ? `<span class="ok">a caixa acompanha a esteira</span>` : `<span class="bad">a caixa escorrega</span>`);
+          balanco("controle", a);
+        };
+        r.addEventListener("input", show); ctrl.append(l, r, out); show();
+        marca.classList.add("on"); anima(() => a);
+      } else if (est.movimento === "acelerando") {
+        balanco("normal"); anima(() => aMax);
+      } else { balanco("normal"); layout(S0, mu * g * cos); }
+    },
+    stop() { cancelAnimationFrame(raf); },
+  };
+};
+
+/* Conjuntos (lâmpada em paralelo com R) ligados em série a uma fonte. Até 3 conjuntos:
+   em cima, à direita e embaixo, como na figura da prova. */
+CENAS["circuito-conjuntos-serie"] = (svg, P, ctrl) => {
+  svg.setAttribute("viewBox", "0 -6 640 404");
+  const nomes = P.conjuntos, rr = P.rSobreR ?? 1; // r/R
+  const el = {};
+  el.circuito = S("g", { class: "ae" }, svg);
+  const fios = S("g", {}, el.circuito);
+  // geometria de cada conjunto: nós de entrada/saída e ramos (lâmpada e resistor)
+  const G = [
+    { a: [200, 70], b: [380, 70], lamp: [[200, 70], [200, 32], [380, 32], [380, 70]], res: [[200, 70], [200, 108], [380, 108], [380, 70]], L: [290, 32], R: [290, 108], box: [184, 14, 212, 112], tag: [290, 72], rot: "h" },
+    { a: [540, 150], b: [540, 270], lamp: [[540, 150], [585, 150], [585, 270], [540, 270]], res: [[540, 150], [495, 150], [495, 270], [540, 270]], L: [585, 210], R: [495, 210], box: [475, 134, 132, 152], tag: [540, 212], rot: "v" },
+    { a: [380, 330], b: [200, 330], lamp: [[380, 330], [380, 292], [200, 292], [200, 330]], res: [[380, 330], [380, 368], [200, 368], [200, 330]], L: [290, 292], R: [290, 368], box: [184, 274, 212, 112], tag: [290, 332], rot: "h" },
+  ].slice(0, nomes.length);
+  const main = [[[70, 130], [70, 70], [200, 70]], [[380, 70], [540, 70], [540, 150]], [[540, 270], [540, 330], [380, 330]], [[200, 330], [70, 330], [70, 280]]];
+  const poly = pts => pts.map(p => p.join(",")).join(" ");
+  main.forEach(m => S("polyline", { points: poly(m), class: "fio" }, fios));
+  // fonte
+  S("rect", { x: 30, y: 130, width: 80, height: 150, rx: 8, fill: "#2a2a2a" }, el.circuito);
+  S("rect", { x: 30, y: 130, width: 80, height: 62, rx: 8, fill: "#f2c230" }, el.circuito);
+  S("rect", { x: 62, y: 122, width: 16, height: 8, fill: "#999" }, el.circuito);
+  S("text", { x: 70, y: 162, "text-anchor": "middle", "font-size": 26, style: "fill:#222", "dominant-baseline": "middle" }, el.circuito).textContent = "+";
+  S("text", { x: 70, y: 255, "text-anchor": "middle", "font-size": 26, style: "fill:#eee", "dominant-baseline": "middle" }, el.circuito).textContent = "−";
+  S("text", { x: 70, y: 214, "text-anchor": "middle", "font-size": 18, style: "fill:#eee", "dominant-baseline": "middle" }, el.circuito).textContent = "U";
+  const lamps = [], ramos = [];
+  G.forEach((c, i) => {
+    const rl = S("polyline", { points: poly(c.lamp), class: "fio" }, fios), rs = S("polyline", { points: poly(c.res), class: "fio" }, fios);
+    ramos.push({ rl, rs });
+    // resistor em zigue-zague
+    const [x, y] = c.R, zz = [];
+    for (let k = 0; k <= 8; k++) { const d = -24 + k * 6, o = k === 0 || k === 8 ? 0 : (k % 2 ? 7 : -7); zz.push(c.rot === "h" ? [x + d, y + o] : [x + o, y + d]); }
+    S("rect", c.rot === "h" ? { x: x - 26, y: y - 10, width: 52, height: 20, fill: "var(--paper)" } : { x: x - 10, y: y - 26, width: 20, height: 52, fill: "var(--paper)" }, el.circuito);
+    S("polyline", { points: poly(zz), class: "fio", "stroke-width": 2.2 }, el.circuito);
+    sLabel(el.circuito, c.rot === "h" ? x : x - 24, c.rot === "h" ? y + 24 : y, "R", "", "t-mute", c.rot === "h" ? "middle" : "end");
+    // lâmpada
+    const [lx, ly] = c.L, lg = S("g", {}, el.circuito);
+    const glow = S("circle", { cx: lx, cy: ly, r: 30, fill: "var(--anim-luz)", opacity: .35 }, lg);
+    const bulb = S("circle", { cx: lx, cy: ly, r: 15, fill: "var(--anim-luz)", stroke: "var(--ink)", "stroke-width": 1.5 }, lg);
+    const xx = S("path", { d: `M${lx - 7},${ly - 7} L${lx + 7},${ly + 7} M${lx + 7},${ly - 7} L${lx - 7},${ly + 7}`, stroke: "var(--danger)", "stroke-width": 3, opacity: 0 }, lg);
+    const nome = nomes[i].replace(/(\d+)$/, ""), num = (nomes[i].match(/\d+$/) || [""])[0];
+    sLabel(el.circuito, c.rot === "h" ? lx + 22 : lx + 24, c.rot === "h" ? ly - 18 : ly - 26, nome, num, "t-b", "start");
+    lamps.push({ glow, bulb, xx });
+  });
+  el.conjuntos = S("g", { class: "ae" }, svg);
+  G.forEach((c, i) => { const [x, y, w, h] = c.box; S("rect", { x, y, width: w, height: h, rx: 10, fill: "none", stroke: "var(--accent)", "stroke-width": 1.5, "stroke-dasharray": "6 5" }, el.conjuntos); sLabel(el.conjuntos, x + 4, y - 7, `conjunto ${i + 1}`, "", "t-mute", "start"); });
+  el.equivalentes = S("g", { class: "ae" }, svg);
+  const tags = G.map(c => { const g = S("g", {}, el.equivalentes); const r = S("rect", { rx: 5, fill: "var(--soft)", stroke: "var(--accent)" }, g); const t = sLabel(g, c.tag[0], c.tag[1], "R", "conj", "t-b"); return { r, t, c }; });
+  // corrente: pontos que percorrem cada trecho com velocidade proporcional à corrente
+  el.corrente = S("g", { class: "ae" }, svg);
+  const tI = sLabel(el.corrente, 300, 150, "", "", "t-b", "middle");
+  const trechos = [];
+  const addTrecho = (pts, key) => {
+    const segs = []; let L = 0;
+    for (let k = 1; k < pts.length; k++) { const d = Math.hypot(pts[k][0] - pts[k - 1][0], pts[k][1] - pts[k - 1][1]); segs.push([pts[k - 1], pts[k], L, d]); L += d; }
+    const dots = []; for (let s = 0; s < L; s += 26) dots.push(S("circle", { r: 3.5, class: "dot" }, el.corrente));
+    trechos.push({ segs, L, dots, key, off: 0 });
+  };
+  main.forEach(m => addTrecho(m, "I"));
+  G.forEach((c, i) => { addTrecho(c.lamp, "l" + i); addTrecho(c.res, "r" + i); });
+  el.brilho = S("g", { class: "ae" }, svg);
+  sLabel(el.brilho, 280, 180, "Potência de cada lâmpada (exemplo com r = R)", "", "t-mute");
+  const barras = G.map((c, i) => {
+    const y = 196 + i * 26; const nome = nomes[i];
+    sLabel(el.brilho, 162, y + 8, nome.replace(/\d+$/, ""), (nome.match(/\d+$/) || [""])[0], "t-b", "end");
+    S("rect", { x: 172, y, width: 200, height: 16, fill: "none", stroke: "var(--line)" }, el.brilho);
+    const fill = S("rect", { x: 172, y, height: 16, fill: "var(--anim-luz)", stroke: "var(--ink)", "stroke-width": .8 }, el.brilho);
+    const ghost = S("line", { y1: y - 3, y2: y + 19, stroke: "var(--muted)", "stroke-width": 2, "stroke-dasharray": "3 2" }, el.brilho);
+    const t = sLabel(el.brilho, 380, y + 8, "", "", "", "start");
+    return { fill, ghost, t };
+  });
+  function fisica(queimada) {
+    const Rc = i => nomes[i] === queimada ? 1 : rr / (rr + 1);
+    const Rt = G.reduce((s, _, i) => s + Rc(i), 0), I = 1 / Rt;
+    return G.map((_, i) => { const U = I * Rc(i), ok = nomes[i] !== queimada; return { I, U, ok, il: ok ? U / rr : 0, ir: U, P: ok ? U * U / rr : 0 }; });
+  }
+  const base = fisica(null);
+  let raf = 0;
+  return {
+    el,
+    update(est) {
+      cancelAnimationFrame(raf);
+      const f = fisica(est.queimada || null), I = f[0].I, I0 = base[0].I;
+      f.forEach((x, i) => {
+        const rel = x.P / base[i].P, L = lamps[i];
+        L.bulb.setAttribute("fill", x.ok ? "var(--anim-luz)" : "#9aa3ad"); L.bulb.setAttribute("fill-opacity", x.ok ? 0.35 + 0.65 * rel : 1);
+        L.glow.setAttribute("r", 16 + 16 * rel); L.glow.setAttribute("opacity", x.ok ? 0.35 * rel : 0); L.xx.setAttribute("opacity", x.ok ? 0 : 1);
+        ramos[i].rl.classList.toggle("aberto", !x.ok);
+        const b = barras[i]; b.fill.setAttribute("width", 200 * rel); b.ghost.setAttribute("x1", 372); b.ghost.setAttribute("x2", 372);
+        b.t.textContent = x.ok ? `${Math.round(rel * 100)}%` : "queimada";
+        const tg = tags[i]; tg.t.replaceChildren(); tg.t.append(document.createTextNode("R"));
+        const sb = S("tspan", { "baseline-shift": "sub", "font-size": "70%" }, tg.t); sb.textContent = x.ok ? "conj" : "";
+        requestAnimationFrame(() => { try { const bb = tg.t.getBBox(); tg.r.setAttribute("x", bb.x - 6); tg.r.setAttribute("y", bb.y - 3); tg.r.setAttribute("width", bb.width + 12); tg.r.setAttribute("height", bb.height + 6); } catch (e) {} });
+      });
+      tI.textContent = est.queimada ? `corrente total: I' = ${fmt(I / I0)} · I (exemplo com r = R)` : "";
+      const corr = { I }; f.forEach((x, i) => { corr["l" + i] = x.il; corr["r" + i] = x.ir; });
+      let last = performance.now();
+      const loop = now => {
+        const dt = Math.min(0.05, (now - last) / 1000); last = now;
+        trechos.forEach(tr => {
+          const c = corr[tr.key]; tr.off = (tr.off + dt * 90 * c / I0 * 0.67) % 26;
+          tr.dots.forEach((d, k) => {
+            const s = k * 26 + tr.off; if (c < 1e-9 || s > tr.L) { d.setAttribute("opacity", 0); return; }
+            const sg = tr.segs.find(q => s >= q[2] && s <= q[2] + q[3]) || tr.segs[tr.segs.length - 1], t = (s - sg[2]) / sg[3];
+            d.setAttribute("cx", sg[0][0] + (sg[1][0] - sg[0][0]) * t); d.setAttribute("cy", sg[0][1] + (sg[1][1] - sg[0][1]) * t); d.setAttribute("opacity", 1);
+          });
+        });
+        raf = requestAnimationFrame(loop);
+      };
+      raf = requestAnimationFrame(loop);
+    },
+    stop() { cancelAnimationFrame(raf); },
+  };
+};
+
+/* Gráfico v × t com áreas (deslocamento) e uma estrada com o carro e os semáforos. */
+CENAS["grafico-vt"] = (svg, P, ctrl) => {
+  svg.setAttribute("viewBox", "0 0 640 430");
+  const X0 = 80, X1 = 610, Y0 = 280, Y1 = 30;
+  const X = t => X0 + (X1 - X0) * t / P.tMax, Y = v => Y0 - (Y0 - Y1) * v / P.vMax;
+  const pts = P.pontos, el = {};
+  const vDe = t => { for (let k = 1; k < pts.length; k++) if (t <= pts[k][0]) { const [t0, v0] = pts[k - 1], [t1, v1] = pts[k]; return v0 + (v1 - v0) * (t - t0) / ((t1 - t0) || 1); } return pts[pts.length - 1][1]; };
+  const sDe = t => { let s = 0; const dt = 0.01; for (let x = 0; x < t; x += dt) s += vDe(x + dt / 2) * Math.min(dt, t - x); return s; };
+  const sTot = sDe(P.tMax);
+  el.eixos = S("g", { class: "ae" }, svg);
+  for (let t = 0; t <= P.tMax; t += P.passoT) { S("line", { x1: X(t), y1: Y0, x2: X(t), y2: Y1, class: "grid" }, el.eixos); sLabel(el.eixos, X(t), Y0 + 16, String(t), "", "t-mute"); }
+  for (let v = 0; v <= P.vMax; v += P.passoV) { S("line", { x1: X0, y1: Y(v), x2: X1, y2: Y(v), class: "grid" }, el.eixos); sLabel(el.eixos, X0 - 10, Y(v), String(v), "", "t-mute", "end"); }
+  S("rect", { x: X0, y: Y1, width: X1 - X0, height: Y0 - Y1, fill: "none", stroke: "var(--ink)", "stroke-width": 1.5 }, el.eixos);
+  sLabel(el.eixos, (X0 + X1) / 2, Y0 + 36, "tempo (s)", "", "t-mute");
+  const ly = sLabel(el.eixos, 24, (Y0 + Y1) / 2, "velocidade (m/s)", "", "t-mute"); ly.setAttribute("transform", `rotate(-90 24 ${(Y0 + Y1) / 2})`);
+  const area = (id, [ta, tb], cor) => {
+    el[id] = S("g", { class: "ae" }, svg);
+    const ps = pts.filter(p => p[0] >= ta && p[0] <= tb);
+    S("polygon", { points: ps.map(p => `${X(p[0])},${Y(p[1])}`).join(" "), fill: cor, opacity: .3, stroke: cor, "stroke-width": 1 }, el[id]);
+    let s = 0; for (let k = 1; k < ps.length; k++) s += (ps[k][0] - ps[k - 1][0]) * (ps[k][1] + ps[k - 1][1]) / 2;
+    const vmax = Math.max(...ps.map(p => p[1]));
+    sLabel(el[id], X((ta + tb) / 2), Y(vmax * 0.42), `${Math.round(s)} m`, "", "t-b");
+    return { ps, s, vmax };
+  };
+  const A1 = area("area-1", P.trechos[0], "var(--accent)"), A2 = area("area-2", P.trechos[1], "var(--ok)");
+  el.paradas = S("g", { class: "ae" }, svg);
+  P.paradas.forEach(([a, b]) => { S("line", { x1: X(a), y1: Y0, x2: X(b), y2: Y0, stroke: "var(--danger)", "stroke-width": 7, "stroke-linecap": "round", opacity: .75 }, el.paradas); sLabel(el.paradas, X((a + b) / 2), Y0 - 14, "parado", "", "t-mute"); });
+  el.curva = S("g", { class: "ae" }, svg);
+  S("polyline", { points: pts.map(p => `${X(p[0])},${Y(p[1])}`).join(" "), fill: "none", stroke: "var(--ink)", "stroke-width": 3, "stroke-linejoin": "round", pathLength: 1, class: "draw" }, el.curva);
+  el.faixa = S("g", { class: "ae" }, svg);
+  { const t = 14, w = 1, v = vDe(t); S("rect", { x: X(t), y: Y(v), width: X(t + w) - X(t), height: Y0 - Y(v), fill: "var(--anim-acel)", opacity: .55 }, el.faixa); sArrow(el.faixa, "v-acel", 2).set(X(t) + 70, Y(v / 2) - 40, X(t) + 10, Y(v / 2)); sLabel(el.faixa, X(t) + 74, Y(v / 2) - 52, "área = v · Δt", "", "v-acel t-b", "start"); }
+  const cotas = (id, A, xAlt, lado) => {
+    el[id] = S("g", { class: "ae" }, svg);
+    const [ta, tb] = [A.ps[0][0], A.ps[A.ps.length - 1][0]], top = A.ps.filter(p => p[1] === A.vmax);
+    const yb = Y0 + 50;
+    sArrow(el[id], "v-normal", 1.5).set(X(ta), yb, X(tb), yb); sArrow(el[id], "v-normal", 1.5).set(X(tb), yb, X(ta), yb);
+    sLabel(el[id], X((ta + tb) / 2), yb + 14, `base maior: ${tb - ta} s`, "", "v-normal t-b");
+    const [pa, pb] = [top[0][0], top[top.length - 1][0]], yt = Y(A.vmax) - 14;
+    sArrow(el[id], "v-normal", 1.5).set(X(pa), yt, X(pb), yt); sArrow(el[id], "v-normal", 1.5).set(X(pb), yt, X(pa), yt);
+    sLabel(el[id], X((pa + pb) / 2), yt - 13, `base menor: ${pb - pa} s`, "", "v-normal t-b");
+    sArrow(el[id], "v-peso", 1.5).set(X(xAlt), Y0, X(xAlt), Y(A.vmax)); sArrow(el[id], "v-peso", 1.5).set(X(xAlt), Y(A.vmax), X(xAlt), Y0);
+    sLabel(el[id], X(xAlt) + (lado > 0 ? 8 : -8), Y(A.vmax / 2), `altura: ${A.vmax} m/s`, "", "v-peso t-b", lado > 0 ? "start" : "end");
+  };
+  cotas("cotas-1", A1, 27, 1); cotas("cotas-2", A2, 43, -1);
+  // estrada com semáforos (posições pelas áreas) e carro
+  el.estrada = S("g", { class: "ae" }, svg);
+  const RY = 395, SX = s => X0 + (X1 - X0) * s / sTot;
+  S("rect", { x: X0 - 20, y: RY - 12, width: X1 - X0 + 40, height: 24, fill: "#59606b", rx: 3 }, el.estrada);
+  S("line", { x1: X0 - 20, y1: RY, x2: X1 + 20, y2: RY, stroke: "#fff", "stroke-dasharray": "12 10", "stroke-width": 2 }, el.estrada);
+  const posSem = [0]; P.paradas.slice(1).forEach(([a]) => posSem.push(sDe(a)));
+  const luzes = posSem.map((s, i) => { const x = SX(s); S("rect", { x: x - 6, y: RY - 52, width: 12, height: 30, rx: 3, fill: "#222" }, el.estrada); S("line", { x1: x, y1: RY - 22, x2: x, y2: RY - 12, stroke: "#222", "stroke-width": 2 }, el.estrada); const l = S("circle", { cx: x, cy: RY - 44, r: 4.5, fill: "#e33" }, el.estrada); S("circle", { cx: x, cy: RY - 30, r: 4.5, fill: "#333" }, el.estrada); sLabel(el.estrada, x, RY - 62, `${i + 1}º`, "", "t-mute"); return l; });
+  const carro = S("g", {}, el.estrada);
+  S("rect", { x: -16, y: -9, width: 32, height: 12, rx: 4, fill: "#e8542f", stroke: "var(--ink)" }, carro);
+  S("rect", { x: -8, y: -15, width: 16, height: 8, rx: 3, fill: "#e8542f", stroke: "var(--ink)" }, carro);
+  const tPos = sLabel(el.estrada, X1, 14, "", "", "t-b", "end");
+  const cursor = S("line", { y1: Y1, y2: Y0, stroke: "var(--anim-acel)", "stroke-width": 2, class: "ae" }, svg);
+  const clipId = "clip" + Math.random().toString(36).slice(2);
+  const clip = S("clipPath", { id: clipId }, S("defs", {}, svg)); const clipR = S("rect", { x: X0, y: 0, height: 430, width: 0 }, clip);
+  const acum = S("g", { "clip-path": `url(#${clipId})`, class: "ae" }, svg);
+  P.trechos.forEach(([ta, tb], i) => S("polygon", { points: pts.filter(p => p[0] >= ta && p[0] <= tb).map(p => `${X(p[0])},${Y(p[1])}`).join(" "), fill: i ? "var(--ok)" : "var(--accent)", opacity: .45 }, acum));
+  let raf = 0;
+  function pos(t) {
+    const s = sDe(t), v = vDe(t);
+    carro.setAttribute("transform", `translate(${SX(s)},${RY})`);
+    luzes.forEach((l, i) => l.setAttribute("fill", Math.abs(SX(s) - SX(posSem[i])) < 2 && v < 0.01 ? "#e33" : "#3c3"));
+    return s;
+  }
+  pos(0);
+  return {
+    el,
+    update(est) {
+      cancelAnimationFrame(raf); cursor.classList.remove("on"); acum.classList.remove("on"); tPos.textContent = "";
+      if (!est.percorrer) { pos(0); return; }
+      cursor.classList.add("on"); acum.classList.add("on");
+      const t0 = performance.now(), dur = 9;
+      const loop = now => {
+        const k = ((now - t0) / 1000) % (dur + 2.5), t = Math.min(k / dur, 1) * P.tMax;
+        const s = pos(t);
+        cursor.setAttribute("x1", X(t)); cursor.setAttribute("x2", X(t)); clipR.setAttribute("width", X(t) - X0);
+        tPos.textContent = `t = ${Math.round(t)} s · percorrido desde o 1º semáforo: ${Math.round(s)} m`;
+        raf = requestAnimationFrame(loop);
+      };
+      raf = requestAnimationFrame(loop);
+    },
+    stop() { cancelAnimationFrame(raf); },
+  };
+};
+
+/* Player: abre o roteiro de uma questão num painel com a cena à esquerda e o passo à direita. */
+function openPlayer(q, rot) {
+  const fab = CENAS[rot.cena && rot.cena.modelo];
+  if (!fab) { toast("Esta resolução animada usa um modelo de cena que o app ainda não conhece."); return; }
+  const ov = el("div", { class: "ap-overlay" });
+  const dlg = el("section", { class: "ap", role: "dialog", "aria-modal": "true", "aria-label": "Resolução animada" });
+  const chips = el("div", { class: "ap-chips" });
+  (rot.conceitos || []).forEach(c => chips.append(el("span", { class: "ap-chip", text: c })));
+  const close = el("button", { class: "btn ghost", type: "button", text: "Fechar" });
+  dlg.append(el("header", {}, el("div", {}, el("h2", { text: rot.titulo }), el("div", { class: "ap-sub", text: "Resolução animada · " + label(q) }), chips), close));
+  const svg = S("svg", { role: "img", "aria-label": "Cena da resolução" });
+  const ctrl = el("div", { class: "ap-ctrl" });
+  const stepBox = el("div", { class: "ap-step", "aria-live": "polite" });
+  dlg.append(el("div", { class: "ap-body" }, el("div", { class: "ap-stage" }, svg, ctrl), stepBox));
+  const dots = el("div", { class: "ap-dots" });
+  const prev = el("button", { class: "btn", type: "button", text: "← Voltar" }), next = el("button", { class: "btn primary", type: "button", text: "Avançar →" });
+  const again = el("button", { class: "btn ghost", type: "button", text: "↻ Repetir passo" });
+  dlg.append(el("footer", {}, dots, el("div", { class: "ap-nav" }, again, prev, next)));
+  ov.append(dlg); document.body.append(ov);
+  let cena;
+  try { cena = fab(svg, rot.cena.parametros || {}, ctrl); }
+  catch (e) { console.warn(e); ov.remove(); toast("Não foi possível montar a cena desta resolução."); return; }
+  Object.values(cena.el).forEach(n => n.classList.add("ae"));
+  const passos = rot.passos || [];
+  passos.forEach((p, i) => dots.append(el("button", { type: "button", text: String(i + 1), title: p.titulo, onclick: () => show(i, i > cur) })));
+  let cur = -1;
+  function acumulado(k) {
+    const vis = new Set(), est = {};
+    for (let j = 0; j <= k; j++) { const c = passos[j].cena || {}; (c.mostrar || []).forEach(x => vis.add(x)); (c.ocultar || []).forEach(x => vis.delete(x)); Object.assign(est, c.estado || {}); }
+    return { vis, est };
+  }
+  function show(k, animar = true) {
+    const antes = cur >= 0 && animar ? acumulado(k - 1).vis : new Set();
+    cur = k; const p = passos[k], { vis, est } = acumulado(k), hl = new Set((p.cena || {}).destacar || []);
+    for (const [id, node] of Object.entries(cena.el)) {
+      node.classList.remove("entra", "hl"); void node.getBBox;
+      const on = vis.has(id); node.classList.toggle("on", on);
+      if (on && animar && !antes.has(id)) { void node.offsetWidth; node.classList.add("entra"); }
+      if (on && hl.has(id)) { void node.getBoundingClientRect(); node.classList.add("hl"); }
+    }
+    cena.update(est);
+    stepBox.replaceChildren();
+    if (p.conceito) stepBox.append(el("div", { class: "ap-conc", text: "Conceito · " + p.conceito }));
+    stepBox.append(el("h3", { text: `${k + 1}. ${p.titulo}` }));
+    const t = el("p", { class: "ap-txt" }); t.innerHTML = safeInline(p.texto || ""); stepBox.append(t);
+    if ((p.equacoes || []).length) {
+      const eq = el("div", { class: "ap-eqs" });
+      p.equacoes.forEach((x, j) => { const d = el("div"); d.style.animationDelay = (animar ? 0.5 + j * 0.9 : 0) + "s"; d.innerHTML = mathHTML(x); eq.append(d); });
+      stepBox.append(eq);
+    }
+    if (p.pergunta) {
+      const box = el("div", { class: "ap-q" }); const qt = el("div"); qt.innerHTML = `<b class="k">Pense antes de avançar</b><br>` + safeInline(p.pergunta.texto);
+      const ans = el("div", { class: "ans", hidden: true }); ans.innerHTML = safeInline(p.pergunta.resposta);
+      const b = el("button", { class: "btn", type: "button", text: "Ver resposta", onclick: () => { ans.hidden = false; b.remove(); } });
+      box.append(qt, b, ans); stepBox.append(box);
+    }
+    [...chips.children].forEach(c => c.classList.toggle("on", c.textContent === p.conceito));
+    [...dots.children].forEach((d, i) => { d.classList.toggle("on", i === k); d.classList.toggle("done", i < k); });
+    prev.disabled = k === 0; next.disabled = k === passos.length - 1;
+    next.textContent = k === passos.length - 1 ? "Fim" : "Avançar →";
+    stepBox.scrollTop = 0;
+  }
+  const fechar = () => { cena.stop(); ov.remove(); document.removeEventListener("keydown", tecla, true); state.player = null; };
+  const tecla = e => {
+    if (e.key === "Escape") { e.stopPropagation(); fechar(); }
+    else if (e.key === "ArrowRight" && document.activeElement.type !== "range") { e.stopPropagation(); e.preventDefault(); if (cur < passos.length - 1) show(cur + 1); }
+    else if (e.key === "ArrowLeft" && document.activeElement.type !== "range") { e.stopPropagation(); e.preventDefault(); if (cur > 0) show(cur - 1, false); }
+  };
+  document.addEventListener("keydown", tecla, true);
+  close.onclick = fechar; ov.addEventListener("click", e => { if (e.target === ov) fechar(); });
+  prev.onclick = () => show(cur - 1, false); next.onclick = () => show(cur + 1); again.onclick = () => show(cur, true);
+  state.player = { fechar };
+  show(0); next.focus();
+}
+
 /* Modo site estático: questões em questoes.json e download do .docx direto pelo navegador. */
 async function loadStatic() {
   STATIC = true;
@@ -595,6 +1110,7 @@ async function loadStatic() {
     if (!r.ok) throw new Error(r.status);
     state.qs = (await r.json()).map(q => ({ _id: q.id, ...q }));
   } catch (e) { state.qs = []; }
+  try { const r = await fetch("animacoes.json", { cache: "no-cache" }); if (r.ok) state.anims = new Map(Object.entries(await r.json())); } catch (e) {}
   state.ready = true;
   const ids = new Set(state.qs.map(q => q._id));
   state.list = state.list.filter(id => ids.has(id)); saveList();
@@ -608,6 +1124,7 @@ $("clearList").addEventListener("click", () => { state.list = []; saveList(); re
 $("topicSearch").addEventListener("input", e => { state.search = e.target.value; renderAreas(); });
 $("toggleFilters").addEventListener("click", e => { const f = $("filters"); f.classList.toggle("open"); e.currentTarget.setAttribute("aria-expanded", f.classList.contains("open")); });
 document.addEventListener("keydown", e => {
+  if (state.player) return;
   if (e.key === "Escape") $("overlay").hidden = true;
   if (!$("overlay").hidden || /INPUT|TEXTAREA|SELECT/.test(document.activeElement.tagName) && document.activeElement.type !== "range") return;
   if (e.key === "ArrowRight") go(1); if (e.key === "ArrowLeft") go(-1);
@@ -628,5 +1145,9 @@ renderAll();
     const before = state.list.length; state.list = state.list.filter(id => ids.has(id)); if (state.list.length !== before) saveList();
     renderAll();
   }, () => { state.ready = true; renderViewer(); });
+  db.collection("animacoes").onSnapshot(snap => {
+    state.anims = new Map(snap.docs.map(d => [d.id, d.data()]));
+    if (state.ready) renderViewer();
+  }, () => {});
 })();
 </script>

@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://banco-fisica-vestibular/schemas/animacao.schema.json",
+  "title": "Roteiro de resolução animada (adicional à resolução comentada)",
+  "type": "object",
+  "required": ["id", "titulo", "conceitos", "cena", "passos", "status"],
+  "properties": {
+    "id": { "type": "string", "description": "id da questão (data/questoes/...); o arquivo é data/animacoes/<id>.json" },
+    "titulo": { "type": "string", "description": "pergunta ou ideia central da resolução, em linguagem de aluno" },
+    "conceitos": { "type": "array", "items": { "type": "string" }, "minItems": 1, "description": "conceitos físicos usados; cada passo pode destacar um deles em 'conceito'" },
+    "cena": {
+      "type": "object",
+      "required": ["modelo"],
+      "properties": {
+        "modelo": { "enum": ["plano-inclinado", "circuito-conjuntos-serie", "grafico-vt"] },
+        "parametros": { "type": "object", "description": "dados da questão que o modelo desenha (ver docs/ANIMACOES.md)" }
+      }
+    },
+    "passos": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["titulo", "texto"],
+        "properties": {
+          "titulo": { "type": "string" },
+          "conceito": { "type": "string", "description": "conceito físico deste passo, mostrado acima do título" },
+          "texto": { "type": "string", "description": "mesma marcação da resolução: <i> <b> <u> <sub> <sup> e LaTeX entre \\( e \\)" },
+          "equacoes": { "type": "array", "items": { "type": "string" }, "description": "LaTeX sem delimitadores, mostradas uma de cada vez" },
+          "pergunta": {
+            "type": "object",
+            "required": ["texto", "resposta"],
+            "properties": { "texto": { "type": "string" }, "resposta": { "type": "string" } },
+            "description": "pergunta para o aluno pensar antes de ver a resposta"
+          },
+          "cena": {
+            "type": "object",
+            "properties": {
+              "mostrar": { "type": "array", "items": { "type": "string" } },
+              "ocultar": { "type": "array", "items": { "type": "string" } },
+              "destacar": { "type": "array", "items": { "type": "string" }, "description": "só neste passo" },
+              "estado": { "type": "object", "description": "animações próprias do modelo (vale deste passo em diante, até ser trocado)" }
+            }
+          }
+        }
+      }
+    },
+    "status": { "enum": ["rascunho", "revisado", "publicado"] },
+    "criadoEm": { "type": "string" },
+    "atualizadoEm": { "type": "string" }
+  }
+}

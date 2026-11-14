@@ -163,8 +163,17 @@ Para gravar questões, usam-se os lotes da etapa `publicar` (docs/WORKFLOW.md).
 26. v2.7.0: Einstein 2023–2027 (Provas I e II) com fórmulas: 6 enunciados com fração
     empilhada ou radical e 23 questões com resoluções em LaTeX. Variáveis retas do caderno
     com `\mathrm{...}`. Com isso, todas as provas do banco têm fórmulas em LaTeX.
+27. v2.8.0: resolução animada (piloto), adicional à resolução comentada: roteiros em
+    `data/animacoes/`, player no app e vídeo em Manim gerado do mesmo roteiro
+    (`docs/ANIMACOES.md`). Questões do piloto: Unesp 2025 Q78, ENEM 2023 Q98 e Unicamp 2017
+    Q58. Decisão de formato: o roteiro é o ativo; app e vídeo são duas saídas dele.
 
 ## Pendências
+
+- **Resolução animada**: o Lucas avalia o piloto (app × vídeo) e decide o formato e as
+  próximas questões. A seguir: generalizar os modelos de cena e criar novos (lançamentos,
+  blocos e polias, óptica, ondas), versão em Manim dos modelos do circuito e do gráfico,
+  e onde hospedar os vídeos, se forem adotados.
 
 - **Fórmulas**: todas as provas do banco foram conferidas (v2.1.0 a v2.7.0). Única ressalva:
   a Unicamp 2027 foi conferida no caderno das provas S e W, e o registrado no manifesto é o
