@@ -26,7 +26,7 @@
       "texto": "<i>t</i><sub>D</sub> = 26 s; <i>R</i> = 120 m"
     }
   ],
-  "resolucao": "a)\n1. No trecho BC (de 6 s a 14 s) a velocidade cai de 20 m/s para 10 m/s: <i>a</i> = Δ<i>v</i>/Δ<i>t</i> = (10 – 20)/(14 – 6) = –10/8 = –1,25 m/s<sup>2</sup>. Intensidade: 1,25 m/s<sup>2</sup>.\n2. Teorema da energia cinética entre A (20 m/s) e D (10 m/s): τ<sub>R</sub> = Δ<i>E</i><sub>c</sub> = (1/2) · 1 000 · (10<sup>2</sup> – 20<sup>2</sup>) = 500 · (–300) = –150 000 J.\n3. τ<sub>R</sub> = –1,5 × 10<sup>5</sup> J (trabalho resistente, pois o veículo perdeu energia cinética).\nb)\n4. Trecho AB: velocidade constante de 20 m/s durante 6 s ⇒ <i>L</i> = 20 · 6 = 120 m.\n5. Trecho CD: mesmo comprimento <i>L</i> = 120 m, percorrido a 10 m/s ⇒ Δ<i>t</i> = 120/10 = 12 s. Logo <i>t</i><sub>D</sub> = 14 + 12 = 26 s.\n6. Comprimento do arco BC = área sob o gráfico entre 6 s e 14 s (trapézio): <i>s</i> = (20 + 10)/2 · 8 = 120 m.\n7. A figura mostra que o arco BC corresponde a um ângulo central de 60° = π/3 rad. Comprimento do arco: <i>s</i> = (π/3) · <i>R</i> = (3/3) · <i>R</i> = <i>R</i> (com π = 3).\n8. <i>R</i> = 120 m.",
+  "resolucao": "a)\n1. No trecho BC (de 6 s a 14 s) a velocidade cai de 20 m/s para 10 m/s: \\(a = \\dfrac{\\Delta v}{\\Delta t} = \\dfrac{10 - 20}{14 - 6} = -\\dfrac{10}{8} = -1,25\\) m/s<sup>2</sup>. Intensidade: 1,25 m/s<sup>2</sup>.\n2. Teorema da energia cinética entre A (20 m/s) e D (10 m/s): \\(\\tau_{\\text{R}} = \\Delta E_{\\text{c}} = \\dfrac{1}{2} \\cdot 1 000 \\cdot (10^2 - 20^2) = 500 \\cdot (-300) = -150 000\\) J.\n3. τ<sub>R</sub> = –1,5 × 10<sup>5</sup> J (trabalho resistente, pois o veículo perdeu energia cinética).\nb)\n4. Trecho AB: velocidade constante de 20 m/s durante 6 s ⇒ <i>L</i> = 20 · 6 = 120 m.\n5. Trecho CD: mesmo comprimento <i>L</i> = 120 m, percorrido a 10 m/s ⇒ \\(\\Delta t = \\dfrac{120}{10} = 12\\) s. Logo <i>t</i><sub>D</sub> = 14 + 12 = 26 s.\n6. Comprimento do arco BC = área sob o gráfico entre 6 s e 14 s (trapézio): \\(s = \\dfrac{20 + 10}{2} \\cdot 8 = 120\\) m.\n7. A figura mostra que o arco BC corresponde a um ângulo central de 60° = \\(\\dfrac{\\pi}{3}\\) rad. Comprimento do arco: \\(s = \\dfrac{\\pi}{3} \\cdot R = \\dfrac{3}{3} \\cdot R = R\\) (com π = 3).\n8. <i>R</i> = 120 m.",
   "topicos": [
     "graficos-do-movimento-s-t-v-t-a-t",
     "energia-cinetica-e-teorema-trabalho-energia",
@@ -35,5 +35,5 @@
   ],
   "status": "publicado",
   "criadoEm": "2026-11-10T16:54:42.000Z",
-  "atualizadoEm": "2026-11-10T16:55:22.000Z"
+  "atualizadoEm": "2026-11-13T15:00:00.000Z"
 }
