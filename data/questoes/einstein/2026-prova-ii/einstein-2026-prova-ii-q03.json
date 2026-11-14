@@ -25,7 +25,7 @@
       "texto": "<i>h</i> = 20 m"
     }
   ],
-  "resolucao": "a)\n1. Sem resistência do ar, só o peso realiza trabalho. Pelo teorema da energia cinética: Δ<i>E</i><sub>c</sub> = τ<sub>peso</sub> = <i>mg</i>Δ<i>s</i> = 0,4 · 10 · 11,25 = 45 J.\nb)\n2. Seja <i>v</i><sub>0</sub> a velocidade do vaso diante de João. No trecho até José (MUV com <i>a</i> = <i>g</i>): Δ<i>s</i> = <i>v</i><sub>0</sub><i>t</i> + <i>gt</i><sup>2</sup>/2 ⇒ 11,25 = 0,5<i>v</i><sub>0</sub> + 5 · 0,25 ⇒ 0,5<i>v</i><sub>0</sub> = 10 ⇒ <i>v</i><sub>0</sub> = 20 m/s.\n3. (Conferindo o item a: diante de José, <i>v</i> = 20 + 10 · 0,5 = 25 m/s e Δ<i>E</i><sub>c</sub> = 0,4 · (25<sup>2</sup> – 20<sup>2</sup>)/2 = 0,2 · 225 = 45 J.)\n4. O vaso partiu do repouso a uma altura <i>h</i> acima de João: <i>v</i><sub>0</sub><sup>2</sup> = 2<i>gh</i> ⇒ <i>h</i> = 400/20 = 20 m.",
+  "resolucao": "a)\n1. Sem resistência do ar, só o peso realiza trabalho. Pelo teorema da energia cinética: Δ<i>E</i><sub>c</sub> = τ<sub>peso</sub> = <i>mg</i>Δ<i>s</i> = 0,4 · 10 · 11,25 = 45 J.\nb)\n2. Seja <i>v</i><sub>0</sub> a velocidade do vaso diante de João. No trecho até José (MUV com <i>a</i> = <i>g</i>): \\(\\Delta s = v_0 t + \\dfrac{gt^2}{2}\\) ⇒ 11,25 = 0,5<i>v</i><sub>0</sub> + 5 · 0,25 ⇒ 0,5<i>v</i><sub>0</sub> = 10 ⇒ <i>v</i><sub>0</sub> = 20 m/s.\n3. (Conferindo o item a: diante de José, <i>v</i> = 20 + 10 · 0,5 = 25 m/s e \\(\\Delta E_{\\text{c}} = \\dfrac{0,4 \\cdot (25^2 - 20^2)}{2} = 0,2 \\cdot 225 = 45\\) J.)\n4. O vaso partiu do repouso a uma altura <i>h</i> acima de João: <i>v</i><sub>0</sub><sup>2</sup> = 2<i>gh</i> ⇒ \\(h = \\dfrac{400}{20} = 20\\) m.",
   "topicos": [
     "queda-livre-e-lancamento-vertical",
     "energia-cinetica-e-teorema-trabalho-energia",
@@ -33,5 +33,5 @@
   ],
   "status": "publicado",
   "criadoEm": "2026-11-10T16:54:46.000Z",
-  "atualizadoEm": "2026-11-10T16:59:28.000Z"
+  "atualizadoEm": "2026-11-13T15:00:00.000Z"
 }

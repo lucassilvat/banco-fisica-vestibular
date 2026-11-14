@@ -14,12 +14,12 @@
   ],
   "gabarito": "A",
   "gabaritoFonte": "resolucao-propria",
-  "resolucao": "1. Potência total das estruturas da tabela: <i>P</i> = 20 + 10 + 25 + 7 + 18 = 80 W.\n2. Intervalo de tempo: Δ<i>t</i> = 10 h = 10 · 3 600 s = 36 000 s.\n3. Energia gasta: <i>E</i> = <i>P</i> · Δ<i>t</i> = 80 · 36 000 = 2 880 000 J = 2 880 kJ.\n4. Cada 50 g de arroz fornecem 700 kJ. Por proporção: <i>m</i> = (2 880/700) · 50 g ≈ 4,1 · 50 g ≈ 206 g.\n5. O valor mais próximo é 200 g.\nGabarito: A.",
+  "resolucao": "1. Potência total das estruturas da tabela: <i>P</i> = 20 + 10 + 25 + 7 + 18 = 80 W.\n2. Intervalo de tempo: Δ<i>t</i> = 10 h = 10 · 3 600 s = 36 000 s.\n3. Energia gasta: <i>E</i> = <i>P</i> · Δ<i>t</i> = 80 · 36 000 = 2 880 000 J = 2 880 kJ.\n4. Cada 50 g de arroz fornecem 700 kJ. Por proporção: \\(m = \\dfrac{2 880}{700} \\cdot 50\\) g ≈ 4,1 · 50 g ≈ 206 g.\n5. O valor mais próximo é 200 g.\nGabarito: A.",
   "topicos": [
     "potencia-e-rendimento",
     "grandezas-fisicas-e-sistema-internacional"
   ],
   "status": "publicado",
   "criadoEm": "2026-11-10T16:52:23.000Z",
-  "atualizadoEm": "2026-11-10T16:54:14.000Z"
+  "atualizadoEm": "2026-11-13T15:00:00.000Z"
 }

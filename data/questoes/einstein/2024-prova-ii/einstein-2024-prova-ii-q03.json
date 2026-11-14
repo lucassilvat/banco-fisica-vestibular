@@ -25,7 +25,7 @@
       "texto": "<i>m</i><sub>A</sub> = 10 kg; <i>T</i> = 60 N"
     }
   ],
-  "resolucao": "a)\n1. Rompido o fio, sem atrito, a única força que acelera a caixa ao longo da prancha é a componente do peso: <i>a</i> = <i>g</i> · sen θ = 10 · 0,6 = 6 m/s<sup>2</sup>.\n2. A caixa parte do repouso e percorre 6,75 m: <i>d</i> = <i>at</i><sup>2</sup>/2 ⇒ 6,75 = 6<i>t</i><sup>2</sup>/2 ⇒ <i>t</i><sup>2</sup> = 2,25 ⇒ <i>t</i> = 1,5 s.\nb)\n3. O mesmo fio sai da caixa A, passa pela polia fixa no alto da prancha, desce, contorna a polia móvel que sustenta B e sobe até o teto (ponto T). Fio ideal: a tração <i>T</i> é a mesma em todo ele.\n4. Equilíbrio da polia móvel (ideal) com o bloco B: 2<i>T</i> = <i>m</i><sub>B</sub> · <i>g</i> = 12 · 10 = 120 N ⇒ <i>T</i> = 60 N. Essa é a força que o fio exerce no teto.\n5. Equilíbrio da caixa A ao longo da prancha (fio paralelo à prancha): <i>T</i> = <i>m</i><sub>A</sub> · <i>g</i> · sen θ ⇒ 60 = <i>m</i><sub>A</sub> · 10 · 0,6 ⇒ <i>m</i><sub>A</sub> = 10 kg.",
+  "resolucao": "a)\n1. Rompido o fio, sem atrito, a única força que acelera a caixa ao longo da prancha é a componente do peso: <i>a</i> = <i>g</i> · sen θ = 10 · 0,6 = 6 m/s<sup>2</sup>.\n2. A caixa parte do repouso e percorre 6,75 m: \\(d = \\dfrac{at^2}{2} \\Rightarrow 6,75 = \\dfrac{6t^2}{2}\\) ⇒ <i>t</i><sup>2</sup> = 2,25 ⇒ <i>t</i> = 1,5 s.\nb)\n3. O mesmo fio sai da caixa A, passa pela polia fixa no alto da prancha, desce, contorna a polia móvel que sustenta B e sobe até o teto (ponto T). Fio ideal: a tração <i>T</i> é a mesma em todo ele.\n4. Equilíbrio da polia móvel (ideal) com o bloco B: 2<i>T</i> = <i>m</i><sub>B</sub> · <i>g</i> = 12 · 10 = 120 N ⇒ <i>T</i> = 60 N. Essa é a força que o fio exerce no teto.\n5. Equilíbrio da caixa A ao longo da prancha (fio paralelo à prancha): <i>T</i> = <i>m</i><sub>A</sub> · <i>g</i> · sen θ ⇒ 60 = <i>m</i><sub>A</sub> · 10 · 0,6 ⇒ <i>m</i><sub>A</sub> = 10 kg.",
   "topicos": [
     "plano-inclinado",
     "sistemas-de-blocos-fios-e-polias",
@@ -34,5 +34,5 @@
   ],
   "status": "publicado",
   "criadoEm": "2026-11-10T16:54:43.000Z",
-  "atualizadoEm": "2026-11-10T16:57:52.000Z"
+  "atualizadoEm": "2026-11-13T15:00:00.000Z"
 }

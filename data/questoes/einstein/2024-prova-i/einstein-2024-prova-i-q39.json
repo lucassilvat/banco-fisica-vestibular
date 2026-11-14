@@ -14,11 +14,11 @@
   ],
   "gabarito": "A",
   "gabaritoFonte": "resolucao-propria",
-  "resolucao": "1. Distância focal: <i>f</i> = 1/<i>V</i> = 1/2,5 = 0,4 m = 40 cm (lente convergente).\n2. Equação de Gauss com <i>p</i> = 50 cm: 1/<i>p</i>' = 1/<i>f</i> – 1/<i>p</i> = 1/40 – 1/50 = (5 – 4)/200 = 1/200 ⇒ <i>p</i>' = 200 cm.\n3. <i>p</i>' positivo: imagem real, que pode ser projetada num anteparo.\n4. Aumento linear: <i>A</i> = –<i>p</i>'/<i>p</i> = –200/50 = –4. A imagem é invertida e quatro vezes maior que o objeto.\nGabarito: A.",
+  "resolucao": "1. Distância focal: \\(f = \\dfrac{1}{V} = \\dfrac{1}{2,5} = 0,4\\) m = 40 cm (lente convergente).\n2. Equação de Gauss com <i>p</i> = 50 cm: \\(\\dfrac{1}{p′} = \\dfrac{1}{f} - \\dfrac{1}{p} = \\dfrac{1}{40} - \\dfrac{1}{50} = \\dfrac{5 - 4}{200} = \\dfrac{1}{200}\\) ⇒ <i>p</i>' = 200 cm.\n3. <i>p</i>' positivo: imagem real, que pode ser projetada num anteparo.\n4. Aumento linear: \\(A = -\\dfrac{p′}{p} = -\\dfrac{200}{50} = -4\\). A imagem é invertida e quatro vezes maior que o objeto.\nGabarito: A.",
   "topicos": [
     "lentes-esfericas-vergencia-gauss-aumento"
   ],
   "status": "publicado",
   "criadoEm": "2026-11-10T16:52:24.000Z",
-  "atualizadoEm": "2026-11-10T16:56:21.000Z"
+  "atualizadoEm": "2026-11-13T15:00:00.000Z"
 }

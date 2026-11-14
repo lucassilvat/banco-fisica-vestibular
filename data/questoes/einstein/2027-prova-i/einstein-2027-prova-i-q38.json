@@ -15,12 +15,12 @@
   ],
   "gabarito": "B",
   "gabaritoFonte": "resolucao-propria",
-  "resolucao": "1. Reflexão total só acontece quando a luz vai de um meio mais refringente para um menos refringente, com ângulo de incidência maior que o ângulo limite (sen <i>L</i> = <i>n</i><sub>menor</sub>/<i>n</i><sub>maior</sub>).\n2. Na figura, a luz se reflete na fronteira entre o núcleo e a casca: é preciso <i>n</i><sub>N</sub> > <i>n</i><sub>C</sub>. Isso elimina C, D e E.\n3. A casca é um material transparente (vidro ou plástico), cujo índice de refração é maior que o do ar: <i>n</i><sub>C</sub> > <i>n</i><sub>Ar</sub>. A igualdade da alternativa A só valeria se a casca fosse o próprio ar.\n4. <i>n</i><sub>N</sub> > <i>n</i><sub>C</sub> > <i>n</i><sub>Ar</sub>.\nGabarito: B.",
+  "resolucao": "1. Reflexão total só acontece quando a luz vai de um meio mais refringente para um menos refringente, com ângulo de incidência maior que o ângulo limite (\\(\\sen L = \\dfrac{n_{\\text{menor}}}{n_{\\text{maior}}}\\)).\n2. Na figura, a luz se reflete na fronteira entre o núcleo e a casca: é preciso <i>n</i><sub>N</sub> > <i>n</i><sub>C</sub>. Isso elimina C, D e E.\n3. A casca é um material transparente (vidro ou plástico), cujo índice de refração é maior que o do ar: <i>n</i><sub>C</sub> > <i>n</i><sub>Ar</sub>. A igualdade da alternativa A só valeria se a casca fosse o próprio ar.\n4. <i>n</i><sub>N</sub> > <i>n</i><sub>C</sub> > <i>n</i><sub>Ar</sub>.\nGabarito: B.",
   "topicos": [
     "reflexao-total-e-fibra-optica",
     "refracao-da-luz-e-indice-de-refracao"
   ],
   "status": "publicado",
   "criadoEm": "2026-11-10T16:52:29.000Z",
-  "atualizadoEm": "2026-11-10T17:00:27.000Z"
+  "atualizadoEm": "2026-11-13T15:00:00.000Z"
 }
