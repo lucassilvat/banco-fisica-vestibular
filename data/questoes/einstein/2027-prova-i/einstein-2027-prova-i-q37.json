@@ -14,14 +14,14 @@
   ],
   "gabarito": "C",
   "gabaritoFonte": "resolucao-propria",
-  "resolucao": "1. Massa constante e temperatura constante: transformação isotérmica, <i>pV</i> = constante (lei de Boyle).\n2. <i>P</i><sub>inicial</sub> · <i>V</i><sub>inicial</sub> = <i>P</i><sub>final</sub> · <i>V</i><sub>final</sub> ⇒ 24 · 0,1 = <i>P</i><sub>final</sub> · 0,8.\n3. <i>P</i><sub>final</sub> = 2,4/0,8 = 3 kPa.\nGabarito: C.",
+  "resolucao": "1. Massa constante e temperatura constante: transformação isotérmica, <i>pV</i> = constante (lei de Boyle).\n2. <i>P</i><sub>inicial</sub> · <i>V</i><sub>inicial</sub> = <i>P</i><sub>final</sub> · <i>V</i><sub>final</sub> ⇒ 24 · 0,1 = <i>P</i><sub>final</sub> · 0,8.\n3. \\(P_{\\text{final}} = \\dfrac{2,4}{0,8} = 3\\) kPa.\nGabarito: C.",
   "topicos": [
     "transformacoes-gasosas-isotermica-isobarica-isocorica-adiabatica",
     "gas-ideal-e-equacao-de-clapeyron"
   ],
   "status": "publicado",
   "criadoEm": "2026-11-10T16:52:29.000Z",
-  "atualizadoEm": "2026-11-10T17:00:27.000Z",
+  "atualizadoEm": "2026-11-13T15:00:00.000Z",
   "revisao": {
     "divergenciasAceitas": [
       "inicial"

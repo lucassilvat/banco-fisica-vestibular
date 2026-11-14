@@ -25,7 +25,7 @@
       "texto": "<i>v</i> = 20 m/s"
     }
   ],
-  "resolucao": "a)\n1. Queda livre a partir do repouso: Δ<i>s</i> = <i>gt</i><sup>2</sup>/2 ⇒ 20 = 10<i>t</i><sup>2</sup>/2 ⇒ <i>t</i><sup>2</sup> = 4 ⇒ <i>t</i> = 2 s.\n2. Velocidade escalar média: <i>v</i><sub>m</sub> = Δ<i>s</i>/Δ<i>t</i> = 20/2 = 10 m/s.\n3. (No MUV, também <i>v</i><sub>m</sub> = (<i>v</i><sub>0</sub> + <i>v</i>)/2 = (0 + 20)/2 = 10 m/s, pois após 2 s a velocidade é 20 m/s.)\nb)\n4. Sem resistência do ar, a energia mecânica se conserva. Com referência na água: <i>E</i><sub>m</sub> = <i>mg</i> · 30.\n5. No instante pedido, <i>E</i><sub>p</sub> = <i>E</i><sub>c</sub>/2 ⇒ <i>E</i><sub>m</sub> = <i>E</i><sub>p</sub> + <i>E</i><sub>c</sub> = 3<i>E</i><sub>c</sub>/2.\n6. <i>E</i><sub>c</sub> = (2/3) · <i>mg</i> · 30 = 20<i>mg</i> ⇒ <i>mv</i><sup>2</sup>/2 = 20<i>m</i> · 10 ⇒ <i>v</i><sup>2</sup> = 400 ⇒ <i>v</i> = 20 m/s (a pedra está, então, a 10 m acima da água).",
+  "resolucao": "a)\n1. Queda livre a partir do repouso: \\(\\Delta s = \\dfrac{gt^2}{2} \\Rightarrow 20 = \\dfrac{10t^2}{2}\\) ⇒ <i>t</i><sup>2</sup> = 4 ⇒ <i>t</i> = 2 s.\n2. Velocidade escalar média: \\(v_{\\text{m}} = \\dfrac{\\Delta s}{\\Delta t} = \\dfrac{20}{2} = 10\\) m/s.\n3. (No MUV, também \\(v_{\\text{m}} = \\dfrac{v_0 + v}{2} = \\dfrac{0 + 20}{2} = 10\\) m/s, pois após 2 s a velocidade é 20 m/s.)\nb)\n4. Sem resistência do ar, a energia mecânica se conserva. Com referência na água: <i>E</i><sub>m</sub> = <i>mg</i> · 30.\n5. No instante pedido, \\(E_{\\text{p}} = \\dfrac{E_{\\text{c}}}{2} \\Rightarrow E_{\\text{m}} = E_{\\text{p}} + E_{\\text{c}} = \\dfrac{3E_{\\text{c}}}{2}\\).\n6. \\(E_{\\text{c}} = \\dfrac{2}{3} \\cdot mg \\cdot 30 = 20mg \\Rightarrow \\dfrac{mv^2}{2} = 20m \\cdot 10\\) ⇒ <i>v</i><sup>2</sup> = 400 ⇒ <i>v</i> = 20 m/s (a pedra está, então, a 10 m acima da água).",
   "topicos": [
     "queda-livre-e-lancamento-vertical",
     "conservacao-da-energia-mecanica",
@@ -34,5 +34,5 @@
   ],
   "status": "publicado",
   "criadoEm": "2026-11-10T16:54:47.000Z",
-  "atualizadoEm": "2026-11-10T17:00:43.000Z"
+  "atualizadoEm": "2026-11-13T15:00:00.000Z"
 }

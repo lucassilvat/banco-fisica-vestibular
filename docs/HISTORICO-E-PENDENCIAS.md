@@ -160,6 +160,9 @@ Para gravar questões, usam-se os lotes da etapa `publicar` (docs/WORKFLOW.md).
     questões com resoluções em LaTeX. Conversor ganhou `\mp`, espaço depois de sen/cos e "/"
     sem espaço de operador. As provas da Acafe trazem as justificativas da banca no mesmo PDF;
     a busca de traços foi feita, mas a conferência final foi na imagem de cada questão.
+26. v2.7.0: Einstein 2024–2027 (Provas I e II) com fórmulas: 5 enunciados com fração
+    empilhada ou radical e 18 questões com resoluções em LaTeX. Variáveis retas do caderno
+    com `\mathrm{...}`.
 
 ## Pendências
 
@@ -167,8 +170,8 @@ Para gravar questões, usam-se os lotes da etapa `publicar` (docs/WORKFLOW.md).
   conferidos no caderno das provas S e W (o registrado no manifesto é o das provas R e Z, que
   não estava disponível): as 7 questões batem com ele, nenhuma tem fração empilhada (a unidade
   da Q12 está em linha, J/(g.°C)), e nada mudou. Fuvest
-  concluída (v2.3.0), inclusive a 2027. Unesp concluída (v2.4.0). ENEM concluído (v2.5.0). Acafe concluída (v2.6.0).
-  Falta o Einstein: resoluções em lote e enunciados prova a prova
+  concluída (v2.3.0), inclusive a 2027. Unesp concluída (v2.4.0). ENEM concluído (v2.5.0). Acafe concluída (v2.6.0). Einstein 2024–2027 concluído (v2.7.0).
+  Falta o Einstein 2023 (aguarda os PDFs das Provas I e II): resoluções em lote e enunciados prova a prova
   contra os PDFs. Para achar as frações empilhadas, procurar traços horizontais curtos com
   texto acima e abaixo na região de cada questão (PyMuPDF `get_drawings`): foi assim que se
   acharam as 4 da Unicamp; o resto foi conferido na imagem.

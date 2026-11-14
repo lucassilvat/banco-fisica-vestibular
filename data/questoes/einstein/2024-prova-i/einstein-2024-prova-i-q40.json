@@ -15,12 +15,12 @@
   ],
   "gabarito": "B",
   "gabaritoFonte": "resolucao-propria",
-  "resolucao": "1. Entre placas paralelas o campo é uniforme e <i>U</i> = <i>E</i> · <i>d</i>.\n2. <i>d</i> = <i>U</i>/<i>E</i> = 1,5 V / 10<sup>–6</sup> V/m = 1,5 × 10<sup>6</sup> m.\n3. Seriam placas a 1 500 km de distância ligadas a uma pilha comum: é essa a sensibilidade dos sensores dos tubarões.\nGabarito: B.",
+  "resolucao": "1. Entre placas paralelas o campo é uniforme e <i>U</i> = <i>E</i> · <i>d</i>.\n2. \\(d = \\dfrac{U}{E} = \\dfrac{1,5\\ \\text{V}}{10^{-6}\\ \\text{V/m}} = 1,5 \\times 10^6\\) m.\n3. Seriam placas a 1 500 km de distância ligadas a uma pilha comum: é essa a sensibilidade dos sensores dos tubarões.\nGabarito: B.",
   "topicos": [
     "linhas-de-campo-e-campo-eletrico-uniforme",
     "potencial-eletrico-e-diferenca-de-potencial"
   ],
   "status": "publicado",
   "criadoEm": "2026-11-10T16:52:24.000Z",
-  "atualizadoEm": "2026-11-10T16:56:21.000Z"
+  "atualizadoEm": "2026-11-13T15:00:00.000Z"
 }

@@ -4,6 +4,18 @@ Cada versão corresponde a um lote de importação ou a uma mudança no app/pipe
 Formato: `vMAIOR.MENOR.CORREÇÃO` — MENOR sobe a cada prova importada; MAIOR, em mudanças
 de modelo de dados; CORREÇÃO, em correções de questões já publicadas.
 
+## v2.7.0 — 2026-11-14
+
+- **Fórmulas no Einstein 2024–2027 (Prova I e Prova II).** Os 8 cadernos enviados pelo
+  Lucas conferem com o sha256 do manifesto; as 24 questões passam na fidelidade sem aviso.
+  O Einstein 2023 aguarda os PDFs.
+- **Enunciados:** 5 têm fração empilhada ou radical no caderno e passaram a LaTeX: 2024
+  Prova I Q37 (razão m<sub>T</sub>/m<sub>L</sub>) e Q38 (unidades de R e M); 2025 Prova I Q40
+  (alternativas C e E); 2025 Prova II Q03 (T = 2,04 · √L); 2027 Prova I Q39 (relação
+  f<sub>1</sub>/f<sub>2</sub> e alternativas A, C e E). Antes estavam em linha, com barra.
+  Unidades que o caderno imprime em linha (J/(kg · °C), m/s²) continuam assim.
+- **Resoluções:** 18 questões com frações, raízes e equações em LaTeX, mesmo conteúdo.
+
 ## v2.6.0 — 2026-11-14
 
 - **Fórmulas na Acafe 2021–2026 (Verão e Inverno).** Os 12 PDFs enviados pelo Lucas (provas
