@@ -12,14 +12,14 @@
   "figuras": [],
   "gabarito": "C",
   "gabaritoFonte": "oficial",
-  "resolucao": "1. Pressão arterial em pascal: 90 mmHg = (90/760) · 10<sup>5</sup> Pa ≈ 1,18 × 10<sup>4</sup> Pa.\n2. A coluna de soro deve exercer essa pressão: <i>p</i> = <i>μgh</i> ⇒ <i>h</i> = 1,18 × 10<sup>4</sup>/(10<sup>3</sup> · 10) ≈ 1,18 m.\nGabarito: C.",
+  "resolucao": "1. Pressão arterial em pascal: 90 mmHg = \\(\\dfrac{90}{760} \\cdot 10^5\\) Pa ≈ 1,18 × 10<sup>4</sup> Pa.\n2. A coluna de soro deve exercer essa pressão: <i>p</i> = <i>μgh</i> ⇒ \\(h = \\dfrac{1,18 \\times 10^4}{10^3 \\cdot 10} \\approx 1,18\\) m.\nGabarito: C.",
   "topicos": [
     "teorema-de-stevin-pressao-hidrostatica",
     "pressao"
   ],
   "status": "publicado",
   "criadoEm": "2026-11-10T14:13:24.000Z",
-  "atualizadoEm": "2026-11-10T14:13:24.000Z",
+  "atualizadoEm": "2026-11-13T15:00:00.000Z",
   "revisao": {
     "notas": "Enunciado transcrito da prova com gabarito e justificativas divulgada pela própria Acafe (o caderno aplicado não foi obtido; exceção autorizada pelo Lucas). Gabarito oficial, do mesmo documento. Destaque em vermelho da alternativa correta não reproduzido. Dados do formulário da prova (CONSTANTES FÍSICAS) incluídos antes das alternativas (decisão do Lucas: só os dados necessários). Divergências aceitas: palavras dos dados do formulário, que no PDF estão em letras matemáticas Unicode (𝑐𝑎𝑙, á𝑔𝑢𝑎, 𝑎𝑡𝑚, 𝑀𝑜𝑙).",
     "divergenciasAceitas": [

@@ -12,7 +12,7 @@
   "figuras": [],
   "gabarito": "A",
   "gabaritoFonte": "oficial",
-  "resolucao": "1. I – Verdadeira: o campo é tangente às linhas de campo, e a agulha de uma bússola se alinha com ele.\n2. II – Falsa: as linhas são circunferências concêntricas ao fio, mas o sentido é dado pela regra da mão direita.\n3. III – Verdadeira: ferro, cobalto e níquel são ferromagnéticos e são fortemente atraídos por ímãs.\n4. IV – Verdadeira: no solenoide longo, <i>B</i> = <i>μ</i><sub>0</sub><i>Ni</i>/<i>L</i>, uniforme e paralelo ao eixo, proporcional a <i>N</i>/<i>L</i>.\n5. V – Falsa: o norte da bússola é atraído por um polo sul magnético; perto do polo norte geográfico está o polo sul magnético, e os polos geográficos e magnéticos não coincidem.\n6. Verdadeiras: I, III e IV.\nGabarito: A.",
+  "resolucao": "1. I – Verdadeira: o campo é tangente às linhas de campo, e a agulha de uma bússola se alinha com ele.\n2. II – Falsa: as linhas são circunferências concêntricas ao fio, mas o sentido é dado pela regra da mão direita.\n3. III – Verdadeira: ferro, cobalto e níquel são ferromagnéticos e são fortemente atraídos por ímãs.\n4. IV – Verdadeira: no solenoide longo, \\(B = \\dfrac{\\mu_0 N i}{L}\\), uniforme e paralelo ao eixo, proporcional a \\(\\dfrac{N}{L}\\).\n5. V – Falsa: o norte da bússola é atraído por um polo sul magnético; perto do polo norte geográfico está o polo sul magnético, e os polos geográficos e magnéticos não coincidem.\n6. Verdadeiras: I, III e IV.\nGabarito: A.",
   "topicos": [
     "imas-e-campo-magnetico",
     "campo-magnetico-de-fio-retilineo",
@@ -21,7 +21,7 @@
   ],
   "status": "publicado",
   "criadoEm": "2026-11-10T14:13:26.000Z",
-  "atualizadoEm": "2026-11-10T14:13:26.000Z",
+  "atualizadoEm": "2026-11-13T15:00:00.000Z",
   "revisao": {
     "notas": "Enunciado transcrito da prova com gabarito e justificativas divulgada pela própria Acafe (o caderno aplicado não foi obtido; exceção autorizada pelo Lucas). Gabarito oficial, do mesmo documento. Destaque em vermelho da alternativa correta não reproduzido."
   }

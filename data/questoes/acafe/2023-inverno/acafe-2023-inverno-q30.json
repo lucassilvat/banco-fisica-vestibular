@@ -14,7 +14,7 @@
   ],
   "gabarito": "B",
   "gabaritoFonte": "oficial",
-  "resolucao": "1. 1ª – Falsa: ondas estacionárias resultam da superposição de ondas iguais que se propagam na mesma direção, em sentidos opostos.\n2. 2ª – Verdadeira: no saxofone (instrumento de sopro), o som vem de ondas estacionárias na coluna de ar do tubo.\n3. 3ª – Verdadeira: na figura a corda de 1 m vibra com 4 ventres (4º harmônico) a 400 Hz; a fundamental é 400/4 = 100 Hz.\n4. 4ª – Verdadeira: com 4 ventres em 1 m, <i>λ</i> = 0,5 m e <i>v</i> = <i>λf</i> = 0,5 · 400 = 200 m/s. A tração é o peso pendurado: <i>F</i> = 5 · 10 = 50 N. De <i>v</i> = √(<i>F</i>/<i>μ</i>): <i>μ</i> = 50/200<sup>2</sup> = 1,25 × 10<sup>−3</sup> kg/m = 1,25 g/m.\n5. 5ª – Verdadeira: a velocidade na corda depende só da tração e de <i>μ</i>; com <i>v</i> constante, aumentar <i>f</i> reduz <i>λ</i> = <i>v</i>/<i>f</i>.\n6. 6ª – Falsa: a difração é mais acentuada quando a fenda é menor (da ordem do comprimento de onda).\n7. Sequência: F, V, V, V, V, F.\nGabarito: B.",
+  "resolucao": "1. 1ª – Falsa: ondas estacionárias resultam da superposição de ondas iguais que se propagam na mesma direção, em sentidos opostos.\n2. 2ª – Verdadeira: no saxofone (instrumento de sopro), o som vem de ondas estacionárias na coluna de ar do tubo.\n3. 3ª – Verdadeira: na figura a corda de 1 m vibra com 4 ventres (4º harmônico) a 400 Hz; a fundamental é \\(\\dfrac{400}{4} = 100\\) Hz.\n4. 4ª – Verdadeira: com 4 ventres em 1 m, <i>λ</i> = 0,5 m e <i>v</i> = <i>λf</i> = 0,5 · 400 = 200 m/s. A tração é o peso pendurado: <i>F</i> = 5 · 10 = 50 N. De \\(v = \\sqrt{\\dfrac{F}{\\mu}}\\): \\(\\mu = \\dfrac{50}{200^2} = 1,25 \\times 10^{-3}\\) kg/m = 1,25 g/m.\n5. 5ª – Verdadeira: a velocidade na corda depende só da tração e de <i>μ</i>; com <i>v</i> constante, aumentar <i>f</i> reduz \\(\\lambda = \\dfrac{v}{f}\\).\n6. 6ª – Falsa: a difração é mais acentuada quando a fenda é menor (da ordem do comprimento de onda).\n7. Sequência: F, V, V, V, V, F.\nGabarito: B.",
   "topicos": [
     "ondas-estacionarias-e-cordas-vibrantes",
     "velocidade-de-onda-em-cordas-taylor",
@@ -22,7 +22,7 @@
   ],
   "status": "publicado",
   "criadoEm": "2026-11-10T14:13:23.000Z",
-  "atualizadoEm": "2026-11-10T14:13:23.000Z",
+  "atualizadoEm": "2026-11-13T15:00:00.000Z",
   "revisao": {
     "notas": "Enunciado transcrito da prova com gabarito e justificativas divulgada pela própria Acafe (o caderno aplicado não foi obtido; exceção autorizada pelo Lucas). Gabarito oficial, do mesmo documento. Destaque em vermelho da alternativa correta não reproduzido. Dados do formulário da prova incluídos antes das alternativas (decisão do Lucas: só os dados necessários). O símbolo μ da densidade linear foi transcrito da imagem."
   }

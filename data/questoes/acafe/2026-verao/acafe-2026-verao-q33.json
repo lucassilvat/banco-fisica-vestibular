@@ -12,13 +12,13 @@
   "figuras": [],
   "gabarito": "C",
   "gabaritoFonte": "oficial",
-  "resolucao": "1. Para fluido incompressível em regime permanente vale a equação da continuidade: <i>A</i><sub>1</sub><i>v</i><sub>1</sub> = <i>A</i><sub>2</sub><i>v</i><sub>2</sub> (vazão constante).\n2. A área da seção é proporcional ao quadrado do diâmetro (<i>A</i> = π<i>d</i><sup>2</sup>/4). Se o diâmetro dobra, de 8 mm para 16 mm, a área fica 4 vezes maior.\n3. I – Correta: <i>v</i><sub>2</sub> = <i>v</i><sub>1</sub>/4 = 0,4/4 = 0,1 m/s.\n4. II – Incorreta: a velocidade diminui no aneurisma, porque a mesma vazão passa por uma área maior.\n5. III – Correta: a vazão é a mesma em todas as seções do trecho examinado.\n6. IV – Incorreta: a equação da continuidade decorre da conservação da massa de um fluido incompressível em regime permanente e vale também para fluidos viscosos; a hipótese de fluido ideal é exigida pela equação de Bernoulli, não pela continuidade.\n7. V – Correta (conhecimento de Biologia): o fluxo lento aumenta o tempo de permanência do sangue no local, o que favorece a formação de trombos.\nGabarito: C.",
+  "resolucao": "1. Para fluido incompressível em regime permanente vale a equação da continuidade: <i>A</i><sub>1</sub><i>v</i><sub>1</sub> = <i>A</i><sub>2</sub><i>v</i><sub>2</sub> (vazão constante).\n2. A área da seção é proporcional ao quadrado do diâmetro (\\(A = \\dfrac{\\pi d^2}{4}\\)). Se o diâmetro dobra, de 8 mm para 16 mm, a área fica 4 vezes maior.\n3. I – Correta: \\(v_2 = \\dfrac{v_1}{4} = \\dfrac{0,4}{4} = 0,1\\) m/s.\n4. II – Incorreta: a velocidade diminui no aneurisma, porque a mesma vazão passa por uma área maior.\n5. III – Correta: a vazão é a mesma em todas as seções do trecho examinado.\n6. IV – Incorreta: a equação da continuidade decorre da conservação da massa de um fluido incompressível em regime permanente e vale também para fluidos viscosos; a hipótese de fluido ideal é exigida pela equação de Bernoulli, não pela continuidade.\n7. V – Correta (conhecimento de Biologia): o fluxo lento aumenta o tempo de permanência do sangue no local, o que favorece a formação de trombos.\nGabarito: C.",
   "topicos": [
     "vazao-e-equacao-da-continuidade"
   ],
   "status": "publicado",
   "criadoEm": "2026-11-10T12:50:19.000Z",
-  "atualizadoEm": "2026-11-10T12:50:19.000Z",
+  "atualizadoEm": "2026-11-13T15:00:00.000Z",
   "revisao": {
     "notas": "Enunciado transcrito da prova com gabarito e justificativas divulgada pela própria Acafe (o caderno aplicado não foi obtido; decisão do Lucas em 10/11/2026). Gabarito oficial, do mesmo documento. Destaque em vermelho da alternativa correta não reproduzido."
   }

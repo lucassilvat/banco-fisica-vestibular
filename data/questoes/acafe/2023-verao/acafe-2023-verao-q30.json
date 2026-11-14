@@ -14,7 +14,7 @@
   ],
   "gabarito": "D",
   "gabaritoFonte": "oficial",
-  "resolucao": "1. I – Correta: no exterior e no interior o potencial é constante; como <i>E</i> = −Δ<i>V</i>/Δ<i>x</i>, o campo é nulo nessas regiões.\n2. II – Correta: na membrana o potencial varia linearmente com <i>x</i>; o campo é uniforme e não nulo.\n3. III – Correta: <i>U</i> = <i>Ed</i> ⇒ <i>E</i> = 70 × 10<sup>−3</sup> V/(80 × 10<sup>−10</sup> m) = 8,75 × 10<sup>6</sup> V/m.\n4. IV – Incorreta: o campo aponta no sentido dos potenciais decrescentes, do exterior (0 mV) para o interior (−70 mV).\n5. V – Correta: <i>F</i> = |<i>q</i>|<i>E</i> = 1,6 × 10<sup>−19</sup> · 8,75 × 10<sup>6</sup> = 1,4 × 10<sup>−12</sup> N = 1,4 pN.\n6. Corretas: I, II, III e V.\nGabarito: D.",
+  "resolucao": "1. I – Correta: no exterior e no interior o potencial é constante; como \\(E = -\\dfrac{\\Delta V}{\\Delta x}\\), o campo é nulo nessas regiões.\n2. II – Correta: na membrana o potencial varia linearmente com <i>x</i>; o campo é uniforme e não nulo.\n3. III – Correta: <i>U</i> = <i>Ed</i> ⇒ \\(E = \\dfrac{70 \\times 10^{-3}\\ \\text{V}}{80 \\times 10^{-10}\\ \\text{m}} = 8,75 \\times 10^6\\) V/m.\n4. IV – Incorreta: o campo aponta no sentido dos potenciais decrescentes, do exterior (0 mV) para o interior (−70 mV).\n5. V – Correta: <i>F</i> = |<i>q</i>|<i>E</i> = 1,6 × 10<sup>−19</sup> · 8,75 × 10<sup>6</sup> = 1,4 × 10<sup>−12</sup> N = 1,4 pN.\n6. Corretas: I, II, III e V.\nGabarito: D.",
   "topicos": [
     "linhas-de-campo-e-campo-eletrico-uniforme",
     "potencial-eletrico-e-diferenca-de-potencial",
@@ -22,7 +22,7 @@
   ],
   "status": "publicado",
   "criadoEm": "2026-11-10T14:13:22.000Z",
-  "atualizadoEm": "2026-11-10T14:13:22.000Z",
+  "atualizadoEm": "2026-11-13T15:00:00.000Z",
   "revisao": {
     "notas": "Enunciado transcrito da prova com gabarito e justificativas divulgada pela própria Acafe (o caderno aplicado não foi obtido; exceção autorizada pelo Lucas). Gabarito oficial, do mesmo documento. Destaque em vermelho da alternativa correta não reproduzido. Dados do formulário da prova incluídos antes das alternativas (decisão do Lucas: só os dados necessários)."
   }

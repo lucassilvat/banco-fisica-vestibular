@@ -14,7 +14,7 @@
   ],
   "gabarito": "B",
   "gabaritoFonte": "oficial",
-  "resolucao": "1. Com a chave fechada e os capacitores completamente carregados, não há corrente nos ramos 1 e 2 (capacitor carregado se comporta como circuito aberto). Só o ramo 3 conduz.\n2. I – Correta: <i>R</i><sub>eq</sub> = <i>R</i><sub>3</sub> + <i>R</i><sub>4</sub> = 4 + 6 = 10 kΩ; <i>i</i> = <i>U</i>/<i>R</i><sub>eq</sub> = 300/(10 × 10<sup>3</sup>) = 0,03 A = 30 mA.\n3. Como não há corrente em <i>R</i><sub>1</sub> e <i>R</i><sub>2</sub>, a ddp nesses resistores é nula e cada capacitor fica com a ddp total dos ramos: 300 V.\n4. II – Correta: <i>E</i> = <i>C</i><i>U</i><sup>2</sup>/2 = (10 × 10<sup>−6</sup> · 300<sup>2</sup>)/2 = 0,45 J = 450 mJ.\n5. III – Incorreta: com C<sub>2</sub> carregado não há corrente em R<sub>2</sub>, então a ddp em C<sub>2</sub> é 300 V.\n6. IV – Correta: <i>Q</i><sub>1</sub> = <i>C</i><sub>1</sub><i>U</i> = 10 × 10<sup>−6</sup> · 300 = 3 mC; <i>Q</i><sub>2</sub> = <i>C</i><sub>2</sub><i>U</i> = 20 × 10<sup>−6</sup> · 300 = 6 mC; total 9 mC.\n7. V – Incorreta: ao abrir a chave, só a fonte sai do circuito; os três ramos continuam ligados entre si e formam malhas fechadas. Os capacitores carregados se descarregam através dos resistores (principalmente pelo ramo 3), e há corrente transitória.\nGabarito: B.",
+  "resolucao": "1. Com a chave fechada e os capacitores completamente carregados, não há corrente nos ramos 1 e 2 (capacitor carregado se comporta como circuito aberto). Só o ramo 3 conduz.\n2. I – Correta: <i>R</i><sub>eq</sub> = <i>R</i><sub>3</sub> + <i>R</i><sub>4</sub> = 4 + 6 = 10 kΩ; \\(i = \\dfrac{U}{R_{\\text{eq}}} = \\dfrac{300}{10 \\times 10^3} = 0,03\\) A = 30 mA.\n3. Como não há corrente em <i>R</i><sub>1</sub> e <i>R</i><sub>2</sub>, a ddp nesses resistores é nula e cada capacitor fica com a ddp total dos ramos: 300 V.\n4. II – Correta: \\(E = \\dfrac{CU^2}{2} = \\dfrac{10 \\times 10^{-6} \\cdot 300^2}{2} = 0,45\\) J = 450 mJ.\n5. III – Incorreta: com C<sub>2</sub> carregado não há corrente em R<sub>2</sub>, então a ddp em C<sub>2</sub> é 300 V.\n6. IV – Correta: <i>Q</i><sub>1</sub> = <i>C</i><sub>1</sub><i>U</i> = 10 × 10<sup>−6</sup> · 300 = 3 mC; <i>Q</i><sub>2</sub> = <i>C</i><sub>2</sub><i>U</i> = 20 × 10<sup>−6</sup> · 300 = 6 mC; total 9 mC.\n7. V – Incorreta: ao abrir a chave, só a fonte sai do circuito; os três ramos continuam ligados entre si e formam malhas fechadas. Os capacitores carregados se descarregam através dos resistores (principalmente pelo ramo 3), e há corrente transitória.\nGabarito: B.",
   "topicos": [
     "capacitores-e-capacitancia",
     "associacao-de-capacitores",
@@ -23,7 +23,7 @@
   ],
   "status": "publicado",
   "criadoEm": "2026-11-10T12:50:19.000Z",
-  "atualizadoEm": "2026-11-10T12:50:19.000Z",
+  "atualizadoEm": "2026-11-13T15:00:00.000Z",
   "revisao": {
     "notas": "Enunciado transcrito da prova com gabarito e justificativas divulgada pela própria Acafe (o caderno aplicado não foi obtido; decisão do Lucas em 10/11/2026). Gabarito oficial, do mesmo documento. Destaque em vermelho da alternativa correta não reproduzido."
   }

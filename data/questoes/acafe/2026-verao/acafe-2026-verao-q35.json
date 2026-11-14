@@ -12,7 +12,7 @@
   "figuras": [],
   "gabarito": "A",
   "gabaritoFonte": "oficial",
-  "resolucao": "1. Primeira lei da termodinâmica: <i>Q</i> = <i>τ</i> + Δ<i>U</i>, com <i>τ</i> > 0 quando o gás se expande e Δ<i>U</i> ∝ Δ<i>T</i> para gás ideal (<i>U</i> = 3<i>nRT</i>/2).\n2. I – Correta: isotérmica ⇒ Δ<i>T</i> = 0 ⇒ Δ<i>U</i> = 0. Na expansão <i>τ</i> > 0, então <i>Q</i> = <i>τ</i> > 0: o gás recebe calor.\n3. II – Correta: isocórica ⇒ <i>τ</i> = 0, então <i>Q</i> = Δ<i>U</i> > 0 no aquecimento. Com <i>V</i> constante e <i>T</i> maior, <i>pV</i> = <i>nRT</i> dá pressão maior.\n4. III – Incorreta: adiabática ⇒ <i>Q</i> = 0. Na compressão o gás recebe trabalho (<i>τ</i> < 0), então Δ<i>U</i> = −<i>τ</i> > 0: a energia interna e a temperatura aumentam.\n5. IV – Incorreta: ao voltar ao estado inicial, o ciclo tem Δ<i>U</i> = 0; a soma dos calores é igual à soma dos trabalhos.\n6. V – Incorreta: a temperatura variou ao longo do ciclo (aumentou em P<sub>2</sub> e em P<sub>3</sub>, por exemplo); só a variação total da energia interna no ciclo é nula.\nGabarito: A.",
+  "resolucao": "1. Primeira lei da termodinâmica: <i>Q</i> = <i>τ</i> + Δ<i>U</i>, com <i>τ</i> > 0 quando o gás se expande e Δ<i>U</i> ∝ Δ<i>T</i> para gás ideal (\\(U = \\dfrac{3nRT}{2}\\)).\n2. I – Correta: isotérmica ⇒ Δ<i>T</i> = 0 ⇒ Δ<i>U</i> = 0. Na expansão <i>τ</i> > 0, então <i>Q</i> = <i>τ</i> > 0: o gás recebe calor.\n3. II – Correta: isocórica ⇒ <i>τ</i> = 0, então <i>Q</i> = Δ<i>U</i> > 0 no aquecimento. Com <i>V</i> constante e <i>T</i> maior, <i>pV</i> = <i>nRT</i> dá pressão maior.\n4. III – Incorreta: adiabática ⇒ <i>Q</i> = 0. Na compressão o gás recebe trabalho (<i>τ</i> < 0), então Δ<i>U</i> = −<i>τ</i> > 0: a energia interna e a temperatura aumentam.\n5. IV – Incorreta: ao voltar ao estado inicial, o ciclo tem Δ<i>U</i> = 0; a soma dos calores é igual à soma dos trabalhos.\n6. V – Incorreta: a temperatura variou ao longo do ciclo (aumentou em P<sub>2</sub> e em P<sub>3</sub>, por exemplo); só a variação total da energia interna no ciclo é nula.\nGabarito: A.",
   "topicos": [
     "primeira-lei-da-termodinamica",
     "transformacoes-gasosas-isotermica-isobarica-isocorica-adiabatica",
@@ -20,7 +20,7 @@
   ],
   "status": "publicado",
   "criadoEm": "2026-11-10T12:50:19.000Z",
-  "atualizadoEm": "2026-11-10T12:50:19.000Z",
+  "atualizadoEm": "2026-11-13T15:00:00.000Z",
   "revisao": {
     "notas": "Enunciado transcrito da prova com gabarito e justificativas divulgada pela própria Acafe (o caderno aplicado não foi obtido; decisão do Lucas em 10/11/2026). Gabarito oficial, do mesmo documento. Destaque em vermelho da alternativa correta não reproduzido."
   }

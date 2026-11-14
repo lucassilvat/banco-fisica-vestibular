@@ -29,7 +29,7 @@ LATEX_CMDS = {
     "mu", "nu", "xi", "pi", "rho", "sigma", "tau", "phi", "varphi", "chi", "psi", "omega",
     "Gamma", "Delta", "Theta", "Lambda", "Pi", "Sigma", "Phi", "Psi", "Omega", "ell",
     # operadores e relações
-    "cdot", "times", "div", "pm", "approx", "neq", "ne", "leq", "le", "geq", "ge", "Rightarrow", "rightarrow", "to",
+    "cdot", "times", "div", "pm", "mp", "approx", "neq", "ne", "leq", "le", "geq", "ge", "Rightarrow", "rightarrow", "to",
     "Leftrightarrow", "propto", "infty", "circ", "sim", "equiv", "parallel", "perp", "ldots", "cdots",
     # funções e espaços
     "sen", "sin", "cos", "tg", "tan", "log", "ln", "quad",

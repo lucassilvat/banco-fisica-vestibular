@@ -15,14 +15,14 @@
   ],
   "gabarito": "A",
   "gabaritoFonte": "oficial",
-  "resolucao": "1. Pelo princípio de Pascal, o acréscimo de pressão aplicado ao fluido é transmitido integralmente a todos os seus pontos: <i>F</i><sub>1</sub>/<i>A</i><sub>1</sub> = <i>F</i><sub>2</sub>/<i>A</i><sub>2</sub>. Isso descarta as afirmações de pressão maior, menor ou crescente (B, C e D).\n2. Áreas na mesma unidade: <i>A</i><sub>êmbolo</sub> = 0,04 dm<sup>2</sup> = 0,04 · 10<sup>4</sup> mm<sup>2</sup> = 400 mm<sup>2</sup>; <i>A</i><sub>agulha</sub> = 2 mm<sup>2</sup>.\n3. <i>F</i><sub>agulha</sub> = 60 · 2/400 = 0,3 N.\nGabarito: A.",
+  "resolucao": "1. Pelo princípio de Pascal, o acréscimo de pressão aplicado ao fluido é transmitido integralmente a todos os seus pontos: \\(\\dfrac{F_1}{A_1} = \\dfrac{F_2}{A_2}\\). Isso descarta as afirmações de pressão maior, menor ou crescente (B, C e D).\n2. Áreas na mesma unidade: <i>A</i><sub>êmbolo</sub> = 0,04 dm<sup>2</sup> = 0,04 · 10<sup>4</sup> mm<sup>2</sup> = 400 mm<sup>2</sup>; <i>A</i><sub>agulha</sub> = 2 mm<sup>2</sup>.\n3. \\(F_{\\text{agulha}} = \\dfrac{60 \\cdot 2}{400} = 0,3\\) N.\nGabarito: A.",
   "topicos": [
     "principio-de-pascal-e-prensa-hidraulica",
     "pressao"
   ],
   "status": "publicado",
   "criadoEm": "2026-11-10T14:13:23.000Z",
-  "atualizadoEm": "2026-11-10T14:13:23.000Z",
+  "atualizadoEm": "2026-11-13T15:00:00.000Z",
   "revisao": {
     "notas": "Enunciado transcrito da prova com gabarito e justificativas divulgada pela própria Acafe (o caderno aplicado não foi obtido; exceção autorizada pelo Lucas). Gabarito oficial, do mesmo documento. Destaque em vermelho da alternativa correta não reproduzido."
   }

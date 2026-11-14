@@ -14,14 +14,14 @@
   ],
   "gabarito": "B",
   "gabaritoFonte": "oficial",
-  "resolucao": "1. Período do pêndulo simples: <i>T</i> = 2π√(<i>L</i>/<i>g</i>) = 2 · 3 · √(2,5/10) = 6 · 0,5 = 3 s. Isso elimina C e D.\n2. Partindo de A (extremo) em <i>t</i> = 0, em <i>t</i> = 0,75 s = <i>T</i>/4 Mickey está no ponto mais baixo, B.\n3. Em B, pela figura, ele está a <i>p</i> = 5 cm do espelho convexo, cuja distância focal é <i>f</i> = −<i>R</i>/2 = −15 cm.\n4. Equação de Gauss: 1/<i>p</i>’ = 1/<i>f</i> − 1/<i>p</i> = −1/15 − 1/5 = −4/15 ⇒ <i>p</i>’ = −3,75 cm (imagem virtual).\n5. Aumento: <i>A</i> = −<i>p</i>’/<i>p</i> = 3,75/5 = 0,75 ⇒ altura da imagem: 0,75 · 8 = 6 cm (direita e menor).\nGabarito: B.",
+  "resolucao": "1. Período do pêndulo simples: \\(T = 2\\pi\\sqrt{\\dfrac{L}{g}} = 2 \\cdot 3 \\cdot \\sqrt{\\dfrac{2,5}{10}} = 6 \\cdot 0,5 = 3\\) s. Isso elimina C e D.\n2. Partindo de A (extremo) em <i>t</i> = 0, em \\(t = 0,75\\) s = \\(\\dfrac{T}{4}\\) Mickey está no ponto mais baixo, B.\n3. Em B, pela figura, ele está a <i>p</i> = 5 cm do espelho convexo, cuja distância focal é \\(f = -\\dfrac{R}{2} = -15\\) cm.\n4. Equação de Gauss: \\(\\dfrac{1}{p′} = \\dfrac{1}{f} - \\dfrac{1}{p} = -\\dfrac{1}{15} - \\dfrac{1}{5} = -\\dfrac{4}{15}\\) ⇒ <i>p</i>’ = −3,75 cm (imagem virtual).\n5. Aumento: \\(A = -\\dfrac{p′}{p} = \\dfrac{3,75}{5} = 0,75\\) ⇒ altura da imagem: 0,75 · 8 = 6 cm (direita e menor).\nGabarito: B.",
   "topicos": [
     "pendulo-simples",
     "espelhos-esfericos-equacao-de-gauss-e-aumento"
   ],
   "status": "publicado",
   "criadoEm": "2026-11-10T14:13:23.000Z",
-  "atualizadoEm": "2026-11-10T14:13:23.000Z",
+  "atualizadoEm": "2026-11-13T15:00:00.000Z",
   "revisao": {
     "notas": "Enunciado transcrito da prova com gabarito e justificativas divulgada pela própria Acafe (o caderno aplicado não foi obtido; exceção autorizada pelo Lucas). Gabarito oficial, do mesmo documento. Destaque em vermelho da alternativa correta não reproduzido. Dados do formulário da prova incluídos antes das alternativas (decisão do Lucas: só os dados necessários)."
   }

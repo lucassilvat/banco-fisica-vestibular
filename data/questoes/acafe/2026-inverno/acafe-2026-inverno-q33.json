@@ -12,14 +12,14 @@
   "figuras": [],
   "gabarito": "A",
   "gabaritoFonte": "oficial",
-  "resolucao": "1. O trabalho da força elétrica é igual ao aumento de energia cinética do íon: <i>W</i> = |<i>q</i>|<i>Ed</i>.\n2. O íon Na<sup>+</sup> tem carga <i>e</i> = 1,6 × 10<sup>−19</sup> C; <i>d</i> = 2,0 nm = 2,0 × 10<sup>−9</sup> m.\n3. <i>E</i> = <i>W</i>/(<i>ed</i>) = 4,8 × 10<sup>−21</sup>/(1,6 × 10<sup>−19</sup> · 2,0 × 10<sup>−9</sup>) = 4,8 × 10<sup>−21</sup>/3,2 × 10<sup>−28</sup> = 1,5 × 10<sup>7</sup> V/m.\nGabarito: A.",
+  "resolucao": "1. O trabalho da força elétrica é igual ao aumento de energia cinética do íon: <i>W</i> = |<i>q</i>|<i>Ed</i>.\n2. O íon Na<sup>+</sup> tem carga <i>e</i> = 1,6 × 10<sup>−19</sup> C; <i>d</i> = 2,0 nm = 2,0 × 10<sup>−9</sup> m.\n3. \\(E = \\dfrac{W}{ed} = \\dfrac{4,8 \\times 10^{-21}}{1,6 \\times 10^{-19} \\cdot 2,0 \\times 10^{-9}} = \\dfrac{4,8 \\times 10^{-21}}{3,2 \\times 10^{-28}} = 1,5 \\times 10^7\\) V/m.\nGabarito: A.",
   "topicos": [
     "trabalho-da-forca-eletrica-e-energia-potencial-eletrica",
     "linhas-de-campo-e-campo-eletrico-uniforme"
   ],
   "status": "publicado",
   "criadoEm": "2026-11-10T14:13:27.000Z",
-  "atualizadoEm": "2026-11-10T14:13:27.000Z",
+  "atualizadoEm": "2026-11-13T15:00:00.000Z",
   "revisao": {
     "notas": "Enunciado transcrito da prova com gabarito e justificativas divulgada pela própria Acafe (o caderno aplicado não foi obtido; exceção autorizada pelo Lucas). Gabarito oficial, do mesmo documento. Destaque em vermelho da alternativa correta não reproduzido. Dados do formulário da prova (CONSTANTES FÍSICAS) incluídos antes das alternativas (decisão do Lucas: só os dados necessários)."
   }

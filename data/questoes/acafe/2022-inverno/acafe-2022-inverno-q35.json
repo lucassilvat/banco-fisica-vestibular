@@ -12,14 +12,14 @@
   "figuras": [],
   "gabarito": "B",
   "gabaritoFonte": "oficial",
-  "resolucao": "1. Campo de um fio retilíneo longo: <i>B</i> = <i>μ</i><sub>0</sub><i>i</i>/(2π<i>d</i>).\n2. Igualando ao campo terrestre: <i>d</i> = <i>μ</i><sub>0</sub><i>i</i>/(2π<i>B</i><sub>T</sub>) = (4π × 10<sup>−7</sup> · 4.000)/(2π · 5,0 × 10<sup>−5</sup>).\n3. <i>d</i> = (2 × 10<sup>−7</sup> · 4.000)/(5,0 × 10<sup>−5</sup>) = (8 × 10<sup>−4</sup>)/(5 × 10<sup>−5</sup>) = 16 m = 1,6 · 10<sup>1</sup> m.\nGabarito: B.",
+  "resolucao": "1. Campo de um fio retilíneo longo: \\(B = \\dfrac{\\mu_0 i}{2\\pi d}\\).\n2. Igualando ao campo terrestre: \\(d = \\dfrac{\\mu_0 i}{2\\pi B_{\\text{T}}} = \\dfrac{4\\pi \\times 10^{-7} \\cdot 4.000}{2\\pi \\cdot 5,0 \\times 10^{-5}}\\).\n3. \\(d = \\dfrac{2 \\times 10^{-7} \\cdot 4.000}{5,0 \\times 10^{-5}} = \\dfrac{8 \\times 10^{-4}}{5 \\times 10^{-5}} = 16\\) m = 1,6 · 10<sup>1</sup> m.\nGabarito: B.",
   "topicos": [
     "campo-magnetico-de-fio-retilineo",
     "campo-magnetico-terrestre-e-bussola"
   ],
   "status": "publicado",
   "criadoEm": "2026-11-10T14:13:21.000Z",
-  "atualizadoEm": "2026-11-10T14:13:21.000Z",
+  "atualizadoEm": "2026-11-13T15:00:00.000Z",
   "revisao": {
     "notas": "Enunciado transcrito da prova com gabarito e justificativas divulgada pela própria Acafe (o caderno aplicado não foi obtido; exceção autorizada pelo Lucas). Gabarito oficial, do mesmo documento. Destaque em vermelho da alternativa correta não reproduzido."
   }

@@ -12,14 +12,14 @@
   "figuras": [],
   "gabarito": "C",
   "gabaritoFonte": "oficial",
-  "resolucao": "1. I – Correta: a lupa é uma lente convergente com o objeto entre o foco e a lente; a imagem é virtual, direita e maior.\n2. II – Correta: a objetiva forma uma imagem real e invertida, que serve de objeto para a ocular; esta funciona como lupa e dá a imagem final virtual, ampliada e invertida em relação ao objeto.\n3. III – Incorreta: na luneta astronômica a ocular também funciona como lupa, logo a imagem final é virtual (e invertida), não real.\n4. IV – Correta: no microscópio a objetiva tem distância focal pequena (para ampliar objetos próximos); na luneta a objetiva tem distância focal grande, maior que a da ocular, e o aumento angular é <i>f</i><sub>obj</sub>/<i>f</i><sub>oc</sub>.\n5. V – Correta: na luneta de Galileu a ocular é divergente e a imagem final é direita; na luneta astronômica e no microscópio composto, as oculares são convergentes e a imagem final é invertida.\n6. VI – Incorreta: os sinais estão trocados; a ocular divergente (luneta de Galileu) tem vergência negativa, e a ocular convergente (luneta astronômica) tem vergência positiva.\n7. Corretas: I, II, IV e V.\nGabarito: C.",
+  "resolucao": "1. I – Correta: a lupa é uma lente convergente com o objeto entre o foco e a lente; a imagem é virtual, direita e maior.\n2. II – Correta: a objetiva forma uma imagem real e invertida, que serve de objeto para a ocular; esta funciona como lupa e dá a imagem final virtual, ampliada e invertida em relação ao objeto.\n3. III – Incorreta: na luneta astronômica a ocular também funciona como lupa, logo a imagem final é virtual (e invertida), não real.\n4. IV – Correta: no microscópio a objetiva tem distância focal pequena (para ampliar objetos próximos); na luneta a objetiva tem distância focal grande, maior que a da ocular, e o aumento angular é \\(\\dfrac{f_{\\text{obj}}}{f_{\\text{oc}}}\\).\n5. V – Correta: na luneta de Galileu a ocular é divergente e a imagem final é direita; na luneta astronômica e no microscópio composto, as oculares são convergentes e a imagem final é invertida.\n6. VI – Incorreta: os sinais estão trocados; a ocular divergente (luneta de Galileu) tem vergência negativa, e a ocular convergente (luneta astronômica) tem vergência positiva.\n7. Corretas: I, II, IV e V.\nGabarito: C.",
   "topicos": [
     "instrumentos-opticos-lupa-microscopio-luneta",
     "lentes-esfericas-vergencia-gauss-aumento"
   ],
   "status": "publicado",
   "criadoEm": "2026-11-10T12:50:19.000Z",
-  "atualizadoEm": "2026-11-10T12:50:19.000Z",
+  "atualizadoEm": "2026-11-13T15:00:00.000Z",
   "revisao": {
     "notas": "Enunciado transcrito da prova com gabarito e justificativas divulgada pela própria Acafe (o caderno aplicado não foi obtido; decisão do Lucas em 10/11/2026). Gabarito oficial, do mesmo documento. Destaque em vermelho da alternativa correta não reproduzido."
   }

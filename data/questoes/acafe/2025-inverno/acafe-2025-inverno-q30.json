@@ -12,13 +12,13 @@
   "figuras": [],
   "gabarito": "A",
   "gabaritoFonte": "oficial",
-  "resolucao": "1. A força para cima causada pela diferença de pressão entre as partes submersas é o empuxo: princípio de Arquimedes. Isso elimina B e C.\n2. Volume submerso: 1,875 × 10<sup>4</sup> cm<sup>3</sup> = 1,875 × 10<sup>−2</sup> m<sup>3</sup>. Empuxo: <i>E</i> = <i>d</i><i>gV</i> = 10<sup>3</sup> · 10 · 1,875 × 10<sup>−2</sup> = 187,5 N.\n3. Peso: <i>P</i> = 75 · 10 = 750 N. Alívio: 187,5/750 = 0,25 = 25%.\nGabarito: A.",
+  "resolucao": "1. A força para cima causada pela diferença de pressão entre as partes submersas é o empuxo: princípio de Arquimedes. Isso elimina B e C.\n2. Volume submerso: 1,875 × 10<sup>4</sup> cm<sup>3</sup> = 1,875 × 10<sup>−2</sup> m<sup>3</sup>. Empuxo: <i>E</i> = <i>d</i><i>gV</i> = 10<sup>3</sup> · 10 · 1,875 × 10<sup>−2</sup> = 187,5 N.\n3. Peso: <i>P</i> = 75 · 10 = 750 N. Alívio: \\(\\dfrac{187,5}{750} = 0,25\\) = 25%.\nGabarito: A.",
   "topicos": [
     "empuxo-e-principio-de-arquimedes"
   ],
   "status": "publicado",
   "criadoEm": "2026-11-10T14:13:26.000Z",
-  "atualizadoEm": "2026-11-10T14:13:26.000Z",
+  "atualizadoEm": "2026-11-13T15:00:00.000Z",
   "revisao": {
     "notas": "Enunciado transcrito da prova com gabarito e justificativas divulgada pela própria Acafe (o caderno aplicado não foi obtido; exceção autorizada pelo Lucas). Gabarito oficial, do mesmo documento. Destaque em vermelho da alternativa correta não reproduzido. Dados do formulário da prova (CONSTANTES FÍSICAS) incluídos antes das alternativas (decisão do Lucas: só os dados necessários). Divergências aceitas: palavras dos dados do formulário, que no PDF estão em letras matemáticas Unicode (𝑐𝑎𝑙, á𝑔𝑢𝑎, 𝑎𝑡𝑚, 𝑀𝑜𝑙).",
     "divergenciasAceitas": [

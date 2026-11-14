@@ -12,14 +12,14 @@
   "figuras": [],
   "gabarito": "D",
   "gabaritoFonte": "oficial",
-  "resolucao": "1. Com desaceleração constante até parar, a velocidade média é a média entre a inicial e a final (zero): <i>v</i><sub>m</sub> = <i>v</i><sub>0</sub>/2.\n2. <i>v</i><sub>m</sub> = Δ<i>S</i>/Δ<i>t</i> = 80/4 = 20 m/s ⇒ <i>v</i><sub>0</sub> = 40 m/s.\n3. Em km/h: 40 · 3,6 = 144 km/h.\nGabarito: D.",
+  "resolucao": "1. Com desaceleração constante até parar, a velocidade média é a média entre a inicial e a final (zero): \\(v_{\\text{m}} = \\dfrac{v_0}{2}\\).\n2. \\(v_{\\text{m}} = \\dfrac{\\Delta S}{\\Delta t} = \\dfrac{80}{4} = 20\\) m/s ⇒ <i>v</i><sub>0</sub> = 40 m/s.\n3. Em km/h: 40 · 3,6 = 144 km/h.\nGabarito: D.",
   "topicos": [
     "movimento-retilineo-uniformemente-variado-mruv",
     "velocidade-media-e-aceleracao-media"
   ],
   "status": "publicado",
   "criadoEm": "2026-11-10T14:13:24.000Z",
-  "atualizadoEm": "2026-11-10T14:13:24.000Z",
+  "atualizadoEm": "2026-11-13T15:00:00.000Z",
   "revisao": {
     "notas": "Enunciado transcrito da prova com gabarito e justificativas divulgada pela própria Acafe (o caderno aplicado não foi obtido; exceção autorizada pelo Lucas). Gabarito oficial, do mesmo documento. Destaque em vermelho da alternativa correta não reproduzido."
   }

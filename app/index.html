@@ -288,7 +288,7 @@ const TEX_SYM = {
   alpha: "α", beta: "β", gamma: "γ", delta: "δ", epsilon: "ϵ", varepsilon: "ε", zeta: "ζ", eta: "η", theta: "θ", iota: "ι", kappa: "κ", lambda: "λ", mu: "μ", nu: "ν", xi: "ξ", pi: "π", rho: "ρ", sigma: "σ", tau: "τ", phi: "ϕ", varphi: "φ", chi: "χ", psi: "ψ", omega: "ω",
   Gamma: "Γ", Delta: "Δ", Theta: "Θ", Lambda: "Λ", Pi: "Π", Sigma: "Σ", Phi: "Φ", Psi: "Ψ", Omega: "Ω", ell: "ℓ",
 };
-const TEX_OP = { cdot: "·", times: "×", div: "÷", pm: "±", approx: "≈", neq: "≠", ne: "≠", leq: "≤", le: "≤", geq: "≥", ge: "≥", Rightarrow: "⇒", rightarrow: "→", to: "→", Leftrightarrow: "⇔", propto: "∝", infty: "∞", circ: "∘", sim: "∼", equiv: "≡", parallel: "∥", perp: "⊥", ldots: "…", cdots: "⋯", "%": "%", "|": "‖", "{": "{", "}": "}" };
+const TEX_OP = { cdot: "·", times: "×", div: "÷", pm: "±", mp: "∓", approx: "≈", neq: "≠", ne: "≠", leq: "≤", le: "≤", geq: "≥", ge: "≥", Rightarrow: "⇒", rightarrow: "→", to: "→", Leftrightarrow: "⇔", propto: "∝", infty: "∞", circ: "∘", sim: "∼", equiv: "≡", parallel: "∥", perp: "⊥", ldots: "…", cdots: "⋯", "%": "%", "|": "‖", "{": "{", "}": "}" };
 const TEX_FN = ["sen", "sin", "cos", "tg", "tan", "log", "ln"];
 const TEX_SPACE = { ",": "0.167em", ";": "0.278em", " ": "0.25em", quad: "1em", "!": "0em" };
 const UP_GREEK = /^[ΓΔΘΛΠΣΦΨΩ]$/;
@@ -379,8 +379,8 @@ function texToMathML(n) {
     case "mi": return n.bold ? `<mi mathvariant="bold-italic">${mesc(n.v)}</mi>` : n.up ? `<mi mathvariant="normal">${mesc(n.v)}</mi>` : `<mi>${mesc(n.v)}</mi>`;
     case "bold": return texToMathML(emBold(n.b));
     case "mn": return `<mn>${mesc(n.v)}</mn>`;
-    case "mo": return n.fixo ? `<mo stretchy="false">${mesc(n.v)}</mo>` : `<mo>${mesc(n.v)}</mo>`;
-    case "fn": return `<mspace width="0.167em"/><mi>${n.v}</mi><mo>&#x2061;</mo>`;
+    case "mo": return n.v === "/" ? `<mo lspace="0" rspace="0">/</mo>` : n.fixo ? `<mo stretchy="false">${mesc(n.v)}</mo>` : `<mo>${mesc(n.v)}</mo>`;
+    case "fn": return `<mspace width="0.167em"/><mi>${n.v}</mi><mo>&#x2061;</mo><mspace width="0.167em"/>`;
     case "text": return n.bf ? `<mtext style="font-weight:bold">${mesc(n.v)}</mtext>` : `<mtext>${mesc(n.v)}</mtext>`;
     case "space": return `<mspace width="${n.w}"/>`;
     case "frac": { const f = `<mfrac>${one(n.n)}${one(n.d)}</mfrac>`; return n.small ? `<mstyle displaystyle="false">${f}</mstyle>` : f; }

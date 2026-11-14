@@ -14,14 +14,14 @@
   ],
   "gabarito": "A",
   "gabaritoFonte": "oficial",
-  "resolucao": "1. Volume: 2,0 dm<sup>3</sup> = 2.000 cm<sup>3</sup>. Carga: <i>Q</i> = 0,8 mAh/cm<sup>3</sup> · 2.000 cm<sup>3</sup> = 1.600 mAh = 1,6 Ah.\n2. Em coulombs: 1 Ah = 1 A · 3.600 s = 3.600 C ⇒ <i>Q</i> = 1,6 · 3.600 = 5.760 C.\n3. Número de elétrons: <i>n</i> = <i>Q</i>/|<i>e</i>| = 5.760/1,6 × 10<sup>−19</sup> = 3,6 × 10<sup>22</sup>.\nGabarito: A.",
+  "resolucao": "1. Volume: 2,0 dm<sup>3</sup> = 2.000 cm<sup>3</sup>. Carga: <i>Q</i> = 0,8 mAh/cm<sup>3</sup> · 2.000 cm<sup>3</sup> = 1.600 mAh = 1,6 Ah.\n2. Em coulombs: 1 Ah = 1 A · 3.600 s = 3.600 C ⇒ <i>Q</i> = 1,6 · 3.600 = 5.760 C.\n3. Número de elétrons: \\(n = \\dfrac{Q}{\\left|e\\right|} = \\dfrac{5.760}{1,6 \\times 10^{-19}} = 3,6 \\times 10^{22}\\).\nGabarito: A.",
   "topicos": [
     "corrente-eletrica",
     "carga-eletrica-e-processos-de-eletrizacao"
   ],
   "status": "publicado",
   "criadoEm": "2026-11-10T14:13:23.000Z",
-  "atualizadoEm": "2026-11-10T14:13:23.000Z",
+  "atualizadoEm": "2026-11-13T15:00:00.000Z",
   "revisao": {
     "notas": "Enunciado transcrito da prova com gabarito e justificativas divulgada pela própria Acafe (o caderno aplicado não foi obtido; exceção autorizada pelo Lucas). Gabarito oficial, do mesmo documento. Destaque em vermelho da alternativa correta não reproduzido. Dados do formulário da prova incluídos antes das alternativas (decisão do Lucas: só os dados necessários)."
   }

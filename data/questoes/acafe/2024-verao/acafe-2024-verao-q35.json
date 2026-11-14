@@ -12,7 +12,7 @@
   "figuras": [],
   "gabarito": "A",
   "gabaritoFonte": "oficial",
-  "resolucao": "1. Massa de água: 1 L = 1.000 cm<sup>3</sup> ⇒ <i>m</i> = 1.000 g. Calor para ir de 25 °C a 100 °C (ebulição ao nível do mar): <i>Q</i> = <i>mc</i>Δ<i>θ</i> = 1.000 · 1 · 75 = 75.000 cal = 300.000 J.\n2. Em 220 V: Δ<i>t</i><sub>1</sub> = 300.000/750 = 400 s.\n3. Em 110 V com o mesmo resistor (<i>P</i> = <i>U</i><sup>2</sup>/<i>R</i>): a potência cai para 1/4, isto é, 187,5 W. Δ<i>t</i><sub>2</sub> = 300.000/187,5 = 1.600 s. O tempo aumentou 1.200 s = 20 minutos.\n4. Para voltar a 750 W em 110 V: <i>R</i>’ = 110<sup>2</sup>/750 = <i>R</i>/4. Com o mesmo material e a mesma seção (<i>R</i> = <i>ρL</i>/<i>A</i>), o comprimento deve ser 1/4 do original: diminuir 75%.\nGabarito: A.",
+  "resolucao": "1. Massa de água: 1 L = 1.000 cm<sup>3</sup> ⇒ <i>m</i> = 1.000 g. Calor para ir de 25 °C a 100 °C (ebulição ao nível do mar): <i>Q</i> = <i>mc</i>Δ<i>θ</i> = 1.000 · 1 · 75 = 75.000 cal = 300.000 J.\n2. Em 220 V: \\(\\Delta t_1 = \\dfrac{300.000}{750} = 400\\) s.\n3. Em 110 V com o mesmo resistor (\\(P = \\dfrac{U^2}{R}\\)): a potência cai para \\(\\dfrac{1}{4}\\), isto é, 187,5 W. \\(\\Delta t_2 = \\dfrac{300.000}{187,5} = 1.600\\) s. O tempo aumentou 1.200 s = 20 minutos.\n4. Para voltar a 750 W em 110 V: \\(R′ = \\dfrac{110^2}{750} = \\dfrac{R}{4}\\). Com o mesmo material e a mesma seção (\\(R = \\dfrac{\\rho L}{A}\\)), o comprimento deve ser \\(\\dfrac{1}{4}\\) do original: diminuir 75%.\nGabarito: A.",
   "topicos": [
     "potencia-eletrica-e-efeito-joule",
     "segunda-lei-de-ohm-e-resistividade",
@@ -20,7 +20,7 @@
   ],
   "status": "publicado",
   "criadoEm": "2026-11-10T14:13:24.000Z",
-  "atualizadoEm": "2026-11-10T14:13:24.000Z",
+  "atualizadoEm": "2026-11-13T15:00:00.000Z",
   "revisao": {
     "notas": "Enunciado transcrito da prova com gabarito e justificativas divulgada pela própria Acafe (o caderno aplicado não foi obtido; exceção autorizada pelo Lucas). Gabarito oficial, do mesmo documento. Destaque em vermelho da alternativa correta não reproduzido. Dados do formulário da prova incluídos antes das alternativas (decisão do Lucas: só os dados necessários). Divergências aceitas: palavras dos dados do formulário, que no PDF estão em letras matemáticas Unicode (𝑐𝑎𝑙, á𝑔𝑢𝑎, 𝑎𝑡𝑚, 𝑀𝑜𝑙).",
     "divergenciasAceitas": [

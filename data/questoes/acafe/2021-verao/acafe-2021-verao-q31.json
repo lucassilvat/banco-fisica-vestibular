@@ -14,13 +14,13 @@
   ],
   "gabarito": "C",
   "gabaritoFonte": "oficial",
-  "resolucao": "1. Velocidade inicial do boneco: 90 km/h = 90/3,6 = 25 m/s; ao fim da colisão ele para.\n2. Teorema do impulso: |<i>I</i>| = |Δ<i>Q</i>| = |0 − <i>mv</i>| = 80 · 25 = 2.000 N·s.\n3. Força média: <i>F</i><sub>m</sub> = |<i>I</i>|/Δ<i>t</i> = 2.000/0,10 = 20.000 N.\n4. 2.000 (D) é o impulso, não a força.\nGabarito: C.",
+  "resolucao": "1. Velocidade inicial do boneco: 90 km/h = \\(\\dfrac{90}{3,6} = 25\\) m/s; ao fim da colisão ele para.\n2. Teorema do impulso: |<i>I</i>| = |Δ<i>Q</i>| = |0 − <i>mv</i>| = 80 · 25 = 2.000 N·s.\n3. Força média: \\(F_{\\text{m}} = \\dfrac{\\left|I\\right|}{\\Delta t} = \\dfrac{2.000}{0,10} = 20.000\\) N.\n4. 2.000 (D) é o impulso, não a força.\nGabarito: C.",
   "topicos": [
     "impulso-e-quantidade-de-movimento"
   ],
   "status": "publicado",
   "criadoEm": "2026-11-10T16:17:39.000Z",
-  "atualizadoEm": "2026-11-10T16:17:39.000Z",
+  "atualizadoEm": "2026-11-13T15:00:00.000Z",
   "revisao": {
     "notas": "Enunciado transcrito da prova com gabarito e justificativas divulgada pela própria Acafe (o caderno aplicado não foi obtido; exceção autorizada pelo Lucas). Gabarito oficial, do mesmo documento. Destaque em vermelho da alternativa correta não reproduzido. A prova com justificativas da Verão 2021 imprime a alternativa correta seguida da justificativa e só depois as demais; a ordem das alternativas foi mantida como no PDF, por decisão do Lucas (caderno aplicado não obtido). A figura não aparece na renderização da página (está no PDF como imagem com transparência); o recorte veio da imagem embutida."
   }

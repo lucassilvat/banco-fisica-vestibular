@@ -14,7 +14,7 @@
   ],
   "gabarito": "B",
   "gabaritoFonte": "oficial",
-  "resolucao": "1. No interior de um solenoide longo, <i>B</i> = <i>μNi</i>/<i>l</i>.\n2. 1ª – V: com o mesmo comprimento e a mesma corrente, <i>B</i> é proporcional ao número de espiras <i>N</i>.\n3. 2ª – F: o eixo de ferro não é ímã; é magnetizado pelo próprio campo do solenoide e é sempre atraído, qualquer que seja o sentido da corrente.\n4. 3ª – V: ao ligar e desligar o circuito, o campo aparece e desaparece; o fluxo magnético no interior do solenoide varia com o tempo.\n5. 4ª – F: <i>B</i> é inversamente proporcional ao comprimento <i>l</i>.\n6. 5ª – V: com ddp maior a corrente aumenta, o campo aumenta e a força de atração sobre o ferro fica mais intensa.\n7. Sequência: V – F – V – F – V.\nGabarito: B.",
+  "resolucao": "1. No interior de um solenoide longo, \\(B = \\dfrac{\\mu N i}{l}\\).\n2. 1ª – V: com o mesmo comprimento e a mesma corrente, <i>B</i> é proporcional ao número de espiras <i>N</i>.\n3. 2ª – F: o eixo de ferro não é ímã; é magnetizado pelo próprio campo do solenoide e é sempre atraído, qualquer que seja o sentido da corrente.\n4. 3ª – V: ao ligar e desligar o circuito, o campo aparece e desaparece; o fluxo magnético no interior do solenoide varia com o tempo.\n5. 4ª – F: <i>B</i> é inversamente proporcional ao comprimento <i>l</i>.\n6. 5ª – V: com ddp maior a corrente aumenta, o campo aumenta e a força de atração sobre o ferro fica mais intensa.\n7. Sequência: V – F – V – F – V.\nGabarito: B.",
   "topicos": [
     "campo-magnetico-de-espira-e-solenoide",
     "imas-e-campo-magnetico",
@@ -22,7 +22,7 @@
   ],
   "status": "publicado",
   "criadoEm": "2026-11-10T16:17:39.000Z",
-  "atualizadoEm": "2026-11-10T16:17:39.000Z",
+  "atualizadoEm": "2026-11-13T15:00:00.000Z",
   "revisao": {
     "notas": "Enunciado transcrito da prova com gabarito e justificativas divulgada pela própria Acafe (o caderno aplicado não foi obtido; exceção autorizada pelo Lucas). Gabarito oficial, do mesmo documento. Destaque em vermelho da alternativa correta não reproduzido. A prova com justificativas da Verão 2021 imprime a alternativa correta seguida da justificativa e só depois as demais; a ordem das alternativas foi mantida como no PDF, por decisão do Lucas (caderno aplicado não obtido)."
   }

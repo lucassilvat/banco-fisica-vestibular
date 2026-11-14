@@ -14,7 +14,7 @@
   ],
   "gabarito": "C",
   "gabaritoFonte": "oficial",
-  "resolucao": "1. I – Incorreta: no gerador a energia cinética de rotação é convertida em energia elétrica, que depois vira térmica na água; não há papel para a energia potencial gravitacional.\n2. II – Incorreta (conforme a banca): o funcionamento do gerador se baseia na indução eletromagnética (lei de Faraday); a lei de Lenz só determina o sentido da corrente induzida.\n3. III – Incorreta: coroa e catraca, ligadas pela correia, têm a mesma velocidade linear na borda; como os raios são diferentes, as velocidades angulares são diferentes (<i>ω</i> = <i>v</i>/<i>R</i>).\n4. IV – Correta: com a mesma velocidade linear da correia, catraca menor ou coroa maior aumenta a frequência de rotação da catraca (e da roda), girando o gerador mais rápido; a fem induzida e a potência elétrica entregue à água aumentam.\n5. Só a IV está correta.\nGabarito: C.",
+  "resolucao": "1. I – Incorreta: no gerador a energia cinética de rotação é convertida em energia elétrica, que depois vira térmica na água; não há papel para a energia potencial gravitacional.\n2. II – Incorreta (conforme a banca): o funcionamento do gerador se baseia na indução eletromagnética (lei de Faraday); a lei de Lenz só determina o sentido da corrente induzida.\n3. III – Incorreta: coroa e catraca, ligadas pela correia, têm a mesma velocidade linear na borda; como os raios são diferentes, as velocidades angulares são diferentes (\\(\\omega = \\dfrac{v}{R}\\)).\n4. IV – Correta: com a mesma velocidade linear da correia, catraca menor ou coroa maior aumenta a frequência de rotação da catraca (e da roda), girando o gerador mais rápido; a fem induzida e a potência elétrica entregue à água aumentam.\n5. Só a IV está correta.\nGabarito: C.",
   "topicos": [
     "transmissao-de-movimento-circular-polias-engrenagens-coroas",
     "inducao-eletromagnetica-lei-de-faraday",
@@ -22,7 +22,7 @@
   ],
   "status": "publicado",
   "criadoEm": "2026-11-10T14:13:23.000Z",
-  "atualizadoEm": "2026-11-10T14:13:23.000Z",
+  "atualizadoEm": "2026-11-13T15:00:00.000Z",
   "revisao": {
     "notas": "Enunciado transcrito da prova com gabarito e justificativas divulgada pela própria Acafe (o caderno aplicado não foi obtido; exceção autorizada pelo Lucas). Gabarito oficial, do mesmo documento. Destaque em vermelho da alternativa correta não reproduzido."
   }

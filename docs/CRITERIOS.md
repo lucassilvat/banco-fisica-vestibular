@@ -60,7 +60,7 @@ Não se usa `$...$`, porque o banco tem "R$".
   `h`) também vai empilhada: `\(108\,\dfrac{\text{km}}{\text{h}}\)`.
 - **Comandos aceitos:** `\frac \dfrac \tfrac \sqrt \sqrt[n] \vec \boldsymbol \text \mathrm \left \right`,
   letras gregas (`\Delta`, `\rho`...), `\cdot \times \approx \neq \leq \geq \Rightarrow \to
-  \propto \pm \infty \circ`, `\sen \cos \tg \log \ln`, espaços `\, \; \quad`; índices `_` e `^`.
+  \propto \pm \mp \infty \circ`, `\sen \cos \tg \log \ln`, espaços `\, \; \quad`; índices `_` e `^`.
   Fora disso o `verificar` acusa erro (a lista fica em `LATEX_CMDS`, em `pipeline/verificar.py`,
   e precisa bater com `parseTex` em `app/index.html`).
 
