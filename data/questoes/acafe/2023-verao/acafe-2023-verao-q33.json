@@ -12,7 +12,7 @@
   "figuras": [],
   "gabarito": "D",
   "gabaritoFonte": "oficial",
-  "resolucao": "1. Volume inicial de ar: 2,0 − 0,6 = 1,4 L = 1,4 × 10<sup>−3</sup> m<sup>3</sup>, a <i>T</i><sub>0</sub> = 27 + 273 = 300 K. Temperatura final: <i>T</i> = 7 + 273 = 280 K.\n2. Transformação isobárica: <i>V</i>/<i>T</i> constante ⇒ <i>V</i> = 1,4 · 280/300 ≈ 1,307 L. Δ<i>V</i> ≈ −0,093 L = −9,3 × 10<sup>−5</sup> m<sup>3</sup>.\n3. Trabalho: |<i>W</i>| = <i>p</i>|Δ<i>V</i>| = 1 × 10<sup>5</sup> · 9,3 × 10<sup>−5</sup> ≈ 9,3 J ≈ 10 J (1 atm ≈ 10<sup>5</sup> Pa). Como o gás é comprimido, o trabalho é realizado sobre o ar.\nGabarito: D.",
+  "resolucao": "1. Volume inicial de ar: 2,0 − 0,6 = 1,4 L = 1,4 × 10<sup>−3</sup> m<sup>3</sup>, a <i>T</i><sub>0</sub> = 27 + 273 = 300 K. Temperatura final: <i>T</i> = 7 + 273 = 280 K.\n2. Transformação isobárica: \\(\\dfrac{V}{T}\\) constante ⇒ \\(V = \\dfrac{1,4 \\cdot 280}{300} \\approx 1,307\\) L. Δ<i>V</i> ≈ −0,093 L = −9,3 × 10<sup>−5</sup> m<sup>3</sup>.\n3. Trabalho: |<i>W</i>| = <i>p</i>|Δ<i>V</i>| = 1 × 10<sup>5</sup> · 9,3 × 10<sup>−5</sup> ≈ 9,3 J ≈ 10 J (1 atm ≈ 10<sup>5</sup> Pa). Como o gás é comprimido, o trabalho é realizado sobre o ar.\nGabarito: D.",
   "topicos": [
     "transformacoes-gasosas-isotermica-isobarica-isocorica-adiabatica",
     "trabalho-em-transformacao-gasosa-grafico-p-v",
@@ -20,7 +20,7 @@
   ],
   "status": "publicado",
   "criadoEm": "2026-11-10T14:13:22.000Z",
-  "atualizadoEm": "2026-11-10T14:13:22.000Z",
+  "atualizadoEm": "2026-11-13T15:00:00.000Z",
   "revisao": {
     "notas": "Enunciado transcrito da prova com gabarito e justificativas divulgada pela própria Acafe (o caderno aplicado não foi obtido; exceção autorizada pelo Lucas). Gabarito oficial, do mesmo documento. Destaque em vermelho da alternativa correta não reproduzido."
   }

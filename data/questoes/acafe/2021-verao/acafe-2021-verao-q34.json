@@ -12,7 +12,7 @@
   "figuras": [],
   "gabarito": "B",
   "gabaritoFonte": "oficial",
-  "resolucao": "1. II – Incorreta: numa colher (sólido) o calor se propaga por condução; convecção exige movimento de fluido. Isso elimina A, C e D, que contêm II; resta B.\n2. III – Correta: calor é a energia térmica em trânsito, transferida por causa de uma diferença de temperatura.\n3. IV – Correta: pela lei de Fourier, Φ = <i>kA</i>Δ<i>θ</i>/<i>e</i>; o fluxo depende da diferença de temperatura.\n4. V – Correta: a energia interna é a soma das energias (cinéticas e potenciais) das partículas; a agitação molecular contribui para ela.\n5. I – A banca a considera incorreta, porque a energia interna depende também do número de partículas (da massa) do corpo, não só da temperatura. Mesmo sem decidir sobre I, a eliminação pelo item II já leva à alternativa B.\nGabarito: B.",
+  "resolucao": "1. II – Incorreta: numa colher (sólido) o calor se propaga por condução; convecção exige movimento de fluido. Isso elimina A, C e D, que contêm II; resta B.\n2. III – Correta: calor é a energia térmica em trânsito, transferida por causa de uma diferença de temperatura.\n3. IV – Correta: pela lei de Fourier, \\(\\Phi = \\dfrac{kA\\,\\Delta\\theta}{e}\\); o fluxo depende da diferença de temperatura.\n4. V – Correta: a energia interna é a soma das energias (cinéticas e potenciais) das partículas; a agitação molecular contribui para ela.\n5. I – A banca a considera incorreta, porque a energia interna depende também do número de partículas (da massa) do corpo, não só da temperatura. Mesmo sem decidir sobre I, a eliminação pelo item II já leva à alternativa B.\nGabarito: B.",
   "topicos": [
     "conducao-termica-lei-de-fourier",
     "energia-interna",
@@ -20,7 +20,7 @@
   ],
   "status": "publicado",
   "criadoEm": "2026-11-10T16:17:39.000Z",
-  "atualizadoEm": "2026-11-10T16:17:39.000Z",
+  "atualizadoEm": "2026-11-13T15:00:00.000Z",
   "revisao": {
     "notas": "Enunciado transcrito da prova com gabarito e justificativas divulgada pela própria Acafe (o caderno aplicado não foi obtido; exceção autorizada pelo Lucas). Gabarito oficial, do mesmo documento. Destaque em vermelho da alternativa correta não reproduzido. A prova com justificativas da Verão 2021 imprime a alternativa correta seguida da justificativa e só depois as demais; a ordem das alternativas foi mantida como no PDF, por decisão do Lucas (caderno aplicado não obtido). Os itens I a V aparecem, no texto do PDF, depois das alternativas A e B (na imagem estão no lugar certo). URL da fonte quebrada em duas linhas no PDF; transcrita inteira. Divergência aceita: espalhar.",
     "divergenciasAceitas": [

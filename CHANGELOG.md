@@ -4,6 +4,22 @@ Cada versão corresponde a um lote de importação ou a uma mudança no app/pipe
 Formato: `vMAIOR.MENOR.CORREÇÃO` — MENOR sobe a cada prova importada; MAIOR, em mudanças
 de modelo de dados; CORREÇÃO, em correções de questões já publicadas.
 
+## v2.6.0 — 2026-11-14
+
+- **Fórmulas na Acafe 2021–2026 (Verão e Inverno).** Os 12 PDFs enviados pelo Lucas (provas
+  com gabarito e justificativas, fonte autorizada da Acafe) conferem com o sha256 do
+  manifesto; as 84 questões passam na fidelidade sem aviso.
+- **Enunciados:** 7 têm fração empilhada ou radical na prova e passaram a LaTeX:
+  2021 Verão Q30 (alternativas; a B é a fração 10/1,6, antes transcrita com parênteses que a
+  prova não tem); 2022 Verão Q32 (alternativas com raiz); 2023 Inverno Q29 (√2 = 1,4);
+  2023 Verão Q34 (4√2 e 3√3); 2025 Inverno Q33 (√3 = 1,73); 2025 Verão Q35 (alternativas com
+  √3, barras em linha como na prova); 2026 Inverno Q29 (alternativas, antes transcritas em
+  linha com parênteses). O formulário e as constantes que vão no enunciado estão em linha na
+  prova e continuam assim.
+- **Resoluções:** 58 questões com frações, raízes e equações em LaTeX, mesmo conteúdo.
+- **Conversor de fórmulas:** `\mp` (∓); espaço depois de sen/cos/log (antes saía "cosr");
+  barra "/" dentro da fórmula sem o espaço de operador ("T₃/2").
+
 ## v2.5.0 — 2026-11-13
 
 - **Fórmulas no ENEM 2017–2025.** Os 9 cadernos (2º dia, caderno 5 amarelo) enviados pelo

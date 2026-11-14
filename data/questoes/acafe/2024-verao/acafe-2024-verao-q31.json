@@ -12,7 +12,7 @@
   "figuras": [],
   "gabarito": "B",
   "gabaritoFonte": "oficial",
-  "resolucao": "1. A – Incorreta: ao passar para um meio mais refringente a luz diminui a velocidade e se aproxima da normal (não se afasta).\n2. B – Correta: a vergência <i>V</i> = 1/<i>f</i> mede a capacidade de convergir ou divergir a luz; no SI a unidade é m<sup>−1</sup> (a dioptria, \"grau\").\n3. C – Incorreta: a dificuldade de acomodação para perto por perda de capacidade dos músculos ciliares (e do cristalino) é a presbiopia; a miopia é a dificuldade de ver de longe.\n4. D – Incorreta: o vermelho tem o maior comprimento de onda do espectro visível, não o menor.\nGabarito: B.",
+  "resolucao": "1. A – Incorreta: ao passar para um meio mais refringente a luz diminui a velocidade e se aproxima da normal (não se afasta).\n2. B – Correta: a vergência \\(V = \\dfrac{1}{f}\\) mede a capacidade de convergir ou divergir a luz; no SI a unidade é m<sup>−1</sup> (a dioptria, \"grau\").\n3. C – Incorreta: a dificuldade de acomodação para perto por perda de capacidade dos músculos ciliares (e do cristalino) é a presbiopia; a miopia é a dificuldade de ver de longe.\n4. D – Incorreta: o vermelho tem o maior comprimento de onda do espectro visível, não o menor.\nGabarito: B.",
   "topicos": [
     "lentes-esfericas-vergencia-gauss-aumento",
     "optica-da-visao-e-defeitos-visuais",
@@ -20,7 +20,7 @@
   ],
   "status": "publicado",
   "criadoEm": "2026-11-10T14:13:24.000Z",
-  "atualizadoEm": "2026-11-10T14:13:24.000Z",
+  "atualizadoEm": "2026-11-13T15:00:00.000Z",
   "revisao": {
     "notas": "Enunciado transcrito da prova com gabarito e justificativas divulgada pela própria Acafe (o caderno aplicado não foi obtido; exceção autorizada pelo Lucas). Gabarito oficial, do mesmo documento. Destaque em vermelho da alternativa correta não reproduzido."
   }

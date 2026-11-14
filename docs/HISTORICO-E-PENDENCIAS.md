@@ -156,6 +156,10 @@ Para gravar questões, usam-se os lotes da etapa `publicar` (docs/WORKFLOW.md).
     Os traços de fração do ENEM não puderam ser achados só pelo PDF (2018, 2021 e 2022 são
     imagem, e as tabelas geram muitos traços): todas as questões com barra ou fórmula no
     texto foram conferidas na imagem da página.
+25. v2.6.0: Acafe 2021–2026 com fórmulas: 7 enunciados com fração empilhada ou radical e 58
+    questões com resoluções em LaTeX. Conversor ganhou `\mp`, espaço depois de sen/cos e "/"
+    sem espaço de operador. As provas da Acafe trazem as justificativas da banca no mesmo PDF;
+    a busca de traços foi feita, mas a conferência final foi na imagem de cada questão.
 
 ## Pendências
 
@@ -163,8 +167,8 @@ Para gravar questões, usam-se os lotes da etapa `publicar` (docs/WORKFLOW.md).
   conferidos no caderno das provas S e W (o registrado no manifesto é o das provas R e Z, que
   não estava disponível): as 7 questões batem com ele, nenhuma tem fração empilhada (a unidade
   da Q12 está em linha, J/(g.°C)), e nada mudou. Fuvest
-  concluída (v2.3.0), inclusive a 2027. Unesp concluída (v2.4.0). ENEM concluído (v2.5.0).
-  Faltam Acafe e Einstein: resoluções em lote e enunciados prova a prova
+  concluída (v2.3.0), inclusive a 2027. Unesp concluída (v2.4.0). ENEM concluído (v2.5.0). Acafe concluída (v2.6.0).
+  Falta o Einstein: resoluções em lote e enunciados prova a prova
   contra os PDFs. Para achar as frações empilhadas, procurar traços horizontais curtos com
   texto acima e abaixo na região de cada questão (PyMuPDF `get_drawings`): foi assim que se
   acharam as 4 da Unicamp; o resto foi conferido na imagem.
@@ -177,7 +181,6 @@ Para gravar questões, usam-se os lotes da etapa `publicar` (docs/WORKFLOW.md).
   na figura) e 2027 Q38 (A × B: depende de admitir que o índice da casca é maior que o do ar).
 
 - **Acafe Inverno 2025 Q32**: a "Imagem ilustrativa da experiência de Joule" não está no PDF; a legenda foi mantida, sem figura. Q35: a distinção entre IV e V (condução × convecção) é discutível; anotada na resolução.
-- **Acafe Inverno 2026 Q29**: as alternativas são frações desenhadas como equação; transcritas em linha, com parênteses.
 
 - **ENEM 2016**: falta o caderno do **1º dia** (Ciências Humanas e Ciências da Natureza):
   o arquivo enviado (`enem-2016-caderno.pdf`) é o do 2º dia, Linguagens e Matemática, e

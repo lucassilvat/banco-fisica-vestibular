@@ -12,14 +12,14 @@
   "figuras": [],
   "gabarito": "C",
   "gabaritoFonte": "oficial",
-  "resolucao": "1. Pelo teorema do impulso, Δ<i>Q</i> = <i>I</i>, e o impulso de uma força variável é a área sob o gráfico <i>F</i> × <i>t</i>.\n2. Em <i>t</i> = 4 s, <i>F</i> = 500 · 4 = 2.000 N. O gráfico é uma reta a partir da origem: a área é um triângulo.\n3. <i>I</i> = (4 · 2.000)/2 = 4.000 N·s ⇒ Δ<i>Q</i> = 4.000 N·s.\nGabarito: C.",
+  "resolucao": "1. Pelo teorema do impulso, Δ<i>Q</i> = <i>I</i>, e o impulso de uma força variável é a área sob o gráfico <i>F</i> × <i>t</i>.\n2. Em <i>t</i> = 4 s, <i>F</i> = 500 · 4 = 2.000 N. O gráfico é uma reta a partir da origem: a área é um triângulo.\n3. \\(I = \\dfrac{4 \\cdot 2.000}{2} = 4.000\\) N·s ⇒ Δ<i>Q</i> = 4.000 N·s.\nGabarito: C.",
   "topicos": [
     "impulso-e-quantidade-de-movimento",
     "leitura-e-interpretacao-de-graficos"
   ],
   "status": "publicado",
   "criadoEm": "2026-11-10T14:13:25.000Z",
-  "atualizadoEm": "2026-11-10T14:13:25.000Z",
+  "atualizadoEm": "2026-11-13T15:00:00.000Z",
   "revisao": {
     "notas": "Enunciado transcrito da prova com gabarito e justificativas divulgada pela própria Acafe (o caderno aplicado não foi obtido; exceção autorizada pelo Lucas). Gabarito oficial, do mesmo documento. Destaque em vermelho da alternativa correta não reproduzido."
   }

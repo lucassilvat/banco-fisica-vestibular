@@ -12,14 +12,14 @@
   "figuras": [],
   "gabarito": "B",
   "gabaritoFonte": "oficial",
-  "resolucao": "1. Comparando com <i>x</i>(<i>t</i>) = <i>A</i>·cos(<i>ωt</i> + <i>θ</i><sub>0</sub>): amplitude <i>A</i> = 5 mm, pulsação <i>ω</i> = 4π rad/s e fase inicial <i>θ</i><sub>0</sub> = π/3 rad.\n2. I – Correta: <i>f</i> = <i>ω</i>/2π = 4π/2π = 2 Hz.\n3. II – Correta: a elongação máxima é a amplitude, 5 mm.\n4. III – Correta: no MHS, <i>a</i> = −<i>ω</i><sup>2</sup><i>x</i>; a aceleração é proporcional à elongação e tem sinal oposto.\n5. IV – Correta: <i>v</i><sub>máx</sub> = <i>ωA</i> = 4π · 5 = 20π mm/s.\n6. V – Incorreta: no MHS ideal a força restauradora é conservativa; a energia mecânica é constante, só se alternando entre cinética e potencial.\n7. A massa de 10 g não é necessária para julgar as afirmativas.\nGabarito: B.",
+  "resolucao": "1. Comparando com <i>x</i>(<i>t</i>) = <i>A</i>·cos(<i>ωt</i> + <i>θ</i><sub>0</sub>): amplitude <i>A</i> = 5 mm, pulsação <i>ω</i> = 4π rad/s e fase inicial \\(\\theta_0 = \\dfrac{\\pi}{3}\\) rad.\n2. I – Correta: \\(f = \\dfrac{\\omega}{2\\pi} = \\dfrac{4\\pi}{2\\pi} = 2\\) Hz.\n3. II – Correta: a elongação máxima é a amplitude, 5 mm.\n4. III – Correta: no MHS, <i>a</i> = −<i>ω</i><sup>2</sup><i>x</i>; a aceleração é proporcional à elongação e tem sinal oposto.\n5. IV – Correta: <i>v</i><sub>máx</sub> = <i>ωA</i> = 4π · 5 = 20π mm/s.\n6. V – Incorreta: no MHS ideal a força restauradora é conservativa; a energia mecânica é constante, só se alternando entre cinética e potencial.\n7. A massa de 10 g não é necessária para julgar as afirmativas.\nGabarito: B.",
   "topicos": [
     "movimento-harmonico-simples-mhs",
     "conservacao-da-energia-mecanica"
   ],
   "status": "publicado",
   "criadoEm": "2026-11-10T12:50:19.000Z",
-  "atualizadoEm": "2026-11-10T12:50:19.000Z",
+  "atualizadoEm": "2026-11-13T15:00:00.000Z",
   "revisao": {
     "notas": "Enunciado transcrito da prova com gabarito e justificativas divulgada pela própria Acafe (o caderno aplicado não foi obtido; decisão do Lucas em 10/11/2026). Gabarito oficial, do mesmo documento. Destaque em vermelho da alternativa correta não reproduzido. A função x(t) é equação desenhada (fora da camada de texto); transcrita da imagem."
   }

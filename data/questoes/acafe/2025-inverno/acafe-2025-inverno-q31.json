@@ -14,13 +14,13 @@
   ],
   "gabarito": "D",
   "gabaritoFonte": "oficial",
-  "resolucao": "1. Cada bolha tem 0,003/3 = 0,001 mol, à pressão de 1 atm (superfície) e <i>T</i> = 37 + 273 = 310 K.\n2. Equação de Clapeyron: <i>V</i> = <i>nRT</i>/<i>p</i> = 0,001 · 0,082 · 310/1 ≈ 0,0254 L = 25,4 mL. Isso elimina A e B.\n3. Pela tabela, 25,4 mL está na faixa de 20 a 50 mL: risco grave na artéria cerebral (1) e no ventrículo direito (2), e moderado na veia cava/pulmão (3).\n4. Risco grave ou extremo apenas em (1) e (2).\nGabarito: D.",
+  "resolucao": "1. Cada bolha tem \\(\\dfrac{0,003}{3} = 0,001\\) mol, à pressão de 1 atm (superfície) e <i>T</i> = 37 + 273 = 310 K.\n2. Equação de Clapeyron: \\(V = \\dfrac{nRT}{p} = \\dfrac{0,001 \\cdot 0,082 \\cdot 310}{1} \\approx 0,0254\\) L = 25,4 mL. Isso elimina A e B.\n3. Pela tabela, 25,4 mL está na faixa de 20 a 50 mL: risco grave na artéria cerebral (1) e no ventrículo direito (2), e moderado na veia cava/pulmão (3).\n4. Risco grave ou extremo apenas em (1) e (2).\nGabarito: D.",
   "topicos": [
     "gas-ideal-e-equacao-de-clapeyron"
   ],
   "status": "publicado",
   "criadoEm": "2026-11-10T14:13:26.000Z",
-  "atualizadoEm": "2026-11-10T14:13:26.000Z",
+  "atualizadoEm": "2026-11-13T15:00:00.000Z",
   "revisao": {
     "notas": "Enunciado transcrito da prova com gabarito e justificativas divulgada pela própria Acafe (o caderno aplicado não foi obtido; exceção autorizada pelo Lucas). Gabarito oficial, do mesmo documento. Destaque em vermelho da alternativa correta não reproduzido. Dados do formulário da prova (CONSTANTES FÍSICAS) incluídos antes das alternativas (decisão do Lucas: só os dados necessários). Tabela entra como figura. Divergências aceitas: palavras dos dados do formulário, que no PDF estão em letras matemáticas Unicode (𝑐𝑎𝑙, á𝑔𝑢𝑎, 𝑎𝑡𝑚, 𝑀𝑜𝑙).",
     "divergenciasAceitas": [

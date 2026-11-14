@@ -12,14 +12,14 @@
   "figuras": [],
   "gabarito": "C",
   "gabaritoFonte": "oficial",
-  "resolucao": "Atenção: pela física da situação, a resposta é cerca de 12,4 cm<sup>3</sup>, que não aparece entre as alternativas. O gabarito oficial (C) resulta de a resolução da banca ter trocado as pressões inicial e final.\n1. Pressão no fundo: cada 10 m de água acrescentam cerca de 1 atm; a 20 m, <i>p</i><sub>1</sub> = 1 + 2 = 3 atm. Na superfície, <i>p</i><sub>2</sub> = 1 atm.\n2. Temperaturas absolutas: <i>T</i><sub>1</sub> = 7 + 273 = 280 K; <i>T</i><sub>2</sub> = 17 + 273 = 290 K.\n3. Equação geral dos gases: <i>p</i><sub>1</sub><i>V</i><sub>1</sub>/<i>T</i><sub>1</sub> = <i>p</i><sub>2</sub><i>V</i><sub>2</sub>/<i>T</i><sub>2</sub> ⇒ 3 · 4/280 = 1 · <i>V</i><sub>2</sub>/290 ⇒ <i>V</i><sub>2</sub> = 12 · 290/280 ≈ 12,4 cm<sup>3</sup>. A bolha sobe para pressão menor e se expande.\n4. A resolução divulgada pela banca toma 1 atm como pressão no fundo e 3 atm na superfície (troca as pressões) e chega a 4,142 cm<sup>3</sup> (= 4,142 mL), a alternativa C. Nenhuma alternativa corresponde ao resultado correto.\nGabarito: C.",
+  "resolucao": "Atenção: pela física da situação, a resposta é cerca de 12,4 cm<sup>3</sup>, que não aparece entre as alternativas. O gabarito oficial (C) resulta de a resolução da banca ter trocado as pressões inicial e final.\n1. Pressão no fundo: cada 10 m de água acrescentam cerca de 1 atm; a 20 m, <i>p</i><sub>1</sub> = 1 + 2 = 3 atm. Na superfície, <i>p</i><sub>2</sub> = 1 atm.\n2. Temperaturas absolutas: <i>T</i><sub>1</sub> = 7 + 273 = 280 K; <i>T</i><sub>2</sub> = 17 + 273 = 290 K.\n3. Equação geral dos gases: \\(\\dfrac{p_1 V_1}{T_1} = \\dfrac{p_2 V_2}{T_2} \\Rightarrow \\dfrac{3 \\cdot 4}{280} = \\dfrac{1 \\cdot V_2}{290} \\Rightarrow V_2 = \\dfrac{12 \\cdot 290}{280} \\approx 12,4\\) cm<sup>3</sup>. A bolha sobe para pressão menor e se expande.\n4. A resolução divulgada pela banca toma 1 atm como pressão no fundo e 3 atm na superfície (troca as pressões) e chega a 4,142 cm<sup>3</sup> (= 4,142 mL), a alternativa C. Nenhuma alternativa corresponde ao resultado correto.\nGabarito: C.",
   "topicos": [
     "gas-ideal-e-equacao-de-clapeyron",
     "teorema-de-stevin-pressao-hidrostatica"
   ],
   "status": "publicado",
   "criadoEm": "2026-11-10T14:13:21.000Z",
-  "atualizadoEm": "2026-11-10T14:13:21.000Z",
+  "atualizadoEm": "2026-11-13T15:00:00.000Z",
   "revisao": {
     "notas": "Enunciado transcrito da prova com gabarito e justificativas divulgada pela própria Acafe (o caderno aplicado não foi obtido; exceção autorizada pelo Lucas). Gabarito oficial, do mesmo documento. Destaque em vermelho da alternativa correta não reproduzido. Questão sem alternativa correta pela física da situação (≈ 12,4 cm³): o gabarito oficial (C) vem da resolução da banca, que trocou as pressões inicial e final. Não se sabe se foi anulada."
   }

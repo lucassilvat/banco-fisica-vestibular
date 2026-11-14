@@ -12,13 +12,13 @@
   "figuras": [],
   "gabarito": "C",
   "gabaritoFonte": "oficial",
-  "resolucao": "1. Capacidade térmica: <i>C</i> = <i>mc</i> = 80 · 3,5 = 280 kJ/°C. Isso elimina A e B.\n2. Calor para aumentar 2 °C: <i>Q</i> = <i>C</i>Δ<i>θ</i> = 280 · 2 = 560 kJ.\n3. Calor específico da água: 1 cal/g·°C = 4,2 J/g·°C = 4,2 kJ/kg·°C, maior que o do corpo (3,5 kJ/kg·°C).\n4. Massa de água aquecida em 2 °C com 560 kJ: <i>m</i> = 560/(4,2 · 2) ≈ 66,7 kg, menor que 80 kg (a água precisa de mais calor por kg).\nGabarito: C.",
+  "resolucao": "1. Capacidade térmica: <i>C</i> = <i>mc</i> = 80 · 3,5 = 280 kJ/°C. Isso elimina A e B.\n2. Calor para aumentar 2 °C: <i>Q</i> = <i>C</i>Δ<i>θ</i> = 280 · 2 = 560 kJ.\n3. Calor específico da água: 1 cal/g·°C = 4,2 J/g·°C = 4,2 kJ/kg·°C, maior que o do corpo (3,5 kJ/kg·°C).\n4. Massa de água aquecida em 2 °C com 560 kJ: \\(m = \\dfrac{560}{4,2 \\cdot 2} \\approx 66,7\\) kg, menor que 80 kg (a água precisa de mais calor por kg).\nGabarito: C.",
   "topicos": [
     "calor-sensivel-e-capacidade-termica"
   ],
   "status": "publicado",
   "criadoEm": "2026-11-10T14:13:24.000Z",
-  "atualizadoEm": "2026-11-10T14:13:24.000Z",
+  "atualizadoEm": "2026-11-13T15:00:00.000Z",
   "revisao": {
     "notas": "Enunciado transcrito da prova com gabarito e justificativas divulgada pela própria Acafe (o caderno aplicado não foi obtido; exceção autorizada pelo Lucas). Gabarito oficial, do mesmo documento. Destaque em vermelho da alternativa correta não reproduzido. Dados do formulário da prova (CONSTANTES FÍSICAS) incluídos antes das alternativas (decisão do Lucas: só os dados necessários). Divergências aceitas: palavras dos dados do formulário, que no PDF estão em letras matemáticas Unicode (𝑐𝑎𝑙, á𝑔𝑢𝑎, 𝑎𝑡𝑚, 𝑀𝑜𝑙).",
     "divergenciasAceitas": [

@@ -12,14 +12,14 @@
   "figuras": [],
   "gabarito": "C",
   "gabaritoFonte": "oficial",
-  "resolucao": "1. Reflexão total só ocorre quando a luz vai do meio mais refringente para o menos refringente: da lente (1,50) para o humor aquoso (1,23). Isso elimina A.\n2. Ângulo limite: sen <i>L</i> = <i>n</i><sub>menor</sub>/<i>n</i><sub>maior</sub> = 1,23/1,50 = 0,82 (<i>L</i> ≈ 55°), o que elimina B (45°) e D (30°).\n3. Há reflexão total para ângulos de incidência maiores que <i>L</i>, isto é, com seno maior que 0,82.\nGabarito: C.",
+  "resolucao": "1. Reflexão total só ocorre quando a luz vai do meio mais refringente para o menos refringente: da lente (1,50) para o humor aquoso (1,23). Isso elimina A.\n2. Ângulo limite: \\(\\sen L = \\dfrac{n_{\\text{menor}}}{n_{\\text{maior}}} = \\dfrac{1,23}{1,50} = 0,82\\) (<i>L</i> ≈ 55°), o que elimina B (45°) e D (30°).\n3. Há reflexão total para ângulos de incidência maiores que <i>L</i>, isto é, com seno maior que 0,82.\nGabarito: C.",
   "topicos": [
     "reflexao-total-e-fibra-optica",
     "lei-de-snell-descartes"
   ],
   "status": "publicado",
   "criadoEm": "2026-11-10T14:13:25.000Z",
-  "atualizadoEm": "2026-11-10T14:13:25.000Z",
+  "atualizadoEm": "2026-11-13T15:00:00.000Z",
   "revisao": {
     "notas": "Enunciado transcrito da prova com gabarito e justificativas divulgada pela própria Acafe (o caderno aplicado não foi obtido; exceção autorizada pelo Lucas). Gabarito oficial, do mesmo documento. Destaque em vermelho da alternativa correta não reproduzido."
   }

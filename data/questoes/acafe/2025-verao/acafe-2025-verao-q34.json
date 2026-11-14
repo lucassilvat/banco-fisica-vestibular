@@ -12,14 +12,14 @@
   "figuras": [],
   "gabarito": "A",
   "gabaritoFonte": "oficial",
-  "resolucao": "1. Em movimento circular uniforme, a resultante centrípeta tem módulo <i>F</i><sub>c</sub> = <i>ma</i><sub>c</sub>, com <i>a</i><sub>c</sub> = <i>v</i><sup>2</sup>/<i>R</i>.\n2. Como <i>v</i> = <i>ωR</i>: <i>a</i><sub>c</sub> = <i>ω</i><sup>2</sup><i>R</i> ⇒ <i>F</i><sub>c</sub> = <i>mω</i><sup>2</sup><i>R</i>.\n3. A centrípeta é a resultante das forças reais (normal, atrito, peso); não se soma a elas nem é, em geral, igual só à normal. As demais alternativas misturam a resultante com uma de suas componentes.\nGabarito: A.",
+  "resolucao": "1. Em movimento circular uniforme, a resultante centrípeta tem módulo <i>F</i><sub>c</sub> = <i>ma</i><sub>c</sub>, com \\(a_{\\text{c}} = \\dfrac{v^2}{R}\\).\n2. Como <i>v</i> = <i>ωR</i>: <i>a</i><sub>c</sub> = <i>ω</i><sup>2</sup><i>R</i> ⇒ <i>F</i><sub>c</sub> = <i>mω</i><sup>2</sup><i>R</i>.\n3. A centrípeta é a resultante das forças reais (normal, atrito, peso); não se soma a elas nem é, em geral, igual só à normal. As demais alternativas misturam a resultante com uma de suas componentes.\nGabarito: A.",
   "topicos": [
     "resultante-centripeta-curvas-loop-globo-da-morte",
     "periodo-frequencia-e-velocidade-angular"
   ],
   "status": "publicado",
   "criadoEm": "2026-11-10T14:13:25.000Z",
-  "atualizadoEm": "2026-11-10T14:13:25.000Z",
+  "atualizadoEm": "2026-11-13T15:00:00.000Z",
   "revisao": {
     "notas": "Enunciado transcrito da prova com gabarito e justificativas divulgada pela própria Acafe (o caderno aplicado não foi obtido; exceção autorizada pelo Lucas). Gabarito oficial, do mesmo documento. Destaque em vermelho da alternativa correta não reproduzido."
   }

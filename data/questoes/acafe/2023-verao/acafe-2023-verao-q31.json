@@ -15,7 +15,7 @@
   ],
   "gabarito": "A",
   "gabaritoFonte": "oficial",
-  "resolucao": "1. O ultrassom vai até o elemento estranho e volta (eco): 2<i>x</i> = <i>v</i>Δ<i>t</i> ⇒ <i>x</i> = 1500 · 0,01 × 10<sup>−3</sup>/2 = 7,5 × 10<sup>−3</sup> m = 7,5 mm. Isso elimina B e C.\n2. Entre A e D: o astigmatismo é causado por curvatura irregular da córnea (não pelo alongamento do globo ocular, que é a causa da miopia) e provoca imagens distorcidas, em qualquer distância.\n3. A única sequência coerente é: 7,5 – astigmatismo – formação irregular da córnea – distorção das imagens.\nGabarito: A.",
+  "resolucao": "1. O ultrassom vai até o elemento estranho e volta (eco): 2<i>x</i> = <i>v</i>Δ<i>t</i> ⇒ \\(x = \\dfrac{1500 \\cdot 0,01 \\times 10^{-3}}{2} = 7,5 \\times 10^{-3}\\) m = 7,5 mm. Isso elimina B e C.\n2. Entre A e D: o astigmatismo é causado por curvatura irregular da córnea (não pelo alongamento do globo ocular, que é a causa da miopia) e provoca imagens distorcidas, em qualquer distância.\n3. A única sequência coerente é: 7,5 – astigmatismo – formação irregular da córnea – distorção das imagens.\nGabarito: A.",
   "topicos": [
     "reflexao-e-refracao-de-ondas",
     "optica-da-visao-e-defeitos-visuais",
@@ -23,7 +23,7 @@
   ],
   "status": "publicado",
   "criadoEm": "2026-11-10T14:13:22.000Z",
-  "atualizadoEm": "2026-11-10T14:13:22.000Z",
+  "atualizadoEm": "2026-11-13T15:00:00.000Z",
   "revisao": {
     "notas": "Enunciado transcrito da prova com gabarito e justificativas divulgada pela própria Acafe (o caderno aplicado não foi obtido; exceção autorizada pelo Lucas). Gabarito oficial, do mesmo documento. Destaque em vermelho da alternativa correta não reproduzido."
   }

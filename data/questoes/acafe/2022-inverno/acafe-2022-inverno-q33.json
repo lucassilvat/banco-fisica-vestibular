@@ -12,7 +12,7 @@
   "figuras": [],
   "gabarito": "B",
   "gabaritoFonte": "oficial",
-  "resolucao": "1. A – Incorreta: em um condutor em equilíbrio eletrostático o excesso de cargas fica na superfície externa, não no volume.\n2. B – Correta: <i>C</i> = <i>κε</i><sub>0</sub><i>A</i>/<i>d</i>; ao inserir um dielétrico de constante <i>κ</i> > 1 preenchendo o espaço, a capacitância aumenta <i>κ</i> vezes.\n3. C – Incorreta: cargas de sinais opostos se atraem; a carga positiva é atraída pelas negativas.\n4. D – Incorreta: superfície equipotencial é aquela em que todos os pontos têm o mesmo potencial elétrico, não a mesma \"potência\".\nGabarito: B.",
+  "resolucao": "1. A – Incorreta: em um condutor em equilíbrio eletrostático o excesso de cargas fica na superfície externa, não no volume.\n2. B – Correta: \\(C = \\dfrac{\\kappa \\varepsilon_0 A}{d}\\); ao inserir um dielétrico de constante <i>κ</i> > 1 preenchendo o espaço, a capacitância aumenta <i>κ</i> vezes.\n3. C – Incorreta: cargas de sinais opostos se atraem; a carga positiva é atraída pelas negativas.\n4. D – Incorreta: superfície equipotencial é aquela em que todos os pontos têm o mesmo potencial elétrico, não a mesma \"potência\".\nGabarito: B.",
   "topicos": [
     "capacitores-e-capacitancia",
     "condutores-em-equilibrio-eletrostatico-e-blindagem",
@@ -20,7 +20,7 @@
   ],
   "status": "publicado",
   "criadoEm": "2026-11-10T14:13:21.000Z",
-  "atualizadoEm": "2026-11-10T14:13:21.000Z",
+  "atualizadoEm": "2026-11-13T15:00:00.000Z",
   "revisao": {
     "notas": "Enunciado transcrito da prova com gabarito e justificativas divulgada pela própria Acafe (o caderno aplicado não foi obtido; exceção autorizada pelo Lucas). Gabarito oficial, do mesmo documento. Destaque em vermelho da alternativa correta não reproduzido."
   }
