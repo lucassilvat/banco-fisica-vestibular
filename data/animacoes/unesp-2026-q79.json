@@ -1,0 +1,98 @@
+{
+  "id": "unesp-2026-q79",
+  "titulo": "A imagem no espelho revela a distância ao muro",
+  "conceitos": [
+    "Espelho esférico convexo",
+    "Equação de Gauss",
+    "Movimento retilíneo uniforme"
+  ],
+  "cena": {
+    "modelo": "espelho-convexo",
+    "parametros": {
+      "f": -0.8,
+      "d0": 8,
+      "d1": 5,
+      "t1": 2
+    }
+  },
+  "passos": [
+    {
+      "titulo": "A imagem no espelho convexo",
+      "conceito": "Espelho esférico convexo",
+      "texto": "O muro é o objeto. O espelho convexo forma uma imagem virtual do muro, atrás do espelho.",
+      "cena": {
+        "mostrar": [
+          "eixo",
+          "muro",
+          "espelho",
+          "foco",
+          "imagem"
+        ],
+        "estado": {
+          "d": 8
+        }
+      }
+    },
+    {
+      "titulo": "Sinais na equação de Gauss",
+      "conceito": "Equação de Gauss",
+      "texto": "Convexo: foco virtual, f negativo. Imagem virtual: p′ negativo. O objeto é o muro, então p é a distância do espelho ao muro.",
+      "equacoes": [
+        "\\dfrac{1}{f} = \\dfrac{1}{p} + \\dfrac{1}{p′}, \\quad f = -0,8\\ \\text{m}"
+      ],
+      "cena": {
+        "mostrar": [
+          "cotas"
+        ]
+      }
+    },
+    {
+      "titulo": "Em t₀ = 0",
+      "conceito": "Equação de Gauss",
+      "texto": "Com a imagem a \\(\\dfrac{8}{11}\\) m do espelho:",
+      "equacoes": [
+        "\\dfrac{1}{\\mathrm{d}_0} = -\\dfrac{1}{0,8} + \\dfrac{11}{8} = -1,25 + 1,375 = 0,125 \\quad \\Rightarrow \\quad \\mathrm{d}_0 = 8\\ \\text{m}"
+      ],
+      "cena": {
+        "destacar": [
+          "cotas"
+        ],
+        "estado": {
+          "d": 8
+        }
+      }
+    },
+    {
+      "titulo": "Em t₁ = 2 s",
+      "conceito": "Equação de Gauss",
+      "texto": "Com a imagem a \\(\\dfrac{20}{29}\\) m do espelho.",
+      "equacoes": [
+        "\\dfrac{1}{\\mathrm{d}_1} = -1,25 + \\dfrac{29}{20} = -1,25 + 1,45 = 0,2 \\quad \\Rightarrow \\quad \\mathrm{d}_1 = 5\\ \\text{m}"
+      ],
+      "cena": {
+        "destacar": [
+          "cotas"
+        ],
+        "estado": {
+          "d": 5
+        }
+      }
+    },
+    {
+      "titulo": "A velocidade do carro",
+      "conceito": "Movimento retilíneo uniforme",
+      "texto": "Com velocidade constante, o carro se aproximou 3 m do muro em 2 s. Resposta: <b>(C) 1,5 m/s</b>.",
+      "equacoes": [
+        "v = \\dfrac{\\mathrm{d}_0 - \\mathrm{d}_1}{\\Delta t} = \\dfrac{8 - 5}{2} = 1,5\\ \\text{m/s}"
+      ],
+      "cena": {
+        "estado": {
+          "mover": true
+        }
+      }
+    }
+  ],
+  "status": "revisado",
+  "criadoEm": "2026-11-14T22:00:00-03:00",
+  "atualizadoEm": "2026-11-14T22:30:00-03:00"
+}

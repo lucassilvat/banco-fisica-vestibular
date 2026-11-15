@@ -12,7 +12,7 @@
       "type": "object",
       "required": ["modelo"],
       "properties": {
-        "modelo": { "enum": ["plano-inclinado", "circuito-conjuntos-serie", "grafico-vt"] },
+        "modelo": { "type": "string", "description": "modelo de cena; lista e elementos em pipeline/animacoes.py (MODELOS) e docs/ANIMACOES.md" },
         "parametros": { "type": "object", "description": "dados da questão que o modelo desenha (ver docs/ANIMACOES.md)" }
       }
     },

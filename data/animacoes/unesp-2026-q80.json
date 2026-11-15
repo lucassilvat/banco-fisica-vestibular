@@ -1,0 +1,69 @@
+{
+  "id": "unesp-2026-q80",
+  "titulo": "Luz azul e o lado da planta que cresce mais",
+  "conceitos": [
+    "Espectro eletromagnético",
+    "Equação fundamental da ondulatória",
+    "Fototropismo"
+  ],
+  "cena": {
+    "modelo": "espectro-fototropismo",
+    "parametros": {
+      "azul": [
+        440,
+        490
+      ]
+    }
+  },
+  "passos": [
+    {
+      "titulo": "Onde fica o azul no espectro",
+      "conceito": "Espectro eletromagnético",
+      "texto": "No espectro visível, o azul fica perto do violeta: tem comprimentos de onda menores e frequências maiores que as demais cores (exceto o violeta). Isso elimina C e D.",
+      "equacoes": [
+        "c = \\lambda f \\quad \\Rightarrow \\quad \\lambda\\ \\text{menor} \\Leftrightarrow f\\ \\text{maior}"
+      ],
+      "cena": {
+        "mostrar": [
+          "espectro",
+          "azul",
+          "setas"
+        ],
+        "destacar": [
+          "azul"
+        ]
+      }
+    },
+    {
+      "titulo": "A planta se curva para a luz",
+      "conceito": "Fototropismo",
+      "texto": "Com luz azul vindo de um lado, a muda se curva em direção à luz. Para isso, o lado sombreado precisa crescer mais que o lado iluminado.",
+      "cena": {
+        "mostrar": [
+          "planta",
+          "luz",
+          "lados"
+        ]
+      }
+    },
+    {
+      "titulo": "Onde a auxina se concentra",
+      "conceito": "Fototropismo",
+      "texto": "A auxina estimula a expansão celular. As fototropinas fazem a auxina se concentrar no lado sombreado, que se alonga mais, e a planta se curva para a luz. Isso elimina B e E. Resposta: <b>(A)</b>.",
+      "cena": {
+        "mostrar": [
+          "auxina"
+        ],
+        "destacar": [
+          "auxina"
+        ],
+        "estado": {
+          "curvar": true
+        }
+      }
+    }
+  ],
+  "status": "revisado",
+  "criadoEm": "2026-11-14T22:00:00-03:00",
+  "atualizadoEm": "2026-11-14T22:00:00-03:00"
+}

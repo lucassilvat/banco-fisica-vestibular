@@ -120,7 +120,7 @@
     {
       "titulo": "Do 1º ao 2º semáforo",
       "conceito": "Área do trapézio",
-      "texto": "De 5 s a 25 s a figura é um trapézio: base maior de 20 s (de 5 s a 25 s), base menor de 10 s (o patamar, de 10 s a 20 s) e altura de 10 m/s. Conferindo sem a fórmula: dois triângulos de 25 m cada (½ · 5 · 10) e um retângulo de 100 m (10 · 10) somam 150 m.",
+      "texto": "De 5 s a 25 s a figura é um trapézio: base maior de 20 s (de 5 s a 25 s), base menor de 10 s (o patamar, de 10 s a 20 s) e altura de 10 m/s.",
       "equacoes": [
         "\\Delta s_{1} = \\dfrac{20 + 10}{2} \\cdot 10 = 150\\ \\text{m}"
       ],
@@ -160,7 +160,7 @@
     {
       "titulo": "A viagem completa",
       "conceito": "Deslocamento como área sob v × t",
-      "texto": "Veja o carro percorrer o trecho enquanto a área se acumula. As alternativas (c) 150 m e (d) 180 m são as distâncias de cada trecho isolado; a pergunta é do 1º ao 3º semáforo. Resposta: <b>(a) 330 m</b>.",
+      "texto": "Veja o carro percorrer o trecho enquanto a área se acumula. Resposta: <b>(a) 330 m</b>.",
       "equacoes": [
         "\\Delta s = 150 + 180 = 330\\ \\text{m}"
       ],
@@ -176,5 +176,5 @@
   ],
   "status": "revisado",
   "criadoEm": "2026-11-14T21:00:00-03:00",
-  "atualizadoEm": "2026-11-14T21:30:00-03:00"
+  "atualizadoEm": "2026-11-14T22:30:00-03:00"
 }

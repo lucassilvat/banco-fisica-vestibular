@@ -37,6 +37,41 @@ MODELOS = {
         "elementos": {"eixos", "curva", "estrada", "paradas", "faixa", "area-1", "area-2", "cotas-1", "cotas-2"},
         "estado": {"percorrer": {True, False}},
     },
+    "mhs-sombra": {
+        "parametros": {"amplitude", "periodo", "t1", "t2"},
+        "elementos": {"pendulo", "sombra", "vetor-v", "grafico", "ponto-1", "ponto-2", "secante"},
+        "estado": {"t": None, "cursor": {True, False}},
+    },
+    "rotacao-latitude": {
+        "parametros": {"latitude"},
+        "elementos": {"terra", "eixo", "equador", "paralelo", "latitude", "morador", "gravidade", "centripeta", "angulo", "alternos"},
+        "estado": {"girar": {True, False}},
+    },
+    "cadeia-energia": {
+        "parametros": {"etapas", "altura"},
+        "elementos": {f"etapa-{k}" for k in range(1, 9)} | {"subida"},
+        "estado": {"subir": {True, False}},
+    },
+    "espelho-convexo": {
+        "parametros": {"f", "d0", "d1", "t1"},
+        "elementos": {"eixo", "muro", "espelho", "foco", "imagem", "cotas"},
+        "estado": {"d": None, "mover": {True, False}},
+    },
+    "espectro-fototropismo": {
+        "parametros": {"azul"},
+        "elementos": {"espectro", "azul", "setas", "luz", "planta", "lados", "auxina"},
+        "estado": {"curvar": {True, False}},
+    },
+    "campo-uniforme": {
+        "parametros": {"U", "dTexto"},
+        "elementos": {"placas", "tensao", "cota-d", "campo", "ion", "forca"},
+        "estado": {"mover": {True, False}},
+    },
+    "indicador-combustivel": {
+        "parametros": set(),
+        "elementos": {"tanque", "reostato", "circuito", "corrente", "lamina", "mostrador", "zoom"},
+        "estado": {"nivel": None},
+    },
 }
 OBRIG = ["id", "titulo", "conceitos", "cena", "passos", "status"]
 TAGS_OK = re.compile(r"</?(i|b|u|sub|sup)>")

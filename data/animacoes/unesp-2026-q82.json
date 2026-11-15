@@ -1,0 +1,86 @@
+{
+  "id": "unesp-2026-q82",
+  "titulo": "Do nível do tanque ao ponteiro do mostrador",
+  "conceitos": [
+    "Segunda lei de Ohm",
+    "Primeira lei de Ohm",
+    "Dilatação térmica",
+    "Lâmina bimetálica"
+  ],
+  "cena": {
+    "modelo": "indicador-combustivel",
+    "parametros": {}
+  },
+  "passos": [
+    {
+      "titulo": "O circuito do indicador",
+      "conceito": "Primeira lei de Ohm",
+      "texto": "A bateria, a parte do reostato que está no circuito e o fio enrolado na lâmina bimetálica estão em série: a mesma corrente passa por todos. Ela aquece a lâmina, que se curva e move o ponteiro.",
+      "cena": {
+        "mostrar": [
+          "tanque",
+          "reostato",
+          "circuito",
+          "lamina",
+          "mostrador",
+          "corrente"
+        ],
+        "estado": {
+          "nivel": 1
+        }
+      }
+    },
+    {
+      "titulo": "O tanque esvazia",
+      "conceito": "Segunda lei de Ohm",
+      "texto": "A boia desce, e uma porção maior do reostato entra no circuito. A resistência de um fio cresce com o comprimento.",
+      "equacoes": [
+        "R = \\rho \\dfrac{L}{A}"
+      ],
+      "cena": {
+        "destacar": [
+          "reostato"
+        ],
+        "estado": {
+          "nivel": "esvaziar"
+        }
+      }
+    },
+    {
+      "titulo": "A corrente diminui",
+      "conceito": "Primeira lei de Ohm",
+      "texto": "Com a tensão da bateria fixa e a resistência maior, a corrente diminui. Primeira lacuna: “diminuindo”.",
+      "equacoes": [
+        "i = \\dfrac{U}{R}"
+      ],
+      "cena": {
+        "destacar": [
+          "corrente"
+        ]
+      }
+    },
+    {
+      "titulo": "Qual metal dilata mais",
+      "conceito": "Lâmina bimetálica",
+      "texto": "Com o tanque cheio, a corrente é maior, a lâmina esquenta e se curva para o lado do metal A, que fica na parte de dentro da curva. Quem dilata mais fica do lado de fora: o metal B. Logo, o coeficiente de dilatação de A é menor que o de B. Resposta: <b>(B) diminuindo – menor do que o</b>.",
+      "equacoes": [
+        "\\alpha_{\\text{A}} < \\alpha_{\\text{B}}"
+      ],
+      "cena": {
+        "mostrar": [
+          "zoom"
+        ],
+        "destacar": [
+          "zoom",
+          "lamina"
+        ],
+        "estado": {
+          "nivel": 1
+        }
+      }
+    }
+  ],
+  "status": "revisado",
+  "criadoEm": "2026-11-14T22:00:00-03:00",
+  "atualizadoEm": "2026-11-14T22:00:00-03:00"
+}

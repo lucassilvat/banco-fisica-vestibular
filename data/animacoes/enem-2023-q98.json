@@ -91,7 +91,7 @@
     {
       "titulo": "Brilho de L₁ e L₃",
       "conceito": "Potência elétrica",
-      "texto": "Menos corrente no mesmo conjunto significa menos tensão sobre a lâmpada, e o brilho acompanha a potência \\(P = \\dfrac{U^{2}}{r}\\). Por exemplo, se <i>r</i> = <i>R</i>, a corrente cai a ¾ do valor inicial e a potência de L<sub>1</sub> e L<sub>3</sub> cai a \\(\\left(\\tfrac{3}{4}\\right)^{2} \\approx 56\\%\\). Qualquer que seja <i>r</i>, as duas ficam igualmente menos brilhantes. Resposta: <b>(C) menos intensos</b>.",
+      "texto": "Menos corrente no mesmo conjunto significa menos tensão sobre a lâmpada, e o brilho acompanha a potência \\(P = \\dfrac{U^{2}}{r}\\). L<sub>1</sub> e L<sub>3</sub> ficam igualmente menos brilhantes. Resposta: <b>(C) menos intensos</b>.",
       "equacoes": [
         "U_{1} = I \\cdot R_{\\text{conj}} \\quad \\Rightarrow \\quad U_{1}' < U_{1}",
         "P_{1} = \\dfrac{U_{1}^{2}}{r} \\quad \\Rightarrow \\quad P_{1}' < P_{1}"
@@ -108,5 +108,5 @@
   ],
   "status": "revisado",
   "criadoEm": "2026-11-14T21:00:00-03:00",
-  "atualizadoEm": "2026-11-14T21:30:00-03:00"
+  "atualizadoEm": "2026-11-14T22:30:00-03:00"
 }

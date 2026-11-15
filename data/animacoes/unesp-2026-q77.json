@@ -1,0 +1,83 @@
+{
+  "id": "unesp-2026-q77",
+  "titulo": "Para onde aponta cada vetor no morador de Oslo?",
+  "conceitos": [
+    "Movimento circular uniforme",
+    "Força gravitacional",
+    "Aceleração centrípeta",
+    "Latitude"
+  ],
+  "cena": {
+    "modelo": "rotacao-latitude",
+    "parametros": {
+      "latitude": 60
+    }
+  },
+  "passos": [
+    {
+      "titulo": "O morador gira com a Terra",
+      "conceito": "Movimento circular uniforme",
+      "texto": "Com a rotação da Terra, o morador descreve uma circunferência: o paralelo de 60° N. O centro dessa circunferência fica sobre o eixo de rotação, à mesma altura do morador, e não no centro da Terra.",
+      "cena": {
+        "mostrar": [
+          "terra",
+          "eixo",
+          "equador",
+          "paralelo",
+          "morador"
+        ],
+        "estado": {
+          "girar": true
+        }
+      }
+    },
+    {
+      "titulo": "A força gravitacional",
+      "conceito": "Força gravitacional",
+      "texto": "A força gravitacional aponta para o centro da Terra, ao longo do raio que passa pelo morador.",
+      "cena": {
+        "mostrar": [
+          "gravidade"
+        ],
+        "destacar": [
+          "gravidade"
+        ],
+        "estado": {
+          "girar": false
+        }
+      }
+    },
+    {
+      "titulo": "A aceleração centrípeta",
+      "conceito": "Aceleração centrípeta",
+      "texto": "A aceleração centrípeta aponta para o centro da circunferência descrita: perpendicular ao eixo de rotação, paralela ao plano do equador.",
+      "cena": {
+        "mostrar": [
+          "centripeta"
+        ],
+        "destacar": [
+          "centripeta"
+        ]
+      }
+    },
+    {
+      "titulo": "O ângulo entre os dois",
+      "conceito": "Latitude",
+      "texto": "A latitude é o ângulo, no centro da Terra, entre o plano do equador e o raio que passa pelo morador. Como a aceleração centrípeta é paralela ao equador e a força gravitacional está sobre esse raio, o ângulo entre elas é igual à latitude (ângulos alternos). A longitude (11°) não influi. Resposta: <b>(B) 60º</b>.",
+      "cena": {
+        "mostrar": [
+          "latitude",
+          "angulo",
+          "alternos"
+        ],
+        "destacar": [
+          "angulo",
+          "latitude"
+        ]
+      }
+    }
+  ],
+  "status": "revisado",
+  "criadoEm": "2026-11-14T22:00:00-03:00",
+  "atualizadoEm": "2026-11-14T22:00:00-03:00"
+}
