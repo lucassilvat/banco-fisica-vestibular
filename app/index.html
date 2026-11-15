@@ -1491,6 +1491,7 @@ CENAS["indicador-combustivel"] = (svg, P) => {
   sLabel(el.zoom, 514, 245, "A", "", "t-b"); sLabel(el.zoom, 537, 245, "B", "", "t-b");
   sRich(el.zoom, 560, 262, "B fica do lado de fora:", "t-mute"); sRich(el.zoom, 560, 278, "α_{B} > α_{A}", "t-b");
   const R0 = 1, Rr = n => 0.6 + 2.4 * (1 - n); // resistências (unidades arbitrárias)
+  let desloc = 0, ultPh = null;
   function pos(n, ph) { // n: nível (1 cheio, 0 vazio)
     const yN = TY + TH - (TH - 8) * n; comb.setAttribute("y", yN); comb.setAttribute("height", TY + TH - yN - 2);
     const bx = TX + TW * 0.45, by = Math.min(TY + TH - 14, yN - 4); boia.setAttribute("cx", bx); boia.setAttribute("cy", by);
@@ -1508,7 +1509,10 @@ CENAS["indicador-combustivel"] = (svg, P) => {
     const ang = Math.PI * (1 - curv) * 0.85 + Math.PI * 0.075; pont.setAttribute("x2", MX + 60 * Math.cos(ang)); pont.setAttribute("y2", MY - 60 * Math.sin(ang));
     lig.setAttribute("x1", tipX); lig.setAttribute("y1", tipY); lig.setAttribute("x2", MX + 30); lig.setAttribute("y2", MY + 4);
     tI.textContent = q > 0.97 ? "corrente maior" : q < 0.42 ? "corrente menor" : "corrente diminuindo";
-    const off = (ph * 70 * q) % 28;
+    // deslocamento acumulado quadro a quadro: a velocidade das cargas cai com a corrente, mas o sentido nunca inverte
+    if (ultPh !== null && ph > ultPh && ph - ultPh < 0.5) desloc += (ph - ultPh) * 70 * q;
+    ultPh = ph;
+    const off = desloc % 28;
     const { segs, L } = trecho(rota(xs));
     dots.forEach((d, k) => { const s0 = k * 28 + off; d.style.display = s0 > L ? "none" : ""; if (s0 > L) return; const s = L - s0; /* sentido convencional: sai do + (direita da bateria) */ const sg = segs.find(g => s >= g[2] && s <= g[2] + g[3]) || segs[segs.length - 1]; const t = (s - sg[2]) / sg[3]; d.setAttribute("cx", sg[0][0] + (sg[1][0] - sg[0][0]) * t); d.setAttribute("cy", sg[0][1] + (sg[1][1] - sg[0][1]) * t); });
   }
