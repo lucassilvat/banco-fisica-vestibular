@@ -25,6 +25,8 @@ Responda e escreva documentação em português do Brasil.
 
 Antes de começar, leia `docs/HISTORICO-E-PENDENCIAS.md` (estado atual, links do app e do
 repositório, pendências). Siga `docs/WORKFLOW.md` (etapas 1–9). Comandos: `python -m pipeline -h`.
+Resoluções animadas: só as marcadas como Aprovada pelo Lucas (coleção `revisoes` do app) vão
+para o site público; antes de cada pull request, importar as revisões (ver `docs/ANIMACOES.md`).
 Para ler uma questão, use as imagens de `trabalho/<prova>/imagens/`; o texto extraído do
 PDF é só rascunho (fórmulas e frações saem embaralhadas).
 

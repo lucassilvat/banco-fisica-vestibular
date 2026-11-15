@@ -41,6 +41,16 @@
       }
     },
     "status": { "enum": ["rascunho", "revisado", "publicado"] },
+    "revisao": {
+      "type": "object",
+      "description": "revisão do Lucas no app do Claude; só 'aprovada' vai para o site público",
+      "required": ["estado"],
+      "properties": {
+        "estado": { "enum": ["nao-revisada", "comentada", "aprovada"] },
+        "comentario": { "type": "string" },
+        "atualizadoEm": { "type": "string" }
+      }
+    },
     "criadoEm": { "type": "string" },
     "atualizadoEm": { "type": "string" }
   }

@@ -130,6 +130,21 @@ article.q { background: var(--paper); border: 1px solid var(--line); border-top:
 :root[data-theme="dark"] { --anim-acel: #b892ff; --anim-luz: #ffd463; --anim-fio: #aab4c2; }
 .res-actions { display: flex; flex-wrap: wrap; gap: 8px; }
 .btn.anim-btn { border-color: var(--accent); color: var(--accent); }
+.rev-bar { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 10px; background: var(--paper); border: 1px dashed var(--accent); border-radius: var(--r); padding: 10px 12px; margin-bottom: 12px; font-size: 0.88rem; }
+.rev-bar select { margin-left: auto; border: 1px solid var(--line); border-radius: var(--r); background: var(--paper); padding: 5px 8px; }
+.rev-badge { display: inline-flex; align-items: center; border-radius: 999px; padding: 3px 10px; font-size: 0.8rem; font-weight: 600; border: 1px solid var(--line); background: var(--soft); color: var(--muted); }
+.rev-badge.comentada { background: var(--mark-soft); border-color: var(--mark); color: var(--ink); }
+.rev-badge.aprovada { background: var(--ok-soft); border-color: var(--ok); color: var(--ok); }
+.rev-panel { margin-top: 12px; border: 1px dashed var(--accent); border-radius: var(--r); padding: 12px; background: var(--soft); display: grid; gap: 10px; }
+.rev-tit { font-weight: 700; font-size: 0.9rem; }
+.rev-opts { display: flex; flex-wrap: wrap; gap: 6px; }
+.rev-opt { border: 1px solid var(--line); background: var(--paper); border-radius: 999px; padding: 6px 14px; font-weight: 600; }
+.rev-opt[aria-checked="true"].nao-revisada { background: var(--ink); color: var(--paper); border-color: var(--ink); }
+.rev-opt[aria-checked="true"].comentada { background: var(--mark); color: #fff; border-color: var(--mark); }
+.rev-opt[aria-checked="true"].aprovada { background: var(--ok); color: #fff; border-color: var(--ok); }
+.rev-panel textarea { width: 100%; border: 1px solid var(--line); border-radius: var(--r); background: var(--paper); padding: 8px; resize: vertical; }
+.rev-acoes { display: flex; align-items: center; gap: 10px; }
+.rev-ok { color: var(--ok); font-weight: 600; font-size: 0.85rem; }
 .btn.anim-btn::before { content: "▶"; font-size: 0.75em; margin-right: 7px; }
 .ap-overlay { position: fixed; inset: 0; background: rgba(10, 14, 20, .6); z-index: 30; display: flex; align-items: center; justify-content: center; padding: 12px; }
 .ap { background: var(--paper); color: var(--ink); width: min(1180px, 100%); max-height: 100%; border-radius: 10px; display: grid; grid-template-rows: auto minmax(0, 1fr) auto; overflow: hidden; box-shadow: 0 20px 60px rgba(0,0,0,.35); }
@@ -238,9 +253,12 @@ article.q { background: var(--paper); border: 1px solid var(--line); border-top:
 <div class="toast" id="toast" hidden></div>
 
 <script>
-/* Resoluções animadas ocultas por decisão do Lucas (v2.13.1): os roteiros continuam em
-   data/animacoes/ e em animacoes.json, mas o botão não aparece. Para reativar, true. */
-const MOSTRAR_ANIMACOES = false;
+/* Resoluções animadas (v2.14.0): o site público (GitHub Pages) só recebe em animacoes.json as
+   aprovadas pelo Lucas; no app do Claude (modo revisão, só o dono) aparecem todas, com a
+   seleção Não revisada / Comentada / Aprovada e um comentário, gravados na coleção "revisoes". */
+let REVISAO = false, revDb = null;
+const REV_ESTADOS = [["nao-revisada", "Não revisada"], ["comentada", "Comentada"], ["aprovada", "Aprovada"]];
+const revEstado = id => (state.rev.get(id) || {}).estado || "nao-revisada";
 const AREAS = [
   ["Fundamentos", ["Grandezas físicas e Sistema Internacional", "Análise dimensional", "Notação científica e ordem de grandeza", "Vetores: soma e decomposição", "Leitura e interpretação de gráficos"]],
   ["Cinemática", ["Velocidade média e aceleração média", "Movimento retilíneo uniforme (MRU)", "Movimento retilíneo uniformemente variado (MRUV)", "Gráficos do movimento (s×t, v×t, a×t)", "Queda livre e lançamento vertical", "Lançamento horizontal", "Lançamento oblíquo", "Movimento relativo e composição de velocidades", "Movimento circular uniforme (MCU)", "Período, frequência e velocidade angular", "Transmissão de movimento circular (polias, engrenagens, coroas)", "Aceleração centrípeta"]],
@@ -263,7 +281,7 @@ const TOPIC = new Map();
 AREAS.forEach(([area, list]) => list.forEach(name => TOPIC.set(slug(name), { name, area })));
 const norm = s => s.normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase();
 const $ = id => document.getElementById(id);
-const state = { qs: [], sel: new Set(), bancas: new Set(), anos: new Set(), tipos: new Set(), search: "", cur: null, list: [], showRes: false, ready: false, downloads: null, anims: new Map(), player: null };
+const state = { qs: [], sel: new Set(), bancas: new Set(), anos: new Set(), tipos: new Set(), search: "", cur: null, list: [], showRes: false, ready: false, downloads: null, anims: new Map(), player: null, rev: new Map(), revFiltro: "" };
 
 function store(k, v) { try { localStorage.setItem(k, JSON.stringify(v)); } catch (e) {} }
 function load(k, d) { try { const v = JSON.parse(localStorage.getItem(k)); return v == null ? d : v; } catch (e) { return d; } }
@@ -275,6 +293,7 @@ function load(k, d) { try { const v = JSON.parse(localStorage.getItem(k)); retur
   (p.tipos || []).forEach(t => state.tipos.add(t));
   state.list = load("bfv-lista", []);
   state.cur = load("bfv-atual", null);
+  state.revFiltro = load("bfv-rev-filtro", "");
 })();
 function savePrefs() { store("bfv-filtros", { sel: [...state.sel], bancas: [...state.bancas], anos: [...state.anos], tipos: [...state.tipos] }); }
 function saveList() { store("bfv-lista", state.list); $("listCount").textContent = state.list.length; }
@@ -296,7 +315,8 @@ const tipoQ = q => q.tipo === "discursiva" ? "discursiva" : "objetiva";
 const sortQ = (a, b) => (a.ano - b.ano) || String(a.versao || "").localeCompare(String(b.versao || "")) || String(a.banca).localeCompare(b.banca) || String(a.fase || "").localeCompare(String(b.fase || "")) || (parseInt(a.numero) - parseInt(b.numero));
 function baseMatch(q) { return (!state.bancas.size || state.bancas.has(q.banca)) && (!state.anos.size || state.anos.has(anoKey(q))) && (!state.tipos.size || state.tipos.has(TIPOS[tipoQ(q)])); }
 function topicMatch(q, sel) { const t = q.topicos || []; for (const s of sel) if (!t.includes(s)) return false; return true; }
-function filtered() { return state.qs.filter(q => baseMatch(q) && topicMatch(q, state.sel)).sort(sortQ); }
+function filtered() { return state.qs.filter(q => baseMatch(q) && topicMatch(q, state.sel) && revMatch(q)).sort(sortQ); }
+function revMatch(q) { if (!REVISAO || !state.revFiltro) return true; if (!state.anims.has(q._id)) return false; return state.revFiltro === "com-animacao" || revEstado(q._id) === state.revFiltro; }
 function label(q) { return [`${q.banca} ${anoKey(q)}`, q.fase, `Questão ${q.numero}`].filter(Boolean).join(" · "); }
 
 function renderPills() {
@@ -515,6 +535,44 @@ function go(delta) {
   $("viewer").scrollIntoView({ block: "start", behavior: "smooth" });
 }
 
+function revBar() {
+  const ids = state.qs.filter(q => state.anims.has(q._id)).map(q => q._id);
+  const n = k => ids.filter(id => revEstado(id) === k).length;
+  const sel = el("select", { "aria-label": "Filtrar pela revisão das animações" });
+  [["", "Todas as questões"], ["com-animacao", "Só com animação"], ...REV_ESTADOS.map(([k, t]) => [k, "Só animações: " + t.toLowerCase()])].forEach(([v, t]) => {
+    const o = el("option", { value: v, text: t }); if (v === state.revFiltro) o.selected = true; sel.append(o); });
+  sel.addEventListener("change", () => { state.revFiltro = sel.value; store("bfv-rev-filtro", sel.value); renderViewer(); });
+  return el("div", { class: "rev-bar" }, el("b", { text: "Revisão das animações" }),
+    el("span", { class: "rev-badge nao-revisada", text: n("nao-revisada") + " não revisadas" }),
+    el("span", { class: "rev-badge comentada", text: n("comentada") + " comentadas" }),
+    el("span", { class: "rev-badge aprovada", text: n("aprovada") + " aprovadas" }), sel);
+}
+
+function revSalvar(id, mudanca) {
+  const atual = state.rev.get(id) || { estado: "nao-revisada", comentario: "" };
+  const novo = { ...atual, ...mudanca, atualizadoEm: new Date().toISOString() };
+  state.rev.set(id, novo);
+  if (revDb) return revDb.collection("revisoes").doc(id).set(novo).then(() => true, () => { toast("Não consegui salvar a revisão."); return false; });
+  return Promise.resolve(false);
+}
+
+function revPanel(q) {
+  const id = q._id, r = state.rev.get(id) || {};
+  const box = el("div", { class: "rev-panel" });
+  const grupo = el("div", { class: "rev-opts", role: "radiogroup", "aria-label": "Situação da resolução animada" });
+  REV_ESTADOS.forEach(([k, t]) => grupo.append(el("button", { type: "button", role: "radio", class: "rev-opt " + k, "aria-checked": revEstado(id) === k ? "true" : "false", text: t,
+    onclick: () => { revSalvar(id, { estado: k }); renderViewer(); } })));
+  const ta = el("textarea", { rows: "3", placeholder: "Comentário sobre a animação (o que ajustar, o que está confuso…)", "aria-label": "Comentário sobre a resolução animada" });
+  ta.value = r.comentario || "";
+  const ok = el("span", { class: "rev-ok", text: "" });
+  const salvar = el("button", { class: "btn", type: "button", text: "Salvar comentário", onclick: async () => {
+    const mud = { comentario: ta.value.trim() };
+    if (mud.comentario && revEstado(id) === "nao-revisada") mud.estado = "comentada";
+    const feito = await revSalvar(id, mud); ok.textContent = feito ? "Salvo" : ""; if (mud.estado) renderViewer(); } });
+  box.append(el("div", { class: "rev-tit", text: "Revisão da resolução animada" }), grupo, ta, el("div", { class: "rev-acoes" }, salvar, ok));
+  return box;
+}
+
 function renderViewer() {
   const box = $("viewer"); box.replaceChildren();
   const qs = filtered();
@@ -523,6 +581,7 @@ function renderViewer() {
     box.append(el("div", { class: "empty" }, el("h2", { text: state.ready ? "O banco ainda está vazio" : "Carregando questões…" }), el("p", { text: "As questões aparecem aqui, uma por vez." })));
     return;
   }
+  if (REVISAO) box.append(revBar());
   if (!qs.length) { box.append(el("div", { class: "empty" }, el("h2", { text: "Nenhuma questão cobra todos esses tópicos juntos" }), el("p", { text: "Desmarque um tópico, ano ou banca para ampliar a busca." }))); return; }
   let i = qs.findIndex(q => q._id === state.cur); if (i < 0) { i = 0; state.cur = qs[0]._id; }
   const q = qs[i];
@@ -541,8 +600,10 @@ function renderViewer() {
     el("label", { class: "sel" + (inList ? " on" : ""), for: "selq" }, cb, inList ? "Na lista" : "Adicionar à lista"));
   const res = el("div", { class: "res-wrap" });
   const tbtn = el("button", { class: "btn", type: "button", text: state.showRes ? "Ocultar resolução" : "Ver resolução", "aria-expanded": state.showRes ? "true" : "false", onclick: () => { state.showRes = !state.showRes; renderViewer(); } });
-  const rot = MOSTRAR_ANIMACOES ? state.anims.get(q._id) : null;
-  res.append(el("div", { class: "res-actions" }, tbtn, rot ? el("button", { class: "btn anim-btn", type: "button", text: "Resolução animada", title: "Passo a passo animado, com os conceitos físicos", onclick: () => openPlayer(q, rot) }) : null));
+  const rot = state.anims.get(q._id);
+  res.append(el("div", { class: "res-actions" }, tbtn, rot ? el("button", { class: "btn anim-btn", type: "button", text: "Resolução animada", title: "Passo a passo animado, com os conceitos físicos", onclick: () => openPlayer(q, rot) }) : null,
+    REVISAO && rot ? el("span", { class: "rev-badge " + revEstado(q._id), text: REV_ESTADOS.find(e => e[0] === revEstado(q._id))[1] }) : null));
+  if (REVISAO && rot) res.append(revPanel(q));
   if (state.showRes) {
     const r = el("div", { class: "res" }); r.innerHTML = safeInline(q.resolucao || "Resolução ainda não cadastrada.");
     if (tipoQ(q) === "discursiva" && (q.respostas || []).length) {
@@ -1911,5 +1972,8 @@ renderAll();
   const juntar = () => { state.anims = new Map([...animDb, ...animArq]); if (state.ready) renderViewer(); };
   fetch("animacoes.json", { cache: "no-cache" }).then(r => r.ok ? r.json() : {}).then(j => { animArq = Object.entries(j || {}); juntar(); }).catch(() => {});
   db.collection("animacoes").onSnapshot(snap => { animDb = snap.docs.map(d => [d.id, d.data()]); juntar(); }, () => {});
+  // Modo revisão: o app no Claude é só do Lucas; as revisões ficam na coleção "revisoes".
+  REVISAO = true; revDb = db;
+  db.collection("revisoes").onSnapshot(snap => { state.rev = new Map(snap.docs.map(d => [d.id, d.data()])); if (state.ready && !/TEXTAREA/.test(document.activeElement.tagName)) renderViewer(); }, () => {});
 })();
 </script>
