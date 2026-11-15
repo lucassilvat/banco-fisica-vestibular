@@ -1,0 +1,421 @@
+{
+  "id": "unicamp-2027-q10",
+  "titulo": "A polia móvel que dobra a força",
+  "conceitos": [
+    "Polias",
+    "Equilíbrio de forças"
+  ],
+  "cena": {
+    "modelo": "diagrama",
+    "parametros": {
+      "elementos": {
+        "quadro": [
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                30,
+                40
+              ],
+              [
+                440,
+                40
+              ],
+              [
+                440,
+                380
+              ],
+              [
+                80,
+                380
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 6
+          },
+          {
+            "t": "circ",
+            "x": 70,
+            "y": 62,
+            "r": 16,
+            "cor": "#d0d0d0",
+            "borda": "tinta"
+          },
+          {
+            "t": "circ",
+            "x": 256,
+            "y": 62,
+            "r": 16,
+            "cor": "#d0d0d0",
+            "borda": "tinta"
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                70,
+                62
+              ],
+              [
+                70,
+                40
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 2
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                256,
+                62
+              ],
+              [
+                256,
+                40
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 2
+          },
+          {
+            "t": "texto",
+            "x": 150,
+            "y": 26,
+            "txt": "polias fixas",
+            "mudo": true
+          }
+        ],
+        "fio-superior": [
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                54,
+                230
+              ],
+              [
+                54,
+                62
+              ]
+            ],
+            "cor": "#3a6ea5",
+            "larg": 2.5
+          },
+          {
+            "t": "caminho",
+            "d": "M54,62 A16,16 0 0,1 70,46",
+            "cor": "#3a6ea5",
+            "larg": 2.5
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                70,
+                46
+              ],
+              [
+                256,
+                46
+              ]
+            ],
+            "cor": "#3a6ea5",
+            "larg": 2.5
+          },
+          {
+            "t": "caminho",
+            "d": "M256,46 A16,16 0 0,1 272,62",
+            "cor": "#3a6ea5",
+            "larg": 2.5
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                272,
+                62
+              ],
+              [
+                272,
+                200
+              ]
+            ],
+            "cor": "#3a6ea5",
+            "larg": 2.5
+          },
+          {
+            "t": "circ",
+            "x": 54,
+            "y": 236,
+            "r": 6,
+            "cor": "tinta",
+            "borda": "tinta"
+          }
+        ],
+        "polia-movel": [
+          {
+            "t": "circ",
+            "x": 272,
+            "y": 210,
+            "r": 40,
+            "cor": "#c9c9c9",
+            "borda": "tinta",
+            "larg": 2
+          },
+          {
+            "t": "circ",
+            "x": 272,
+            "y": 210,
+            "r": 4,
+            "cor": "tinta",
+            "borda": "tinta"
+          },
+          {
+            "t": "texto",
+            "x": 330,
+            "y": 186,
+            "txt": "polia móvel",
+            "mudo": true,
+            "ancora": "start"
+          }
+        ],
+        "fio-carga": [
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                232,
+                210
+              ],
+              [
+                232,
+                380
+              ]
+            ],
+            "cor": "#a0522d",
+            "larg": 2.5
+          },
+          {
+            "t": "caminho",
+            "d": "M232,210 A40,40 0 0,1 312,210",
+            "cor": "#a0522d",
+            "larg": 2.5
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                312,
+                210
+              ],
+              [
+                312,
+                300
+              ]
+            ],
+            "cor": "#a0522d",
+            "larg": 2.5
+          },
+          {
+            "t": "texto",
+            "x": 226,
+            "y": 360,
+            "txt": "preso na base",
+            "mudo": true,
+            "ancora": "end"
+          },
+          {
+            "t": "ret",
+            "x": 292,
+            "y": 300,
+            "w": 40,
+            "h": 50,
+            "cor": "#8a8a8a",
+            "borda": "tinta"
+          },
+          {
+            "t": "texto",
+            "x": 342,
+            "y": 330,
+            "txt": "m = 12 kg",
+            "negrito": true,
+            "ancora": "start"
+          }
+        ],
+        "tracao-bloco": [
+          {
+            "t": "seta",
+            "de": [
+              372,
+              262
+            ],
+            "para": [
+              372,
+              222
+            ],
+            "cor": "normal",
+            "larg": 3,
+            "rot_em": [
+              384,
+              232
+            ],
+            "ancora": "start",
+            "rotulo": "T"
+          },
+          {
+            "t": "texto",
+            "x": 384,
+            "y": 262,
+            "txt": "T = mg = 120 N",
+            "negrito": true,
+            "cor": "normal",
+            "ancora": "start"
+          }
+        ],
+        "tracao-polia": [
+          {
+            "t": "seta",
+            "de": [
+              232,
+              250
+            ],
+            "para": [
+              232,
+              300
+            ],
+            "cor": "normal",
+            "larg": 3,
+            "rot_em": [
+              220,
+              290
+            ],
+            "ancora": "end",
+            "rotulo": "T"
+          },
+          {
+            "t": "seta",
+            "de": [
+              312,
+              250
+            ],
+            "para": [
+              312,
+              296
+            ],
+            "cor": "normal",
+            "larg": 3,
+            "rot_em": [
+              300,
+              290
+            ],
+            "ancora": "end",
+            "rotulo": "T"
+          },
+          {
+            "t": "seta",
+            "de": [
+              272,
+              196
+            ],
+            "para": [
+              272,
+              120
+            ],
+            "cor": "acel",
+            "larg": 3.5
+          },
+          {
+            "t": "texto",
+            "x": 282,
+            "y": 128,
+            "txt": "2T = 240 N",
+            "negrito": true,
+            "cor": "acel",
+            "ancora": "start"
+          }
+        ],
+        "forca-f": [
+          {
+            "t": "seta",
+            "de": [
+              54,
+              242
+            ],
+            "para": [
+              54,
+              320
+            ],
+            "cor": "peso",
+            "larg": 3,
+            "rot_em": [
+              66,
+              312
+            ],
+            "ancora": "start",
+            "rotulo": "F"
+          },
+          {
+            "t": "rotulo",
+            "x": 150,
+            "y": 262,
+            "txt": "F = 2T = 240 N",
+            "cor": "var(--danger)"
+          }
+        ]
+      }
+    }
+  },
+  "passos": [
+    {
+      "titulo": "O bloco",
+      "conceito": "Equilíbrio de forças",
+      "texto": "Na iminência de subir, o bloco está em equilíbrio: a tração \\(\\vec{T}\\) no fio que o sustenta equilibra o peso.",
+      "equacoes": [
+        "T = mg = 12 \\cdot 10 = 120\\ \\text{N}"
+      ],
+      "cena": {
+        "mostrar": [
+          "quadro",
+          "fio-superior",
+          "polia-movel",
+          "fio-carga",
+          "tracao-bloco"
+        ]
+      }
+    },
+    {
+      "titulo": "A polia móvel",
+      "conceito": "Polias",
+      "texto": "O fio da carga passa por cima da polia móvel e tem a outra ponta presa na base: puxa a polia para baixo com T dos dois lados. Sem massa, a polia fica em equilíbrio se o fio preso ao seu eixo puxar para cima com 2T.",
+      "equacoes": [
+        "2T = 240\\ \\text{N}"
+      ],
+      "cena": {
+        "ocultar": [
+          "tracao-bloco"
+        ],
+        "mostrar": [
+          "tracao-polia"
+        ]
+      }
+    },
+    {
+      "titulo": "As polias fixas",
+      "conceito": "Polias",
+      "texto": "O fio do eixo passa pelas duas polias fixas, que só mudam a direção da força, e termina onde se aplica \\(\\vec{F}\\). Resposta: <b>(d) 240 N</b>.",
+      "cena": {
+        "mostrar": [
+          "forca-f"
+        ],
+        "destacar": [
+          "forca-f"
+        ]
+      }
+    }
+  ],
+  "status": "revisado",
+  "criadoEm": "2026-11-15T09:00:00-03:00",
+  "atualizadoEm": "2026-11-15T09:00:00-03:00"
+}

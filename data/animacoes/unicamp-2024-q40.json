@@ -1,0 +1,174 @@
+{
+  "id": "unicamp-2024-q40",
+  "titulo": "Mesma força, deformações diferentes",
+  "conceitos": [
+    "Força elástica"
+  ],
+  "cena": {
+    "modelo": "diagrama",
+    "parametros": {
+      "elementos": {
+        "etapa-1": [
+          {
+            "t": "ret",
+            "x": 30,
+            "y": 16,
+            "w": 460,
+            "h": 40,
+            "cor": "suave",
+            "borda": "normal",
+            "rx": 7
+          },
+          {
+            "t": "texto",
+            "x": 42,
+            "y": 36.0,
+            "txt": "neurônio 1",
+            "mudo": true,
+            "ancora": "start"
+          },
+          {
+            "t": "texto",
+            "x": 478,
+            "y": 36.0,
+            "txt": "k₁ = 9,0 × 10^{−6} N/m, ΔL₁ = 20 nm",
+            "negrito": true,
+            "ancora": "end"
+          }
+        ],
+        "etapa-2": [
+          {
+            "t": "seta",
+            "de": [
+              260.0,
+              59
+            ],
+            "para": [
+              260.0,
+              79
+            ],
+            "cor": "tinta",
+            "larg": 1.8
+          },
+          {
+            "t": "texto",
+            "x": 272.0,
+            "y": 69.0,
+            "txt": "Hooke",
+            "negrito": true,
+            "cor": "acel",
+            "ancora": "start"
+          },
+          {
+            "t": "ret",
+            "x": 30,
+            "y": 82,
+            "w": 460,
+            "h": 40,
+            "cor": "suave",
+            "borda": "normal",
+            "rx": 7
+          },
+          {
+            "t": "texto",
+            "x": 42,
+            "y": 102.0,
+            "txt": "mesma força",
+            "mudo": true,
+            "ancora": "start"
+          },
+          {
+            "t": "texto",
+            "x": 478,
+            "y": 102.0,
+            "txt": "k₁ΔL₁ = k₂ΔL₂",
+            "negrito": true,
+            "ancora": "end"
+          }
+        ],
+        "etapa-3": [
+          {
+            "t": "seta",
+            "de": [
+              260.0,
+              125
+            ],
+            "para": [
+              260.0,
+              145
+            ],
+            "cor": "tinta",
+            "larg": 1.8
+          },
+          {
+            "t": "texto",
+            "x": 272.0,
+            "y": 135.0,
+            "txt": "9,0 · 20 ÷ 30",
+            "negrito": true,
+            "cor": "acel",
+            "ancora": "start"
+          },
+          {
+            "t": "ret",
+            "x": 30,
+            "y": 148,
+            "w": 460,
+            "h": 40,
+            "cor": "suave",
+            "borda": "normal",
+            "rx": 7
+          },
+          {
+            "t": "texto",
+            "x": 42,
+            "y": 168.0,
+            "txt": "neurônio 2 (ΔL₂ = 30 nm)",
+            "mudo": true,
+            "ancora": "start"
+          },
+          {
+            "t": "texto",
+            "x": 478,
+            "y": 168.0,
+            "txt": "k₂ = 6,0 × 10^{−6} N/m",
+            "negrito": true,
+            "ancora": "end"
+          }
+        ]
+      }
+    }
+  },
+  "passos": [
+    {
+      "titulo": "Lei de Hooke",
+      "conceito": "Força elástica",
+      "texto": "A força é a mesma nos dois neurônios: F = k ΔL. Quem deforma mais tem constante elástica menor.",
+      "cena": {
+        "mostrar": [
+          "etapa-1",
+          "etapa-2"
+        ]
+      }
+    },
+    {
+      "titulo": "A constante do neurônio 2",
+      "conceito": "Força elástica",
+      "texto": "Resposta: <b>(b)</b>.",
+      "equacoes": [
+        "k_{2} = \\dfrac{9,0 \\times 10^{-6} \\cdot 20}{30} = 6,0 \\times 10^{-6}\\ \\text{N/m}"
+      ],
+      "cena": {
+        "mostrar": [
+          "etapa-3"
+        ],
+        "destacar": [
+          "etapa-3"
+        ]
+      }
+    }
+  ],
+  "status": "revisado",
+  "criadoEm": "2026-11-15T09:00:00-03:00",
+  "atualizadoEm": "2026-11-15T09:00:00-03:00"
+}

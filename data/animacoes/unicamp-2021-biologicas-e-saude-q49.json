@@ -1,0 +1,199 @@
+{
+  "id": "unicamp-2021-biologicas-e-saude-q49",
+  "titulo": "Onde está a luz da supernova mais distante",
+  "conceitos": [
+    "Movimento uniforme",
+    "Notação científica"
+  ],
+  "cena": {
+    "modelo": "diagrama",
+    "parametros": {
+      "elementos": {
+        "distancias": [
+          {
+            "t": "circ",
+            "x": 80,
+            "y": 160,
+            "r": 9,
+            "cor": "normal",
+            "borda": "tinta"
+          },
+          {
+            "t": "texto",
+            "x": 80,
+            "y": 138,
+            "txt": "Terra",
+            "negrito": true
+          },
+          {
+            "t": "circ",
+            "x": 280.0,
+            "y": 160,
+            "r": 9,
+            "cor": "perigo",
+            "borda": "tinta"
+          },
+          {
+            "t": "texto",
+            "x": 280,
+            "y": 138,
+            "txt": "SN2016aps (4,0)",
+            "negrito": true,
+            "cor": "perigo"
+          },
+          {
+            "t": "circ",
+            "x": 605.0,
+            "y": 160,
+            "r": 9,
+            "cor": "perigo",
+            "borda": "tinta"
+          },
+          {
+            "t": "texto",
+            "x": 605,
+            "y": 138,
+            "txt": "DES16C2nm (10,5)",
+            "negrito": true,
+            "cor": "perigo",
+            "ancora": "end"
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                80,
+                160
+              ],
+              [
+                605,
+                160
+              ]
+            ],
+            "cor": "mudo",
+            "larg": 1.5,
+            "tracejado": true
+          },
+          {
+            "t": "texto",
+            "x": 340,
+            "y": 256,
+            "txt": "distâncias em bilhões de anos-luz",
+            "mudo": true
+          }
+        ],
+        "frente": [
+          {
+            "t": "circ",
+            "x": 405.0,
+            "y": 160,
+            "r": 8,
+            "cor": "luz",
+            "borda": "tinta"
+          }
+        ],
+        "frente-2": [
+          {
+            "t": "circ",
+            "x": 80,
+            "y": 160,
+            "r": 8,
+            "cor": "luz",
+            "borda": "tinta"
+          }
+        ],
+        "falta": [
+          {
+            "t": "cota",
+            "de": [
+              80,
+              190
+            ],
+            "para": [
+              405,
+              190
+            ],
+            "cor": "normal",
+            "rot_em": [
+              242,
+              208
+            ],
+            "txt": "faltam 6,5 bilhões de anos-luz"
+          }
+        ]
+      },
+      "animacoes": {
+        "luz": {
+          "alvo": "frente",
+          "tipo": "trajeto",
+          "pontos": [
+            [
+              200,
+              0
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          "duracao": 2.5,
+          "pausa": 1
+        },
+        "luz-2": {
+          "alvo": "frente-2",
+          "tipo": "trajeto",
+          "pontos": [
+            [
+              200,
+              0
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          "duracao": 2.5,
+          "pausa": 1
+        }
+      }
+    }
+  },
+  "passos": [
+    {
+      "titulo": "Mesmo tempo de viagem",
+      "conceito": "Movimento uniforme",
+      "texto": "As explosões são simultâneas. Enquanto a luz da mais próxima percorre 4,0 bilhões de anos-luz até a Terra, a da outra percorre o mesmo: ainda faltam 10,5 − 4,0 = 6,5 bilhões de anos-luz.",
+      "cena": {
+        "mostrar": [
+          "distancias",
+          "frente",
+          "frente-2",
+          "falta"
+        ],
+        "estado": {
+          "animar": [
+            "luz",
+            "luz-2"
+          ]
+        }
+      }
+    },
+    {
+      "titulo": "Em quilômetros",
+      "conceito": "Notação científica",
+      "texto": "Um ano-luz é a distância que a luz percorre em um ano. Resposta: <b>(d)</b>.",
+      "equacoes": [
+        "1\\ \\text{ano-luz} = 3,0 \\times 10^{8} \\cdot 3,0 \\times 10^{7} = 9,0 \\times 10^{12}\\ \\text{km}",
+        "6,5 \\times 10^{9} \\cdot 9,0 \\times 10^{12} \\approx 5,9 \\times 10^{22}\\ \\text{km}"
+      ],
+      "cena": {
+        "destacar": [
+          "falta"
+        ]
+      }
+    }
+  ],
+  "status": "revisado",
+  "criadoEm": "2026-11-15T09:00:00-03:00",
+  "atualizadoEm": "2026-11-15T09:00:00-03:00"
+}

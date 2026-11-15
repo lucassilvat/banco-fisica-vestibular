@@ -1,0 +1,170 @@
+{
+  "id": "unicamp-2023-q31",
+  "titulo": "O trabalho do peso na descida",
+  "conceitos": [
+    "Trabalho de uma força"
+  ],
+  "cena": {
+    "modelo": "diagrama",
+    "parametros": {
+      "elementos": {
+        "balao": [
+          {
+            "t": "circ",
+            "x": 320,
+            "y": 120,
+            "r": 60,
+            "cor": "#f2a640",
+            "borda": "tinta",
+            "larg": 2
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                285,
+                170
+              ],
+              [
+                305,
+                220
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 1.5
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                355,
+                170
+              ],
+              [
+                335,
+                220
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 1.5
+          },
+          {
+            "t": "ret",
+            "x": 300,
+            "y": 220,
+            "w": 40,
+            "h": 26,
+            "cor": "#a0522d",
+            "borda": "tinta"
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                60,
+                380
+              ],
+              [
+                600,
+                380
+              ]
+            ],
+            "cor": "#8c6a46",
+            "larg": 3
+          },
+          {
+            "t": "cota",
+            "de": [
+              460,
+              246
+            ],
+            "para": [
+              460,
+              380
+            ],
+            "cor": "normal",
+            "rot_em": [
+              472,
+              314
+            ],
+            "ancora": "start",
+            "txt": "h = 80 m"
+          }
+        ],
+        "forcas": [
+          {
+            "t": "seta",
+            "de": [
+              320,
+              250
+            ],
+            "para": [
+              320,
+              330
+            ],
+            "cor": "peso",
+            "larg": 3,
+            "rot_em": [
+              334,
+              322
+            ],
+            "ancora": "start",
+            "rotulo": "P"
+          },
+          {
+            "t": "seta",
+            "de": [
+              200,
+              220
+            ],
+            "para": [
+              200,
+              340
+            ],
+            "cor": "acel",
+            "larg": 2.5,
+            "tracejado": true
+          },
+          {
+            "t": "texto",
+            "x": 188,
+            "y": 280,
+            "txt": "deslocamento",
+            "cor": "acel",
+            "negrito": true,
+            "ancora": "end"
+          }
+        ]
+      }
+    }
+  },
+  "passos": [
+    {
+      "titulo": "Peso e deslocamento",
+      "conceito": "Trabalho de uma força",
+      "texto": "Na descida, o peso \\(\\vec{P}\\) tem o mesmo sentido do deslocamento: seu trabalho é positivo e vale mgh.",
+      "cena": {
+        "mostrar": [
+          "balao",
+          "forcas"
+        ]
+      }
+    },
+    {
+      "titulo": "O valor",
+      "conceito": "Trabalho de uma força",
+      "texto": "Resposta: <b>(d) 1,6 × 10<sup>6</sup> J</b>.",
+      "equacoes": [
+        "\\tau_{P} = mgh = 2\\,000 \\cdot 10 \\cdot 80 = 1,6 \\times 10^{6}\\ \\text{J}"
+      ],
+      "cena": {
+        "destacar": [
+          "forcas"
+        ]
+      }
+    }
+  ],
+  "status": "revisado",
+  "criadoEm": "2026-11-15T09:00:00-03:00",
+  "atualizadoEm": "2026-11-15T09:00:00-03:00"
+}

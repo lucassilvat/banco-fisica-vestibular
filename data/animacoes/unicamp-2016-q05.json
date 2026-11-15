@@ -1,0 +1,189 @@
+{
+  "id": "unicamp-2016-q05",
+  "titulo": "Cores sob luz monocromática amarela",
+  "conceitos": [
+    "Cor dos corpos"
+  ],
+  "cena": {
+    "modelo": "diagrama",
+    "parametros": {
+      "elementos": {
+        "luz": [
+          {
+            "t": "ret",
+            "x": 60,
+            "y": 60,
+            "w": 140,
+            "h": 120,
+            "cor": "#ffe24d",
+            "borda": "tinta"
+          },
+          {
+            "t": "texto",
+            "x": 130,
+            "y": 200,
+            "txt": "luz amarela",
+            "negrito": true
+          },
+          {
+            "t": "seta",
+            "de": [
+              210,
+              80
+            ],
+            "para": [
+              330,
+              80
+            ],
+            "cor": "#e0b400",
+            "larg": 2.5
+          },
+          {
+            "t": "seta",
+            "de": [
+              210,
+              110
+            ],
+            "para": [
+              330,
+              110
+            ],
+            "cor": "#e0b400",
+            "larg": 2.5
+          },
+          {
+            "t": "seta",
+            "de": [
+              210,
+              140
+            ],
+            "para": [
+              330,
+              140
+            ],
+            "cor": "#e0b400",
+            "larg": 2.5
+          },
+          {
+            "t": "seta",
+            "de": [
+              210,
+              170
+            ],
+            "para": [
+              330,
+              170
+            ],
+            "cor": "#e0b400",
+            "larg": 2.5
+          }
+        ],
+        "quadro": [
+          {
+            "t": "ret",
+            "x": 340,
+            "y": 60,
+            "w": 120,
+            "h": 120,
+            "cor": "#2f6fd6",
+            "borda": "tinta"
+          },
+          {
+            "t": "ret",
+            "x": 460,
+            "y": 60,
+            "w": 120,
+            "h": 120,
+            "cor": "#ffffff",
+            "borda": "tinta"
+          },
+          {
+            "t": "texto",
+            "x": 400,
+            "y": 200,
+            "txt": "azul (sol)",
+            "mudo": true
+          },
+          {
+            "t": "texto",
+            "x": 520,
+            "y": 200,
+            "txt": "branco (sol)",
+            "mudo": true
+          }
+        ],
+        "resultado": [
+          {
+            "t": "ret",
+            "x": 340,
+            "y": 240,
+            "w": 120,
+            "h": 120,
+            "cor": "#111",
+            "borda": "tinta"
+          },
+          {
+            "t": "ret",
+            "x": 460,
+            "y": 240,
+            "w": 120,
+            "h": 120,
+            "cor": "#ffe24d",
+            "borda": "tinta"
+          },
+          {
+            "t": "texto",
+            "x": 400,
+            "y": 380,
+            "txt": "negra",
+            "negrito": true
+          },
+          {
+            "t": "texto",
+            "x": 520,
+            "y": 380,
+            "txt": "amarela",
+            "negrito": true
+          },
+          {
+            "t": "texto",
+            "x": 320,
+            "y": 300,
+            "txt": "sob luz amarela:",
+            "negrito": true,
+            "ancora": "end"
+          }
+        ]
+      }
+    }
+  },
+  "passos": [
+    {
+      "titulo": "A cor de um corpo",
+      "conceito": "Cor dos corpos",
+      "texto": "Um corpo azul reflete só o azul; um branco reflete todas as cores.",
+      "cena": {
+        "mostrar": [
+          "luz",
+          "quadro"
+        ]
+      }
+    },
+    {
+      "titulo": "Sob luz amarela",
+      "conceito": "Cor dos corpos",
+      "texto": "A região azul não tem azul para refletir: absorve o amarelo e fica negra. A branca reflete o amarelo e fica amarela. Resposta: <b>(b)</b>.",
+      "cena": {
+        "mostrar": [
+          "resultado"
+        ],
+        "destacar": [
+          "resultado"
+        ]
+      }
+    }
+  ],
+  "status": "revisado",
+  "criadoEm": "2026-11-15T09:00:00-03:00",
+  "atualizadoEm": "2026-11-15T09:00:00-03:00"
+}

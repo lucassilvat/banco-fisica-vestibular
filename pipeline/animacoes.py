@@ -157,7 +157,7 @@ def checar(a: dict, questoes: dict) -> list[str]:
             if ok is not None and v not in ok: e.append(f"{onde}: valor inválido para {k}: {v}")
     if q.get("gabarito") and a["status"] != "rascunho":
         ultimo = a["passos"][-1]["texto"]
-        if f"({q['gabarito']})" not in ultimo.upper():
+        if f"({q['gabarito'].upper()})" not in ultimo.upper():
             e.append(f"o último passo não cita a alternativa do gabarito ({q['gabarito']})")
     return e
 

@@ -1,0 +1,184 @@
+{
+  "id": "unicamp-2023-q35",
+  "titulo": "A tensão entre os pés",
+  "conceitos": [
+    "Potencial elétrico",
+    "Primeira lei de Ohm"
+  ],
+  "cena": {
+    "modelo": "diagrama",
+    "parametros": {
+      "elementos": {
+        "equipotenciais": [
+          {
+            "t": "circ",
+            "x": 250,
+            "y": 220,
+            "r": 160,
+            "cor": null,
+            "borda": "mudo",
+            "larg": 2
+          },
+          {
+            "t": "circ",
+            "x": 250,
+            "y": 220,
+            "r": 90,
+            "cor": null,
+            "borda": "mudo",
+            "larg": 2
+          },
+          {
+            "t": "circ",
+            "x": 250,
+            "y": 220,
+            "r": 40,
+            "cor": null,
+            "borda": "mudo",
+            "larg": 2
+          },
+          {
+            "t": "circ",
+            "x": 250,
+            "y": 220,
+            "r": 7,
+            "cor": "tinta",
+            "borda": "tinta"
+          },
+          {
+            "t": "texto",
+            "x": 250,
+            "y": 274,
+            "txt": "900 kV",
+            "negrito": true,
+            "cor": "perigo"
+          },
+          {
+            "t": "texto",
+            "x": 250,
+            "y": 324,
+            "txt": "800 kV",
+            "negrito": true,
+            "cor": "perigo"
+          },
+          {
+            "t": "texto",
+            "x": 250,
+            "y": 398,
+            "txt": "600 kV",
+            "negrito": true,
+            "mudo": true
+          }
+        ],
+        "pessoa": [
+          {
+            "t": "circ",
+            "x": 290,
+            "y": 220,
+            "r": 8,
+            "cor": "normal",
+            "borda": "tinta"
+          },
+          {
+            "t": "circ",
+            "x": 340,
+            "y": 220,
+            "r": 8,
+            "cor": "normal",
+            "borda": "tinta"
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                290,
+                220
+              ],
+              [
+                315,
+                150
+              ],
+              [
+                340,
+                220
+              ]
+            ],
+            "cor": "normal",
+            "larg": 4
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                315,
+                150
+              ],
+              [
+                315,
+                90
+              ]
+            ],
+            "cor": "normal",
+            "larg": 4
+          },
+          {
+            "t": "circ",
+            "x": 315,
+            "y": 74,
+            "r": 14,
+            "cor": "normal",
+            "borda": "tinta"
+          }
+        ],
+        "ddp": [
+          {
+            "t": "rotulo",
+            "x": 510,
+            "y": 120,
+            "txt": "U = 900 − 800 = 100 kV",
+            "cor": "var(--danger)"
+          },
+          {
+            "t": "rotulo",
+            "x": 510,
+            "y": 180,
+            "txt": "i = U/R = 1,25 A",
+            "cor": "var(--accent)"
+          }
+        ]
+      }
+    }
+  },
+  "passos": [
+    {
+      "titulo": "A ddp entre os pés",
+      "conceito": "Potencial elétrico",
+      "texto": "Os pés estão sobre as equipotenciais de 900 kV e de 800 kV: entre eles há uma diferença de potencial de 100 kV.",
+      "cena": {
+        "mostrar": [
+          "equipotenciais",
+          "pessoa"
+        ]
+      }
+    },
+    {
+      "titulo": "A corrente",
+      "conceito": "Primeira lei de Ohm",
+      "texto": "A corrente sobe por uma perna e desce pela outra, atravessando o corpo. Resposta: <b>(b) 1,25 A</b>.",
+      "equacoes": [
+        "i = \\dfrac{100 \\times 10^{3}}{80 \\times 10^{3}} = 1,25\\ \\text{A}"
+      ],
+      "cena": {
+        "mostrar": [
+          "ddp"
+        ],
+        "destacar": [
+          "ddp"
+        ]
+      }
+    }
+  ],
+  "status": "revisado",
+  "criadoEm": "2026-11-15T09:00:00-03:00",
+  "atualizadoEm": "2026-11-15T09:00:00-03:00"
+}

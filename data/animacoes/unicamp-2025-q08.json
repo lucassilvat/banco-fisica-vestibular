@@ -1,0 +1,236 @@
+{
+  "id": "unicamp-2025-q08",
+  "titulo": "Vento a favor: as velocidades se somam",
+  "conceitos": [
+    "Composição de movimentos",
+    "Velocidade relativa"
+  ],
+  "cena": {
+    "modelo": "diagrama",
+    "parametros": {
+      "elementos": {
+        "rota": [
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                40,
+                220
+              ],
+              [
+                620,
+                220
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 2
+          },
+          {
+            "t": "circ",
+            "x": 40,
+            "y": 220,
+            "r": 6,
+            "cor": "tinta",
+            "borda": "tinta"
+          },
+          {
+            "t": "circ",
+            "x": 620,
+            "y": 220,
+            "r": 6,
+            "cor": "tinta",
+            "borda": "tinta"
+          },
+          {
+            "t": "texto",
+            "x": 40,
+            "y": 244,
+            "txt": "Baltimore (oeste)",
+            "mudo": true,
+            "ancora": "start"
+          },
+          {
+            "t": "texto",
+            "x": 620,
+            "y": 244,
+            "txt": "Londres (leste)",
+            "mudo": true,
+            "ancora": "end"
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                200,
+                70
+              ],
+              [
+                200,
+                330
+              ]
+            ],
+            "cor": "mudo",
+            "larg": 1.5,
+            "tracejado": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                440,
+                70
+              ],
+              [
+                440,
+                330
+              ]
+            ],
+            "cor": "mudo",
+            "larg": 1.5,
+            "tracejado": true
+          },
+          {
+            "t": "texto",
+            "x": 120,
+            "y": 80,
+            "txt": "A: sem vento",
+            "negrito": true
+          },
+          {
+            "t": "texto",
+            "x": 320,
+            "y": 80,
+            "txt": "B",
+            "negrito": true
+          },
+          {
+            "t": "texto",
+            "x": 530,
+            "y": 80,
+            "txt": "C: sem vento",
+            "negrito": true
+          },
+          {
+            "t": "cota",
+            "de": [
+              200,
+              300
+            ],
+            "para": [
+              440,
+              300
+            ],
+            "cor": "normal",
+            "rot_em": [
+              320,
+              318
+            ],
+            "txt": "2 000 km"
+          }
+        ],
+        "velocidades": [
+          {
+            "t": "seta",
+            "de": [
+              220,
+              130
+            ],
+            "para": [
+              370,
+              130
+            ],
+            "cor": "normal",
+            "larg": 3,
+            "rot_em": [
+              296,
+              112
+            ],
+            "rotulo": "v",
+            "sub": "avião,vento"
+          },
+          {
+            "t": "seta",
+            "de": [
+              220,
+              170
+            ],
+            "para": [
+              270,
+              170
+            ],
+            "cor": "atrito",
+            "larg": 3,
+            "rot_em": [
+              282,
+              172
+            ],
+            "ancora": "start",
+            "rotulo": "v",
+            "sub": "vento"
+          }
+        ],
+        "soma": [
+          {
+            "t": "seta",
+            "de": [
+              220,
+              260
+            ],
+            "para": [
+              420,
+              260
+            ],
+            "cor": "acel",
+            "larg": 4,
+            "rot_em": [
+              320,
+              280
+            ],
+            "rotulo": "v",
+            "sub": "avião,solo"
+          },
+          {
+            "t": "rotulo",
+            "x": 320,
+            "y": 360,
+            "txt": "750 + 250 = 1 000 km/h",
+            "cor": "var(--anim-acel)"
+          }
+        ]
+      }
+    }
+  },
+  "passos": [
+    {
+      "titulo": "No trecho B",
+      "conceito": "Composição de movimentos",
+      "texto": "Em relação ao vento, o avião voa a 750 km/h; o vento, em relação ao solo, sopra a 250 km/h no mesmo sentido (oeste para leste).",
+      "cena": {
+        "mostrar": [
+          "rota",
+          "velocidades"
+        ]
+      }
+    },
+    {
+      "titulo": "Velocidade em relação ao solo e tempo",
+      "conceito": "Velocidade relativa",
+      "texto": "Mesma direção e mesmo sentido: as velocidades se somam. Resposta: <b>(d)</b>.",
+      "equacoes": [
+        "|\\vec{v}_{\\text{avião,solo}}| = 750 + 250 = 1\\,000\\ \\text{km/h}",
+        "\\Delta t = \\dfrac{2\\,000}{1\\,000} = 2,0\\ \\text{h}"
+      ],
+      "cena": {
+        "mostrar": [
+          "soma"
+        ],
+        "destacar": [
+          "soma"
+        ]
+      }
+    }
+  ],
+  "status": "revisado",
+  "criadoEm": "2026-11-15T09:00:00-03:00",
+  "atualizadoEm": "2026-11-15T09:00:00-03:00"
+}

@@ -1,0 +1,132 @@
+{
+  "id": "unicamp-2022-q63",
+  "titulo": "Diferença de potencial no campo uniforme",
+  "conceitos": [
+    "Campo elétrico uniforme",
+    "Potencial elétrico"
+  ],
+  "cena": {
+    "modelo": "diagrama",
+    "parametros": {
+      "elementos": {
+        "campo": [
+          {
+            "t": "seta",
+            "de": [
+              60,
+              140
+            ],
+            "para": [
+              600,
+              140
+            ],
+            "cor": "atrito",
+            "larg": 3
+          },
+          {
+            "t": "seta",
+            "de": [
+              60,
+              260
+            ],
+            "para": [
+              600,
+              260
+            ],
+            "cor": "atrito",
+            "larg": 3
+          },
+          {
+            "t": "texto",
+            "x": 606,
+            "y": 128,
+            "txt": "E₀",
+            "negrito": true,
+            "cor": "atrito",
+            "ancora": "start"
+          }
+        ],
+        "equipotenciais": [
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                220,
+                90
+              ],
+              [
+                220,
+                310
+              ]
+            ],
+            "cor": "mudo",
+            "larg": 2,
+            "tracejado": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                420,
+                90
+              ],
+              [
+                420,
+                310
+              ]
+            ],
+            "cor": "mudo",
+            "larg": 2,
+            "tracejado": true
+          },
+          {
+            "t": "cota",
+            "de": [
+              220,
+              70
+            ],
+            "para": [
+              420,
+              70
+            ],
+            "cor": "normal",
+            "rot_em": [
+              320,
+              52
+            ],
+            "txt": "d = 5,0 × 10^{−6} m"
+          }
+        ]
+      }
+    }
+  },
+  "passos": [
+    {
+      "titulo": "Campo uniforme",
+      "conceito": "Campo elétrico uniforme",
+      "texto": "As linhas tracejadas são perpendiculares ao campo: são equipotenciais. Entre elas, U = E d, com d medido na direção do campo.",
+      "cena": {
+        "mostrar": [
+          "campo",
+          "equipotenciais"
+        ]
+      }
+    },
+    {
+      "titulo": "O valor",
+      "conceito": "Potencial elétrico",
+      "texto": "Resposta: <b>(b) 2,0 × 10<sup>−7</sup> V</b>.",
+      "equacoes": [
+        "U = 4,0 \\times 10^{-2} \\cdot 5,0 \\times 10^{-6} = 2,0 \\times 10^{-7}\\ \\text{V}"
+      ],
+      "cena": {
+        "destacar": [
+          "equipotenciais"
+        ]
+      }
+    }
+  ],
+  "status": "revisado",
+  "criadoEm": "2026-11-15T09:00:00-03:00",
+  "atualizadoEm": "2026-11-15T09:00:00-03:00"
+}

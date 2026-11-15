@@ -1,0 +1,462 @@
+{
+  "id": "unicamp-2027-q12",
+  "titulo": "Aquecer, fundir, aquecer de novo",
+  "conceitos": [
+    "Calor sensível",
+    "Mudanças de estado físico"
+  ],
+  "cena": {
+    "modelo": "diagrama",
+    "parametros": {
+      "elementos": {
+        "eixos": [
+          {
+            "t": "seta",
+            "de": [
+              90,
+              350
+            ],
+            "para": [
+              600,
+              350
+            ],
+            "cor": "tinta",
+            "larg": 1.6
+          },
+          {
+            "t": "seta",
+            "de": [
+              90,
+              350
+            ],
+            "para": [
+              90,
+              60
+            ],
+            "cor": "tinta",
+            "larg": 1.6
+          },
+          {
+            "t": "texto",
+            "x": 96,
+            "y": 50,
+            "txt": "temperatura (ºC)",
+            "mudo": true,
+            "ancora": "start"
+          },
+          {
+            "t": "texto",
+            "x": 600,
+            "y": 380,
+            "txt": "tempo (s)",
+            "mudo": true,
+            "ancora": "end"
+          },
+          {
+            "t": "texto",
+            "x": -482.5,
+            "y": 350,
+            "txt": "//",
+            "negrito": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                90.0,
+                346
+              ],
+              [
+                90.0,
+                354
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 1.5
+          },
+          {
+            "t": "texto",
+            "x": 90.0,
+            "y": 366,
+            "txt": "0",
+            "mudo": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                145.0,
+                346
+              ],
+              [
+                145.0,
+                354
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 1.5
+          },
+          {
+            "t": "texto",
+            "x": 145.0,
+            "y": 366,
+            "txt": "10",
+            "mudo": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                200.0,
+                346
+              ],
+              [
+                200.0,
+                354
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 1.5
+          },
+          {
+            "t": "texto",
+            "x": 200.0,
+            "y": 366,
+            "txt": "20",
+            "mudo": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                365.0,
+                346
+              ],
+              [
+                365.0,
+                354
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 1.5
+          },
+          {
+            "t": "texto",
+            "x": 365.0,
+            "y": 366,
+            "txt": "200",
+            "mudo": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                420.0,
+                346
+              ],
+              [
+                420.0,
+                354
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 1.5
+          },
+          {
+            "t": "texto",
+            "x": 420.0,
+            "y": 366,
+            "txt": "210",
+            "mudo": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                475.0,
+                346
+              ],
+              [
+                475.0,
+                354
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 1.5
+          },
+          {
+            "t": "texto",
+            "x": 475.0,
+            "y": 366,
+            "txt": "220",
+            "mudo": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                530.0,
+                346
+              ],
+              [
+                530.0,
+                354
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 1.5
+          },
+          {
+            "t": "texto",
+            "x": 530.0,
+            "y": 366,
+            "txt": "230",
+            "mudo": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                585.0,
+                346
+              ],
+              [
+                585.0,
+                354
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 1.5
+          },
+          {
+            "t": "texto",
+            "x": 585.0,
+            "y": 366,
+            "txt": "240",
+            "mudo": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                90.0,
+                350
+              ],
+              [
+                585.0,
+                350
+              ]
+            ],
+            "cor": "linha",
+            "larg": 1,
+            "tracejado": true
+          },
+          {
+            "t": "texto",
+            "x": 80,
+            "y": 350,
+            "txt": "20",
+            "mudo": true,
+            "ancora": "end"
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                90.0,
+                260
+              ],
+              [
+                585.0,
+                260
+              ]
+            ],
+            "cor": "linha",
+            "larg": 1,
+            "tracejado": true
+          },
+          {
+            "t": "texto",
+            "x": 80,
+            "y": 260,
+            "txt": "30",
+            "mudo": true,
+            "ancora": "end"
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                90.0,
+                170
+              ],
+              [
+                585.0,
+                170
+              ]
+            ],
+            "cor": "linha",
+            "larg": 1,
+            "tracejado": true
+          },
+          {
+            "t": "texto",
+            "x": 80,
+            "y": 170,
+            "txt": "40",
+            "mudo": true,
+            "ancora": "end"
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                90.0,
+                80
+              ],
+              [
+                585.0,
+                80
+              ]
+            ],
+            "cor": "linha",
+            "larg": 1,
+            "tracejado": true
+          },
+          {
+            "t": "texto",
+            "x": 80,
+            "y": 80,
+            "txt": "50",
+            "mudo": true,
+            "ancora": "end"
+          }
+        ],
+        "solido": [
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                90.0,
+                350
+              ],
+              [
+                145.0,
+                260
+              ]
+            ],
+            "cor": "perigo",
+            "larg": 3.5
+          },
+          {
+            "t": "texto",
+            "x": 106.0,
+            "y": 287,
+            "txt": "sólido",
+            "negrito": true,
+            "cor": "perigo",
+            "ancora": "end"
+          }
+        ],
+        "fusao": [
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                145.0,
+                260
+              ],
+              [
+                420.0,
+                260
+              ]
+            ],
+            "cor": "acel",
+            "larg": 3.5
+          },
+          {
+            "t": "rotulo",
+            "x": 282.5,
+            "y": 290,
+            "txt": "fusão: 30 ºC constante",
+            "cor": "var(--anim-acel)"
+          }
+        ],
+        "liquido": [
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                420.0,
+                260
+              ],
+              [
+                530.0,
+                80
+              ]
+            ],
+            "cor": "normal",
+            "larg": 3.5
+          },
+          {
+            "t": "circ",
+            "x": 530.0,
+            "y": 80,
+            "r": 6,
+            "cor": "normal",
+            "borda": "tinta"
+          },
+          {
+            "t": "rotulo",
+            "x": 460.0,
+            "y": 70,
+            "txt": "50 ºC em 230 s",
+            "cor": "var(--accent)"
+          }
+        ]
+      }
+    }
+  },
+  "passos": [
+    {
+      "titulo": "A temperatura final",
+      "conceito": "Calor sensível",
+      "texto": "Na fase líquida, o gálio recebe 80 J de calor sensível a partir de 30 ºC.",
+      "equacoes": [
+        "\\Delta T = \\dfrac{Q}{mc} = \\dfrac{80}{10 \\cdot 0,4} = 20\\ \\text{ºC} \\quad \\Rightarrow \\quad T_{3} = 50\\ \\text{ºC}"
+      ],
+      "cena": {
+        "mostrar": [
+          "eixos"
+        ]
+      }
+    },
+    {
+      "titulo": "Sólido e fusão",
+      "conceito": "Mudanças de estado físico",
+      "texto": "O sólido aquece de 20 ºC a 30 ºC. Durante a fusão, recebe calor e a temperatura não muda: o gráfico tem um patamar em 30 ºC.",
+      "cena": {
+        "mostrar": [
+          "solido",
+          "fusao"
+        ]
+      }
+    },
+    {
+      "titulo": "O líquido",
+      "conceito": "Calor sensível",
+      "texto": "Depois da fusão, o líquido aquece até 50 ºC em 230 s. Só o gráfico b tem patamar em 30 ºC e chega a 50 ºC em 230 s. Resposta: <b>(b)</b>.",
+      "cena": {
+        "mostrar": [
+          "liquido"
+        ],
+        "destacar": [
+          "liquido"
+        ]
+      }
+    }
+  ],
+  "status": "revisado",
+  "criadoEm": "2026-11-15T09:00:00-03:00",
+  "atualizadoEm": "2026-11-15T09:00:00-03:00"
+}

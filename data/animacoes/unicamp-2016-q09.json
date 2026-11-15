@@ -1,0 +1,203 @@
+{
+  "id": "unicamp-2016-q09",
+  "titulo": "A rotação do anemômetro",
+  "conceitos": [
+    "Movimento circular uniforme"
+  ],
+  "cena": {
+    "modelo": "diagrama",
+    "parametros": {
+      "elementos": {
+        "rotor": [
+          {
+            "t": "circ",
+            "x": 190,
+            "y": 210,
+            "r": 8,
+            "cor": "tinta",
+            "borda": "tinta"
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                190,
+                210
+              ],
+              [
+                310.0,
+                210.0
+              ]
+            ],
+            "cor": "#666",
+            "larg": 4
+          },
+          {
+            "t": "circ",
+            "x": 310.0,
+            "y": 210.0,
+            "r": 18,
+            "cor": "#c9c9c9",
+            "borda": "tinta"
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                190,
+                210
+              ],
+              [
+                190.0,
+                330.0
+              ]
+            ],
+            "cor": "#666",
+            "larg": 4
+          },
+          {
+            "t": "circ",
+            "x": 190.0,
+            "y": 330.0,
+            "r": 18,
+            "cor": "#c9c9c9",
+            "borda": "tinta"
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                190,
+                210
+              ],
+              [
+                70.0,
+                210.0
+              ]
+            ],
+            "cor": "#666",
+            "larg": 4
+          },
+          {
+            "t": "circ",
+            "x": 70.0,
+            "y": 210.0,
+            "r": 18,
+            "cor": "#c9c9c9",
+            "borda": "tinta"
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                190,
+                210
+              ],
+              [
+                190.0,
+                90.0
+              ]
+            ],
+            "cor": "#666",
+            "larg": 4
+          },
+          {
+            "t": "circ",
+            "x": 190.0,
+            "y": 90.0,
+            "r": 18,
+            "cor": "#c9c9c9",
+            "borda": "tinta"
+          }
+        ],
+        "raio": [
+          {
+            "t": "cota",
+            "de": [
+              190,
+              210
+            ],
+            "para": [
+              310,
+              210
+            ],
+            "cor": "normal",
+            "rot_em": [
+              250,
+              194
+            ],
+            "txt": "r = 25 cm"
+          }
+        ],
+        "dados": [
+          {
+            "t": "rotulo",
+            "x": 520,
+            "y": 140,
+            "txt": "v = 18 km/h = 5 m/s",
+            "cor": "var(--accent)"
+          },
+          {
+            "t": "rotulo",
+            "x": 520,
+            "y": 200,
+            "txt": "f = 5 ÷ (2 · 3 · 0,25) = 10/3 Hz",
+            "cor": "var(--danger)"
+          },
+          {
+            "t": "rotulo",
+            "x": 520,
+            "y": 260,
+            "txt": "× 60 = 200 rpm",
+            "cor": "var(--danger)"
+          }
+        ]
+      },
+      "animacoes": {
+        "girar": {
+          "alvo": "rotor",
+          "tipo": "girar",
+          "centro": [
+            190,
+            210
+          ],
+          "graus_por_s": 120
+        }
+      }
+    }
+  },
+  "passos": [
+    {
+      "titulo": "Velocidade das conchas",
+      "conceito": "Movimento circular uniforme",
+      "texto": "No anemômetro ideal, as conchas se movem com a velocidade do vento: v = 2πr f.",
+      "cena": {
+        "mostrar": [
+          "rotor",
+          "raio"
+        ],
+        "estado": {
+          "animar": [
+            "girar"
+          ]
+        }
+      }
+    },
+    {
+      "titulo": "A frequência",
+      "conceito": "Movimento circular uniforme",
+      "texto": "Com π ≈ 3 e passando de Hz para rotações por minuto. Resposta: <b>(b) 200 rpm</b>.",
+      "cena": {
+        "mostrar": [
+          "dados"
+        ],
+        "destacar": [
+          "dados"
+        ]
+      }
+    }
+  ],
+  "status": "revisado",
+  "criadoEm": "2026-11-15T09:00:00-03:00",
+  "atualizadoEm": "2026-11-15T09:00:00-03:00"
+}

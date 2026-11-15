@@ -4,6 +4,18 @@ Cada versão corresponde a um lote de importação ou a uma mudança no app/pipe
 Formato: `vMAIOR.MENOR.CORREÇÃO` — MENOR sobe a cada prova importada; MAIOR, em mudanças
 de modelo de dados; CORREÇÃO, em correções de questões já publicadas.
 
+## v2.12.0 — 2026-11-15
+
+- **Resolução animada da Unicamp 2016 a 2027**: 115 questões novas (a Unicamp 2017 Q58 já
+  tinha). Com isso, todas as 116 questões da Unicamp no banco têm resolução animada.
+- Questões interdisciplinares (Unicamp 2017 Q32, Q35, Q38; 2019 Q15, Q36, Q81): a animação
+  trata a parte de Física e cita em uma frase a conclusão da outra disciplina.
+- Notação da questão respeitada quando ela foge da regra geral das forças (ex.: Unicamp 2023
+  Q33 usa \(\vec{f}_{at}\)).
+- `pipeline animacoes verificar`: a conferência do gabarito no último passo passou a aceitar
+  letra minúscula, como nas alternativas da Unicamp ("(a)").
+- Revisão visual e de fidelidade de todos os passos.
+
 ## v2.11.0 — 2026-11-15
 
 - **Resolução animada da Unesp 2016 a 2024**: 77 questões (2024: 8; 2023: 9; 2022: 7;

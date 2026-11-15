@@ -1,0 +1,348 @@
+{
+  "id": "unicamp-2018-q46",
+  "titulo": "Superfície e volume em paralelo",
+  "conceitos": [
+    "Associação em paralelo",
+    "Primeira lei de Ohm"
+  ],
+  "cena": {
+    "modelo": "diagrama",
+    "parametros": {
+      "elementos": {
+        "circuito": [
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                160,
+                70
+              ],
+              [
+                160,
+                330
+              ],
+              [
+                290,
+                330
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 2.5
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                330,
+                330
+              ],
+              [
+                480,
+                330
+              ],
+              [
+                480,
+                70
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 2.5
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                305,
+                314
+              ],
+              [
+                305,
+                346
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 2.5
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                315,
+                322
+              ],
+              [
+                315,
+                338
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 5
+          },
+          {
+            "t": "texto",
+            "x": 310,
+            "y": 364,
+            "txt": "U",
+            "negrito": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                160,
+                70
+              ],
+              [
+                280,
+                70
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 2.5
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                280,
+                70
+              ],
+              [
+                286.7,
+                78.0
+              ],
+              [
+                293.3,
+                62.0
+              ],
+              [
+                300.0,
+                78.0
+              ],
+              [
+                306.7,
+                62.0
+              ],
+              [
+                313.3,
+                78.0
+              ],
+              [
+                320.0,
+                62.0
+              ],
+              [
+                326.7,
+                78.0
+              ],
+              [
+                333.3,
+                62.0
+              ],
+              [
+                340.0,
+                78.0
+              ],
+              [
+                346.7,
+                62.0
+              ],
+              [
+                353.3,
+                78.0
+              ],
+              [
+                360,
+                70
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 2.5
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                360,
+                70
+              ],
+              [
+                480,
+                70
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 2.5
+          },
+          {
+            "t": "texto",
+            "x": 320,
+            "y": 44,
+            "txt": "R_{S} = 0,2 Ω (superfície)",
+            "negrito": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                160,
+                190
+              ],
+              [
+                280,
+                190
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 2.5
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                280,
+                190
+              ],
+              [
+                286.7,
+                198.0
+              ],
+              [
+                293.3,
+                182.0
+              ],
+              [
+                300.0,
+                198.0
+              ],
+              [
+                306.7,
+                182.0
+              ],
+              [
+                313.3,
+                198.0
+              ],
+              [
+                320.0,
+                182.0
+              ],
+              [
+                326.7,
+                198.0
+              ],
+              [
+                333.3,
+                182.0
+              ],
+              [
+                340.0,
+                198.0
+              ],
+              [
+                346.7,
+                182.0
+              ],
+              [
+                353.3,
+                198.0
+              ],
+              [
+                360,
+                190
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 2.5
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                360,
+                190
+              ],
+              [
+                480,
+                190
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 2.5
+          },
+          {
+            "t": "texto",
+            "x": 320,
+            "y": 164,
+            "txt": "R_{V} = 100 Ω (volume)",
+            "negrito": true
+          },
+          {
+            "t": "circ",
+            "x": 160,
+            "y": 190,
+            "r": 4,
+            "cor": "tinta",
+            "borda": "tinta"
+          },
+          {
+            "t": "circ",
+            "x": 480,
+            "y": 190,
+            "r": 4,
+            "cor": "tinta",
+            "borda": "tinta"
+          }
+        ],
+        "correntes": [
+          {
+            "t": "texto",
+            "x": 560,
+            "y": 70,
+            "txt": "i_{S} = U/0,2",
+            "negrito": true,
+            "cor": "acel",
+            "ancora": "middle"
+          },
+          {
+            "t": "texto",
+            "x": 560,
+            "y": 190,
+            "txt": "i_{V} = U/100",
+            "negrito": true,
+            "cor": "acel"
+          }
+        ]
+      }
+    }
+  },
+  "passos": [
+    {
+      "titulo": "Mesma tensão",
+      "conceito": "Associação em paralelo",
+      "texto": "Os dois resistores estão em paralelo: ambos sob a mesma tensão U. A corrente em cada um é U/R.",
+      "cena": {
+        "mostrar": [
+          "circuito",
+          "correntes"
+        ]
+      }
+    },
+    {
+      "titulo": "A razão",
+      "conceito": "Primeira lei de Ohm",
+      "texto": "A tensão se cancela na razão. Resposta: <b>(d) 500</b>.",
+      "equacoes": [
+        "F = \\dfrac{i_{S}}{i_{V}} = \\dfrac{R_{V}}{R_{S}} = \\dfrac{100}{0,2} = 500"
+      ],
+      "cena": {
+        "destacar": [
+          "correntes"
+        ]
+      }
+    }
+  ],
+  "status": "revisado",
+  "criadoEm": "2026-11-15T09:00:00-03:00",
+  "atualizadoEm": "2026-11-15T09:00:00-03:00"
+}

@@ -1,0 +1,114 @@
+{
+  "id": "unicamp-2024-q38",
+  "titulo": "Na velocidade terminal, as forças se equilibram",
+  "conceitos": [
+    "Leis de Newton",
+    "Resistência do ar"
+  ],
+  "cena": {
+    "modelo": "diagrama",
+    "parametros": {
+      "elementos": {
+        "objeto": [
+          {
+            "t": "circ",
+            "x": 320,
+            "y": 200,
+            "r": 30,
+            "cor": "#c9c9c9",
+            "borda": "tinta",
+            "larg": 2
+          },
+          {
+            "t": "texto",
+            "x": 370,
+            "y": 200,
+            "txt": "m = 200 g",
+            "negrito": true,
+            "ancora": "start"
+          }
+        ],
+        "forcas": [
+          {
+            "t": "seta",
+            "de": [
+              320,
+              230
+            ],
+            "para": [
+              320,
+              330
+            ],
+            "cor": "peso",
+            "larg": 3,
+            "rot_em": [
+              334,
+              320
+            ],
+            "ancora": "start",
+            "rotulo": "P"
+          },
+          {
+            "t": "seta",
+            "de": [
+              320,
+              170
+            ],
+            "para": [
+              320,
+              70
+            ],
+            "cor": "atrito",
+            "larg": 3,
+            "rot_em": [
+              334,
+              82
+            ],
+            "ancora": "start",
+            "rotulo": "F",
+            "sub": "ar"
+          }
+        ],
+        "terminal": [
+          {
+            "t": "rotulo",
+            "x": 180,
+            "y": 200,
+            "txt": "velocidade constante: a = 0",
+            "cor": "var(--accent)"
+          }
+        ]
+      }
+    }
+  },
+  "passos": [
+    {
+      "titulo": "Velocidade terminal",
+      "conceito": "Leis de Newton",
+      "texto": "Com velocidade constante, a aceleração é nula: a resultante é zero, e a resistência do ar \\(\\vec{F}_{\\text{ar}}\\) equilibra o peso \\(\\vec{P}\\).",
+      "cena": {
+        "mostrar": [
+          "objeto",
+          "forcas",
+          "terminal"
+        ]
+      }
+    },
+    {
+      "titulo": "O valor",
+      "conceito": "Resistência do ar",
+      "texto": "Resposta: <b>(b) 2,0 N</b>.",
+      "equacoes": [
+        "F_{\\text{ar}} = P = 0,200 \\cdot 10 = 2,0\\ \\text{N}"
+      ],
+      "cena": {
+        "destacar": [
+          "forcas"
+        ]
+      }
+    }
+  ],
+  "status": "revisado",
+  "criadoEm": "2026-11-15T09:00:00-03:00",
+  "atualizadoEm": "2026-11-15T09:00:00-03:00"
+}
