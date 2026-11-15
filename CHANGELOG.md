@@ -4,6 +4,20 @@ Cada versão corresponde a um lote de importação ou a uma mudança no app/pipe
 Formato: `vMAIOR.MENOR.CORREÇÃO` — MENOR sobe a cada prova importada; MAIOR, em mudanças
 de modelo de dados; CORREÇÃO, em correções de questões já publicadas.
 
+## v2.14.0 — 2026-11-15
+
+- **Revisão das resoluções animadas no app do Claude** (que só o Lucas acessa). Cada questão com
+  animação ganhou a seleção **Não revisada** (padrão) / **Comentada** / **Aprovada** e um campo de
+  comentário; tudo fica na coleção `revisoes` do banco do app. Uma barra no topo mostra quantas
+  estão em cada situação e filtra as questões por ela. Salvar um comentário numa animação ainda
+  não revisada a marca como Comentada.
+- **Site público (GitHub Pages) só com as aprovadas**: `python -m pipeline site` só põe em
+  `animacoes.json` os roteiros com `revisao.estado = "aprovada"`; `--revisao` inclui todos (é o
+  que vai para o app do Claude). Os roteiros não aprovados continuam no repositório.
+- `python -m pipeline animacoes revisoes <arquivo.json>` grava nos roteiros as revisões exportadas
+  do app; `python -m pipeline animacoes resumo` conta as revisões. Campo `revisao` no esquema.
+- Substitui a ocultação da v2.13.1 (constante `MOSTRAR_ANIMACOES`, removida).
+
 ## v2.13.1 — 2026-11-15
 
 - **Resoluções animadas ocultas no app** (decisão do Lucas, que quer seguir outro caminho no

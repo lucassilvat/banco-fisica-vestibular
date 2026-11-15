@@ -188,12 +188,17 @@ Para gravar questões, usam-se os lotes da etapa `publicar` (docs/WORKFLOW.md).
 35. v2.13.1: o Lucas analisou as animações e decidiu seguir outro caminho no futuro. Por
     enquanto, o app mostra só as resoluções textuais: o botão está oculto pela constante
     `MOSTRAR_ANIMACOES = false` em `app/index.html`. Os roteiros não foram apagados.
+36. v2.14.0: os alunos (beta) usam só o site do GitHub Pages; o app no Claude é só do Lucas e
+    virou o ambiente de revisão das animações. Cada uma recebe Não revisada (padrão), Comentada
+    ou Aprovada, com comentário (coleção `revisoes`). No merge, só as **aprovadas** vão para o
+    site público. Antes de cada pull request: exportar a coleção `revisoes` (db_list), gravar
+    com `python -m pipeline animacoes revisoes <arquivo>` e conferir com `... animacoes resumo`.
 
 ## Pendências
 
-- **Resolução animada**: oculta no app desde a v2.13.1 (ver item 35). Os roteiros de Unesp,
-  Unicamp e Fuvest continuam no repositório. Não produzir novas animações nem reativar o botão
-  sem novo pedido do Lucas; o novo formato ainda será definido.
+- **Resolução animada**: em revisão pelo Lucas no app do Claude (item 36). Só as aprovadas vão
+  para o site público. As comentadas esperam ajustes: ler os comentários da coleção `revisoes`,
+  corrigir os roteiros e republicar no app. Não produzir animações novas sem novo pedido.
 
 - **Fórmulas**: todas as provas do banco foram conferidas (v2.1.0 a v2.7.0). Única ressalva:
   a Unicamp 2027 foi conferida no caderno das provas S e W, e o registrado no manifesto é o

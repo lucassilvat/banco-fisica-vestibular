@@ -13,6 +13,7 @@ Os nomes de elementos e de estado aceitos por modelo (MODELOS) precisam bater co
 modelos de cena de app/index.html (CENAS).
 """
 import json
+from pathlib import Path
 import re
 
 from .comum import DADOS, TRABALHO, carregar_questoes
@@ -83,6 +84,12 @@ MODELOS = {
     },
 }
 OBRIG = ["id", "titulo", "conceitos", "cena", "passos", "status"]
+# Revisão do Lucas, feita no app do Claude (coleção "revisoes"). Só as aprovadas vão para o site público.
+REV_ESTADOS = ("nao-revisada", "comentada", "aprovada")
+
+
+def estado_revisao(a: dict) -> str:
+    return (a.get("revisao") or {}).get("estado", "nao-revisada")
 TAGS_OK = re.compile(r"</?(i|b|u|sub|sup)>")
 
 
@@ -123,6 +130,9 @@ def checar(a: dict, questoes: dict) -> list[str]:
     q = questoes.get(a["id"])
     if not q: return [f"não existe questão {a['id']}"]
     if a["status"] not in ("rascunho", "revisado", "publicado"): e.append(f"status inválido {a['status']}")
+    if "revisao" in a:
+        r = a["revisao"]
+        if not isinstance(r, dict) or r.get("estado") not in REV_ESTADOS: e.append(f"revisao inválida: {r}")
     m = MODELOS.get(a["cena"].get("modelo"))
     if a["cena"].get("modelo") == "diagrama":
         e += checar_diagrama(a["cena"].get("parametros", {}))
@@ -189,7 +199,40 @@ def preparar(filtro: str | None = None):
     print(f"{len(escritas)} roteiro(s) em {(len(escritas) + 49) // 50} lote(s) em {out}.")
 
 
+def importar_revisoes(arquivo: str):
+    """Grava nos roteiros as revisões exportadas da coleção "revisoes" do app.
+
+    Aceita uma lista de documentos ({"id", "data"}, como sai do banco) ou um objeto {id: dados}."""
+    bruto = json.loads(Path(arquivo).read_text(encoding="utf-8"))
+    docs = {d["id"]: d.get("data", {}) for d in bruto} if isinstance(bruto, list) else bruto
+    n = 0
+    for id_, r in docs.items():
+        f = ANIMACOES / f"{id_}.json"
+        if not f.exists():
+            print(f"aviso: não há roteiro para {id_}"); continue
+        if r.get("estado") not in REV_ESTADOS:
+            print(f"aviso: estado inválido em {id_}: {r.get('estado')}"); continue
+        a = json.loads(f.read_text(encoding="utf-8"))
+        novo = {"estado": r["estado"], "comentario": r.get("comentario", ""), "atualizadoEm": r.get("atualizadoEm", "")}
+        if a.get("revisao") != novo:
+            a["revisao"] = novo
+            f.write_text(json.dumps(a, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"); n += 1
+    print(f"{n} roteiro(s) atualizado(s).")
+    resumo()
+
+
+def resumo():
+    cont = {k: 0 for k in REV_ESTADOS}
+    for a in carregar(): cont[estado_revisao(a)] += 1
+    print("Revisão: " + ", ".join(f"{v} {k}" for k, v in cont.items()) + " (só as aprovadas vão para o site público).")
+
+
 def executar(acao: str, filtro: str | None = None):
+    if acao == "revisoes":
+        if not filtro: raise SystemExit("Uso: python -m pipeline animacoes revisoes <arquivo.json>")
+        importar_revisoes(filtro); return
+    if acao == "resumo":
+        resumo(); return
     if acao == "verificar":
         n = verificar(filtro)
         if n: raise SystemExit(f"{n} erro(s).")
