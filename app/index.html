@@ -1464,7 +1464,7 @@ CENAS["indicador-combustivel"] = (svg, P) => {
   const volta2 = [[400, 395], [12, 395], [12, YC]];
   [caminho, volta2].forEach(c => S("polyline", { points: c.map(p => p.join(",")).join(" "), class: "fio" }, el.circuito));
   const fioCursor = S("polyline", { class: "fio" }, el.circuito);
-  S("rect", { x: 400, y: 378, width: 70, height: 36, rx: 4, fill: "#2a2a2a" }, el.circuito); sLabel(el.circuito, 435, 364, "bateria", "", "t-mute", "middle");
+  S("rect", { x: 400, y: 378, width: 70, height: 36, rx: 4, fill: "#2a2a2a" }, el.circuito); [["−", 404], ["+", 468]].forEach(([t, x]) => { S("text", { x, y: 376, fill: "var(--ink)", "font-size": 24, "font-weight": 700, "text-anchor": "middle" }, el.circuito).textContent = t; }); sLabel(el.circuito, 435, 362, "bateria", "", "t-mute", "middle");
   // lâmina bimetálica (A à esquerda, B à direita) com bobina
   el.lamina = S("g", { class: "ae" }, svg);
   const lamA = S("path", { fill: "none", stroke: "#d64545", "stroke-width": 6 }, el.lamina), lamB = S("path", { fill: "none", stroke: "#3a7bd5", "stroke-width": 6 }, el.lamina);
@@ -1510,7 +1510,7 @@ CENAS["indicador-combustivel"] = (svg, P) => {
     tI.textContent = q > 0.97 ? "corrente maior" : q < 0.42 ? "corrente menor" : "corrente diminuindo";
     const off = (ph * 70 * q) % 28;
     const { segs, L } = trecho(rota(xs));
-    dots.forEach((d, k) => { const s = k * 28 + off; d.style.display = s > L ? "none" : ""; if (s > L) return; const sg = segs.find(g => s >= g[2] && s <= g[2] + g[3]) || segs[segs.length - 1]; const t = (s - sg[2]) / sg[3]; d.setAttribute("cx", sg[0][0] + (sg[1][0] - sg[0][0]) * t); d.setAttribute("cy", sg[0][1] + (sg[1][1] - sg[0][1]) * t); });
+    dots.forEach((d, k) => { const s0 = k * 28 + off; d.style.display = s0 > L ? "none" : ""; if (s0 > L) return; const s = L - s0; /* sentido convencional: sai do + (direita da bateria) */ const sg = segs.find(g => s >= g[2] && s <= g[2] + g[3]) || segs[segs.length - 1]; const t = (s - sg[2]) / sg[3]; d.setAttribute("cx", sg[0][0] + (sg[1][0] - sg[0][0]) * t); d.setAttribute("cy", sg[0][1] + (sg[1][1] - sg[0][1]) * t); });
   }
   let stop = () => {};
   pos(1, 0);
