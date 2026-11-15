@@ -41,6 +41,11 @@ A resolução é dada como um professor faria na lousa:
 - **Imagens em espelhos e lentes**: desenhar imagem virtual do lado virtual (atrás do espelho),
   com o tamanho dado pelo aumento (revisão do Lucas na Unesp 2026 Q79).
 - Cada método termina com o gabarito e "Fim da resolução.".
+- **Cancelamento**: o traço é um fundo diagonal no próprio termo marcado (canto inferior esquerdo ao
+  superior direito, como o `\cancel`), sem medir a tela: assim acompanha o termo em qualquer escala
+  (o painel do artefato reduz a página, e um traço posicionado por medida saía deslocado).
+- **Resolução aprovada não se altera direto**: sugerir ao Lucas e esperar o aval; depois da mudança,
+  ela volta à revisão.
 - Exemplo completo: `data/animacoes/unesp-2026-q81.json` (dois métodos, cancelamento e mover).
 
 ## Como funciona

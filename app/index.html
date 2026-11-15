@@ -191,9 +191,11 @@ article.q { background: var(--paper); border: 1px solid var(--line); border-top:
 .aula-lousa .espera { visibility: hidden; }
 .aula-alvo { color: var(--mark); }
 .aula-oculto { visibility: hidden; }
-.aula-risco { position: absolute; height: 2.5px; margin-top: -1.25px; background: var(--danger); border-radius: 2px; transform-origin: left center; transform: rotate(var(--ang)) scaleX(0); animation: aulaRisco .6s ease forwards; pointer-events: none; }
-.aula-risco.fixo { animation: none; transform: rotate(var(--ang)); }
-@keyframes aulaRisco { to { transform: rotate(var(--ang)) scaleX(1); } }
+/* traço de cancelamento (como o \cancel do LaTeX): fundo diagonal no próprio termo, do canto inferior
+   esquerdo ao superior direito; acompanha o termo em qualquer escala, sem medir a tela */
+.aula-corte { background-image: linear-gradient(to bottom right, transparent calc(50% - 1.4px), var(--danger) calc(50% - 1.4px), var(--danger) calc(50% + 1.4px), transparent calc(50% + 1.4px)); background-repeat: no-repeat; background-position: left bottom; background-size: 100% 100%; animation: aulaCorte .6s ease both; }
+.aula-corte.fixo { animation: none; }
+@keyframes aulaCorte { from { background-size: 0% 0%; } to { background-size: 100% 100%; } }
 .aula-voo { position: absolute; font-size: 1.32rem; color: var(--mark); transition: transform .9s cubic-bezier(.4, 0, .2, 1); pointer-events: none; z-index: 2; }
 .aula-pos { font-family: var(--f-mono); font-size: 0.8rem; color: var(--muted); }
 /* elementos da cena */
@@ -1982,10 +1984,7 @@ function openAula(q, rot) {
     const d = el("div", { class: "aula-eq" + (animar ? " entra" : "") }); d.innerHTML = mathHTML(b.tex || "");
     const corta = ultimaEq ? (b.cancelar || []).map(id => ultimaEq.querySelector(`[data-m="${id}"]`)).filter(Boolean) : [];
     // traço de cancelamento como o \cancel do LaTeX: diagonal do canto inferior esquerdo ao superior direito do termo
-    const riscar = (n, fixo) => { n.classList.add("aula-alvo"); const base = lousa.getBoundingClientRect(), r = n.getBoundingClientRect(), x0 = r.left - 2, y0 = r.bottom + 1, x1 = r.right + 2, y1 = r.top - 1;
-      const risco = el("span", { class: "aula-risco" + (fixo ? " fixo" : "") });
-      Object.assign(risco.style, { left: (x0 - base.left + lousa.scrollLeft) + "px", top: (y0 - base.top + lousa.scrollTop) + "px", width: Math.hypot(x1 - x0, y1 - y0) + "px" });
-      risco.style.setProperty("--ang", Math.atan2(y1 - y0, x1 - x0) + "rad"); lousa.append(risco); };
+    const riscar = (n, fixo) => { n.classList.add("aula-alvo", "aula-corte"); if (fixo) n.classList.add("fixo"); };
     if (!animar || !ultimaEq) { lousa.append(d); corta.forEach(n => riscar(n, true)); return d; }
     const leva = (b.mover || []).map(id => [ultimaEq.querySelector(`[data-m="${id}"]`), d.querySelector(`[data-m="${id}"]`)]).filter(x => x[0] && x[1]);
     corta.forEach(n => riscar(n, false));

@@ -15,10 +15,13 @@ de modelo de dados; CORREÇÃO, em correções de questões já publicadas.
   **Q82** (pela potência; pela corrente, em que todas as correntes dão valores inteiros).
 - Formato aula: `cena.destacar` faz piscar um elemento na tela; elementos que já estavam na tela
   anterior não "entram" de novo.
-- **Traço de cancelamento** refeito (revisão do Lucas na Q79 e na Q81): agora é a diagonal do
-  canto inferior esquerdo ao superior direito do termo, como o `\cancel` do LaTeX, centrada no
-  algarismo; antes era um traço quase horizontal que ficava baixo e deslocado, sobretudo em
-  denominadores. O traço também aparece quando a tela é completada de uma vez pelo botão.
+- **Traço de cancelamento** refeito (revisão do Lucas na Q79 e na Q81): diagonal do canto inferior
+  esquerdo ao superior direito do termo, como o `\cancel` do LaTeX, desenhada como fundo do próprio
+  termo. Antes o traço era posicionado medindo a tela e saía deslocado no painel do artefato, que
+  reduz a página. Também aparece quando a tela é completada de uma vez pelo botão. Vale para as
+  resoluções já aprovadas da Unesp 2026, que o Lucas vai conferir de novo.
+- Regra nova do Lucas: resolução aprovada não se altera direto; a mudança é sugerida e, se feita,
+  volta à revisão (`CLAUDE.md`, `docs/ANIMACOES.md`).
 - Lançamento oblíquo (modelo do app): o rótulo da velocidade em B não encosta mais no ponto B.
 - Todas aguardam a revisão do Lucas no app; o site público não muda até ele aprovar.
 
