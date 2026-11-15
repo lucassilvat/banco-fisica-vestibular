@@ -142,19 +142,12 @@ article.q { background: var(--paper); border: 1px solid var(--line); border-top:
 .ap-body { display: grid; grid-template-columns: minmax(0, 1.45fr) minmax(300px, 1fr); min-height: 0; overflow: auto; }
 .ap-stage { padding: 12px 14px; display: grid; align-content: start; gap: 8px; border-right: 1px solid var(--line); background: var(--bg); }
 .ap-stage svg { width: 100%; height: auto; display: block; background: var(--paper); border-radius: 8px; border: 1px solid var(--line); font-family: var(--f-display); }
-.ap-ctrl:empty { display: none; }
-.ap-ctrl { background: var(--paper); border: 1px solid var(--line); border-radius: 8px; padding: 10px 12px; display: grid; gap: 6px; font-size: 0.9rem; }
-.ap-ctrl input[type=range] { width: 100%; accent-color: var(--accent); }
-.ap-ctrl .ok { color: var(--ok); font-weight: 600; } .ap-ctrl .bad { color: var(--danger); font-weight: 600; }
 .ap-step { padding: 16px 20px; overflow: auto; display: grid; align-content: start; gap: 12px; }
 .ap-step .ap-conc { font-family: var(--f-mono); font-size: 0.76rem; text-transform: uppercase; letter-spacing: .05em; color: var(--accent); }
 .ap-step h3 { margin: 0; font-size: 1.15rem; }
 .ap-step .ap-txt { font-family: var(--f-body); font-size: 1.02rem; line-height: 1.6; margin: 0; }
 .ap-eqs { display: grid; gap: 6px; background: var(--soft); border-radius: var(--r); padding: 10px 14px; font-size: 1.08rem; }
 .ap-eqs > div { opacity: 0; transform: translateY(6px); animation: apIn .45s ease forwards; }
-.ap-q { border: 1px dashed var(--mark); border-radius: var(--r); padding: 10px 12px; font-family: var(--f-body); display: grid; gap: 8px; }
-.ap-q b.k { font-family: var(--f-display); font-size: 0.8rem; color: var(--mark); text-transform: uppercase; letter-spacing: .05em; }
-.ap-q .ans { background: var(--mark-soft); border-radius: 4px; padding: 8px 10px; }
 .ap > footer { display: flex; align-items: center; justify-content: space-between; gap: 10px; padding: 10px 18px; border-top: 1px solid var(--line); flex-wrap: wrap; }
 .ap-dots { display: flex; gap: 6px; align-items: center; flex-wrap: wrap; }
 .ap-dots button { width: 26px; height: 26px; border-radius: 50%; border: 1px solid var(--line); background: var(--paper); font-size: 0.75rem; font-family: var(--f-mono); padding: 0; }
@@ -699,9 +692,8 @@ function arcPath(cx, cy, r, a1, a2) { // ângulos em graus, sentido da tela (y p
 
 const CENAS = {};
 
-/* Plano inclinado com esteira: caixa, forças, decomposição do peso, balanço de forças e
-   controle da aceleração da esteira. */
-CENAS["plano-inclinado"] = (svg, P, ctrl) => {
+/* Plano inclinado com esteira: caixa, forças, decomposição do peso e balanço de forças. */
+CENAS["plano-inclinado"] = (svg, P) => {
   svg.setAttribute("viewBox", "0 0 640 430");
   const sen = P.senTheta, cos = P.cosTheta, mu = P.mu, g = P.g;
   const deg = Math.atan2(sen, cos) * 180 / Math.PI, aMax = mu * g * cos - g * sen;
@@ -722,8 +714,7 @@ CENAS["plano-inclinado"] = (svg, P, ctrl) => {
   el.angulo = S("g", { class: "ae" }, svg);
   S("path", { d: arcPath(O[0], O[1], 56, 0, -deg), class: "ln draw", pathLength: 1 }, el.angulo);
   sLabel(el.angulo, O[0] + 74 * Math.cos(-deg / 2 * Math.PI / 180), O[1] + 74 * Math.sin(-deg / 2 * Math.PI / 180), "θ");
-  // caixa e marca na esteira (para ver se escorrega)
-  const marca = S("circle", { r: 4, fill: "var(--anim-acel)", class: "ae" }, svg);
+  // caixa
   el.caixa = S("g", { class: "ae" }, svg);
   const caixa = S("g", {}, el.caixa);
   S("rect", { x: -28, y: -46, width: 56, height: 46, fill: "#f07a2a", stroke: "var(--ink)", "stroke-width": 2, rx: 2 }, caixa);
@@ -770,60 +761,33 @@ CENAS["plano-inclinado"] = (svg, P, ctrl) => {
   const bar2 = S("rect", { x: BX, y: 369, height: 22, class: "v-peso", opacity: .85 }, el.balanco);
   const sobra = S("rect", { y: 326, height: 70, fill: "var(--anim-acel)", opacity: .22 }, el.balanco);
   const tSobra = sLabel(el.balanco, 0, 412, "", "", "v-acel t-b", "middle");
-  function balanco(modo, a) {
+  function balanco() {
     const fm = mu * g * cos, ps = g * sen;
-    if (modo === "controle") {
-      const nec = ps + a, ok = nec <= fm + 1e-9;
-      t1.textContent = `máximo: ${fmt(fm, 1)}m`; t2.textContent = `necessário: ${fmt(nec, 2)}m`;
-      bar1.setAttribute("width", fm * BK); bar2.setAttribute("width", nec * BK); bar2.setAttribute("class", ok ? "v-atrito" : "v-peso");
-      bar2.setAttribute("opacity", ok ? .5 : .85);
-      sobra.setAttribute("x", BX + Math.min(fm, nec) * BK); sobra.setAttribute("width", Math.abs(fm - nec) * BK);
-      tSobra.textContent = ok ? "" : "falta atrito: a caixa escorrega";
-      tSobra.setAttribute("x", BX + fm * BK);
-    } else {
-      t1.textContent = `atrito máximo: ${fmt(fm, 1)}m`; t2.textContent = `Pₓ = mg sen θ: ${fmt(ps, 0)}m`;
-      bar1.setAttribute("width", fm * BK); bar2.setAttribute("width", ps * BK); bar2.setAttribute("class", "v-peso"); bar2.setAttribute("opacity", .85);
-      sobra.setAttribute("x", BX + ps * BK); sobra.setAttribute("width", (fm - ps) * BK);
-      tSobra.textContent = `sobra ${fmt(fm - ps, 1)}m = m · a`; tSobra.setAttribute("x", BX + fm * BK + 40);
-    }
+    t1.textContent = `atrito máximo: ${fmt(fm, 1)}m`; t2.textContent = `Pₓ = mg sen θ: ${fmt(ps, 0)}m`;
+    bar1.setAttribute("width", fm * BK); bar2.setAttribute("width", ps * BK);
+    sobra.setAttribute("x", BX + ps * BK); sobra.setAttribute("width", (fm - ps) * BK);
+    tSobra.textContent = `sobra ${fmt(fm - ps, 1)}m = m · a`; tSobra.setAttribute("x", BX + fm * BK + 40);
   }
-  let raf = 0, estado = {};
+  let raf = 0;
   const S0 = 200, PXM = 30;
-  function anima(getA) {
+  function anima() { // esteira e caixa sobem juntas, acelerando a partir do repouso
     const t0 = performance.now();
     const loop = now => {
       const t = ((now - t0) / 1000) % 5.2, tt = Math.min(t, 4);
-      const a = getA(), aCaixa = Math.min(a, aMax);
-      const sB = 110 + PXM * 0.5 * a * tt * tt, sC = 110 + PXM * 0.5 * aCaixa * tt * tt;
-      fita.setAttribute("stroke-dashoffset", -(sB - 110));
-      const m = pt(Math.min(sB, Lr - 20), 0); marca.setAttribute("cx", m[0]); marca.setAttribute("cy", m[1]);
-      layout(Math.min(sC, Lr - 40), Math.min(g * sen + a, mu * g * cos));
+      const ds = PXM * 0.5 * aMax * tt * tt;
+      fita.setAttribute("stroke-dashoffset", -ds);
+      layout(Math.min(110 + ds, Lr - 40), mu * g * cos);
       raf = requestAnimationFrame(loop);
     };
     raf = requestAnimationFrame(loop);
   }
-  layout(S0, mu * g * cos); balanco("normal");
+  layout(S0, mu * g * cos); balanco();
   return {
     el,
     update(est) {
-      cancelAnimationFrame(raf); ctrl.replaceChildren(); estado = est;
-      marca.classList.remove("on"); fita.setAttribute("stroke-dashoffset", 0);
-      if (est.controle === "aceleracao") {
-        let a = aMax;
-        const lab = el => document.createElement(el);
-        const l = lab("label"), r = lab("input"), out = lab("div");
-        Object.assign(r, { type: "range", min: "0", max: "1", step: "0.05", value: String(a) }); r.setAttribute("aria-label", "Aceleração da esteira");
-        const show = () => {
-          a = parseFloat(r.value); const nec = g * sen + a, ok = nec <= mu * g * cos + 1e-9;
-          l.innerHTML = `Aceleração da esteira: <b>a = ${fmt(a)} m/s²</b>`;
-          out.innerHTML = `Atrito necessário: m(${fmt(g * sen, 0)} + ${fmt(a)}) = ${fmt(nec)}m · máximo: ${fmt(mu * g * cos, 1)}m → ` + (ok ? `<span class="ok">a caixa acompanha a esteira</span>` : `<span class="bad">a caixa escorrega</span>`);
-          balanco("controle", a);
-        };
-        r.addEventListener("input", show); ctrl.append(l, r, out); show();
-        marca.classList.add("on"); anima(() => a);
-      } else if (est.movimento === "acelerando") {
-        balanco("normal"); anima(() => aMax);
-      } else { balanco("normal"); layout(S0, mu * g * cos); }
+      cancelAnimationFrame(raf);
+      fita.setAttribute("stroke-dashoffset", 0);
+      if (est.movimento === "acelerando") anima(); else layout(S0, mu * g * cos);
     },
     stop() { cancelAnimationFrame(raf); },
   };
@@ -831,7 +795,7 @@ CENAS["plano-inclinado"] = (svg, P, ctrl) => {
 
 /* Conjuntos (lâmpada em paralelo com R) ligados em série a uma fonte. Até 3 conjuntos:
    em cima, à direita e embaixo, como na figura da prova. */
-CENAS["circuito-conjuntos-serie"] = (svg, P, ctrl) => {
+CENAS["circuito-conjuntos-serie"] = (svg, P) => {
   svg.setAttribute("viewBox", "0 -6 640 404");
   const nomes = P.conjuntos, rr = P.rSobreR ?? 1; // r/R
   const el = {};
@@ -944,7 +908,7 @@ CENAS["circuito-conjuntos-serie"] = (svg, P, ctrl) => {
 };
 
 /* Gráfico v × t com áreas (deslocamento) e uma estrada com o carro e os semáforos. */
-CENAS["grafico-vt"] = (svg, P, ctrl) => {
+CENAS["grafico-vt"] = (svg, P) => {
   svg.setAttribute("viewBox", "0 0 640 430");
   const X0 = 80, X1 = 610, Y0 = 280, Y1 = 30;
   const X = t => X0 + (X1 - X0) * t / P.tMax, Y = v => Y0 - (Y0 - Y1) * v / P.vMax;
@@ -1042,16 +1006,15 @@ function openPlayer(q, rot) {
   const close = el("button", { class: "btn ghost", type: "button", text: "Fechar" });
   dlg.append(el("header", {}, el("div", {}, el("h2", { text: rot.titulo }), el("div", { class: "ap-sub", text: "Resolução animada · " + label(q) }), chips), close));
   const svg = S("svg", { role: "img", "aria-label": "Cena da resolução" });
-  const ctrl = el("div", { class: "ap-ctrl" });
   const stepBox = el("div", { class: "ap-step", "aria-live": "polite" });
-  dlg.append(el("div", { class: "ap-body" }, el("div", { class: "ap-stage" }, svg, ctrl), stepBox));
+  dlg.append(el("div", { class: "ap-body" }, el("div", { class: "ap-stage" }, svg), stepBox));
   const dots = el("div", { class: "ap-dots" });
   const prev = el("button", { class: "btn", type: "button", text: "← Voltar" }), next = el("button", { class: "btn primary", type: "button", text: "Avançar →" });
   const again = el("button", { class: "btn ghost", type: "button", text: "↻ Repetir passo" });
   dlg.append(el("footer", {}, dots, el("div", { class: "ap-nav" }, again, prev, next)));
   ov.append(dlg); document.body.append(ov);
   let cena;
-  try { cena = fab(svg, rot.cena.parametros || {}, ctrl); }
+  try { cena = fab(svg, rot.cena.parametros || {}); }
   catch (e) { console.warn(e); ov.remove(); toast("Não foi possível montar a cena desta resolução."); return; }
   Object.values(cena.el).forEach(n => n.classList.add("ae"));
   const passos = rot.passos || [];
@@ -1080,12 +1043,6 @@ function openPlayer(q, rot) {
       const eq = el("div", { class: "ap-eqs" });
       p.equacoes.forEach((x, j) => { const d = el("div"); d.style.animationDelay = (animar ? 0.5 + j * 0.9 : 0) + "s"; d.innerHTML = mathHTML(x); eq.append(d); });
       stepBox.append(eq);
-    }
-    if (p.pergunta) {
-      const box = el("div", { class: "ap-q" }); const qt = el("div"); qt.innerHTML = `<b class="k">Pense antes de avançar</b><br>` + safeInline(p.pergunta.texto);
-      const ans = el("div", { class: "ans", hidden: true }); ans.innerHTML = safeInline(p.pergunta.resposta);
-      const b = el("button", { class: "btn", type: "button", text: "Ver resposta", onclick: () => { ans.hidden = false; b.remove(); } });
-      box.append(qt, b, ans); stepBox.append(box);
     }
     [...chips.children].forEach(c => c.classList.toggle("on", c.textContent === p.conceito));
     [...dots.children].forEach((d, i) => { d.classList.toggle("on", i === k); d.classList.toggle("done", i < k); });

@@ -5,11 +5,12 @@ r"""Resoluções animadas (adicionais à resolução comentada; não a substitue
 
 Cada roteiro fica em data/animacoes/<id da questão>.json (esquema em
 schemas/animacao.schema.json e explicação em docs/ANIMACOES.md). O roteiro escolhe um
-modelo de cena (desenhado pelo player do app e, opcionalmente, pelo Manim em videos/) e
-descreve os passos: conceito físico, texto, equações, pergunta e o que a cena mostra.
+modelo de cena (desenhado pelo player do app) e descreve os passos: conceito físico,
+texto, equações e o que a cena mostra. Sem perguntas ao aluno e sem controles para ele
+mudar valores (decisão do Lucas).
 
 Os nomes de elementos e de estado aceitos por modelo (MODELOS) precisam bater com os
-modelos de cena de app/index.html (CENAS) e de videos/manim_roteiro.py.
+modelos de cena de app/index.html (CENAS).
 """
 import json
 import re
@@ -24,7 +25,7 @@ MODELOS = {
         "parametros": {"senTheta", "cosTheta", "mu", "g"},
         "elementos": {"rampa", "angulo", "caixa", "peso", "normal", "atrito", "eixos", "componentes",
                       "angulo-peso", "aceleracao", "balanco"},
-        "estado": {"movimento": {"repouso", "acelerando"}, "controle": {"aceleracao", None}},
+        "estado": {"movimento": {"repouso", "acelerando"}},
     },
     "circuito-conjuntos-serie": {
         "parametros": {"conjuntos", "rSobreR"},
@@ -66,9 +67,8 @@ def checar(a: dict, questoes: dict) -> list[str]:
         for k in ("titulo", "texto"):
             if not p.get(k): e.append(f"{onde}: falta {k}")
         textos = [("texto", p.get("texto", ""))] + [(f"equação {j}", "\\(" + x + "\\)") for j, x in enumerate(p.get("equacoes", []), 1)]
-        if p.get("pergunta"):
-            textos += [("pergunta", p["pergunta"].get("texto", "")), ("resposta", p["pergunta"].get("resposta", ""))]
-            if not p["pergunta"].get("texto") or not p["pergunta"].get("resposta"): e.append(f"{onde}: pergunta sem texto ou resposta")
+        for k in p:
+            if k not in ("titulo", "conceito", "texto", "equacoes", "cena"): e.append(f"{onde}: campo não aceito: {k}")
         for campo, t in textos:
             e += checar_latex(t, f"{onde}, {campo}")
             resto = TAGS_OK.sub("", re.sub(r"\\\(.+?\\\)", "", t))

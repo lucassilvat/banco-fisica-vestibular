@@ -4,6 +4,15 @@ Cada versão corresponde a um lote de importação ou a uma mudança no app/pipe
 Formato: `vMAIOR.MENOR.CORREÇÃO` — MENOR sobe a cada prova importada; MAIOR, em mudanças
 de modelo de dados; CORREÇÃO, em correções de questões já publicadas.
 
+## v2.8.2 — 2026-11-14
+
+- **Resolução animada, decisões do Lucas:** sem vídeo em Manim (`videos/manim_roteiro.py`
+  removido); sem perguntas "Pense antes de avançar" (o conteúdo útil das respostas foi para
+  o texto dos passos); sem controles para o aluno mudar valores (saiu o passo "Teste você
+  mesmo" da Unesp 2025 Q78, e a resposta foi para o passo da segunda lei de Newton).
+  O `animacoes verificar` recusa campos fora de `titulo`, `conceito`, `texto`, `equacoes` e
+  `cena`.
+
 ## v2.8.1 — 2026-11-14
 
 - **Correção do app:** na v2.8.0 o painel "Minha lista" ficava aberto e o botão "Fechar" não

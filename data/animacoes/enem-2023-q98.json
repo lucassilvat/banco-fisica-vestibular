@@ -1,23 +1,46 @@
 {
   "id": "enem-2023-q98",
   "titulo": "O que muda no circuito quando uma lâmpada queima?",
-  "conceitos": ["Associação mista de resistores", "Resistência equivalente em paralelo", "Primeira lei de Ohm", "Potência elétrica"],
+  "conceitos": [
+    "Associação mista de resistores",
+    "Resistência equivalente em paralelo",
+    "Primeira lei de Ohm",
+    "Potência elétrica"
+  ],
   "cena": {
     "modelo": "circuito-conjuntos-serie",
-    "parametros": { "conjuntos": ["L1", "L2", "L3"], "rSobreR": 1 }
+    "parametros": {
+      "conjuntos": [
+        "L1",
+        "L2",
+        "L3"
+      ],
+      "rSobreR": 1
+    }
   },
   "passos": [
     {
       "titulo": "Como o circuito está montado",
       "conceito": "Associação mista de resistores",
       "texto": "Cada lâmpada está em <b>paralelo</b> com um resistor <i>R</i>, formando um conjunto. Os três conjuntos estão em <b>série</b> com a fonte. Chamamos de <i>r</i> a resistência de cada lâmpada (são idênticas).",
-      "cena": { "mostrar": ["circuito"], "destacar": ["conjuntos"] }
+      "cena": {
+        "mostrar": [
+          "circuito"
+        ],
+        "destacar": [
+          "conjuntos"
+        ]
+      }
     },
     {
       "titulo": "O caminho da corrente",
       "conceito": "Corrente em série e em paralelo",
       "texto": "Em série, a mesma corrente <i>I</i> atravessa os três conjuntos. Dentro de cada conjunto ela se divide entre a lâmpada e o resistor e volta a se juntar na saída.",
-      "cena": { "mostrar": ["corrente"] }
+      "cena": {
+        "mostrar": [
+          "corrente"
+        ]
+      }
     },
     {
       "titulo": "Resistência de cada conjunto",
@@ -27,25 +50,43 @@
         "R_{\\text{conj}} = \\dfrac{rR}{r + R} < R",
         "R_{\\text{total}} = 3R_{\\text{conj}}"
       ],
-      "cena": { "mostrar": ["equivalentes"], "destacar": ["equivalentes"] }
+      "cena": {
+        "mostrar": [
+          "equivalentes"
+        ],
+        "destacar": [
+          "equivalentes"
+        ]
+      }
     },
     {
       "titulo": "L₂ queima",
       "conceito": "Circuito aberto em um ramo",
-      "texto": "O filamento de L<sub>2</sub> se rompe e o ramo dessa lâmpada fica aberto. O conjunto 2 passa a ser só o resistor <i>R</i>, que é <b>maior</b> que \\(R_{\\text{conj}}\\). Logo, a resistência total aumenta.",
-      "equacoes": ["R_{\\text{total}}' = 2R_{\\text{conj}} + R > R_{\\text{total}}"],
-      "pergunta": {
-        "texto": "Com L₂ queimada, o circuito para de funcionar?",
-        "resposta": "Não. A corrente continua passando pelo resistor R do conjunto 2. Por isso L₁ e L₃ continuam acesas, como diz o enunciado."
-      },
-      "cena": { "estado": { "queimada": "L2" }, "destacar": ["equivalentes"] }
+      "texto": "O filamento de L<sub>2</sub> se rompe e o ramo dessa lâmpada fica aberto. O conjunto 2 passa a ser só o resistor <i>R</i>, que é <b>maior</b> que \\(R_{\\text{conj}}\\). Logo, a resistência total aumenta. O circuito não se interrompe: a corrente continua passando pelo resistor <i>R</i> do conjunto 2, e por isso L<sub>1</sub> e L<sub>3</sub> seguem acesas.",
+      "equacoes": [
+        "R_{\\text{total}}' = 2R_{\\text{conj}} + R > R_{\\text{total}}"
+      ],
+      "cena": {
+        "estado": {
+          "queimada": "L2"
+        },
+        "destacar": [
+          "equivalentes"
+        ]
+      }
     },
     {
       "titulo": "A corrente total diminui",
       "conceito": "Primeira lei de Ohm",
       "texto": "A fonte mantém a mesma tensão <i>U</i>. Com resistência total maior, passa menos corrente pelo circuito. Os conjuntos de L<sub>1</sub> e L<sub>3</sub> não mudaram, mas agora recebem essa corrente menor.",
-      "equacoes": ["I = \\dfrac{U}{R_{\\text{total}}} \\quad \\Rightarrow \\quad I' < I"],
-      "cena": { "destacar": ["corrente"] }
+      "equacoes": [
+        "I = \\dfrac{U}{R_{\\text{total}}} \\quad \\Rightarrow \\quad I' < I"
+      ],
+      "cena": {
+        "destacar": [
+          "corrente"
+        ]
+      }
     },
     {
       "titulo": "Brilho de L₁ e L₃",
@@ -55,10 +96,17 @@
         "U_{1} = I \\cdot R_{\\text{conj}} \\quad \\Rightarrow \\quad U_{1}' < U_{1}",
         "P_{1} = \\dfrac{U_{1}^{2}}{r} \\quad \\Rightarrow \\quad P_{1}' < P_{1}"
       ],
-      "cena": { "mostrar": ["brilho"], "destacar": ["brilho"] }
+      "cena": {
+        "mostrar": [
+          "brilho"
+        ],
+        "destacar": [
+          "brilho"
+        ]
+      }
     }
   ],
   "status": "revisado",
   "criadoEm": "2026-11-14T21:00:00-03:00",
-  "atualizadoEm": "2026-11-14T21:00:00-03:00"
+  "atualizadoEm": "2026-11-14T21:30:00-03:00"
 }

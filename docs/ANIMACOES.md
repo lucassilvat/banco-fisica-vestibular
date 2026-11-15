@@ -11,14 +11,11 @@ Q58 (gráfico v × t).
 
 Um **roteiro** por questão em `data/animacoes/<id>.json` (esquema em
 `schemas/animacao.schema.json`). O roteiro não desenha nada: escolhe um **modelo de cena**
-e diz, passo a passo, o que mostrar. O mesmo roteiro serve para:
+e diz, passo a passo, o que mostrar. O **player do app** (`app/index.html`, `CENAS` e
+`openPlayer`) desenha a cena em SVG à esquerda e o passo à direita, com avançar/voltar e
+equações que aparecem uma a uma.
 
-1. **Player do app** (`app/index.html`, `CENAS` e `openPlayer`): cena em SVG à esquerda,
-   passo à direita, com avançar/voltar, equações que aparecem uma a uma, pergunta
-   "Pense antes de avançar" e, em alguns modelos, controles interativos.
-2. **Vídeo em Manim** (`videos/manim_roteiro.py`), opcional:
-   `ROTEIRO=<id> manim -qh videos/manim_roteiro.py Roteiro`. Requer `pip install manim`,
-   LaTeX com `babel` (português), `dvisvgm` e `ffmpeg`. Os vídeos não vão para o git.
+Decisão do Lucas (v2.8.2): só o player do app, sem vídeo (o Manim foi testado e descartado).
 
 Cada passo tem:
 
@@ -27,7 +24,6 @@ Cada passo tem:
 | `conceito` | o conceito físico do passo (aparece acima do título e acende o chip correspondente em `conceitos`) |
 | `titulo`, `texto` | mesma marcação da resolução (`<i>`, `<b>`, `<sub>`, LaTeX entre `\(` e `\)`) |
 | `equacoes` | LaTeX sem delimitadores, mostradas uma de cada vez |
-| `pergunta` | `{texto, resposta}`: o aluno pensa e só depois abre a resposta |
 | `cena.mostrar` / `cena.ocultar` | elementos do modelo que entram/saem (acumulam de um passo para o outro) |
 | `cena.destacar` | elementos que piscam só neste passo |
 | `cena.estado` | animações do modelo (valem deste passo em diante) |
@@ -36,12 +32,12 @@ Cada passo tem:
 
 | Modelo | Parâmetros | Elementos | Estado |
 |---|---|---|---|
-| `plano-inclinado` | `senTheta`, `cosTheta`, `mu`, `g` | `rampa`, `angulo`, `caixa`, `peso`, `normal`, `atrito`, `eixos`, `componentes`, `angulo-peso`, `aceleracao`, `balanco` | `movimento`: `repouso`/`acelerando`; `controle`: `aceleracao` (controle deslizante da aceleração da esteira) |
+| `plano-inclinado` | `senTheta`, `cosTheta`, `mu`, `g` | `rampa`, `angulo`, `caixa`, `peso`, `normal`, `atrito`, `eixos`, `componentes`, `angulo-peso`, `aceleracao`, `balanco` | `movimento`: `repouso`/`acelerando` |
 | `circuito-conjuntos-serie` | `conjuntos` (até 3 nomes), `rSobreR` (r/R do exemplo numérico) | `circuito`, `conjuntos`, `corrente`, `equivalentes`, `brilho` | `queimada`: nome da lâmpada queimada |
 | `grafico-vt` | `pontos` [[t, v]...], `tMax`, `vMax`, `passoT`, `passoV`, `trechos` (2 intervalos de área), `paradas` | `eixos`, `curva`, `estrada`, `paradas`, `faixa`, `area-1`, `area-2`, `cotas-1`, `cotas-2` | `percorrer`: carro e área acumulando com o tempo |
 
 Os nomes aceitos ficam em `MODELOS` (`pipeline/animacoes.py`) e precisam bater com `CENAS`
-no app e com `MODELOS` no Manim (por enquanto, só `plano-inclinado` tem versão em vídeo).
+no app.
 
 Para escalar, a ideia é ter poucos modelos reaproveitáveis (lançamentos, blocos e polias,
 lentes e espelhos, ondas, gráficos p × V...) e escrever só o roteiro de cada questão.
@@ -50,12 +46,17 @@ circuito, ângulos diferentes etc.) é o próximo passo.
 
 ## Regras
 
+- **Sem perguntas ao aluno** ("Pense antes de avançar" e semelhantes): o que seria a resposta
+  vai no próprio texto do passo.
+- **Sem simuladores em que o aluno muda valores** (controles deslizantes, campos para
+  digitar). As animações rodam sozinhas; o aluno só avança e volta os passos.
 - O roteiro **não altera** enunciado, gabarito nem resolução da questão. A física tem de
   bater com a resolução comentada; o último passo cita a alternativa correta, como "(A)".
 - Exemplo numérico que a questão não dá (ex.: `r = R` no circuito do ENEM) é dito como
   exemplo no texto, e a conclusão geral vem junto.
 - `python -m pipeline animacoes verificar` confere: questão existe, modelo e elementos
-  válidos, LaTeX no subconjunto do app, marcação aceita, último passo com o gabarito.
+  válidos, só os campos aceitos em cada passo, LaTeX no subconjunto do app, marcação
+  aceita, último passo com o gabarito.
 
 ## Publicar
 

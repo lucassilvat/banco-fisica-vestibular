@@ -1,27 +1,56 @@
 {
   "id": "unesp-2025-q78",
   "titulo": "Até onde o atrito consegue levar a caixa junto?",
-  "conceitos": ["Diagrama de corpo livre", "Decomposição do peso no plano inclinado", "Atrito estático máximo", "Segunda lei de Newton"],
+  "conceitos": [
+    "Diagrama de corpo livre",
+    "Decomposição do peso no plano inclinado",
+    "Atrito estático máximo",
+    "Segunda lei de Newton"
+  ],
   "cena": {
     "modelo": "plano-inclinado",
-    "parametros": { "senTheta": 0.6, "cosTheta": 0.8, "mu": 0.8, "g": 10 }
+    "parametros": {
+      "senTheta": 0.6,
+      "cosTheta": 0.8,
+      "mu": 0.8,
+      "g": 10
+    }
   },
   "passos": [
     {
       "titulo": "O que a questão pergunta",
       "conceito": "Atrito estático",
       "texto": "A esteira parte do repouso acelerando rampa acima. A caixa não tem motor: ela só acelera junto com a esteira porque o <b>atrito estático</b> a puxa. Se a esteira acelerar demais, o atrito não dá conta e a caixa escorrega. Queremos a maior aceleração que ainda não faz a caixa escorregar.",
-      "pergunta": {
-        "texto": "Se a esteira acelerar muito bruscamente, para que lado a caixa escorrega em relação à esteira?",
-        "resposta": "Para baixo da rampa: a caixa “fica para trás” enquanto a esteira avança. É por isso que o atrito sobre a caixa aponta rampa acima."
-      },
-      "cena": { "mostrar": ["rampa", "angulo", "caixa"], "estado": { "movimento": "acelerando" } }
+      "cena": {
+        "mostrar": [
+          "rampa",
+          "angulo",
+          "caixa"
+        ],
+        "estado": {
+          "movimento": "acelerando"
+        }
+      }
     },
     {
       "titulo": "As forças sobre a caixa",
       "conceito": "Diagrama de corpo livre",
       "texto": "Só três forças agem na caixa: o <b>peso</b> \\(\\vec{P}\\) (vertical, para baixo), a <b>normal</b> \\(\\vec{N}\\) (perpendicular à esteira) e o <b>atrito estático</b> \\(\\vec{f}\\) (ao longo da esteira, rampa acima, contra a tendência de escorregar).",
-      "cena": { "mostrar": ["peso", "normal", "atrito"], "destacar": ["peso", "normal", "atrito"], "estado": { "movimento": "repouso" } }
+      "cena": {
+        "mostrar": [
+          "peso",
+          "normal",
+          "atrito"
+        ],
+        "destacar": [
+          "peso",
+          "normal",
+          "atrito"
+        ],
+        "estado": {
+          "movimento": "repouso"
+        }
+      }
     },
     {
       "titulo": "Eixos ao longo da rampa",
@@ -31,45 +60,67 @@
         "P_{x} = mg\\,\\sen\\theta = m \\cdot 10 \\cdot 0,6 = 6m",
         "P_{y} = mg\\cos\\theta = m \\cdot 10 \\cdot 0,8 = 8m"
       ],
-      "cena": { "mostrar": ["eixos", "componentes", "angulo-peso"], "destacar": ["componentes", "angulo-peso"] }
+      "cena": {
+        "mostrar": [
+          "eixos",
+          "componentes",
+          "angulo-peso"
+        ],
+        "destacar": [
+          "componentes",
+          "angulo-peso"
+        ]
+      }
     },
     {
       "titulo": "Perpendicular à rampa: não há aceleração",
       "conceito": "Equilíbrio na direção perpendicular",
       "texto": "A caixa não afunda na esteira nem descola dela: na direção perpendicular a aceleração é nula, então as forças se equilibram.",
-      "equacoes": ["N = P_{y} = 8m"],
-      "cena": { "destacar": ["normal", "componentes"] }
+      "equacoes": [
+        "N = P_{y} = 8m"
+      ],
+      "cena": {
+        "destacar": [
+          "normal",
+          "componentes"
+        ]
+      }
     },
     {
       "titulo": "O limite do atrito estático",
       "conceito": "Atrito estático máximo",
       "texto": "O atrito estático se ajusta ao que é preciso, mas tem um teto: \\(f \\leq \\mu N\\). A aceleração da esteira é máxima quando o atrito trabalha no seu limite.",
-      "equacoes": ["f_{\\text{máx}} = \\mu N = 0,8 \\cdot 8m = 6,4m"],
-      "cena": { "destacar": ["atrito"] }
+      "equacoes": [
+        "f_{\\text{máx}} = \\mu N = 0,8 \\cdot 8m = 6,4m"
+      ],
+      "cena": {
+        "destacar": [
+          "atrito"
+        ]
+      }
     },
     {
       "titulo": "Ao longo da rampa: segunda lei de Newton",
       "conceito": "Segunda lei de Newton",
-      "texto": "Ao longo da rampa, a resultante é o atrito (rampa acima) menos a componente \\(P_{x}\\) (rampa abaixo). O que sobra é o que acelera a caixa. A massa <i>m</i> aparece em todos os termos e se cancela.",
+      "texto": "Ao longo da rampa, a resultante é o atrito (rampa acima) menos a componente \\(P_{x}\\) (rampa abaixo). O que sobra é o que acelera a caixa. A massa <i>m</i> aparece em todos os termos e se cancela. Por isso o resultado não depende da massa da caixa. Resposta: <b>(A) 0,4 m/s²</b>.",
       "equacoes": [
         "f - P_{x} = ma",
         "6,4m - 6m = m\\,a_{\\text{máx}}",
         "a_{\\text{máx}} = 0,4\\ \\text{m/s}^{2}"
       ],
-      "pergunta": {
-        "texto": "Uma caixa com o dobro da massa poderia subir com aceleração maior?",
-        "resposta": "Não. Dobrando a massa, dobram o peso, a normal e o atrito máximo; a massa se cancela e o limite continua 0,4 m/s²."
-      },
-      "cena": { "mostrar": ["balanco", "aceleracao"], "destacar": ["balanco", "aceleracao"] }
-    },
-    {
-      "titulo": "Teste você mesmo",
-      "conceito": "Atrito estático máximo",
-      "texto": "Agora variamos a aceleração da esteira (no app, pelo controle abaixo da cena). O atrito necessário é \\(f = m(g\\,\\sen\\theta + a)\\). Enquanto ele não passa de \\(6,4m\\), a caixa acompanha a esteira; acima de 0,4 m/s², escorrega. Resposta: <b>(A) 0,4 m/s²</b>.",
-      "cena": { "ocultar": ["eixos", "componentes", "angulo-peso"], "estado": { "controle": "aceleracao" } }
+      "cena": {
+        "mostrar": [
+          "balanco",
+          "aceleracao"
+        ],
+        "destacar": [
+          "balanco",
+          "aceleracao"
+        ]
+      }
     }
   ],
   "status": "revisado",
   "criadoEm": "2026-11-14T21:00:00-03:00",
-  "atualizadoEm": "2026-11-14T21:00:00-03:00"
+  "atualizadoEm": "2026-11-14T21:30:00-03:00"
 }

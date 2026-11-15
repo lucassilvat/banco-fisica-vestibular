@@ -22,17 +22,12 @@
       "items": {
         "type": "object",
         "required": ["titulo", "texto"],
+        "additionalProperties": false,
         "properties": {
           "titulo": { "type": "string" },
           "conceito": { "type": "string", "description": "conceito físico deste passo, mostrado acima do título" },
           "texto": { "type": "string", "description": "mesma marcação da resolução: <i> <b> <u> <sub> <sup> e LaTeX entre \\( e \\)" },
           "equacoes": { "type": "array", "items": { "type": "string" }, "description": "LaTeX sem delimitadores, mostradas uma de cada vez" },
-          "pergunta": {
-            "type": "object",
-            "required": ["texto", "resposta"],
-            "properties": { "texto": { "type": "string" }, "resposta": { "type": "string" } },
-            "description": "pergunta para o aluno pensar antes de ver a resposta"
-          },
           "cena": {
             "type": "object",
             "properties": {
