@@ -1,0 +1,113 @@
+{
+  "id": "unicamp-2018-q43",
+  "titulo": "A diferença de pressão que sustenta o avião",
+  "conceitos": [
+    "Pressão",
+    "Equilíbrio de forças"
+  ],
+  "cena": {
+    "modelo": "diagrama",
+    "parametros": {
+      "elementos": {
+        "aviao": [
+          {
+            "t": "caminho",
+            "d": "M120,200 L520,200 L560,185 L520,170 L120,170 Z",
+            "cor": "tinta",
+            "larg": 2,
+            "preench": "#d6d6d6"
+          },
+          {
+            "t": "ret",
+            "x": 250,
+            "y": 140,
+            "w": 120,
+            "h": 30,
+            "cor": "#bbb",
+            "borda": "tinta"
+          },
+          {
+            "t": "texto",
+            "x": 340,
+            "y": 120,
+            "txt": "A = 500 m²",
+            "negrito": true
+          }
+        ],
+        "forcas": [
+          {
+            "t": "seta",
+            "de": [
+              320,
+              200
+            ],
+            "para": [
+              320,
+              300
+            ],
+            "cor": "peso",
+            "larg": 3,
+            "rot_em": [
+              334,
+              292
+            ],
+            "ancora": "start",
+            "rotulo": "P"
+          },
+          {
+            "t": "seta",
+            "de": [
+              320,
+              170
+            ],
+            "para": [
+              320,
+              70
+            ],
+            "cor": "normal",
+            "larg": 3,
+            "rot_em": [
+              334,
+              80
+            ],
+            "ancora": "start",
+            "rotulo": "F",
+            "sub": "sust"
+          }
+        ]
+      }
+    }
+  },
+  "passos": [
+    {
+      "titulo": "Voo horizontal",
+      "conceito": "Equilíbrio de forças",
+      "texto": "Em voo horizontal, a força de sustentação, ΔP · A, equilibra o peso.",
+      "equacoes": [
+        "\\Delta P \\cdot A = mg"
+      ],
+      "cena": {
+        "mostrar": [
+          "aviao",
+          "forcas"
+        ]
+      }
+    },
+    {
+      "titulo": "A diferença de pressão",
+      "conceito": "Pressão",
+      "texto": "Resposta: <b>(b) 6 × 10<sup>3</sup> N/m²</b>.",
+      "equacoes": [
+        "\\Delta P = \\dfrac{3 \\times 10^{5} \\cdot 10}{500} = 6 \\times 10^{3}\\ \\text{N/m}^{2}"
+      ],
+      "cena": {
+        "destacar": [
+          "forcas"
+        ]
+      }
+    }
+  ],
+  "status": "revisado",
+  "criadoEm": "2026-11-15T09:00:00-03:00",
+  "atualizadoEm": "2026-11-15T09:00:00-03:00"
+}

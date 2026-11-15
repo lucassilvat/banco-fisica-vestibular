@@ -1,0 +1,175 @@
+{
+  "id": "unicamp-2017-q64",
+  "titulo": "O menor detalhe que a luz visível mostra",
+  "conceitos": [
+    "Equação fundamental da ondulatória",
+    "Espectro eletromagnético"
+  ],
+  "cena": {
+    "modelo": "diagrama",
+    "parametros": {
+      "elementos": {
+        "etapa-1": [
+          {
+            "t": "ret",
+            "x": 30,
+            "y": 16,
+            "w": 480,
+            "h": 40,
+            "cor": "suave",
+            "borda": "normal",
+            "rx": 7
+          },
+          {
+            "t": "texto",
+            "x": 42,
+            "y": 36.0,
+            "txt": "melhor resolução",
+            "mudo": true,
+            "ancora": "start"
+          },
+          {
+            "t": "texto",
+            "x": 498,
+            "y": 36.0,
+            "txt": "maior frequência: 7,5 × 10^{14} Hz",
+            "negrito": true,
+            "ancora": "end"
+          }
+        ],
+        "etapa-2": [
+          {
+            "t": "seta",
+            "de": [
+              270.0,
+              59
+            ],
+            "para": [
+              270.0,
+              79
+            ],
+            "cor": "tinta",
+            "larg": 1.8
+          },
+          {
+            "t": "texto",
+            "x": 282.0,
+            "y": 69.0,
+            "txt": "λ = c/f",
+            "negrito": true,
+            "cor": "acel",
+            "ancora": "start"
+          },
+          {
+            "t": "ret",
+            "x": 30,
+            "y": 82,
+            "w": 480,
+            "h": 40,
+            "cor": "suave",
+            "borda": "normal",
+            "rx": 7
+          },
+          {
+            "t": "texto",
+            "x": 42,
+            "y": 102.0,
+            "txt": "menor comprimento de onda",
+            "mudo": true,
+            "ancora": "start"
+          },
+          {
+            "t": "texto",
+            "x": 498,
+            "y": 102.0,
+            "txt": "4,0 × 10^{−7} m = 400 nm",
+            "negrito": true,
+            "ancora": "end"
+          }
+        ],
+        "etapa-3": [
+          {
+            "t": "seta",
+            "de": [
+              270.0,
+              125
+            ],
+            "para": [
+              270.0,
+              145
+            ],
+            "cor": "tinta",
+            "larg": 1.8
+          },
+          {
+            "t": "texto",
+            "x": 282.0,
+            "y": 135.0,
+            "txt": "ribossomo (25 nm) não",
+            "negrito": true,
+            "cor": "acel",
+            "ancora": "start"
+          },
+          {
+            "t": "ret",
+            "x": 30,
+            "y": 148,
+            "w": 480,
+            "h": 40,
+            "cor": "suave",
+            "borda": "normal",
+            "rx": 7
+          },
+          {
+            "t": "texto",
+            "x": 42,
+            "y": 168.0,
+            "txt": "estruturas ≥ 400 nm",
+            "mudo": true,
+            "ancora": "start"
+          },
+          {
+            "t": "texto",
+            "x": 498,
+            "y": 168.0,
+            "txt": "retículo (420 nm) é a menor",
+            "negrito": true,
+            "ancora": "end"
+          }
+        ]
+      }
+    }
+  },
+  "passos": [
+    {
+      "titulo": "O menor comprimento de onda",
+      "conceito": "Equação fundamental da ondulatória",
+      "texto": "A resolução é igual ao comprimento de onda; o menor λ visível corresponde à maior frequência.",
+      "equacoes": [
+        "\\lambda = \\dfrac{3 \\times 10^{8}}{7,5 \\times 10^{14}} = 4,0 \\times 10^{-7}\\ \\text{m}"
+      ],
+      "cena": {
+        "mostrar": [
+          "etapa-1",
+          "etapa-2"
+        ]
+      }
+    },
+    {
+      "titulo": "A estrutura",
+      "conceito": "Espectro eletromagnético",
+      "texto": "Só se veem estruturas de 400 nm ou mais: ribossomo (25 nm) não; retículo endoplasmático (420 nm) sim, e é o menor deles. Resposta: <b>(b)</b>.",
+      "cena": {
+        "mostrar": [
+          "etapa-3"
+        ],
+        "destacar": [
+          "etapa-3"
+        ]
+      }
+    }
+  ],
+  "status": "revisado",
+  "criadoEm": "2026-11-15T09:00:00-03:00",
+  "atualizadoEm": "2026-11-15T09:00:00-03:00"
+}

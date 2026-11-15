@@ -1,0 +1,221 @@
+{
+  "id": "unicamp-2019-q46",
+  "titulo": "Por que aplainar a córnea corrige a miopia",
+  "conceitos": [
+    "Óptica da visão"
+  ],
+  "cena": {
+    "modelo": "diagrama",
+    "parametros": {
+      "elementos": {
+        "olho": [
+          {
+            "t": "caminho",
+            "d": "M200,100 A150,150 0 1,1 200,320",
+            "cor": "tinta",
+            "larg": 2.5,
+            "preench": "#fff7ec"
+          },
+          {
+            "t": "caminho",
+            "d": "M200,100 A120,150 0 0,0 200,320",
+            "cor": "normal",
+            "larg": 3
+          },
+          {
+            "t": "texto",
+            "x": 176,
+            "y": 92,
+            "txt": "córnea",
+            "negrito": true,
+            "cor": "normal",
+            "ancora": "end"
+          },
+          {
+            "t": "caminho",
+            "d": "M470,130 A150,150 0 0,1 470,290",
+            "cor": "perigo",
+            "larg": 4
+          },
+          {
+            "t": "texto",
+            "x": 500,
+            "y": 210,
+            "txt": "retina",
+            "negrito": true,
+            "cor": "perigo",
+            "ancora": "start"
+          }
+        ],
+        "miope": [
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                40,
+                150
+              ],
+              [
+                205,
+                150
+              ],
+              [
+                400,
+                210
+              ]
+            ],
+            "cor": "luz",
+            "larg": 2.5
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                40,
+                270
+              ],
+              [
+                205,
+                270
+              ],
+              [
+                400,
+                210
+              ]
+            ],
+            "cor": "luz",
+            "larg": 2.5
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                400,
+                210
+              ],
+              [
+                470,
+                188
+              ]
+            ],
+            "cor": "luz",
+            "larg": 1.5,
+            "tracejado": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                400,
+                210
+              ],
+              [
+                470,
+                232
+              ]
+            ],
+            "cor": "luz",
+            "larg": 1.5,
+            "tracejado": true
+          },
+          {
+            "t": "circ",
+            "x": 400,
+            "y": 210,
+            "r": 6,
+            "cor": "perigo",
+            "borda": "tinta"
+          },
+          {
+            "t": "texto",
+            "x": 380,
+            "y": 250,
+            "txt": "foco antes da retina",
+            "negrito": true,
+            "cor": "perigo",
+            "ancora": "end"
+          }
+        ],
+        "corrigido": [
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                40,
+                150
+              ],
+              [
+                205,
+                150
+              ],
+              [
+                480,
+                210
+              ]
+            ],
+            "cor": "normal",
+            "larg": 2.5
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                40,
+                270
+              ],
+              [
+                205,
+                270
+              ],
+              [
+                480,
+                210
+              ]
+            ],
+            "cor": "normal",
+            "larg": 2.5
+          },
+          {
+            "t": "rotulo",
+            "x": 320,
+            "y": 360,
+            "txt": "córnea mais plana: distância focal maior",
+            "cor": "var(--accent)"
+          }
+        ]
+      }
+    }
+  },
+  "passos": [
+    {
+      "titulo": "O olho míope",
+      "conceito": "Óptica da visão",
+      "texto": "O olho míope é convergente demais: a imagem de objetos distantes se forma antes da retina.",
+      "cena": {
+        "mostrar": [
+          "olho",
+          "miope"
+        ]
+      }
+    },
+    {
+      "titulo": "A correção",
+      "conceito": "Óptica da visão",
+      "texto": "Deixar a córnea mais plana diminui a convergência, isto é, aumenta a distância focal: a imagem recua até a retina. Resposta: <b>(a)</b>.",
+      "cena": {
+        "ocultar": [
+          "miope"
+        ],
+        "mostrar": [
+          "corrigido"
+        ],
+        "destacar": [
+          "corrigido"
+        ]
+      }
+    }
+  ],
+  "status": "revisado",
+  "criadoEm": "2026-11-15T09:00:00-03:00",
+  "atualizadoEm": "2026-11-15T09:00:00-03:00"
+}

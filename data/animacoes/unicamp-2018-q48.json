@@ -1,0 +1,172 @@
+{
+  "id": "unicamp-2018-q48",
+  "titulo": "O índice de refração do acrílico",
+  "conceitos": [
+    "Lei de Snell-Descartes"
+  ],
+  "cena": {
+    "modelo": "diagrama",
+    "parametros": {
+      "elementos": {
+        "lente": [
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                180.0,
+                104.2
+              ],
+              [
+                420.0,
+                315.8
+              ],
+              [
+                180.0,
+                315.8
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 2,
+            "fechada": true,
+            "preench": "#cfcfcf"
+          },
+          {
+            "t": "texto",
+            "x": 194.0,
+            "y": 285.8,
+            "txt": "acrílico",
+            "negrito": true,
+            "ancora": "start"
+          },
+          {
+            "t": "texto",
+            "x": 480,
+            "y": 120,
+            "txt": "ar",
+            "negrito": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                233.9,
+                285.0
+              ],
+              [
+                372.7,
+                127.5
+              ]
+            ],
+            "cor": "mudo",
+            "larg": 1.5,
+            "tracejado": true
+          },
+          {
+            "t": "texto",
+            "x": 380.7,
+            "y": 117.0,
+            "txt": "normal",
+            "mudo": true,
+            "ancora": "start"
+          }
+        ],
+        "raio": [
+          {
+            "t": "seta",
+            "de": [
+              195.7,
+              245.1
+            ],
+            "para": [
+              300,
+              210
+            ],
+            "cor": "luz",
+            "larg": 3
+          },
+          {
+            "t": "seta",
+            "de": [
+              300,
+              210
+            ],
+            "para": [
+              520,
+              210
+            ],
+            "cor": "luz",
+            "larg": 3
+          },
+          {
+            "t": "angulo",
+            "centro": [
+              300,
+              210
+            ],
+            "de": 131.4,
+            "ate": 161.4,
+            "r": 50,
+            "cor": "atrito"
+          },
+          {
+            "t": "texto",
+            "x": 230,
+            "y": 262,
+            "txt": "θ_{1}",
+            "negrito": true,
+            "cor": "atrito"
+          },
+          {
+            "t": "angulo",
+            "centro": [
+              300,
+              210
+            ],
+            "de": -48.6,
+            "ate": 0,
+            "r": 56,
+            "cor": "acel"
+          },
+          {
+            "t": "texto",
+            "x": 374,
+            "y": 180,
+            "txt": "θ_{2}",
+            "negrito": true,
+            "cor": "acel",
+            "ancora": "start"
+          }
+        ]
+      }
+    }
+  },
+  "passos": [
+    {
+      "titulo": "A refração na face inclinada",
+      "conceito": "Lei de Snell-Descartes",
+      "texto": "O raio sai do acrílico (ângulo θ<sub>1</sub> com a normal) para o ar (ângulo θ<sub>2</sub>), saindo paralelo ao eixo.",
+      "cena": {
+        "mostrar": [
+          "lente",
+          "raio"
+        ]
+      }
+    },
+    {
+      "titulo": "O índice",
+      "conceito": "Lei de Snell-Descartes",
+      "texto": "Resposta: <b>(a) 1,50</b>.",
+      "equacoes": [
+        "n\\,\\sen\\theta_{1} = 1 \\cdot \\sen\\theta_{2} \\quad \\Rightarrow \\quad n = \\dfrac{0,75}{0,5} = 1,50"
+      ],
+      "cena": {
+        "destacar": [
+          "raio"
+        ]
+      }
+    }
+  ],
+  "status": "revisado",
+  "criadoEm": "2026-11-15T09:00:00-03:00",
+  "atualizadoEm": "2026-11-15T09:00:00-03:00"
+}

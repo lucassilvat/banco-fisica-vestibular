@@ -1,0 +1,191 @@
+{
+  "id": "unicamp-2022-q64",
+  "titulo": "Cada cor se aproxima da normal de um jeito",
+  "conceitos": [
+    "Lei de Snell-Descartes",
+    "Dispersão da luz"
+  ],
+  "cena": {
+    "modelo": "diagrama",
+    "parametros": {
+      "elementos": {
+        "meios": [
+          {
+            "t": "ret",
+            "x": 60,
+            "y": 40,
+            "w": 480,
+            "h": 160,
+            "cor": "papel",
+            "borda": null
+          },
+          {
+            "t": "ret",
+            "x": 60,
+            "y": 200,
+            "w": 480,
+            "h": 180,
+            "cor": "#cfe8f6",
+            "borda": null
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                60,
+                200
+              ],
+              [
+                540,
+                200
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 2
+          },
+          {
+            "t": "texto",
+            "x": 80,
+            "y": 64,
+            "txt": "ar",
+            "negrito": true,
+            "ancora": "start"
+          },
+          {
+            "t": "texto",
+            "x": 80,
+            "y": 360,
+            "txt": "água (gotícula)",
+            "negrito": true,
+            "ancora": "start"
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                300,
+                40
+              ],
+              [
+                300,
+                380
+              ]
+            ],
+            "cor": "mudo",
+            "larg": 1.5,
+            "tracejado": true
+          },
+          {
+            "t": "texto",
+            "x": 306,
+            "y": 52,
+            "txt": "normal",
+            "mudo": true,
+            "ancora": "start"
+          }
+        ],
+        "incidente": [
+          {
+            "t": "seta",
+            "de": [
+              140,
+              60
+            ],
+            "para": [
+              300,
+              200
+            ],
+            "cor": "tinta",
+            "larg": 3
+          },
+          {
+            "t": "texto",
+            "x": 150,
+            "y": 90,
+            "txt": "luz branca",
+            "negrito": true,
+            "ancora": "start"
+          }
+        ],
+        "cores": [
+          {
+            "t": "seta",
+            "de": [
+              300,
+              200
+            ],
+            "para": [
+              420.4,
+              359.7
+            ],
+            "cor": "#e53935",
+            "larg": 3
+          },
+          {
+            "t": "texto",
+            "x": 428.4,
+            "y": 359.7,
+            "txt": "vermelho",
+            "negrito": true,
+            "cor": "#e53935",
+            "ancora": "start"
+          },
+          {
+            "t": "seta",
+            "de": [
+              300,
+              200
+            ],
+            "para": [
+              400.3,
+              373.0
+            ],
+            "cor": "#5e35b1",
+            "larg": 3
+          },
+          {
+            "t": "texto",
+            "x": 392.3,
+            "y": 387.0,
+            "txt": "violeta",
+            "negrito": true,
+            "cor": "#5e35b1",
+            "ancora": "end"
+          }
+        ]
+      }
+    }
+  },
+  "passos": [
+    {
+      "titulo": "Entrando num meio mais refringente",
+      "conceito": "Lei de Snell-Descartes",
+      "texto": "A água é mais refringente que o ar. Pela lei de Snell, ao entrar na água o raio se aproxima da normal. Isso descarta a e b.",
+      "equacoes": [
+        "n_{\\text{ar}}\\,\\sen i = n_{\\text{água}}\\,\\sen r"
+      ],
+      "cena": {
+        "mostrar": [
+          "meios",
+          "incidente"
+        ]
+      }
+    },
+    {
+      "titulo": "A separação das cores",
+      "conceito": "Dispersão da luz",
+      "texto": "O índice da água é um pouco maior para o violeta que para o vermelho: o violeta se aproxima mais da normal. O desenho exagera a separação. Resposta: <b>(c)</b>.",
+      "cena": {
+        "mostrar": [
+          "cores"
+        ],
+        "destacar": [
+          "cores"
+        ]
+      }
+    }
+  ],
+  "status": "revisado",
+  "criadoEm": "2026-11-15T09:00:00-03:00",
+  "atualizadoEm": "2026-11-15T09:00:00-03:00"
+}

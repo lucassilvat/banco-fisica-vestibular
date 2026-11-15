@@ -1,0 +1,269 @@
+{
+  "id": "unicamp-2026-q12",
+  "titulo": "A lente que funciona como lupa",
+  "conceitos": [
+    "Lentes esféricas"
+  ],
+  "cena": {
+    "modelo": "diagrama",
+    "parametros": {
+      "elementos": {
+        "lente": [
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                40,
+                230
+              ],
+              [
+                620,
+                230
+              ]
+            ],
+            "cor": "mudo",
+            "larg": 1.2
+          },
+          {
+            "t": "seta",
+            "de": [
+              330,
+              230
+            ],
+            "para": [
+              330,
+              80
+            ],
+            "cor": "normal",
+            "larg": 2.5
+          },
+          {
+            "t": "seta",
+            "de": [
+              330,
+              230
+            ],
+            "para": [
+              330,
+              380
+            ],
+            "cor": "normal",
+            "larg": 2.5
+          },
+          {
+            "t": "texto",
+            "x": 340,
+            "y": 76,
+            "txt": "lente convergente",
+            "negrito": true,
+            "cor": "normal",
+            "ancora": "start"
+          },
+          {
+            "t": "circ",
+            "x": 210,
+            "y": 230,
+            "r": 4,
+            "cor": "tinta",
+            "borda": "tinta"
+          },
+          {
+            "t": "texto",
+            "x": 210,
+            "y": 250,
+            "txt": "F",
+            "negrito": true
+          },
+          {
+            "t": "circ",
+            "x": 450,
+            "y": 230,
+            "r": 4,
+            "cor": "tinta",
+            "borda": "tinta"
+          },
+          {
+            "t": "texto",
+            "x": 450,
+            "y": 250,
+            "txt": "F'",
+            "negrito": true
+          }
+        ],
+        "objeto": [
+          {
+            "t": "seta",
+            "de": [
+              270,
+              230
+            ],
+            "para": [
+              270,
+              180
+            ],
+            "cor": "perigo",
+            "larg": 3.5
+          },
+          {
+            "t": "texto",
+            "x": 270,
+            "y": 250,
+            "txt": "objeto",
+            "negrito": true,
+            "cor": "perigo"
+          },
+          {
+            "t": "cota",
+            "de": [
+              210,
+              274
+            ],
+            "para": [
+              270,
+              274
+            ],
+            "cor": "normal",
+            "rot_em": [
+              240,
+              292
+            ],
+            "txt": "d < f"
+          }
+        ],
+        "raios": [
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                270,
+                180
+              ],
+              [
+                330,
+                180
+              ]
+            ],
+            "cor": "luz",
+            "larg": 2.5
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                330,
+                180
+              ],
+              [
+                570,
+                280
+              ]
+            ],
+            "cor": "luz",
+            "larg": 2.5
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                270,
+                180
+              ],
+              [
+                450,
+                330
+              ]
+            ],
+            "cor": "luz",
+            "larg": 2.5
+          }
+        ],
+        "imagem": [
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                330,
+                180
+              ],
+              [
+                210,
+                130
+              ]
+            ],
+            "cor": "luz",
+            "larg": 1.6,
+            "tracejado": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                270,
+                180
+              ],
+              [
+                210,
+                130
+              ]
+            ],
+            "cor": "luz",
+            "larg": 1.6,
+            "tracejado": true
+          },
+          {
+            "t": "seta",
+            "de": [
+              210,
+              230
+            ],
+            "para": [
+              210,
+              130
+            ],
+            "cor": "acel",
+            "larg": 3.5,
+            "tracejado": true
+          },
+          {
+            "t": "texto",
+            "x": 210,
+            "y": 110,
+            "txt": "imagem virtual, direita e maior",
+            "negrito": true,
+            "cor": "acel"
+          }
+        ]
+      }
+    }
+  },
+  "passos": [
+    {
+      "titulo": "Que imagem é essa",
+      "conceito": "Lentes esféricas",
+      "texto": "Imagem direita e maior que o objeto é virtual. Lentes divergentes só formam imagens virtuais direitas e menores: a lente é convergente.",
+      "cena": {
+        "mostrar": [
+          "lente",
+          "objeto"
+        ]
+      }
+    },
+    {
+      "titulo": "Onde fica o objeto",
+      "conceito": "Lentes esféricas",
+      "texto": "Na lente convergente, a imagem é direita e ampliada só com o objeto entre o foco e a lente. Os raios saem divergentes, e seus prolongamentos formam a imagem do mesmo lado do objeto. Resposta: <b>(a)</b>.",
+      "cena": {
+        "mostrar": [
+          "raios",
+          "imagem"
+        ],
+        "destacar": [
+          "imagem"
+        ]
+      }
+    }
+  ],
+  "status": "revisado",
+  "criadoEm": "2026-11-15T09:00:00-03:00",
+  "atualizadoEm": "2026-11-15T09:00:00-03:00"
+}

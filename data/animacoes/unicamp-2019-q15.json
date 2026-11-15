@@ -1,0 +1,133 @@
+{
+  "id": "unicamp-2019-q15",
+  "titulo": "O período do pêndulo não depende da massa",
+  "conceitos": [
+    "Pêndulo simples"
+  ],
+  "cena": {
+    "modelo": "diagrama",
+    "parametros": {
+      "elementos": {
+        "pendulo": [
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                160,
+                60
+              ],
+              [
+                320,
+                60
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 4
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                240,
+                60
+              ],
+              [
+                240,
+                250
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 2
+          },
+          {
+            "t": "circ",
+            "x": 240,
+            "y": 262,
+            "r": 14,
+            "cor": "#c9c9c9",
+            "borda": "tinta"
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                240,
+                60
+              ],
+              [
+                300,
+                240
+              ]
+            ],
+            "cor": "mudo",
+            "larg": 1.5,
+            "tracejado": true
+          },
+          {
+            "t": "cota",
+            "de": [
+              140,
+              60
+            ],
+            "para": [
+              140,
+              250
+            ],
+            "cor": "normal",
+            "rot_em": [
+              128,
+              155
+            ],
+            "ancora": "end",
+            "txt": "L"
+          }
+        ],
+        "formula": [
+          {
+            "t": "rotulo",
+            "x": 470,
+            "y": 140,
+            "txt": "T = 2π√(L/g)",
+            "cor": "var(--accent)"
+          },
+          {
+            "t": "rotulo",
+            "x": 470,
+            "y": 200,
+            "txt": "sem a massa: Eco está certo",
+            "cor": "var(--danger)"
+          }
+        ]
+      }
+    }
+  },
+  "passos": [
+    {
+      "titulo": "O período do pêndulo simples",
+      "conceito": "Pêndulo simples",
+      "texto": "Para pequenas oscilações, o período depende só do comprimento e da gravidade. A frase citada por Eco está correta; isso descarta a e c.",
+      "equacoes": [
+        "T = 2\\pi\\sqrt{\\dfrac{L}{g}}"
+      ],
+      "cena": {
+        "mostrar": [
+          "pendulo",
+          "formula"
+        ]
+      }
+    },
+    {
+      "titulo": "A leitura do texto",
+      "conceito": "Pêndulo simples",
+      "texto": "Mecke associa a fórmula à violência e ao sujeito reduzido a “massa inerte” suspensa: a privação da liberdade, não uma revogação das leis da natureza. Resposta: <b>(d)</b>.",
+      "cena": {
+        "destacar": [
+          "formula"
+        ]
+      }
+    }
+  ],
+  "status": "revisado",
+  "criadoEm": "2026-11-15T09:00:00-03:00",
+  "atualizadoEm": "2026-11-15T09:00:00-03:00"
+}

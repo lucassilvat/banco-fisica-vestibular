@@ -1,0 +1,175 @@
+{
+  "id": "unicamp-2018-q47",
+  "titulo": "A eficiência termoelétrica a 300 K",
+  "conceitos": [
+    "Leitura de gráficos",
+    "Resistividade (segunda lei de Ohm)"
+  ],
+  "cena": {
+    "modelo": "diagrama",
+    "parametros": {
+      "elementos": {
+        "etapa-1": [
+          {
+            "t": "ret",
+            "x": 30,
+            "y": 16,
+            "w": 500,
+            "h": 40,
+            "cor": "suave",
+            "borda": "normal",
+            "rx": 7
+          },
+          {
+            "t": "texto",
+            "x": 42,
+            "y": 36.0,
+            "txt": "ρ em 300 K (gráfico)",
+            "mudo": true,
+            "ancora": "start"
+          },
+          {
+            "t": "texto",
+            "x": 518,
+            "y": 36.0,
+            "txt": "1,5 × 10^{−3} Ω·cm = 1,5 × 10^{−5} Ω·m",
+            "negrito": true,
+            "ancora": "end"
+          }
+        ],
+        "etapa-2": [
+          {
+            "t": "seta",
+            "de": [
+              280.0,
+              59
+            ],
+            "para": [
+              280.0,
+              79
+            ],
+            "cor": "tinta",
+            "larg": 1.8
+          },
+          {
+            "t": "texto",
+            "x": 292.0,
+            "y": 69.0,
+            "txt": "(3 × 10^{−4})²",
+            "negrito": true,
+            "cor": "acel",
+            "ancora": "start"
+          },
+          {
+            "t": "ret",
+            "x": 30,
+            "y": 82,
+            "w": 500,
+            "h": 40,
+            "cor": "suave",
+            "borda": "normal",
+            "rx": 7
+          },
+          {
+            "t": "texto",
+            "x": 42,
+            "y": 102.0,
+            "txt": "S²",
+            "mudo": true,
+            "ancora": "start"
+          },
+          {
+            "t": "texto",
+            "x": 518,
+            "y": 102.0,
+            "txt": "9 × 10^{−8} V²/K²",
+            "negrito": true,
+            "ancora": "end"
+          }
+        ],
+        "etapa-3": [
+          {
+            "t": "seta",
+            "de": [
+              280.0,
+              125
+            ],
+            "para": [
+              280.0,
+              145
+            ],
+            "cor": "tinta",
+            "larg": 1.8
+          },
+          {
+            "t": "texto",
+            "x": 292.0,
+            "y": 135.0,
+            "txt": "2,7 × 10^{−5} ÷ 3,0 × 10^{−5}",
+            "negrito": true,
+            "cor": "acel",
+            "ancora": "start"
+          },
+          {
+            "t": "ret",
+            "x": 30,
+            "y": 148,
+            "w": 500,
+            "h": 40,
+            "cor": "suave",
+            "borda": "normal",
+            "rx": 7
+          },
+          {
+            "t": "texto",
+            "x": 42,
+            "y": 168.0,
+            "txt": "F = S²T/(ρκ)",
+            "mudo": true,
+            "ancora": "start"
+          },
+          {
+            "t": "texto",
+            "x": 518,
+            "y": 168.0,
+            "txt": "0,9",
+            "negrito": true,
+            "ancora": "end"
+          }
+        ]
+      }
+    }
+  },
+  "passos": [
+    {
+      "titulo": "A resistividade",
+      "conceito": "Leitura de gráficos",
+      "texto": "No gráfico, em T = 300 K, ρ ≈ 1,5 × 10<sup>−3</sup> Ω·cm. Como 1 cm = 10<sup>−2</sup> m, isso dá 1,5 × 10<sup>−5</sup> Ω·m.",
+      "cena": {
+        "mostrar": [
+          "etapa-1",
+          "etapa-2"
+        ]
+      }
+    },
+    {
+      "titulo": "O valor de F",
+      "conceito": "Resistividade (segunda lei de Ohm)",
+      "texto": "Resposta: <b>(c) 0,9</b>.",
+      "equacoes": [
+        "F = \\dfrac{9 \\times 10^{-8} \\cdot 300}{1,5 \\times 10^{-5} \\cdot 2,0} = 0,9"
+      ],
+      "cena": {
+        "mostrar": [
+          "etapa-3"
+        ],
+        "destacar": [
+          "etapa-3"
+        ]
+      }
+    }
+  ],
+  "status": "revisado",
+  "criadoEm": "2026-11-15T09:00:00-03:00",
+  "atualizadoEm": "2026-11-15T09:00:00-03:00"
+}

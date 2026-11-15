@@ -1,0 +1,382 @@
+{
+  "id": "unicamp-2026-q10",
+  "titulo": "O voltímetro lê só a tensão do aparelho",
+  "conceitos": [
+    "Associação em série",
+    "Geradores elétricos"
+  ],
+  "cena": {
+    "modelo": "diagrama",
+    "parametros": {
+      "elementos": {
+        "circuito": [
+          {
+            "t": "ret",
+            "x": 60,
+            "y": 90,
+            "w": 260,
+            "h": 260,
+            "cor": null,
+            "borda": "mudo",
+            "tracejado": true
+          },
+          {
+            "t": "texto",
+            "x": 190,
+            "y": 76,
+            "txt": "bateria",
+            "mudo": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                110,
+                300
+              ],
+              [
+                110,
+                140
+              ],
+              [
+                180,
+                140
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 2.5
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                180,
+                140
+              ],
+              [
+                186.7,
+                148.0
+              ],
+              [
+                193.3,
+                132.0
+              ],
+              [
+                200.0,
+                148.0
+              ],
+              [
+                206.7,
+                132.0
+              ],
+              [
+                213.3,
+                148.0
+              ],
+              [
+                220.0,
+                132.0
+              ],
+              [
+                226.7,
+                148.0
+              ],
+              [
+                233.3,
+                132.0
+              ],
+              [
+                240.0,
+                148.0
+              ],
+              [
+                246.7,
+                132.0
+              ],
+              [
+                253.3,
+                148.0
+              ],
+              [
+                260,
+                140
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 2.5
+          },
+          {
+            "t": "texto",
+            "x": 220,
+            "y": 116,
+            "txt": "R_{b} = 1,2 Ω",
+            "negrito": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                260,
+                140
+              ],
+              [
+                400,
+                140
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 2.5
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                400,
+                140
+              ],
+              [
+                406.7,
+                148.0
+              ],
+              [
+                413.3,
+                132.0
+              ],
+              [
+                420.0,
+                148.0
+              ],
+              [
+                426.7,
+                132.0
+              ],
+              [
+                433.3,
+                148.0
+              ],
+              [
+                440.0,
+                132.0
+              ],
+              [
+                446.7,
+                148.0
+              ],
+              [
+                453.3,
+                132.0
+              ],
+              [
+                460.0,
+                148.0
+              ],
+              [
+                466.7,
+                132.0
+              ],
+              [
+                473.3,
+                148.0
+              ],
+              [
+                480,
+                140
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 2.5
+          },
+          {
+            "t": "texto",
+            "x": 440,
+            "y": 116,
+            "txt": "R = 6,0 Ω",
+            "negrito": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                480,
+                140
+              ],
+              [
+                560,
+                140
+              ],
+              [
+                560,
+                300
+              ],
+              [
+                110,
+                300
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 2.5
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                94,
+                214
+              ],
+              [
+                126,
+                214
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 2.5
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                102,
+                226
+              ],
+              [
+                118,
+                226
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 5
+          },
+          {
+            "t": "texto",
+            "x": 84,
+            "y": 222,
+            "txt": "3,6 V",
+            "negrito": true,
+            "ancora": "end"
+          }
+        ],
+        "voltimetro": [
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                400,
+                140
+              ],
+              [
+                400,
+                60
+              ],
+              [
+                424,
+                60
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 1.5
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                480,
+                140
+              ],
+              [
+                480,
+                60
+              ],
+              [
+                456,
+                60
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 1.5
+          },
+          {
+            "t": "circ",
+            "x": 440,
+            "y": 60,
+            "r": 16,
+            "cor": "papel",
+            "borda": "tinta"
+          },
+          {
+            "t": "texto",
+            "x": 440,
+            "y": 60,
+            "txt": "V",
+            "negrito": true
+          }
+        ],
+        "corrente": [
+          {
+            "t": "seta",
+            "de": [
+              300,
+              300
+            ],
+            "para": [
+              220,
+              300
+            ],
+            "cor": "acel",
+            "larg": 3,
+            "vetor": false,
+            "rot_em": [
+              260,
+              324
+            ],
+            "rotulo": "i = 0,5 A"
+          }
+        ],
+        "tensao": [
+          {
+            "t": "rotulo",
+            "x": 440,
+            "y": 200,
+            "txt": "U = R·i = 3,0 V",
+            "cor": "var(--danger)"
+          }
+        ]
+      }
+    }
+  },
+  "passos": [
+    {
+      "titulo": "A corrente",
+      "conceito": "Associação em série",
+      "texto": "R<sub>b</sub> e R estão em série com a fonte ideal de 3,6 V.",
+      "equacoes": [
+        "i = \\dfrac{U_{b}}{R_{b} + R} = \\dfrac{3,6}{1,2 + 6,0} = 0,5\\ \\text{A}"
+      ],
+      "cena": {
+        "mostrar": [
+          "circuito",
+          "voltimetro",
+          "corrente"
+        ]
+      }
+    },
+    {
+      "titulo": "A leitura do voltímetro",
+      "conceito": "Geradores elétricos",
+      "texto": "O voltímetro está ligado nos terminais do resistor R. Resposta: <b>(b) 3,0 V</b>.",
+      "equacoes": [
+        "U = R\\,i = 6,0 \\cdot 0,5 = 3,0\\ \\text{V}"
+      ],
+      "cena": {
+        "mostrar": [
+          "tensao"
+        ],
+        "destacar": [
+          "tensao"
+        ]
+      }
+    }
+  ],
+  "status": "revisado",
+  "criadoEm": "2026-11-15T09:00:00-03:00",
+  "atualizadoEm": "2026-11-15T09:00:00-03:00"
+}

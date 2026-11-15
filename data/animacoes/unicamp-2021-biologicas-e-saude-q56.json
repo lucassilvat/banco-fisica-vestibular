@@ -1,0 +1,776 @@
+{
+  "id": "unicamp-2021-biologicas-e-saude-q56",
+  "titulo": "A frequência da luz UV mais eficaz",
+  "conceitos": [
+    "Leitura de gráficos",
+    "Equação fundamental da ondulatória"
+  ],
+  "cena": {
+    "modelo": "diagrama",
+    "parametros": {
+      "elementos": {
+        "eixos": [
+          {
+            "t": "seta",
+            "de": [
+              110,
+              330.0
+            ],
+            "para": [
+              582,
+              330.0
+            ],
+            "cor": "tinta",
+            "larg": 1.6
+          },
+          {
+            "t": "seta",
+            "de": [
+              110,
+              330
+            ],
+            "para": [
+              110,
+              18
+            ],
+            "cor": "tinta",
+            "larg": 1.6
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                110.0,
+                326.0
+              ],
+              [
+                110.0,
+                334.0
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 1.5
+          },
+          {
+            "t": "texto",
+            "x": 110.0,
+            "y": 346.0,
+            "txt": "170",
+            "mudo": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                110.0,
+                30
+              ],
+              [
+                110.0,
+                330
+              ]
+            ],
+            "cor": "linha",
+            "larg": 1,
+            "tracejado": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                167.5,
+                326.0
+              ],
+              [
+                167.5,
+                334.0
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 1.5
+          },
+          {
+            "t": "texto",
+            "x": 167.5,
+            "y": 346.0,
+            "txt": "190",
+            "mudo": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                167.5,
+                30
+              ],
+              [
+                167.5,
+                330
+              ]
+            ],
+            "cor": "linha",
+            "larg": 1,
+            "tracejado": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                225.0,
+                326.0
+              ],
+              [
+                225.0,
+                334.0
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 1.5
+          },
+          {
+            "t": "texto",
+            "x": 225.0,
+            "y": 346.0,
+            "txt": "210",
+            "mudo": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                225.0,
+                30
+              ],
+              [
+                225.0,
+                330
+              ]
+            ],
+            "cor": "linha",
+            "larg": 1,
+            "tracejado": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                282.5,
+                326.0
+              ],
+              [
+                282.5,
+                334.0
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 1.5
+          },
+          {
+            "t": "texto",
+            "x": 282.5,
+            "y": 346.0,
+            "txt": "230",
+            "mudo": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                282.5,
+                30
+              ],
+              [
+                282.5,
+                330
+              ]
+            ],
+            "cor": "linha",
+            "larg": 1,
+            "tracejado": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                340.0,
+                326.0
+              ],
+              [
+                340.0,
+                334.0
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 1.5
+          },
+          {
+            "t": "texto",
+            "x": 340.0,
+            "y": 346.0,
+            "txt": "250",
+            "mudo": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                340.0,
+                30
+              ],
+              [
+                340.0,
+                330
+              ]
+            ],
+            "cor": "linha",
+            "larg": 1,
+            "tracejado": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                397.5,
+                326.0
+              ],
+              [
+                397.5,
+                334.0
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 1.5
+          },
+          {
+            "t": "texto",
+            "x": 397.5,
+            "y": 346.0,
+            "txt": "270",
+            "mudo": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                397.5,
+                30
+              ],
+              [
+                397.5,
+                330
+              ]
+            ],
+            "cor": "linha",
+            "larg": 1,
+            "tracejado": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                455.0,
+                326.0
+              ],
+              [
+                455.0,
+                334.0
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 1.5
+          },
+          {
+            "t": "texto",
+            "x": 455.0,
+            "y": 346.0,
+            "txt": "290",
+            "mudo": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                455.0,
+                30
+              ],
+              [
+                455.0,
+                330
+              ]
+            ],
+            "cor": "linha",
+            "larg": 1,
+            "tracejado": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                512.5,
+                326.0
+              ],
+              [
+                512.5,
+                334.0
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 1.5
+          },
+          {
+            "t": "texto",
+            "x": 512.5,
+            "y": 346.0,
+            "txt": "310",
+            "mudo": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                512.5,
+                30
+              ],
+              [
+                512.5,
+                330
+              ]
+            ],
+            "cor": "linha",
+            "larg": 1,
+            "tracejado": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                570.0,
+                326.0
+              ],
+              [
+                570.0,
+                334.0
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 1.5
+          },
+          {
+            "t": "texto",
+            "x": 570.0,
+            "y": 346.0,
+            "txt": "330",
+            "mudo": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                570.0,
+                30
+              ],
+              [
+                570.0,
+                330
+              ]
+            ],
+            "cor": "linha",
+            "larg": 1,
+            "tracejado": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                106,
+                270.0
+              ],
+              [
+                114,
+                270.0
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 1.5
+          },
+          {
+            "t": "texto",
+            "x": 102,
+            "y": 270.0,
+            "txt": "20",
+            "ancora": "end",
+            "mudo": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                110,
+                270.0
+              ],
+              [
+                570,
+                270.0
+              ]
+            ],
+            "cor": "linha",
+            "larg": 1,
+            "tracejado": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                106,
+                210.0
+              ],
+              [
+                114,
+                210.0
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 1.5
+          },
+          {
+            "t": "texto",
+            "x": 102,
+            "y": 210.0,
+            "txt": "40",
+            "ancora": "end",
+            "mudo": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                110,
+                210.0
+              ],
+              [
+                570,
+                210.0
+              ]
+            ],
+            "cor": "linha",
+            "larg": 1,
+            "tracejado": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                106,
+                150.0
+              ],
+              [
+                114,
+                150.0
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 1.5
+          },
+          {
+            "t": "texto",
+            "x": 102,
+            "y": 150.0,
+            "txt": "60",
+            "ancora": "end",
+            "mudo": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                110,
+                150.0
+              ],
+              [
+                570,
+                150.0
+              ]
+            ],
+            "cor": "linha",
+            "larg": 1,
+            "tracejado": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                106,
+                90.0
+              ],
+              [
+                114,
+                90.0
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 1.5
+          },
+          {
+            "t": "texto",
+            "x": 102,
+            "y": 90.0,
+            "txt": "80",
+            "ancora": "end",
+            "mudo": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                110,
+                90.0
+              ],
+              [
+                570,
+                90.0
+              ]
+            ],
+            "cor": "linha",
+            "larg": 1,
+            "tracejado": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                106,
+                30.0
+              ],
+              [
+                114,
+                30.0
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 1.5
+          },
+          {
+            "t": "texto",
+            "x": 102,
+            "y": 30.0,
+            "txt": "100",
+            "ancora": "end",
+            "mudo": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                110,
+                30.0
+              ],
+              [
+                570,
+                30.0
+              ]
+            ],
+            "cor": "linha",
+            "larg": 1,
+            "tracejado": true
+          },
+          {
+            "t": "texto",
+            "x": 570.0,
+            "y": 364.0,
+            "txt": "λ (nm)",
+            "mudo": true,
+            "ancora": "end"
+          },
+          {
+            "t": "texto",
+            "x": 118.0,
+            "y": 16.0,
+            "txt": "eficiência germicida (%)",
+            "mudo": true,
+            "ancora": "start"
+          }
+        ],
+        "curva": [
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                138.8,
+                330.0
+              ],
+              [
+                225.0,
+                300.0
+              ],
+              [
+                282.5,
+                240.0
+              ],
+              [
+                340.0,
+                150.0
+              ],
+              [
+                397.5,
+                30.0
+              ],
+              [
+                455.0,
+                150.0
+              ],
+              [
+                483.8,
+                210.0
+              ],
+              [
+                512.5,
+                270.0
+              ],
+              [
+                570.0,
+                330.0
+              ]
+            ],
+            "cor": "normal",
+            "larg": 3
+          },
+          {
+            "t": "circ",
+            "x": 138.8,
+            "y": 330.0,
+            "r": 4,
+            "cor": "normal",
+            "borda": "tinta"
+          },
+          {
+            "t": "circ",
+            "x": 225.0,
+            "y": 300.0,
+            "r": 4,
+            "cor": "normal",
+            "borda": "tinta"
+          },
+          {
+            "t": "circ",
+            "x": 282.5,
+            "y": 240.0,
+            "r": 4,
+            "cor": "normal",
+            "borda": "tinta"
+          },
+          {
+            "t": "circ",
+            "x": 340.0,
+            "y": 150.0,
+            "r": 4,
+            "cor": "normal",
+            "borda": "tinta"
+          },
+          {
+            "t": "circ",
+            "x": 397.5,
+            "y": 30.0,
+            "r": 4,
+            "cor": "normal",
+            "borda": "tinta"
+          },
+          {
+            "t": "circ",
+            "x": 455.0,
+            "y": 150.0,
+            "r": 4,
+            "cor": "normal",
+            "borda": "tinta"
+          },
+          {
+            "t": "circ",
+            "x": 483.8,
+            "y": 210.0,
+            "r": 4,
+            "cor": "normal",
+            "borda": "tinta"
+          },
+          {
+            "t": "circ",
+            "x": 512.5,
+            "y": 270.0,
+            "r": 4,
+            "cor": "normal",
+            "borda": "tinta"
+          },
+          {
+            "t": "circ",
+            "x": 570.0,
+            "y": 330.0,
+            "r": 4,
+            "cor": "normal",
+            "borda": "tinta"
+          }
+        ],
+        "maximo": [
+          {
+            "t": "circ",
+            "x": 397.5,
+            "y": 30.0,
+            "r": 8,
+            "cor": "perigo",
+            "borda": "tinta"
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                397.5,
+                30.0
+              ],
+              [
+                397.5,
+                330.0
+              ]
+            ],
+            "cor": "perigo",
+            "larg": 2,
+            "tracejado": true
+          },
+          {
+            "t": "rotulo",
+            "x": 497.5,
+            "y": 60.0,
+            "txt": "máximo em 270 nm",
+            "cor": "var(--danger)"
+          }
+        ]
+      }
+    }
+  },
+  "passos": [
+    {
+      "titulo": "O máximo do gráfico",
+      "conceito": "Leitura de gráficos",
+      "texto": "A eficiência germicida é máxima (100 %) em λ = 270 nm.",
+      "cena": {
+        "mostrar": [
+          "eixos",
+          "curva",
+          "maximo"
+        ]
+      }
+    },
+    {
+      "titulo": "A frequência",
+      "conceito": "Equação fundamental da ondulatória",
+      "texto": "Resposta: <b>(d) 1,1 × 10<sup>15</sup> Hz</b>.",
+      "equacoes": [
+        "f = \\dfrac{3,0 \\times 10^{8}}{2,7 \\times 10^{-7}} \\approx 1,1 \\times 10^{15}\\ \\text{Hz}"
+      ],
+      "cena": {
+        "destacar": [
+          "maximo"
+        ]
+      }
+    }
+  ],
+  "status": "revisado",
+  "criadoEm": "2026-11-15T09:00:00-03:00",
+  "atualizadoEm": "2026-11-15T09:00:00-03:00"
+}

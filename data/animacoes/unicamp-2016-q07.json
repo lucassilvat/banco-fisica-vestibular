@@ -1,0 +1,308 @@
+{
+  "id": "unicamp-2016-q07",
+  "titulo": "Menos resistência, mais potência no chuveiro",
+  "conceitos": [
+    "Potência elétrica",
+    "Associação em série"
+  ],
+  "cena": {
+    "modelo": "diagrama",
+    "parametros": {
+      "elementos": {
+        "circuito": [
+          {
+            "t": "circ",
+            "x": 70,
+            "y": 150,
+            "r": 9,
+            "cor": "tinta",
+            "borda": "tinta"
+          },
+          {
+            "t": "texto",
+            "x": 70,
+            "y": 124,
+            "txt": "N",
+            "negrito": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                79,
+                150
+              ],
+              [
+                91.7,
+                158.0
+              ],
+              [
+                104.3,
+                142.0
+              ],
+              [
+                117.0,
+                158.0
+              ],
+              [
+                129.7,
+                142.0
+              ],
+              [
+                142.3,
+                158.0
+              ],
+              [
+                155.0,
+                142.0
+              ],
+              [
+                167.7,
+                158.0
+              ],
+              [
+                180.3,
+                142.0
+              ],
+              [
+                193.0,
+                158.0
+              ],
+              [
+                205.7,
+                142.0
+              ],
+              [
+                218.3,
+                158.0
+              ],
+              [
+                231,
+                150
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 2.5
+          },
+          {
+            "t": "circ",
+            "x": 240,
+            "y": 150,
+            "r": 9,
+            "cor": "tinta",
+            "borda": "tinta"
+          },
+          {
+            "t": "texto",
+            "x": 240,
+            "y": 124,
+            "txt": "MQ",
+            "negrito": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                249,
+                150
+              ],
+              [
+                260.8,
+                158.0
+              ],
+              [
+                272.7,
+                142.0
+              ],
+              [
+                284.5,
+                158.0
+              ],
+              [
+                296.3,
+                142.0
+              ],
+              [
+                308.2,
+                158.0
+              ],
+              [
+                320.0,
+                142.0
+              ],
+              [
+                331.8,
+                158.0
+              ],
+              [
+                343.7,
+                142.0
+              ],
+              [
+                355.5,
+                158.0
+              ],
+              [
+                367.3,
+                142.0
+              ],
+              [
+                379.2,
+                158.0
+              ],
+              [
+                391,
+                150
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 2.5
+          },
+          {
+            "t": "circ",
+            "x": 400,
+            "y": 150,
+            "r": 9,
+            "cor": "tinta",
+            "borda": "tinta"
+          },
+          {
+            "t": "texto",
+            "x": 400,
+            "y": 124,
+            "txt": "Q",
+            "negrito": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                409,
+                150
+              ],
+              [
+                420.8,
+                158.0
+              ],
+              [
+                432.7,
+                142.0
+              ],
+              [
+                444.5,
+                158.0
+              ],
+              [
+                456.3,
+                142.0
+              ],
+              [
+                468.2,
+                158.0
+              ],
+              [
+                480.0,
+                142.0
+              ],
+              [
+                491.8,
+                158.0
+              ],
+              [
+                503.7,
+                142.0
+              ],
+              [
+                515.5,
+                158.0
+              ],
+              [
+                527.3,
+                142.0
+              ],
+              [
+                539.2,
+                158.0
+              ],
+              [
+                551,
+                150
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 2.5
+          },
+          {
+            "t": "circ",
+            "x": 560,
+            "y": 150,
+            "r": 9,
+            "cor": "tinta",
+            "borda": "tinta"
+          },
+          {
+            "t": "texto",
+            "x": 560,
+            "y": 124,
+            "txt": "M",
+            "negrito": true
+          }
+        ],
+        "resistencias": [
+          {
+            "t": "rotulo",
+            "x": 155,
+            "y": 230,
+            "txt": "MQ: R (maior potência)",
+            "cor": "var(--danger)"
+          },
+          {
+            "t": "rotulo",
+            "x": 320,
+            "y": 280,
+            "txt": "Q: 2R",
+            "cor": "var(--anim-acel)"
+          },
+          {
+            "t": "rotulo",
+            "x": 480,
+            "y": 330,
+            "txt": "M: 3R (menor potência)",
+            "cor": "var(--accent)"
+          }
+        ]
+      }
+    }
+  },
+  "passos": [
+    {
+      "titulo": "Potência e resistência",
+      "conceito": "Potência elétrica",
+      "texto": "A tensão da rede é a mesma nas três posições. Assim, a maior potência (muito quente) exige a menor resistência.",
+      "equacoes": [
+        "P = \\dfrac{U^{2}}{R}"
+      ],
+      "cena": {
+        "mostrar": [
+          "circuito"
+        ]
+      }
+    },
+    {
+      "titulo": "O esquema certo",
+      "conceito": "Associação em série",
+      "texto": "Entre N e MQ há um resistor; entre N e Q, dois em série; entre N e M, três. Resposta: <b>(a)</b>.",
+      "cena": {
+        "mostrar": [
+          "resistencias"
+        ],
+        "destacar": [
+          "resistencias"
+        ]
+      }
+    }
+  ],
+  "status": "revisado",
+  "criadoEm": "2026-11-15T09:00:00-03:00",
+  "atualizadoEm": "2026-11-15T09:00:00-03:00"
+}

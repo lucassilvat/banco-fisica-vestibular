@@ -1,0 +1,230 @@
+{
+  "id": "unicamp-2017-q65",
+  "titulo": "A bola de Natal só diminui as imagens",
+  "conceitos": [
+    "Espelhos esféricos"
+  ],
+  "cena": {
+    "modelo": "diagrama",
+    "parametros": {
+      "elementos": {
+        "bola": [
+          {
+            "t": "caminho",
+            "d": "M487,80 A200,200 0 0,0 487,360",
+            "cor": "normal",
+            "larg": 4
+          },
+          {
+            "t": "texto",
+            "x": 620,
+            "y": 390,
+            "txt": "bola (espelho convexo)",
+            "negrito": true,
+            "cor": "normal",
+            "ancora": "end"
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                60,
+                220
+              ],
+              [
+                640,
+                220
+              ]
+            ],
+            "cor": "mudo",
+            "larg": 1.2
+          },
+          {
+            "t": "circ",
+            "x": 530,
+            "y": 220,
+            "r": 4,
+            "cor": "tinta",
+            "borda": "tinta"
+          },
+          {
+            "t": "texto",
+            "x": 530,
+            "y": 240,
+            "txt": "F",
+            "negrito": true
+          },
+          {
+            "t": "circ",
+            "x": 630,
+            "y": 220,
+            "r": 4,
+            "cor": "tinta",
+            "borda": "tinta"
+          },
+          {
+            "t": "texto",
+            "x": 624,
+            "y": 240,
+            "txt": "C",
+            "negrito": true
+          }
+        ],
+        "objeto": [
+          {
+            "t": "seta",
+            "de": [
+              150,
+              220
+            ],
+            "para": [
+              150,
+              120
+            ],
+            "cor": "perigo",
+            "larg": 3.5
+          },
+          {
+            "t": "texto",
+            "x": 150,
+            "y": 240,
+            "txt": "Jerry",
+            "negrito": true,
+            "cor": "perigo"
+          }
+        ],
+        "raios": [
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                150,
+                120
+              ],
+              [
+                457,
+                120
+              ]
+            ],
+            "cor": "luz",
+            "larg": 2.5
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                457,
+                120
+              ],
+              [
+                384,
+                20
+              ]
+            ],
+            "cor": "luz",
+            "larg": 2.5
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                457,
+                120
+              ],
+              [
+                530,
+                220
+              ]
+            ],
+            "cor": "luz",
+            "larg": 1.5,
+            "tracejado": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                150,
+                120
+              ],
+              [
+                434,
+                179
+              ]
+            ],
+            "cor": "luz",
+            "larg": 2.5
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                434,
+                179
+              ],
+              [
+                630,
+                220
+              ]
+            ],
+            "cor": "luz",
+            "larg": 1.5,
+            "tracejado": true
+          }
+        ],
+        "imagem": [
+          {
+            "t": "seta",
+            "de": [
+              504,
+              220
+            ],
+            "para": [
+              504,
+              194
+            ],
+            "cor": "acel",
+            "larg": 3.5
+          },
+          {
+            "t": "rotulo",
+            "x": 470,
+            "y": 300,
+            "txt": "imagem virtual, direita e reduzida",
+            "cor": "var(--anim-acel)"
+          }
+        ]
+      }
+    }
+  },
+  "passos": [
+    {
+      "titulo": "Um espelho convexo",
+      "conceito": "Espelhos esféricos",
+      "texto": "A face externa da bola é um espelho convexo.",
+      "cena": {
+        "mostrar": [
+          "bola",
+          "objeto"
+        ]
+      }
+    },
+    {
+      "titulo": "A imagem",
+      "conceito": "Espelhos esféricos",
+      "texto": "Para objetos reais, o espelho convexo forma sempre imagem virtual, direita e reduzida, atrás do espelho; o desenho mostra uma imagem ampliada, que não ocorre. Resposta: <b>(b)</b>.",
+      "cena": {
+        "mostrar": [
+          "raios",
+          "imagem"
+        ],
+        "destacar": [
+          "imagem"
+        ]
+      }
+    }
+  ],
+  "status": "revisado",
+  "criadoEm": "2026-11-15T09:00:00-03:00",
+  "atualizadoEm": "2026-11-15T09:00:00-03:00"
+}

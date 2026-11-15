@@ -1,0 +1,264 @@
+{
+  "id": "unicamp-2019-q39",
+  "titulo": "O empuxo triplica quando a boia afunda",
+  "conceitos": [
+    "Empuxo (princípio de Arquimedes)",
+    "Equilíbrio de forças"
+  ],
+  "cena": {
+    "modelo": "diagrama",
+    "parametros": {
+      "elementos": {
+        "agua": [
+          {
+            "t": "ret",
+            "x": 60,
+            "y": 150,
+            "w": 520,
+            "h": 250,
+            "cor": "#cfe8f6",
+            "borda": null
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                60,
+                150
+              ],
+              [
+                580,
+                150
+              ]
+            ],
+            "cor": "normal",
+            "larg": 2
+          },
+          {
+            "t": "texto",
+            "x": 180,
+            "y": 380,
+            "txt": "(1)",
+            "negrito": true
+          },
+          {
+            "t": "texto",
+            "x": 450,
+            "y": 380,
+            "txt": "(2)",
+            "negrito": true
+          }
+        ],
+        "boia-1": [
+          {
+            "t": "ret",
+            "x": 158,
+            "y": 97,
+            "w": 44,
+            "h": 80,
+            "cor": "#c0392b",
+            "borda": "tinta",
+            "rx": 20,
+            "opac": 0.85
+          },
+          {
+            "t": "seta",
+            "de": [
+              210,
+              177
+            ],
+            "para": [
+              210,
+              137
+            ],
+            "cor": "normal",
+            "larg": 3,
+            "rot_em": [
+              222,
+              140
+            ],
+            "ancora": "start",
+            "rotulo": "E",
+            "sub": "1"
+          },
+          {
+            "t": "seta",
+            "de": [
+              150,
+              150
+            ],
+            "para": [
+              150,
+              190
+            ],
+            "cor": "peso",
+            "larg": 3,
+            "rot_em": [
+              138,
+              186
+            ],
+            "ancora": "end",
+            "rotulo": "P"
+          },
+          {
+            "t": "texto",
+            "x": 180,
+            "y": 230,
+            "txt": "1/3 submerso",
+            "mudo": true
+          }
+        ],
+        "boia-2": [
+          {
+            "t": "ret",
+            "x": 428,
+            "y": 180,
+            "w": 44,
+            "h": 80,
+            "cor": "#c0392b",
+            "borda": "tinta",
+            "rx": 20,
+            "opac": 0.85
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                450,
+                260
+              ],
+              [
+                450,
+                340
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 2
+          },
+          {
+            "t": "seta",
+            "de": [
+              482,
+              200
+            ],
+            "para": [
+              482,
+              120
+            ],
+            "cor": "normal",
+            "larg": 3,
+            "rot_em": [
+              494,
+              128
+            ],
+            "ancora": "start",
+            "rotulo": "E",
+            "sub": "2"
+          },
+          {
+            "t": "seta",
+            "de": [
+              418,
+              220
+            ],
+            "para": [
+              418,
+              260
+            ],
+            "cor": "peso",
+            "larg": 3,
+            "rot_em": [
+              406,
+              256
+            ],
+            "ancora": "end",
+            "rotulo": "P"
+          },
+          {
+            "t": "seta",
+            "de": [
+              450,
+              262
+            ],
+            "para": [
+              450,
+              302
+            ],
+            "cor": "acel",
+            "larg": 3,
+            "rot_em": [
+              462,
+              300
+            ],
+            "ancora": "start",
+            "rotulo": "T"
+          },
+          {
+            "t": "texto",
+            "x": 450,
+            "y": 360,
+            "txt": "peixe puxa",
+            "mudo": true
+          }
+        ],
+        "conta": [
+          {
+            "t": "rotulo",
+            "x": 320,
+            "y": 60,
+            "txt": "E₂ = 3E₁ = 3P = P + T  ⇒  T = 2P",
+            "cor": "var(--danger)"
+          }
+        ]
+      }
+    }
+  },
+  "passos": [
+    {
+      "titulo": "Boia flutuando",
+      "conceito": "Empuxo (princípio de Arquimedes)",
+      "texto": "Com 1/3 do volume submerso, o empuxo \\(\\vec{E}_{1}\\) equilibra o peso \\(\\vec{P}\\) da boia.",
+      "equacoes": [
+        "E_{1} = \\dfrac{\\rho g V}{3} = P \\quad \\Rightarrow \\quad \\rho g V = 3P"
+      ],
+      "cena": {
+        "mostrar": [
+          "agua",
+          "boia-1"
+        ]
+      }
+    },
+    {
+      "titulo": "Boia submersa",
+      "conceito": "Equilíbrio de forças",
+      "texto": "Totalmente submersa, o empuxo é três vezes maior. Parada, ela tem o empuxo \\(\\vec{E}_{2}\\) para cima e o peso \\(\\vec{P}\\) e a tração \\(\\vec{T}\\) para baixo.",
+      "equacoes": [
+        "E_{2} = \\rho g V = 3P = P + T"
+      ],
+      "cena": {
+        "mostrar": [
+          "boia-2"
+        ]
+      }
+    },
+    {
+      "titulo": "A tração",
+      "conceito": "Equilíbrio de forças",
+      "texto": "Resposta: <b>(b) o dobro do peso da boia</b>.",
+      "equacoes": [
+        "T = 2P"
+      ],
+      "cena": {
+        "mostrar": [
+          "conta"
+        ],
+        "destacar": [
+          "conta"
+        ]
+      }
+    }
+  ],
+  "status": "revisado",
+  "criadoEm": "2026-11-15T09:00:00-03:00",
+  "atualizadoEm": "2026-11-15T09:00:00-03:00"
+}

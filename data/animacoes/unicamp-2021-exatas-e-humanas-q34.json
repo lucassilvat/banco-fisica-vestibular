@@ -1,0 +1,219 @@
+{
+  "id": "unicamp-2021-exatas-e-humanas-q34",
+  "titulo": "Equilíbrio de torques no braço do toca-discos",
+  "conceitos": [
+    "Momento de uma força (torque)",
+    "Equilíbrio do corpo extenso"
+  ],
+  "cena": {
+    "modelo": "diagrama",
+    "parametros": {
+      "elementos": {
+        "braco": [
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                120,
+                220
+              ],
+              [
+                430,
+                190
+              ]
+            ],
+            "cor": "#555",
+            "larg": 8
+          },
+          {
+            "t": "ret",
+            "x": 366,
+            "y": 198,
+            "w": 28,
+            "h": 26,
+            "cor": "papel",
+            "borda": "tinta"
+          },
+          {
+            "t": "texto",
+            "x": 380,
+            "y": 211,
+            "txt": "O",
+            "negrito": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                380,
+                224
+              ],
+              [
+                380,
+                330
+              ]
+            ],
+            "cor": "#555",
+            "larg": 6
+          },
+          {
+            "t": "ret",
+            "x": 340,
+            "y": 330,
+            "w": 80,
+            "h": 14,
+            "cor": "#888",
+            "borda": "tinta"
+          },
+          {
+            "t": "circ",
+            "x": 430,
+            "y": 190,
+            "r": 18,
+            "cor": "#444",
+            "borda": "tinta"
+          }
+        ],
+        "forcas": [
+          {
+            "t": "seta",
+            "de": [
+              380,
+              200
+            ],
+            "para": [
+              380,
+              70
+            ],
+            "cor": "normal",
+            "larg": 3,
+            "rot_em": [
+              368,
+              80
+            ],
+            "ancora": "end",
+            "rotulo": "N"
+          },
+          {
+            "t": "seta",
+            "de": [
+              260,
+              207
+            ],
+            "para": [
+              260,
+              300
+            ],
+            "cor": "peso",
+            "larg": 3,
+            "rot_em": [
+              248,
+              292
+            ],
+            "ancora": "end",
+            "rotulo": "P",
+            "sub": "B"
+          },
+          {
+            "t": "seta",
+            "de": [
+              430,
+              208
+            ],
+            "para": [
+              430,
+              300
+            ],
+            "cor": "peso",
+            "larg": 3,
+            "rot_em": [
+              444,
+              292
+            ],
+            "ancora": "start",
+            "rotulo": "P",
+            "sub": "C"
+          }
+        ],
+        "cotas": [
+          {
+            "t": "cota",
+            "de": [
+              260,
+              140
+            ],
+            "para": [
+              380,
+              140
+            ],
+            "cor": "normal",
+            "rot_em": [
+              320,
+              124
+            ],
+            "txt": "12 cm"
+          },
+          {
+            "t": "cota",
+            "de": [
+              380,
+              110
+            ],
+            "para": [
+              430,
+              110
+            ],
+            "cor": "normal",
+            "rot_em": [
+              405,
+              94
+            ],
+            "txt": "D"
+          }
+        ],
+        "torques": [
+          {
+            "t": "rotulo",
+            "x": 170,
+            "y": 360,
+            "txt": "0,3 · 12 = 1,5 · D",
+            "cor": "var(--danger)"
+          }
+        ]
+      }
+    }
+  },
+  "passos": [
+    {
+      "titulo": "As três forças",
+      "conceito": "Momento de uma força (torque)",
+      "texto": "A normal \\(\\vec{N}\\) atua em O: seu torque em relação a O é nulo. O peso do braço \\(\\vec{P}_{B}\\), à esquerda, tende a girar o braço num sentido; o do contrapeso \\(\\vec{P}_{C}\\), à direita, no outro.",
+      "cena": {
+        "mostrar": [
+          "braco",
+          "forcas",
+          "cotas"
+        ]
+      }
+    },
+    {
+      "titulo": "Soma dos torques nula",
+      "conceito": "Equilíbrio do corpo extenso",
+      "texto": "Os dois torques precisam ter o mesmo módulo. Resposta: <b>(b) 2,4 cm</b>.",
+      "equacoes": [
+        "0,3 \\cdot 12 = 1,5 \\cdot D \\quad \\Rightarrow \\quad D = 2,4\\ \\text{cm}"
+      ],
+      "cena": {
+        "mostrar": [
+          "torques"
+        ],
+        "destacar": [
+          "torques"
+        ]
+      }
+    }
+  ],
+  "status": "revisado",
+  "criadoEm": "2026-11-15T09:00:00-03:00",
+  "atualizadoEm": "2026-11-15T09:00:00-03:00"
+}

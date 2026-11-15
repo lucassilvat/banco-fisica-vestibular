@@ -1,0 +1,124 @@
+{
+  "id": "unicamp-2017-q61",
+  "titulo": "Um ciclo da bomba de vácuo",
+  "conceitos": [
+    "Transformações gasosas"
+  ],
+  "cena": {
+    "modelo": "diagrama",
+    "parametros": {
+      "elementos": {
+        "camara": [
+          {
+            "t": "ret",
+            "x": 160,
+            "y": 50,
+            "w": 200,
+            "h": 150,
+            "cor": "#eef4fb",
+            "borda": "tinta",
+            "larg": 2
+          },
+          {
+            "t": "texto",
+            "x": 260,
+            "y": 125,
+            "txt": "V_{C} = 2,0 L",
+            "negrito": true
+          },
+          {
+            "t": "ret",
+            "x": 230,
+            "y": 200,
+            "w": 60,
+            "h": 120,
+            "cor": "#eef4fb",
+            "borda": "tinta",
+            "larg": 2
+          },
+          {
+            "t": "texto",
+            "x": 260,
+            "y": 270,
+            "txt": "V_{P} = 0,2 L",
+            "negrito": true
+          },
+          {
+            "t": "ret",
+            "x": 225,
+            "y": 316,
+            "w": 70,
+            "h": 10,
+            "cor": "#666",
+            "borda": "tinta"
+          },
+          {
+            "t": "texto",
+            "x": 320,
+            "y": 210,
+            "txt": "válvula A aberta",
+            "mudo": true,
+            "ancora": "start"
+          }
+        ],
+        "contas": [
+          {
+            "t": "rotulo",
+            "x": 530,
+            "y": 100,
+            "txt": "isotérmica: P·V constante",
+            "cor": "var(--accent)"
+          },
+          {
+            "t": "rotulo",
+            "x": 530,
+            "y": 160,
+            "txt": "33 · 2,0 = P · 2,2",
+            "cor": "var(--danger)"
+          },
+          {
+            "t": "rotulo",
+            "x": 530,
+            "y": 220,
+            "txt": "pressão final: 30 Pa",
+            "cor": "var(--danger)"
+          }
+        ]
+      }
+    }
+  },
+  "passos": [
+    {
+      "titulo": "A expansão",
+      "conceito": "Transformações gasosas",
+      "texto": "Com a válvula A aberta, o ar da câmara passa a ocupar também o pistão: de 2,0 L para 2,2 L, a temperatura constante.",
+      "equacoes": [
+        "P_{i} V_{C} = P_{f}(V_{C} + V_{P})"
+      ],
+      "cena": {
+        "mostrar": [
+          "camara"
+        ]
+      }
+    },
+    {
+      "titulo": "A pressão final",
+      "conceito": "Transformações gasosas",
+      "texto": "Fechada a válvula A, o ar retirado pelo pistão não volta: a câmara fica com essa pressão. Resposta: <b>(a) 30,0 Pa</b>.",
+      "equacoes": [
+        "P_{f} = \\dfrac{33 \\cdot 2,0}{2,2} = 30\\ \\text{Pa}"
+      ],
+      "cena": {
+        "mostrar": [
+          "contas"
+        ],
+        "destacar": [
+          "contas"
+        ]
+      }
+    }
+  ],
+  "status": "revisado",
+  "criadoEm": "2026-11-15T09:00:00-03:00",
+  "atualizadoEm": "2026-11-15T09:00:00-03:00"
+}

@@ -1,0 +1,134 @@
+{
+  "id": "unicamp-2016-q11",
+  "titulo": "Uma lente ou duas: imagem direita ou invertida",
+  "conceitos": [
+    "Instrumentos ópticos"
+  ],
+  "cena": {
+    "modelo": "diagrama",
+    "parametros": {
+      "elementos": {
+        "hooke": [
+          {
+            "t": "ret",
+            "x": 70,
+            "y": 150,
+            "w": 200,
+            "h": 90,
+            "cor": "#d8cbb5",
+            "borda": "tinta",
+            "rx": 40
+          },
+          {
+            "t": "texto",
+            "x": 110,
+            "y": 195,
+            "txt": "abdome",
+            "negrito": true
+          },
+          {
+            "t": "texto",
+            "x": 230,
+            "y": 195,
+            "txt": "pedipalpos",
+            "negrito": true
+          },
+          {
+            "t": "texto",
+            "x": 170,
+            "y": 120,
+            "txt": "Hooke (duas lentes): imagem invertida",
+            "negrito": true,
+            "cor": "normal"
+          }
+        ],
+        "giro": [
+          {
+            "t": "seta",
+            "de": [
+              280,
+              300
+            ],
+            "para": [
+              360,
+              300
+            ],
+            "cor": "acel",
+            "larg": 3
+          },
+          {
+            "t": "texto",
+            "x": 320,
+            "y": 330,
+            "txt": "girada de 180º",
+            "negrito": true,
+            "cor": "acel"
+          }
+        ],
+        "leeuwenhoek": [
+          {
+            "t": "ret",
+            "x": 370,
+            "y": 150,
+            "w": 200,
+            "h": 90,
+            "cor": "#d8cbb5",
+            "borda": "tinta",
+            "rx": 40
+          },
+          {
+            "t": "texto",
+            "x": 530,
+            "y": 195,
+            "txt": "abdome",
+            "negrito": true
+          },
+          {
+            "t": "texto",
+            "x": 410,
+            "y": 195,
+            "txt": "pedipalpos",
+            "negrito": true
+          },
+          {
+            "t": "texto",
+            "x": 470,
+            "y": 120,
+            "txt": "Leeuwenhoek (uma lente): direita",
+            "negrito": true,
+            "cor": "perigo"
+          }
+        ]
+      }
+    }
+  },
+  "passos": [
+    {
+      "titulo": "O desenho de Hooke",
+      "conceito": "Instrumentos ópticos",
+      "texto": "O microscópio composto, de duas lentes, forma imagem final invertida: girada de 180º em relação ao objeto. No desenho, o abdome está à esquerda.",
+      "cena": {
+        "mostrar": [
+          "hooke"
+        ]
+      }
+    },
+    {
+      "titulo": "Com uma lente só",
+      "conceito": "Instrumentos ópticos",
+      "texto": "A lente única, usada como lupa, forma imagem direita. A imagem de Leeuwenhoek é a de Hooke girada de 180º: o abdome passa para a direita dos pedipalpos. Resposta: <b>(d)</b>.",
+      "cena": {
+        "mostrar": [
+          "giro",
+          "leeuwenhoek"
+        ],
+        "destacar": [
+          "leeuwenhoek"
+        ]
+      }
+    }
+  ],
+  "status": "revisado",
+  "criadoEm": "2026-11-15T09:00:00-03:00",
+  "atualizadoEm": "2026-11-15T09:00:00-03:00"
+}

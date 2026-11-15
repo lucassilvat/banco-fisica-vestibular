@@ -1,0 +1,520 @@
+{
+  "id": "unicamp-2020-q79",
+  "titulo": "A folha como um circuito de resistências",
+  "conceitos": [
+    "Associação mista de resistores"
+  ],
+  "cena": {
+    "modelo": "diagrama",
+    "parametros": {
+      "elementos": {
+        "circuito": [
+          {
+            "t": "circ",
+            "x": 60,
+            "y": 200,
+            "r": 12,
+            "cor": "tinta",
+            "borda": "tinta"
+          },
+          {
+            "t": "texto",
+            "x": 60,
+            "y": 230,
+            "txt": "evaporação",
+            "mudo": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                72,
+                200
+              ],
+              [
+                120,
+                200
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 2.5
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                120,
+                150
+              ],
+              [
+                120,
+                250
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 2.5
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                400,
+                150
+              ],
+              [
+                400,
+                250
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 2.5
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                120,
+                150
+              ],
+              [
+                150,
+                150
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 2.5
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                150,
+                150
+              ],
+              [
+                156.7,
+                158.0
+              ],
+              [
+                163.3,
+                142.0
+              ],
+              [
+                170.0,
+                158.0
+              ],
+              [
+                176.7,
+                142.0
+              ],
+              [
+                183.3,
+                158.0
+              ],
+              [
+                190.0,
+                142.0
+              ],
+              [
+                196.7,
+                158.0
+              ],
+              [
+                203.3,
+                142.0
+              ],
+              [
+                210.0,
+                158.0
+              ],
+              [
+                216.7,
+                142.0
+              ],
+              [
+                223.3,
+                158.0
+              ],
+              [
+                230,
+                150
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 2.5
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                230,
+                150
+              ],
+              [
+                290,
+                150
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 2.5
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                290,
+                150
+              ],
+              [
+                296.7,
+                158.0
+              ],
+              [
+                303.3,
+                142.0
+              ],
+              [
+                310.0,
+                158.0
+              ],
+              [
+                316.7,
+                142.0
+              ],
+              [
+                323.3,
+                158.0
+              ],
+              [
+                330.0,
+                142.0
+              ],
+              [
+                336.7,
+                158.0
+              ],
+              [
+                343.3,
+                142.0
+              ],
+              [
+                350.0,
+                158.0
+              ],
+              [
+                356.7,
+                142.0
+              ],
+              [
+                363.3,
+                158.0
+              ],
+              [
+                370,
+                150
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 2.5
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                370,
+                150
+              ],
+              [
+                400,
+                150
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 2.5
+          },
+          {
+            "t": "texto",
+            "x": 190,
+            "y": 124,
+            "txt": "r_{eia}",
+            "negrito": true
+          },
+          {
+            "t": "texto",
+            "x": 330,
+            "y": 124,
+            "txt": "r_{est}",
+            "negrito": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                120,
+                250
+              ],
+              [
+                220,
+                250
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 2.5
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                220,
+                250
+              ],
+              [
+                226.7,
+                258.0
+              ],
+              [
+                233.3,
+                242.0
+              ],
+              [
+                240.0,
+                258.0
+              ],
+              [
+                246.7,
+                242.0
+              ],
+              [
+                253.3,
+                258.0
+              ],
+              [
+                260.0,
+                242.0
+              ],
+              [
+                266.7,
+                258.0
+              ],
+              [
+                273.3,
+                242.0
+              ],
+              [
+                280.0,
+                258.0
+              ],
+              [
+                286.7,
+                242.0
+              ],
+              [
+                293.3,
+                258.0
+              ],
+              [
+                300,
+                250
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 2.5
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                300,
+                250
+              ],
+              [
+                400,
+                250
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 2.5
+          },
+          {
+            "t": "texto",
+            "x": 260,
+            "y": 280,
+            "txt": "r_{cut}",
+            "negrito": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                400,
+                200
+              ],
+              [
+                450,
+                200
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 2.5
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                450,
+                200
+              ],
+              [
+                456.7,
+                208.0
+              ],
+              [
+                463.3,
+                192.0
+              ],
+              [
+                470.0,
+                208.0
+              ],
+              [
+                476.7,
+                192.0
+              ],
+              [
+                483.3,
+                208.0
+              ],
+              [
+                490.0,
+                192.0
+              ],
+              [
+                496.7,
+                208.0
+              ],
+              [
+                503.3,
+                192.0
+              ],
+              [
+                510.0,
+                208.0
+              ],
+              [
+                516.7,
+                192.0
+              ],
+              [
+                523.3,
+                208.0
+              ],
+              [
+                530,
+                200
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 2.5
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                530,
+                200
+              ],
+              [
+                568,
+                200
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 2.5
+          },
+          {
+            "t": "texto",
+            "x": 490,
+            "y": 174,
+            "txt": "r_{cl}",
+            "negrito": true
+          },
+          {
+            "t": "circ",
+            "x": 580,
+            "y": 200,
+            "r": 12,
+            "cor": "tinta",
+            "borda": "tinta"
+          },
+          {
+            "t": "texto",
+            "x": 580,
+            "y": 230,
+            "txt": "atmosfera",
+            "mudo": true
+          }
+        ],
+        "especie-1": [
+          {
+            "t": "rotulo",
+            "x": 320,
+            "y": 330,
+            "txt": "espécie 1: (10 + 30) ∥ 120 = 30; 30 + 50 = 80 s/m",
+            "cor": "var(--danger)"
+          }
+        ],
+        "especie-2": [
+          {
+            "t": "rotulo",
+            "x": 320,
+            "y": 370,
+            "txt": "espécie 2: (30 + 10) ∥ 280 = 35; 35 + 15 = 50 s/m",
+            "cor": "var(--accent)"
+          }
+        ]
+      }
+    }
+  },
+  "passos": [
+    {
+      "titulo": "O esquema",
+      "conceito": "Associação mista de resistores",
+      "texto": "r<sub>eia</sub> e r<sub>est</sub> estão em série; esse ramo está em paralelo com r<sub>cut</sub>; o conjunto está em série com r<sub>cl</sub>.",
+      "equacoes": [
+        "r_{\\text{total}} = \\dfrac{(r_{eia} + r_{est})\\,r_{cut}}{r_{eia} + r_{est} + r_{cut}} + r_{cl}"
+      ],
+      "cena": {
+        "mostrar": [
+          "circuito"
+        ]
+      }
+    },
+    {
+      "titulo": "As duas espécies",
+      "conceito": "Associação mista de resistores",
+      "texto": "Menor transpiração corresponde a maior resistência total: espécie 1.",
+      "cena": {
+        "mostrar": [
+          "especie-1",
+          "especie-2"
+        ]
+      }
+    },
+    {
+      "titulo": "A condutância",
+      "conceito": "Associação mista de resistores",
+      "texto": "Condutância é o inverso da resistência. Resposta: <b>(b)</b>.",
+      "equacoes": [
+        "\\dfrac{1}{80} = 0,0125\\ \\text{m/s} = 125 \\times 10^{-4}\\ \\text{m/s}"
+      ],
+      "cena": {
+        "destacar": [
+          "especie-1"
+        ]
+      }
+    }
+  ],
+  "status": "revisado",
+  "criadoEm": "2026-11-15T09:00:00-03:00",
+  "atualizadoEm": "2026-11-15T09:00:00-03:00"
+}

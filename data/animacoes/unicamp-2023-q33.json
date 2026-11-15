@@ -1,0 +1,546 @@
+{
+  "id": "unicamp-2023-q33",
+  "titulo": "Iminência de escorregar: mola contra atrito",
+  "conceitos": [
+    "Força de atrito estático e cinético",
+    "Força elástica"
+  ],
+  "cena": {
+    "modelo": "diagrama",
+    "parametros": {
+      "elementos": {
+        "cena": [
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                60,
+                260
+              ],
+              [
+                600,
+                260
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 2.5
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                70,
+                264
+              ],
+              [
+                56,
+                280
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 1.2
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                100,
+                264
+              ],
+              [
+                86,
+                280
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 1.2
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                130,
+                264
+              ],
+              [
+                116,
+                280
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 1.2
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                160,
+                264
+              ],
+              [
+                146,
+                280
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 1.2
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                190,
+                264
+              ],
+              [
+                176,
+                280
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 1.2
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                220,
+                264
+              ],
+              [
+                206,
+                280
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 1.2
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                250,
+                264
+              ],
+              [
+                236,
+                280
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 1.2
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                280,
+                264
+              ],
+              [
+                266,
+                280
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 1.2
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                310,
+                264
+              ],
+              [
+                296,
+                280
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 1.2
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                340,
+                264
+              ],
+              [
+                326,
+                280
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 1.2
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                370,
+                264
+              ],
+              [
+                356,
+                280
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 1.2
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                400,
+                264
+              ],
+              [
+                386,
+                280
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 1.2
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                430,
+                264
+              ],
+              [
+                416,
+                280
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 1.2
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                460,
+                264
+              ],
+              [
+                446,
+                280
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 1.2
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                490,
+                264
+              ],
+              [
+                476,
+                280
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 1.2
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                520,
+                264
+              ],
+              [
+                506,
+                280
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 1.2
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                550,
+                264
+              ],
+              [
+                536,
+                280
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 1.2
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                580,
+                264
+              ],
+              [
+                566,
+                280
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 1.2
+          },
+          {
+            "t": "texto",
+            "x": 560,
+            "y": 294,
+            "txt": "pele",
+            "mudo": true
+          },
+          {
+            "t": "ret",
+            "x": 200,
+            "y": 170,
+            "w": 110,
+            "h": 90,
+            "cor": "papel",
+            "borda": "tinta",
+            "larg": 2
+          },
+          {
+            "t": "texto",
+            "x": 255,
+            "y": 215,
+            "txt": "m = 4 g",
+            "negrito": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                310,
+                215
+              ],
+              [
+                350,
+                215
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 2
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                350,
+                215
+              ],
+              [
+                356.4,
+                225.0
+              ],
+              [
+                362.9,
+                205.0
+              ],
+              [
+                369.3,
+                225.0
+              ],
+              [
+                375.7,
+                205.0
+              ],
+              [
+                382.1,
+                225.0
+              ],
+              [
+                388.6,
+                205.0
+              ],
+              [
+                395.0,
+                225.0
+              ],
+              [
+                401.4,
+                205.0
+              ],
+              [
+                407.9,
+                225.0
+              ],
+              [
+                414.3,
+                205.0
+              ],
+              [
+                420.7,
+                225.0
+              ],
+              [
+                427.1,
+                205.0
+              ],
+              [
+                433.6,
+                225.0
+              ],
+              [
+                440,
+                215
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 2
+          },
+          {
+            "t": "circ",
+            "x": 444,
+            "y": 215,
+            "r": 4,
+            "cor": "tinta",
+            "borda": "tinta"
+          }
+        ],
+        "forcas": [
+          {
+            "t": "seta",
+            "de": [
+              255,
+              170
+            ],
+            "para": [
+              255,
+              90
+            ],
+            "cor": "normal",
+            "larg": 3,
+            "rot_em": [
+              268,
+              100
+            ],
+            "ancora": "start",
+            "rotulo": "N"
+          },
+          {
+            "t": "seta",
+            "de": [
+              255,
+              260
+            ],
+            "para": [
+              255,
+              330
+            ],
+            "cor": "peso",
+            "larg": 3,
+            "rot_em": [
+              268,
+              322
+            ],
+            "ancora": "start",
+            "rotulo": "P"
+          },
+          {
+            "t": "seta",
+            "de": [
+              200,
+              254
+            ],
+            "para": [
+              110,
+              254
+            ],
+            "cor": "atrito",
+            "larg": 3,
+            "rot_em": [
+              104,
+              236
+            ],
+            "ancora": "end",
+            "rotulo": "f",
+            "sub": "at"
+          },
+          {
+            "t": "seta",
+            "de": [
+              448,
+              215
+            ],
+            "para": [
+              530,
+              215
+            ],
+            "cor": "acel",
+            "larg": 3,
+            "rot_em": [
+              536,
+              210
+            ],
+            "ancora": "start",
+            "rotulo": "F"
+          }
+        ],
+        "valores": [
+          {
+            "t": "rotulo",
+            "x": 395,
+            "y": 150,
+            "txt": "kΔx = 10 · 0,003 = 0,03 N",
+            "cor": "var(--anim-acel)"
+          },
+          {
+            "t": "rotulo",
+            "x": 470,
+            "y": 330,
+            "txt": "N = mg = 0,004 · 10 = 0,04 N",
+            "cor": "var(--accent)"
+          }
+        ]
+      }
+    }
+  },
+  "passos": [
+    {
+      "titulo": "As forças",
+      "conceito": "Força de atrito estático e cinético",
+      "texto": "Na iminência de movimento, a força da mola é igual ao atrito estático máximo, e a normal \\(\\vec{N}\\) equilibra o peso \\(\\vec{P}\\).",
+      "equacoes": [
+        "k\\,\\Delta x = \\mu_{e} N, \\quad N = mg"
+      ],
+      "cena": {
+        "mostrar": [
+          "cena",
+          "forcas"
+        ]
+      }
+    },
+    {
+      "titulo": "O coeficiente",
+      "conceito": "Força elástica",
+      "texto": "Em unidades do SI: Δx = 3 × 10<sup>−3</sup> m e m = 4 × 10<sup>−3</sup> kg. Resposta: <b>(c) 7,5 × 10<sup>−1</sup></b>.",
+      "equacoes": [
+        "\\mu_{e} = \\dfrac{0,03}{0,04} = 0,75"
+      ],
+      "cena": {
+        "mostrar": [
+          "valores"
+        ],
+        "destacar": [
+          "valores"
+        ]
+      }
+    }
+  ],
+  "status": "revisado",
+  "criadoEm": "2026-11-15T09:00:00-03:00",
+  "atualizadoEm": "2026-11-15T09:00:00-03:00"
+}

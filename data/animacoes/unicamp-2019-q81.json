@@ -1,0 +1,172 @@
+{
+  "id": "unicamp-2019-q81",
+  "titulo": "Kepler troca o círculo pela elipse",
+  "conceitos": [
+    "Leis de Kepler"
+  ],
+  "cena": {
+    "modelo": "diagrama",
+    "parametros": {
+      "elementos": {
+        "sol": [
+          {
+            "t": "circ",
+            "x": 200,
+            "y": 210,
+            "r": 16,
+            "cor": "luz",
+            "borda": "tinta"
+          },
+          {
+            "t": "texto",
+            "x": 200,
+            "y": 250,
+            "txt": "Sol",
+            "negrito": true
+          }
+        ],
+        "circular": [
+          {
+            "t": "circ",
+            "x": 200,
+            "y": 210,
+            "r": 120,
+            "cor": null,
+            "borda": "mudo",
+            "larg": 2
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                200,
+                210
+              ],
+              [
+                285,
+                125
+              ]
+            ],
+            "cor": "mudo",
+            "larg": 1.5
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                200,
+                210
+              ],
+              [
+                200,
+                90
+              ]
+            ],
+            "cor": "mudo",
+            "larg": 1.5
+          },
+          {
+            "t": "texto",
+            "x": 200,
+            "y": 70,
+            "txt": "círculo: distância constante",
+            "mudo": true,
+            "negrito": true
+          }
+        ],
+        "elipse": [
+          {
+            "t": "caminho",
+            "d": "M380,210 a150,100 0 1,0 300,0 a150,100 0 1,0 -300,0",
+            "cor": "normal",
+            "larg": 2.5
+          },
+          {
+            "t": "circ",
+            "x": 418,
+            "y": 210,
+            "r": 16,
+            "cor": "luz",
+            "borda": "tinta"
+          },
+          {
+            "t": "texto",
+            "x": 418,
+            "y": 250,
+            "txt": "Sol",
+            "negrito": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                418,
+                210
+              ],
+              [
+                380,
+                210
+              ]
+            ],
+            "cor": "perigo",
+            "larg": 3
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                434,
+                210
+              ],
+              [
+                680,
+                210
+              ]
+            ],
+            "cor": "perigo",
+            "larg": 2,
+            "tracejado": true
+          },
+          {
+            "t": "texto",
+            "x": 530,
+            "y": 90,
+            "txt": "elipse (Kepler): distância variável",
+            "negrito": true,
+            "cor": "normal"
+          }
+        ]
+      },
+      "largura": 720
+    }
+  },
+  "passos": [
+    {
+      "titulo": "Órbita circular",
+      "conceito": "Leis de Kepler",
+      "texto": "Numa órbita circular, a distância entre o planeta e o Sol é sempre a mesma. As alternativas b e c dizem o contrário.",
+      "cena": {
+        "mostrar": [
+          "sol",
+          "circular"
+        ]
+      }
+    },
+    {
+      "titulo": "A órbita de Kepler",
+      "conceito": "Leis de Kepler",
+      "texto": "Kepler abandonou o círculo pela elipse, em que a distância ao Sol varia. Do lado histórico, a Revolução Científica rompeu com as leituras aristotélicas e tomistas e valorizou a observação, o que descarta d. Resposta: <b>(a)</b>.",
+      "cena": {
+        "mostrar": [
+          "elipse"
+        ],
+        "destacar": [
+          "elipse"
+        ]
+      }
+    }
+  ],
+  "status": "revisado",
+  "criadoEm": "2026-11-15T09:00:00-03:00",
+  "atualizadoEm": "2026-11-15T09:00:00-03:00"
+}

@@ -1,0 +1,462 @@
+{
+  "id": "unicamp-2021-exatas-e-humanas-q39",
+  "titulo": "Dois ramos com a mesma tensão",
+  "conceitos": [
+    "Associação em paralelo",
+    "Associação em série",
+    "Primeira lei de Ohm"
+  ],
+  "cena": {
+    "modelo": "diagrama",
+    "parametros": {
+      "elementos": {
+        "circuito": [
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                60,
+                160
+              ],
+              [
+                130,
+                160
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 2.5
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                130,
+                90
+              ],
+              [
+                130,
+                260
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 2.5
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                510,
+                90
+              ],
+              [
+                510,
+                260
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 2.5
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                510,
+                160
+              ],
+              [
+                580,
+                160
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 2.5
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                130,
+                90
+              ],
+              [
+                280,
+                90
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 2.5
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                280,
+                90
+              ],
+              [
+                286.7,
+                98.0
+              ],
+              [
+                293.3,
+                82.0
+              ],
+              [
+                300.0,
+                98.0
+              ],
+              [
+                306.7,
+                82.0
+              ],
+              [
+                313.3,
+                98.0
+              ],
+              [
+                320.0,
+                82.0
+              ],
+              [
+                326.7,
+                98.0
+              ],
+              [
+                333.3,
+                82.0
+              ],
+              [
+                340.0,
+                98.0
+              ],
+              [
+                346.7,
+                82.0
+              ],
+              [
+                353.3,
+                98.0
+              ],
+              [
+                360,
+                90
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 2.5
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                360,
+                90
+              ],
+              [
+                510,
+                90
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 2.5
+          },
+          {
+            "t": "texto",
+            "x": 320,
+            "y": 64,
+            "txt": "R_{A} = 24 Ω",
+            "negrito": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                130,
+                260
+              ],
+              [
+                200,
+                260
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 2.5
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                200,
+                260
+              ],
+              [
+                205.8,
+                268.0
+              ],
+              [
+                211.7,
+                252.0
+              ],
+              [
+                217.5,
+                268.0
+              ],
+              [
+                223.3,
+                252.0
+              ],
+              [
+                229.2,
+                268.0
+              ],
+              [
+                235.0,
+                252.0
+              ],
+              [
+                240.8,
+                268.0
+              ],
+              [
+                246.7,
+                252.0
+              ],
+              [
+                252.5,
+                268.0
+              ],
+              [
+                258.3,
+                252.0
+              ],
+              [
+                264.2,
+                268.0
+              ],
+              [
+                270,
+                260
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 2.5
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                270,
+                260
+              ],
+              [
+                370,
+                260
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 2.5
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                370,
+                260
+              ],
+              [
+                375.8,
+                268.0
+              ],
+              [
+                381.7,
+                252.0
+              ],
+              [
+                387.5,
+                268.0
+              ],
+              [
+                393.3,
+                252.0
+              ],
+              [
+                399.2,
+                268.0
+              ],
+              [
+                405.0,
+                252.0
+              ],
+              [
+                410.8,
+                268.0
+              ],
+              [
+                416.7,
+                252.0
+              ],
+              [
+                422.5,
+                268.0
+              ],
+              [
+                428.3,
+                252.0
+              ],
+              [
+                434.2,
+                268.0
+              ],
+              [
+                440,
+                260
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 2.5
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                440,
+                260
+              ],
+              [
+                510,
+                260
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 2.5
+          },
+          {
+            "t": "texto",
+            "x": 235,
+            "y": 290,
+            "txt": "R_{B1} = 6,0 Ω",
+            "negrito": true
+          },
+          {
+            "t": "texto",
+            "x": 405,
+            "y": 290,
+            "txt": "R_{B2}",
+            "negrito": true
+          },
+          {
+            "t": "cota",
+            "de": [
+              60,
+              30
+            ],
+            "para": [
+              580,
+              30
+            ],
+            "cor": "normal",
+            "rot_em": [
+              320,
+              16
+            ],
+            "txt": "U = 12 V"
+          }
+        ],
+        "ramo-a": [
+          {
+            "t": "seta",
+            "de": [
+              160,
+              76
+            ],
+            "para": [
+              220,
+              76
+            ],
+            "cor": "acel",
+            "larg": 2.5,
+            "vetor": false,
+            "rot_em": [
+              190,
+              58
+            ],
+            "rotulo": "i_{A} = 0,5 A"
+          }
+        ],
+        "ramo-b": [
+          {
+            "t": "seta",
+            "de": [
+              150,
+              236
+            ],
+            "para": [
+              190,
+              236
+            ],
+            "cor": "acel",
+            "larg": 2.5,
+            "vetor": false,
+            "rot_em": [
+              170,
+              216
+            ],
+            "rotulo": "i_{B} = 1,5 A"
+          },
+          {
+            "t": "rotulo",
+            "x": 320,
+            "y": 350,
+            "txt": "ramo B: 12 ÷ 1,5 = 8,0 Ω",
+            "cor": "var(--danger)"
+          }
+        ]
+      }
+    }
+  },
+  "passos": [
+    {
+      "titulo": "O ramo A",
+      "conceito": "Associação em paralelo",
+      "texto": "Os dois ramos estão ligados aos mesmos pontos: ambos têm tensão de 12 V.",
+      "equacoes": [
+        "i_{A} = \\dfrac{12}{24} = 0,5\\ \\text{A}"
+      ],
+      "cena": {
+        "mostrar": [
+          "circuito",
+          "ramo-a"
+        ]
+      }
+    },
+    {
+      "titulo": "O ramo B",
+      "conceito": "Primeira lei de Ohm",
+      "texto": "A corrente em B é o triplo: 1,5 A. Com 12 V, a resistência total do ramo B é 8,0 Ω.",
+      "equacoes": [
+        "R_{B} = \\dfrac{12}{1,5} = 8,0\\ \\Omega"
+      ],
+      "cena": {
+        "mostrar": [
+          "ramo-b"
+        ]
+      }
+    },
+    {
+      "titulo": "O resistor procurado",
+      "conceito": "Associação em série",
+      "texto": "No ramo B os resistores estão em série: as resistências se somam. Resposta: <b>(a) 2,0 Ω</b>.",
+      "equacoes": [
+        "R_{B2} = 8,0 - 6,0 = 2,0\\ \\Omega"
+      ],
+      "cena": {
+        "destacar": [
+          "ramo-b"
+        ]
+      }
+    }
+  ],
+  "status": "revisado",
+  "criadoEm": "2026-11-15T09:00:00-03:00",
+  "atualizadoEm": "2026-11-15T09:00:00-03:00"
+}

@@ -1,0 +1,205 @@
+{
+  "id": "unicamp-2020-q76",
+  "titulo": "A força elétrica pesa mais na bola leve",
+  "conceitos": [
+    "Força elétrica",
+    "Leis de Newton"
+  ],
+  "cena": {
+    "modelo": "diagrama",
+    "parametros": {
+      "elementos": {
+        "bolas": [
+          {
+            "t": "circ",
+            "x": 200,
+            "y": 120,
+            "r": 22,
+            "cor": "#c9c9c9",
+            "borda": "tinta"
+          },
+          {
+            "t": "texto",
+            "x": 200,
+            "y": 120,
+            "txt": "m",
+            "negrito": true
+          },
+          {
+            "t": "circ",
+            "x": 440,
+            "y": 120,
+            "r": 30,
+            "cor": "#c9c9c9",
+            "borda": "tinta"
+          },
+          {
+            "t": "texto",
+            "x": 440,
+            "y": 120,
+            "txt": "2m",
+            "negrito": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                80,
+                360
+              ],
+              [
+                580,
+                360
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 3
+          },
+          {
+            "t": "texto",
+            "x": 580,
+            "y": 380,
+            "txt": "chão",
+            "mudo": true,
+            "ancora": "end"
+          },
+          {
+            "t": "texto",
+            "x": 320,
+            "y": 40,
+            "txt": "mesma carga q > 0, campo para baixo",
+            "mudo": true
+          }
+        ],
+        "forcas": [
+          {
+            "t": "seta",
+            "de": [
+              180,
+              142
+            ],
+            "para": [
+              180,
+              202
+            ],
+            "cor": "peso",
+            "larg": 3,
+            "rot_em": [
+              168,
+              196
+            ],
+            "ancora": "end",
+            "rotulo": "P"
+          },
+          {
+            "t": "seta",
+            "de": [
+              220,
+              142
+            ],
+            "para": [
+              220,
+              222
+            ],
+            "cor": "atrito",
+            "larg": 3,
+            "rot_em": [
+              232,
+              216
+            ],
+            "ancora": "start",
+            "rotulo": "F",
+            "sub": "e"
+          },
+          {
+            "t": "seta",
+            "de": [
+              420,
+              150
+            ],
+            "para": [
+              420,
+              270
+            ],
+            "cor": "peso",
+            "larg": 3,
+            "rot_em": [
+              408,
+              262
+            ],
+            "ancora": "end",
+            "rotulo": "P"
+          },
+          {
+            "t": "seta",
+            "de": [
+              460,
+              150
+            ],
+            "para": [
+              460,
+              230
+            ],
+            "cor": "atrito",
+            "larg": 3,
+            "rot_em": [
+              472,
+              224
+            ],
+            "ancora": "start",
+            "rotulo": "F",
+            "sub": "e"
+          }
+        ],
+        "aceleracoes": [
+          {
+            "t": "rotulo",
+            "x": 200,
+            "y": 300,
+            "txt": "a = g + qE/m",
+            "cor": "var(--danger)"
+          },
+          {
+            "t": "rotulo",
+            "x": 440,
+            "y": 300,
+            "txt": "a = g + qE/2m",
+            "cor": "var(--accent)"
+          }
+        ]
+      }
+    }
+  },
+  "passos": [
+    {
+      "titulo": "As forças",
+      "conceito": "Força elétrica",
+      "texto": "Em cada bola agem o peso \\(\\vec{P}\\) e a força elétrica \\(\\vec{F}_{e}\\) = q\\(\\vec{E}\\), ambos para baixo. A força elétrica é a mesma nas duas (mesma carga); o peso da segunda é o dobro.",
+      "cena": {
+        "mostrar": [
+          "bolas",
+          "forcas"
+        ]
+      }
+    },
+    {
+      "titulo": "As acelerações",
+      "conceito": "Leis de Newton",
+      "texto": "Dividindo pela massa, a parcela elétrica da aceleração é maior na bola de massa m. Caindo da mesma altura a partir do repouso (v² = 2ah), ela chega mais rápida. Resposta: <b>(c)</b>.",
+      "equacoes": [
+        "a = g + \\dfrac{qE}{m}"
+      ],
+      "cena": {
+        "mostrar": [
+          "aceleracoes"
+        ],
+        "destacar": [
+          "aceleracoes"
+        ]
+      }
+    }
+  ],
+  "status": "revisado",
+  "criadoEm": "2026-11-15T09:00:00-03:00",
+  "atualizadoEm": "2026-11-15T09:00:00-03:00"
+}

@@ -1,0 +1,177 @@
+{
+  "id": "unicamp-2016-q10",
+  "titulo": "A força média do arremesso",
+  "conceitos": [
+    "Impulso e quantidade de movimento"
+  ],
+  "cena": {
+    "modelo": "diagrama",
+    "parametros": {
+      "elementos": {
+        "etapa-1": [
+          {
+            "t": "ret",
+            "x": 30,
+            "y": 16,
+            "w": 460,
+            "h": 40,
+            "cor": "suave",
+            "borda": "normal",
+            "rx": 7
+          },
+          {
+            "t": "texto",
+            "x": 42,
+            "y": 36.0,
+            "txt": "velocidade final",
+            "mudo": true,
+            "ancora": "start"
+          },
+          {
+            "t": "texto",
+            "x": 478,
+            "y": 36.0,
+            "txt": "162 km/h = 45 m/s",
+            "negrito": true,
+            "ancora": "end"
+          }
+        ],
+        "etapa-2": [
+          {
+            "t": "seta",
+            "de": [
+              260.0,
+              59
+            ],
+            "para": [
+              260.0,
+              79
+            ],
+            "cor": "tinta",
+            "larg": 1.8
+          },
+          {
+            "t": "texto",
+            "x": 272.0,
+            "y": 69.0,
+            "txt": "parte do repouso",
+            "negrito": true,
+            "cor": "acel",
+            "ancora": "start"
+          },
+          {
+            "t": "ret",
+            "x": 30,
+            "y": 82,
+            "w": 460,
+            "h": 40,
+            "cor": "suave",
+            "borda": "normal",
+            "rx": 7
+          },
+          {
+            "t": "texto",
+            "x": 42,
+            "y": 102.0,
+            "txt": "variação da quantidade de movimento",
+            "mudo": true,
+            "ancora": "start"
+          },
+          {
+            "t": "texto",
+            "x": 478,
+            "y": 102.0,
+            "txt": "0,140 · 45 = 6,3 kg·m/s",
+            "negrito": true,
+            "ancora": "end"
+          }
+        ],
+        "etapa-3": [
+          {
+            "t": "seta",
+            "de": [
+              260.0,
+              125
+            ],
+            "para": [
+              260.0,
+              145
+            ],
+            "cor": "tinta",
+            "larg": 1.8
+          },
+          {
+            "t": "texto",
+            "x": 272.0,
+            "y": 135.0,
+            "txt": "÷ 0,07 s",
+            "negrito": true,
+            "cor": "acel",
+            "ancora": "start"
+          },
+          {
+            "t": "ret",
+            "x": 30,
+            "y": 148,
+            "w": 460,
+            "h": 40,
+            "cor": "suave",
+            "borda": "normal",
+            "rx": 7
+          },
+          {
+            "t": "texto",
+            "x": 42,
+            "y": 168.0,
+            "txt": "força média",
+            "mudo": true,
+            "ancora": "start"
+          },
+          {
+            "t": "texto",
+            "x": 478,
+            "y": 168.0,
+            "txt": "90 N",
+            "negrito": true,
+            "ancora": "end"
+          }
+        ]
+      }
+    }
+  },
+  "passos": [
+    {
+      "titulo": "Teorema do impulso",
+      "conceito": "Impulso e quantidade de movimento",
+      "texto": "O impulso da força média é igual à variação da quantidade de movimento da bola.",
+      "equacoes": [
+        "F_{m}\\,\\Delta t = m\\,\\Delta v"
+      ],
+      "cena": {
+        "mostrar": [
+          "etapa-1",
+          "etapa-2"
+        ]
+      }
+    },
+    {
+      "titulo": "A força média",
+      "conceito": "Impulso e quantidade de movimento",
+      "texto": "Resposta: <b>(b) 90,0 N</b>.",
+      "equacoes": [
+        "F_{m} = \\dfrac{6,3}{0,07} = 90\\ \\text{N}"
+      ],
+      "cena": {
+        "mostrar": [
+          "etapa-3"
+        ],
+        "destacar": [
+          "etapa-3"
+        ]
+      }
+    }
+  ],
+  "status": "revisado",
+  "criadoEm": "2026-11-15T09:00:00-03:00",
+  "atualizadoEm": "2026-11-15T09:00:00-03:00"
+}

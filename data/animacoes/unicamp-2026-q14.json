@@ -1,0 +1,178 @@
+{
+  "id": "unicamp-2026-q14",
+  "titulo": "A força que freia a moto",
+  "conceitos": [
+    "Movimento uniformemente variado",
+    "Leis de Newton"
+  ],
+  "cena": {
+    "modelo": "diagrama",
+    "parametros": {
+      "elementos": {
+        "etapa-1": [
+          {
+            "t": "ret",
+            "x": 30,
+            "y": 16,
+            "w": 420,
+            "h": 40,
+            "cor": "suave",
+            "borda": "normal",
+            "rx": 7
+          },
+          {
+            "t": "texto",
+            "x": 42,
+            "y": 36.0,
+            "txt": "velocidade inicial do trecho II",
+            "mudo": true,
+            "ancora": "start"
+          },
+          {
+            "t": "texto",
+            "x": 438,
+            "y": 36.0,
+            "txt": "36 km/h = 10 m/s",
+            "negrito": true,
+            "ancora": "end"
+          }
+        ],
+        "etapa-2": [
+          {
+            "t": "seta",
+            "de": [
+              240.0,
+              59
+            ],
+            "para": [
+              240.0,
+              79
+            ],
+            "cor": "tinta",
+            "larg": 1.8
+          },
+          {
+            "t": "texto",
+            "x": 252.0,
+            "y": 69.0,
+            "txt": "10 ÷ 20",
+            "negrito": true,
+            "cor": "acel",
+            "ancora": "start"
+          },
+          {
+            "t": "ret",
+            "x": 30,
+            "y": 82,
+            "w": 420,
+            "h": 40,
+            "cor": "suave",
+            "borda": "normal",
+            "rx": 7
+          },
+          {
+            "t": "texto",
+            "x": 42,
+            "y": 102.0,
+            "txt": "desaceleração (para em 20 s)",
+            "mudo": true,
+            "ancora": "start"
+          },
+          {
+            "t": "texto",
+            "x": 438,
+            "y": 102.0,
+            "txt": "0,5 m/s²",
+            "negrito": true,
+            "ancora": "end"
+          }
+        ],
+        "etapa-3": [
+          {
+            "t": "seta",
+            "de": [
+              240.0,
+              125
+            ],
+            "para": [
+              240.0,
+              145
+            ],
+            "cor": "tinta",
+            "larg": 1.8
+          },
+          {
+            "t": "texto",
+            "x": 252.0,
+            "y": 135.0,
+            "txt": "× 180 kg",
+            "negrito": true,
+            "cor": "acel",
+            "ancora": "start"
+          },
+          {
+            "t": "ret",
+            "x": 30,
+            "y": 148,
+            "w": 420,
+            "h": 40,
+            "cor": "suave",
+            "borda": "normal",
+            "rx": 7
+          },
+          {
+            "t": "texto",
+            "x": 42,
+            "y": 168.0,
+            "txt": "força resultante",
+            "mudo": true,
+            "ancora": "start"
+          },
+          {
+            "t": "texto",
+            "x": 438,
+            "y": 168.0,
+            "txt": "90 N",
+            "negrito": true,
+            "ancora": "end"
+          }
+        ]
+      }
+    }
+  },
+  "passos": [
+    {
+      "titulo": "A desaceleração",
+      "conceito": "Movimento uniformemente variado",
+      "texto": "No trecho II, a velocidade cai de 10 m/s a zero em 20 s (de 30 s a 50 s).",
+      "equacoes": [
+        "|a| = \\dfrac{10}{20} = 0,5\\ \\text{m/s}^{2}"
+      ],
+      "cena": {
+        "mostrar": [
+          "etapa-1",
+          "etapa-2"
+        ]
+      }
+    },
+    {
+      "titulo": "A força resultante",
+      "conceito": "Leis de Newton",
+      "texto": "Resposta: <b>(b) 90 N</b>.",
+      "equacoes": [
+        "F_{\\text{res}} = m|a| = 180 \\cdot 0,5 = 90\\ \\text{N}"
+      ],
+      "cena": {
+        "mostrar": [
+          "etapa-3"
+        ],
+        "destacar": [
+          "etapa-3"
+        ]
+      }
+    }
+  ],
+  "status": "revisado",
+  "criadoEm": "2026-11-15T09:00:00-03:00",
+  "atualizadoEm": "2026-11-15T09:00:00-03:00"
+}

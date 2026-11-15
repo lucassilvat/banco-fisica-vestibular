@@ -1,0 +1,268 @@
+{
+  "id": "unicamp-2020-q74",
+  "titulo": "As forças que seguram a escada flutuante",
+  "conceitos": [
+    "Equilíbrio do corpo extenso",
+    "Decomposição vetorial"
+  ],
+  "cena": {
+    "modelo": "diagrama",
+    "parametros": {
+      "elementos": {
+        "escada": [
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                80,
+                90
+              ],
+              [
+                80,
+                330
+              ],
+              [
+                600,
+                330
+              ]
+            ],
+            "cor": "#555",
+            "larg": 6
+          },
+          {
+            "t": "ret",
+            "x": 80,
+            "y": 100,
+            "w": 90,
+            "h": 26,
+            "cor": "#d6d6d6",
+            "borda": "mudo"
+          },
+          {
+            "t": "ret",
+            "x": 160,
+            "y": 136,
+            "w": 90,
+            "h": 26,
+            "cor": "#d6d6d6",
+            "borda": "mudo"
+          },
+          {
+            "t": "ret",
+            "x": 240,
+            "y": 172,
+            "w": 90,
+            "h": 26,
+            "cor": "#d6d6d6",
+            "borda": "mudo"
+          },
+          {
+            "t": "ret",
+            "x": 320,
+            "y": 208,
+            "w": 90,
+            "h": 26,
+            "cor": "#d6d6d6",
+            "borda": "mudo"
+          },
+          {
+            "t": "ret",
+            "x": 400,
+            "y": 244,
+            "w": 90,
+            "h": 26,
+            "cor": "#d6d6d6",
+            "borda": "mudo"
+          },
+          {
+            "t": "ret",
+            "x": 480,
+            "y": 280,
+            "w": 90,
+            "h": 26,
+            "cor": "#d6d6d6",
+            "borda": "mudo"
+          }
+        ],
+        "forcas": [
+          {
+            "t": "seta",
+            "de": [
+              100,
+              104
+            ],
+            "para": [
+              145.9,
+              38.5
+            ],
+            "cor": "normal",
+            "larg": 3,
+            "rot_em": [
+              152,
+              28
+            ],
+            "ancora": "start",
+            "rotulo": "F",
+            "sub": "P"
+          },
+          {
+            "t": "seta",
+            "de": [
+              540,
+              300
+            ],
+            "para": [
+              494.1,
+              234.5
+            ],
+            "cor": "atrito",
+            "larg": 3,
+            "rot_em": [
+              484,
+              220
+            ],
+            "ancora": "end",
+            "rotulo": "F",
+            "sub": "C"
+          },
+          {
+            "t": "seta",
+            "de": [
+              330,
+              200
+            ],
+            "para": [
+              330,
+              290
+            ],
+            "cor": "peso",
+            "larg": 3,
+            "rot_em": [
+              344,
+              284
+            ],
+            "ancora": "start",
+            "rotulo": "mg"
+          },
+          {
+            "t": "angulo",
+            "centro": [
+              100,
+              104
+            ],
+            "de": -55,
+            "ate": 0,
+            "r": 34,
+            "cor": "normal"
+          },
+          {
+            "t": "texto",
+            "x": 150,
+            "y": 92,
+            "txt": "θ_{P}",
+            "negrito": true,
+            "cor": "normal",
+            "ancora": "start"
+          },
+          {
+            "t": "angulo",
+            "centro": [
+              540,
+              300
+            ],
+            "de": 180,
+            "ate": 235,
+            "r": 34,
+            "cor": "atrito"
+          },
+          {
+            "t": "texto",
+            "x": 490,
+            "y": 290,
+            "txt": "θ_{C}",
+            "negrito": true,
+            "cor": "atrito",
+            "ancora": "end"
+          }
+        ],
+        "componentes": [
+          {
+            "t": "seta",
+            "de": [
+              100,
+              104
+            ],
+            "para": [
+              145.9,
+              104
+            ],
+            "cor": "normal",
+            "larg": 2,
+            "tracejado": true
+          },
+          {
+            "t": "seta",
+            "de": [
+              540,
+              300
+            ],
+            "para": [
+              494.1,
+              300
+            ],
+            "cor": "atrito",
+            "larg": 2,
+            "tracejado": true
+          },
+          {
+            "t": "rotulo",
+            "x": 330,
+            "y": 50,
+            "txt": "horizontais opostas se anulam",
+            "cor": "var(--accent)"
+          },
+          {
+            "t": "rotulo",
+            "x": 330,
+            "y": 375,
+            "txt": "verticais somadas equilibram mg",
+            "cor": "var(--danger)"
+          }
+        ]
+      }
+    }
+  },
+  "passos": [
+    {
+      "titulo": "As forças",
+      "conceito": "Equilíbrio do corpo extenso",
+      "texto": "A escada está em equilíbrio sob \\(\\vec{F}_{P}\\), \\(\\vec{F}_{C}\\) e o peso m\\(\\vec{g}\\). Os ângulos θ<sub>P</sub> e θ<sub>C</sub> são medidos em relação à horizontal.",
+      "cena": {
+        "mostrar": [
+          "escada",
+          "forcas"
+        ]
+      }
+    },
+    {
+      "titulo": "Resultante nula",
+      "conceito": "Decomposição vetorial",
+      "texto": "Na horizontal, as componentes de \\(\\vec{F}_{P}\\) e \\(\\vec{F}_{C}\\) apontam em sentidos opostos e se anulam; na vertical, somadas, equilibram o peso. Resposta: <b>(a)</b>.",
+      "equacoes": [
+        "F_{P}\\cos\\theta_{P} = F_{C}\\cos\\theta_{C}",
+        "F_{P}\\,\\sen\\theta_{P} + F_{C}\\,\\sen\\theta_{C} = mg"
+      ],
+      "cena": {
+        "mostrar": [
+          "componentes"
+        ],
+        "destacar": [
+          "componentes"
+        ]
+      }
+    }
+  ],
+  "status": "revisado",
+  "criadoEm": "2026-11-15T09:00:00-03:00",
+  "atualizadoEm": "2026-11-15T09:00:00-03:00"
+}

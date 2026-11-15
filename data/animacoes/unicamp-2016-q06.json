@@ -1,0 +1,137 @@
+{
+  "id": "unicamp-2016-q06",
+  "titulo": "Partículas grudam no satélite",
+  "conceitos": [
+    "Conservação da quantidade de movimento",
+    "Colisões"
+  ],
+  "cena": {
+    "modelo": "diagrama",
+    "parametros": {
+      "elementos": {
+        "antes": [
+          {
+            "t": "circ",
+            "x": 140,
+            "y": 200,
+            "r": 18,
+            "cor": "perigo",
+            "borda": "tinta"
+          },
+          {
+            "t": "texto",
+            "x": 140,
+            "y": 168,
+            "txt": "partículas 5 kg",
+            "negrito": true,
+            "cor": "perigo"
+          },
+          {
+            "t": "seta",
+            "de": [
+              160,
+              200
+            ],
+            "para": [
+              260,
+              200
+            ],
+            "cor": "perigo",
+            "larg": 3,
+            "rot_em": [
+              210,
+              226
+            ],
+            "rotulo": "v",
+            "sub": "p"
+          },
+          {
+            "t": "circ",
+            "x": 480,
+            "y": 200,
+            "r": 34,
+            "cor": "#9aa6d8",
+            "borda": "tinta"
+          },
+          {
+            "t": "texto",
+            "x": 480,
+            "y": 152,
+            "txt": "satélite 95 kg",
+            "negrito": true,
+            "cor": "normal"
+          },
+          {
+            "t": "seta",
+            "de": [
+              444,
+              200
+            ],
+            "para": [
+              384,
+              200
+            ],
+            "cor": "normal",
+            "larg": 3,
+            "rot_em": [
+              414,
+              226
+            ],
+            "rotulo": "V",
+            "sub": "s"
+          }
+        ],
+        "momento": [
+          {
+            "t": "rotulo",
+            "x": 320,
+            "y": 300,
+            "txt": "Q = 5 · 2 × 10⁵ − 95 · 4 × 10³ = 6,2 × 10⁵ kg·m/s",
+            "cor": "var(--accent)"
+          }
+        ],
+        "depois": [
+          {
+            "t": "rotulo",
+            "x": 320,
+            "y": 360,
+            "txt": "v = 6,2 × 10⁵ ÷ 100 = 6 200 m/s",
+            "cor": "var(--danger)"
+          }
+        ]
+      }
+    }
+  },
+  "passos": [
+    {
+      "titulo": "Antes da colisão",
+      "conceito": "Conservação da quantidade de movimento",
+      "texto": "Na colisão, só agem forças internas: a quantidade de movimento total se conserva. Adotamos positivo o sentido das partículas; o satélite vem em sentido contrário.",
+      "cena": {
+        "mostrar": [
+          "antes",
+          "momento"
+        ]
+      }
+    },
+    {
+      "titulo": "Depois: tudo junto",
+      "conceito": "Colisões",
+      "texto": "As partículas aderem ao satélite: o conjunto de 100 kg segue com uma única velocidade. Resposta: <b>(c) 6.200 m/s</b>.",
+      "equacoes": [
+        "v = \\dfrac{6,2 \\times 10^{5}}{5 + 95} = 6\\,200\\ \\text{m/s}"
+      ],
+      "cena": {
+        "mostrar": [
+          "depois"
+        ],
+        "destacar": [
+          "depois"
+        ]
+      }
+    }
+  ],
+  "status": "revisado",
+  "criadoEm": "2026-11-15T09:00:00-03:00",
+  "atualizadoEm": "2026-11-15T09:00:00-03:00"
+}

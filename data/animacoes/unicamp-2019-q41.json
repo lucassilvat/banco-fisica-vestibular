@@ -1,0 +1,700 @@
+{
+  "id": "unicamp-2019-q41",
+  "titulo": "Profundidade lida no gráfico, pressão por Stevin",
+  "conceitos": [
+    "Leitura de gráficos",
+    "Pressão hidrostática"
+  ],
+  "cena": {
+    "modelo": "diagrama",
+    "parametros": {
+      "elementos": {
+        "eixos": [
+          {
+            "t": "seta",
+            "de": [
+              120,
+              330
+            ],
+            "para": [
+              572,
+              330
+            ],
+            "cor": "tinta",
+            "larg": 1.6
+          },
+          {
+            "t": "seta",
+            "de": [
+              120.0,
+              330
+            ],
+            "para": [
+              120.0,
+              18
+            ],
+            "cor": "tinta",
+            "larg": 1.6
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                120.0,
+                326
+              ],
+              [
+                120.0,
+                334
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 1.5
+          },
+          {
+            "t": "texto",
+            "x": 120.0,
+            "y": 346,
+            "txt": "0",
+            "mudo": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                120.0,
+                30
+              ],
+              [
+                120.0,
+                330
+              ]
+            ],
+            "cor": "linha",
+            "larg": 1,
+            "tracejado": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                182.9,
+                326
+              ],
+              [
+                182.9,
+                334
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 1.5
+          },
+          {
+            "t": "texto",
+            "x": 182.9,
+            "y": 346,
+            "txt": "1",
+            "mudo": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                182.9,
+                30
+              ],
+              [
+                182.9,
+                330
+              ]
+            ],
+            "cor": "linha",
+            "larg": 1,
+            "tracejado": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                245.7,
+                326
+              ],
+              [
+                245.7,
+                334
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 1.5
+          },
+          {
+            "t": "texto",
+            "x": 245.7,
+            "y": 346,
+            "txt": "2",
+            "mudo": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                245.7,
+                30
+              ],
+              [
+                245.7,
+                330
+              ]
+            ],
+            "cor": "linha",
+            "larg": 1,
+            "tracejado": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                308.6,
+                326
+              ],
+              [
+                308.6,
+                334
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 1.5
+          },
+          {
+            "t": "texto",
+            "x": 308.6,
+            "y": 346,
+            "txt": "3",
+            "mudo": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                308.6,
+                30
+              ],
+              [
+                308.6,
+                330
+              ]
+            ],
+            "cor": "linha",
+            "larg": 1,
+            "tracejado": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                371.4,
+                326
+              ],
+              [
+                371.4,
+                334
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 1.5
+          },
+          {
+            "t": "texto",
+            "x": 371.4,
+            "y": 346,
+            "txt": "4",
+            "mudo": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                371.4,
+                30
+              ],
+              [
+                371.4,
+                330
+              ]
+            ],
+            "cor": "linha",
+            "larg": 1,
+            "tracejado": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                434.3,
+                326
+              ],
+              [
+                434.3,
+                334
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 1.5
+          },
+          {
+            "t": "texto",
+            "x": 434.3,
+            "y": 346,
+            "txt": "5",
+            "mudo": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                434.3,
+                30
+              ],
+              [
+                434.3,
+                330
+              ]
+            ],
+            "cor": "linha",
+            "larg": 1,
+            "tracejado": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                497.1,
+                326
+              ],
+              [
+                497.1,
+                334
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 1.5
+          },
+          {
+            "t": "texto",
+            "x": 497.1,
+            "y": 346,
+            "txt": "6",
+            "mudo": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                497.1,
+                30
+              ],
+              [
+                497.1,
+                330
+              ]
+            ],
+            "cor": "linha",
+            "larg": 1,
+            "tracejado": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                560.0,
+                326
+              ],
+              [
+                560.0,
+                334
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 1.5
+          },
+          {
+            "t": "texto",
+            "x": 560.0,
+            "y": 346,
+            "txt": "7",
+            "mudo": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                560.0,
+                30
+              ],
+              [
+                560.0,
+                330
+              ]
+            ],
+            "cor": "linha",
+            "larg": 1,
+            "tracejado": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                116.0,
+                330.0
+              ],
+              [
+                124.0,
+                330.0
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 1.5
+          },
+          {
+            "t": "texto",
+            "x": 112.0,
+            "y": 330.0,
+            "txt": "18,90",
+            "ancora": "end",
+            "mudo": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                120,
+                330.0
+              ],
+              [
+                560,
+                330.0
+              ]
+            ],
+            "cor": "linha",
+            "larg": 1,
+            "tracejado": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                116.0,
+                255.0
+              ],
+              [
+                124.0,
+                255.0
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 1.5
+          },
+          {
+            "t": "texto",
+            "x": 112.0,
+            "y": 255.0,
+            "txt": "19,00",
+            "ancora": "end",
+            "mudo": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                120,
+                255.0
+              ],
+              [
+                560,
+                255.0
+              ]
+            ],
+            "cor": "linha",
+            "larg": 1,
+            "tracejado": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                116.0,
+                180.0
+              ],
+              [
+                124.0,
+                180.0
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 1.5
+          },
+          {
+            "t": "texto",
+            "x": 112.0,
+            "y": 180.0,
+            "txt": "19,10",
+            "ancora": "end",
+            "mudo": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                120,
+                180.0
+              ],
+              [
+                560,
+                180.0
+              ]
+            ],
+            "cor": "linha",
+            "larg": 1,
+            "tracejado": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                116.0,
+                105.0
+              ],
+              [
+                124.0,
+                105.0
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 1.5
+          },
+          {
+            "t": "texto",
+            "x": 112.0,
+            "y": 105.0,
+            "txt": "19,20",
+            "ancora": "end",
+            "mudo": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                120,
+                105.0
+              ],
+              [
+                560,
+                105.0
+              ]
+            ],
+            "cor": "linha",
+            "larg": 1,
+            "tracejado": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                116.0,
+                30.0
+              ],
+              [
+                124.0,
+                30.0
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 1.5
+          },
+          {
+            "t": "texto",
+            "x": 112.0,
+            "y": 30.0,
+            "txt": "19,30",
+            "ancora": "end",
+            "mudo": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                120,
+                30.0
+              ],
+              [
+                560,
+                30.0
+              ]
+            ],
+            "cor": "linha",
+            "larg": 1,
+            "tracejado": true
+          },
+          {
+            "t": "texto",
+            "x": 560.0,
+            "y": 364.0,
+            "txt": "d (m)",
+            "mudo": true,
+            "ancora": "end"
+          },
+          {
+            "t": "texto",
+            "x": 128.0,
+            "y": 16.0,
+            "txt": "T (ºC)",
+            "mudo": true,
+            "ancora": "start"
+          }
+        ],
+        "pontos": [
+          {
+            "t": "ret",
+            "x": 116.0,
+            "y": 26.0,
+            "w": 8,
+            "h": 8,
+            "cor": "tinta",
+            "borda": null
+          },
+          {
+            "t": "ret",
+            "x": 178.9,
+            "y": 44.8,
+            "w": 8,
+            "h": 8,
+            "cor": "tinta",
+            "borda": null
+          },
+          {
+            "t": "ret",
+            "x": 241.7,
+            "y": 63.5,
+            "w": 8,
+            "h": 8,
+            "cor": "tinta",
+            "borda": null
+          },
+          {
+            "t": "ret",
+            "x": 304.6,
+            "y": 82.2,
+            "w": 8,
+            "h": 8,
+            "cor": "tinta",
+            "borda": null
+          },
+          {
+            "t": "ret",
+            "x": 367.4,
+            "y": 116.0,
+            "w": 8,
+            "h": 8,
+            "cor": "tinta",
+            "borda": null
+          },
+          {
+            "t": "ret",
+            "x": 430.3,
+            "y": 149.7,
+            "w": 8,
+            "h": 8,
+            "cor": "tinta",
+            "borda": null
+          },
+          {
+            "t": "ret",
+            "x": 493.1,
+            "y": 209.7,
+            "w": 8,
+            "h": 8,
+            "cor": "tinta",
+            "borda": null
+          },
+          {
+            "t": "ret",
+            "x": 556.0,
+            "y": 251.0,
+            "w": 8,
+            "h": 8,
+            "cor": "tinta",
+            "borda": null
+          }
+        ],
+        "leitura": [
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                120.0,
+                255.0
+              ],
+              [
+                560.0,
+                255.0
+              ],
+              [
+                560.0,
+                330.0
+              ]
+            ],
+            "cor": "perigo",
+            "larg": 2,
+            "tracejado": true
+          },
+          {
+            "t": "circ",
+            "x": 560.0,
+            "y": 255.0,
+            "r": 8,
+            "cor": null,
+            "borda": "perigo",
+            "larg": 3
+          },
+          {
+            "t": "rotulo",
+            "x": 434.3,
+            "y": 292.5,
+            "txt": "19 ºC em d = 7 m",
+            "cor": "var(--danger)"
+          }
+        ]
+      }
+    }
+  },
+  "passos": [
+    {
+      "titulo": "A profundidade",
+      "conceito": "Leitura de gráficos",
+      "texto": "Pelo gráfico, a temperatura de 19,00 ºC ocorre em d = 7 m.",
+      "cena": {
+        "mostrar": [
+          "eixos",
+          "pontos",
+          "leitura"
+        ]
+      }
+    },
+    {
+      "titulo": "A diferença de pressão",
+      "conceito": "Pressão hidrostática",
+      "texto": "Pela lei de Stevin. Resposta: <b>(d) 7,0 × 10<sup>4</sup> Pa</b>.",
+      "equacoes": [
+        "\\Delta p = \\rho g d = 1\\,000 \\cdot 10 \\cdot 7 = 7,0 \\times 10^{4}\\ \\text{Pa}"
+      ],
+      "cena": {
+        "destacar": [
+          "leitura"
+        ]
+      }
+    }
+  ],
+  "status": "revisado",
+  "criadoEm": "2026-11-15T09:00:00-03:00",
+  "atualizadoEm": "2026-11-15T09:00:00-03:00"
+}

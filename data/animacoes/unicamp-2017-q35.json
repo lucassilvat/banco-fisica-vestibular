@@ -1,0 +1,149 @@
+{
+  "id": "unicamp-2017-q35",
+  "titulo": "Erguer o braço tira empuxo",
+  "conceitos": [
+    "Empuxo (princípio de Arquimedes)",
+    "Densidade"
+  ],
+  "cena": {
+    "modelo": "diagrama",
+    "parametros": {
+      "elementos": {
+        "agua": [
+          {
+            "t": "ret",
+            "x": 60,
+            "y": 160,
+            "w": 520,
+            "h": 240,
+            "cor": "#cfe8f6",
+            "borda": null
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                60,
+                160
+              ],
+              [
+                580,
+                160
+              ]
+            ],
+            "cor": "normal",
+            "larg": 2
+          }
+        ],
+        "corpo": [
+          {
+            "t": "ret",
+            "x": 220,
+            "y": 140,
+            "w": 200,
+            "h": 60,
+            "cor": "#e8c4a0",
+            "borda": "tinta",
+            "rx": 26
+          },
+          {
+            "t": "seta",
+            "de": [
+              320,
+              220
+            ],
+            "para": [
+              320,
+              320
+            ],
+            "cor": "peso",
+            "larg": 3,
+            "rot_em": [
+              334,
+              312
+            ],
+            "ancora": "start",
+            "rotulo": "P"
+          },
+          {
+            "t": "seta",
+            "de": [
+              300,
+              140
+            ],
+            "para": [
+              300,
+              50
+            ],
+            "cor": "normal",
+            "larg": 3,
+            "rot_em": [
+              288,
+              60
+            ],
+            "ancora": "end",
+            "rotulo": "E"
+          }
+        ],
+        "braco": [
+          {
+            "t": "ret",
+            "x": 400,
+            "y": 60,
+            "w": 20,
+            "h": 100,
+            "cor": "#e8c4a0",
+            "borda": "tinta",
+            "rx": 8
+          },
+          {
+            "t": "rotulo",
+            "x": 500,
+            "y": 90,
+            "txt": "braço fora d’água",
+            "cor": "var(--danger)"
+          },
+          {
+            "t": "rotulo",
+            "x": 320,
+            "y": 360,
+            "txt": "menos volume submerso ⇒ empuxo menor",
+            "cor": "var(--danger)"
+          }
+        ]
+      }
+    }
+  },
+  "passos": [
+    {
+      "titulo": "Densidade quase igual",
+      "conceito": "Densidade",
+      "texto": "“Gravidade específica” quase igual à da água doce significa densidade do corpo aproximadamente igual à da água, e não igualdade de acelerações (descarta b e d). O empuxo \\(\\vec{E}\\) quase equilibra o peso \\(\\vec{P}\\).",
+      "cena": {
+        "mostrar": [
+          "agua",
+          "corpo"
+        ]
+      }
+    },
+    {
+      "titulo": "Um braço fora d’água",
+      "conceito": "Empuxo (princípio de Arquimedes)",
+      "texto": "O empuxo depende do volume submerso. Com o braço fora, o empuxo diminui, o peso não muda e o corpo afunda. Resposta: <b>(a)</b>.",
+      "equacoes": [
+        "E = \\rho_{\\text{água}}\\,g\\,V_{\\text{submerso}}"
+      ],
+      "cena": {
+        "mostrar": [
+          "braco"
+        ],
+        "destacar": [
+          "braco"
+        ]
+      }
+    }
+  ],
+  "status": "revisado",
+  "criadoEm": "2026-11-15T09:00:00-03:00",
+  "atualizadoEm": "2026-11-15T09:00:00-03:00"
+}

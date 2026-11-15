@@ -1,0 +1,178 @@
+{
+  "id": "unicamp-2017-q32",
+  "titulo": "Fissão: o urânio se parte ao absorver um nêutron",
+  "conceitos": [
+    "Física nuclear"
+  ],
+  "cena": {
+    "modelo": "diagrama",
+    "parametros": {
+      "elementos": {
+        "fissao": [
+          {
+            "t": "circ",
+            "x": 110,
+            "y": 200,
+            "r": 12,
+            "cor": "tinta",
+            "borda": "tinta"
+          },
+          {
+            "t": "texto",
+            "x": 110,
+            "y": 230,
+            "txt": "nêutron",
+            "mudo": true
+          },
+          {
+            "t": "seta",
+            "de": [
+              124,
+              200
+            ],
+            "para": [
+              190,
+              200
+            ],
+            "cor": "tinta",
+            "larg": 2.5
+          },
+          {
+            "t": "circ",
+            "x": 240,
+            "y": 200,
+            "r": 40,
+            "cor": "#7fb8e0",
+            "borda": "tinta",
+            "larg": 2
+          },
+          {
+            "t": "texto",
+            "x": 240,
+            "y": 200,
+            "txt": "U-235",
+            "negrito": true
+          }
+        ],
+        "produtos": [
+          {
+            "t": "circ",
+            "x": 430,
+            "y": 130,
+            "r": 28,
+            "cor": "#f2a640",
+            "borda": "tinta"
+          },
+          {
+            "t": "circ",
+            "x": 430,
+            "y": 270,
+            "r": 26,
+            "cor": "#f2a640",
+            "borda": "tinta"
+          },
+          {
+            "t": "texto",
+            "x": 470,
+            "y": 130,
+            "txt": "núcleo mais leve",
+            "mudo": true,
+            "ancora": "start"
+          },
+          {
+            "t": "texto",
+            "x": 470,
+            "y": 270,
+            "txt": "núcleo mais leve",
+            "mudo": true,
+            "ancora": "start"
+          },
+          {
+            "t": "seta",
+            "de": [
+              280,
+              190
+            ],
+            "para": [
+              400,
+              140
+            ],
+            "cor": "mudo",
+            "larg": 2
+          },
+          {
+            "t": "seta",
+            "de": [
+              280,
+              210
+            ],
+            "para": [
+              400,
+              260
+            ],
+            "cor": "mudo",
+            "larg": 2
+          },
+          {
+            "t": "seta",
+            "de": [
+              290,
+              200
+            ],
+            "para": [
+              370,
+              200
+            ],
+            "cor": "tinta",
+            "larg": 2
+          },
+          {
+            "t": "circ",
+            "x": 380,
+            "y": 200,
+            "r": 9,
+            "cor": "tinta",
+            "borda": "tinta"
+          },
+          {
+            "t": "texto",
+            "x": 390,
+            "y": 200,
+            "txt": "nêutrons + energia",
+            "negrito": true,
+            "cor": "perigo",
+            "ancora": "start"
+          }
+        ]
+      }
+    }
+  },
+  "passos": [
+    {
+      "titulo": "O início da fissão",
+      "conceito": "Física nuclear",
+      "texto": "Na fissão nuclear, um nêutron é absorvido pelo núcleo de urânio. Não é uma desintegração espontânea (a), nem formação de núcleos mais pesados (c).",
+      "cena": {
+        "mostrar": [
+          "fissao"
+        ]
+      }
+    },
+    {
+      "titulo": "Os produtos",
+      "conceito": "Física nuclear",
+      "texto": "O núcleo se divide em núcleos mais leves, libera nêutrons, que mantêm a reação em cadeia, e uma enorme energia. Historicamente, o ataque é símbolo do fim da II Guerra Mundial; o Japão não era neutro. Resposta: <b>(b)</b>.",
+      "cena": {
+        "mostrar": [
+          "produtos"
+        ],
+        "destacar": [
+          "produtos"
+        ]
+      }
+    }
+  ],
+  "status": "revisado",
+  "criadoEm": "2026-11-15T09:00:00-03:00",
+  "atualizadoEm": "2026-11-15T09:00:00-03:00"
+}

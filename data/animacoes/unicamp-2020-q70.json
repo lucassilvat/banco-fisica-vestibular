@@ -1,0 +1,347 @@
+{
+  "id": "unicamp-2020-q70",
+  "titulo": "Montando o gráfico v × t do ciclista",
+  "conceitos": [
+    "Gráficos do movimento",
+    "Movimento uniformemente variado"
+  ],
+  "cena": {
+    "modelo": "diagrama",
+    "parametros": {
+      "elementos": {
+        "eixos": [
+          {
+            "t": "seta",
+            "de": [
+              90,
+              340.0
+            ],
+            "para": [
+              582,
+              340.0
+            ],
+            "cor": "tinta",
+            "larg": 1.6
+          },
+          {
+            "t": "seta",
+            "de": [
+              90.0,
+              340
+            ],
+            "para": [
+              90.0,
+              28
+            ],
+            "cor": "tinta",
+            "larg": 1.6
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                90.0,
+                336.0
+              ],
+              [
+                90.0,
+                344.0
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 1.5
+          },
+          {
+            "t": "texto",
+            "x": 90.0,
+            "y": 356.0,
+            "txt": "0",
+            "mudo": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                90.0,
+                40
+              ],
+              [
+                90.0,
+                340
+              ]
+            ],
+            "cor": "linha",
+            "larg": 1,
+            "tracejado": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                210.0,
+                336.0
+              ],
+              [
+                210.0,
+                344.0
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 1.5
+          },
+          {
+            "t": "texto",
+            "x": 210.0,
+            "y": 356.0,
+            "txt": "t₁",
+            "mudo": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                210.0,
+                40
+              ],
+              [
+                210.0,
+                340
+              ]
+            ],
+            "cor": "linha",
+            "larg": 1,
+            "tracejado": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                330.0,
+                336.0
+              ],
+              [
+                330.0,
+                344.0
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 1.5
+          },
+          {
+            "t": "texto",
+            "x": 330.0,
+            "y": 356.0,
+            "txt": "t₂",
+            "mudo": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                330.0,
+                40
+              ],
+              [
+                330.0,
+                340
+              ]
+            ],
+            "cor": "linha",
+            "larg": 1,
+            "tracejado": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                450.0,
+                336.0
+              ],
+              [
+                450.0,
+                344.0
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 1.5
+          },
+          {
+            "t": "texto",
+            "x": 450.0,
+            "y": 356.0,
+            "txt": "t₃",
+            "mudo": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                450.0,
+                40
+              ],
+              [
+                450.0,
+                340
+              ]
+            ],
+            "cor": "linha",
+            "larg": 1,
+            "tracejado": true
+          },
+          {
+            "t": "texto",
+            "x": 570.0,
+            "y": 374.0,
+            "txt": "tempo",
+            "mudo": true,
+            "ancora": "end"
+          },
+          {
+            "t": "texto",
+            "x": 98.0,
+            "y": 26.0,
+            "txt": "velocidade",
+            "mudo": true,
+            "ancora": "start"
+          }
+        ],
+        "trecho-1": [
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                90.0,
+                280.0
+              ],
+              [
+                210.0,
+                280.0
+              ]
+            ],
+            "cor": "normal",
+            "larg": 3.5
+          },
+          {
+            "t": "rotulo",
+            "x": 150.0,
+            "y": 254.0,
+            "txt": "constante",
+            "cor": "var(--accent)"
+          }
+        ],
+        "trecho-2": [
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                210.0,
+                280.0
+              ],
+              [
+                330.0,
+                70.0
+              ]
+            ],
+            "cor": "perigo",
+            "larg": 3.5
+          },
+          {
+            "t": "rotulo",
+            "x": 210.0,
+            "y": 160.0,
+            "txt": "a > 0: sobe",
+            "cor": "var(--danger)"
+          }
+        ],
+        "trecho-3": [
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                330.0,
+                70.0
+              ],
+              [
+                450.0,
+                160.0
+              ]
+            ],
+            "cor": "acel",
+            "larg": 3.5
+          },
+          {
+            "t": "rotulo",
+            "x": 430.0,
+            "y": 82.0,
+            "txt": "a < 0: desce",
+            "cor": "var(--anim-acel)"
+          }
+        ],
+        "trecho-4": [
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                450.0,
+                160.0
+              ],
+              [
+                570.0,
+                160.0
+              ]
+            ],
+            "cor": "normal",
+            "larg": 3.5
+          },
+          {
+            "t": "rotulo",
+            "x": 510.0,
+            "y": 186.0,
+            "txt": "MRU",
+            "cor": "var(--accent)"
+          }
+        ]
+      }
+    }
+  },
+  "passos": [
+    {
+      "titulo": "Velocidade constante",
+      "conceito": "Gráficos do movimento",
+      "texto": "Até t<sub>1</sub>, a velocidade é constante e positiva: um segmento horizontal acima de zero.",
+      "cena": {
+        "mostrar": [
+          "eixos",
+          "trecho-1"
+        ]
+      }
+    },
+    {
+      "titulo": "Acelerando e freando",
+      "conceito": "Movimento uniformemente variado",
+      "texto": "Com aceleração constante, a velocidade varia em linha reta: sobe de t<sub>1</sub> a t<sub>2</sub> (a > 0) e desce de t<sub>2</sub> a t<sub>3</sub> (a < 0).",
+      "cena": {
+        "mostrar": [
+          "trecho-2",
+          "trecho-3"
+        ]
+      }
+    },
+    {
+      "titulo": "Movimento uniforme de novo",
+      "conceito": "Gráficos do movimento",
+      "texto": "Depois de t<sub>3</sub>, outro segmento horizontal. Resposta: <b>(a)</b>.",
+      "cena": {
+        "mostrar": [
+          "trecho-4"
+        ],
+        "destacar": [
+          "trecho-4"
+        ]
+      }
+    }
+  ],
+  "status": "revisado",
+  "criadoEm": "2026-11-15T09:00:00-03:00",
+  "atualizadoEm": "2026-11-15T09:00:00-03:00"
+}

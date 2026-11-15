@@ -1,0 +1,293 @@
+{
+  "id": "unicamp-2021-biologicas-e-saude-q52",
+  "titulo": "Da escala Celsius para a Kelvin",
+  "conceitos": [
+    "Escalas termométricas"
+  ],
+  "cena": {
+    "modelo": "diagrama",
+    "parametros": {
+      "elementos": {
+        "escalas": [
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                200,
+                60
+              ],
+              [
+                200,
+                340
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 3
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                440,
+                60
+              ],
+              [
+                440,
+                340
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 3
+          },
+          {
+            "t": "texto",
+            "x": 200,
+            "y": 40,
+            "txt": "ºC",
+            "negrito": true
+          },
+          {
+            "t": "texto",
+            "x": 440,
+            "y": 40,
+            "txt": "K",
+            "negrito": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                190,
+                90
+              ],
+              [
+                210,
+                90
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 2
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                430,
+                90
+              ],
+              [
+                450,
+                90
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 2
+          },
+          {
+            "t": "texto",
+            "x": 180,
+            "y": 90,
+            "txt": "100",
+            "negrito": true,
+            "ancora": "end",
+            "cor": "tinta"
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                214,
+                90
+              ],
+              [
+                426,
+                90
+              ]
+            ],
+            "cor": "mudo",
+            "larg": 1,
+            "tracejado": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                190,
+                200
+              ],
+              [
+                210,
+                200
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 2
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                430,
+                200
+              ],
+              [
+                450,
+                200
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 2
+          },
+          {
+            "t": "texto",
+            "x": 180,
+            "y": 200,
+            "txt": "0",
+            "negrito": true,
+            "ancora": "end",
+            "cor": "tinta"
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                214,
+                200
+              ],
+              [
+                426,
+                200
+              ]
+            ],
+            "cor": "mudo",
+            "larg": 1,
+            "tracejado": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                190,
+                320
+              ],
+              [
+                210,
+                320
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 2
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                430,
+                320
+              ],
+              [
+                450,
+                320
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 2
+          },
+          {
+            "t": "texto",
+            "x": 180,
+            "y": 320,
+            "txt": "-184",
+            "negrito": true,
+            "ancora": "end",
+            "cor": "perigo"
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                214,
+                320
+              ],
+              [
+                426,
+                320
+              ]
+            ],
+            "cor": "mudo",
+            "larg": 1,
+            "tracejado": true
+          }
+        ],
+        "pontos": [
+          {
+            "t": "texto",
+            "x": 460,
+            "y": 90,
+            "txt": "373",
+            "negrito": true,
+            "ancora": "start"
+          },
+          {
+            "t": "texto",
+            "x": 460,
+            "y": 200,
+            "txt": "273",
+            "negrito": true,
+            "ancora": "start"
+          }
+        ],
+        "argonio": [
+          {
+            "t": "texto",
+            "x": 460,
+            "y": 320,
+            "txt": "89",
+            "negrito": true,
+            "ancora": "start",
+            "cor": "perigo"
+          },
+          {
+            "t": "rotulo",
+            "x": 320,
+            "y": 370,
+            "txt": "T = θ + 273",
+            "cor": "var(--accent)"
+          }
+        ]
+      }
+    }
+  },
+  "passos": [
+    {
+      "titulo": "Os pontos fixos",
+      "conceito": "Escalas termométricas",
+      "texto": "0 ºC corresponde a 273 K e 100 ºC a 373 K: as duas escalas têm o mesmo tamanho de grau e diferem de 273.",
+      "cena": {
+        "mostrar": [
+          "escalas",
+          "pontos"
+        ]
+      }
+    },
+    {
+      "titulo": "O argônio",
+      "conceito": "Escalas termométricas",
+      "texto": "Resposta: <b>(b) 89 K</b>.",
+      "equacoes": [
+        "T = -184 + 273 = 89\\ \\text{K}"
+      ],
+      "cena": {
+        "mostrar": [
+          "argonio"
+        ],
+        "destacar": [
+          "argonio"
+        ]
+      }
+    }
+  ],
+  "status": "revisado",
+  "criadoEm": "2026-11-15T09:00:00-03:00",
+  "atualizadoEm": "2026-11-15T09:00:00-03:00"
+}

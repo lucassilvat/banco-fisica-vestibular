@@ -1,0 +1,665 @@
+{
+  "id": "unicamp-2027-q14",
+  "titulo": "Quatro blocos em paralelo",
+  "conceitos": [
+    "Associação em paralelo",
+    "Primeira lei de Ohm"
+  ],
+  "cena": {
+    "modelo": "diagrama",
+    "parametros": {
+      "elementos": {
+        "circuito": [
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                200,
+                60
+              ],
+              [
+                200,
+                270
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 2.5
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                440,
+                60
+              ],
+              [
+                440,
+                270
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 2.5
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                200,
+                165
+              ],
+              [
+                90,
+                165
+              ],
+              [
+                90,
+                350
+              ],
+              [
+                310,
+                350
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 2.5
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                330,
+                350
+              ],
+              [
+                550,
+                350
+              ],
+              [
+                550,
+                165
+              ],
+              [
+                440,
+                165
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 2.5
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                315,
+                334
+              ],
+              [
+                315,
+                366
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 2.5
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                325,
+                342
+              ],
+              [
+                325,
+                358
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 5
+          },
+          {
+            "t": "texto",
+            "x": 320,
+            "y": 384,
+            "txt": "9,0 V",
+            "negrito": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                200,
+                60
+              ],
+              [
+                280,
+                60
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 2.5
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                280,
+                60
+              ],
+              [
+                286.7,
+                68.0
+              ],
+              [
+                293.3,
+                52.0
+              ],
+              [
+                300.0,
+                68.0
+              ],
+              [
+                306.7,
+                52.0
+              ],
+              [
+                313.3,
+                68.0
+              ],
+              [
+                320.0,
+                52.0
+              ],
+              [
+                326.7,
+                68.0
+              ],
+              [
+                333.3,
+                52.0
+              ],
+              [
+                340.0,
+                68.0
+              ],
+              [
+                346.7,
+                52.0
+              ],
+              [
+                353.3,
+                68.0
+              ],
+              [
+                360,
+                60
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 2.5
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                360,
+                60
+              ],
+              [
+                440,
+                60
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 2.5
+          },
+          {
+            "t": "texto",
+            "x": 320,
+            "y": 40,
+            "txt": "R₁",
+            "negrito": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                200,
+                130
+              ],
+              [
+                280,
+                130
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 2.5
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                280,
+                130
+              ],
+              [
+                286.7,
+                138.0
+              ],
+              [
+                293.3,
+                122.0
+              ],
+              [
+                300.0,
+                138.0
+              ],
+              [
+                306.7,
+                122.0
+              ],
+              [
+                313.3,
+                138.0
+              ],
+              [
+                320.0,
+                122.0
+              ],
+              [
+                326.7,
+                138.0
+              ],
+              [
+                333.3,
+                122.0
+              ],
+              [
+                340.0,
+                138.0
+              ],
+              [
+                346.7,
+                122.0
+              ],
+              [
+                353.3,
+                138.0
+              ],
+              [
+                360,
+                130
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 2.5
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                360,
+                130
+              ],
+              [
+                440,
+                130
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 2.5
+          },
+          {
+            "t": "texto",
+            "x": 320,
+            "y": 110,
+            "txt": "R₂",
+            "negrito": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                200,
+                200
+              ],
+              [
+                280,
+                200
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 2.5
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                280,
+                200
+              ],
+              [
+                286.7,
+                208.0
+              ],
+              [
+                293.3,
+                192.0
+              ],
+              [
+                300.0,
+                208.0
+              ],
+              [
+                306.7,
+                192.0
+              ],
+              [
+                313.3,
+                208.0
+              ],
+              [
+                320.0,
+                192.0
+              ],
+              [
+                326.7,
+                208.0
+              ],
+              [
+                333.3,
+                192.0
+              ],
+              [
+                340.0,
+                208.0
+              ],
+              [
+                346.7,
+                192.0
+              ],
+              [
+                353.3,
+                208.0
+              ],
+              [
+                360,
+                200
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 2.5
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                360,
+                200
+              ],
+              [
+                440,
+                200
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 2.5
+          },
+          {
+            "t": "texto",
+            "x": 320,
+            "y": 180,
+            "txt": "R₃",
+            "negrito": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                200,
+                270
+              ],
+              [
+                232,
+                270
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 2.5
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                260,
+                270
+              ],
+              [
+                280,
+                270
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 2.5
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                280,
+                270
+              ],
+              [
+                286.7,
+                278.0
+              ],
+              [
+                293.3,
+                262.0
+              ],
+              [
+                300.0,
+                278.0
+              ],
+              [
+                306.7,
+                262.0
+              ],
+              [
+                313.3,
+                278.0
+              ],
+              [
+                320.0,
+                262.0
+              ],
+              [
+                326.7,
+                278.0
+              ],
+              [
+                333.3,
+                262.0
+              ],
+              [
+                340.0,
+                278.0
+              ],
+              [
+                346.7,
+                262.0
+              ],
+              [
+                353.3,
+                278.0
+              ],
+              [
+                360,
+                270
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 2.5
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                360,
+                270
+              ],
+              [
+                440,
+                270
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 2.5
+          },
+          {
+            "t": "texto",
+            "x": 320,
+            "y": 250,
+            "txt": "R₄",
+            "negrito": true
+          },
+          {
+            "t": "circ",
+            "x": 232,
+            "y": 270,
+            "r": 3,
+            "cor": "tinta",
+            "borda": "tinta"
+          },
+          {
+            "t": "circ",
+            "x": 260,
+            "y": 270,
+            "r": 3,
+            "cor": "tinta",
+            "borda": "tinta"
+          }
+        ],
+        "chave": [
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                232,
+                270
+              ],
+              [
+                260,
+                270
+              ]
+            ],
+            "cor": "perigo",
+            "larg": 3
+          },
+          {
+            "t": "texto",
+            "x": 246,
+            "y": 292,
+            "txt": "chave fechada (alarme)",
+            "cor": "perigo",
+            "negrito": true
+          }
+        ],
+        "correntes": [
+          {
+            "t": "texto",
+            "x": 470,
+            "y": 48,
+            "txt": "7,5 mA",
+            "cor": "acel",
+            "negrito": true,
+            "ancora": "start"
+          },
+          {
+            "t": "texto",
+            "x": 470,
+            "y": 118,
+            "txt": "7,5 mA",
+            "cor": "acel",
+            "negrito": true,
+            "ancora": "start"
+          },
+          {
+            "t": "texto",
+            "x": 470,
+            "y": 188,
+            "txt": "7,5 mA",
+            "cor": "acel",
+            "negrito": true,
+            "ancora": "start"
+          },
+          {
+            "t": "texto",
+            "x": 470,
+            "y": 258,
+            "txt": "7,5 mA",
+            "cor": "acel",
+            "negrito": true,
+            "ancora": "start"
+          },
+          {
+            "t": "seta",
+            "de": [
+              560,
+              300
+            ],
+            "para": [
+              560,
+              210
+            ],
+            "cor": "acel",
+            "larg": 3
+          },
+          {
+            "t": "texto",
+            "x": 540,
+            "y": 320,
+            "txt": "i = 30 mA",
+            "cor": "acel",
+            "negrito": true,
+            "ancora": "end"
+          }
+        ]
+      }
+    }
+  },
+  "passos": [
+    {
+      "titulo": "O alarme ativado",
+      "conceito": "Associação em paralelo",
+      "texto": "Com o alarme ativado, a chave fecha e as quatro resistências ficam em paralelo, todas ligadas diretamente à bateria.",
+      "equacoes": [
+        "R_{\\text{eq}} = \\dfrac{1,2\\ \\text{k}\\Omega}{4} = 300\\ \\Omega"
+      ],
+      "cena": {
+        "mostrar": [
+          "circuito",
+          "chave"
+        ]
+      }
+    },
+    {
+      "titulo": "A corrente total",
+      "conceito": "Primeira lei de Ohm",
+      "texto": "Cada ramo conduz 9,0/1 200 = 7,5 mA; os quatro juntos, 30 mA. Resposta: <b>(d) 30 mA</b>.",
+      "equacoes": [
+        "i = \\dfrac{9,0}{300} = 0,030\\ \\text{A} = 30\\ \\text{mA}"
+      ],
+      "cena": {
+        "mostrar": [
+          "correntes"
+        ],
+        "destacar": [
+          "correntes"
+        ]
+      }
+    }
+  ],
+  "status": "revisado",
+  "criadoEm": "2026-11-15T09:00:00-03:00",
+  "atualizadoEm": "2026-11-15T09:00:00-03:00"
+}

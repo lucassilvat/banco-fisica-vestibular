@@ -1,0 +1,127 @@
+{
+  "id": "unicamp-2020-q73",
+  "titulo": "A aceleração centrípeta de Didymoon",
+  "conceitos": [
+    "Movimento circular uniforme",
+    "Aceleração centrípeta"
+  ],
+  "cena": {
+    "modelo": "diagrama",
+    "parametros": {
+      "elementos": {
+        "etapa-1": [
+          {
+            "t": "ret",
+            "x": 30,
+            "y": 16,
+            "w": 420,
+            "h": 40,
+            "cor": "suave",
+            "borda": "normal",
+            "rx": 7
+          },
+          {
+            "t": "texto",
+            "x": 42,
+            "y": 36.0,
+            "txt": "velocidade angular (2π/T)",
+            "mudo": true,
+            "ancora": "start"
+          },
+          {
+            "t": "texto",
+            "x": 438,
+            "y": 36.0,
+            "txt": "0,5 rad/h",
+            "negrito": true,
+            "ancora": "end"
+          }
+        ],
+        "etapa-2": [
+          {
+            "t": "seta",
+            "de": [
+              240.0,
+              59
+            ],
+            "para": [
+              240.0,
+              79
+            ],
+            "cor": "tinta",
+            "larg": 1.8
+          },
+          {
+            "t": "texto",
+            "x": 252.0,
+            "y": 69.0,
+            "txt": "0,25 · 1,6",
+            "negrito": true,
+            "cor": "acel",
+            "ancora": "start"
+          },
+          {
+            "t": "ret",
+            "x": 30,
+            "y": 82,
+            "w": 420,
+            "h": 40,
+            "cor": "suave",
+            "borda": "normal",
+            "rx": 7
+          },
+          {
+            "t": "texto",
+            "x": 42,
+            "y": 102.0,
+            "txt": "aceleração centrípeta (ω²r)",
+            "mudo": true,
+            "ancora": "start"
+          },
+          {
+            "t": "texto",
+            "x": 438,
+            "y": 102.0,
+            "txt": "0,40 km/h²",
+            "negrito": true,
+            "ancora": "end"
+          }
+        ]
+      }
+    }
+  },
+  "passos": [
+    {
+      "titulo": "A velocidade angular",
+      "conceito": "Movimento circular uniforme",
+      "texto": "Uma volta (2π rad) a cada 12 h, com π = 3,0.",
+      "equacoes": [
+        "\\omega = \\dfrac{2\\pi}{T} = 0,5\\ \\text{rad/h}"
+      ],
+      "cena": {
+        "mostrar": [
+          "etapa-1"
+        ]
+      }
+    },
+    {
+      "titulo": "A aceleração",
+      "conceito": "Aceleração centrípeta",
+      "texto": "Resposta: <b>(b) 4,0 × 10<sup>−1</sup> km/h²</b>.",
+      "equacoes": [
+        "a_{cp} = \\omega^{2} r = 0,25 \\cdot 1,6 = 0,40\\ \\text{km/h}^{2}"
+      ],
+      "cena": {
+        "mostrar": [
+          "etapa-2"
+        ],
+        "destacar": [
+          "etapa-2"
+        ]
+      }
+    }
+  ],
+  "status": "revisado",
+  "criadoEm": "2026-11-15T09:00:00-03:00",
+  "atualizadoEm": "2026-11-15T09:00:00-03:00"
+}

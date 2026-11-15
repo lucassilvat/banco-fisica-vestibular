@@ -1,0 +1,729 @@
+{
+  "id": "unicamp-2022-q61",
+  "titulo": "A água acaba quando a temperatura volta a subir",
+  "conceitos": [
+    "Potência e energia elétrica",
+    "Leitura de gráficos"
+  ],
+  "cena": {
+    "modelo": "diagrama",
+    "parametros": {
+      "elementos": {
+        "eixos": [
+          {
+            "t": "seta",
+            "de": [
+              100,
+              330
+            ],
+            "para": [
+              582,
+              330
+            ],
+            "cor": "tinta",
+            "larg": 1.6
+          },
+          {
+            "t": "seta",
+            "de": [
+              100.0,
+              330
+            ],
+            "para": [
+              100.0,
+              18
+            ],
+            "cor": "tinta",
+            "larg": 1.6
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                100.0,
+                326
+              ],
+              [
+                100.0,
+                334
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 1.5
+          },
+          {
+            "t": "texto",
+            "x": 100.0,
+            "y": 346,
+            "txt": "0",
+            "mudo": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                100.0,
+                30
+              ],
+              [
+                100.0,
+                330
+              ]
+            ],
+            "cor": "linha",
+            "larg": 1,
+            "tracejado": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                167.1,
+                326
+              ],
+              [
+                167.1,
+                334
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 1.5
+          },
+          {
+            "t": "texto",
+            "x": 167.1,
+            "y": 346,
+            "txt": "5",
+            "mudo": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                167.1,
+                30
+              ],
+              [
+                167.1,
+                330
+              ]
+            ],
+            "cor": "linha",
+            "larg": 1,
+            "tracejado": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                234.3,
+                326
+              ],
+              [
+                234.3,
+                334
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 1.5
+          },
+          {
+            "t": "texto",
+            "x": 234.3,
+            "y": 346,
+            "txt": "10",
+            "mudo": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                234.3,
+                30
+              ],
+              [
+                234.3,
+                330
+              ]
+            ],
+            "cor": "linha",
+            "larg": 1,
+            "tracejado": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                301.4,
+                326
+              ],
+              [
+                301.4,
+                334
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 1.5
+          },
+          {
+            "t": "texto",
+            "x": 301.4,
+            "y": 346,
+            "txt": "15",
+            "mudo": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                301.4,
+                30
+              ],
+              [
+                301.4,
+                330
+              ]
+            ],
+            "cor": "linha",
+            "larg": 1,
+            "tracejado": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                368.6,
+                326
+              ],
+              [
+                368.6,
+                334
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 1.5
+          },
+          {
+            "t": "texto",
+            "x": 368.6,
+            "y": 346,
+            "txt": "20",
+            "mudo": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                368.6,
+                30
+              ],
+              [
+                368.6,
+                330
+              ]
+            ],
+            "cor": "linha",
+            "larg": 1,
+            "tracejado": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                435.7,
+                326
+              ],
+              [
+                435.7,
+                334
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 1.5
+          },
+          {
+            "t": "texto",
+            "x": 435.7,
+            "y": 346,
+            "txt": "25",
+            "mudo": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                435.7,
+                30
+              ],
+              [
+                435.7,
+                330
+              ]
+            ],
+            "cor": "linha",
+            "larg": 1,
+            "tracejado": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                502.9,
+                326
+              ],
+              [
+                502.9,
+                334
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 1.5
+          },
+          {
+            "t": "texto",
+            "x": 502.9,
+            "y": 346,
+            "txt": "30",
+            "mudo": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                502.9,
+                30
+              ],
+              [
+                502.9,
+                330
+              ]
+            ],
+            "cor": "linha",
+            "larg": 1,
+            "tracejado": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                570.0,
+                326
+              ],
+              [
+                570.0,
+                334
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 1.5
+          },
+          {
+            "t": "texto",
+            "x": 570.0,
+            "y": 346,
+            "txt": "35",
+            "mudo": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                570.0,
+                30
+              ],
+              [
+                570.0,
+                330
+              ]
+            ],
+            "cor": "linha",
+            "larg": 1,
+            "tracejado": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                96.0,
+                330.0
+              ],
+              [
+                104.0,
+                330.0
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 1.5
+          },
+          {
+            "t": "texto",
+            "x": 92.0,
+            "y": 330.0,
+            "txt": "20",
+            "ancora": "end",
+            "mudo": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                100,
+                330.0
+              ],
+              [
+                570,
+                330.0
+              ]
+            ],
+            "cor": "linha",
+            "larg": 1,
+            "tracejado": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                96.0,
+                270.0
+              ],
+              [
+                104.0,
+                270.0
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 1.5
+          },
+          {
+            "t": "texto",
+            "x": 92.0,
+            "y": 270.0,
+            "txt": "40",
+            "ancora": "end",
+            "mudo": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                100,
+                270.0
+              ],
+              [
+                570,
+                270.0
+              ]
+            ],
+            "cor": "linha",
+            "larg": 1,
+            "tracejado": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                96.0,
+                210.0
+              ],
+              [
+                104.0,
+                210.0
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 1.5
+          },
+          {
+            "t": "texto",
+            "x": 92.0,
+            "y": 210.0,
+            "txt": "60",
+            "ancora": "end",
+            "mudo": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                100,
+                210.0
+              ],
+              [
+                570,
+                210.0
+              ]
+            ],
+            "cor": "linha",
+            "larg": 1,
+            "tracejado": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                96.0,
+                150.0
+              ],
+              [
+                104.0,
+                150.0
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 1.5
+          },
+          {
+            "t": "texto",
+            "x": 92.0,
+            "y": 150.0,
+            "txt": "80",
+            "ancora": "end",
+            "mudo": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                100,
+                150.0
+              ],
+              [
+                570,
+                150.0
+              ]
+            ],
+            "cor": "linha",
+            "larg": 1,
+            "tracejado": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                96.0,
+                90.0
+              ],
+              [
+                104.0,
+                90.0
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 1.5
+          },
+          {
+            "t": "texto",
+            "x": 92.0,
+            "y": 90.0,
+            "txt": "100",
+            "ancora": "end",
+            "mudo": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                100,
+                90.0
+              ],
+              [
+                570,
+                90.0
+              ]
+            ],
+            "cor": "linha",
+            "larg": 1,
+            "tracejado": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                96.0,
+                30.0
+              ],
+              [
+                104.0,
+                30.0
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 1.5
+          },
+          {
+            "t": "texto",
+            "x": 92.0,
+            "y": 30.0,
+            "txt": "120",
+            "ancora": "end",
+            "mudo": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                100,
+                30.0
+              ],
+              [
+                570,
+                30.0
+              ]
+            ],
+            "cor": "linha",
+            "larg": 1,
+            "tracejado": true
+          },
+          {
+            "t": "texto",
+            "x": 570.0,
+            "y": 364.0,
+            "txt": "tempo (min)",
+            "mudo": true,
+            "ancora": "end"
+          },
+          {
+            "t": "texto",
+            "x": 108.0,
+            "y": 16.0,
+            "txt": "temperatura (ºC)",
+            "mudo": true,
+            "ancora": "start"
+          }
+        ],
+        "curva": [
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                100.0,
+                330.0
+              ],
+              [
+                234.3,
+                90.0
+              ],
+              [
+                502.9,
+                90.0
+              ],
+              [
+                516.3,
+                69.0
+              ],
+              [
+                516.3,
+                69.0
+              ],
+              [
+                521.7,
+                77.2
+              ],
+              [
+                527.0,
+                83.8
+              ],
+              [
+                532.4,
+                89.3
+              ],
+              [
+                537.8,
+                93.8
+              ],
+              [
+                543.1,
+                97.4
+              ],
+              [
+                548.5,
+                100.4
+              ],
+              [
+                553.9,
+                102.9
+              ],
+              [
+                559.3,
+                104.9
+              ],
+              [
+                564.6,
+                106.6
+              ],
+              [
+                570.0,
+                107.9
+              ]
+            ],
+            "cor": "normal",
+            "larg": 3
+          }
+        ],
+        "fim": [
+          {
+            "t": "circ",
+            "x": 502.9,
+            "y": 90.0,
+            "r": 7,
+            "cor": "perigo",
+            "borda": "tinta"
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                502.9,
+                90.0
+              ],
+              [
+                502.9,
+                330.0
+              ]
+            ],
+            "cor": "perigo",
+            "larg": 2,
+            "tracejado": true
+          },
+          {
+            "t": "rotulo",
+            "x": 368.6,
+            "y": 64.0,
+            "txt": "ebulição até 30 min: a água acabou",
+            "cor": "var(--danger)"
+          }
+        ]
+      }
+    }
+  },
+  "passos": [
+    {
+      "titulo": "Quando a água acaba",
+      "conceito": "Leitura de gráficos",
+      "texto": "A temperatura fica em 100 ºC enquanto há água fervendo. Em cerca de 30 min ela volta a subir: toda a água foi consumida.",
+      "cena": {
+        "mostrar": [
+          "eixos",
+          "curva",
+          "fim"
+        ]
+      }
+    },
+    {
+      "titulo": "A energia dissipada",
+      "conceito": "Potência e energia elétrica",
+      "texto": "A potência é constante, 400 W, durante 30 min = 1 800 s. Resposta: <b>(c) 720 kJ</b>.",
+      "equacoes": [
+        "E = P\\,\\Delta t = 400 \\cdot 1\\,800 = 720\\,000\\ \\text{J}"
+      ],
+      "cena": {
+        "destacar": [
+          "fim"
+        ]
+      }
+    }
+  ],
+  "status": "revisado",
+  "criadoEm": "2026-11-15T09:00:00-03:00",
+  "atualizadoEm": "2026-11-15T09:00:00-03:00"
+}

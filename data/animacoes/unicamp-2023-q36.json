@@ -1,0 +1,171 @@
+{
+  "id": "unicamp-2023-q36",
+  "titulo": "O ângulo crítico mede o índice do líquido",
+  "conceitos": [
+    "Lei de Snell-Descartes",
+    "Reflexão total e ângulo limite"
+  ],
+  "cena": {
+    "modelo": "diagrama",
+    "parametros": {
+      "elementos": {
+        "meios": [
+          {
+            "t": "ret",
+            "x": 60,
+            "y": 70,
+            "w": 520,
+            "h": 160,
+            "cor": "#dbe9f5",
+            "borda": null
+          },
+          {
+            "t": "ret",
+            "x": 60,
+            "y": 230,
+            "w": 520,
+            "h": 140,
+            "cor": "#f6e9c8",
+            "borda": null
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                60,
+                230
+              ],
+              [
+                580,
+                230
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 2
+          },
+          {
+            "t": "texto",
+            "x": 80,
+            "y": 100,
+            "txt": "vidro (n₂ = 1,8)",
+            "negrito": true,
+            "ancora": "start"
+          },
+          {
+            "t": "texto",
+            "x": 80,
+            "y": 350,
+            "txt": "líquido (n₁)",
+            "negrito": true,
+            "ancora": "start"
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                320,
+                70
+              ],
+              [
+                320,
+                370
+              ]
+            ],
+            "cor": "mudo",
+            "larg": 1.5,
+            "tracejado": true
+          },
+          {
+            "t": "texto",
+            "x": 326,
+            "y": 84,
+            "txt": "normal",
+            "mudo": true,
+            "ancora": "start"
+          }
+        ],
+        "raios": [
+          {
+            "t": "seta",
+            "de": [
+              80,
+              230
+            ],
+            "para": [
+              320,
+              230
+            ],
+            "cor": "luz",
+            "larg": 3
+          },
+          {
+            "t": "texto",
+            "x": 140,
+            "y": 214,
+            "txt": "θ₁ = 90º (rasante)",
+            "cor": "tinta",
+            "negrito": true
+          },
+          {
+            "t": "seta",
+            "de": [
+              320,
+              230
+            ],
+            "para": [
+              444.4,
+              146.1
+            ],
+            "cor": "luz",
+            "larg": 3
+          },
+          {
+            "t": "angulo",
+            "centro": [
+              320,
+              230
+            ],
+            "de": -90,
+            "ate": -34,
+            "r": 56,
+            "cor": "acel",
+            "dist": 34,
+            "rotulo": "ângulo crítico: 56º"
+          }
+        ]
+      }
+    }
+  },
+  "passos": [
+    {
+      "titulo": "A situação crítica",
+      "conceito": "Lei de Snell-Descartes",
+      "texto": "O raio que chega rasante (θ<sub>1</sub> = 90º) é o que sai com o maior ângulo de refração, o ângulo crítico.",
+      "equacoes": [
+        "n_{1}\\,\\sen 90º = n_{2}\\,\\sen\\theta_{C} \\quad \\Rightarrow \\quad n_{1} = 1,8 \\cdot 0,8 = 1,44"
+      ],
+      "cena": {
+        "mostrar": [
+          "meios",
+          "raios"
+        ]
+      }
+    },
+    {
+      "titulo": "Trocando o líquido",
+      "conceito": "Reflexão total e ângulo limite",
+      "texto": "Como sen θ<sub>C</sub> = n<sub>1</sub>/n<sub>2</sub>, um líquido de índice maior aumenta o ângulo crítico. Resposta: <b>(a)</b>.",
+      "equacoes": [
+        "\\sen\\theta_{C} = \\dfrac{n_{1}}{n_{2}}"
+      ],
+      "cena": {
+        "destacar": [
+          "raios"
+        ]
+      }
+    }
+  ],
+  "status": "revisado",
+  "criadoEm": "2026-11-15T09:00:00-03:00",
+  "atualizadoEm": "2026-11-15T09:00:00-03:00"
+}

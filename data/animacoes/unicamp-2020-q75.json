@@ -1,0 +1,174 @@
+{
+  "id": "unicamp-2020-q75",
+  "titulo": "Os mols de gás no pescoço da garrafa",
+  "conceitos": [
+    "Equação de Clapeyron"
+  ],
+  "cena": {
+    "modelo": "diagrama",
+    "parametros": {
+      "elementos": {
+        "etapa-1": [
+          {
+            "t": "ret",
+            "x": 30,
+            "y": 16,
+            "w": 400,
+            "h": 40,
+            "cor": "suave",
+            "borda": "normal",
+            "rx": 7
+          },
+          {
+            "t": "texto",
+            "x": 42,
+            "y": 36.0,
+            "txt": "temperatura",
+            "mudo": true,
+            "ancora": "start"
+          },
+          {
+            "t": "texto",
+            "x": 418,
+            "y": 36.0,
+            "txt": "280 K",
+            "negrito": true,
+            "ancora": "end"
+          }
+        ],
+        "etapa-2": [
+          {
+            "t": "seta",
+            "de": [
+              230.0,
+              59
+            ],
+            "para": [
+              230.0,
+              79
+            ],
+            "cor": "tinta",
+            "larg": 1.8
+          },
+          {
+            "t": "texto",
+            "x": 242.0,
+            "y": 69.0,
+            "txt": "24 mL",
+            "negrito": true,
+            "cor": "acel",
+            "ancora": "start"
+          },
+          {
+            "t": "ret",
+            "x": 30,
+            "y": 82,
+            "w": 400,
+            "h": 40,
+            "cor": "suave",
+            "borda": "normal",
+            "rx": 7
+          },
+          {
+            "t": "texto",
+            "x": 42,
+            "y": 102.0,
+            "txt": "volume",
+            "mudo": true,
+            "ancora": "start"
+          },
+          {
+            "t": "texto",
+            "x": 418,
+            "y": 102.0,
+            "txt": "24 × 10^{−6} m³",
+            "negrito": true,
+            "ancora": "end"
+          }
+        ],
+        "etapa-3": [
+          {
+            "t": "seta",
+            "de": [
+              230.0,
+              125
+            ],
+            "para": [
+              230.0,
+              145
+            ],
+            "cor": "tinta",
+            "larg": 1.8
+          },
+          {
+            "t": "texto",
+            "x": 242.0,
+            "y": 135.0,
+            "txt": "pV ÷ RT",
+            "negrito": true,
+            "cor": "acel",
+            "ancora": "start"
+          },
+          {
+            "t": "ret",
+            "x": 30,
+            "y": 148,
+            "w": 400,
+            "h": 40,
+            "cor": "suave",
+            "borda": "normal",
+            "rx": 7
+          },
+          {
+            "t": "texto",
+            "x": 42,
+            "y": 168.0,
+            "txt": "número de mols",
+            "mudo": true,
+            "ancora": "start"
+          },
+          {
+            "t": "texto",
+            "x": 418,
+            "y": 168.0,
+            "txt": "3,0 × 10^{−3} mol",
+            "negrito": true,
+            "ancora": "end"
+          }
+        ]
+      }
+    }
+  },
+  "passos": [
+    {
+      "titulo": "Unidades",
+      "conceito": "Equação de Clapeyron",
+      "texto": "Na equação de Clapeyron a temperatura vai em kelvin e o volume em m³.",
+      "cena": {
+        "mostrar": [
+          "etapa-1",
+          "etapa-2"
+        ]
+      }
+    },
+    {
+      "titulo": "O número de mols",
+      "conceito": "Equação de Clapeyron",
+      "texto": "Resposta: <b>(d)</b>.",
+      "equacoes": [
+        "n = \\dfrac{pV}{RT} = \\dfrac{2,8 \\times 10^{5} \\cdot 24 \\times 10^{-6}}{8 \\cdot 280} = 3,0 \\times 10^{-3}\\ \\text{mol}"
+      ],
+      "cena": {
+        "mostrar": [
+          "etapa-3"
+        ],
+        "destacar": [
+          "etapa-3"
+        ]
+      }
+    }
+  ],
+  "status": "revisado",
+  "criadoEm": "2026-11-15T09:00:00-03:00",
+  "atualizadoEm": "2026-11-15T09:00:00-03:00"
+}

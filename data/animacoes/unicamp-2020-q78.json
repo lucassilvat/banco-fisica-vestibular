@@ -1,0 +1,253 @@
+{
+  "id": "unicamp-2020-q78",
+  "titulo": "O traçado de raios da lupa",
+  "conceitos": [
+    "Lentes esféricas"
+  ],
+  "cena": {
+    "modelo": "diagrama",
+    "parametros": {
+      "elementos": {
+        "lente": [
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                40,
+                260
+              ],
+              [
+                620,
+                260
+              ]
+            ],
+            "cor": "mudo",
+            "larg": 1.2
+          },
+          {
+            "t": "seta",
+            "de": [
+              380,
+              260
+            ],
+            "para": [
+              380,
+              70
+            ],
+            "cor": "normal",
+            "larg": 2.5
+          },
+          {
+            "t": "seta",
+            "de": [
+              380,
+              260
+            ],
+            "para": [
+              380,
+              400
+            ],
+            "cor": "normal",
+            "larg": 2.5
+          },
+          {
+            "t": "texto",
+            "x": 390,
+            "y": 66,
+            "txt": "lupa",
+            "negrito": true,
+            "cor": "normal",
+            "ancora": "start"
+          },
+          {
+            "t": "circ",
+            "x": 260,
+            "y": 260,
+            "r": 4,
+            "cor": "tinta",
+            "borda": "tinta"
+          },
+          {
+            "t": "texto",
+            "x": 260,
+            "y": 280,
+            "txt": "f",
+            "negrito": true
+          },
+          {
+            "t": "circ",
+            "x": 500,
+            "y": 260,
+            "r": 4,
+            "cor": "tinta",
+            "borda": "tinta"
+          },
+          {
+            "t": "texto",
+            "x": 500,
+            "y": 280,
+            "txt": "f'",
+            "negrito": true
+          }
+        ],
+        "objeto": [
+          {
+            "t": "seta",
+            "de": [
+              320,
+              260
+            ],
+            "para": [
+              320,
+              210
+            ],
+            "cor": "perigo",
+            "larg": 3.5
+          },
+          {
+            "t": "texto",
+            "x": 320,
+            "y": 280,
+            "txt": "o",
+            "negrito": true,
+            "cor": "perigo"
+          }
+        ],
+        "raios": [
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                320,
+                210
+              ],
+              [
+                380,
+                210
+              ]
+            ],
+            "cor": "luz",
+            "larg": 2.5
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                380,
+                210
+              ],
+              [
+                600,
+                302
+              ]
+            ],
+            "cor": "luz",
+            "larg": 2.5
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                320,
+                210
+              ],
+              [
+                560,
+                410
+              ]
+            ],
+            "cor": "luz",
+            "larg": 2.5
+          }
+        ],
+        "imagem": [
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                380,
+                210
+              ],
+              [
+                260,
+                160
+              ]
+            ],
+            "cor": "luz",
+            "larg": 1.6,
+            "tracejado": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                320,
+                210
+              ],
+              [
+                260,
+                160
+              ]
+            ],
+            "cor": "luz",
+            "larg": 1.6,
+            "tracejado": true
+          },
+          {
+            "t": "seta",
+            "de": [
+              260,
+              260
+            ],
+            "para": [
+              260,
+              160
+            ],
+            "cor": "acel",
+            "larg": 3.5,
+            "tracejado": true
+          },
+          {
+            "t": "texto",
+            "x": 250,
+            "y": 148,
+            "txt": "i: virtual, direita, maior",
+            "negrito": true,
+            "cor": "acel",
+            "ancora": "end"
+          }
+        ]
+      }
+    }
+  },
+  "passos": [
+    {
+      "titulo": "Onde fica o objeto",
+      "conceito": "Lentes esféricas",
+      "texto": "Na lupa, o objeto fica entre o foco e a lente.",
+      "cena": {
+        "mostrar": [
+          "lente",
+          "objeto"
+        ]
+      }
+    },
+    {
+      "titulo": "Os raios principais",
+      "conceito": "Lentes esféricas",
+      "texto": "O raio paralelo ao eixo sai passando por f'; o que passa pelo centro óptico não desvia. Eles saem divergentes; a imagem fica no cruzamento dos prolongamentos (tracejados), do mesmo lado do objeto, maior e direita. Resposta: <b>(a)</b>.",
+      "cena": {
+        "mostrar": [
+          "raios",
+          "imagem"
+        ],
+        "destacar": [
+          "imagem"
+        ]
+      }
+    }
+  ],
+  "status": "revisado",
+  "criadoEm": "2026-11-15T09:00:00-03:00",
+  "atualizadoEm": "2026-11-15T09:00:00-03:00"
+}
