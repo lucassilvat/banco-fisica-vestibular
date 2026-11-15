@@ -1,0 +1,86 @@
+{
+  "id": "unesp-2025-q84",
+  "titulo": "O gráfico do erro da fórmula rápida",
+  "conceitos": [
+    "Escalas termométricas",
+    "Função modular"
+  ],
+  "cena": {
+    "modelo": "grafico-modulo",
+    "parametros": {
+      "zero": 50,
+      "coef": 0.05555555555555555,
+      "xs": [
+        -20,
+        130
+      ],
+      "ys": [
+        -4,
+        5
+      ],
+      "marcasX": [
+        50
+      ],
+      "rotX": "T_{F}",
+      "rotY": "E(T_{F})",
+      "rotReta": "(T_{F} − 50)/18",
+      "rotModulo": "E = |T_{F} − 50|/18",
+      "rotPonto0": "25/9"
+    }
+  },
+  "passos": [
+    {
+      "titulo": "A diferença entre as fórmulas",
+      "conceito": "Escalas termométricas",
+      "texto": "Subtraindo a fórmula aproximada da exata, sobra uma expressão do 1º grau em T<sub>F</sub>, que se anula em T<sub>F</sub> = 50.",
+      "equacoes": [
+        "\\mathrm{T}_\\mathrm{C} - \\mathrm{T}^*_\\mathrm{C} = \\dfrac{10(\\mathrm{T}_\\mathrm{F} - 32) - 9(\\mathrm{T}_\\mathrm{F} - 30)}{18} = \\dfrac{\\mathrm{T}_\\mathrm{F} - 50}{18}"
+      ],
+      "cena": {
+        "mostrar": [
+          "eixos",
+          "reta"
+        ]
+      }
+    },
+    {
+      "titulo": "O módulo",
+      "conceito": "Função modular",
+      "texto": "O erro absoluto é o módulo dessa diferença: a parte negativa da reta se dobra para cima, e o gráfico vira um “V” com vértice em T<sub>F</sub> = 50.",
+      "equacoes": [
+        "\\mathrm{E}(\\mathrm{T}_\\mathrm{F}) = \\dfrac{\\left|\\mathrm{T}_\\mathrm{F} - 50\\right|}{18}"
+      ],
+      "cena": {
+        "mostrar": [
+          "modulo",
+          "ponto-zero"
+        ],
+        "estado": {
+          "dobrar": true
+        }
+      }
+    },
+    {
+      "titulo": "O valor em 0 °F",
+      "conceito": "Função modular",
+      "texto": "Em T<sub>F</sub> = 0, o erro vale 25/9: é o gráfico da alternativa B. Resposta: <b>(B)</b>.",
+      "equacoes": [
+        "\\mathrm{E}(0) = \\dfrac{50}{18} = \\dfrac{25}{9}"
+      ],
+      "cena": {
+        "mostrar": [
+          "ponto-0"
+        ],
+        "destacar": [
+          "ponto-0"
+        ],
+        "estado": {
+          "dobrar": false
+        }
+      }
+    }
+  ],
+  "status": "revisado",
+  "criadoEm": "2026-11-14T23:00:00-03:00",
+  "atualizadoEm": "2026-11-14T23:00:00-03:00"
+}

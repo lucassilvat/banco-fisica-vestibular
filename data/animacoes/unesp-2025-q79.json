@@ -1,0 +1,61 @@
+{
+  "id": "unesp-2025-q79",
+  "titulo": "Do desnível do mercúrio à temperatura do líquido",
+  "conceitos": [
+    "Teorema de Stevin",
+    "Vasos comunicantes",
+    "Equação de Clapeyron"
+  ],
+  "cena": {
+    "modelo": "manometro-gas",
+    "parametros": {}
+  },
+  "passos": [
+    {
+      "titulo": "A pressão do gás",
+      "conceito": "Teorema de Stevin",
+      "texto": "No mesmo líquido em repouso, pontos no mesmo nível têm a mesma pressão. No nível do mercúrio do lado do gás, o ramo aberto ainda tem 152 mm de mercúrio acima, além da atmosfera. Logo, o gás está a uma pressão maior que a atmosférica.",
+      "equacoes": [
+        "p = 760 + 152 = 912\\ \\text{mmHg}"
+      ],
+      "cena": {
+        "mostrar": [
+          "recipiente",
+          "gas",
+          "mercurio",
+          "patm",
+          "desnivel",
+          "pressoes"
+        ],
+        "destacar": [
+          "desnivel"
+        ]
+      }
+    },
+    {
+      "titulo": "Em pascal",
+      "conceito": "Unidades de pressão",
+      "texto": "Como 760 mmHg equivalem a 10<sup>5</sup> Pa:",
+      "equacoes": [
+        "p = \\dfrac{912}{760} \\cdot 10^{5} = 1,2 \\times 10^{5}\\ \\text{Pa}"
+      ],
+      "cena": {
+        "destacar": [
+          "pressoes"
+        ]
+      }
+    },
+    {
+      "titulo": "A temperatura",
+      "conceito": "Equação de Clapeyron",
+      "texto": "Com pressão, volume e número de mols, a equação de Clapeyron dá a temperatura do gás, que é a do líquido (equilíbrio térmico). Resposta: <b>(D) 360 K</b>.",
+      "equacoes": [
+        "pV = nRT \\quad \\Rightarrow \\quad T = \\dfrac{1,2 \\times 10^{5} \\cdot 6 \\times 10^{-3}}{0,25 \\cdot 8} = 360\\ \\text{K}"
+      ],
+      "cena": {}
+    }
+  ],
+  "status": "revisado",
+  "criadoEm": "2026-11-14T23:00:00-03:00",
+  "atualizadoEm": "2026-11-14T23:00:00-03:00"
+}

@@ -6,7 +6,7 @@ ao lado de **Ver resolução** nas questões que têm roteiro.
 
 Piloto (v2.8.0): Unesp 2025 Q78 (plano inclinado), ENEM 2023 Q98 (circuito) e Unicamp 2017
 Q58 (gráfico v × t). Desde a v2.9.0 o trabalho segue por vestibular, ano a ano, começando pela
-Unesp: 2026 completa (Q76–Q82).
+Unesp: 2026 completa (Q76–Q82) e 2025 completa (Q48, Q76–Q82, Q84, Q90).
 
 ## Como funciona
 
@@ -43,6 +43,15 @@ Cada passo tem:
 | `espectro-fototropismo` | `azul` [λ mín, λ máx] em nm | `espectro`, `azul`, `setas`, `luz`, `planta`, `lados`, `auxina` | `curvar` |
 | `campo-uniforme` | `U` (V), `dTexto` | `placas`, `tensao`, `cota-d`, `campo`, `ion`, `forca` | `mover` |
 | `indicador-combustivel` | — | `tanque`, `reostato`, `circuito`, `corrente`, `lamina`, `mostrador`, `zoom` | `nivel`: 0 a 1 ou `esvaziar` |
+| `rotas-velocidade-media` | `rotas` [{`nome`, `trechos` [{`modal`, `ds`, `v`}]}] | `rotas`, `tempos`, `totais`, `veiculos` | `percorrer` |
+| `engrenagens-internas` | `razao` (R<sub>A</sub>/R<sub>B</sub>) | `roda`, `engrenagem-a`, `engrenagem-b`, `manivela`, `contato`, `raios` | `girar` |
+| `lancamento-obliquo` | `coef` [a, b, c] de y(x), `xC`, `tB`, `tC`, `vx`, `vy` | `terreno`, `eixos`, `trajetoria`, `pontos`, `vertice`, `componentes`, `velocidade-b`, `bola` | `lancar`; `t` (instante parado) |
+| `manometro-gas` | — | `recipiente`, `gas`, `mercurio`, `patm`, `desnivel`, `pressoes` | — |
+| `aumento-linear` | `i1`, `A1`, `A2` | `imagem-1`, `objeto`, `imagem-2` | — |
+| `onda-corda` | `lambda`, `f`, `dist` | `pino`, `corda`, `frente`, `cotas` | `propagar` |
+| `soma-potencias` | `U`, `imax`, `limite`, `base`, `alternativas` | `limite`, `base`, `alt-a`…`alt-e` | — |
+| `grafico-modulo` | `zero`, `coef`, `xs`, `ys`, `marcasX`, rótulos | `eixos`, `reta`, `modulo`, `ponto-zero`, `ponto-0` | `dobrar` |
+| `triangulo-pg` | — | `triangulo`, `particula`, `tempos`, `soma` | `percorrer` |
 
 Os nomes aceitos ficam em `MODELOS` (`pipeline/animacoes.py`) e precisam bater com `CENAS`
 no app.

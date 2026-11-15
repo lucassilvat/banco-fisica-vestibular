@@ -4,6 +4,13 @@ Cada versão corresponde a um lote de importação ou a uma mudança no app/pipe
 Formato: `vMAIOR.MENOR.CORREÇÃO` — MENOR sobe a cada prova importada; MAIOR, em mudanças
 de modelo de dados; CORREÇÃO, em correções de questões já publicadas.
 
+## v2.10.0 — 2026-11-14
+
+- **Resolução animada da Unesp 2025**: as 9 questões que faltavam (Q48, Q76, Q77, Q79, Q80,
+  Q81, Q82, Q84, Q90; a Q78 já tinha). Nove modelos de cena novos: `rotas-velocidade-media`,
+  `engrenagens-internas`, `lancamento-obliquo`, `manometro-gas`, `aumento-linear`, `onda-corda`,
+  `soma-potencias`, `grafico-modulo` e `triangulo-pg`. Revisão visual de todos os passos.
+
 ## v2.9.1 — 2026-11-14
 
 - **Revisão das resoluções animadas (pedidos do Lucas):**
