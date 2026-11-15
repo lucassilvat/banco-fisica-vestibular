@@ -124,7 +124,79 @@ def checar_diagrama(par: dict) -> list[str]:
     return e
 
 
+def checar_aula(a: dict, q: dict) -> list[str]:
+    """Formato "aula" (v2.15.0): abertura e métodos em telas; blocos texto / eq / gabarito / fim."""
+    e = [f"falta o campo {k}" for k in ("id", "titulo", "conceitos", "metodos", "status") if k not in a]
+    if e: return e
+    for k in a:
+        if k not in ("id", "formato", "titulo", "conceitos", "cena", "abertura", "metodos", "status", "revisao", "criadoEm", "atualizadoEm"):
+            e.append(f"campo não aceito: {k}")
+    if a["status"] not in ("rascunho", "revisado", "publicado"): e.append(f"status inválido {a['status']}")
+    elementos, anims, estados = set(), set(), {}
+    if "cena" in a:
+        modelo = a["cena"].get("modelo")
+        par = a["cena"].get("parametros", {})
+        if modelo == "diagrama":
+            e += checar_diagrama(par); elementos = set(par.get("elementos", {})); anims = set(par.get("animacoes", {}))
+        elif modelo in MODELOS:  # modelo pronto do app (ex.: indicador-combustivel), com estado por tela
+            m = MODELOS[modelo]; elementos = set(m["elementos"]); estados = m["estado"]
+            for k in par:
+                if k not in m["parametros"]: e.append(f"parâmetro desconhecido no modelo: {k}")
+        else: e.append(f"modelo de cena desconhecido: {modelo}")
+    def telas(lista, nome):
+        for i, t in enumerate(lista, 1):
+            onde = f"{nome}, tela {i}"
+            for k in t:
+                if k not in ("titulo", "cena", "blocos"): e.append(f"{onde}: campo não aceito: {k}")
+            for x in t.get("cena", {}).get("mostrar", []):
+                if x not in elementos: e.append(f"{onde}: elemento desconhecido: {x}")
+            for x in t.get("cena", {}).get("animar", []):
+                if x not in anims: e.append(f"{onde}: animação desconhecida: {x}")
+            for k in t.get("cena", {}):
+                if k not in ("mostrar", "animar", "estado"): e.append(f"{onde}: campo de cena não aceito: {k}")
+            for k, v in t.get("cena", {}).get("estado", {}).items():
+                if k not in estados: e.append(f"{onde}: estado desconhecido: {k}"); continue
+                if estados[k] is not None and v not in estados[k]: e.append(f"{onde}: valor inválido para {k}: {v}")
+            if not t.get("blocos"): e.append(f"{onde}: sem blocos")
+            ultima = None
+            for j, b in enumerate(t.get("blocos", []), 1):
+                ob = f"{onde}, bloco {j}"
+                tipo = b.get("t")
+                if tipo == "texto":
+                    e.extend(checar_latex(b.get("html", ""), ob))
+                    resto = TAGS_OK.sub("", re.sub(r"\\\(.+?\\\)", "", b.get("html", "")))
+                    if re.search(r"<[a-zA-Z/]", resto): e.append(f"{ob}: marcação HTML não aceita")
+                elif tipo == "eq":
+                    tex = b.get("tex", "")
+                    e.extend(checar_latex("\\(" + tex + "\\)", ob))
+                    marcas = set(re.findall(r"\\marca\{([^}]+)\}", tex))
+                    for id_ in b.get("cancelar", []):
+                        if ultima is None or id_ not in ultima: e.append(f"{ob}: cancelar {id_}: a equação anterior não tem essa marca")
+                    for id_ in b.get("mover", []):
+                        if ultima is None or id_ not in ultima or id_ not in marcas: e.append(f"{ob}: mover {id_}: a marca precisa estar nas duas equações")
+                    ultima = marcas
+                elif tipo == "gabarito":
+                    if q.get("gabarito") and b.get("letra", "").upper() != q["gabarito"].upper(): e.append(f"{ob}: gabarito {b.get('letra')} ≠ {q['gabarito']}")
+                elif tipo != "fim":
+                    e.append(f"{ob}: tipo de bloco desconhecido: {tipo}")
+    telas(a.get("abertura", []), "abertura")
+    if not a["metodos"]: e.append("sem métodos")
+    for m in a["metodos"]:
+        if not m.get("nome"): e.append("método sem nome")
+        telas(m.get("telas", []), f"método {m.get('nome')}")
+        blocos = [b for t in m.get("telas", []) for b in t.get("blocos", [])]
+        if q.get("gabarito") and not any(b.get("t") == "gabarito" for b in blocos[-3:]):
+            e.append(f"método {m.get('nome')}: termina sem o gabarito")
+    return e
+
+
 def checar(a: dict, questoes: dict) -> list[str]:
+    if a.get("formato") == "aula":
+        q = questoes.get(a.get("id"))
+        if not q: return [f"não existe questão {a.get('id')}"]
+        e = checar_aula(a, q)
+        if "revisao" in a and (not isinstance(a["revisao"], dict) or a["revisao"].get("estado") not in REV_ESTADOS): e.append("revisao inválida")
+        return e
     e = [f"falta o campo {k}" for k in OBRIG if k not in a]
     if e: return e
     q = questoes.get(a["id"])
@@ -184,6 +256,8 @@ def verificar(filtro: str | None = None) -> int:
 
 
 def documento_app(a: dict) -> dict:
+    if a.get("formato") == "aula":
+        return {k: a[k] for k in ("formato", "titulo", "conceitos", "cena", "abertura", "metodos") if k in a}
     return {k: a[k] for k in ("titulo", "conceitos", "cena", "passos")}
 
 

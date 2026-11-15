@@ -1,123 +1,119 @@
 {
   "id": "unesp-2026-q78",
-  "titulo": "Da gasolina à altura do motorista",
+  "formato": "aula",
+  "titulo": "Quanto subiria o motorista com a energia da gasolina",
   "conceitos": [
-    "Velocidade escalar média",
+    "Energia potencial gravitacional",
     "Densidade",
-    "Rendimento",
-    "Energia potencial gravitacional"
+    "Rendimento"
   ],
-  "cena": {
-    "modelo": "cadeia-energia",
-    "parametros": {
-      "etapas": [
+  "metodos": [
+    {
+      "nome": "Seguindo a energia",
+      "telas": [
         {
-          "rotulo": "distância",
-          "valor": "100 km",
-          "operacao": ""
+          "titulo": "O combustível gasto",
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "Primeiro, quanto combustível foi gasto."
+            },
+            {
+              "t": "texto",
+              "html": "Em 2 h a 50 km/h, o carro percorre:"
+            },
+            {
+              "t": "eq",
+              "tex": "d = 50 \\cdot 2 = 100\\ \\text{km}"
+            },
+            {
+              "t": "texto",
+              "html": "Com 10 km por litro, isso consome <b>10 L</b> de gasolina, isto é:"
+            },
+            {
+              "t": "eq",
+              "tex": "m_{\\text{gas}} = 10\\ \\text{L} \\cdot 0,7\\ \\text{kg/L} = 7\\ \\text{kg}"
+            }
+          ]
         },
         {
-          "rotulo": "gasolina",
-          "valor": "10 L",
-          "operacao": "÷ 10 km/L"
+          "titulo": "A energia que move o motorista",
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "Só <b>1%</b> da energia da combustão move o motorista:"
+            },
+            {
+              "t": "eq",
+              "tex": "E = 0,01 \\cdot 7 \\cdot 4 \\times 10^{7}\\ \\text{J}"
+            },
+            {
+              "t": "texto",
+              "html": "Toda essa energia vira <b>energia potencial gravitacional</b> do motorista:"
+            },
+            {
+              "t": "eq",
+              "tex": "m g h = E"
+            }
+          ]
         },
         {
-          "rotulo": "massa de gasolina",
-          "valor": "7 kg",
-          "operacao": "× 0,7 kg/L"
-        },
-        {
-          "rotulo": "energia liberada",
-          "valor": "2,8 × 10^{8} J",
-          "operacao": "× 4 × 10^{7} J/kg"
-        },
-        {
-          "rotulo": "energia útil (1%)",
-          "valor": "2,8 × 10^{6} J",
-          "operacao": "× 0,01"
-        },
-        {
-          "rotulo": "altura",
-          "valor": "4 000 m",
-          "operacao": "÷ (mg) = ÷ 700 N"
+          "titulo": "A altura",
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "Isolando a altura e substituindo:"
+            },
+            {
+              "t": "eq",
+              "tex": "h = \\dfrac{0,01 \\cdot 7 \\cdot 4 \\times 10^{7}}{70 \\cdot 10}"
+            },
+            {
+              "t": "texto",
+              "html": "Escrevendo 70 = 7 · 10:"
+            },
+            {
+              "t": "eq",
+              "tex": "h = \\dfrac{0,01 \\cdot \\marca{a}{7} \\cdot 4 \\times 10^{7}}{\\marca{b}{7} \\cdot 10 \\cdot 10}"
+            },
+            {
+              "t": "texto",
+              "html": "O 7 de cima <b>cancela</b> com o 7 de baixo:"
+            },
+            {
+              "t": "eq",
+              "tex": "h = \\dfrac{0,01 \\cdot 4 \\times 10^{7}}{10 \\cdot 10}",
+              "cancelar": [
+                "a",
+                "b"
+              ]
+            },
+            {
+              "t": "eq",
+              "tex": "h = \\dfrac{4 \\times 10^{5}}{10^{2}}"
+            },
+            {
+              "t": "eq",
+              "tex": "h = 4\\,000\\ \\text{m}"
+            },
+            {
+              "t": "gabarito",
+              "letra": "D"
+            },
+            {
+              "t": "fim"
+            }
+          ]
         }
-      ],
-      "altura": 4000
-    }
-  },
-  "passos": [
-    {
-      "titulo": "Quanto o carro andou e quanto gastou",
-      "conceito": "Velocidade escalar média",
-      "texto": "Em 2 h a 50 km/h, o carro percorre 100 km. Com 10 km por litro, consome 10 L de gasolina.",
-      "equacoes": [
-        "\\Delta s = v_{\\text{m}} \\cdot \\Delta t = 50 \\cdot 2 = 100\\ \\text{km}",
-        "V = \\dfrac{100}{10} = 10\\ \\text{L}"
-      ],
-      "cena": {
-        "mostrar": [
-          "etapa-1",
-          "etapa-2"
-        ]
-      }
-    },
-    {
-      "titulo": "Massa e energia da gasolina",
-      "conceito": "Densidade",
-      "texto": "A densidade converte o volume em massa, e a energia de combustão diz quanta energia cada quilograma libera.",
-      "equacoes": [
-        "m = 0,7 \\cdot 10 = 7\\ \\text{kg}",
-        "E = 7 \\cdot 4 \\times 10^{7} = 2,8 \\times 10^{8}\\ \\text{J}"
-      ],
-      "cena": {
-        "mostrar": [
-          "etapa-3",
-          "etapa-4"
-        ],
-        "destacar": [
-          "etapa-3",
-          "etapa-4"
-        ]
-      }
-    },
-    {
-      "titulo": "Só 1% move o motorista",
-      "conceito": "Rendimento",
-      "texto": "Apenas 1% da energia liberada é usada para mover o motorista.",
-      "equacoes": [
-        "E_{\\text{útil}} = 0,01 \\cdot 2,8 \\times 10^{8} = 2,8 \\times 10^{6}\\ \\text{J}"
-      ],
-      "cena": {
-        "mostrar": [
-          "etapa-5"
-        ],
-        "destacar": [
-          "etapa-5"
-        ]
-      }
-    },
-    {
-      "titulo": "Toda essa energia vira altura",
-      "conceito": "Energia potencial gravitacional",
-      "texto": "Se essa energia virasse energia potencial gravitacional do motorista de 70 kg, ele subiria até 4 000 m. Resposta: <b>(D) 4 000 m</b>.",
-      "equacoes": [
-        "mgh = E_{\\text{útil}} \\quad \\Rightarrow \\quad h = \\dfrac{2,8 \\times 10^{6}}{70 \\cdot 10} = 4\\,000\\ \\text{m}"
-      ],
-      "cena": {
-        "mostrar": [
-          "etapa-6",
-          "subida"
-        ],
-        "destacar": [
-          "etapa-6"
-        ],
-        "estado": {
-          "subir": true
-        }
-      }
+      ]
     }
   ],
   "status": "revisado",
-  "criadoEm": "2026-11-14T22:00:00-03:00",
-  "atualizadoEm": "2026-11-14T22:00:00-03:00"
+  "criadoEm": "2026-11-15T09:00:00-03:00",
+  "atualizadoEm": "2026-11-15T09:00:00-03:00",
+  "revisao": {
+    "estado": "aprovada",
+    "comentario": "",
+    "atualizadoEm": "2026-11-15T15:59:46.926Z"
+  }
 }

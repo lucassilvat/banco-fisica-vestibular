@@ -1,69 +1,285 @@
 {
   "id": "unesp-2026-q80",
-  "titulo": "Luz azul e o lado da planta que cresce mais",
+  "formato": "aula",
+  "titulo": "Luz azul e a curvatura da planta",
   "conceitos": [
     "Espectro eletromagnético",
-    "Equação fundamental da ondulatória",
-    "Fototropismo"
+    "Equação fundamental da ondulatória"
   ],
   "cena": {
-    "modelo": "espectro-fototropismo",
+    "modelo": "diagrama",
     "parametros": {
-      "azul": [
-        440,
-        490
-      ]
+      "elementos": {
+        "espectro": [
+          {
+            "t": "ret",
+            "x": 60,
+            "y": 60,
+            "w": 80,
+            "h": 40,
+            "cor": "#6a1b9a",
+            "borda": null
+          },
+          {
+            "t": "ret",
+            "x": 140,
+            "y": 60,
+            "w": 80,
+            "h": 40,
+            "cor": "#1e63d6",
+            "borda": null
+          },
+          {
+            "t": "ret",
+            "x": 220,
+            "y": 60,
+            "w": 80,
+            "h": 40,
+            "cor": "#2e9b4a",
+            "borda": null
+          },
+          {
+            "t": "ret",
+            "x": 300,
+            "y": 60,
+            "w": 80,
+            "h": 40,
+            "cor": "#f2c230",
+            "borda": null
+          },
+          {
+            "t": "ret",
+            "x": 380,
+            "y": 60,
+            "w": 80,
+            "h": 40,
+            "cor": "#ef7d22",
+            "borda": null
+          },
+          {
+            "t": "ret",
+            "x": 460,
+            "y": 60,
+            "w": 80,
+            "h": 40,
+            "cor": "#d32f2f",
+            "borda": null
+          },
+          {
+            "t": "texto",
+            "x": 60,
+            "y": 120,
+            "txt": "400 nm",
+            "mudo": true,
+            "ancora": "start"
+          },
+          {
+            "t": "texto",
+            "x": 540,
+            "y": 120,
+            "txt": "700 nm",
+            "mudo": true,
+            "ancora": "end"
+          },
+          {
+            "t": "seta",
+            "de": [
+              180,
+              150
+            ],
+            "para": [
+              420,
+              150
+            ],
+            "cor": "tinta",
+            "larg": 2
+          },
+          {
+            "t": "texto",
+            "x": 300,
+            "y": 170,
+            "txt": "comprimento de onda aumenta",
+            "mudo": true
+          }
+        ],
+        "azul": [
+          {
+            "t": "ret",
+            "x": 140,
+            "y": 56,
+            "w": 80,
+            "h": 48,
+            "cor": null,
+            "borda": "perigo",
+            "larg": 3
+          },
+          {
+            "t": "rotulo",
+            "x": 180,
+            "y": 210,
+            "txt": "azul: λ menor, f maior (c = λf)",
+            "cor": "var(--danger)"
+          }
+        ],
+        "planta": [
+          {
+            "t": "caminho",
+            "d": "M380,410 C380,330 386,290 430,252",
+            "cor": "#7cb342",
+            "larg": 8
+          },
+          {
+            "t": "circ",
+            "x": 434,
+            "y": 248,
+            "r": 9,
+            "cor": "#9ccc65",
+            "borda": "tinta"
+          },
+          {
+            "t": "seta",
+            "de": [
+              560,
+              280
+            ],
+            "para": [
+              470,
+              280
+            ],
+            "cor": "#1e63d6",
+            "larg": 4
+          },
+          {
+            "t": "seta",
+            "de": [
+              560,
+              310
+            ],
+            "para": [
+              470,
+              310
+            ],
+            "cor": "#1e63d6",
+            "larg": 4
+          },
+          {
+            "t": "texto",
+            "x": 570,
+            "y": 296,
+            "txt": "luz azul",
+            "negrito": true,
+            "cor": "normal",
+            "ancora": "start"
+          }
+        ],
+        "auxina": [
+          {
+            "t": "circ",
+            "x": 368,
+            "y": 330,
+            "r": 6,
+            "cor": "perigo",
+            "borda": "tinta"
+          },
+          {
+            "t": "circ",
+            "x": 370,
+            "y": 350,
+            "r": 6,
+            "cor": "perigo",
+            "borda": "tinta"
+          },
+          {
+            "t": "circ",
+            "x": 368,
+            "y": 370,
+            "r": 6,
+            "cor": "perigo",
+            "borda": "tinta"
+          },
+          {
+            "t": "texto",
+            "x": 356,
+            "y": 352,
+            "txt": "auxina (lado sombreado)",
+            "negrito": true,
+            "cor": "perigo",
+            "ancora": "end"
+          }
+        ]
+      }
     }
   },
-  "passos": [
+  "metodos": [
     {
-      "titulo": "Onde fica o azul no espectro",
-      "conceito": "Espectro eletromagnético",
-      "texto": "No espectro visível, o azul fica perto do violeta: tem comprimentos de onda menores e frequências maiores que as demais cores (exceto o violeta). Isso elimina C e D.",
-      "equacoes": [
-        "c = \\lambda f \\quad \\Rightarrow \\quad \\lambda\\ \\text{menor} \\Leftrightarrow f\\ \\text{maior}"
-      ],
-      "cena": {
-        "mostrar": [
-          "espectro",
-          "azul",
-          "setas"
-        ],
-        "destacar": [
-          "azul"
-        ]
-      }
-    },
-    {
-      "titulo": "A planta se curva para a luz",
-      "conceito": "Fototropismo",
-      "texto": "Com luz azul vindo de um lado, a muda se curva em direção à luz. Para isso, o lado sombreado precisa crescer mais que o lado iluminado.",
-      "cena": {
-        "mostrar": [
-          "planta",
-          "luz",
-          "lados"
-        ]
-      }
-    },
-    {
-      "titulo": "Onde a auxina se concentra",
-      "conceito": "Fototropismo",
-      "texto": "A auxina estimula a expansão celular. As fototropinas fazem a auxina se concentrar no lado sombreado, que se alonga mais, e a planta se curva para a luz. Isso elimina B e E. Resposta: <b>(A)</b>.",
-      "cena": {
-        "mostrar": [
-          "auxina"
-        ],
-        "destacar": [
-          "auxina"
-        ],
-        "estado": {
-          "curvar": true
+      "nome": "Física e biologia",
+      "telas": [
+        {
+          "titulo": "Onde fica o azul",
+          "cena": {
+            "mostrar": [
+              "espectro",
+              "azul"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "No espectro visível, o <b>azul</b> fica perto do violeta, no lado dos <b>menores comprimentos de onda</b>."
+            },
+            {
+              "t": "texto",
+              "html": "Todas as cores têm a mesma velocidade c:"
+            },
+            {
+              "t": "eq",
+              "tex": "c = \\lambda f"
+            },
+            {
+              "t": "texto",
+              "html": "Comprimento de onda menor significa <b>frequência maior</b>. Isso elimina C e D."
+            }
+          ]
+        },
+        {
+          "titulo": "Para onde vai a auxina",
+          "cena": {
+            "mostrar": [
+              "planta",
+              "auxina"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "A planta se curva <b>em direção à luz</b>."
+            },
+            {
+              "t": "texto",
+              "html": "Para isso, o lado <b>sombreado</b> precisa crescer mais."
+            },
+            {
+              "t": "texto",
+              "html": "Como a auxina estimula a expansão das células, ela se concentra no <b>lado sombreado</b>. Isso elimina B e E."
+            },
+            {
+              "t": "gabarito",
+              "letra": "A"
+            },
+            {
+              "t": "fim"
+            }
+          ]
         }
-      }
+      ]
     }
   ],
   "status": "revisado",
-  "criadoEm": "2026-11-14T22:00:00-03:00",
-  "atualizadoEm": "2026-11-14T22:00:00-03:00"
+  "criadoEm": "2026-11-15T09:00:00-03:00",
+  "atualizadoEm": "2026-11-15T09:00:00-03:00",
+  "revisao": {
+    "estado": "aprovada",
+    "comentario": "",
+    "atualizadoEm": "2026-11-15T16:03:00.825Z"
+  }
 }

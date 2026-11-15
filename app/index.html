@@ -176,6 +176,25 @@ article.q { background: var(--paper); border: 1px solid var(--line); border-top:
   .ap-stage { border-right: 0; border-bottom: 1px solid var(--line); }
 }
 @keyframes apIn { to { opacity: 1; transform: none; } }
+.ap-body.sem-cena { grid-template-columns: minmax(0, 1fr); }
+.ap-body.sem-cena .ap-stage { display: none; }
+.aula-abas { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 10px; }
+.aula-aba { border: 1px solid var(--line); background: var(--paper); border-radius: 999px; padding: 4px 14px; font-weight: 600; font-size: 0.86rem; }
+.aula-aba[aria-selected="true"] { background: var(--accent); color: var(--accent-ink); border-color: var(--accent); }
+.aula-lousa { position: relative; padding: 18px 26px 28px; overflow: auto; display: grid; align-content: start; gap: 12px; min-height: 340px; }
+.aula-tit { margin: 0 0 4px; font-size: 1.2rem; }
+.aula-txt { margin: 0; font-family: var(--f-body); font-size: 1.08rem; line-height: 1.6; }
+.aula-eq { font-size: 1.32rem; padding: 2px 0 2px 18px; border-left: 3px solid var(--soft); }
+.aula-gab { margin: 6px 0 0; font-size: 1.1rem; padding: 8px 12px; background: var(--ok-soft); border-left: 4px solid var(--ok); border-radius: 4px; }
+.aula-fim { margin: 4px 0 0; font-family: var(--f-mono); font-size: 0.85rem; color: var(--muted); }
+.aula-lousa .entra { opacity: 0; transform: translateY(6px); animation: apIn .5s ease forwards; }
+.aula-lousa .espera { visibility: hidden; }
+.aula-alvo { color: var(--mark); }
+.aula-oculto { visibility: hidden; }
+.aula-risco { position: absolute; height: 3px; background: var(--danger); border-radius: 2px; transform-origin: left center; transform: rotate(-14deg) scaleX(0); animation: aulaRisco .6s ease forwards; pointer-events: none; }
+@keyframes aulaRisco { to { transform: rotate(-14deg) scaleX(1); } }
+.aula-voo { position: absolute; font-size: 1.32rem; color: var(--mark); transition: transform .9s cubic-bezier(.4, 0, .2, 1); pointer-events: none; z-index: 2; }
+.aula-pos { font-family: var(--f-mono); font-size: 0.8rem; color: var(--muted); }
 /* elementos da cena */
 .ae { opacity: 0; transition: opacity .45s ease; pointer-events: none; }
 .ae.on { opacity: 1; }
@@ -446,6 +465,7 @@ function parseTex(src) {
     }
     if (c === "vec" || c === "overrightarrow") return { t: "vec", b: arg() };
     if (c === "boldsymbol") return { t: "bold", b: arg() };
+    if (c === "marca") { const id = rawGroup(); return { t: "mark", id, b: arg() }; } // trecho nomeado (animações de álgebra)
     if (c === "text" || c === "mathrm" || c === "textrm") return { t: "text", v: rawGroup() };
     if (c === "mathbf") return { t: "text", v: rawGroup(), bf: true };
     if (c === "left") { const o = delim(); const b = row(["right"]); if (!peek()) err("\\left sem \\right"); p++; return { t: "fence", o, cl: delim(), b }; }
@@ -483,6 +503,7 @@ function texToMathML(n) {
     case "subsup": return `<msubsup>${one(n.b)}${one(n.sub)}${one(n.sup)}</msubsup>`;
     case "vec": return `<mover accent="true">${one(n.b)}<mo stretchy="false">→</mo></mover>`;
     case "fence": return `<mrow><mo>${mesc(n.o)}</mo>${texToMathML(n.b)}<mo>${mesc(n.cl)}</mo></mrow>`;
+    case "mark": return `<mrow data-m="${mesc(n.id)}">${texToMathML(n.b)}</mrow>`;
   }
   return "";
 }
@@ -503,6 +524,7 @@ function texToOMML(n) {
     case "sub": return `<m:sSub><m:e>${e(n.b)}</m:e><m:sub>${e(n.s)}</m:sub></m:sSub>`;
     case "subsup": return `<m:sSubSup><m:e>${e(n.b)}</m:e><m:sub>${e(n.sub)}</m:sub><m:sup>${e(n.sup)}</m:sup></m:sSubSup>`;
     case "vec": return `<m:acc><m:accPr><m:chr m:val="⃗"/></m:accPr><m:e>${e(n.b)}</m:e></m:acc>`;
+    case "mark": return texToOMML(n.b);
     case "fence": return `<m:d><m:dPr><m:begChr m:val="${mesc(n.o)}"/><m:endChr m:val="${mesc(n.cl)}"/></m:dPr><m:e>${e(n.b)}</m:e></m:d>`;
   }
   return "";
@@ -1442,7 +1464,7 @@ CENAS["indicador-combustivel"] = (svg, P) => {
   const volta2 = [[400, 395], [12, 395], [12, YC]];
   [caminho, volta2].forEach(c => S("polyline", { points: c.map(p => p.join(",")).join(" "), class: "fio" }, el.circuito));
   const fioCursor = S("polyline", { class: "fio" }, el.circuito);
-  S("rect", { x: 400, y: 378, width: 70, height: 36, rx: 4, fill: "#2a2a2a" }, el.circuito); sLabel(el.circuito, 435, 364, "bateria", "", "t-mute", "middle");
+  S("rect", { x: 400, y: 378, width: 70, height: 36, rx: 4, fill: "#2a2a2a" }, el.circuito); [["−", 404], ["+", 468]].forEach(([t, x]) => { S("text", { x, y: 376, fill: "var(--ink)", "font-size": 24, "font-weight": 700, "text-anchor": "middle" }, el.circuito).textContent = t; }); sLabel(el.circuito, 435, 362, "bateria", "", "t-mute", "middle");
   // lâmina bimetálica (A à esquerda, B à direita) com bobina
   el.lamina = S("g", { class: "ae" }, svg);
   const lamA = S("path", { fill: "none", stroke: "#d64545", "stroke-width": 6 }, el.lamina), lamB = S("path", { fill: "none", stroke: "#3a7bd5", "stroke-width": 6 }, el.lamina);
@@ -1469,6 +1491,7 @@ CENAS["indicador-combustivel"] = (svg, P) => {
   sLabel(el.zoom, 514, 245, "A", "", "t-b"); sLabel(el.zoom, 537, 245, "B", "", "t-b");
   sRich(el.zoom, 560, 262, "B fica do lado de fora:", "t-mute"); sRich(el.zoom, 560, 278, "α_{B} > α_{A}", "t-b");
   const R0 = 1, Rr = n => 0.6 + 2.4 * (1 - n); // resistências (unidades arbitrárias)
+  let desloc = 0, ultPh = null;
   function pos(n, ph) { // n: nível (1 cheio, 0 vazio)
     const yN = TY + TH - (TH - 8) * n; comb.setAttribute("y", yN); comb.setAttribute("height", TY + TH - yN - 2);
     const bx = TX + TW * 0.45, by = Math.min(TY + TH - 14, yN - 4); boia.setAttribute("cx", bx); boia.setAttribute("cy", by);
@@ -1486,9 +1509,12 @@ CENAS["indicador-combustivel"] = (svg, P) => {
     const ang = Math.PI * (1 - curv) * 0.85 + Math.PI * 0.075; pont.setAttribute("x2", MX + 60 * Math.cos(ang)); pont.setAttribute("y2", MY - 60 * Math.sin(ang));
     lig.setAttribute("x1", tipX); lig.setAttribute("y1", tipY); lig.setAttribute("x2", MX + 30); lig.setAttribute("y2", MY + 4);
     tI.textContent = q > 0.97 ? "corrente maior" : q < 0.42 ? "corrente menor" : "corrente diminuindo";
-    const off = (ph * 70 * q) % 28;
+    // deslocamento acumulado quadro a quadro: a velocidade das cargas cai com a corrente, mas o sentido nunca inverte
+    if (ultPh !== null && ph > ultPh && ph - ultPh < 0.5) desloc += (ph - ultPh) * 70 * q;
+    ultPh = ph;
+    const off = desloc % 28;
     const { segs, L } = trecho(rota(xs));
-    dots.forEach((d, k) => { const s = k * 28 + off; d.style.display = s > L ? "none" : ""; if (s > L) return; const sg = segs.find(g => s >= g[2] && s <= g[2] + g[3]) || segs[segs.length - 1]; const t = (s - sg[2]) / sg[3]; d.setAttribute("cx", sg[0][0] + (sg[1][0] - sg[0][0]) * t); d.setAttribute("cy", sg[0][1] + (sg[1][1] - sg[0][1]) * t); });
+    dots.forEach((d, k) => { const s0 = k * 28 + off; d.style.display = s0 > L ? "none" : ""; if (s0 > L) return; const s = L - s0; /* sentido convencional: sai do + (direita da bateria) */ const sg = segs.find(g => s >= g[2] && s <= g[2] + g[3]) || segs[segs.length - 1]; const t = (s - sg[2]) / sg[3]; d.setAttribute("cx", sg[0][0] + (sg[1][0] - sg[0][0]) * t); d.setAttribute("cy", sg[0][1] + (sg[1][1] - sg[0][1]) * t); });
   }
   let stop = () => {};
   pos(1, 0);
@@ -1852,6 +1878,7 @@ CENAS["diagrama"] = (svg, P) => {
 
 /* Player: abre o roteiro de uma questão num painel com a cena à esquerda e o passo à direita. */
 function openPlayer(q, rot) {
+  if (rot.formato === "aula") return openAula(q, rot);
   const fab = CENAS[rot.cena && rot.cena.modelo];
   if (!fab) { toast("Esta resolução animada usa um modelo de cena que o app ainda não conhece."); return; }
   const ov = el("div", { class: "ap-overlay" });
@@ -1916,6 +1943,96 @@ function openPlayer(q, rot) {
   prev.onclick = () => show(cur - 1, false); next.onclick = () => show(cur + 1); again.onclick = () => show(cur, true);
   state.player = { fechar };
   show(0); next.focus();
+}
+
+/* Resolução no formato "aula" (v2.15.0): cadência de professor. Cada tela mostra seus blocos um a um
+   (texto, equação, gabarito); uma equação pode derivar da anterior riscando trechos (cancelar) ou
+   levando trechos para a nova posição (mover), usando \marca{id}{...}. Métodos em abas. */
+function openAula(q, rot) {
+  const ov = el("div", { class: "ap-overlay" });
+  const dlg = el("section", { class: "ap aula", role: "dialog", "aria-modal": "true", "aria-label": "Resolução animada" });
+  const close = el("button", { class: "btn ghost", type: "button", text: "Fechar" });
+  const abas = el("div", { class: "aula-abas", role: "tablist" });
+  dlg.append(el("header", {}, el("div", {}, el("h2", { text: rot.titulo }), el("div", { class: "ap-sub", text: "Resolução animada · " + label(q) }), abas), close));
+  const svg = S("svg", { role: "img", "aria-label": "Desenho da situação" });
+  const stage = el("div", { class: "ap-stage" }, svg);
+  const lousa = el("div", { class: "aula-lousa", "aria-live": "polite" });
+  const corpo = el("div", { class: "ap-body" }, stage, lousa);
+  dlg.append(corpo);
+  const prev = el("button", { class: "btn", type: "button", text: "← Tela anterior" }), next = el("button", { class: "btn primary", type: "button", text: "Próxima tela →" });
+  const again = el("button", { class: "btn ghost", type: "button", text: "↻ Repetir tela" });
+  const pos = el("span", { class: "aula-pos" });
+  dlg.append(el("footer", {}, pos, el("div", { class: "ap-nav" }, again, prev, next)));
+  ov.append(dlg); document.body.append(ov);
+  let cena = null;
+  if (rot.cena && CENAS[rot.cena.modelo]) { try { cena = CENAS[rot.cena.modelo](svg, rot.cena.parametros || {}); Object.values(cena.el).forEach(n => n.classList.add("ae")); } catch (e) { console.warn(e); cena = null; } }
+  const telas = [];
+  (rot.abertura || []).forEach(t => telas.push({ ...t, metodo: -1 }));
+  (rot.metodos || []).forEach((m, i) => (m.telas || []).forEach(t => telas.push({ ...t, metodo: i })));
+  (rot.metodos || []).forEach((m, i) => abas.append(el("button", { type: "button", role: "tab", class: "aula-aba", text: (rot.metodos.length > 1 ? `Método ${i + 1}: ` : "") + m.nome,
+    onclick: () => mostrar(telas.findIndex(t => t.metodo === i)) })));
+  let cur = 0, timers = [], fila = [];
+  const limpar = () => { timers.forEach(clearTimeout); timers = []; fila = []; };
+  const espera = b => b.t === "texto" ? 900 + 30 * String(b.html || "").replace(/<[^>]+>|\\\(.*?\\\)/g, "").length : b.t === "eq" ? (b.cancelar || b.mover ? 2600 : 1500) : 1200;
+  function bloco(b, ultimaEq, animar) {
+    if (b.t === "texto") { const d = el("p", { class: "aula-txt" + (animar ? " entra" : "") }); d.innerHTML = safeInline(b.html || ""); lousa.append(d); return null; }
+    if (b.t === "gabarito") { const d = el("p", { class: "aula-gab" + (animar ? " entra" : "") }); d.innerHTML = "Gabarito: <b>(" + mesc(b.letra) + ")</b>"; lousa.append(d); return null; }
+    if (b.t === "fim") { lousa.append(el("p", { class: "aula-fim" + (animar ? " entra" : ""), text: "Fim da resolução." })); return null; }
+    const d = el("div", { class: "aula-eq" + (animar ? " entra" : "") }); d.innerHTML = mathHTML(b.tex || "");
+    if (!animar || !ultimaEq) { lousa.append(d); return d; }
+    const corta = (b.cancelar || []).map(id => ultimaEq.querySelector(`[data-m="${id}"]`)).filter(Boolean);
+    const leva = (b.mover || []).map(id => [ultimaEq.querySelector(`[data-m="${id}"]`), d.querySelector(`[data-m="${id}"]`)]).filter(x => x[0] && x[1]);
+    const base = lousa.getBoundingClientRect();
+    corta.forEach(n => { n.classList.add("aula-alvo"); const r = n.getBoundingClientRect();
+      const risco = el("span", { class: "aula-risco" }); Object.assign(risco.style, { left: (r.left - base.left + lousa.scrollLeft - 3) + "px", top: (r.top - base.top + lousa.scrollTop + r.height / 2) + "px", width: (r.width + 6) + "px" }); lousa.append(risco); });
+    (b.mover || []).forEach(id => { const n = ultimaEq.querySelector(`[data-m="${id}"]`); if (n) n.classList.add("aula-alvo"); });
+    d.classList.add("espera"); lousa.append(d);
+    leva.forEach(([, alvo]) => alvo.classList.add("aula-oculto"));
+    timers.push(setTimeout(() => {
+      d.classList.remove("espera");
+      const b2 = lousa.getBoundingClientRect();
+      leva.forEach(([orig, alvo]) => {
+        const r1 = orig.getBoundingClientRect(), r2 = alvo.getBoundingClientRect();
+        const voo = el("span", { class: "aula-voo" }); voo.innerHTML = `<math displaystyle="true">${orig.outerHTML}</math>`;
+        Object.assign(voo.style, { left: (r1.left - b2.left + lousa.scrollLeft) + "px", top: (r1.top - b2.top + lousa.scrollTop) + "px" }); lousa.append(voo);
+        requestAnimationFrame(() => requestAnimationFrame(() => { voo.style.transform = `translate(${r2.left - r1.left}px, ${r2.top - r1.top}px)`; }));
+        timers.push(setTimeout(() => { alvo.classList.remove("aula-oculto"); voo.remove(); }, 1000));
+      });
+    }, corta.length ? 1100 : 500));
+    return d;
+  }
+  function mostrar(k, animar = true) {
+    limpar(); cur = k; const t = telas[k];
+    lousa.replaceChildren();
+    const vis = new Set(((t.cena || {}).mostrar) || []);
+    const temCena = cena && vis.size > 0;
+    corpo.classList.toggle("sem-cena", !temCena);
+    if (cena) { Object.entries(cena.el).forEach(([id, n]) => { n.classList.toggle("on", vis.has(id)); n.classList.remove("entra"); if (vis.has(id) && animar) { void n.getBoundingClientRect(); n.classList.add("entra"); } }); cena.update({ ...(((t.cena || {}).estado) || {}), animar: ((t.cena || {}).animar) || [] }); }
+    if (t.titulo) lousa.append(el("h3", { class: "aula-tit", text: t.titulo }));
+    let ultimaEq = null; const blocos = t.blocos || [];
+    if (!animar) { blocos.forEach(b => { const d = bloco(b, ultimaEq, false); if (d) ultimaEq = d; }); }
+    else {
+      let i = 0;
+      const passo = () => { if (i >= blocos.length) { fila = []; return; } const b = blocos[i++]; const d = bloco(b, ultimaEq, true); if (d) ultimaEq = d; lousa.scrollTop = lousa.scrollHeight; timers.push(setTimeout(passo, espera(b))); };
+      fila = blocos; timers.push(setTimeout(passo, 400));
+    }
+    [...abas.children].forEach((a, i) => a.setAttribute("aria-selected", i === t.metodo ? "true" : "false"));
+    const doMetodo = telas.filter(x => x.metodo === t.metodo), j = doMetodo.indexOf(t);
+    pos.textContent = t.metodo < 0 ? "Introdução" : `${rot.metodos[t.metodo].nome} · tela ${j + 1} de ${doMetodo.length}`;
+    prev.disabled = k === 0; next.disabled = k === telas.length - 1;
+  }
+  const completar = () => { if (fila.length) { mostrar(cur, false); return true; } return false; };
+  const fechar = () => { limpar(); if (cena) cena.stop(); ov.remove(); document.removeEventListener("keydown", tecla, true); state.player = null; };
+  const tecla = e => {
+    if (e.key === "Escape") { e.stopPropagation(); fechar(); }
+    else if (e.key === "ArrowRight") { e.stopPropagation(); e.preventDefault(); if (!completar() && cur < telas.length - 1) mostrar(cur + 1); }
+    else if (e.key === "ArrowLeft") { e.stopPropagation(); e.preventDefault(); if (cur > 0) mostrar(cur - 1, false); }
+  };
+  document.addEventListener("keydown", tecla, true);
+  close.onclick = fechar; ov.addEventListener("click", e => { if (e.target === ov) fechar(); });
+  prev.onclick = () => mostrar(cur - 1, false); next.onclick = () => { if (!completar()) mostrar(cur + 1); }; again.onclick = () => mostrar(cur, true);
+  state.player = { fechar };
+  mostrar(0); next.focus();
 }
 
 /* Modo site estático: questões em questoes.json e download do .docx direto pelo navegador. */

@@ -1,86 +1,104 @@
 {
   "id": "unesp-2026-q82",
-  "titulo": "Do nível do tanque ao ponteiro do mostrador",
+  "formato": "aula",
+  "titulo": "Corrente no reostato e a lâmina bimetálica",
   "conceitos": [
-    "Segunda lei de Ohm",
     "Primeira lei de Ohm",
-    "Dilatação térmica",
-    "Lâmina bimetálica"
+    "Dilatação térmica dos sólidos"
   ],
   "cena": {
     "modelo": "indicador-combustivel",
     "parametros": {}
   },
-  "passos": [
+  "metodos": [
     {
-      "titulo": "O circuito do indicador",
-      "conceito": "Primeira lei de Ohm",
-      "texto": "A bateria, a parte do reostato que está no circuito e o fio enrolado na lâmina bimetálica estão em série: a mesma corrente passa por todos. Ela aquece a lâmina, que se curva e move o ponteiro.",
-      "cena": {
-        "mostrar": [
-          "tanque",
-          "reostato",
-          "circuito",
-          "lamina",
-          "mostrador",
-          "corrente"
-        ],
-        "estado": {
-          "nivel": 1
+      "nome": "Duas lacunas",
+      "telas": [
+        {
+          "titulo": "1ª lacuna: a corrente",
+          "cena": {
+            "mostrar": [
+              "tanque",
+              "reostato",
+              "circuito",
+              "lamina",
+              "mostrador",
+              "corrente"
+            ],
+            "estado": {
+              "nivel": "esvaziar"
+            }
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "Com o consumo, a boia desce e uma porção <b>maior</b> do reostato entra no circuito: a resistência <b>aumenta</b>."
+            },
+            {
+              "t": "texto",
+              "html": "A tensão da bateria é fixa. Pela primeira lei de Ohm:"
+            },
+            {
+              "t": "eq",
+              "tex": "i = \\dfrac{U}{R}"
+            },
+            {
+              "t": "texto",
+              "html": "R maior, i <b>menor</b>: a corrente vai <b>diminuindo</b>."
+            }
+          ]
+        },
+        {
+          "titulo": "2ª lacuna: os metais",
+          "cena": {
+            "mostrar": [
+              "tanque",
+              "reostato",
+              "circuito",
+              "lamina",
+              "mostrador",
+              "corrente",
+              "zoom"
+            ],
+            "estado": {
+              "nivel": 1
+            }
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "Com o tanque cheio, a corrente é maior e a lâmina, mais aquecida, se curva."
+            },
+            {
+              "t": "texto",
+              "html": "Na figura 1, ela se curva para o lado do metal <b>A</b>: A fica na parte interna da curva."
+            },
+            {
+              "t": "texto",
+              "html": "Numa lâmina bimetálica aquecida, o metal que dilata <b>mais</b> fica do lado <b>externo</b>. Então B dilata mais."
+            },
+            {
+              "t": "texto",
+              "html": "O coeficiente de dilatação de A é <b>menor do que o</b> de B."
+            },
+            {
+              "t": "gabarito",
+              "letra": "B"
+            },
+            {
+              "t": "fim"
+            }
+          ]
         }
-      }
-    },
-    {
-      "titulo": "O tanque esvazia",
-      "conceito": "Segunda lei de Ohm",
-      "texto": "A boia desce, e uma porção maior do reostato entra no circuito. A resistência de um fio cresce com o comprimento.",
-      "equacoes": [
-        "R = \\rho \\dfrac{L}{A}"
-      ],
-      "cena": {
-        "destacar": [
-          "reostato"
-        ],
-        "estado": {
-          "nivel": "esvaziar"
-        }
-      }
-    },
-    {
-      "titulo": "A corrente diminui",
-      "conceito": "Primeira lei de Ohm",
-      "texto": "Com a tensão da bateria fixa e a resistência maior, a corrente diminui. Primeira lacuna: “diminuindo”.",
-      "equacoes": [
-        "i = \\dfrac{U}{R}"
-      ],
-      "cena": {
-        "destacar": [
-          "corrente"
-        ]
-      }
-    },
-    {
-      "titulo": "Qual metal dilata mais",
-      "conceito": "Lâmina bimetálica",
-      "texto": "Com o tanque cheio, a corrente é maior, a lâmina esquenta e se curva para o lado do metal A, que fica na parte de dentro da curva. Quem dilata mais fica do lado de fora: o metal B. Logo, o coeficiente de dilatação de A é menor que o de B. Resposta: <b>(B) diminuindo – menor do que o</b>.",
-      "equacoes": [
-        "\\alpha_{\\text{A}} < \\alpha_{\\text{B}}"
-      ],
-      "cena": {
-        "mostrar": [
-          "zoom"
-        ],
-        "destacar": [
-          "zoom",
-          "lamina"
-        ],
-        "estado": {
-          "nivel": 1
-        }
-      }
+      ]
     }
   ],
   "status": "revisado",
-  "criadoEm": "2026-11-14T22:00:00-03:00",
-  "atualizadoEm": "2026-11-14T22:00:00-03:00"
+  "criadoEm": "2026-11-15T09:00:00-03:00",
+  "atualizadoEm": "2026-11-15T09:00:00-03:00",
+  "revisao": {
+    "estado": "aprovada",
+    "comentario": "Agora está muito bom, mas a corrente tem seu sentido invertido por alguma razão.",
+    "atualizadoEm": "2026-11-15T18:16:31.034Z"
+  }
 }

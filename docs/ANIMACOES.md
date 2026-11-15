@@ -16,6 +16,32 @@ Piloto (v2.8.0): Unesp 2025 Q78 (plano inclinado), ENEM 2023 Q98 (circuito) e Un
 Q58 (gráfico v × t). Desde a v2.9.0 o trabalho segue por vestibular, ano a ano, começando pela
 Unesp: 2026 completa (Q76–Q82) e 2025 completa (Q48, Q76–Q82, Q84, Q90).
 
+
+## Formato "aula" (v2.15.0) — o estilo pedido pelo Lucas
+
+A resolução é dada como um professor faria na lousa:
+
+- **Abertura** (opcional): quando há mais de um caminho, uma tela que os apresenta ("Há dois
+  métodos..."). Os métodos ficam em **abas**; o aluno escolhe qual vê.
+- **Telas** de cada método, com **blocos** que aparecem um a um, com pausa proporcional ao
+  tamanho: `{"t": "texto", "html": "..."}` (negrito com `<b>` onde importa; LaTeX entre `\(` e
+  `\)`), `{"t": "eq", "tex": "..."}` (uma equação por bloco), `{"t": "gabarito", "letra": "A"}` e
+  `{"t": "fim"}`.
+- **Álgebra animada**: marque trechos com `\marca{id}{...}`. No bloco seguinte,
+  `"cancelar": ["id", ...]` risca esses trechos da equação anterior antes de mostrar a nova;
+  `"mover": ["id"]` leva o trecho (com a mesma marca nas duas equações) da posição antiga para a
+  nova, como em "passar para o outro lado".
+- **Preferir cancelamentos a contas intermediárias** (ex.: escrever 70 = 7 · 10 e cancelar o 7).
+- **Cena** (modelo `diagrama`) só quando agrega: simulação se ajuda a entender o fenômeno,
+  desenho estático se basta, nenhuma se o texto resolve. Cada tela diz o que mostrar
+  (`cena.mostrar`) e quais animações rodam (`cena.animar`).
+  Também vale um **modelo pronto** do app (ex.: `indicador-combustivel`, Unesp 2026 Q82); aí a
+  tela usa `cena.estado` com os estados do modelo (em `MODELOS`, `pipeline/animacoes.py`).
+- **Imagens em espelhos e lentes**: desenhar imagem virtual do lado virtual (atrás do espelho),
+  com o tamanho dado pelo aumento (revisão do Lucas na Unesp 2026 Q79).
+- Cada método termina com o gabarito e "Fim da resolução.".
+- Exemplo completo: `data/animacoes/unesp-2026-q81.json` (dois métodos, cancelamento e mover).
+
 ## Como funciona
 
 Um **roteiro** por questão em `data/animacoes/<id>.json` (esquema em

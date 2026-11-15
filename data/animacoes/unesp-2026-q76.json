@@ -1,108 +1,324 @@
 {
   "id": "unesp-2026-q76",
-  "titulo": "Do gráfico da velocidade à aceleração média",
+  "formato": "aula",
+  "titulo": "Aceleração escalar média da sombra",
   "conceitos": [
-    "Movimento harmônico simples",
-    "Velocidade no MHS",
-    "Aceleração escalar média"
+    "Aceleração escalar média",
+    "Movimento harmônico simples"
   ],
   "cena": {
-    "modelo": "mhs-sombra",
+    "modelo": "diagrama",
     "parametros": {
-      "amplitude": 0.3,
-      "periodo": 4,
-      "t1": 1,
-      "t2": 4
+      "elementos": {
+        "fixo": [
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                40,
+                330
+              ],
+              [
+                600,
+                330
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 3
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                260,
+                40
+              ],
+              [
+                380,
+                40
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 4
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                320,
+                40
+              ],
+              [
+                320,
+                330
+              ]
+            ],
+            "cor": "mudo",
+            "larg": 1,
+            "tracejado": true
+          },
+          {
+            "t": "circ",
+            "x": 198.1,
+            "y": 330,
+            "r": 5,
+            "cor": "tinta",
+            "borda": "tinta"
+          },
+          {
+            "t": "texto",
+            "x": 198.1,
+            "y": 354,
+            "txt": "A",
+            "negrito": true
+          },
+          {
+            "t": "circ",
+            "x": 441.9,
+            "y": 330,
+            "r": 5,
+            "cor": "tinta",
+            "borda": "tinta"
+          },
+          {
+            "t": "texto",
+            "x": 441.9,
+            "y": 354,
+            "txt": "B",
+            "negrito": true
+          },
+          {
+            "t": "seta",
+            "de": [
+              80,
+              380
+            ],
+            "para": [
+              180,
+              380
+            ],
+            "cor": "tinta",
+            "larg": 2
+          },
+          {
+            "t": "texto",
+            "x": 130,
+            "y": 400,
+            "txt": "sentido +",
+            "mudo": true
+          },
+          {
+            "t": "seta",
+            "de": [
+              60,
+              70
+            ],
+            "para": [
+              60,
+              110
+            ],
+            "cor": "luz",
+            "larg": 3
+          },
+          {
+            "t": "seta",
+            "de": [
+              140,
+              70
+            ],
+            "para": [
+              140,
+              110
+            ],
+            "cor": "luz",
+            "larg": 3
+          },
+          {
+            "t": "seta",
+            "de": [
+              460,
+              70
+            ],
+            "para": [
+              460,
+              110
+            ],
+            "cor": "luz",
+            "larg": 3
+          },
+          {
+            "t": "seta",
+            "de": [
+              540,
+              70
+            ],
+            "para": [
+              540,
+              110
+            ],
+            "cor": "luz",
+            "larg": 3
+          }
+        ],
+        "pendulo": [
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                320,
+                40
+              ],
+              [
+                320,
+                270
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 2
+          },
+          {
+            "t": "circ",
+            "x": 320,
+            "y": 270,
+            "r": 13,
+            "cor": "#3a86c8",
+            "borda": "tinta"
+          }
+        ],
+        "sombra": [
+          {
+            "t": "ret",
+            "x": 306,
+            "y": 325,
+            "w": 28,
+            "h": 8,
+            "cor": "tinta",
+            "borda": null
+          },
+          {
+            "t": "texto",
+            "x": 320,
+            "y": 374,
+            "txt": "sombra",
+            "mudo": true
+          }
+        ]
+      },
+      "animacoes": {
+        "pendulo": {
+          "alvo": "pendulo",
+          "tipo": "oscilar",
+          "graus": 32,
+          "centro": [
+            320,
+            40
+          ],
+          "periodo": 4
+        },
+        "sombra": {
+          "alvo": "sombra",
+          "tipo": "oscilar",
+          "dx": -121.88143077363713,
+          "periodo": 4
+        }
+      },
+      "altura": 420
     }
   },
-  "passos": [
+  "metodos": [
     {
-      "titulo": "A sombra faz MHS",
-      "conceito": "Movimento harmônico simples",
-      "texto": "A luz vem de cima, então a sombra acompanha o movimento horizontal da esfera e vai e volta entre A e B. A função dada é a velocidade da sombra em cada instante.",
-      "cena": {
-        "mostrar": [
-          "pendulo",
-          "sombra",
-          "vetor-v"
-        ]
-      }
-    },
-    {
-      "titulo": "O gráfico da velocidade",
-      "conceito": "Velocidade no MHS",
-      "texto": "A velocidade é máxima quando a sombra passa pelo centro e nula nos extremos A e B, onde ela inverte o sentido. É negativa quando a sombra vai para A (contra o sentido positivo).",
-      "cena": {
-        "mostrar": [
-          "grafico"
-        ],
-        "estado": {
-          "cursor": true
+      "nome": "Pela definição",
+      "telas": [
+        {
+          "titulo": "O que a questão pede",
+          "cena": {
+            "mostrar": [
+              "fixo",
+              "pendulo",
+              "sombra"
+            ],
+            "animar": [
+              "pendulo",
+              "sombra"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "A sombra oscila entre A e B enquanto a esfera balança."
+            },
+            {
+              "t": "texto",
+              "html": "Para a <b>aceleração escalar média</b>, só precisamos da velocidade em dois instantes:"
+            },
+            {
+              "t": "eq",
+              "tex": "a_{m} = \\dfrac{\\Delta v}{\\Delta t} = \\dfrac{v(4) - v(1)}{4 - 1}"
+            }
+          ]
+        },
+        {
+          "titulo": "As duas velocidades",
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "Em <b>t = 1 s</b>, o argumento do seno vale π/2, e sen(π/2) = 1:"
+            },
+            {
+              "t": "eq",
+              "tex": "v(1) = -\\dfrac{0,3\\pi}{2} \\cdot \\sen\\dfrac{\\pi}{2}"
+            },
+            {
+              "t": "eq",
+              "tex": "v(1) = -0,15\\pi\\ \\text{m/s}"
+            },
+            {
+              "t": "texto",
+              "html": "Em <b>t = 4 s</b>, o argumento vale 2π, e sen(2π) = 0:"
+            },
+            {
+              "t": "eq",
+              "tex": "v(4) = -\\dfrac{0,3\\pi}{2} \\cdot \\sen 2\\pi = 0"
+            }
+          ]
+        },
+        {
+          "titulo": "A aceleração média",
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "Substituindo na definição:"
+            },
+            {
+              "t": "eq",
+              "tex": "a_{m} = \\dfrac{0 - (-0,15\\pi)}{3}"
+            },
+            {
+              "t": "eq",
+              "tex": "a_{m} = \\dfrac{0,15\\pi}{3}"
+            },
+            {
+              "t": "eq",
+              "tex": "a_{m} = 0,05\\pi\\ \\text{m/s}^{2}"
+            },
+            {
+              "t": "gabarito",
+              "letra": "A"
+            },
+            {
+              "t": "fim"
+            }
+          ]
         }
-      }
-    },
-    {
-      "titulo": "Em t = 1 s",
-      "conceito": "Velocidade no MHS",
-      "texto": "A sombra passa pelo centro indo para A: a velocidade tem o maior valor possível, com sinal negativo.",
-      "equacoes": [
-        "\\mathrm{v}(1) = -\\dfrac{0,3 \\cdot \\pi}{2} \\cdot \\sen\\left(\\dfrac{\\pi}{2}\\right) = -0,15\\pi\\ \\text{m/s}"
-      ],
-      "cena": {
-        "mostrar": [
-          "ponto-1"
-        ],
-        "destacar": [
-          "ponto-1"
-        ],
-        "estado": {
-          "t": 1,
-          "cursor": true
-        }
-      }
-    },
-    {
-      "titulo": "Em t = 4 s",
-      "conceito": "Velocidade no MHS",
-      "texto": "Depois de um período inteiro, a sombra volta a B, um extremo do movimento: ali ela para por um instante.",
-      "equacoes": [
-        "\\mathrm{v}(4) = -\\dfrac{0,3 \\cdot \\pi}{2} \\cdot \\sen(2\\pi) = 0"
-      ],
-      "cena": {
-        "mostrar": [
-          "ponto-2"
-        ],
-        "destacar": [
-          "ponto-2"
-        ],
-        "estado": {
-          "t": 4,
-          "cursor": true
-        }
-      }
-    },
-    {
-      "titulo": "Aceleração escalar média",
-      "conceito": "Aceleração escalar média",
-      "texto": "A aceleração escalar média só depende das velocidades no início e no fim do intervalo: no gráfico, é a inclinação da reta que liga os dois pontos. Resposta: <b>(A) 0,05 · π m/s²</b>.",
-      "equacoes": [
-        "a_{\\text{m}} = \\dfrac{\\Delta \\mathrm{v}}{\\Delta t} = \\dfrac{0 - (-0,15\\pi)}{4 - 1} = 0,05\\pi\\ \\text{m/s}^{2}"
-      ],
-      "cena": {
-        "mostrar": [
-          "secante"
-        ],
-        "destacar": [
-          "secante"
-        ],
-        "estado": {
-          "t": 4,
-          "cursor": false
-        }
-      }
+      ]
     }
   ],
   "status": "revisado",
-  "criadoEm": "2026-11-14T22:00:00-03:00",
-  "atualizadoEm": "2026-11-14T22:30:00-03:00"
+  "criadoEm": "2026-11-15T09:00:00-03:00",
+  "atualizadoEm": "2026-11-15T09:00:00-03:00",
+  "revisao": {
+    "estado": "aprovada",
+    "comentario": "",
+    "atualizadoEm": "2026-11-15T16:00:03.759Z"
+  }
 }

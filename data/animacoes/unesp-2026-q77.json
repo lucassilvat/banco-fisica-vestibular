@@ -1,83 +1,327 @@
 {
   "id": "unesp-2026-q77",
-  "titulo": "Para onde aponta cada vetor no morador de Oslo?",
+  "formato": "aula",
+  "titulo": "O ângulo entre a aceleração centrípeta e a gravidade",
   "conceitos": [
     "Movimento circular uniforme",
-    "Força gravitacional",
     "Aceleração centrípeta",
-    "Latitude"
+    "Força gravitacional"
   ],
   "cena": {
-    "modelo": "rotacao-latitude",
+    "modelo": "diagrama",
     "parametros": {
-      "latitude": 60
+      "elementos": {
+        "terra": [
+          {
+            "t": "circ",
+            "x": 300,
+            "y": 220,
+            "r": 160,
+            "cor": "#d9ecf7",
+            "borda": "tinta",
+            "larg": 2
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                300,
+                30
+              ],
+              [
+                300,
+                410
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 2
+          },
+          {
+            "t": "texto",
+            "x": 308,
+            "y": 26,
+            "txt": "eixo de rotação",
+            "mudo": true,
+            "ancora": "start"
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                140,
+                220
+              ],
+              [
+                460,
+                220
+              ]
+            ],
+            "cor": "mudo",
+            "larg": 1.5,
+            "tracejado": true
+          },
+          {
+            "t": "texto",
+            "x": 146,
+            "y": 210,
+            "txt": "equador",
+            "mudo": true,
+            "ancora": "start"
+          },
+          {
+            "t": "circ",
+            "x": 300,
+            "y": 220,
+            "r": 4,
+            "cor": "tinta",
+            "borda": "tinta"
+          },
+          {
+            "t": "circ",
+            "x": 380.0,
+            "y": 81.4,
+            "r": 7,
+            "cor": "perigo",
+            "borda": "tinta"
+          },
+          {
+            "t": "texto",
+            "x": 392.0,
+            "y": 73.4,
+            "txt": "Oslo",
+            "negrito": true,
+            "cor": "perigo",
+            "ancora": "start"
+          }
+        ],
+        "latitude": [
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                300,
+                220
+              ],
+              [
+                380.0,
+                81.4
+              ]
+            ],
+            "cor": "mudo",
+            "larg": 1.5
+          },
+          {
+            "t": "angulo",
+            "centro": [
+              300,
+              220
+            ],
+            "de": 0,
+            "ate": -60,
+            "r": 46,
+            "cor": "acel"
+          },
+          {
+            "t": "texto",
+            "x": 358,
+            "y": 190,
+            "txt": "60º",
+            "negrito": true,
+            "cor": "acel",
+            "ancora": "start"
+          }
+        ],
+        "paralelo": [
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                300,
+                81.4
+              ],
+              [
+                380.0,
+                81.4
+              ]
+            ],
+            "cor": "normal",
+            "larg": 1.5,
+            "tracejado": true
+          },
+          {
+            "t": "circ",
+            "x": 300,
+            "y": 81.4,
+            "r": 4,
+            "cor": "normal",
+            "borda": "tinta"
+          }
+        ],
+        "acp": [
+          {
+            "t": "seta",
+            "de": [
+              380.0,
+              81.4
+            ],
+            "para": [
+              310.0,
+              81.4
+            ],
+            "cor": "normal",
+            "larg": 3.5,
+            "rot_em": [
+              340.0,
+              63.43593539448983
+            ],
+            "ancora": "middle",
+            "rotulo": "a",
+            "sub": "cp"
+          }
+        ],
+        "fg": [
+          {
+            "t": "seta",
+            "de": [
+              380.0,
+              81.4
+            ],
+            "para": [
+              340.0,
+              150.7
+            ],
+            "cor": "peso",
+            "larg": 3.5,
+            "rot_em": [
+              350.0,
+              156.71796769724492
+            ],
+            "ancora": "start",
+            "rotulo": "F",
+            "sub": "g"
+          },
+          {
+            "t": "angulo",
+            "centro": [
+              380.0,
+              81.4
+            ],
+            "de": 120,
+            "ate": 180,
+            "r": 44,
+            "cor": "acel"
+          },
+          {
+            "t": "texto",
+            "x": 322.0,
+            "y": 111.4,
+            "txt": "60º",
+            "negrito": true,
+            "cor": "acel",
+            "ancora": "end"
+          }
+        ]
+      }
     }
   },
-  "passos": [
+  "metodos": [
     {
-      "titulo": "O morador gira com a Terra",
-      "conceito": "Movimento circular uniforme",
-      "texto": "Com a rotação da Terra, o morador descreve uma circunferência: o paralelo de 60° N. O centro dessa circunferência fica sobre o eixo de rotação, à mesma altura do morador, e não no centro da Terra.",
-      "cena": {
-        "mostrar": [
-          "terra",
-          "eixo",
-          "equador",
-          "paralelo",
-          "morador"
-        ],
-        "estado": {
-          "girar": true
+      "nome": "Pela geometria",
+      "telas": [
+        {
+          "titulo": "Onde está o morador",
+          "cena": {
+            "mostrar": [
+              "terra",
+              "latitude"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "Oslo está a <b>60º de latitude norte</b>."
+            },
+            {
+              "t": "texto",
+              "html": "A latitude é o ângulo entre a linha que liga o lugar ao <b>centro da Terra</b> e o plano do <b>equador</b>."
+            },
+            {
+              "t": "texto",
+              "html": "A longitude não influi aqui."
+            }
+          ]
+        },
+        {
+          "titulo": "A aceleração centrípeta",
+          "cena": {
+            "mostrar": [
+              "terra",
+              "latitude",
+              "paralelo",
+              "acp"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "Com a rotação, o morador descreve uma circunferência no plano do seu <b>paralelo</b>."
+            },
+            {
+              "t": "texto",
+              "html": "O centro dessa circunferência está sobre o <b>eixo de rotação</b>, e não no centro da Terra."
+            },
+            {
+              "t": "texto",
+              "html": "Por isso, a <b>aceleração centrípeta</b> aponta para o eixo, paralela ao plano do equador."
+            }
+          ]
+        },
+        {
+          "titulo": "O ângulo entre os vetores",
+          "cena": {
+            "mostrar": [
+              "terra",
+              "latitude",
+              "paralelo",
+              "acp",
+              "fg"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "A <b>força gravitacional</b> aponta para o centro da Terra."
+            },
+            {
+              "t": "texto",
+              "html": "A aceleração centrípeta é paralela ao equador, e a força gravitacional segue a linha da latitude."
+            },
+            {
+              "t": "texto",
+              "html": "Os dois ângulos marcados são <b>alternos internos</b>: o ângulo entre os dois vetores é a própria latitude."
+            },
+            {
+              "t": "eq",
+              "tex": "\\theta = 60º"
+            },
+            {
+              "t": "gabarito",
+              "letra": "B"
+            },
+            {
+              "t": "fim"
+            }
+          ]
         }
-      }
-    },
-    {
-      "titulo": "A força gravitacional",
-      "conceito": "Força gravitacional",
-      "texto": "A força gravitacional aponta para o centro da Terra, ao longo do raio que passa pelo morador.",
-      "cena": {
-        "mostrar": [
-          "gravidade"
-        ],
-        "destacar": [
-          "gravidade"
-        ],
-        "estado": {
-          "girar": false
-        }
-      }
-    },
-    {
-      "titulo": "A aceleração centrípeta",
-      "conceito": "Aceleração centrípeta",
-      "texto": "A aceleração centrípeta aponta para o centro da circunferência descrita: perpendicular ao eixo de rotação, paralela ao plano do equador.",
-      "cena": {
-        "mostrar": [
-          "centripeta"
-        ],
-        "destacar": [
-          "centripeta"
-        ]
-      }
-    },
-    {
-      "titulo": "O ângulo entre os dois",
-      "conceito": "Latitude",
-      "texto": "A latitude é o ângulo, no centro da Terra, entre o plano do equador e o raio que passa pelo morador. Como a aceleração centrípeta é paralela ao equador e a força gravitacional está sobre esse raio, o ângulo entre elas é igual à latitude (ângulos alternos). A longitude (11°) não influi. Resposta: <b>(B) 60º</b>.",
-      "cena": {
-        "mostrar": [
-          "latitude",
-          "angulo",
-          "alternos"
-        ],
-        "destacar": [
-          "angulo",
-          "latitude"
-        ]
-      }
+      ]
     }
   ],
   "status": "revisado",
-  "criadoEm": "2026-11-14T22:00:00-03:00",
-  "atualizadoEm": "2026-11-14T22:00:00-03:00"
+  "criadoEm": "2026-11-15T09:00:00-03:00",
+  "atualizadoEm": "2026-11-15T09:00:00-03:00",
+  "revisao": {
+    "estado": "aprovada",
+    "comentario": "",
+    "atualizadoEm": "2026-11-15T16:00:20.218Z"
+  }
 }
