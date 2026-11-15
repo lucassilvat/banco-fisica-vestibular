@@ -35,7 +35,7 @@
     {
       "titulo": "As forças sobre a caixa",
       "conceito": "Diagrama de corpo livre",
-      "texto": "Só três forças agem na caixa: o <b>peso</b> \\(\\vec{P}\\) (vertical, para baixo), a <b>normal</b> \\(\\vec{N}\\) (perpendicular à esteira) e o <b>atrito estático</b> \\(\\vec{f}\\) (ao longo da esteira, rampa acima, contra a tendência de escorregar).",
+      "texto": "Só três forças agem na caixa: o <b>peso</b> \\(\\vec{P}\\) (vertical, para baixo), a <b>normal</b> \\(\\vec{N}\\) (perpendicular à esteira) e o <b>atrito estático</b> \\(\\vec{F}_{\\text{at}}\\) (ao longo da esteira, rampa acima, contra a tendência de escorregar).",
       "cena": {
         "mostrar": [
           "peso",
@@ -89,9 +89,9 @@
     {
       "titulo": "O limite do atrito estático",
       "conceito": "Atrito estático máximo",
-      "texto": "O atrito estático se ajusta ao que é preciso, mas tem um teto: \\(f \\leq \\mu N\\). A aceleração da esteira é máxima quando o atrito trabalha no seu limite.",
+      "texto": "O atrito estático se ajusta ao que é preciso, mas tem um teto: \\(F_{\\text{at}} \\leq \\mu N\\). A aceleração da esteira é máxima quando o atrito trabalha no seu limite.",
       "equacoes": [
-        "f_{\\text{máx}} = \\mu N = 0,8 \\cdot 8m = 6,4m"
+        "F_{\\text{at, máx}} = \\mu N = 0,8 \\cdot 8m = 6,4m"
       ],
       "cena": {
         "destacar": [
@@ -102,9 +102,9 @@
     {
       "titulo": "Ao longo da rampa: segunda lei de Newton",
       "conceito": "Segunda lei de Newton",
-      "texto": "Ao longo da rampa, a resultante é o atrito (rampa acima) menos a componente \\(P_{x}\\) (rampa abaixo). O que sobra é o que acelera a caixa. A massa <i>m</i> aparece em todos os termos e se cancela. Por isso o resultado não depende da massa da caixa. Resposta: <b>(A) 0,4 m/s²</b>.",
+      "texto": "Ao longo da rampa, a resultante é o atrito (rampa acima) menos a componente \\(\\vec{P}_{x}\\) (rampa abaixo). O que sobra é o que acelera a caixa. A massa <i>m</i> aparece em todos os termos e se cancela. Resposta: <b>(A) 0,4 m/s²</b>.",
       "equacoes": [
-        "f - P_{x} = ma",
+        "F_{\\text{at}} - P_{x} = ma",
         "6,4m - 6m = m\\,a_{\\text{máx}}",
         "a_{\\text{máx}} = 0,4\\ \\text{m/s}^{2}"
       ],
@@ -122,5 +122,5 @@
   ],
   "status": "revisado",
   "criadoEm": "2026-11-14T21:00:00-03:00",
-  "atualizadoEm": "2026-11-14T21:30:00-03:00"
+  "atualizadoEm": "2026-11-14T22:30:00-03:00"
 }

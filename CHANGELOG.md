@@ -4,6 +4,24 @@ Cada versão corresponde a um lote de importação ou a uma mudança no app/pipe
 Formato: `vMAIOR.MENOR.CORREÇÃO` — MENOR sobe a cada prova importada; MAIOR, em mudanças
 de modelo de dados; CORREÇÃO, em correções de questões já publicadas.
 
+## v2.9.1 — 2026-11-14
+
+- **Revisão das resoluções animadas (pedidos do Lucas):**
+  - Forças com letra maiúscula e notação de vetor, na cena e no texto: o atrito passou de
+    *f* para \(\vec{F}_{\text{at}}\) (Unesp 2025 Q78); \(\vec{F}_{g}\) (Unesp 2026 Q77), \(\vec{F}\) e \(\vec{E}\)
+    (Unesp 2026 Q81). Velocidade e acelerações também com seta.
+  - Unesp 2026 Q77: ângulos com setor preenchido, arco escuro e rótulo em caixa; quadro dos
+    ângulos alternos reescrito para caber.
+  - Só o essencial: saíram a pulsação e o período (Unesp 2026 Q76), o exemplo numérico com
+    porcentagens (ENEM 2023 Q98), a conferência por triângulos e o comentário das alternativas
+    (Unicamp 2017 Q58), "direita e menor" e "a imagem ficou maior" (Unesp 2026 Q79).
+  - Unesp 2026 Q82: o circuito agora é um caminho fechado (bateria → cursor do reostato →
+    porção do reostato → bobina → bateria); antes um fio subia além da ligação e os pontos da
+    corrente "vazavam" por ele. A lâmina não faz parte do circuito: só é aquecida pela bobina.
+    A corrente aparece como "maior/menor", sem porcentagem.
+  - Revisão visual de todos os passos das 10 resoluções (sobreposições e legibilidade).
+- `docs/ANIMACOES.md`: regras de notação de forças, de só o essencial e de revisão visual.
+
 ## v2.9.0 — 2026-11-14
 
 - **Resolução animada da Unesp 2026 (Q76–Q82)**, as 7 questões do ano. Sete modelos de cena

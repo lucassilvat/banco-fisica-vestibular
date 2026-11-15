@@ -19,10 +19,7 @@
     {
       "titulo": "A sombra faz MHS",
       "conceito": "Movimento harmônico simples",
-      "texto": "A luz vem de cima, então a sombra acompanha o movimento horizontal da esfera e vai e volta entre A e B. Na função dada, a pulsação é ω = π/2 rad/s, e o período é 4 s.",
-      "equacoes": [
-        "\\omega = \\dfrac{\\pi}{2}\\ \\text{rad/s} \\quad \\Rightarrow \\quad T = \\dfrac{2\\pi}{\\omega} = 4\\ \\text{s}"
-      ],
+      "texto": "A luz vem de cima, então a sombra acompanha o movimento horizontal da esfera e vai e volta entre A e B. A função dada é a velocidade da sombra em cada instante.",
       "cena": {
         "mostrar": [
           "pendulo",
@@ -107,5 +104,5 @@
   ],
   "status": "revisado",
   "criadoEm": "2026-11-14T22:00:00-03:00",
-  "atualizadoEm": "2026-11-14T22:00:00-03:00"
+  "atualizadoEm": "2026-11-14T22:30:00-03:00"
 }

@@ -58,6 +58,19 @@ circuito, ângulos diferentes etc.) é o próximo passo.
   vai no próprio texto do passo.
 - **Sem simuladores em que o aluno muda valores** (controles deslizantes, campos para
   digitar). As animações rodam sozinhas; o aluno só avança e volta os passos.
+- **Forças: letra maiúscula e notação de vetor** (seta em cima) na cena e no texto: \(\vec{P}\),
+  \(\vec{N}\), \(\vec{F}_{\text{at}}\), \(\vec{F}_{g}\)... Atrito é \(\vec{F}_{\text{at}}\), não *f*. Exceção só
+  se a questão usar outra notação. Nas equações de intensidade (módulos) a letra fica sem seta.
+  Na cena, rótulo de grandeza vetorial usa `sVec`.
+- **Só o essencial.** Cada informação do roteiro precisa ser usada na resolução. Mostrar o que
+  acontece é bem-vindo, mas sem números ou grandezas que a resolução não usa (ex.: na Unesp
+  2026 Q76, nada de pulsação nem período; no ENEM 2023 Q98, nada de porcentagem de um exemplo
+  numérico).
+- **Revisão visual de cada passo** antes de publicar: abrir o player, olhar todos os passos e
+  conferir (1) legibilidade — nada de texto ou ângulo sobre fundo que atrapalhe; rótulos de
+  ângulo em caixa (`sPill`) e setores preenchidos (`sWedge`); nada sobreposto; (2) fidelidade —
+  o desenho corresponde à física e à figura da prova (ex.: o circuito é um caminho fechado, sem
+  fio solto nem corrente indo para onde não há fio; sentidos de forças, campos e correntes).
 - O roteiro **não altera** enunciado, gabarito nem resolução da questão. A física tem de
   bater com a resolução comentada; o último passo cita a alternativa correta, como "(A)".
 - Exemplo numérico que a questão não dá (ex.: `r = R` no circuito do ENEM) é dito como

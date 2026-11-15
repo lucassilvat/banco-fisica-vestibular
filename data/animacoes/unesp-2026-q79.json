@@ -19,7 +19,7 @@
     {
       "titulo": "A imagem no espelho convexo",
       "conceito": "Espelho esférico convexo",
-      "texto": "O muro (objeto) está diante do espelho. Um espelho convexo sempre forma imagem virtual, direita e menor, atrás do espelho, entre ele e o foco F.",
+      "texto": "O muro é o objeto. O espelho convexo forma uma imagem virtual do muro, atrás do espelho.",
       "cena": {
         "mostrar": [
           "eixo",
@@ -65,14 +65,13 @@
     {
       "titulo": "Em t₁ = 2 s",
       "conceito": "Equação de Gauss",
-      "texto": "Com a imagem a \\(\\dfrac{20}{29}\\) m do espelho. Repare que a imagem do muro ficou maior: o muro está mais perto.",
+      "texto": "Com a imagem a \\(\\dfrac{20}{29}\\) m do espelho.",
       "equacoes": [
         "\\dfrac{1}{\\mathrm{d}_1} = -1,25 + \\dfrac{29}{20} = -1,25 + 1,45 = 0,2 \\quad \\Rightarrow \\quad \\mathrm{d}_1 = 5\\ \\text{m}"
       ],
       "cena": {
         "destacar": [
-          "cotas",
-          "imagem"
+          "cotas"
         ],
         "estado": {
           "d": 5
@@ -95,5 +94,5 @@
   ],
   "status": "revisado",
   "criadoEm": "2026-11-14T22:00:00-03:00",
-  "atualizadoEm": "2026-11-14T22:00:00-03:00"
+  "atualizadoEm": "2026-11-14T22:30:00-03:00"
 }

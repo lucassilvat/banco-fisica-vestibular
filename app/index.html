@@ -683,6 +683,23 @@ function sArrow(parent, cls, w = 3) { // seta com ponta desenhada (sem marker), 
   };
   return g;
 }
+function sVec(parent, main, sub, cls = "") { // grandeza vetorial: letra com seta em cima; posicionar com .move(x, y, âncora)
+  const g = S("g", { class: cls }, parent);
+  const t = S("text", { x: 0, y: 0, "dominant-baseline": "middle", class: cls }, g);
+  const m = S("tspan", {}, t); m.textContent = main;
+  if (sub) { const s = S("tspan", { "baseline-shift": "sub", "font-size": "70%" }, t); s.textContent = sub; }
+  const ar = S("path", { style: "fill:none", "stroke-width": 1.6, "stroke-linecap": "round", "stroke-linejoin": "round" }, g);
+  let W = null;
+  g.move = (x, y, anchor = "middle") => {
+    if (W === null) {
+      let w = 10; try { W = t.getBBox().width; w = m.getComputedTextLength(); } catch (e) { W = 12; }
+      if (W) ar.setAttribute("d", `M0.5,-13 L${w + 1},-13 M${w - 3},-16.5 L${w + 1},-13 L${w - 3},-9.5`); else W = null;
+    }
+    const dx = anchor === "middle" ? -(W || 12) / 2 : anchor === "end" ? -(W || 12) : 0;
+    g.setAttribute("transform", `translate(${x + dx},${y})`); return g;
+  };
+  return g;
+}
 const fmt = (x, d = 2) => x.toFixed(d).replace(".", ",");
 function arcPath(cx, cy, r, a1, a2) { // ângulos em graus, sentido da tela (y para baixo)
   const p = a => [cx + r * Math.cos(a * Math.PI / 180), cy + r * Math.sin(a * Math.PI / 180)];
@@ -724,26 +741,26 @@ CENAS["plano-inclinado"] = (svg, P) => {
   const lx = sLabel(el.eixos, 0, 0, "x", "", "t-mute"), ly = sLabel(el.eixos, 0, 0, "y", "", "t-mute");
   mk("componentes"); const aPx = sArrow(el.componentes, "v-comp", 2.5), aPy = sArrow(el.componentes, "v-comp", 2.5);
   const pr1 = S("line", { class: "ln-mute", "stroke-dasharray": "3 4" }, el.componentes), pr2 = S("line", { class: "ln-mute", "stroke-dasharray": "3 4" }, el.componentes);
-  const lPx = sLabel(el.componentes, 0, 0, "P", "x", "v-comp"), lPy = sLabel(el.componentes, 0, 0, "P", "y", "v-comp");
+  const lPx = sVec(el.componentes, "P", "x", "v-peso"), lPy = sVec(el.componentes, "P", "y", "v-peso");
   mk("angulo-peso"); const arcP = S("path", { class: "ln draw", pathLength: 1, "stroke-width": 1.5 }, el["angulo-peso"]); const lth = sLabel(el["angulo-peso"], 0, 0, "θ");
-  mk("peso"); const aP = sArrow(el.peso, "v-peso"); const lP = sLabel(el.peso, 0, 0, "P", "", "v-peso t-b");
-  mk("normal"); const aN = sArrow(el.normal, "v-normal"); const lN = sLabel(el.normal, 0, 0, "N", "", "v-normal t-b");
-  mk("atrito"); const aF = sArrow(el.atrito, "v-atrito"); const lF = sLabel(el.atrito, 0, 0, "f", "", "v-atrito t-b");
-  mk("aceleracao"); const aA = sArrow(el.aceleracao, "v-acel", 3); const lA = sLabel(el.aceleracao, 0, 0, "a", "", "v-acel t-b");
+  mk("peso"); const aP = sArrow(el.peso, "v-peso"); const lP = sVec(el.peso, "P", "", "v-peso t-b");
+  mk("normal"); const aN = sArrow(el.normal, "v-normal"); const lN = sVec(el.normal, "N", "", "v-normal t-b");
+  mk("atrito"); const aF = sArrow(el.atrito, "v-atrito"); const lF = sVec(el.atrito, "F", "at", "v-atrito t-b");
+  mk("aceleracao"); const aA = sArrow(el.aceleracao, "v-acel", 3); const lA = sVec(el.aceleracao, "a", "", "v-acel t-b");
   const K = 10; // px por (N/kg): o peso de uma caixa de massa m vale 10m e mede 100 px
   function layout(s, fNec) {
     const [px, py] = pt(s, 0);
     caixa.setAttribute("transform", `translate(${px},${py}) rotate(${-deg})`);
     const C = pt(s, 23), add = (p, v, k) => [p[0] + v[0] * k, p[1] + v[1] * k];
-    const Pt = [C[0], C[1] + g * K]; aP.set(...C, ...Pt); lP.setAttribute("x", Pt[0] + 14); lP.setAttribute("y", Pt[1] - 4);
-    const Nt = add(C, n, g * cos * K); aN.set(...C, ...Nt); const lNp = add(Nt, n, 14); lN.setAttribute("x", lNp[0]); lN.setAttribute("y", lNp[1]);
-    const Ft = add(C, u, fNec * K); aF.set(...C, ...Ft); const lFp = add(Ft, u, 14); lF.setAttribute("x", lFp[0]); lF.setAttribute("y", lFp[1] - 6);
+    const Pt = [C[0], C[1] + g * K]; aP.set(...C, ...Pt); lP.move(Pt[0] + 16, Pt[1] - 4);
+    const Nt = add(C, n, g * cos * K); aN.set(...C, ...Nt); const lNp = add(Nt, n, 14); lN.move(lNp[0], lNp[1]);
+    const Ft = add(C, u, fNec * K); aF.set(...C, ...Ft); const lFp = add(Ft, u, 14); lF.move(lFp[0] + 4, lFp[1] - 8);
     const PxT = add(C, u, -g * sen * K), PyT = add(C, n, -g * cos * K);
     aPx.set(...C, ...PxT); aPy.set(...C, ...PyT);
     pr1.setAttribute("x1", Pt[0]); pr1.setAttribute("y1", Pt[1]); pr1.setAttribute("x2", PxT[0]); pr1.setAttribute("y2", PxT[1]);
     pr2.setAttribute("x1", Pt[0]); pr2.setAttribute("y1", Pt[1]); pr2.setAttribute("x2", PyT[0]); pr2.setAttribute("y2", PyT[1]);
-    const lpx = add(PxT, u, -16); lPx.setAttribute("x", lpx[0]); lPx.setAttribute("y", lpx[1]);
-    const lpy = add(PyT, n, -6); lPy.setAttribute("x", lpy[0] + 16); lPy.setAttribute("y", lpy[1] + 4);
+    const lpx = add(PxT, u, -16); lPx.move(lpx[0] - 6, lpx[1]);
+    const lpy = add(PyT, n, -6); lPy.move(lpy[0] + 18, lpy[1] + 4);
     const a1 = Math.atan2(-n[1], -n[0]) * 180 / Math.PI;
     arcP.setAttribute("d", arcPath(C[0], C[1], 36, a1, 90));
     const am = (a1 + 90) / 2 * Math.PI / 180; lth.setAttribute("x", C[0] + 50 * Math.cos(am)); lth.setAttribute("y", C[1] + 50 * Math.sin(am));
@@ -751,7 +768,7 @@ CENAS["plano-inclinado"] = (svg, P) => {
     ex.setAttribute("x1", e1[0]); ex.setAttribute("y1", e1[1]); ex.setAttribute("x2", e2[0]); ex.setAttribute("y2", e2[1]);
     ey.setAttribute("x1", e3[0]); ey.setAttribute("y1", e3[1]); ey.setAttribute("x2", e4[0]); ey.setAttribute("y2", e4[1]);
     const lxp = add(e2, u, 10), lyp = add(e4, n, 10); lx.setAttribute("x", lxp[0]); lx.setAttribute("y", lxp[1]); ly.setAttribute("x", lyp[0]); ly.setAttribute("y", lyp[1]);
-    const A0 = add(add(C, n, 72), u, -10), A1 = add(A0, u, 46); aA.set(...A0, ...A1); const la = add(A1, n, 12); lA.setAttribute("x", la[0]); lA.setAttribute("y", la[1]);
+    const A0 = add(add(C, n, 72), u, -10), A1 = add(A0, u, 46); aA.set(...A0, ...A1); const la = add(A1, n, 12); lA.move(la[0], la[1]);
   }
   // balanço das forças ao longo da rampa (barras, em unidades de m · N/kg)
   el.balanco = S("g", { class: "ae" }, svg);
@@ -842,7 +859,7 @@ CENAS["circuito-conjuntos-serie"] = (svg, P) => {
   const tags = G.map(c => { const g = S("g", {}, el.equivalentes); const r = S("rect", { rx: 5, fill: "var(--soft)", stroke: "var(--accent)" }, g); const t = sLabel(g, c.tag[0], c.tag[1], "R", "conj", "t-b"); return { r, t, c }; });
   // corrente: pontos que percorrem cada trecho com velocidade proporcional à corrente
   el.corrente = S("g", { class: "ae" }, svg);
-  const tI = sLabel(el.corrente, 300, 150, "", "", "t-b", "middle");
+  const tI = sLabel(el.corrente, 300, 158, "", "", "t-b", "middle");
   const trechos = [];
   const addTrecho = (pts, key) => {
     const segs = []; let L = 0;
@@ -853,7 +870,7 @@ CENAS["circuito-conjuntos-serie"] = (svg, P) => {
   main.forEach(m => addTrecho(m, "I"));
   G.forEach((c, i) => { addTrecho(c.lamp, "l" + i); addTrecho(c.res, "r" + i); });
   el.brilho = S("g", { class: "ae" }, svg);
-  sLabel(el.brilho, 280, 180, "Potência de cada lâmpada (exemplo com r = R)", "", "t-mute");
+  sLabel(el.brilho, 280, 180, "Brilho (tracejado: antes da queima)", "", "t-mute");
   const barras = G.map((c, i) => {
     const y = 196 + i * 26; const nome = nomes[i];
     sLabel(el.brilho, 162, y + 8, nome.replace(/\d+$/, ""), (nome.match(/\d+$/) || [""])[0], "t-b", "end");
@@ -881,12 +898,12 @@ CENAS["circuito-conjuntos-serie"] = (svg, P) => {
         L.glow.setAttribute("r", 16 + 16 * rel); L.glow.setAttribute("opacity", x.ok ? 0.35 * rel : 0); L.xx.setAttribute("opacity", x.ok ? 0 : 1);
         ramos[i].rl.classList.toggle("aberto", !x.ok);
         const b = barras[i]; b.fill.setAttribute("width", 200 * rel); b.ghost.setAttribute("x1", 372); b.ghost.setAttribute("x2", 372);
-        b.t.textContent = x.ok ? `${Math.round(rel * 100)}%` : "queimada";
+        b.t.textContent = x.ok ? "" : "queimada";
         const tg = tags[i]; tg.t.replaceChildren(); tg.t.append(document.createTextNode("R"));
         const sb = S("tspan", { "baseline-shift": "sub", "font-size": "70%" }, tg.t); sb.textContent = x.ok ? "conj" : "";
         requestAnimationFrame(() => { try { const bb = tg.t.getBBox(); tg.r.setAttribute("x", bb.x - 6); tg.r.setAttribute("y", bb.y - 3); tg.r.setAttribute("width", bb.width + 12); tg.r.setAttribute("height", bb.height + 6); } catch (e) {} });
       });
-      tI.textContent = est.queimada ? `corrente total: I' = ${fmt(I / I0)} · I (exemplo com r = R)` : "";
+      tI.textContent = est.queimada ? "corrente total menor" : "";
       const corr = { I }; f.forEach((x, i) => { corr["l" + i] = x.il; corr["r" + i] = x.ir; });
       let last = performance.now();
       const loop = now => {
@@ -1006,6 +1023,20 @@ function sRich(parent, x, y, s, cls = "", anchor = "middle") { // texto com ^{so
   return t;
 }
 const milhar = n => String(n).replace(/\B(?=(\d{3})+(?!\d))/g, "\u2009");
+function sPill(parent, x, y, s, cor = "var(--ink)") { // rótulo em caixa branca com borda: legível sobre qualquer fundo
+  const g = S("g", {}, parent);
+  const r = S("rect", { rx: 5, fill: "var(--paper)", stroke: cor, "stroke-width": 1.5 }, g);
+  const t = S("text", { x, y, "text-anchor": "middle", "dominant-baseline": "middle", style: `font-size:16px;font-weight:700;fill:${cor};stroke:none` }, g);
+  t.textContent = s;
+  try { const b = t.getBBox(); r.setAttribute("x", b.x - 6); r.setAttribute("y", b.y - 3); r.setAttribute("width", b.width + 12); r.setAttribute("height", b.height + 6); } catch (e) {}
+  return g;
+}
+function sWedge(parent, cx, cy, r, a1, a2, cor) { // setor de ângulo preenchido + arco escuro
+  const p = a => [cx + r * Math.cos(a * Math.PI / 180), cy + r * Math.sin(a * Math.PI / 180)];
+  const [x1, y1] = p(a1), [x2, y2] = p(a2), sw = a2 > a1 ? 1 : 0;
+  S("path", { d: `M${cx},${cy} L${x1},${y1} A${r},${r} 0 0 ${sw} ${x2},${y2} Z`, fill: cor, opacity: .35, stroke: "none" }, parent);
+  S("path", { d: `M${x1},${y1} A${r},${r} 0 0 ${sw} ${x2},${y2}`, fill: "none", stroke: "var(--ink)", "stroke-width": 2.5 }, parent);
+}
 function sLine(parent, x1, y1, x2, y2, attrs = {}) { return S("line", { x1, y1, x2, y2, ...attrs }, parent); }
 function loopRaf(fn) { // chama fn(segundos desde o início) a cada quadro; devolve a função que para
   let raf = 0; const t0 = performance.now();
@@ -1023,12 +1054,12 @@ CENAS["mhs-sombra"] = (svg, P) => {
   const xs = t => PX + AP * Math.cos(w * t);
   const el = {};
   el.pendulo = S("g", { class: "ae" }, svg);
-  [55, 105, 245, 295].forEach(x => { sArrow(el.pendulo, "", 3).set(x, 18, x, 52).setAttribute("style", "stroke:#e0b000;fill:#e0b000"); });
+  [55, 105, 245, 295].forEach(x => { sArrow(el.pendulo, "", 3).set(x, 18, x, 52).setAttribute("style", "stroke:#b88600;fill:#b88600"); });
   sLabel(el.pendulo, 80, 70, "luz", "", "t-mute");
   S("rect", { x: 30, y: CH, width: 300, height: 9, fill: "var(--line)" }, el.pendulo);
   S("path", { d: `M${PX - AP},${PY + Math.sqrt(L * L - AP * AP)} Q${PX},${PY + L + 40} ${PX + AP},${PY + Math.sqrt(L * L - AP * AP)}`, class: "ln-mute", "stroke-dasharray": "4 4" }, el.pendulo);
   [[PX - AP, "A"], [PX + AP, "B"]].forEach(([x, n]) => { S("circle", { cx: x, cy: CH, r: 3.5, fill: "var(--ink)" }, el.pendulo); sLabel(el.pendulo, x, CH + 24, n, "", "t-b"); });
-  sArrow(el.pendulo, "ln-mute", 1.5).set(PX - 60, CH + 50, PX + 40, CH + 50); sLabel(el.pendulo, PX + 52, CH + 50, "+", "", "t-mute", "start");
+  sArrow(el.pendulo, "", 1.5).set(PX - 60, CH + 50, PX + 40, CH + 50).setAttribute("style", "stroke:var(--muted);fill:var(--muted)"); sLabel(el.pendulo, PX + 52, CH + 50, "+", "", "t-mute", "start");
   sLabel(el.pendulo, PX, CH + 24, "0", "", "t-mute");
   S("circle", { cx: PX, cy: PY, r: 4, fill: "var(--ink)" }, el.pendulo);
   const fio = sLine(el.pendulo, PX, PY, PX, PY + L, { class: "ln", "stroke-width": 1.5 });
@@ -1036,7 +1067,7 @@ CENAS["mhs-sombra"] = (svg, P) => {
   el.sombra = S("g", { class: "ae" }, svg);
   const proj = sLine(el.sombra, 0, 0, 0, CH, { class: "ln-mute", "stroke-dasharray": "3 4" });
   const somb = S("rect", { y: CH - 3, width: 22, height: 6, fill: "var(--ink)" }, el.sombra);
-  el["vetor-v"] = S("g", { class: "ae" }, svg); const aV = sArrow(el["vetor-v"], "v-normal", 3); const lV = sLabel(el["vetor-v"], 0, CH - 26, "v", "", "v-normal t-b");
+  el["vetor-v"] = S("g", { class: "ae" }, svg); const aV = sArrow(el["vetor-v"], "v-normal", 3); const lV = sVec(el["vetor-v"], "v", "", "v-normal t-b");
   // gráfico v × t
   const GX = t => 380 + t * 52, GY = vv => 215 - vv / vmax * 120;
   el.grafico = S("g", { class: "ae" }, svg);
@@ -1061,9 +1092,10 @@ CENAS["mhs-sombra"] = (svg, P) => {
     const x = xs(t), y = PY + Math.sqrt(L * L - (x - PX) ** 2);
     fio.setAttribute("x2", x); fio.setAttribute("y2", y); bola.setAttribute("cx", x); bola.setAttribute("cy", y);
     proj.setAttribute("x1", x); proj.setAttribute("x2", x); proj.setAttribute("y1", y + 11); somb.setAttribute("x", x - 11);
-    const vv = v(t); aV.set(x, CH - 12, x + vv / vmax * 60 + (vv >= 0 ? 0.01 : -0.01), CH - 12); aV.style.opacity = lV.style.opacity = Math.abs(vv) < 0.02 * vmax ? 0 : 1; lV.setAttribute("x", x + vv / vmax * 30);
-    cursor.setAttribute("x1", GX(t % T)); cursor.setAttribute("x2", GX(t % T));
-    tTxt.textContent = `t = ${fmt(t % T, 1)} s`;
+    const vv = v(t); aV.set(x, CH - 12, x + vv / vmax * 60 + (vv >= 0 ? 0.01 : -0.01), CH - 12); aV.style.opacity = lV.style.opacity = Math.abs(vv) < 0.02 * vmax ? 0 : 1; lV.move(x + vv / vmax * 30, CH - 28);
+    const tc = t > 0 && t % T === 0 ? T : t % T;
+    cursor.setAttribute("x1", GX(tc)); cursor.setAttribute("x2", GX(tc));
+    tTxt.textContent = `t = ${fmt(tc, 1)} s`;
   }
   let stop = () => {};
   pos(0);
@@ -1087,7 +1119,7 @@ CENAS["rotacao-latitude"] = (svg, P) => {
   const Pm = [C[0] + R * Math.cos(lat), C[1] - R * Math.sin(lat)], Q = [C[0], Pm[1]], r = R * Math.cos(lat);
   const el = {};
   el.terra = S("g", { class: "ae" }, svg);
-  S("circle", { cx: C[0], cy: C[1], r: R, fill: "#d8eef8", stroke: "var(--ink)", "stroke-width": 2 }, el.terra);
+  S("circle", { cx: C[0], cy: C[1], r: R, fill: "var(--soft)", stroke: "var(--ink)", "stroke-width": 2 }, el.terra);
   S("circle", { cx: C[0], cy: C[1], r: 3, fill: "var(--ink)" }, el.terra); sLabel(el.terra, C[0] - 12, C[1] + 14, "centro da Terra", "", "t-mute", "end");
   el.eixo = S("g", { class: "ae" }, svg);
   sLine(el.eixo, C[0], C[1] + R + 25, C[0], C[1] - R - 30, { class: "ln", "stroke-dasharray": "7 5" });
@@ -1102,26 +1134,27 @@ CENAS["rotacao-latitude"] = (svg, P) => {
   el.latitude = S("g", { class: "ae" }, svg);
   sLine(el.latitude, C[0], C[1], Pm[0], Pm[1], { class: "ln-mute", "stroke-width": 1.5 });
   sLine(el.latitude, C[0], C[1], C[0] + R, C[1], { class: "ln-mute", "stroke-width": 1.5 });
-  S("path", { d: arcPath(C[0], C[1], 42, 0, -P.latitude), class: "ln", "stroke-width": 1.5 }, el.latitude);
-  sLabel(el.latitude, C[0] + 58 * Math.cos(-lat / 2), C[1] + 58 * Math.sin(-lat / 2), `${P.latitude}°`, "", "t-b");
+  sWedge(el.latitude, C[0], C[1], 48, 0, -P.latitude, "var(--accent)");
+  sPill(el.latitude, C[0] + 78 * Math.cos(-lat / 2), C[1] + 78 * Math.sin(-lat / 2), `${P.latitude}°`, "var(--accent)");
+  sLabel(el.latitude, C[0] + R - 6, C[1] + 34, "latitude", "", "v-normal t-b", "end");
   el.morador = S("g", { class: "ae" }, svg);
   const mor = S("circle", { cx: Pm[0], cy: Pm[1], r: 7, fill: "var(--mark)", stroke: "var(--ink)" }, el.morador);
   const lm = sLabel(el.morador, Pm[0] + 12, Pm[1] - 12, "morador", "", "t-b", "start");
   el.gravidade = S("g", { class: "ae" }, svg);
   const ug = [(C[0] - Pm[0]) / R, (C[1] - Pm[1]) / R];
   sArrow(el.gravidade, "v-peso", 3).set(Pm[0], Pm[1], Pm[0] + ug[0] * 105, Pm[1] + ug[1] * 105);
-  sRich(el.gravidade, Pm[0] + ug[0] * 105 + 16, Pm[1] + ug[1] * 105 + 6, "F_{g}", "v-peso t-b", "start");
+  sVec(el.gravidade, "F", "g", "v-peso t-b").move(Pm[0] + ug[0] * 105 - 10, Pm[1] + ug[1] * 105 - 4, "end");
   el.centripeta = S("g", { class: "ae" }, svg);
   sArrow(el.centripeta, "v-acel", 3).set(Pm[0], Pm[1], Pm[0] - 62, Pm[1]);
-  sRich(el.centripeta, Pm[0] - 40, Pm[1] - 26, "a_{cp}", "v-acel t-b", "middle");
+  sVec(el.centripeta, "a", "cp", "v-acel t-b").move(Pm[0] - 40, Pm[1] - 26);
   el.angulo = S("g", { class: "ae" }, svg);
   const ag = Math.atan2(ug[1], ug[0]) * 180 / Math.PI;
-  S("path", { d: arcPath(Pm[0], Pm[1], 30, 180, ag), class: "ln", "stroke-width": 1.8 }, el.angulo);
-  sLabel(el.angulo, Pm[0] + 46 * Math.cos((180 + ag) / 2 * Math.PI / 180), Pm[1] + 46 * Math.sin((180 + ag) / 2 * Math.PI / 180), `${P.latitude}°`, "", "t-b");
+  sWedge(el.angulo, Pm[0], Pm[1], 40, ag, 180, "var(--mark)");
+  sPill(el.angulo, Pm[0] + 66 * Math.cos((180 + ag) / 2 * Math.PI / 180), Pm[1] + 66 * Math.sin((180 + ag) / 2 * Math.PI / 180), `${P.latitude}°`, "var(--danger)");
   // painel com a explicação dos ângulos alternos
   el.alternos = S("g", { class: "ae" }, svg);
-  S("rect", { x: 450, y: 300, width: 180, height: 112, rx: 8, fill: "var(--soft)" }, el.alternos);
-  ["a_{cp} ∥ plano do equador", "F_{g} na direção do raio", "→ ângulos alternos:", "ângulo = latitude"].forEach((s, i) => sRich(el.alternos, 462, 322 + i * 24, s, i === 3 ? "t-b" : "", "start"));
+  S("rect", { x: 436, y: 286, width: 196, height: 128, rx: 8, fill: "var(--paper)", stroke: "var(--ink)", "stroke-width": 1.2 }, el.alternos);
+  [["aceleração centrípeta:", ""], ["paralela ao equador", "t-b"], ["força gravitacional:", ""], ["sobre o raio da Terra", "t-b"], ["ângulos alternos → iguais", "t-b"]].forEach(([s, c], i) => sLabel(el.alternos, 448, 306 + i * 23, s, "", c, "start"));
   let stop = () => {};
   const at = s => { const ph = s * 1.2; mor.setAttribute("cx", Q[0] + r * Math.cos(ph)); mor.setAttribute("cy", Q[1] + 12 * Math.sin(ph)); lm.style.opacity = 0; };
   return {
@@ -1187,7 +1220,7 @@ CENAS["espelho-convexo"] = (svg, P) => {
   S("path", { d: "M-14,-46 Q14,0 -14,46", fill: "none", stroke: "var(--accent)", "stroke-width": 4 }, esp);
   for (let k = -40; k <= 40; k += 10) S("line", { x1: -14 + 28 * (1 - (k / 46) ** 2) / 2 - 2, y1: k, x2: -24 + 28 * (1 - (k / 46) ** 2) / 2 - 2, y2: k - 7, stroke: "var(--accent)", "stroke-width": 1.2 }, esp);
   S("text", { x: 0, y: -60, "text-anchor": "middle", class: "t-mute" }, esp).textContent = "espelho do carro";
-  sArrow(esp, "v-acel", 2.5).set(-25, -86, 25, -86); S("text", { x: 0, y: -98, "text-anchor": "middle", class: "v-acel t-b" }, esp).textContent = "v";
+  sArrow(esp, "v-acel", 2.5).set(-25, -86, 25, -86); sVec(esp, "v", "", "v-acel t-b").move(0, -100);
   el.foco = S("g", { class: "ae" }, svg); const fDot = S("circle", { r: 4, cy: Y, fill: "var(--mark)" }, el.foco); const fT = sLabel(el.foco, 0, Y + 18, "F", "", "v-peso t-b");
   el.imagem = S("g", { class: "ae" }, svg); const im = S("rect", { width: 6, fill: "#e8794f", stroke: "#b5532e" }, el.imagem); const imT = sLabel(el.imagem, 0, 0, "imagem", "", "t-mute");
   el.cotas = S("g", { class: "ae" }, svg);
@@ -1294,22 +1327,22 @@ CENAS["campo-uniforme"] = (svg, P) => {
   sLabel(el["cota-d"], (XA + XB) / 2, Y0 - 46, `d = ${P.dTexto}`, "", "v-normal t-b");
   el.campo = S("g", { class: "ae" }, svg);
   for (let k = 0; k < 6; k++) { const y = Y0 + 25 + k * 42; sArrow(el.campo, "v-atrito", 2).set(XA + 10, y, XB - 10, y); }
-  sRich(el.campo, XB - 30, Y0 + 12, "E", "v-atrito t-b");
+  sVec(el.campo, "E", "", "v-atrito t-b").move(XB - 30, Y0 + 10);
   el.ion = S("g", { class: "ae" }, svg);
   const ion = S("g", {}, el.ion);
   S("circle", { r: 13, fill: "#f6c344", stroke: "var(--ink)", "stroke-width": 1.5 }, ion);
   S("text", { "text-anchor": "middle", "dominant-baseline": "central", class: "t-b" }, ion).textContent = "+";
   el.forca = S("g", { class: "ae" }, svg);
-  const aF = sArrow(el.forca, "v-peso", 3.5), lF = sRich(el.forca, 0, 0, "F = qE", "v-peso t-b");
+  const aF = sArrow(el.forca, "v-peso", 3.5), lF = sVec(el.forca, "F", "", "v-peso t-b");
   const YI = Y0 + 25 + 2.5 * 42;
-  const pos = x => { ion.setAttribute("transform", `translate(${x},${YI})`); aF.set(x + 15, YI, x + 75, YI); lF.setAttribute("x", x + 46); lF.setAttribute("y", YI - 22); };
+  const pos = x => { ion.setAttribute("transform", `translate(${x},${YI})`); aF.set(x + 15, YI, x + 65, YI); lF.move(x + 46, YI - 24); };
   let stop = () => {};
   pos(XA + 30);
   return {
     el,
     update(est) {
       stop(); stop = () => {};
-      if (est.mover) stop = loopRaf(s => { const k = Math.min((s % 4) / 3, 1); pos(XA + 30 + (XB - XA - 60) * k * k); });
+      if (est.mover) stop = loopRaf(s => { const k = Math.min((s % 4) / 3, 1); pos(XA + 30 + (XB - XA - 110) * k * k); });
       else pos(XA + 30);
     },
     stop() { stop(); },
@@ -1333,15 +1366,17 @@ CENAS["indicador-combustivel"] = (svg, P) => {
   S("polyline", { points: zz.map(p => p.join(",")).join(" "), fill: "none", stroke: "var(--muted)", "stroke-width": 2 }, el.reostato);
   const ativo = S("polyline", { fill: "none", stroke: "var(--danger)", "stroke-width": 3.5 }, el.reostato);
   const cursor = S("polygon", { fill: "var(--ink)" }, el.reostato);
-  sLabel(el.reostato, RX0, RY - 22, "reostato", "", "t-mute", "start");
-  const tR = sLabel(el.reostato, RX0 + 110, RY - 36, "", "", "v-peso t-b", "middle");
+  sLabel(el.reostato, RX0, RY - 52, "reostato", "", "t-mute", "start");
+  const tR = sLabel(el.reostato, RX0 + 80, RY - 30, "", "", "v-peso t-b", "middle");
   // circuito: reostato -> lâmina -> bateria -> cursor
   const LX = 450, LY0 = 70, LY1 = 260;
   el.circuito = S("g", { class: "ae" }, svg);
-  const caminho = [[RX1, RY], [RX1 + 20, RY], [RX1 + 20, 40], [LX, 40], [LX, LY0]];
-  const volta = [[LX, LY1], [LX, 300], [600, 300], [600, 395], [470, 395]];
-  const volta2 = [[400, 395], [12, 395], [12, 60]];
-  [caminho, volta, volta2].forEach(c => S("polyline", { points: c.map(p => p.join(",")).join(" "), class: "fio" }, el.circuito));
+  // fio: fim do reostato -> bobina enrolada no alto da lâmina -> bateria -> cursor do reostato
+  // (a lâmina não faz parte do circuito: só é aquecida pela bobina)
+  const YB = LY0 + 58, XV = 478, YC = RY + 26;
+  const caminho = [[RX1, RY], [RX1 + 20, RY], [RX1 + 20, 40], [LX, 40], [LX, YB], [XV, YB], [XV, 300], [600, 300], [600, 395], [470, 395]];
+  const volta2 = [[400, 395], [12, 395], [12, YC]];
+  [caminho, volta2].forEach(c => S("polyline", { points: c.map(p => p.join(",")).join(" "), class: "fio" }, el.circuito));
   const fioCursor = S("polyline", { class: "fio" }, el.circuito);
   S("rect", { x: 400, y: 378, width: 70, height: 36, rx: 4, fill: "#2a2a2a" }, el.circuito); sLabel(el.circuito, 435, 364, "bateria", "", "t-mute", "middle");
   // lâmina bimetálica (A à esquerda, B à direita) com bobina
@@ -1358,9 +1393,9 @@ CENAS["indicador-combustivel"] = (svg, P) => {
   const lig = S("line", { stroke: "var(--muted)", "stroke-width": 1.5, "stroke-dasharray": "3 3" }, el.mostrador);
   el.corrente = S("g", { class: "ae" }, svg);
   const tI = sLabel(el.corrente, 330, 340, "", "", "t-b", "middle");
-  const rota = [[RX1 + 20, RY], [RX1 + 20, 40], [LX, 40], [LX, 300], [600, 300], [600, 395], [12, 395], [12, 60]];
-  const segs = []; let Ltot = 0; for (let k = 1; k < rota.length; k++) { const d = Math.hypot(rota[k][0] - rota[k - 1][0], rota[k][1] - rota[k - 1][1]); segs.push([rota[k - 1], rota[k], Ltot, d]); Ltot += d; }
-  const dots = []; for (let s = 0; s < Ltot; s += 28) dots.push(S("circle", { r: 3.5, class: "dot" }, el.corrente));
+  const rota = xs => [[12, YC], [xs, YC], [xs, RY], [RX1, RY], ...caminho.slice(1), [12, 395], [12, YC]]; // caminho fechado da corrente
+  const trecho = pts => { const segs = []; let L = 0; for (let k = 1; k < pts.length; k++) { const d = Math.hypot(pts[k][0] - pts[k - 1][0], pts[k][1] - pts[k - 1][1]); if (d) { segs.push([pts[k - 1], pts[k], L, d]); L += d; } } return { segs, L }; };
+  const dots = []; for (let s = 0; s < trecho(rota(RX0)).L; s += 28) dots.push(S("circle", { r: 3.5, class: "dot" }, el.corrente));
   // painel: lâmina fria x quente
   el.zoom = S("g", { class: "ae" }, svg);
   S("rect", { x: 490, y: 60, width: 140, height: 220, rx: 8, fill: "var(--paper)", stroke: "var(--line)" }, el.zoom);
@@ -1377,7 +1412,7 @@ CENAS["indicador-combustivel"] = (svg, P) => {
     haste.setAttribute("x1", bx); haste.setAttribute("y1", by); haste.setAttribute("x2", xs); haste.setAttribute("y2", RY + 12);
     cursor.setAttribute("points", `${xs},${RY + 10} ${xs - 6},${RY + 22} ${xs + 6},${RY + 22}`);
     ativo.setAttribute("points", zz.filter(p => p[0] >= xs).map(p => p.join(",")).join(" ") );
-    fioCursor.setAttribute("points", `${xs},${RY + 22} ${xs},${RY + 30} 12,${RY + 30}`);
+    fioCursor.setAttribute("points", `${xs},${RY + 22} ${xs},${YC} 12,${YC}`);
     tR.textContent = n > 0.7 ? "pequena porção" : n < 0.3 ? "grande porção" : "";
     tNivel.textContent = n > 0.95 ? "tanque cheio" : n < 0.05 ? "tanque vazio" : "";
     const I = 1 / (R0 + Rr(n)), Imax = 1 / (R0 + Rr(1)), q = I / Imax, curv = Math.max(0, (q - 0.4) / 0.6); // aquecimento ~ corrente
@@ -1386,9 +1421,10 @@ CENAS["indicador-combustivel"] = (svg, P) => {
     lA.setAttribute("x", tipX - 18); lA.setAttribute("y", tipY - 10); lB.setAttribute("x", tipX + 18); lB.setAttribute("y", tipY - 10);
     const ang = Math.PI * (1 - curv) * 0.85 + Math.PI * 0.075; pont.setAttribute("x2", MX + 60 * Math.cos(ang)); pont.setAttribute("y2", MY - 60 * Math.sin(ang));
     lig.setAttribute("x1", tipX); lig.setAttribute("y1", tipY); lig.setAttribute("x2", MX + 30); lig.setAttribute("y2", MY + 4);
-    tI.textContent = `corrente: ${Math.round(q * 100)}% da do tanque cheio`;
+    tI.textContent = q > 0.97 ? "corrente maior" : q < 0.42 ? "corrente menor" : "corrente diminuindo";
     const off = (ph * 70 * q) % 28;
-    dots.forEach((d, k) => { const s = k * 28 + off; const sg = segs.find(g => s >= g[2] && s <= g[2] + g[3]) || segs[segs.length - 1]; const t = (s - sg[2]) / sg[3]; d.setAttribute("cx", sg[0][0] + (sg[1][0] - sg[0][0]) * t); d.setAttribute("cy", sg[0][1] + (sg[1][1] - sg[0][1]) * t); });
+    const { segs, L } = trecho(rota(xs));
+    dots.forEach((d, k) => { const s = k * 28 + off; d.style.display = s > L ? "none" : ""; if (s > L) return; const sg = segs.find(g => s >= g[2] && s <= g[2] + g[3]) || segs[segs.length - 1]; const t = (s - sg[2]) / sg[3]; d.setAttribute("cx", sg[0][0] + (sg[1][0] - sg[0][0]) * t); d.setAttribute("cy", sg[0][1] + (sg[1][1] - sg[0][1]) * t); });
   }
   let stop = () => {};
   pos(1, 0);
