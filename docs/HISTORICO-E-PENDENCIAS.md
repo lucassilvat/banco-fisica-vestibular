@@ -193,10 +193,15 @@ Para gravar questões, usam-se os lotes da etapa `publicar` (docs/WORKFLOW.md).
     ou Aprovada, com comentário (coleção `revisoes`). No merge, só as **aprovadas** vão para o
     site público. Antes de cada pull request: exportar a coleção `revisoes` (db_list), gravar
     com `python -m pipeline animacoes revisoes <arquivo>` e conferir com `... animacoes resumo`.
+37. v2.15.0: o Lucas definiu o estilo das animações: **formato aula** (cadência de professor,
+    equações uma a uma, cancelamentos e "passar para o outro lado" animados, métodos em abas,
+    simulação só quando agrega). Unesp 2026 refeita como referência; as demais provas continuam
+    no formato antigo até novo pedido.
 
 ## Pendências
 
-- **Resolução animada**: em revisão pelo Lucas no app do Claude (item 36). Só as aprovadas vão
+- **Resolução animada**: formato aula (item 37); Unesp 2026 refeita, aguardando a revisão do
+  Lucas. Em revisão pelo Lucas no app do Claude (item 36). Só as aprovadas vão
   para o site público. As comentadas esperam ajustes: ler os comentários da coleção `revisoes`,
   corrigir os roteiros e republicar no app. Não produzir animações novas sem novo pedido.
 

@@ -4,6 +4,22 @@ Cada versão corresponde a um lote de importação ou a uma mudança no app/pipe
 Formato: `vMAIOR.MENOR.CORREÇÃO` — MENOR sobe a cada prova importada; MAIOR, em mudanças
 de modelo de dados; CORREÇÃO, em correções de questões já publicadas.
 
+## v2.15.0 — 2026-11-15
+
+- **Novo formato de resolução animada, "aula"** (pedido do Lucas): cadência de professor. Cada
+  tela mostra seus blocos um a um, com pausa proporcional ao tamanho (texto com negrito, equação,
+  gabarito, "Fim da resolução."); equações aparecem uma de cada vez. Uma equação pode derivar da
+  anterior **riscando** trechos (cancelamentos) ou **levando** um trecho para a nova posição
+  (passar para o outro lado), com `\marca{id}{...}` no LaTeX e `cancelar`/`mover` no bloco.
+  Vários métodos aparecem em **abas**; a tela de abertura apresenta os caminhos. Desenho ou
+  simulação (modelo `diagrama`) só quando ajuda; sem cena, a lousa ocupa a largura toda.
+  "Próxima tela" completa a tela em andamento antes de avançar.
+- **Unesp 2026 refeita nesse formato** (Q76 a Q82), com preferência por cancelamentos em vez de
+  contas intermediárias; a Q81 tem dois métodos (campo elétrico e trabalho). Simulações: sombra
+  do pêndulo (Q76), espelho se aproximando do muro (Q79), íon migrando entre os eletrodos (Q81).
+- `pipeline animacoes verificar` confere o formato aula (tipos de bloco, marcas usadas em
+  `cancelar`/`mover`, gabarito ao fim de cada método); `\marca` entrou no subconjunto de LaTeX.
+
 ## v2.14.0 — 2026-11-15
 
 - **Revisão das resoluções animadas no app do Claude** (que só o Lucas acessa). Cada questão com

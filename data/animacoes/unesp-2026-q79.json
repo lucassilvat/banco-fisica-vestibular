@@ -1,98 +1,327 @@
 {
   "id": "unesp-2026-q79",
-  "titulo": "A imagem no espelho revela a distância ao muro",
+  "formato": "aula",
+  "titulo": "Duas distâncias pelo espelho do carro",
   "conceitos": [
-    "Espelho esférico convexo",
+    "Espelhos esféricos",
     "Equação de Gauss",
-    "Movimento retilíneo uniforme"
+    "Velocidade média"
   ],
   "cena": {
-    "modelo": "espelho-convexo",
+    "modelo": "diagrama",
     "parametros": {
-      "f": -0.8,
-      "d0": 8,
-      "d1": 5,
-      "t1": 2
+      "elementos": {
+        "muro": [
+          {
+            "t": "ret",
+            "x": 120,
+            "y": 360,
+            "w": 400,
+            "h": 22,
+            "cor": "#d9775b",
+            "borda": "tinta"
+          },
+          {
+            "t": "texto",
+            "x": 320,
+            "y": 402,
+            "txt": "muro",
+            "mudo": true
+          }
+        ],
+        "espelho0": [
+          {
+            "t": "caminho",
+            "d": "M220,70 Q320,130 420,70",
+            "cor": "normal",
+            "larg": 4
+          },
+          {
+            "t": "texto",
+            "x": 440,
+            "y": 70,
+            "txt": "espelho (t = 0)",
+            "negrito": true,
+            "cor": "normal",
+            "ancora": "start"
+          },
+          {
+            "t": "ret",
+            "x": 270,
+            "y": 100,
+            "w": 100,
+            "h": 10,
+            "cor": "#d9775b",
+            "borda": "tinta",
+            "opac": 0.7
+          },
+          {
+            "t": "texto",
+            "x": 380,
+            "y": 110,
+            "txt": "imagem (8/11 m)",
+            "mudo": true,
+            "ancora": "start"
+          },
+          {
+            "t": "cota",
+            "de": [
+              180,
+              90
+            ],
+            "para": [
+              180,
+              360
+            ],
+            "cor": "normal",
+            "rot_em": [
+              172,
+              225
+            ],
+            "ancora": "end",
+            "txt": "d₀"
+          }
+        ],
+        "espelho1": [
+          {
+            "t": "caminho",
+            "d": "M220,190 Q320,250 420,190",
+            "cor": "acel",
+            "larg": 4
+          },
+          {
+            "t": "texto",
+            "x": 440,
+            "y": 190,
+            "txt": "espelho (t = 2 s)",
+            "negrito": true,
+            "cor": "acel",
+            "ancora": "start"
+          },
+          {
+            "t": "ret",
+            "x": 270,
+            "y": 218,
+            "w": 100,
+            "h": 10,
+            "cor": "#d9775b",
+            "borda": "tinta",
+            "opac": 0.7
+          },
+          {
+            "t": "texto",
+            "x": 380,
+            "y": 228,
+            "txt": "imagem (20/29 m)",
+            "mudo": true,
+            "ancora": "start"
+          },
+          {
+            "t": "cota",
+            "de": [
+              560,
+              210
+            ],
+            "para": [
+              560,
+              360
+            ],
+            "cor": "normal",
+            "rot_em": [
+              568,
+              285
+            ],
+            "ancora": "start",
+            "txt": "d₁"
+          }
+        ],
+        "carro": [
+          {
+            "t": "caminho",
+            "d": "M240,60 Q320,110 400,60",
+            "cor": "perigo",
+            "larg": 4
+          },
+          {
+            "t": "seta",
+            "de": [
+              320,
+              110
+            ],
+            "para": [
+              320,
+              150
+            ],
+            "cor": "perigo",
+            "larg": 3,
+            "rot_em": [
+              332,
+              140
+            ],
+            "ancora": "start",
+            "rotulo": "v"
+          }
+        ]
+      },
+      "animacoes": {
+        "aproxima": {
+          "alvo": "carro",
+          "tipo": "trajeto",
+          "pontos": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              120
+            ]
+          ],
+          "duracao": 2.5,
+          "pausa": 1
+        }
+      }
     }
   },
-  "passos": [
+  "metodos": [
     {
-      "titulo": "A imagem no espelho convexo",
-      "conceito": "Espelho esférico convexo",
-      "texto": "O muro é o objeto. O espelho convexo forma uma imagem virtual do muro, atrás do espelho.",
-      "cena": {
-        "mostrar": [
-          "eixo",
-          "muro",
-          "espelho",
-          "foco",
-          "imagem"
-        ],
-        "estado": {
-          "d": 8
+      "nome": "Equação de Gauss",
+      "telas": [
+        {
+          "titulo": "A ferramenta",
+          "cena": {
+            "mostrar": [
+              "muro",
+              "carro"
+            ],
+            "animar": [
+              "aproxima"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "Para o espelho, a <b>equação de Gauss</b> relaciona objeto (p), imagem (p') e foco (f):"
+            },
+            {
+              "t": "eq",
+              "tex": "\\dfrac{1}{f} = \\dfrac{1}{p} + \\marca{q}{\\dfrac{1}{p'}}"
+            },
+            {
+              "t": "texto",
+              "html": "Isolamos 1/p: o termo da imagem <b>passa para o outro lado</b>, subtraindo."
+            },
+            {
+              "t": "eq",
+              "tex": "\\dfrac{1}{f} - \\marca{q}{\\dfrac{1}{p'}} = \\dfrac{1}{p}",
+              "mover": [
+                "q"
+              ]
+            },
+            {
+              "t": "texto",
+              "html": "O espelho é <b>convexo</b>: a imagem é virtual, então p' é <b>negativo</b>. E o foco também:"
+            },
+            {
+              "t": "eq",
+              "tex": "f = -0,8 = -\\dfrac{8}{10} \\quad \\Rightarrow \\quad \\dfrac{1}{f} = -\\dfrac{10}{8}"
+            }
+          ]
+        },
+        {
+          "titulo": "Distância no instante inicial",
+          "cena": {
+            "mostrar": [
+              "muro",
+              "espelho0"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "Em <b>t = 0</b>, a imagem está a 8/11 m: p' = −8/11 m."
+            },
+            {
+              "t": "eq",
+              "tex": "\\dfrac{1}{d_{0}} = -\\dfrac{10}{8} + \\dfrac{11}{8}"
+            },
+            {
+              "t": "eq",
+              "tex": "\\dfrac{1}{d_{0}} = \\dfrac{1}{8}"
+            },
+            {
+              "t": "eq",
+              "tex": "d_{0} = 8\\ \\text{m}"
+            }
+          ]
+        },
+        {
+          "titulo": "Distância dois segundos depois",
+          "cena": {
+            "mostrar": [
+              "muro",
+              "espelho0",
+              "espelho1"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "Em <b>t = 2 s</b>, a imagem está a 20/29 m: p' = −20/29 m."
+            },
+            {
+              "t": "eq",
+              "tex": "\\dfrac{1}{d_{1}} = -\\dfrac{10}{8} + \\dfrac{29}{20}"
+            },
+            {
+              "t": "texto",
+              "html": "Com denominador comum 40:"
+            },
+            {
+              "t": "eq",
+              "tex": "\\dfrac{1}{d_{1}} = -\\dfrac{50}{40} + \\dfrac{58}{40} = \\dfrac{8}{40} = \\dfrac{1}{5}"
+            },
+            {
+              "t": "eq",
+              "tex": "d_{1} = 5\\ \\text{m}"
+            }
+          ]
+        },
+        {
+          "titulo": "A velocidade",
+          "cena": {
+            "mostrar": [
+              "muro",
+              "espelho0",
+              "espelho1"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "O carro se aproxima com velocidade <b>constante</b>: em 2 s, andou de 8 m para 5 m do muro."
+            },
+            {
+              "t": "eq",
+              "tex": "v = \\dfrac{8 - 5}{2}"
+            },
+            {
+              "t": "eq",
+              "tex": "v = 1,5\\ \\text{m/s}"
+            },
+            {
+              "t": "gabarito",
+              "letra": "C"
+            },
+            {
+              "t": "fim"
+            }
+          ]
         }
-      }
-    },
-    {
-      "titulo": "Sinais na equação de Gauss",
-      "conceito": "Equação de Gauss",
-      "texto": "Convexo: foco virtual, f negativo. Imagem virtual: p′ negativo. O objeto é o muro, então p é a distância do espelho ao muro.",
-      "equacoes": [
-        "\\dfrac{1}{f} = \\dfrac{1}{p} + \\dfrac{1}{p′}, \\quad f = -0,8\\ \\text{m}"
-      ],
-      "cena": {
-        "mostrar": [
-          "cotas"
-        ]
-      }
-    },
-    {
-      "titulo": "Em t₀ = 0",
-      "conceito": "Equação de Gauss",
-      "texto": "Com a imagem a \\(\\dfrac{8}{11}\\) m do espelho:",
-      "equacoes": [
-        "\\dfrac{1}{\\mathrm{d}_0} = -\\dfrac{1}{0,8} + \\dfrac{11}{8} = -1,25 + 1,375 = 0,125 \\quad \\Rightarrow \\quad \\mathrm{d}_0 = 8\\ \\text{m}"
-      ],
-      "cena": {
-        "destacar": [
-          "cotas"
-        ],
-        "estado": {
-          "d": 8
-        }
-      }
-    },
-    {
-      "titulo": "Em t₁ = 2 s",
-      "conceito": "Equação de Gauss",
-      "texto": "Com a imagem a \\(\\dfrac{20}{29}\\) m do espelho.",
-      "equacoes": [
-        "\\dfrac{1}{\\mathrm{d}_1} = -1,25 + \\dfrac{29}{20} = -1,25 + 1,45 = 0,2 \\quad \\Rightarrow \\quad \\mathrm{d}_1 = 5\\ \\text{m}"
-      ],
-      "cena": {
-        "destacar": [
-          "cotas"
-        ],
-        "estado": {
-          "d": 5
-        }
-      }
-    },
-    {
-      "titulo": "A velocidade do carro",
-      "conceito": "Movimento retilíneo uniforme",
-      "texto": "Com velocidade constante, o carro se aproximou 3 m do muro em 2 s. Resposta: <b>(C) 1,5 m/s</b>.",
-      "equacoes": [
-        "v = \\dfrac{\\mathrm{d}_0 - \\mathrm{d}_1}{\\Delta t} = \\dfrac{8 - 5}{2} = 1,5\\ \\text{m/s}"
-      ],
-      "cena": {
-        "estado": {
-          "mover": true
-        }
-      }
+      ]
     }
   ],
   "status": "revisado",
-  "criadoEm": "2026-11-14T22:00:00-03:00",
-  "atualizadoEm": "2026-11-14T22:30:00-03:00"
+  "criadoEm": "2026-11-15T09:00:00-03:00",
+  "atualizadoEm": "2026-11-15T09:00:00-03:00"
 }

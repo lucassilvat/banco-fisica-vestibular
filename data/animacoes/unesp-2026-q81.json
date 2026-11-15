@@ -1,57 +1,402 @@
 {
   "id": "unesp-2026-q81",
-  "titulo": "A força sobre um íon num campo uniforme",
+  "formato": "aula",
+  "titulo": "A força sobre cada íon de lítio",
   "conceitos": [
     "Campo elétrico uniforme",
-    "Diferença de potencial",
-    "Força elétrica"
+    "Força elétrica",
+    "Trabalho da força elétrica"
   ],
   "cena": {
-    "modelo": "campo-uniforme",
+    "modelo": "diagrama",
     "parametros": {
-      "U": 4,
-      "dTexto": "5 mm"
+      "elementos": {
+        "placas": [
+          {
+            "t": "ret",
+            "x": 150,
+            "y": 60,
+            "w": 22,
+            "h": 300,
+            "cor": "#9aa0aa",
+            "borda": "tinta"
+          },
+          {
+            "t": "ret",
+            "x": 470,
+            "y": 60,
+            "w": 22,
+            "h": 300,
+            "cor": "#9aa0aa",
+            "borda": "tinta"
+          },
+          {
+            "t": "texto",
+            "x": 161,
+            "y": 50,
+            "txt": "+",
+            "negrito": true
+          },
+          {
+            "t": "texto",
+            "x": 481,
+            "y": 50,
+            "txt": "−",
+            "negrito": true
+          },
+          {
+            "t": "cota",
+            "de": [
+              172,
+              390
+            ],
+            "para": [
+              470,
+              390
+            ],
+            "cor": "normal",
+            "rot_em": [
+              321,
+              408
+            ],
+            "txt": "d = 5 mm"
+          },
+          {
+            "t": "rotulo",
+            "x": 321,
+            "y": 30,
+            "txt": "U = 4 V",
+            "cor": "var(--accent)"
+          },
+          {
+            "t": "seta",
+            "de": [
+              180,
+              100
+            ],
+            "para": [
+              460,
+              100
+            ],
+            "cor": "#bbb",
+            "larg": 1.5
+          },
+          {
+            "t": "seta",
+            "de": [
+              180,
+              150
+            ],
+            "para": [
+              460,
+              150
+            ],
+            "cor": "#bbb",
+            "larg": 1.5
+          },
+          {
+            "t": "seta",
+            "de": [
+              180,
+              200
+            ],
+            "para": [
+              460,
+              200
+            ],
+            "cor": "#bbb",
+            "larg": 1.5
+          },
+          {
+            "t": "seta",
+            "de": [
+              180,
+              250
+            ],
+            "para": [
+              460,
+              250
+            ],
+            "cor": "#bbb",
+            "larg": 1.5
+          },
+          {
+            "t": "seta",
+            "de": [
+              180,
+              300
+            ],
+            "para": [
+              460,
+              300
+            ],
+            "cor": "#bbb",
+            "larg": 1.5
+          },
+          {
+            "t": "seta",
+            "de": [
+              180,
+              350
+            ],
+            "para": [
+              460,
+              350
+            ],
+            "cor": "#bbb",
+            "larg": 1.5
+          },
+          {
+            "t": "texto",
+            "x": 470,
+            "y": 92,
+            "txt": "E",
+            "negrito": true,
+            "mudo": true,
+            "ancora": "end"
+          }
+        ],
+        "ion": [
+          {
+            "t": "circ",
+            "x": 200,
+            "y": 225,
+            "r": 14,
+            "cor": "#ef7d22",
+            "borda": "tinta"
+          },
+          {
+            "t": "texto",
+            "x": 200,
+            "y": 225,
+            "txt": "+",
+            "negrito": true
+          },
+          {
+            "t": "seta",
+            "de": [
+              216,
+              225
+            ],
+            "para": [
+              290,
+              225
+            ],
+            "cor": "perigo",
+            "larg": 3.5,
+            "rot_em": [
+              294,
+              212
+            ],
+            "ancora": "start",
+            "rotulo": "F"
+          }
+        ]
+      },
+      "animacoes": {
+        "migra": {
+          "alvo": "ion",
+          "tipo": "trajeto",
+          "pontos": [
+            [
+              0,
+              0
+            ],
+            [
+              240,
+              0
+            ]
+          ],
+          "duracao": 3,
+          "pausa": 1
+        }
+      },
+      "altura": 420
     }
   },
-  "passos": [
+  "abertura": [
     {
-      "titulo": "O campo entre os eletrodos",
-      "conceito": "Campo elétrico uniforme",
-      "texto": "A tensão de 4 V entre os eletrodos cria um campo elétrico uniforme: mesma intensidade e mesma direção em todo o meio. As linhas de campo vão do eletrodo positivo para o negativo. Antes de calcular, a distância vai para metros.",
-      "equacoes": [
-        "U = E \\cdot d \\quad \\Rightarrow \\quad E = \\dfrac{4}{5 \\times 10^{-3}} = 800\\ \\text{V/m}"
-      ],
-      "cena": {
-        "mostrar": [
-          "placas",
-          "tensao",
-          "cota-d",
-          "campo"
-        ]
-      }
+      "titulo": "Resolução",
+      "blocos": [
+        {
+          "t": "texto",
+          "html": "Há <b>dois caminhos</b> para resolver esta questão:"
+        },
+        {
+          "t": "texto",
+          "html": "1) Usar o <b>campo elétrico</b>: num campo uniforme, E = U/d, e a força é F = qE."
+        },
+        {
+          "t": "texto",
+          "html": "2) Usar o <b>trabalho</b> da força elétrica, que pode ser escrito de duas formas."
+        },
+        {
+          "t": "texto",
+          "html": "Escolha um método nas abas acima, ou avance para ver os dois."
+        }
+      ]
+    }
+  ],
+  "metodos": [
+    {
+      "nome": "Pelo campo elétrico",
+      "telas": [
+        {
+          "titulo": "As duas relações",
+          "cena": {
+            "mostrar": [
+              "placas",
+              "ion"
+            ],
+            "animar": [
+              "migra"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "Entre os eletrodos, o campo elétrico é <b>uniforme</b>. Nesse caso:"
+            },
+            {
+              "t": "eq",
+              "tex": "U = E \\cdot d \\quad \\Rightarrow \\quad E = \\dfrac{U}{d}"
+            },
+            {
+              "t": "texto",
+              "html": "A força sobre uma carga q num campo E é:"
+            },
+            {
+              "t": "eq",
+              "tex": "F = q E"
+            }
+          ]
+        },
+        {
+          "titulo": "A força",
+          "cena": {
+            "mostrar": [
+              "placas",
+              "ion"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "Juntando as duas:"
+            },
+            {
+              "t": "eq",
+              "tex": "F = \\dfrac{q U}{d}"
+            },
+            {
+              "t": "eq",
+              "tex": "F = \\dfrac{1,6 \\times 10^{-19} \\cdot 4}{5 \\times 10^{-3}}"
+            },
+            {
+              "t": "texto",
+              "html": "1,6 · 4 = 6,4, e 6,4 ÷ 5 = 1,28:"
+            },
+            {
+              "t": "eq",
+              "tex": "F = 1,28 \\times 10^{-16}\\ \\text{N}"
+            },
+            {
+              "t": "gabarito",
+              "letra": "C"
+            },
+            {
+              "t": "fim"
+            }
+          ]
+        }
+      ]
     },
     {
-      "titulo": "A força em cada íon",
-      "conceito": "Força elétrica",
-      "texto": "Cada íon de lítio tem carga positiva, então a força tem o mesmo sentido do campo, e ele migra de um eletrodo ao outro. Como o campo é uniforme, a força é a mesma em qualquer ponto do caminho. Resposta: <b>(C) 1,28 × 10<sup>–16</sup> N</b>.",
-      "equacoes": [
-        "F = qE = 1,6 \\times 10^{-19} \\cdot 800 = 1,28 \\times 10^{-16}\\ \\text{N}"
-      ],
-      "cena": {
-        "mostrar": [
-          "ion",
-          "forca"
-        ],
-        "destacar": [
-          "forca"
-        ],
-        "estado": {
-          "mover": true
+      "nome": "Pelo trabalho",
+      "telas": [
+        {
+          "titulo": "Duas formas do mesmo trabalho",
+          "cena": {
+            "mostrar": [
+              "placas",
+              "ion"
+            ],
+            "animar": [
+              "migra"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "Ao atravessar de um eletrodo ao outro, o íon recebe da força elétrica um <b>trabalho</b>."
+            },
+            {
+              "t": "texto",
+              "html": "Pela ddp entre os eletrodos:"
+            },
+            {
+              "t": "eq",
+              "tex": "\\tau = q U"
+            },
+            {
+              "t": "texto",
+              "html": "Como a força é <b>constante</b> e tem a direção do deslocamento:"
+            },
+            {
+              "t": "eq",
+              "tex": "\\tau = F d"
+            }
+          ]
+        },
+        {
+          "titulo": "A força",
+          "cena": {
+            "mostrar": [
+              "placas",
+              "ion"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "Igualando:"
+            },
+            {
+              "t": "eq",
+              "tex": "F \\marca{d}{d} = q U"
+            },
+            {
+              "t": "texto",
+              "html": "A distância <b>passa para o outro lado</b>, dividindo:"
+            },
+            {
+              "t": "eq",
+              "tex": "F = \\dfrac{q U}{\\marca{d}{d}}",
+              "mover": [
+                "d"
+              ]
+            },
+            {
+              "t": "eq",
+              "tex": "F = \\dfrac{1,6 \\times 10^{-19} \\cdot 4}{5 \\times 10^{-3}}"
+            },
+            {
+              "t": "eq",
+              "tex": "F = 1,28 \\times 10^{-16}\\ \\text{N}"
+            },
+            {
+              "t": "gabarito",
+              "letra": "C"
+            },
+            {
+              "t": "fim"
+            }
+          ]
         }
-      }
+      ]
     }
   ],
   "status": "revisado",
-  "criadoEm": "2026-11-14T22:00:00-03:00",
-  "atualizadoEm": "2026-11-14T22:00:00-03:00"
+  "criadoEm": "2026-11-15T09:00:00-03:00",
+  "atualizadoEm": "2026-11-15T09:00:00-03:00"
 }
