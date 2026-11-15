@@ -50,8 +50,8 @@ def executar(destino: str = "site"):
     (out / "animacoes.json").write_text(json.dumps(anims, ensure_ascii=False), encoding="utf-8")
     app = (RAIZ / "app" / "index.html").read_text(encoding="utf-8")
     if not app.lstrip().lower().startswith("<!doctype"):
-        # app/index.html é o corpo publicado no artefato (que acrescenta o esqueleto do documento);
-        # fora do Claude ele precisa do esqueleto completo, com a codificação UTF-8 declarada.
+        # Desde a v2.8.1 app/index.html já é um documento completo; este ramo só vale para versões
+        # antigas, que eram só o corpo e precisavam do esqueleto e da codificação UTF-8 declarada.
         app = (CABECALHO + app + "\n</body></html>\n")
     (out / "index.html").write_text(app, encoding="utf-8")
     (out / ".nojekyll").write_text("")

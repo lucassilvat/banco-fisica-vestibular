@@ -4,6 +4,14 @@ Cada versão corresponde a um lote de importação ou a uma mudança no app/pipe
 Formato: `vMAIOR.MENOR.CORREÇÃO` — MENOR sobe a cada prova importada; MAIOR, em mudanças
 de modelo de dados; CORREÇÃO, em correções de questões já publicadas.
 
+## v2.8.1 — 2026-11-14
+
+- **Correção do app:** na v2.8.0 o painel "Minha lista" ficava aberto e o botão "Fechar" não
+  funcionava. O app dependia do esqueleto de documento que o artefato acrescentava (com a
+  regra que esconde elementos com o atributo `hidden`), e a nova forma de publicar não o
+  acrescenta. `app/index.html` agora é um documento completo (`<!DOCTYPE html>`, codificação,
+  viewport e a regra do `hidden` no próprio CSS).
+
 ## v2.8.0 — 2026-11-14
 
 - **Resolução animada (piloto).** Adicional à resolução comentada, que não muda: botão

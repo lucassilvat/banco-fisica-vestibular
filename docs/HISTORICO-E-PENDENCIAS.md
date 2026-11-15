@@ -167,6 +167,9 @@ Para gravar questões, usam-se os lotes da etapa `publicar` (docs/WORKFLOW.md).
     `data/animacoes/`, player no app e vídeo em Manim gerado do mesmo roteiro
     (`docs/ANIMACOES.md`). Questões do piloto: Unesp 2025 Q78, ENEM 2023 Q98 e Unicamp 2017
     Q58. Decisão de formato: o roteiro é o ativo; app e vídeo são duas saídas dele.
+28. v2.8.1: `app/index.html` passou a ser um documento completo (começa com
+    `<!DOCTYPE html>`); o artefato recusa ou serve sem esqueleto um arquivo que começa com
+    `<title>`, e sem a regra do `hidden` o painel "Minha lista" não fechava.
 
 ## Pendências
 
