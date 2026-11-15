@@ -1,0 +1,164 @@
+{
+  "id": "fuvest-2023-q77",
+  "titulo": "Bolinhas que grudam sobem a um quarto da altura",
+  "conceitos": [
+    "Conservação da energia mecânica",
+    "Colisões"
+  ],
+  "cena": {
+    "modelo": "diagrama",
+    "parametros": {
+      "elementos": {
+        "pendulo": [
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                200,
+                50
+              ],
+              [
+                440,
+                50
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 4
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                320,
+                50
+              ],
+              [
+                320,
+                260
+              ]
+            ],
+            "cor": "mudo",
+            "larg": 1.5
+          },
+          {
+            "t": "circ",
+            "x": 320,
+            "y": 272,
+            "r": 14,
+            "cor": "#7fd3e0",
+            "borda": "tinta"
+          },
+          {
+            "t": "texto",
+            "x": 320,
+            "y": 272,
+            "txt": "2",
+            "negrito": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                320,
+                50
+              ],
+              [
+                110,
+                50
+              ]
+            ],
+            "cor": "mudo",
+            "larg": 1.5,
+            "tracejado": true
+          },
+          {
+            "t": "circ",
+            "x": 110,
+            "y": 50,
+            "r": 14,
+            "cor": "#7fd3e0",
+            "borda": "tinta"
+          },
+          {
+            "t": "texto",
+            "x": 110,
+            "y": 50,
+            "txt": "1",
+            "negrito": true
+          },
+          {
+            "t": "cota",
+            "de": [
+              470,
+              50
+            ],
+            "para": [
+              470,
+              272
+            ],
+            "cor": "normal",
+            "rot_em": [
+              482,
+              160
+            ],
+            "ancora": "start",
+            "txt": "h"
+          }
+        ],
+        "etapas": [
+          {
+            "t": "rotulo",
+            "x": 320,
+            "y": 330,
+            "txt": "descida: v₁ = √(2gh)",
+            "cor": "var(--accent)"
+          },
+          {
+            "t": "rotulo",
+            "x": 320,
+            "y": 370,
+            "txt": "colisão grudando: m v₁ = 2m v ⇒ v = v₁/2",
+            "cor": "var(--danger)"
+          },
+          {
+            "t": "rotulo",
+            "x": 320,
+            "y": 410,
+            "txt": "subida: h' = v²/2g = h/4",
+            "cor": "var(--anim-acel)"
+          }
+        ]
+      },
+      "altura": 440
+    }
+  },
+  "passos": [
+    {
+      "titulo": "Descida e colisão",
+      "conceito": "Colisões",
+      "texto": "A esfera 1 desce e chega com v<sub>1</sub> = √(2gh). Na colisão em que ficam unidas, conserva-se a quantidade de movimento: o conjunto de massa 2m sai com metade da velocidade.",
+      "cena": {
+        "mostrar": [
+          "pendulo",
+          "etapas"
+        ]
+      }
+    },
+    {
+      "titulo": "A subida",
+      "conceito": "Conservação da energia mecânica",
+      "texto": "A altura depende do quadrado da velocidade: metade da velocidade, um quarto da altura. Resposta: <b>(B) h/4</b>.",
+      "equacoes": [
+        "h' = \\dfrac{(v_{1}/2)^{2}}{2g} = \\dfrac{h}{4}"
+      ],
+      "cena": {
+        "destacar": [
+          "etapas"
+        ]
+      }
+    }
+  ],
+  "status": "revisado",
+  "criadoEm": "2026-11-15T09:00:00-03:00",
+  "atualizadoEm": "2026-11-15T09:00:00-03:00"
+}

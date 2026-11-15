@@ -1,0 +1,168 @@
+{
+  "id": "fuvest-2016-q26",
+  "titulo": "Meio período de cada pêndulo",
+  "conceitos": [
+    "Pêndulo simples"
+  ],
+  "cena": {
+    "modelo": "diagrama",
+    "parametros": {
+      "elementos": {
+        "pendulo": [
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                240,
+                50
+              ],
+              [
+                400,
+                50
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 4
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                320,
+                50
+              ],
+              [
+                320,
+                330
+              ]
+            ],
+            "cor": "mudo",
+            "larg": 2
+          },
+          {
+            "t": "circ",
+            "x": 320,
+            "y": 340,
+            "r": 12,
+            "cor": "#3a86c8",
+            "borda": "tinta"
+          },
+          {
+            "t": "circ",
+            "x": 320,
+            "y": 190,
+            "r": 6,
+            "cor": "perigo",
+            "borda": "tinta"
+          },
+          {
+            "t": "texto",
+            "x": 332,
+            "y": 190,
+            "txt": "haste",
+            "negrito": true,
+            "cor": "perigo",
+            "ancora": "start"
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                320,
+                50
+              ],
+              [
+                210,
+                320
+              ]
+            ],
+            "cor": "mudo",
+            "larg": 1.5,
+            "tracejado": true
+          },
+          {
+            "t": "texto",
+            "x": 240,
+            "y": 220,
+            "txt": "L",
+            "negrito": true,
+            "mudo": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                320,
+                190
+              ],
+              [
+                390,
+                322
+              ]
+            ],
+            "cor": "mudo",
+            "larg": 1.5,
+            "tracejado": true
+          },
+          {
+            "t": "texto",
+            "x": 370,
+            "y": 260,
+            "txt": "L/2",
+            "negrito": true,
+            "mudo": true,
+            "ancora": "start"
+          }
+        ],
+        "meios": [
+          {
+            "t": "rotulo",
+            "x": 160,
+            "y": 390,
+            "txt": "lado com L: π√(L/g)",
+            "cor": "var(--accent)"
+          },
+          {
+            "t": "rotulo",
+            "x": 480,
+            "y": 390,
+            "txt": "lado com L/2: π√(L/2g)",
+            "cor": "var(--danger)"
+          }
+        ]
+      },
+      "altura": 440
+    }
+  },
+  "passos": [
+    {
+      "titulo": "Dois pêndulos em um",
+      "conceito": "Pêndulo simples",
+      "texto": "De um lado da vertical, o fio oscila inteiro (L); do outro, a haste o faz pivotar no meio (L/2).",
+      "cena": {
+        "mostrar": [
+          "pendulo"
+        ]
+      }
+    },
+    {
+      "titulo": "O período",
+      "conceito": "Pêndulo simples",
+      "texto": "Cada lado é meio período do pêndulo correspondente. Resposta: <b>(e)</b>.",
+      "equacoes": [
+        "T = \\pi\\left(\\sqrt{\\dfrac{L}{g}} + \\sqrt{\\dfrac{L}{2g}}\\right)"
+      ],
+      "cena": {
+        "mostrar": [
+          "meios"
+        ],
+        "destacar": [
+          "meios"
+        ]
+      }
+    }
+  ],
+  "status": "revisado",
+  "criadoEm": "2026-11-15T09:00:00-03:00",
+  "atualizadoEm": "2026-11-15T09:00:00-03:00"
+}

@@ -1,0 +1,197 @@
+{
+  "id": "fuvest-2024-q55",
+  "titulo": "O campo no ponto médio entre os geradores",
+  "conceitos": [
+    "Campo elétrico"
+  ],
+  "cena": {
+    "modelo": "diagrama",
+    "parametros": {
+      "elementos": {
+        "geradores": [
+          {
+            "t": "circ",
+            "x": 130,
+            "y": 200,
+            "r": 60,
+            "cor": "#d6d6d6",
+            "borda": "tinta",
+            "larg": 2
+          },
+          {
+            "t": "texto",
+            "x": 130,
+            "y": 200,
+            "txt": "A: +Q",
+            "negrito": true
+          },
+          {
+            "t": "circ",
+            "x": 510,
+            "y": 200,
+            "r": 60,
+            "cor": "#d6d6d6",
+            "borda": "tinta",
+            "larg": 2
+          },
+          {
+            "t": "texto",
+            "x": 510,
+            "y": 200,
+            "txt": "B: +2Q",
+            "negrito": true
+          },
+          {
+            "t": "circ",
+            "x": 320,
+            "y": 200,
+            "r": 5,
+            "cor": "tinta",
+            "borda": "tinta"
+          },
+          {
+            "t": "texto",
+            "x": 320,
+            "y": 224,
+            "txt": "P",
+            "negrito": true
+          },
+          {
+            "t": "cota",
+            "de": [
+              130,
+              300
+            ],
+            "para": [
+              320,
+              300
+            ],
+            "cor": "normal",
+            "rot_em": [
+              225,
+              318
+            ],
+            "txt": "d"
+          },
+          {
+            "t": "cota",
+            "de": [
+              320,
+              300
+            ],
+            "para": [
+              510,
+              300
+            ],
+            "cor": "normal",
+            "rot_em": [
+              415,
+              318
+            ],
+            "txt": "d"
+          }
+        ],
+        "campos": [
+          {
+            "t": "seta",
+            "de": [
+              320,
+              200
+            ],
+            "para": [
+              370,
+              200
+            ],
+            "cor": "perigo",
+            "larg": 3
+          },
+          {
+            "t": "texto",
+            "x": 374,
+            "y": 186,
+            "txt": "kQ/d²",
+            "negrito": true,
+            "cor": "perigo",
+            "ancora": "start"
+          },
+          {
+            "t": "seta",
+            "de": [
+              320,
+              170
+            ],
+            "para": [
+              220,
+              170
+            ],
+            "cor": "normal",
+            "larg": 3
+          },
+          {
+            "t": "texto",
+            "x": 270,
+            "y": 150,
+            "txt": "2kQ/d²",
+            "negrito": true,
+            "cor": "normal"
+          }
+        ],
+        "resultante": [
+          {
+            "t": "seta",
+            "de": [
+              345,
+              360
+            ],
+            "para": [
+              295,
+              360
+            ],
+            "cor": "acel",
+            "larg": 4
+          },
+          {
+            "t": "texto",
+            "x": 320,
+            "y": 390,
+            "txt": "resultante em P: kQ/d² para a esquerda",
+            "negrito": true,
+            "cor": "acel"
+          }
+        ]
+      }
+    }
+  },
+  "passos": [
+    {
+      "titulo": "Cada esfera como carga pontual",
+      "conceito": "Campo elétrico",
+      "texto": "Fora da esfera, o campo é o de uma carga pontual no centro. Em P, o campo de A aponta para longe de A (direita); o de B, para longe de B (esquerda), com o dobro do módulo.",
+      "cena": {
+        "mostrar": [
+          "geradores",
+          "campos"
+        ]
+      }
+    },
+    {
+      "titulo": "A resultante",
+      "conceito": "Campo elétrico",
+      "texto": "Resposta: <b>(C) ←</b>.",
+      "equacoes": [
+        "E_{P} = \\dfrac{2kQ}{d^{2}} - \\dfrac{kQ}{d^{2}} = \\dfrac{kQ}{d^{2}}"
+      ],
+      "cena": {
+        "mostrar": [
+          "resultante"
+        ],
+        "destacar": [
+          "resultante"
+        ]
+      }
+    }
+  ],
+  "status": "revisado",
+  "criadoEm": "2026-11-15T09:00:00-03:00",
+  "atualizadoEm": "2026-11-15T09:00:00-03:00"
+}

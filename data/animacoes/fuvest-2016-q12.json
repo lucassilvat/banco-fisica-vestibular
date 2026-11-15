@@ -1,0 +1,205 @@
+{
+  "id": "fuvest-2016-q12",
+  "titulo": "Aristarco e a distância ao Sol",
+  "conceitos": [
+    "Movimento circular uniforme",
+    "Astronomia"
+  ],
+  "cena": {
+    "modelo": "diagrama",
+    "parametros": {
+      "elementos": {
+        "geometria": [
+          {
+            "t": "circ",
+            "x": 160,
+            "y": 220,
+            "r": 18,
+            "cor": "#3a86c8",
+            "borda": "tinta"
+          },
+          {
+            "t": "texto",
+            "x": 160,
+            "y": 252,
+            "txt": "Terra",
+            "negrito": true
+          },
+          {
+            "t": "circ",
+            "x": 300,
+            "y": 220,
+            "r": 10,
+            "cor": "#ccc",
+            "borda": "tinta"
+          },
+          {
+            "t": "texto",
+            "x": 300,
+            "y": 246,
+            "txt": "Lua",
+            "negrito": true
+          },
+          {
+            "t": "circ",
+            "x": 640,
+            "y": 220,
+            "r": 30,
+            "cor": "luz",
+            "borda": "tinta"
+          },
+          {
+            "t": "texto",
+            "x": 600,
+            "y": 270,
+            "txt": "Sol (bem mais longe)",
+            "mudo": true,
+            "ancora": "end"
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                160,
+                220
+              ],
+              [
+                640,
+                220
+              ]
+            ],
+            "cor": "mudo",
+            "larg": 1,
+            "tracejado": true
+          },
+          {
+            "t": "circ",
+            "x": 170,
+            "y": 100,
+            "r": 10,
+            "cor": "#ccc",
+            "borda": "tinta"
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                160,
+                220
+              ],
+              [
+                170,
+                100
+              ]
+            ],
+            "cor": "mudo",
+            "larg": 1.5
+          },
+          {
+            "t": "circ",
+            "x": 170,
+            "y": 340,
+            "r": 10,
+            "cor": "#ccc",
+            "borda": "tinta"
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                160,
+                220
+              ],
+              [
+                170,
+                340
+              ]
+            ],
+            "cor": "mudo",
+            "larg": 1.5
+          },
+          {
+            "t": "texto",
+            "x": 186,
+            "y": 92,
+            "txt": "quarto",
+            "mudo": true,
+            "ancora": "start"
+          },
+          {
+            "t": "texto",
+            "x": 186,
+            "y": 352,
+            "txt": "quarto",
+            "mudo": true,
+            "ancora": "start"
+          }
+        ],
+        "angulo": [
+          {
+            "t": "angulo",
+            "centro": [
+              160,
+              220
+            ],
+            "de": -85,
+            "ate": 85,
+            "r": 50,
+            "cor": "acel"
+          },
+          {
+            "t": "texto",
+            "x": 226,
+            "y": 220,
+            "txt": "2α",
+            "negrito": true,
+            "cor": "acel",
+            "ancora": "start"
+          },
+          {
+            "t": "rotulo",
+            "x": 470,
+            "y": 60,
+            "txt": "2α/360º = t₂/(t₁ + t₂) ⇒ α ≈ 89,7º",
+            "cor": "var(--danger)"
+          }
+        ]
+      },
+      "largura": 700
+    }
+  },
+  "passos": [
+    {
+      "titulo": "O triângulo",
+      "conceito": "Astronomia",
+      "texto": "No quarto de lua, o ângulo na Lua entre Terra e Sol é reto: d<sub>L</sub>/d<sub>S</sub> = cos α, sendo α o ângulo na Terra.",
+      "equacoes": [
+        "\\dfrac{d_{L}}{d_{S}} = \\cos\\alpha"
+      ],
+      "cena": {
+        "mostrar": [
+          "geometria"
+        ]
+      }
+    },
+    {
+      "titulo": "O ângulo pelo tempo",
+      "conceito": "Movimento circular uniforme",
+      "texto": "Em MCU, o ângulo varrido é proporcional ao tempo. De minguante a crescente (do lado do Sol), a Lua varre 2α em 14,8 dias, de um ciclo de 29,7 dias. Resposta: <b>(e) cos 89,7º</b>.",
+      "equacoes": [
+        "\\alpha = 180º \\cdot \\dfrac{14,8}{29,7} \\approx 89,7º"
+      ],
+      "cena": {
+        "mostrar": [
+          "angulo"
+        ],
+        "destacar": [
+          "angulo"
+        ]
+      }
+    }
+  ],
+  "status": "revisado",
+  "criadoEm": "2026-11-15T09:00:00-03:00",
+  "atualizadoEm": "2026-11-15T09:00:00-03:00"
+}

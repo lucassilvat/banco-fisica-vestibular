@@ -1,0 +1,949 @@
+{
+  "id": "fuvest-2020-q77",
+  "titulo": "Forças elétrica e magnética dentro do solenoide",
+  "conceitos": [
+    "Campo magnético de um solenoide",
+    "Força magnética sobre cargas"
+  ],
+  "cena": {
+    "modelo": "diagrama",
+    "parametros": {
+      "elementos": {
+        "solenoide": [
+          {
+            "t": "texto",
+            "x": 60,
+            "y": 80,
+            "txt": "I",
+            "negrito": true
+          },
+          {
+            "t": "circ",
+            "x": 100,
+            "y": 80,
+            "r": 11,
+            "cor": "papel",
+            "borda": "tinta"
+          },
+          {
+            "t": "circ",
+            "x": 136,
+            "y": 80,
+            "r": 11,
+            "cor": "papel",
+            "borda": "tinta"
+          },
+          {
+            "t": "circ",
+            "x": 172,
+            "y": 80,
+            "r": 11,
+            "cor": "papel",
+            "borda": "tinta"
+          },
+          {
+            "t": "circ",
+            "x": 208,
+            "y": 80,
+            "r": 11,
+            "cor": "papel",
+            "borda": "tinta"
+          },
+          {
+            "t": "circ",
+            "x": 244,
+            "y": 80,
+            "r": 11,
+            "cor": "papel",
+            "borda": "tinta"
+          },
+          {
+            "t": "circ",
+            "x": 280,
+            "y": 80,
+            "r": 11,
+            "cor": "papel",
+            "borda": "tinta"
+          },
+          {
+            "t": "circ",
+            "x": 316,
+            "y": 80,
+            "r": 11,
+            "cor": "papel",
+            "borda": "tinta"
+          },
+          {
+            "t": "circ",
+            "x": 352,
+            "y": 80,
+            "r": 11,
+            "cor": "papel",
+            "borda": "tinta"
+          },
+          {
+            "t": "circ",
+            "x": 388,
+            "y": 80,
+            "r": 11,
+            "cor": "papel",
+            "borda": "tinta"
+          },
+          {
+            "t": "circ",
+            "x": 424,
+            "y": 80,
+            "r": 11,
+            "cor": "papel",
+            "borda": "tinta"
+          },
+          {
+            "t": "circ",
+            "x": 460,
+            "y": 80,
+            "r": 11,
+            "cor": "papel",
+            "borda": "tinta"
+          },
+          {
+            "t": "circ",
+            "x": 496,
+            "y": 80,
+            "r": 11,
+            "cor": "papel",
+            "borda": "tinta"
+          },
+          {
+            "t": "circ",
+            "x": 532,
+            "y": 80,
+            "r": 11,
+            "cor": "papel",
+            "borda": "tinta"
+          },
+          {
+            "t": "circ",
+            "x": 568,
+            "y": 80,
+            "r": 11,
+            "cor": "papel",
+            "borda": "tinta"
+          },
+          {
+            "t": "circ",
+            "x": 100,
+            "y": 80,
+            "r": 3,
+            "cor": "tinta",
+            "borda": "tinta"
+          },
+          {
+            "t": "circ",
+            "x": 136,
+            "y": 80,
+            "r": 3,
+            "cor": "tinta",
+            "borda": "tinta"
+          },
+          {
+            "t": "circ",
+            "x": 172,
+            "y": 80,
+            "r": 3,
+            "cor": "tinta",
+            "borda": "tinta"
+          },
+          {
+            "t": "circ",
+            "x": 208,
+            "y": 80,
+            "r": 3,
+            "cor": "tinta",
+            "borda": "tinta"
+          },
+          {
+            "t": "circ",
+            "x": 244,
+            "y": 80,
+            "r": 3,
+            "cor": "tinta",
+            "borda": "tinta"
+          },
+          {
+            "t": "circ",
+            "x": 280,
+            "y": 80,
+            "r": 3,
+            "cor": "tinta",
+            "borda": "tinta"
+          },
+          {
+            "t": "circ",
+            "x": 316,
+            "y": 80,
+            "r": 3,
+            "cor": "tinta",
+            "borda": "tinta"
+          },
+          {
+            "t": "circ",
+            "x": 352,
+            "y": 80,
+            "r": 3,
+            "cor": "tinta",
+            "borda": "tinta"
+          },
+          {
+            "t": "circ",
+            "x": 388,
+            "y": 80,
+            "r": 3,
+            "cor": "tinta",
+            "borda": "tinta"
+          },
+          {
+            "t": "circ",
+            "x": 424,
+            "y": 80,
+            "r": 3,
+            "cor": "tinta",
+            "borda": "tinta"
+          },
+          {
+            "t": "circ",
+            "x": 460,
+            "y": 80,
+            "r": 3,
+            "cor": "tinta",
+            "borda": "tinta"
+          },
+          {
+            "t": "circ",
+            "x": 496,
+            "y": 80,
+            "r": 3,
+            "cor": "tinta",
+            "borda": "tinta"
+          },
+          {
+            "t": "circ",
+            "x": 532,
+            "y": 80,
+            "r": 3,
+            "cor": "tinta",
+            "borda": "tinta"
+          },
+          {
+            "t": "circ",
+            "x": 568,
+            "y": 80,
+            "r": 3,
+            "cor": "tinta",
+            "borda": "tinta"
+          },
+          {
+            "t": "texto",
+            "x": 60,
+            "y": 320,
+            "txt": "I",
+            "negrito": true
+          },
+          {
+            "t": "circ",
+            "x": 100,
+            "y": 320,
+            "r": 11,
+            "cor": "papel",
+            "borda": "tinta"
+          },
+          {
+            "t": "circ",
+            "x": 136,
+            "y": 320,
+            "r": 11,
+            "cor": "papel",
+            "borda": "tinta"
+          },
+          {
+            "t": "circ",
+            "x": 172,
+            "y": 320,
+            "r": 11,
+            "cor": "papel",
+            "borda": "tinta"
+          },
+          {
+            "t": "circ",
+            "x": 208,
+            "y": 320,
+            "r": 11,
+            "cor": "papel",
+            "borda": "tinta"
+          },
+          {
+            "t": "circ",
+            "x": 244,
+            "y": 320,
+            "r": 11,
+            "cor": "papel",
+            "borda": "tinta"
+          },
+          {
+            "t": "circ",
+            "x": 280,
+            "y": 320,
+            "r": 11,
+            "cor": "papel",
+            "borda": "tinta"
+          },
+          {
+            "t": "circ",
+            "x": 316,
+            "y": 320,
+            "r": 11,
+            "cor": "papel",
+            "borda": "tinta"
+          },
+          {
+            "t": "circ",
+            "x": 352,
+            "y": 320,
+            "r": 11,
+            "cor": "papel",
+            "borda": "tinta"
+          },
+          {
+            "t": "circ",
+            "x": 388,
+            "y": 320,
+            "r": 11,
+            "cor": "papel",
+            "borda": "tinta"
+          },
+          {
+            "t": "circ",
+            "x": 424,
+            "y": 320,
+            "r": 11,
+            "cor": "papel",
+            "borda": "tinta"
+          },
+          {
+            "t": "circ",
+            "x": 460,
+            "y": 320,
+            "r": 11,
+            "cor": "papel",
+            "borda": "tinta"
+          },
+          {
+            "t": "circ",
+            "x": 496,
+            "y": 320,
+            "r": 11,
+            "cor": "papel",
+            "borda": "tinta"
+          },
+          {
+            "t": "circ",
+            "x": 532,
+            "y": 320,
+            "r": 11,
+            "cor": "papel",
+            "borda": "tinta"
+          },
+          {
+            "t": "circ",
+            "x": 568,
+            "y": 320,
+            "r": 11,
+            "cor": "papel",
+            "borda": "tinta"
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                92,
+                312
+              ],
+              [
+                108,
+                328
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 1.5
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                108,
+                312
+              ],
+              [
+                92,
+                328
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 1.5
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                128,
+                312
+              ],
+              [
+                144,
+                328
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 1.5
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                144,
+                312
+              ],
+              [
+                128,
+                328
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 1.5
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                164,
+                312
+              ],
+              [
+                180,
+                328
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 1.5
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                180,
+                312
+              ],
+              [
+                164,
+                328
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 1.5
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                200,
+                312
+              ],
+              [
+                216,
+                328
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 1.5
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                216,
+                312
+              ],
+              [
+                200,
+                328
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 1.5
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                236,
+                312
+              ],
+              [
+                252,
+                328
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 1.5
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                252,
+                312
+              ],
+              [
+                236,
+                328
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 1.5
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                272,
+                312
+              ],
+              [
+                288,
+                328
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 1.5
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                288,
+                312
+              ],
+              [
+                272,
+                328
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 1.5
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                308,
+                312
+              ],
+              [
+                324,
+                328
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 1.5
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                324,
+                312
+              ],
+              [
+                308,
+                328
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 1.5
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                344,
+                312
+              ],
+              [
+                360,
+                328
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 1.5
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                360,
+                312
+              ],
+              [
+                344,
+                328
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 1.5
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                380,
+                312
+              ],
+              [
+                396,
+                328
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 1.5
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                396,
+                312
+              ],
+              [
+                380,
+                328
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 1.5
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                416,
+                312
+              ],
+              [
+                432,
+                328
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 1.5
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                432,
+                312
+              ],
+              [
+                416,
+                328
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 1.5
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                452,
+                312
+              ],
+              [
+                468,
+                328
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 1.5
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                468,
+                312
+              ],
+              [
+                452,
+                328
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 1.5
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                488,
+                312
+              ],
+              [
+                504,
+                328
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 1.5
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                504,
+                312
+              ],
+              [
+                488,
+                328
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 1.5
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                524,
+                312
+              ],
+              [
+                540,
+                328
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 1.5
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                540,
+                312
+              ],
+              [
+                524,
+                328
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 1.5
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                560,
+                312
+              ],
+              [
+                576,
+                328
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 1.5
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                576,
+                312
+              ],
+              [
+                560,
+                328
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 1.5
+          }
+        ],
+        "particula": [
+          {
+            "t": "circ",
+            "x": 300,
+            "y": 200,
+            "r": 14,
+            "cor": "papel",
+            "borda": "tinta",
+            "larg": 2
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                290,
+                190
+              ],
+              [
+                310,
+                210
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 2
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                310,
+                190
+              ],
+              [
+                290,
+                210
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 2
+          },
+          {
+            "t": "texto",
+            "x": 300,
+            "y": 170,
+            "txt": "+q (v entrando)",
+            "negrito": true
+          },
+          {
+            "t": "seta",
+            "de": [
+              440,
+              140
+            ],
+            "para": [
+              540,
+              140
+            ],
+            "cor": "mudo",
+            "larg": 2
+          },
+          {
+            "t": "texto",
+            "x": 490,
+            "y": 124,
+            "txt": "E",
+            "negrito": true,
+            "mudo": true
+          },
+          {
+            "t": "seta",
+            "de": [
+              100,
+              260
+            ],
+            "para": [
+              200,
+              260
+            ],
+            "cor": "normal",
+            "larg": 2,
+            "tracejado": true
+          },
+          {
+            "t": "texto",
+            "x": 150,
+            "y": 280,
+            "txt": "B (para a direita)",
+            "negrito": true,
+            "cor": "normal"
+          }
+        ],
+        "forcas": [
+          {
+            "t": "seta",
+            "de": [
+              316,
+              200
+            ],
+            "para": [
+              400,
+              200
+            ],
+            "cor": "atrito",
+            "larg": 3.5,
+            "rot_em": [
+              404,
+              190
+            ],
+            "ancora": "start",
+            "rotulo": "F",
+            "sub": "E"
+          },
+          {
+            "t": "seta",
+            "de": [
+              300,
+              216
+            ],
+            "para": [
+              300,
+              290
+            ],
+            "cor": "perigo",
+            "larg": 3.5,
+            "rot_em": [
+              314,
+              284
+            ],
+            "ancora": "start",
+            "rotulo": "F",
+            "sub": "B"
+          }
+        ]
+      }
+    }
+  },
+  "passos": [
+    {
+      "titulo": "Os campos",
+      "conceito": "Campo magnético de um solenoide",
+      "texto": "Com a corrente saindo do papel em cima e entrando embaixo, a regra da mão direita dá, no interior, \\(\\vec{B}\\) ao longo do eixo, para a direita. \\(\\vec{E}\\) também aponta para a direita.",
+      "cena": {
+        "mostrar": [
+          "solenoide",
+          "particula"
+        ]
+      }
+    },
+    {
+      "titulo": "As forças",
+      "conceito": "Força magnética sobre cargas",
+      "texto": "\\(\\vec{F}_{E} = q\\vec{E}\\): para a direita. \\(\\vec{F}_{B} = q\\vec{v} \\times \\vec{B}\\), com \\(\\vec{v}\\) entrando no papel: para baixo. Resposta: <b>(A)</b>.",
+      "cena": {
+        "mostrar": [
+          "forcas"
+        ],
+        "destacar": [
+          "forcas"
+        ]
+      }
+    }
+  ],
+  "status": "revisado",
+  "criadoEm": "2026-11-15T09:00:00-03:00",
+  "atualizadoEm": "2026-11-15T09:00:00-03:00"
+}

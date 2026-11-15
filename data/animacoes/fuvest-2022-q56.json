@@ -1,0 +1,147 @@
+{
+  "id": "fuvest-2022-q56",
+  "titulo": "O canhão de Newton e a órbita rasante",
+  "conceitos": [
+    "Resultante centrípeta",
+    "Satélites"
+  ],
+  "cena": {
+    "modelo": "diagrama",
+    "parametros": {
+      "elementos": {
+        "terra": [
+          {
+            "t": "circ",
+            "x": 320,
+            "y": 230,
+            "r": 120,
+            "cor": "#7fb8e0",
+            "borda": "tinta",
+            "larg": 2
+          },
+          {
+            "t": "texto",
+            "x": 320,
+            "y": 230,
+            "txt": "Terra",
+            "negrito": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                320,
+                230
+              ],
+              [
+                320,
+                110
+              ]
+            ],
+            "cor": "mudo",
+            "larg": 1.5,
+            "tracejado": true
+          },
+          {
+            "t": "texto",
+            "x": 328,
+            "y": 170,
+            "txt": "R = 6 400 km",
+            "mudo": true,
+            "ancora": "start"
+          }
+        ],
+        "orbita": [
+          {
+            "t": "circ",
+            "x": 320,
+            "y": 230,
+            "r": 130,
+            "cor": null,
+            "borda": "perigo",
+            "larg": 2,
+            "tracejado": true
+          },
+          {
+            "t": "circ",
+            "x": 320,
+            "y": 100,
+            "r": 7,
+            "cor": "perigo",
+            "borda": "tinta"
+          },
+          {
+            "t": "seta",
+            "de": [
+              320,
+              100
+            ],
+            "para": [
+              410,
+              100
+            ],
+            "cor": "perigo",
+            "larg": 3,
+            "rot_em": [
+              416,
+              94
+            ],
+            "ancora": "start",
+            "rotulo": "v"
+          },
+          {
+            "t": "seta",
+            "de": [
+              320,
+              108
+            ],
+            "para": [
+              320,
+              150
+            ],
+            "cor": "peso",
+            "larg": 3,
+            "rot_em": [
+              308,
+              144
+            ],
+            "ancora": "end",
+            "rotulo": "P"
+          }
+        ]
+      }
+    }
+  },
+  "passos": [
+    {
+      "titulo": "O peso como resultante centrípeta",
+      "conceito": "Resultante centrípeta",
+      "texto": "Para o projétil dar a volta sem cair, o peso precisa ser exatamente a resultante centrípeta da órbita rasante.",
+      "equacoes": [
+        "mg = \\dfrac{m v^{2}}{R} \\quad \\Rightarrow \\quad v = \\sqrt{gR}"
+      ],
+      "cena": {
+        "mostrar": [
+          "terra",
+          "orbita"
+        ]
+      }
+    },
+    {
+      "titulo": "A velocidade",
+      "conceito": "Satélites",
+      "texto": "Resposta: <b>(A) 8 km/s</b> (11,2 km/s é a velocidade de escape).",
+      "equacoes": [
+        "v = \\sqrt{10 \\cdot 6,4 \\times 10^{6}} = 8 \\times 10^{3}\\ \\text{m/s}"
+      ],
+      "cena": {
+        "destacar": [
+          "orbita"
+        ]
+      }
+    }
+  ],
+  "status": "revisado",
+  "criadoEm": "2026-11-15T09:00:00-03:00",
+  "atualizadoEm": "2026-11-15T09:00:00-03:00"
+}

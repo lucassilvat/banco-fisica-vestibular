@@ -1,0 +1,286 @@
+{
+  "id": "fuvest-2027-q35",
+  "titulo": "Superposição num circuito linear",
+  "conceitos": [
+    "Circuitos elétricos",
+    "Princípio da superposição"
+  ],
+  "cena": {
+    "modelo": "diagrama",
+    "parametros": {
+      "elementos": {
+        "etapa-1": [
+          {
+            "t": "ret",
+            "x": 30,
+            "y": 16,
+            "w": 480,
+            "h": 40,
+            "cor": "suave",
+            "borda": "normal",
+            "rx": 7
+          },
+          {
+            "t": "texto",
+            "x": 42,
+            "y": 36.0,
+            "txt": "(5, 10) V nas fontes",
+            "mudo": true,
+            "ancora": "start"
+          },
+          {
+            "t": "texto",
+            "x": 498,
+            "y": 36.0,
+            "txt": "(x, y) = (5, 3) V",
+            "negrito": true,
+            "ancora": "end"
+          }
+        ],
+        "etapa-2": [
+          {
+            "t": "seta",
+            "de": [
+              270.0,
+              59
+            ],
+            "para": [
+              270.0,
+              79
+            ],
+            "cor": "tinta",
+            "larg": 1.8
+          },
+          {
+            "t": "texto",
+            "x": 282.0,
+            "y": 69.0,
+            "txt": "",
+            "negrito": true,
+            "cor": "acel",
+            "ancora": "start"
+          },
+          {
+            "t": "ret",
+            "x": 30,
+            "y": 82,
+            "w": 480,
+            "h": 40,
+            "cor": "suave",
+            "borda": "normal",
+            "rx": 7
+          },
+          {
+            "t": "texto",
+            "x": 42,
+            "y": 102.0,
+            "txt": "(3, 3) V nas fontes",
+            "mudo": true,
+            "ancora": "start"
+          },
+          {
+            "t": "texto",
+            "x": 498,
+            "y": 102.0,
+            "txt": "(x, y) = (1, 2) V",
+            "negrito": true,
+            "ancora": "end"
+          }
+        ],
+        "etapa-3": [
+          {
+            "t": "seta",
+            "de": [
+              270.0,
+              125
+            ],
+            "para": [
+              270.0,
+              145
+            ],
+            "cor": "tinta",
+            "larg": 1.8
+          },
+          {
+            "t": "texto",
+            "x": 282.0,
+            "y": 135.0,
+            "txt": "superposição",
+            "negrito": true,
+            "cor": "acel",
+            "ancora": "start"
+          },
+          {
+            "t": "ret",
+            "x": 30,
+            "y": 148,
+            "w": 480,
+            "h": 40,
+            "cor": "suave",
+            "borda": "normal",
+            "rx": 7
+          },
+          {
+            "t": "texto",
+            "x": 42,
+            "y": 168.0,
+            "txt": "(2, 1) = −0,2·(5, 10) + 1·(3, 3)",
+            "mudo": true,
+            "ancora": "start"
+          },
+          {
+            "t": "texto",
+            "x": 498,
+            "y": 168.0,
+            "txt": "α = −0,2 e β = 1",
+            "negrito": true,
+            "ancora": "end"
+          }
+        ],
+        "etapa-4": [
+          {
+            "t": "seta",
+            "de": [
+              270.0,
+              191
+            ],
+            "para": [
+              270.0,
+              211
+            ],
+            "cor": "tinta",
+            "larg": 1.8
+          },
+          {
+            "t": "texto",
+            "x": 282.0,
+            "y": 201.0,
+            "txt": "",
+            "negrito": true,
+            "cor": "acel",
+            "ancora": "start"
+          },
+          {
+            "t": "ret",
+            "x": 30,
+            "y": 214,
+            "w": 480,
+            "h": 40,
+            "cor": "suave",
+            "borda": "normal",
+            "rx": 7
+          },
+          {
+            "t": "texto",
+            "x": 42,
+            "y": 234.0,
+            "txt": "(x, y) = −0,2·(5, 3) + 1·(1, 2)",
+            "mudo": true,
+            "ancora": "start"
+          },
+          {
+            "t": "texto",
+            "x": 498,
+            "y": 234.0,
+            "txt": "(0; 1,4) V",
+            "negrito": true,
+            "ancora": "end"
+          }
+        ],
+        "etapa-5": [
+          {
+            "t": "seta",
+            "de": [
+              270.0,
+              257
+            ],
+            "para": [
+              270.0,
+              277
+            ],
+            "cor": "tinta",
+            "larg": 1.8
+          },
+          {
+            "t": "texto",
+            "x": 282.0,
+            "y": 267.0,
+            "txt": "5 · 1,4",
+            "negrito": true,
+            "cor": "acel",
+            "ancora": "start"
+          },
+          {
+            "t": "ret",
+            "x": 30,
+            "y": 280,
+            "w": 480,
+            "h": 40,
+            "cor": "suave",
+            "borda": "normal",
+            "rx": 7
+          },
+          {
+            "t": "texto",
+            "x": 42,
+            "y": 300.0,
+            "txt": "5(x + y)",
+            "mudo": true,
+            "ancora": "start"
+          },
+          {
+            "t": "texto",
+            "x": 498,
+            "y": 300.0,
+            "txt": "7 V",
+            "negrito": true,
+            "ancora": "end"
+          }
+        ]
+      }
+    }
+  },
+  "passos": [
+    {
+      "titulo": "Um circuito linear",
+      "conceito": "Princípio da superposição",
+      "texto": "Com resistores ôhmicos e fontes, as tensões x e y são combinações lineares das tensões das fontes. Se as fontes são uma combinação dos dois experimentos, as respostas são a mesma combinação.",
+      "cena": {
+        "mostrar": [
+          "etapa-1",
+          "etapa-2"
+        ]
+      }
+    },
+    {
+      "titulo": "Escrevendo (2, 1)",
+      "conceito": "Princípio da superposição",
+      "texto": "Procuramos α e β com (2, 1) = α(5, 10) + β(3, 3).",
+      "equacoes": [
+        "5\\alpha + 3\\beta = 2, \\quad 10\\alpha + 3\\beta = 1 \\quad \\Rightarrow \\quad \\alpha = -0,2,\\ \\beta = 1"
+      ],
+      "cena": {
+        "mostrar": [
+          "etapa-3"
+        ]
+      }
+    },
+    {
+      "titulo": "As respostas",
+      "conceito": "Circuitos elétricos",
+      "texto": "Resposta: <b>(A) 7</b>.",
+      "cena": {
+        "mostrar": [
+          "etapa-4",
+          "etapa-5"
+        ],
+        "destacar": [
+          "etapa-5"
+        ]
+      }
+    }
+  ],
+  "status": "revisado",
+  "criadoEm": "2026-11-15T09:00:00-03:00",
+  "atualizadoEm": "2026-11-15T09:00:00-03:00"
+}

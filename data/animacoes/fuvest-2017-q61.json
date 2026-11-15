@@ -1,0 +1,412 @@
+{
+  "id": "fuvest-2017-q61",
+  "titulo": "Quando os campos dos quatro fios se anulam",
+  "conceitos": [
+    "Campo magnético de um fio retilíneo"
+  ],
+  "cena": {
+    "modelo": "diagrama",
+    "parametros": {
+      "elementos": {
+        "cancela": [
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                80,
+                80
+              ],
+              [
+                240,
+                80
+              ],
+              [
+                240,
+                240
+              ],
+              [
+                80,
+                240
+              ]
+            ],
+            "cor": "mudo",
+            "larg": 1,
+            "fechada": true,
+            "tracejado": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                80,
+                80
+              ],
+              [
+                240,
+                240
+              ]
+            ],
+            "cor": "mudo",
+            "larg": 1,
+            "tracejado": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                240,
+                80
+              ],
+              [
+                80,
+                240
+              ]
+            ],
+            "cor": "mudo",
+            "larg": 1,
+            "tracejado": true
+          },
+          {
+            "t": "texto",
+            "x": 160,
+            "y": 50,
+            "txt": "II: diagonais com mesmo sentido",
+            "negrito": true
+          },
+          {
+            "t": "circ",
+            "x": 80,
+            "y": 80,
+            "r": 13,
+            "cor": "papel",
+            "borda": "tinta",
+            "larg": 2
+          },
+          {
+            "t": "circ",
+            "x": 80,
+            "y": 80,
+            "r": 3,
+            "cor": "tinta",
+            "borda": "tinta"
+          },
+          {
+            "t": "circ",
+            "x": 240,
+            "y": 80,
+            "r": 13,
+            "cor": "papel",
+            "borda": "tinta",
+            "larg": 2
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                232,
+                72
+              ],
+              [
+                248,
+                88
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 2
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                248,
+                72
+              ],
+              [
+                232,
+                88
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 2
+          },
+          {
+            "t": "circ",
+            "x": 240,
+            "y": 240,
+            "r": 13,
+            "cor": "papel",
+            "borda": "tinta",
+            "larg": 2
+          },
+          {
+            "t": "circ",
+            "x": 240,
+            "y": 240,
+            "r": 3,
+            "cor": "tinta",
+            "borda": "tinta"
+          },
+          {
+            "t": "circ",
+            "x": 80,
+            "y": 240,
+            "r": 13,
+            "cor": "papel",
+            "borda": "tinta",
+            "larg": 2
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                72,
+                232
+              ],
+              [
+                88,
+                248
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 2
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                88,
+                232
+              ],
+              [
+                72,
+                248
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 2
+          },
+          {
+            "t": "texto",
+            "x": 160,
+            "y": 290,
+            "txt": "campos se cancelam: B = 0",
+            "negrito": true,
+            "cor": "normal"
+          }
+        ],
+        "soma": [
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                400,
+                80
+              ],
+              [
+                560,
+                80
+              ],
+              [
+                560,
+                240
+              ],
+              [
+                400,
+                240
+              ]
+            ],
+            "cor": "mudo",
+            "larg": 1,
+            "fechada": true,
+            "tracejado": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                400,
+                80
+              ],
+              [
+                560,
+                240
+              ]
+            ],
+            "cor": "mudo",
+            "larg": 1,
+            "tracejado": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                560,
+                80
+              ],
+              [
+                400,
+                240
+              ]
+            ],
+            "cor": "mudo",
+            "larg": 1,
+            "tracejado": true
+          },
+          {
+            "t": "texto",
+            "x": 480,
+            "y": 50,
+            "txt": "I: diagonais com sentidos opostos",
+            "negrito": true
+          },
+          {
+            "t": "circ",
+            "x": 400,
+            "y": 80,
+            "r": 13,
+            "cor": "papel",
+            "borda": "tinta",
+            "larg": 2
+          },
+          {
+            "t": "circ",
+            "x": 400,
+            "y": 80,
+            "r": 3,
+            "cor": "tinta",
+            "borda": "tinta"
+          },
+          {
+            "t": "circ",
+            "x": 560,
+            "y": 80,
+            "r": 13,
+            "cor": "papel",
+            "borda": "tinta",
+            "larg": 2
+          },
+          {
+            "t": "circ",
+            "x": 560,
+            "y": 80,
+            "r": 3,
+            "cor": "tinta",
+            "borda": "tinta"
+          },
+          {
+            "t": "circ",
+            "x": 560,
+            "y": 240,
+            "r": 13,
+            "cor": "papel",
+            "borda": "tinta",
+            "larg": 2
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                552,
+                232
+              ],
+              [
+                568,
+                248
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 2
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                568,
+                232
+              ],
+              [
+                552,
+                248
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 2
+          },
+          {
+            "t": "circ",
+            "x": 400,
+            "y": 240,
+            "r": 13,
+            "cor": "papel",
+            "borda": "tinta",
+            "larg": 2
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                392,
+                232
+              ],
+              [
+                408,
+                248
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 2
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                408,
+                232
+              ],
+              [
+                392,
+                248
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 2
+          },
+          {
+            "t": "texto",
+            "x": 480,
+            "y": 290,
+            "txt": "campos se somam: B ≠ 0",
+            "negrito": true,
+            "cor": "perigo"
+          }
+        ]
+      }
+    }
+  },
+  "passos": [
+    {
+      "titulo": "Fios em vértices opostos",
+      "conceito": "Campo magnético de um fio retilíneo",
+      "texto": "Cada fio gera no centro um campo de mesmo módulo, perpendicular à diagonal. Dois fios opostos com correntes de mesmo sentido geram campos opostos, que se cancelam; com sentidos opostos, os campos se somam.",
+      "cena": {
+        "mostrar": [
+          "cancela",
+          "soma"
+        ]
+      }
+    },
+    {
+      "titulo": "Os arranjos",
+      "conceito": "Campo magnético de um fio retilíneo",
+      "texto": "Em II e III, as duas diagonais têm correntes de mesmo sentido: campo nulo. Em I e IV, ao menos uma diagonal soma. Resposta: <b>(d) II e III</b>.",
+      "cena": {
+        "destacar": [
+          "cancela"
+        ]
+      }
+    }
+  ],
+  "status": "revisado",
+  "criadoEm": "2026-11-15T09:00:00-03:00",
+  "atualizadoEm": "2026-11-15T09:00:00-03:00"
+}

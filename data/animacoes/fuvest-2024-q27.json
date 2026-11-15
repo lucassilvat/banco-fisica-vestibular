@@ -1,0 +1,170 @@
+{
+  "id": "fuvest-2024-q27",
+  "titulo": "Quando o fio deixa de ser esticado",
+  "conceitos": [
+    "Empuxo (princípio de Arquimedes)",
+    "Densidade"
+  ],
+  "cena": {
+    "modelo": "diagrama",
+    "parametros": {
+      "elementos": {
+        "recipiente": [
+          {
+            "t": "ret",
+            "x": 160,
+            "y": 80,
+            "w": 320,
+            "h": 280,
+            "cor": "#f6e3a5",
+            "borda": "tinta",
+            "larg": 2
+          },
+          {
+            "t": "texto",
+            "x": 470,
+            "y": 100,
+            "txt": "óleo",
+            "mudo": true,
+            "ancora": "end"
+          },
+          {
+            "t": "ret",
+            "x": 270,
+            "y": 170,
+            "w": 100,
+            "h": 80,
+            "cor": "#b0b0b0",
+            "borda": "tinta"
+          },
+          {
+            "t": "texto",
+            "x": 320,
+            "y": 210,
+            "txt": "M = 18 g, V = 20 cm³",
+            "negrito": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                320,
+                250
+              ],
+              [
+                320,
+                360
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 2
+          }
+        ],
+        "forcas": [
+          {
+            "t": "seta",
+            "de": [
+              300,
+              250
+            ],
+            "para": [
+              300,
+              320
+            ],
+            "cor": "peso",
+            "larg": 3,
+            "rot_em": [
+              288,
+              312
+            ],
+            "ancora": "end",
+            "rotulo": "P"
+          },
+          {
+            "t": "seta",
+            "de": [
+              340,
+              250
+            ],
+            "para": [
+              340,
+              300
+            ],
+            "cor": "acel",
+            "larg": 3,
+            "rot_em": [
+              352,
+              296
+            ],
+            "ancora": "start",
+            "rotulo": "T"
+          },
+          {
+            "t": "seta",
+            "de": [
+              320,
+              170
+            ],
+            "para": [
+              320,
+              70
+            ],
+            "cor": "normal",
+            "larg": 3,
+            "rot_em": [
+              334,
+              80
+            ],
+            "ancora": "start",
+            "rotulo": "E"
+          }
+        ],
+        "condicao": [
+          {
+            "t": "rotulo",
+            "x": 320,
+            "y": 400,
+            "txt": "T = 0 quando E = P: densidade 18/20 = 0,90 g/cm³ (150 ºC)",
+            "cor": "var(--danger)"
+          }
+        ]
+      },
+      "largura": 680
+    }
+  },
+  "passos": [
+    {
+      "titulo": "As forças",
+      "conceito": "Empuxo (princípio de Arquimedes)",
+      "texto": "No objeto agem o peso \\(\\vec{P}\\) e a tração \\(\\vec{T}\\) do fio, para baixo, e o empuxo \\(\\vec{E}\\), para cima.",
+      "equacoes": [
+        "E = P + T"
+      ],
+      "cena": {
+        "mostrar": [
+          "recipiente",
+          "forcas"
+        ]
+      }
+    },
+    {
+      "titulo": "Tração nula",
+      "conceito": "Densidade",
+      "texto": "A tração se anula quando o empuxo iguala o peso, isto é, quando a densidade do óleo é igual à do objeto. No gráfico, 0,90 g/cm³ ocorre em 150 ºC. Resposta: <b>(D) 150 ºC</b>.",
+      "equacoes": [
+        "d_{\\text{óleo}}\\,V g = M g \\quad \\Rightarrow \\quad d_{\\text{óleo}} = \\dfrac{18}{20} = 0,90\\ \\text{g/cm}^{3}"
+      ],
+      "cena": {
+        "mostrar": [
+          "condicao"
+        ],
+        "destacar": [
+          "condicao"
+        ]
+      }
+    }
+  ],
+  "status": "revisado",
+  "criadoEm": "2026-11-15T09:00:00-03:00",
+  "atualizadoEm": "2026-11-15T09:00:00-03:00"
+}

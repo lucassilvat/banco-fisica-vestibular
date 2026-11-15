@@ -184,11 +184,13 @@ Para gravar questões, usam-se os lotes da etapa `publicar` (docs/WORKFLOW.md).
     publicação dos roteiros pelo arquivo `animacoes.json` do artefato.
 33. v2.12.0: resoluções animadas da Unicamp 2016–2027 (todas as 116 questões). Questões
     interdisciplinares: animação da parte de Física e uma frase sobre a outra disciplina.
+34. v2.13.0: resoluções animadas da Fuvest 2016–2027 (todas as 149 questões).
 
 ## Pendências
 
-- **Resolução animada**: formato decidido (só o player do app; ver item 29). Unesp (2016–2026) e
-  Unicamp (2016–2027) completas. Faltam Fuvest, ENEM (só a Q98 de 2023 tem), Einstein e Acafe.
+- **Resolução animada**: formato decidido (só o player do app; ver item 29). Unesp (2016–2026),
+  Unicamp (2016–2027) e Fuvest (2016–2027) completas. Faltam ENEM (só a Q98 de 2023 tem),
+  Einstein e Acafe.
 
 - **Fórmulas**: todas as provas do banco foram conferidas (v2.1.0 a v2.7.0). Única ressalva:
   a Unicamp 2027 foi conferida no caderno das provas S e W, e o registrado no manifesto é o

@@ -1,0 +1,228 @@
+{
+  "id": "fuvest-2016-q25",
+  "titulo": "Cargas que aceleram o elétron em linha reta",
+  "conceitos": [
+    "Força elétrica",
+    "Simetria"
+  ],
+  "cena": {
+    "modelo": "diagrama",
+    "parametros": {
+      "elementos": {
+        "esferas": [
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                180,
+                80
+              ],
+              [
+                460,
+                80
+              ],
+              [
+                460,
+                320
+              ],
+              [
+                180,
+                320
+              ]
+            ],
+            "cor": "mudo",
+            "larg": 1,
+            "fechada": true,
+            "tracejado": true
+          },
+          {
+            "t": "circ",
+            "x": 180,
+            "y": 80,
+            "r": 18,
+            "cor": "#f4a6a6",
+            "borda": "tinta"
+          },
+          {
+            "t": "texto",
+            "x": 180,
+            "y": 80,
+            "txt": "+Q",
+            "negrito": true
+          },
+          {
+            "t": "texto",
+            "x": 152,
+            "y": 80,
+            "txt": "I",
+            "negrito": true,
+            "ancora": "end"
+          },
+          {
+            "t": "circ",
+            "x": 180,
+            "y": 320,
+            "r": 18,
+            "cor": "#f4a6a6",
+            "borda": "tinta"
+          },
+          {
+            "t": "texto",
+            "x": 180,
+            "y": 320,
+            "txt": "+Q",
+            "negrito": true
+          },
+          {
+            "t": "texto",
+            "x": 152,
+            "y": 320,
+            "txt": "II",
+            "negrito": true,
+            "ancora": "end"
+          },
+          {
+            "t": "circ",
+            "x": 460,
+            "y": 80,
+            "r": 18,
+            "cor": "#9fc6e8",
+            "borda": "tinta"
+          },
+          {
+            "t": "texto",
+            "x": 460,
+            "y": 80,
+            "txt": "−Q",
+            "negrito": true
+          },
+          {
+            "t": "texto",
+            "x": 488,
+            "y": 80,
+            "txt": "III",
+            "negrito": true,
+            "ancora": "start"
+          },
+          {
+            "t": "circ",
+            "x": 460,
+            "y": 320,
+            "r": 18,
+            "cor": "#9fc6e8",
+            "borda": "tinta"
+          },
+          {
+            "t": "texto",
+            "x": 460,
+            "y": 320,
+            "txt": "−Q",
+            "negrito": true
+          },
+          {
+            "t": "texto",
+            "x": 488,
+            "y": 320,
+            "txt": "IV",
+            "negrito": true,
+            "ancora": "start"
+          }
+        ],
+        "eletron": [
+          {
+            "t": "circ",
+            "x": 320,
+            "y": 320,
+            "r": 8,
+            "cor": "normal",
+            "borda": "tinta"
+          },
+          {
+            "t": "texto",
+            "x": 338,
+            "y": 330,
+            "txt": "elétron",
+            "mudo": true,
+            "ancora": "start"
+          },
+          {
+            "t": "seta",
+            "de": [
+              320,
+              310
+            ],
+            "para": [
+              320,
+              230
+            ],
+            "cor": "acel",
+            "larg": 3,
+            "rot_em": [
+              332,
+              240
+            ],
+            "ancora": "start",
+            "rotulo": "v"
+          }
+        ],
+        "forca": [
+          {
+            "t": "seta",
+            "de": [
+              320,
+              290
+            ],
+            "para": [
+              320,
+              170
+            ],
+            "cor": "perigo",
+            "larg": 4,
+            "rot_em": [
+              334,
+              176
+            ],
+            "ancora": "start",
+            "rotulo": "F"
+          },
+          {
+            "t": "rotulo",
+            "x": 320,
+            "y": 140,
+            "txt": "I e II atraem para cima; III e IV repelem para cima",
+            "cor": "var(--danger)"
+          }
+        ]
+      }
+    }
+  },
+  "passos": [
+    {
+      "titulo": "Linha reta",
+      "conceito": "Simetria",
+      "texto": "Para não haver desvio lateral, as forças horizontais precisam se anular: as cargas de cada lado devem ser iguais aos pares. Isso elimina a, b e e.",
+      "cena": {
+        "mostrar": [
+          "esferas",
+          "eletron"
+        ]
+      }
+    },
+    {
+      "titulo": "Velocidade crescente",
+      "conceito": "Força elétrica",
+      "texto": "A força sobre o elétron deve apontar no sentido de \\(\\vec{v}\\), para cima: positivas em cima o atraem e negativas embaixo o repelem. Resposta: <b>(c)</b>.",
+      "cena": {
+        "mostrar": [
+          "forca"
+        ],
+        "destacar": [
+          "forca"
+        ]
+      }
+    }
+  ],
+  "status": "revisado",
+  "criadoEm": "2026-11-15T09:00:00-03:00",
+  "atualizadoEm": "2026-11-15T09:00:00-03:00"
+}

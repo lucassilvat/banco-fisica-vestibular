@@ -1,0 +1,584 @@
+{
+  "id": "fuvest-2025-q59",
+  "titulo": "Retas de dilatação de três materiais",
+  "conceitos": [
+    "Dilatação térmica dos sólidos",
+    "Leitura de gráficos"
+  ],
+  "cena": {
+    "modelo": "diagrama",
+    "parametros": {
+      "elementos": {
+        "eixos": [
+          {
+            "t": "seta",
+            "de": [
+              100,
+              330
+            ],
+            "para": [
+              582,
+              330
+            ],
+            "cor": "tinta",
+            "larg": 1.6
+          },
+          {
+            "t": "seta",
+            "de": [
+              100.0,
+              330
+            ],
+            "para": [
+              100.0,
+              18
+            ],
+            "cor": "tinta",
+            "larg": 1.6
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                100.0,
+                326
+              ],
+              [
+                100.0,
+                334
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 1.5
+          },
+          {
+            "t": "texto",
+            "x": 100.0,
+            "y": 346,
+            "txt": "0",
+            "mudo": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                100.0,
+                30
+              ],
+              [
+                100.0,
+                330
+              ]
+            ],
+            "cor": "linha",
+            "larg": 1,
+            "tracejado": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                217.5,
+                326
+              ],
+              [
+                217.5,
+                334
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 1.5
+          },
+          {
+            "t": "texto",
+            "x": 217.5,
+            "y": 346,
+            "txt": "50",
+            "mudo": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                217.5,
+                30
+              ],
+              [
+                217.5,
+                330
+              ]
+            ],
+            "cor": "linha",
+            "larg": 1,
+            "tracejado": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                335.0,
+                326
+              ],
+              [
+                335.0,
+                334
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 1.5
+          },
+          {
+            "t": "texto",
+            "x": 335.0,
+            "y": 346,
+            "txt": "100",
+            "mudo": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                335.0,
+                30
+              ],
+              [
+                335.0,
+                330
+              ]
+            ],
+            "cor": "linha",
+            "larg": 1,
+            "tracejado": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                452.5,
+                326
+              ],
+              [
+                452.5,
+                334
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 1.5
+          },
+          {
+            "t": "texto",
+            "x": 452.5,
+            "y": 346,
+            "txt": "150",
+            "mudo": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                452.5,
+                30
+              ],
+              [
+                452.5,
+                330
+              ]
+            ],
+            "cor": "linha",
+            "larg": 1,
+            "tracejado": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                570.0,
+                326
+              ],
+              [
+                570.0,
+                334
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 1.5
+          },
+          {
+            "t": "texto",
+            "x": 570.0,
+            "y": 346,
+            "txt": "200",
+            "mudo": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                570.0,
+                30
+              ],
+              [
+                570.0,
+                330
+              ]
+            ],
+            "cor": "linha",
+            "larg": 1,
+            "tracejado": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                96.0,
+                330.0
+              ],
+              [
+                104.0,
+                330.0
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 1.5
+          },
+          {
+            "t": "texto",
+            "x": 92.0,
+            "y": 330.0,
+            "txt": "10,0",
+            "ancora": "end",
+            "mudo": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                100,
+                330.0
+              ],
+              [
+                570,
+                330.0
+              ]
+            ],
+            "cor": "linha",
+            "larg": 1,
+            "tracejado": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                96.0,
+                263.3
+              ],
+              [
+                104.0,
+                263.3
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 1.5
+          },
+          {
+            "t": "texto",
+            "x": 92.0,
+            "y": 263.3,
+            "txt": "10,1",
+            "ancora": "end",
+            "mudo": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                100,
+                263.3
+              ],
+              [
+                570,
+                263.3
+              ]
+            ],
+            "cor": "linha",
+            "larg": 1,
+            "tracejado": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                96.0,
+                196.7
+              ],
+              [
+                104.0,
+                196.7
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 1.5
+          },
+          {
+            "t": "texto",
+            "x": 92.0,
+            "y": 196.7,
+            "txt": "10,2",
+            "ancora": "end",
+            "mudo": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                100,
+                196.7
+              ],
+              [
+                570,
+                196.7
+              ]
+            ],
+            "cor": "linha",
+            "larg": 1,
+            "tracejado": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                96.0,
+                130.0
+              ],
+              [
+                104.0,
+                130.0
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 1.5
+          },
+          {
+            "t": "texto",
+            "x": 92.0,
+            "y": 130.0,
+            "txt": "10,3",
+            "ancora": "end",
+            "mudo": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                100,
+                130.0
+              ],
+              [
+                570,
+                130.0
+              ]
+            ],
+            "cor": "linha",
+            "larg": 1,
+            "tracejado": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                96.0,
+                63.3
+              ],
+              [
+                104.0,
+                63.3
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 1.5
+          },
+          {
+            "t": "texto",
+            "x": 92.0,
+            "y": 63.3,
+            "txt": "10,4",
+            "ancora": "end",
+            "mudo": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                100,
+                63.3
+              ],
+              [
+                570,
+                63.3
+              ]
+            ],
+            "cor": "linha",
+            "larg": 1,
+            "tracejado": true
+          },
+          {
+            "t": "texto",
+            "x": 570.0,
+            "y": 364.0,
+            "txt": "temperatura (ºC)",
+            "mudo": true,
+            "ancora": "end"
+          },
+          {
+            "t": "texto",
+            "x": 108.0,
+            "y": 18.0,
+            "txt": "comprimento (m)",
+            "mudo": true,
+            "ancora": "start"
+          }
+        ],
+        "retas": [
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                100.0,
+                330.0
+              ],
+              [
+                570.0,
+                63.3
+              ]
+            ],
+            "cor": "perigo",
+            "larg": 3
+          },
+          {
+            "t": "texto",
+            "x": 564.0,
+            "y": 49.3,
+            "txt": "polietileno",
+            "negrito": true,
+            "cor": "perigo",
+            "ancora": "end"
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                100.0,
+                330.0
+              ],
+              [
+                570.0,
+                263.3
+              ]
+            ],
+            "cor": "atrito",
+            "larg": 3
+          },
+          {
+            "t": "texto",
+            "x": 564.0,
+            "y": 249.3,
+            "txt": "cobre",
+            "negrito": true,
+            "cor": "atrito",
+            "ancora": "end"
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                100.0,
+                330.0
+              ],
+              [
+                570.0,
+                303.3
+              ]
+            ],
+            "cor": "normal",
+            "larg": 3
+          },
+          {
+            "t": "texto",
+            "x": 564.0,
+            "y": 319.3,
+            "txt": "alumínio",
+            "negrito": true,
+            "cor": "normal",
+            "ancora": "end"
+          }
+        ],
+        "leitura": [
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                100.0,
+                263.3
+              ],
+              [
+                217.5,
+                263.3
+              ],
+              [
+                217.5,
+                330.0
+              ]
+            ],
+            "cor": "perigo",
+            "larg": 2,
+            "tracejado": true
+          },
+          {
+            "t": "circ",
+            "x": 217.5,
+            "y": 263.3,
+            "r": 7,
+            "cor": "perigo",
+            "borda": "tinta"
+          },
+          {
+            "t": "rotulo",
+            "x": 348.0,
+            "y": 196.7,
+            "txt": "+10 cm em 50 ºC",
+            "cor": "var(--danger)"
+          }
+        ]
+      }
+    }
+  },
+  "passos": [
+    {
+      "titulo": "Lendo as retas",
+      "conceito": "Leitura de gráficos",
+      "texto": "As três barras medem 10,0 m a 0 ºC. Quanto mais inclinada a reta, maior o coeficiente: o alumínio tem o menor (C falsa). O cobre aumenta só 0,05 m entre 100 ºC e 200 ºC (B falsa), e ΔL é proporcional a L<sub>0</sub>.",
+      "cena": {
+        "mostrar": [
+          "eixos",
+          "retas"
+        ]
+      }
+    },
+    {
+      "titulo": "O polietileno",
+      "conceito": "Dilatação térmica dos sólidos",
+      "texto": "Ele aumenta 0,4 m em 200 ºC: 0,002 m por ºC. Para 10 cm, bastam 50 ºC. Resposta: <b>(D)</b>.",
+      "cena": {
+        "mostrar": [
+          "leitura"
+        ],
+        "destacar": [
+          "leitura"
+        ]
+      }
+    }
+  ],
+  "status": "revisado",
+  "criadoEm": "2026-11-15T09:00:00-03:00",
+  "atualizadoEm": "2026-11-15T09:00:00-03:00"
+}

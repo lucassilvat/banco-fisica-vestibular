@@ -1,0 +1,196 @@
+{
+  "id": "fuvest-2023-q76",
+  "titulo": "O lagarto que corre sobre a água",
+  "conceitos": [
+    "Terceira lei de Newton",
+    "Decomposição vetorial"
+  ],
+  "cena": {
+    "modelo": "diagrama",
+    "parametros": {
+      "elementos": {
+        "cena": [
+          {
+            "t": "ret",
+            "x": 60,
+            "y": 230,
+            "w": 520,
+            "h": 160,
+            "cor": "#cfe8f6",
+            "borda": null
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                60,
+                230
+              ],
+              [
+                580,
+                230
+              ]
+            ],
+            "cor": "normal",
+            "larg": 2
+          },
+          {
+            "t": "ret",
+            "x": 250,
+            "y": 150,
+            "w": 140,
+            "h": 46,
+            "cor": "#7cb342",
+            "borda": "tinta",
+            "rx": 22
+          },
+          {
+            "t": "texto",
+            "x": 320,
+            "y": 130,
+            "txt": "lagarto",
+            "mudo": true
+          }
+        ],
+        "forcas": [
+          {
+            "t": "seta",
+            "de": [
+              320,
+              196
+            ],
+            "para": [
+              320,
+              296
+            ],
+            "cor": "peso",
+            "larg": 3,
+            "rot_em": [
+              334,
+              290
+            ],
+            "ancora": "start",
+            "rotulo": "P"
+          },
+          {
+            "t": "seta",
+            "de": [
+              290,
+              232
+            ],
+            "para": [
+              250,
+              272
+            ],
+            "cor": "mudo",
+            "larg": 2.5
+          },
+          {
+            "t": "texto",
+            "x": 244,
+            "y": 284,
+            "txt": "pata empurra a água",
+            "mudo": true,
+            "ancora": "end"
+          },
+          {
+            "t": "seta",
+            "de": [
+              290,
+              232
+            ],
+            "para": [
+              340,
+              172
+            ],
+            "cor": "normal",
+            "larg": 3.5,
+            "rot_em": [
+              346,
+              168
+            ],
+            "ancora": "start",
+            "rotulo": "F"
+          }
+        ],
+        "componentes": [
+          {
+            "t": "seta",
+            "de": [
+              420,
+              232
+            ],
+            "para": [
+              420,
+              172
+            ],
+            "cor": "normal",
+            "larg": 2.5,
+            "tracejado": true
+          },
+          {
+            "t": "texto",
+            "x": 432,
+            "y": 180,
+            "txt": "vertical: compensa o peso",
+            "negrito": true,
+            "cor": "normal",
+            "ancora": "start"
+          },
+          {
+            "t": "seta",
+            "de": [
+              420,
+              232
+            ],
+            "para": [
+              470,
+              232
+            ],
+            "cor": "acel",
+            "larg": 2.5,
+            "tracejado": true
+          },
+          {
+            "t": "texto",
+            "x": 476,
+            "y": 250,
+            "txt": "horizontal: avança",
+            "negrito": true,
+            "cor": "acel",
+            "ancora": "start"
+          }
+        ]
+      }
+    }
+  },
+  "passos": [
+    {
+      "titulo": "Ação e reação",
+      "conceito": "Terceira lei de Newton",
+      "texto": "Ao empurrar a água para baixo e para trás com as patas, o lagarto recebe da água uma reação \\(\\vec{F}\\) para cima e para a frente.",
+      "cena": {
+        "mostrar": [
+          "cena",
+          "forcas"
+        ]
+      }
+    },
+    {
+      "titulo": "As componentes",
+      "conceito": "Decomposição vetorial",
+      "texto": "A componente vertical da reação compensa o peso a cada passada: é um equilíbrio dinâmico, não flutuação por empuxo. Resposta: <b>(A)</b>.",
+      "cena": {
+        "mostrar": [
+          "componentes"
+        ],
+        "destacar": [
+          "componentes"
+        ]
+      }
+    }
+  ],
+  "status": "revisado",
+  "criadoEm": "2026-11-15T09:00:00-03:00",
+  "atualizadoEm": "2026-11-15T09:00:00-03:00"
+}

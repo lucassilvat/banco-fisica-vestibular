@@ -1,0 +1,177 @@
+{
+  "id": "fuvest-2027-q73",
+  "titulo": "Energia que sobra no fundo da rampa",
+  "conceitos": [
+    "Energia mecânica",
+    "Trabalho de forças dissipativas"
+  ],
+  "cena": {
+    "modelo": "diagrama",
+    "parametros": {
+      "elementos": {
+        "rampa": [
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                100,
+                40
+              ],
+              [
+                104,
+                110
+              ],
+              [
+                115,
+                180
+              ],
+              [
+                140,
+                250
+              ],
+              [
+                180,
+                300
+              ],
+              [
+                240,
+                335
+              ],
+              [
+                320,
+                350
+              ],
+              [
+                420,
+                352
+              ],
+              [
+                600,
+                330
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 3
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                80,
+                40
+              ],
+              [
+                100,
+                40
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 3
+          },
+          {
+            "t": "circ",
+            "x": 110,
+            "y": 40,
+            "r": 8,
+            "cor": "perigo",
+            "borda": "tinta"
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                110,
+                40
+              ],
+              [
+                560,
+                40
+              ]
+            ],
+            "cor": "perigo",
+            "larg": 1.5,
+            "tracejado": true
+          },
+          {
+            "t": "circ",
+            "x": 360,
+            "y": 350,
+            "r": 8,
+            "cor": "perigo",
+            "borda": "tinta"
+          },
+          {
+            "t": "cota",
+            "de": [
+              560,
+              40
+            ],
+            "para": [
+              560,
+              350
+            ],
+            "cor": "normal",
+            "rot_em": [
+              568,
+              200
+            ],
+            "ancora": "start",
+            "txt": "60,3 m"
+          }
+        ],
+        "energias": [
+          {
+            "t": "rotulo",
+            "x": 330,
+            "y": 120,
+            "txt": "perda de Ep: 70 · 10 · 60,3 = 42 210 J",
+            "cor": "var(--accent)"
+          },
+          {
+            "t": "rotulo",
+            "x": 330,
+            "y": 165,
+            "txt": "dissipado: 10 710 J",
+            "cor": "var(--danger)"
+          },
+          {
+            "t": "rotulo",
+            "x": 330,
+            "y": 210,
+            "txt": "Ec = 31 500 J",
+            "cor": "var(--anim-acel)"
+          }
+        ]
+      }
+    }
+  },
+  "passos": [
+    {
+      "titulo": "Energia potencial perdida",
+      "conceito": "Energia mecânica",
+      "texto": "Da plataforma (70 m) ao ponto mais baixo (9,7 m), Sandro desce 60,3 m. Parte da energia potencial é dissipada por atrito e arrasto.",
+      "cena": {
+        "mostrar": [
+          "rampa",
+          "energias"
+        ]
+      }
+    },
+    {
+      "titulo": "A velocidade",
+      "conceito": "Trabalho de forças dissipativas",
+      "texto": "O que sobra vira energia cinética. Resposta: <b>(D) 108</b>.",
+      "equacoes": [
+        "\\dfrac{70\\,v^{2}}{2} = 31\\,500 \\quad \\Rightarrow \\quad v = 30\\ \\text{m/s} = 108\\ \\text{km/h}"
+      ],
+      "cena": {
+        "destacar": [
+          "energias"
+        ]
+      }
+    }
+  ],
+  "status": "revisado",
+  "criadoEm": "2026-11-15T09:00:00-03:00",
+  "atualizadoEm": "2026-11-15T09:00:00-03:00"
+}

@@ -1,0 +1,170 @@
+{
+  "id": "fuvest-2018-q09",
+  "titulo": "Trabalho elétrico não depende do caminho",
+  "conceitos": [
+    "Potencial elétrico",
+    "Trabalho da força elétrica"
+  ],
+  "cena": {
+    "modelo": "diagrama",
+    "parametros": {
+      "elementos": {
+        "placas": [
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                60,
+                330
+              ],
+              [
+                580,
+                330
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 4
+          },
+          {
+            "t": "texto",
+            "x": 600,
+            "y": 330,
+            "txt": "A",
+            "negrito": true,
+            "ancora": "start"
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                60,
+                90
+              ],
+              [
+                580,
+                90
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 4
+          },
+          {
+            "t": "texto",
+            "x": 600,
+            "y": 90,
+            "txt": "B",
+            "negrito": true,
+            "ancora": "start"
+          },
+          {
+            "t": "texto",
+            "x": 320,
+            "y": 360,
+            "txt": "V_{A} − V_{B} = −2,0 × 10^{4} V",
+            "mudo": true
+          }
+        ],
+        "trajetorias": [
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                400,
+                330
+              ],
+              [
+                400,
+                90
+              ]
+            ],
+            "cor": "normal",
+            "larg": 2.5,
+            "tracejado": true
+          },
+          {
+            "t": "texto",
+            "x": 412,
+            "y": 210,
+            "txt": "1",
+            "negrito": true,
+            "cor": "normal",
+            "ancora": "start"
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                400,
+                330
+              ],
+              [
+                330,
+                260
+              ],
+              [
+                240,
+                160
+              ],
+              [
+                180,
+                90
+              ]
+            ],
+            "cor": "acel",
+            "larg": 2.5,
+            "tracejado": true
+          },
+          {
+            "t": "texto",
+            "x": 240,
+            "y": 210,
+            "txt": "2",
+            "negrito": true,
+            "cor": "acel"
+          }
+        ],
+        "trabalho": [
+          {
+            "t": "rotulo",
+            "x": 320,
+            "y": 40,
+            "txt": "W = q · ddp = 3,2 × 10⁻¹⁵ J nos dois caminhos",
+            "cor": "var(--danger)"
+          }
+        ]
+      }
+    }
+  },
+  "passos": [
+    {
+      "titulo": "O trabalho",
+      "conceito": "Trabalho da força elétrica",
+      "texto": "O trabalho da força elétrica de A até B é a carga vezes a diferença de potencial.",
+      "equacoes": [
+        "W = (-1,6 \\times 10^{-19})(-2,0 \\times 10^{4}) = 3,2 \\times 10^{-15}\\ \\text{J}"
+      ],
+      "cena": {
+        "mostrar": [
+          "placas",
+          "trajetorias"
+        ]
+      }
+    },
+    {
+      "titulo": "Os caminhos",
+      "conceito": "Potencial elétrico",
+      "texto": "Partindo do repouso, a energia cinética final é esse trabalho (I correta). A força elétrica é conservativa: o trabalho é o mesmo nos dois caminhos (II correta, III errada). Resposta: <b>(D)</b>.",
+      "cena": {
+        "mostrar": [
+          "trabalho"
+        ],
+        "destacar": [
+          "trabalho"
+        ]
+      }
+    }
+  ],
+  "status": "revisado",
+  "criadoEm": "2026-11-15T09:00:00-03:00",
+  "atualizadoEm": "2026-11-15T09:00:00-03:00"
+}

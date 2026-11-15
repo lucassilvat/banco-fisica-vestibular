@@ -1,0 +1,126 @@
+{
+  "id": "fuvest-2024-q71",
+  "titulo": "Resfriando a água em duas etapas",
+  "conceitos": [
+    "Calorimetria"
+  ],
+  "cena": {
+    "modelo": "diagrama",
+    "parametros": {
+      "elementos": {
+        "etapa-1": [
+          {
+            "t": "ret",
+            "x": 30,
+            "y": 16,
+            "w": 480,
+            "h": 40,
+            "cor": "suave",
+            "borda": "normal",
+            "rx": 7
+          },
+          {
+            "t": "texto",
+            "x": 42,
+            "y": 36.0,
+            "txt": "passo 2: 250 g a 100 ºC + 1 000 g a 25 ºC",
+            "mudo": true,
+            "ancora": "start"
+          },
+          {
+            "t": "texto",
+            "x": 498,
+            "y": 36.0,
+            "txt": "40 ºC",
+            "negrito": true,
+            "ancora": "end"
+          }
+        ],
+        "etapa-2": [
+          {
+            "t": "seta",
+            "de": [
+              270.0,
+              59
+            ],
+            "para": [
+              270.0,
+              79
+            ],
+            "cor": "tinta",
+            "larg": 1.8
+          },
+          {
+            "t": "texto",
+            "x": 282.0,
+            "y": 69.0,
+            "txt": "média ponderada",
+            "negrito": true,
+            "cor": "acel",
+            "ancora": "start"
+          },
+          {
+            "t": "ret",
+            "x": 30,
+            "y": 82,
+            "w": 480,
+            "h": 40,
+            "cor": "suave",
+            "borda": "normal",
+            "rx": 7
+          },
+          {
+            "t": "texto",
+            "x": 42,
+            "y": 102.0,
+            "txt": "passo 4: 250 g a 40 ºC + 1 000 g a 25 ºC",
+            "mudo": true,
+            "ancora": "start"
+          },
+          {
+            "t": "texto",
+            "x": 498,
+            "y": 102.0,
+            "txt": "28 ºC",
+            "negrito": true,
+            "ancora": "end"
+          }
+        ]
+      }
+    }
+  },
+  "passos": [
+    {
+      "titulo": "Primeiro equilíbrio",
+      "conceito": "Calorimetria",
+      "texto": "Tudo é água: o calor específico se cancela e a temperatura final é a média ponderada pelas massas.",
+      "equacoes": [
+        "\\theta_{1} = \\dfrac{250 \\cdot 100 + 1\\,000 \\cdot 25}{1\\,250} = 40\\ \\text{ºC}"
+      ],
+      "cena": {
+        "mostrar": [
+          "etapa-1"
+        ]
+      }
+    },
+    {
+      "titulo": "Segundo equilíbrio",
+      "conceito": "Calorimetria",
+      "texto": "Com água nova a 25 ºC. Resposta: <b>(B) 28 ºC</b>.",
+      "equacoes": [
+        "\\theta_{2} = \\dfrac{250 \\cdot 40 + 1\\,000 \\cdot 25}{1\\,250} = 28\\ \\text{ºC}"
+      ],
+      "cena": {
+        "mostrar": [
+          "etapa-2"
+        ],
+        "destacar": [
+          "etapa-2"
+        ]
+      }
+    }
+  ],
+  "status": "revisado",
+  "criadoEm": "2026-11-15T09:00:00-03:00",
+  "atualizadoEm": "2026-11-15T09:00:00-03:00"
+}

@@ -1,0 +1,211 @@
+{
+  "id": "fuvest-2020-q08",
+  "titulo": "Quantidade de movimento na troca de íons",
+  "conceitos": [
+    "Conservação da quantidade de movimento"
+  ],
+  "cena": {
+    "modelo": "diagrama",
+    "parametros": {
+      "elementos": {
+        "antes": [
+          {
+            "t": "texto",
+            "x": 70,
+            "y": 70,
+            "txt": "antes",
+            "negrito": true,
+            "ancora": "start"
+          },
+          {
+            "t": "circ",
+            "x": 140,
+            "y": 160,
+            "r": 14,
+            "cor": "#9ccc65",
+            "borda": "tinta"
+          },
+          {
+            "t": "texto",
+            "x": 140,
+            "y": 160,
+            "txt": "F⁻",
+            "negrito": true
+          },
+          {
+            "t": "seta",
+            "de": [
+              156,
+              160
+            ],
+            "para": [
+              256,
+              160
+            ],
+            "cor": "perigo",
+            "larg": 3
+          },
+          {
+            "t": "texto",
+            "x": 206,
+            "y": 144,
+            "txt": "v",
+            "negrito": true,
+            "cor": "perigo"
+          },
+          {
+            "t": "circ",
+            "x": 400,
+            "y": 160,
+            "r": 26,
+            "cor": "#c9c9c9",
+            "borda": "tinta"
+          },
+          {
+            "t": "circ",
+            "x": 436,
+            "y": 160,
+            "r": 20,
+            "cor": "#7cb342",
+            "borda": "tinta"
+          },
+          {
+            "t": "texto",
+            "x": 400,
+            "y": 160,
+            "txt": "CH₃",
+            "negrito": true
+          },
+          {
+            "t": "texto",
+            "x": 436,
+            "y": 160,
+            "txt": "Cl",
+            "negrito": true
+          },
+          {
+            "t": "texto",
+            "x": 418,
+            "y": 200,
+            "txt": "parada",
+            "mudo": true
+          }
+        ],
+        "depois": [
+          {
+            "t": "texto",
+            "x": 70,
+            "y": 250,
+            "txt": "depois",
+            "negrito": true,
+            "ancora": "start"
+          },
+          {
+            "t": "circ",
+            "x": 140,
+            "y": 320,
+            "r": 26,
+            "cor": "#c9c9c9",
+            "borda": "tinta"
+          },
+          {
+            "t": "circ",
+            "x": 172,
+            "y": 320,
+            "r": 12,
+            "cor": "#9ccc65",
+            "borda": "tinta"
+          },
+          {
+            "t": "texto",
+            "x": 140,
+            "y": 320,
+            "txt": "CH₃",
+            "negrito": true
+          },
+          {
+            "t": "texto",
+            "x": 172,
+            "y": 320,
+            "txt": "F",
+            "negrito": true
+          },
+          {
+            "t": "texto",
+            "x": 156,
+            "y": 358,
+            "txt": "parada",
+            "mudo": true
+          },
+          {
+            "t": "circ",
+            "x": 430,
+            "y": 320,
+            "r": 20,
+            "cor": "#7cb342",
+            "borda": "tinta"
+          },
+          {
+            "t": "texto",
+            "x": 430,
+            "y": 320,
+            "txt": "Cl⁻",
+            "negrito": true
+          },
+          {
+            "t": "seta",
+            "de": [
+              452,
+              320
+            ],
+            "para": [
+              506,
+              320
+            ],
+            "cor": "perigo",
+            "larg": 3
+          },
+          {
+            "t": "texto",
+            "x": 479,
+            "y": 304,
+            "txt": "≈ 0,54 v",
+            "negrito": true,
+            "cor": "perigo"
+          }
+        ]
+      }
+    }
+  },
+  "passos": [
+    {
+      "titulo": "Antes",
+      "conceito": "Conservação da quantidade de movimento",
+      "texto": "As moléculas neutras estão paradas antes e depois; só os íons se movem. Antes, o F<sup>−</sup> (massa 19) vem com velocidade v.",
+      "cena": {
+        "mostrar": [
+          "antes"
+        ]
+      }
+    },
+    {
+      "titulo": "Depois",
+      "conceito": "Conservação da quantidade de movimento",
+      "texto": "O Cl<sup>−</sup> (massa 35) sai com velocidade menor, no mesmo sentido: cerca de metade. Resposta: <b>(C)</b>.",
+      "equacoes": [
+        "19\\,v = 35\\,v' \\quad \\Rightarrow \\quad v' \\approx 0,54\\,v"
+      ],
+      "cena": {
+        "mostrar": [
+          "depois"
+        ],
+        "destacar": [
+          "depois"
+        ]
+      }
+    }
+  ],
+  "status": "revisado",
+  "criadoEm": "2026-11-15T09:00:00-03:00",
+  "atualizadoEm": "2026-11-15T09:00:00-03:00"
+}

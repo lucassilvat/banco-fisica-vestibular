@@ -1,0 +1,253 @@
+{
+  "id": "fuvest-2021-q46",
+  "titulo": "Momentos em torno da borda da mesa",
+  "conceitos": [
+    "Momento de uma força (torque)",
+    "Equilíbrio do corpo extenso"
+  ],
+  "cena": {
+    "modelo": "diagrama",
+    "parametros": {
+      "elementos": {
+        "palitos": [
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                120,
+                150
+              ],
+              [
+                560,
+                150
+              ]
+            ],
+            "cor": "#e0a52a",
+            "larg": 8
+          },
+          {
+            "t": "ret",
+            "x": 400,
+            "y": 154,
+            "w": 160,
+            "h": 110,
+            "cor": "#8c5a2b",
+            "borda": null
+          },
+          {
+            "t": "circ",
+            "x": 400,
+            "y": 150,
+            "r": 6,
+            "cor": "tinta",
+            "borda": "tinta"
+          },
+          {
+            "t": "texto",
+            "x": 410,
+            "y": 134,
+            "txt": "A",
+            "negrito": true,
+            "ancora": "start"
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                180,
+                154
+              ],
+              [
+                330,
+                330
+              ]
+            ],
+            "cor": "#e0a52a",
+            "larg": 7
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                330,
+                150
+              ],
+              [
+                330,
+                380
+              ]
+            ],
+            "cor": "#59b84f",
+            "larg": 7
+          },
+          {
+            "t": "cota",
+            "de": [
+              180,
+              30
+            ],
+            "para": [
+              400,
+              30
+            ],
+            "cor": "normal",
+            "rot_em": [
+              290,
+              16
+            ],
+            "txt": "L"
+          },
+          {
+            "t": "cota",
+            "de": [
+              330,
+              100
+            ],
+            "para": [
+              400,
+              100
+            ],
+            "cor": "normal",
+            "rot_em": [
+              365,
+              86
+            ],
+            "txt": "d"
+          }
+        ],
+        "forcas": [
+          {
+            "t": "seta",
+            "de": [
+              180,
+              150
+            ],
+            "para": [
+              133.5,
+              50.3
+            ],
+            "cor": "normal",
+            "larg": 3,
+            "rot_em": [
+              118,
+              50
+            ],
+            "ancora": "end",
+            "rotulo": "F"
+          },
+          {
+            "t": "seta",
+            "de": [
+              330,
+              154
+            ],
+            "para": [
+              330,
+              260
+            ],
+            "cor": "peso",
+            "larg": 3,
+            "rot_em": [
+              344,
+              250
+            ],
+            "ancora": "start",
+            "rotulo": "P"
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                180,
+                150
+              ],
+              [
+                180,
+                40
+              ]
+            ],
+            "cor": "mudo",
+            "larg": 1,
+            "tracejado": true
+          },
+          {
+            "t": "angulo",
+            "centro": [
+              180,
+              150
+            ],
+            "de": -115,
+            "ate": -90,
+            "r": 48,
+            "cor": "acel"
+          },
+          {
+            "t": "texto",
+            "x": 162,
+            "y": 84,
+            "txt": "θ",
+            "negrito": true,
+            "cor": "acel"
+          }
+        ],
+        "componente": [
+          {
+            "t": "seta",
+            "de": [
+              180,
+              150
+            ],
+            "para": [
+              180,
+              50.3
+            ],
+            "cor": "normal",
+            "larg": 2.5,
+            "tracejado": true
+          },
+          {
+            "t": "texto",
+            "x": 190,
+            "y": 118,
+            "txt": "F cos θ",
+            "negrito": true,
+            "cor": "normal",
+            "ancora": "start"
+          }
+        ]
+      }
+    }
+  },
+  "passos": [
+    {
+      "titulo": "Prestes a girar",
+      "conceito": "Equilíbrio do corpo extenso",
+      "texto": "Na iminência de rotacionar, o palito 1 gira em torno de A. A soma dos momentos em relação a A é nula. \\(\\vec{P}\\) é vertical, a uma distância d.",
+      "cena": {
+        "mostrar": [
+          "palitos",
+          "forcas"
+        ]
+      }
+    },
+    {
+      "titulo": "O momento de F",
+      "conceito": "Momento de uma força (torque)",
+      "texto": "Só a componente de \\(\\vec{F}\\) perpendicular ao palito, F cos θ, produz momento, a uma distância L. Resposta: <b>(A)</b>.",
+      "equacoes": [
+        "|\\vec{F}|\\,L\\cos\\theta = |\\vec{P}|\\,d \\quad \\Rightarrow \\quad |\\vec{F}| = \\dfrac{|\\vec{P}|\\,d}{L\\cos\\theta}"
+      ],
+      "cena": {
+        "mostrar": [
+          "componente"
+        ],
+        "destacar": [
+          "componente"
+        ]
+      }
+    }
+  ],
+  "status": "revisado",
+  "criadoEm": "2026-11-15T09:00:00-03:00",
+  "atualizadoEm": "2026-11-15T09:00:00-03:00"
+}

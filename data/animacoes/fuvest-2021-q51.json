@@ -1,0 +1,242 @@
+{
+  "id": "fuvest-2021-q51",
+  "titulo": "A lente divergente que corrige a miopia",
+  "conceitos": [
+    "Óptica da visão",
+    "Lentes esféricas"
+  ],
+  "cena": {
+    "modelo": "diagrama",
+    "parametros": {
+      "elementos": {
+        "olho": [
+          {
+            "t": "caminho",
+            "d": "M330,100 A110,110 0 1,1 330,320",
+            "cor": "tinta",
+            "larg": 2.5,
+            "preench": "#fff7ec"
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                330,
+                110
+              ],
+              [
+                330,
+                310
+              ]
+            ],
+            "cor": "normal",
+            "larg": 4
+          },
+          {
+            "t": "texto",
+            "x": 336,
+            "y": 96,
+            "txt": "cristalino",
+            "mudo": true,
+            "ancora": "start"
+          },
+          {
+            "t": "caminho",
+            "d": "M520,150 A120,120 0 0,1 520,270",
+            "cor": "perigo",
+            "larg": 4
+          },
+          {
+            "t": "texto",
+            "x": 540,
+            "y": 210,
+            "txt": "retina",
+            "negrito": true,
+            "cor": "perigo",
+            "ancora": "start"
+          }
+        ],
+        "lente": [
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                170,
+                110
+              ],
+              [
+                170,
+                310
+              ]
+            ],
+            "cor": "acel",
+            "larg": 4
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                160,
+                110
+              ],
+              [
+                180,
+                110
+              ]
+            ],
+            "cor": "acel",
+            "larg": 3
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                160,
+                310
+              ],
+              [
+                180,
+                310
+              ]
+            ],
+            "cor": "acel",
+            "larg": 3
+          },
+          {
+            "t": "texto",
+            "x": 170,
+            "y": 96,
+            "txt": "lente divergente",
+            "negrito": true,
+            "cor": "acel"
+          }
+        ],
+        "raios": [
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                40,
+                160
+              ],
+              [
+                170,
+                160
+              ],
+              [
+                330,
+                140
+              ],
+              [
+                520,
+                210
+              ]
+            ],
+            "cor": "luz",
+            "larg": 2.5
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                40,
+                260
+              ],
+              [
+                170,
+                260
+              ],
+              [
+                330,
+                280
+              ],
+              [
+                520,
+                210
+              ]
+            ],
+            "cor": "luz",
+            "larg": 2.5
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                170,
+                160
+              ],
+              [
+                70,
+                210
+              ]
+            ],
+            "cor": "luz",
+            "larg": 1.5,
+            "tracejado": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                170,
+                260
+              ],
+              [
+                70,
+                210
+              ]
+            ],
+            "cor": "luz",
+            "larg": 1.5,
+            "tracejado": true
+          },
+          {
+            "t": "circ",
+            "x": 70,
+            "y": 210,
+            "r": 6,
+            "cor": "acel",
+            "borda": "tinta"
+          },
+          {
+            "t": "texto",
+            "x": 70,
+            "y": 236,
+            "txt": "PR",
+            "negrito": true,
+            "cor": "acel"
+          }
+        ]
+      }
+    }
+  },
+  "passos": [
+    {
+      "titulo": "O míope",
+      "conceito": "Óptica da visão",
+      "texto": "O míope só focaliza bem objetos até o ponto remoto (PR); de objetos mais distantes, a imagem se forma antes da retina.",
+      "cena": {
+        "mostrar": [
+          "olho"
+        ]
+      }
+    },
+    {
+      "titulo": "A correção",
+      "conceito": "Lentes esféricas",
+      "texto": "A lente divergente abre os raios de um objeto distante como se viessem do PR; o olho, então, os focaliza na retina. Resposta: <b>(B)</b>.",
+      "cena": {
+        "mostrar": [
+          "lente",
+          "raios"
+        ],
+        "destacar": [
+          "raios"
+        ]
+      }
+    }
+  ],
+  "status": "revisado",
+  "criadoEm": "2026-11-15T09:00:00-03:00",
+  "atualizadoEm": "2026-11-15T09:00:00-03:00"
+}

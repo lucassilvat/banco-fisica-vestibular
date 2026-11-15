@@ -1,0 +1,162 @@
+{
+  "id": "fuvest-2017-q65",
+  "titulo": "O prisma de poliestireno para micro-ondas",
+  "conceitos": [
+    "Lei de Snell-Descartes"
+  ],
+  "cena": {
+    "modelo": "diagrama",
+    "parametros": {
+      "elementos": {
+        "prisma": [
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                200,
+                60
+              ],
+              [
+                200,
+                330
+              ],
+              [
+                325.9,
+                330
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 2,
+            "fechada": true,
+            "preench": "#e8e8e8"
+          },
+          {
+            "t": "angulo",
+            "centro": [
+              200,
+              60
+            ],
+            "de": 90,
+            "ate": 65,
+            "r": 60,
+            "cor": "acel"
+          },
+          {
+            "t": "texto",
+            "x": 203,
+            "y": 140,
+            "txt": "25º",
+            "negrito": true,
+            "cor": "acel",
+            "ancora": "start"
+          }
+        ],
+        "raio": [
+          {
+            "t": "seta",
+            "de": [
+              60,
+              230
+            ],
+            "para": [
+              279.3,
+              230
+            ],
+            "cor": "perigo",
+            "larg": 3
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                206.8,
+                263.8
+              ],
+              [
+                388.0,
+                179.3
+              ]
+            ],
+            "cor": "mudo",
+            "larg": 1.5,
+            "tracejado": true
+          },
+          {
+            "t": "seta",
+            "de": [
+              279.3,
+              230
+            ],
+            "para": [
+              472.5,
+              281.8
+            ],
+            "cor": "perigo",
+            "larg": 3
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                279.3,
+                230
+              ],
+              [
+                479.3,
+                230
+              ]
+            ],
+            "cor": "mudo",
+            "larg": 1,
+            "tracejado": true
+          },
+          {
+            "t": "texto",
+            "x": 489.3,
+            "y": 270,
+            "txt": "desvio 15º",
+            "negrito": true,
+            "cor": "perigo",
+            "ancora": "start"
+          },
+          {
+            "t": "rotulo",
+            "x": 320,
+            "y": 390,
+            "txt": "dentro: 25º com a normal; fora: 25º + 15º = 40º",
+            "cor": "var(--danger)"
+          }
+        ]
+      }
+    }
+  },
+  "passos": [
+    {
+      "titulo": "Os ângulos",
+      "conceito": "Lei de Snell-Descartes",
+      "texto": "Na primeira face, a incidência é perpendicular: sem desvio. Na face inclinada, o ângulo de incidência é o próprio ângulo de 25º do prisma; a onda sai desviada 15º, afastando-se da normal: 40º.",
+      "cena": {
+        "mostrar": [
+          "prisma",
+          "raio"
+        ]
+      }
+    },
+    {
+      "titulo": "O índice",
+      "conceito": "Lei de Snell-Descartes",
+      "texto": "Resposta: <b>(b) 1,5</b>.",
+      "equacoes": [
+        "n\\,\\sen 25º = 1,0 \\cdot \\sen 40º \\quad \\Rightarrow \\quad n = \\dfrac{0,6}{0,4} = 1,5"
+      ],
+      "cena": {
+        "destacar": [
+          "raio"
+        ]
+      }
+    }
+  ],
+  "status": "revisado",
+  "criadoEm": "2026-11-15T09:00:00-03:00",
+  "atualizadoEm": "2026-11-15T09:00:00-03:00"
+}

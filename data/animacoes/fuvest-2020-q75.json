@@ -1,0 +1,146 @@
+{
+  "id": "fuvest-2020-q75",
+  "titulo": "Resistores errados podem queimar a lâmpada",
+  "conceitos": [
+    "Associação mista de resistores",
+    "Primeira lei de Ohm"
+  ],
+  "cena": {
+    "modelo": "diagrama",
+    "parametros": {
+      "elementos": {
+        "nao-queima": [
+          {
+            "t": "ret",
+            "x": 40,
+            "y": 30,
+            "w": 580,
+            "h": 56,
+            "cor": "papel",
+            "borda": "linha",
+            "larg": 1,
+            "rx": 6
+          },
+          {
+            "t": "texto",
+            "x": 64,
+            "y": 58.0,
+            "txt": "1",
+            "negrito": true
+          },
+          {
+            "t": "texto",
+            "x": 90,
+            "y": 58.0,
+            "txt": "R/2 + R/2 = R em série: corrente no limite, não passa",
+            "ancora": "start"
+          },
+          {
+            "t": "texto",
+            "x": 596,
+            "y": 58.0,
+            "txt": "F",
+            "negrito": true,
+            "cor": "perigo"
+          }
+        ],
+        "queima": [
+          {
+            "t": "ret",
+            "x": 40,
+            "y": 96,
+            "w": 580,
+            "h": 56,
+            "cor": "papel",
+            "borda": "normal",
+            "larg": 3,
+            "rx": 6
+          },
+          {
+            "t": "texto",
+            "x": 64,
+            "y": 124.0,
+            "txt": "2",
+            "negrito": true
+          },
+          {
+            "t": "texto",
+            "x": 90,
+            "y": 124.0,
+            "txt": "R/2 ∥ R/2 = R/4 em série: corrente maior, queima",
+            "ancora": "start"
+          },
+          {
+            "t": "texto",
+            "x": 596,
+            "y": 124.0,
+            "txt": "V",
+            "negrito": true,
+            "cor": "normal"
+          },
+          {
+            "t": "ret",
+            "x": 40,
+            "y": 162,
+            "w": 580,
+            "h": 56,
+            "cor": "papel",
+            "borda": "normal",
+            "larg": 3,
+            "rx": 6
+          },
+          {
+            "t": "texto",
+            "x": 64,
+            "y": 190.0,
+            "txt": "3",
+            "negrito": true
+          },
+          {
+            "t": "texto",
+            "x": 90,
+            "y": 190.0,
+            "txt": "só R/2 em série com a lâmpada: corrente maior, queima",
+            "ancora": "start"
+          },
+          {
+            "t": "texto",
+            "x": 596,
+            "y": 190.0,
+            "txt": "V",
+            "negrito": true,
+            "cor": "normal"
+          }
+        ]
+      }
+    }
+  },
+  "passos": [
+    {
+      "titulo": "O limite",
+      "conceito": "Primeira lei de Ohm",
+      "texto": "V/(R + L) é a corrente com um resistor R em série com a lâmpada. A lâmpada queima se o que está em série com ela tiver resistência menor que R.",
+      "cena": {
+        "mostrar": [
+          "nao-queima"
+        ]
+      }
+    },
+    {
+      "titulo": "Os circuitos 2 e 3",
+      "conceito": "Associação mista de resistores",
+      "texto": "No 2, os dois R/2 em paralelo dão R/4; no 3, o ramo da lâmpada tem só R/2. Resposta: <b>(D) 2 e 3</b>.",
+      "cena": {
+        "mostrar": [
+          "queima"
+        ],
+        "destacar": [
+          "queima"
+        ]
+      }
+    }
+  ],
+  "status": "revisado",
+  "criadoEm": "2026-11-15T09:00:00-03:00",
+  "atualizadoEm": "2026-11-15T09:00:00-03:00"
+}

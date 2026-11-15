@@ -1,0 +1,198 @@
+{
+  "id": "fuvest-2026-q72",
+  "titulo": "A altura de despejo do café",
+  "conceitos": [
+    "Queda livre",
+    "Conservação da energia mecânica"
+  ],
+  "cena": {
+    "modelo": "diagrama",
+    "parametros": {
+      "elementos": {
+        "cena": [
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                380,
+                200
+              ],
+              [
+                470,
+                200
+              ],
+              [
+                425,
+                280
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 2,
+            "fechada": true,
+            "preench": "#d9ecf7"
+          },
+          {
+            "t": "ret",
+            "x": 390,
+            "y": 200,
+            "w": 70,
+            "h": 24,
+            "cor": "#8c5a2b",
+            "borda": null,
+            "opac": 0.6
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                330,
+                300
+              ],
+              [
+                520,
+                300
+              ]
+            ],
+            "cor": "mudo",
+            "larg": 1.5
+          },
+          {
+            "t": "ret",
+            "x": 470,
+            "y": 60,
+            "w": 40,
+            "h": 30,
+            "cor": "#333",
+            "borda": "tinta",
+            "rx": 6
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                470,
+                80
+              ],
+              [
+                440,
+                92
+              ]
+            ],
+            "cor": "#333",
+            "larg": 4
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                440,
+                92
+              ],
+              [
+                440,
+                200
+              ]
+            ],
+            "cor": "#4aa3df",
+            "larg": 4
+          },
+          {
+            "t": "cota",
+            "de": [
+              300,
+              300
+            ],
+            "para": [
+              300,
+              200
+            ],
+            "cor": "normal",
+            "rot_em": [
+              292,
+              250
+            ],
+            "ancora": "end",
+            "txt": "H = 8 cm"
+          },
+          {
+            "t": "cota",
+            "de": [
+              240,
+              300
+            ],
+            "para": [
+              240,
+              92
+            ],
+            "cor": "normal",
+            "rot_em": [
+              232,
+              196
+            ],
+            "ancora": "end",
+            "txt": "D"
+          }
+        ],
+        "queda": [
+          {
+            "t": "cota",
+            "de": [
+              560,
+              92
+            ],
+            "para": [
+              560,
+              200
+            ],
+            "cor": "normal",
+            "rot_em": [
+              568,
+              146
+            ],
+            "ancora": "start",
+            "txt": "D − H"
+          },
+          {
+            "t": "rotulo",
+            "x": 320,
+            "y": 380,
+            "txt": "v² = 2g(D − H): 4 = 20(D − H)",
+            "cor": "var(--danger)"
+          }
+        ]
+      }
+    }
+  },
+  "passos": [
+    {
+      "titulo": "A queda do jato",
+      "conceito": "Queda livre",
+      "texto": "A água sai do bico praticamente parada e cai livremente a altura D − H até a superfície da água no filtro.",
+      "equacoes": [
+        "v^{2} = 2g(D - H)"
+      ],
+      "cena": {
+        "mostrar": [
+          "cena",
+          "queda"
+        ]
+      }
+    },
+    {
+      "titulo": "A altura mínima",
+      "conceito": "Conservação da energia mecânica",
+      "texto": "Para v = 2 m/s: D − H = 0,20 m = 20 cm. Resposta: <b>(E) 28 cm</b>.",
+      "equacoes": [
+        "D = 20 + 8 = 28\\ \\text{cm}"
+      ],
+      "cena": {
+        "destacar": [
+          "queda"
+        ]
+      }
+    }
+  ],
+  "status": "revisado",
+  "criadoEm": "2026-11-15T09:00:00-03:00",
+  "atualizadoEm": "2026-11-15T09:00:00-03:00"
+}

@@ -1,0 +1,221 @@
+{
+  "id": "fuvest-2018-q07",
+  "titulo": "A tração no ponto mais baixo do balanço",
+  "conceitos": [
+    "Resultante centrípeta",
+    "Conservação da energia mecânica"
+  ],
+  "cena": {
+    "modelo": "diagrama",
+    "parametros": {
+      "elementos": {
+        "balanco": [
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                200,
+                40
+              ],
+              [
+                440,
+                40
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 4
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                320,
+                50
+              ],
+              [
+                320,
+                290
+              ]
+            ],
+            "cor": "mudo",
+            "larg": 2
+          },
+          {
+            "t": "circ",
+            "x": 320,
+            "y": 300,
+            "r": 12,
+            "cor": "#3a86c8",
+            "borda": "tinta"
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                320,
+                50
+              ],
+              [
+                190,
+                240
+              ]
+            ],
+            "cor": "mudo",
+            "larg": 1.5,
+            "tracejado": true
+          },
+          {
+            "t": "circ",
+            "x": 190,
+            "y": 240,
+            "r": 10,
+            "cor": "#9fc6e8",
+            "borda": "tinta"
+          },
+          {
+            "t": "cota",
+            "de": [
+              140,
+              240
+            ],
+            "para": [
+              140,
+              300
+            ],
+            "cor": "normal",
+            "rot_em": [
+              132,
+              270
+            ],
+            "ancora": "end",
+            "txt": "1,2 m"
+          },
+          {
+            "t": "cota",
+            "de": [
+              400,
+              50
+            ],
+            "para": [
+              400,
+              300
+            ],
+            "cor": "normal",
+            "rot_em": [
+              408,
+              175
+            ],
+            "ancora": "start",
+            "txt": "L = 2 m"
+          }
+        ],
+        "forcas": [
+          {
+            "t": "seta",
+            "de": [
+              320,
+              288
+            ],
+            "para": [
+              320,
+              180
+            ],
+            "cor": "normal",
+            "larg": 3,
+            "rot_em": [
+              334,
+              190
+            ],
+            "ancora": "start",
+            "rotulo": "T"
+          },
+          {
+            "t": "seta",
+            "de": [
+              320,
+              312
+            ],
+            "para": [
+              320,
+              380
+            ],
+            "cor": "peso",
+            "larg": 3,
+            "rot_em": [
+              334,
+              372
+            ],
+            "ancora": "start",
+            "rotulo": "P"
+          }
+        ],
+        "contas": [
+          {
+            "t": "rotulo",
+            "x": 570,
+            "y": 150,
+            "txt": "v² = 2gh = 24",
+            "cor": "var(--accent)"
+          },
+          {
+            "t": "rotulo",
+            "x": 570,
+            "y": 200,
+            "txt": "T = 600 + 60·24/2 = 1 320 N",
+            "cor": "var(--danger)"
+          },
+          {
+            "t": "rotulo",
+            "x": 570,
+            "y": 250,
+            "txt": "× 7 = 9 240 N",
+            "cor": "var(--danger)"
+          }
+        ]
+      },
+      "largura": 700
+    }
+  },
+  "passos": [
+    {
+      "titulo": "A velocidade embaixo",
+      "conceito": "Conservação da energia mecânica",
+      "texto": "A pessoa parte do repouso 1,2 m acima do ponto mais baixo.",
+      "equacoes": [
+        "v^{2} = 2gh = 24\\ \\text{m}^{2}/\\text{s}^{2}"
+      ],
+      "cena": {
+        "mostrar": [
+          "balanco"
+        ]
+      }
+    },
+    {
+      "titulo": "A tração",
+      "conceito": "Resultante centrípeta",
+      "texto": "No ponto mais baixo, a tração \\(\\vec{T}\\) supera o peso \\(\\vec{P}\\): a diferença é a resultante centrípeta.",
+      "equacoes": [
+        "T - mg = \\dfrac{m v^{2}}{L}"
+      ],
+      "cena": {
+        "mostrar": [
+          "forcas",
+          "contas"
+        ]
+      }
+    },
+    {
+      "titulo": "As cordas",
+      "conceito": "Resultante centrípeta",
+      "texto": "Com fator de segurança 7, servem as cordas que rompem acima de 9 240 N: III, IV e V. Resposta: <b>(C)</b>.",
+      "cena": {
+        "destacar": [
+          "contas"
+        ]
+      }
+    }
+  ],
+  "status": "revisado",
+  "criadoEm": "2026-11-15T09:00:00-03:00",
+  "atualizadoEm": "2026-11-15T09:00:00-03:00"
+}

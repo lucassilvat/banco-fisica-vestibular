@@ -1,0 +1,648 @@
+{
+  "id": "fuvest-2022-q55",
+  "titulo": "A resistência no trecho ôhmico",
+  "conceitos": [
+    "Primeira lei de Ohm",
+    "Leitura de gráficos"
+  ],
+  "cena": {
+    "modelo": "diagrama",
+    "parametros": {
+      "elementos": {
+        "eixos": [
+          {
+            "t": "seta",
+            "de": [
+              100,
+              330.0
+            ],
+            "para": [
+              582,
+              330.0
+            ],
+            "cor": "tinta",
+            "larg": 1.6
+          },
+          {
+            "t": "seta",
+            "de": [
+              100.0,
+              330
+            ],
+            "para": [
+              100.0,
+              18
+            ],
+            "cor": "tinta",
+            "larg": 1.6
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                217.5,
+                326.0
+              ],
+              [
+                217.5,
+                334.0
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 1.5
+          },
+          {
+            "t": "texto",
+            "x": 217.5,
+            "y": 346.0,
+            "txt": "0,5",
+            "mudo": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                217.5,
+                30
+              ],
+              [
+                217.5,
+                330
+              ]
+            ],
+            "cor": "linha",
+            "larg": 1,
+            "tracejado": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                335.0,
+                326.0
+              ],
+              [
+                335.0,
+                334.0
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 1.5
+          },
+          {
+            "t": "texto",
+            "x": 335.0,
+            "y": 346.0,
+            "txt": "1",
+            "mudo": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                335.0,
+                30
+              ],
+              [
+                335.0,
+                330
+              ]
+            ],
+            "cor": "linha",
+            "larg": 1,
+            "tracejado": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                452.5,
+                326.0
+              ],
+              [
+                452.5,
+                334.0
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 1.5
+          },
+          {
+            "t": "texto",
+            "x": 452.5,
+            "y": 346.0,
+            "txt": "1,5",
+            "mudo": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                452.5,
+                30
+              ],
+              [
+                452.5,
+                330
+              ]
+            ],
+            "cor": "linha",
+            "larg": 1,
+            "tracejado": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                570.0,
+                326.0
+              ],
+              [
+                570.0,
+                334.0
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 1.5
+          },
+          {
+            "t": "texto",
+            "x": 570.0,
+            "y": 346.0,
+            "txt": "2",
+            "mudo": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                570.0,
+                30
+              ],
+              [
+                570.0,
+                330
+              ]
+            ],
+            "cor": "linha",
+            "larg": 1,
+            "tracejado": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                96.0,
+                270.0
+              ],
+              [
+                104.0,
+                270.0
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 1.5
+          },
+          {
+            "t": "texto",
+            "x": 92.0,
+            "y": 270.0,
+            "txt": "0,2",
+            "ancora": "end",
+            "mudo": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                100,
+                270.0
+              ],
+              [
+                570,
+                270.0
+              ]
+            ],
+            "cor": "linha",
+            "larg": 1,
+            "tracejado": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                96.0,
+                210.0
+              ],
+              [
+                104.0,
+                210.0
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 1.5
+          },
+          {
+            "t": "texto",
+            "x": 92.0,
+            "y": 210.0,
+            "txt": "0,4",
+            "ancora": "end",
+            "mudo": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                100,
+                210.0
+              ],
+              [
+                570,
+                210.0
+              ]
+            ],
+            "cor": "linha",
+            "larg": 1,
+            "tracejado": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                96.0,
+                150.0
+              ],
+              [
+                104.0,
+                150.0
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 1.5
+          },
+          {
+            "t": "texto",
+            "x": 92.0,
+            "y": 150.0,
+            "txt": "0,6",
+            "ancora": "end",
+            "mudo": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                100,
+                150.0
+              ],
+              [
+                570,
+                150.0
+              ]
+            ],
+            "cor": "linha",
+            "larg": 1,
+            "tracejado": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                96.0,
+                90.0
+              ],
+              [
+                104.0,
+                90.0
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 1.5
+          },
+          {
+            "t": "texto",
+            "x": 92.0,
+            "y": 90.0,
+            "txt": "0,8",
+            "ancora": "end",
+            "mudo": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                100,
+                90.0
+              ],
+              [
+                570,
+                90.0
+              ]
+            ],
+            "cor": "linha",
+            "larg": 1,
+            "tracejado": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                96.0,
+                30.0
+              ],
+              [
+                104.0,
+                30.0
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 1.5
+          },
+          {
+            "t": "texto",
+            "x": 92.0,
+            "y": 30.0,
+            "txt": "1,0",
+            "ancora": "end",
+            "mudo": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                100,
+                30.0
+              ],
+              [
+                570,
+                30.0
+              ]
+            ],
+            "cor": "linha",
+            "larg": 1,
+            "tracejado": true
+          },
+          {
+            "t": "texto",
+            "x": 570.0,
+            "y": 364.0,
+            "txt": "corrente (A)",
+            "mudo": true,
+            "ancora": "end"
+          },
+          {
+            "t": "texto",
+            "x": 108.0,
+            "y": 16.0,
+            "txt": "ddp (V)",
+            "mudo": true,
+            "ancora": "start"
+          }
+        ],
+        "curva": [
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                100.0,
+                330.0
+              ],
+              [
+                111.8,
+                318.0
+              ],
+              [
+                123.5,
+                306.0
+              ],
+              [
+                135.2,
+                294.0
+              ],
+              [
+                147.0,
+                282.0
+              ],
+              [
+                158.8,
+                270.0
+              ],
+              [
+                170.5,
+                258.0
+              ],
+              [
+                182.2,
+                246.0
+              ],
+              [
+                194.0,
+                234.0
+              ],
+              [
+                205.8,
+                222.0
+              ],
+              [
+                217.5,
+                210.0
+              ],
+              [
+                229.2,
+                200.8
+              ],
+              [
+                241.0,
+                192.3
+              ],
+              [
+                252.8,
+                184.4
+              ],
+              [
+                264.5,
+                177.1
+              ],
+              [
+                276.2,
+                170.4
+              ],
+              [
+                288.0,
+                164.3
+              ],
+              [
+                299.8,
+                158.5
+              ],
+              [
+                311.5,
+                153.3
+              ],
+              [
+                323.2,
+                148.4
+              ],
+              [
+                335.0,
+                143.9
+              ],
+              [
+                346.8,
+                139.8
+              ],
+              [
+                358.5,
+                135.9
+              ],
+              [
+                370.2,
+                132.4
+              ],
+              [
+                382.0,
+                129.2
+              ],
+              [
+                393.8,
+                126.1
+              ],
+              [
+                405.5,
+                123.4
+              ],
+              [
+                417.2,
+                120.8
+              ],
+              [
+                429.0,
+                118.4
+              ],
+              [
+                440.8,
+                116.2
+              ],
+              [
+                452.5,
+                114.2
+              ],
+              [
+                464.2,
+                112.4
+              ],
+              [
+                476.0,
+                110.6
+              ],
+              [
+                487.8,
+                109.1
+              ],
+              [
+                499.5,
+                107.6
+              ],
+              [
+                511.2,
+                106.2
+              ],
+              [
+                523.0,
+                105.0
+              ],
+              [
+                534.8,
+                103.8
+              ],
+              [
+                546.5,
+                102.8
+              ],
+              [
+                558.2,
+                101.8
+              ],
+              [
+                570.0,
+                100.9
+              ]
+            ],
+            "cor": "normal",
+            "larg": 3
+          }
+        ],
+        "leitura": [
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                217.5,
+                330.0
+              ],
+              [
+                217.5,
+                210.0
+              ],
+              [
+                100.0,
+                210.0
+              ]
+            ],
+            "cor": "perigo",
+            "larg": 2,
+            "tracejado": true
+          },
+          {
+            "t": "circ",
+            "x": 217.5,
+            "y": 210.0,
+            "r": 6,
+            "cor": "perigo",
+            "borda": "tinta"
+          },
+          {
+            "t": "rotulo",
+            "x": 382.0,
+            "y": 255.0,
+            "txt": "trecho reto: 0,4 V com 0,5 A",
+            "cor": "var(--danger)"
+          }
+        ]
+      }
+    }
+  },
+  "passos": [
+    {
+      "titulo": "O trecho ôhmico",
+      "conceito": "Leitura de gráficos",
+      "texto": "O componente é ôhmico onde a curva é uma reta passando pela origem: no trecho inicial.",
+      "cena": {
+        "mostrar": [
+          "eixos",
+          "curva"
+        ]
+      }
+    },
+    {
+      "titulo": "A resistência",
+      "conceito": "Primeira lei de Ohm",
+      "texto": "Resposta: <b>(C) 0,8 Ω</b>.",
+      "equacoes": [
+        "R = \\dfrac{0,4}{0,5} = 0,8\\ \\Omega"
+      ],
+      "cena": {
+        "mostrar": [
+          "leitura"
+        ],
+        "destacar": [
+          "leitura"
+        ]
+      }
+    }
+  ],
+  "status": "revisado",
+  "criadoEm": "2026-11-15T09:00:00-03:00",
+  "atualizadoEm": "2026-11-15T09:00:00-03:00"
+}

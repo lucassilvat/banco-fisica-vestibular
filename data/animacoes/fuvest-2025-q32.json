@@ -1,0 +1,173 @@
+{
+  "id": "fuvest-2025-q32",
+  "titulo": "A iridescência das asas da borboleta",
+  "conceitos": [
+    "Reflexão da luz",
+    "Interferência"
+  ],
+  "cena": {
+    "modelo": "diagrama",
+    "parametros": {
+      "elementos": {
+        "pelicula": [
+          {
+            "t": "ret",
+            "x": 60,
+            "y": 120,
+            "w": 520,
+            "h": 40,
+            "cor": "#cfe8f6",
+            "borda": null,
+            "opac": 0.6
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                60,
+                160
+              ],
+              [
+                580,
+                160
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 2
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                60,
+                220
+              ],
+              [
+                580,
+                220
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 2
+          },
+          {
+            "t": "ret",
+            "x": 60,
+            "y": 160,
+            "w": 520,
+            "h": 60,
+            "cor": "#f0e6ff",
+            "borda": null
+          },
+          {
+            "t": "texto",
+            "x": 590,
+            "y": 190,
+            "txt": "película fina",
+            "mudo": true,
+            "ancora": "end"
+          }
+        ],
+        "raios": [
+          {
+            "t": "seta",
+            "de": [
+              150,
+              40
+            ],
+            "para": [
+              250,
+              160
+            ],
+            "cor": "luz",
+            "larg": 3
+          },
+          {
+            "t": "seta",
+            "de": [
+              250,
+              160
+            ],
+            "para": [
+              350,
+              40
+            ],
+            "cor": "luz",
+            "larg": 3
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                250,
+                160
+              ],
+              [
+                300,
+                220
+              ],
+              [
+                350,
+                160
+              ]
+            ],
+            "cor": "luz",
+            "larg": 2
+          },
+          {
+            "t": "seta",
+            "de": [
+              350,
+              160
+            ],
+            "para": [
+              450,
+              40
+            ],
+            "cor": "luz",
+            "larg": 3,
+            "tracejado": true
+          }
+        ],
+        "superposicao": [
+          {
+            "t": "rotulo",
+            "x": 400,
+            "y": 280,
+            "txt": "os raios refletidos se superpõem: interferência",
+            "cor": "var(--danger)"
+          }
+        ]
+      }
+    }
+  },
+  "passos": [
+    {
+      "titulo": "Dois raios refletidos",
+      "conceito": "Reflexão da luz",
+      "texto": "A luz é refletida pelas duas faces de uma película fina transparente.",
+      "cena": {
+        "mostrar": [
+          "pelicula",
+          "raios"
+        ]
+      }
+    },
+    {
+      "titulo": "A superposição",
+      "conceito": "Interferência",
+      "texto": "Os raios refletidos se superpõem: é interferência, como em bolhas de sabão. Conforme o ângulo, cores diferentes são reforçadas. Resposta: <b>(E) reflexão e interferência</b>.",
+      "cena": {
+        "mostrar": [
+          "superposicao"
+        ],
+        "destacar": [
+          "superposicao"
+        ]
+      }
+    }
+  ],
+  "status": "revisado",
+  "criadoEm": "2026-11-15T09:00:00-03:00",
+  "atualizadoEm": "2026-11-15T09:00:00-03:00"
+}

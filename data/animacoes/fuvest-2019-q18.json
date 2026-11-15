@@ -1,0 +1,266 @@
+{
+  "id": "fuvest-2019-q18",
+  "titulo": "Três atrações sobre a carga negativa",
+  "conceitos": [
+    "Lei de Coulomb",
+    "Soma vetorial"
+  ],
+  "cena": {
+    "modelo": "diagrama",
+    "parametros": {
+      "elementos": {
+        "cargas": [
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                320,
+                70
+              ],
+              [
+                210,
+                290
+              ],
+              [
+                430,
+                290
+              ]
+            ],
+            "cor": "mudo",
+            "larg": 1.5,
+            "fechada": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                320,
+                70
+              ],
+              [
+                320,
+                290
+              ]
+            ],
+            "cor": "mudo",
+            "larg": 1,
+            "tracejado": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                320,
+                180
+              ],
+              [
+                210,
+                290
+              ]
+            ],
+            "cor": "mudo",
+            "larg": 1,
+            "tracejado": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                320,
+                180
+              ],
+              [
+                430,
+                290
+              ]
+            ],
+            "cor": "mudo",
+            "larg": 1,
+            "tracejado": true
+          },
+          {
+            "t": "circ",
+            "x": 320,
+            "y": 70,
+            "r": 9,
+            "cor": "perigo",
+            "borda": "tinta"
+          },
+          {
+            "t": "circ",
+            "x": 210,
+            "y": 290,
+            "r": 9,
+            "cor": "perigo",
+            "borda": "tinta"
+          },
+          {
+            "t": "circ",
+            "x": 430,
+            "y": 290,
+            "r": 9,
+            "cor": "perigo",
+            "borda": "tinta"
+          },
+          {
+            "t": "texto",
+            "x": 336,
+            "y": 70,
+            "txt": "Q",
+            "negrito": true,
+            "ancora": "start"
+          },
+          {
+            "t": "texto",
+            "x": 194,
+            "y": 290,
+            "txt": "Q",
+            "negrito": true,
+            "ancora": "end"
+          },
+          {
+            "t": "texto",
+            "x": 446,
+            "y": 290,
+            "txt": "Q",
+            "negrito": true,
+            "ancora": "start"
+          },
+          {
+            "t": "circ",
+            "x": 320,
+            "y": 180,
+            "r": 8,
+            "cor": "normal",
+            "borda": "tinta"
+          },
+          {
+            "t": "texto",
+            "x": 334,
+            "y": 182,
+            "txt": "q",
+            "negrito": true,
+            "ancora": "start"
+          }
+        ],
+        "forcas": [
+          {
+            "t": "seta",
+            "de": [
+              320,
+              180
+            ],
+            "para": [
+              320,
+              90
+            ],
+            "cor": "atrito",
+            "larg": 3.5
+          },
+          {
+            "t": "texto",
+            "x": 310,
+            "y": 110,
+            "txt": "1,0 N",
+            "negrito": true,
+            "cor": "atrito",
+            "ancora": "end"
+          },
+          {
+            "t": "seta",
+            "de": [
+              320,
+              180
+            ],
+            "para": [
+              275,
+              225
+            ],
+            "cor": "peso",
+            "larg": 3
+          },
+          {
+            "t": "seta",
+            "de": [
+              320,
+              180
+            ],
+            "para": [
+              365,
+              225
+            ],
+            "cor": "peso",
+            "larg": 3
+          },
+          {
+            "t": "texto",
+            "x": 270,
+            "y": 246,
+            "txt": "0,5 N",
+            "negrito": true,
+            "cor": "peso",
+            "ancora": "end"
+          },
+          {
+            "t": "texto",
+            "x": 370,
+            "y": 246,
+            "txt": "0,5 N",
+            "negrito": true,
+            "cor": "peso",
+            "ancora": "start"
+          }
+        ],
+        "resultante": [
+          {
+            "t": "rotulo",
+            "x": 520,
+            "y": 120,
+            "txt": "embaixo: 2 · 0,5 · cos 45º ≈ 0,71 N ↓",
+            "cor": "var(--danger)"
+          },
+          {
+            "t": "rotulo",
+            "x": 520,
+            "y": 170,
+            "txt": "resultante: 1,0 − 0,71 ≈ 0,3 N ↑",
+            "cor": "var(--accent)"
+          }
+        ]
+      },
+      "largura": 700
+    }
+  },
+  "passos": [
+    {
+      "titulo": "As forças",
+      "conceito": "Lei de Coulomb",
+      "texto": "As cargas se atraem: cada força aponta de q para uma carga Q. A de cima está a d; as de baixo, a d√2.",
+      "equacoes": [
+        "F_{1} = \\dfrac{9 \\times 10^{9} \\cdot 2 \\times 10^{-4} \\cdot 2 \\times 10^{-5}}{36} = 1,0\\ \\text{N}, \\quad F_{2} = 0,5\\ \\text{N}"
+      ],
+      "cena": {
+        "mostrar": [
+          "cargas",
+          "forcas"
+        ]
+      }
+    },
+    {
+      "titulo": "A resultante",
+      "conceito": "Soma vetorial",
+      "texto": "As componentes horizontais das forças de baixo se anulam; as verticais somam cerca de 0,71 N para baixo. Resposta: <b>(E)</b>.",
+      "cena": {
+        "mostrar": [
+          "resultante"
+        ],
+        "destacar": [
+          "resultante"
+        ]
+      }
+    }
+  ],
+  "status": "revisado",
+  "criadoEm": "2026-11-15T09:00:00-03:00",
+  "atualizadoEm": "2026-11-15T09:00:00-03:00"
+}

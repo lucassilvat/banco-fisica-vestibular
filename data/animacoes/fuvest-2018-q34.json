@@ -1,0 +1,147 @@
+{
+  "id": "fuvest-2018-q34",
+  "titulo": "Dois corredores, dois encontros",
+  "conceitos": [
+    "Movimento uniforme"
+  ],
+  "cena": {
+    "modelo": "diagrama",
+    "parametros": {
+      "elementos": {
+        "pista": [
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                80,
+                200
+              ],
+              [
+                560,
+                200
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 3
+          },
+          {
+            "t": "texto",
+            "x": 80,
+            "y": 226,
+            "txt": "A",
+            "negrito": true
+          },
+          {
+            "t": "texto",
+            "x": 560,
+            "y": 226,
+            "txt": "B",
+            "negrito": true
+          }
+        ],
+        "encontro-1": [
+          {
+            "t": "circ",
+            "x": 282.1,
+            "y": 200,
+            "r": 8,
+            "cor": "perigo",
+            "borda": "tinta"
+          },
+          {
+            "t": "cota",
+            "de": [
+              80,
+              160
+            ],
+            "para": [
+              282.1,
+              160
+            ],
+            "cor": "normal",
+            "rot_em": [
+              181.05263157894737,
+              144
+            ],
+            "txt": "800 m"
+          },
+          {
+            "t": "texto",
+            "x": 320,
+            "y": 100,
+            "txt": "1º encontro: juntos percorreram L",
+            "negrito": true,
+            "cor": "perigo"
+          }
+        ],
+        "encontro-2": [
+          {
+            "t": "circ",
+            "x": 433.7,
+            "y": 200,
+            "r": 8,
+            "cor": "normal",
+            "borda": "tinta"
+          },
+          {
+            "t": "cota",
+            "de": [
+              433.7,
+              250
+            ],
+            "para": [
+              560,
+              250
+            ],
+            "cor": "normal",
+            "rot_em": [
+              496.8421052631579,
+              266
+            ],
+            "txt": "500 m"
+          },
+          {
+            "t": "texto",
+            "x": 320,
+            "y": 320,
+            "txt": "2º encontro: juntos percorreram 3L",
+            "negrito": true,
+            "cor": "normal"
+          }
+        ]
+      }
+    }
+  },
+  "passos": [
+    {
+      "titulo": "O primeiro encontro",
+      "conceito": "Movimento uniforme",
+      "texto": "Até o primeiro encontro, os dois juntos percorrem a pista uma vez (L); o que saiu de A andou 800 m.",
+      "cena": {
+        "mostrar": [
+          "pista",
+          "encontro-1"
+        ]
+      }
+    },
+    {
+      "titulo": "O segundo encontro",
+      "conceito": "Movimento uniforme",
+      "texto": "Até o segundo, juntos percorrem 3L: o corredor de A andou 3 · 800 = 2 400 m, isto é, foi até B e voltou 500 m. Resposta: <b>(D) 1.900</b>.",
+      "equacoes": [
+        "L + 500 = 2\\,400 \\quad \\Rightarrow \\quad L = 1\\,900\\ \\text{m}"
+      ],
+      "cena": {
+        "mostrar": [
+          "encontro-2"
+        ],
+        "destacar": [
+          "encontro-2"
+        ]
+      }
+    }
+  ],
+  "status": "revisado",
+  "criadoEm": "2026-11-15T09:00:00-03:00",
+  "atualizadoEm": "2026-11-15T09:00:00-03:00"
+}

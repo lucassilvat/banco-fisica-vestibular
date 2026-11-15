@@ -1,0 +1,205 @@
+{
+  "id": "fuvest-2022-q53",
+  "titulo": "Velocidade constante com polia fixa",
+  "conceitos": [
+    "Leis de Newton",
+    "Polias"
+  ],
+  "cena": {
+    "modelo": "diagrama",
+    "parametros": {
+      "elementos": {
+        "montagem": [
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                200,
+                40
+              ],
+              [
+                440,
+                40
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 5
+          },
+          {
+            "t": "circ",
+            "x": 320,
+            "y": 90,
+            "r": 30,
+            "cor": "#c9c9c9",
+            "borda": "tinta"
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                320,
+                40
+              ],
+              [
+                320,
+                90
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 2
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                290,
+                90
+              ],
+              [
+                290,
+                260
+              ]
+            ],
+            "cor": "#3a6ea5",
+            "larg": 2.5
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                350,
+                90
+              ],
+              [
+                350,
+                330
+              ]
+            ],
+            "cor": "#3a6ea5",
+            "larg": 2.5
+          },
+          {
+            "t": "ret",
+            "x": 250,
+            "y": 260,
+            "w": 80,
+            "h": 60,
+            "cor": "#c49a52",
+            "borda": "tinta"
+          },
+          {
+            "t": "texto",
+            "x": 290,
+            "y": 290,
+            "txt": "12 kg",
+            "negrito": true
+          },
+          {
+            "t": "ret",
+            "x": 320,
+            "y": 330,
+            "w": 80,
+            "h": 50,
+            "cor": "#cfcfcf",
+            "borda": "tinta"
+          },
+          {
+            "t": "texto",
+            "x": 360,
+            "y": 355,
+            "txt": "motor",
+            "negrito": true
+          }
+        ],
+        "forcas": [
+          {
+            "t": "seta",
+            "de": [
+              290,
+              230
+            ],
+            "para": [
+              290,
+              170
+            ],
+            "cor": "normal",
+            "larg": 3,
+            "rot_em": [
+              278,
+              180
+            ],
+            "ancora": "end",
+            "rotulo": "T"
+          },
+          {
+            "t": "seta",
+            "de": [
+              270,
+              320
+            ],
+            "para": [
+              270,
+              380
+            ],
+            "cor": "peso",
+            "larg": 3,
+            "rot_em": [
+              258,
+              374
+            ],
+            "ancora": "end",
+            "rotulo": "P"
+          },
+          {
+            "t": "seta",
+            "de": [
+              350,
+              260
+            ],
+            "para": [
+              350,
+              320
+            ],
+            "cor": "normal",
+            "larg": 3,
+            "rot_em": [
+              338,
+              314
+            ],
+            "ancora": "end",
+            "rotulo": "T"
+          }
+        ]
+      }
+    }
+  },
+  "passos": [
+    {
+      "titulo": "A caixa",
+      "conceito": "Leis de Newton",
+      "texto": "Velocidade constante: resultante nula, e a tração \\(\\vec{T}\\) iguala o peso \\(\\vec{P}\\).",
+      "equacoes": [
+        "T = mg = 12 \\cdot 10 = 120\\ \\text{N}"
+      ],
+      "cena": {
+        "mostrar": [
+          "montagem",
+          "forcas"
+        ]
+      }
+    },
+    {
+      "titulo": "A polia fixa",
+      "conceito": "Polias",
+      "texto": "Presa ao teto, a polia só muda a direção da força; a tração é a mesma em todo o fio. Resposta: <b>(D) 120 N</b>.",
+      "cena": {
+        "destacar": [
+          "forcas"
+        ]
+      }
+    }
+  ],
+  "status": "revisado",
+  "criadoEm": "2026-11-15T09:00:00-03:00",
+  "atualizadoEm": "2026-11-15T09:00:00-03:00"
+}

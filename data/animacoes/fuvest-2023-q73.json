@@ -1,0 +1,206 @@
+{
+  "id": "fuvest-2023-q73",
+  "titulo": "Mais desvio, maior índice de refração",
+  "conceitos": [
+    "Dispersão da luz",
+    "Lei de Snell-Descartes"
+  ],
+  "cena": {
+    "modelo": "diagrama",
+    "parametros": {
+      "elementos": {
+        "prisma": [
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                330,
+                70
+              ],
+              [
+                440,
+                320
+              ],
+              [
+                220,
+                320
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 2,
+            "fechada": true,
+            "preench": "#e8e8e8"
+          },
+          {
+            "t": "seta",
+            "de": [
+              60,
+              190
+            ],
+            "para": [
+              283,
+              190
+            ],
+            "cor": "tinta",
+            "larg": 3
+          },
+          {
+            "t": "texto",
+            "x": 60,
+            "y": 172,
+            "txt": "luz branca",
+            "mudo": true,
+            "ancora": "start"
+          }
+        ],
+        "cores": [
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                283,
+                190
+              ],
+              [
+                395,
+                236
+              ]
+            ],
+            "cor": "#5e35b1",
+            "larg": 2.5
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                283,
+                190
+              ],
+              [
+                393,
+                228
+              ]
+            ],
+            "cor": "#43a047",
+            "larg": 2.5
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                283,
+                190
+              ],
+              [
+                390,
+                221
+              ]
+            ],
+            "cor": "#e53935",
+            "larg": 2.5
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                395,
+                236
+              ],
+              [
+                560,
+                330
+              ]
+            ],
+            "cor": "#5e35b1",
+            "larg": 2.5
+          },
+          {
+            "t": "texto",
+            "x": 566,
+            "y": 334,
+            "txt": "cor 1",
+            "negrito": true,
+            "ancora": "start"
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                393,
+                228
+              ],
+              [
+                560,
+                300
+              ]
+            ],
+            "cor": "#43a047",
+            "larg": 2.5
+          },
+          {
+            "t": "texto",
+            "x": 566,
+            "y": 304,
+            "txt": "cor 2",
+            "negrito": true,
+            "ancora": "start"
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                390,
+                221
+              ],
+              [
+                560,
+                272
+              ]
+            ],
+            "cor": "#e53935",
+            "larg": 2.5
+          },
+          {
+            "t": "texto",
+            "x": 566,
+            "y": 274,
+            "txt": "cor 3",
+            "negrito": true,
+            "ancora": "start"
+          }
+        ]
+      }
+    }
+  },
+  "passos": [
+    {
+      "titulo": "Entrando no vidro",
+      "conceito": "Lei de Snell-Descartes",
+      "texto": "Todas as cores chegam com o mesmo ângulo de incidência. Ao entrar no vidro, se aproximam da normal: n > 1 para todas.",
+      "equacoes": [
+        "\\sen\\theta_{r} = \\dfrac{\\sen\\theta_{i}}{n}"
+      ],
+      "cena": {
+        "mostrar": [
+          "prisma"
+        ]
+      }
+    },
+    {
+      "titulo": "Quem desvia mais",
+      "conceito": "Dispersão da luz",
+      "texto": "Índice maior, ângulo de refração menor e mais desvio para a base. A cor 1 é a mais desviada, depois a 2 e a 3. Resposta: <b>(B) n<sub>1</sub> > n<sub>2</sub> > n<sub>3</sub> > 1</b>.",
+      "cena": {
+        "mostrar": [
+          "cores"
+        ],
+        "destacar": [
+          "cores"
+        ]
+      }
+    }
+  ],
+  "status": "revisado",
+  "criadoEm": "2026-11-15T09:00:00-03:00",
+  "atualizadoEm": "2026-11-15T09:00:00-03:00"
+}
