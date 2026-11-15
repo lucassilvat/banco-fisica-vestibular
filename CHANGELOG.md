@@ -4,6 +4,17 @@ Cada versão corresponde a um lote de importação ou a uma mudança no app/pipe
 Formato: `vMAIOR.MENOR.CORREÇÃO` — MENOR sobe a cada prova importada; MAIOR, em mudanças
 de modelo de dados; CORREÇÃO, em correções de questões já publicadas.
 
+## v2.9.0 — 2026-11-14
+
+- **Resolução animada da Unesp 2026 (Q76–Q82)**, as 7 questões do ano. Sete modelos de cena
+  novos: `mhs-sombra` (pêndulo, sombra em MHS e gráfico v × t com a secante), `rotacao-latitude`
+  (Terra em corte, força gravitacional, aceleração centrípeta e latitude), `cadeia-energia`
+  (da distância à altura, etapa por etapa), `espelho-convexo` (imagem pela equação de Gauss com o
+  carro se aproximando do muro), `espectro-fototropismo` (λ e f no espectro; auxina no lado
+  sombreado), `campo-uniforme` (placas, campo e íon) e `indicador-combustivel` (boia, reostato,
+  corrente, lâmina bimetálica e ponteiro).
+- **App:** textos das cenas com contorno da cor do fundo, para ficarem legíveis sobre linhas.
+
 ## v2.8.2 — 2026-11-14
 
 - **Resolução animada, decisões do Lucas:** sem vídeo em Manim (`videos/manim_roteiro.py`

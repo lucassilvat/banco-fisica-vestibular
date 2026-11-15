@@ -173,12 +173,14 @@ Para gravar questões, usam-se os lotes da etapa `publicar` (docs/WORKFLOW.md).
 29. v2.8.2: o Lucas aprovou as animações do app e descartou o Manim. Regras dele: nada de
     "Pense antes de avançar" ou perguntas do gênero, e nada de simulador em que o aluno muda
     valores. Vídeo, perguntas e o controle da Unesp 2025 Q78 foram removidos.
+30. v2.9.0: o Lucas decidiu fazer as resoluções animadas por vestibular, ano a ano, começando
+    pela Unesp, e medir o custo de 2026 antes de seguir automaticamente. Unesp 2026 feita
+    (7 questões, 7 modelos de cena novos).
 
 ## Pendências
 
-- **Resolução animada**: formato decidido (só o player do app; ver item 29). A seguir:
-  escolher as próximas questões, generalizar os modelos de cena e criar novos (lançamentos,
-  blocos e polias, óptica, ondas).
+- **Resolução animada**: formato decidido (só o player do app; ver item 29). Unesp 2026 feita;
+  próximas: Unesp 2025, 2024... (ano a ano), depois de o Lucas medir o custo de 2026.
 
 - **Fórmulas**: todas as provas do banco foram conferidas (v2.1.0 a v2.7.0). Única ressalva:
   a Unicamp 2027 foi conferida no caderno das provas S e W, e o registrado no manifesto é o

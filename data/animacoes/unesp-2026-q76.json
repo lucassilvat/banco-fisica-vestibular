@@ -1,0 +1,111 @@
+{
+  "id": "unesp-2026-q76",
+  "titulo": "Do gráfico da velocidade à aceleração média",
+  "conceitos": [
+    "Movimento harmônico simples",
+    "Velocidade no MHS",
+    "Aceleração escalar média"
+  ],
+  "cena": {
+    "modelo": "mhs-sombra",
+    "parametros": {
+      "amplitude": 0.3,
+      "periodo": 4,
+      "t1": 1,
+      "t2": 4
+    }
+  },
+  "passos": [
+    {
+      "titulo": "A sombra faz MHS",
+      "conceito": "Movimento harmônico simples",
+      "texto": "A luz vem de cima, então a sombra acompanha o movimento horizontal da esfera e vai e volta entre A e B. Na função dada, a pulsação é ω = π/2 rad/s, e o período é 4 s.",
+      "equacoes": [
+        "\\omega = \\dfrac{\\pi}{2}\\ \\text{rad/s} \\quad \\Rightarrow \\quad T = \\dfrac{2\\pi}{\\omega} = 4\\ \\text{s}"
+      ],
+      "cena": {
+        "mostrar": [
+          "pendulo",
+          "sombra",
+          "vetor-v"
+        ]
+      }
+    },
+    {
+      "titulo": "O gráfico da velocidade",
+      "conceito": "Velocidade no MHS",
+      "texto": "A velocidade é máxima quando a sombra passa pelo centro e nula nos extremos A e B, onde ela inverte o sentido. É negativa quando a sombra vai para A (contra o sentido positivo).",
+      "cena": {
+        "mostrar": [
+          "grafico"
+        ],
+        "estado": {
+          "cursor": true
+        }
+      }
+    },
+    {
+      "titulo": "Em t = 1 s",
+      "conceito": "Velocidade no MHS",
+      "texto": "A sombra passa pelo centro indo para A: a velocidade tem o maior valor possível, com sinal negativo.",
+      "equacoes": [
+        "\\mathrm{v}(1) = -\\dfrac{0,3 \\cdot \\pi}{2} \\cdot \\sen\\left(\\dfrac{\\pi}{2}\\right) = -0,15\\pi\\ \\text{m/s}"
+      ],
+      "cena": {
+        "mostrar": [
+          "ponto-1"
+        ],
+        "destacar": [
+          "ponto-1"
+        ],
+        "estado": {
+          "t": 1,
+          "cursor": true
+        }
+      }
+    },
+    {
+      "titulo": "Em t = 4 s",
+      "conceito": "Velocidade no MHS",
+      "texto": "Depois de um período inteiro, a sombra volta a B, um extremo do movimento: ali ela para por um instante.",
+      "equacoes": [
+        "\\mathrm{v}(4) = -\\dfrac{0,3 \\cdot \\pi}{2} \\cdot \\sen(2\\pi) = 0"
+      ],
+      "cena": {
+        "mostrar": [
+          "ponto-2"
+        ],
+        "destacar": [
+          "ponto-2"
+        ],
+        "estado": {
+          "t": 4,
+          "cursor": true
+        }
+      }
+    },
+    {
+      "titulo": "Aceleração escalar média",
+      "conceito": "Aceleração escalar média",
+      "texto": "A aceleração escalar média só depende das velocidades no início e no fim do intervalo: no gráfico, é a inclinação da reta que liga os dois pontos. Resposta: <b>(A) 0,05 · π m/s²</b>.",
+      "equacoes": [
+        "a_{\\text{m}} = \\dfrac{\\Delta \\mathrm{v}}{\\Delta t} = \\dfrac{0 - (-0,15\\pi)}{4 - 1} = 0,05\\pi\\ \\text{m/s}^{2}"
+      ],
+      "cena": {
+        "mostrar": [
+          "secante"
+        ],
+        "destacar": [
+          "secante"
+        ],
+        "estado": {
+          "t": 4,
+          "cursor": false
+        }
+      }
+    }
+  ],
+  "status": "revisado",
+  "criadoEm": "2026-11-14T22:00:00-03:00",
+  "atualizadoEm": "2026-11-14T22:00:00-03:00"
+}

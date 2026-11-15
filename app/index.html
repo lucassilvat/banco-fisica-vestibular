@@ -171,17 +171,17 @@ article.q { background: var(--paper); border: 1px solid var(--line); border-top:
 @keyframes apFade { from { opacity: 0; } to { opacity: 1; } }
 @keyframes apPulse { 0%, 100% { filter: none; } 50% { filter: drop-shadow(0 0 5px var(--anim-luz)) drop-shadow(0 0 2px var(--anim-luz)); } }
 @media (prefers-reduced-motion: reduce) { .ae, .ae.on.entra, .ae.hl, .ap-eqs > div { animation: none !important; transition: none; opacity: 1; } .ae:not(.on) { opacity: 0; } }
-.ap svg text { fill: var(--ink); font-size: 15px; }
+.ap svg text { fill: var(--ink); font-size: 15px; paint-order: stroke; stroke: var(--paper); stroke-width: 3px; stroke-linejoin: round; }
 .ap svg .t-mute { fill: var(--muted); font-size: 13px; }
 .ap svg .t-b { font-weight: 700; }
 .ap svg .ln { stroke: var(--ink); stroke-width: 2; fill: none; }
 .ap svg .ln-mute { stroke: var(--muted); stroke-width: 1; fill: none; }
 .ap svg .grid { stroke: var(--line); stroke-width: 1; stroke-dasharray: 2 3; }
-.ap svg .v-peso { stroke: var(--mark); fill: var(--mark); } .ap svg text.v-peso { stroke: none; }
-.ap svg .v-normal { stroke: var(--accent); fill: var(--accent); } .ap svg text.v-normal { stroke: none; }
-.ap svg .v-atrito { stroke: var(--ok); fill: var(--ok); } .ap svg text.v-atrito { stroke: none; }
-.ap svg .v-acel { stroke: var(--anim-acel); fill: var(--anim-acel); } .ap svg text.v-acel { stroke: none; }
-.ap svg .v-comp { stroke: var(--mark); fill: var(--mark); stroke-dasharray: 6 4; opacity: .8; } .ap svg text.v-comp { stroke: none; stroke-dasharray: none; }
+.ap svg .v-peso { stroke: var(--mark); fill: var(--mark); } .ap svg text.v-peso { stroke: var(--paper); }
+.ap svg .v-normal { stroke: var(--accent); fill: var(--accent); } .ap svg text.v-normal { stroke: var(--paper); }
+.ap svg .v-atrito { stroke: var(--ok); fill: var(--ok); } .ap svg text.v-atrito { stroke: var(--paper); }
+.ap svg .v-acel { stroke: var(--anim-acel); fill: var(--anim-acel); } .ap svg text.v-acel { stroke: var(--paper); }
+.ap svg .v-comp { stroke: var(--mark); fill: var(--mark); stroke-dasharray: 6 4; opacity: .8; } .ap svg text.v-comp { stroke: var(--paper); stroke-dasharray: none; }
 .ap svg .fio { stroke: var(--anim-fio); stroke-width: 2.5; fill: none; stroke-linejoin: round; }
 .ap svg .fio.aberto { stroke-dasharray: 4 5; opacity: .5; }
 .ap svg .dot { fill: var(--accent); }
@@ -992,6 +992,414 @@ CENAS["grafico-vt"] = (svg, P) => {
       raf = requestAnimationFrame(loop);
     },
     stop() { cancelAnimationFrame(raf); },
+  };
+};
+
+function sRich(parent, x, y, s, cls = "", anchor = "middle") { // texto com ^{sobrescrito} e _{subscrito}
+  const t = S("text", { x, y, "text-anchor": anchor, class: cls, "dominant-baseline": "middle" }, parent);
+  String(s).split(/(\^\{[^}]*\}|_\{[^}]*\})/).forEach(p => {
+    if (!p) return;
+    const m = /^([\^_])\{(.*)\}$/.exec(p);
+    if (m) { const ts = S("tspan", { "baseline-shift": m[1] === "^" ? "super" : "sub", "font-size": "70%" }, t); ts.textContent = m[2]; }
+    else { const ts = S("tspan", {}, t); ts.textContent = p; }
+  });
+  return t;
+}
+const milhar = n => String(n).replace(/\B(?=(\d{3})+(?!\d))/g, "\u2009");
+function sLine(parent, x1, y1, x2, y2, attrs = {}) { return S("line", { x1, y1, x2, y2, ...attrs }, parent); }
+function loopRaf(fn) { // chama fn(segundos desde o início) a cada quadro; devolve a função que para
+  let raf = 0; const t0 = performance.now();
+  const f = now => { fn((now - t0) / 1000); raf = requestAnimationFrame(f); };
+  raf = requestAnimationFrame(f);
+  return () => cancelAnimationFrame(raf);
+}
+
+/* Pêndulo iluminado de cima: a sombra faz MHS; gráfico v × t ao lado, com pontos e secante. */
+CENAS["mhs-sombra"] = (svg, P) => {
+  svg.setAttribute("viewBox", "0 0 640 430");
+  const A = P.amplitude, T = P.periodo, w = 2 * Math.PI / T, t1 = P.t1, t2 = P.t2;
+  const v = t => -A * w * Math.sin(w * t), vmax = A * w;
+  const PX = 175, PY = 40, L = 185, AP = 115, CH = 250; // pivô, fio, amplitude (px), chão
+  const xs = t => PX + AP * Math.cos(w * t);
+  const el = {};
+  el.pendulo = S("g", { class: "ae" }, svg);
+  [55, 105, 245, 295].forEach(x => { sArrow(el.pendulo, "", 3).set(x, 18, x, 52).setAttribute("style", "stroke:#e0b000;fill:#e0b000"); });
+  sLabel(el.pendulo, 80, 70, "luz", "", "t-mute");
+  S("rect", { x: 30, y: CH, width: 300, height: 9, fill: "var(--line)" }, el.pendulo);
+  S("path", { d: `M${PX - AP},${PY + Math.sqrt(L * L - AP * AP)} Q${PX},${PY + L + 40} ${PX + AP},${PY + Math.sqrt(L * L - AP * AP)}`, class: "ln-mute", "stroke-dasharray": "4 4" }, el.pendulo);
+  [[PX - AP, "A"], [PX + AP, "B"]].forEach(([x, n]) => { S("circle", { cx: x, cy: CH, r: 3.5, fill: "var(--ink)" }, el.pendulo); sLabel(el.pendulo, x, CH + 24, n, "", "t-b"); });
+  sArrow(el.pendulo, "ln-mute", 1.5).set(PX - 60, CH + 50, PX + 40, CH + 50); sLabel(el.pendulo, PX + 52, CH + 50, "+", "", "t-mute", "start");
+  sLabel(el.pendulo, PX, CH + 24, "0", "", "t-mute");
+  S("circle", { cx: PX, cy: PY, r: 4, fill: "var(--ink)" }, el.pendulo);
+  const fio = sLine(el.pendulo, PX, PY, PX, PY + L, { class: "ln", "stroke-width": 1.5 });
+  const bola = S("circle", { r: 11, fill: "#3aa0e0", stroke: "var(--ink)", "stroke-width": 1.5 }, el.pendulo);
+  el.sombra = S("g", { class: "ae" }, svg);
+  const proj = sLine(el.sombra, 0, 0, 0, CH, { class: "ln-mute", "stroke-dasharray": "3 4" });
+  const somb = S("rect", { y: CH - 3, width: 22, height: 6, fill: "var(--ink)" }, el.sombra);
+  el["vetor-v"] = S("g", { class: "ae" }, svg); const aV = sArrow(el["vetor-v"], "v-normal", 3); const lV = sLabel(el["vetor-v"], 0, CH - 26, "v", "", "v-normal t-b");
+  // gráfico v × t
+  const GX = t => 380 + t * 52, GY = vv => 215 - vv / vmax * 120;
+  el.grafico = S("g", { class: "ae" }, svg);
+  sArrow(el.grafico, "ln", 1.5).set(GX(0), GY(0), GX(T) + 22, GY(0)); sArrow(el.grafico, "ln", 1.5).set(GX(0), GY(-vmax) + 20, GX(0), GY(vmax) - 25);
+  sLabel(el.grafico, GX(T) + 25, GY(0) + 16, "t (s)", "", "t-mute", "start"); sLabel(el.grafico, GX(0) + 8, GY(vmax) - 30, "v (m/s)", "", "t-mute", "start");
+  for (let k = 1; k <= T; k++) { sLine(el.grafico, GX(k), GY(0) - 4, GX(k), GY(0) + 4, { class: "ln" }); sLabel(el.grafico, GX(k) + 6, GY(0) + 14, String(k), "", "t-mute"); }
+  [[vmax, "0,15π"], [-vmax, "−0,15π"]].forEach(([vv, s]) => { sLine(el.grafico, GX(0), GY(vv), GX(T), GY(vv), { class: "grid" }); sLabel(el.grafico, GX(0) - 6, GY(vv), s, "", "t-mute", "end"); });
+  let d = ""; for (let k = 0; k <= 200; k++) { const t = T * k / 200; d += (k ? "L" : "M") + GX(t) + "," + GY(v(t)); }
+  S("path", { d, fill: "none", stroke: "var(--ink)", "stroke-width": 2.5, pathLength: 1, class: "draw" }, el.grafico);
+  const cursor = sLine(svg, 0, GY(vmax) - 10, 0, GY(-vmax) + 10, { stroke: "var(--anim-acel)", "stroke-width": 1.5, class: "ae" });
+  const pto = (id, t, txt, dy) => { el[id] = S("g", { class: "ae" }, svg); S("circle", { cx: GX(t), cy: GY(v(t)), r: 6, fill: "var(--mark)" }, el[id]); sRich(el[id], GX(t) + (t > T / 2 ? -8 : 10), GY(v(t)) + dy, txt, "t-b v-peso", t > T / 2 ? "end" : "start"); };
+  pto("ponto-1", t1, "v(1) = −0,15π m/s", 22); pto("ponto-2", t2, "v(4) = 0", -18);
+  el.secante = S("g", { class: "ae" }, svg);
+  sLine(el.secante, GX(t1), GY(v(t1)), GX(t2), GY(v(t2)), { stroke: "var(--anim-acel)", "stroke-width": 2.5, pathLength: 1, class: "draw" });
+  sLine(el.secante, GX(t1), GY(v(t1)), GX(t2), GY(v(t1)), { class: "ln-mute", "stroke-dasharray": "4 3" });
+  sLine(el.secante, GX(t2), GY(v(t1)), GX(t2), GY(v(t2)), { class: "ln-mute", "stroke-dasharray": "4 3" });
+  sLabel(el.secante, (GX(t1) + GX(t2)) / 2 + 20, GY(v(t1)) - 12, "Δt = 3 s", "", "t-mute");
+  sLabel(el.secante, GX(t2) + 6, (GY(v(t1)) + GY(0)) / 2, "Δv", "", "t-mute", "start");
+  sLabel(el.secante, (GX(0) + GX(T)) / 2, 400, "inclinação da reta = aₘ", "", "v-acel t-b");
+  const tTxt = sLabel(svg, 620, 20, "", "", "t-b", "end");
+  function pos(t) {
+    const x = xs(t), y = PY + Math.sqrt(L * L - (x - PX) ** 2);
+    fio.setAttribute("x2", x); fio.setAttribute("y2", y); bola.setAttribute("cx", x); bola.setAttribute("cy", y);
+    proj.setAttribute("x1", x); proj.setAttribute("x2", x); proj.setAttribute("y1", y + 11); somb.setAttribute("x", x - 11);
+    const vv = v(t); aV.set(x, CH - 12, x + vv / vmax * 60 + (vv >= 0 ? 0.01 : -0.01), CH - 12); aV.style.opacity = lV.style.opacity = Math.abs(vv) < 0.02 * vmax ? 0 : 1; lV.setAttribute("x", x + vv / vmax * 30);
+    cursor.setAttribute("x1", GX(t % T)); cursor.setAttribute("x2", GX(t % T));
+    tTxt.textContent = `t = ${fmt(t % T, 1)} s`;
+  }
+  let stop = () => {};
+  pos(0);
+  return {
+    el,
+    update(est) {
+      stop(); stop = () => {};
+      cursor.classList.toggle("on", !!est.cursor); tTxt.style.display = est.cursor ? "" : "none";
+      if (typeof est.t === "number") pos(est.t);
+      else stop = loopRaf(s => pos((s * 0.75) % T));
+    },
+    stop() { stop(); },
+  };
+};
+
+/* Terra em corte pelo meridiano: eixo, equador, paralelo do morador, força gravitacional,
+   aceleração centrípeta e ângulos. */
+CENAS["rotacao-latitude"] = (svg, P) => {
+  svg.setAttribute("viewBox", "0 0 640 430");
+  const lat = P.latitude * Math.PI / 180, C = [250, 220], R = 175;
+  const Pm = [C[0] + R * Math.cos(lat), C[1] - R * Math.sin(lat)], Q = [C[0], Pm[1]], r = R * Math.cos(lat);
+  const el = {};
+  el.terra = S("g", { class: "ae" }, svg);
+  S("circle", { cx: C[0], cy: C[1], r: R, fill: "#d8eef8", stroke: "var(--ink)", "stroke-width": 2 }, el.terra);
+  S("circle", { cx: C[0], cy: C[1], r: 3, fill: "var(--ink)" }, el.terra); sLabel(el.terra, C[0] - 12, C[1] + 14, "centro da Terra", "", "t-mute", "end");
+  el.eixo = S("g", { class: "ae" }, svg);
+  sLine(el.eixo, C[0], C[1] + R + 25, C[0], C[1] - R - 30, { class: "ln", "stroke-dasharray": "7 5" });
+  sLabel(el.eixo, C[0], C[1] - R - 40, "N", "", "t-b"); sLabel(el.eixo, C[0] + 8, C[1] + R + 22, "eixo de rotação", "", "t-mute", "start");
+  el.equador = S("g", { class: "ae" }, svg);
+  S("ellipse", { cx: C[0], cy: C[1], rx: R, ry: 22, fill: "none", stroke: "var(--accent)", "stroke-width": 1.8 }, el.equador);
+  sLabel(el.equador, C[0] - R - 8, C[1], "equador", "", "v-normal", "end");
+  el.paralelo = S("g", { class: "ae" }, svg);
+  S("ellipse", { cx: Q[0], cy: Q[1], rx: r, ry: 12, fill: "none", stroke: "var(--anim-acel)", "stroke-width": 1.8, "stroke-dasharray": "5 4" }, el.paralelo);
+  S("circle", { cx: Q[0], cy: Q[1], r: 3, fill: "var(--anim-acel)" }, el.paralelo);
+  sLabel(el.paralelo, Q[0] - r - 8, Q[1], `paralelo ${P.latitude}° N`, "", "v-acel", "end");
+  el.latitude = S("g", { class: "ae" }, svg);
+  sLine(el.latitude, C[0], C[1], Pm[0], Pm[1], { class: "ln-mute", "stroke-width": 1.5 });
+  sLine(el.latitude, C[0], C[1], C[0] + R, C[1], { class: "ln-mute", "stroke-width": 1.5 });
+  S("path", { d: arcPath(C[0], C[1], 42, 0, -P.latitude), class: "ln", "stroke-width": 1.5 }, el.latitude);
+  sLabel(el.latitude, C[0] + 58 * Math.cos(-lat / 2), C[1] + 58 * Math.sin(-lat / 2), `${P.latitude}°`, "", "t-b");
+  el.morador = S("g", { class: "ae" }, svg);
+  const mor = S("circle", { cx: Pm[0], cy: Pm[1], r: 7, fill: "var(--mark)", stroke: "var(--ink)" }, el.morador);
+  const lm = sLabel(el.morador, Pm[0] + 12, Pm[1] - 12, "morador", "", "t-b", "start");
+  el.gravidade = S("g", { class: "ae" }, svg);
+  const ug = [(C[0] - Pm[0]) / R, (C[1] - Pm[1]) / R];
+  sArrow(el.gravidade, "v-peso", 3).set(Pm[0], Pm[1], Pm[0] + ug[0] * 105, Pm[1] + ug[1] * 105);
+  sRich(el.gravidade, Pm[0] + ug[0] * 105 + 16, Pm[1] + ug[1] * 105 + 6, "F_{g}", "v-peso t-b", "start");
+  el.centripeta = S("g", { class: "ae" }, svg);
+  sArrow(el.centripeta, "v-acel", 3).set(Pm[0], Pm[1], Pm[0] - 62, Pm[1]);
+  sRich(el.centripeta, Pm[0] - 40, Pm[1] - 26, "a_{cp}", "v-acel t-b", "middle");
+  el.angulo = S("g", { class: "ae" }, svg);
+  const ag = Math.atan2(ug[1], ug[0]) * 180 / Math.PI;
+  S("path", { d: arcPath(Pm[0], Pm[1], 30, 180, ag), class: "ln", "stroke-width": 1.8 }, el.angulo);
+  sLabel(el.angulo, Pm[0] + 46 * Math.cos((180 + ag) / 2 * Math.PI / 180), Pm[1] + 46 * Math.sin((180 + ag) / 2 * Math.PI / 180), `${P.latitude}°`, "", "t-b");
+  // painel com a explicação dos ângulos alternos
+  el.alternos = S("g", { class: "ae" }, svg);
+  S("rect", { x: 450, y: 300, width: 180, height: 112, rx: 8, fill: "var(--soft)" }, el.alternos);
+  ["a_{cp} ∥ plano do equador", "F_{g} na direção do raio", "→ ângulos alternos:", "ângulo = latitude"].forEach((s, i) => sRich(el.alternos, 462, 322 + i * 24, s, i === 3 ? "t-b" : "", "start"));
+  let stop = () => {};
+  const at = s => { const ph = s * 1.2; mor.setAttribute("cx", Q[0] + r * Math.cos(ph)); mor.setAttribute("cy", Q[1] + 12 * Math.sin(ph)); lm.style.opacity = 0; };
+  return {
+    el,
+    update(est) {
+      stop(); stop = () => {};
+      if (est.girar) stop = loopRaf(at);
+      else { mor.setAttribute("cx", Pm[0]); mor.setAttribute("cy", Pm[1]); lm.style.opacity = 1; }
+    },
+    stop() { stop(); },
+  };
+};
+
+/* Cadeia de grandezas (cada caixa vem da anterior por uma operação) e, ao fim, o
+   motorista subindo até a altura calculada. */
+CENAS["cadeia-energia"] = (svg, P) => {
+  svg.setAttribute("viewBox", "0 0 640 430");
+  const et = P.etapas, el = {}, H = 40, G = 66, X0 = 30, W = 250;
+  et.forEach((e, i) => {
+    const id = "etapa-" + (i + 1), y = 14 + i * G; el[id] = S("g", { class: "ae" }, svg);
+    if (i) { sArrow(el[id], "ln", 1.8).set(X0 + W / 2, y - G + H + 2, X0 + W / 2, y - 2); sRich(el[id], X0 + W / 2 + 12, y - (G - H) / 2, e.operacao, "v-acel t-b", "start"); }
+    S("rect", { x: X0, y, width: W, height: H, rx: 7, fill: "var(--soft)", stroke: "var(--accent)" }, el[id]);
+    sRich(el[id], X0 + 12, y + H / 2, e.rotulo, "t-mute", "start");
+    sRich(el[id], X0 + W - 12, y + H / 2, e.valor, "t-b", "end");
+  });
+  el.subida = S("g", { class: "ae" }, svg);
+  const BX = 520, Y0 = 400, Y1 = 40, hMax = P.altura;
+  sLine(el.subida, BX, Y0, BX, Y1, { class: "ln", "stroke-width": 1.5 });
+  for (let h = 0; h <= hMax; h += hMax / 4) { const y = Y0 - (Y0 - Y1) * h / hMax; sLine(el.subida, BX - 5, y, BX + 5, y, { class: "ln" }); sLabel(el.subida, BX - 10, y, `${milhar(h)} m`, "", "t-mute", "end"); }
+  S("rect", { x: 440, y: Y0, width: 180, height: 10, fill: "#8c6a46" }, el.subida);
+  const pessoa = S("g", {}, el.subida);
+  S("circle", { cx: 0, cy: -38, r: 7, fill: "var(--mark)" }, pessoa); S("line", { x1: 0, y1: -31, x2: 0, y2: -12, stroke: "var(--mark)", "stroke-width": 4 }, pessoa);
+  S("line", { x1: 0, y1: -12, x2: -6, y2: 0, stroke: "var(--mark)", "stroke-width": 4 }, pessoa); S("line", { x1: 0, y1: -12, x2: 6, y2: 0, stroke: "var(--mark)", "stroke-width": 4 }, pessoa);
+  S("line", { x1: -8, y1: -26, x2: 8, y2: -26, stroke: "var(--mark)", "stroke-width": 4 }, pessoa);
+  const hTxt = sLabel(el.subida, 596, 0, "", "", "t-b", "middle");
+  sRich(el.subida, 575, Y1 - 18, "E_{p} = mgh", "v-acel t-b");
+  const pos = f => { const y = Y0 - (Y0 - Y1) * f; pessoa.setAttribute("transform", `translate(575,${y})`); hTxt.setAttribute("y", y - 56); hTxt.textContent = `h = ${milhar(Math.round(f * hMax))} m`; };
+  let stop = () => {};
+  pos(0);
+  return {
+    el,
+    update(est) {
+      stop(); stop = () => {};
+      if (est.subir) stop = loopRaf(s => { const k = (s % 6) / 4.5; pos(Math.min(1, k * k * (3 - 2 * k) * (k < 1 ? 1 : 0) + (k >= 1 ? 1 : 0))); });
+      else pos(0);
+    },
+    stop() { stop(); },
+  };
+};
+
+/* Visão de cima: espelho convexo (no carro), muro, foco e imagem virtual pela equação de Gauss. */
+CENAS["espelho-convexo"] = (svg, P) => {
+  svg.setAttribute("viewBox", "0 0 640 430");
+  const f = P.f, K = 52, XM = 610, Y = 200; // muro em XM; px por metro
+  const img = p => f * p / (p - f); // p' (negativo: virtual)
+  const el = {};
+  el.eixo = S("g", { class: "ae" }, svg); sLine(el.eixo, 10, Y, 630, Y, { class: "ln-mute", "stroke-dasharray": "6 5" });
+  el.muro = S("g", { class: "ae" }, svg);
+  for (let k = 0; k < 8; k++) S("rect", { x: XM, y: Y - 100 + k * 25, width: 22, height: 23, fill: "#e8794f", stroke: "#b5532e" }, el.muro);
+  sLabel(el.muro, XM + 11, Y + 118, "muro", "", "t-mute");
+  el.espelho = S("g", { class: "ae" }, svg);
+  const esp = S("g", {}, el.espelho);
+  S("path", { d: "M-14,-46 Q14,0 -14,46", fill: "none", stroke: "var(--accent)", "stroke-width": 4 }, esp);
+  for (let k = -40; k <= 40; k += 10) S("line", { x1: -14 + 28 * (1 - (k / 46) ** 2) / 2 - 2, y1: k, x2: -24 + 28 * (1 - (k / 46) ** 2) / 2 - 2, y2: k - 7, stroke: "var(--accent)", "stroke-width": 1.2 }, esp);
+  S("text", { x: 0, y: -60, "text-anchor": "middle", class: "t-mute" }, esp).textContent = "espelho do carro";
+  sArrow(esp, "v-acel", 2.5).set(-25, -86, 25, -86); S("text", { x: 0, y: -98, "text-anchor": "middle", class: "v-acel t-b" }, esp).textContent = "v";
+  el.foco = S("g", { class: "ae" }, svg); const fDot = S("circle", { r: 4, cy: Y, fill: "var(--mark)" }, el.foco); const fT = sLabel(el.foco, 0, Y + 18, "F", "", "v-peso t-b");
+  el.imagem = S("g", { class: "ae" }, svg); const im = S("rect", { width: 6, fill: "#e8794f", stroke: "#b5532e" }, el.imagem); const imT = sLabel(el.imagem, 0, 0, "imagem", "", "t-mute");
+  el.cotas = S("g", { class: "ae" }, svg);
+  const cd1 = sArrow(el.cotas, "v-normal", 1.5), cd2 = sArrow(el.cotas, "v-normal", 1.5), dT = sLabel(el.cotas, 0, Y + 92, "", "", "v-normal t-b");
+  const cp = sLine(el.cotas, 0, Y + 56, 0, Y + 56, { stroke: "var(--mark)", "stroke-width": 2 }), pT = sLabel(el.cotas, 0, Y + 56, "", "", "v-peso t-b", "end");
+  const tT = sLabel(svg, 20, 24, "", "", "t-b", "start");
+  function pos(d, t) {
+    const x = XM - d * K, pl = img(d), xi = x + pl * K, hI = 200 * (-pl / d);
+    esp.setAttribute("transform", `translate(${x},${Y})`);
+    fDot.setAttribute("cx", x + f * K); fT.setAttribute("x", x + f * K);
+    im.setAttribute("x", xi - 3); im.setAttribute("y", Y - hI / 2); im.setAttribute("height", hI); imT.setAttribute("x", xi - 8); imT.setAttribute("y", Y - hI / 2 - 14); imT.setAttribute("text-anchor", "end");
+    cd1.set(x, Y + 76, XM, Y + 76); cd2.set(XM, Y + 76, x, Y + 76); dT.setAttribute("x", (x + XM) / 2); dT.textContent = `p = d = ${fmt(d, 1)} m`;
+    cp.setAttribute("x1", xi); cp.setAttribute("x2", x); pT.setAttribute("x", xi - 8); pT.textContent = `|p′| = ${fmt(-pl, 3)} m`;
+    tT.textContent = t == null ? "" : `t = ${fmt(t, 1)} s`;
+  }
+  let stop = () => {};
+  pos(P.d0);
+  return {
+    el,
+    update(est) {
+      stop(); stop = () => {};
+      if (est.mover) {
+        const v = (P.d0 - P.d1) / P.t1;
+        stop = loopRaf(s => { const t = Math.min((s % 7) / 2.5, 1) * P.t1; pos(P.d0 - v * t, t); });
+      } else pos(typeof est.d === "number" ? est.d : P.d0, null);
+    },
+    stop() { stop(); },
+  };
+};
+
+/* Espectro visível (λ e f) e plântula iluminada de lado: auxina migra para o lado sombreado,
+   que cresce mais, e a planta se curva para a luz. */
+CENAS["espectro-fototropismo"] = (svg, P) => {
+  svg.setAttribute("viewBox", "0 0 640 430");
+  const el = {}, L0 = 380, L1 = 750, X0 = 40, X1 = 570, X = l => X0 + (X1 - X0) * (l - L0) / (L1 - L0);
+  el.espectro = S("g", { class: "ae" }, svg);
+  const id = "esp" + Math.random().toString(36).slice(2);
+  const gr = S("linearGradient", { id, x1: 0, x2: 1, y1: 0, y2: 0 }, S("defs", {}, svg));
+  [[380, "#7a00c8"], [440, "#2a3cff"], [490, "#00a0ff"], [530, "#00c040"], [580, "#f0e000"], [620, "#ff8000"], [700, "#e00000"], [750, "#900000"]].forEach(([l, c]) => S("stop", { offset: (l - L0) / (L1 - L0), "stop-color": c }, gr));
+  S("rect", { x: X0, y: 40, width: X1 - X0, height: 36, fill: `url(#${id})`, rx: 3 }, el.espectro);
+  for (let l = 400; l <= 750; l += 50) { sLine(el.espectro, X(l), 76, X(l), 82, { class: "ln" }); sLabel(el.espectro, X(l), 94, String(l), "", "t-mute"); }
+  sLabel(el.espectro, X1, 24, "λ (nm)", "", "t-mute", "end"); sLabel(el.espectro, X0, 24, "luz visível", "", "t-mute", "start");
+  el.azul = S("g", { class: "ae" }, svg);
+  S("rect", { x: X(P.azul[0]), y: 34, width: X(P.azul[1]) - X(P.azul[0]), height: 48, fill: "none", stroke: "var(--ink)", "stroke-width": 2.5, rx: 3 }, el.azul);
+  sLabel(el.azul, (X(P.azul[0]) + X(P.azul[1])) / 2, 24, "azul", "", "t-b");
+  el.setas = S("g", { class: "ae" }, svg);
+  sArrow(el.setas, "v-normal", 2).set(320, 116, X0 + 10, 116); sLabel(el.setas, 330, 116, "menor λ", "", "v-normal t-b", "start");
+  sArrow(el.setas, "v-peso", 2).set(320, 140, X0 + 10, 140); sLabel(el.setas, 330, 140, "maior f  (c = λf)", "", "v-peso t-b", "start");
+  // planta
+  const B = [300, 415];
+  el.luz = S("g", { class: "ae" }, svg);
+  [230, 270, 310].forEach(y => sArrow(el.luz, "", 4).set(610, y, 530, y).setAttribute("style", "stroke:#2a7fff;fill:#2a7fff"));
+  sLabel(el.luz, 570, 205, "luz azul", "", "t-b");
+  el.planta = S("g", { class: "ae" }, svg);
+  S("rect", { x: 220, y: 415, width: 160, height: 10, fill: "#8c6a46" }, el.planta);
+  const caule = S("path", { fill: "none", stroke: "#8bbf3a", "stroke-width": 12, "stroke-linecap": "round" }, el.planta);
+  const folhas = S("g", {}, el.planta);
+  S("ellipse", { cx: -12, cy: 0, rx: 13, ry: 6, fill: "#9ccc4a" }, folhas); S("ellipse", { cx: 12, cy: 0, rx: 13, ry: 6, fill: "#9ccc4a" }, folhas);
+  el.lados = S("g", { class: "ae" }, svg);
+  sLabel(el.lados, 200, 300, "lado sombreado", "", "t-mute", "end"); sLabel(el.lados, 410, 330, "lado iluminado", "", "t-mute", "start");
+  el.auxina = S("g", { class: "ae" }, svg);
+  const dots = Array.from({ length: 14 }, (_, i) => ({ s: 0.2 + 0.65 * Math.floor(i / 2) / 6, lado: i % 2 ? 1 : -1, n: S("circle", { r: 4, fill: "#f08a24", stroke: "#a85a10" }, el.auxina) }));
+  const lAux = sLabel(el.auxina, 120, 250, "auxina", "", "t-b", "middle"); lAux.setAttribute("style", "fill:#c86a10");
+  // curva do caule: b = 0 (reto) a 1 (curvado para a luz)
+  function ponto(b, s) { // ponto ao longo do caule (s de 0 na base a 1 no ápice) e normal
+    const p0 = B, p1 = [B[0] - 25 * b, 300], p2 = [B[0] + 95 * b, 185 + 15 * b];
+    const q = (a, c) => (1 - s) ** 2 * p0[a] + 2 * (1 - s) * s * p1[a] + s * s * p2[a];
+    const dx = 2 * (1 - s) * (p1[0] - p0[0]) + 2 * s * (p2[0] - p1[0]), dy = 2 * (1 - s) * (p1[1] - p0[1]) + 2 * s * (p2[1] - p1[1]), n = Math.hypot(dx, dy);
+    return { x: q(0), y: q(1), nx: -dy / n, ny: dx / n, ang: Math.atan2(dy, dx) * 180 / Math.PI };
+  }
+  function pos(b, mig) { // mig: 0 = auxina dos dois lados; 1 = toda no lado sombreado
+    const p0 = B, p1 = [B[0] - 25 * b, 300], p2 = [B[0] + 95 * b, 185 + 15 * b];
+    caule.setAttribute("d", `M${p0} Q${p1} ${p2}`);
+    const tp = ponto(b, 1); folhas.setAttribute("transform", `translate(${tp.x},${tp.y}) rotate(${tp.ang + 90})`);
+    dots.forEach(d => { const lado = d.lado > 0 ? 1 - 2 * mig : -1; const p = ponto(b, d.s); const off = 11 * lado; d.n.setAttribute("cx", p.x + p.nx * off); d.n.setAttribute("cy", p.y + p.ny * off); });
+  }
+  let stop = () => {};
+  pos(0, 0);
+  return {
+    el,
+    update(est) {
+      stop(); stop = () => {};
+      if (est.curvar) stop = loopRaf(s => { const k = s % 9; const mig = Math.min(1, Math.max(0, (k - 0.5) / 2.5)), b = Math.min(1, Math.max(0, (k - 3.5) / 3.5)); pos(b, mig); });
+      else pos(0, 0);
+    },
+    stop() { stop(); },
+  };
+};
+
+/* Duas placas paralelas (eletrodos) com tensão U: campo uniforme e íon positivo acelerado. */
+CENAS["campo-uniforme"] = (svg, P) => {
+  svg.setAttribute("viewBox", "0 0 640 430");
+  const XA = 200, XB = 440, Y0 = 70, Y1 = 330, el = {};
+  el.placas = S("g", { class: "ae" }, svg);
+  S("rect", { x: XA - 16, y: Y0, width: 16, height: Y1 - Y0, fill: "#d24b3a" }, el.placas); S("rect", { x: XB, y: Y0, width: 16, height: Y1 - Y0, fill: "#3a64d2" }, el.placas);
+  sLabel(el.placas, XA - 8, Y0 - 16, "+", "", "t-b"); sLabel(el.placas, XB + 8, Y0 - 16, "−", "", "t-b");
+  sLabel(el.placas, XA - 26, (Y0 + Y1) / 2, "eletrodo (face interna)", "", "t-mute", "end"); sLabel(el.placas, XB + 26, (Y0 + Y1) / 2, "eletrodo (face externa)", "", "t-mute", "start");
+  el.tensao = S("g", { class: "ae" }, svg);
+  S("polyline", { points: `${XA - 8},${Y1} ${XA - 8},${Y1 + 50} ${XB + 8},${Y1 + 50} ${XB + 8},${Y1}`, class: "fio" }, el.tensao);
+  S("rect", { x: (XA + XB) / 2 - 30, y: Y1 + 36, width: 60, height: 28, rx: 5, fill: "var(--paper)", stroke: "var(--ink)", "stroke-width": 1.5 }, el.tensao);
+  sLabel(el.tensao, (XA + XB) / 2, Y1 + 50, `U = ${P.U} V`, "", "t-b");
+  el["cota-d"] = S("g", { class: "ae" }, svg);
+  sArrow(el["cota-d"], "v-normal", 1.5).set(XA, Y0 - 30, XB, Y0 - 30); sArrow(el["cota-d"], "v-normal", 1.5).set(XB, Y0 - 30, XA, Y0 - 30);
+  sLabel(el["cota-d"], (XA + XB) / 2, Y0 - 46, `d = ${P.dTexto}`, "", "v-normal t-b");
+  el.campo = S("g", { class: "ae" }, svg);
+  for (let k = 0; k < 6; k++) { const y = Y0 + 25 + k * 42; sArrow(el.campo, "v-atrito", 2).set(XA + 10, y, XB - 10, y); }
+  sRich(el.campo, XB - 30, Y0 + 12, "E", "v-atrito t-b");
+  el.ion = S("g", { class: "ae" }, svg);
+  const ion = S("g", {}, el.ion);
+  S("circle", { r: 13, fill: "#f6c344", stroke: "var(--ink)", "stroke-width": 1.5 }, ion);
+  S("text", { "text-anchor": "middle", "dominant-baseline": "central", class: "t-b" }, ion).textContent = "+";
+  el.forca = S("g", { class: "ae" }, svg);
+  const aF = sArrow(el.forca, "v-peso", 3.5), lF = sRich(el.forca, 0, 0, "F = qE", "v-peso t-b");
+  const YI = Y0 + 25 + 2.5 * 42;
+  const pos = x => { ion.setAttribute("transform", `translate(${x},${YI})`); aF.set(x + 15, YI, x + 75, YI); lF.setAttribute("x", x + 46); lF.setAttribute("y", YI - 22); };
+  let stop = () => {};
+  pos(XA + 30);
+  return {
+    el,
+    update(est) {
+      stop(); stop = () => {};
+      if (est.mover) stop = loopRaf(s => { const k = Math.min((s % 4) / 3, 1); pos(XA + 30 + (XB - XA - 60) * k * k); });
+      else pos(XA + 30);
+    },
+    stop() { stop(); },
+  };
+};
+
+/* Indicador de combustível: boia e reostato, circuito com a bateria, lâmina bimetálica
+   aquecida pela corrente e ponteiro; ao lado, a lâmina fria e a quente. */
+CENAS["indicador-combustivel"] = (svg, P) => {
+  svg.setAttribute("viewBox", "0 0 640 430");
+  const el = {};
+  const TX = 30, TY = 130, TW = 170, TH = 170, RX0 = 40, RX1 = 190, RY = 96;
+  el.tanque = S("g", { class: "ae" }, svg);
+  S("rect", { x: TX, y: TY, width: TW, height: TH, rx: 6, fill: "var(--paper)", stroke: "var(--ink)", "stroke-width": 2 }, el.tanque);
+  const comb = S("rect", { x: TX + 2, width: TW - 4, fill: "#e8607a", opacity: .75 }, el.tanque);
+  const boia = S("circle", { r: 11, fill: "#f2c230", stroke: "var(--ink)" }, el.tanque);
+  const haste = S("line", { stroke: "#3a86c8", "stroke-width": 5, "stroke-linecap": "round" }, el.tanque);
+  const tNivel = sLabel(el.tanque, TX + TW / 2, TY + TH + 18, "", "", "t-mute");
+  el.reostato = S("g", { class: "ae" }, svg);
+  const zz = []; for (let k = 0; k <= 20; k++) zz.push([RX0 + (RX1 - RX0) * k / 20, RY + (k === 0 || k === 20 ? 0 : (k % 2 ? -8 : 8))]);
+  S("polyline", { points: zz.map(p => p.join(",")).join(" "), fill: "none", stroke: "var(--muted)", "stroke-width": 2 }, el.reostato);
+  const ativo = S("polyline", { fill: "none", stroke: "var(--danger)", "stroke-width": 3.5 }, el.reostato);
+  const cursor = S("polygon", { fill: "var(--ink)" }, el.reostato);
+  sLabel(el.reostato, RX0, RY - 22, "reostato", "", "t-mute", "start");
+  const tR = sLabel(el.reostato, RX0 + 110, RY - 36, "", "", "v-peso t-b", "middle");
+  // circuito: reostato -> lâmina -> bateria -> cursor
+  const LX = 450, LY0 = 70, LY1 = 260;
+  el.circuito = S("g", { class: "ae" }, svg);
+  const caminho = [[RX1, RY], [RX1 + 20, RY], [RX1 + 20, 40], [LX, 40], [LX, LY0]];
+  const volta = [[LX, LY1], [LX, 300], [600, 300], [600, 395], [470, 395]];
+  const volta2 = [[400, 395], [12, 395], [12, 60]];
+  [caminho, volta, volta2].forEach(c => S("polyline", { points: c.map(p => p.join(",")).join(" "), class: "fio" }, el.circuito));
+  const fioCursor = S("polyline", { class: "fio" }, el.circuito);
+  S("rect", { x: 400, y: 378, width: 70, height: 36, rx: 4, fill: "#2a2a2a" }, el.circuito); sLabel(el.circuito, 435, 364, "bateria", "", "t-mute", "middle");
+  // lâmina bimetálica (A à esquerda, B à direita) com bobina
+  el.lamina = S("g", { class: "ae" }, svg);
+  const lamA = S("path", { fill: "none", stroke: "#d64545", "stroke-width": 6 }, el.lamina), lamB = S("path", { fill: "none", stroke: "#3a7bd5", "stroke-width": 6 }, el.lamina);
+  for (let k = 0; k < 6; k++) S("ellipse", { cx: LX, cy: LY0 + 12 + k * 9, rx: 14, ry: 4, fill: "none", stroke: "#b5762a", "stroke-width": 2 }, el.lamina);
+  const lA = sLabel(el.lamina, 0, 0, "A", "", "t-b"), lB = sLabel(el.lamina, 0, 0, "B", "", "t-b");
+  sLabel(el.lamina, LX + 14, 24, "lâmina bimetálica", "", "t-mute", "start");
+  el.mostrador = S("g", { class: "ae" }, svg);
+  const MX = 315, MY = 200;
+  S("path", { d: `M${MX - 70},${MY} A70,70 0 0 1 ${MX + 70},${MY} Z`, fill: "var(--soft)", stroke: "var(--ink)", "stroke-width": 1.5 }, el.mostrador);
+  sLabel(el.mostrador, MX - 54, MY - 12, "V", "", "t-b"); sLabel(el.mostrador, MX + 54, MY - 12, "C", "", "t-b"); sLabel(el.mostrador, MX, MY + 16, "vazio  ·  cheio", "", "t-mute");
+  const pont = S("line", { x1: MX, y1: MY, stroke: "var(--danger)", "stroke-width": 3.5, "stroke-linecap": "round" }, el.mostrador);
+  const lig = S("line", { stroke: "var(--muted)", "stroke-width": 1.5, "stroke-dasharray": "3 3" }, el.mostrador);
+  el.corrente = S("g", { class: "ae" }, svg);
+  const tI = sLabel(el.corrente, 330, 340, "", "", "t-b", "middle");
+  const rota = [[RX1 + 20, RY], [RX1 + 20, 40], [LX, 40], [LX, 300], [600, 300], [600, 395], [12, 395], [12, 60]];
+  const segs = []; let Ltot = 0; for (let k = 1; k < rota.length; k++) { const d = Math.hypot(rota[k][0] - rota[k - 1][0], rota[k][1] - rota[k - 1][1]); segs.push([rota[k - 1], rota[k], Ltot, d]); Ltot += d; }
+  const dots = []; for (let s = 0; s < Ltot; s += 28) dots.push(S("circle", { r: 3.5, class: "dot" }, el.corrente));
+  // painel: lâmina fria x quente
+  el.zoom = S("g", { class: "ae" }, svg);
+  S("rect", { x: 490, y: 60, width: 140, height: 220, rx: 8, fill: "var(--paper)", stroke: "var(--line)" }, el.zoom);
+  sLabel(el.zoom, 525, 78, "fria", "", "t-mute"); sLabel(el.zoom, 595, 78, "quente", "", "t-mute");
+  S("line", { x1: 522, y1: 95, x2: 522, y2: 230, stroke: "#d64545", "stroke-width": 6 }, el.zoom); S("line", { x1: 529, y1: 95, x2: 529, y2: 230, stroke: "#3a7bd5", "stroke-width": 6 }, el.zoom);
+  S("path", { d: "M592,95 Q592,190 548,232", fill: "none", stroke: "#d64545", "stroke-width": 6 }, el.zoom); S("path", { d: "M599,95 Q599,195 553,238", fill: "none", stroke: "#3a7bd5", "stroke-width": 6 }, el.zoom);
+  sLabel(el.zoom, 514, 245, "A", "", "t-b"); sLabel(el.zoom, 537, 245, "B", "", "t-b");
+  sRich(el.zoom, 560, 262, "B fica do lado de fora:", "t-mute"); sRich(el.zoom, 560, 278, "α_{B} > α_{A}", "t-b");
+  const R0 = 1, Rr = n => 0.6 + 2.4 * (1 - n); // resistências (unidades arbitrárias)
+  function pos(n, ph) { // n: nível (1 cheio, 0 vazio)
+    const yN = TY + TH - (TH - 8) * n; comb.setAttribute("y", yN); comb.setAttribute("height", TY + TH - yN - 2);
+    const bx = TX + TW * 0.45, by = Math.min(TY + TH - 14, yN - 4); boia.setAttribute("cx", bx); boia.setAttribute("cy", by);
+    const xs = RX1 - 18 - (RX1 - RX0 - 30) * (1 - n);
+    haste.setAttribute("x1", bx); haste.setAttribute("y1", by); haste.setAttribute("x2", xs); haste.setAttribute("y2", RY + 12);
+    cursor.setAttribute("points", `${xs},${RY + 10} ${xs - 6},${RY + 22} ${xs + 6},${RY + 22}`);
+    ativo.setAttribute("points", zz.filter(p => p[0] >= xs).map(p => p.join(",")).join(" ") );
+    fioCursor.setAttribute("points", `${xs},${RY + 22} ${xs},${RY + 30} 12,${RY + 30}`);
+    tR.textContent = n > 0.7 ? "pequena porção" : n < 0.3 ? "grande porção" : "";
+    tNivel.textContent = n > 0.95 ? "tanque cheio" : n < 0.05 ? "tanque vazio" : "";
+    const I = 1 / (R0 + Rr(n)), Imax = 1 / (R0 + Rr(1)), q = I / Imax, curv = Math.max(0, (q - 0.4) / 0.6); // aquecimento ~ corrente
+    const tipX = LX - 46 * curv, tipY = LY1 - 8 * curv;
+    lamA.setAttribute("d", `M${LX - 3},${LY0} Q${LX - 3},${(LY0 + LY1) / 2 + 30} ${tipX - 3},${tipY}`); lamB.setAttribute("d", `M${LX + 3},${LY0} Q${LX + 3},${(LY0 + LY1) / 2 + 30} ${tipX + 3},${tipY + 4 * curv}`);
+    lA.setAttribute("x", tipX - 18); lA.setAttribute("y", tipY - 10); lB.setAttribute("x", tipX + 18); lB.setAttribute("y", tipY - 10);
+    const ang = Math.PI * (1 - curv) * 0.85 + Math.PI * 0.075; pont.setAttribute("x2", MX + 60 * Math.cos(ang)); pont.setAttribute("y2", MY - 60 * Math.sin(ang));
+    lig.setAttribute("x1", tipX); lig.setAttribute("y1", tipY); lig.setAttribute("x2", MX + 30); lig.setAttribute("y2", MY + 4);
+    tI.textContent = `corrente: ${Math.round(q * 100)}% da do tanque cheio`;
+    const off = (ph * 70 * q) % 28;
+    dots.forEach((d, k) => { const s = k * 28 + off; const sg = segs.find(g => s >= g[2] && s <= g[2] + g[3]) || segs[segs.length - 1]; const t = (s - sg[2]) / sg[3]; d.setAttribute("cx", sg[0][0] + (sg[1][0] - sg[0][0]) * t); d.setAttribute("cy", sg[0][1] + (sg[1][1] - sg[0][1]) * t); });
+  }
+  let stop = () => {};
+  pos(1, 0);
+  return {
+    el,
+    update(est) {
+      stop(); stop = () => {};
+      if (est.nivel === "esvaziar") stop = loopRaf(s => { const k = s % 9; pos(k < 1 ? 1 : k > 7 ? 0 : 1 - (k - 1) / 6, s); });
+      else { const n = typeof est.nivel === "number" ? est.nivel : 1; stop = loopRaf(s => pos(n, s)); }
+    },
+    stop() { stop(); },
   };
 };
 

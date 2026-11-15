@@ -5,7 +5,8 @@ o aluno, com os conceitos físicos explícitos. No app, aparece o botão **Resol
 ao lado de **Ver resolução** nas questões que têm roteiro.
 
 Piloto (v2.8.0): Unesp 2025 Q78 (plano inclinado), ENEM 2023 Q98 (circuito) e Unicamp 2017
-Q58 (gráfico v × t).
+Q58 (gráfico v × t). Desde a v2.9.0 o trabalho segue por vestibular, ano a ano, começando pela
+Unesp: 2026 completa (Q76–Q82).
 
 ## Como funciona
 
@@ -35,6 +36,13 @@ Cada passo tem:
 | `plano-inclinado` | `senTheta`, `cosTheta`, `mu`, `g` | `rampa`, `angulo`, `caixa`, `peso`, `normal`, `atrito`, `eixos`, `componentes`, `angulo-peso`, `aceleracao`, `balanco` | `movimento`: `repouso`/`acelerando` |
 | `circuito-conjuntos-serie` | `conjuntos` (até 3 nomes), `rSobreR` (r/R do exemplo numérico) | `circuito`, `conjuntos`, `corrente`, `equivalentes`, `brilho` | `queimada`: nome da lâmpada queimada |
 | `grafico-vt` | `pontos` [[t, v]...], `tMax`, `vMax`, `passoT`, `passoV`, `trechos` (2 intervalos de área), `paradas` | `eixos`, `curva`, `estrada`, `paradas`, `faixa`, `area-1`, `area-2`, `cotas-1`, `cotas-2` | `percorrer`: carro e área acumulando com o tempo |
+| `mhs-sombra` | `amplitude` (m), `periodo` (s), `t1`, `t2` | `pendulo`, `sombra`, `vetor-v`, `grafico`, `ponto-1`, `ponto-2`, `secante` | `t`: instante parado (sem `t`, oscila); `cursor`: linha do tempo no gráfico |
+| `rotacao-latitude` | `latitude` (graus) | `terra`, `eixo`, `equador`, `paralelo`, `latitude`, `morador`, `gravidade`, `centripeta`, `angulo`, `alternos` | `girar` |
+| `cadeia-energia` | `etapas` [{`rotulo`, `valor`, `operacao`}] (até 8; `^{}` e `_{}` nos textos), `altura` | `etapa-1`…`etapa-8`, `subida` | `subir` |
+| `espelho-convexo` | `f` (negativo), `d0`, `d1`, `t1` | `eixo`, `muro`, `espelho`, `foco`, `imagem`, `cotas` | `d` (distância fixa) ou `mover` (de `d0` a `d1` em `t1`) |
+| `espectro-fototropismo` | `azul` [λ mín, λ máx] em nm | `espectro`, `azul`, `setas`, `luz`, `planta`, `lados`, `auxina` | `curvar` |
+| `campo-uniforme` | `U` (V), `dTexto` | `placas`, `tensao`, `cota-d`, `campo`, `ion`, `forca` | `mover` |
+| `indicador-combustivel` | — | `tanque`, `reostato`, `circuito`, `corrente`, `lamina`, `mostrador`, `zoom` | `nivel`: 0 a 1 ou `esvaziar` |
 
 Os nomes aceitos ficam em `MODELOS` (`pipeline/animacoes.py`) e precisam bater com `CENAS`
 no app.

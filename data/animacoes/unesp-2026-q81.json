@@ -1,0 +1,57 @@
+{
+  "id": "unesp-2026-q81",
+  "titulo": "A força sobre um íon num campo uniforme",
+  "conceitos": [
+    "Campo elétrico uniforme",
+    "Diferença de potencial",
+    "Força elétrica"
+  ],
+  "cena": {
+    "modelo": "campo-uniforme",
+    "parametros": {
+      "U": 4,
+      "dTexto": "5 mm"
+    }
+  },
+  "passos": [
+    {
+      "titulo": "O campo entre os eletrodos",
+      "conceito": "Campo elétrico uniforme",
+      "texto": "A tensão de 4 V entre os eletrodos cria um campo elétrico uniforme: mesma intensidade e mesma direção em todo o meio. As linhas de campo vão do eletrodo positivo para o negativo. Antes de calcular, a distância vai para metros.",
+      "equacoes": [
+        "U = E \\cdot d \\quad \\Rightarrow \\quad E = \\dfrac{4}{5 \\times 10^{-3}} = 800\\ \\text{V/m}"
+      ],
+      "cena": {
+        "mostrar": [
+          "placas",
+          "tensao",
+          "cota-d",
+          "campo"
+        ]
+      }
+    },
+    {
+      "titulo": "A força em cada íon",
+      "conceito": "Força elétrica",
+      "texto": "Cada íon de lítio tem carga positiva, então a força tem o mesmo sentido do campo, e ele migra de um eletrodo ao outro. Como o campo é uniforme, a força é a mesma em qualquer ponto do caminho. Resposta: <b>(C) 1,28 × 10<sup>–16</sup> N</b>.",
+      "equacoes": [
+        "F = qE = 1,6 \\times 10^{-19} \\cdot 800 = 1,28 \\times 10^{-16}\\ \\text{N}"
+      ],
+      "cena": {
+        "mostrar": [
+          "ion",
+          "forca"
+        ],
+        "destacar": [
+          "forca"
+        ],
+        "estado": {
+          "mover": true
+        }
+      }
+    }
+  ],
+  "status": "revisado",
+  "criadoEm": "2026-11-14T22:00:00-03:00",
+  "atualizadoEm": "2026-11-14T22:00:00-03:00"
+}
