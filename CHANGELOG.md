@@ -4,6 +4,13 @@ Cada versão corresponde a um lote de importação ou a uma mudança no app/pipe
 Formato: `vMAIOR.MENOR.CORREÇÃO` — MENOR sobe a cada prova importada; MAIOR, em mudanças
 de modelo de dados; CORREÇÃO, em correções de questões já publicadas.
 
+## v2.13.1 — 2026-11-15
+
+- **Resoluções animadas ocultas no app** (decisão do Lucas, que quer seguir outro caminho no
+  futuro). O botão "Resolução animada" não aparece mais; o app mostra só a resolução textual.
+  Nada foi apagado: os 360 roteiros continuam em `data/animacoes/` e em `animacoes.json`, e o
+  player continua no código. Para reativar, basta `MOSTRAR_ANIMACOES = true` em `app/index.html`.
+
 ## v2.13.0 — 2026-11-15
 
 - **Resolução animada da Fuvest 2016 a 2027**: todas as 149 questões da Fuvest no banco.
