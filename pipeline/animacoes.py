@@ -132,11 +132,17 @@ def checar_aula(a: dict, q: dict) -> list[str]:
         if k not in ("id", "formato", "titulo", "conceitos", "cena", "abertura", "metodos", "status", "revisao", "criadoEm", "atualizadoEm"):
             e.append(f"campo não aceito: {k}")
     if a["status"] not in ("rascunho", "revisado", "publicado"): e.append(f"status inválido {a['status']}")
-    elementos, anims = set(), set()
+    elementos, anims, estados = set(), set(), {}
     if "cena" in a:
-        if a["cena"].get("modelo") != "diagrama": e.append("formato aula: a cena deve usar o modelo diagrama")
+        modelo = a["cena"].get("modelo")
         par = a["cena"].get("parametros", {})
-        e += checar_diagrama(par); elementos = set(par.get("elementos", {})); anims = set(par.get("animacoes", {}))
+        if modelo == "diagrama":
+            e += checar_diagrama(par); elementos = set(par.get("elementos", {})); anims = set(par.get("animacoes", {}))
+        elif modelo in MODELOS:  # modelo pronto do app (ex.: indicador-combustivel), com estado por tela
+            m = MODELOS[modelo]; elementos = set(m["elementos"]); estados = m["estado"]
+            for k in par:
+                if k not in m["parametros"]: e.append(f"parâmetro desconhecido no modelo: {k}")
+        else: e.append(f"modelo de cena desconhecido: {modelo}")
     def telas(lista, nome):
         for i, t in enumerate(lista, 1):
             onde = f"{nome}, tela {i}"
@@ -146,6 +152,11 @@ def checar_aula(a: dict, q: dict) -> list[str]:
                 if x not in elementos: e.append(f"{onde}: elemento desconhecido: {x}")
             for x in t.get("cena", {}).get("animar", []):
                 if x not in anims: e.append(f"{onde}: animação desconhecida: {x}")
+            for k in t.get("cena", {}):
+                if k not in ("mostrar", "animar", "estado"): e.append(f"{onde}: campo de cena não aceito: {k}")
+            for k, v in t.get("cena", {}).get("estado", {}).items():
+                if k not in estados: e.append(f"{onde}: estado desconhecido: {k}"); continue
+                if estados[k] is not None and v not in estados[k]: e.append(f"{onde}: valor inválido para {k}: {v}")
             if not t.get("blocos"): e.append(f"{onde}: sem blocos")
             ultima = None
             for j, b in enumerate(t.get("blocos", []), 1):

@@ -7,224 +7,8 @@
     "Dilatação térmica dos sólidos"
   ],
   "cena": {
-    "modelo": "diagrama",
-    "parametros": {
-      "elementos": {
-        "circuito": [
-          {
-            "t": "linha",
-            "pontos": [
-              [
-                80,
-                80
-              ],
-              [
-                520,
-                80
-              ],
-              [
-                520,
-                300
-              ],
-              [
-                80,
-                300
-              ],
-              [
-                80,
-                80
-              ]
-            ],
-            "cor": "tinta",
-            "larg": 2.5
-          },
-          {
-            "t": "ret",
-            "x": 60,
-            "y": 170,
-            "w": 40,
-            "h": 40,
-            "cor": "papel",
-            "borda": "tinta"
-          },
-          {
-            "t": "texto",
-            "x": 80,
-            "y": 195,
-            "txt": "U",
-            "negrito": true
-          },
-          {
-            "t": "linha",
-            "pontos": [
-              [
-                200,
-                80
-              ],
-              [
-                211.2,
-                88.0
-              ],
-              [
-                222.5,
-                72.0
-              ],
-              [
-                233.8,
-                88.0
-              ],
-              [
-                245.0,
-                72.0
-              ],
-              [
-                256.2,
-                88.0
-              ],
-              [
-                267.5,
-                72.0
-              ],
-              [
-                278.8,
-                88.0
-              ],
-              [
-                290.0,
-                72.0
-              ],
-              [
-                301.2,
-                88.0
-              ],
-              [
-                312.5,
-                72.0
-              ],
-              [
-                323.8,
-                88.0
-              ],
-              [
-                335.0,
-                72.0
-              ],
-              [
-                346.2,
-                88.0
-              ],
-              [
-                357.5,
-                72.0
-              ],
-              [
-                368.8,
-                88.0
-              ],
-              [
-                380,
-                80
-              ]
-            ],
-            "cor": "tinta",
-            "larg": 2.5
-          },
-          {
-            "t": "texto",
-            "x": 290,
-            "y": 54,
-            "txt": "reostato",
-            "mudo": true
-          }
-        ],
-        "cheio": [
-          {
-            "t": "seta",
-            "de": [
-              230,
-              180
-            ],
-            "para": [
-              230,
-              92
-            ],
-            "cor": "normal",
-            "larg": 3
-          },
-          {
-            "t": "texto",
-            "x": 222,
-            "y": 200,
-            "txt": "tanque cheio: pouco resistor",
-            "negrito": true,
-            "cor": "normal",
-            "ancora": "end"
-          }
-        ],
-        "vazio": [
-          {
-            "t": "seta",
-            "de": [
-              360,
-              180
-            ],
-            "para": [
-              360,
-              92
-            ],
-            "cor": "perigo",
-            "larg": 3
-          },
-          {
-            "t": "texto",
-            "x": 368,
-            "y": 200,
-            "txt": "esvaziando: mais resistor",
-            "negrito": true,
-            "cor": "perigo",
-            "ancora": "start"
-          }
-        ],
-        "bimetal": [
-          {
-            "t": "caminho",
-            "d": "M470,300 Q470,220 420,170",
-            "cor": "#d32f2f",
-            "larg": 9
-          },
-          {
-            "t": "caminho",
-            "d": "M482,300 Q482,214 428,162",
-            "cor": "#1e63d6",
-            "larg": 9
-          },
-          {
-            "t": "texto",
-            "x": 410,
-            "y": 240,
-            "txt": "A",
-            "negrito": true,
-            "cor": "perigo"
-          },
-          {
-            "t": "texto",
-            "x": 500,
-            "y": 230,
-            "txt": "B",
-            "negrito": true,
-            "cor": "normal"
-          },
-          {
-            "t": "rotulo",
-            "x": 300,
-            "y": 360,
-            "txt": "aquecida, curva para o lado de A: B dilata mais",
-            "cor": "var(--danger)"
-          }
-        ]
-      },
-      "altura": 400
-    }
+    "modelo": "indicador-combustivel",
+    "parametros": {}
   },
   "metodos": [
     {
@@ -234,10 +18,16 @@
           "titulo": "1ª lacuna: a corrente",
           "cena": {
             "mostrar": [
+              "tanque",
+              "reostato",
               "circuito",
-              "cheio",
-              "vazio"
-            ]
+              "lamina",
+              "mostrador",
+              "corrente"
+            ],
+            "estado": {
+              "nivel": "esvaziar"
+            }
           },
           "blocos": [
             {
@@ -262,8 +52,17 @@
           "titulo": "2ª lacuna: os metais",
           "cena": {
             "mostrar": [
-              "bimetal"
-            ]
+              "tanque",
+              "reostato",
+              "circuito",
+              "lamina",
+              "mostrador",
+              "corrente",
+              "zoom"
+            ],
+            "estado": {
+              "nivel": 1
+            }
           },
           "blocos": [
             {

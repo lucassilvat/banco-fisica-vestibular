@@ -2003,7 +2003,7 @@ function openAula(q, rot) {
     const vis = new Set(((t.cena || {}).mostrar) || []);
     const temCena = cena && vis.size > 0;
     corpo.classList.toggle("sem-cena", !temCena);
-    if (cena) { Object.entries(cena.el).forEach(([id, n]) => { n.classList.toggle("on", vis.has(id)); n.classList.remove("entra"); if (vis.has(id) && animar) { void n.getBoundingClientRect(); n.classList.add("entra"); } }); cena.update({ animar: ((t.cena || {}).animar) || [] }); }
+    if (cena) { Object.entries(cena.el).forEach(([id, n]) => { n.classList.toggle("on", vis.has(id)); n.classList.remove("entra"); if (vis.has(id) && animar) { void n.getBoundingClientRect(); n.classList.add("entra"); } }); cena.update({ ...(((t.cena || {}).estado) || {}), animar: ((t.cena || {}).animar) || [] }); }
     if (t.titulo) lousa.append(el("h3", { class: "aula-tit", text: t.titulo }));
     let ultimaEq = null; const blocos = t.blocos || [];
     if (!animar) { blocos.forEach(b => { const d = bloco(b, ultimaEq, false); if (d) ultimaEq = d; }); }

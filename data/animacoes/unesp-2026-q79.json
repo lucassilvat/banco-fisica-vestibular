@@ -47,21 +47,36 @@
           },
           {
             "t": "ret",
-            "x": 270,
-            "y": 100,
-            "w": 100,
-            "h": 10,
+            "x": 302,
+            "y": 66,
+            "w": 36,
+            "h": 6,
             "cor": "#d9775b",
             "borda": "tinta",
-            "opac": 0.7
+            "opac": 0.8
           },
           {
             "t": "texto",
-            "x": 380,
-            "y": 110,
-            "txt": "imagem (8/11 m)",
+            "x": 250,
+            "y": 56,
+            "txt": "imagem virtual (8/11 m atrás)",
             "mudo": true,
-            "ancora": "start"
+            "ancora": "end"
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                254,
+                52
+              ],
+              [
+                300,
+                66
+              ]
+            ],
+            "cor": "mudo",
+            "larg": 1
           },
           {
             "t": "cota",
@@ -100,21 +115,36 @@
           },
           {
             "t": "ret",
-            "x": 270,
-            "y": 218,
-            "w": 100,
-            "h": 10,
+            "x": 293,
+            "y": 194,
+            "w": 54,
+            "h": 8,
             "cor": "#d9775b",
             "borda": "tinta",
-            "opac": 0.7
+            "opac": 0.8
           },
           {
             "t": "texto",
-            "x": 380,
-            "y": 228,
-            "txt": "imagem (20/29 m)",
+            "x": 250,
+            "y": 176,
+            "txt": "imagem virtual (20/29 m atrás)",
             "mudo": true,
-            "ancora": "start"
+            "ancora": "end"
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                254,
+                172
+              ],
+              [
+                291,
+                194
+              ]
+            ],
+            "cor": "mudo",
+            "larg": 1
           },
           {
             "t": "cota",

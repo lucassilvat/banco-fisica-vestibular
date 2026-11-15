@@ -17,6 +17,10 @@ de modelo de dados; CORREÇÃO, em correções de questões já publicadas.
 - **Unesp 2026 refeita nesse formato** (Q76 a Q82), com preferência por cancelamentos em vez de
   contas intermediárias; a Q81 tem dois métodos (campo elétrico e trabalho). Simulações: sombra
   do pêndulo (Q76), espelho se aproximando do muro (Q79), íon migrando entre os eletrodos (Q81).
+- Revisão do Lucas: na Q79 as imagens do muro passaram para trás do espelho (região virtual),
+  reduzidas; na Q82 voltou o desenho animado do indicador (modelo `indicador-combustivel`), em que
+  só a porção ativa do reostato entra no circuito. O formato aula agora aceita, além do
+  `diagrama`, os modelos prontos do app, com `estado` por tela.
 - `pipeline animacoes verificar` confere o formato aula (tipos de bloco, marcas usadas em
   `cancelar`/`mover`, gabarito ao fim de cada método); `\marca` entrou no subconjunto de LaTeX.
 

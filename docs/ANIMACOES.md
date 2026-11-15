@@ -35,6 +35,10 @@ A resolução é dada como um professor faria na lousa:
 - **Cena** (modelo `diagrama`) só quando agrega: simulação se ajuda a entender o fenômeno,
   desenho estático se basta, nenhuma se o texto resolve. Cada tela diz o que mostrar
   (`cena.mostrar`) e quais animações rodam (`cena.animar`).
+  Também vale um **modelo pronto** do app (ex.: `indicador-combustivel`, Unesp 2026 Q82); aí a
+  tela usa `cena.estado` com os estados do modelo (em `MODELOS`, `pipeline/animacoes.py`).
+- **Imagens em espelhos e lentes**: desenhar imagem virtual do lado virtual (atrás do espelho),
+  com o tamanho dado pelo aumento (revisão do Lucas na Unesp 2026 Q79).
 - Cada método termina com o gabarito e "Fim da resolução.".
 - Exemplo completo: `data/animacoes/unesp-2026-q81.json` (dois métodos, cancelamento e mover).
 
