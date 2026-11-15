@@ -1,0 +1,290 @@
+{
+  "id": "unesp-2024-q78",
+  "titulo": "O ar do copo é comprimido pela água",
+  "conceitos": [
+    "Pressão atmosférica",
+    "Teorema de Stevin",
+    "Transformação isotérmica"
+  ],
+  "cena": {
+    "modelo": "diagrama",
+    "parametros": {
+      "elementos": {
+        "piscina": [
+          {
+            "t": "ret",
+            "x": 40,
+            "y": 110,
+            "w": 560,
+            "h": 300,
+            "cor": "#bfe6f7",
+            "borda": null
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                20,
+                110
+              ],
+              [
+                620,
+                110
+              ]
+            ],
+            "cor": "normal",
+            "larg": 2
+          },
+          {
+            "t": "texto",
+            "x": 560,
+            "y": 98,
+            "txt": "superfície",
+            "mudo": true,
+            "ancora": "end"
+          }
+        ],
+        "copo-1": [
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                150.0,
+                50
+              ],
+              [
+                190.0,
+                50
+              ],
+              [
+                196.0,
+                110
+              ],
+              [
+                144.0,
+                110
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 0.5,
+            "fechada": true,
+            "preench": "#ffffff"
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                150.0,
+                50
+              ],
+              [
+                190.0,
+                50
+              ],
+              [
+                196.0,
+                110
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 2.5
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                150.0,
+                50
+              ],
+              [
+                144.0,
+                110
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 2.5
+          },
+          {
+            "t": "texto",
+            "x": 215,
+            "y": 76,
+            "txt": "V_{1}",
+            "negrito": true,
+            "ancora": "start"
+          }
+        ],
+        "copo-2": [
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                150.0,
+                287.0
+              ],
+              [
+                190.0,
+                287.0
+              ],
+              [
+                194.8,
+                335.0
+              ],
+              [
+                145.2,
+                335.0
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 0.5,
+            "fechada": true,
+            "preench": "#ffffff"
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                150.0,
+                287.0
+              ],
+              [
+                190.0,
+                287.0
+              ],
+              [
+                196.0,
+                347.0
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 2.5
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                150.0,
+                287.0
+              ],
+              [
+                144.0,
+                347.0
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 2.5
+          },
+          {
+            "t": "texto",
+            "x": 215,
+            "y": 309.0,
+            "txt": "V_{2}",
+            "negrito": true,
+            "ancora": "start"
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                140,
+                335.0
+              ],
+              [
+                420,
+                335.0
+              ]
+            ],
+            "cor": "mudo",
+            "larg": 1,
+            "tracejado": true
+          }
+        ],
+        "cota": [
+          {
+            "t": "cota",
+            "de": [
+              400,
+              110
+            ],
+            "para": [
+              400,
+              335.0
+            ],
+            "cor": "normal",
+            "rot_em": [
+              410,
+              222.5
+            ],
+            "ancora": "start",
+            "txt": "h = 2,5 m"
+          }
+        ],
+        "pressoes": [
+          {
+            "t": "texto",
+            "x": 260,
+            "y": 76,
+            "txt": "p_{1} = p_{atm} = 10^{5} Pa",
+            "ancora": "start",
+            "negrito": true
+          },
+          {
+            "t": "texto",
+            "x": 230,
+            "y": 369.0,
+            "txt": "p_{2} = p_{atm} + dgh",
+            "ancora": "start",
+            "negrito": true,
+            "cor": "peso"
+          }
+        ]
+      }
+    }
+  },
+  "passos": [
+    {
+      "titulo": "Na superfície",
+      "conceito": "Pressão atmosférica",
+      "texto": "Com a boca do copo na superfície, o ar preso está à pressão atmosférica.",
+      "equacoes": [
+        "p_{1} = 10^{5}\\ \\text{Pa}"
+      ],
+      "cena": {
+        "mostrar": [
+          "piscina",
+          "copo-1"
+        ]
+      }
+    },
+    {
+      "titulo": "A 2,5 m de profundidade",
+      "conceito": "Teorema de Stevin",
+      "texto": "No fundo, a água sobe um pouco dentro do copo e comprime o ar. A superfície da água dentro do copo está 2,5 m abaixo da superfície livre, e a pressão do ar é a pressão da água nesse nível.",
+      "equacoes": [
+        "p_{2} = p_{\\text{atm}} + dgh = 10^{5} + 10^{3} \\cdot 10 \\cdot 2,5 = 1,25 \\times 10^{5}\\ \\text{Pa}"
+      ],
+      "cena": {
+        "mostrar": [
+          "copo-2",
+          "cota",
+          "pressoes"
+        ]
+      }
+    },
+    {
+      "titulo": "A razão entre os volumes",
+      "conceito": "Transformação isotérmica",
+      "texto": "Temperatura constante: a pressão e o volume do ar são inversamente proporcionais (lei de Boyle). Resposta: <b>(B) 0,80</b>.",
+      "equacoes": [
+        "p_{1}\\mathrm{V}_1 = p_{2}\\mathrm{V}_2 \\quad \\Rightarrow \\quad \\dfrac{\\mathrm{V}_2}{\\mathrm{V}_1} = \\dfrac{p_{1}}{p_{2}} = \\dfrac{1}{1,25} = 0,80"
+      ],
+      "cena": {
+        "destacar": [
+          "copo-2"
+        ]
+      }
+    }
+  ],
+  "status": "revisado",
+  "criadoEm": "2026-11-15T09:00:00-03:00",
+  "atualizadoEm": "2026-11-15T09:00:00-03:00"
+}

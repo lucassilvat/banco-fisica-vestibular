@@ -1,0 +1,267 @@
+{
+  "id": "unesp-2017-q77",
+  "titulo": "Pêndulo cônico: a tração dá peso e curva",
+  "conceitos": [
+    "Resultante centrípeta",
+    "Decomposição vetorial"
+  ],
+  "cena": {
+    "modelo": "diagrama",
+    "parametros": {
+      "elementos": {
+        "cena": [
+          {
+            "t": "circ",
+            "x": 320,
+            "y": 60,
+            "r": 5,
+            "cor": "tinta",
+            "borda": "tinta"
+          },
+          {
+            "t": "texto",
+            "x": 310,
+            "y": 60,
+            "txt": "O (na parede)",
+            "negrito": true,
+            "ancora": "end"
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                320,
+                60
+              ],
+              [
+                320,
+                280
+              ]
+            ],
+            "cor": "mudo",
+            "larg": 1.5,
+            "tracejado": true
+          },
+          {
+            "t": "circ",
+            "x": 320,
+            "y": 280,
+            "r": 4,
+            "cor": "tinta",
+            "borda": "tinta"
+          },
+          {
+            "t": "texto",
+            "x": 310,
+            "y": 284,
+            "txt": "C",
+            "negrito": true,
+            "ancora": "end"
+          },
+          {
+            "t": "caminho",
+            "d": "M155,280 a165,26 0 1,0 330,0 a165,26 0 1,0 -330,0",
+            "cor": "mudo",
+            "larg": 1.5,
+            "tracejado": true
+          },
+          {
+            "t": "texto",
+            "x": 140,
+            "y": 280,
+            "txt": "João",
+            "negrito": true,
+            "ancora": "end"
+          },
+          {
+            "t": "texto",
+            "x": 500,
+            "y": 304,
+            "txt": "José",
+            "negrito": true,
+            "ancora": "start"
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                320,
+                60
+              ],
+              [
+                485,
+                280
+              ]
+            ],
+            "cor": "#3a86c8",
+            "larg": 2.5
+          },
+          {
+            "t": "circ",
+            "x": 485,
+            "y": 280,
+            "r": 10,
+            "cor": "perigo",
+            "borda": "tinta"
+          },
+          {
+            "t": "angulo",
+            "centro": [
+              320,
+              60
+            ],
+            "de": 90,
+            "ate": 53.13010235415598,
+            "r": 44,
+            "cor": "acel",
+            "dist": 16,
+            "rotulo": "θ"
+          },
+          {
+            "t": "cota",
+            "de": [
+              320,
+              330
+            ],
+            "para": [
+              485,
+              330
+            ],
+            "cor": "normal",
+            "rot_em": [
+              402.5,
+              348
+            ],
+            "txt": "R = 7,5 m"
+          }
+        ],
+        "forcas": [
+          {
+            "t": "seta",
+            "de": [
+              485,
+              280
+            ],
+            "para": [
+              485,
+              368
+            ],
+            "cor": "peso",
+            "larg": 3,
+            "rot_em": [
+              497,
+              360
+            ],
+            "ancora": "start",
+            "rotulo": "P"
+          },
+          {
+            "t": "seta",
+            "de": [
+              485,
+              280
+            ],
+            "para": [
+              419.0,
+              192.0
+            ],
+            "cor": "normal",
+            "larg": 3,
+            "rot_em": [
+              436.0,
+              230.0
+            ],
+            "ancora": "end",
+            "rotulo": "T"
+          }
+        ],
+        "componentes": [
+          {
+            "t": "seta",
+            "de": [
+              485,
+              280
+            ],
+            "para": [
+              485,
+              192
+            ],
+            "cor": "normal",
+            "larg": 2.5,
+            "tracejado": true,
+            "rot_em": [
+              497,
+              200
+            ],
+            "ancora": "start",
+            "rotulo": "T",
+            "sub": "y"
+          },
+          {
+            "t": "seta",
+            "de": [
+              485,
+              280
+            ],
+            "para": [
+              419,
+              280
+            ],
+            "cor": "acel",
+            "larg": 2.5,
+            "tracejado": true,
+            "rot_em": [
+              415,
+              284
+            ],
+            "ancora": "end",
+            "rotulo": "T",
+            "sub": "x"
+          }
+        ]
+      }
+    }
+  },
+  "passos": [
+    {
+      "titulo": "A trajetória",
+      "conceito": "Resultante centrípeta",
+      "texto": "O objeto percorre, num plano horizontal, uma circunferência de centro C e raio 15/2 = 7,5 m, com a corda inclinada de θ em relação à vertical OC.",
+      "cena": {
+        "mostrar": [
+          "cena"
+        ]
+      }
+    },
+    {
+      "titulo": "As forças",
+      "conceito": "Decomposição vetorial",
+      "texto": "Agem o peso \\(\\vec{P}\\) e a tração \\(\\vec{T}\\). A componente vertical da tração equilibra o peso; a horizontal, que aponta para C, é a resultante centrípeta.",
+      "equacoes": [
+        "T\\cos\\theta = mg, \\quad T\\,\\sen\\theta = m\\omega^{2}R"
+      ],
+      "cena": {
+        "mostrar": [
+          "forcas",
+          "componentes"
+        ]
+      }
+    },
+    {
+      "titulo": "A velocidade angular",
+      "conceito": "Resultante centrípeta",
+      "texto": "Dividindo uma equação pela outra, a tração e a massa desaparecem. Resposta: <b>(A) 1,0 rad/s</b>.",
+      "equacoes": [
+        "\\tg\\theta = \\dfrac{\\omega^{2}R}{g} \\quad \\Rightarrow \\quad \\omega^{2} = \\dfrac{10 \\cdot 0,75}{7,5} = 1 \\quad \\Rightarrow \\quad \\omega = 1,0\\ \\text{rad/s}"
+      ],
+      "cena": {
+        "destacar": [
+          "componentes"
+        ]
+      }
+    }
+  ],
+  "status": "revisado",
+  "criadoEm": "2026-11-15T09:00:00-03:00",
+  "atualizadoEm": "2026-11-15T09:00:00-03:00"
+}

@@ -1,0 +1,208 @@
+{
+  "id": "unesp-2016-q81",
+  "titulo": "Três espelhos, três imagens direitas",
+  "conceitos": [
+    "Espelhos esféricos",
+    "Espelhos planos"
+  ],
+  "cena": {
+    "modelo": "diagrama",
+    "parametros": {
+      "elementos": {
+        "tabela": [
+          {
+            "t": "texto",
+            "x": 110,
+            "y": 50,
+            "txt": "imagem",
+            "negrito": true
+          },
+          {
+            "t": "texto",
+            "x": 300,
+            "y": 50,
+            "txt": "tamanho",
+            "negrito": true
+          },
+          {
+            "t": "texto",
+            "x": 500,
+            "y": 50,
+            "txt": "espelho",
+            "negrito": true
+          },
+          {
+            "t": "ret",
+            "x": 50,
+            "y": 76,
+            "w": 560,
+            "h": 64,
+            "cor": "papel",
+            "borda": "linha"
+          },
+          {
+            "t": "circ",
+            "x": 110,
+            "y": 108,
+            "r": 10,
+            "cor": "#f2d3a8",
+            "borda": "tinta"
+          },
+          {
+            "t": "texto",
+            "x": 150,
+            "y": 108,
+            "txt": "A",
+            "negrito": true
+          },
+          {
+            "t": "texto",
+            "x": 300,
+            "y": 108,
+            "txt": "menor"
+          },
+          {
+            "t": "texto",
+            "x": 500,
+            "y": 108,
+            "txt": "convexo",
+            "negrito": true
+          },
+          {
+            "t": "ret",
+            "x": 50,
+            "y": 152,
+            "w": 560,
+            "h": 64,
+            "cor": "papel",
+            "borda": "linha"
+          },
+          {
+            "t": "circ",
+            "x": 110,
+            "y": 184,
+            "r": 18,
+            "cor": "#f2d3a8",
+            "borda": "tinta"
+          },
+          {
+            "t": "texto",
+            "x": 150,
+            "y": 184,
+            "txt": "B",
+            "negrito": true
+          },
+          {
+            "t": "texto",
+            "x": 300,
+            "y": 184,
+            "txt": "do mesmo tamanho"
+          },
+          {
+            "t": "texto",
+            "x": 500,
+            "y": 184,
+            "txt": "plano",
+            "negrito": true
+          },
+          {
+            "t": "ret",
+            "x": 50,
+            "y": 228,
+            "w": 560,
+            "h": 64,
+            "cor": "papel",
+            "borda": "linha"
+          },
+          {
+            "t": "circ",
+            "x": 110,
+            "y": 260,
+            "r": 26,
+            "cor": "#f2d3a8",
+            "borda": "tinta"
+          },
+          {
+            "t": "texto",
+            "x": 150,
+            "y": 260,
+            "txt": "C",
+            "negrito": true
+          },
+          {
+            "t": "texto",
+            "x": 300,
+            "y": 260,
+            "txt": "maior"
+          },
+          {
+            "t": "texto",
+            "x": 500,
+            "y": 260,
+            "txt": "côncavo",
+            "negrito": true
+          }
+        ],
+        "virtual": [
+          {
+            "t": "rotulo",
+            "x": 330,
+            "y": 330,
+            "txt": "todas direitas ⇒ todas virtuais",
+            "cor": "var(--accent)"
+          }
+        ],
+        "destaque": [
+          {
+            "t": "ret",
+            "x": 50,
+            "y": 228,
+            "w": 560,
+            "h": 64,
+            "cor": null,
+            "borda": "perigo",
+            "larg": 3
+          }
+        ]
+      }
+    }
+  },
+  "passos": [
+    {
+      "titulo": "Natureza das imagens",
+      "conceito": "Espelhos esféricos",
+      "texto": "As três imagens são direitas. Para objeto real, imagem direita em espelho é sempre virtual: isso elimina A e B.",
+      "cena": {
+        "mostrar": [
+          "virtual"
+        ]
+      }
+    },
+    {
+      "titulo": "Tamanho e espelho",
+      "conceito": "Espelhos esféricos",
+      "texto": "Menor e direita: convexo. Mesmo tamanho: plano. Maior e direita: côncavo, com o rosto entre o foco e o vértice.",
+      "cena": {
+        "mostrar": [
+          "tabela"
+        ]
+      }
+    },
+    {
+      "titulo": "A associação correta",
+      "conceito": "Espelhos planos",
+      "texto": "C é o côncavo, e a imagem é virtual. Resposta: <b>(C)</b>.",
+      "cena": {
+        "mostrar": [
+          "destaque"
+        ],
+        "destacar": [
+          "destaque"
+        ]
+      }
+    }
+  ],
+  "status": "revisado",
+  "criadoEm": "2026-11-15T09:00:00-03:00",
+  "atualizadoEm": "2026-11-15T09:00:00-03:00"
+}

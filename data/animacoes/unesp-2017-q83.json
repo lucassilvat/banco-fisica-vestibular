@@ -1,0 +1,322 @@
+{
+  "id": "unesp-2017-q83",
+  "titulo": "O sentido de giro do motor de espira",
+  "conceitos": [
+    "Força magnética sobre condutor retilíneo",
+    "Geradores e motores elétricos"
+  ],
+  "cena": {
+    "modelo": "diagrama",
+    "parametros": {
+      "elementos": {
+        "ima": [
+          {
+            "t": "ret",
+            "x": 190,
+            "y": 300,
+            "w": 260,
+            "h": 50,
+            "cor": "#9aa6d8",
+            "borda": "tinta",
+            "rx": 6
+          },
+          {
+            "t": "texto",
+            "x": 320,
+            "y": 370,
+            "txt": "ímã — face de cima: X = norte",
+            "negrito": true
+          },
+          {
+            "t": "seta",
+            "de": [
+              230,
+              296
+            ],
+            "para": [
+              230,
+              236
+            ],
+            "cor": "atrito",
+            "larg": 2.5
+          },
+          {
+            "t": "seta",
+            "de": [
+              320,
+              296
+            ],
+            "para": [
+              320,
+              236
+            ],
+            "cor": "atrito",
+            "larg": 2.5
+          },
+          {
+            "t": "seta",
+            "de": [
+              410,
+              296
+            ],
+            "para": [
+              410,
+              236
+            ],
+            "cor": "atrito",
+            "larg": 2.5
+          },
+          {
+            "t": "texto",
+            "x": 470,
+            "y": 250,
+            "txt": "B (para cima)",
+            "negrito": true,
+            "cor": "atrito",
+            "ancora": "start"
+          }
+        ],
+        "espira": [
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                200,
+                200
+              ],
+              [
+                440,
+                200
+              ]
+            ],
+            "cor": "#c9944a",
+            "larg": 6
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                200,
+                200
+              ],
+              [
+                200,
+                80
+              ]
+            ],
+            "cor": "#c9944a",
+            "larg": 4,
+            "opac": 0.5
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                440,
+                200
+              ],
+              [
+                440,
+                80
+              ]
+            ],
+            "cor": "#c9944a",
+            "larg": 4,
+            "opac": 0.5
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                200,
+                80
+              ],
+              [
+                440,
+                80
+              ]
+            ],
+            "cor": "#c9944a",
+            "larg": 4,
+            "opac": 0.5
+          },
+          {
+            "t": "texto",
+            "x": 320,
+            "y": 66,
+            "txt": "espira (lado de baixo junto ao ímã)",
+            "mudo": true
+          },
+          {
+            "t": "texto",
+            "x": 60,
+            "y": 200,
+            "txt": "A (−)",
+            "negrito": true,
+            "ancora": "start"
+          },
+          {
+            "t": "texto",
+            "x": 580,
+            "y": 200,
+            "txt": "B (+)",
+            "negrito": true,
+            "ancora": "end"
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                110,
+                200
+              ],
+              [
+                200,
+                200
+              ]
+            ],
+            "cor": "mudo",
+            "larg": 2
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                440,
+                200
+              ],
+              [
+                530,
+                200
+              ]
+            ],
+            "cor": "mudo",
+            "larg": 2
+          }
+        ],
+        "corrente": [
+          {
+            "t": "seta",
+            "de": [
+              400,
+              186
+            ],
+            "para": [
+              260,
+              186
+            ],
+            "cor": "perigo",
+            "larg": 3,
+            "vetor": false,
+            "rot_em": [
+              330,
+              172
+            ],
+            "ancora": "middle",
+            "rotulo": "i"
+          }
+        ],
+        "forca": [
+          {
+            "t": "circ",
+            "x": 320,
+            "y": 200,
+            "r": 14,
+            "cor": "papel",
+            "borda": "peso",
+            "larg": 3
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                310,
+                190
+              ],
+              [
+                330,
+                210
+              ]
+            ],
+            "cor": "peso",
+            "larg": 3
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                330,
+                190
+              ],
+              [
+                310,
+                210
+              ]
+            ],
+            "cor": "peso",
+            "larg": 3
+          },
+          {
+            "t": "rotulo",
+            "x": 320,
+            "y": 140,
+            "txt": "F = i L × B: para o fundo",
+            "cor": "var(--mark)"
+          }
+        ],
+        "giro": [
+          {
+            "t": "rotulo",
+            "x": 320,
+            "y": 30,
+            "txt": "giro: horário (visto pelo observador da figura)",
+            "cor": "var(--anim-acel)"
+          }
+        ]
+      }
+    }
+  },
+  "passos": [
+    {
+      "titulo": "Por que gira sempre no mesmo sentido",
+      "conceito": "Geradores e motores elétricos",
+      "texto": "Com uma extremidade raspada só pela metade, a corrente circula apenas durante meia volta, quando o lado de baixo da espira passa junto ao ímã. Assim a força magnética empurra a espira sempre no mesmo sentido de rotação.",
+      "cena": {
+        "mostrar": [
+          "ima",
+          "espira"
+        ]
+      }
+    },
+    {
+      "titulo": "A força no lado de baixo",
+      "conceito": "Força magnética sobre condutor retilíneo",
+      "texto": "Com B positivo e A negativo, a corrente percorre o lado de baixo de B para A. Com X norte, o campo junto ao ímã aponta para cima. Pela regra da mão direita, esse lado é empurrado para o fundo da figura.",
+      "cena": {
+        "mostrar": [
+          "corrente",
+          "forca"
+        ],
+        "destacar": [
+          "forca"
+        ]
+      }
+    },
+    {
+      "titulo": "O sentido de giro",
+      "conceito": "Geradores e motores elétricos",
+      "texto": "Empurrado assim a cada volta, o conjunto gira, visto pelo observador da figura, no sentido horário. Inverter só a pilha ou só o ímã inverteria o giro. Resposta: <b>(E) negativo – positivo – norte – horário</b>.",
+      "cena": {
+        "mostrar": [
+          "giro"
+        ],
+        "destacar": [
+          "giro"
+        ]
+      }
+    }
+  ],
+  "status": "revisado",
+  "criadoEm": "2026-11-15T09:00:00-03:00",
+  "atualizadoEm": "2026-11-15T09:00:00-03:00"
+}

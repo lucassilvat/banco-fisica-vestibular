@@ -1,0 +1,241 @@
+{
+  "id": "unesp-2019-q81",
+  "titulo": "A refração rasante e o ângulo limite",
+  "conceitos": [
+    "Lei de Snell-Descartes",
+    "Reflexão total"
+  ],
+  "cena": {
+    "modelo": "diagrama",
+    "parametros": {
+      "elementos": {
+        "camadas": [
+          {
+            "t": "ret",
+            "x": 40,
+            "y": 60,
+            "w": 560,
+            "h": 100,
+            "cor": "#f5f9fd",
+            "borda": null
+          },
+          {
+            "t": "ret",
+            "x": 40,
+            "y": 160,
+            "w": 560,
+            "h": 100,
+            "cor": "#fdf3e6",
+            "borda": null
+          },
+          {
+            "t": "ret",
+            "x": 40,
+            "y": 260,
+            "w": 560,
+            "h": 100,
+            "cor": "#fde3cf",
+            "borda": null
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                40,
+                160
+              ],
+              [
+                600,
+                160
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 1.5
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                40,
+                260
+              ],
+              [
+                600,
+                260
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 1.5
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                40,
+                360
+              ],
+              [
+                600,
+                360
+              ]
+            ],
+            "cor": "#b5764a",
+            "larg": 4
+          },
+          {
+            "t": "texto",
+            "x": 60,
+            "y": 110,
+            "txt": "A",
+            "negrito": true,
+            "tam": 18
+          },
+          {
+            "t": "texto",
+            "x": 60,
+            "y": 210,
+            "txt": "B",
+            "negrito": true,
+            "tam": 18
+          },
+          {
+            "t": "texto",
+            "x": 60,
+            "y": 310,
+            "txt": "C",
+            "negrito": true,
+            "tam": 18
+          },
+          {
+            "t": "texto",
+            "x": 590,
+            "y": 380,
+            "txt": "areia (mais quente)",
+            "mudo": true,
+            "ancora": "end"
+          }
+        ],
+        "raio": [
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                120,
+                60
+              ],
+              [
+                180,
+                160
+              ]
+            ],
+            "cor": "#d6337f",
+            "larg": 3
+          },
+          {
+            "t": "seta",
+            "de": [
+              180,
+              160
+            ],
+            "para": [
+              470,
+              260
+            ],
+            "cor": "#d6337f",
+            "larg": 3
+          },
+          {
+            "t": "seta",
+            "de": [
+              470,
+              260
+            ],
+            "para": [
+              600,
+              260
+            ],
+            "cor": "#d6337f",
+            "larg": 3
+          }
+        ],
+        "normal": [
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                470,
+                200
+              ],
+              [
+                470,
+                320
+              ]
+            ],
+            "cor": "mudo",
+            "larg": 1.5,
+            "tracejado": true
+          }
+        ],
+        "angulos": [
+          {
+            "t": "angulo",
+            "centro": [
+              470,
+              260
+            ],
+            "de": 199.02560603756868,
+            "ate": 270,
+            "r": 50,
+            "cor": "#d6337f",
+            "dist": 20,
+            "rotulo": "α"
+          },
+          {
+            "t": "angulo",
+            "centro": [
+              470,
+              260
+            ],
+            "de": 0,
+            "ate": 90,
+            "r": 30,
+            "cor": "acel",
+            "dist": 16,
+            "rotulo": "90°"
+          }
+        ]
+      }
+    }
+  },
+  "passos": [
+    {
+      "titulo": "O raio rasante",
+      "conceito": "Lei de Snell-Descartes",
+      "texto": "Na interface entre B e C, o raio sai rasante: o ângulo de refração em C é 90º. α é o ângulo de incidência, medido a partir da normal.",
+      "cena": {
+        "mostrar": [
+          "camadas",
+          "raio",
+          "normal",
+          "angulos"
+        ]
+      }
+    },
+    {
+      "titulo": "Snell na interface B/C",
+      "conceito": "Lei de Snell-Descartes",
+      "texto": "α é o ângulo limite dessa interface. Resposta: <b>(A)</b>.",
+      "equacoes": [
+        "\\mathrm{n}_\\mathrm{B} \\sen\\alpha = \\mathrm{n}_\\mathrm{C} \\sen 90° \\quad \\Rightarrow \\quad \\sen\\alpha = \\dfrac{\\mathrm{n}_\\mathrm{C}}{\\mathrm{n}_\\mathrm{B}}"
+      ],
+      "cena": {
+        "destacar": [
+          "angulos"
+        ]
+      }
+    }
+  ],
+  "status": "revisado",
+  "criadoEm": "2026-11-15T09:00:00-03:00",
+  "atualizadoEm": "2026-11-15T09:00:00-03:00"
+}

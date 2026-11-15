@@ -1,0 +1,590 @@
+{
+  "id": "unesp-2018-q78",
+  "titulo": "Explosão no ponto mais alto: para onde vai o fragmento A",
+  "conceitos": [
+    "Conservação da quantidade de movimento",
+    "Lançamento oblíquo"
+  ],
+  "cena": {
+    "modelo": "diagrama",
+    "parametros": {
+      "elementos": {
+        "solo": [
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                40,
+                340
+              ],
+              [
+                620,
+                340
+              ]
+            ],
+            "cor": "#8c6a46",
+            "larg": 3
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                70,
+                334
+              ],
+              [
+                70,
+                346
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 2
+          },
+          {
+            "t": "texto",
+            "x": 70,
+            "y": 362,
+            "txt": "I",
+            "negrito": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                180,
+                334
+              ],
+              [
+                180,
+                346
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 2
+          },
+          {
+            "t": "texto",
+            "x": 180,
+            "y": 362,
+            "txt": "II",
+            "negrito": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                290,
+                334
+              ],
+              [
+                290,
+                346
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 2
+          },
+          {
+            "t": "texto",
+            "x": 290,
+            "y": 362,
+            "txt": "III",
+            "negrito": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                400,
+                334
+              ],
+              [
+                400,
+                346
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 2
+          },
+          {
+            "t": "texto",
+            "x": 400,
+            "y": 362,
+            "txt": "IV",
+            "negrito": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                510,
+                334
+              ],
+              [
+                510,
+                346
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 2
+          },
+          {
+            "t": "texto",
+            "x": 510,
+            "y": 362,
+            "txt": "V",
+            "negrito": true
+          },
+          {
+            "t": "texto",
+            "x": 125.0,
+            "y": 326,
+            "txt": "d",
+            "mudo": true
+          },
+          {
+            "t": "texto",
+            "x": 235.0,
+            "y": 326,
+            "txt": "d",
+            "mudo": true
+          },
+          {
+            "t": "texto",
+            "x": 345.0,
+            "y": 326,
+            "txt": "d",
+            "mudo": true
+          },
+          {
+            "t": "texto",
+            "x": 455.0,
+            "y": 326,
+            "txt": "d",
+            "mudo": true
+          }
+        ],
+        "subida": [
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                180.0,
+                340.0
+              ],
+              [
+                191.0,
+                317.6
+              ],
+              [
+                202.0,
+                296.3
+              ],
+              [
+                213.0,
+                276.2
+              ],
+              [
+                224.0,
+                257.2
+              ],
+              [
+                235.0,
+                239.4
+              ],
+              [
+                246.0,
+                222.7
+              ],
+              [
+                257.0,
+                207.2
+              ],
+              [
+                268.0,
+                192.8
+              ],
+              [
+                279.0,
+                179.6
+              ],
+              [
+                290.0,
+                167.5
+              ],
+              [
+                301.0,
+                156.6
+              ],
+              [
+                312.0,
+                146.8
+              ],
+              [
+                323.0,
+                138.2
+              ],
+              [
+                334.0,
+                130.7
+              ],
+              [
+                345.0,
+                124.4
+              ],
+              [
+                356.0,
+                119.2
+              ],
+              [
+                367.0,
+                115.2
+              ],
+              [
+                378.0,
+                112.3
+              ],
+              [
+                389.0,
+                110.6
+              ],
+              [
+                400.0,
+                110.0
+              ]
+            ],
+            "cor": "mudo",
+            "larg": 2,
+            "tracejado": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                400,
+                110
+              ],
+              [
+                400,
+                340
+              ]
+            ],
+            "cor": "mudo",
+            "larg": 1,
+            "tracejado": true
+          },
+          {
+            "t": "seta",
+            "de": [
+              330,
+              84
+            ],
+            "para": [
+              390,
+              84
+            ],
+            "cor": "tinta",
+            "larg": 2.5,
+            "rot_em": [
+              360,
+              64
+            ],
+            "ancora": "middle",
+            "rotulo": "V",
+            "sub": "H"
+          }
+        ],
+        "explosao": [
+          {
+            "t": "circ",
+            "x": 400,
+            "y": 110,
+            "r": 10,
+            "cor": "luz",
+            "borda": "tinta"
+          },
+          {
+            "t": "seta",
+            "de": [
+              412,
+              104
+            ],
+            "para": [
+              490,
+              104
+            ],
+            "cor": "normal",
+            "larg": 3,
+            "rot_em": [
+              494,
+              98
+            ],
+            "rotulo": "V",
+            "sub": "B"
+          },
+          {
+            "t": "seta",
+            "de": [
+              388,
+              120
+            ],
+            "para": [
+              340,
+              120
+            ],
+            "cor": "perigo",
+            "larg": 3,
+            "rot_em": [
+              336,
+              140
+            ],
+            "ancora": "end",
+            "rotulo": "V",
+            "sub": "A"
+          }
+        ],
+        "volta": [
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                400.0,
+                110.0
+              ],
+              [
+                389.0,
+                110.6
+              ],
+              [
+                378.0,
+                112.3
+              ],
+              [
+                367.0,
+                115.2
+              ],
+              [
+                356.0,
+                119.2
+              ],
+              [
+                345.0,
+                124.4
+              ],
+              [
+                334.0,
+                130.7
+              ],
+              [
+                323.0,
+                138.2
+              ],
+              [
+                312.0,
+                146.8
+              ],
+              [
+                301.0,
+                156.6
+              ],
+              [
+                290.0,
+                167.5
+              ],
+              [
+                279.0,
+                179.6
+              ],
+              [
+                268.0,
+                192.8
+              ],
+              [
+                257.0,
+                207.2
+              ],
+              [
+                246.0,
+                222.7
+              ],
+              [
+                235.0,
+                239.4
+              ],
+              [
+                224.0,
+                257.2
+              ],
+              [
+                213.0,
+                276.2
+              ],
+              [
+                202.0,
+                296.3
+              ],
+              [
+                191.0,
+                317.6
+              ],
+              [
+                180.0,
+                340.0
+              ]
+            ],
+            "cor": "perigo",
+            "larg": 2.5,
+            "tracejado": true
+          },
+          {
+            "t": "rotulo",
+            "x": 180,
+            "y": 390,
+            "txt": "A cai no ponto II",
+            "cor": "var(--danger)"
+          }
+        ],
+        "fragmento-a": [
+          {
+            "t": "circ",
+            "x": 400,
+            "y": 110,
+            "r": 8,
+            "cor": "perigo",
+            "borda": "tinta"
+          }
+        ]
+      },
+      "animacoes": {
+        "cair": {
+          "alvo": "fragmento-a",
+          "tipo": "trajeto",
+          "pontos": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              -11.0,
+              0.6
+            ],
+            [
+              -22.0,
+              2.3
+            ],
+            [
+              -33.0,
+              5.2
+            ],
+            [
+              -44.0,
+              9.2
+            ],
+            [
+              -55.0,
+              14.4
+            ],
+            [
+              -66.0,
+              20.7
+            ],
+            [
+              -77.0,
+              28.2
+            ],
+            [
+              -88.0,
+              36.8
+            ],
+            [
+              -99.0,
+              46.6
+            ],
+            [
+              -110.0,
+              57.5
+            ],
+            [
+              -121.0,
+              69.6
+            ],
+            [
+              -132.0,
+              82.8
+            ],
+            [
+              -143.0,
+              97.2
+            ],
+            [
+              -154.0,
+              112.7
+            ],
+            [
+              -165.0,
+              129.4
+            ],
+            [
+              -176.0,
+              147.2
+            ],
+            [
+              -187.0,
+              166.2
+            ],
+            [
+              -198.0,
+              186.3
+            ],
+            [
+              -209.0,
+              207.6
+            ],
+            [
+              -220.0,
+              230.0
+            ]
+          ],
+          "duracao": 2,
+          "pausa": 1
+        }
+      }
+    }
+  },
+  "passos": [
+    {
+      "titulo": "A explosão",
+      "conceito": "Conservação da quantidade de movimento",
+      "texto": "Na explosão, as forças internas são muito maiores que o peso: a quantidade de movimento se conserva. Com M<sub>B</sub> = m e M<sub>A</sub> = 2m:",
+      "equacoes": [
+        "3m V_{\\text{H}} = 2m V_{\\text{A}} + m \\cdot 5V_{\\text{H}} \\quad \\Rightarrow \\quad V_{\\text{A}} = -V_{\\text{H}}"
+      ],
+      "cena": {
+        "mostrar": [
+          "solo",
+          "subida",
+          "explosao"
+        ]
+      }
+    },
+    {
+      "titulo": "A queda de A",
+      "conceito": "Lançamento oblíquo",
+      "texto": "A sai do topo com velocidade horizontal de mesmo módulo que antes, mas para trás. A queda leva o mesmo tempo da subida, em que o projétil andou 2d (de II até IV). Para trás, A anda 2d: cai em II. Resposta: <b>(E)</b>.",
+      "cena": {
+        "mostrar": [
+          "volta",
+          "fragmento-a"
+        ],
+        "estado": {
+          "animar": [
+            "cair"
+          ]
+        }
+      }
+    }
+  ],
+  "status": "revisado",
+  "criadoEm": "2026-11-15T09:00:00-03:00",
+  "atualizadoEm": "2026-11-15T09:00:00-03:00"
+}

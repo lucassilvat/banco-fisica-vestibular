@@ -1,0 +1,961 @@
+{
+  "id": "unesp-2024-q86",
+  "titulo": "O centro de massa com a terceira placa",
+  "conceitos": [
+    "Centro de massa"
+  ],
+  "cena": {
+    "modelo": "diagrama",
+    "parametros": {
+      "elementos": {
+        "grafico": [
+          {
+            "t": "seta",
+            "de": [
+              80,
+              350.0
+            ],
+            "para": [
+              572,
+              350.0
+            ],
+            "cor": "tinta",
+            "larg": 1.6
+          },
+          {
+            "t": "seta",
+            "de": [
+              80.0,
+              350
+            ],
+            "para": [
+              80.0,
+              18
+            ],
+            "cor": "tinta",
+            "larg": 1.6
+          },
+          {
+            "t": "texto",
+            "x": 572,
+            "y": 372.0,
+            "txt": "x",
+            "ancora": "end",
+            "mudo": true
+          },
+          {
+            "t": "texto",
+            "x": 88.0,
+            "y": 16,
+            "txt": "y",
+            "ancora": "start",
+            "mudo": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                120.0,
+                346.0
+              ],
+              [
+                120.0,
+                354.0
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 1.5
+          },
+          {
+            "t": "texto",
+            "x": 120.0,
+            "y": 366.0,
+            "txt": "1",
+            "mudo": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                120.0,
+                30
+              ],
+              [
+                120.0,
+                350
+              ]
+            ],
+            "cor": "linha",
+            "larg": 1,
+            "tracejado": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                160.0,
+                346.0
+              ],
+              [
+                160.0,
+                354.0
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 1.5
+          },
+          {
+            "t": "texto",
+            "x": 160.0,
+            "y": 366.0,
+            "txt": "2",
+            "mudo": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                160.0,
+                30
+              ],
+              [
+                160.0,
+                350
+              ]
+            ],
+            "cor": "linha",
+            "larg": 1,
+            "tracejado": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                200.0,
+                346.0
+              ],
+              [
+                200.0,
+                354.0
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 1.5
+          },
+          {
+            "t": "texto",
+            "x": 200.0,
+            "y": 366.0,
+            "txt": "3",
+            "mudo": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                200.0,
+                30
+              ],
+              [
+                200.0,
+                350
+              ]
+            ],
+            "cor": "linha",
+            "larg": 1,
+            "tracejado": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                240.0,
+                346.0
+              ],
+              [
+                240.0,
+                354.0
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 1.5
+          },
+          {
+            "t": "texto",
+            "x": 240.0,
+            "y": 366.0,
+            "txt": "4",
+            "mudo": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                240.0,
+                30
+              ],
+              [
+                240.0,
+                350
+              ]
+            ],
+            "cor": "linha",
+            "larg": 1,
+            "tracejado": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                280.0,
+                346.0
+              ],
+              [
+                280.0,
+                354.0
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 1.5
+          },
+          {
+            "t": "texto",
+            "x": 280.0,
+            "y": 366.0,
+            "txt": "5",
+            "mudo": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                280.0,
+                30
+              ],
+              [
+                280.0,
+                350
+              ]
+            ],
+            "cor": "linha",
+            "larg": 1,
+            "tracejado": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                320.0,
+                346.0
+              ],
+              [
+                320.0,
+                354.0
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 1.5
+          },
+          {
+            "t": "texto",
+            "x": 320.0,
+            "y": 366.0,
+            "txt": "6",
+            "mudo": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                320.0,
+                30
+              ],
+              [
+                320.0,
+                350
+              ]
+            ],
+            "cor": "linha",
+            "larg": 1,
+            "tracejado": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                360.0,
+                346.0
+              ],
+              [
+                360.0,
+                354.0
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 1.5
+          },
+          {
+            "t": "texto",
+            "x": 360.0,
+            "y": 366.0,
+            "txt": "7",
+            "mudo": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                360.0,
+                30
+              ],
+              [
+                360.0,
+                350
+              ]
+            ],
+            "cor": "linha",
+            "larg": 1,
+            "tracejado": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                400.0,
+                346.0
+              ],
+              [
+                400.0,
+                354.0
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 1.5
+          },
+          {
+            "t": "texto",
+            "x": 400.0,
+            "y": 366.0,
+            "txt": "8",
+            "mudo": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                400.0,
+                30
+              ],
+              [
+                400.0,
+                350
+              ]
+            ],
+            "cor": "linha",
+            "larg": 1,
+            "tracejado": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                440.0,
+                346.0
+              ],
+              [
+                440.0,
+                354.0
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 1.5
+          },
+          {
+            "t": "texto",
+            "x": 440.0,
+            "y": 366.0,
+            "txt": "9",
+            "mudo": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                440.0,
+                30
+              ],
+              [
+                440.0,
+                350
+              ]
+            ],
+            "cor": "linha",
+            "larg": 1,
+            "tracejado": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                480.0,
+                346.0
+              ],
+              [
+                480.0,
+                354.0
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 1.5
+          },
+          {
+            "t": "texto",
+            "x": 480.0,
+            "y": 366.0,
+            "txt": "10",
+            "mudo": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                480.0,
+                30
+              ],
+              [
+                480.0,
+                350
+              ]
+            ],
+            "cor": "linha",
+            "larg": 1,
+            "tracejado": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                520.0,
+                346.0
+              ],
+              [
+                520.0,
+                354.0
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 1.5
+          },
+          {
+            "t": "texto",
+            "x": 520.0,
+            "y": 366.0,
+            "txt": "11",
+            "mudo": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                520.0,
+                30
+              ],
+              [
+                520.0,
+                350
+              ]
+            ],
+            "cor": "linha",
+            "larg": 1,
+            "tracejado": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                76.0,
+                310.0
+              ],
+              [
+                84.0,
+                310.0
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 1.5
+          },
+          {
+            "t": "texto",
+            "x": 72.0,
+            "y": 310.0,
+            "txt": "1",
+            "ancora": "end",
+            "mudo": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                80,
+                310.0
+              ],
+              [
+                560,
+                310.0
+              ]
+            ],
+            "cor": "linha",
+            "larg": 1,
+            "tracejado": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                76.0,
+                270.0
+              ],
+              [
+                84.0,
+                270.0
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 1.5
+          },
+          {
+            "t": "texto",
+            "x": 72.0,
+            "y": 270.0,
+            "txt": "2",
+            "ancora": "end",
+            "mudo": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                80,
+                270.0
+              ],
+              [
+                560,
+                270.0
+              ]
+            ],
+            "cor": "linha",
+            "larg": 1,
+            "tracejado": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                76.0,
+                230.0
+              ],
+              [
+                84.0,
+                230.0
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 1.5
+          },
+          {
+            "t": "texto",
+            "x": 72.0,
+            "y": 230.0,
+            "txt": "3",
+            "ancora": "end",
+            "mudo": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                80,
+                230.0
+              ],
+              [
+                560,
+                230.0
+              ]
+            ],
+            "cor": "linha",
+            "larg": 1,
+            "tracejado": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                76.0,
+                190.0
+              ],
+              [
+                84.0,
+                190.0
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 1.5
+          },
+          {
+            "t": "texto",
+            "x": 72.0,
+            "y": 190.0,
+            "txt": "4",
+            "ancora": "end",
+            "mudo": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                80,
+                190.0
+              ],
+              [
+                560,
+                190.0
+              ]
+            ],
+            "cor": "linha",
+            "larg": 1,
+            "tracejado": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                76.0,
+                150.0
+              ],
+              [
+                84.0,
+                150.0
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 1.5
+          },
+          {
+            "t": "texto",
+            "x": 72.0,
+            "y": 150.0,
+            "txt": "5",
+            "ancora": "end",
+            "mudo": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                80,
+                150.0
+              ],
+              [
+                560,
+                150.0
+              ]
+            ],
+            "cor": "linha",
+            "larg": 1,
+            "tracejado": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                76.0,
+                110.0
+              ],
+              [
+                84.0,
+                110.0
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 1.5
+          },
+          {
+            "t": "texto",
+            "x": 72.0,
+            "y": 110.0,
+            "txt": "6",
+            "ancora": "end",
+            "mudo": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                80,
+                110.0
+              ],
+              [
+                560,
+                110.0
+              ]
+            ],
+            "cor": "linha",
+            "larg": 1,
+            "tracejado": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                76.0,
+                70.0
+              ],
+              [
+                84.0,
+                70.0
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 1.5
+          },
+          {
+            "t": "texto",
+            "x": 72.0,
+            "y": 70.0,
+            "txt": "7",
+            "ancora": "end",
+            "mudo": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                80,
+                70.0
+              ],
+              [
+                560,
+                70.0
+              ]
+            ],
+            "cor": "linha",
+            "larg": 1,
+            "tracejado": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                76.0,
+                30.0
+              ],
+              [
+                84.0,
+                30.0
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 1.5
+          },
+          {
+            "t": "texto",
+            "x": 72.0,
+            "y": 30.0,
+            "txt": "8",
+            "ancora": "end",
+            "mudo": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                80,
+                30.0
+              ],
+              [
+                560,
+                30.0
+              ]
+            ],
+            "cor": "linha",
+            "larg": 1,
+            "tracejado": true
+          }
+        ],
+        "placas": [
+          {
+            "t": "ret",
+            "x": 120.0,
+            "y": 190.0,
+            "w": 80.0,
+            "h": 80.0,
+            "cor": "#7fc8ef",
+            "borda": "tinta"
+          },
+          {
+            "t": "texto",
+            "x": 160.0,
+            "y": 208.0,
+            "txt": "2 kg",
+            "negrito": true
+          },
+          {
+            "t": "ret",
+            "x": 440.0,
+            "y": 70.0,
+            "w": 80.0,
+            "h": 160.0,
+            "cor": "#c9c2e3",
+            "borda": "tinta"
+          },
+          {
+            "t": "texto",
+            "x": 480.0,
+            "y": 110.0,
+            "txt": "3 kg",
+            "negrito": true
+          }
+        ],
+        "centros": [
+          {
+            "t": "circ",
+            "x": 160.0,
+            "y": 230.0,
+            "r": 5,
+            "cor": "tinta",
+            "borda": "tinta"
+          },
+          {
+            "t": "texto",
+            "x": 168.0,
+            "y": 244.0,
+            "txt": "(2, 3)",
+            "ancora": "start",
+            "negrito": true
+          },
+          {
+            "t": "circ",
+            "x": 480.0,
+            "y": 150.0,
+            "r": 5,
+            "cor": "tinta",
+            "borda": "tinta"
+          },
+          {
+            "t": "texto",
+            "x": 528.0,
+            "y": 150.0,
+            "txt": "(10, 5)",
+            "negrito": true,
+            "ancora": "start"
+          },
+          {
+            "t": "circ",
+            "x": 352.0,
+            "y": 182.0,
+            "r": 5,
+            "cor": "mudo",
+            "borda": "tinta"
+          },
+          {
+            "t": "texto",
+            "x": 352.0,
+            "y": 168.0,
+            "txt": "C antigo",
+            "mudo": true
+          }
+        ],
+        "circulo": [
+          {
+            "t": "circ",
+            "x": 160.0,
+            "y": 310.0,
+            "r": 40.0,
+            "cor": "#f5c3a0",
+            "borda": "tinta"
+          },
+          {
+            "t": "circ",
+            "x": 160.0,
+            "y": 310.0,
+            "r": 5,
+            "cor": "tinta",
+            "borda": "tinta"
+          },
+          {
+            "t": "texto",
+            "x": 208.0,
+            "y": 310.0,
+            "txt": "3 kg, centro (2, 1)",
+            "ancora": "start",
+            "negrito": true
+          }
+        ],
+        "novo-c": [
+          {
+            "t": "circ",
+            "x": 280.0,
+            "y": 230.0,
+            "r": 8,
+            "cor": "perigo",
+            "borda": "tinta"
+          },
+          {
+            "t": "rotulo",
+            "x": 284.0,
+            "y": 204.0,
+            "txt": "novo C (5; 3)",
+            "cor": "var(--danger)"
+          }
+        ]
+      }
+    }
+  },
+  "passos": [
+    {
+      "titulo": "Os centros das placas",
+      "conceito": "Centro de massa",
+      "texto": "Cada placa é homogênea: seu centro de massa é o centro geométrico.",
+      "cena": {
+        "mostrar": [
+          "grafico",
+          "placas",
+          "centros"
+        ]
+      }
+    },
+    {
+      "titulo": "A placa circular",
+      "conceito": "Centro de massa",
+      "texto": "A nova placa tem 3 kg, com centro de massa em (2, 1). A massa total passa a 8 kg.",
+      "cena": {
+        "mostrar": [
+          "circulo"
+        ],
+        "destacar": [
+          "circulo"
+        ]
+      }
+    },
+    {
+      "titulo": "O novo centro de massa",
+      "conceito": "Centro de massa",
+      "texto": "Cada coordenada é a média das coordenadas dos centros, ponderada pelas massas. Resposta: <b>(D) (5; 3)</b>.",
+      "equacoes": [
+        "\\mathrm{x}_\\mathrm{C} = \\dfrac{2 \\cdot 2 + 3 \\cdot 10 + 3 \\cdot 2}{8} = 5",
+        "\\mathrm{y}_\\mathrm{C} = \\dfrac{2 \\cdot 3 + 3 \\cdot 5 + 3 \\cdot 1}{8} = 3"
+      ],
+      "cena": {
+        "mostrar": [
+          "novo-c"
+        ],
+        "destacar": [
+          "novo-c"
+        ]
+      }
+    }
+  ],
+  "status": "revisado",
+  "criadoEm": "2026-11-15T09:00:00-03:00",
+  "atualizadoEm": "2026-11-15T09:00:00-03:00"
+}

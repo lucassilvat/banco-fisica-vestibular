@@ -1,0 +1,496 @@
+{
+  "id": "unesp-2023-q82",
+  "titulo": "Lendo as quedas de potencial nos resistores",
+  "conceitos": [
+    "Potencial elétrico",
+    "Primeira lei de Ohm",
+    "Associação em série"
+  ],
+  "cena": {
+    "modelo": "diagrama",
+    "parametros": {
+      "elementos": {
+        "circuito": [
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                70,
+                90
+              ],
+              [
+                140,
+                90
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 2
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                140,
+                74
+              ],
+              [
+                140,
+                106
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 2
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                170,
+                62
+              ],
+              [
+                170,
+                118
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 4
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                170,
+                90
+              ],
+              [
+                230,
+                90
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 2
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                340,
+                90
+              ],
+              [
+                440,
+                90
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 2
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                490,
+                90
+              ],
+              [
+                580,
+                90
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 2
+          },
+          {
+            "t": "caminho",
+            "d": "M230,90 l11,-8 l11,8 l11,-8 l11,8 l11,-8 l11,8 l11,-8 l11,8 l11,-8 l11,8",
+            "cor": "tinta",
+            "larg": 2
+          },
+          {
+            "t": "caminho",
+            "d": "M440,90 l5,-8 l5,8 l5,-8 l5,8 l5,-8 l5,8 l5,-8 l5,8 l5,-8 l5,8",
+            "cor": "tinta",
+            "larg": 2
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                70,
+                90
+              ],
+              [
+                70,
+                30
+              ],
+              [
+                580,
+                30
+              ],
+              [
+                580,
+                90
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 2
+          },
+          {
+            "t": "circ",
+            "x": 325,
+            "y": 30,
+            "r": 12,
+            "cor": "papel",
+            "borda": "tinta"
+          },
+          {
+            "t": "texto",
+            "x": 325,
+            "y": 30,
+            "txt": "A",
+            "negrito": true
+          },
+          {
+            "t": "texto",
+            "x": 155,
+            "y": 54,
+            "txt": "E",
+            "negrito": true
+          },
+          {
+            "t": "texto",
+            "x": 285,
+            "y": 116,
+            "txt": "R_{1}",
+            "negrito": true
+          },
+          {
+            "t": "texto",
+            "x": 465,
+            "y": 116,
+            "txt": "R_{2}",
+            "negrito": true
+          },
+          {
+            "t": "texto",
+            "x": 70,
+            "y": 66,
+            "txt": "P",
+            "negrito": true
+          },
+          {
+            "t": "texto",
+            "x": 140,
+            "y": 130,
+            "txt": "Q",
+            "negrito": true
+          },
+          {
+            "t": "texto",
+            "x": 170,
+            "y": 130,
+            "txt": "S",
+            "negrito": true
+          },
+          {
+            "t": "texto",
+            "x": 230,
+            "y": 66,
+            "txt": "T",
+            "negrito": true
+          },
+          {
+            "t": "texto",
+            "x": 340,
+            "y": 66,
+            "txt": "U",
+            "negrito": true
+          },
+          {
+            "t": "texto",
+            "x": 440,
+            "y": 66,
+            "txt": "X",
+            "negrito": true
+          },
+          {
+            "t": "texto",
+            "x": 490,
+            "y": 66,
+            "txt": "Y",
+            "negrito": true
+          },
+          {
+            "t": "texto",
+            "x": 580,
+            "y": 66,
+            "txt": "Z",
+            "negrito": true
+          }
+        ],
+        "grafico": [
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                70,
+                390.0
+              ],
+              [
+                590,
+                390.0
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 1.5
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                70,
+                390.0
+              ],
+              [
+                70,
+                160
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 1.5
+          },
+          {
+            "t": "texto",
+            "x": 78,
+            "y": 160,
+            "txt": "V (V)",
+            "ancora": "start",
+            "mudo": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                70,
+                390.0
+              ],
+              [
+                140,
+                390.0
+              ],
+              [
+                170,
+                194.4
+              ],
+              [
+                230,
+                194.4
+              ],
+              [
+                340,
+                316.7
+              ],
+              [
+                440,
+                316.7
+              ],
+              [
+                490,
+                390.0
+              ],
+              [
+                580,
+                390.0
+              ]
+            ],
+            "cor": "perigo",
+            "larg": 3
+          },
+          {
+            "t": "texto",
+            "x": 62,
+            "y": 194.4,
+            "txt": "80",
+            "ancora": "end",
+            "mudo": true
+          },
+          {
+            "t": "texto",
+            "x": 62,
+            "y": 316.7,
+            "txt": "30",
+            "ancora": "end",
+            "mudo": true
+          },
+          {
+            "t": "texto",
+            "x": 62,
+            "y": 390.0,
+            "txt": "0",
+            "ancora": "end",
+            "mudo": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                70,
+                194.4
+              ],
+              [
+                170,
+                194.4
+              ]
+            ],
+            "cor": "linha",
+            "larg": 1,
+            "tracejado": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                70,
+                316.7
+              ],
+              [
+                340,
+                316.7
+              ]
+            ],
+            "cor": "linha",
+            "larg": 1,
+            "tracejado": true
+          },
+          {
+            "t": "texto",
+            "x": 70,
+            "y": 408.0,
+            "txt": "P",
+            "mudo": true
+          },
+          {
+            "t": "texto",
+            "x": 140,
+            "y": 408.0,
+            "txt": "Q",
+            "mudo": true
+          },
+          {
+            "t": "texto",
+            "x": 170,
+            "y": 408.0,
+            "txt": "S",
+            "mudo": true
+          },
+          {
+            "t": "texto",
+            "x": 230,
+            "y": 408.0,
+            "txt": "T",
+            "mudo": true
+          },
+          {
+            "t": "texto",
+            "x": 340,
+            "y": 408.0,
+            "txt": "U",
+            "mudo": true
+          },
+          {
+            "t": "texto",
+            "x": 440,
+            "y": 408.0,
+            "txt": "X",
+            "mudo": true
+          },
+          {
+            "t": "texto",
+            "x": 490,
+            "y": 408.0,
+            "txt": "Y",
+            "mudo": true
+          },
+          {
+            "t": "texto",
+            "x": 580,
+            "y": 408.0,
+            "txt": "Z",
+            "mudo": true
+          }
+        ],
+        "quedas": [
+          {
+            "t": "cota",
+            "de": [
+              370,
+              194.4
+            ],
+            "para": [
+              370,
+              316.7
+            ],
+            "cor": "peso",
+            "rot_em": [
+              378,
+              255.55555555555554
+            ],
+            "ancora": "start",
+            "txt": "50 V em R_{1}"
+          },
+          {
+            "t": "cota",
+            "de": [
+              520,
+              316.7
+            ],
+            "para": [
+              520,
+              390.0
+            ],
+            "cor": "peso",
+            "rot_em": [
+              528,
+              353.3333333333333
+            ],
+            "ancora": "start",
+            "txt": "30 V em R_{2}"
+          }
+        ]
+      }
+    }
+  },
+  "passos": [
+    {
+      "titulo": "O que o gráfico mostra",
+      "conceito": "Potencial elétrico",
+      "texto": "Nos fios o potencial não muda. No gerador (de Q a S) ele sobe de 0 para 80 V; em R<sub>1</sub> (de T a U) cai para 30 V; em R<sub>2</sub> (de X a Y) cai para 0.",
+      "cena": {
+        "mostrar": [
+          "circuito",
+          "grafico"
+        ]
+      }
+    },
+    {
+      "titulo": "As resistências",
+      "conceito": "Primeira lei de Ohm",
+      "texto": "Os resistores estão em série com o amperímetro: a corrente nos dois é 2 A. Resposta: <b>(D) 25 Ω e 15 Ω</b>.",
+      "equacoes": [
+        "\\mathrm{R}_1 = \\dfrac{80 - 30}{2} = 25\\ \\Omega, \\quad \\mathrm{R}_2 = \\dfrac{30}{2} = 15\\ \\Omega"
+      ],
+      "cena": {
+        "mostrar": [
+          "quedas"
+        ],
+        "destacar": [
+          "quedas"
+        ]
+      }
+    }
+  ],
+  "status": "revisado",
+  "criadoEm": "2026-11-15T09:00:00-03:00",
+  "atualizadoEm": "2026-11-15T09:00:00-03:00"
+}

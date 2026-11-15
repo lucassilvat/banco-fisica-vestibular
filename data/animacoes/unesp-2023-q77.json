@@ -1,0 +1,254 @@
+{
+  "id": "unesp-2023-q77",
+  "titulo": "Cada encontro, uma volta somada",
+  "conceitos": [
+    "Movimento uniforme",
+    "Movimento relativo"
+  ],
+  "cena": {
+    "modelo": "diagrama",
+    "parametros": {
+      "elementos": {
+        "pista": [
+          {
+            "t": "circ",
+            "x": 230,
+            "y": 215,
+            "r": 164,
+            "cor": null,
+            "borda": "mudo",
+            "larg": 1
+          },
+          {
+            "t": "circ",
+            "x": 230,
+            "y": 215,
+            "r": 150,
+            "cor": null,
+            "borda": "#8a929e",
+            "larg": 22
+          },
+          {
+            "t": "circ",
+            "x": 230,
+            "y": 215,
+            "r": 150,
+            "cor": null,
+            "borda": "papel",
+            "larg": 1.5,
+            "tracejado": true
+          },
+          {
+            "t": "texto",
+            "x": 230,
+            "y": 205,
+            "txt": "1 000 m por volta",
+            "negrito": true
+          },
+          {
+            "t": "circ",
+            "x": 230,
+            "y": 365,
+            "r": 5,
+            "cor": "tinta",
+            "borda": "tinta"
+          },
+          {
+            "t": "texto",
+            "x": 230,
+            "y": 395,
+            "txt": "partida",
+            "mudo": true
+          }
+        ],
+        "alberto": [
+          {
+            "t": "circ",
+            "x": 230,
+            "y": 365,
+            "r": 10,
+            "cor": "perigo",
+            "borda": "tinta"
+          },
+          {
+            "t": "texto",
+            "x": 214,
+            "y": 369,
+            "txt": "A",
+            "negrito": true,
+            "ancora": "end"
+          }
+        ],
+        "bernardo": [
+          {
+            "t": "circ",
+            "x": 230,
+            "y": 365,
+            "r": 10,
+            "cor": "normal",
+            "borda": "tinta"
+          },
+          {
+            "t": "texto",
+            "x": 246,
+            "y": 369,
+            "txt": "B",
+            "negrito": true,
+            "ancora": "start"
+          }
+        ],
+        "encontros": [
+          {
+            "t": "circ",
+            "x": 80.0,
+            "y": 215.0,
+            "r": 13,
+            "cor": "luz",
+            "borda": "tinta",
+            "opac": 0.9
+          },
+          {
+            "t": "texto",
+            "x": 46.0,
+            "y": 215.0,
+            "txt": "1º",
+            "negrito": true,
+            "ancora": "end"
+          },
+          {
+            "t": "circ",
+            "x": 230.0,
+            "y": 65.0,
+            "r": 13,
+            "cor": "luz",
+            "borda": "tinta",
+            "opac": 0.9
+          },
+          {
+            "t": "texto",
+            "x": 230.0,
+            "y": 37.0,
+            "txt": "2º",
+            "negrito": true,
+            "ancora": "middle"
+          },
+          {
+            "t": "circ",
+            "x": 380.0,
+            "y": 215.0,
+            "r": 13,
+            "cor": "luz",
+            "borda": "tinta",
+            "opac": 0.9
+          },
+          {
+            "t": "texto",
+            "x": 414.0,
+            "y": 215.0,
+            "txt": "3º",
+            "negrito": true,
+            "ancora": "start"
+          }
+        ],
+        "legenda": [
+          {
+            "t": "texto",
+            "x": 420,
+            "y": 80,
+            "txt": "Alberto (A): v, horário",
+            "negrito": true,
+            "cor": "perigo",
+            "ancora": "start"
+          },
+          {
+            "t": "texto",
+            "x": 420,
+            "y": 106,
+            "txt": "Bernardo (B): 3v, anti-horário",
+            "negrito": true,
+            "cor": "normal",
+            "ancora": "start"
+          },
+          {
+            "t": "texto",
+            "x": 420,
+            "y": 300,
+            "txt": "a cada encontro, juntos",
+            "ancora": "start"
+          },
+          {
+            "t": "texto",
+            "x": 420,
+            "y": 322,
+            "txt": "percorrem 1 volta",
+            "ancora": "start"
+          }
+        ]
+      },
+      "animacoes": {
+        "a": {
+          "alvo": "alberto",
+          "tipo": "girar",
+          "centro": [
+            230,
+            215
+          ],
+          "graus_por_s": 30
+        },
+        "b": {
+          "alvo": "bernardo",
+          "tipo": "girar",
+          "centro": [
+            230,
+            215
+          ],
+          "graus_por_s": -90
+        }
+      }
+    }
+  },
+  "passos": [
+    {
+      "titulo": "Sentidos opostos",
+      "conceito": "Movimento relativo",
+      "texto": "Em sentidos opostos numa pista fechada, os dois se encontram cada vez que a soma das distâncias percorridas aumenta uma volta (1 000 m).",
+      "cena": {
+        "mostrar": [
+          "pista",
+          "alberto",
+          "bernardo",
+          "legenda"
+        ],
+        "estado": {
+          "animar": [
+            "a",
+            "b"
+          ]
+        }
+      }
+    },
+    {
+      "titulo": "O terceiro encontro",
+      "conceito": "Movimento uniforme",
+      "texto": "No 3º encontro, juntos percorreram 3 000 m. No mesmo tempo, Bernardo percorre o triplo de Alberto. Resposta: <b>(D) 750 m e 2 250 m</b>.",
+      "equacoes": [
+        "d_{\\text{A}} + d_{\\text{B}} = 3\\,000, \\quad d_{\\text{B}} = 3d_{\\text{A}}",
+        "4d_{\\text{A}} = 3\\,000 \\quad \\Rightarrow \\quad d_{\\text{A}} = 750\\ \\text{m}, \\quad d_{\\text{B}} = 2\\,250\\ \\text{m}"
+      ],
+      "cena": {
+        "mostrar": [
+          "encontros"
+        ],
+        "destacar": [
+          "encontros"
+        ],
+        "estado": {
+          "animar": []
+        }
+      }
+    }
+  ],
+  "status": "revisado",
+  "criadoEm": "2026-11-15T09:00:00-03:00",
+  "atualizadoEm": "2026-11-15T09:00:00-03:00"
+}

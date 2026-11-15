@@ -1,0 +1,275 @@
+{
+  "id": "unesp-2018-q82",
+  "titulo": "A tensão que sobra para o resistor",
+  "conceitos": [
+    "Associação em série",
+    "Primeira lei de Ohm"
+  ],
+  "cena": {
+    "modelo": "diagrama",
+    "parametros": {
+      "elementos": {
+        "circuito": [
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                100,
+                300
+              ],
+              [
+                100,
+                120
+              ],
+              [
+                230,
+                120
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 2.5
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                330,
+                120
+              ],
+              [
+                520,
+                120
+              ],
+              [
+                520,
+                300
+              ],
+              [
+                420,
+                300
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 2.5
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                260,
+                300
+              ],
+              [
+                100,
+                300
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 2.5
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                85,
+                200
+              ],
+              [
+                115,
+                200
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 2
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                92,
+                212
+              ],
+              [
+                108,
+                212
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 4
+          },
+          {
+            "t": "texto",
+            "x": 70,
+            "y": 206,
+            "txt": "9,0 V",
+            "negrito": true,
+            "ancora": "end"
+          },
+          {
+            "t": "circ",
+            "x": 280,
+            "y": 120,
+            "r": 26,
+            "cor": "luz",
+            "borda": "tinta"
+          },
+          {
+            "t": "texto",
+            "x": 280,
+            "y": 84,
+            "txt": "lâmpada",
+            "mudo": true
+          },
+          {
+            "t": "circ",
+            "x": 520,
+            "y": 210,
+            "r": 18,
+            "cor": "papel",
+            "borda": "tinta"
+          },
+          {
+            "t": "texto",
+            "x": 520,
+            "y": 210,
+            "txt": "A",
+            "negrito": true
+          },
+          {
+            "t": "caminho",
+            "d": "M260,300 l8,-10 l12,20 l12,-20 l12,20 l12,-20 l12,20 l12,-20 l12,20 l12,-20 l12,20 l12,-20 l8,10",
+            "cor": "tinta",
+            "larg": 2
+          },
+          {
+            "t": "texto",
+            "x": 260,
+            "y": 326,
+            "txt": "A",
+            "negrito": true
+          },
+          {
+            "t": "texto",
+            "x": 420,
+            "y": 326,
+            "txt": "B",
+            "negrito": true
+          },
+          {
+            "t": "texto",
+            "x": 340,
+            "y": 334,
+            "txt": "R",
+            "negrito": true,
+            "mudo": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                230,
+                120
+              ],
+              [
+                230,
+                50
+              ],
+              [
+                260,
+                50
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 1.5
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                330,
+                120
+              ],
+              [
+                330,
+                50
+              ],
+              [
+                300,
+                50
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 1.5
+          },
+          {
+            "t": "circ",
+            "x": 280,
+            "y": 50,
+            "r": 18,
+            "cor": "papel",
+            "borda": "tinta"
+          },
+          {
+            "t": "texto",
+            "x": 280,
+            "y": 50,
+            "txt": "V",
+            "negrito": true
+          }
+        ],
+        "tensoes": [
+          {
+            "t": "rotulo",
+            "x": 280,
+            "y": 170,
+            "txt": "U = 5,70 V",
+            "cor": "var(--accent)"
+          },
+          {
+            "t": "rotulo",
+            "x": 340,
+            "y": 260,
+            "txt": "9,0 − 5,70 = 3,30 V",
+            "cor": "var(--danger)"
+          },
+          {
+            "t": "rotulo",
+            "x": 590,
+            "y": 210,
+            "txt": "i = 0,15 A",
+            "cor": "var(--anim-acel)"
+          }
+        ]
+      }
+    }
+  },
+  "passos": [
+    {
+      "titulo": "O circuito",
+      "conceito": "Associação em série",
+      "texto": "Lâmpada e resistor estão em série com a bateria; o amperímetro ideal não tem resistência e o voltímetro ideal, em paralelo com a lâmpada, não desvia corrente. A corrente é a mesma nos dois: 0,15 A. A tensão da bateria se divide entre eles.",
+      "cena": {
+        "mostrar": [
+          "circuito",
+          "tensoes"
+        ]
+      }
+    },
+    {
+      "titulo": "A resistência",
+      "conceito": "Primeira lei de Ohm",
+      "texto": "Resposta: <b>(E) 22 Ω</b>.",
+      "equacoes": [
+        "R = \\dfrac{9,0 - 5,70}{0,15} = \\dfrac{3,30}{0,15} = 22\\ \\Omega"
+      ],
+      "cena": {
+        "destacar": [
+          "tensoes"
+        ]
+      }
+    }
+  ],
+  "status": "revisado",
+  "criadoEm": "2026-11-15T09:00:00-03:00",
+  "atualizadoEm": "2026-11-15T09:00:00-03:00"
+}

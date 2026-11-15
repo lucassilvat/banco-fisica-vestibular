@@ -1,0 +1,273 @@
+{
+  "id": "unesp-2024-q77",
+  "titulo": "Quais bases, e qual a força resultante",
+  "conceitos": [
+    "Pareamento de bases",
+    "Força elétrica",
+    "Resultante de forças"
+  ],
+  "cena": {
+    "modelo": "diagrama",
+    "parametros": {
+      "elementos": {
+        "bases": [
+          {
+            "t": "ret",
+            "x": 40,
+            "y": 110,
+            "w": 210,
+            "h": 190,
+            "cor": "#e8f0fb",
+            "borda": "normal",
+            "rx": 18
+          },
+          {
+            "t": "texto",
+            "x": 145,
+            "y": 140,
+            "txt": "B_{1}",
+            "negrito": true,
+            "tam": 18
+          },
+          {
+            "t": "texto",
+            "x": 145,
+            "y": 280,
+            "txt": "timina",
+            "cor": "normal",
+            "negrito": true
+          },
+          {
+            "t": "ret",
+            "x": 390,
+            "y": 110,
+            "w": 210,
+            "h": 190,
+            "cor": "#fbeee8",
+            "borda": "peso",
+            "rx": 18
+          },
+          {
+            "t": "texto",
+            "x": 495,
+            "y": 140,
+            "txt": "B_{2}",
+            "negrito": true,
+            "tam": 18
+          },
+          {
+            "t": "texto",
+            "x": 495,
+            "y": 280,
+            "txt": "adenina",
+            "cor": "peso",
+            "negrito": true
+          }
+        ],
+        "ligacoes": [
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                250,
+                175
+              ],
+              [
+                390,
+                175
+              ]
+            ],
+            "cor": "mudo",
+            "larg": 2,
+            "tracejado": true
+          },
+          {
+            "t": "texto",
+            "x": 352,
+            "y": 194,
+            "txt": "O ··· H–N",
+            "mudo": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                250,
+                245
+              ],
+              [
+                390,
+                245
+              ]
+            ],
+            "cor": "mudo",
+            "larg": 2,
+            "tracejado": true
+          },
+          {
+            "t": "texto",
+            "x": 352,
+            "y": 266,
+            "txt": "N–H ··· N",
+            "mudo": true
+          }
+        ],
+        "forcas": [
+          {
+            "t": "seta",
+            "de": [
+              250,
+              175
+            ],
+            "para": [
+              322.0,
+              175
+            ],
+            "cor": "#1f6fd0",
+            "larg": 3,
+            "rot_em": [
+              328.0,
+              168
+            ],
+            "rotulo": "F",
+            "sub": "1"
+          },
+          {
+            "t": "seta",
+            "de": [
+              250,
+              175
+            ],
+            "para": [
+              223.0,
+              175
+            ],
+            "cor": "atrito",
+            "larg": 3,
+            "rot_em": [
+              217.0,
+              160
+            ],
+            "ancora": "end",
+            "rotulo": "F",
+            "sub": "2"
+          },
+          {
+            "t": "seta",
+            "de": [
+              250,
+              245
+            ],
+            "para": [
+              226.6,
+              245
+            ],
+            "cor": "perigo",
+            "larg": 3,
+            "rot_em": [
+              220.6,
+              230
+            ],
+            "ancora": "end",
+            "rotulo": "F",
+            "sub": "3"
+          },
+          {
+            "t": "seta",
+            "de": [
+              250,
+              245
+            ],
+            "para": [
+              307.6,
+              245
+            ],
+            "cor": "tinta",
+            "larg": 3,
+            "rot_em": [
+              313.6,
+              238
+            ],
+            "rotulo": "F",
+            "sub": "4"
+          }
+        ],
+        "resultante": [
+          {
+            "t": "seta",
+            "de": [
+              100,
+              350
+            ],
+            "para": [
+              179.2,
+              350
+            ],
+            "cor": "acel",
+            "larg": 4,
+            "rot_em": [
+              187.2,
+              342
+            ],
+            "rotulo": "F",
+            "sub": "R"
+          },
+          {
+            "t": "texto",
+            "x": 100,
+            "y": 385,
+            "txt": "F_{R} = 8,8 × 10^{−9} N",
+            "negrito": true,
+            "ancora": "start",
+            "cor": "acel"
+          }
+        ]
+      }
+    }
+  },
+  "passos": [
+    {
+      "titulo": "Quais são as bases",
+      "conceito": "Pareamento de bases",
+      "texto": "Entre B<sub>1</sub> e B<sub>2</sub> há duas ligações. No DNA, adenina e timina se unem por duas ligações (citosina e guanina, por três). B<sub>1</sub>, de anel simples com o grupo CH<sub>3</sub>, é a timina; B<sub>2</sub>, de anel duplo, é a adenina. Isso elimina A, B e E.",
+      "cena": {
+        "mostrar": [
+          "bases",
+          "ligacoes"
+        ]
+      }
+    },
+    {
+      "titulo": "As forças sobre B₁",
+      "conceito": "Força elétrica",
+      "texto": "Todas as forças são paralelas. Sobre B<sub>1</sub>, \\(\\vec{F}_{1}\\) e \\(\\vec{F}_{4}\\) (atrações) apontam para B<sub>2</sub>; \\(\\vec{F}_{2}\\) e \\(\\vec{F}_{3}\\) (repulsões) apontam para o lado oposto.",
+      "cena": {
+        "mostrar": [
+          "forcas"
+        ],
+        "destacar": [
+          "forcas"
+        ]
+      }
+    },
+    {
+      "titulo": "A resultante",
+      "conceito": "Resultante de forças",
+      "texto": "Com forças na mesma direção, somam-se as de um sentido e subtraem-se as do outro. Resposta: <b>(C)</b>.",
+      "equacoes": [
+        "F_{\\text{R}} = (8,0 + 6,4) \\times 10^{-9} - (3,0 + 2,6) \\times 10^{-9} = 8,8 \\times 10^{-9}\\ \\text{N}"
+      ],
+      "cena": {
+        "mostrar": [
+          "resultante"
+        ],
+        "destacar": [
+          "resultante"
+        ]
+      }
+    }
+  ],
+  "status": "revisado",
+  "criadoEm": "2026-11-15T09:00:00-03:00",
+  "atualizadoEm": "2026-11-15T09:00:00-03:00"
+}

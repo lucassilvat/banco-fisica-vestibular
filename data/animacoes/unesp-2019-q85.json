@@ -1,0 +1,183 @@
+{
+  "id": "unesp-2019-q85",
+  "titulo": "Altura do escorregador e massa da criança",
+  "conceitos": [
+    "Geometria do triângulo",
+    "Energia potencial gravitacional"
+  ],
+  "cena": {
+    "modelo": "diagrama",
+    "parametros": {
+      "elementos": {
+        "geometria": [
+          {
+            "t": "caminho",
+            "d": "M120,360 A140,140 0 0,1 400,360",
+            "cor": "mudo",
+            "larg": 1.5,
+            "tracejado": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                120,
+                360
+              ],
+              [
+                190.0,
+                238.8
+              ],
+              [
+                400,
+                360
+              ]
+            ],
+            "cor": "normal",
+            "larg": 3,
+            "fechada": true,
+            "preench": "#e3eefb"
+          },
+          {
+            "t": "texto",
+            "x": 108,
+            "y": 360,
+            "txt": "A",
+            "negrito": true,
+            "ancora": "end"
+          },
+          {
+            "t": "texto",
+            "x": 180.0,
+            "y": 228.8,
+            "txt": "B",
+            "negrito": true,
+            "ancora": "end"
+          },
+          {
+            "t": "texto",
+            "x": 412,
+            "y": 360,
+            "txt": "C",
+            "negrito": true,
+            "ancora": "start"
+          },
+          {
+            "t": "texto",
+            "x": 143.0,
+            "y": 299.4,
+            "txt": "2 m",
+            "negrito": true,
+            "ancora": "end"
+          },
+          {
+            "t": "texto",
+            "x": 260.0,
+            "y": 380,
+            "txt": "AC = 4 m (diâmetro)",
+            "mudo": true
+          }
+        ],
+        "angulos": [
+          {
+            "t": "angulo",
+            "centro": [
+              190.0,
+              238.8
+            ],
+            "de": 120.00000000000001,
+            "ate": 29.999999999999996,
+            "r": 20,
+            "cor": "perigo"
+          },
+          {
+            "t": "angulo",
+            "centro": [
+              120,
+              360
+            ],
+            "de": -60,
+            "ate": 0,
+            "r": 40,
+            "cor": "acel",
+            "dist": 22,
+            "rotulo": "60°"
+          }
+        ],
+        "altura": [
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                190.0,
+                238.8
+              ],
+              [
+                190.0,
+                360
+              ]
+            ],
+            "cor": "peso",
+            "larg": 2,
+            "tracejado": true
+          },
+          {
+            "t": "texto",
+            "x": 198.0,
+            "y": 299.4,
+            "txt": "h = √3 m",
+            "negrito": true,
+            "cor": "peso",
+            "ancora": "start"
+          },
+          {
+            "t": "circ",
+            "x": 190.0,
+            "y": 238.8,
+            "r": 9,
+            "cor": "peso",
+            "borda": "tinta"
+          }
+        ]
+      }
+    }
+  },
+  "passos": [
+    {
+      "titulo": "O ângulo em A",
+      "conceito": "Geometria do triângulo",
+      "texto": "O triângulo inscrito no semicírculo de diâmetro AC tem ângulo reto em B. Como AB = 2 m é metade de AC, cos Â = 1/2: Â = 60º.",
+      "cena": {
+        "mostrar": [
+          "geometria",
+          "angulos"
+        ]
+      }
+    },
+    {
+      "titulo": "A altura de B",
+      "conceito": "Geometria do triângulo",
+      "texto": "A altura de B em relação ao solo AC:",
+      "equacoes": [
+        "h = \\mathrm{AB} \\cdot \\sen 60° = 2 \\cdot \\dfrac{\\sqrt{3}}{2} = \\sqrt{3}\\ \\text{m}"
+      ],
+      "cena": {
+        "mostrar": [
+          "altura"
+        ]
+      }
+    },
+    {
+      "titulo": "A massa",
+      "conceito": "Energia potencial gravitacional",
+      "texto": "Resposta: <b>(C) 20 kg</b>.",
+      "equacoes": [
+        "E_{p} = mgh \\quad \\Rightarrow \\quad 342 = m \\cdot 5,7\\sqrt{3} \\cdot \\sqrt{3} = 17,1\\,m \\quad \\Rightarrow \\quad m = 20\\ \\text{kg}"
+      ],
+      "cena": {}
+    }
+  ],
+  "status": "revisado",
+  "criadoEm": "2026-11-15T09:00:00-03:00",
+  "atualizadoEm": "2026-11-15T09:00:00-03:00"
+}

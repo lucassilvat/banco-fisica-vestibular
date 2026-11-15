@@ -1,0 +1,165 @@
+{
+  "id": "unesp-2019-q74",
+  "titulo": "Massa que vira energia no Sol",
+  "conceitos": [
+    "Equivalência massa-energia",
+    "Fusão nuclear",
+    "Isótopos"
+  ],
+  "cena": {
+    "modelo": "diagrama",
+    "parametros": {
+      "elementos": {
+        "reacoes": [
+          {
+            "t": "texto",
+            "x": 40,
+            "y": 50,
+            "txt": "¹H + ²H → ³He + energia",
+            "ancora": "start",
+            "negrito": true
+          },
+          {
+            "t": "texto",
+            "x": 40,
+            "y": 82,
+            "txt": "²H + ²H → ³He + n + energia",
+            "ancora": "start",
+            "negrito": true
+          },
+          {
+            "t": "texto",
+            "x": 40,
+            "y": 114,
+            "txt": "²H + ³H → ⁴He + n + energia",
+            "ancora": "start",
+            "negrito": true
+          },
+          {
+            "t": "texto",
+            "x": 40,
+            "y": 146,
+            "txt": "³H + ³H → ⁴He + 2n + energia",
+            "ancora": "start",
+            "negrito": true
+          }
+        ],
+        "massas": [
+          {
+            "t": "ret",
+            "x": 40,
+            "y": 200,
+            "w": 400,
+            "h": 34,
+            "cor": "#bcd3f5",
+            "borda": "normal"
+          },
+          {
+            "t": "texto",
+            "x": 48,
+            "y": 217,
+            "txt": "657 milhões de t de hidrogênio",
+            "ancora": "start",
+            "negrito": true
+          },
+          {
+            "t": "ret",
+            "x": 40,
+            "y": 250,
+            "w": 397.6,
+            "h": 34,
+            "cor": "#f6d77a",
+            "borda": "#c9a24a"
+          },
+          {
+            "t": "texto",
+            "x": 48,
+            "y": 267,
+            "txt": "653 milhões de t de hélio",
+            "ancora": "start",
+            "negrito": true
+          },
+          {
+            "t": "ret",
+            "x": 437.6,
+            "y": 250,
+            "w": 12.0,
+            "h": 34,
+            "cor": "perigo",
+            "borda": "perigo"
+          },
+          {
+            "t": "texto",
+            "x": 450,
+            "y": 304,
+            "txt": "diferença: 4 milhões de t → energia",
+            "ancora": "end",
+            "negrito": true,
+            "cor": "perigo"
+          }
+        ],
+        "isotopos": [
+          {
+            "t": "rotulo",
+            "x": 520,
+            "y": 70,
+            "txt": "H: ¹H, ²H, ³H (3 isótopos)",
+            "cor": "var(--accent)"
+          },
+          {
+            "t": "rotulo",
+            "x": 520,
+            "y": 120,
+            "txt": "He: ³He, ⁴He (2 isótopos)",
+            "cor": "#b07a10"
+          }
+        ]
+      }
+    }
+  },
+  "passos": [
+    {
+      "titulo": "A massa que falta",
+      "conceito": "Equivalência massa-energia",
+      "texto": "A massa \"perdida\" na fusão se converte em energia, estimada pela equação de Einstein. Afirmação I: verdadeira.",
+      "equacoes": [
+        "E = mc^{2}"
+      ],
+      "cena": {
+        "mostrar": [
+          "reacoes",
+          "massas"
+        ],
+        "destacar": [
+          "massas"
+        ]
+      }
+    },
+    {
+      "titulo": "Endotérmicas?",
+      "conceito": "Fusão nuclear",
+      "texto": "As reações têm energia entre os produtos: liberam energia, são exotérmicas. Afirmação II: falsa.",
+      "cena": {
+        "destacar": [
+          "reacoes"
+        ]
+      }
+    },
+    {
+      "titulo": "Os isótopos",
+      "conceito": "Isótopos",
+      "texto": "Aparecem três isótopos do hidrogênio e dois do hélio. Afirmação III: verdadeira. Resposta: <b>(E)</b>.",
+      "cena": {
+        "mostrar": [
+          "isotopos"
+        ],
+        "destacar": [
+          "isotopos"
+        ]
+      }
+    }
+  ],
+  "status": "revisado",
+  "criadoEm": "2026-11-15T09:00:00-03:00",
+  "atualizadoEm": "2026-11-15T09:00:00-03:00"
+}

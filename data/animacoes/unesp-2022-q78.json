@@ -1,0 +1,342 @@
+{
+  "id": "unesp-2022-q78",
+  "titulo": "Energia conservada até o topo da parábola",
+  "conceitos": [
+    "Conservação da energia mecânica",
+    "Lançamento oblíquo"
+  ],
+  "cena": {
+    "modelo": "diagrama",
+    "parametros": {
+      "elementos": {
+        "pista": [
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                40,
+                380
+              ],
+              [
+                620,
+                380
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 2
+          },
+          {
+            "t": "texto",
+            "x": 610,
+            "y": 398,
+            "txt": "solo",
+            "mudo": true,
+            "ancora": "end"
+          },
+          {
+            "t": "caminho",
+            "d": "M110,110.0 C150,330 260,370 330,230.0 L330,380 L96,380 L96,110.0 Z",
+            "cor": "#b5764a",
+            "larg": 2,
+            "preench": "#f2c38e"
+          },
+          {
+            "t": "texto",
+            "x": 114,
+            "y": 94.0,
+            "txt": "1",
+            "negrito": true
+          },
+          {
+            "t": "texto",
+            "x": 344,
+            "y": 230.0,
+            "txt": "2",
+            "negrito": true,
+            "ancora": "start"
+          },
+          {
+            "t": "caminho",
+            "d": "M330,230.0 Q460,50.0 590,380",
+            "cor": "mudo",
+            "larg": 1.5,
+            "tracejado": true
+          },
+          {
+            "t": "texto",
+            "x": 460,
+            "y": 122.0,
+            "txt": "3",
+            "negrito": true
+          }
+        ],
+        "alturas": [
+          {
+            "t": "cota",
+            "de": [
+              60,
+              380
+            ],
+            "para": [
+              60,
+              110.0
+            ],
+            "cor": "normal",
+            "rot_em": [
+              54,
+              245.0
+            ],
+            "ancora": "end",
+            "txt": "1,8 m"
+          },
+          {
+            "t": "cota",
+            "de": [
+              600,
+              380
+            ],
+            "para": [
+              600,
+              140.0
+            ],
+            "cor": "normal",
+            "rot_em": [
+              594,
+              260.0
+            ],
+            "ancora": "end",
+            "txt": "1,6 m"
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                110,
+                110.0
+              ],
+              [
+                600,
+                110.0
+              ]
+            ],
+            "cor": "linha",
+            "larg": 1,
+            "tracejado": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                460,
+                140.0
+              ],
+              [
+                600,
+                140.0
+              ]
+            ],
+            "cor": "linha",
+            "larg": 1,
+            "tracejado": true
+          }
+        ],
+        "bola": [
+          {
+            "t": "circ",
+            "x": 110,
+            "y": 110.0,
+            "r": 9,
+            "cor": "normal",
+            "borda": "tinta"
+          }
+        ],
+        "velocidade-3": [
+          {
+            "t": "seta",
+            "de": [
+              460,
+              140.0
+            ],
+            "para": [
+              530,
+              140.0
+            ],
+            "cor": "acel",
+            "larg": 3,
+            "rot_em": [
+              534,
+              128.0
+            ],
+            "rotulo": "v",
+            "sub": "x"
+          },
+          {
+            "t": "texto",
+            "x": 460,
+            "y": 166.0,
+            "txt": "aqui v_{y} = 0",
+            "cor": "acel",
+            "negrito": true
+          }
+        ]
+      },
+      "animacoes": {
+        "descer": {
+          "alvo": "bola",
+          "tipo": "trajeto",
+          "pontos": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              11.4,
+              51.2
+            ],
+            [
+              25.3,
+              95.0
+            ],
+            [
+              41.4,
+              131.2
+            ],
+            [
+              59.3,
+              160.0
+            ],
+            [
+              78.5,
+              181.2
+            ],
+            [
+              98.8,
+              195.0
+            ],
+            [
+              119.6,
+              201.2
+            ],
+            [
+              140.7,
+              200.0
+            ],
+            [
+              161.7,
+              191.2
+            ],
+            [
+              182.2,
+              175.0
+            ],
+            [
+              201.7,
+              151.2
+            ],
+            [
+              220.0,
+              120.0
+            ],
+            [
+              241.7,
+              93.5
+            ],
+            [
+              263.3,
+              74.2
+            ],
+            [
+              285.0,
+              61.9
+            ],
+            [
+              306.7,
+              56.7
+            ],
+            [
+              328.3,
+              58.5
+            ],
+            [
+              350.0,
+              67.5
+            ],
+            [
+              371.7,
+              83.5
+            ],
+            [
+              393.3,
+              106.7
+            ],
+            [
+              415.0,
+              136.9
+            ],
+            [
+              436.7,
+              174.2
+            ],
+            [
+              458.3,
+              218.5
+            ],
+            [
+              480.0,
+              270.0
+            ]
+          ],
+          "duracao": 3,
+          "pausa": 1
+        }
+      }
+    }
+  },
+  "passos": [
+    {
+      "titulo": "A energia se conserva",
+      "conceito": "Conservação da energia mecânica",
+      "texto": "Sem atrito e sem resistência do ar, a energia mecânica é a mesma do ponto 1 (repouso, a 1,8 m) ao ponto 3 (a 1,6 m).",
+      "cena": {
+        "mostrar": [
+          "pista",
+          "alturas",
+          "bola"
+        ],
+        "estado": {
+          "animar": [
+            "descer"
+          ]
+        }
+      }
+    },
+    {
+      "titulo": "No ponto 3",
+      "conceito": "Lançamento oblíquo",
+      "texto": "No ponto mais alto da parábola, a componente vertical da velocidade é nula: a velocidade é só horizontal.",
+      "cena": {
+        "mostrar": [
+          "velocidade-3"
+        ],
+        "destacar": [
+          "velocidade-3"
+        ],
+        "estado": {
+          "animar": []
+        }
+      }
+    },
+    {
+      "titulo": "A componente horizontal",
+      "conceito": "Conservação da energia mecânica",
+      "texto": "Resposta: <b>(C) 2,0 m/s</b>.",
+      "equacoes": [
+        "mg \\cdot 1,8 = mg \\cdot 1,6 + \\dfrac{m v_{x}^{2}}{2} \\quad \\Rightarrow \\quad v_{x}^{2} = 2 \\cdot 10 \\cdot 0,2 = 4 \\quad \\Rightarrow \\quad v_{x} = 2,0\\ \\text{m/s}"
+      ],
+      "cena": {}
+    }
+  ],
+  "status": "revisado",
+  "criadoEm": "2026-11-15T09:00:00-03:00",
+  "atualizadoEm": "2026-11-15T09:00:00-03:00"
+}

@@ -1,0 +1,324 @@
+{
+  "id": "unesp-2019-q66",
+  "titulo": "Onde a resistência ao fluxo aumenta",
+  "conceitos": [
+    "Associação de resistores",
+    "Sistema circulatório"
+  ],
+  "cena": {
+    "modelo": "diagrama",
+    "parametros": {
+      "elementos": {
+        "vasos": [
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                70,
+                60
+              ],
+              [
+                70,
+                380
+              ]
+            ],
+            "cor": "#3a64d2",
+            "larg": 4
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                570,
+                60
+              ],
+              [
+                570,
+                380
+              ]
+            ],
+            "cor": "perigo",
+            "larg": 4
+          },
+          {
+            "t": "texto",
+            "x": 70,
+            "y": 44,
+            "txt": "veias",
+            "mudo": true
+          },
+          {
+            "t": "texto",
+            "x": 570,
+            "y": 44,
+            "txt": "artérias",
+            "mudo": true
+          }
+        ],
+        "ramos": [
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                70,
+                80
+              ],
+              [
+                570,
+                80
+              ]
+            ],
+            "cor": "mudo",
+            "larg": 2
+          },
+          {
+            "t": "ret",
+            "x": 250,
+            "y": 64,
+            "w": 140,
+            "h": 32,
+            "cor": "papel",
+            "borda": "tinta",
+            "rx": 14
+          },
+          {
+            "t": "texto",
+            "x": 320,
+            "y": 80,
+            "txt": "encéfalo",
+            "tam": 13
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                70,
+                150
+              ],
+              [
+                570,
+                150
+              ]
+            ],
+            "cor": "mudo",
+            "larg": 2
+          },
+          {
+            "t": "ret",
+            "x": 250,
+            "y": 134,
+            "w": 140,
+            "h": 32,
+            "cor": "papel",
+            "borda": "tinta",
+            "rx": 14
+          },
+          {
+            "t": "texto",
+            "x": 320,
+            "y": 150,
+            "txt": "braços",
+            "tam": 13
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                70,
+                360
+              ],
+              [
+                570,
+                360
+              ]
+            ],
+            "cor": "mudo",
+            "larg": 2
+          },
+          {
+            "t": "ret",
+            "x": 250,
+            "y": 344,
+            "w": 140,
+            "h": 32,
+            "cor": "papel",
+            "borda": "tinta",
+            "rx": 14
+          },
+          {
+            "t": "texto",
+            "x": 320,
+            "y": 360,
+            "txt": "membros inferiores",
+            "tam": 13
+          }
+        ],
+        "serie-figado": [
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                70,
+                220
+              ],
+              [
+                570,
+                220
+              ]
+            ],
+            "cor": "mudo",
+            "larg": 2
+          },
+          {
+            "t": "ret",
+            "x": 170,
+            "y": 204,
+            "w": 120,
+            "h": 32,
+            "cor": "papel",
+            "borda": "tinta",
+            "rx": 14
+          },
+          {
+            "t": "texto",
+            "x": 230,
+            "y": 220,
+            "txt": "fígado",
+            "tam": 13
+          },
+          {
+            "t": "ret",
+            "x": 350,
+            "y": 204,
+            "w": 120,
+            "h": 32,
+            "cor": "papel",
+            "borda": "tinta",
+            "rx": 14
+          },
+          {
+            "t": "texto",
+            "x": 410,
+            "y": 220,
+            "txt": "intestinos",
+            "tam": 13
+          }
+        ],
+        "serie-rim": [
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                70,
+                290
+              ],
+              [
+                570,
+                290
+              ]
+            ],
+            "cor": "mudo",
+            "larg": 2
+          },
+          {
+            "t": "ret",
+            "x": 170,
+            "y": 274,
+            "w": 120,
+            "h": 32,
+            "cor": "#fbe3dc",
+            "borda": "perigo",
+            "rx": 14,
+            "larg": 2.5
+          },
+          {
+            "t": "texto",
+            "x": 230,
+            "y": 290,
+            "txt": "túbulos renais",
+            "tam": 13,
+            "negrito": true
+          },
+          {
+            "t": "ret",
+            "x": 350,
+            "y": 274,
+            "w": 120,
+            "h": 32,
+            "cor": "#fbe3dc",
+            "borda": "perigo",
+            "rx": 14,
+            "larg": 2.5
+          },
+          {
+            "t": "texto",
+            "x": 410,
+            "y": 290,
+            "txt": "glomérulo",
+            "tam": 13,
+            "negrito": true
+          },
+          {
+            "t": "texto",
+            "x": 230,
+            "y": 320,
+            "txt": "reabsorção de água",
+            "cor": "perigo",
+            "tam": 12,
+            "negrito": true
+          },
+          {
+            "t": "texto",
+            "x": 410,
+            "y": 320,
+            "txt": "filtração do sangue",
+            "cor": "perigo",
+            "tam": 12,
+            "negrito": true
+          }
+        ],
+        "regra": [
+          {
+            "t": "texto",
+            "x": 320,
+            "y": 404,
+            "txt": "série: R_{eq} = R_{1} + R_{2} (aumenta)  ·  paralelo: R_{eq} diminui",
+            "negrito": true
+          }
+        ]
+      }
+    }
+  },
+  "passos": [
+    {
+      "titulo": "Série e paralelo",
+      "conceito": "Associação de resistores",
+      "texto": "Em série, as resistências se somam e a resistência equivalente aumenta; em paralelo, ela diminui.",
+      "equacoes": [
+        "R_{\\text{eq}} = R_{1} + R_{2}"
+      ],
+      "cena": {
+        "mostrar": [
+          "vasos",
+          "ramos",
+          "serie-figado",
+          "serie-rim",
+          "regra"
+        ]
+      }
+    },
+    {
+      "titulo": "No rim",
+      "conceito": "Sistema circulatório",
+      "texto": "O sangue passa pelos capilares do glomérulo e depois pelos que envolvem os túbulos renais: as duas estruturas estão em série. O glomérulo faz a filtração do sangue e os túbulos, a reabsorção de água. Resposta: <b>(E)</b>.",
+      "cena": {
+        "destacar": [
+          "serie-rim"
+        ]
+      }
+    }
+  ],
+  "status": "revisado",
+  "criadoEm": "2026-11-15T09:00:00-03:00",
+  "atualizadoEm": "2026-11-15T09:00:00-03:00"
+}

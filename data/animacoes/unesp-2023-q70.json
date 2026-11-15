@@ -1,0 +1,480 @@
+{
+  "id": "unesp-2023-q70",
+  "titulo": "Pressão do pneu no pouso",
+  "conceitos": [
+    "Transformação isocórica",
+    "Gás ideal"
+  ],
+  "cena": {
+    "modelo": "diagrama",
+    "parametros": {
+      "elementos": {
+        "grafico": [
+          {
+            "t": "seta",
+            "de": [
+              90,
+              360.0
+            ],
+            "para": [
+              572,
+              360.0
+            ],
+            "cor": "tinta",
+            "larg": 1.6
+          },
+          {
+            "t": "seta",
+            "de": [
+              90.0,
+              360
+            ],
+            "para": [
+              90.0,
+              28
+            ],
+            "cor": "tinta",
+            "larg": 1.6
+          },
+          {
+            "t": "texto",
+            "x": 572,
+            "y": 382.0,
+            "txt": "T (K)",
+            "ancora": "end",
+            "mudo": true
+          },
+          {
+            "t": "texto",
+            "x": 98.0,
+            "y": 26,
+            "txt": "p (PSI)",
+            "ancora": "start",
+            "mudo": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                198.5,
+                356.0
+              ],
+              [
+                198.5,
+                364.0
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 1.5
+          },
+          {
+            "t": "texto",
+            "x": 198.5,
+            "y": 376.0,
+            "txt": "300",
+            "mudo": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                198.5,
+                40
+              ],
+              [
+                198.5,
+                360
+              ]
+            ],
+            "cor": "linha",
+            "larg": 1,
+            "tracejado": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                306.9,
+                356.0
+              ],
+              [
+                306.9,
+                364.0
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 1.5
+          },
+          {
+            "t": "texto",
+            "x": 306.9,
+            "y": 376.0,
+            "txt": "600",
+            "mudo": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                306.9,
+                40
+              ],
+              [
+                306.9,
+                360
+              ]
+            ],
+            "cor": "linha",
+            "larg": 1,
+            "tracejado": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                415.4,
+                356.0
+              ],
+              [
+                415.4,
+                364.0
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 1.5
+          },
+          {
+            "t": "texto",
+            "x": 415.4,
+            "y": 376.0,
+            "txt": "900",
+            "mudo": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                415.4,
+                40
+              ],
+              [
+                415.4,
+                360
+              ]
+            ],
+            "cor": "linha",
+            "larg": 1,
+            "tracejado": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                523.8,
+                356.0
+              ],
+              [
+                523.8,
+                364.0
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 1.5
+          },
+          {
+            "t": "texto",
+            "x": 523.8,
+            "y": 376.0,
+            "txt": "1200",
+            "mudo": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                523.8,
+                40
+              ],
+              [
+                523.8,
+                360
+              ]
+            ],
+            "cor": "linha",
+            "larg": 1,
+            "tracejado": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                86.0,
+                288.9
+              ],
+              [
+                94.0,
+                288.9
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 1.5
+          },
+          {
+            "t": "texto",
+            "x": 82.0,
+            "y": 288.9,
+            "txt": "200",
+            "ancora": "end",
+            "mudo": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                90,
+                288.9
+              ],
+              [
+                560,
+                288.9
+              ]
+            ],
+            "cor": "linha",
+            "larg": 1,
+            "tracejado": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                86.0,
+                217.8
+              ],
+              [
+                94.0,
+                217.8
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 1.5
+          },
+          {
+            "t": "texto",
+            "x": 82.0,
+            "y": 217.8,
+            "txt": "400",
+            "ancora": "end",
+            "mudo": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                90,
+                217.8
+              ],
+              [
+                560,
+                217.8
+              ]
+            ],
+            "cor": "linha",
+            "larg": 1,
+            "tracejado": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                86.0,
+                146.7
+              ],
+              [
+                94.0,
+                146.7
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 1.5
+          },
+          {
+            "t": "texto",
+            "x": 82.0,
+            "y": 146.7,
+            "txt": "600",
+            "ancora": "end",
+            "mudo": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                90,
+                146.7
+              ],
+              [
+                560,
+                146.7
+              ]
+            ],
+            "cor": "linha",
+            "larg": 1,
+            "tracejado": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                86.0,
+                75.6
+              ],
+              [
+                94.0,
+                75.6
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 1.5
+          },
+          {
+            "t": "texto",
+            "x": 82.0,
+            "y": 75.6,
+            "txt": "800",
+            "ancora": "end",
+            "mudo": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                90,
+                75.6
+              ],
+              [
+                560,
+                75.6
+              ]
+            ],
+            "cor": "linha",
+            "larg": 1,
+            "tracejado": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                90.0,
+                360.0
+              ],
+              [
+                560.0,
+                51.9
+              ]
+            ],
+            "cor": "normal",
+            "larg": 3
+          },
+          {
+            "t": "texto",
+            "x": 461.5,
+            "y": 145.0,
+            "txt": "V constante",
+            "cor": "normal",
+            "negrito": true,
+            "ancora": "start"
+          }
+        ],
+        "inicio": [
+          {
+            "t": "circ",
+            "x": 198.5,
+            "y": 288.9,
+            "r": 6,
+            "cor": "tinta",
+            "borda": "tinta"
+          },
+          {
+            "t": "rotulo",
+            "x": 268.5,
+            "y": 288.9,
+            "txt": "300 K · 200 PSI",
+            "cor": "tinta"
+          }
+        ],
+        "pouso": [
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                523.8,
+                360.0
+              ],
+              [
+                523.8,
+                75.6
+              ],
+              [
+                90.0,
+                75.6
+              ]
+            ],
+            "cor": "perigo",
+            "larg": 1.5,
+            "tracejado": true
+          },
+          {
+            "t": "circ",
+            "x": 523.8,
+            "y": 75.6,
+            "r": 7,
+            "cor": "perigo",
+            "borda": "tinta"
+          },
+          {
+            "t": "rotulo",
+            "x": 447.8,
+            "y": 49.6,
+            "txt": "1 200 K · 800 PSI",
+            "cor": "var(--danger)"
+          }
+        ]
+      }
+    }
+  },
+  "passos": [
+    {
+      "titulo": "Volume constante",
+      "conceito": "Transformação isocórica",
+      "texto": "A quantidade de nitrogênio e o volume do pneu não mudam: para um gás ideal, a pressão fica proporcional à temperatura absoluta.",
+      "equacoes": [
+        "\\dfrac{p_{1}}{T_{1}} = \\dfrac{p_{2}}{T_{2}}"
+      ],
+      "cena": {
+        "mostrar": [
+          "grafico",
+          "inicio"
+        ]
+      }
+    },
+    {
+      "titulo": "No pouso",
+      "conceito": "Transformação isocórica",
+      "texto": "A temperatura absoluta fica 4 vezes maior, e a pressão também. Resposta: <b>(E) 800 PSI</b>.",
+      "equacoes": [
+        "\\dfrac{200}{300} = \\dfrac{p_{2}}{1\\,200} \\quad \\Rightarrow \\quad p_{2} = 800\\ \\text{PSI}"
+      ],
+      "cena": {
+        "mostrar": [
+          "pouso"
+        ],
+        "destacar": [
+          "pouso"
+        ]
+      }
+    }
+  ],
+  "status": "revisado",
+  "criadoEm": "2026-11-15T09:00:00-03:00",
+  "atualizadoEm": "2026-11-15T09:00:00-03:00"
+}

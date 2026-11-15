@@ -1,0 +1,192 @@
+{
+  "id": "unesp-2020-q77",
+  "titulo": "A lei dos períodos e quem a descobriu",
+  "conceitos": [
+    "Leis de Kepler",
+    "História da ciência"
+  ],
+  "cena": {
+    "modelo": "diagrama",
+    "parametros": {
+      "elementos": {
+        "sol": [
+          {
+            "t": "circ",
+            "x": 230,
+            "y": 215,
+            "r": 18,
+            "cor": "#f6c344",
+            "borda": "#d39b12",
+            "larg": 2
+          },
+          {
+            "t": "texto",
+            "x": 230,
+            "y": 249,
+            "txt": "Sol",
+            "negrito": true
+          }
+        ],
+        "orbitas": [
+          {
+            "t": "caminho",
+            "d": "M160,215 a70,64.4 0 1,0 140,0 a70,64.4 0 1,0 -140,0",
+            "cor": "mudo",
+            "larg": 1.2,
+            "tracejado": true
+          },
+          {
+            "t": "caminho",
+            "d": "M110,215 a120,110.4 0 1,0 240,0 a120,110.4 0 1,0 -240,0",
+            "cor": "mudo",
+            "larg": 1.2,
+            "tracejado": true
+          },
+          {
+            "t": "caminho",
+            "d": "M50,215 a180,165.6 0 1,0 360,0 a180,165.6 0 1,0 -360,0",
+            "cor": "mudo",
+            "larg": 1.2,
+            "tracejado": true
+          }
+        ],
+        "lei": [
+          {
+            "t": "texto",
+            "x": 440,
+            "y": 120,
+            "txt": "3ª lei de Kepler:",
+            "negrito": true,
+            "ancora": "start"
+          },
+          {
+            "t": "texto",
+            "x": 440,
+            "y": 150,
+            "txt": "T²/D³ é igual",
+            "ancora": "start",
+            "negrito": true,
+            "cor": "perigo"
+          },
+          {
+            "t": "texto",
+            "x": 440,
+            "y": 172,
+            "txt": "para todos os planetas",
+            "ancora": "start",
+            "negrito": true,
+            "cor": "perigo"
+          },
+          {
+            "t": "texto",
+            "x": 440,
+            "y": 220,
+            "txt": "quanto mais longe,",
+            "ancora": "start",
+            "mudo": true
+          },
+          {
+            "t": "texto",
+            "x": 440,
+            "y": 240,
+            "txt": "mais lento e maior o período",
+            "ancora": "start",
+            "mudo": true
+          }
+        ],
+        "planeta-1": [
+          {
+            "t": "circ",
+            "x": 300,
+            "y": 215,
+            "r": 9,
+            "cor": "#8a929e",
+            "borda": "tinta"
+          }
+        ],
+        "planeta-2": [
+          {
+            "t": "circ",
+            "x": 350,
+            "y": 215,
+            "r": 8,
+            "cor": "#3a86c8",
+            "borda": "tinta"
+          }
+        ],
+        "planeta-3": [
+          {
+            "t": "circ",
+            "x": 410,
+            "y": 215,
+            "r": 7,
+            "cor": "perigo",
+            "borda": "tinta"
+          }
+        ]
+      },
+      "animacoes": {
+        "g1": {
+          "alvo": "planeta-1",
+          "tipo": "girar",
+          "centro": [
+            230,
+            215
+          ],
+          "graus_por_s": -70.0
+        },
+        "g2": {
+          "alvo": "planeta-2",
+          "tipo": "girar",
+          "centro": [
+            230,
+            215
+          ],
+          "graus_por_s": -31.2
+        },
+        "g3": {
+          "alvo": "planeta-3",
+          "tipo": "girar",
+          "centro": [
+            230,
+            215
+          ],
+          "graus_por_s": -17.0
+        }
+      }
+    }
+  },
+  "passos": [
+    {
+      "titulo": "A lei do texto",
+      "conceito": "Leis de Kepler",
+      "texto": "A razão T²/D³ igual para todos os planetas é a 3ª lei de Kepler (lei dos períodos): planetas mais distantes do Sol levam muito mais tempo para completar a órbita.",
+      "cena": {
+        "mostrar": [
+          "sol",
+          "orbitas",
+          "planeta-1",
+          "planeta-2",
+          "planeta-3",
+          "lei"
+        ],
+        "estado": {
+          "animar": [
+            "g1",
+            "g2",
+            "g3"
+          ]
+        }
+      }
+    },
+    {
+      "titulo": "Quem e quando",
+      "conceito": "História da ciência",
+      "texto": "Johannes Kepler (1571–1630) viveu no Renascimento científico, antes de Newton, e defendia o heliocentrismo de Copérnico. Formulou três leis do movimento planetário a partir das observações de Marte feitas por Tycho Brahe. Resposta: <b>(D)</b>.",
+      "cena": {}
+    }
+  ],
+  "status": "revisado",
+  "criadoEm": "2026-11-15T09:00:00-03:00",
+  "atualizadoEm": "2026-11-15T09:00:00-03:00"
+}

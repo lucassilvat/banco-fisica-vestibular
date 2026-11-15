@@ -1,0 +1,338 @@
+{
+  "id": "unesp-2021-q80",
+  "titulo": "Imagem de imagem entre dois espelhos",
+  "conceitos": [
+    "Espelho plano",
+    "Associação de espelhos"
+  ],
+  "cena": {
+    "modelo": "diagrama",
+    "parametros": {
+      "elementos": {
+        "cena": [
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                40.0,
+                260
+              ],
+              [
+                600.0,
+                260
+              ]
+            ],
+            "cor": "mudo",
+            "larg": 1
+          },
+          {
+            "t": "ret",
+            "x": 317,
+            "y": 100,
+            "w": 6,
+            "h": 160,
+            "cor": "normal",
+            "borda": null
+          },
+          {
+            "t": "texto",
+            "x": 320,
+            "y": 88,
+            "txt": "E₁",
+            "negrito": true,
+            "cor": "normal"
+          },
+          {
+            "t": "ret",
+            "x": 167,
+            "y": 100,
+            "w": 6,
+            "h": 160,
+            "cor": "normal",
+            "borda": null
+          },
+          {
+            "t": "texto",
+            "x": 170,
+            "y": 88,
+            "txt": "E₂",
+            "negrito": true,
+            "cor": "normal"
+          },
+          {
+            "t": "texto",
+            "x": 270,
+            "y": 280,
+            "txt": "cliente",
+            "negrito": true
+          },
+          {
+            "t": "circ",
+            "x": 270,
+            "y": 170,
+            "r": 13,
+            "cor": "#3a86c8",
+            "borda": "tinta",
+            "opac": 1.0
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                270,
+                183
+              ],
+              [
+                270,
+                230
+              ]
+            ],
+            "cor": "#3a86c8",
+            "larg": 4,
+            "opac": 1.0
+          },
+          {
+            "t": "cota",
+            "de": [
+              270,
+              306
+            ],
+            "para": [
+              320,
+              306
+            ],
+            "cor": "normal",
+            "rot_em": [
+              295.0,
+              324
+            ],
+            "txt": "1 m"
+          },
+          {
+            "t": "cota",
+            "de": [
+              170,
+              306
+            ],
+            "para": [
+              270,
+              306
+            ],
+            "cor": "normal",
+            "rot_em": [
+              220,
+              324
+            ],
+            "txt": "2 m"
+          }
+        ],
+        "imagem-1": [
+          {
+            "t": "circ",
+            "x": 370,
+            "y": 170,
+            "r": 13,
+            "cor": "mudo",
+            "borda": "tinta",
+            "opac": 0.5
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                370,
+                183
+              ],
+              [
+                370,
+                230
+              ]
+            ],
+            "cor": "mudo",
+            "larg": 4,
+            "opac": 0.5
+          },
+          {
+            "t": "texto",
+            "x": 370,
+            "y": 280,
+            "txt": "1ª imagem em E₁",
+            "mudo": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                270,
+                130
+              ],
+              [
+                370,
+                130
+              ]
+            ],
+            "cor": "mudo",
+            "larg": 1,
+            "tracejado": true
+          }
+        ],
+        "imagem-e2": [
+          {
+            "t": "circ",
+            "x": 70,
+            "y": 170,
+            "r": 13,
+            "cor": "mudo",
+            "borda": "tinta",
+            "opac": 0.5
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                70,
+                183
+              ],
+              [
+                70,
+                230
+              ]
+            ],
+            "cor": "mudo",
+            "larg": 4,
+            "opac": 0.5
+          },
+          {
+            "t": "texto",
+            "x": 70,
+            "y": 280,
+            "txt": "imagem em E₂",
+            "mudo": true
+          },
+          {
+            "t": "seta",
+            "de": [
+              270,
+              140
+            ],
+            "para": [
+              70,
+              140
+            ],
+            "cor": "mudo",
+            "larg": 1.5,
+            "tracejado": true
+          }
+        ],
+        "imagem-pedida": [
+          {
+            "t": "circ",
+            "x": 570,
+            "y": 170,
+            "r": 13,
+            "cor": "perigo",
+            "borda": "tinta",
+            "opac": 0.8
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                570,
+                183
+              ],
+              [
+                570,
+                230
+              ]
+            ],
+            "cor": "perigo",
+            "larg": 4,
+            "opac": 0.8
+          },
+          {
+            "t": "texto",
+            "x": 570,
+            "y": 280,
+            "txt": "imagem pedida",
+            "negrito": true,
+            "cor": "perigo"
+          },
+          {
+            "t": "seta",
+            "de": [
+              70,
+              154
+            ],
+            "para": [
+              570,
+              154
+            ],
+            "cor": "perigo",
+            "larg": 1.5,
+            "tracejado": true
+          },
+          {
+            "t": "cota",
+            "de": [
+              270,
+              350
+            ],
+            "para": [
+              570,
+              350
+            ],
+            "cor": "perigo",
+            "rot_em": [
+              420,
+              368
+            ],
+            "txt": "6 m"
+          }
+        ]
+      }
+    }
+  },
+  "passos": [
+    {
+      "titulo": "A primeira imagem",
+      "conceito": "Espelho plano",
+      "texto": "No espelho plano, a imagem é simétrica ao objeto. O cliente está a 1 m de E<sub>1</sub>: a primeira imagem fica 1 m atrás de E<sub>1</sub>, a 2 m dele, mostrando o rosto.",
+      "cena": {
+        "mostrar": [
+          "cena",
+          "imagem-1"
+        ]
+      }
+    },
+    {
+      "titulo": "A imagem em E₂",
+      "conceito": "Associação de espelhos",
+      "texto": "A imagem seguinte da cabeça, vista de costas, vem do espelho de trás. O cliente está a 2 m de E<sub>2</sub>: sua imagem em E<sub>2</sub> fica 2 m atrás dele, a 5 m de E<sub>1</sub>.",
+      "cena": {
+        "mostrar": [
+          "imagem-e2"
+        ],
+        "destacar": [
+          "imagem-e2"
+        ]
+      }
+    },
+    {
+      "titulo": "A imagem dessa imagem",
+      "conceito": "Associação de espelhos",
+      "texto": "Essa imagem funciona como objeto para E<sub>1</sub>, que forma a imagem dela 5 m atrás de E<sub>1</sub>. Distância até o cliente: 1 + 5 = 6 m. Resposta: <b>(E) 6 m</b>.",
+      "cena": {
+        "mostrar": [
+          "imagem-pedida"
+        ],
+        "destacar": [
+          "imagem-pedida"
+        ]
+      }
+    }
+  ],
+  "status": "revisado",
+  "criadoEm": "2026-11-15T09:00:00-03:00",
+  "atualizadoEm": "2026-11-15T09:00:00-03:00"
+}

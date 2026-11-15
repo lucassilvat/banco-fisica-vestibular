@@ -1,0 +1,178 @@
+{
+  "id": "unesp-2022-q82",
+  "titulo": "Mesma energia, potências muito diferentes",
+  "conceitos": [
+    "Energia elétrica",
+    "Potência"
+  ],
+  "cena": {
+    "modelo": "diagrama",
+    "parametros": {
+      "elementos": {
+        "etapa-1": [
+          {
+            "t": "ret",
+            "x": 30,
+            "y": 16,
+            "w": 380,
+            "h": 40,
+            "cor": "suave",
+            "borda": "normal",
+            "rx": 7
+          },
+          {
+            "t": "texto",
+            "x": 42,
+            "y": 36.0,
+            "txt": "potência do chuveiro",
+            "mudo": true,
+            "ancora": "start"
+          },
+          {
+            "t": "texto",
+            "x": 398,
+            "y": 36.0,
+            "txt": "7 500 W",
+            "negrito": true,
+            "ancora": "end"
+          }
+        ],
+        "etapa-2": [
+          {
+            "t": "seta",
+            "de": [
+              220.0,
+              59
+            ],
+            "para": [
+              220.0,
+              79
+            ],
+            "cor": "tinta",
+            "larg": 1.8
+          },
+          {
+            "t": "texto",
+            "x": 232.0,
+            "y": 69.0,
+            "txt": "× 0,2 h",
+            "negrito": true,
+            "cor": "acel",
+            "ancora": "start"
+          },
+          {
+            "t": "ret",
+            "x": 30,
+            "y": 82,
+            "w": 380,
+            "h": 40,
+            "cor": "suave",
+            "borda": "normal",
+            "rx": 7
+          },
+          {
+            "t": "texto",
+            "x": 42,
+            "y": 102.0,
+            "txt": "energia no banho (12 min = 0,2 h)",
+            "mudo": true,
+            "ancora": "start"
+          },
+          {
+            "t": "texto",
+            "x": 398,
+            "y": 102.0,
+            "txt": "1 500 Wh",
+            "negrito": true,
+            "ancora": "end"
+          }
+        ],
+        "etapa-3": [
+          {
+            "t": "seta",
+            "de": [
+              220.0,
+              125
+            ],
+            "para": [
+              220.0,
+              145
+            ],
+            "cor": "tinta",
+            "larg": 1.8
+          },
+          {
+            "t": "texto",
+            "x": 232.0,
+            "y": 135.0,
+            "txt": "÷ 20 W",
+            "negrito": true,
+            "cor": "acel",
+            "ancora": "start"
+          },
+          {
+            "t": "ret",
+            "x": 30,
+            "y": 148,
+            "w": 380,
+            "h": 40,
+            "cor": "suave",
+            "borda": "normal",
+            "rx": 7
+          },
+          {
+            "t": "texto",
+            "x": 42,
+            "y": 168.0,
+            "txt": "tempo da lâmpada de 20 W",
+            "mudo": true,
+            "ancora": "start"
+          },
+          {
+            "t": "texto",
+            "x": 398,
+            "y": 168.0,
+            "txt": "75 h",
+            "negrito": true,
+            "ancora": "end"
+          }
+        ]
+      }
+    }
+  },
+  "passos": [
+    {
+      "titulo": "A energia do banho",
+      "conceito": "Energia elétrica",
+      "texto": "Pelas embalagens, o chuveiro tem 7 500 W e a lâmpada, 20 W. Energia é potência vezes tempo: 12 min são 0,2 h.",
+      "equacoes": [
+        "E = P \\cdot \\Delta t = 7\\,500 \\cdot 0,2 = 1\\,500\\ \\text{Wh}"
+      ],
+      "cena": {
+        "mostrar": [
+          "etapa-1",
+          "etapa-2"
+        ]
+      }
+    },
+    {
+      "titulo": "O tempo da lâmpada",
+      "conceito": "Potência",
+      "texto": "A lâmpada consome essa mesma energia num tempo muito maior. Resposta: <b>(B) 75 horas</b>.",
+      "equacoes": [
+        "\\Delta t = \\dfrac{E}{P} = \\dfrac{1\\,500}{20} = 75\\ \\text{h}"
+      ],
+      "cena": {
+        "mostrar": [
+          "etapa-3"
+        ],
+        "destacar": [
+          "etapa-3"
+        ]
+      }
+    }
+  ],
+  "status": "revisado",
+  "criadoEm": "2026-11-15T09:00:00-03:00",
+  "atualizadoEm": "2026-11-15T09:00:00-03:00"
+}

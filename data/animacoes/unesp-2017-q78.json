@@ -1,0 +1,425 @@
+{
+  "id": "unesp-2017-q78",
+  "titulo": "As forças da esteira sobre a caixa parada",
+  "conceitos": [
+    "Força de atrito estático e cinético",
+    "Força peso e força normal",
+    "Resultante de forças"
+  ],
+  "cena": {
+    "modelo": "diagrama",
+    "parametros": {
+      "elementos": {
+        "esteira": [
+          {
+            "t": "ret",
+            "x": 60,
+            "y": 300,
+            "w": 520,
+            "h": 14,
+            "cor": "#c8ccd2",
+            "borda": "tinta"
+          },
+          {
+            "t": "texto",
+            "x": 320,
+            "y": 352,
+            "txt": "a esteira se move para a esquerda",
+            "mudo": true
+          },
+          {
+            "t": "circ",
+            "x": 80,
+            "y": 324,
+            "r": 10,
+            "cor": "#7fb8e0",
+            "borda": "tinta"
+          },
+          {
+            "t": "circ",
+            "x": 200,
+            "y": 324,
+            "r": 10,
+            "cor": "#7fb8e0",
+            "borda": "tinta"
+          },
+          {
+            "t": "circ",
+            "x": 320,
+            "y": 324,
+            "r": 10,
+            "cor": "#7fb8e0",
+            "borda": "tinta"
+          },
+          {
+            "t": "circ",
+            "x": 440,
+            "y": 324,
+            "r": 10,
+            "cor": "#7fb8e0",
+            "borda": "tinta"
+          },
+          {
+            "t": "circ",
+            "x": 560,
+            "y": 324,
+            "r": 10,
+            "cor": "#7fb8e0",
+            "borda": "tinta"
+          }
+        ],
+        "marcas": [
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                80,
+                307
+              ],
+              [
+                100,
+                307
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 2
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                120,
+                307
+              ],
+              [
+                140,
+                307
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 2
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                160,
+                307
+              ],
+              [
+                180,
+                307
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 2
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                200,
+                307
+              ],
+              [
+                220,
+                307
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 2
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                240,
+                307
+              ],
+              [
+                260,
+                307
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 2
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                280,
+                307
+              ],
+              [
+                300,
+                307
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 2
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                320,
+                307
+              ],
+              [
+                340,
+                307
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 2
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                360,
+                307
+              ],
+              [
+                380,
+                307
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 2
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                400,
+                307
+              ],
+              [
+                420,
+                307
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 2
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                440,
+                307
+              ],
+              [
+                460,
+                307
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 2
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                480,
+                307
+              ],
+              [
+                500,
+                307
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 2
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                520,
+                307
+              ],
+              [
+                540,
+                307
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 2
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                560,
+                307
+              ],
+              [
+                580,
+                307
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 2
+          }
+        ],
+        "caixa": [
+          {
+            "t": "ret",
+            "x": 280,
+            "y": 210,
+            "w": 80,
+            "h": 90,
+            "cor": "#2fa04a",
+            "borda": "tinta",
+            "rx": 14
+          },
+          {
+            "t": "texto",
+            "x": 320,
+            "y": 194,
+            "txt": "caixa parada",
+            "negrito": true
+          }
+        ],
+        "forcas": [
+          {
+            "t": "seta",
+            "de": [
+              320,
+              300
+            ],
+            "para": [
+              320,
+              130
+            ],
+            "cor": "normal",
+            "larg": 3,
+            "rot_em": [
+              330,
+              140
+            ],
+            "rotulo": "N"
+          },
+          {
+            "t": "seta",
+            "de": [
+              320,
+              300
+            ],
+            "para": [
+              220,
+              300
+            ],
+            "cor": "atrito",
+            "larg": 3,
+            "rot_em": [
+              214,
+              284
+            ],
+            "ancora": "end",
+            "rotulo": "F",
+            "sub": "at"
+          }
+        ],
+        "resultante": [
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                320,
+                130
+              ],
+              [
+                220,
+                130
+              ],
+              [
+                220,
+                300
+              ]
+            ],
+            "cor": "mudo",
+            "larg": 1,
+            "tracejado": true
+          },
+          {
+            "t": "seta",
+            "de": [
+              320,
+              300
+            ],
+            "para": [
+              220,
+              130
+            ],
+            "cor": "acel",
+            "larg": 4,
+            "rot_em": [
+              200,
+              124
+            ],
+            "ancora": "end",
+            "rotulo": "R"
+          }
+        ]
+      },
+      "animacoes": {
+        "esteira": {
+          "alvo": "marcas",
+          "tipo": "trajeto",
+          "pontos": [
+            [
+              0,
+              0
+            ],
+            [
+              -40,
+              0
+            ]
+          ],
+          "duracao": 0.6,
+          "pausa": 0
+        }
+      }
+    }
+  },
+  "passos": [
+    {
+      "titulo": "Duas forças da esteira",
+      "conceito": "Força de atrito estático e cinético",
+      "texto": "A esteira exerce sobre a caixa a normal \\(\\vec{N}\\), vertical para cima, e o atrito. A caixa está parada e a esteira desliza para a esquerda sob ela: o atrito cinético sobre a caixa tem o sentido do movimento da esteira em relação à caixa, para a esquerda.",
+      "cena": {
+        "mostrar": [
+          "esteira",
+          "marcas",
+          "caixa",
+          "forcas"
+        ],
+        "estado": {
+          "animar": [
+            "esteira"
+          ]
+        }
+      }
+    },
+    {
+      "titulo": "A resultante",
+      "conceito": "Resultante de forças",
+      "texto": "A soma de uma força para cima com outra para a esquerda aponta para cima e para a esquerda. Resposta: <b>(C)</b>.",
+      "cena": {
+        "mostrar": [
+          "resultante"
+        ],
+        "destacar": [
+          "resultante"
+        ]
+      }
+    }
+  ],
+  "status": "revisado",
+  "criadoEm": "2026-11-15T09:00:00-03:00",
+  "atualizadoEm": "2026-11-15T09:00:00-03:00"
+}

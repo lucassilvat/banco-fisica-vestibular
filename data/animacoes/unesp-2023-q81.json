@@ -1,0 +1,193 @@
+{
+  "id": "unesp-2023-q81",
+  "titulo": "Som mais grave, corda mais longa",
+  "conceitos": [
+    "Velocidade de onda em cordas",
+    "Ondas estacionárias e cordas vibrantes"
+  ],
+  "cena": {
+    "modelo": "diagrama",
+    "parametros": {
+      "elementos": {
+        "corda-1": [
+          {
+            "t": "ret",
+            "x": 252,
+            "y": 56,
+            "w": 8,
+            "h": 68,
+            "cor": "#9b8fc4",
+            "borda": null
+          },
+          {
+            "t": "ret",
+            "x": 330,
+            "y": 56,
+            "w": 8,
+            "h": 68,
+            "cor": "#9b8fc4",
+            "borda": null
+          },
+          {
+            "t": "caminho",
+            "d": "M260,90 Q295.0,60 330,90",
+            "cor": "#b03030",
+            "larg": 2.5
+          },
+          {
+            "t": "caminho",
+            "d": "M260,90 Q295.0,120 330,90",
+            "cor": "#b03030",
+            "larg": 1.5,
+            "opac": 0.6
+          },
+          {
+            "t": "texto",
+            "x": 240,
+            "y": 90,
+            "txt": "corda 1",
+            "negrito": true,
+            "ancora": "end"
+          },
+          {
+            "t": "cota",
+            "de": [
+              260,
+              140
+            ],
+            "para": [
+              330,
+              140
+            ],
+            "cor": "normal",
+            "rot_em": [
+              295,
+              162
+            ],
+            "txt": "L_{1} = 5 cm"
+          }
+        ],
+        "corda-2": [
+          {
+            "t": "ret",
+            "x": 32,
+            "y": 236,
+            "w": 8,
+            "h": 68,
+            "cor": "#9b8fc4",
+            "borda": null
+          },
+          {
+            "t": "ret",
+            "x": 600,
+            "y": 236,
+            "w": 8,
+            "h": 68,
+            "cor": "#9b8fc4",
+            "borda": null
+          },
+          {
+            "t": "caminho",
+            "d": "M40,270 Q320.0,210 600,270",
+            "cor": "#b03030",
+            "larg": 2.5
+          },
+          {
+            "t": "caminho",
+            "d": "M40,270 Q320.0,330 600,270",
+            "cor": "#b03030",
+            "larg": 1.5,
+            "opac": 0.6
+          },
+          {
+            "t": "texto",
+            "x": 320,
+            "y": 220,
+            "txt": "corda 2",
+            "negrito": true
+          },
+          {
+            "t": "cota",
+            "de": [
+              40,
+              340
+            ],
+            "para": [
+              600,
+              340
+            ],
+            "cor": "normal",
+            "rot_em": [
+              320,
+              362
+            ],
+            "txt": "L_{2} = 150 · L_{1}"
+          }
+        ],
+        "modo": [
+          {
+            "t": "texto",
+            "x": 440,
+            "y": 80,
+            "txt": "modo fundamental:",
+            "negrito": true,
+            "ancora": "start"
+          },
+          {
+            "t": "texto",
+            "x": 440,
+            "y": 104,
+            "txt": "L = λ/2",
+            "negrito": true,
+            "ancora": "start",
+            "cor": "perigo"
+          }
+        ]
+      }
+    }
+  },
+  "passos": [
+    {
+      "titulo": "A mesma velocidade de onda",
+      "conceito": "Velocidade de onda em cordas",
+      "texto": "As cordas têm a mesma tração e a mesma densidade linear: pela fórmula de Taylor, a onda tem a mesma velocidade v nas duas.",
+      "cena": {
+        "mostrar": [
+          "corda-1"
+        ]
+      }
+    },
+    {
+      "titulo": "Frequência e comprimento",
+      "conceito": "Ondas estacionárias e cordas vibrantes",
+      "texto": "No modo fundamental, o comprimento da corda é meio comprimento de onda. Com v igual, a frequência é inversamente proporcional ao comprimento.",
+      "equacoes": [
+        "\\mathrm{L} = \\dfrac{\\lambda}{2} \\quad \\Rightarrow \\quad \\mathrm{f} = \\dfrac{v}{2\\mathrm{L}}"
+      ],
+      "cena": {
+        "mostrar": [
+          "modo"
+        ]
+      }
+    },
+    {
+      "titulo": "O comprimento da corda 2",
+      "conceito": "Ondas estacionárias e cordas vibrantes",
+      "texto": "A frequência da corda 1 é 150 vezes a da corda 2, então a corda 2 é 150 vezes mais longa. Resposta: <b>(A) 7,5 m</b>.",
+      "equacoes": [
+        "\\dfrac{\\mathrm{f}_1}{\\mathrm{f}_2} = \\dfrac{\\mathrm{L}_2}{\\mathrm{L}_1} = 150 \\quad \\Rightarrow \\quad \\mathrm{L}_2 = 150 \\cdot 5\\ \\text{cm} = 7,5\\ \\text{m}"
+      ],
+      "cena": {
+        "mostrar": [
+          "corda-2"
+        ],
+        "destacar": [
+          "corda-2"
+        ]
+      }
+    }
+  ],
+  "status": "revisado",
+  "criadoEm": "2026-11-15T09:00:00-03:00",
+  "atualizadoEm": "2026-11-15T09:00:00-03:00"
+}

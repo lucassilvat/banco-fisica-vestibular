@@ -1,0 +1,216 @@
+{
+  "id": "unesp-2016-q78",
+  "titulo": "Três caixas acelerando valem seis paradas",
+  "conceitos": [
+    "Leis de Newton",
+    "Força peso e força normal"
+  ],
+  "cena": {
+    "modelo": "diagrama",
+    "parametros": {
+      "elementos": {
+        "elevador": [
+          {
+            "t": "ret",
+            "x": 200,
+            "y": 40,
+            "w": 240,
+            "h": 330,
+            "cor": null,
+            "borda": "tinta",
+            "larg": 6
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                320,
+                10
+              ],
+              [
+                320,
+                40
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 3
+          }
+        ],
+        "caixas": [
+          {
+            "t": "ret",
+            "x": 270,
+            "y": 304,
+            "w": 100,
+            "h": 64,
+            "cor": "#f2a640",
+            "borda": "tinta",
+            "rx": 3
+          },
+          {
+            "t": "texto",
+            "x": 320,
+            "y": 337,
+            "txt": "6",
+            "negrito": true
+          },
+          {
+            "t": "ret",
+            "x": 270,
+            "y": 238,
+            "w": 100,
+            "h": 64,
+            "cor": "#f2a640",
+            "borda": "tinta",
+            "rx": 3
+          },
+          {
+            "t": "texto",
+            "x": 320,
+            "y": 271,
+            "txt": "6",
+            "negrito": true
+          },
+          {
+            "t": "ret",
+            "x": 270,
+            "y": 172,
+            "w": 100,
+            "h": 64,
+            "cor": "#f2a640",
+            "borda": "tinta",
+            "rx": 3
+          },
+          {
+            "t": "texto",
+            "x": 320,
+            "y": 205,
+            "txt": "6",
+            "negrito": true
+          }
+        ],
+        "forcas": [
+          {
+            "t": "seta",
+            "de": [
+              380,
+              370
+            ],
+            "para": [
+              380,
+              210
+            ],
+            "cor": "normal",
+            "larg": 3,
+            "rot_em": [
+              392,
+              214
+            ],
+            "ancora": "start",
+            "rotulo": "N"
+          },
+          {
+            "t": "seta",
+            "de": [
+              240,
+              270
+            ],
+            "para": [
+              240,
+              370
+            ],
+            "cor": "peso",
+            "larg": 3,
+            "rot_em": [
+              228,
+              366
+            ],
+            "ancora": "end",
+            "rotulo": "P"
+          },
+          {
+            "t": "seta",
+            "de": [
+              480,
+              200
+            ],
+            "para": [
+              480,
+              120
+            ],
+            "cor": "acel",
+            "larg": 3,
+            "vetor": true,
+            "rot_em": [
+              492,
+              130
+            ],
+            "ancora": "start",
+            "rotulo": "a"
+          },
+          {
+            "t": "texto",
+            "x": 240,
+            "y": 254,
+            "txt": "3mg",
+            "negrito": true,
+            "cor": "peso",
+            "ancora": "end"
+          }
+        ],
+        "limite": [
+          {
+            "t": "rotulo",
+            "x": 320,
+            "y": 410,
+            "txt": "limite: N ≤ 6mg (seis caixas paradas)",
+            "cor": "var(--danger)"
+          }
+        ]
+      }
+    }
+  },
+  "passos": [
+    {
+      "titulo": "O limite da caixa de baixo",
+      "conceito": "Força peso e força normal",
+      "texto": "Parado, com seis caixas de massa m, o piso empurraria a caixa de baixo com 6mg. Esse é o máximo permitido.",
+      "cena": {
+        "mostrar": [
+          "elevador",
+          "caixas",
+          "limite"
+        ]
+      }
+    },
+    {
+      "titulo": "As três caixas acelerando",
+      "conceito": "Leis de Newton",
+      "texto": "No conjunto das três caixas agem o peso \\(\\vec{P}\\) e a normal \\(\\vec{N}\\) do piso. Acelerando para cima:",
+      "equacoes": [
+        "N - 3mg = 3ma \\quad \\Rightarrow \\quad N = 3m(g + a)"
+      ],
+      "cena": {
+        "mostrar": [
+          "forcas"
+        ]
+      }
+    },
+    {
+      "titulo": "A maior aceleração",
+      "conceito": "Leis de Newton",
+      "texto": "Resposta: <b>(C) 10 m/s²</b>.",
+      "equacoes": [
+        "3m(g + a) \\leq 6mg \\quad \\Rightarrow \\quad a \\leq g = 10\\ \\text{m/s}^{2}"
+      ],
+      "cena": {
+        "destacar": [
+          "limite"
+        ]
+      }
+    }
+  ],
+  "status": "revisado",
+  "criadoEm": "2026-11-15T09:00:00-03:00",
+  "atualizadoEm": "2026-11-15T09:00:00-03:00"
+}

@@ -1,0 +1,526 @@
+{
+  "id": "unesp-2023-q87",
+  "titulo": "Comprimento do percurso e equação de Torricelli",
+  "conceitos": [
+    "Geometria da trajetória",
+    "MUV",
+    "Equação de Torricelli"
+  ],
+  "cena": {
+    "modelo": "diagrama",
+    "parametros": {
+      "elementos": {
+        "geometria": [
+          {
+            "t": "circ",
+            "x": 270,
+            "y": 220,
+            "r": 130,
+            "cor": null,
+            "borda": "mudo",
+            "larg": 1.5,
+            "tracejado": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                140,
+                220
+              ],
+              [
+                400,
+                220
+              ]
+            ],
+            "cor": "mudo",
+            "larg": 1.5,
+            "tracejado": true
+          },
+          {
+            "t": "texto",
+            "x": 126,
+            "y": 220,
+            "txt": "P",
+            "negrito": true,
+            "ancora": "end"
+          },
+          {
+            "t": "texto",
+            "x": 414,
+            "y": 220,
+            "txt": "R",
+            "negrito": true,
+            "ancora": "start"
+          },
+          {
+            "t": "texto",
+            "x": 233.6,
+            "y": 77.2,
+            "txt": "Q",
+            "negrito": true
+          }
+        ],
+        "percurso": [
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                140,
+                220
+              ],
+              [
+                233.6,
+                95.2
+              ],
+              [
+                400,
+                220
+              ]
+            ],
+            "cor": "normal",
+            "larg": 3
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                400.0,
+                220.0
+              ],
+              [
+                399.5,
+                231.3
+              ],
+              [
+                398.0,
+                242.6
+              ],
+              [
+                395.6,
+                253.6
+              ],
+              [
+                392.2,
+                264.5
+              ],
+              [
+                387.8,
+                274.9
+              ],
+              [
+                382.6,
+                285.0
+              ],
+              [
+                376.5,
+                294.6
+              ],
+              [
+                369.6,
+                303.6
+              ],
+              [
+                361.9,
+                311.9
+              ],
+              [
+                353.6,
+                319.6
+              ],
+              [
+                344.6,
+                326.5
+              ],
+              [
+                335.0,
+                332.6
+              ],
+              [
+                324.9,
+                337.8
+              ],
+              [
+                314.5,
+                342.2
+              ],
+              [
+                303.6,
+                345.6
+              ],
+              [
+                292.6,
+                348.0
+              ],
+              [
+                281.3,
+                349.5
+              ],
+              [
+                270.0,
+                350.0
+              ],
+              [
+                258.7,
+                349.5
+              ],
+              [
+                247.4,
+                348.0
+              ],
+              [
+                236.4,
+                345.6
+              ],
+              [
+                225.5,
+                342.2
+              ],
+              [
+                215.1,
+                337.8
+              ],
+              [
+                205.0,
+                332.6
+              ],
+              [
+                195.4,
+                326.5
+              ],
+              [
+                186.4,
+                319.6
+              ],
+              [
+                178.1,
+                311.9
+              ],
+              [
+                170.4,
+                303.6
+              ],
+              [
+                163.5,
+                294.6
+              ],
+              [
+                157.4,
+                285.0
+              ],
+              [
+                152.2,
+                274.9
+              ],
+              [
+                147.8,
+                264.5
+              ],
+              [
+                144.4,
+                253.6
+              ],
+              [
+                142.0,
+                242.6
+              ],
+              [
+                140.5,
+                231.3
+              ],
+              [
+                140.0,
+                220.0
+              ]
+            ],
+            "cor": "normal",
+            "larg": 3
+          }
+        ],
+        "medidas": [
+          {
+            "t": "texto",
+            "x": 170.8,
+            "y": 157.6,
+            "txt": "6 m",
+            "negrito": true,
+            "ancora": "end"
+          },
+          {
+            "t": "texto",
+            "x": 270,
+            "y": 238,
+            "txt": "PR = 10 m",
+            "mudo": true
+          }
+        ],
+        "angulo-reto": [
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                225.2,
+                106.4
+              ],
+              [
+                236.4,
+                114.8
+              ],
+              [
+                244.8,
+                103.6
+              ]
+            ],
+            "cor": "perigo",
+            "larg": 2
+          },
+          {
+            "t": "texto",
+            "x": 332.8,
+            "y": 151.6,
+            "txt": "8 m",
+            "negrito": true,
+            "ancora": "start",
+            "cor": "perigo"
+          }
+        ],
+        "semicirculo": [
+          {
+            "t": "texto",
+            "x": 270,
+            "y": 374,
+            "txt": "semicircunferência: π · 5 = 15 m",
+            "negrito": true,
+            "cor": "acel"
+          }
+        ],
+        "particula": [
+          {
+            "t": "circ",
+            "x": 140,
+            "y": 220,
+            "r": 8,
+            "cor": "peso",
+            "borda": "tinta"
+          }
+        ]
+      },
+      "animacoes": {
+        "percorrer": {
+          "alvo": "particula",
+          "tipo": "trajeto",
+          "pontos": [
+            [
+              0,
+              0
+            ],
+            [
+              93.6,
+              -124.8
+            ],
+            [
+              260,
+              0
+            ],
+            [
+              259.5,
+              11.3
+            ],
+            [
+              258.0,
+              22.6
+            ],
+            [
+              255.6,
+              33.6
+            ],
+            [
+              252.2,
+              44.5
+            ],
+            [
+              247.8,
+              54.9
+            ],
+            [
+              242.6,
+              65.0
+            ],
+            [
+              236.5,
+              74.6
+            ],
+            [
+              229.6,
+              83.6
+            ],
+            [
+              221.9,
+              91.9
+            ],
+            [
+              213.6,
+              99.6
+            ],
+            [
+              204.6,
+              106.5
+            ],
+            [
+              195.0,
+              112.6
+            ],
+            [
+              184.9,
+              117.8
+            ],
+            [
+              174.5,
+              122.2
+            ],
+            [
+              163.6,
+              125.6
+            ],
+            [
+              152.6,
+              128.0
+            ],
+            [
+              141.3,
+              129.5
+            ],
+            [
+              130.0,
+              130.0
+            ],
+            [
+              118.7,
+              129.5
+            ],
+            [
+              107.4,
+              128.0
+            ],
+            [
+              96.4,
+              125.6
+            ],
+            [
+              85.5,
+              122.2
+            ],
+            [
+              75.1,
+              117.8
+            ],
+            [
+              65.0,
+              112.6
+            ],
+            [
+              55.4,
+              106.5
+            ],
+            [
+              46.4,
+              99.6
+            ],
+            [
+              38.1,
+              91.9
+            ],
+            [
+              30.4,
+              83.6
+            ],
+            [
+              23.5,
+              74.6
+            ],
+            [
+              17.4,
+              65.0
+            ],
+            [
+              12.2,
+              54.9
+            ],
+            [
+              7.8,
+              44.5
+            ],
+            [
+              4.4,
+              33.6
+            ],
+            [
+              2.0,
+              22.6
+            ],
+            [
+              0.5,
+              11.3
+            ],
+            [
+              0.0,
+              0.0
+            ]
+          ],
+          "duracao": 5,
+          "pausa": 1
+        }
+      }
+    }
+  },
+  "passos": [
+    {
+      "titulo": "O ângulo em Q é reto",
+      "conceito": "Geometria da trajetória",
+      "texto": "PR é diâmetro, então o triângulo PQR, inscrito na semicircunferência, tem ângulo reto em Q.",
+      "equacoes": [
+        "\\mathrm{QR} = \\sqrt{10^{2} - 6^{2}} = 8\\ \\text{m}"
+      ],
+      "cena": {
+        "mostrar": [
+          "geometria",
+          "percurso",
+          "medidas",
+          "angulo-reto"
+        ]
+      }
+    },
+    {
+      "titulo": "O comprimento total",
+      "conceito": "Geometria da trajetória",
+      "texto": "A volta de R a P é pela semicircunferência de raio 5 m.",
+      "equacoes": [
+        "\\pi \\cdot 5 = 3 \\cdot 5 = 15\\ \\text{m}",
+        "\\Delta s = 6 + 8 + 15 = 29\\ \\text{m}"
+      ],
+      "cena": {
+        "mostrar": [
+          "semicirculo",
+          "particula"
+        ],
+        "estado": {
+          "animar": [
+            "percorrer"
+          ]
+        }
+      }
+    },
+    {
+      "titulo": "A aceleração escalar",
+      "conceito": "Equação de Torricelli",
+      "texto": "A velocidade aumenta uniformemente de 8 m/s para 10 m/s ao longo dos 29 m: aceleração escalar constante. Resposta: <b>(D)</b>.",
+      "equacoes": [
+        "v^{2} = v_{0}^{2} + 2a\\Delta s \\quad \\Rightarrow \\quad 100 = 64 + 2a \\cdot 29 \\quad \\Rightarrow \\quad a = \\dfrac{18}{29}\\ \\text{m/s}^{2}"
+      ],
+      "cena": {}
+    }
+  ],
+  "status": "revisado",
+  "criadoEm": "2026-11-15T09:00:00-03:00",
+  "atualizadoEm": "2026-11-15T09:00:00-03:00"
+}

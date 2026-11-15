@@ -1,0 +1,269 @@
+{
+  "id": "unesp-2022-q76",
+  "titulo": "A velocidade média vem da área do triângulo",
+  "conceitos": [
+    "MUV",
+    "Deslocamento como área sob v × t",
+    "Velocidade escalar média"
+  ],
+  "cena": {
+    "modelo": "diagrama",
+    "parametros": {
+      "elementos": {
+        "grafico": [
+          {
+            "t": "seta",
+            "de": [
+              90,
+              340.0
+            ],
+            "para": [
+              572,
+              340.0
+            ],
+            "cor": "tinta",
+            "larg": 1.6
+          },
+          {
+            "t": "seta",
+            "de": [
+              90.0,
+              340
+            ],
+            "para": [
+              90.0,
+              28
+            ],
+            "cor": "tinta",
+            "larg": 1.6
+          },
+          {
+            "t": "texto",
+            "x": 572,
+            "y": 362.0,
+            "txt": "t",
+            "ancora": "end",
+            "mudo": true
+          },
+          {
+            "t": "texto",
+            "x": 98.0,
+            "y": 26,
+            "txt": "v",
+            "ancora": "start",
+            "mudo": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                90.0,
+                340.0
+              ],
+              [
+                231.0,
+                100.0
+              ],
+              [
+                560.0,
+                340.0
+              ]
+            ],
+            "cor": "perigo",
+            "larg": 3
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                231.0,
+                100.0
+              ],
+              [
+                231.0,
+                340.0
+              ]
+            ],
+            "cor": "mudo",
+            "larg": 1,
+            "tracejado": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                90.0,
+                100.0
+              ],
+              [
+                231.0,
+                100.0
+              ]
+            ],
+            "cor": "mudo",
+            "larg": 1,
+            "tracejado": true
+          },
+          {
+            "t": "texto",
+            "x": 82.0,
+            "y": 100.0,
+            "txt": "V_{máx}",
+            "ancora": "end",
+            "negrito": true
+          },
+          {
+            "t": "cota",
+            "de": [
+              90.0,
+              367.0
+            ],
+            "para": [
+              231.0,
+              367.0
+            ],
+            "cor": "normal",
+            "rot_em": [
+              160.5,
+              388.0
+            ],
+            "txt": "T_{1}"
+          },
+          {
+            "t": "cota",
+            "de": [
+              231.0,
+              367.0
+            ],
+            "para": [
+              560.0,
+              367.0
+            ],
+            "cor": "normal",
+            "rot_em": [
+              395.5,
+              388.0
+            ],
+            "txt": "T_{2}"
+          }
+        ],
+        "inclinacao": [
+          {
+            "t": "rotulo",
+            "x": 120.5,
+            "y": 200.0,
+            "txt": "inclinação = a₁",
+            "cor": "var(--danger)"
+          }
+        ],
+        "area": [
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                90.0,
+                340.0
+              ],
+              [
+                231.0,
+                100.0
+              ],
+              [
+                560.0,
+                340.0
+              ]
+            ],
+            "cor": "perigo",
+            "larg": 0.5,
+            "fechada": true,
+            "preench": "#f3b6aa",
+            "opac": 0.7
+          },
+          {
+            "t": "texto",
+            "x": 292.1,
+            "y": 260.0,
+            "txt": "área = Δs",
+            "negrito": true
+          }
+        ],
+        "media": [
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                90.0,
+                220.0
+              ],
+              [
+                560.0,
+                220.0
+              ]
+            ],
+            "cor": "acel",
+            "larg": 2.5,
+            "tracejado": true
+          },
+          {
+            "t": "rotulo",
+            "x": 500.0,
+            "y": 198.0,
+            "txt": "vₘ = Vmáx / 2",
+            "cor": "var(--anim-acel)"
+          }
+        ]
+      }
+    }
+  },
+  "passos": [
+    {
+      "titulo": "A velocidade máxima",
+      "conceito": "MUV",
+      "texto": "Partindo do repouso com aceleração a<sub>1</sub>, o veículo atinge V<sub>máx</sub> no instante T<sub>1</sub>.",
+      "equacoes": [
+        "\\mathrm{V}_{\\text{máx}} = \\mathrm{a}_1 \\cdot \\mathrm{T}_1"
+      ],
+      "cena": {
+        "mostrar": [
+          "grafico",
+          "inclinacao"
+        ]
+      }
+    },
+    {
+      "titulo": "O deslocamento",
+      "conceito": "Deslocamento como área sob v × t",
+      "texto": "No gráfico v × t, o deslocamento é a área sob a curva: um triângulo de base T<sub>1</sub> + T<sub>2</sub> e altura V<sub>máx</sub>.",
+      "equacoes": [
+        "\\Delta\\mathrm{s} = \\dfrac{\\mathrm{V}_{\\text{máx}}(\\mathrm{T}_1 + \\mathrm{T}_2)}{2}"
+      ],
+      "cena": {
+        "ocultar": [
+          "inclinacao"
+        ],
+        "mostrar": [
+          "area"
+        ]
+      }
+    },
+    {
+      "titulo": "A velocidade média",
+      "conceito": "Velocidade escalar média",
+      "texto": "Dividindo pelo tempo total, sobra metade da velocidade máxima. Resposta: <b>(D)</b>.",
+      "equacoes": [
+        "\\mathrm{v}_\\mathrm{m} = \\dfrac{\\Delta\\mathrm{s}}{\\mathrm{T}_1 + \\mathrm{T}_2} = \\dfrac{\\mathrm{V}_{\\text{máx}}}{2} = \\dfrac{\\mathrm{a}_1 \\times \\mathrm{T}_1}{2}"
+      ],
+      "cena": {
+        "mostrar": [
+          "media"
+        ],
+        "destacar": [
+          "media"
+        ]
+      }
+    }
+  ],
+  "status": "revisado",
+  "criadoEm": "2026-11-15T09:00:00-03:00",
+  "atualizadoEm": "2026-11-15T09:00:00-03:00"
+}
