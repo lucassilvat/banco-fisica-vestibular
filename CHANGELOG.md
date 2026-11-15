@@ -15,6 +15,10 @@ de modelo de dados; CORREÇÃO, em correções de questões já publicadas.
   **Q82** (pela potência; pela corrente, em que todas as correntes dão valores inteiros).
 - Formato aula: `cena.destacar` faz piscar um elemento na tela; elementos que já estavam na tela
   anterior não "entram" de novo.
+- **Traço de cancelamento** refeito (revisão do Lucas na Q79 e na Q81): agora é a diagonal do
+  canto inferior esquerdo ao superior direito do termo, como o `\cancel` do LaTeX, centrada no
+  algarismo; antes era um traço quase horizontal que ficava baixo e deslocado, sobretudo em
+  denominadores. O traço também aparece quando a tela é completada de uma vez pelo botão.
 - Lançamento oblíquo (modelo do app): o rótulo da velocidade em B não encosta mais no ponto B.
 - Todas aguardam a revisão do Lucas no app; o site público não muda até ele aprovar.
 
