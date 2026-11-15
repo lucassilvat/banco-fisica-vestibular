@@ -4,6 +4,37 @@ Cada versão corresponde a um lote de importação ou a uma mudança no app/pipe
 Formato: `vMAIOR.MENOR.CORREÇÃO` — MENOR sobe a cada prova importada; MAIOR, em mudanças
 de modelo de dados; CORREÇÃO, em correções de questões já publicadas.
 
+## v2.8.2 — 2026-11-14
+
+- **Resolução animada, decisões do Lucas:** sem vídeo em Manim (`videos/manim_roteiro.py`
+  removido); sem perguntas "Pense antes de avançar" (o conteúdo útil das respostas foi para
+  o texto dos passos); sem controles para o aluno mudar valores (saiu o passo "Teste você
+  mesmo" da Unesp 2025 Q78, e a resposta foi para o passo da segunda lei de Newton).
+  O `animacoes verificar` recusa campos fora de `titulo`, `conceito`, `texto`, `equacoes` e
+  `cena`.
+
+## v2.8.1 — 2026-11-14
+
+- **Correção do app:** na v2.8.0 o painel "Minha lista" ficava aberto e o botão "Fechar" não
+  funcionava. O app dependia do esqueleto de documento que o artefato acrescentava (com a
+  regra que esconde elementos com o atributo `hidden`), e a nova forma de publicar não o
+  acrescenta. `app/index.html` agora é um documento completo (`<!DOCTYPE html>`, codificação,
+  viewport e a regra do `hidden` no próprio CSS).
+
+## v2.8.0 — 2026-11-14
+
+- **Resolução animada (piloto).** Adicional à resolução comentada, que não muda: botão
+  "Resolução animada" no app, com a cena desenhada à esquerda e o passo à direita (conceito
+  físico, texto, equações uma a uma, pergunta "Pense antes de avançar"). Três questões:
+  Unesp 2025 Q78 (plano inclinado, com controle da aceleração da esteira), ENEM 2023 Q98
+  (circuito, com a corrente e o brilho das lâmpadas antes e depois da queima de L<sub>2</sub>)
+  e Unicamp 2017 Q58 (área sob o gráfico v × t, com o carro percorrendo a via).
+- **Roteiros** em `data/animacoes/<id>.json` (esquema `schemas/animacao.schema.json`,
+  explicação em `docs/ANIMACOES.md`); coleção `animacoes` no banco do app e `animacoes.json`
+  no site estático. Novo comando `python -m pipeline animacoes verificar|preparar`.
+- **Vídeo em Manim** gerado do mesmo roteiro: `videos/manim_roteiro.py` (por enquanto só o
+  modelo plano inclinado). Os vídeos ficam fora do git.
+
 ## v2.7.0 — 2026-11-14
 
 - **Fórmulas no Einstein 2023–2027 (Prova I e Prova II).** Os 10 cadernos enviados pelo

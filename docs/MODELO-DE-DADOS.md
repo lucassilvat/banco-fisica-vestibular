@@ -31,6 +31,11 @@ Esquema formal: `schemas/questao.schema.json`.
 
 ## Outros arquivos
 
+- `data/animacoes/<id>.json`: roteiro da resolução animada da questão `<id>` (opcional;
+  esquema em `schemas/animacao.schema.json`, explicação em `docs/ANIMACOES.md`). No app,
+  vai para a coleção `animacoes` (documento = id da questão) com `titulo`, `conceitos`,
+  `cena` e `passos`.
+
 - `data/taxonomia.json`: 15 áreas, 151 tópicos (`id` = slug do nome).
 - `data/fontes/manifesto.json`: cada PDF oficial usado, com banca, ano, versão, tipo,
   descrição, URL, nº de páginas e sha256. Os PDFs ficam em `fontes/`, fora do git.

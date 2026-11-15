@@ -2,7 +2,7 @@
 
   python -m pipeline site [pasta]     (padrão: site/)
 
-Copia app/index.html, grava questoes.json (só questões revisadas/publicadas, no mesmo
+Copia app/index.html, grava questoes.json, animacoes.json (roteiros das resoluções animadas) (só questões revisadas/publicadas, no mesmo
 formato do banco do app, com as figuras pelo nome do arquivo) e copia as figuras usadas
 para figuras/. O app detecta que está fora do Claude e lê esses arquivos.
 A pasta gerada fica fora do git; o GitHub Actions (.github/workflows/pages.yml) a
@@ -12,6 +12,7 @@ import json
 import shutil
 from pathlib import Path
 
+from . import animacoes
 from .comum import FIGURAS, RAIZ, carregar_questoes
 
 
@@ -43,10 +44,14 @@ def executar(destino: str = "site"):
         for f in q["figuras"]:
             shutil.copy(FIGURAS / f, out / "figuras" / f)
     (out / "questoes.json").write_text(json.dumps([documento_site(q) for q in qs], ensure_ascii=False), encoding="utf-8")
+    ids = {q["id"] for q in qs}
+    anims = {a["id"]: animacoes.documento_app(a) for a in animacoes.carregar()
+             if a["status"] in ("revisado", "publicado") and a["id"] in ids}
+    (out / "animacoes.json").write_text(json.dumps(anims, ensure_ascii=False), encoding="utf-8")
     app = (RAIZ / "app" / "index.html").read_text(encoding="utf-8")
     if not app.lstrip().lower().startswith("<!doctype"):
-        # app/index.html é o corpo publicado no artefato (que acrescenta o esqueleto do documento);
-        # fora do Claude ele precisa do esqueleto completo, com a codificação UTF-8 declarada.
+        # Desde a v2.8.1 app/index.html já é um documento completo; este ramo só vale para versões
+        # antigas, que eram só o corpo e precisavam do esqueleto e da codificação UTF-8 declarada.
         app = (CABECALHO + app + "\n</body></html>\n")
     (out / "index.html").write_text(app, encoding="utf-8")
     (out / ".nojekyll").write_text("")
