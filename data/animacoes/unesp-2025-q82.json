@@ -1,0 +1,137 @@
+{
+  "id": "unesp-2025-q82",
+  "titulo": "Quando o disjuntor desarma",
+  "conceitos": [
+    "Potência elétrica",
+    "Associação em paralelo",
+    "Disjuntores"
+  ],
+  "cena": {
+    "modelo": "soma-potencias",
+    "parametros": {
+      "U": 110,
+      "imax": 30,
+      "limite": 3300,
+      "base": [
+        [
+          "TV",
+          220
+        ],
+        [
+          "ML",
+          880
+        ]
+      ],
+      "alternativas": [
+        {
+          "letra": "A",
+          "extras": [
+            [
+              "MO",
+              880
+            ]
+          ]
+        },
+        {
+          "letra": "B",
+          "extras": [
+            [
+              "MO",
+              880
+            ],
+            [
+              "LI",
+              550
+            ]
+          ]
+        },
+        {
+          "letra": "C",
+          "extras": [
+            [
+              "MO",
+              880
+            ],
+            [
+              "FP",
+              1430
+            ]
+          ]
+        },
+        {
+          "letra": "D",
+          "extras": [
+            [
+              "FP",
+              1430
+            ]
+          ]
+        },
+        {
+          "letra": "E",
+          "extras": [
+            [
+              "LI",
+              550
+            ],
+            [
+              "FP",
+              1430
+            ]
+          ]
+        }
+      ]
+    }
+  },
+  "passos": [
+    {
+      "titulo": "O limite do disjuntor",
+      "conceito": "Disjuntores",
+      "texto": "Os aparelhos estão em paralelo na tensão de 110 V. O disjuntor desarma acima de 30 A, ou seja, acima desta potência total:",
+      "equacoes": [
+        "P_{\\text{máx}} = U \\cdot i_{\\text{máx}} = 110 \\cdot 30 = 3\\,300\\ \\text{W}"
+      ],
+      "cena": {
+        "mostrar": [
+          "limite"
+        ]
+      }
+    },
+    {
+      "titulo": "O que já está ligado",
+      "conceito": "Associação em paralelo",
+      "texto": "Em paralelo, as potências se somam.",
+      "equacoes": [
+        "P_{\\text{TV}} + P_{\\text{ML}} = 220 + 880 = 1\\,100\\ \\text{W}"
+      ],
+      "cena": {
+        "mostrar": [
+          "base"
+        ]
+      }
+    },
+    {
+      "titulo": "Testando as alternativas",
+      "conceito": "Potência elétrica",
+      "texto": "Só o micro-ondas com o ferro de passar leva a potência total acima de 3 300 W. Resposta: <b>(C)</b>.",
+      "equacoes": [
+        "1\\,100 + 880 + 1\\,430 = 3\\,410\\ \\text{W} \\quad \\Rightarrow \\quad i = \\dfrac{3\\,410}{110} = 31\\ \\text{A} > 30\\ \\text{A}"
+      ],
+      "cena": {
+        "mostrar": [
+          "alt-a",
+          "alt-b",
+          "alt-c",
+          "alt-d",
+          "alt-e"
+        ],
+        "destacar": [
+          "alt-c"
+        ]
+      }
+    }
+  ],
+  "status": "revisado",
+  "criadoEm": "2026-11-14T23:00:00-03:00",
+  "atualizadoEm": "2026-11-14T23:00:00-03:00"
+}

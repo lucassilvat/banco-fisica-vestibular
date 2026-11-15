@@ -1,0 +1,103 @@
+{
+  "id": "unesp-2025-q48",
+  "titulo": "Qual rota é mais rápida, e por quê?",
+  "conceitos": [
+    "Velocidade escalar média",
+    "Modais de transporte"
+  ],
+  "cena": {
+    "modelo": "rotas-velocidade-media",
+    "parametros": {
+      "rotas": [
+        {
+          "nome": "Opção 1",
+          "trechos": [
+            {
+              "modal": "Ferroviário",
+              "ds": 400,
+              "v": 80
+            },
+            {
+              "modal": "Rodoviário",
+              "ds": 1100,
+              "v": 55
+            }
+          ]
+        },
+        {
+          "nome": "Opção 2",
+          "trechos": [
+            {
+              "modal": "Hidroviário",
+              "ds": 1200,
+              "v": 48
+            },
+            {
+              "modal": "Rodoviário",
+              "ds": 300,
+              "v": 60
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "passos": [
+    {
+      "titulo": "As duas rotas",
+      "conceito": "Velocidade escalar média",
+      "texto": "Cada rota tem dois trechos, com distâncias e velocidades médias diferentes. As duas somam 1 500 km.",
+      "cena": {
+        "mostrar": [
+          "rotas"
+        ]
+      }
+    },
+    {
+      "titulo": "O tempo de cada trecho",
+      "conceito": "Velocidade escalar média",
+      "texto": "Em cada trecho, o tempo é a distância dividida pela velocidade.",
+      "equacoes": [
+        "\\Delta t = \\dfrac{\\Delta S}{v}"
+      ],
+      "cena": {
+        "mostrar": [
+          "tempos"
+        ],
+        "destacar": [
+          "tempos"
+        ]
+      }
+    },
+    {
+      "titulo": "A velocidade média de cada rota",
+      "conceito": "Velocidade escalar média",
+      "texto": "A velocidade média é a distância total dividida pelo tempo total, e não a média nem a soma das velocidades dos trechos. Por isso 54 km/h, 67,5 km/h e 65 km/h estão errados.",
+      "equacoes": [
+        "v_{\\text{m1}} = \\dfrac{1\\,500}{5 + 20} = 60\\ \\text{km/h}",
+        "v_{\\text{m2}} = \\dfrac{1\\,500}{25 + 5} = 50\\ \\text{km/h}"
+      ],
+      "cena": {
+        "mostrar": [
+          "totais",
+          "veiculos"
+        ],
+        "destacar": [
+          "totais"
+        ],
+        "estado": {
+          "percorrer": true
+        }
+      }
+    },
+    {
+      "titulo": "Qual rota indicar",
+      "conceito": "Modais de transporte",
+      "texto": "A opção 2 é mais lenta (50 km/h) e predominantemente hidroviária, um modal de baixo custo energético: serve para produtos de baixo valor agregado e sem urgência. Resposta: <b>(C)</b>.",
+      "cena": {}
+    }
+  ],
+  "status": "revisado",
+  "criadoEm": "2026-11-14T23:00:00-03:00",
+  "atualizadoEm": "2026-11-14T23:00:00-03:00"
+}

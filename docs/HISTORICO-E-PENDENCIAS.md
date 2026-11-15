@@ -176,11 +176,14 @@ Para gravar questões, usam-se os lotes da etapa `publicar` (docs/WORKFLOW.md).
 30. v2.9.0: o Lucas decidiu fazer as resoluções animadas por vestibular, ano a ano, começando
     pela Unesp, e medir o custo de 2026 antes de seguir automaticamente. Unesp 2026 feita
     (7 questões, 7 modelos de cena novos).
+31. v2.10.0: resoluções animadas da Unesp 2025 (as 10 questões do ano). O Lucas segue ano a
+    ano por causa do limite de créditos; quando o limite renovar, ele pede os anos seguintes
+    em sequência.
 
 ## Pendências
 
-- **Resolução animada**: formato decidido (só o player do app; ver item 29). Unesp 2026 feita;
-  próximas: Unesp 2025, 2024... (ano a ano), depois de o Lucas medir o custo de 2026.
+- **Resolução animada**: formato decidido (só o player do app; ver item 29). Unesp 2026 e 2025
+  feitas; próximas: Unesp 2024, 2023... (ano a ano).
 
 - **Fórmulas**: todas as provas do banco foram conferidas (v2.1.0 a v2.7.0). Única ressalva:
   a Unicamp 2027 foi conferida no caderno das provas S e W, e o registrado no manifesto é o

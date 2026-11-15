@@ -1,0 +1,56 @@
+{
+  "id": "unesp-2025-q81",
+  "titulo": "Quanto tempo a onda leva até o pino",
+  "conceitos": [
+    "Elementos de uma onda",
+    "Equação fundamental da ondulatória"
+  ],
+  "cena": {
+    "modelo": "onda-corda",
+    "parametros": {
+      "lambda": 0.6,
+      "f": 3,
+      "dist": 1.8
+    }
+  },
+  "passos": [
+    {
+      "titulo": "Lendo a figura",
+      "conceito": "Elementos de uma onda",
+      "texto": "Uma oscilação completa da corda é um comprimento de onda: λ = 0,6 m. A frente da onda está a 1,8 m do pino.",
+      "cena": {
+        "mostrar": [
+          "pino",
+          "corda",
+          "frente",
+          "cotas"
+        ]
+      }
+    },
+    {
+      "titulo": "A velocidade da onda",
+      "conceito": "Equação fundamental da ondulatória",
+      "texto": "A onda avança um comprimento de onda a cada período.",
+      "equacoes": [
+        "v = \\lambda f = 0,6 \\cdot 3 = 1,8\\ \\text{m/s}"
+      ],
+      "cena": {}
+    },
+    {
+      "titulo": "Até o pino",
+      "conceito": "Equação fundamental da ondulatória",
+      "texto": "Com velocidade constante, a frente percorre 1,8 m. Resposta: <b>(E) 1,0 s</b>.",
+      "equacoes": [
+        "\\Delta t = \\dfrac{1,8}{1,8} = 1,0\\ \\text{s}"
+      ],
+      "cena": {
+        "estado": {
+          "propagar": true
+        }
+      }
+    }
+  ],
+  "status": "revisado",
+  "criadoEm": "2026-11-14T23:00:00-03:00",
+  "atualizadoEm": "2026-11-14T23:00:00-03:00"
+}

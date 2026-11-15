@@ -1,0 +1,50 @@
+{
+  "id": "unesp-2025-q80",
+  "titulo": "A mesma lapiseira vista por duas lentes",
+  "conceitos": [
+    "Aumento linear transversal"
+  ],
+  "cena": {
+    "modelo": "aumento-linear",
+    "parametros": {
+      "i1": 1.6,
+      "A1": 2,
+      "A2": 0.8
+    }
+  },
+  "passos": [
+    {
+      "titulo": "A largura real da lapiseira",
+      "conceito": "Aumento linear transversal",
+      "texto": "O aumento é a razão entre o tamanho da imagem e o tamanho do objeto. Com a imagem 1 de 1,6 cm e A<sub>1</sub> = 2, a lapiseira tem 0,8 cm.",
+      "equacoes": [
+        "\\mathrm{A} = \\dfrac{i}{o} \\quad \\Rightarrow \\quad o = \\dfrac{1,6}{2} = 0,8\\ \\text{cm}"
+      ],
+      "cena": {
+        "mostrar": [
+          "imagem-1",
+          "objeto"
+        ]
+      }
+    },
+    {
+      "titulo": "A imagem na lente divergente",
+      "conceito": "Aumento linear transversal",
+      "texto": "É a mesma lapiseira, agora com aumento 0,8. Resposta: <b>(B) 0,64 cm</b>.",
+      "equacoes": [
+        "\\text{L} = 0,8 \\cdot 0,8 = 0,64\\ \\text{cm}"
+      ],
+      "cena": {
+        "mostrar": [
+          "imagem-2"
+        ],
+        "destacar": [
+          "imagem-2"
+        ]
+      }
+    }
+  ],
+  "status": "revisado",
+  "criadoEm": "2026-11-14T23:00:00-03:00",
+  "atualizadoEm": "2026-11-14T23:00:00-03:00"
+}

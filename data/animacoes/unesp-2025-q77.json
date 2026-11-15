@@ -1,0 +1,106 @@
+{
+  "id": "unesp-2025-q77",
+  "titulo": "Montando a velocidade inicial a partir das componentes",
+  "conceitos": [
+    "Lançamento oblíquo",
+    "Composição de movimentos",
+    "Soma vetorial"
+  ],
+  "cena": {
+    "modelo": "lancamento-obliquo",
+    "parametros": {
+      "coef": [
+        -0.2,
+        1.6,
+        4
+      ],
+      "xC": 10,
+      "tB": 0.8,
+      "tC": 2,
+      "vx": 5,
+      "vy": 8
+    }
+  },
+  "passos": [
+    {
+      "titulo": "Dois movimentos ao mesmo tempo",
+      "conceito": "Composição de movimentos",
+      "texto": "Sem resistência do ar, a bola faz movimento uniforme na horizontal e movimento uniformemente variado (aceleração g) na vertical.",
+      "cena": {
+        "mostrar": [
+          "eixos",
+          "terreno",
+          "trajetoria",
+          "pontos",
+          "bola"
+        ],
+        "estado": {
+          "lancar": true
+        }
+      }
+    },
+    {
+      "titulo": "Componente vertical",
+      "conceito": "Lançamento oblíquo",
+      "texto": "No ponto mais alto, B, a velocidade vertical é nula, e a bola chega lá em 0,8 s.",
+      "equacoes": [
+        "v_{y} = v_{0y} - g t \\quad \\Rightarrow \\quad 0 = v_{0y} - 10 \\cdot 0,8 \\quad \\Rightarrow \\quad v_{0y} = 8\\ \\text{m/s}"
+      ],
+      "cena": {
+        "mostrar": [
+          "velocidade-b"
+        ],
+        "destacar": [
+          "velocidade-b"
+        ],
+        "estado": {
+          "lancar": false,
+          "t": 0.8
+        }
+      }
+    },
+    {
+      "titulo": "Componente horizontal",
+      "conceito": "Composição de movimentos",
+      "texto": "B é o vértice da parábola da trajetória. Na horizontal o movimento é uniforme: a bola anda 4 m em 0,8 s.",
+      "equacoes": [
+        "x_{\\text{B}} = -\\dfrac{1,6}{2 \\cdot (-0,2)} = 4\\ \\text{m}",
+        "v_{0x} = \\dfrac{4}{0,8} = 5\\ \\text{m/s}"
+      ],
+      "cena": {
+        "mostrar": [
+          "vertice"
+        ],
+        "destacar": [
+          "vertice"
+        ]
+      }
+    },
+    {
+      "titulo": "O módulo da velocidade inicial",
+      "conceito": "Soma vetorial",
+      "texto": "As componentes são perpendiculares, e o módulo de \\(\\vec{v}_{0}\\) vem do teorema de Pitágoras. Resposta: <b>(E) \\(\\sqrt{89}\\) m/s</b>.",
+      "equacoes": [
+        "v_{0} = \\sqrt{5^{2} + 8^{2}} = \\sqrt{89}\\ \\text{m/s}"
+      ],
+      "cena": {
+        "ocultar": [
+          "velocidade-b",
+          "vertice"
+        ],
+        "mostrar": [
+          "componentes"
+        ],
+        "destacar": [
+          "componentes"
+        ],
+        "estado": {
+          "t": 0
+        }
+      }
+    }
+  ],
+  "status": "revisado",
+  "criadoEm": "2026-11-14T23:00:00-03:00",
+  "atualizadoEm": "2026-11-14T23:00:00-03:00"
+}
