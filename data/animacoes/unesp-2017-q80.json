@@ -1,0 +1,271 @@
+{
+  "id": "unesp-2017-q80",
+  "titulo": "Até onde a boia esconde o tubo",
+  "conceitos": [
+    "Reflexão total e ângulo limite",
+    "Lei de Snell-Descartes"
+  ],
+  "cena": {
+    "modelo": "diagrama",
+    "parametros": {
+      "elementos": {
+        "agua": [
+          {
+            "t": "ret",
+            "x": 60,
+            "y": 110,
+            "w": 540,
+            "h": 300,
+            "cor": "#bfe6f7",
+            "borda": null
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                60,
+                110
+              ],
+              [
+                600,
+                110
+              ]
+            ],
+            "cor": "normal",
+            "larg": 2
+          },
+          {
+            "t": "texto",
+            "x": 70,
+            "y": 98,
+            "txt": "ar (n = 1,00)",
+            "mudo": true,
+            "ancora": "start"
+          },
+          {
+            "t": "texto",
+            "x": 70,
+            "y": 128,
+            "txt": "água (n = 1,25)",
+            "mudo": true,
+            "ancora": "start"
+          },
+          {
+            "t": "ret",
+            "x": 278.0,
+            "y": 100,
+            "w": 104.0,
+            "h": 10,
+            "cor": "#f2c230",
+            "borda": "tinta",
+            "rx": 4
+          },
+          {
+            "t": "cota",
+            "de": [
+              330,
+              84
+            ],
+            "para": [
+              382.0,
+              84
+            ],
+            "cor": "normal",
+            "rot_em": [
+              356.0,
+              68
+            ],
+            "txt": "20 cm"
+          }
+        ],
+        "tubo": [
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                330,
+                110
+              ],
+              [
+                330,
+                370.0
+              ]
+            ],
+            "cor": "#d6337f",
+            "larg": 5
+          },
+          {
+            "t": "texto",
+            "x": 320,
+            "y": 266.0,
+            "txt": "1 m",
+            "negrito": true,
+            "ancora": "end"
+          }
+        ],
+        "limite": [
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                330,
+                149.0
+              ],
+              [
+                382.0,
+                110
+              ]
+            ],
+            "cor": "perigo",
+            "larg": 2.5
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                330,
+                149.0
+              ],
+              [
+                278.0,
+                110
+              ]
+            ],
+            "cor": "perigo",
+            "larg": 2.5
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                382.0,
+                110
+              ],
+              [
+                502.0,
+                110
+              ]
+            ],
+            "cor": "perigo",
+            "larg": 2.5,
+            "tracejado": true
+          },
+          {
+            "t": "texto",
+            "x": 506.0,
+            "y": 124,
+            "txt": "sai rasante",
+            "cor": "perigo",
+            "negrito": true,
+            "ancora": "start"
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                382.0,
+                110
+              ],
+              [
+                382.0,
+                190
+              ]
+            ],
+            "cor": "mudo",
+            "larg": 1,
+            "tracejado": true
+          },
+          {
+            "t": "angulo",
+            "centro": [
+              382.0,
+              110
+            ],
+            "de": 90,
+            "ate": 143.13010235415598,
+            "r": 40,
+            "cor": "perigo",
+            "dist": 14,
+            "rotulo": "L"
+          }
+        ],
+        "partes": [
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                330,
+                110
+              ],
+              [
+                330,
+                149.0
+              ]
+            ],
+            "cor": "#7a7a7a",
+            "larg": 7
+          },
+          {
+            "t": "rotulo",
+            "x": 200,
+            "y": 167.2,
+            "txt": "oculto: 15 cm",
+            "cor": "var(--muted)"
+          },
+          {
+            "t": "rotulo",
+            "x": 440,
+            "y": 292.0,
+            "txt": "visível: 85 cm",
+            "cor": "var(--danger)"
+          }
+        ]
+      }
+    }
+  },
+  "passos": [
+    {
+      "titulo": "O ângulo limite",
+      "conceito": "Reflexão total e ângulo limite",
+      "texto": "Um ponto do tubo é visto se algum raio dele atravessa a superfície fora da boia sem reflexão total.",
+      "equacoes": [
+        "\\sen L = \\dfrac{1,00}{1,25} = 0,8 \\quad \\Rightarrow \\quad \\cos L = 0,6, \\quad \\tg L = \\dfrac{4}{3}"
+      ],
+      "cena": {
+        "mostrar": [
+          "agua",
+          "tubo"
+        ]
+      }
+    },
+    {
+      "titulo": "O raio pela borda da boia",
+      "conceito": "Reflexão total e ângulo limite",
+      "texto": "O raio que sai de um ponto a uma profundidade h e passa rente à borda da boia (a 0,2 m do eixo) é o de menor incidência que escapa. Ele sai da água se seu ângulo de incidência for menor que L, e isso só acontece se h passar de 0,15 m.",
+      "equacoes": [
+        "\\tg i = \\dfrac{0,2}{h} < \\dfrac{4}{3} \\quad \\Rightarrow \\quad h > 0,15\\ \\text{m}"
+      ],
+      "cena": {
+        "mostrar": [
+          "limite"
+        ]
+      }
+    },
+    {
+      "titulo": "A parte visível",
+      "conceito": "Reflexão total e ângulo limite",
+      "texto": "Os primeiros 15 cm logo abaixo da boia ficam ocultos; o resto do tubo é visível. Resposta: <b>(B) 85 cm</b>.",
+      "cena": {
+        "mostrar": [
+          "partes"
+        ],
+        "destacar": [
+          "partes"
+        ]
+      }
+    }
+  ],
+  "status": "revisado",
+  "criadoEm": "2026-11-15T09:00:00-03:00",
+  "atualizadoEm": "2026-11-15T09:00:00-03:00"
+}

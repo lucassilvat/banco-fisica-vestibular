@@ -1,0 +1,205 @@
+{
+  "id": "unesp-2023-q80",
+  "titulo": "Qual líquido deixa o raio mais deitado",
+  "conceitos": [
+    "Refração da luz",
+    "Lei de Snell-Descartes"
+  ],
+  "cena": {
+    "modelo": "diagrama",
+    "parametros": {
+      "elementos": {
+        "meios": [
+          {
+            "t": "ret",
+            "x": 40,
+            "y": 170,
+            "w": 560,
+            "h": 230,
+            "cor": "#dcdcd2",
+            "borda": "tinta"
+          },
+          {
+            "t": "texto",
+            "x": 60,
+            "y": 150,
+            "txt": "ar",
+            "negrito": true,
+            "ancora": "start",
+            "tam": 18
+          },
+          {
+            "t": "texto",
+            "x": 60,
+            "y": 200,
+            "txt": "líquido",
+            "negrito": true,
+            "ancora": "start",
+            "tam": 18
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                300,
+                60
+              ],
+              [
+                300,
+                390
+              ]
+            ],
+            "cor": "mudo",
+            "larg": 1.5,
+            "tracejado": true
+          },
+          {
+            "t": "texto",
+            "x": 306,
+            "y": 66,
+            "txt": "normal",
+            "mudo": true,
+            "ancora": "start"
+          }
+        ],
+        "incidente": [
+          {
+            "t": "seta",
+            "de": [
+              170.1,
+              95.0
+            ],
+            "para": [
+              300,
+              170
+            ],
+            "cor": "perigo",
+            "larg": 3
+          }
+        ],
+        "raio-135": [
+          {
+            "t": "seta",
+            "de": [
+              300,
+              170
+            ],
+            "para": [
+              460.4,
+              361.8
+            ],
+            "cor": "normal",
+            "larg": 3
+          },
+          {
+            "t": "texto",
+            "x": 468.4,
+            "y": 361.8,
+            "txt": "n = 1,35",
+            "negrito": true,
+            "cor": "normal",
+            "ancora": "start"
+          }
+        ],
+        "raio-147": [
+          {
+            "t": "seta",
+            "de": [
+              300,
+              170
+            ],
+            "para": [
+              447.3,
+              372.0
+            ],
+            "cor": "atrito",
+            "larg": 3
+          },
+          {
+            "t": "texto",
+            "x": 437.3,
+            "y": 376.0,
+            "txt": "n = 1,47",
+            "negrito": true,
+            "cor": "atrito",
+            "ancora": "end"
+          }
+        ],
+        "angulos": [
+          {
+            "t": "angulo",
+            "centro": [
+              300,
+              170
+            ],
+            "de": 0,
+            "ate": 39.903784212314136,
+            "r": 70,
+            "cor": "normal",
+            "dist": 46,
+            "cor_rotulo": "normal",
+            "rotulo": "α ≈ 50°"
+          },
+          {
+            "t": "angulo",
+            "centro": [
+              300,
+              170
+            ],
+            "de": 90,
+            "ate": 50.096215787685864,
+            "r": 46,
+            "cor": "perigo",
+            "dist": 18,
+            "rotulo": "r"
+          }
+        ]
+      }
+    }
+  },
+  "passos": [
+    {
+      "titulo": "α e o ângulo de refração",
+      "conceito": "Refração da luz",
+      "texto": "α é medido a partir da superfície; o ângulo de refração r é medido a partir da normal. Então α = 90° − r: α menor significa r maior.",
+      "cena": {
+        "mostrar": [
+          "meios",
+          "incidente",
+          "raio-135",
+          "angulos"
+        ]
+      }
+    },
+    {
+      "titulo": "Qual índice dá o maior r",
+      "conceito": "Lei de Snell-Descartes",
+      "texto": "Com o mesmo ângulo de incidência, sen r é maior quanto menor for o índice do líquido. Compare os raios para n = 1,35 e n = 1,47: o de menor índice se afasta mais da normal.",
+      "equacoes": [
+        "n_{\\text{ar}} \\sen i = n_{\\text{líq}} \\sen r \\quad \\Rightarrow \\quad \\sen r = \\dfrac{\\sen i}{n_{\\text{líq}}}"
+      ],
+      "cena": {
+        "mostrar": [
+          "raio-147"
+        ],
+        "destacar": [
+          "raio-135",
+          "raio-147"
+        ]
+      }
+    },
+    {
+      "titulo": "O líquido",
+      "conceito": "Lei de Snell-Descartes",
+      "texto": "O menor índice da tabela é o da propanona (acetona), n = 1,35. A propanona é a cetona de três carbonos, H<sub>3</sub>C–CO–CH<sub>3</sub>. Resposta: <b>(C)</b>.",
+      "cena": {
+        "destacar": [
+          "raio-135"
+        ]
+      }
+    }
+  ],
+  "status": "revisado",
+  "criadoEm": "2026-11-15T09:00:00-03:00",
+  "atualizadoEm": "2026-11-15T09:00:00-03:00"
+}

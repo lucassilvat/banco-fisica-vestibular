@@ -1,0 +1,422 @@
+{
+  "id": "unesp-2024-q82",
+  "titulo": "Somando o campo do solenoide com o da Terra",
+  "conceitos": [
+    "Campo magnético de solenoide",
+    "Regra da mão direita",
+    "Soma vetorial"
+  ],
+  "cena": {
+    "modelo": "diagrama",
+    "parametros": {
+      "elementos": {
+        "face": [
+          {
+            "t": "ret",
+            "x": 110,
+            "y": 90,
+            "w": 270,
+            "h": 240,
+            "cor": null,
+            "borda": "tinta"
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                60,
+                210
+              ],
+              [
+                440,
+                210
+              ]
+            ],
+            "cor": "normal",
+            "larg": 1.5,
+            "tracejado": true
+          },
+          {
+            "t": "texto",
+            "x": 60,
+            "y": 196,
+            "txt": "eixo do solenoide",
+            "mudo": true,
+            "ancora": "start"
+          }
+        ],
+        "bobina": [
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                140,
+                340
+              ],
+              [
+                180,
+                80
+              ]
+            ],
+            "cor": "#b5532e",
+            "larg": 3
+          },
+          {
+            "t": "seta",
+            "de": [
+              162,
+              223
+            ],
+            "para": [
+              157,
+              255
+            ],
+            "cor": "#b5532e",
+            "larg": 2.5
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                190,
+                340
+              ],
+              [
+                230,
+                80
+              ]
+            ],
+            "cor": "#b5532e",
+            "larg": 3
+          },
+          {
+            "t": "seta",
+            "de": [
+              212,
+              223
+            ],
+            "para": [
+              207,
+              255
+            ],
+            "cor": "#b5532e",
+            "larg": 2.5
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                240,
+                340
+              ],
+              [
+                280,
+                80
+              ]
+            ],
+            "cor": "#b5532e",
+            "larg": 3
+          },
+          {
+            "t": "seta",
+            "de": [
+              262,
+              223
+            ],
+            "para": [
+              257,
+              255
+            ],
+            "cor": "#b5532e",
+            "larg": 2.5
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                290,
+                340
+              ],
+              [
+                330,
+                80
+              ]
+            ],
+            "cor": "#b5532e",
+            "larg": 3
+          },
+          {
+            "t": "seta",
+            "de": [
+              312,
+              223
+            ],
+            "para": [
+              307,
+              255
+            ],
+            "cor": "#b5532e",
+            "larg": 2.5
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                340,
+                340
+              ],
+              [
+                380,
+                80
+              ]
+            ],
+            "cor": "#b5532e",
+            "larg": 3
+          },
+          {
+            "t": "seta",
+            "de": [
+              362,
+              223
+            ],
+            "para": [
+              357,
+              255
+            ],
+            "cor": "#b5532e",
+            "larg": 2.5
+          },
+          {
+            "t": "caminho",
+            "d": "M180,80 Q185,60 190,72",
+            "cor": "#b5532e",
+            "larg": 3
+          },
+          {
+            "t": "caminho",
+            "d": "M230,80 Q235,60 240,72",
+            "cor": "#b5532e",
+            "larg": 3
+          },
+          {
+            "t": "caminho",
+            "d": "M280,80 Q285,60 290,72",
+            "cor": "#b5532e",
+            "larg": 3
+          },
+          {
+            "t": "caminho",
+            "d": "M330,80 Q335,60 340,72",
+            "cor": "#b5532e",
+            "larg": 3
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                140,
+                340
+              ],
+              [
+                140,
+                380
+              ]
+            ],
+            "cor": "#b5532e",
+            "larg": 3
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                390,
+                340
+              ],
+              [
+                390,
+                380
+              ]
+            ],
+            "cor": "#b5532e",
+            "larg": 3
+          },
+          {
+            "t": "texto",
+            "x": 128,
+            "y": 372,
+            "txt": "i",
+            "negrito": true,
+            "ancora": "end"
+          },
+          {
+            "t": "texto",
+            "x": 402,
+            "y": 372,
+            "txt": "i",
+            "negrito": true,
+            "ancora": "start"
+          },
+          {
+            "t": "seta",
+            "de": [
+              128,
+              342
+            ],
+            "para": [
+              128,
+              368
+            ],
+            "cor": "perigo",
+            "larg": 2
+          },
+          {
+            "t": "seta",
+            "de": [
+              402,
+              368
+            ],
+            "para": [
+              402,
+              342
+            ],
+            "cor": "perigo",
+            "larg": 2
+          }
+        ],
+        "b-sol": [
+          {
+            "t": "seta",
+            "de": [
+              520,
+              230
+            ],
+            "para": [
+              610,
+              230
+            ],
+            "cor": "peso",
+            "larg": 3,
+            "rot_em": [
+              580,
+              254
+            ],
+            "rotulo": "B",
+            "sub": "sol"
+          }
+        ],
+        "b-t": [
+          {
+            "t": "seta",
+            "de": [
+              520,
+              230
+            ],
+            "para": [
+              520,
+              140
+            ],
+            "cor": "atrito",
+            "larg": 3,
+            "rot_em": [
+              508,
+              154
+            ],
+            "ancora": "end",
+            "rotulo": "B",
+            "sub": "T"
+          }
+        ],
+        "b-res": [
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                610,
+                230
+              ],
+              [
+                610,
+                140
+              ],
+              [
+                520,
+                140
+              ]
+            ],
+            "cor": "mudo",
+            "larg": 1.2,
+            "tracejado": true
+          },
+          {
+            "t": "seta",
+            "de": [
+              520,
+              230
+            ],
+            "para": [
+              610,
+              140
+            ],
+            "cor": "acel",
+            "larg": 4,
+            "rot_em": [
+              560,
+              126
+            ],
+            "rotulo": "B",
+            "sub": "res"
+          }
+        ]
+      }
+    }
+  },
+  "passos": [
+    {
+      "titulo": "O campo do solenoide",
+      "conceito": "Campo magnético de solenoide",
+      "texto": "Dentro do solenoide, o campo da corrente tem a direção do eixo. Seguindo o fio: ele sobe por trás da face e desce pelos trechos inclinados da frente. Com os dedos da mão direita nesse giro, o polegar aponta para a direita.",
+      "cena": {
+        "mostrar": [
+          "face",
+          "bobina",
+          "b-sol"
+        ],
+        "destacar": [
+          "b-sol"
+        ]
+      }
+    },
+    {
+      "titulo": "O campo da Terra",
+      "conceito": "Campo magnético terrestre",
+      "texto": "O campo terrestre está no plano da figura, vertical, para cima.",
+      "cena": {
+        "mostrar": [
+          "b-t"
+        ],
+        "destacar": [
+          "b-t"
+        ]
+      }
+    },
+    {
+      "titulo": "O campo sentido pelo tubarão",
+      "conceito": "Soma vetorial",
+      "texto": "O campo total é a soma vetorial dos dois: um vetor no plano da figura, inclinado para cima e para a direita. Resposta: <b>(B)</b>.",
+      "equacoes": [
+        "\\vec{B} = \\vec{B}_{\\text{sol}} + \\vec{B}_{\\text{T}}"
+      ],
+      "cena": {
+        "mostrar": [
+          "b-res"
+        ],
+        "destacar": [
+          "b-res"
+        ]
+      }
+    }
+  ],
+  "status": "revisado",
+  "criadoEm": "2026-11-15T09:00:00-03:00",
+  "atualizadoEm": "2026-11-15T09:00:00-03:00"
+}

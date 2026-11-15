@@ -1,0 +1,173 @@
+{
+  "id": "unesp-2016-q80",
+  "titulo": "Por que o topo da montanha é frio",
+  "conceitos": [
+    "Primeira lei da termodinâmica",
+    "Transformações gasosas"
+  ],
+  "cena": {
+    "modelo": "diagrama",
+    "parametros": {
+      "elementos": {
+        "montanha": [
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                40,
+                380
+              ],
+              [
+                250,
+                110
+              ],
+              [
+                330,
+                80
+              ],
+              [
+                420,
+                120
+              ],
+              [
+                620,
+                380
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 2,
+            "fechada": true,
+            "preench": "#b9a27e"
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                40,
+                380
+              ],
+              [
+                620,
+                380
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 2
+          }
+        ],
+        "ar": [
+          {
+            "t": "circ",
+            "x": 110,
+            "y": 330,
+            "r": 22,
+            "cor": "#f28b5b",
+            "borda": "tinta"
+          },
+          {
+            "t": "circ",
+            "x": 200,
+            "y": 190,
+            "r": 34,
+            "cor": "#9fc6e8",
+            "borda": "tinta"
+          },
+          {
+            "t": "seta",
+            "de": [
+              126,
+              310
+            ],
+            "para": [
+              180,
+              222
+            ],
+            "cor": "tinta",
+            "larg": 2.5
+          },
+          {
+            "t": "texto",
+            "x": 110,
+            "y": 370,
+            "txt": "ar quente",
+            "mudo": true
+          },
+          {
+            "t": "rotulo",
+            "x": 330,
+            "y": 40,
+            "txt": "o ar sobe, expande e esfria (adiabática)",
+            "cor": "var(--accent)"
+          }
+        ],
+        "radiacao": [
+          {
+            "t": "seta",
+            "de": [
+              600,
+              120
+            ],
+            "para": [
+              500,
+              270
+            ],
+            "cor": "luz",
+            "larg": 3
+          },
+          {
+            "t": "seta",
+            "de": [
+              520,
+              70
+            ],
+            "para": [
+              390,
+              125
+            ],
+            "cor": "luz",
+            "larg": 3
+          },
+          {
+            "t": "rotulo",
+            "x": 330,
+            "y": 410,
+            "txt": "encosta inclinada: absorve menos e irradia menos",
+            "cor": "var(--danger)"
+          }
+        ]
+      }
+    }
+  },
+  "passos": [
+    {
+      "titulo": "O ar que sobe",
+      "conceito": "Primeira lei da termodinâmica",
+      "texto": "Subindo, o ar fica sob pressão menor e se expande rápido, sem tempo de trocar calor: expansão adiabática. Com Q = 0, o trabalho da expansão sai da energia interna, e o ar esfria. Isso elimina D (isocórica) e E (isotérmica).",
+      "equacoes": [
+        "Q = 0 \\quad \\Rightarrow \\quad \\Delta U = -\\tau < 0"
+      ],
+      "cena": {
+        "mostrar": [
+          "montanha",
+          "ar"
+        ]
+      }
+    },
+    {
+      "titulo": "A radiação da superfície",
+      "conceito": "Transformações gasosas",
+      "texto": "Quem aquece o ar é a superfície, que irradia. Nas encostas inclinadas ela absorve menos radiação e irradia menos para o ar. A é falsa (o ar é mau condutor) e C fala de algo que o texto não diz. Resposta: <b>(B)</b>.",
+      "cena": {
+        "mostrar": [
+          "radiacao"
+        ],
+        "destacar": [
+          "radiacao"
+        ]
+      }
+    }
+  ],
+  "status": "revisado",
+  "criadoEm": "2026-11-15T09:00:00-03:00",
+  "atualizadoEm": "2026-11-15T09:00:00-03:00"
+}

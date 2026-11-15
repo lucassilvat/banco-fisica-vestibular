@@ -1,0 +1,228 @@
+{
+  "id": "unesp-2021-q79",
+  "titulo": "Mesma queda, energias diferentes",
+  "conceitos": [
+    "Queda livre",
+    "Energia cinética"
+  ],
+  "cena": {
+    "modelo": "diagrama",
+    "parametros": {
+      "elementos": {
+        "cena": [
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                40,
+                374
+              ],
+              [
+                400,
+                374
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 2
+          },
+          {
+            "t": "texto",
+            "x": 120,
+            "y": 60,
+            "txt": "madeira",
+            "negrito": true,
+            "cor": "#9a6a3a"
+          },
+          {
+            "t": "texto",
+            "x": 300,
+            "y": 60,
+            "txt": "aço",
+            "negrito": true,
+            "cor": "mudo"
+          }
+        ],
+        "madeira": [
+          {
+            "t": "circ",
+            "x": 120,
+            "y": 100,
+            "r": 14,
+            "cor": "#c9944a",
+            "borda": "tinta"
+          }
+        ],
+        "aco": [
+          {
+            "t": "circ",
+            "x": 300,
+            "y": 100,
+            "r": 14,
+            "cor": "#8a929e",
+            "borda": "tinta"
+          }
+        ],
+        "mesmo": [
+          {
+            "t": "texto",
+            "x": 210,
+            "y": 230,
+            "txt": "mesma aceleração g",
+            "negrito": true,
+            "cor": "acel"
+          },
+          {
+            "t": "texto",
+            "x": 210,
+            "y": 254,
+            "txt": "chegam juntas, com a mesma v",
+            "negrito": true,
+            "cor": "acel"
+          }
+        ],
+        "energia": [
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                440,
+                340.0
+              ],
+              [
+                610,
+                340.0
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 1.5
+          },
+          {
+            "t": "texto",
+            "x": 525.0,
+            "y": 64,
+            "txt": "energia cinética no solo",
+            "negrito": true
+          },
+          {
+            "t": "ret",
+            "x": 457.0,
+            "y": 236.0,
+            "w": 50,
+            "h": 104.0,
+            "cor": "#c9944a",
+            "borda": null
+          },
+          {
+            "t": "texto",
+            "x": 482.0,
+            "y": 356.0,
+            "txt": "madeira",
+            "mudo": true
+          },
+          {
+            "t": "ret",
+            "x": 533.5,
+            "y": 106.0,
+            "w": 50,
+            "h": 234.0,
+            "cor": "#8a929e",
+            "borda": null
+          },
+          {
+            "t": "texto",
+            "x": 558.5,
+            "y": 356.0,
+            "txt": "aço",
+            "mudo": true
+          },
+          {
+            "t": "texto",
+            "x": 525.0,
+            "y": 380.0,
+            "txt": "E_{c} = mv²/2",
+            "negrito": true
+          }
+        ]
+      },
+      "animacoes": {
+        "cai-m": {
+          "alvo": "madeira",
+          "tipo": "trajeto",
+          "pontos": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              260
+            ]
+          ],
+          "duracao": 1.4,
+          "pausa": 1,
+          "acelerado": true
+        },
+        "cai-a": {
+          "alvo": "aco",
+          "tipo": "trajeto",
+          "pontos": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              260
+            ]
+          ],
+          "duracao": 1.4,
+          "pausa": 1,
+          "acelerado": true
+        }
+      }
+    }
+  },
+  "passos": [
+    {
+      "titulo": "A queda",
+      "conceito": "Queda livre",
+      "texto": "Sem resistência do ar, as duas caem com a mesma aceleração g, qualquer que seja a massa. Partindo juntas da mesma altura, chegam juntas e com a mesma velocidade. Isso elimina A, C e E.",
+      "equacoes": [
+        "v = \\sqrt{2gh}"
+      ],
+      "cena": {
+        "mostrar": [
+          "cena",
+          "madeira",
+          "aco",
+          "mesmo"
+        ],
+        "estado": {
+          "animar": [
+            "cai-m",
+            "cai-a"
+          ]
+        }
+      }
+    },
+    {
+      "titulo": "As energias",
+      "conceito": "Energia cinética",
+      "texto": "A energia mecânica (mgh no início) e a energia cinética no solo (mv²/2, com o mesmo v) dependem da massa: a esfera de aço, mais pesada, tem mais. B é falsa. Resposta: <b>(D)</b>.",
+      "cena": {
+        "mostrar": [
+          "energia"
+        ],
+        "destacar": [
+          "energia"
+        ],
+        "estado": {
+          "animar": []
+        }
+      }
+    }
+  ],
+  "status": "revisado",
+  "criadoEm": "2026-11-15T09:00:00-03:00",
+  "atualizadoEm": "2026-11-15T09:00:00-03:00"
+}

@@ -1,0 +1,241 @@
+{
+  "id": "unesp-2016-q79",
+  "titulo": "Da energia em C de volta ao ponto B",
+  "conceitos": [
+    "Conservação da energia mecânica",
+    "Quantidade de movimento"
+  ],
+  "cena": {
+    "modelo": "diagrama",
+    "parametros": {
+      "elementos": {
+        "etapa-1": [
+          {
+            "t": "ret",
+            "x": 30,
+            "y": 16,
+            "w": 420,
+            "h": 40,
+            "cor": "suave",
+            "borda": "normal",
+            "rx": 7
+          },
+          {
+            "t": "texto",
+            "x": 42,
+            "y": 36.0,
+            "txt": "energia mecânica em C (ref.: nível de B)",
+            "mudo": true,
+            "ancora": "start"
+          },
+          {
+            "t": "texto",
+            "x": 438,
+            "y": 36.0,
+            "txt": "16 000 J",
+            "negrito": true,
+            "ancora": "end"
+          }
+        ],
+        "etapa-2": [
+          {
+            "t": "seta",
+            "de": [
+              240.0,
+              59
+            ],
+            "para": [
+              240.0,
+              79
+            ],
+            "cor": "tinta",
+            "larg": 1.8
+          },
+          {
+            "t": "texto",
+            "x": 252.0,
+            "y": 69.0,
+            "txt": "÷ 0,8",
+            "negrito": true,
+            "cor": "acel",
+            "ancora": "start"
+          },
+          {
+            "t": "ret",
+            "x": 30,
+            "y": 82,
+            "w": 420,
+            "h": 40,
+            "cor": "suave",
+            "borda": "normal",
+            "rx": 7
+          },
+          {
+            "t": "texto",
+            "x": 42,
+            "y": 102.0,
+            "txt": "energia cinética em B (perdeu 20%)",
+            "mudo": true,
+            "ancora": "start"
+          },
+          {
+            "t": "texto",
+            "x": 438,
+            "y": 102.0,
+            "txt": "20 000 J",
+            "negrito": true,
+            "ancora": "end"
+          }
+        ],
+        "etapa-3": [
+          {
+            "t": "seta",
+            "de": [
+              240.0,
+              125
+            ],
+            "para": [
+              240.0,
+              145
+            ],
+            "cor": "tinta",
+            "larg": 1.8
+          },
+          {
+            "t": "texto",
+            "x": 252.0,
+            "y": 135.0,
+            "txt": "½mv² = 20 000",
+            "negrito": true,
+            "cor": "acel",
+            "ancora": "start"
+          },
+          {
+            "t": "ret",
+            "x": 30,
+            "y": 148,
+            "w": 420,
+            "h": 40,
+            "cor": "suave",
+            "borda": "normal",
+            "rx": 7
+          },
+          {
+            "t": "texto",
+            "x": 42,
+            "y": 168.0,
+            "txt": "velocidade em B",
+            "mudo": true,
+            "ancora": "start"
+          },
+          {
+            "t": "texto",
+            "x": 438,
+            "y": 168.0,
+            "txt": "20 m/s",
+            "negrito": true,
+            "ancora": "end"
+          }
+        ],
+        "etapa-4": [
+          {
+            "t": "seta",
+            "de": [
+              240.0,
+              191
+            ],
+            "para": [
+              240.0,
+              211
+            ],
+            "cor": "tinta",
+            "larg": 1.8
+          },
+          {
+            "t": "texto",
+            "x": 252.0,
+            "y": 201.0,
+            "txt": "Q = mv",
+            "negrito": true,
+            "cor": "acel",
+            "ancora": "start"
+          },
+          {
+            "t": "ret",
+            "x": 30,
+            "y": 214,
+            "w": 420,
+            "h": 40,
+            "cor": "suave",
+            "borda": "normal",
+            "rx": 7
+          },
+          {
+            "t": "texto",
+            "x": 42,
+            "y": 234.0,
+            "txt": "quantidade de movimento",
+            "mudo": true,
+            "ancora": "start"
+          },
+          {
+            "t": "texto",
+            "x": 438,
+            "y": 234.0,
+            "txt": "2 000 kg · m/s",
+            "negrito": true,
+            "ancora": "end"
+          }
+        ]
+      }
+    }
+  },
+  "passos": [
+    {
+      "titulo": "A energia em C",
+      "conceito": "Conservação da energia mecânica",
+      "texto": "Tomando o nível de B como referência, C está 3 + 5 = 8 m acima. Fora da água não há perdas.",
+      "equacoes": [
+        "E_{C} = \\dfrac{100 \\cdot (4\\sqrt{10})^{2}}{2} + 100 \\cdot 10 \\cdot 8 = 16\\,000\\ \\text{J}"
+      ],
+      "cena": {
+        "mostrar": [
+          "etapa-1"
+        ]
+      }
+    },
+    {
+      "titulo": "A energia em B",
+      "conceito": "Conservação da energia mecânica",
+      "texto": "De B a C, a água tirou 20% da energia cinética de B: sobraram 80%.",
+      "equacoes": [
+        "0,8\\,E_{cB} = 16\\,000 \\quad \\Rightarrow \\quad E_{cB} = 20\\,000\\ \\text{J}, \\quad v_{B} = 20\\ \\text{m/s}"
+      ],
+      "cena": {
+        "mostrar": [
+          "etapa-2",
+          "etapa-3"
+        ]
+      }
+    },
+    {
+      "titulo": "A quantidade de movimento",
+      "conceito": "Quantidade de movimento",
+      "texto": "Resposta: <b>(B) 2 000</b>.",
+      "equacoes": [
+        "Q = m v_{B} = 100 \\cdot 20 = 2\\,000\\ \\text{kg} \\cdot \\text{m/s}"
+      ],
+      "cena": {
+        "mostrar": [
+          "etapa-4"
+        ],
+        "destacar": [
+          "etapa-4"
+        ]
+      }
+    }
+  ],
+  "status": "revisado",
+  "criadoEm": "2026-11-15T09:00:00-03:00",
+  "atualizadoEm": "2026-11-15T09:00:00-03:00"
+}

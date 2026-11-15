@@ -1,0 +1,247 @@
+{
+  "id": "unesp-2021-q77",
+  "titulo": "Puxar a membrana para baixo enche as bexigas",
+  "conceitos": [
+    "Transformação isotérmica",
+    "Pressão"
+  ],
+  "cena": {
+    "modelo": "diagrama",
+    "parametros": {
+      "elementos": {
+        "recipiente": [
+          {
+            "t": "caminho",
+            "d": "M200,110 L200,90 L230,70 L230,40 L270,40 L270,70 L300,90 L300,110 L330,140 L330,330 L170,330 L170,140 Z",
+            "cor": "tinta",
+            "larg": 2,
+            "preench": "#f2f2ee"
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                250,
+                40
+              ],
+              [
+                250,
+                150
+              ],
+              [
+                215,
+                180
+              ]
+            ],
+            "cor": "#c9a24a",
+            "larg": 6
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                250,
+                150
+              ],
+              [
+                285,
+                180
+              ]
+            ],
+            "cor": "#c9a24a",
+            "larg": 6
+          },
+          {
+            "t": "texto",
+            "x": 350,
+            "y": 60,
+            "txt": "tubo (traqueia e brônquios)",
+            "ancora": "start",
+            "mudo": true
+          },
+          {
+            "t": "texto",
+            "x": 350,
+            "y": 120,
+            "txt": "recipiente (caixa torácica)",
+            "ancora": "start",
+            "mudo": true
+          },
+          {
+            "t": "texto",
+            "x": 350,
+            "y": 230,
+            "txt": "bexigas (pulmões)",
+            "ancora": "start",
+            "mudo": true
+          }
+        ],
+        "bexigas": [
+          {
+            "t": "caminho",
+            "d": "M215,180 q-28,10 -28,60 q0,40 28,40 q12,0 12,-40 q0,-50 -12,-60 Z",
+            "cor": "perigo",
+            "larg": 1.5,
+            "preench": "#e8607a"
+          },
+          {
+            "t": "caminho",
+            "d": "M285,180 q28,10 28,60 q0,40 -28,40 q-12,0 -12,-40 q0,-50 12,-60 Z",
+            "cor": "perigo",
+            "larg": 1.5,
+            "preench": "#e8607a"
+          }
+        ],
+        "membrana": [
+          {
+            "t": "caminho",
+            "d": "M170,330 Q250,350 330,330",
+            "cor": "normal",
+            "larg": 5
+          },
+          {
+            "t": "texto",
+            "x": 350,
+            "y": 336,
+            "txt": "membrana (diafragma)",
+            "ancora": "start",
+            "mudo": true
+          }
+        ],
+        "ar": [
+          {
+            "t": "seta",
+            "de": [
+              250,
+              0
+            ],
+            "para": [
+              250,
+              34
+            ],
+            "cor": "normal",
+            "larg": 3
+          },
+          {
+            "t": "seta",
+            "de": [
+              236,
+              4
+            ],
+            "para": [
+              236,
+              34
+            ],
+            "cor": "normal",
+            "larg": 2
+          },
+          {
+            "t": "seta",
+            "de": [
+              264,
+              4
+            ],
+            "para": [
+              264,
+              34
+            ],
+            "cor": "normal",
+            "larg": 2
+          },
+          {
+            "t": "texto",
+            "x": 290,
+            "y": 16,
+            "txt": "o ar entra",
+            "negrito": true,
+            "cor": "normal",
+            "ancora": "start"
+          }
+        ],
+        "pressao": [
+          {
+            "t": "rotulo",
+            "x": 250,
+            "y": 390,
+            "txt": "p interna < p ambiente",
+            "cor": "var(--danger)"
+          }
+        ]
+      },
+      "animacoes": {
+        "membrana": {
+          "alvo": "membrana",
+          "tipo": "trajeto",
+          "pontos": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              34
+            ]
+          ],
+          "duracao": 2,
+          "pausa": 1.5
+        },
+        "encher": {
+          "alvo": "bexigas",
+          "tipo": "escalar",
+          "centro": [
+            250,
+            230
+          ],
+          "fator": 1.35,
+          "duracao": 2,
+          "pausa": 1.5
+        }
+      }
+    }
+  },
+  "passos": [
+    {
+      "titulo": "A membrana desce",
+      "conceito": "Pressão",
+      "texto": "Puxar a membrana para baixo corresponde à contração do diafragma, que desce na inspiração. O volume dentro do recipiente (caixa torácica) aumenta.",
+      "cena": {
+        "mostrar": [
+          "recipiente",
+          "bexigas",
+          "membrana"
+        ],
+        "estado": {
+          "animar": [
+            "membrana"
+          ]
+        }
+      }
+    },
+    {
+      "titulo": "A pressão interna cai",
+      "conceito": "Transformação isotérmica",
+      "texto": "Para a mesma quantidade de gás à mesma temperatura, pV é constante: mais volume, menos pressão. Com a pressão interna menor que a ambiente, o ar de fora entra e as bexigas se enchem. Resposta: <b>(C)</b>.",
+      "equacoes": [
+        "pV = \\text{constante}"
+      ],
+      "cena": {
+        "mostrar": [
+          "ar",
+          "pressao"
+        ],
+        "destacar": [
+          "pressao"
+        ],
+        "estado": {
+          "animar": [
+            "membrana",
+            "encher"
+          ]
+        }
+      }
+    }
+  ],
+  "status": "revisado",
+  "criadoEm": "2026-11-15T09:00:00-03:00",
+  "atualizadoEm": "2026-11-15T09:00:00-03:00"
+}

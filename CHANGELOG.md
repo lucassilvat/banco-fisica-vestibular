@@ -4,6 +4,21 @@ Cada versão corresponde a um lote de importação ou a uma mudança no app/pipe
 Formato: `vMAIOR.MENOR.CORREÇÃO` — MENOR sobe a cada prova importada; MAIOR, em mudanças
 de modelo de dados; CORREÇÃO, em correções de questões já publicadas.
 
+## v2.11.0 — 2026-11-15
+
+- **Resolução animada da Unesp 2016 a 2024**: 77 questões (2024: 8; 2023: 9; 2022: 7;
+  2021: 8; 2020: 9; 2019: 12; 2018: 7; 2017: 8; 2016: 9). Com isso, todas as questões da
+  Unesp no banco têm resolução animada.
+- **Modelo de cena genérico `diagrama`**: a cena é descrita no próprio roteiro (retângulos,
+  círculos, linhas, caminhos, setas e vetores, textos, rótulos em caixa, ângulos e cotas,
+  agrupados em elementos) com animações `trajeto`, `girar`, `oscilar`, `aparecer` e `escalar`.
+  Novas questões não exigem mais código no app, só o roteiro.
+- **Publicação por arquivo**: o app lê os roteiros de `animacoes.json` (gerado por
+  `python -m pipeline site`) e os junta aos da coleção `animacoes` do banco (o arquivo
+  prevalece). Não é mais preciso gravar lotes no banco.
+- Revisão visual e de fidelidade de todos os passos (sobreposições, legibilidade, sentidos de
+  forças, campos e correntes, circuitos fechados).
+
 ## v2.10.0 — 2026-11-14
 
 - **Resolução animada da Unesp 2025**: as 9 questões que faltavam (Q48, Q76, Q77, Q79, Q80,

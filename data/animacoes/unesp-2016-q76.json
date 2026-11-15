@@ -1,0 +1,151 @@
+{
+  "id": "unesp-2016-q76",
+  "titulo": "Ultrapassagem vista do caminhão",
+  "conceitos": [
+    "Velocidade relativa",
+    "Movimento uniforme"
+  ],
+  "cena": {
+    "modelo": "diagrama",
+    "parametros": {
+      "elementos": {
+        "cena": [
+          {
+            "t": "ret",
+            "x": 160,
+            "y": 160,
+            "w": 360,
+            "h": 50,
+            "cor": "#c0392b",
+            "borda": "tinta",
+            "rx": 4
+          },
+          {
+            "t": "texto",
+            "x": 340,
+            "y": 144,
+            "txt": "caminhão: 30 m",
+            "negrito": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                40,
+                250
+              ],
+              [
+                620,
+                250
+              ]
+            ],
+            "cor": "mudo",
+            "larg": 2
+          }
+        ],
+        "carro": [
+          {
+            "t": "ret",
+            "x": 112,
+            "y": 216,
+            "w": 48,
+            "h": 26,
+            "cor": "#3a86c8",
+            "borda": "tinta",
+            "rx": 6
+          },
+          {
+            "t": "texto",
+            "x": 136,
+            "y": 264,
+            "txt": "carro: 4 m",
+            "negrito": true,
+            "cor": "normal"
+          }
+        ],
+        "distancia": [
+          {
+            "t": "cota",
+            "de": [
+              112,
+              290
+            ],
+            "para": [
+              568,
+              290
+            ],
+            "cor": "normal",
+            "rot_em": [
+              340,
+              310
+            ],
+            "txt": "30 + 4 = 34 m"
+          },
+          {
+            "t": "rotulo",
+            "x": 340,
+            "y": 70,
+            "txt": "em relação ao caminhão: 34 m em 8,5 s",
+            "cor": "var(--accent)"
+          }
+        ]
+      },
+      "animacoes": {
+        "passar": {
+          "alvo": "carro",
+          "tipo": "trajeto",
+          "pontos": [
+            [
+              0,
+              0
+            ],
+            [
+              408,
+              0
+            ]
+          ],
+          "duracao": 2.5,
+          "pausa": 1
+        }
+      }
+    }
+  },
+  "passos": [
+    {
+      "titulo": "O deslocamento relativo",
+      "conceito": "Velocidade relativa",
+      "texto": "Visto do caminhão, o carro começa com a frente na traseira do caminhão e termina com a traseira na frente dele: anda o comprimento do caminhão mais o seu próprio.",
+      "equacoes": [
+        "v_{\\text{rel}} = \\dfrac{34}{8,5} = 4\\ \\text{m/s}"
+      ],
+      "cena": {
+        "mostrar": [
+          "cena",
+          "carro",
+          "distancia"
+        ],
+        "estado": {
+          "animar": [
+            "passar"
+          ]
+        }
+      }
+    },
+    {
+      "titulo": "A velocidade do caminhão",
+      "conceito": "Velocidade relativa",
+      "texto": "No mesmo sentido, a velocidade relativa é a diferença das velocidades. Resposta: <b>(D) 26 m/s</b>.",
+      "equacoes": [
+        "4 = 30 - v_{\\text{caminhão}} \\quad \\Rightarrow \\quad v_{\\text{caminhão}} = 26\\ \\text{m/s}"
+      ],
+      "cena": {
+        "destacar": [
+          "distancia"
+        ]
+      }
+    }
+  ],
+  "status": "revisado",
+  "criadoEm": "2026-11-15T09:00:00-03:00",
+  "atualizadoEm": "2026-11-15T09:00:00-03:00"
+}

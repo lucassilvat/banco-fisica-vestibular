@@ -53,6 +53,18 @@ Cada passo tem:
 | `grafico-modulo` | `zero`, `coef`, `xs`, `ys`, `marcasX`, rótulos | `eixos`, `reta`, `modulo`, `ponto-zero`, `ponto-0` | `dobrar` |
 | `triangulo-pg` | — | `triangulo`, `particula`, `tempos`, `soma` | `percorrer` |
 
+| `diagrama` | `largura`, `altura`, `elementos` {nome: [formas]}, `animacoes` {nome: {`alvo`, `tipo`, ...}} | os nomes definidos em `elementos` | `animar`: lista de animações |
+
+**`diagrama`** é o modelo genérico, usado a partir da Unesp 2024: a cena inteira vai no
+roteiro. Formas: `ret`, `circ`, `linha`, `caminho`, `seta` (com `rotulo`, `sub`, `vetor`,
+`rot_em`, `ancora`, `tracejado`), `vetor`, `texto`, `rotulo` (texto em caixa), `angulo`
+(setor + rótulo em caixa) e `cota`. Cores por nome (`peso`, `normal`, `atrito`, `acel`,
+`tinta`, `mudo`, `suave`, `papel`, `perigo`, `luz`, `linha`) ou CSS. Animações: `trajeto`
+(`pontos`, `duracao`, `pausa`), `girar`, `oscilar`, `aparecer` e `escalar` (`centro`,
+`fator`). Para cálculos encadeados, um diagrama de caixas ligadas por setas (`etapa-1`…)
+substitui o `cadeia-energia`. `python -m pipeline animacoes verificar` confere os campos
+obrigatórios de cada forma e os alvos das animações.
+
 Os nomes aceitos ficam em `MODELOS` (`pipeline/animacoes.py`) e precisam bater com `CENAS`
 no app.
 
@@ -95,5 +107,7 @@ python -m pipeline animacoes verificar
 python -m pipeline animacoes preparar        # trabalho/publicacao/animacoes-lote-NN.json
 ```
 
-Grave os lotes na coleção `animacoes` do banco do app (documento = id da questão). O site
-estático (`python -m pipeline site`) leva os roteiros em `animacoes.json`.
+Desde a v2.11.0 os roteiros vão num arquivo do próprio artefato: `python -m pipeline site
+<pasta>` gera `animacoes.json`, publicado junto com `index.html`. O app junta esse arquivo à
+coleção `animacoes` do banco (o arquivo prevalece), então os lotes de `preparar` só são
+necessários para corrigir um roteiro sem republicar o app.

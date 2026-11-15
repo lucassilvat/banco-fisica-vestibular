@@ -1,0 +1,247 @@
+{
+  "id": "unesp-2019-q78",
+  "titulo": "Raiz a favor do campo, caule contra",
+  "conceitos": [
+    "Campo gravitacional",
+    "Geotropismo"
+  ],
+  "cena": {
+    "modelo": "diagrama",
+    "parametros": {
+      "elementos": {
+        "campo": [
+          {
+            "t": "seta",
+            "de": [
+              40,
+              50
+            ],
+            "para": [
+              600,
+              50
+            ],
+            "cor": "mudo",
+            "larg": 1.5
+          },
+          {
+            "t": "seta",
+            "de": [
+              40,
+              106
+            ],
+            "para": [
+              600,
+              106
+            ],
+            "cor": "mudo",
+            "larg": 1.5
+          },
+          {
+            "t": "seta",
+            "de": [
+              40,
+              162
+            ],
+            "para": [
+              600,
+              162
+            ],
+            "cor": "mudo",
+            "larg": 1.5
+          },
+          {
+            "t": "seta",
+            "de": [
+              40,
+              218
+            ],
+            "para": [
+              600,
+              218
+            ],
+            "cor": "mudo",
+            "larg": 1.5
+          },
+          {
+            "t": "seta",
+            "de": [
+              40,
+              274
+            ],
+            "para": [
+              600,
+              274
+            ],
+            "cor": "mudo",
+            "larg": 1.5
+          },
+          {
+            "t": "seta",
+            "de": [
+              40,
+              330
+            ],
+            "para": [
+              600,
+              330
+            ],
+            "cor": "mudo",
+            "larg": 1.5
+          },
+          {
+            "t": "seta",
+            "de": [
+              40,
+              386
+            ],
+            "para": [
+              600,
+              386
+            ],
+            "cor": "mudo",
+            "larg": 1.5
+          },
+          {
+            "t": "rotulo",
+            "x": 520,
+            "y": 22,
+            "txt": "campo gravitacional →",
+            "cor": "var(--muted)"
+          }
+        ],
+        "vaso": [
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                270,
+                230
+              ],
+              [
+                370,
+                230
+              ],
+              [
+                355,
+                290
+              ],
+              [
+                285,
+                290
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 2,
+            "fechada": true,
+            "preench": "#e8853a"
+          }
+        ],
+        "inicio": [
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                320,
+                230
+              ],
+              [
+                320,
+                90
+              ]
+            ],
+            "cor": "#2fa04a",
+            "larg": 6,
+            "opac": 0.35,
+            "tracejado": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                320,
+                290
+              ],
+              [
+                320,
+                380
+              ]
+            ],
+            "cor": "#6a5030",
+            "larg": 3,
+            "opac": 0.35,
+            "tracejado": true
+          },
+          {
+            "t": "texto",
+            "x": 330,
+            "y": 86,
+            "txt": "início",
+            "mudo": true,
+            "ancora": "start"
+          }
+        ],
+        "depois": [
+          {
+            "t": "caminho",
+            "d": "M320,230 Q320,120 200,100",
+            "cor": "#2fa04a",
+            "larg": 6
+          },
+          {
+            "t": "texto",
+            "x": 196,
+            "y": 92,
+            "txt": "caule",
+            "negrito": true,
+            "cor": "atrito",
+            "ancora": "end"
+          },
+          {
+            "t": "caminho",
+            "d": "M320,290 Q320,370 450,380",
+            "cor": "#6a5030",
+            "larg": 3
+          },
+          {
+            "t": "texto",
+            "x": 456,
+            "y": 380,
+            "txt": "raiz",
+            "negrito": true,
+            "ancora": "start"
+          }
+        ]
+      }
+    }
+  },
+  "passos": [
+    {
+      "titulo": "Para onde é \"para baixo\"",
+      "conceito": "Campo gravitacional",
+      "texto": "As linhas do campo gravitacional apontam para o centro da Terra; na figura, para a direita. Neste experimento, \"para baixo\" é a direita.",
+      "cena": {
+        "mostrar": [
+          "campo",
+          "vaso",
+          "inicio"
+        ]
+      }
+    },
+    {
+      "titulo": "Raiz e caule",
+      "conceito": "Geotropismo",
+      "texto": "Geotropismo positivo: a raiz cresce no sentido do campo (para a direita). Geotropismo negativo: o caule cresce no sentido oposto (para a esquerda). Resposta: <b>(C)</b>.",
+      "cena": {
+        "mostrar": [
+          "depois"
+        ],
+        "destacar": [
+          "depois"
+        ]
+      }
+    }
+  ],
+  "status": "revisado",
+  "criadoEm": "2026-11-15T09:00:00-03:00",
+  "atualizadoEm": "2026-11-15T09:00:00-03:00"
+}

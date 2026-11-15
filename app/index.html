@@ -1718,6 +1718,74 @@ CENAS["triangulo-pg"] = (svg, P) => {
   };
 };
 
+
+/* Modelo genérico: a cena inteira vem descrita no roteiro (parametros.elementos), com formas
+   simples agrupadas em elementos nomeados e animações declaradas (parametros.animacoes).
+   Formas ("t"): ret, circ, linha, caminho, seta, vetor, texto, rotulo, angulo, cota.
+   Cores: nomes do tema (peso, normal, atrito, acel, tinta, mudo, suave, papel, perigo, luz) ou CSS. */
+const COR_DIAG = { peso: "var(--mark)", normal: "var(--accent)", atrito: "var(--ok)", acel: "var(--anim-acel)", tinta: "var(--ink)", mudo: "var(--muted)", suave: "var(--soft)", papel: "var(--paper)", perigo: "var(--danger)", luz: "var(--anim-luz)", linha: "var(--line)" };
+const pintaVec = (g, c) => { if (!c) return g; const t = g.querySelector("text"), p = g.querySelector("path"); if (t) t.style.fill = c; if (p) p.style.stroke = c; return g; };
+const corD = c => c == null ? null : (COR_DIAG[c] || c);
+function formaDiag(g, f) {
+  const cor = corD(f.cor), borda = corD(f.borda);
+  switch (f.t) {
+    case "ret": return S("rect", { x: f.x, y: f.y, width: f.w, height: f.h, rx: f.rx || 0, fill: cor || "none", stroke: borda || "none", "stroke-width": f.larg || 1.5, opacity: f.opac }, g);
+    case "circ": return S("circle", { cx: f.x, cy: f.y, r: f.r, fill: cor || "none", stroke: borda || "none", "stroke-width": f.larg || 1.5, opacity: f.opac }, g);
+    case "linha": {
+      const pts = f.pontos.map(p => p.join(",")).join(" ");
+      return S(f.fechada ? "polygon" : "polyline", { points: pts, fill: f.fechada ? (corD(f.preench) || "none") : "none", stroke: cor || "var(--ink)", "stroke-width": f.larg || 2, "stroke-dasharray": f.tracejado ? "6 5" : null, "stroke-linejoin": "round", "stroke-linecap": "round", opacity: f.opac }, g);
+    }
+    case "caminho": return S("path", { d: f.d, fill: corD(f.preench) || "none", stroke: cor || "var(--ink)", "stroke-width": f.larg || 2, "stroke-dasharray": f.tracejado ? "6 5" : null, opacity: f.opac }, g);
+    case "seta": {
+      const a = sArrow(g, "", f.larg || 3); a.set(...f.de, ...f.para); a.setAttribute("style", `stroke:${cor || "var(--ink)"};fill:${cor || "var(--ink)"}`);
+      if (f.tracejado) a.querySelector("line").setAttribute("stroke-dasharray", "5 4");
+      if (f.rotulo) { const [x, y] = f.rot_em || [f.para[0] + 10, f.para[1] - 10]; if (f.vetor === false) sRich(g, x, y, f.rotulo + (f.sub ? `_{${f.sub}}` : ""), "t-b", f.ancora || "start").setAttribute("style", `fill:${cor || "var(--ink)"}`); else pintaVec(sVec(g, f.rotulo, f.sub || "", "t-b").move(x, y, f.ancora || "start"), cor || "var(--ink)"); }
+      return a;
+    }
+    case "vetor": return pintaVec(sVec(g, f.letra, f.sub || "", "t-b").move(f.x, f.y, f.ancora || "middle"), cor || "var(--ink)");
+    case "texto": { const t = sRich(g, f.x, f.y, f.txt, (f.negrito ? "t-b" : "") + (f.mudo ? " t-mute" : ""), f.ancora || "middle"); if (cor) t.style.fill = cor; if (f.tam) t.style.fontSize = f.tam + "px"; return t; }
+    case "rotulo": return sPill(g, f.x, f.y, f.txt, cor || "var(--ink)");
+    case "angulo": { sWedge(g, f.centro[0], f.centro[1], f.r || 36, f.de, f.ate, cor || "var(--mark)"); if (f.rotulo) { const m = (f.de + f.ate) / 2 * Math.PI / 180, rr = (f.r || 36) + (f.dist || 24); sPill(g, f.centro[0] + rr * Math.cos(m), f.centro[1] + rr * Math.sin(m), f.rotulo, f.cor_rotulo ? corD(f.cor_rotulo) : "var(--ink)"); } return g; }
+    case "cota": {
+      const c = cor || "var(--accent)", a1 = sArrow(g, "", 1.5), a2 = sArrow(g, "", 1.5);
+      a1.set(...f.de, ...f.para); a2.set(...f.para, ...f.de); [a1, a2].forEach(a => a.setAttribute("style", `stroke:${c};fill:${c}`));
+      if (f.txt) { const [x, y] = f.rot_em || [(f.de[0] + f.para[0]) / 2, (f.de[1] + f.para[1]) / 2 - 12]; sRich(g, x, y, f.txt, "t-b", f.ancora || "middle").style.fill = c; }
+      return g;
+    }
+  }
+  console.warn("forma desconhecida", f.t);
+}
+CENAS["diagrama"] = (svg, P) => {
+  svg.setAttribute("viewBox", `0 0 ${P.largura || 640} ${P.altura || 430}`);
+  const el = {};
+  for (const [id, formas] of Object.entries(P.elementos || {})) { el[id] = S("g", { class: "ae" }, svg); const inner = S("g", {}, el[id]); el[id]._in = inner; formas.forEach(f => formaDiag(inner, f)); }
+  const anims = P.animacoes || {};
+  const aplicar = (nome, s) => {
+    const a = anims[nome], alvo = el[a.alvo] && el[a.alvo]._in; if (!alvo) return;
+    const dur = a.duracao || 3, ciclo = dur + (a.pausa == null ? 1 : a.pausa), k = Math.min((s % ciclo) / dur, 1);
+    if (a.tipo === "trajeto") {
+      const pts = a.pontos, segs = []; let L = 0;
+      for (let i = 1; i < pts.length; i++) { const d = Math.hypot(pts[i][0] - pts[i - 1][0], pts[i][1] - pts[i - 1][1]); segs.push([pts[i - 1], pts[i], L, d]); L += d; }
+      const kk = a.acelerado ? k * k : k, sx = kk * L, sg = segs.find(q => sx >= q[2] && sx <= q[2] + q[3]) || segs[segs.length - 1], u = sg[3] ? (sx - sg[2]) / sg[3] : 0;
+      alvo.setAttribute("transform", `translate(${sg[0][0] + (sg[1][0] - sg[0][0]) * u},${sg[0][1] + (sg[1][1] - sg[0][1]) * u})`);
+    } else if (a.tipo === "girar") alvo.setAttribute("transform", `rotate(${(s * (a.graus_por_s || 90)) % 360} ${a.centro[0]} ${a.centro[1]})`);
+    else if (a.tipo === "oscilar") { const v = Math.sin(2 * Math.PI * s / (a.periodo || 2)); alvo.setAttribute("transform", a.graus ? `rotate(${a.graus * v} ${a.centro[0]} ${a.centro[1]})` : `translate(${(a.dx || 0) * v},${(a.dy || 0) * v})`); }
+    else if (a.tipo === "aparecer") alvo.style.opacity = k;
+    else if (a.tipo === "escalar") { const f = 1 + ((a.fator || 1.5) - 1) * k, [cx, cy] = a.centro; alvo.setAttribute("transform", `translate(${cx},${cy}) scale(${f}) translate(${-cx},${-cy})`); }
+  };
+  const zerar = () => Object.values(anims).forEach(a => { const g = el[a.alvo] && el[a.alvo]._in; if (g) { g.removeAttribute("transform"); g.style.opacity = ""; } });
+  let stop = () => {};
+  return {
+    el,
+    update(est) {
+      stop(); stop = () => {}; zerar();
+      const ativos = (est.animar || []).filter(n => anims[n]);
+      if (ativos.length) stop = loopRaf(s => ativos.forEach(n => aplicar(n, s)));
+    },
+    stop() { stop(); },
+  };
+};
+
 /* Player: abre o roteiro de uma questão num painel com a cena à esquerda e o passo à direita. */
 function openPlayer(q, rot) {
   const fab = CENAS[rot.cena && rot.cena.modelo];
@@ -1834,9 +1902,11 @@ renderAll();
     const before = state.list.length; state.list = state.list.filter(id => ids.has(id)); if (state.list.length !== before) saveList();
     renderAll();
   }, () => { state.ready = true; renderViewer(); });
-  db.collection("animacoes").onSnapshot(snap => {
-    state.anims = new Map(snap.docs.map(d => [d.id, d.data()]));
-    if (state.ready) renderViewer();
-  }, () => {});
+  // Roteiros das resoluções animadas: arquivo animacoes.json publicado junto com a página
+  // (gerado por `python -m pipeline site`); a coleção "animacoes" do banco vale para os que não estiverem nele.
+  let animDb = [], animArq = [];
+  const juntar = () => { state.anims = new Map([...animDb, ...animArq]); if (state.ready) renderViewer(); };
+  fetch("animacoes.json", { cache: "no-cache" }).then(r => r.ok ? r.json() : {}).then(j => { animArq = Object.entries(j || {}); juntar(); }).catch(() => {});
+  db.collection("animacoes").onSnapshot(snap => { animDb = snap.docs.map(d => [d.id, d.data()]); juntar(); }, () => {});
 })();
 </script>

@@ -1,0 +1,225 @@
+{
+  "id": "unesp-2019-q76",
+  "titulo": "Quanto a tensão superficial consegue sustentar",
+  "conceitos": [
+    "Tensão superficial",
+    "Equilíbrio de forças"
+  ],
+  "cena": {
+    "modelo": "diagrama",
+    "parametros": {
+      "elementos": {
+        "agua": [
+          {
+            "t": "ret",
+            "x": 80,
+            "y": 200,
+            "w": 480,
+            "h": 200,
+            "cor": "#bfe6f7",
+            "borda": null
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                80,
+                200
+              ],
+              [
+                560,
+                200
+              ]
+            ],
+            "cor": "normal",
+            "larg": 2
+          },
+          {
+            "t": "texto",
+            "x": 540,
+            "y": 184,
+            "txt": "ar",
+            "mudo": true,
+            "ancora": "end"
+          },
+          {
+            "t": "texto",
+            "x": 540,
+            "y": 222,
+            "txt": "água",
+            "mudo": true,
+            "ancora": "end"
+          }
+        ],
+        "agulha": [
+          {
+            "t": "circ",
+            "x": 320,
+            "y": 170,
+            "r": 46,
+            "cor": "#cfcfc4",
+            "borda": "tinta",
+            "larg": 2
+          },
+          {
+            "t": "texto",
+            "x": 390,
+            "y": 100,
+            "txt": "agulha (corte)",
+            "mudo": true,
+            "ancora": "start"
+          }
+        ],
+        "forcas": [
+          {
+            "t": "seta",
+            "de": [
+              280.2,
+              193.0
+            ],
+            "para": [
+              219.9,
+              126.1
+            ],
+            "cor": "normal",
+            "larg": 3,
+            "rot_em": [
+              213.9410768536186,
+              120.11696570703452
+            ],
+            "ancora": "end",
+            "rotulo": "F",
+            "sub": "1"
+          },
+          {
+            "t": "seta",
+            "de": [
+              359.8,
+              193.0
+            ],
+            "para": [
+              420.1,
+              126.1
+            ],
+            "cor": "normal",
+            "larg": 3,
+            "rot_em": [
+              426.0589231463814,
+              120.11696570703452
+            ],
+            "rotulo": "F",
+            "sub": "2"
+          }
+        ],
+        "peso": [
+          {
+            "t": "seta",
+            "de": [
+              320,
+              170
+            ],
+            "para": [
+              320,
+              330
+            ],
+            "cor": "peso",
+            "larg": 3,
+            "rot_em": [
+              330,
+              326
+            ],
+            "rotulo": "P"
+          }
+        ],
+        "verticais": [
+          {
+            "t": "seta",
+            "de": [
+              280.2,
+              193.0
+            ],
+            "para": [
+              280.2,
+              93.0
+            ],
+            "cor": "acel",
+            "larg": 3,
+            "rot_em": [
+              270.16283142591584,
+              97.0
+            ],
+            "ancora": "end",
+            "rotulo": "F",
+            "sub": "1"
+          },
+          {
+            "t": "seta",
+            "de": [
+              359.8,
+              193.0
+            ],
+            "para": [
+              359.8,
+              93.0
+            ],
+            "cor": "acel",
+            "larg": 3,
+            "rot_em": [
+              369.83716857408416,
+              97.0
+            ],
+            "rotulo": "F",
+            "sub": "2"
+          },
+          {
+            "t": "rotulo",
+            "x": 320,
+            "y": 56,
+            "txt": "na iminência de afundar: verticais",
+            "cor": "var(--anim-acel)"
+          }
+        ]
+      }
+    }
+  },
+  "passos": [
+    {
+      "titulo": "A força de cada lado",
+      "conceito": "Tensão superficial",
+      "texto": "Cada força de tensão superficial atua ao longo do comprimento da agulha (5,0 cm = 0,050 m).",
+      "equacoes": [
+        "F = \\sigma L = 0,073 \\cdot 0,050 = 3,65 \\times 10^{-3}\\ \\text{N}"
+      ],
+      "cena": {
+        "mostrar": [
+          "agua",
+          "agulha",
+          "forcas",
+          "peso"
+        ]
+      }
+    },
+    {
+      "titulo": "Na iminência de afundar",
+      "conceito": "Equilíbrio de forças",
+      "texto": "\\(\\vec{F}_{1}\\) e \\(\\vec{F}_{2}\\) ficam verticais, para cima, e equilibram o maior peso possível. Resposta: <b>(D) 0,730 g</b>.",
+      "equacoes": [
+        "P = 2F = 7,3 \\times 10^{-3}\\ \\text{N} \\quad \\Rightarrow \\quad m = \\dfrac{P}{g} = 7,3 \\times 10^{-4}\\ \\text{kg} = 0,730\\ \\text{g}"
+      ],
+      "cena": {
+        "ocultar": [
+          "forcas"
+        ],
+        "mostrar": [
+          "verticais"
+        ],
+        "destacar": [
+          "verticais"
+        ]
+      }
+    }
+  ],
+  "status": "revisado",
+  "criadoEm": "2026-11-15T09:00:00-03:00",
+  "atualizadoEm": "2026-11-15T09:00:00-03:00"
+}

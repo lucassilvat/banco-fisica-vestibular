@@ -1,0 +1,206 @@
+{
+  "id": "unesp-2022-q77",
+  "titulo": "A parte vertical da tração segura o peso",
+  "conceitos": [
+    "Resultante centrípeta",
+    "Decomposição vetorial",
+    "Equilíbrio na vertical"
+  ],
+  "cena": {
+    "modelo": "diagrama",
+    "parametros": {
+      "elementos": {
+        "situacao": [
+          {
+            "t": "circ",
+            "x": 260,
+            "y": 70,
+            "r": 6,
+            "cor": "tinta",
+            "borda": "tinta"
+          },
+          {
+            "t": "texto",
+            "x": 248,
+            "y": 64,
+            "txt": "mão",
+            "mudo": true,
+            "ancora": "end"
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                260,
+                70
+              ],
+              [
+                500,
+                170
+              ]
+            ],
+            "cor": "#3a86c8",
+            "larg": 3
+          },
+          {
+            "t": "caminho",
+            "d": "M20,170 a240,34 0 1,0 480,0 a240,34 0 1,0 -480,0",
+            "cor": "perigo",
+            "larg": 1.6,
+            "tracejado": true
+          },
+          {
+            "t": "circ",
+            "x": 500,
+            "y": 170,
+            "r": 13,
+            "cor": "perigo",
+            "borda": "tinta"
+          },
+          {
+            "t": "texto",
+            "x": 392.0,
+            "y": 104.0,
+            "txt": "65 cm",
+            "negrito": true,
+            "ancora": "start",
+            "cor": "normal"
+          }
+        ],
+        "triangulo": [
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                260,
+                70
+              ],
+              [
+                260,
+                170
+              ],
+              [
+                500,
+                170
+              ]
+            ],
+            "cor": "mudo",
+            "larg": 1.5,
+            "tracejado": true
+          },
+          {
+            "t": "texto",
+            "x": 250,
+            "y": 120.0,
+            "txt": "25 cm",
+            "negrito": true,
+            "ancora": "end",
+            "cor": "acel"
+          },
+          {
+            "t": "texto",
+            "x": 380.0,
+            "y": 222,
+            "txt": "60 cm (raio)",
+            "negrito": true,
+            "cor": "acel"
+          }
+        ],
+        "forcas": [
+          {
+            "t": "seta",
+            "de": [
+              500,
+              170
+            ],
+            "para": [
+              500,
+              220
+            ],
+            "cor": "peso",
+            "larg": 3,
+            "rot_em": [
+              510,
+              220
+            ],
+            "rotulo": "P"
+          },
+          {
+            "t": "seta",
+            "de": [
+              500,
+              170
+            ],
+            "para": [
+              380.0,
+              120.0
+            ],
+            "cor": "normal",
+            "larg": 3,
+            "rot_em": [
+              374.0,
+              106.0
+            ],
+            "ancora": "end",
+            "rotulo": "T"
+          },
+          {
+            "t": "seta",
+            "de": [
+              500,
+              170
+            ],
+            "para": [
+              500,
+              120
+            ],
+            "cor": "normal",
+            "larg": 2.5,
+            "tracejado": true,
+            "rot_em": [
+              510,
+              124
+            ],
+            "rotulo": "T",
+            "sub": "y"
+          }
+        ]
+      }
+    }
+  },
+  "passos": [
+    {
+      "titulo": "A geometria do fio",
+      "conceito": "Decomposição vetorial",
+      "texto": "O fio (65 cm), o raio da trajetória (60 cm) e a distância vertical entre a mão e o plano da trajetória formam um triângulo retângulo.",
+      "equacoes": [
+        "h = \\sqrt{65^{2} - 60^{2}} = 25\\ \\text{cm}"
+      ],
+      "cena": {
+        "mostrar": [
+          "situacao",
+          "triangulo"
+        ]
+      }
+    },
+    {
+      "titulo": "As forças na esfera",
+      "conceito": "Equilíbrio na vertical",
+      "texto": "Agem o peso \\(\\vec{P}\\) e a tração \\(\\vec{T}\\). A esfera gira num plano horizontal, sem subir nem descer: a componente vertical da tração equilibra o peso. Resposta: <b>(C) 13 N</b>.",
+      "equacoes": [
+        "T \\cdot \\dfrac{25}{65} = mg = 0,5 \\cdot 10 \\quad \\Rightarrow \\quad T = 13\\ \\text{N}"
+      ],
+      "cena": {
+        "mostrar": [
+          "forcas"
+        ],
+        "destacar": [
+          "forcas"
+        ]
+      }
+    }
+  ],
+  "status": "revisado",
+  "criadoEm": "2026-11-15T09:00:00-03:00",
+  "atualizadoEm": "2026-11-15T09:00:00-03:00"
+}

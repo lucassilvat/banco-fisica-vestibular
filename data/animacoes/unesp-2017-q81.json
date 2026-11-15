@@ -1,0 +1,226 @@
+{
+  "id": "unesp-2017-q81",
+  "titulo": "Ondas de radar e de sonar lado a lado",
+  "conceitos": [
+    "Ondas: classificação e elementos",
+    "Espectro eletromagnético"
+  ],
+  "cena": {
+    "modelo": "diagrama",
+    "parametros": {
+      "elementos": {
+        "tabela": [
+          {
+            "t": "texto",
+            "x": 250,
+            "y": 40,
+            "txt": "radar (rádio)",
+            "negrito": true,
+            "cor": "normal"
+          },
+          {
+            "t": "texto",
+            "x": 470,
+            "y": 40,
+            "txt": "sonar (som)",
+            "negrito": true,
+            "cor": "peso"
+          },
+          {
+            "t": "ret",
+            "x": 40,
+            "y": 66,
+            "w": 580,
+            "h": 50,
+            "cor": "papel",
+            "borda": "linha"
+          },
+          {
+            "t": "texto",
+            "x": 52,
+            "y": 91,
+            "txt": "natureza",
+            "negrito": true,
+            "ancora": "start"
+          },
+          {
+            "t": "texto",
+            "x": 250,
+            "y": 91,
+            "txt": "eletromagnética"
+          },
+          {
+            "t": "texto",
+            "x": 470,
+            "y": 91,
+            "txt": "mecânica"
+          },
+          {
+            "t": "ret",
+            "x": 40,
+            "y": 126,
+            "w": 580,
+            "h": 50,
+            "cor": "papel",
+            "borda": "linha"
+          },
+          {
+            "t": "texto",
+            "x": 52,
+            "y": 151,
+            "txt": "oscilação",
+            "negrito": true,
+            "ancora": "start"
+          },
+          {
+            "t": "texto",
+            "x": 250,
+            "y": 151,
+            "txt": "transversal"
+          },
+          {
+            "t": "texto",
+            "x": 470,
+            "y": 151,
+            "txt": "longitudinal (na água)"
+          },
+          {
+            "t": "ret",
+            "x": 40,
+            "y": 186,
+            "w": 580,
+            "h": 50,
+            "cor": "papel",
+            "borda": "linha"
+          },
+          {
+            "t": "texto",
+            "x": 52,
+            "y": 211,
+            "txt": "precisa de meio?",
+            "negrito": true,
+            "ancora": "start"
+          },
+          {
+            "t": "texto",
+            "x": 250,
+            "y": 211,
+            "txt": "não (vai no vácuo)"
+          },
+          {
+            "t": "texto",
+            "x": 470,
+            "y": 211,
+            "txt": "sim"
+          },
+          {
+            "t": "ret",
+            "x": 40,
+            "y": 246,
+            "w": 580,
+            "h": 50,
+            "cor": "papel",
+            "borda": "linha"
+          },
+          {
+            "t": "texto",
+            "x": 52,
+            "y": 271,
+            "txt": "velocidade",
+            "negrito": true,
+            "ancora": "start"
+          },
+          {
+            "t": "texto",
+            "x": 250,
+            "y": 271,
+            "txt": "≈ 3 × 10^{8} m/s (ar)"
+          },
+          {
+            "t": "texto",
+            "x": 470,
+            "y": 271,
+            "txt": "≈ 1 500 m/s (água)"
+          },
+          {
+            "t": "ret",
+            "x": 40,
+            "y": 306,
+            "w": 580,
+            "h": 50,
+            "cor": "papel",
+            "borda": "linha"
+          },
+          {
+            "t": "texto",
+            "x": 52,
+            "y": 331,
+            "txt": "frequência",
+            "negrito": true,
+            "ancora": "start"
+          },
+          {
+            "t": "texto",
+            "x": 250,
+            "y": 331,
+            "txt": "definida pela fonte"
+          },
+          {
+            "t": "texto",
+            "x": 470,
+            "y": 331,
+            "txt": "definida pela fonte"
+          }
+        ],
+        "frequencia": [
+          {
+            "t": "ret",
+            "x": 40,
+            "y": 306,
+            "w": 580,
+            "h": 50,
+            "cor": null,
+            "borda": "perigo",
+            "larg": 3
+          },
+          {
+            "t": "texto",
+            "x": 330,
+            "y": 384,
+            "txt": "a frequência não muda ao passar de um meio para outro",
+            "negrito": true,
+            "cor": "perigo"
+          }
+        ]
+      }
+    }
+  },
+  "passos": [
+    {
+      "titulo": "O que cada onda é",
+      "conceito": "Ondas: classificação e elementos",
+      "texto": "O radar usa ondas de rádio: eletromagnéticas, transversais, que se propagam até no vácuo e são muito mais rápidas que o som. O sonar usa som: onda mecânica, longitudinal na água, que precisa de meio. Isso derruba A, B, C e E.",
+      "cena": {
+        "mostrar": [
+          "tabela"
+        ]
+      }
+    },
+    {
+      "titulo": "A frequência",
+      "conceito": "Ondas: classificação e elementos",
+      "texto": "A frequência é imposta pela fonte e não muda quando a onda muda de meio (mudam a velocidade e o comprimento de onda). Resposta: <b>(D)</b>.",
+      "cena": {
+        "mostrar": [
+          "frequencia"
+        ],
+        "destacar": [
+          "frequencia"
+        ]
+      }
+    }
+  ],
+  "status": "revisado",
+  "criadoEm": "2026-11-15T09:00:00-03:00",
+  "atualizadoEm": "2026-11-15T09:00:00-03:00"
+}

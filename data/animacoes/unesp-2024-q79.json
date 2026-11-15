@@ -1,0 +1,518 @@
+{
+  "id": "unesp-2024-q79",
+  "titulo": "Do gráfico ao índice de refração, e dele à velocidade",
+  "conceitos": [
+    "Leitura de gráficos",
+    "Índice de refração"
+  ],
+  "cena": {
+    "modelo": "diagrama",
+    "parametros": {
+      "elementos": {
+        "grafico": [
+          {
+            "t": "seta",
+            "de": [
+              110,
+              360.0
+            ],
+            "para": [
+              582,
+              360.0
+            ],
+            "cor": "tinta",
+            "larg": 1.6
+          },
+          {
+            "t": "seta",
+            "de": [
+              110,
+              360
+            ],
+            "para": [
+              110,
+              28
+            ],
+            "cor": "tinta",
+            "larg": 1.6
+          },
+          {
+            "t": "texto",
+            "x": 582,
+            "y": 382.0,
+            "txt": "índice de refração",
+            "ancora": "end",
+            "mudo": true
+          },
+          {
+            "t": "texto",
+            "x": 118,
+            "y": 26,
+            "txt": "Brix (ºBx)",
+            "ancora": "start",
+            "mudo": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                179.0,
+                356.0
+              ],
+              [
+                179.0,
+                364.0
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 1.5
+          },
+          {
+            "t": "texto",
+            "x": 179.0,
+            "y": 376.0,
+            "txt": "1,35",
+            "mudo": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                179.0,
+                40
+              ],
+              [
+                179.0,
+                360
+              ]
+            ],
+            "cor": "linha",
+            "larg": 1,
+            "tracejado": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                294.0,
+                356.0
+              ],
+              [
+                294.0,
+                364.0
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 1.5
+          },
+          {
+            "t": "texto",
+            "x": 294.0,
+            "y": 376.0,
+            "txt": "1,40",
+            "mudo": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                294.0,
+                40
+              ],
+              [
+                294.0,
+                360
+              ]
+            ],
+            "cor": "linha",
+            "larg": 1,
+            "tracejado": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                409.0,
+                356.0
+              ],
+              [
+                409.0,
+                364.0
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 1.5
+          },
+          {
+            "t": "texto",
+            "x": 409.0,
+            "y": 376.0,
+            "txt": "1,45",
+            "mudo": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                409.0,
+                40
+              ],
+              [
+                409.0,
+                360
+              ]
+            ],
+            "cor": "linha",
+            "larg": 1,
+            "tracejado": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                524.0,
+                356.0
+              ],
+              [
+                524.0,
+                364.0
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 1.5
+          },
+          {
+            "t": "texto",
+            "x": 524.0,
+            "y": 376.0,
+            "txt": "1,50",
+            "mudo": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                524.0,
+                40
+              ],
+              [
+                524.0,
+                360
+              ]
+            ],
+            "cor": "linha",
+            "larg": 1,
+            "tracejado": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                106,
+                296.0
+              ],
+              [
+                114,
+                296.0
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 1.5
+          },
+          {
+            "t": "texto",
+            "x": 102,
+            "y": 296.0,
+            "txt": "20",
+            "ancora": "end",
+            "mudo": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                110,
+                296.0
+              ],
+              [
+                570,
+                296.0
+              ]
+            ],
+            "cor": "linha",
+            "larg": 1,
+            "tracejado": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                106,
+                232.0
+              ],
+              [
+                114,
+                232.0
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 1.5
+          },
+          {
+            "t": "texto",
+            "x": 102,
+            "y": 232.0,
+            "txt": "40",
+            "ancora": "end",
+            "mudo": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                110,
+                232.0
+              ],
+              [
+                570,
+                232.0
+              ]
+            ],
+            "cor": "linha",
+            "larg": 1,
+            "tracejado": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                106,
+                168.0
+              ],
+              [
+                114,
+                168.0
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 1.5
+          },
+          {
+            "t": "texto",
+            "x": 102,
+            "y": 168.0,
+            "txt": "60",
+            "ancora": "end",
+            "mudo": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                110,
+                168.0
+              ],
+              [
+                570,
+                168.0
+              ]
+            ],
+            "cor": "linha",
+            "larg": 1,
+            "tracejado": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                106,
+                104.0
+              ],
+              [
+                114,
+                104.0
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 1.5
+          },
+          {
+            "t": "texto",
+            "x": 102,
+            "y": 104.0,
+            "txt": "80",
+            "ancora": "end",
+            "mudo": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                110,
+                104.0
+              ],
+              [
+                570,
+                104.0
+              ]
+            ],
+            "cor": "linha",
+            "larg": 1,
+            "tracejado": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                106,
+                40.0
+              ],
+              [
+                114,
+                40.0
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 1.5
+          },
+          {
+            "t": "texto",
+            "x": 102,
+            "y": 40.0,
+            "txt": "100",
+            "ancora": "end",
+            "mudo": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                110,
+                40.0
+              ],
+              [
+                570,
+                40.0
+              ]
+            ],
+            "cor": "linha",
+            "larg": 1,
+            "tracejado": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                139.9,
+                360.0
+              ],
+              [
+                174.4,
+                328.0
+              ],
+              [
+                211.2,
+                296.0
+              ],
+              [
+                250.3,
+                264.0
+              ],
+              [
+                294.0,
+                232.0
+              ],
+              [
+                340.0,
+                200.0
+              ],
+              [
+                390.6,
+                168.0
+              ],
+              [
+                443.5,
+                136.0
+              ],
+              [
+                501.0,
+                104.0
+              ],
+              [
+                553.9,
+                72.0
+              ]
+            ],
+            "cor": "perigo",
+            "larg": 3
+          }
+        ],
+        "leitura": [
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                110.0,
+                232.0
+              ],
+              [
+                294.0,
+                232.0
+              ],
+              [
+                294.0,
+                360.0
+              ]
+            ],
+            "cor": "acel",
+            "larg": 2.5,
+            "tracejado": true
+          },
+          {
+            "t": "circ",
+            "x": 294.0,
+            "y": 232.0,
+            "r": 6,
+            "cor": "acel",
+            "borda": "tinta"
+          },
+          {
+            "t": "rotulo",
+            "x": 346.0,
+            "y": 338.0,
+            "txt": "n ≈ 1,40",
+            "cor": "var(--anim-acel)"
+          }
+        ]
+      }
+    }
+  },
+  "passos": [
+    {
+      "titulo": "Lendo o gráfico",
+      "conceito": "Leitura de gráficos",
+      "texto": "Para a solução de 40 ºBx, o gráfico dá o índice de refração.",
+      "cena": {
+        "mostrar": [
+          "grafico",
+          "leitura"
+        ],
+        "destacar": [
+          "leitura"
+        ]
+      }
+    },
+    {
+      "titulo": "A velocidade da luz na solução",
+      "conceito": "Índice de refração",
+      "texto": "O índice de refração absoluto compara a velocidade da luz no vácuo com a velocidade no meio. Resposta: <b>(C) 2,1 × 10<sup>8</sup> m/s</b>.",
+      "equacoes": [
+        "n = \\dfrac{c}{v} \\quad \\Rightarrow \\quad v = \\dfrac{3 \\times 10^{8}}{1,40} \\approx 2,1 \\times 10^{8}\\ \\text{m/s}"
+      ],
+      "cena": {}
+    }
+  ],
+  "status": "revisado",
+  "criadoEm": "2026-11-15T09:00:00-03:00",
+  "atualizadoEm": "2026-11-15T09:00:00-03:00"
+}

@@ -1,0 +1,349 @@
+{
+  "id": "unesp-2021-q78",
+  "titulo": "Menor calor específico, temperatura muda mais depressa",
+  "conceitos": [
+    "Calor sensível",
+    "Capacidade térmica"
+  ],
+  "cena": {
+    "modelo": "diagrama",
+    "parametros": {
+      "elementos": {
+        "aquecimento": [
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                70,
+                320.0
+              ],
+              [
+                310,
+                320.0
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 1.5
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                70,
+                320.0
+              ],
+              [
+                70,
+                50
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 1.5
+          },
+          {
+            "t": "texto",
+            "x": 185.0,
+            "y": 40,
+            "txt": "gráfico 1: aquecimento",
+            "negrito": true
+          },
+          {
+            "t": "texto",
+            "x": 64,
+            "y": 86.0,
+            "txt": "100 ºC",
+            "mudo": true,
+            "ancora": "end"
+          },
+          {
+            "t": "texto",
+            "x": 64,
+            "y": 294.0,
+            "txt": "θ_{amb}",
+            "mudo": true,
+            "ancora": "end"
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                70.0,
+                86.0
+              ],
+              [
+                300.0,
+                86.0
+              ]
+            ],
+            "cor": "linha",
+            "larg": 1,
+            "tracejado": true
+          },
+          {
+            "t": "texto",
+            "x": 300,
+            "y": 338.0,
+            "txt": "tempo",
+            "mudo": true,
+            "ancora": "end"
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                70.0,
+                294.0
+              ],
+              [
+                162.0,
+                86.0
+              ]
+            ],
+            "cor": "#1f6fd0",
+            "larg": 3
+          },
+          {
+            "t": "texto",
+            "x": 162.0,
+            "y": 72.0,
+            "txt": "x",
+            "negrito": true,
+            "cor": "#1f6fd0"
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                70.0,
+                294.0
+              ],
+              [
+                219.5,
+                86.0
+              ]
+            ],
+            "cor": "perigo",
+            "larg": 3
+          },
+          {
+            "t": "texto",
+            "x": 219.5,
+            "y": 72.0,
+            "txt": "y",
+            "negrito": true,
+            "cor": "perigo"
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                70.0,
+                294.0
+              ],
+              [
+                277.0,
+                86.0
+              ]
+            ],
+            "cor": "atrito",
+            "larg": 3
+          },
+          {
+            "t": "texto",
+            "x": 277.0,
+            "y": 72.0,
+            "txt": "z",
+            "negrito": true,
+            "cor": "atrito"
+          }
+        ],
+        "resfriamento": [
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                380,
+                320.0
+              ],
+              [
+                620,
+                320.0
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 1.5
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                380,
+                320.0
+              ],
+              [
+                380,
+                50
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 1.5
+          },
+          {
+            "t": "texto",
+            "x": 495.0,
+            "y": 40,
+            "txt": "gráfico 2: resfriamento",
+            "negrito": true
+          },
+          {
+            "t": "texto",
+            "x": 374,
+            "y": 86.0,
+            "txt": "100 ºC",
+            "mudo": true,
+            "ancora": "end"
+          },
+          {
+            "t": "texto",
+            "x": 374,
+            "y": 294.0,
+            "txt": "θ_{amb}",
+            "mudo": true,
+            "ancora": "end"
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                380.0,
+                86.0
+              ],
+              [
+                610.0,
+                86.0
+              ]
+            ],
+            "cor": "linha",
+            "larg": 1,
+            "tracejado": true
+          },
+          {
+            "t": "texto",
+            "x": 610,
+            "y": 338.0,
+            "txt": "tempo",
+            "mudo": true,
+            "ancora": "end"
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                380.0,
+                86.0
+              ],
+              [
+                472.0,
+                294.0
+              ]
+            ],
+            "cor": "#1f6fd0",
+            "larg": 3
+          },
+          {
+            "t": "texto",
+            "x": 472.0,
+            "y": 312.0,
+            "txt": "x",
+            "negrito": true,
+            "cor": "#1f6fd0"
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                380.0,
+                86.0
+              ],
+              [
+                529.5,
+                294.0
+              ]
+            ],
+            "cor": "perigo",
+            "larg": 3
+          },
+          {
+            "t": "texto",
+            "x": 529.5,
+            "y": 312.0,
+            "txt": "y",
+            "negrito": true,
+            "cor": "perigo"
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                380.0,
+                86.0
+              ],
+              [
+                587.0,
+                294.0
+              ]
+            ],
+            "cor": "atrito",
+            "larg": 3
+          },
+          {
+            "t": "texto",
+            "x": 587.0,
+            "y": 312.0,
+            "txt": "z",
+            "negrito": true,
+            "cor": "atrito"
+          }
+        ],
+        "ordem": [
+          {
+            "t": "texto",
+            "x": 320,
+            "y": 380,
+            "txt": "c_{x} < c_{y} < c_{z}  →  x muda de temperatura mais rápido",
+            "negrito": true
+          }
+        ]
+      }
+    }
+  },
+  "passos": [
+    {
+      "titulo": "A rapidez da mudança de temperatura",
+      "conceito": "Calor sensível",
+      "texto": "Com a mesma potência P (taxa de troca de calor) e a mesma massa, a variação de temperatura por unidade de tempo é inversamente proporcional ao calor específico.",
+      "equacoes": [
+        "P\\,\\Delta t = mc\\,\\Delta\\theta \\quad \\Rightarrow \\quad \\dfrac{\\Delta\\theta}{\\Delta t} = \\dfrac{P}{mc}"
+      ],
+      "cena": {
+        "mostrar": [
+          "ordem"
+        ]
+      }
+    },
+    {
+      "titulo": "Os gráficos",
+      "conceito": "Calor sensível",
+      "texto": "x tem o menor calor específico: sua reta é a mais inclinada, tanto no aquecimento quanto no resfriamento. x chega primeiro a 100 ºC e volta primeiro a θ<sub>amb</sub>; z é a mais lenta nas duas etapas. Resposta: <b>(A)</b>.",
+      "cena": {
+        "mostrar": [
+          "aquecimento",
+          "resfriamento"
+        ]
+      }
+    }
+  ],
+  "status": "revisado",
+  "criadoEm": "2026-11-15T09:00:00-03:00",
+  "atualizadoEm": "2026-11-15T09:00:00-03:00"
+}

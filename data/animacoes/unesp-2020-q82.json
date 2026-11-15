@@ -1,0 +1,952 @@
+{
+  "id": "unesp-2020-q82",
+  "titulo": "Placas em série somam tensão; colunas em paralelo somam corrente",
+  "conceitos": [
+    "Associação de geradores",
+    "Potência elétrica"
+  ],
+  "cena": {
+    "modelo": "diagrama",
+    "parametros": {
+      "elementos": {
+        "colunas": [
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                130,
+                90
+              ],
+              [
+                130,
+                100
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 2
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                118,
+                100
+              ],
+              [
+                142,
+                100
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 2
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                124,
+                106
+              ],
+              [
+                136,
+                106
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 4
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                130,
+                106
+              ],
+              [
+                130,
+                124
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 2
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                130,
+                124
+              ],
+              [
+                130,
+                134
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 2
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                118,
+                134
+              ],
+              [
+                142,
+                134
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 2
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                124,
+                140
+              ],
+              [
+                136,
+                140
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 4
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                130,
+                140
+              ],
+              [
+                130,
+                158
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 2
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                130,
+                158
+              ],
+              [
+                130,
+                168
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 2
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                118,
+                168
+              ],
+              [
+                142,
+                168
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 2
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                124,
+                174
+              ],
+              [
+                136,
+                174
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 4
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                130,
+                174
+              ],
+              [
+                130,
+                192
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 2
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                130,
+                192
+              ],
+              [
+                130,
+                202
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 2
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                118,
+                202
+              ],
+              [
+                142,
+                202
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 2
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                124,
+                208
+              ],
+              [
+                136,
+                208
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 4
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                130,
+                208
+              ],
+              [
+                130,
+                226
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 2
+          },
+          {
+            "t": "texto",
+            "x": 130,
+            "y": 240,
+            "txt": "⋮",
+            "negrito": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                220,
+                90
+              ],
+              [
+                220,
+                100
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 2
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                208,
+                100
+              ],
+              [
+                232,
+                100
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 2
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                214,
+                106
+              ],
+              [
+                226,
+                106
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 4
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                220,
+                106
+              ],
+              [
+                220,
+                124
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 2
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                220,
+                124
+              ],
+              [
+                220,
+                134
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 2
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                208,
+                134
+              ],
+              [
+                232,
+                134
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 2
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                214,
+                140
+              ],
+              [
+                226,
+                140
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 4
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                220,
+                140
+              ],
+              [
+                220,
+                158
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 2
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                220,
+                158
+              ],
+              [
+                220,
+                168
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 2
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                208,
+                168
+              ],
+              [
+                232,
+                168
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 2
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                214,
+                174
+              ],
+              [
+                226,
+                174
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 4
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                220,
+                174
+              ],
+              [
+                220,
+                192
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 2
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                220,
+                192
+              ],
+              [
+                220,
+                202
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 2
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                208,
+                202
+              ],
+              [
+                232,
+                202
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 2
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                214,
+                208
+              ],
+              [
+                226,
+                208
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 4
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                220,
+                208
+              ],
+              [
+                220,
+                226
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 2
+          },
+          {
+            "t": "texto",
+            "x": 220,
+            "y": 240,
+            "txt": "⋮",
+            "negrito": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                310,
+                90
+              ],
+              [
+                310,
+                100
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 2
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                298,
+                100
+              ],
+              [
+                322,
+                100
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 2
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                304,
+                106
+              ],
+              [
+                316,
+                106
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 4
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                310,
+                106
+              ],
+              [
+                310,
+                124
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 2
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                310,
+                124
+              ],
+              [
+                310,
+                134
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 2
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                298,
+                134
+              ],
+              [
+                322,
+                134
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 2
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                304,
+                140
+              ],
+              [
+                316,
+                140
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 4
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                310,
+                140
+              ],
+              [
+                310,
+                158
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 2
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                310,
+                158
+              ],
+              [
+                310,
+                168
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 2
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                298,
+                168
+              ],
+              [
+                322,
+                168
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 2
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                304,
+                174
+              ],
+              [
+                316,
+                174
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 4
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                310,
+                174
+              ],
+              [
+                310,
+                192
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 2
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                310,
+                192
+              ],
+              [
+                310,
+                202
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 2
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                298,
+                202
+              ],
+              [
+                322,
+                202
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 2
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                304,
+                208
+              ],
+              [
+                316,
+                208
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 4
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                310,
+                208
+              ],
+              [
+                310,
+                226
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 2
+          },
+          {
+            "t": "texto",
+            "x": 310,
+            "y": 240,
+            "txt": "⋮",
+            "negrito": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                130,
+                90
+              ],
+              [
+                130,
+                70
+              ],
+              [
+                310,
+                70
+              ],
+              [
+                310,
+                90
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 2
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                220,
+                70
+              ],
+              [
+                220,
+                90
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 2
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                130,
+                250
+              ],
+              [
+                130,
+                270
+              ],
+              [
+                310,
+                270
+              ],
+              [
+                310,
+                250
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 2
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                220,
+                250
+              ],
+              [
+                220,
+                270
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 2
+          },
+          {
+            "t": "texto",
+            "x": 320,
+            "y": 336,
+            "txt": "cada coluna: 750 eletroplacas em série",
+            "negrito": true
+          },
+          {
+            "t": "texto",
+            "x": 320,
+            "y": 360,
+            "txt": "colunas iguais em paralelo",
+            "negrito": true,
+            "cor": "normal"
+          }
+        ],
+        "carga": [
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                220,
+                70
+              ],
+              [
+                220,
+                40
+              ],
+              [
+                560,
+                40
+              ],
+              [
+                560,
+                300
+              ],
+              [
+                220,
+                300
+              ],
+              [
+                220,
+                270
+              ]
+            ],
+            "cor": "mudo",
+            "larg": 2
+          },
+          {
+            "t": "seta",
+            "de": [
+              380,
+              40
+            ],
+            "para": [
+              430,
+              40
+            ],
+            "cor": "perigo",
+            "larg": 3,
+            "vetor": false,
+            "rot_em": [
+              405,
+              24
+            ],
+            "ancora": "middle",
+            "rotulo": "i = 50 A"
+          }
+        ],
+        "fem": [
+          {
+            "t": "rotulo",
+            "x": 320,
+            "y": 400,
+            "txt": "U = 750 · 0,12 V = 90 V",
+            "cor": "var(--accent)"
+          }
+        ]
+      }
+    }
+  },
+  "passos": [
+    {
+      "titulo": "A FEM de cada eletroplaca",
+      "conceito": "Associação de geradores",
+      "texto": "No poraquê, 5 000 eletroplacas em série dão 600 V: cada uma fornece 0,12 V.",
+      "equacoes": [
+        "\\varepsilon = \\dfrac{600}{5\\,000} = 0,12\\ \\text{V}"
+      ],
+      "cena": {}
+    },
+    {
+      "titulo": "A tensão da raia",
+      "conceito": "Associação de geradores",
+      "texto": "Em série, as FEM se somam: cada coluna tem 750 · 0,12 = 90 V. Colunas iguais em paralelo têm a mesma FEM: o sistema fornece 90 V.",
+      "cena": {
+        "mostrar": [
+          "colunas",
+          "fem"
+        ]
+      }
+    },
+    {
+      "titulo": "A potência",
+      "conceito": "Potência elétrica",
+      "texto": "Com corrente total de 50 A: Resposta: <b>(D) 4 500 W</b>.",
+      "equacoes": [
+        "P = U \\cdot i = 90 \\cdot 50 = 4\\,500\\ \\text{W}"
+      ],
+      "cena": {
+        "mostrar": [
+          "carga"
+        ],
+        "destacar": [
+          "carga"
+        ]
+      }
+    }
+  ],
+  "status": "revisado",
+  "criadoEm": "2026-11-15T09:00:00-03:00",
+  "atualizadoEm": "2026-11-15T09:00:00-03:00"
+}

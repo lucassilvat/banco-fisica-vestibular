@@ -1,0 +1,275 @@
+{
+  "id": "unesp-2021-q76",
+  "titulo": "O comprimento da volta BCDB",
+  "conceitos": [
+    "Relações métricas no triângulo retângulo",
+    "Velocidade escalar média"
+  ],
+  "cena": {
+    "modelo": "diagrama",
+    "parametros": {
+      "elementos": {
+        "triangulo": [
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                70,
+                330
+              ],
+              [
+                178,
+                186
+              ],
+              [
+                370,
+                330
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 2,
+            "fechada": true,
+            "preench": "#e6f3e0"
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                178,
+                186
+              ],
+              [
+                178,
+                330
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 2
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                178,
+                318
+              ],
+              [
+                190,
+                318
+              ],
+              [
+                190,
+                330
+              ]
+            ],
+            "cor": "perigo",
+            "larg": 1.6
+          },
+          {
+            "t": "texto",
+            "x": 58,
+            "y": 330,
+            "txt": "A",
+            "negrito": true,
+            "ancora": "end"
+          },
+          {
+            "t": "texto",
+            "x": 178,
+            "y": 170,
+            "txt": "B",
+            "negrito": true
+          },
+          {
+            "t": "texto",
+            "x": 382,
+            "y": 330,
+            "txt": "C",
+            "negrito": true,
+            "ancora": "start"
+          },
+          {
+            "t": "texto",
+            "x": 178,
+            "y": 348,
+            "txt": "D",
+            "negrito": true
+          },
+          {
+            "t": "texto",
+            "x": 112.0,
+            "y": 258.0,
+            "txt": "60 m",
+            "ancora": "end",
+            "mudo": true
+          },
+          {
+            "t": "texto",
+            "x": 220,
+            "y": 398,
+            "txt": "AC = 100 m",
+            "mudo": true
+          }
+        ],
+        "relacoes": [
+          {
+            "t": "texto",
+            "x": 420,
+            "y": 90,
+            "txt": "triângulo retângulo em B:",
+            "ancora": "start",
+            "negrito": true
+          },
+          {
+            "t": "texto",
+            "x": 420,
+            "y": 114,
+            "txt": "60² + 80² = 100²",
+            "ancora": "start"
+          }
+        ],
+        "medidas": [
+          {
+            "t": "texto",
+            "x": 286.0,
+            "y": 250.0,
+            "txt": "BC = 80 m",
+            "negrito": true,
+            "ancora": "start",
+            "cor": "normal"
+          },
+          {
+            "t": "texto",
+            "x": 190,
+            "y": 258.0,
+            "txt": "BD = 48 m",
+            "negrito": true,
+            "ancora": "start",
+            "cor": "perigo"
+          },
+          {
+            "t": "texto",
+            "x": 274.0,
+            "y": 372,
+            "txt": "DC = 64 m",
+            "negrito": true,
+            "cor": "perigo"
+          }
+        ],
+        "volta": [
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                178,
+                186
+              ],
+              [
+                370,
+                330
+              ],
+              [
+                178,
+                330
+              ],
+              [
+                178,
+                186
+              ]
+            ],
+            "cor": "acel",
+            "larg": 4,
+            "opac": 0.8
+          }
+        ],
+        "pessoa": [
+          {
+            "t": "circ",
+            "x": 178,
+            "y": 186,
+            "r": 8,
+            "cor": "peso",
+            "borda": "tinta"
+          }
+        ]
+      },
+      "animacoes": {
+        "correr": {
+          "alvo": "pessoa",
+          "tipo": "trajeto",
+          "pontos": [
+            [
+              0,
+              0
+            ],
+            [
+              192,
+              144
+            ],
+            [
+              0,
+              144
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          "duracao": 4,
+          "pausa": 0.8
+        }
+      }
+    }
+  },
+  "passos": [
+    {
+      "titulo": "O triângulo é retângulo",
+      "conceito": "Relações métricas no triângulo retângulo",
+      "texto": "Como 60² + 80² = 100², o triângulo ABC é retângulo em B, e BD é a altura relativa à hipotenusa AC.",
+      "cena": {
+        "mostrar": [
+          "triangulo",
+          "relacoes"
+        ]
+      }
+    },
+    {
+      "titulo": "Os lados que faltam",
+      "conceito": "Relações métricas no triângulo retângulo",
+      "texto": "As relações métricas dão BD e DC.",
+      "equacoes": [
+        "\\mathrm{BD} = \\dfrac{60 \\cdot 80}{100} = 48\\ \\text{m}, \\quad \\mathrm{DC} = \\dfrac{80^{2}}{100} = 64\\ \\text{m}"
+      ],
+      "cena": {
+        "mostrar": [
+          "medidas"
+        ],
+        "destacar": [
+          "medidas"
+        ]
+      }
+    },
+    {
+      "titulo": "A velocidade média",
+      "conceito": "Velocidade escalar média",
+      "texto": "A volta BCDB mede 80 + 64 + 48 = 192 m e leva 40 s. Resposta: <b>(D) 4,8 m/s</b>.",
+      "equacoes": [
+        "v_{\\text{m}} = \\dfrac{192}{40} = 4,8\\ \\text{m/s}"
+      ],
+      "cena": {
+        "mostrar": [
+          "volta",
+          "pessoa"
+        ],
+        "estado": {
+          "animar": [
+            "correr"
+          ]
+        }
+      }
+    }
+  ],
+  "status": "revisado",
+  "criadoEm": "2026-11-15T09:00:00-03:00",
+  "atualizadoEm": "2026-11-15T09:00:00-03:00"
+}

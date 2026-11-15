@@ -1,0 +1,217 @@
+{
+  "id": "unesp-2020-q81",
+  "titulo": "Da energia do fóton ao comprimento de onda",
+  "conceitos": [
+    "Energia do fóton (E = hf)",
+    "Equação fundamental da ondulatória"
+  ],
+  "cena": {
+    "modelo": "diagrama",
+    "parametros": {
+      "elementos": {
+        "espectro": [
+          {
+            "t": "ret",
+            "x": 76.0,
+            "y": 150,
+            "w": 72.0,
+            "h": 70,
+            "cor": "#6fc9ef",
+            "borda": "tinta",
+            "larg": 1
+          },
+          {
+            "t": "texto",
+            "x": 112.0,
+            "y": 236,
+            "txt": "azul",
+            "negrito": true,
+            "tam": 13
+          },
+          {
+            "t": "texto",
+            "x": 76.0,
+            "y": 136,
+            "txt": "450",
+            "mudo": true,
+            "tam": 12
+          },
+          {
+            "t": "ret",
+            "x": 148.0,
+            "y": 150,
+            "w": 120.0,
+            "h": 70,
+            "cor": "#7fca97",
+            "borda": "tinta",
+            "larg": 1
+          },
+          {
+            "t": "texto",
+            "x": 208.0,
+            "y": 236,
+            "txt": "verde",
+            "negrito": true,
+            "tam": 13
+          },
+          {
+            "t": "texto",
+            "x": 148.0,
+            "y": 136,
+            "txt": "495",
+            "mudo": true,
+            "tam": 12
+          },
+          {
+            "t": "ret",
+            "x": 268.0,
+            "y": 150,
+            "w": 32.0,
+            "h": 70,
+            "cor": "#f2e64a",
+            "borda": "tinta",
+            "larg": 1
+          },
+          {
+            "t": "texto",
+            "x": 284.0,
+            "y": 250,
+            "txt": "amarela",
+            "negrito": true,
+            "tam": 13
+          },
+          {
+            "t": "texto",
+            "x": 268.0,
+            "y": 136,
+            "txt": "570",
+            "mudo": true,
+            "tam": 12
+          },
+          {
+            "t": "ret",
+            "x": 300.0,
+            "y": 150,
+            "w": 48.0,
+            "h": 70,
+            "cor": "#f39b3a",
+            "borda": "tinta",
+            "larg": 1
+          },
+          {
+            "t": "texto",
+            "x": 324.0,
+            "y": 236,
+            "txt": "laranja",
+            "negrito": true,
+            "tam": 13
+          },
+          {
+            "t": "texto",
+            "x": 300.0,
+            "y": 136,
+            "txt": "590",
+            "mudo": true,
+            "tam": 12
+          },
+          {
+            "t": "ret",
+            "x": 348.0,
+            "y": 150,
+            "w": 208.0,
+            "h": 70,
+            "cor": "#ee6a50",
+            "borda": "tinta",
+            "larg": 1
+          },
+          {
+            "t": "texto",
+            "x": 452.0,
+            "y": 236,
+            "txt": "vermelha",
+            "negrito": true,
+            "tam": 13
+          },
+          {
+            "t": "texto",
+            "x": 348.0,
+            "y": 136,
+            "txt": "620",
+            "mudo": true,
+            "tam": 12
+          },
+          {
+            "t": "texto",
+            "x": 556.0,
+            "y": 136,
+            "txt": "750",
+            "mudo": true,
+            "tam": 12
+          },
+          {
+            "t": "texto",
+            "x": 320,
+            "y": 110,
+            "txt": "comprimento de onda (nm)",
+            "mudo": true
+          }
+        ],
+        "marca": [
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                156.0,
+                140
+              ],
+              [
+                156.0,
+                300
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 3
+          },
+          {
+            "t": "rotulo",
+            "x": 156.0,
+            "y": 316,
+            "txt": "λ = 500 nm",
+            "cor": "tinta"
+          }
+        ]
+      }
+    }
+  },
+  "passos": [
+    {
+      "titulo": "O comprimento de onda",
+      "conceito": "Energia do fóton (E = hf)",
+      "texto": "Juntando E = hf e c = λf:",
+      "equacoes": [
+        "\\lambda = \\dfrac{hc}{E} = \\dfrac{6,6 \\times 10^{-34} \\cdot 3 \\times 10^{8}}{3,96 \\times 10^{-19}} = 5 \\times 10^{-7}\\ \\text{m} = 500\\ \\text{nm}"
+      ],
+      "cena": {
+        "mostrar": [
+          "espectro"
+        ]
+      }
+    },
+    {
+      "titulo": "A cor",
+      "conceito": "Equação fundamental da ondulatória",
+      "texto": "500 nm está entre 495 nm e 570 nm. Resposta: <b>(B) verde</b>.",
+      "cena": {
+        "mostrar": [
+          "marca"
+        ],
+        "destacar": [
+          "marca"
+        ]
+      }
+    }
+  ],
+  "status": "revisado",
+  "criadoEm": "2026-11-15T09:00:00-03:00",
+  "atualizadoEm": "2026-11-15T09:00:00-03:00"
+}

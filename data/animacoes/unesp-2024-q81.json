@@ -1,0 +1,190 @@
+{
+  "id": "unesp-2024-q81",
+  "titulo": "Por que a mielina acelera o sinal",
+  "conceitos": [
+    "Segunda lei de Ohm",
+    "Condutores e isolantes"
+  ],
+  "cena": {
+    "modelo": "diagrama",
+    "parametros": {
+      "elementos": {
+        "fibra": [
+          {
+            "t": "ret",
+            "x": 40,
+            "y": 140,
+            "w": 560,
+            "h": 50,
+            "cor": "#f6d77a",
+            "borda": "tinta",
+            "rx": 6
+          },
+          {
+            "t": "ret",
+            "x": 40,
+            "y": 250,
+            "w": 560,
+            "h": 50,
+            "cor": "#f6d77a",
+            "borda": "tinta",
+            "rx": 6
+          },
+          {
+            "t": "ret",
+            "x": 40,
+            "y": 190,
+            "w": 560,
+            "h": 60,
+            "cor": "#f7e9ef",
+            "borda": "tinta"
+          },
+          {
+            "t": "texto",
+            "x": 620,
+            "y": 165,
+            "txt": "mielina",
+            "negrito": true,
+            "ancora": "end"
+          },
+          {
+            "t": "texto",
+            "x": 620,
+            "y": 275,
+            "txt": "mielina",
+            "negrito": true,
+            "ancora": "end"
+          },
+          {
+            "t": "texto",
+            "x": 60,
+            "y": 220,
+            "txt": "axônio",
+            "negrito": true,
+            "ancora": "start"
+          }
+        ],
+        "resistividade": [
+          {
+            "t": "texto",
+            "x": 320,
+            "y": 116,
+            "txt": "ρ muito grande → R = ρL/A muito grande: isolante",
+            "negrito": true,
+            "cor": "peso"
+          },
+          {
+            "t": "texto",
+            "x": 320,
+            "y": 330,
+            "txt": "axônio: ρ pequena → bom condutor",
+            "negrito": true,
+            "cor": "normal"
+          }
+        ],
+        "sinal": [
+          {
+            "t": "circ",
+            "x": 60,
+            "y": 220,
+            "r": 6,
+            "cor": "normal",
+            "borda": null
+          },
+          {
+            "t": "circ",
+            "x": 84,
+            "y": 220,
+            "r": 6,
+            "cor": "normal",
+            "borda": null
+          },
+          {
+            "t": "circ",
+            "x": 108,
+            "y": 220,
+            "r": 6,
+            "cor": "normal",
+            "borda": null
+          },
+          {
+            "t": "circ",
+            "x": 132,
+            "y": 220,
+            "r": 6,
+            "cor": "normal",
+            "borda": null
+          },
+          {
+            "t": "circ",
+            "x": 156,
+            "y": 220,
+            "r": 6,
+            "cor": "normal",
+            "borda": null
+          },
+          {
+            "t": "circ",
+            "x": 180,
+            "y": 220,
+            "r": 6,
+            "cor": "normal",
+            "borda": null
+          }
+        ]
+      },
+      "animacoes": {
+        "sinal": {
+          "alvo": "sinal",
+          "tipo": "trajeto",
+          "pontos": [
+            [
+              0,
+              0
+            ],
+            [
+              400,
+              0
+            ]
+          ],
+          "duracao": 2.5,
+          "pausa": 0.6
+        }
+      }
+    }
+  },
+  "passos": [
+    {
+      "titulo": "Resistividade e resistência",
+      "conceito": "Segunda lei de Ohm",
+      "texto": "A mielina tem resistividade muito maior que a do axônio. Com ρ muito grande, a resistência da mielina é muito grande: ela funciona como isolante em volta do axônio, que é o bom condutor.",
+      "equacoes": [
+        "R = \\dfrac{\\rho L}{A}"
+      ],
+      "cena": {
+        "mostrar": [
+          "fibra",
+          "resistividade"
+        ]
+      }
+    },
+    {
+      "titulo": "O sinal fica no axônio",
+      "conceito": "Condutores e isolantes",
+      "texto": "O sinal fica confinado no axônio, com pouca perda para fora. Com menos fuga, ele se propaga com mais eficiência e mais rapidez. Resposta: <b>(A)</b>.",
+      "cena": {
+        "mostrar": [
+          "sinal"
+        ],
+        "estado": {
+          "animar": [
+            "sinal"
+          ]
+        }
+      }
+    }
+  ],
+  "status": "revisado",
+  "criadoEm": "2026-11-15T09:00:00-03:00",
+  "atualizadoEm": "2026-11-15T09:00:00-03:00"
+}

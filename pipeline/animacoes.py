@@ -95,6 +95,28 @@ def carregar(filtro: str | None = None) -> list[dict]:
     return out
 
 
+FORMAS = {"ret": {"x", "y", "w", "h"}, "circ": {"x", "y", "r"}, "linha": {"pontos"}, "caminho": {"d"}, "seta": {"de", "para"},
+          "vetor": {"x", "y", "letra"}, "texto": {"x", "y", "txt"}, "rotulo": {"x", "y", "txt"}, "angulo": {"centro", "de", "ate"},
+          "cota": {"de", "para"}}
+
+
+def checar_diagrama(par: dict) -> list[str]:
+    """Modelo genérico: formas conhecidas, com os campos obrigatórios; animações com alvo existente."""
+    e = []
+    els = par.get("elementos", {})
+    if not els: e.append("diagrama sem elementos")
+    for id_, formas in els.items():
+        for f in formas:
+            req = FORMAS.get(f.get("t"))
+            if req is None: e.append(f"elemento {id_}: forma desconhecida {f.get('t')}"); continue
+            falta = req - set(f)
+            if falta: e.append(f"elemento {id_}: forma {f['t']} sem {', '.join(sorted(falta))}")
+    for n, an in par.get("animacoes", {}).items():
+        if an.get("alvo") not in els: e.append(f"animação {n}: alvo inexistente {an.get('alvo')}")
+        if an.get("tipo") not in ("trajeto", "girar", "oscilar", "aparecer", "escalar"): e.append(f"animação {n}: tipo desconhecido {an.get('tipo')}")
+    return e
+
+
 def checar(a: dict, questoes: dict) -> list[str]:
     e = [f"falta o campo {k}" for k in OBRIG if k not in a]
     if e: return e
@@ -102,6 +124,14 @@ def checar(a: dict, questoes: dict) -> list[str]:
     if not q: return [f"não existe questão {a['id']}"]
     if a["status"] not in ("rascunho", "revisado", "publicado"): e.append(f"status inválido {a['status']}")
     m = MODELOS.get(a["cena"].get("modelo"))
+    if a["cena"].get("modelo") == "diagrama":
+        e += checar_diagrama(a["cena"].get("parametros", {}))
+        par = a["cena"].get("parametros", {})
+        m = {"parametros": {"largura", "altura", "elementos", "animacoes"}, "elementos": set(par.get("elementos", {})),
+             "estado": {"animar": None}}
+        for p in a["passos"]:
+            for n in p.get("cena", {}).get("estado", {}).get("animar", []):
+                if n not in par.get("animacoes", {}): e.append(f"animação desconhecida: {n}")
     if not m: return e + [f"modelo de cena desconhecido: {a['cena'].get('modelo')}"]
     for k in a["cena"].get("parametros", {}):
         if k not in m["parametros"]: e.append(f"parâmetro desconhecido no modelo: {k}")

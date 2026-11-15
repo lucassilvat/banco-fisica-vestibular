@@ -1,0 +1,230 @@
+{
+  "id": "unesp-2020-q70",
+  "titulo": "Da potência do parque à massa de metano",
+  "conceitos": [
+    "Energia e potência",
+    "Entalpia de combustão"
+  ],
+  "cena": {
+    "modelo": "diagrama",
+    "parametros": {
+      "elementos": {
+        "etapa-1": [
+          {
+            "t": "ret",
+            "x": 30,
+            "y": 16,
+            "w": 400,
+            "h": 40,
+            "cor": "suave",
+            "borda": "normal",
+            "rx": 7
+          },
+          {
+            "t": "texto",
+            "x": 42,
+            "y": 36.0,
+            "txt": "potência do parque",
+            "mudo": true,
+            "ancora": "start"
+          },
+          {
+            "t": "texto",
+            "x": 418,
+            "y": 36.0,
+            "txt": "150 MW",
+            "negrito": true,
+            "ancora": "end"
+          }
+        ],
+        "etapa-2": [
+          {
+            "t": "seta",
+            "de": [
+              230.0,
+              59
+            ],
+            "para": [
+              230.0,
+              79
+            ],
+            "cor": "tinta",
+            "larg": 1.8
+          },
+          {
+            "t": "texto",
+            "x": 242.0,
+            "y": 69.0,
+            "txt": "× 3 600 s",
+            "negrito": true,
+            "cor": "acel",
+            "ancora": "start"
+          },
+          {
+            "t": "ret",
+            "x": 30,
+            "y": 82,
+            "w": 400,
+            "h": 40,
+            "cor": "suave",
+            "borda": "normal",
+            "rx": 7
+          },
+          {
+            "t": "texto",
+            "x": 42,
+            "y": 102.0,
+            "txt": "energia em 1 h",
+            "mudo": true,
+            "ancora": "start"
+          },
+          {
+            "t": "texto",
+            "x": 418,
+            "y": 102.0,
+            "txt": "5,4 × 10^{8} kJ",
+            "negrito": true,
+            "ancora": "end"
+          }
+        ],
+        "etapa-3": [
+          {
+            "t": "seta",
+            "de": [
+              230.0,
+              125
+            ],
+            "para": [
+              230.0,
+              145
+            ],
+            "cor": "tinta",
+            "larg": 1.8
+          },
+          {
+            "t": "texto",
+            "x": 242.0,
+            "y": 135.0,
+            "txt": "÷ 9 × 10^{2} kJ/mol",
+            "negrito": true,
+            "cor": "acel",
+            "ancora": "start"
+          },
+          {
+            "t": "ret",
+            "x": 30,
+            "y": 148,
+            "w": 400,
+            "h": 40,
+            "cor": "suave",
+            "borda": "normal",
+            "rx": 7
+          },
+          {
+            "t": "texto",
+            "x": 42,
+            "y": 168.0,
+            "txt": "metano necessário",
+            "mudo": true,
+            "ancora": "start"
+          },
+          {
+            "t": "texto",
+            "x": 418,
+            "y": 168.0,
+            "txt": "6 × 10^{5} mol",
+            "negrito": true,
+            "ancora": "end"
+          }
+        ],
+        "etapa-4": [
+          {
+            "t": "seta",
+            "de": [
+              230.0,
+              191
+            ],
+            "para": [
+              230.0,
+              211
+            ],
+            "cor": "tinta",
+            "larg": 1.8
+          },
+          {
+            "t": "texto",
+            "x": 242.0,
+            "y": 201.0,
+            "txt": "× 16 g/mol",
+            "negrito": true,
+            "cor": "acel",
+            "ancora": "start"
+          },
+          {
+            "t": "ret",
+            "x": 30,
+            "y": 214,
+            "w": 400,
+            "h": 40,
+            "cor": "suave",
+            "borda": "normal",
+            "rx": 7
+          },
+          {
+            "t": "texto",
+            "x": 42,
+            "y": 234.0,
+            "txt": "massa de metano",
+            "mudo": true,
+            "ancora": "start"
+          },
+          {
+            "t": "texto",
+            "x": 418,
+            "y": 234.0,
+            "txt": "9,6 × 10^{6} g ≈ 10 t",
+            "negrito": true,
+            "ancora": "end"
+          }
+        ]
+      }
+    }
+  },
+  "passos": [
+    {
+      "titulo": "A energia do parque em 1 hora",
+      "conceito": "Energia e potência",
+      "texto": "Energia é potência vezes tempo, com o tempo em segundos.",
+      "equacoes": [
+        "E = P\\,\\Delta t = 150 \\times 10^{6} \\cdot 3\\,600 = 5,4 \\times 10^{11}\\ \\text{J} = 5,4 \\times 10^{8}\\ \\text{kJ}"
+      ],
+      "cena": {
+        "mostrar": [
+          "etapa-1",
+          "etapa-2"
+        ]
+      }
+    },
+    {
+      "titulo": "Quanto metano queimar",
+      "conceito": "Entalpia de combustão",
+      "texto": "Cada mol de metano libera 9 × 10<sup>2</sup> kJ (eficiência de 100%). A massa molar do CH<sub>4</sub> é 16 g/mol. Resposta: <b>(A) 10 t</b>.",
+      "equacoes": [
+        "n = \\dfrac{5,4 \\times 10^{8}}{9 \\times 10^{2}} = 6 \\times 10^{5}\\ \\text{mol}",
+        "m = 6 \\times 10^{5} \\cdot 16 = 9,6 \\times 10^{6}\\ \\text{g} \\approx 10\\ \\text{t}"
+      ],
+      "cena": {
+        "mostrar": [
+          "etapa-3",
+          "etapa-4"
+        ],
+        "destacar": [
+          "etapa-4"
+        ]
+      }
+    }
+  ],
+  "status": "revisado",
+  "criadoEm": "2026-11-15T09:00:00-03:00",
+  "atualizadoEm": "2026-11-15T09:00:00-03:00"
+}

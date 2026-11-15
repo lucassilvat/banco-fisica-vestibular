@@ -1,0 +1,298 @@
+{
+  "id": "unesp-2022-q80",
+  "titulo": "Gauss com letras: d em função de x e y",
+  "conceitos": [
+    "Espelho esférico convexo",
+    "Equação de Gauss"
+  ],
+  "cena": {
+    "modelo": "diagrama",
+    "parametros": {
+      "elementos": {
+        "eixo": [
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                20,
+                230
+              ],
+              [
+                620,
+                230
+              ]
+            ],
+            "cor": "mudo",
+            "larg": 1.5
+          },
+          {
+            "t": "caminho",
+            "d": "M318,80 Q282,230 318,380",
+            "cor": "normal",
+            "larg": 4
+          },
+          {
+            "t": "circ",
+            "x": 300,
+            "y": 230,
+            "r": 4,
+            "cor": "normal",
+            "borda": "tinta"
+          },
+          {
+            "t": "texto",
+            "x": 292,
+            "y": 248,
+            "txt": "vértice",
+            "mudo": true,
+            "ancora": "end"
+          },
+          {
+            "t": "circ",
+            "x": 440.0,
+            "y": 230,
+            "r": 5,
+            "cor": "perigo",
+            "borda": "tinta"
+          },
+          {
+            "t": "texto",
+            "x": 440.0,
+            "y": 250,
+            "txt": "F",
+            "negrito": true,
+            "cor": "perigo"
+          },
+          {
+            "t": "circ",
+            "x": 580,
+            "y": 230,
+            "r": 5,
+            "cor": "atrito",
+            "borda": "tinta"
+          },
+          {
+            "t": "texto",
+            "x": 580,
+            "y": 250,
+            "txt": "C",
+            "negrito": true,
+            "cor": "atrito"
+          }
+        ],
+        "objeto": [
+          {
+            "t": "seta",
+            "de": [
+              48.0,
+              230
+            ],
+            "para": [
+              48.0,
+              130
+            ],
+            "cor": "tinta",
+            "larg": 3
+          },
+          {
+            "t": "texto",
+            "x": 38.0,
+            "y": 130,
+            "txt": "A",
+            "negrito": true,
+            "ancora": "end"
+          },
+          {
+            "t": "texto",
+            "x": 38.0,
+            "y": 244,
+            "txt": "B",
+            "negrito": true,
+            "ancora": "end"
+          }
+        ],
+        "raio": [
+          {
+            "t": "seta",
+            "de": [
+              48.0,
+              130
+            ],
+            "para": [
+              298,
+              194.3
+            ],
+            "cor": "perigo",
+            "larg": 2.5
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                300,
+                194.3
+              ],
+              [
+                440.0,
+                230
+              ]
+            ],
+            "cor": "perigo",
+            "larg": 1.5,
+            "tracejado": true
+          },
+          {
+            "t": "seta",
+            "de": [
+              300,
+              194.3
+            ],
+            "para": [
+              140,
+              194.3
+            ],
+            "cor": "perigo",
+            "larg": 2.5
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                300,
+                194.3
+              ],
+              [
+                390,
+                194.3
+              ]
+            ],
+            "cor": "perigo",
+            "larg": 1.5,
+            "tracejado": true
+          },
+          {
+            "t": "texto",
+            "x": 88.0,
+            "y": 124,
+            "txt": "R",
+            "negrito": true,
+            "cor": "perigo"
+          }
+        ],
+        "imagem": [
+          {
+            "t": "seta",
+            "de": [
+              390,
+              230
+            ],
+            "para": [
+              390,
+              194.3
+            ],
+            "cor": "acel",
+            "larg": 2.5,
+            "tracejado": true
+          },
+          {
+            "t": "texto",
+            "x": 398,
+            "y": 186.3,
+            "txt": "A′",
+            "negrito": true,
+            "cor": "acel",
+            "ancora": "start"
+          }
+        ],
+        "cotas": [
+          {
+            "t": "cota",
+            "de": [
+              300,
+              70
+            ],
+            "para": [
+              390,
+              70
+            ],
+            "cor": "normal",
+            "rot_em": [
+              345.0,
+              56
+            ],
+            "txt": "x"
+          },
+          {
+            "t": "cota",
+            "de": [
+              300,
+              400
+            ],
+            "para": [
+              580,
+              400
+            ],
+            "cor": "normal",
+            "rot_em": [
+              440.0,
+              386
+            ],
+            "txt": "y"
+          },
+          {
+            "t": "cota",
+            "de": [
+              48.0,
+              360
+            ],
+            "para": [
+              300,
+              360
+            ],
+            "cor": "peso",
+            "rot_em": [
+              174.0,
+              346
+            ],
+            "txt": "d"
+          }
+        ]
+      }
+    }
+  },
+  "passos": [
+    {
+      "titulo": "O que a figura informa",
+      "conceito": "Espelho esférico convexo",
+      "texto": "y é a distância do vértice ao centro de curvatura: o raio. A imagem A′ é virtual, atrás do espelho, a uma distância x do vértice. No espelho convexo, o foco é virtual (f negativo).",
+      "equacoes": [
+        "f = -\\dfrac{\\mathrm{y}}{2}, \\quad p′ = -\\mathrm{x}, \\quad p = \\mathrm{d}"
+      ],
+      "cena": {
+        "mostrar": [
+          "eixo",
+          "objeto",
+          "raio",
+          "imagem",
+          "cotas"
+        ]
+      }
+    },
+    {
+      "titulo": "Equação de Gauss",
+      "conceito": "Equação de Gauss",
+      "texto": "Resposta: <b>(D)</b>.",
+      "equacoes": [
+        "-\\dfrac{2}{\\mathrm{y}} = \\dfrac{1}{\\mathrm{d}} - \\dfrac{1}{\\mathrm{x}} \\quad \\Rightarrow \\quad \\dfrac{1}{\\mathrm{d}} = \\dfrac{\\mathrm{y} - 2\\mathrm{x}}{\\mathrm{x} \\cdot \\mathrm{y}} \\quad \\Rightarrow \\quad \\mathrm{d} = \\dfrac{\\mathrm{x} \\cdot \\mathrm{y}}{\\mathrm{y} - 2 \\cdot \\mathrm{x}}"
+      ],
+      "cena": {
+        "destacar": [
+          "cotas"
+        ]
+      }
+    }
+  ],
+  "status": "revisado",
+  "criadoEm": "2026-11-15T09:00:00-03:00",
+  "atualizadoEm": "2026-11-15T09:00:00-03:00"
+}

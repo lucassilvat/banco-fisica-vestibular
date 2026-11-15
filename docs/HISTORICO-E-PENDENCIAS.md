@@ -179,11 +179,14 @@ Para gravar questões, usam-se os lotes da etapa `publicar` (docs/WORKFLOW.md).
 31. v2.10.0: resoluções animadas da Unesp 2025 (as 10 questões do ano). O Lucas segue ano a
     ano por causa do limite de créditos; quando o limite renovar, ele pede os anos seguintes
     em sequência.
+32. v2.11.0: resoluções animadas da Unesp 2016–2024 (77 questões); toda a Unesp do banco tem
+    resolução animada. Criado o modelo genérico `diagrama` (cena descrita no roteiro) e a
+    publicação dos roteiros pelo arquivo `animacoes.json` do artefato.
 
 ## Pendências
 
-- **Resolução animada**: formato decidido (só o player do app; ver item 29). Unesp 2026 e 2025
-  feitas; próximas: Unesp 2024, 2023... (ano a ano).
+- **Resolução animada**: formato decidido (só o player do app; ver item 29). Unesp completa
+  (2016–2026). Próximo vestibular a definir com o Lucas.
 
 - **Fórmulas**: todas as provas do banco foram conferidas (v2.1.0 a v2.7.0). Única ressalva:
   a Unicamp 2027 foi conferida no caderno das provas S e W, e o registrado no manifesto é o

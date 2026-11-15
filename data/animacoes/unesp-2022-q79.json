@@ -1,0 +1,284 @@
+{
+  "id": "unesp-2022-q79",
+  "titulo": "Quanto tempo a peça leva para chegar a 80 ºC",
+  "conceitos": [
+    "Calor sensível",
+    "Potência"
+  ],
+  "cena": {
+    "modelo": "diagrama",
+    "parametros": {
+      "elementos": {
+        "grafico": [
+          {
+            "t": "seta",
+            "de": [
+              90,
+              340.0
+            ],
+            "para": [
+              572,
+              340.0
+            ],
+            "cor": "tinta",
+            "larg": 1.6
+          },
+          {
+            "t": "seta",
+            "de": [
+              90.0,
+              340
+            ],
+            "para": [
+              90.0,
+              48
+            ],
+            "cor": "tinta",
+            "larg": 1.6
+          },
+          {
+            "t": "texto",
+            "x": 572,
+            "y": 362.0,
+            "txt": "t (s)",
+            "ancora": "end",
+            "mudo": true
+          },
+          {
+            "t": "texto",
+            "x": 98.0,
+            "y": 46,
+            "txt": "P (W)",
+            "ancora": "start",
+            "mudo": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                184.0,
+                336.0
+              ],
+              [
+                184.0,
+                344.0
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 1.5
+          },
+          {
+            "t": "texto",
+            "x": 184.0,
+            "y": 356.0,
+            "txt": "180",
+            "mudo": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                278.0,
+                336.0
+              ],
+              [
+                278.0,
+                344.0
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 1.5
+          },
+          {
+            "t": "texto",
+            "x": 278.0,
+            "y": 356.0,
+            "txt": "360",
+            "mudo": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                372.0,
+                336.0
+              ],
+              [
+                372.0,
+                344.0
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 1.5
+          },
+          {
+            "t": "texto",
+            "x": 372.0,
+            "y": 356.0,
+            "txt": "540",
+            "mudo": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                466.0,
+                336.0
+              ],
+              [
+                466.0,
+                344.0
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 1.5
+          },
+          {
+            "t": "texto",
+            "x": 466.0,
+            "y": 356.0,
+            "txt": "720",
+            "mudo": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                86.0,
+                246.7
+              ],
+              [
+                94.0,
+                246.7
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 1.5
+          },
+          {
+            "t": "texto",
+            "x": 82.0,
+            "y": 246.7,
+            "txt": "1",
+            "ancora": "end",
+            "mudo": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                86.0,
+                153.3
+              ],
+              [
+                94.0,
+                153.3
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 1.5
+          },
+          {
+            "t": "texto",
+            "x": 82.0,
+            "y": 153.3,
+            "txt": "2",
+            "ancora": "end",
+            "mudo": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                90.0,
+                153.3
+              ],
+              [
+                549.6,
+                153.3
+              ]
+            ],
+            "cor": "perigo",
+            "larg": 3.5
+          }
+        ],
+        "area": [
+          {
+            "t": "ret",
+            "x": 90.0,
+            "y": 153.3,
+            "w": 376.0,
+            "h": 186.7,
+            "cor": "#f3b6aa",
+            "borda": null,
+            "opac": 0.8
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                466.0,
+                340.0
+              ],
+              [
+                466.0,
+                97.3
+              ]
+            ],
+            "cor": "acel",
+            "larg": 2,
+            "tracejado": true
+          },
+          {
+            "t": "texto",
+            "x": 278.0,
+            "y": 246.7,
+            "txt": "área = P · Δt = 1 440 J",
+            "negrito": true
+          },
+          {
+            "t": "rotulo",
+            "x": 466.0,
+            "y": 91.3,
+            "txt": "720 s = 12 min",
+            "cor": "var(--anim-acel)"
+          }
+        ]
+      }
+    }
+  },
+  "passos": [
+    {
+      "titulo": "O calor necessário",
+      "conceito": "Calor sensível",
+      "texto": "A peça precisa ir de 20 ºC a 80 ºC.",
+      "equacoes": [
+        "Q = mc\\Delta\\theta = 200 \\cdot 0,03 \\cdot 60 = 360\\ \\text{cal} = 360 \\cdot 4 = 1\\,440\\ \\text{J}"
+      ],
+      "cena": {
+        "mostrar": [
+          "grafico"
+        ]
+      }
+    },
+    {
+      "titulo": "O tempo",
+      "conceito": "Potência",
+      "texto": "O gráfico mostra potência constante de 2 W. A energia absorvida é a área sob o gráfico: P · Δt. Resposta: <b>(E) t = 12 min</b>.",
+      "equacoes": [
+        "\\Delta t = \\dfrac{Q}{P} = \\dfrac{1\\,440}{2} = 720\\ \\text{s} = 12\\ \\text{min}"
+      ],
+      "cena": {
+        "mostrar": [
+          "area"
+        ],
+        "destacar": [
+          "area"
+        ]
+      }
+    }
+  ],
+  "status": "revisado",
+  "criadoEm": "2026-11-15T09:00:00-03:00",
+  "atualizadoEm": "2026-11-15T09:00:00-03:00"
+}

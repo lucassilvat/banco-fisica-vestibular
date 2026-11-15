@@ -1,0 +1,272 @@
+{
+  "id": "unesp-2023-q78",
+  "titulo": "Queda livre e depois colisão inelástica",
+  "conceitos": [
+    "Queda livre",
+    "Conservação da quantidade de movimento",
+    "Colisão inelástica"
+  ],
+  "cena": {
+    "modelo": "diagrama",
+    "parametros": {
+      "elementos": {
+        "dinamometro": [
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                200,
+                20
+              ],
+              [
+                200,
+                50
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 2
+          },
+          {
+            "t": "caminho",
+            "d": "M200,50 l12,6 l-24,12 l24,12 l-24,12 l24,12 l-24,12 l12,6",
+            "cor": "tinta",
+            "larg": 2
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                200,
+                122
+              ],
+              [
+                200,
+                140
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 2
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                200,
+                140
+              ],
+              [
+                120,
+                330
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 1.5
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                200,
+                140
+              ],
+              [
+                280,
+                330
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 1.5
+          },
+          {
+            "t": "ret",
+            "x": 110,
+            "y": 330,
+            "w": 180,
+            "h": 18,
+            "cor": "#c9944a",
+            "borda": "tinta",
+            "rx": 6
+          },
+          {
+            "t": "texto",
+            "x": 300,
+            "y": 342,
+            "txt": "prato: 200 g",
+            "ancora": "start",
+            "negrito": true
+          }
+        ],
+        "pacote": [
+          {
+            "t": "ret",
+            "x": 178,
+            "y": 172,
+            "w": 44,
+            "h": 40,
+            "cor": "#e8607a",
+            "borda": "tinta",
+            "rx": 6
+          },
+          {
+            "t": "texto",
+            "x": 200,
+            "y": 196,
+            "txt": "m",
+            "negrito": true,
+            "cor": "papel"
+          }
+        ],
+        "altura": [
+          {
+            "t": "cota",
+            "de": [
+              340,
+              212
+            ],
+            "para": [
+              340,
+              330
+            ],
+            "cor": "normal",
+            "rot_em": [
+              350,
+              271
+            ],
+            "ancora": "start",
+            "txt": "45 cm"
+          }
+        ],
+        "antes": [
+          {
+            "t": "seta",
+            "de": [
+              450,
+              160
+            ],
+            "para": [
+              450,
+              250
+            ],
+            "cor": "peso",
+            "larg": 3.5,
+            "rot_em": [
+              460,
+              210
+            ],
+            "rotulo": "v",
+            "sub": "pacote"
+          },
+          {
+            "t": "texto",
+            "x": 450,
+            "y": 140,
+            "txt": "antes: 3 m/s",
+            "negrito": true,
+            "cor": "peso"
+          }
+        ],
+        "depois": [
+          {
+            "t": "seta",
+            "de": [
+              550,
+              200
+            ],
+            "para": [
+              550,
+              260
+            ],
+            "cor": "acel",
+            "larg": 3.5,
+            "rot_em": [
+              560,
+              240
+            ],
+            "rotulo": "v"
+          },
+          {
+            "t": "texto",
+            "x": 550,
+            "y": 284,
+            "txt": "depois, juntos:",
+            "negrito": true,
+            "cor": "acel"
+          },
+          {
+            "t": "texto",
+            "x": 550,
+            "y": 304,
+            "txt": "2 m/s",
+            "negrito": true,
+            "cor": "acel"
+          }
+        ]
+      },
+      "animacoes": {
+        "cair": {
+          "alvo": "pacote",
+          "tipo": "trajeto",
+          "pontos": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              118
+            ]
+          ],
+          "duracao": 1.2,
+          "pausa": 1.2,
+          "acelerado": true
+        }
+      }
+    }
+  },
+  "passos": [
+    {
+      "titulo": "A velocidade ao chegar ao prato",
+      "conceito": "Queda livre",
+      "texto": "O pacote cai do repouso, de 45 cm, sem resistência do ar.",
+      "equacoes": [
+        "v = \\sqrt{2gh} = \\sqrt{2 \\cdot 10 \\cdot 0,45} = 3\\ \\text{m/s}"
+      ],
+      "cena": {
+        "mostrar": [
+          "dinamometro",
+          "pacote",
+          "altura"
+        ],
+        "estado": {
+          "animar": [
+            "cair"
+          ]
+        }
+      }
+    },
+    {
+      "titulo": "Na colisão, a quantidade de movimento se conserva",
+      "conceito": "Conservação da quantidade de movimento",
+      "texto": "O sistema pacote + prato é isolado na colisão. Depois dela, os dois seguem juntos a 2 m/s. Resposta: <b>(E) 400 g</b>.",
+      "equacoes": [
+        "m \\cdot 3 = (m + 0,2) \\cdot 2 \\quad \\Rightarrow \\quad m = 0,4\\ \\text{kg} = 400\\ \\text{g}"
+      ],
+      "cena": {
+        "mostrar": [
+          "antes",
+          "depois"
+        ],
+        "destacar": [
+          "antes",
+          "depois"
+        ],
+        "estado": {
+          "animar": []
+        }
+      }
+    }
+  ],
+  "status": "revisado",
+  "criadoEm": "2026-11-15T09:00:00-03:00",
+  "atualizadoEm": "2026-11-15T09:00:00-03:00"
+}

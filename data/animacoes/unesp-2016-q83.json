@@ -1,0 +1,211 @@
+{
+  "id": "unesp-2016-q83",
+  "titulo": "Testando cada afirmação com as fórmulas",
+  "conceitos": [
+    "Potência e energia elétrica",
+    "Segunda lei de Ohm"
+  ],
+  "cena": {
+    "modelo": "diagrama",
+    "parametros": {
+      "elementos": {
+        "tabela": [
+          {
+            "t": "ret",
+            "x": 50,
+            "y": 40,
+            "w": 560,
+            "h": 56,
+            "cor": "papel",
+            "borda": "linha",
+            "larg": 1
+          },
+          {
+            "t": "texto",
+            "x": 80,
+            "y": 68,
+            "txt": "A",
+            "negrito": true
+          },
+          {
+            "t": "texto",
+            "x": 110,
+            "y": 68,
+            "txt": "perda ∝ i² (não 1/i)",
+            "ancora": "start"
+          },
+          {
+            "t": "texto",
+            "x": 580,
+            "y": 68,
+            "txt": "F",
+            "negrito": true,
+            "cor": "perigo"
+          },
+          {
+            "t": "ret",
+            "x": 50,
+            "y": 106,
+            "w": 560,
+            "h": 56,
+            "cor": "papel",
+            "borda": "linha",
+            "larg": 1
+          },
+          {
+            "t": "texto",
+            "x": 80,
+            "y": 134,
+            "txt": "B",
+            "negrito": true
+          },
+          {
+            "t": "texto",
+            "x": 110,
+            "y": 134,
+            "txt": "220 V exige menos corrente: mais econômico",
+            "ancora": "start"
+          },
+          {
+            "t": "texto",
+            "x": 580,
+            "y": 134,
+            "txt": "F",
+            "negrito": true,
+            "cor": "perigo"
+          },
+          {
+            "t": "ret",
+            "x": 50,
+            "y": 172,
+            "w": 560,
+            "h": 56,
+            "cor": "papel",
+            "borda": "linha",
+            "larg": 1
+          },
+          {
+            "t": "texto",
+            "x": 80,
+            "y": 200,
+            "txt": "C",
+            "negrito": true
+          },
+          {
+            "t": "texto",
+            "x": 110,
+            "y": 200,
+            "txt": "E = P·Δt: proporcional a P",
+            "ancora": "start"
+          },
+          {
+            "t": "texto",
+            "x": 580,
+            "y": 200,
+            "txt": "F",
+            "negrito": true,
+            "cor": "perigo"
+          },
+          {
+            "t": "ret",
+            "x": 50,
+            "y": 238,
+            "w": 560,
+            "h": 56,
+            "cor": "papel",
+            "borda": "linha",
+            "larg": 1
+          },
+          {
+            "t": "texto",
+            "x": 80,
+            "y": 266,
+            "txt": "D",
+            "negrito": true
+          },
+          {
+            "t": "texto",
+            "x": 110,
+            "y": 266,
+            "txt": "kV·A é unidade de potência",
+            "ancora": "start"
+          },
+          {
+            "t": "texto",
+            "x": 580,
+            "y": 266,
+            "txt": "F",
+            "negrito": true,
+            "cor": "perigo"
+          }
+        ],
+        "correta": [
+          {
+            "t": "ret",
+            "x": 50,
+            "y": 304,
+            "w": 560,
+            "h": 56,
+            "cor": "papel",
+            "borda": "normal",
+            "larg": 3
+          },
+          {
+            "t": "texto",
+            "x": 80,
+            "y": 332,
+            "txt": "E",
+            "negrito": true
+          },
+          {
+            "t": "texto",
+            "x": 110,
+            "y": 332,
+            "txt": "área maior ⇒ R menor ⇒ i maior",
+            "ancora": "start"
+          },
+          {
+            "t": "texto",
+            "x": 580,
+            "y": 332,
+            "txt": "V",
+            "negrito": true,
+            "cor": "normal"
+          }
+        ]
+      }
+    }
+  },
+  "passos": [
+    {
+      "titulo": "As fórmulas do texto",
+      "conceito": "Potência e energia elétrica",
+      "texto": "Com R e Δt fixos, a perda é proporcional a i²; a energia é P·Δt; V·A é watt. E 220 V dá menos corrente que 110 V para a mesma potência. Isso derruba A, B, C e D.",
+      "equacoes": [
+        "\\Delta E = R\\,i^{2}\\,\\Delta t, \\quad E = P\\,\\Delta t"
+      ],
+      "cena": {
+        "mostrar": [
+          "tabela",
+          "correta"
+        ]
+      }
+    },
+    {
+      "titulo": "A área do fio",
+      "conceito": "Segunda lei de Ohm",
+      "texto": "Área maior, resistência menor; com a mesma tensão, corrente maior. Resposta: <b>(E)</b>.",
+      "equacoes": [
+        "R = \\dfrac{\\rho L}{A}, \\quad i = \\dfrac{V}{R}"
+      ],
+      "cena": {
+        "destacar": [
+          "correta"
+        ]
+      }
+    }
+  ],
+  "status": "revisado",
+  "criadoEm": "2026-11-15T09:00:00-03:00",
+  "atualizadoEm": "2026-11-15T09:00:00-03:00"
+}

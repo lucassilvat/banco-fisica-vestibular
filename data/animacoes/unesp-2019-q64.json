@@ -1,0 +1,273 @@
+{
+  "id": "unesp-2019-q64",
+  "titulo": "O modelo de Münch e a pressão da coluna de água",
+  "conceitos": [
+    "Pressão osmótica",
+    "Teorema de Stevin",
+    "Transporte de seiva"
+  ],
+  "cena": {
+    "modelo": "diagrama",
+    "parametros": {
+      "elementos": {
+        "vasos": [
+          {
+            "t": "caminho",
+            "d": "M40,60 L40,330 L560,330 L560,60",
+            "cor": "tinta",
+            "larg": 2
+          },
+          {
+            "t": "ret",
+            "x": 42,
+            "y": 110,
+            "w": 196,
+            "h": 218,
+            "cor": "#bfe6f7",
+            "borda": null
+          },
+          {
+            "t": "ret",
+            "x": 362,
+            "y": 160,
+            "w": 196,
+            "h": 168,
+            "cor": "#bfe6f7",
+            "borda": null
+          },
+          {
+            "t": "ret",
+            "x": 240,
+            "y": 300,
+            "w": 120,
+            "h": 28,
+            "cor": "#bfe6f7",
+            "borda": "tinta"
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                240,
+                60
+              ],
+              [
+                240,
+                300
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 2
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                360,
+                60
+              ],
+              [
+                360,
+                300
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 2
+          },
+          {
+            "t": "ret",
+            "x": 292,
+            "y": 284,
+            "w": 16,
+            "h": 16,
+            "cor": "#c9a24a",
+            "borda": "tinta"
+          },
+          {
+            "t": "texto",
+            "x": 300,
+            "y": 274,
+            "txt": "torneira (fechada)",
+            "mudo": true
+          }
+        ],
+        "bolsas": [
+          {
+            "t": "caminho",
+            "d": "M140,60 L140,180",
+            "cor": "#3a64d2",
+            "larg": 3
+          },
+          {
+            "t": "caminho",
+            "d": "M460,60 L460,180",
+            "cor": "#3a64d2",
+            "larg": 3
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                140,
+                60
+              ],
+              [
+                140,
+                40
+              ],
+              [
+                460,
+                40
+              ],
+              [
+                460,
+                60
+              ]
+            ],
+            "cor": "#3a64d2",
+            "larg": 3
+          },
+          {
+            "t": "circ",
+            "x": 140,
+            "y": 205,
+            "r": 26,
+            "cor": "#ffffff",
+            "borda": "#d6337f",
+            "larg": 2.5
+          },
+          {
+            "t": "circ",
+            "x": 460,
+            "y": 205,
+            "r": 26,
+            "cor": "#f7c9dc",
+            "borda": "#d6337f",
+            "larg": 2.5
+          },
+          {
+            "t": "texto",
+            "x": 140,
+            "y": 250,
+            "txt": "bolsa 1: água",
+            "negrito": true
+          },
+          {
+            "t": "texto",
+            "x": 460,
+            "y": 250,
+            "txt": "bolsa 2: água + açúcar",
+            "negrito": true
+          }
+        ],
+        "niveis": [
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                30,
+                110
+              ],
+              [
+                570,
+                110
+              ]
+            ],
+            "cor": "mudo",
+            "larg": 1,
+            "tracejado": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                30,
+                160
+              ],
+              [
+                570,
+                160
+              ]
+            ],
+            "cor": "mudo",
+            "larg": 1,
+            "tracejado": true
+          },
+          {
+            "t": "cota",
+            "de": [
+              585,
+              110
+            ],
+            "para": [
+              585,
+              160
+            ],
+            "cor": "normal",
+            "rot_em": [
+              592,
+              135.0
+            ],
+            "ancora": "start",
+            "txt": "Δh"
+          }
+        ],
+        "papeis": [
+          {
+            "t": "rotulo",
+            "x": 140,
+            "y": 380,
+            "txt": "raízes (dreno)",
+            "cor": "tinta"
+          },
+          {
+            "t": "rotulo",
+            "x": 460,
+            "y": 380,
+            "txt": "folhas (fonte de açúcar)",
+            "cor": "tinta"
+          }
+        ]
+      }
+    }
+  },
+  "passos": [
+    {
+      "titulo": "O que cada bolsa representa",
+      "conceito": "Transporte de seiva",
+      "texto": "A bolsa com açúcar faz o papel das folhas, onde a fotossíntese produz açúcares; a bolsa só com água representa as raízes. Afirmação I: verdadeira.",
+      "cena": {
+        "mostrar": [
+          "vasos",
+          "bolsas",
+          "papeis"
+        ]
+      }
+    },
+    {
+      "titulo": "A pressão osmótica",
+      "conceito": "Teorema de Stevin",
+      "texto": "A água entra por osmose na bolsa 2 e é empurrada pelo tubo até a bolsa 1, que a devolve ao vaso 1: os níveis ficam desnivelados de Δh. A pressão osmótica que sustenta esse desnível equivale à de uma coluna de água de altura Δh. Afirmação II: verdadeira.",
+      "equacoes": [
+        "p = d g \\Delta h"
+      ],
+      "cena": {
+        "mostrar": [
+          "niveis"
+        ],
+        "destacar": [
+          "niveis"
+        ]
+      }
+    },
+    {
+      "titulo": "A torneira",
+      "conceito": "Transporte de seiva",
+      "texto": "O tubo com a torneira liga os vasos e representa o retorno da água pelo xilema. O anelamento interrompe o floema, que no modelo é o tubo entre as bolsas. Afirmação III: falsa. Resposta: <b>(A)</b>.",
+      "cena": {}
+    }
+  ],
+  "status": "revisado",
+  "criadoEm": "2026-11-15T09:00:00-03:00",
+  "atualizadoEm": "2026-11-15T09:00:00-03:00"
+}

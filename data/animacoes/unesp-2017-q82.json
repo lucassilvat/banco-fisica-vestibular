@@ -1,0 +1,259 @@
+{
+  "id": "unesp-2017-q82",
+  "titulo": "Potencial nulo, campo não nulo",
+  "conceitos": [
+    "Potencial elétrico",
+    "Campo elétrico"
+  ],
+  "cena": {
+    "modelo": "diagrama",
+    "parametros": {
+      "elementos": {
+        "cargas": [
+          {
+            "t": "circ",
+            "x": 300,
+            "y": 215,
+            "r": 150,
+            "cor": null,
+            "borda": "tinta",
+            "larg": 2
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                193.9,
+                321.1
+              ],
+              [
+                406.1,
+                108.9
+              ]
+            ],
+            "cor": "mudo",
+            "larg": 1.2,
+            "tracejado": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                193.9,
+                321.1
+              ],
+              [
+                406.1,
+                321.1
+              ],
+              [
+                406.1,
+                108.9
+              ]
+            ],
+            "cor": "mudo",
+            "larg": 1.2,
+            "tracejado": true
+          },
+          {
+            "t": "circ",
+            "x": 300,
+            "y": 215,
+            "r": 4,
+            "cor": "tinta",
+            "borda": "tinta"
+          },
+          {
+            "t": "texto",
+            "x": 288,
+            "y": 205,
+            "txt": "C",
+            "negrito": true,
+            "ancora": "end"
+          },
+          {
+            "t": "circ",
+            "x": 193.9,
+            "y": 321.1,
+            "r": 11,
+            "cor": "perigo",
+            "borda": "tinta"
+          },
+          {
+            "t": "texto",
+            "x": 177.9,
+            "y": 335.1,
+            "txt": "q₁ = +Q",
+            "negrito": true,
+            "ancora": "end"
+          },
+          {
+            "t": "circ",
+            "x": 406.1,
+            "y": 108.9,
+            "r": 11,
+            "cor": "#3a86c8",
+            "borda": "tinta"
+          },
+          {
+            "t": "texto",
+            "x": 422.1,
+            "y": 96.9,
+            "txt": "q₂ = +Q",
+            "negrito": true,
+            "ancora": "start"
+          },
+          {
+            "t": "circ",
+            "x": 406.1,
+            "y": 321.1,
+            "r": 11,
+            "cor": "atrito",
+            "borda": "tinta"
+          },
+          {
+            "t": "texto",
+            "x": 422.1,
+            "y": 335.1,
+            "txt": "q₃ = −2Q",
+            "negrito": true,
+            "ancora": "start"
+          }
+        ],
+        "potencial": [
+          {
+            "t": "rotulo",
+            "x": 470,
+            "y": 380,
+            "txt": "V_C = k₀(Q + Q − 2Q)/r = 0",
+            "cor": "var(--accent)"
+          }
+        ],
+        "campos-12": [
+          {
+            "t": "seta",
+            "de": [
+              300,
+              215
+            ],
+            "para": [
+              342.4,
+              172.6
+            ],
+            "cor": "perigo",
+            "larg": 3,
+            "rot_em": [
+              348,
+              163
+            ],
+            "rotulo": "E",
+            "sub": "1"
+          },
+          {
+            "t": "seta",
+            "de": [
+              300,
+              215
+            ],
+            "para": [
+              257.6,
+              257.4
+            ],
+            "cor": "#3a86c8",
+            "larg": 3,
+            "rot_em": [
+              250,
+              273
+            ],
+            "ancora": "end",
+            "rotulo": "E",
+            "sub": "2"
+          },
+          {
+            "t": "texto",
+            "x": 30,
+            "y": 40,
+            "txt": "E₁ e E₂ se anulam",
+            "negrito": true,
+            "ancora": "start"
+          }
+        ],
+        "campo-3": [
+          {
+            "t": "seta",
+            "de": [
+              300,
+              215
+            ],
+            "para": [
+              384.8,
+              299.8
+            ],
+            "cor": "atrito",
+            "larg": 4,
+            "rot_em": [
+              390,
+              275
+            ],
+            "rotulo": "E",
+            "sub": "3"
+          },
+          {
+            "t": "texto",
+            "x": 30,
+            "y": 68,
+            "txt": "sobra E₃ = k₀ · 2Q / r²",
+            "negrito": true,
+            "ancora": "start",
+            "cor": "atrito"
+          }
+        ]
+      }
+    }
+  },
+  "passos": [
+    {
+      "titulo": "O potencial em C",
+      "conceito": "Potencial elétrico",
+      "texto": "As três cargas estão à mesma distância r de C. O potencial é escalar: soma-se com sinal.",
+      "equacoes": [
+        "\\mathrm{V}_\\mathrm{C} = \\dfrac{\\mathrm{k}_0(\\mathrm{Q} + \\mathrm{Q} - 2\\mathrm{Q})}{\\mathrm{r}} = 0"
+      ],
+      "cena": {
+        "mostrar": [
+          "cargas",
+          "potencial"
+        ]
+      }
+    },
+    {
+      "titulo": "Os campos de q₁ e q₂",
+      "conceito": "Campo elétrico",
+      "texto": "q<sub>1</sub> e q<sub>2</sub> são iguais e estão nas extremidades de um diâmetro: em C, seus campos têm o mesmo módulo e sentidos opostos e se anulam.",
+      "cena": {
+        "mostrar": [
+          "campos-12"
+        ]
+      }
+    },
+    {
+      "titulo": "O campo de q₃",
+      "conceito": "Campo elétrico",
+      "texto": "Sobra o campo de q<sub>3</sub>, que aponta para ela (carga negativa). Resposta: <b>(E)</b>.",
+      "equacoes": [
+        "\\mathrm{E}_\\mathrm{C} = \\mathrm{k}_0 \\cdot \\dfrac{2\\mathrm{Q}}{\\mathrm{r}^{2}}"
+      ],
+      "cena": {
+        "mostrar": [
+          "campo-3"
+        ],
+        "destacar": [
+          "campo-3"
+        ]
+      }
+    }
+  ],
+  "status": "revisado",
+  "criadoEm": "2026-11-15T09:00:00-03:00",
+  "atualizadoEm": "2026-11-15T09:00:00-03:00"
+}
