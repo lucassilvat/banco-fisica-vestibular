@@ -1,9 +1,12 @@
 # Resoluções animadas
 
-> **Oculto no app desde a v2.13.1.** O Lucas decidiu seguir outro caminho no futuro; por
-> enquanto o app mostra só a resolução textual. Os roteiros e o player foram mantidos; para
-> reativar, `MOSTRAR_ANIMACOES = true` em `app/index.html`. Não produzir novas animações sem
-> novo pedido.
+> **Em revisão (v2.14.0).** No app do Claude (só o Lucas acessa), cada animação tem a seleção
+> Não revisada / Comentada / Aprovada e um comentário, gravados na coleção `revisoes`. O site
+> público (GitHub Pages) só recebe as **aprovadas**: `python -m pipeline site` filtra pelo campo
+> `revisao.estado` do roteiro; `python -m pipeline site <pasta> --revisao` gera a versão com todas,
+> que é a publicada no app do Claude. Antes de cada pull request, exportar a coleção `revisoes`
+> e gravar com `python -m pipeline animacoes revisoes <arquivo.json>`. Não produzir animações novas
+> sem novo pedido.
 
 Adicional à resolução comentada (que continua igual): um passo a passo animado, feito para
 o aluno, com os conceitos físicos explícitos. No app, aparece o botão **Resolução animada**
@@ -113,6 +116,7 @@ python -m pipeline animacoes preparar        # trabalho/publicacao/animacoes-lot
 ```
 
 Desde a v2.11.0 os roteiros vão num arquivo do próprio artefato: `python -m pipeline site
-<pasta>` gera `animacoes.json`, publicado junto com `index.html`. O app junta esse arquivo à
+<pasta> --revisao` gera `animacoes.json` (todas as animações, para o app de revisão), publicado
+junto com `index.html`. O app junta esse arquivo à
 coleção `animacoes` do banco (o arquivo prevalece), então os lotes de `preparar` só são
 necessários para corrigir um roteiro sem republicar o app.

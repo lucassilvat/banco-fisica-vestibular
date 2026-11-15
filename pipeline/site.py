@@ -35,7 +35,7 @@ def documento_site(q: dict) -> dict:
     return d
 
 
-def executar(destino: str = "site"):
+def executar(destino: str = "site", revisao: bool = False):
     out = RAIZ / destino
     if out.exists(): shutil.rmtree(out)
     (out / "figuras").mkdir(parents=True)
@@ -46,7 +46,8 @@ def executar(destino: str = "site"):
     (out / "questoes.json").write_text(json.dumps([documento_site(q) for q in qs], ensure_ascii=False), encoding="utf-8")
     ids = {q["id"] for q in qs}
     anims = {a["id"]: animacoes.documento_app(a) for a in animacoes.carregar()
-             if a["status"] in ("revisado", "publicado") and a["id"] in ids}
+             if a["status"] in ("revisado", "publicado") and a["id"] in ids
+             and (revisao or animacoes.estado_revisao(a) == "aprovada")}
     (out / "animacoes.json").write_text(json.dumps(anims, ensure_ascii=False), encoding="utf-8")
     app = (RAIZ / "app" / "index.html").read_text(encoding="utf-8")
     if not app.lstrip().lower().startswith("<!doctype"):
@@ -56,4 +57,5 @@ def executar(destino: str = "site"):
     (out / "index.html").write_text(app, encoding="utf-8")
     (out / ".nojekyll").write_text("")
     n_fig = len(list((out / "figuras").iterdir()))
+    print(f"Animações no site: {len(anims)} ({'todas, para revisão' if revisao else 'só as aprovadas'}).")
     print(f"Site gerado em {out}: {len(qs)} questões, {n_fig} figuras. Teste local: python -m http.server -d {destino}")
