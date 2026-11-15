@@ -1,8 +1,9 @@
 {
   "id": "unesp-2025-q81",
-  "titulo": "Quanto tempo a onda leva até o pino",
+  "formato": "aula",
+  "titulo": "Quanto tempo até o pino",
   "conceitos": [
-    "Elementos de uma onda",
+    "Ondas",
     "Equação fundamental da ondulatória"
   ],
   "cena": {
@@ -13,44 +14,161 @@
       "dist": 1.8
     }
   },
-  "passos": [
+  "abertura": [
     {
-      "titulo": "Lendo a figura",
-      "conceito": "Elementos de uma onda",
-      "texto": "Uma oscilação completa da corda é um comprimento de onda: λ = 0,6 m. A frente da onda está a 1,8 m do pino.",
-      "cena": {
-        "mostrar": [
-          "pino",
-          "corda",
-          "frente",
-          "cotas"
-        ]
-      }
-    },
-    {
-      "titulo": "A velocidade da onda",
-      "conceito": "Equação fundamental da ondulatória",
-      "texto": "A onda avança um comprimento de onda a cada período.",
-      "equacoes": [
-        "v = \\lambda f = 0,6 \\cdot 3 = 1,8\\ \\text{m/s}"
-      ],
-      "cena": {}
-    },
-    {
-      "titulo": "Até o pino",
-      "conceito": "Equação fundamental da ondulatória",
-      "texto": "Com velocidade constante, a frente percorre 1,8 m. Resposta: <b>(E) 1,0 s</b>.",
-      "equacoes": [
-        "\\Delta t = \\dfrac{1,8}{1,8} = 1,0\\ \\text{s}"
-      ],
-      "cena": {
-        "estado": {
-          "propagar": true
+      "titulo": "Resolução",
+      "blocos": [
+        {
+          "t": "texto",
+          "html": "Há dois caminhos:"
+        },
+        {
+          "t": "texto",
+          "html": "1) Calcular a <b>velocidade</b> da onda, v = λf, e dividir a distância por ela."
+        },
+        {
+          "t": "texto",
+          "html": "2) <b>Contar</b> quantos comprimentos de onda faltam: cada um leva um período."
+        },
+        {
+          "t": "texto",
+          "html": "Escolha um método nas abas acima, ou avance para ver os dois."
         }
-      }
+      ]
+    }
+  ],
+  "metodos": [
+    {
+      "nome": "Pela velocidade",
+      "telas": [
+        {
+          "titulo": "A velocidade da onda",
+          "cena": {
+            "mostrar": [
+              "pino",
+              "corda",
+              "frente",
+              "cotas"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "Da figura: um comprimento de onda mede <b>λ = 0,6 m</b>, e a frente da onda está a <b>1,8 m</b> do pino."
+            },
+            {
+              "t": "texto",
+              "html": "A velocidade de propagação:"
+            },
+            {
+              "t": "eq",
+              "tex": "v = \\lambda f = 0,6 \\cdot 3"
+            },
+            {
+              "t": "eq",
+              "tex": "v = 1,8\\ \\text{m/s}"
+            }
+          ]
+        },
+        {
+          "titulo": "Até o pino",
+          "cena": {
+            "mostrar": [
+              "pino",
+              "corda",
+              "frente",
+              "cotas"
+            ],
+            "estado": {
+              "propagar": true
+            }
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "Com velocidade constante, a frente percorre 1,8 m:"
+            },
+            {
+              "t": "eq",
+              "tex": "\\Delta t = \\dfrac{d}{v} = \\dfrac{1,8}{1,8}"
+            },
+            {
+              "t": "eq",
+              "tex": "\\Delta t = 1,0\\ \\text{s}"
+            },
+            {
+              "t": "gabarito",
+              "letra": "E"
+            },
+            {
+              "t": "fim"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nome": "Contando comprimentos de onda",
+      "telas": [
+        {
+          "titulo": "Três períodos",
+          "cena": {
+            "mostrar": [
+              "pino",
+              "corda",
+              "frente",
+              "cotas"
+            ],
+            "estado": {
+              "propagar": true
+            }
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "Em <b>um período</b>, a onda avança exatamente <b>um comprimento de onda</b>."
+            },
+            {
+              "t": "texto",
+              "html": "Quantos λ cabem entre a frente e o pino?"
+            },
+            {
+              "t": "eq",
+              "tex": "\\dfrac{1,8}{0,6} = 3 \\quad \\Rightarrow \\quad d = 3\\lambda"
+            },
+            {
+              "t": "texto",
+              "html": "Então a frente chega ao pino depois de <b>3 períodos</b>."
+            },
+            {
+              "t": "eq",
+              "tex": "T = \\dfrac{1}{f} = \\dfrac{1}{3}\\ \\text{s}"
+            },
+            {
+              "t": "eq",
+              "tex": "\\Delta t = 3T = \\marca{a}{3} \\cdot \\dfrac{1}{\\marca{b}{3}}"
+            },
+            {
+              "t": "eq",
+              "tex": "\\Delta t = 1,0\\ \\text{s}",
+              "cancelar": [
+                "a",
+                "b"
+              ]
+            },
+            {
+              "t": "gabarito",
+              "letra": "E"
+            },
+            {
+              "t": "fim"
+            }
+          ]
+        }
+      ]
     }
   ],
   "status": "revisado",
-  "criadoEm": "2026-11-14T23:00:00-03:00",
-  "atualizadoEm": "2026-11-14T23:00:00-03:00"
+  "criadoEm": "2026-11-15T09:00:00-03:00",
+  "atualizadoEm": "2026-11-15T09:00:00-03:00"
 }

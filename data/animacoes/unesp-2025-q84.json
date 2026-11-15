@@ -1,9 +1,10 @@
 {
   "id": "unesp-2025-q84",
-  "titulo": "O gráfico do erro da fórmula rápida",
+  "formato": "aula",
+  "titulo": "O erro da fórmula rápida",
   "conceitos": [
-    "Escalas termométricas",
-    "Função modular"
+    "Função modular",
+    "Escalas termométricas"
   ],
   "cena": {
     "modelo": "grafico-modulo",
@@ -28,59 +29,128 @@
       "rotPonto0": "25/9"
     }
   },
-  "passos": [
+  "metodos": [
     {
-      "titulo": "A diferença entre as fórmulas",
-      "conceito": "Escalas termométricas",
-      "texto": "Subtraindo a fórmula aproximada da exata, sobra uma expressão do 1º grau em T<sub>F</sub>, que se anula em T<sub>F</sub> = 50.",
-      "equacoes": [
-        "\\mathrm{T}_\\mathrm{C} - \\mathrm{T}^*_\\mathrm{C} = \\dfrac{10(\\mathrm{T}_\\mathrm{F} - 32) - 9(\\mathrm{T}_\\mathrm{F} - 30)}{18} = \\dfrac{\\mathrm{T}_\\mathrm{F} - 50}{18}"
-      ],
-      "cena": {
-        "mostrar": [
-          "eixos",
-          "reta"
-        ]
-      }
-    },
-    {
-      "titulo": "O módulo",
-      "conceito": "Função modular",
-      "texto": "O erro absoluto é o módulo dessa diferença: a parte negativa da reta se dobra para cima, e o gráfico vira um “V” com vértice em T<sub>F</sub> = 50.",
-      "equacoes": [
-        "\\mathrm{E}(\\mathrm{T}_\\mathrm{F}) = \\dfrac{\\left|\\mathrm{T}_\\mathrm{F} - 50\\right|}{18}"
-      ],
-      "cena": {
-        "mostrar": [
-          "modulo",
-          "ponto-zero"
-        ],
-        "estado": {
-          "dobrar": true
+      "nome": "Diferença e módulo",
+      "telas": [
+        {
+          "titulo": "A diferença entre as fórmulas",
+          "cena": {
+            "mostrar": [
+              "eixos",
+              "reta"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "Começamos pela diferença entre as duas fórmulas:"
+            },
+            {
+              "t": "eq",
+              "tex": "T_{C} - T^{*}_{C} = \\dfrac{5(T_{F} - 32)}{9} - \\dfrac{T_{F} - 30}{2}"
+            },
+            {
+              "t": "texto",
+              "html": "Com denominador comum 18:"
+            },
+            {
+              "t": "eq",
+              "tex": "T_{C} - T^{*}_{C} = \\dfrac{10(T_{F} - 32) - 9(T_{F} - 30)}{18}"
+            },
+            {
+              "t": "eq",
+              "tex": "T_{C} - T^{*}_{C} = \\dfrac{10T_{F} - 320 - 9T_{F} + 270}{18}"
+            },
+            {
+              "t": "eq",
+              "tex": "T_{C} - T^{*}_{C} = \\dfrac{T_{F} - 50}{18}"
+            },
+            {
+              "t": "texto",
+              "html": "É uma <b>reta</b>, que se anula em T<sub>F</sub> = 50."
+            }
+          ]
+        },
+        {
+          "titulo": "O módulo",
+          "cena": {
+            "mostrar": [
+              "eixos",
+              "reta",
+              "modulo",
+              "ponto-zero"
+            ],
+            "estado": {
+              "dobrar": true
+            }
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "O erro é o <b>módulo</b> dessa diferença: a parte negativa da reta é <b>rebatida</b> para cima, e o gráfico vira um <b>V</b>."
+            },
+            {
+              "t": "eq",
+              "tex": "E(T_{F}) = \\dfrac{|T_{F} - 50|}{18}"
+            },
+            {
+              "t": "texto",
+              "html": "O vértice, onde o erro é nulo, fica em T<sub>F</sub> = 50."
+            }
+          ]
+        },
+        {
+          "titulo": "O valor em 0 °F",
+          "cena": {
+            "mostrar": [
+              "eixos",
+              "reta",
+              "modulo",
+              "ponto-zero",
+              "ponto-0"
+            ],
+            "estado": {
+              "dobrar": false
+            },
+            "destacar": [
+              "ponto-0"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "Para identificar o gráfico, o valor em T<sub>F</sub> = 0:"
+            },
+            {
+              "t": "eq",
+              "tex": "E(0) = \\dfrac{50}{18} = \\dfrac{\\marca{a}{2} \\cdot 25}{\\marca{b}{2} \\cdot 9}"
+            },
+            {
+              "t": "eq",
+              "tex": "E(0) = \\dfrac{25}{9}",
+              "cancelar": [
+                "a",
+                "b"
+              ]
+            },
+            {
+              "t": "texto",
+              "html": "O gráfico em V com zero em 50 e valor 25/9 em T<sub>F</sub> = 0 é o da alternativa B."
+            },
+            {
+              "t": "gabarito",
+              "letra": "B"
+            },
+            {
+              "t": "fim"
+            }
+          ]
         }
-      }
-    },
-    {
-      "titulo": "O valor em 0 °F",
-      "conceito": "Função modular",
-      "texto": "Em T<sub>F</sub> = 0, o erro vale 25/9: é o gráfico da alternativa B. Resposta: <b>(B)</b>.",
-      "equacoes": [
-        "\\mathrm{E}(0) = \\dfrac{50}{18} = \\dfrac{25}{9}"
-      ],
-      "cena": {
-        "mostrar": [
-          "ponto-0"
-        ],
-        "destacar": [
-          "ponto-0"
-        ],
-        "estado": {
-          "dobrar": false
-        }
-      }
+      ]
     }
   ],
   "status": "revisado",
-  "criadoEm": "2026-11-14T23:00:00-03:00",
-  "atualizadoEm": "2026-11-14T23:00:00-03:00"
+  "criadoEm": "2026-11-15T09:00:00-03:00",
+  "atualizadoEm": "2026-11-15T09:00:00-03:00"
 }

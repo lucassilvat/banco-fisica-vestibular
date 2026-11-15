@@ -153,7 +153,9 @@ def checar_aula(a: dict, q: dict) -> list[str]:
             for x in t.get("cena", {}).get("animar", []):
                 if x not in anims: e.append(f"{onde}: animação desconhecida: {x}")
             for k in t.get("cena", {}):
-                if k not in ("mostrar", "animar", "estado"): e.append(f"{onde}: campo de cena não aceito: {k}")
+                if k not in ("mostrar", "animar", "estado", "destacar"): e.append(f"{onde}: campo de cena não aceito: {k}")
+            for x in t.get("cena", {}).get("destacar", []):
+                if x not in t.get("cena", {}).get("mostrar", []): e.append(f"{onde}: destacar só vale para elemento mostrado: {x}")
             for k, v in t.get("cena", {}).get("estado", {}).items():
                 if k not in estados: e.append(f"{onde}: estado desconhecido: {k}"); continue
                 if estados[k] is not None and v not in estados[k]: e.append(f"{onde}: valor inválido para {k}: {v}")

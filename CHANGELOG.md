@@ -4,6 +4,20 @@ Cada versão corresponde a um lote de importação ou a uma mudança no app/pipe
 Formato: `vMAIOR.MENOR.CORREÇÃO` — MENOR sobe a cada prova importada; MAIOR, em mudanças
 de modelo de dados; CORREÇÃO, em correções de questões já publicadas.
 
+## v2.16.0 — 2026-11-15
+
+- **Unesp 2025 no formato aula** (10 questões: Q48, Q76 a Q82, Q84 e Q90), reaproveitando os
+  desenhos e simulações que o app já tinha para cada uma. Cancelamentos animados: 2π e R<sub>B</sub>
+  nas engrenagens (Q76), os sinais de menos no vértice da parábola (Q77), a massa nos três termos
+  da segunda lei de Newton (Q78), 6 com 2 em Clapeyron (Q79), o 3 de 3T = 3 · 1/3 (Q81) e o 2 de
+  50/18 (Q84); termos que passam para o outro lado na Q77 (g t) e na Q79 (nR).
+- Dois métodos em abas na **Q81** (pela velocidade da onda; contando comprimentos de onda) e na
+  **Q82** (pela potência; pela corrente, em que todas as correntes dão valores inteiros).
+- Formato aula: `cena.destacar` faz piscar um elemento na tela; elementos que já estavam na tela
+  anterior não "entram" de novo.
+- Lançamento oblíquo (modelo do app): o rótulo da velocidade em B não encosta mais no ponto B.
+- Todas aguardam a revisão do Lucas no app; o site público não muda até ele aprovar.
+
 ## v2.15.0 — 2026-11-15
 
 - **Novo formato de resolução animada, "aula"** (pedido do Lucas): cadência de professor. Cada

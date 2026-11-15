@@ -34,7 +34,8 @@ A resolução é dada como um professor faria na lousa:
 - **Preferir cancelamentos a contas intermediárias** (ex.: escrever 70 = 7 · 10 e cancelar o 7).
 - **Cena** (modelo `diagrama`) só quando agrega: simulação se ajuda a entender o fenômeno,
   desenho estático se basta, nenhuma se o texto resolve. Cada tela diz o que mostrar
-  (`cena.mostrar`) e quais animações rodam (`cena.animar`).
+  (`cena.mostrar`) e quais animações rodam (`cena.animar`); `cena.destacar` faz piscar um
+  elemento mostrado.
   Também vale um **modelo pronto** do app (ex.: `indicador-combustivel`, Unesp 2026 Q82); aí a
   tela usa `cena.estado` com os estados do modelo (em `MODELOS`, `pipeline/animacoes.py`).
 - **Imagens em espelhos e lentes**: desenhar imagem virtual do lado virtual (atrás do espelho),

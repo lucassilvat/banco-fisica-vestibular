@@ -1,62 +1,123 @@
 {
   "id": "unesp-2025-q90",
-  "titulo": "Infinitos lados, tempo finito",
+  "formato": "aula",
+  "titulo": "Tempos em progressão geométrica",
   "conceitos": [
-    "Movimento uniforme",
-    "Unidades do SI",
+    "Velocidade escalar média",
     "Progressão geométrica"
   ],
   "cena": {
     "modelo": "triangulo-pg",
     "parametros": {}
   },
-  "passos": [
+  "metodos": [
     {
-      "titulo": "O primeiro lado",
-      "conceito": "Unidades do SI",
-      "texto": "Passando para o SI, o primeiro lado leva 1 s.",
-      "equacoes": [
-        "10\\ \\text{cm} = 0,1\\ \\text{m}, \\quad 6\\ \\text{m/min} = 0,1\\ \\text{m/s}",
-        "\\Delta t_{1} = \\dfrac{0,1}{0,1} = 1\\ \\text{s}"
-      ],
-      "cena": {
-        "mostrar": [
-          "triangulo",
-          "particula"
-        ]
-      }
-    },
-    {
-      "titulo": "Velocidade dobra, tempo cai pela metade",
-      "conceito": "Movimento uniforme",
-      "texto": "Em cada lado a velocidade é constante e dobra no lado seguinte. Como os lados têm o mesmo comprimento, cada tempo é metade do anterior.",
-      "cena": {
-        "mostrar": [
-          "tempos"
-        ],
-        "estado": {
-          "percorrer": true
+      "nome": "Soma da PG",
+      "telas": [
+        {
+          "titulo": "O primeiro lado",
+          "cena": {
+            "mostrar": [
+              "triangulo",
+              "particula"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "Primeiro, as unidades: lado e velocidade em metros e segundos."
+            },
+            {
+              "t": "eq",
+              "tex": "10\\ \\text{cm} = 0,1\\ \\text{m}"
+            },
+            {
+              "t": "eq",
+              "tex": "6\\ \\text{m/min} = \\dfrac{6\\ \\text{m}}{60\\ \\text{s}} = 0,1\\ \\text{m/s}"
+            },
+            {
+              "t": "texto",
+              "html": "O primeiro lado leva:"
+            },
+            {
+              "t": "eq",
+              "tex": "t_{1} = \\dfrac{0,1}{0,1} = 1\\ \\text{s}"
+            }
+          ]
+        },
+        {
+          "titulo": "A velocidade dobra, o tempo cai pela metade",
+          "cena": {
+            "mostrar": [
+              "triangulo",
+              "particula",
+              "tempos"
+            ],
+            "estado": {
+              "percorrer": true
+            }
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "Mesmo comprimento, velocidade <b>dobrada</b>: cada lado leva a <b>metade</b> do tempo do anterior."
+            },
+            {
+              "t": "eq",
+              "tex": "1 + \\dfrac{1}{2} + \\dfrac{1}{4} + \\dfrac{1}{8} + \\cdots"
+            },
+            {
+              "t": "texto",
+              "html": "10 voltas são 30 lados: somamos 30 termos de uma PG de razão 1/2."
+            }
+          ]
+        },
+        {
+          "titulo": "Somando os tempos",
+          "cena": {
+            "mostrar": [
+              "triangulo",
+              "particula",
+              "tempos",
+              "soma"
+            ],
+            "estado": {
+              "percorrer": true
+            },
+            "destacar": [
+              "soma"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "eq",
+              "tex": "S_{30} = \\dfrac{1 \\cdot \\left(1 - \\left(\\tfrac{1}{2}\\right)^{30}\\right)}{1 - \\tfrac{1}{2}}"
+            },
+            {
+              "t": "eq",
+              "tex": "S_{30} = 2\\left(1 - \\left(\\tfrac{1}{2}\\right)^{30}\\right)"
+            },
+            {
+              "t": "texto",
+              "html": "(1/2)<sup>30</sup> é menor que um bilionésimo: desprezível."
+            },
+            {
+              "t": "eq",
+              "tex": "S_{30} \\approx 2\\ \\text{s}"
+            },
+            {
+              "t": "gabarito",
+              "letra": "A"
+            },
+            {
+              "t": "fim"
+            }
+          ]
         }
-      }
-    },
-    {
-      "titulo": "Somando os tempos",
-      "conceito": "Progressão geométrica",
-      "texto": "10 voltas são 30 lados: soma de 30 termos de uma PG de razão ½. O termo (½)<sup>30</sup> é desprezível, e o total fica muito perto de 2 s. Resposta: <b>(A) 2 s</b>.",
-      "equacoes": [
-        "S_{30} = \\dfrac{1 \\cdot \\left(1 - \\left(\\tfrac{1}{2}\\right)^{30}\\right)}{1 - \\tfrac{1}{2}} \\approx 2\\ \\text{s}"
-      ],
-      "cena": {
-        "mostrar": [
-          "soma"
-        ],
-        "destacar": [
-          "soma"
-        ]
-      }
+      ]
     }
   ],
   "status": "revisado",
-  "criadoEm": "2026-11-14T23:00:00-03:00",
-  "atualizadoEm": "2026-11-14T23:00:00-03:00"
+  "criadoEm": "2026-11-15T09:00:00-03:00",
+  "atualizadoEm": "2026-11-15T09:00:00-03:00"
 }

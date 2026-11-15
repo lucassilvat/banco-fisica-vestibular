@@ -1641,7 +1641,7 @@ CENAS["lancamento-obliquo"] = (svg, P) => {
   sLine(el.componentes, A0[0] + vx * K, A0[1], A0[0] + vx * K, A0[1] - vy * K, { class: "ln-mute", "stroke-dasharray": "3 3" });
   sLine(el.componentes, A0[0], A0[1] - vy * K, A0[0] + vx * K, A0[1] - vy * K, { class: "ln-mute", "stroke-dasharray": "3 3" });
   el["velocidade-b"] = S("g", { class: "ae" }, svg);
-  sArrow(el["velocidade-b"], "v-normal", 3).set(X(xB), Y(y(xB)) - 22, X(xB) + vx * K, Y(y(xB)) - 22); sRich(el["velocidade-b"], X(xB) + vx * K + 8, Y(y(xB)) - 22, "só v_{x} (v_{y} = 0)", "v-normal t-b", "start");
+  sArrow(el["velocidade-b"], "v-normal", 3).set(X(xB), Y(y(xB)) - 38, X(xB) + vx * K, Y(y(xB)) - 38); sRich(el["velocidade-b"], X(xB) + vx * K + 8, Y(y(xB)) - 38, "só v_{x} (v_{y} = 0)", "v-normal t-b", "start");
   el.bola = S("g", { class: "ae" }, svg); const bola = S("circle", { r: 7, fill: "var(--paper)", stroke: "var(--ink)", "stroke-width": 2 }, el.bola);
   const tT = sLabel(el.bola, 620, 24, "", "", "t-b", "end");
   const pos = t => { const x = vx * t; bola.setAttribute("cx", X(x)); bola.setAttribute("cy", Y(y(x))); tT.textContent = `t = ${fmt(t, 1)} s`; };
@@ -2007,7 +2007,8 @@ function openAula(q, rot) {
     const vis = new Set(((t.cena || {}).mostrar) || []);
     const temCena = cena && vis.size > 0;
     corpo.classList.toggle("sem-cena", !temCena);
-    if (cena) { Object.entries(cena.el).forEach(([id, n]) => { n.classList.toggle("on", vis.has(id)); n.classList.remove("entra"); if (vis.has(id) && animar) { void n.getBoundingClientRect(); n.classList.add("entra"); } }); cena.update({ ...(((t.cena || {}).estado) || {}), animar: ((t.cena || {}).animar) || [] }); }
+    const hl = new Set(((t.cena || {}).destacar) || []);
+    if (cena) { Object.entries(cena.el).forEach(([id, n]) => { const novo = !n.classList.contains("on"); n.classList.toggle("on", vis.has(id)); n.classList.remove("entra", "hl"); if (vis.has(id) && animar && novo) { void n.getBoundingClientRect(); n.classList.add("entra"); } if (vis.has(id) && hl.has(id)) { void n.getBoundingClientRect(); n.classList.add("hl"); } }); cena.update({ ...(((t.cena || {}).estado) || {}), animar: ((t.cena || {}).animar) || [] }); }
     if (t.titulo) lousa.append(el("h3", { class: "aula-tit", text: t.titulo }));
     let ultimaEq = null; const blocos = t.blocos || [];
     if (!animar) { blocos.forEach(b => { const d = bloco(b, ultimaEq, false); if (d) ultimaEq = d; }); }
