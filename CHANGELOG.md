@@ -4,6 +4,24 @@ Cada versão corresponde a um lote de importação ou a uma mudança no app/pipe
 Formato: `vMAIOR.MENOR.CORREÇÃO` — MENOR sobe a cada prova importada; MAIOR, em mudanças
 de modelo de dados; CORREÇÃO, em correções de questões já publicadas.
 
+## v2.13.1 — 2026-11-15
+
+- **Resoluções animadas ocultas no app** (decisão do Lucas, que quer seguir outro caminho no
+  futuro). O botão "Resolução animada" não aparece mais; o app mostra só a resolução textual.
+  Nada foi apagado: os 360 roteiros continuam em `data/animacoes/` e em `animacoes.json`, e o
+  player continua no código. Para reativar, basta `MOSTRAR_ANIMACOES = true` em `app/index.html`.
+
+## v2.13.0 — 2026-11-15
+
+- **Resolução animada da Fuvest 2016 a 2027**: todas as 149 questões da Fuvest no banco.
+- Questões de leitura e de várias alternativas a julgar ganharam uma tabela que marca cada
+  alternativa (ou afirmativa) como verdadeira ou falsa, com o motivo em poucas palavras.
+- Questões interdisciplinares (Química, Biologia, Geografia, Matemática): a animação trata a
+  parte de Física e resume a outra disciplina em uma frase.
+- Fuvest 2022 Q54 (anulada pela banca): a animação mostra o sentido pretendido e explica por
+  que o módulo das alternativas está incorreto.
+- Revisão visual e de fidelidade de todos os passos.
+
 ## v2.12.0 — 2026-11-15
 
 - **Resolução animada da Unicamp 2016 a 2027**: 115 questões novas (a Unicamp 2017 Q58 já

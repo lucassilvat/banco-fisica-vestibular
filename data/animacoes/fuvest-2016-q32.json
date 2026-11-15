@@ -1,0 +1,205 @@
+{
+  "id": "fuvest-2016-q32",
+  "titulo": "O laser que ilumina a moeda",
+  "conceitos": [
+    "Lei de Snell-Descartes"
+  ],
+  "cena": {
+    "modelo": "diagrama",
+    "parametros": {
+      "elementos": {
+        "caixa": [
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                160,
+                80
+              ],
+              [
+                160,
+                320
+              ],
+              [
+                480,
+                320
+              ],
+              [
+                480,
+                80
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 3
+          },
+          {
+            "t": "ret",
+            "x": 163,
+            "y": 100,
+            "w": 314,
+            "h": 217,
+            "cor": "#cfe8f6",
+            "borda": null
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                160,
+                100
+              ],
+              [
+                480,
+                100
+              ]
+            ],
+            "cor": "normal",
+            "larg": 2
+          },
+          {
+            "t": "circ",
+            "x": 320,
+            "y": 314,
+            "r": 10,
+            "cor": "luz",
+            "borda": "tinta"
+          },
+          {
+            "t": "texto",
+            "x": 320,
+            "y": 344,
+            "txt": "moeda",
+            "mudo": true
+          }
+        ],
+        "laser": [
+          {
+            "t": "seta",
+            "de": [
+              60,
+              -0.0
+            ],
+            "para": [
+              160,
+              100
+            ],
+            "cor": "perigo",
+            "larg": 3
+          },
+          {
+            "t": "seta",
+            "de": [
+              160,
+              100
+            ],
+            "para": [
+              320,
+              310
+            ],
+            "cor": "perigo",
+            "larg": 3
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                160,
+                40
+              ],
+              [
+                160,
+                100
+              ]
+            ],
+            "cor": "mudo",
+            "larg": 1.5,
+            "tracejado": true
+          },
+          {
+            "t": "angulo",
+            "centro": [
+              160,
+              100
+            ],
+            "de": -90,
+            "ate": -135,
+            "r": 40,
+            "cor": "acel"
+          },
+          {
+            "t": "texto",
+            "x": 130,
+            "y": 56,
+            "txt": "θ",
+            "negrito": true,
+            "cor": "acel"
+          },
+          {
+            "t": "cota",
+            "de": [
+              500,
+              100
+            ],
+            "para": [
+              500,
+              320
+            ],
+            "cor": "normal",
+            "rot_em": [
+              508,
+              210
+            ],
+            "ancora": "start",
+            "txt": "0,87 m"
+          },
+          {
+            "t": "cota",
+            "de": [
+              160,
+              360
+            ],
+            "para": [
+              320,
+              360
+            ],
+            "cor": "normal",
+            "rot_em": [
+              240,
+              376
+            ],
+            "txt": "0,5 m"
+          }
+        ]
+      }
+    }
+  },
+  "passos": [
+    {
+      "titulo": "O raio dentro da água",
+      "conceito": "Lei de Snell-Descartes",
+      "texto": "O raio refratado vai da borda ao centro do fundo: 0,5 m na horizontal em 0,87 m de profundidade. Isso dá 30º com a vertical (sen 30º = 0,5; cos 30º = 0,87).",
+      "cena": {
+        "mostrar": [
+          "caixa",
+          "laser"
+        ]
+      }
+    },
+    {
+      "titulo": "O ângulo no ar",
+      "conceito": "Lei de Snell-Descartes",
+      "texto": "Resposta: <b>(c) θ = 45º</b>.",
+      "equacoes": [
+        "1,0\\,\\sen\\theta = 1,4\\,\\sen 30º = 0,70 \\quad \\Rightarrow \\quad \\theta = 45º"
+      ],
+      "cena": {
+        "destacar": [
+          "laser"
+        ]
+      }
+    }
+  ],
+  "status": "revisado",
+  "criadoEm": "2026-11-15T09:00:00-03:00",
+  "atualizadoEm": "2026-11-15T09:00:00-03:00"
+}

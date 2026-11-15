@@ -1,0 +1,172 @@
+{
+  "id": "fuvest-2021-q49",
+  "titulo": "Dobrar a frequência exige quatro vezes a massa",
+  "conceitos": [
+    "Ondas estacionárias",
+    "Velocidade de onda em cordas"
+  ],
+  "cena": {
+    "modelo": "diagrama",
+    "parametros": {
+      "elementos": {
+        "etapa-1": [
+          {
+            "t": "ret",
+            "x": 30,
+            "y": 16,
+            "w": 440,
+            "h": 40,
+            "cor": "suave",
+            "borda": "normal",
+            "rx": 7
+          },
+          {
+            "t": "texto",
+            "x": 42,
+            "y": 36.0,
+            "txt": "primeiro harmônico",
+            "mudo": true,
+            "ancora": "start"
+          },
+          {
+            "t": "texto",
+            "x": 458,
+            "y": 36.0,
+            "txt": "λ = 2L nos dois casos",
+            "negrito": true,
+            "ancora": "end"
+          }
+        ],
+        "etapa-2": [
+          {
+            "t": "seta",
+            "de": [
+              250.0,
+              59
+            ],
+            "para": [
+              250.0,
+              79
+            ],
+            "cor": "tinta",
+            "larg": 1.8
+          },
+          {
+            "t": "texto",
+            "x": 262.0,
+            "y": 69.0,
+            "txt": "v = λf",
+            "negrito": true,
+            "cor": "acel",
+            "ancora": "start"
+          },
+          {
+            "t": "ret",
+            "x": 30,
+            "y": 82,
+            "w": 440,
+            "h": 40,
+            "cor": "suave",
+            "borda": "normal",
+            "rx": 7
+          },
+          {
+            "t": "texto",
+            "x": 42,
+            "y": 102.0,
+            "txt": "frequência 2f₁ com o mesmo λ",
+            "mudo": true,
+            "ancora": "start"
+          },
+          {
+            "t": "texto",
+            "x": 458,
+            "y": 102.0,
+            "txt": "velocidade dobra",
+            "negrito": true,
+            "ancora": "end"
+          }
+        ],
+        "etapa-3": [
+          {
+            "t": "seta",
+            "de": [
+              250.0,
+              125
+            ],
+            "para": [
+              250.0,
+              145
+            ],
+            "cor": "tinta",
+            "larg": 1.8
+          },
+          {
+            "t": "texto",
+            "x": 262.0,
+            "y": 135.0,
+            "txt": "",
+            "negrito": true,
+            "cor": "acel",
+            "ancora": "start"
+          },
+          {
+            "t": "ret",
+            "x": 30,
+            "y": 148,
+            "w": 440,
+            "h": 40,
+            "cor": "suave",
+            "borda": "normal",
+            "rx": 7
+          },
+          {
+            "t": "texto",
+            "x": 42,
+            "y": 168.0,
+            "txt": "v ∝ √T, T = peso pendurado",
+            "mudo": true,
+            "ancora": "start"
+          },
+          {
+            "t": "texto",
+            "x": 458,
+            "y": 168.0,
+            "txt": "tração × 4: M/m₀ = 4",
+            "negrito": true,
+            "ancora": "end"
+          }
+        ]
+      }
+    }
+  },
+  "passos": [
+    {
+      "titulo": "Mesmo comprimento de onda",
+      "conceito": "Ondas estacionárias",
+      "texto": "A corda e o comprimento não mudam: no primeiro harmônico, λ = 2L. Dobrar a frequência é dobrar a velocidade da onda.",
+      "cena": {
+        "mostrar": [
+          "etapa-1",
+          "etapa-2"
+        ]
+      }
+    },
+    {
+      "titulo": "A tração",
+      "conceito": "Velocidade de onda em cordas",
+      "texto": "A velocidade é proporcional à raiz da tração; para dobrá-la, a tração (o peso pendurado) precisa quadruplicar. Resposta: <b>(E) 4</b>.",
+      "cena": {
+        "mostrar": [
+          "etapa-3"
+        ],
+        "destacar": [
+          "etapa-3"
+        ]
+      }
+    }
+  ],
+  "status": "revisado",
+  "criadoEm": "2026-11-15T09:00:00-03:00",
+  "atualizadoEm": "2026-11-15T09:00:00-03:00"
+}

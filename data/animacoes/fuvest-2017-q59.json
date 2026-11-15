@@ -1,0 +1,180 @@
+{
+  "id": "fuvest-2017-q59",
+  "titulo": "A constante de arrasto pela inclinação da reta",
+  "conceitos": [
+    "Resistência do ar",
+    "Leis de Newton"
+  ],
+  "cena": {
+    "modelo": "diagrama",
+    "parametros": {
+      "elementos": {
+        "eixos": [
+          {
+            "t": "seta",
+            "de": [
+              110,
+              320.0
+            ],
+            "para": [
+              562,
+              320.0
+            ],
+            "cor": "tinta",
+            "larg": 1.6
+          },
+          {
+            "t": "seta",
+            "de": [
+              110.0,
+              320
+            ],
+            "para": [
+              110.0,
+              28
+            ],
+            "cor": "tinta",
+            "larg": 1.6
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                476.7,
+                316.0
+              ],
+              [
+                476.7,
+                324.0
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 1.5
+          },
+          {
+            "t": "texto",
+            "x": 476.7,
+            "y": 336.0,
+            "txt": "1 × 10⁻⁴",
+            "mudo": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                106.0,
+                80.0
+              ],
+              [
+                114.0,
+                80.0
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 1.5
+          },
+          {
+            "t": "texto",
+            "x": 102.0,
+            "y": 80.0,
+            "txt": "3 × 10⁻¹⁴",
+            "ancora": "end",
+            "mudo": true
+          },
+          {
+            "t": "texto",
+            "x": 550.0,
+            "y": 354.0,
+            "txt": "v (m/s)",
+            "mudo": true,
+            "ancora": "end"
+          },
+          {
+            "t": "texto",
+            "x": 118.0,
+            "y": 28.0,
+            "txt": "F_{R} (N)",
+            "mudo": true,
+            "ancora": "start"
+          }
+        ],
+        "reta": [
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                110.0,
+                80.0
+              ],
+              [
+                476.7,
+                320.0
+              ]
+            ],
+            "cor": "normal",
+            "larg": 3
+          },
+          {
+            "t": "circ",
+            "x": 110.0,
+            "y": 80.0,
+            "r": 6,
+            "cor": "peso",
+            "borda": "tinta"
+          },
+          {
+            "t": "circ",
+            "x": 476.7,
+            "y": 320.0,
+            "r": 6,
+            "cor": "perigo",
+            "borda": "tinta"
+          },
+          {
+            "t": "rotulo",
+            "x": 315.0,
+            "y": 80.0,
+            "txt": "v = 0: resultante = mg",
+            "cor": "var(--accent)"
+          },
+          {
+            "t": "rotulo",
+            "x": 436.7,
+            "y": 264.0,
+            "txt": "resultante nula: velocidade terminal",
+            "cor": "var(--danger)"
+          }
+        ]
+      }
+    }
+  },
+  "passos": [
+    {
+      "titulo": "A resultante",
+      "conceito": "Leis de Newton",
+      "texto": "Caindo, a partícula sofre o peso e a força do ar, que cresce com a velocidade: F<sub>R</sub> = mg − bv. Em v = 0, F<sub>R</sub> = mg = 3 × 10<sup>−14</sup> N.",
+      "cena": {
+        "mostrar": [
+          "eixos",
+          "reta"
+        ]
+      }
+    },
+    {
+      "titulo": "A constante b",
+      "conceito": "Resistência do ar",
+      "texto": "A resultante se anula na velocidade terminal, 1 × 10<sup>−4</sup> m/s. Resposta: <b>(e) 3,0 × 10<sup>−10</sup></b>.",
+      "equacoes": [
+        "b = \\dfrac{3 \\times 10^{-14}}{10^{-4}} = 3,0 \\times 10^{-10}\\ \\text{N·s/m}"
+      ],
+      "cena": {
+        "destacar": [
+          "reta"
+        ]
+      }
+    }
+  ],
+  "status": "revisado",
+  "criadoEm": "2026-11-15T09:00:00-03:00",
+  "atualizadoEm": "2026-11-15T09:00:00-03:00"
+}

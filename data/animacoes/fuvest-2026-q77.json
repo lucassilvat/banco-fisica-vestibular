@@ -1,0 +1,551 @@
+{
+  "id": "fuvest-2026-q77",
+  "titulo": "O comprimento de onda da melhor audição",
+  "conceitos": [
+    "Equação fundamental da ondulatória",
+    "Leitura de gráficos"
+  ],
+  "cena": {
+    "modelo": "diagrama",
+    "parametros": {
+      "elementos": {
+        "audiograma": [
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                100.0,
+                50
+              ],
+              [
+                540.0,
+                50
+              ]
+            ],
+            "cor": "mudo",
+            "larg": 1.2
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                100.0,
+                50
+              ],
+              [
+                100.0,
+                330
+              ]
+            ],
+            "cor": "mudo",
+            "larg": 1.2
+          },
+          {
+            "t": "texto",
+            "x": 100.0,
+            "y": 26,
+            "txt": "f (Hz)",
+            "mudo": true,
+            "ancora": "start"
+          },
+          {
+            "t": "texto",
+            "x": 30,
+            "y": 190,
+            "txt": "α (dB)",
+            "mudo": true,
+            "ancora": "start"
+          },
+          {
+            "t": "texto",
+            "x": 173.3,
+            "y": 38,
+            "txt": "250",
+            "mudo": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                173.3,
+                50
+              ],
+              [
+                173.3,
+                330
+              ]
+            ],
+            "cor": "linha",
+            "larg": 1,
+            "tracejado": true
+          },
+          {
+            "t": "texto",
+            "x": 246.7,
+            "y": 38,
+            "txt": "500",
+            "mudo": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                246.7,
+                50
+              ],
+              [
+                246.7,
+                330
+              ]
+            ],
+            "cor": "linha",
+            "larg": 1,
+            "tracejado": true
+          },
+          {
+            "t": "texto",
+            "x": 320.0,
+            "y": 38,
+            "txt": "1000",
+            "mudo": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                320.0,
+                50
+              ],
+              [
+                320.0,
+                330
+              ]
+            ],
+            "cor": "linha",
+            "larg": 1,
+            "tracejado": true
+          },
+          {
+            "t": "texto",
+            "x": 393.3,
+            "y": 38,
+            "txt": "2000",
+            "mudo": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                393.3,
+                50
+              ],
+              [
+                393.3,
+                330
+              ]
+            ],
+            "cor": "linha",
+            "larg": 1,
+            "tracejado": true
+          },
+          {
+            "t": "texto",
+            "x": 466.7,
+            "y": 38,
+            "txt": "4000",
+            "mudo": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                466.7,
+                50
+              ],
+              [
+                466.7,
+                330
+              ]
+            ],
+            "cor": "linha",
+            "larg": 1,
+            "tracejado": true
+          },
+          {
+            "t": "texto",
+            "x": 540.0,
+            "y": 38,
+            "txt": "8000",
+            "mudo": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                540.0,
+                50
+              ],
+              [
+                540.0,
+                330
+              ]
+            ],
+            "cor": "linha",
+            "larg": 1,
+            "tracejado": true
+          },
+          {
+            "t": "texto",
+            "x": 92.0,
+            "y": 50,
+            "txt": "0",
+            "mudo": true,
+            "ancora": "end"
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                100.0,
+                50
+              ],
+              [
+                540.0,
+                50
+              ]
+            ],
+            "cor": "linha",
+            "larg": 1,
+            "tracejado": true
+          },
+          {
+            "t": "texto",
+            "x": 92.0,
+            "y": 90,
+            "txt": "10",
+            "mudo": true,
+            "ancora": "end"
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                100.0,
+                90
+              ],
+              [
+                540.0,
+                90
+              ]
+            ],
+            "cor": "linha",
+            "larg": 1,
+            "tracejado": true
+          },
+          {
+            "t": "texto",
+            "x": 92.0,
+            "y": 130,
+            "txt": "20",
+            "mudo": true,
+            "ancora": "end"
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                100.0,
+                130
+              ],
+              [
+                540.0,
+                130
+              ]
+            ],
+            "cor": "linha",
+            "larg": 1,
+            "tracejado": true
+          },
+          {
+            "t": "texto",
+            "x": 92.0,
+            "y": 170,
+            "txt": "30",
+            "mudo": true,
+            "ancora": "end"
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                100.0,
+                170
+              ],
+              [
+                540.0,
+                170
+              ]
+            ],
+            "cor": "linha",
+            "larg": 1,
+            "tracejado": true
+          },
+          {
+            "t": "texto",
+            "x": 92.0,
+            "y": 210,
+            "txt": "40",
+            "mudo": true,
+            "ancora": "end"
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                100.0,
+                210
+              ],
+              [
+                540.0,
+                210
+              ]
+            ],
+            "cor": "linha",
+            "larg": 1,
+            "tracejado": true
+          },
+          {
+            "t": "texto",
+            "x": 92.0,
+            "y": 250,
+            "txt": "50",
+            "mudo": true,
+            "ancora": "end"
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                100.0,
+                250
+              ],
+              [
+                540.0,
+                250
+              ]
+            ],
+            "cor": "linha",
+            "larg": 1,
+            "tracejado": true
+          },
+          {
+            "t": "texto",
+            "x": 92.0,
+            "y": 290,
+            "txt": "60",
+            "mudo": true,
+            "ancora": "end"
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                100.0,
+                290
+              ],
+              [
+                540.0,
+                290
+              ]
+            ],
+            "cor": "linha",
+            "larg": 1,
+            "tracejado": true
+          },
+          {
+            "t": "texto",
+            "x": 92.0,
+            "y": 330,
+            "txt": "70",
+            "mudo": true,
+            "ancora": "end"
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                100.0,
+                330
+              ],
+              [
+                540.0,
+                330
+              ]
+            ],
+            "cor": "linha",
+            "larg": 1,
+            "tracejado": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                173.3,
+                130
+              ],
+              [
+                246.7,
+                130
+              ],
+              [
+                320.0,
+                110
+              ],
+              [
+                393.3,
+                150
+              ],
+              [
+                436.2,
+                190
+              ],
+              [
+                466.7,
+                230
+              ],
+              [
+                509.6,
+                230
+              ],
+              [
+                540.0,
+                250
+              ]
+            ],
+            "cor": "atrito",
+            "larg": 2.5
+          },
+          {
+            "t": "circ",
+            "x": 173.3,
+            "y": 130,
+            "r": 5,
+            "cor": "papel",
+            "borda": "atrito",
+            "larg": 2
+          },
+          {
+            "t": "circ",
+            "x": 246.7,
+            "y": 130,
+            "r": 5,
+            "cor": "papel",
+            "borda": "atrito",
+            "larg": 2
+          },
+          {
+            "t": "circ",
+            "x": 320.0,
+            "y": 110,
+            "r": 5,
+            "cor": "papel",
+            "borda": "atrito",
+            "larg": 2
+          },
+          {
+            "t": "circ",
+            "x": 393.3,
+            "y": 150,
+            "r": 5,
+            "cor": "papel",
+            "borda": "atrito",
+            "larg": 2
+          },
+          {
+            "t": "circ",
+            "x": 436.2,
+            "y": 190,
+            "r": 5,
+            "cor": "papel",
+            "borda": "atrito",
+            "larg": 2
+          },
+          {
+            "t": "circ",
+            "x": 466.7,
+            "y": 230,
+            "r": 5,
+            "cor": "papel",
+            "borda": "atrito",
+            "larg": 2
+          },
+          {
+            "t": "circ",
+            "x": 509.6,
+            "y": 230,
+            "r": 5,
+            "cor": "papel",
+            "borda": "atrito",
+            "larg": 2
+          },
+          {
+            "t": "circ",
+            "x": 540.0,
+            "y": 250,
+            "r": 5,
+            "cor": "papel",
+            "borda": "atrito",
+            "larg": 2
+          }
+        ],
+        "leitura": [
+          {
+            "t": "circ",
+            "x": 320.0,
+            "y": 110,
+            "r": 9,
+            "cor": null,
+            "borda": "perigo",
+            "larg": 3
+          },
+          {
+            "t": "rotulo",
+            "x": 330,
+            "y": 380,
+            "txt": "menor α: 15 dB em 1 000 Hz",
+            "cor": "var(--danger)"
+          }
+        ]
+      }
+    }
+  },
+  "passos": [
+    {
+      "titulo": "A melhor resposta",
+      "conceito": "Leitura de gráficos",
+      "texto": "Quanto menor α, melhor a audição. O menor valor, 15 dB, ocorre em 1 000 Hz.",
+      "cena": {
+        "mostrar": [
+          "audiograma",
+          "leitura"
+        ]
+      }
+    },
+    {
+      "titulo": "O comprimento de onda",
+      "conceito": "Equação fundamental da ondulatória",
+      "texto": "Resposta: <b>(D) 34 cm</b>.",
+      "equacoes": [
+        "\\lambda = \\dfrac{340}{1\\,000} = 0,34\\ \\text{m} = 34\\ \\text{cm}"
+      ],
+      "cena": {
+        "destacar": [
+          "leitura"
+        ]
+      }
+    }
+  ],
+  "status": "revisado",
+  "criadoEm": "2026-11-15T09:00:00-03:00",
+  "atualizadoEm": "2026-11-15T09:00:00-03:00"
+}

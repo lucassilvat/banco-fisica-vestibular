@@ -1,0 +1,171 @@
+{
+  "id": "fuvest-2016-q35",
+  "titulo": "Onde instalar o aerogerador",
+  "conceitos": [
+    "Potência e energia"
+  ],
+  "cena": {
+    "modelo": "diagrama",
+    "parametros": {
+      "elementos": {
+        "etapa-1": [
+          {
+            "t": "ret",
+            "x": 30,
+            "y": 16,
+            "w": 480,
+            "h": 40,
+            "cor": "suave",
+            "borda": "normal",
+            "rx": 7
+          },
+          {
+            "t": "texto",
+            "x": 42,
+            "y": 36.0,
+            "txt": "potência média",
+            "mudo": true,
+            "ancora": "start"
+          },
+          {
+            "t": "texto",
+            "x": 498,
+            "y": 36.0,
+            "txt": "8,8 × 10^{9} Wh ÷ 8 800 h = 1 000 kW",
+            "negrito": true,
+            "ancora": "end"
+          }
+        ],
+        "etapa-2": [
+          {
+            "t": "seta",
+            "de": [
+              270.0,
+              59
+            ],
+            "para": [
+              270.0,
+              79
+            ],
+            "cor": "tinta",
+            "larg": 1.8
+          },
+          {
+            "t": "texto",
+            "x": 282.0,
+            "y": 69.0,
+            "txt": "acima de 8,5 m/s",
+            "negrito": true,
+            "cor": "acel",
+            "ancora": "start"
+          },
+          {
+            "t": "ret",
+            "x": 30,
+            "y": 82,
+            "w": 480,
+            "h": 40,
+            "cor": "suave",
+            "borda": "normal",
+            "rx": 7
+          },
+          {
+            "t": "texto",
+            "x": 42,
+            "y": 102.0,
+            "txt": "no gráfico",
+            "mudo": true,
+            "ancora": "start"
+          },
+          {
+            "t": "texto",
+            "x": 498,
+            "y": 102.0,
+            "txt": "ventos de 9 a 10 m/s",
+            "negrito": true,
+            "ancora": "end"
+          }
+        ],
+        "etapa-3": [
+          {
+            "t": "seta",
+            "de": [
+              270.0,
+              125
+            ],
+            "para": [
+              270.0,
+              145
+            ],
+            "cor": "tinta",
+            "larg": 1.8
+          },
+          {
+            "t": "texto",
+            "x": 282.0,
+            "y": 135.0,
+            "txt": "faixa mais escura",
+            "negrito": true,
+            "cor": "acel",
+            "ancora": "start"
+          },
+          {
+            "t": "ret",
+            "x": 30,
+            "y": 148,
+            "w": 480,
+            "h": 40,
+            "cor": "suave",
+            "borda": "normal",
+            "rx": 7
+          },
+          {
+            "t": "texto",
+            "x": 42,
+            "y": 168.0,
+            "txt": "no mapa",
+            "mudo": true,
+            "ancora": "start"
+          },
+          {
+            "t": "texto",
+            "x": 498,
+            "y": 168.0,
+            "txt": "nordeste do Amapá",
+            "negrito": true,
+            "ancora": "end"
+          }
+        ]
+      }
+    }
+  },
+  "passos": [
+    {
+      "titulo": "A potência",
+      "conceito": "Potência e energia",
+      "texto": "Energia anual dividida pelas horas do ano.",
+      "cena": {
+        "mostrar": [
+          "etapa-1",
+          "etapa-2"
+        ]
+      }
+    },
+    {
+      "titulo": "O lugar",
+      "conceito": "Potência e energia",
+      "texto": "Resposta: <b>(b) nordeste do Amapá</b>.",
+      "cena": {
+        "mostrar": [
+          "etapa-3"
+        ],
+        "destacar": [
+          "etapa-3"
+        ]
+      }
+    }
+  ],
+  "status": "revisado",
+  "criadoEm": "2026-11-15T09:00:00-03:00",
+  "atualizadoEm": "2026-11-15T09:00:00-03:00"
+}

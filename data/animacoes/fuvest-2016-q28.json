@@ -1,0 +1,171 @@
+{
+  "id": "fuvest-2016-q28",
+  "titulo": "A gravidade dentro da estação espacial",
+  "conceitos": [
+    "Lei da gravitação universal"
+  ],
+  "cena": {
+    "modelo": "diagrama",
+    "parametros": {
+      "elementos": {
+        "etapa-1": [
+          {
+            "t": "ret",
+            "x": 30,
+            "y": 16,
+            "w": 440,
+            "h": 40,
+            "cor": "suave",
+            "borda": "normal",
+            "rx": 7
+          },
+          {
+            "t": "texto",
+            "x": 42,
+            "y": 36.0,
+            "txt": "g a uma distância r",
+            "mudo": true,
+            "ancora": "start"
+          },
+          {
+            "t": "texto",
+            "x": 458,
+            "y": 36.0,
+            "txt": "GM/r²",
+            "negrito": true,
+            "ancora": "end"
+          }
+        ],
+        "etapa-2": [
+          {
+            "t": "seta",
+            "de": [
+              250.0,
+              59
+            ],
+            "para": [
+              250.0,
+              79
+            ],
+            "cor": "tinta",
+            "larg": 1.8
+          },
+          {
+            "t": "texto",
+            "x": 262.0,
+            "y": 69.0,
+            "txt": "",
+            "negrito": true,
+            "cor": "acel",
+            "ancora": "start"
+          },
+          {
+            "t": "ret",
+            "x": 30,
+            "y": 82,
+            "w": 440,
+            "h": 40,
+            "cor": "suave",
+            "borda": "normal",
+            "rx": 7
+          },
+          {
+            "t": "texto",
+            "x": 42,
+            "y": 102.0,
+            "txt": "na estação",
+            "mudo": true,
+            "ancora": "start"
+          },
+          {
+            "t": "texto",
+            "x": 458,
+            "y": 102.0,
+            "txt": "r = R_{T} + h",
+            "negrito": true,
+            "ancora": "end"
+          }
+        ],
+        "etapa-3": [
+          {
+            "t": "seta",
+            "de": [
+              250.0,
+              125
+            ],
+            "para": [
+              250.0,
+              145
+            ],
+            "cor": "tinta",
+            "larg": 1.8
+          },
+          {
+            "t": "texto",
+            "x": 262.0,
+            "y": 135.0,
+            "txt": "não é nula",
+            "negrito": true,
+            "cor": "acel",
+            "ancora": "start"
+          },
+          {
+            "t": "ret",
+            "x": 30,
+            "y": 148,
+            "w": 440,
+            "h": 40,
+            "cor": "suave",
+            "borda": "normal",
+            "rx": 7
+          },
+          {
+            "t": "texto",
+            "x": 42,
+            "y": 168.0,
+            "txt": "razão",
+            "mudo": true,
+            "ancora": "start"
+          },
+          {
+            "t": "texto",
+            "x": 458,
+            "y": 168.0,
+            "txt": "g = g_{T}(R_{T}/(R_{T} + h))²",
+            "negrito": true,
+            "ancora": "end"
+          }
+        ]
+      }
+    }
+  },
+  "passos": [
+    {
+      "titulo": "Gravidade e distância",
+      "conceito": "Lei da gravitação universal",
+      "texto": "A aceleração da gravidade cai com o quadrado da distância ao centro da Terra.",
+      "cena": {
+        "mostrar": [
+          "etapa-1",
+          "etapa-2"
+        ]
+      }
+    },
+    {
+      "titulo": "Na estação",
+      "conceito": "Lei da gravitação universal",
+      "texto": "Os astronautas flutuam porque estão em queda livre em torno da Terra, junto com a estação, e não por falta de gravidade. Resposta: <b>(d)</b>.",
+      "cena": {
+        "mostrar": [
+          "etapa-3"
+        ],
+        "destacar": [
+          "etapa-3"
+        ]
+      }
+    }
+  ],
+  "status": "revisado",
+  "criadoEm": "2026-11-15T09:00:00-03:00",
+  "atualizadoEm": "2026-11-15T09:00:00-03:00"
+}

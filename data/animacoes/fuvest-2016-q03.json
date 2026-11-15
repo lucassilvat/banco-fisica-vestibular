@@ -1,0 +1,174 @@
+{
+  "id": "fuvest-2016-q03",
+  "titulo": "Velocidade média com três trechos iguais",
+  "conceitos": [
+    "Velocidade escalar média"
+  ],
+  "cena": {
+    "modelo": "diagrama",
+    "parametros": {
+      "elementos": {
+        "etapa-1": [
+          {
+            "t": "ret",
+            "x": 30,
+            "y": 16,
+            "w": 440,
+            "h": 40,
+            "cor": "suave",
+            "borda": "normal",
+            "rx": 7
+          },
+          {
+            "t": "texto",
+            "x": 42,
+            "y": 36.0,
+            "txt": "tempos (cada terço vale d)",
+            "mudo": true,
+            "ancora": "start"
+          },
+          {
+            "t": "texto",
+            "x": 458,
+            "y": 36.0,
+            "txt": "d/60 + d/40 + d/20",
+            "negrito": true,
+            "ancora": "end"
+          }
+        ],
+        "etapa-2": [
+          {
+            "t": "seta",
+            "de": [
+              250.0,
+              59
+            ],
+            "para": [
+              250.0,
+              79
+            ],
+            "cor": "tinta",
+            "larg": 1.8
+          },
+          {
+            "t": "texto",
+            "x": 262.0,
+            "y": 69.0,
+            "txt": "(2 + 3 + 6)/120",
+            "negrito": true,
+            "cor": "acel",
+            "ancora": "start"
+          },
+          {
+            "t": "ret",
+            "x": 30,
+            "y": 82,
+            "w": 440,
+            "h": 40,
+            "cor": "suave",
+            "borda": "normal",
+            "rx": 7
+          },
+          {
+            "t": "texto",
+            "x": 42,
+            "y": 102.0,
+            "txt": "tempo total",
+            "mudo": true,
+            "ancora": "start"
+          },
+          {
+            "t": "texto",
+            "x": 458,
+            "y": 102.0,
+            "txt": "11d/120",
+            "negrito": true,
+            "ancora": "end"
+          }
+        ],
+        "etapa-3": [
+          {
+            "t": "seta",
+            "de": [
+              250.0,
+              125
+            ],
+            "para": [
+              250.0,
+              145
+            ],
+            "cor": "tinta",
+            "larg": 1.8
+          },
+          {
+            "t": "texto",
+            "x": 262.0,
+            "y": 135.0,
+            "txt": "",
+            "negrito": true,
+            "cor": "acel",
+            "ancora": "start"
+          },
+          {
+            "t": "ret",
+            "x": 30,
+            "y": 148,
+            "w": 440,
+            "h": 40,
+            "cor": "suave",
+            "borda": "normal",
+            "rx": 7
+          },
+          {
+            "t": "texto",
+            "x": 42,
+            "y": 168.0,
+            "txt": "velocidade média",
+            "mudo": true,
+            "ancora": "start"
+          },
+          {
+            "t": "texto",
+            "x": 458,
+            "y": 168.0,
+            "txt": "3d ÷ (11d/120) ≈ 32,7 km/h",
+            "negrito": true,
+            "ancora": "end"
+          }
+        ]
+      }
+    }
+  },
+  "passos": [
+    {
+      "titulo": "Os tempos",
+      "conceito": "Velocidade escalar média",
+      "texto": "Distâncias iguais com velocidades diferentes: o veículo passa mais tempo no trecho lento.",
+      "cena": {
+        "mostrar": [
+          "etapa-1",
+          "etapa-2"
+        ]
+      }
+    },
+    {
+      "titulo": "A média",
+      "conceito": "Velocidade escalar média",
+      "texto": "Não é a média aritmética (40 km/h). Resposta: <b>(a) 32,5</b>.",
+      "equacoes": [
+        "v_{m} = \\dfrac{360}{11} \\approx 32,7\\ \\text{km/h}"
+      ],
+      "cena": {
+        "mostrar": [
+          "etapa-3"
+        ],
+        "destacar": [
+          "etapa-3"
+        ]
+      }
+    }
+  ],
+  "status": "revisado",
+  "criadoEm": "2026-11-15T09:00:00-03:00",
+  "atualizadoEm": "2026-11-15T09:00:00-03:00"
+}

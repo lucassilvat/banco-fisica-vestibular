@@ -1,0 +1,174 @@
+{
+  "id": "fuvest-2025-q33",
+  "titulo": "Quanto o crânio do pica-pau anda até parar",
+  "conceitos": [
+    "Movimento uniformemente variado"
+  ],
+  "cena": {
+    "modelo": "diagrama",
+    "parametros": {
+      "elementos": {
+        "etapa-1": [
+          {
+            "t": "ret",
+            "x": 30,
+            "y": 16,
+            "w": 440,
+            "h": 40,
+            "cor": "suave",
+            "borda": "normal",
+            "rx": 7
+          },
+          {
+            "t": "texto",
+            "x": 42,
+            "y": 36.0,
+            "txt": "desaceleração",
+            "mudo": true,
+            "ancora": "start"
+          },
+          {
+            "t": "texto",
+            "x": 458,
+            "y": 36.0,
+            "txt": "200 g = 2 000 m/s²",
+            "negrito": true,
+            "ancora": "end"
+          }
+        ],
+        "etapa-2": [
+          {
+            "t": "seta",
+            "de": [
+              250.0,
+              59
+            ],
+            "para": [
+              250.0,
+              79
+            ],
+            "cor": "tinta",
+            "larg": 1.8
+          },
+          {
+            "t": "texto",
+            "x": 262.0,
+            "y": 69.0,
+            "txt": "2 000 · 2 × 10^{−3}",
+            "negrito": true,
+            "cor": "acel",
+            "ancora": "start"
+          },
+          {
+            "t": "ret",
+            "x": 30,
+            "y": 82,
+            "w": 440,
+            "h": 40,
+            "cor": "suave",
+            "borda": "normal",
+            "rx": 7
+          },
+          {
+            "t": "texto",
+            "x": 42,
+            "y": 102.0,
+            "txt": "velocidade inicial (para em 2 ms)",
+            "mudo": true,
+            "ancora": "start"
+          },
+          {
+            "t": "texto",
+            "x": 458,
+            "y": 102.0,
+            "txt": "4 m/s",
+            "negrito": true,
+            "ancora": "end"
+          }
+        ],
+        "etapa-3": [
+          {
+            "t": "seta",
+            "de": [
+              250.0,
+              125
+            ],
+            "para": [
+              250.0,
+              145
+            ],
+            "cor": "tinta",
+            "larg": 1.8
+          },
+          {
+            "t": "texto",
+            "x": 262.0,
+            "y": 135.0,
+            "txt": "(4/2) · 2 × 10^{−3}",
+            "negrito": true,
+            "cor": "acel",
+            "ancora": "start"
+          },
+          {
+            "t": "ret",
+            "x": 30,
+            "y": 148,
+            "w": 440,
+            "h": 40,
+            "cor": "suave",
+            "borda": "normal",
+            "rx": 7
+          },
+          {
+            "t": "texto",
+            "x": 42,
+            "y": 168.0,
+            "txt": "distância (v_{média} · t)",
+            "mudo": true,
+            "ancora": "start"
+          },
+          {
+            "t": "texto",
+            "x": 458,
+            "y": 168.0,
+            "txt": "4,0 mm",
+            "negrito": true,
+            "ancora": "end"
+          }
+        ]
+      }
+    }
+  },
+  "passos": [
+    {
+      "titulo": "A velocidade inicial",
+      "conceito": "Movimento uniformemente variado",
+      "texto": "O crânio para no fim dos 2,0 ms: a velocidade inicial é a · t.",
+      "cena": {
+        "mostrar": [
+          "etapa-1",
+          "etapa-2"
+        ]
+      }
+    },
+    {
+      "titulo": "A distância",
+      "conceito": "Movimento uniformemente variado",
+      "texto": "No MUV até parar, a velocidade média é metade da inicial. Resposta: <b>(B) 4,0 mm</b>.",
+      "equacoes": [
+        "d = \\dfrac{v_{0}\\,t}{2} = \\dfrac{4 \\cdot 2 \\times 10^{-3}}{2} = 4 \\times 10^{-3}\\ \\text{m}"
+      ],
+      "cena": {
+        "mostrar": [
+          "etapa-3"
+        ],
+        "destacar": [
+          "etapa-3"
+        ]
+      }
+    }
+  ],
+  "status": "revisado",
+  "criadoEm": "2026-11-15T09:00:00-03:00",
+  "atualizadoEm": "2026-11-15T09:00:00-03:00"
+}

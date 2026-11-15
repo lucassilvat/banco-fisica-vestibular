@@ -1,0 +1,223 @@
+{
+  "id": "fuvest-2018-q03",
+  "titulo": "A potência da condensação num furacão",
+  "conceitos": [
+    "Calor latente",
+    "Potência e energia"
+  ],
+  "cena": {
+    "modelo": "diagrama",
+    "parametros": {
+      "elementos": {
+        "etapa-1": [
+          {
+            "t": "ret",
+            "x": 30,
+            "y": 16,
+            "w": 440,
+            "h": 40,
+            "cor": "suave",
+            "borda": "normal",
+            "rx": 7
+          },
+          {
+            "t": "texto",
+            "x": 42,
+            "y": 36.0,
+            "txt": "área (πr²)",
+            "mudo": true,
+            "ancora": "start"
+          },
+          {
+            "t": "texto",
+            "x": 458,
+            "y": 36.0,
+            "txt": "≈ 1,31 × 10^{12} m²",
+            "negrito": true,
+            "ancora": "end"
+          }
+        ],
+        "etapa-2": [
+          {
+            "t": "seta",
+            "de": [
+              250.0,
+              59
+            ],
+            "para": [
+              250.0,
+              79
+            ],
+            "cor": "tinta",
+            "larg": 1.8
+          },
+          {
+            "t": "texto",
+            "x": 262.0,
+            "y": 69.0,
+            "txt": "0,015 m · A · 10^{3}",
+            "negrito": true,
+            "cor": "acel",
+            "ancora": "start"
+          },
+          {
+            "t": "ret",
+            "x": 30,
+            "y": 82,
+            "w": 440,
+            "h": 40,
+            "cor": "suave",
+            "borda": "normal",
+            "rx": 7
+          },
+          {
+            "t": "texto",
+            "x": 42,
+            "y": 102.0,
+            "txt": "chuva por dia",
+            "mudo": true,
+            "ancora": "start"
+          },
+          {
+            "t": "texto",
+            "x": 458,
+            "y": 102.0,
+            "txt": "≈ 1,96 × 10^{13} kg",
+            "negrito": true,
+            "ancora": "end"
+          }
+        ],
+        "etapa-3": [
+          {
+            "t": "seta",
+            "de": [
+              250.0,
+              125
+            ],
+            "para": [
+              250.0,
+              145
+            ],
+            "cor": "tinta",
+            "larg": 1.8
+          },
+          {
+            "t": "texto",
+            "x": 262.0,
+            "y": 135.0,
+            "txt": "× 2 × 10^{6}",
+            "negrito": true,
+            "cor": "acel",
+            "ancora": "start"
+          },
+          {
+            "t": "ret",
+            "x": 30,
+            "y": 148,
+            "w": 440,
+            "h": 40,
+            "cor": "suave",
+            "borda": "normal",
+            "rx": 7
+          },
+          {
+            "t": "texto",
+            "x": 42,
+            "y": 168.0,
+            "txt": "calor liberado (mL)",
+            "mudo": true,
+            "ancora": "start"
+          },
+          {
+            "t": "texto",
+            "x": 458,
+            "y": 168.0,
+            "txt": "≈ 3,9 × 10^{19} J",
+            "negrito": true,
+            "ancora": "end"
+          }
+        ],
+        "etapa-4": [
+          {
+            "t": "seta",
+            "de": [
+              250.0,
+              191
+            ],
+            "para": [
+              250.0,
+              211
+            ],
+            "cor": "tinta",
+            "larg": 1.8
+          },
+          {
+            "t": "texto",
+            "x": 262.0,
+            "y": 201.0,
+            "txt": "÷ 8,6 × 10^{4} s",
+            "negrito": true,
+            "cor": "acel",
+            "ancora": "start"
+          },
+          {
+            "t": "ret",
+            "x": 30,
+            "y": 214,
+            "w": 440,
+            "h": 40,
+            "cor": "suave",
+            "borda": "normal",
+            "rx": 7
+          },
+          {
+            "t": "texto",
+            "x": 42,
+            "y": 234.0,
+            "txt": "potência",
+            "mudo": true,
+            "ancora": "start"
+          },
+          {
+            "t": "texto",
+            "x": 458,
+            "y": 234.0,
+            "txt": "≈ 4,6 × 10^{14} W",
+            "negrito": true,
+            "ancora": "end"
+          }
+        ]
+      }
+    }
+  },
+  "passos": [
+    {
+      "titulo": "A massa de chuva",
+      "conceito": "Calor latente",
+      "texto": "1,5 cm de chuva por dia sobre um círculo de 660 km de raio.",
+      "cena": {
+        "mostrar": [
+          "etapa-1",
+          "etapa-2"
+        ]
+      }
+    },
+    {
+      "titulo": "A potência",
+      "conceito": "Potência e energia",
+      "texto": "A condensação libera o calor latente de vaporização. Resposta: <b>(B)</b>.",
+      "cena": {
+        "mostrar": [
+          "etapa-3",
+          "etapa-4"
+        ],
+        "destacar": [
+          "etapa-4"
+        ]
+      }
+    }
+  ],
+  "status": "revisado",
+  "criadoEm": "2026-11-15T09:00:00-03:00",
+  "atualizadoEm": "2026-11-15T09:00:00-03:00"
+}

@@ -1,0 +1,178 @@
+{
+  "id": "fuvest-2026-q60",
+  "titulo": "Quão denso é um buraco negro",
+  "conceitos": [
+    "Lei da gravitação universal",
+    "Densidade"
+  ],
+  "cena": {
+    "modelo": "diagrama",
+    "parametros": {
+      "elementos": {
+        "etapa-1": [
+          {
+            "t": "ret",
+            "x": 30,
+            "y": 16,
+            "w": 480,
+            "h": 40,
+            "cor": "suave",
+            "borda": "normal",
+            "rx": 7
+          },
+          {
+            "t": "texto",
+            "x": 42,
+            "y": 36.0,
+            "txt": "raio de Schwarzschild (2GM/c²)",
+            "mudo": true,
+            "ancora": "start"
+          },
+          {
+            "t": "texto",
+            "x": 498,
+            "y": 36.0,
+            "txt": "≈ 4,4 × 10^{3} m",
+            "negrito": true,
+            "ancora": "end"
+          }
+        ],
+        "etapa-2": [
+          {
+            "t": "seta",
+            "de": [
+              270.0,
+              59
+            ],
+            "para": [
+              270.0,
+              79
+            ],
+            "cor": "tinta",
+            "larg": 1.8
+          },
+          {
+            "t": "texto",
+            "x": 282.0,
+            "y": 69.0,
+            "txt": "10^{9} ÷ 4,4 × 10^{3}",
+            "negrito": true,
+            "cor": "acel",
+            "ancora": "start"
+          },
+          {
+            "t": "ret",
+            "x": 30,
+            "y": 82,
+            "w": 480,
+            "h": 40,
+            "cor": "suave",
+            "borda": "normal",
+            "rx": 7
+          },
+          {
+            "t": "texto",
+            "x": 42,
+            "y": 102.0,
+            "txt": "R_{Sol}/R_{Sc}",
+            "mudo": true,
+            "ancora": "start"
+          },
+          {
+            "t": "texto",
+            "x": 498,
+            "y": 102.0,
+            "txt": "≈ 2,3 × 10^{5}",
+            "negrito": true,
+            "ancora": "end"
+          }
+        ],
+        "etapa-3": [
+          {
+            "t": "seta",
+            "de": [
+              270.0,
+              125
+            ],
+            "para": [
+              270.0,
+              145
+            ],
+            "cor": "tinta",
+            "larg": 1.8
+          },
+          {
+            "t": "texto",
+            "x": 282.0,
+            "y": 135.0,
+            "txt": "inverso dos volumes",
+            "negrito": true,
+            "cor": "acel",
+            "ancora": "start"
+          },
+          {
+            "t": "ret",
+            "x": 30,
+            "y": 148,
+            "w": 480,
+            "h": 40,
+            "cor": "suave",
+            "borda": "normal",
+            "rx": 7
+          },
+          {
+            "t": "texto",
+            "x": 42,
+            "y": 168.0,
+            "txt": "razão das densidades (mesma massa)",
+            "mudo": true,
+            "ancora": "start"
+          },
+          {
+            "t": "texto",
+            "x": 498,
+            "y": 168.0,
+            "txt": "(2,3 × 10^{5})³ ≈ 10^{16}",
+            "negrito": true,
+            "ancora": "end"
+          }
+        ]
+      }
+    }
+  },
+  "passos": [
+    {
+      "titulo": "O raio do buraco negro",
+      "conceito": "Lei da gravitação universal",
+      "texto": "Com a massa do Sol e os dados do Note e adote:",
+      "equacoes": [
+        "R_{Sc} = \\dfrac{2 \\cdot 10^{-10} \\cdot 2 \\times 10^{30}}{(3 \\times 10^{8})^{2}} \\approx 4,4 \\times 10^{3}\\ \\text{m}"
+      ],
+      "cena": {
+        "mostrar": [
+          "etapa-1"
+        ]
+      }
+    },
+    {
+      "titulo": "A razão das densidades",
+      "conceito": "Densidade",
+      "texto": "Mesma massa: a densidade é inversamente proporcional ao volume, isto é, a R³. Resposta: <b>(D) 10<sup>16</sup></b>.",
+      "equacoes": [
+        "\\dfrac{\\rho_{BN}}{\\rho_{Sol}} = \\left(\\dfrac{R_{Sol}}{R_{Sc}}\\right)^{3}"
+      ],
+      "cena": {
+        "mostrar": [
+          "etapa-2",
+          "etapa-3"
+        ],
+        "destacar": [
+          "etapa-3"
+        ]
+      }
+    }
+  ],
+  "status": "revisado",
+  "criadoEm": "2026-11-15T09:00:00-03:00",
+  "atualizadoEm": "2026-11-15T09:00:00-03:00"
+}

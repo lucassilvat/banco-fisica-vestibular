@@ -1,0 +1,206 @@
+{
+  "id": "fuvest-2022-q52",
+  "titulo": "Colisão elástica oblíqua no bilhar",
+  "conceitos": [
+    "Colisões",
+    "Conservação da quantidade de movimento"
+  ],
+  "cena": {
+    "modelo": "diagrama",
+    "parametros": {
+      "elementos": {
+        "mesa": [
+          {
+            "t": "ret",
+            "x": 160,
+            "y": 60,
+            "w": 320,
+            "h": 330,
+            "cor": "#5aa64b",
+            "borda": "#8c6a46",
+            "larg": 8
+          },
+          {
+            "t": "circ",
+            "x": 166,
+            "y": 66,
+            "r": 10,
+            "cor": "tinta",
+            "borda": "tinta"
+          },
+          {
+            "t": "circ",
+            "x": 474,
+            "y": 66,
+            "r": 10,
+            "cor": "tinta",
+            "borda": "tinta"
+          }
+        ],
+        "antes": [
+          {
+            "t": "circ",
+            "x": 270.0,
+            "y": 170.0,
+            "r": 9,
+            "cor": "perigo",
+            "borda": "tinta"
+          },
+          {
+            "t": "circ",
+            "x": 270.0,
+            "y": 310.0,
+            "r": 9,
+            "cor": "papel",
+            "borda": "tinta"
+          },
+          {
+            "t": "seta",
+            "de": [
+              270.0,
+              295.0
+            ],
+            "para": [
+              270.0,
+              230.0
+            ],
+            "cor": "papel",
+            "larg": 3
+          },
+          {
+            "t": "texto",
+            "x": 284.0,
+            "y": 270.0,
+            "txt": "v₀",
+            "negrito": true,
+            "cor": "papel",
+            "ancora": "start"
+          },
+          {
+            "t": "cota",
+            "de": [
+              166,
+              200.0
+            ],
+            "para": [
+              270.0,
+              200.0
+            ],
+            "cor": "normal",
+            "rot_em": [
+              218.0,
+              216.0
+            ],
+            "txt": "40 cm"
+          },
+          {
+            "t": "cota",
+            "de": [
+              310.0,
+              66
+            ],
+            "para": [
+              310.0,
+              170.0
+            ],
+            "cor": "normal",
+            "rot_em": [
+              318.0,
+              118.0
+            ],
+            "ancora": "start",
+            "txt": "40 cm"
+          }
+        ],
+        "trajetorias": [
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                270.0,
+                170.0
+              ],
+              [
+                176,
+                76
+              ]
+            ],
+            "cor": "perigo",
+            "larg": 2.5,
+            "tracejado": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                270.0,
+                170.0
+              ],
+              [
+                374.0,
+                66
+              ]
+            ],
+            "cor": "papel",
+            "larg": 2.5,
+            "tracejado": true
+          },
+          {
+            "t": "circ",
+            "x": 374.0,
+            "y": 72,
+            "r": 9,
+            "cor": "papel",
+            "borda": "tinta"
+          },
+          {
+            "t": "cota",
+            "de": [
+              176,
+              40
+            ],
+            "para": [
+              374.0,
+              40
+            ],
+            "cor": "normal",
+            "rot_em": [
+              275.0,
+              26
+            ],
+            "txt": "d = 40 + 40 = 80 cm"
+          }
+        ]
+      }
+    }
+  },
+  "passos": [
+    {
+      "titulo": "Antes da colisão",
+      "conceito": "Conservação da quantidade de movimento",
+      "texto": "A vermelha está a 40 cm das duas bordas; a branca vem com \\(\\vec{v}_0\\) paralela à borda lateral.",
+      "cena": {
+        "mostrar": [
+          "mesa",
+          "antes"
+        ]
+      }
+    },
+    {
+      "titulo": "Depois: 45º para cada lado",
+      "conceito": "Colisões",
+      "texto": "Em colisão elástica entre massas iguais, uma em repouso, as velocidades finais são perpendiculares. A vermelha vai a 45º para a caçapa; a branca, a 45º para o outro lado, com a mesma velocidade. Ambas sobem 40 cm no mesmo tempo. Resposta: <b>(D) 80 cm</b>.",
+      "cena": {
+        "mostrar": [
+          "trajetorias"
+        ],
+        "destacar": [
+          "trajetorias"
+        ]
+      }
+    }
+  ],
+  "status": "revisado",
+  "criadoEm": "2026-11-15T09:00:00-03:00",
+  "atualizadoEm": "2026-11-15T09:00:00-03:00"
+}

@@ -1,0 +1,99 @@
+{
+  "id": "fuvest-2023-q13",
+  "titulo": "A energia interna se conserva na mistura",
+  "conceitos": [
+    "Energia interna de um gás ideal",
+    "Primeira lei da termodinâmica"
+  ],
+  "cena": {
+    "modelo": "diagrama",
+    "parametros": {
+      "elementos": {
+        "recipiente": [
+          {
+            "t": "ret",
+            "x": 60,
+            "y": 60,
+            "w": 520,
+            "h": 220,
+            "cor": null,
+            "borda": "tinta",
+            "larg": 8
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                320,
+                60
+              ],
+              [
+                320,
+                280
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 3
+          },
+          {
+            "t": "texto",
+            "x": 190,
+            "y": 150,
+            "txt": "n₁ = 1 mol, T₁ = 4T",
+            "negrito": true
+          },
+          {
+            "t": "texto",
+            "x": 450,
+            "y": 150,
+            "txt": "n₂ = 2 mol, T₂ = T",
+            "negrito": true
+          }
+        ],
+        "mistura": [
+          {
+            "t": "rotulo",
+            "x": 320,
+            "y": 330,
+            "txt": "U = (3/2)R(1·4T + 2·T) = (3/2)R·3Tₘ  ⇒  Tₘ = 2T",
+            "cor": "var(--danger)"
+          }
+        ]
+      }
+    }
+  },
+  "passos": [
+    {
+      "titulo": "Sistema isolado",
+      "conceito": "Primeira lei da termodinâmica",
+      "texto": "Sem trabalho e sem troca de calor com o exterior, a energia interna total não muda quando a parede é removida.",
+      "equacoes": [
+        "Q = 0,\\ \\tau = 0 \\quad \\Rightarrow \\quad \\Delta U = 0"
+      ],
+      "cena": {
+        "mostrar": [
+          "recipiente"
+        ]
+      }
+    },
+    {
+      "titulo": "A temperatura final",
+      "conceito": "Energia interna de um gás ideal",
+      "texto": "É a média das temperaturas ponderada pelo número de mols. Resposta: <b>(C) 2T</b>.",
+      "equacoes": [
+        "\\dfrac{3}{2}R(1 \\cdot 4T + 2 \\cdot T) = \\dfrac{3}{2}(1 + 2)R\\,T_{m} \\quad \\Rightarrow \\quad T_{m} = 2T"
+      ],
+      "cena": {
+        "mostrar": [
+          "mistura"
+        ],
+        "destacar": [
+          "mistura"
+        ]
+      }
+    }
+  ],
+  "status": "revisado",
+  "criadoEm": "2026-11-15T09:00:00-03:00",
+  "atualizadoEm": "2026-11-15T09:00:00-03:00"
+}

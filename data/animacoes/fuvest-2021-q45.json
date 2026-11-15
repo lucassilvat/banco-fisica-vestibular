@@ -1,0 +1,140 @@
+{
+  "id": "fuvest-2021-q45",
+  "titulo": "Três afirmações sobre as leis de Newton",
+  "conceitos": [
+    "Leis de Newton"
+  ],
+  "cena": {
+    "modelo": "diagrama",
+    "parametros": {
+      "elementos": {
+        "afirmacoes": [
+          {
+            "t": "ret",
+            "x": 40,
+            "y": 30,
+            "w": 580,
+            "h": 56,
+            "cor": "papel",
+            "borda": "linha",
+            "larg": 1,
+            "rx": 6
+          },
+          {
+            "t": "texto",
+            "x": 64,
+            "y": 58.0,
+            "txt": "I",
+            "negrito": true
+          },
+          {
+            "t": "texto",
+            "x": 90,
+            "y": 58.0,
+            "txt": "no ponto mais alto a aceleração é nula? Não: é g",
+            "ancora": "start"
+          },
+          {
+            "t": "texto",
+            "x": 596,
+            "y": 58.0,
+            "txt": "F",
+            "negrito": true,
+            "cor": "perigo"
+          },
+          {
+            "t": "ret",
+            "x": 40,
+            "y": 96,
+            "w": 580,
+            "h": 56,
+            "cor": "papel",
+            "borda": "linha",
+            "larg": 1,
+            "rx": 6
+          },
+          {
+            "t": "texto",
+            "x": 64,
+            "y": 124.0,
+            "txt": "II",
+            "negrito": true
+          },
+          {
+            "t": "texto",
+            "x": 90,
+            "y": 124.0,
+            "txt": "MRU com resultante não nula? Não: é nula",
+            "ancora": "start"
+          },
+          {
+            "t": "texto",
+            "x": 596,
+            "y": 124.0,
+            "txt": "F",
+            "negrito": true,
+            "cor": "perigo"
+          },
+          {
+            "t": "ret",
+            "x": 40,
+            "y": 162,
+            "w": 580,
+            "h": 56,
+            "cor": "papel",
+            "borda": "linha",
+            "larg": 1,
+            "rx": 6
+          },
+          {
+            "t": "texto",
+            "x": 64,
+            "y": 190.0,
+            "txt": "III",
+            "negrito": true
+          },
+          {
+            "t": "texto",
+            "x": 90,
+            "y": 190.0,
+            "txt": "peso e normal são ação-reação? Não: mesmo corpo",
+            "ancora": "start"
+          },
+          {
+            "t": "texto",
+            "x": 596,
+            "y": 190.0,
+            "txt": "F",
+            "negrito": true,
+            "cor": "perigo"
+          }
+        ]
+      }
+    }
+  },
+  "passos": [
+    {
+      "titulo": "I e II",
+      "conceito": "Leis de Newton",
+      "texto": "No ponto mais alto, a velocidade é nula, mas o peso continua agindo: a aceleração é g. Velocidade constante em linha reta significa resultante nula (1ª lei).",
+      "cena": {
+        "mostrar": [
+          "afirmacoes"
+        ]
+      }
+    },
+    {
+      "titulo": "III",
+      "conceito": "Leis de Newton",
+      "texto": "Peso e normal agem sobre o mesmo corpo, o livro. Um par ação-reação age em corpos diferentes: a reação do peso é a atração do livro sobre a Terra. Resposta: <b>(E) nenhuma é correta</b>.",
+      "cena": {
+        "destacar": [
+          "afirmacoes"
+        ]
+      }
+    }
+  ],
+  "status": "revisado",
+  "criadoEm": "2026-11-15T09:00:00-03:00",
+  "atualizadoEm": "2026-11-15T09:00:00-03:00"
+}

@@ -238,6 +238,9 @@ article.q { background: var(--paper); border: 1px solid var(--line); border-top:
 <div class="toast" id="toast" hidden></div>
 
 <script>
+/* Resoluções animadas ocultas por decisão do Lucas (v2.13.1): os roteiros continuam em
+   data/animacoes/ e em animacoes.json, mas o botão não aparece. Para reativar, true. */
+const MOSTRAR_ANIMACOES = false;
 const AREAS = [
   ["Fundamentos", ["Grandezas físicas e Sistema Internacional", "Análise dimensional", "Notação científica e ordem de grandeza", "Vetores: soma e decomposição", "Leitura e interpretação de gráficos"]],
   ["Cinemática", ["Velocidade média e aceleração média", "Movimento retilíneo uniforme (MRU)", "Movimento retilíneo uniformemente variado (MRUV)", "Gráficos do movimento (s×t, v×t, a×t)", "Queda livre e lançamento vertical", "Lançamento horizontal", "Lançamento oblíquo", "Movimento relativo e composição de velocidades", "Movimento circular uniforme (MCU)", "Período, frequência e velocidade angular", "Transmissão de movimento circular (polias, engrenagens, coroas)", "Aceleração centrípeta"]],
@@ -538,7 +541,7 @@ function renderViewer() {
     el("label", { class: "sel" + (inList ? " on" : ""), for: "selq" }, cb, inList ? "Na lista" : "Adicionar à lista"));
   const res = el("div", { class: "res-wrap" });
   const tbtn = el("button", { class: "btn", type: "button", text: state.showRes ? "Ocultar resolução" : "Ver resolução", "aria-expanded": state.showRes ? "true" : "false", onclick: () => { state.showRes = !state.showRes; renderViewer(); } });
-  const rot = state.anims.get(q._id);
+  const rot = MOSTRAR_ANIMACOES ? state.anims.get(q._id) : null;
   res.append(el("div", { class: "res-actions" }, tbtn, rot ? el("button", { class: "btn anim-btn", type: "button", text: "Resolução animada", title: "Passo a passo animado, com os conceitos físicos", onclick: () => openPlayer(q, rot) }) : null));
   if (state.showRes) {
     const r = el("div", { class: "res" }); r.innerHTML = safeInline(q.resolucao || "Resolução ainda não cadastrada.");

@@ -1,0 +1,259 @@
+{
+  "id": "fuvest-2019-q22",
+  "titulo": "Mesma variação de energia, trabalhos diferentes",
+  "conceitos": [
+    "Primeira lei da termodinâmica",
+    "Trabalho em transformações gasosas"
+  ],
+  "cena": {
+    "modelo": "diagrama",
+    "parametros": {
+      "elementos": {
+        "eixos": [
+          {
+            "t": "seta",
+            "de": [
+              100,
+              330.0
+            ],
+            "para": [
+              572,
+              330.0
+            ],
+            "cor": "tinta",
+            "larg": 1.6
+          },
+          {
+            "t": "seta",
+            "de": [
+              100.0,
+              330
+            ],
+            "para": [
+              100.0,
+              18
+            ],
+            "cor": "tinta",
+            "larg": 1.6
+          },
+          {
+            "t": "texto",
+            "x": 560.0,
+            "y": 360.0,
+            "txt": "V",
+            "mudo": true,
+            "ancora": "end"
+          },
+          {
+            "t": "texto",
+            "x": 108.0,
+            "y": 18.0,
+            "txt": "P",
+            "mudo": true,
+            "ancora": "start"
+          },
+          {
+            "t": "circ",
+            "x": 192.0,
+            "y": 90.0,
+            "r": 5,
+            "cor": "tinta",
+            "borda": "tinta"
+          },
+          {
+            "t": "texto",
+            "x": 182.0,
+            "y": 80.0,
+            "txt": "I",
+            "negrito": true,
+            "ancora": "end"
+          },
+          {
+            "t": "circ",
+            "x": 468.0,
+            "y": 240.0,
+            "r": 5,
+            "cor": "tinta",
+            "borda": "tinta"
+          },
+          {
+            "t": "texto",
+            "x": 478.0,
+            "y": 254.0,
+            "txt": "II",
+            "negrito": true,
+            "ancora": "start"
+          }
+        ],
+        "caminho-a": [
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                192.0,
+                90.0
+              ],
+              [
+                192.0,
+                240.0
+              ],
+              [
+                468.0,
+                240.0
+              ]
+            ],
+            "cor": "normal",
+            "larg": 3
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                192.0,
+                240.0
+              ],
+              [
+                468.0,
+                240.0
+              ],
+              [
+                468.0,
+                330.0
+              ],
+              [
+                192.0,
+                330.0
+              ]
+            ],
+            "cor": "normal",
+            "larg": 0.5,
+            "fechada": true,
+            "preench": "#7fb8e0",
+            "opac": 0.35
+          },
+          {
+            "t": "texto",
+            "x": 182.0,
+            "y": 240.0,
+            "txt": "A",
+            "negrito": true,
+            "cor": "normal",
+            "ancora": "end"
+          }
+        ],
+        "caminho-b": [
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                192.0,
+                90.0
+              ],
+              [
+                468.0,
+                240.0
+              ]
+            ],
+            "cor": "acel",
+            "larg": 3
+          },
+          {
+            "t": "texto",
+            "x": 342.0,
+            "y": 165.0,
+            "txt": "B",
+            "negrito": true,
+            "cor": "acel",
+            "ancora": "start"
+          }
+        ],
+        "caminho-c": [
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                192.0,
+                90.0
+              ],
+              [
+                468.0,
+                90.0
+              ],
+              [
+                468.0,
+                240.0
+              ]
+            ],
+            "cor": "perigo",
+            "larg": 3
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                192.0,
+                90.0
+              ],
+              [
+                468.0,
+                90.0
+              ],
+              [
+                468.0,
+                330.0
+              ],
+              [
+                192.0,
+                330.0
+              ]
+            ],
+            "cor": "perigo",
+            "larg": 0.5,
+            "fechada": true,
+            "preench": "#f4a6a6",
+            "opac": 0.3
+          },
+          {
+            "t": "texto",
+            "x": 468.0,
+            "y": 78.0,
+            "txt": "C",
+            "negrito": true,
+            "cor": "perigo"
+          }
+        ]
+      }
+    }
+  },
+  "passos": [
+    {
+      "titulo": "Energia interna",
+      "conceito": "Primeira lei da termodinâmica",
+      "texto": "A energia interna é função de estado: os três caminhos ligam I a II, então ΔU é o mesmo.",
+      "cena": {
+        "mostrar": [
+          "eixos",
+          "caminho-b"
+        ]
+      }
+    },
+    {
+      "titulo": "O trabalho é a área",
+      "conceito": "Trabalho em transformações gasosas",
+      "texto": "O trabalho é a área sob a curva. C passa pela pressão mais alta (maior área); A, pela mais baixa (menor área); B fica entre elas. Resposta: <b>(A)</b>.",
+      "cena": {
+        "mostrar": [
+          "caminho-a",
+          "caminho-c"
+        ],
+        "destacar": [
+          "caminho-a",
+          "caminho-c"
+        ]
+      }
+    }
+  ],
+  "status": "revisado",
+  "criadoEm": "2026-11-15T09:00:00-03:00",
+  "atualizadoEm": "2026-11-15T09:00:00-03:00"
+}

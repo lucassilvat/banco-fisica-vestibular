@@ -1,0 +1,293 @@
+{
+  "id": "fuvest-2021-q53",
+  "titulo": "Lâmpadas em paralelo, cada uma com seu interruptor",
+  "conceitos": [
+    "Associação em paralelo"
+  ],
+  "cena": {
+    "modelo": "diagrama",
+    "parametros": {
+      "elementos": {
+        "circuito": [
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                120,
+                90
+              ],
+              [
+                520,
+                90
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 2.5
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                120,
+                330
+              ],
+              [
+                520,
+                330
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 2.5
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                120,
+                90
+              ],
+              [
+                120,
+                190
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 2.5
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                120,
+                230
+              ],
+              [
+                120,
+                330
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 2.5
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                104,
+                205
+              ],
+              [
+                136,
+                205
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 2.5
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                112,
+                215
+              ],
+              [
+                128,
+                215
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 5
+          },
+          {
+            "t": "texto",
+            "x": 96,
+            "y": 212,
+            "txt": "E",
+            "negrito": true,
+            "ancora": "end"
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                300,
+                90
+              ],
+              [
+                300,
+                150
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 2.5
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                300,
+                180
+              ],
+              [
+                300,
+                330
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 2.5
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                300,
+                150
+              ],
+              [
+                322,
+                178
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 2.5
+          },
+          {
+            "t": "circ",
+            "x": 300,
+            "y": 150,
+            "r": 4,
+            "cor": "tinta",
+            "borda": "tinta"
+          },
+          {
+            "t": "circ",
+            "x": 300,
+            "y": 182,
+            "r": 4,
+            "cor": "tinta",
+            "borda": "tinta"
+          },
+          {
+            "t": "circ",
+            "x": 300,
+            "y": 240,
+            "r": 20,
+            "cor": "luz",
+            "borda": "tinta"
+          },
+          {
+            "t": "texto",
+            "x": 330,
+            "y": 240,
+            "txt": "L₁",
+            "negrito": true,
+            "ancora": "start"
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                480,
+                90
+              ],
+              [
+                480,
+                150
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 2.5
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                480,
+                180
+              ],
+              [
+                480,
+                330
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 2.5
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                480,
+                150
+              ],
+              [
+                502,
+                178
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 2.5
+          },
+          {
+            "t": "circ",
+            "x": 480,
+            "y": 150,
+            "r": 4,
+            "cor": "tinta",
+            "borda": "tinta"
+          },
+          {
+            "t": "circ",
+            "x": 480,
+            "y": 182,
+            "r": 4,
+            "cor": "tinta",
+            "borda": "tinta"
+          },
+          {
+            "t": "circ",
+            "x": 480,
+            "y": 240,
+            "r": 20,
+            "cor": "luz",
+            "borda": "tinta"
+          },
+          {
+            "t": "texto",
+            "x": 510,
+            "y": 240,
+            "txt": "L₂",
+            "negrito": true,
+            "ancora": "start"
+          }
+        ]
+      }
+    }
+  },
+  "passos": [
+    {
+      "titulo": "Mesma tensão",
+      "conceito": "Associação em paralelo",
+      "texto": "Para que cada lâmpada receba sempre a tensão nominal (a da bateria), as duas devem estar em paralelo com a fonte.",
+      "cena": {
+        "mostrar": [
+          "circuito"
+        ]
+      }
+    },
+    {
+      "titulo": "Acender sozinhas ou juntas",
+      "conceito": "Associação em paralelo",
+      "texto": "Cada lâmpada precisa de um interruptor no seu próprio ramo. Só o circuito (2) tem isso. Resposta: <b>(B)</b>.",
+      "cena": {
+        "destacar": [
+          "circuito"
+        ]
+      }
+    }
+  ],
+  "status": "revisado",
+  "criadoEm": "2026-11-15T09:00:00-03:00",
+  "atualizadoEm": "2026-11-15T09:00:00-03:00"
+}

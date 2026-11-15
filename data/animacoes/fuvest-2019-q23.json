@@ -1,0 +1,174 @@
+{
+  "id": "fuvest-2019-q23",
+  "titulo": "A poça d'água como lente",
+  "conceitos": [
+    "Lentes esféricas"
+  ],
+  "cena": {
+    "modelo": "diagrama",
+    "parametros": {
+      "elementos": {
+        "etapa-1": [
+          {
+            "t": "ret",
+            "x": 30,
+            "y": 16,
+            "w": 480,
+            "h": 40,
+            "cor": "suave",
+            "borda": "normal",
+            "rx": 7
+          },
+          {
+            "t": "texto",
+            "x": 42,
+            "y": 36.0,
+            "txt": "raio da calota (base 7 cm, altura 1 cm)",
+            "mudo": true,
+            "ancora": "start"
+          },
+          {
+            "t": "texto",
+            "x": 498,
+            "y": 36.0,
+            "txt": "R = (7² + 1²)/2 = 25 cm",
+            "negrito": true,
+            "ancora": "end"
+          }
+        ],
+        "etapa-2": [
+          {
+            "t": "seta",
+            "de": [
+              270.0,
+              59
+            ],
+            "para": [
+              270.0,
+              79
+            ],
+            "cor": "tinta",
+            "larg": 1.8
+          },
+          {
+            "t": "texto",
+            "x": 282.0,
+            "y": 69.0,
+            "txt": "n − 1 = 0,33",
+            "negrito": true,
+            "cor": "acel",
+            "ancora": "start"
+          },
+          {
+            "t": "ret",
+            "x": 30,
+            "y": 82,
+            "w": 480,
+            "h": 40,
+            "cor": "suave",
+            "borda": "normal",
+            "rx": 7
+          },
+          {
+            "t": "texto",
+            "x": 42,
+            "y": 102.0,
+            "txt": "equação do fabricante (plano-convexa)",
+            "mudo": true,
+            "ancora": "start"
+          },
+          {
+            "t": "texto",
+            "x": 498,
+            "y": 102.0,
+            "txt": "1/f = 0,33/25",
+            "negrito": true,
+            "ancora": "end"
+          }
+        ],
+        "etapa-3": [
+          {
+            "t": "seta",
+            "de": [
+              270.0,
+              125
+            ],
+            "para": [
+              270.0,
+              145
+            ],
+            "cor": "tinta",
+            "larg": 1.8
+          },
+          {
+            "t": "texto",
+            "x": 282.0,
+            "y": 135.0,
+            "txt": "",
+            "negrito": true,
+            "cor": "acel",
+            "ancora": "start"
+          },
+          {
+            "t": "ret",
+            "x": 30,
+            "y": 148,
+            "w": 480,
+            "h": 40,
+            "cor": "suave",
+            "borda": "normal",
+            "rx": 7
+          },
+          {
+            "t": "texto",
+            "x": 42,
+            "y": 168.0,
+            "txt": "distância focal",
+            "mudo": true,
+            "ancora": "start"
+          },
+          {
+            "t": "texto",
+            "x": 498,
+            "y": 168.0,
+            "txt": "f ≈ 76 cm ≈ 75 cm",
+            "negrito": true,
+            "ancora": "end"
+          }
+        ]
+      }
+    }
+  },
+  "passos": [
+    {
+      "titulo": "O raio de curvatura",
+      "conceito": "Lentes esféricas",
+      "texto": "A poça é uma lente plano-convexa de água, com forma de calota.",
+      "cena": {
+        "mostrar": [
+          "etapa-1"
+        ]
+      }
+    },
+    {
+      "titulo": "O foco",
+      "conceito": "Lentes esféricas",
+      "texto": "Os raios do Sol a pino chegam paralelos e convergem no foco. Resposta: <b>(A) 75</b>.",
+      "equacoes": [
+        "\\dfrac{1}{f} = (n - 1)\\dfrac{1}{R} \\quad \\Rightarrow \\quad f = \\dfrac{25}{0,33} \\approx 76\\ \\text{cm}"
+      ],
+      "cena": {
+        "mostrar": [
+          "etapa-2",
+          "etapa-3"
+        ],
+        "destacar": [
+          "etapa-3"
+        ]
+      }
+    }
+  ],
+  "status": "revisado",
+  "criadoEm": "2026-11-15T09:00:00-03:00",
+  "atualizadoEm": "2026-11-15T09:00:00-03:00"
+}

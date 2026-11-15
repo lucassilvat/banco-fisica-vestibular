@@ -1,0 +1,151 @@
+{
+  "id": "fuvest-2017-q58",
+  "titulo": "A quantidade de movimento que falta",
+  "conceitos": [
+    "Conservação da quantidade de movimento"
+  ],
+  "cena": {
+    "modelo": "diagrama",
+    "parametros": {
+      "elementos": {
+        "particulas": [
+          {
+            "t": "circ",
+            "x": 300,
+            "y": 120,
+            "r": 10,
+            "cor": "#c9c9c9",
+            "borda": "tinta"
+          },
+          {
+            "t": "texto",
+            "x": 284,
+            "y": 110,
+            "txt": "He (repouso)",
+            "mudo": true,
+            "ancora": "end"
+          },
+          {
+            "t": "seta",
+            "de": [
+              300,
+              120
+            ],
+            "para": [
+              230,
+              210
+            ],
+            "cor": "normal",
+            "larg": 3,
+            "rot_em": [
+              218,
+              216
+            ],
+            "ancora": "end",
+            "rotulo": "Q",
+            "sub": "Li"
+          },
+          {
+            "t": "seta",
+            "de": [
+              300,
+              120
+            ],
+            "para": [
+              430,
+              230
+            ],
+            "cor": "atrito",
+            "larg": 3,
+            "rot_em": [
+              436,
+              238
+            ],
+            "ancora": "start",
+            "rotulo": "Q",
+            "sub": "e"
+          }
+        ],
+        "soma": [
+          {
+            "t": "seta",
+            "de": [
+              300,
+              120
+            ],
+            "para": [
+              360,
+              320
+            ],
+            "cor": "mudo",
+            "larg": 2.5,
+            "tracejado": true
+          },
+          {
+            "t": "texto",
+            "x": 370,
+            "y": 320,
+            "txt": "soma",
+            "mudo": true,
+            "ancora": "start"
+          }
+        ],
+        "antineutrino": [
+          {
+            "t": "seta",
+            "de": [
+              300,
+              120
+            ],
+            "para": [
+              240,
+              20
+            ],
+            "cor": "perigo",
+            "larg": 4,
+            "rot_em": [
+              230,
+              16
+            ],
+            "ancora": "end",
+            "rotulo": "Q",
+            "sub": "ν̄"
+          }
+        ]
+      },
+      "altura": 440
+    }
+  },
+  "passos": [
+    {
+      "titulo": "Total nulo",
+      "conceito": "Conservação da quantidade de movimento",
+      "texto": "O hélio estava em repouso: a soma das quantidades de movimento continua nula depois do decaimento. As do lítio e do elétron somadas apontam para baixo e um pouco para a direita.",
+      "equacoes": [
+        "\\vec{Q}_{Li} + \\vec{Q}_{e} + \\vec{Q}_{\\text{antineutrino}} = \\vec{0}"
+      ],
+      "cena": {
+        "mostrar": [
+          "particulas",
+          "soma"
+        ]
+      }
+    },
+    {
+      "titulo": "O antineutrino",
+      "conceito": "Conservação da quantidade de movimento",
+      "texto": "Sua quantidade de movimento é o oposto dessa soma: para cima e um pouco para a esquerda. Resposta: <b>(d)</b>.",
+      "cena": {
+        "mostrar": [
+          "antineutrino"
+        ],
+        "destacar": [
+          "antineutrino"
+        ]
+      }
+    }
+  ],
+  "status": "revisado",
+  "criadoEm": "2026-11-15T09:00:00-03:00",
+  "atualizadoEm": "2026-11-15T09:00:00-03:00"
+}

@@ -1,0 +1,218 @@
+{
+  "id": "fuvest-2027-q74",
+  "titulo": "Na transição, a normal supera o peso radial",
+  "conceitos": [
+    "Resultante centrípeta"
+  ],
+  "cena": {
+    "modelo": "diagrama",
+    "parametros": {
+      "elementos": {
+        "rampa": [
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                100,
+                40
+              ],
+              [
+                104,
+                110
+              ],
+              [
+                115,
+                180
+              ],
+              [
+                140,
+                250
+              ],
+              [
+                180,
+                300
+              ],
+              [
+                240,
+                335
+              ],
+              [
+                320,
+                350
+              ],
+              [
+                420,
+                352
+              ],
+              [
+                600,
+                330
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 3
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                80,
+                40
+              ],
+              [
+                100,
+                40
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 3
+          }
+        ],
+        "forcas": [
+          {
+            "t": "circ",
+            "x": 180,
+            "y": 300,
+            "r": 9,
+            "cor": "normal",
+            "borda": "tinta"
+          },
+          {
+            "t": "seta",
+            "de": [
+              180,
+              300
+            ],
+            "para": [
+              180,
+              390
+            ],
+            "cor": "peso",
+            "larg": 3,
+            "rot_em": [
+              168,
+              384
+            ],
+            "ancora": "end",
+            "rotulo": "P"
+          },
+          {
+            "t": "seta",
+            "de": [
+              180,
+              300
+            ],
+            "para": [
+              252.1,
+              191.8
+            ],
+            "cor": "normal",
+            "larg": 3,
+            "rot_em": [
+              262.1110255092798,
+              191.83346173608032
+            ],
+            "ancora": "start",
+            "rotulo": "N"
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                180,
+                300
+              ],
+              [
+                340,
+                60
+              ]
+            ],
+            "cor": "mudo",
+            "larg": 1,
+            "tracejado": true
+          },
+          {
+            "t": "circ",
+            "x": 340,
+            "y": 60,
+            "r": 4,
+            "cor": "mudo",
+            "borda": "tinta"
+          },
+          {
+            "t": "texto",
+            "x": 348,
+            "y": 60,
+            "txt": "centro de curvatura",
+            "mudo": true,
+            "ancora": "start"
+          }
+        ],
+        "componente": [
+          {
+            "t": "seta",
+            "de": [
+              180,
+              300
+            ],
+            "para": [
+              146.7,
+              349.9
+            ],
+            "cor": "peso",
+            "larg": 2,
+            "tracejado": true
+          },
+          {
+            "t": "texto",
+            "x": 137.4,
+            "y": 368.9,
+            "txt": "P cos θ",
+            "negrito": true,
+            "cor": "peso",
+            "ancora": "end"
+          },
+          {
+            "t": "rotulo",
+            "x": 450,
+            "y": 250,
+            "txt": "N − P cos θ = mv²/R > 0",
+            "cor": "var(--danger)"
+          }
+        ]
+      }
+    }
+  },
+  "passos": [
+    {
+      "titulo": "Uma curva côncava",
+      "conceito": "Resultante centrípeta",
+      "texto": "Na transição, Sandro percorre um trecho curvo cujo centro de curvatura fica acima da pista: há resultante centrípeta apontando para esse centro. Agem o peso \\(\\vec{P}\\) e a normal \\(\\vec{N}\\).",
+      "cena": {
+        "mostrar": [
+          "rampa",
+          "forcas"
+        ]
+      }
+    },
+    {
+      "titulo": "Na direção radial",
+      "conceito": "Resultante centrípeta",
+      "texto": "A normal aponta para o centro; a componente radial do peso, para fora. Para sobrar resultante centrípeta, N > P cos θ: é a sobrecarga nos joelhos. Resposta: <b>(B)</b>.",
+      "equacoes": [
+        "N - P\\cos\\theta = \\dfrac{m v^{2}}{R} > 0"
+      ],
+      "cena": {
+        "mostrar": [
+          "componente"
+        ],
+        "destacar": [
+          "componente"
+        ]
+      }
+    }
+  ],
+  "status": "revisado",
+  "criadoEm": "2026-11-15T09:00:00-03:00",
+  "atualizadoEm": "2026-11-15T09:00:00-03:00"
+}

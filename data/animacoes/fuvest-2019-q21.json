@@ -1,0 +1,226 @@
+{
+  "id": "fuvest-2019-q21",
+  "titulo": "Gelo na garrafa térmica",
+  "conceitos": [
+    "Calorimetria",
+    "Calor latente"
+  ],
+  "cena": {
+    "modelo": "diagrama",
+    "parametros": {
+      "elementos": {
+        "etapa-1": [
+          {
+            "t": "ret",
+            "x": 30,
+            "y": 16,
+            "w": 440,
+            "h": 40,
+            "cor": "suave",
+            "borda": "normal",
+            "rx": 7
+          },
+          {
+            "t": "texto",
+            "x": 42,
+            "y": 36.0,
+            "txt": "água pode ceder até 0 ºC",
+            "mudo": true,
+            "ancora": "start"
+          },
+          {
+            "t": "texto",
+            "x": 458,
+            "y": 36.0,
+            "txt": "6 000 cal",
+            "negrito": true,
+            "ancora": "end"
+          }
+        ],
+        "etapa-2": [
+          {
+            "t": "seta",
+            "de": [
+              250.0,
+              59
+            ],
+            "para": [
+              250.0,
+              79
+            ],
+            "cor": "tinta",
+            "larg": 1.8
+          },
+          {
+            "t": "texto",
+            "x": 262.0,
+            "y": 69.0,
+            "txt": "50 · 0,5 · 10; 50 · 80",
+            "negrito": true,
+            "cor": "acel",
+            "ancora": "start"
+          },
+          {
+            "t": "ret",
+            "x": 30,
+            "y": 82,
+            "w": 440,
+            "h": 40,
+            "cor": "suave",
+            "borda": "normal",
+            "rx": 7
+          },
+          {
+            "t": "texto",
+            "x": 42,
+            "y": 102.0,
+            "txt": "gelo: aquecer e derreter",
+            "mudo": true,
+            "ancora": "start"
+          },
+          {
+            "t": "texto",
+            "x": 458,
+            "y": 102.0,
+            "txt": "250 + 4 000 = 4 250 cal",
+            "negrito": true,
+            "ancora": "end"
+          }
+        ],
+        "etapa-3": [
+          {
+            "t": "seta",
+            "de": [
+              250.0,
+              125
+            ],
+            "para": [
+              250.0,
+              145
+            ],
+            "cor": "tinta",
+            "larg": 1.8
+          },
+          {
+            "t": "texto",
+            "x": 262.0,
+            "y": 135.0,
+            "txt": "6 000 > 4 250",
+            "negrito": true,
+            "cor": "acel",
+            "ancora": "start"
+          },
+          {
+            "t": "ret",
+            "x": 30,
+            "y": 148,
+            "w": 440,
+            "h": 40,
+            "cor": "suave",
+            "borda": "normal",
+            "rx": 7
+          },
+          {
+            "t": "texto",
+            "x": 42,
+            "y": 168.0,
+            "txt": "sobra calor",
+            "mudo": true,
+            "ancora": "start"
+          },
+          {
+            "t": "texto",
+            "x": 458,
+            "y": 168.0,
+            "txt": "todo o gelo derrete",
+            "negrito": true,
+            "ancora": "end"
+          }
+        ],
+        "etapa-4": [
+          {
+            "t": "seta",
+            "de": [
+              250.0,
+              191
+            ],
+            "para": [
+              250.0,
+              211
+            ],
+            "cor": "tinta",
+            "larg": 1.8
+          },
+          {
+            "t": "texto",
+            "x": 262.0,
+            "y": 201.0,
+            "txt": "",
+            "negrito": true,
+            "cor": "acel",
+            "ancora": "start"
+          },
+          {
+            "t": "ret",
+            "x": 30,
+            "y": 214,
+            "w": 440,
+            "h": 40,
+            "cor": "suave",
+            "borda": "normal",
+            "rx": 7
+          },
+          {
+            "t": "texto",
+            "x": 42,
+            "y": 234.0,
+            "txt": "equilíbrio",
+            "mudo": true,
+            "ancora": "start"
+          },
+          {
+            "t": "texto",
+            "x": 458,
+            "y": 234.0,
+            "txt": "θ = 7 ºC",
+            "negrito": true,
+            "ancora": "end"
+          }
+        ]
+      }
+    }
+  },
+  "passos": [
+    {
+      "titulo": "Vai derreter tudo?",
+      "conceito": "Calor latente",
+      "texto": "Comparamos o calor que a água cede até 0 ºC com o necessário para o gelo chegar a 0 ºC e derreter.",
+      "cena": {
+        "mostrar": [
+          "etapa-1",
+          "etapa-2",
+          "etapa-3"
+        ]
+      }
+    },
+    {
+      "titulo": "A temperatura final",
+      "conceito": "Calorimetria",
+      "texto": "Resposta: <b>(A)</b>.",
+      "equacoes": [
+        "200(30 - \\theta) = 250 + 4\\,000 + 50\\,\\theta \\quad \\Rightarrow \\quad \\theta = 7\\ \\text{ºC}"
+      ],
+      "cena": {
+        "mostrar": [
+          "etapa-4"
+        ],
+        "destacar": [
+          "etapa-4"
+        ]
+      }
+    }
+  ],
+  "status": "revisado",
+  "criadoEm": "2026-11-15T09:00:00-03:00",
+  "atualizadoEm": "2026-11-15T09:00:00-03:00"
+}

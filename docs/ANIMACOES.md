@@ -1,5 +1,10 @@
 # Resoluções animadas
 
+> **Oculto no app desde a v2.13.1.** O Lucas decidiu seguir outro caminho no futuro; por
+> enquanto o app mostra só a resolução textual. Os roteiros e o player foram mantidos; para
+> reativar, `MOSTRAR_ANIMACOES = true` em `app/index.html`. Não produzir novas animações sem
+> novo pedido.
+
 Adicional à resolução comentada (que continua igual): um passo a passo animado, feito para
 o aluno, com os conceitos físicos explícitos. No app, aparece o botão **Resolução animada**
 ao lado de **Ver resolução** nas questões que têm roteiro.

@@ -1,0 +1,212 @@
+{
+  "id": "fuvest-2027-q56",
+  "titulo": "Como enxergamos uma nebulosa",
+  "conceitos": [
+    "Óptica geométrica",
+    "Astronomia"
+  ],
+  "cena": {
+    "modelo": "diagrama",
+    "parametros": {
+      "elementos": {
+        "falsas": [
+          {
+            "t": "ret",
+            "x": 40,
+            "y": 30,
+            "w": 580,
+            "h": 56,
+            "cor": "papel",
+            "borda": "linha",
+            "larg": 1,
+            "rx": 6
+          },
+          {
+            "t": "texto",
+            "x": 64,
+            "y": 58.0,
+            "txt": "A",
+            "negrito": true
+          },
+          {
+            "t": "texto",
+            "x": 90,
+            "y": 58.0,
+            "txt": "fusão nuclear na nebulosa? Não",
+            "ancora": "start"
+          },
+          {
+            "t": "texto",
+            "x": 596,
+            "y": 58.0,
+            "txt": "F",
+            "negrito": true,
+            "cor": "perigo"
+          },
+          {
+            "t": "ret",
+            "x": 40,
+            "y": 162,
+            "w": 580,
+            "h": 56,
+            "cor": "papel",
+            "borda": "linha",
+            "larg": 1,
+            "rx": 6
+          },
+          {
+            "t": "texto",
+            "x": 64,
+            "y": 190.0,
+            "txt": "C",
+            "negrito": true
+          },
+          {
+            "t": "texto",
+            "x": 90,
+            "y": 190.0,
+            "txt": "atrito entre poeira gera luz? Não",
+            "ancora": "start"
+          },
+          {
+            "t": "texto",
+            "x": 596,
+            "y": 190.0,
+            "txt": "F",
+            "negrito": true,
+            "cor": "perigo"
+          },
+          {
+            "t": "ret",
+            "x": 40,
+            "y": 228,
+            "w": 580,
+            "h": 56,
+            "cor": "papel",
+            "borda": "linha",
+            "larg": 1,
+            "rx": 6
+          },
+          {
+            "t": "texto",
+            "x": 64,
+            "y": 256.0,
+            "txt": "D",
+            "negrito": true
+          },
+          {
+            "t": "texto",
+            "x": 90,
+            "y": 256.0,
+            "txt": "apenas infravermelho? Não",
+            "ancora": "start"
+          },
+          {
+            "t": "texto",
+            "x": 596,
+            "y": 256.0,
+            "txt": "F",
+            "negrito": true,
+            "cor": "perigo"
+          },
+          {
+            "t": "ret",
+            "x": 40,
+            "y": 294,
+            "w": 580,
+            "h": 56,
+            "cor": "papel",
+            "borda": "linha",
+            "larg": 1,
+            "rx": 6
+          },
+          {
+            "t": "texto",
+            "x": 64,
+            "y": 322.0,
+            "txt": "E",
+            "negrito": true
+          },
+          {
+            "t": "texto",
+            "x": 90,
+            "y": 322.0,
+            "txt": "absorve tudo e vira silhueta? Não é o principal",
+            "ancora": "start"
+          },
+          {
+            "t": "texto",
+            "x": 596,
+            "y": 322.0,
+            "txt": "F",
+            "negrito": true,
+            "cor": "perigo"
+          }
+        ],
+        "verdadeiras": [
+          {
+            "t": "ret",
+            "x": 40,
+            "y": 96,
+            "w": 580,
+            "h": 56,
+            "cor": "papel",
+            "borda": "normal",
+            "larg": 3,
+            "rx": 6
+          },
+          {
+            "t": "texto",
+            "x": 64,
+            "y": 124.0,
+            "txt": "B",
+            "negrito": true
+          },
+          {
+            "t": "texto",
+            "x": 90,
+            "y": 124.0,
+            "txt": "reflete e espalha a luz de estrelas próximas",
+            "ancora": "start"
+          },
+          {
+            "t": "texto",
+            "x": 596,
+            "y": 124.0,
+            "txt": "V",
+            "negrito": true,
+            "cor": "normal"
+          }
+        ]
+      }
+    }
+  },
+  "passos": [
+    {
+      "titulo": "O que está errado",
+      "conceito": "Óptica geométrica",
+      "texto": "A nebulosa é uma nuvem fria e rarefeita: não há fusão nuclear, que só ocorre no núcleo das estrelas. O atrito da poeira não produz luz relevante, e nebulosas são vistas em luz visível.",
+      "cena": {
+        "mostrar": [
+          "falsas"
+        ]
+      }
+    },
+    {
+      "titulo": "A correta",
+      "conceito": "Astronomia",
+      "texto": "Assim como os objetos que vemos iluminados por uma lâmpada, a nebulosa reflete e espalha a luz das estrelas próximas. Resposta: <b>(B)</b>.",
+      "cena": {
+        "mostrar": [
+          "verdadeiras"
+        ],
+        "destacar": [
+          "verdadeiras"
+        ]
+      }
+    }
+  ],
+  "status": "revisado",
+  "criadoEm": "2026-11-15T09:00:00-03:00",
+  "atualizadoEm": "2026-11-15T09:00:00-03:00"
+}

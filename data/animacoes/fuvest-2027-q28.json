@@ -1,0 +1,215 @@
+{
+  "id": "fuvest-2027-q28",
+  "titulo": "Oceanos como reservatório de calor",
+  "conceitos": [
+    "Calor específico",
+    "Trocas de calor"
+  ],
+  "cena": {
+    "modelo": "diagrama",
+    "parametros": {
+      "elementos": {
+        "falsas": [
+          {
+            "t": "ret",
+            "x": 40,
+            "y": 30,
+            "w": 580,
+            "h": 56,
+            "cor": "papel",
+            "borda": "linha",
+            "larg": 1,
+            "rx": 6
+          },
+          {
+            "t": "texto",
+            "x": 64,
+            "y": 58.0,
+            "txt": "A",
+            "negrito": true
+          },
+          {
+            "t": "texto",
+            "x": 90,
+            "y": 58.0,
+            "txt": "calor específico da água reduzido? Não: é alto",
+            "ancora": "start"
+          },
+          {
+            "t": "texto",
+            "x": 596,
+            "y": 58.0,
+            "txt": "F",
+            "negrito": true,
+            "cor": "perigo"
+          },
+          {
+            "t": "ret",
+            "x": 40,
+            "y": 96,
+            "w": 580,
+            "h": 56,
+            "cor": "papel",
+            "borda": "linha",
+            "larg": 1,
+            "rx": 6
+          },
+          {
+            "t": "texto",
+            "x": 64,
+            "y": 124.0,
+            "txt": "B",
+            "negrito": true
+          },
+          {
+            "t": "texto",
+            "x": 90,
+            "y": 124.0,
+            "txt": "ecossistemas neutralizam o aquecimento? Não",
+            "ancora": "start"
+          },
+          {
+            "t": "texto",
+            "x": 596,
+            "y": 124.0,
+            "txt": "F",
+            "negrito": true,
+            "cor": "perigo"
+          },
+          {
+            "t": "ret",
+            "x": 40,
+            "y": 228,
+            "w": 580,
+            "h": 56,
+            "cor": "papel",
+            "borda": "linha",
+            "larg": 1,
+            "rx": 6
+          },
+          {
+            "t": "texto",
+            "x": 64,
+            "y": 256.0,
+            "txt": "D",
+            "negrito": true
+          },
+          {
+            "t": "texto",
+            "x": 90,
+            "y": 256.0,
+            "txt": "absorção ilimitada? Não",
+            "ancora": "start"
+          },
+          {
+            "t": "texto",
+            "x": 596,
+            "y": 256.0,
+            "txt": "F",
+            "negrito": true,
+            "cor": "perigo"
+          },
+          {
+            "t": "ret",
+            "x": 40,
+            "y": 294,
+            "w": 580,
+            "h": 56,
+            "cor": "papel",
+            "borda": "linha",
+            "larg": 1,
+            "rx": 6
+          },
+          {
+            "t": "texto",
+            "x": 64,
+            "y": 322.0,
+            "txt": "E",
+            "negrito": true
+          },
+          {
+            "t": "texto",
+            "x": 90,
+            "y": 322.0,
+            "txt": "costas preservadas da elevação do mar? Não",
+            "ancora": "start"
+          },
+          {
+            "t": "texto",
+            "x": 596,
+            "y": 322.0,
+            "txt": "F",
+            "negrito": true,
+            "cor": "perigo"
+          }
+        ],
+        "verdadeiras": [
+          {
+            "t": "ret",
+            "x": 40,
+            "y": 162,
+            "w": 580,
+            "h": 56,
+            "cor": "papel",
+            "borda": "normal",
+            "larg": 3,
+            "rx": 6
+          },
+          {
+            "t": "texto",
+            "x": 64,
+            "y": 190.0,
+            "txt": "C",
+            "negrito": true
+          },
+          {
+            "t": "texto",
+            "x": 90,
+            "y": 190.0,
+            "txt": "sumidouro de calor e de CO₂",
+            "ancora": "start"
+          },
+          {
+            "t": "texto",
+            "x": 596,
+            "y": 190.0,
+            "txt": "V",
+            "negrito": true,
+            "cor": "normal"
+          }
+        ]
+      }
+    }
+  },
+  "passos": [
+    {
+      "titulo": "O que está errado",
+      "conceito": "Calor específico",
+      "texto": "A água tem calor específico alto, maior que o de rochas e solos: absorve muito calor com pequena variação de temperatura. Os ecossistemas não neutralizam o aquecimento e a absorção não é ilimitada.",
+      "equacoes": [
+        "c_{\\text{água}} = 1\\ \\text{cal/g·ºC}"
+      ],
+      "cena": {
+        "mostrar": [
+          "falsas"
+        ]
+      }
+    },
+    {
+      "titulo": "A correta",
+      "conceito": "Trocas de calor",
+      "texto": "Graças à grande massa e ao alto calor específico da água, os oceanos armazenam a maior parte do excesso de energia e dissolvem parte do CO₂. Resposta: <b>(C)</b>.",
+      "cena": {
+        "mostrar": [
+          "verdadeiras"
+        ],
+        "destacar": [
+          "verdadeiras"
+        ]
+      }
+    }
+  ],
+  "status": "revisado",
+  "criadoEm": "2026-11-15T09:00:00-03:00",
+  "atualizadoEm": "2026-11-15T09:00:00-03:00"
+}

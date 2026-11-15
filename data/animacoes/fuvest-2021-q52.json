@@ -1,0 +1,197 @@
+{
+  "id": "fuvest-2021-q52",
+  "titulo": "Indução nas latas entre dois balões",
+  "conceitos": [
+    "Eletrização por indução"
+  ],
+  "cena": {
+    "modelo": "diagrama",
+    "parametros": {
+      "elementos": {
+        "latas": [
+          {
+            "t": "ret",
+            "x": 220,
+            "y": 160,
+            "w": 200,
+            "h": 70,
+            "cor": "#d0d4da",
+            "borda": "tinta",
+            "rx": 10
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                287,
+                160
+              ],
+              [
+                287,
+                230
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 1.5
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                353,
+                160
+              ],
+              [
+                353,
+                230
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 1.5
+          },
+          {
+            "t": "texto",
+            "x": 253,
+            "y": 145,
+            "txt": "1",
+            "negrito": true
+          },
+          {
+            "t": "texto",
+            "x": 320,
+            "y": 145,
+            "txt": "2",
+            "negrito": true
+          },
+          {
+            "t": "texto",
+            "x": 387,
+            "y": 145,
+            "txt": "3",
+            "negrito": true
+          },
+          {
+            "t": "circ",
+            "x": 110,
+            "y": 195,
+            "r": 44,
+            "cor": "#e53935",
+            "borda": "tinta"
+          },
+          {
+            "t": "texto",
+            "x": 110,
+            "y": 195,
+            "txt": "− −",
+            "negrito": true,
+            "cor": "papel"
+          },
+          {
+            "t": "circ",
+            "x": 530,
+            "y": 195,
+            "r": 44,
+            "cor": "#e53935",
+            "borda": "tinta"
+          },
+          {
+            "t": "texto",
+            "x": 530,
+            "y": 195,
+            "txt": "− −",
+            "negrito": true,
+            "cor": "papel"
+          }
+        ],
+        "cargas": [
+          {
+            "t": "texto",
+            "x": 253,
+            "y": 195,
+            "txt": "+ +",
+            "negrito": true,
+            "cor": "perigo"
+          },
+          {
+            "t": "texto",
+            "x": 320,
+            "y": 195,
+            "txt": "− − −",
+            "negrito": true,
+            "cor": "normal"
+          },
+          {
+            "t": "texto",
+            "x": 387,
+            "y": 195,
+            "txt": "+ +",
+            "negrito": true,
+            "cor": "perigo"
+          },
+          {
+            "t": "seta",
+            "de": [
+              240,
+              270
+            ],
+            "para": [
+              300,
+              270
+            ],
+            "cor": "normal",
+            "larg": 2.5
+          },
+          {
+            "t": "seta",
+            "de": [
+              400,
+              270
+            ],
+            "para": [
+              340,
+              270
+            ],
+            "cor": "normal",
+            "larg": 2.5
+          },
+          {
+            "t": "texto",
+            "x": 320,
+            "y": 300,
+            "txt": "elétrons empurrados para o meio",
+            "negrito": true,
+            "cor": "normal"
+          }
+        ]
+      }
+    }
+  },
+  "passos": [
+    {
+      "titulo": "Um só condutor",
+      "conceito": "Eletrização por indução",
+      "texto": "As três latas em contato formam um único condutor neutro. Os balões, negativos, nunca tocam as latas.",
+      "cena": {
+        "mostrar": [
+          "latas"
+        ]
+      }
+    },
+    {
+      "titulo": "A separação de cargas",
+      "conceito": "Eletrização por indução",
+      "texto": "Cada balão repele os elétrons livres da ponta mais próxima para o centro: as latas 1 e 3 ficam positivas e a 2, negativa. A soma continua zero. Resposta: <b>(D)</b>.",
+      "cena": {
+        "mostrar": [
+          "cargas"
+        ],
+        "destacar": [
+          "cargas"
+        ]
+      }
+    }
+  ],
+  "status": "revisado",
+  "criadoEm": "2026-11-15T09:00:00-03:00",
+  "atualizadoEm": "2026-11-15T09:00:00-03:00"
+}

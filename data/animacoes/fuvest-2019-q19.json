@@ -1,0 +1,251 @@
+{
+  "id": "fuvest-2019-q19",
+  "titulo": "A vela vista pela lupa",
+  "conceitos": [
+    "Lentes esféricas"
+  ],
+  "cena": {
+    "modelo": "diagrama",
+    "parametros": {
+      "elementos": {
+        "lente": [
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                40,
+                230
+              ],
+              [
+                620,
+                230
+              ]
+            ],
+            "cor": "mudo",
+            "larg": 1.2
+          },
+          {
+            "t": "seta",
+            "de": [
+              380,
+              230
+            ],
+            "para": [
+              380,
+              80
+            ],
+            "cor": "normal",
+            "larg": 2.5
+          },
+          {
+            "t": "seta",
+            "de": [
+              380,
+              230
+            ],
+            "para": [
+              380,
+              380
+            ],
+            "cor": "normal",
+            "larg": 2.5
+          },
+          {
+            "t": "texto",
+            "x": 390,
+            "y": 76,
+            "txt": "lente biconvexa (convergente)",
+            "negrito": true,
+            "cor": "normal",
+            "ancora": "start"
+          },
+          {
+            "t": "circ",
+            "x": 260,
+            "y": 230,
+            "r": 4,
+            "cor": "tinta",
+            "borda": "tinta"
+          },
+          {
+            "t": "texto",
+            "x": 260,
+            "y": 250,
+            "txt": "F",
+            "negrito": true
+          },
+          {
+            "t": "circ",
+            "x": 500,
+            "y": 230,
+            "r": 4,
+            "cor": "tinta",
+            "borda": "tinta"
+          },
+          {
+            "t": "texto",
+            "x": 500,
+            "y": 250,
+            "txt": "F'",
+            "negrito": true
+          }
+        ],
+        "objeto": [
+          {
+            "t": "seta",
+            "de": [
+              320,
+              230
+            ],
+            "para": [
+              320,
+              180
+            ],
+            "cor": "perigo",
+            "larg": 3.5
+          },
+          {
+            "t": "texto",
+            "x": 320,
+            "y": 250,
+            "txt": "vela",
+            "negrito": true,
+            "cor": "perigo"
+          }
+        ],
+        "raios": [
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                320,
+                180
+              ],
+              [
+                380,
+                180
+              ]
+            ],
+            "cor": "luz",
+            "larg": 2.5
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                380,
+                180
+              ],
+              [
+                600,
+                272
+              ]
+            ],
+            "cor": "luz",
+            "larg": 2.5
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                320,
+                180
+              ],
+              [
+                560,
+                380
+              ]
+            ],
+            "cor": "luz",
+            "larg": 2.5
+          }
+        ],
+        "imagem": [
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                380,
+                180
+              ],
+              [
+                260,
+                130
+              ]
+            ],
+            "cor": "luz",
+            "larg": 1.6,
+            "tracejado": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                320,
+                180
+              ],
+              [
+                260,
+                130
+              ]
+            ],
+            "cor": "luz",
+            "larg": 1.6,
+            "tracejado": true
+          },
+          {
+            "t": "seta",
+            "de": [
+              260,
+              230
+            ],
+            "para": [
+              260,
+              130
+            ],
+            "cor": "acel",
+            "larg": 3.5,
+            "tracejado": true
+          },
+          {
+            "t": "rotulo",
+            "x": 170,
+            "y": 110,
+            "txt": "virtual, direita e maior",
+            "cor": "var(--anim-acel)"
+          }
+        ]
+      }
+    }
+  },
+  "passos": [
+    {
+      "titulo": "Lente convergente",
+      "conceito": "Lentes esféricas",
+      "texto": "A lente biconvexa de vidro no ar é convergente; a vela está entre a lente e o foco.",
+      "cena": {
+        "mostrar": [
+          "lente",
+          "objeto"
+        ]
+      }
+    },
+    {
+      "titulo": "A imagem",
+      "conceito": "Lentes esféricas",
+      "texto": "Os raios saem divergentes; seus prolongamentos se cruzam do mesmo lado da vela. Resposta: <b>(E) virtual, direita e maior</b>.",
+      "cena": {
+        "mostrar": [
+          "raios",
+          "imagem"
+        ],
+        "destacar": [
+          "imagem"
+        ]
+      }
+    }
+  ],
+  "status": "revisado",
+  "criadoEm": "2026-11-15T09:00:00-03:00",
+  "atualizadoEm": "2026-11-15T09:00:00-03:00"
+}

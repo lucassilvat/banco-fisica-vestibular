@@ -1,0 +1,214 @@
+{
+  "id": "fuvest-2023-q72",
+  "titulo": "Radiação ionizante e comprimento de onda",
+  "conceitos": [
+    "Espectro eletromagnético"
+  ],
+  "cena": {
+    "modelo": "diagrama",
+    "parametros": {
+      "elementos": {
+        "falsas": [
+          {
+            "t": "ret",
+            "x": 40,
+            "y": 96,
+            "w": 580,
+            "h": 56,
+            "cor": "papel",
+            "borda": "linha",
+            "larg": 1,
+            "rx": 6
+          },
+          {
+            "t": "texto",
+            "x": 64,
+            "y": 124.0,
+            "txt": "B",
+            "negrito": true
+          },
+          {
+            "t": "texto",
+            "x": 90,
+            "y": 124.0,
+            "txt": "λ maior ioniza mais? Não: menos energia",
+            "ancora": "start"
+          },
+          {
+            "t": "texto",
+            "x": 596,
+            "y": 124.0,
+            "txt": "F",
+            "negrito": true,
+            "cor": "perigo"
+          },
+          {
+            "t": "ret",
+            "x": 40,
+            "y": 162,
+            "w": 580,
+            "h": 56,
+            "cor": "papel",
+            "borda": "linha",
+            "larg": 1,
+            "rx": 6
+          },
+          {
+            "t": "texto",
+            "x": 64,
+            "y": 190.0,
+            "txt": "C",
+            "negrito": true
+          },
+          {
+            "t": "texto",
+            "x": 90,
+            "y": 190.0,
+            "txt": "luz visível não é radiação? É",
+            "ancora": "start"
+          },
+          {
+            "t": "texto",
+            "x": 596,
+            "y": 190.0,
+            "txt": "F",
+            "negrito": true,
+            "cor": "perigo"
+          },
+          {
+            "t": "ret",
+            "x": 40,
+            "y": 228,
+            "w": 580,
+            "h": 56,
+            "cor": "papel",
+            "borda": "linha",
+            "larg": 1,
+            "rx": 6
+          },
+          {
+            "t": "texto",
+            "x": 64,
+            "y": 256.0,
+            "txt": "D",
+            "negrito": true
+          },
+          {
+            "t": "texto",
+            "x": 90,
+            "y": 256.0,
+            "txt": "fotoelétrico é não ionizante? Não: arranca elétrons",
+            "ancora": "start"
+          },
+          {
+            "t": "texto",
+            "x": 596,
+            "y": 256.0,
+            "txt": "F",
+            "negrito": true,
+            "cor": "perigo"
+          },
+          {
+            "t": "ret",
+            "x": 40,
+            "y": 294,
+            "w": 580,
+            "h": 56,
+            "cor": "papel",
+            "borda": "linha",
+            "larg": 1,
+            "rx": 6
+          },
+          {
+            "t": "texto",
+            "x": 64,
+            "y": 322.0,
+            "txt": "E",
+            "negrito": true
+          },
+          {
+            "t": "texto",
+            "x": 90,
+            "y": 322.0,
+            "txt": "ionizar não afeta as moléculas? Afeta",
+            "ancora": "start"
+          },
+          {
+            "t": "texto",
+            "x": 596,
+            "y": 322.0,
+            "txt": "F",
+            "negrito": true,
+            "cor": "perigo"
+          }
+        ],
+        "verdadeiras": [
+          {
+            "t": "ret",
+            "x": 40,
+            "y": 30,
+            "w": 580,
+            "h": 56,
+            "cor": "papel",
+            "borda": "normal",
+            "larg": 3,
+            "rx": 6
+          },
+          {
+            "t": "texto",
+            "x": 64,
+            "y": 58.0,
+            "txt": "A",
+            "negrito": true
+          },
+          {
+            "t": "texto",
+            "x": 90,
+            "y": 58.0,
+            "txt": "luz branca, micro-ondas e laser vermelho: não ionizantes",
+            "ancora": "start"
+          },
+          {
+            "t": "texto",
+            "x": 596,
+            "y": 58.0,
+            "txt": "V",
+            "negrito": true,
+            "cor": "normal"
+          }
+        ]
+      }
+    }
+  },
+  "passos": [
+    {
+      "titulo": "O que está errado",
+      "conceito": "Espectro eletromagnético",
+      "texto": "A energia do fóton é E = hc/λ: comprimento de onda maior, energia menor e menor poder ionizante. A luz visível é radiação eletromagnética.",
+      "equacoes": [
+        "E = \\dfrac{hc}{\\lambda}"
+      ],
+      "cena": {
+        "mostrar": [
+          "falsas"
+        ]
+      }
+    },
+    {
+      "titulo": "A correta",
+      "conceito": "Espectro eletromagnético",
+      "texto": "Luz visível, micro-ondas e laser vermelho têm comprimentos de onda muito maiores que o limite ionizante (cerca de 200 nm). Resposta: <b>(A)</b>.",
+      "cena": {
+        "mostrar": [
+          "verdadeiras"
+        ],
+        "destacar": [
+          "verdadeiras"
+        ]
+      }
+    }
+  ],
+  "status": "revisado",
+  "criadoEm": "2026-11-15T09:00:00-03:00",
+  "atualizadoEm": "2026-11-15T09:00:00-03:00"
+}

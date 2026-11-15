@@ -1,0 +1,172 @@
+{
+  "id": "fuvest-2023-q78",
+  "titulo": "Terra e Webb giram juntos em torno do Sol",
+  "conceitos": [
+    "Resultante centrípeta",
+    "Lei da gravitação universal"
+  ],
+  "cena": {
+    "modelo": "diagrama",
+    "parametros": {
+      "elementos": {
+        "sistema": [
+          {
+            "t": "circ",
+            "x": 90,
+            "y": 200,
+            "r": 40,
+            "cor": "luz",
+            "borda": "tinta"
+          },
+          {
+            "t": "texto",
+            "x": 90,
+            "y": 140,
+            "txt": "Sol",
+            "negrito": true
+          },
+          {
+            "t": "circ",
+            "x": 370,
+            "y": 200,
+            "r": 20,
+            "cor": "#3a86c8",
+            "borda": "tinta"
+          },
+          {
+            "t": "texto",
+            "x": 370,
+            "y": 160,
+            "txt": "Terra",
+            "negrito": true
+          },
+          {
+            "t": "circ",
+            "x": 520,
+            "y": 200,
+            "r": 6,
+            "cor": "tinta",
+            "borda": "tinta"
+          },
+          {
+            "t": "texto",
+            "x": 520,
+            "y": 160,
+            "txt": "Webb",
+            "negrito": true
+          },
+          {
+            "t": "cota",
+            "de": [
+              90,
+              270
+            ],
+            "para": [
+              370,
+              270
+            ],
+            "cor": "normal",
+            "rot_em": [
+              230,
+              288
+            ],
+            "txt": "R_{T}"
+          },
+          {
+            "t": "cota",
+            "de": [
+              90,
+              320
+            ],
+            "para": [
+              520,
+              320
+            ],
+            "cor": "normal",
+            "rot_em": [
+              305,
+              338
+            ],
+            "txt": "R_{W}"
+          }
+        ],
+        "forcas": [
+          {
+            "t": "seta",
+            "de": [
+              370,
+              200
+            ],
+            "para": [
+              300,
+              200
+            ],
+            "cor": "peso",
+            "larg": 3
+          },
+          {
+            "t": "texto",
+            "x": 300,
+            "y": 186,
+            "txt": "F_{T} = m_{T}ω²R_{T}",
+            "negrito": true,
+            "cor": "peso",
+            "ancora": "end"
+          },
+          {
+            "t": "seta",
+            "de": [
+              520,
+              200
+            ],
+            "para": [
+              460,
+              200
+            ],
+            "cor": "atrito",
+            "larg": 3
+          },
+          {
+            "t": "texto",
+            "x": 520,
+            "y": 230,
+            "txt": "F_{W} = m_{W}ω²R_{W}",
+            "negrito": true,
+            "cor": "atrito"
+          }
+        ]
+      }
+    }
+  },
+  "passos": [
+    {
+      "titulo": "Mesmo período",
+      "conceito": "Resultante centrípeta",
+      "texto": "No ponto de Lagrange, o Webb acompanha a Terra: os dois dão uma volta no mesmo tempo, com a mesma velocidade angular ω.",
+      "cena": {
+        "mostrar": [
+          "sistema"
+        ]
+      }
+    },
+    {
+      "titulo": "As resultantes",
+      "conceito": "Lei da gravitação universal",
+      "texto": "A força gravitacional resultante sobre cada corpo é a resultante centrípeta (sobre o Webb, Sol e Terra juntos). Resposta: <b>(C)</b>.",
+      "equacoes": [
+        "\\dfrac{F_{W}}{F_{T}} = \\dfrac{m_{W}\\,\\omega^{2}R_{W}}{m_{T}\\,\\omega^{2}R_{T}} = \\dfrac{m_{W}R_{W}}{m_{T}R_{T}}"
+      ],
+      "cena": {
+        "mostrar": [
+          "forcas"
+        ],
+        "destacar": [
+          "forcas"
+        ]
+      }
+    }
+  ],
+  "status": "revisado",
+  "criadoEm": "2026-11-15T09:00:00-03:00",
+  "atualizadoEm": "2026-11-15T09:00:00-03:00"
+}

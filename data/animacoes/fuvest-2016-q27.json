@@ -1,0 +1,226 @@
+{
+  "id": "fuvest-2016-q27",
+  "titulo": "A potência em R₂",
+  "conceitos": [
+    "Associação mista de resistores",
+    "Potência elétrica"
+  ],
+  "cena": {
+    "modelo": "diagrama",
+    "parametros": {
+      "elementos": {
+        "etapa-1": [
+          {
+            "t": "ret",
+            "x": 30,
+            "y": 16,
+            "w": 480,
+            "h": 40,
+            "cor": "suave",
+            "borda": "normal",
+            "rx": 7
+          },
+          {
+            "t": "texto",
+            "x": 42,
+            "y": 36.0,
+            "txt": "ligações",
+            "mudo": true,
+            "ancora": "start"
+          },
+          {
+            "t": "texto",
+            "x": 498,
+            "y": 36.0,
+            "txt": "R₁ + R₂ em paralelo com R₃",
+            "negrito": true,
+            "ancora": "end"
+          }
+        ],
+        "etapa-2": [
+          {
+            "t": "seta",
+            "de": [
+              270.0,
+              59
+            ],
+            "para": [
+              270.0,
+              79
+            ],
+            "cor": "tinta",
+            "larg": 1.8
+          },
+          {
+            "t": "texto",
+            "x": 282.0,
+            "y": 69.0,
+            "txt": "",
+            "negrito": true,
+            "cor": "acel",
+            "ancora": "start"
+          },
+          {
+            "t": "ret",
+            "x": 30,
+            "y": 82,
+            "w": 480,
+            "h": 40,
+            "cor": "suave",
+            "borda": "normal",
+            "rx": 7
+          },
+          {
+            "t": "texto",
+            "x": 42,
+            "y": 102.0,
+            "txt": "divisão da corrente (2R ∥ R)",
+            "mudo": true,
+            "ancora": "start"
+          },
+          {
+            "t": "texto",
+            "x": 498,
+            "y": 102.0,
+            "txt": "i + 2i = 2 A ⇒ i = 2/3 A",
+            "negrito": true,
+            "ancora": "end"
+          }
+        ],
+        "etapa-3": [
+          {
+            "t": "seta",
+            "de": [
+              270.0,
+              125
+            ],
+            "para": [
+              270.0,
+              145
+            ],
+            "cor": "tinta",
+            "larg": 1.8
+          },
+          {
+            "t": "texto",
+            "x": 282.0,
+            "y": 135.0,
+            "txt": "",
+            "negrito": true,
+            "cor": "acel",
+            "ancora": "start"
+          },
+          {
+            "t": "ret",
+            "x": 30,
+            "y": 148,
+            "w": 480,
+            "h": 40,
+            "cor": "suave",
+            "borda": "normal",
+            "rx": 7
+          },
+          {
+            "t": "texto",
+            "x": 42,
+            "y": 168.0,
+            "txt": "voltímetro em R₁",
+            "mudo": true,
+            "ancora": "start"
+          },
+          {
+            "t": "texto",
+            "x": 498,
+            "y": 168.0,
+            "txt": "R · 2/3 = 6 ⇒ R = 9 Ω",
+            "negrito": true,
+            "ancora": "end"
+          }
+        ],
+        "etapa-4": [
+          {
+            "t": "seta",
+            "de": [
+              270.0,
+              191
+            ],
+            "para": [
+              270.0,
+              211
+            ],
+            "cor": "tinta",
+            "larg": 1.8
+          },
+          {
+            "t": "texto",
+            "x": 282.0,
+            "y": 201.0,
+            "txt": "",
+            "negrito": true,
+            "cor": "acel",
+            "ancora": "start"
+          },
+          {
+            "t": "ret",
+            "x": 30,
+            "y": 214,
+            "w": 480,
+            "h": 40,
+            "cor": "suave",
+            "borda": "normal",
+            "rx": 7
+          },
+          {
+            "t": "texto",
+            "x": 42,
+            "y": 234.0,
+            "txt": "potência em R₂",
+            "mudo": true,
+            "ancora": "start"
+          },
+          {
+            "t": "texto",
+            "x": 498,
+            "y": 234.0,
+            "txt": "9 · (2/3)² = 4 W",
+            "negrito": true,
+            "ancora": "end"
+          }
+        ]
+      }
+    }
+  },
+  "passos": [
+    {
+      "titulo": "O circuito",
+      "conceito": "Associação mista de resistores",
+      "texto": "O ramo R<sub>1</sub> + R<sub>2</sub> tem o dobro da resistência de R<sub>3</sub>: recebe metade da corrente dele.",
+      "cena": {
+        "mostrar": [
+          "etapa-1",
+          "etapa-2",
+          "etapa-3"
+        ]
+      }
+    },
+    {
+      "titulo": "A potência",
+      "conceito": "Potência elétrica",
+      "texto": "Resposta: <b>(a) 4 W</b>.",
+      "equacoes": [
+        "P = R\\,i^{2} = 9 \\cdot \\left(\\dfrac{2}{3}\\right)^{2} = 4\\ \\text{W}"
+      ],
+      "cena": {
+        "mostrar": [
+          "etapa-4"
+        ],
+        "destacar": [
+          "etapa-4"
+        ]
+      }
+    }
+  ],
+  "status": "revisado",
+  "criadoEm": "2026-11-15T09:00:00-03:00",
+  "atualizadoEm": "2026-11-15T09:00:00-03:00"
+}

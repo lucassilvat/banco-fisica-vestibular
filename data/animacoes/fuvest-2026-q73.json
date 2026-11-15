@@ -1,0 +1,179 @@
+{
+  "id": "fuvest-2026-q73",
+  "titulo": "Equilíbrio estável: o centro de massa precisa subir",
+  "conceitos": [
+    "Equilíbrio do corpo extenso",
+    "Energia potencial gravitacional"
+  ],
+  "cena": {
+    "modelo": "diagrama",
+    "parametros": {
+      "elementos": {
+        "instaveis": [
+          {
+            "t": "ret",
+            "x": 40,
+            "y": 30,
+            "w": 580,
+            "h": 56,
+            "cor": "papel",
+            "borda": "linha",
+            "larg": 1,
+            "rx": 6
+          },
+          {
+            "t": "texto",
+            "x": 64,
+            "y": 58.0,
+            "txt": "1",
+            "negrito": true
+          },
+          {
+            "t": "texto",
+            "x": 90,
+            "y": 58.0,
+            "txt": "côncava apoiada: ao deslizar, o centro de massa desce",
+            "ancora": "start"
+          },
+          {
+            "t": "texto",
+            "x": 596,
+            "y": 58.0,
+            "txt": "F",
+            "negrito": true,
+            "cor": "perigo"
+          },
+          {
+            "t": "ret",
+            "x": 40,
+            "y": 228,
+            "w": 580,
+            "h": 56,
+            "cor": "papel",
+            "borda": "linha",
+            "larg": 1,
+            "rx": 6
+          },
+          {
+            "t": "texto",
+            "x": 64,
+            "y": 256.0,
+            "txt": "4",
+            "negrito": true
+          },
+          {
+            "t": "texto",
+            "x": 90,
+            "y": 256.0,
+            "txt": "deslocada pelo cabo: o torque afasta mais",
+            "ancora": "start"
+          },
+          {
+            "t": "texto",
+            "x": 596,
+            "y": 256.0,
+            "txt": "F",
+            "negrito": true,
+            "cor": "perigo"
+          }
+        ],
+        "estaveis": [
+          {
+            "t": "ret",
+            "x": 40,
+            "y": 96,
+            "w": 580,
+            "h": 56,
+            "cor": "papel",
+            "borda": "normal",
+            "larg": 3,
+            "rx": 6
+          },
+          {
+            "t": "texto",
+            "x": 64,
+            "y": 124.0,
+            "txt": "2",
+            "negrito": true
+          },
+          {
+            "t": "texto",
+            "x": 90,
+            "y": 124.0,
+            "txt": "virada (lombada): ao deslizar, o centro de massa sobe",
+            "ancora": "start"
+          },
+          {
+            "t": "texto",
+            "x": 596,
+            "y": 124.0,
+            "txt": "V",
+            "negrito": true,
+            "cor": "normal"
+          },
+          {
+            "t": "ret",
+            "x": 40,
+            "y": 162,
+            "w": 580,
+            "h": 56,
+            "cor": "papel",
+            "borda": "normal",
+            "larg": 3,
+            "rx": 6
+          },
+          {
+            "t": "texto",
+            "x": 64,
+            "y": 190.0,
+            "txt": "3",
+            "negrito": true
+          },
+          {
+            "t": "texto",
+            "x": 90,
+            "y": 190.0,
+            "txt": "pendurada: centro de massa abaixo do apoio",
+            "ancora": "start"
+          },
+          {
+            "t": "texto",
+            "x": 596,
+            "y": 190.0,
+            "txt": "V",
+            "negrito": true,
+            "cor": "normal"
+          }
+        ]
+      }
+    }
+  },
+  "passos": [
+    {
+      "titulo": "O critério",
+      "conceito": "Energia potencial gravitacional",
+      "texto": "O equilíbrio é estável quando um pequeno deslocamento faz o centro de massa subir: o peso tende a trazer o corpo de volta.",
+      "cena": {
+        "mostrar": [
+          "instaveis"
+        ]
+      }
+    },
+    {
+      "titulo": "As situações estáveis",
+      "conceito": "Equilíbrio do corpo extenso",
+      "texto": "Na 2, a colher precisa subir para continuar apoiada; na 3, o centro de massa está abaixo do apoio e o peso gera torque restaurador. Resposta: <b>(E) 2 e 3</b>.",
+      "cena": {
+        "mostrar": [
+          "estaveis"
+        ],
+        "destacar": [
+          "estaveis"
+        ]
+      }
+    }
+  ],
+  "status": "revisado",
+  "criadoEm": "2026-11-15T09:00:00-03:00",
+  "atualizadoEm": "2026-11-15T09:00:00-03:00"
+}

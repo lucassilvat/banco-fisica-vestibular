@@ -1,0 +1,324 @@
+{
+  "id": "fuvest-2026-q71",
+  "titulo": "O calor para cozinhar o ovo de cada jeito",
+  "conceitos": [
+    "Calor sensível"
+  ],
+  "cena": {
+    "modelo": "diagrama",
+    "parametros": {
+      "elementos": {
+        "etapa-1": [
+          {
+            "t": "ret",
+            "x": 30,
+            "y": 16,
+            "w": 460,
+            "h": 40,
+            "cor": "suave",
+            "borda": "normal",
+            "rx": 7
+          },
+          {
+            "t": "texto",
+            "x": 42,
+            "y": 36.0,
+            "txt": "clara e gema: 25 g cada",
+            "mudo": true,
+            "ancora": "start"
+          },
+          {
+            "t": "texto",
+            "x": 478,
+            "y": 36.0,
+            "txt": "Q = mcΔθ, a partir de 20 ºC",
+            "negrito": true,
+            "ancora": "end"
+          }
+        ],
+        "etapa-2": [
+          {
+            "t": "seta",
+            "de": [
+              260.0,
+              59
+            ],
+            "para": [
+              260.0,
+              79
+            ],
+            "cor": "tinta",
+            "larg": 1.8
+          },
+          {
+            "t": "texto",
+            "x": 272.0,
+            "y": 69.0,
+            "txt": "25·3,8·80 + 25·3,1·80",
+            "negrito": true,
+            "cor": "acel",
+            "ancora": "start"
+          },
+          {
+            "t": "ret",
+            "x": 30,
+            "y": 82,
+            "w": 460,
+            "h": 40,
+            "cor": "suave",
+            "borda": "normal",
+            "rx": 7
+          },
+          {
+            "t": "texto",
+            "x": 42,
+            "y": 102.0,
+            "txt": "Q₁ (100/100 ºC)",
+            "mudo": true,
+            "ancora": "start"
+          },
+          {
+            "t": "texto",
+            "x": 478,
+            "y": 102.0,
+            "txt": "13 800 J",
+            "negrito": true,
+            "ancora": "end"
+          }
+        ],
+        "etapa-3": [
+          {
+            "t": "seta",
+            "de": [
+              260.0,
+              125
+            ],
+            "para": [
+              260.0,
+              145
+            ],
+            "cor": "tinta",
+            "larg": 1.8
+          },
+          {
+            "t": "texto",
+            "x": 272.0,
+            "y": 135.0,
+            "txt": "",
+            "negrito": true,
+            "cor": "acel",
+            "ancora": "start"
+          },
+          {
+            "t": "ret",
+            "x": 30,
+            "y": 148,
+            "w": 460,
+            "h": 40,
+            "cor": "suave",
+            "borda": "normal",
+            "rx": 7
+          },
+          {
+            "t": "texto",
+            "x": 42,
+            "y": 168.0,
+            "txt": "Q₂ (97/82 ºC)",
+            "mudo": true,
+            "ancora": "start"
+          },
+          {
+            "t": "texto",
+            "x": 478,
+            "y": 168.0,
+            "txt": "12 120 J",
+            "negrito": true,
+            "ancora": "end"
+          }
+        ],
+        "etapa-4": [
+          {
+            "t": "seta",
+            "de": [
+              260.0,
+              191
+            ],
+            "para": [
+              260.0,
+              211
+            ],
+            "cor": "tinta",
+            "larg": 1.8
+          },
+          {
+            "t": "texto",
+            "x": 272.0,
+            "y": 201.0,
+            "txt": "",
+            "negrito": true,
+            "cor": "acel",
+            "ancora": "start"
+          },
+          {
+            "t": "ret",
+            "x": 30,
+            "y": 214,
+            "w": 460,
+            "h": 40,
+            "cor": "suave",
+            "borda": "normal",
+            "rx": 7
+          },
+          {
+            "t": "texto",
+            "x": 42,
+            "y": 234.0,
+            "txt": "Q₃ (65/65 ºC)",
+            "mudo": true,
+            "ancora": "start"
+          },
+          {
+            "t": "texto",
+            "x": 478,
+            "y": 234.0,
+            "txt": "≈ 7 763 J",
+            "negrito": true,
+            "ancora": "end"
+          }
+        ],
+        "etapa-5": [
+          {
+            "t": "seta",
+            "de": [
+              260.0,
+              257
+            ],
+            "para": [
+              260.0,
+              277
+            ],
+            "cor": "tinta",
+            "larg": 1.8
+          },
+          {
+            "t": "texto",
+            "x": 272.0,
+            "y": 267.0,
+            "txt": "",
+            "negrito": true,
+            "cor": "acel",
+            "ancora": "start"
+          },
+          {
+            "t": "ret",
+            "x": 30,
+            "y": 280,
+            "w": 460,
+            "h": 40,
+            "cor": "suave",
+            "borda": "normal",
+            "rx": 7
+          },
+          {
+            "t": "texto",
+            "x": 42,
+            "y": 300.0,
+            "txt": "Q₄ (85/67 ºC)",
+            "mudo": true,
+            "ancora": "start"
+          },
+          {
+            "t": "texto",
+            "x": 478,
+            "y": 300.0,
+            "txt": "≈ 9 818 J",
+            "negrito": true,
+            "ancora": "end"
+          }
+        ],
+        "etapa-6": [
+          {
+            "t": "seta",
+            "de": [
+              260.0,
+              323
+            ],
+            "para": [
+              260.0,
+              343
+            ],
+            "cor": "tinta",
+            "larg": 1.8
+          },
+          {
+            "t": "texto",
+            "x": 272.0,
+            "y": 333.0,
+            "txt": "",
+            "negrito": true,
+            "cor": "acel",
+            "ancora": "start"
+          },
+          {
+            "t": "ret",
+            "x": 30,
+            "y": 346,
+            "w": 460,
+            "h": 40,
+            "cor": "suave",
+            "borda": "normal",
+            "rx": 7
+          },
+          {
+            "t": "texto",
+            "x": 42,
+            "y": 366.0,
+            "txt": "ordem crescente",
+            "mudo": true,
+            "ancora": "start"
+          },
+          {
+            "t": "texto",
+            "x": 478,
+            "y": 366.0,
+            "txt": "Q₃ < Q₄ < Q₂ < Q₁",
+            "negrito": true,
+            "ancora": "end"
+          }
+        ]
+      }
+    }
+  },
+  "passos": [
+    {
+      "titulo": "Calor sensível",
+      "conceito": "Calor sensível",
+      "texto": "Clara e gema têm 25 g cada. Cada uma aquece de 20 ºC até a temperatura final da figura.",
+      "cena": {
+        "mostrar": [
+          "etapa-1",
+          "etapa-2",
+          "etapa-3"
+        ]
+      }
+    },
+    {
+      "titulo": "Os quatro métodos",
+      "conceito": "Calor sensível",
+      "texto": "Resposta: <b>(B)</b>.",
+      "cena": {
+        "mostrar": [
+          "etapa-4",
+          "etapa-5",
+          "etapa-6"
+        ],
+        "destacar": [
+          "etapa-6"
+        ]
+      }
+    }
+  ],
+  "status": "revisado",
+  "criadoEm": "2026-11-15T09:00:00-03:00",
+  "atualizadoEm": "2026-11-15T09:00:00-03:00"
+}

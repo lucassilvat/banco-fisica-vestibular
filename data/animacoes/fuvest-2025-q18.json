@@ -1,0 +1,174 @@
+{
+  "id": "fuvest-2025-q18",
+  "titulo": "A força média que freou o navio",
+  "conceitos": [
+    "Impulso e quantidade de movimento"
+  ],
+  "cena": {
+    "modelo": "diagrama",
+    "parametros": {
+      "elementos": {
+        "etapa-1": [
+          {
+            "t": "ret",
+            "x": 30,
+            "y": 16,
+            "w": 460,
+            "h": 40,
+            "cor": "suave",
+            "borda": "normal",
+            "rx": 7
+          },
+          {
+            "t": "texto",
+            "x": 42,
+            "y": 36.0,
+            "txt": "variação de velocidade (gráfico, 38 s)",
+            "mudo": true,
+            "ancora": "start"
+          },
+          {
+            "t": "texto",
+            "x": 478,
+            "y": 36.0,
+            "txt": "5,32 m.p.h. ≈ 2,66 m/s",
+            "negrito": true,
+            "ancora": "end"
+          }
+        ],
+        "etapa-2": [
+          {
+            "t": "seta",
+            "de": [
+              260.0,
+              59
+            ],
+            "para": [
+              260.0,
+              79
+            ],
+            "cor": "tinta",
+            "larg": 1.8
+          },
+          {
+            "t": "texto",
+            "x": 272.0,
+            "y": 69.0,
+            "txt": "",
+            "negrito": true,
+            "cor": "acel",
+            "ancora": "start"
+          },
+          {
+            "t": "ret",
+            "x": 30,
+            "y": 82,
+            "w": 460,
+            "h": 40,
+            "cor": "suave",
+            "borda": "normal",
+            "rx": 7
+          },
+          {
+            "t": "texto",
+            "x": 42,
+            "y": 102.0,
+            "txt": "massa do navio",
+            "mudo": true,
+            "ancora": "start"
+          },
+          {
+            "t": "texto",
+            "x": 478,
+            "y": 102.0,
+            "txt": "100 mil t = 10^{8} kg",
+            "negrito": true,
+            "ancora": "end"
+          }
+        ],
+        "etapa-3": [
+          {
+            "t": "seta",
+            "de": [
+              260.0,
+              125
+            ],
+            "para": [
+              260.0,
+              145
+            ],
+            "cor": "tinta",
+            "larg": 1.8
+          },
+          {
+            "t": "texto",
+            "x": 272.0,
+            "y": 135.0,
+            "txt": "m Δv ÷ Δt",
+            "negrito": true,
+            "cor": "acel",
+            "ancora": "start"
+          },
+          {
+            "t": "ret",
+            "x": 30,
+            "y": 148,
+            "w": 460,
+            "h": 40,
+            "cor": "suave",
+            "borda": "normal",
+            "rx": 7
+          },
+          {
+            "t": "texto",
+            "x": 42,
+            "y": 168.0,
+            "txt": "força média",
+            "mudo": true,
+            "ancora": "start"
+          },
+          {
+            "t": "texto",
+            "x": 478,
+            "y": 168.0,
+            "txt": "≈ 7 × 10^{6} N",
+            "negrito": true,
+            "ancora": "end"
+          }
+        ]
+      }
+    }
+  },
+  "passos": [
+    {
+      "titulo": "Os dados",
+      "conceito": "Impulso e quantidade de movimento",
+      "texto": "No gráfico, em 38 s a velocidade cai de 7,82 para 2,5 m.p.h. A massa vai para quilogramas.",
+      "cena": {
+        "mostrar": [
+          "etapa-1",
+          "etapa-2"
+        ]
+      }
+    },
+    {
+      "titulo": "Teorema do impulso",
+      "conceito": "Impulso e quantidade de movimento",
+      "texto": "Resposta: <b>(E)</b>.",
+      "equacoes": [
+        "F = \\dfrac{m\\,\\Delta v}{\\Delta t} = \\dfrac{10^{8} \\cdot 2,66}{38} \\approx 7 \\times 10^{6}\\ \\text{N}"
+      ],
+      "cena": {
+        "mostrar": [
+          "etapa-3"
+        ],
+        "destacar": [
+          "etapa-3"
+        ]
+      }
+    }
+  ],
+  "status": "revisado",
+  "criadoEm": "2026-11-15T09:00:00-03:00",
+  "atualizadoEm": "2026-11-15T09:00:00-03:00"
+}

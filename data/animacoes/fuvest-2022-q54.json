@@ -1,0 +1,230 @@
+{
+  "id": "fuvest-2022-q54",
+  "titulo": "Dois fios, campos que se somam",
+  "conceitos": [
+    "Campo magnético de um fio retilíneo",
+    "Força magnética sobre cargas"
+  ],
+  "cena": {
+    "modelo": "diagrama",
+    "parametros": {
+      "elementos": {
+        "fios": [
+          {
+            "t": "ret",
+            "x": 120,
+            "y": 40,
+            "w": 22,
+            "h": 330,
+            "cor": "#e07b39",
+            "borda": "tinta"
+          },
+          {
+            "t": "ret",
+            "x": 500,
+            "y": 40,
+            "w": 22,
+            "h": 330,
+            "cor": "#e07b39",
+            "borda": "tinta"
+          },
+          {
+            "t": "seta",
+            "de": [
+              131,
+              260
+            ],
+            "para": [
+              131,
+              140
+            ],
+            "cor": "luz",
+            "larg": 3
+          },
+          {
+            "t": "seta",
+            "de": [
+              511,
+              140
+            ],
+            "para": [
+              511,
+              260
+            ],
+            "cor": "luz",
+            "larg": 3
+          },
+          {
+            "t": "circ",
+            "x": 400,
+            "y": 210,
+            "r": 16,
+            "cor": "papel",
+            "borda": "tinta"
+          },
+          {
+            "t": "texto",
+            "x": 400,
+            "y": 210,
+            "txt": "+Q",
+            "negrito": true
+          },
+          {
+            "t": "seta",
+            "de": [
+              400,
+              190
+            ],
+            "para": [
+              400,
+              120
+            ],
+            "cor": "tinta",
+            "larg": 2.5,
+            "rot_em": [
+              412,
+              130
+            ],
+            "ancora": "start",
+            "rotulo": "v"
+          },
+          {
+            "t": "cota",
+            "de": [
+              400,
+              300
+            ],
+            "para": [
+              511,
+              300
+            ],
+            "cor": "normal",
+            "rot_em": [
+              455,
+              316
+            ],
+            "txt": "R"
+          }
+        ],
+        "campo": [
+          {
+            "t": "circ",
+            "x": 400,
+            "y": 260,
+            "r": 14,
+            "cor": "papel",
+            "borda": "normal",
+            "larg": 2.5
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                390,
+                250
+              ],
+              [
+                410,
+                270
+              ]
+            ],
+            "cor": "normal",
+            "larg": 2.5
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                410,
+                250
+              ],
+              [
+                390,
+                270
+              ]
+            ],
+            "cor": "normal",
+            "larg": 2.5
+          },
+          {
+            "t": "texto",
+            "x": 420,
+            "y": 264,
+            "txt": "B (entrando, −x)",
+            "negrito": true,
+            "cor": "normal",
+            "ancora": "start"
+          },
+          {
+            "t": "rotulo",
+            "x": 300,
+            "y": 390,
+            "txt": "B = 2 · μ₀I/(2πR) = μ₀I/(πR)",
+            "cor": "var(--accent)"
+          }
+        ],
+        "forca": [
+          {
+            "t": "seta",
+            "de": [
+              390,
+              210
+            ],
+            "para": [
+              300,
+              210
+            ],
+            "cor": "perigo",
+            "larg": 3.5,
+            "rot_em": [
+              296,
+              196
+            ],
+            "ancora": "end",
+            "rotulo": "F"
+          },
+          {
+            "t": "texto",
+            "x": 240,
+            "y": 230,
+            "txt": "−y",
+            "negrito": true,
+            "cor": "perigo"
+          }
+        ]
+      }
+    }
+  },
+  "passos": [
+    {
+      "titulo": "O campo na carga",
+      "conceito": "Campo magnético de um fio retilíneo",
+      "texto": "Correntes opostas, carga entre os fios: pela regra da mão direita, os dois campos apontam para dentro do papel (−x) e se somam.",
+      "cena": {
+        "mostrar": [
+          "fios",
+          "campo"
+        ]
+      }
+    },
+    {
+      "titulo": "A força",
+      "conceito": "Força magnética sobre cargas",
+      "texto": "Com \\(\\vec{v}\\) para +z e \\(\\vec{B}\\) para −x, \\(\\vec{F} = Q\\vec{v} \\times \\vec{B}\\) aponta para −y. O módulo correto inclui v, que falta nas alternativas: a Fuvest anulou a questão; o sentido pretendido é o da alternativa <b>(B)</b>.",
+      "equacoes": [
+        "F = \\dfrac{Q\\,v\\,\\mu_{0} I}{\\pi R}"
+      ],
+      "cena": {
+        "mostrar": [
+          "forca"
+        ],
+        "destacar": [
+          "forca"
+        ]
+      }
+    }
+  ],
+  "status": "revisado",
+  "criadoEm": "2026-11-15T09:00:00-03:00",
+  "atualizadoEm": "2026-11-15T09:00:00-03:00"
+}

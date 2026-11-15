@@ -1,0 +1,200 @@
+{
+  "id": "fuvest-2022-q75",
+  "titulo": "O marcador radioativo denuncia o vazamento",
+  "conceitos": [
+    "Radioatividade"
+  ],
+  "cena": {
+    "modelo": "diagrama",
+    "parametros": {
+      "elementos": {
+        "solo": [
+          {
+            "t": "ret",
+            "x": 60,
+            "y": 60,
+            "w": 520,
+            "h": 150,
+            "cor": "#e8cfa4",
+            "borda": null
+          },
+          {
+            "t": "ret",
+            "x": 60,
+            "y": 120,
+            "w": 520,
+            "h": 24,
+            "cor": "#9fd2ec",
+            "borda": "tinta"
+          },
+          {
+            "t": "seta",
+            "de": [
+              80,
+              132
+            ],
+            "para": [
+              150,
+              132
+            ],
+            "cor": "normal",
+            "larg": 2.5
+          },
+          {
+            "t": "texto",
+            "x": 90,
+            "y": 112,
+            "txt": "fluxo",
+            "mudo": true,
+            "ancora": "start"
+          },
+          {
+            "t": "circ",
+            "x": 80,
+            "y": 40,
+            "r": 10,
+            "cor": "#999",
+            "borda": "tinta"
+          },
+          {
+            "t": "texto",
+            "x": 96,
+            "y": 40,
+            "txt": "detector",
+            "mudo": true,
+            "ancora": "start"
+          },
+          {
+            "t": "circ",
+            "x": 330,
+            "y": 150,
+            "r": 10,
+            "cor": "#c49a52",
+            "borda": "tinta"
+          },
+          {
+            "t": "texto",
+            "x": 345,
+            "y": 176,
+            "txt": "fissura: marcador vaza para o solo",
+            "negrito": true,
+            "cor": "perigo",
+            "ancora": "start"
+          }
+        ],
+        "grafico": [
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                80.0,
+                390.0
+              ],
+              [
+                580.0,
+                390.0
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 1.5
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                80.0,
+                390.0
+              ],
+              [
+                80.0,
+                240.0
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 1.5
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                90.0,
+                390.0
+              ],
+              [
+                100.0,
+                310.0
+              ],
+              [
+                320.0,
+                310.0
+              ],
+              [
+                345.0,
+                250.0
+              ],
+              [
+                370.0,
+                340.0
+              ],
+              [
+                580.0,
+                350.0
+              ]
+            ],
+            "cor": "#b3306b",
+            "larg": 3
+          },
+          {
+            "t": "texto",
+            "x": 205.0,
+            "y": 296.0,
+            "txt": "1",
+            "negrito": true
+          },
+          {
+            "t": "texto",
+            "x": 345.0,
+            "y": 236.0,
+            "txt": "2",
+            "negrito": true
+          },
+          {
+            "t": "texto",
+            "x": 480.0,
+            "y": 336.0,
+            "txt": "3",
+            "negrito": true
+          }
+        ]
+      }
+    }
+  },
+  "passos": [
+    {
+      "titulo": "O perfil",
+      "conceito": "Radioatividade",
+      "texto": "No trecho 1, a radioatividade é constante: o marcador é levado pela água. No 2 há um pico; no 3, a radioatividade cai.",
+      "cena": {
+        "mostrar": [
+          "grafico"
+        ]
+      }
+    },
+    {
+      "titulo": "A explicação",
+      "conceito": "Radioatividade",
+      "texto": "Uma fissura deixa a água com marcador sair e se acumular no solo, entre o cano e o detector; menos marcador segue adiante. Se o cano estivesse entupido, nada chegaria ao trecho 3. Resposta: <b>(B)</b>.",
+      "cena": {
+        "mostrar": [
+          "solo"
+        ],
+        "destacar": [
+          "solo"
+        ]
+      }
+    }
+  ],
+  "status": "revisado",
+  "criadoEm": "2026-11-15T09:00:00-03:00",
+  "atualizadoEm": "2026-11-15T09:00:00-03:00"
+}

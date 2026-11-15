@@ -1,0 +1,304 @@
+{
+  "id": "fuvest-2021-q54",
+  "titulo": "Trabalhos ao erguer a esfera no campo",
+  "conceitos": [
+    "Trabalho de uma força",
+    "Força elétrica"
+  ],
+  "cena": {
+    "modelo": "diagrama",
+    "parametros": {
+      "elementos": {
+        "placas": [
+          {
+            "t": "ret",
+            "x": 100,
+            "y": 60,
+            "w": 24,
+            "h": 300,
+            "cor": "papel",
+            "borda": "tinta"
+          },
+          {
+            "t": "ret",
+            "x": 520,
+            "y": 60,
+            "w": 24,
+            "h": 300,
+            "cor": "papel",
+            "borda": "tinta"
+          },
+          {
+            "t": "seta",
+            "de": [
+              128,
+              80
+            ],
+            "para": [
+              516,
+              80
+            ],
+            "cor": "#bbb",
+            "larg": 1.5
+          },
+          {
+            "t": "seta",
+            "de": [
+              128,
+              110
+            ],
+            "para": [
+              516,
+              110
+            ],
+            "cor": "#bbb",
+            "larg": 1.5
+          },
+          {
+            "t": "seta",
+            "de": [
+              128,
+              140
+            ],
+            "para": [
+              516,
+              140
+            ],
+            "cor": "#bbb",
+            "larg": 1.5
+          },
+          {
+            "t": "seta",
+            "de": [
+              128,
+              170
+            ],
+            "para": [
+              516,
+              170
+            ],
+            "cor": "#bbb",
+            "larg": 1.5
+          },
+          {
+            "t": "seta",
+            "de": [
+              128,
+              200
+            ],
+            "para": [
+              516,
+              200
+            ],
+            "cor": "#bbb",
+            "larg": 1.5
+          },
+          {
+            "t": "seta",
+            "de": [
+              128,
+              230
+            ],
+            "para": [
+              516,
+              230
+            ],
+            "cor": "#bbb",
+            "larg": 1.5
+          },
+          {
+            "t": "seta",
+            "de": [
+              128,
+              260
+            ],
+            "para": [
+              516,
+              260
+            ],
+            "cor": "#bbb",
+            "larg": 1.5
+          },
+          {
+            "t": "seta",
+            "de": [
+              128,
+              290
+            ],
+            "para": [
+              516,
+              290
+            ],
+            "cor": "#bbb",
+            "larg": 1.5
+          },
+          {
+            "t": "seta",
+            "de": [
+              128,
+              320
+            ],
+            "para": [
+              516,
+              320
+            ],
+            "cor": "#bbb",
+            "larg": 1.5
+          },
+          {
+            "t": "seta",
+            "de": [
+              128,
+              350
+            ],
+            "para": [
+              516,
+              350
+            ],
+            "cor": "#bbb",
+            "larg": 1.5
+          },
+          {
+            "t": "texto",
+            "x": 320,
+            "y": 50,
+            "txt": "E (horizontal)",
+            "negrito": true,
+            "mudo": true
+          }
+        ],
+        "esfera": [
+          {
+            "t": "circ",
+            "x": 320,
+            "y": 300,
+            "r": 18,
+            "cor": "perigo",
+            "borda": "tinta"
+          },
+          {
+            "t": "texto",
+            "x": 320,
+            "y": 300,
+            "txt": "+q",
+            "negrito": true
+          },
+          {
+            "t": "seta",
+            "de": [
+              320,
+              280
+            ],
+            "para": [
+              320,
+              140
+            ],
+            "cor": "acel",
+            "larg": 2.5,
+            "tracejado": true
+          },
+          {
+            "t": "texto",
+            "x": 330,
+            "y": 210,
+            "txt": "sobe h",
+            "negrito": true,
+            "cor": "acel",
+            "ancora": "start"
+          }
+        ],
+        "forcas": [
+          {
+            "t": "seta",
+            "de": [
+              300,
+              300
+            ],
+            "para": [
+              300,
+              370
+            ],
+            "cor": "peso",
+            "larg": 3,
+            "rot_em": [
+              288,
+              362
+            ],
+            "ancora": "end",
+            "rotulo": "P"
+          },
+          {
+            "t": "seta",
+            "de": [
+              340,
+              300
+            ],
+            "para": [
+              420,
+              300
+            ],
+            "cor": "atrito",
+            "larg": 3,
+            "rot_em": [
+              426,
+              290
+            ],
+            "ancora": "start",
+            "rotulo": "F",
+            "sub": "e"
+          }
+        ],
+        "trabalhos": [
+          {
+            "t": "rotulo",
+            "x": 160,
+            "y": 400,
+            "txt": "peso: −mgh",
+            "cor": "var(--danger)"
+          },
+          {
+            "t": "rotulo",
+            "x": 480,
+            "y": 400,
+            "txt": "elétrica: 0 (90º)",
+            "cor": "var(--accent)"
+          }
+        ]
+      },
+      "altura": 440
+    }
+  },
+  "passos": [
+    {
+      "titulo": "As forças e o deslocamento",
+      "conceito": "Trabalho de uma força",
+      "texto": "A esfera sobe na vertical. O peso \\(\\vec{P}\\) aponta para baixo; a força elétrica \\(\\vec{F}_{e}\\), na direção horizontal do campo.",
+      "equacoes": [
+        "W = F\\,d\\cos\\alpha"
+      ],
+      "cena": {
+        "mostrar": [
+          "placas",
+          "esfera",
+          "forcas"
+        ]
+      }
+    },
+    {
+      "titulo": "Os trabalhos",
+      "conceito": "Força elétrica",
+      "texto": "Peso oposto ao deslocamento (α = 180º): −mgh. Força elétrica perpendicular (α = 90º): zero. Resposta: <b>(B)</b>.",
+      "cena": {
+        "mostrar": [
+          "trabalhos"
+        ],
+        "destacar": [
+          "trabalhos"
+        ]
+      }
+    }
+  ],
+  "status": "revisado",
+  "criadoEm": "2026-11-15T09:00:00-03:00",
+  "atualizadoEm": "2026-11-15T09:00:00-03:00"
+}

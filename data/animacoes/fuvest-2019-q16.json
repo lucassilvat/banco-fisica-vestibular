@@ -1,0 +1,320 @@
+{
+  "id": "fuvest-2019-q16",
+  "titulo": "Duas pistas, mesmas energias, tempos diferentes",
+  "conceitos": [
+    "Conservação da energia mecânica",
+    "Trabalho do peso"
+  ],
+  "cena": {
+    "modelo": "diagrama",
+    "parametros": {
+      "elementos": {
+        "pistas": [
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                20,
+                80
+              ],
+              [
+                40,
+                80
+              ],
+              [
+                60,
+                150
+              ],
+              [
+                220,
+                150
+              ],
+              [
+                240,
+                110
+              ],
+              [
+                320,
+                110
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 2.5
+          },
+          {
+            "t": "texto",
+            "x": 130,
+            "y": 50,
+            "txt": "(A)",
+            "negrito": true
+          },
+          {
+            "t": "texto",
+            "x": 140,
+            "y": 170,
+            "txt": "x₁ (embaixo, rápido)",
+            "mudo": true
+          },
+          {
+            "t": "texto",
+            "x": 250,
+            "y": 96,
+            "txt": "x₂",
+            "mudo": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                340,
+                80
+              ],
+              [
+                360,
+                80
+              ],
+              [
+                380,
+                150
+              ],
+              [
+                460,
+                150
+              ],
+              [
+                480,
+                110
+              ],
+              [
+                640,
+                110
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 2.5
+          },
+          {
+            "t": "texto",
+            "x": 450,
+            "y": 50,
+            "txt": "(B)",
+            "negrito": true
+          },
+          {
+            "t": "texto",
+            "x": 420,
+            "y": 170,
+            "txt": "x₂",
+            "mudo": true
+          },
+          {
+            "t": "texto",
+            "x": 560,
+            "y": 96,
+            "txt": "x₁ (em cima, lento)",
+            "mudo": true
+          }
+        ],
+        "falsas": [
+          {
+            "t": "ret",
+            "x": 40,
+            "y": 200,
+            "w": 580,
+            "h": 36,
+            "cor": "papel",
+            "borda": "linha",
+            "larg": 1,
+            "rx": 6
+          },
+          {
+            "t": "texto",
+            "x": 64,
+            "y": 218.0,
+            "txt": "I",
+            "negrito": true
+          },
+          {
+            "t": "texto",
+            "x": 90,
+            "y": 218.0,
+            "txt": "energias cinéticas finais diferentes? Não",
+            "ancora": "start"
+          },
+          {
+            "t": "texto",
+            "x": 596,
+            "y": 218.0,
+            "txt": "F",
+            "negrito": true,
+            "cor": "perigo"
+          },
+          {
+            "t": "ret",
+            "x": 40,
+            "y": 284,
+            "w": 580,
+            "h": 36,
+            "cor": "papel",
+            "borda": "linha",
+            "larg": 1,
+            "rx": 6
+          },
+          {
+            "t": "texto",
+            "x": 64,
+            "y": 302.0,
+            "txt": "III",
+            "negrito": true
+          },
+          {
+            "t": "texto",
+            "x": 90,
+            "y": 302.0,
+            "txt": "tempo independe da trajetória? Não",
+            "ancora": "start"
+          },
+          {
+            "t": "texto",
+            "x": 596,
+            "y": 302.0,
+            "txt": "F",
+            "negrito": true,
+            "cor": "perigo"
+          },
+          {
+            "t": "ret",
+            "x": 40,
+            "y": 326,
+            "w": 580,
+            "h": 36,
+            "cor": "papel",
+            "borda": "linha",
+            "larg": 1,
+            "rx": 6
+          },
+          {
+            "t": "texto",
+            "x": 64,
+            "y": 344.0,
+            "txt": "IV",
+            "negrito": true
+          },
+          {
+            "t": "texto",
+            "x": 90,
+            "y": 344.0,
+            "txt": "(B) chega primeiro? Não: (A)",
+            "ancora": "start"
+          },
+          {
+            "t": "texto",
+            "x": 596,
+            "y": 344.0,
+            "txt": "F",
+            "negrito": true,
+            "cor": "perigo"
+          }
+        ],
+        "verdadeiras": [
+          {
+            "t": "ret",
+            "x": 40,
+            "y": 242,
+            "w": 580,
+            "h": 36,
+            "cor": "papel",
+            "borda": "normal",
+            "larg": 3,
+            "rx": 6
+          },
+          {
+            "t": "texto",
+            "x": 64,
+            "y": 260.0,
+            "txt": "II",
+            "negrito": true
+          },
+          {
+            "t": "texto",
+            "x": 90,
+            "y": 260.0,
+            "txt": "mesma energia mecânica antes da rampa",
+            "ancora": "start"
+          },
+          {
+            "t": "texto",
+            "x": 596,
+            "y": 260.0,
+            "txt": "V",
+            "negrito": true,
+            "cor": "normal"
+          },
+          {
+            "t": "ret",
+            "x": 40,
+            "y": 368,
+            "w": 580,
+            "h": 36,
+            "cor": "papel",
+            "borda": "normal",
+            "larg": 3,
+            "rx": 6
+          },
+          {
+            "t": "texto",
+            "x": 64,
+            "y": 386.0,
+            "txt": "V",
+            "negrito": true
+          },
+          {
+            "t": "texto",
+            "x": 90,
+            "y": 386.0,
+            "txt": "trabalho do peso igual: mg(h₁ − h₂)",
+            "ancora": "start"
+          },
+          {
+            "t": "texto",
+            "x": 596,
+            "y": 386.0,
+            "txt": "V",
+            "negrito": true,
+            "cor": "normal"
+          }
+        ]
+      },
+      "altura": 440
+    }
+  },
+  "passos": [
+    {
+      "titulo": "Mesmas energias",
+      "conceito": "Conservação da energia mecânica",
+      "texto": "Sem atrito, os corpos partem do repouso da mesma altura e terminam no mesmo patamar: mesma energia mecânica e mesma energia cinética final. O trabalho do peso só depende do desnível.",
+      "cena": {
+        "mostrar": [
+          "pistas",
+          "verdadeiras"
+        ]
+      }
+    },
+    {
+      "titulo": "Tempos diferentes",
+      "conceito": "Trabalho do peso",
+      "texto": "Em (A), o trecho longo é percorrido embaixo, mais rápido; em (B), em cima, mais devagar: (A) chega antes. Resposta: <b>(B) II e V</b>.",
+      "cena": {
+        "mostrar": [
+          "falsas"
+        ],
+        "destacar": [
+          "verdadeiras"
+        ]
+      }
+    }
+  ],
+  "status": "revisado",
+  "criadoEm": "2026-11-15T09:00:00-03:00",
+  "atualizadoEm": "2026-11-15T09:00:00-03:00"
+}

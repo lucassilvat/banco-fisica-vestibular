@@ -1,0 +1,211 @@
+{
+  "id": "fuvest-2027-q54",
+  "titulo": "Duas medidas que não cabem na mesma incerteza",
+  "conceitos": [
+    "Medidas e incertezas"
+  ],
+  "cena": {
+    "modelo": "diagrama",
+    "parametros": {
+      "elementos": {
+        "falsas": [
+          {
+            "t": "ret",
+            "x": 40,
+            "y": 30,
+            "w": 580,
+            "h": 56,
+            "cor": "papel",
+            "borda": "linha",
+            "larg": 1,
+            "rx": 6
+          },
+          {
+            "t": "texto",
+            "x": 64,
+            "y": 58.0,
+            "txt": "A",
+            "negrito": true
+          },
+          {
+            "t": "texto",
+            "x": 90,
+            "y": 58.0,
+            "txt": "diferença pequena, use a média? Não",
+            "ancora": "start"
+          },
+          {
+            "t": "texto",
+            "x": 596,
+            "y": 58.0,
+            "txt": "F",
+            "negrito": true,
+            "cor": "perigo"
+          },
+          {
+            "t": "ret",
+            "x": 40,
+            "y": 96,
+            "w": 580,
+            "h": 56,
+            "cor": "papel",
+            "borda": "linha",
+            "larg": 1,
+            "rx": 6
+          },
+          {
+            "t": "texto",
+            "x": 64,
+            "y": 124.0,
+            "txt": "B",
+            "negrito": true
+          },
+          {
+            "t": "texto",
+            "x": 90,
+            "y": 124.0,
+            "txt": "só o cálculo é correto? Não",
+            "ancora": "start"
+          },
+          {
+            "t": "texto",
+            "x": 596,
+            "y": 124.0,
+            "txt": "F",
+            "negrito": true,
+            "cor": "perigo"
+          },
+          {
+            "t": "ret",
+            "x": 40,
+            "y": 228,
+            "w": 580,
+            "h": 56,
+            "cor": "papel",
+            "borda": "linha",
+            "larg": 1,
+            "rx": 6
+          },
+          {
+            "t": "texto",
+            "x": 64,
+            "y": 256.0,
+            "txt": "D",
+            "negrito": true
+          },
+          {
+            "t": "texto",
+            "x": 90,
+            "y": 256.0,
+            "txt": "diferença é sempre falha humana? Não",
+            "ancora": "start"
+          },
+          {
+            "t": "texto",
+            "x": 596,
+            "y": 256.0,
+            "txt": "F",
+            "negrito": true,
+            "cor": "perigo"
+          },
+          {
+            "t": "ret",
+            "x": 40,
+            "y": 294,
+            "w": 580,
+            "h": 56,
+            "cor": "papel",
+            "borda": "linha",
+            "larg": 1,
+            "rx": 6
+          },
+          {
+            "t": "texto",
+            "x": 64,
+            "y": 322.0,
+            "txt": "E",
+            "negrito": true
+          },
+          {
+            "t": "texto",
+            "x": 90,
+            "y": 322.0,
+            "txt": "observação sem relevância? Não",
+            "ancora": "start"
+          },
+          {
+            "t": "texto",
+            "x": 596,
+            "y": 322.0,
+            "txt": "F",
+            "negrito": true,
+            "cor": "perigo"
+          }
+        ],
+        "verdadeiras": [
+          {
+            "t": "ret",
+            "x": 40,
+            "y": 162,
+            "w": 580,
+            "h": 56,
+            "cor": "papel",
+            "borda": "normal",
+            "larg": 3,
+            "rx": 6
+          },
+          {
+            "t": "texto",
+            "x": 64,
+            "y": 190.0,
+            "txt": "C",
+            "negrito": true
+          },
+          {
+            "t": "texto",
+            "x": 90,
+            "y": 190.0,
+            "txt": "discrepância real pode indicar nova física",
+            "ancora": "start"
+          },
+          {
+            "t": "texto",
+            "x": 596,
+            "y": 190.0,
+            "txt": "V",
+            "negrito": true,
+            "cor": "normal"
+          }
+        ]
+      }
+    }
+  },
+  "passos": [
+    {
+      "titulo": "O que está errado",
+      "conceito": "Medidas e incertezas",
+      "texto": "Os intervalos não se sobrepõem: 67,4 ± 0,5 vai até 67,9 e 73,0 ± 1,7 começa em 71,3. A diferença é maior que as incertezas: não se resolve com uma média. Teoria e observação são ambas parte do método científico.",
+      "cena": {
+        "mostrar": [
+          "falsas"
+        ]
+      }
+    },
+    {
+      "titulo": "A correta",
+      "conceito": "Medidas e incertezas",
+      "texto": "Uma discrepância robusta entre previsão e medida indica que um modelo pode estar incompleto. Resposta: <b>(C)</b>.",
+      "cena": {
+        "mostrar": [
+          "verdadeiras"
+        ],
+        "destacar": [
+          "verdadeiras"
+        ]
+      }
+    }
+  ],
+  "status": "revisado",
+  "criadoEm": "2026-11-15T09:00:00-03:00",
+  "atualizadoEm": "2026-11-15T09:00:00-03:00"
+}

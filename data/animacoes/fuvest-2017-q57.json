@@ -1,0 +1,158 @@
+{
+  "id": "fuvest-2017-q57",
+  "titulo": "O parafuso visto de dentro do elevador",
+  "conceitos": [
+    "Referenciais inerciais",
+    "Queda livre"
+  ],
+  "cena": {
+    "modelo": "diagrama",
+    "parametros": {
+      "elementos": {
+        "eixos": [
+          {
+            "t": "seta",
+            "de": [
+              100,
+              320.0
+            ],
+            "para": [
+              572,
+              320.0
+            ],
+            "cor": "tinta",
+            "larg": 1.6
+          },
+          {
+            "t": "seta",
+            "de": [
+              100.0,
+              320
+            ],
+            "para": [
+              100.0,
+              28
+            ],
+            "cor": "tinta",
+            "larg": 1.6
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                284.0,
+                316.0
+              ],
+              [
+                284.0,
+                324.0
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 1.5
+          },
+          {
+            "t": "texto",
+            "x": 284.0,
+            "y": 336.0,
+            "txt": "t₀",
+            "mudo": true
+          },
+          {
+            "t": "texto",
+            "x": 560.0,
+            "y": 350.0,
+            "txt": "t",
+            "mudo": true,
+            "ancora": "end"
+          },
+          {
+            "t": "texto",
+            "x": 108.0,
+            "y": 28.0,
+            "txt": "v (em relação ao chão do elevador)",
+            "mudo": true,
+            "ancora": "start"
+          }
+        ],
+        "antes": [
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                100.0,
+                320.0
+              ],
+              [
+                284.0,
+                320.0
+              ]
+            ],
+            "cor": "normal",
+            "larg": 4
+          },
+          {
+            "t": "rotulo",
+            "x": 192.0,
+            "y": 290.0,
+            "txt": "preso: v = 0",
+            "cor": "var(--accent)"
+          }
+        ],
+        "depois": [
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                284.0,
+                320.0
+              ],
+              [
+                514.0,
+                96.0
+              ]
+            ],
+            "cor": "perigo",
+            "larg": 4
+          },
+          {
+            "t": "rotulo",
+            "x": 440.4,
+            "y": 208.0,
+            "txt": "queda livre: v = g(t − t₀)",
+            "cor": "var(--danger)"
+          }
+        ]
+      }
+    }
+  },
+  "passos": [
+    {
+      "titulo": "Um referencial inercial",
+      "conceito": "Referenciais inerciais",
+      "texto": "O elevador sobe com velocidade constante: dentro dele vale a física de sempre. Preso ao teto, o parafuso tem velocidade zero em relação ao elevador.",
+      "cena": {
+        "mostrar": [
+          "eixos",
+          "antes"
+        ]
+      }
+    },
+    {
+      "titulo": "Depois de soltar",
+      "conceito": "Queda livre",
+      "texto": "Em relação ao elevador, o parafuso parte do repouso e cai com aceleração g: uma reta crescente a partir de zero. Resposta: <b>(e)</b>.",
+      "cena": {
+        "mostrar": [
+          "depois"
+        ],
+        "destacar": [
+          "depois"
+        ]
+      }
+    }
+  ],
+  "status": "revisado",
+  "criadoEm": "2026-11-15T09:00:00-03:00",
+  "atualizadoEm": "2026-11-15T09:00:00-03:00"
+}

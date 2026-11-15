@@ -1,0 +1,174 @@
+{
+  "id": "fuvest-2020-q72",
+  "titulo": "A velocidade do pulso nervoso",
+  "conceitos": [
+    "Velocidade escalar média"
+  ],
+  "cena": {
+    "modelo": "diagrama",
+    "parametros": {
+      "elementos": {
+        "etapa-1": [
+          {
+            "t": "ret",
+            "x": 30,
+            "y": 16,
+            "w": 460,
+            "h": 40,
+            "cor": "suave",
+            "borda": "normal",
+            "rx": 7
+          },
+          {
+            "t": "texto",
+            "x": 42,
+            "y": 36.0,
+            "txt": "pé ao cérebro: 1,70 m em 30 ms",
+            "mudo": true,
+            "ancora": "start"
+          },
+          {
+            "t": "texto",
+            "x": 478,
+            "y": 36.0,
+            "txt": "≈ 57 m/s",
+            "negrito": true,
+            "ancora": "end"
+          }
+        ],
+        "etapa-2": [
+          {
+            "t": "seta",
+            "de": [
+              260.0,
+              59
+            ],
+            "para": [
+              260.0,
+              79
+            ],
+            "cor": "tinta",
+            "larg": 1.8
+          },
+          {
+            "t": "texto",
+            "x": 272.0,
+            "y": 69.0,
+            "txt": "",
+            "negrito": true,
+            "cor": "acel",
+            "ancora": "start"
+          },
+          {
+            "t": "ret",
+            "x": 30,
+            "y": 82,
+            "w": 460,
+            "h": 40,
+            "cor": "suave",
+            "borda": "normal",
+            "rx": 7
+          },
+          {
+            "t": "texto",
+            "x": 42,
+            "y": 102.0,
+            "txt": "membros inferiores",
+            "mudo": true,
+            "ancora": "start"
+          },
+          {
+            "t": "texto",
+            "x": 478,
+            "y": 102.0,
+            "txt": "0,6 · 1,70 = 1,02 m em 20 ms",
+            "negrito": true,
+            "ancora": "end"
+          }
+        ],
+        "etapa-3": [
+          {
+            "t": "seta",
+            "de": [
+              260.0,
+              125
+            ],
+            "para": [
+              260.0,
+              145
+            ],
+            "cor": "tinta",
+            "larg": 1.8
+          },
+          {
+            "t": "texto",
+            "x": 272.0,
+            "y": 135.0,
+            "txt": "",
+            "negrito": true,
+            "cor": "acel",
+            "ancora": "start"
+          },
+          {
+            "t": "ret",
+            "x": 30,
+            "y": 148,
+            "w": 460,
+            "h": 40,
+            "cor": "suave",
+            "borda": "normal",
+            "rx": 7
+          },
+          {
+            "t": "texto",
+            "x": 42,
+            "y": 168.0,
+            "txt": "tronco ao cérebro: 0,68 m em 10 ms",
+            "mudo": true,
+            "ancora": "start"
+          },
+          {
+            "t": "texto",
+            "x": 478,
+            "y": 168.0,
+            "txt": "68 m/s",
+            "negrito": true,
+            "ancora": "end"
+          }
+        ]
+      }
+    }
+  },
+  "passos": [
+    {
+      "titulo": "Do pé ao cérebro",
+      "conceito": "Velocidade escalar média",
+      "texto": "O pulso percorre toda a altura em 30 ms.",
+      "equacoes": [
+        "v = \\dfrac{1,70}{0,030} \\approx 57\\ \\text{m/s}"
+      ],
+      "cena": {
+        "mostrar": [
+          "etapa-1"
+        ]
+      }
+    },
+    {
+      "titulo": "Da base do tronco ao cérebro",
+      "conceito": "Velocidade escalar média",
+      "texto": "Sobram 1,70 − 1,02 = 0,68 m em 30 − 20 = 10 ms. Resposta: <b>(D) 57 m/s e 68 m/s</b>.",
+      "cena": {
+        "mostrar": [
+          "etapa-2",
+          "etapa-3"
+        ],
+        "destacar": [
+          "etapa-3"
+        ]
+      }
+    }
+  ],
+  "status": "revisado",
+  "criadoEm": "2026-11-15T09:00:00-03:00",
+  "atualizadoEm": "2026-11-15T09:00:00-03:00"
+}
