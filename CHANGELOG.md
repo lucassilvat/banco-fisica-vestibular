@@ -23,7 +23,8 @@ de modelo de dados; CORREÇÃO, em correções de questões já publicadas.
 - Regra nova do Lucas: resolução aprovada não se altera direto; a mudança é sugerida e, se feita,
   volta à revisão (`CLAUDE.md`, `docs/ANIMACOES.md`).
 - Lançamento oblíquo (modelo do app): o rótulo da velocidade em B não encosta mais no ponto B.
-- Todas aguardam a revisão do Lucas no app; o site público não muda até ele aprovar.
+- Revisões importadas: as 10 da Unesp 2025 foram **aprovadas** pelo Lucas; com a Unesp 2026, o
+  site público passa a ter 17 resoluções animadas.
 
 ## v2.15.0 — 2026-11-15
 

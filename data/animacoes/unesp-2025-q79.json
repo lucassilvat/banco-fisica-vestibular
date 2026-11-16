@@ -121,5 +121,10 @@
   ],
   "status": "revisado",
   "criadoEm": "2026-11-15T09:00:00-03:00",
-  "atualizadoEm": "2026-11-15T09:00:00-03:00"
+  "atualizadoEm": "2026-11-15T09:00:00-03:00",
+  "revisao": {
+    "estado": "aprovada",
+    "comentario": "Os traços de cancelamento do 6 com o 2 estão posicionados errado.",
+    "atualizadoEm": "2026-11-15T23:16:05.632Z"
+  }
 }
