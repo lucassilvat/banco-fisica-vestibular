@@ -1,9 +1,9 @@
 {
   "id": "unesp-2025-q48",
-  "titulo": "Qual rota é mais rápida, e por quê?",
+  "formato": "aula",
+  "titulo": "Velocidade média de cada rota",
   "conceitos": [
-    "Velocidade escalar média",
-    "Modais de transporte"
+    "Velocidade escalar média"
   ],
   "cena": {
     "modelo": "rotas-velocidade-media",
@@ -42,62 +42,134 @@
       ]
     }
   },
-  "passos": [
+  "metodos": [
     {
-      "titulo": "As duas rotas",
-      "conceito": "Velocidade escalar média",
-      "texto": "Cada rota tem dois trechos, com distâncias e velocidades médias diferentes. As duas somam 1 500 km.",
-      "cena": {
-        "mostrar": [
-          "rotas"
-        ]
-      }
-    },
-    {
-      "titulo": "O tempo de cada trecho",
-      "conceito": "Velocidade escalar média",
-      "texto": "Em cada trecho, o tempo é a distância dividida pela velocidade.",
-      "equacoes": [
-        "\\Delta t = \\dfrac{\\Delta S}{v}"
-      ],
-      "cena": {
-        "mostrar": [
-          "tempos"
-        ],
-        "destacar": [
-          "tempos"
-        ]
-      }
-    },
-    {
-      "titulo": "A velocidade média de cada rota",
-      "conceito": "Velocidade escalar média",
-      "texto": "A velocidade média é a distância total dividida pelo tempo total, e não a média nem a soma das velocidades dos trechos. Por isso 54 km/h, 67,5 km/h e 65 km/h estão errados.",
-      "equacoes": [
-        "v_{\\text{m1}} = \\dfrac{1\\,500}{5 + 20} = 60\\ \\text{km/h}",
-        "v_{\\text{m2}} = \\dfrac{1\\,500}{25 + 5} = 50\\ \\text{km/h}"
-      ],
-      "cena": {
-        "mostrar": [
-          "totais",
-          "veiculos"
-        ],
-        "destacar": [
-          "totais"
-        ],
-        "estado": {
-          "percorrer": true
+      "nome": "Tempo total de cada rota",
+      "telas": [
+        {
+          "titulo": "O que calcular",
+          "cena": {
+            "mostrar": [
+              "rotas"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "A velocidade média de um trajeto é a <b>distância total</b> dividida pelo <b>tempo total</b>:"
+            },
+            {
+              "t": "eq",
+              "tex": "v_{m} = \\dfrac{\\Delta S_{\\text{total}}}{\\Delta t_{\\text{total}}}"
+            },
+            {
+              "t": "texto",
+              "html": "Ela <b>não</b> é a média das velocidades dos trechos. Então, primeiro, o tempo de cada trecho."
+            }
+          ]
+        },
+        {
+          "titulo": "Opção 1",
+          "cena": {
+            "mostrar": [
+              "rotas",
+              "tempos"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "<b>Opção 1</b>: ferrovia e rodovia."
+            },
+            {
+              "t": "eq",
+              "tex": "\\Delta t_{\\text{ferro}} = \\dfrac{400}{80} = 5\\ \\text{h}"
+            },
+            {
+              "t": "eq",
+              "tex": "\\Delta t_{\\text{rodo}} = \\dfrac{1\\,100}{55} = 20\\ \\text{h}"
+            },
+            {
+              "t": "eq",
+              "tex": "v_{m} = \\dfrac{400 + 1\\,100}{5 + 20} = \\dfrac{1\\,500}{25}"
+            },
+            {
+              "t": "eq",
+              "tex": "v_{m} = 60\\ \\text{km/h}"
+            }
+          ]
+        },
+        {
+          "titulo": "Opção 2",
+          "cena": {
+            "mostrar": [
+              "rotas",
+              "tempos"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "<b>Opção 2</b>: hidrovia e rodovia."
+            },
+            {
+              "t": "eq",
+              "tex": "\\Delta t_{\\text{hidro}} = \\dfrac{1\\,200}{48} = 25\\ \\text{h}"
+            },
+            {
+              "t": "eq",
+              "tex": "\\Delta t_{\\text{rodo}} = \\dfrac{300}{60} = 5\\ \\text{h}"
+            },
+            {
+              "t": "eq",
+              "tex": "v_{m} = \\dfrac{1\\,200 + 300}{25 + 5} = \\dfrac{1\\,500}{30}"
+            },
+            {
+              "t": "eq",
+              "tex": "v_{m} = 50\\ \\text{km/h}"
+            }
+          ]
+        },
+        {
+          "titulo": "Qual rota indicar",
+          "cena": {
+            "mostrar": [
+              "rotas",
+              "tempos",
+              "totais",
+              "veiculos"
+            ],
+            "estado": {
+              "percorrer": true
+            }
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "Os valores 54 km/h e 67,5 km/h das alternativas A e B são <b>médias simples</b> das velocidades dos trechos: não valem."
+            },
+            {
+              "t": "texto",
+              "html": "A opção 2 tem velocidade média de <b>50 km/h</b> e predomínio da <b>hidrovia</b>: modal lento e de alta eficiência energética, adequado a produtos de baixo valor agregado e sem urgência."
+            },
+            {
+              "t": "gabarito",
+              "letra": "C"
+            },
+            {
+              "t": "fim"
+            }
+          ]
         }
-      }
-    },
-    {
-      "titulo": "Qual rota indicar",
-      "conceito": "Modais de transporte",
-      "texto": "A opção 2 é mais lenta (50 km/h) e predominantemente hidroviária, um modal de baixo custo energético: serve para produtos de baixo valor agregado e sem urgência. Resposta: <b>(C)</b>.",
-      "cena": {}
+      ]
     }
   ],
   "status": "revisado",
-  "criadoEm": "2026-11-14T23:00:00-03:00",
-  "atualizadoEm": "2026-11-14T23:00:00-03:00"
+  "criadoEm": "2026-11-15T09:00:00-03:00",
+  "atualizadoEm": "2026-11-15T09:00:00-03:00",
+  "revisao": {
+    "estado": "aprovada",
+    "comentario": "",
+    "atualizadoEm": "2026-11-15T21:25:55.663Z"
+  }
 }

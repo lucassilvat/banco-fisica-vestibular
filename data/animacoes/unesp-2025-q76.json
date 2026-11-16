@@ -1,9 +1,10 @@
 {
   "id": "unesp-2025-q76",
-  "titulo": "Engrenagem grande, giro rápido no cesto",
+  "formato": "aula",
+  "titulo": "Da manivela ao cesto",
   "conceitos": [
-    "Transmissão por engrenagens",
-    "Frequência de rotação"
+    "Transmissão de movimento circular",
+    "Frequência"
   ],
   "cena": {
     "modelo": "engrenagens-internas",
@@ -11,61 +12,138 @@
       "razao": 3
     }
   },
-  "passos": [
+  "metodos": [
     {
-      "titulo": "O mecanismo",
-      "conceito": "Transmissão por engrenagens",
-      "texto": "A manivela M gira a engrenagem A, com dentes do lado de dentro. A engrenagem B, menor, encaixa nos dentes de A.",
-      "equacoes": [
-        "f_{\\text{A}} = 2,4\\ \\text{Hz}"
-      ],
-      "cena": {
-        "mostrar": [
-          "engrenagem-a",
-          "engrenagem-b",
-          "manivela"
-        ],
-        "estado": {
-          "girar": true
+      "nome": "Engrenagens acopladas",
+      "telas": [
+        {
+          "titulo": "O mecanismo",
+          "cena": {
+            "mostrar": [
+              "engrenagem-a",
+              "engrenagem-b",
+              "manivela"
+            ],
+            "estado": {
+              "girar": true
+            }
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "A manivela M gira presa à engrenagem A:"
+            },
+            {
+              "t": "eq",
+              "tex": "f_{A} = 2,4\\ \\text{Hz}"
+            },
+            {
+              "t": "texto",
+              "html": "A e B estão <b>engrenadas</b>: os pontos em contato têm a <b>mesma velocidade linear</b>."
+            }
+          ]
+        },
+        {
+          "titulo": "Mesma velocidade no contato",
+          "cena": {
+            "mostrar": [
+              "engrenagem-a",
+              "engrenagem-b",
+              "manivela",
+              "contato",
+              "raios"
+            ],
+            "estado": {
+              "girar": true
+            },
+            "destacar": [
+              "contato"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "eq",
+              "tex": "v_{A} = v_{B}"
+            },
+            {
+              "t": "eq",
+              "tex": "\\marca{p}{2\\pi} f_{A} R_{A} = \\marca{q}{2\\pi} f_{B} R_{B}"
+            },
+            {
+              "t": "eq",
+              "tex": "f_{A} R_{A} = f_{B} R_{B}",
+              "cancelar": [
+                "p",
+                "q"
+              ]
+            },
+            {
+              "t": "texto",
+              "html": "O raio de A é o <b>triplo</b> do raio de B: R<sub>A</sub> = 3R<sub>B</sub>."
+            },
+            {
+              "t": "eq",
+              "tex": "f_{A} \\cdot 3\\marca{r}{R_{B}} = f_{B}\\, \\marca{s}{R_{B}}"
+            },
+            {
+              "t": "eq",
+              "tex": "f_{B} = 3 f_{A} = 3 \\cdot 2,4",
+              "cancelar": [
+                "r",
+                "s"
+              ]
+            },
+            {
+              "t": "eq",
+              "tex": "f_{B} = 7,2\\ \\text{Hz}"
+            }
+          ]
+        },
+        {
+          "titulo": "O cesto",
+          "cena": {
+            "mostrar": [
+              "engrenagem-a",
+              "engrenagem-b",
+              "manivela",
+              "contato",
+              "raios",
+              "roda"
+            ],
+            "estado": {
+              "girar": true
+            },
+            "destacar": [
+              "roda"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "A engrenagem B e a roda R estão presas ao <b>mesmo eixo</b>: giram com a <b>mesma frequência</b>, e o cesto, fixo em R, também."
+            },
+            {
+              "t": "eq",
+              "tex": "f_{\\text{cesto}} = f_{B} = 7,2\\ \\text{Hz}"
+            },
+            {
+              "t": "gabarito",
+              "letra": "A"
+            },
+            {
+              "t": "fim"
+            }
+          ]
         }
-      }
-    },
-    {
-      "titulo": "Mesma velocidade no contato",
-      "conceito": "Transmissão por engrenagens",
-      "texto": "Os dentes encaixados se movem juntos: no ponto de contato, as duas engrenagens têm a mesma velocidade linear. Como o raio de A é o triplo do de B, B gira três vezes mais depressa.",
-      "equacoes": [
-        "v = 2\\pi f R \\quad \\Rightarrow \\quad f_{\\text{A}} R_{\\text{A}} = f_{\\text{B}} R_{\\text{B}}",
-        "f_{\\text{B}} = 2,4 \\cdot 3 = 7,2\\ \\text{Hz}"
-      ],
-      "cena": {
-        "mostrar": [
-          "contato",
-          "raios"
-        ],
-        "destacar": [
-          "contato"
-        ]
-      }
-    },
-    {
-      "titulo": "O cesto",
-      "conceito": "Frequência de rotação",
-      "texto": "A roda R está no mesmo eixo de B e gira junto com ela, com a mesma frequência. Resposta: <b>(A) 7,2 Hz</b>.",
-      "equacoes": [
-        "f_{\\text{cesto}} = f_{\\text{B}} = 7,2\\ \\text{Hz}"
-      ],
-      "cena": {
-        "mostrar": [
-          "roda"
-        ],
-        "destacar": [
-          "roda"
-        ]
-      }
+      ]
     }
   ],
   "status": "revisado",
-  "criadoEm": "2026-11-14T23:00:00-03:00",
-  "atualizadoEm": "2026-11-14T23:00:00-03:00"
+  "criadoEm": "2026-11-15T09:00:00-03:00",
+  "atualizadoEm": "2026-11-15T09:00:00-03:00",
+  "revisao": {
+    "estado": "aprovada",
+    "comentario": "",
+    "atualizadoEm": "2026-11-15T21:26:57.845Z"
+  }
 }

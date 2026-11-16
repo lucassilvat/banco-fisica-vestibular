@@ -1,6 +1,7 @@
 {
   "id": "unesp-2025-q80",
-  "titulo": "A mesma lapiseira vista por duas lentes",
+  "formato": "aula",
+  "titulo": "A mesma lapiseira, dois aumentos",
   "conceitos": [
     "Aumento linear transversal"
   ],
@@ -12,39 +13,84 @@
       "A2": 0.8
     }
   },
-  "passos": [
+  "metodos": [
     {
-      "titulo": "A largura real da lapiseira",
-      "conceito": "Aumento linear transversal",
-      "texto": "O aumento é a razão entre o tamanho da imagem e o tamanho do objeto. Com a imagem 1 de 1,6 cm e A<sub>1</sub> = 2, a lapiseira tem 0,8 cm.",
-      "equacoes": [
-        "\\mathrm{A} = \\dfrac{i}{o} \\quad \\Rightarrow \\quad o = \\dfrac{1,6}{2} = 0,8\\ \\text{cm}"
-      ],
-      "cena": {
-        "mostrar": [
-          "imagem-1",
-          "objeto"
-        ]
-      }
-    },
-    {
-      "titulo": "A imagem na lente divergente",
-      "conceito": "Aumento linear transversal",
-      "texto": "É a mesma lapiseira, agora com aumento 0,8. Resposta: <b>(B) 0,64 cm</b>.",
-      "equacoes": [
-        "\\text{L} = 0,8 \\cdot 0,8 = 0,64\\ \\text{cm}"
-      ],
-      "cena": {
-        "mostrar": [
-          "imagem-2"
-        ],
-        "destacar": [
-          "imagem-2"
-        ]
-      }
+      "nome": "Pelo tamanho real",
+      "telas": [
+        {
+          "titulo": "A largura real da lapiseira",
+          "cena": {
+            "mostrar": [
+              "imagem-1",
+              "objeto"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "O <b>aumento linear transversal</b> é o tamanho da imagem dividido pelo tamanho do objeto:"
+            },
+            {
+              "t": "eq",
+              "tex": "A = \\dfrac{i}{o}"
+            },
+            {
+              "t": "texto",
+              "html": "Na figura 1, a imagem tem 1,6 cm, com A<sub>1</sub> = 2:"
+            },
+            {
+              "t": "eq",
+              "tex": "o = \\dfrac{1,6}{2} = 0,8\\ \\text{cm}"
+            },
+            {
+              "t": "texto",
+              "html": "Essa é a largura <b>real</b> da lapiseira."
+            }
+          ]
+        },
+        {
+          "titulo": "A imagem na lente divergente",
+          "cena": {
+            "mostrar": [
+              "imagem-1",
+              "objeto",
+              "imagem-2"
+            ],
+            "destacar": [
+              "imagem-2"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "Na figura 2, a mesma lapiseira, com A<sub>2</sub> = 0,8:"
+            },
+            {
+              "t": "eq",
+              "tex": "L = A_{2} \\cdot o = 0,8 \\cdot 0,8"
+            },
+            {
+              "t": "eq",
+              "tex": "L = 0,64\\ \\text{cm}"
+            },
+            {
+              "t": "gabarito",
+              "letra": "B"
+            },
+            {
+              "t": "fim"
+            }
+          ]
+        }
+      ]
     }
   ],
   "status": "revisado",
-  "criadoEm": "2026-11-14T23:00:00-03:00",
-  "atualizadoEm": "2026-11-14T23:00:00-03:00"
+  "criadoEm": "2026-11-15T09:00:00-03:00",
+  "atualizadoEm": "2026-11-15T09:00:00-03:00",
+  "revisao": {
+    "estado": "aprovada",
+    "comentario": "",
+    "atualizadoEm": "2026-11-15T22:45:04.589Z"
+  }
 }

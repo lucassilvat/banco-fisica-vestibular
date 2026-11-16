@@ -191,8 +191,11 @@ article.q { background: var(--paper); border: 1px solid var(--line); border-top:
 .aula-lousa .espera { visibility: hidden; }
 .aula-alvo { color: var(--mark); }
 .aula-oculto { visibility: hidden; }
-.aula-risco { position: absolute; height: 3px; background: var(--danger); border-radius: 2px; transform-origin: left center; transform: rotate(-14deg) scaleX(0); animation: aulaRisco .6s ease forwards; pointer-events: none; }
-@keyframes aulaRisco { to { transform: rotate(-14deg) scaleX(1); } }
+/* traço de cancelamento (como o \cancel do LaTeX): fundo diagonal no próprio termo, do canto inferior
+   esquerdo ao superior direito; acompanha o termo em qualquer escala, sem medir a tela */
+.aula-corte { background-image: linear-gradient(to bottom right, transparent calc(50% - 1.4px), var(--danger) calc(50% - 1.4px), var(--danger) calc(50% + 1.4px), transparent calc(50% + 1.4px)); background-repeat: no-repeat; background-position: left bottom; background-size: 100% 100%; animation: aulaCorte .6s ease both; }
+.aula-corte.fixo { animation: none; }
+@keyframes aulaCorte { from { background-size: 0% 0%; } to { background-size: 100% 100%; } }
 .aula-voo { position: absolute; font-size: 1.32rem; color: var(--mark); transition: transform .9s cubic-bezier(.4, 0, .2, 1); pointer-events: none; z-index: 2; }
 .aula-pos { font-family: var(--f-mono); font-size: 0.8rem; color: var(--muted); }
 /* elementos da cena */
@@ -1641,7 +1644,7 @@ CENAS["lancamento-obliquo"] = (svg, P) => {
   sLine(el.componentes, A0[0] + vx * K, A0[1], A0[0] + vx * K, A0[1] - vy * K, { class: "ln-mute", "stroke-dasharray": "3 3" });
   sLine(el.componentes, A0[0], A0[1] - vy * K, A0[0] + vx * K, A0[1] - vy * K, { class: "ln-mute", "stroke-dasharray": "3 3" });
   el["velocidade-b"] = S("g", { class: "ae" }, svg);
-  sArrow(el["velocidade-b"], "v-normal", 3).set(X(xB), Y(y(xB)) - 22, X(xB) + vx * K, Y(y(xB)) - 22); sRich(el["velocidade-b"], X(xB) + vx * K + 8, Y(y(xB)) - 22, "só v_{x} (v_{y} = 0)", "v-normal t-b", "start");
+  sArrow(el["velocidade-b"], "v-normal", 3).set(X(xB), Y(y(xB)) - 38, X(xB) + vx * K, Y(y(xB)) - 38); sRich(el["velocidade-b"], X(xB) + vx * K + 8, Y(y(xB)) - 38, "só v_{x} (v_{y} = 0)", "v-normal t-b", "start");
   el.bola = S("g", { class: "ae" }, svg); const bola = S("circle", { r: 7, fill: "var(--paper)", stroke: "var(--ink)", "stroke-width": 2 }, el.bola);
   const tT = sLabel(el.bola, 620, 24, "", "", "t-b", "end");
   const pos = t => { const x = vx * t; bola.setAttribute("cx", X(x)); bola.setAttribute("cy", Y(y(x))); tT.textContent = `t = ${fmt(t, 1)} s`; };
@@ -1979,12 +1982,12 @@ function openAula(q, rot) {
     if (b.t === "gabarito") { const d = el("p", { class: "aula-gab" + (animar ? " entra" : "") }); d.innerHTML = "Gabarito: <b>(" + mesc(b.letra) + ")</b>"; lousa.append(d); return null; }
     if (b.t === "fim") { lousa.append(el("p", { class: "aula-fim" + (animar ? " entra" : ""), text: "Fim da resolução." })); return null; }
     const d = el("div", { class: "aula-eq" + (animar ? " entra" : "") }); d.innerHTML = mathHTML(b.tex || "");
-    if (!animar || !ultimaEq) { lousa.append(d); return d; }
-    const corta = (b.cancelar || []).map(id => ultimaEq.querySelector(`[data-m="${id}"]`)).filter(Boolean);
+    const corta = ultimaEq ? (b.cancelar || []).map(id => ultimaEq.querySelector(`[data-m="${id}"]`)).filter(Boolean) : [];
+    // traço de cancelamento como o \cancel do LaTeX: diagonal do canto inferior esquerdo ao superior direito do termo
+    const riscar = (n, fixo) => { n.classList.add("aula-alvo", "aula-corte"); if (fixo) n.classList.add("fixo"); };
+    if (!animar || !ultimaEq) { lousa.append(d); corta.forEach(n => riscar(n, true)); return d; }
     const leva = (b.mover || []).map(id => [ultimaEq.querySelector(`[data-m="${id}"]`), d.querySelector(`[data-m="${id}"]`)]).filter(x => x[0] && x[1]);
-    const base = lousa.getBoundingClientRect();
-    corta.forEach(n => { n.classList.add("aula-alvo"); const r = n.getBoundingClientRect();
-      const risco = el("span", { class: "aula-risco" }); Object.assign(risco.style, { left: (r.left - base.left + lousa.scrollLeft - 3) + "px", top: (r.top - base.top + lousa.scrollTop + r.height / 2) + "px", width: (r.width + 6) + "px" }); lousa.append(risco); });
+    corta.forEach(n => riscar(n, false));
     (b.mover || []).forEach(id => { const n = ultimaEq.querySelector(`[data-m="${id}"]`); if (n) n.classList.add("aula-alvo"); });
     d.classList.add("espera"); lousa.append(d);
     leva.forEach(([, alvo]) => alvo.classList.add("aula-oculto"));
@@ -2007,7 +2010,8 @@ function openAula(q, rot) {
     const vis = new Set(((t.cena || {}).mostrar) || []);
     const temCena = cena && vis.size > 0;
     corpo.classList.toggle("sem-cena", !temCena);
-    if (cena) { Object.entries(cena.el).forEach(([id, n]) => { n.classList.toggle("on", vis.has(id)); n.classList.remove("entra"); if (vis.has(id) && animar) { void n.getBoundingClientRect(); n.classList.add("entra"); } }); cena.update({ ...(((t.cena || {}).estado) || {}), animar: ((t.cena || {}).animar) || [] }); }
+    const hl = new Set(((t.cena || {}).destacar) || []);
+    if (cena) { Object.entries(cena.el).forEach(([id, n]) => { const novo = !n.classList.contains("on"); n.classList.toggle("on", vis.has(id)); n.classList.remove("entra", "hl"); if (vis.has(id) && animar && novo) { void n.getBoundingClientRect(); n.classList.add("entra"); } if (vis.has(id) && hl.has(id)) { void n.getBoundingClientRect(); n.classList.add("hl"); } }); cena.update({ ...(((t.cena || {}).estado) || {}), animar: ((t.cena || {}).animar) || [] }); }
     if (t.titulo) lousa.append(el("h3", { class: "aula-tit", text: t.titulo }));
     let ultimaEq = null; const blocos = t.blocos || [];
     if (!animar) { blocos.forEach(b => { const d = bloco(b, ultimaEq, false); if (d) ultimaEq = d; }); }

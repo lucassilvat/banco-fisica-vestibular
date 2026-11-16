@@ -34,12 +34,18 @@ A resolução é dada como um professor faria na lousa:
 - **Preferir cancelamentos a contas intermediárias** (ex.: escrever 70 = 7 · 10 e cancelar o 7).
 - **Cena** (modelo `diagrama`) só quando agrega: simulação se ajuda a entender o fenômeno,
   desenho estático se basta, nenhuma se o texto resolve. Cada tela diz o que mostrar
-  (`cena.mostrar`) e quais animações rodam (`cena.animar`).
+  (`cena.mostrar`) e quais animações rodam (`cena.animar`); `cena.destacar` faz piscar um
+  elemento mostrado.
   Também vale um **modelo pronto** do app (ex.: `indicador-combustivel`, Unesp 2026 Q82); aí a
   tela usa `cena.estado` com os estados do modelo (em `MODELOS`, `pipeline/animacoes.py`).
 - **Imagens em espelhos e lentes**: desenhar imagem virtual do lado virtual (atrás do espelho),
   com o tamanho dado pelo aumento (revisão do Lucas na Unesp 2026 Q79).
 - Cada método termina com o gabarito e "Fim da resolução.".
+- **Cancelamento**: o traço é um fundo diagonal no próprio termo marcado (canto inferior esquerdo ao
+  superior direito, como o `\cancel`), sem medir a tela: assim acompanha o termo em qualquer escala
+  (o painel do artefato reduz a página, e um traço posicionado por medida saía deslocado).
+- **Resolução aprovada não se altera direto**: sugerir ao Lucas e esperar o aval; depois da mudança,
+  ela volta à revisão.
 - Exemplo completo: `data/animacoes/unesp-2026-q81.json` (dois métodos, cancelamento e mover).
 
 ## Como funciona

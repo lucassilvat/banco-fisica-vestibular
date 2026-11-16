@@ -201,11 +201,15 @@ Para gravar questões, usam-se os lotes da etapa `publicar` (docs/WORKFLOW.md).
     indicador ao estático (o formato aula passou a aceitar modelos prontos), com polos da
     bateria e corrente no sentido convencional, sem recuar no ciclo. As 7 foram aprovadas e são
     as primeiras resoluções animadas do site público.
+38. v2.16.0: Unesp 2025 (10 questões) no formato aula, a pedido do Lucas, com os modelos de
+    cena que já existiam; Q81 e Q82 com dois métodos. Aprovadas pelo Lucas (17 resoluções
+    animadas no site público). Na revisão, o traço de cancelamento passou a ser fundo diagonal
+    do termo (alinhado em qualquer escala) e ficou a regra: aprovada não se altera sem o aval dele.
 
 ## Pendências
 
-- **Resolução animada**: formato aula (item 37); Unesp 2026 aprovada (7 no site público). Próximo
-  passo, quando o Lucas pedir: levar o formato aula às outras provas. Em revisão pelo Lucas no app do Claude (item 36). Só as aprovadas vão
+- **Resolução animada**: formato aula (item 37); Unesp 2026 aprovada (7 no site público); Unesp 2025
+  aprovada (item 38); 17 no site público. Seguir prova a prova conforme o Lucas pedir. Em revisão pelo Lucas no app do Claude (item 36). Só as aprovadas vão
   para o site público. As comentadas esperam ajustes: ler os comentários da coleção `revisoes`,
   corrigir os roteiros e republicar no app. Não produzir animações novas sem novo pedido.
 

@@ -1,10 +1,10 @@
 {
   "id": "unesp-2025-q77",
-  "titulo": "Montando a velocidade inicial a partir das componentes",
+  "formato": "aula",
+  "titulo": "As duas componentes da velocidade inicial",
   "conceitos": [
     "Lançamento oblíquo",
-    "Composição de movimentos",
-    "Soma vetorial"
+    "Composição de movimentos"
   ],
   "cena": {
     "modelo": "lancamento-obliquo",
@@ -21,86 +21,180 @@
       "vy": 8
     }
   },
-  "passos": [
+  "metodos": [
     {
-      "titulo": "Dois movimentos ao mesmo tempo",
-      "conceito": "Composição de movimentos",
-      "texto": "Sem resistência do ar, a bola faz movimento uniforme na horizontal e movimento uniformemente variado (aceleração g) na vertical.",
-      "cena": {
-        "mostrar": [
-          "eixos",
-          "terreno",
-          "trajetoria",
-          "pontos",
-          "bola"
-        ],
-        "estado": {
-          "lancar": true
+      "nome": "Componente por componente",
+      "telas": [
+        {
+          "titulo": "Dois movimentos ao mesmo tempo",
+          "cena": {
+            "mostrar": [
+              "eixos",
+              "terreno",
+              "trajetoria",
+              "pontos",
+              "bola"
+            ],
+            "estado": {
+              "lancar": true
+            }
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "Sem resistência do ar, o movimento se decompõe em dois: na horizontal, <b>uniforme</b>; na vertical, <b>uniformemente variado</b>, com aceleração g."
+            },
+            {
+              "t": "texto",
+              "html": "Vamos achar cada componente de v<sub>0</sub> e depois compô-las."
+            }
+          ]
+        },
+        {
+          "titulo": "Componente vertical",
+          "cena": {
+            "mostrar": [
+              "eixos",
+              "terreno",
+              "trajetoria",
+              "pontos",
+              "bola",
+              "velocidade-b"
+            ],
+            "estado": {
+              "lancar": false,
+              "t": 0.8
+            },
+            "destacar": [
+              "velocidade-b"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "Em B, o ponto mais alto, a componente vertical da velocidade é <b>nula</b>."
+            },
+            {
+              "t": "eq",
+              "tex": "v_{y} = v_{0y} - g\\, t"
+            },
+            {
+              "t": "eq",
+              "tex": "0 = v_{0y} - \\marca{g}{10 \\cdot 0,8}"
+            },
+            {
+              "t": "eq",
+              "tex": "\\marca{g}{10 \\cdot 0,8} = v_{0y}",
+              "mover": [
+                "g"
+              ]
+            },
+            {
+              "t": "eq",
+              "tex": "v_{0y} = 8\\ \\text{m/s}"
+            }
+          ]
+        },
+        {
+          "titulo": "Componente horizontal",
+          "cena": {
+            "mostrar": [
+              "eixos",
+              "terreno",
+              "trajetoria",
+              "pontos",
+              "bola",
+              "vertice"
+            ],
+            "estado": {
+              "lancar": false,
+              "t": 0.8
+            },
+            "destacar": [
+              "vertice"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "A abscissa de B é a do <b>vértice</b> da parábola y = −0,2x² + 1,6x + 4:"
+            },
+            {
+              "t": "eq",
+              "tex": "x_{B} = -\\dfrac{b}{2a} = \\dfrac{\\marca{m}{-}1,6}{2 \\cdot (\\marca{n}{-}0,2)}"
+            },
+            {
+              "t": "eq",
+              "tex": "x_{B} = \\dfrac{1,6}{0,4} = 4\\ \\text{m}",
+              "cancelar": [
+                "m",
+                "n"
+              ]
+            },
+            {
+              "t": "texto",
+              "html": "Na horizontal o movimento é uniforme: a bola anda 4 m em 0,8 s."
+            },
+            {
+              "t": "eq",
+              "tex": "v_{0x} = \\dfrac{4}{0,8} = 5\\ \\text{m/s}"
+            }
+          ]
+        },
+        {
+          "titulo": "O módulo da velocidade inicial",
+          "cena": {
+            "mostrar": [
+              "eixos",
+              "terreno",
+              "trajetoria",
+              "pontos",
+              "bola",
+              "componentes"
+            ],
+            "estado": {
+              "lancar": false,
+              "t": 0
+            },
+            "destacar": [
+              "componentes"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "As componentes são <b>perpendiculares</b>: o módulo vem do teorema de Pitágoras."
+            },
+            {
+              "t": "eq",
+              "tex": "v_{0}^{2} = v_{0x}^{2} + v_{0y}^{2} = 5^{2} + 8^{2}"
+            },
+            {
+              "t": "eq",
+              "tex": "v_{0}^{2} = 89"
+            },
+            {
+              "t": "eq",
+              "tex": "v_{0} = \\sqrt{89}\\ \\text{m/s}"
+            },
+            {
+              "t": "gabarito",
+              "letra": "E"
+            },
+            {
+              "t": "fim"
+            }
+          ]
         }
-      }
-    },
-    {
-      "titulo": "Componente vertical",
-      "conceito": "Lançamento oblíquo",
-      "texto": "No ponto mais alto, B, a velocidade vertical é nula, e a bola chega lá em 0,8 s.",
-      "equacoes": [
-        "v_{y} = v_{0y} - g t \\quad \\Rightarrow \\quad 0 = v_{0y} - 10 \\cdot 0,8 \\quad \\Rightarrow \\quad v_{0y} = 8\\ \\text{m/s}"
-      ],
-      "cena": {
-        "mostrar": [
-          "velocidade-b"
-        ],
-        "destacar": [
-          "velocidade-b"
-        ],
-        "estado": {
-          "lancar": false,
-          "t": 0.8
-        }
-      }
-    },
-    {
-      "titulo": "Componente horizontal",
-      "conceito": "Composição de movimentos",
-      "texto": "B é o vértice da parábola da trajetória. Na horizontal o movimento é uniforme: a bola anda 4 m em 0,8 s.",
-      "equacoes": [
-        "x_{\\text{B}} = -\\dfrac{1,6}{2 \\cdot (-0,2)} = 4\\ \\text{m}",
-        "v_{0x} = \\dfrac{4}{0,8} = 5\\ \\text{m/s}"
-      ],
-      "cena": {
-        "mostrar": [
-          "vertice"
-        ],
-        "destacar": [
-          "vertice"
-        ]
-      }
-    },
-    {
-      "titulo": "O módulo da velocidade inicial",
-      "conceito": "Soma vetorial",
-      "texto": "As componentes são perpendiculares, e o módulo de \\(\\vec{v}_{0}\\) vem do teorema de Pitágoras. Resposta: <b>(E) \\(\\sqrt{89}\\) m/s</b>.",
-      "equacoes": [
-        "v_{0} = \\sqrt{5^{2} + 8^{2}} = \\sqrt{89}\\ \\text{m/s}"
-      ],
-      "cena": {
-        "ocultar": [
-          "velocidade-b",
-          "vertice"
-        ],
-        "mostrar": [
-          "componentes"
-        ],
-        "destacar": [
-          "componentes"
-        ],
-        "estado": {
-          "t": 0
-        }
-      }
+      ]
     }
   ],
   "status": "revisado",
-  "criadoEm": "2026-11-14T23:00:00-03:00",
-  "atualizadoEm": "2026-11-14T23:00:00-03:00"
+  "criadoEm": "2026-11-15T09:00:00-03:00",
+  "atualizadoEm": "2026-11-15T09:00:00-03:00",
+  "revisao": {
+    "estado": "aprovada",
+    "comentario": "",
+    "atualizadoEm": "2026-11-15T22:40:15.859Z"
+  }
 }

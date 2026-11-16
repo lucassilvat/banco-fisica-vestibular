@@ -1,5 +1,6 @@
 {
   "id": "unesp-2025-q82",
+  "formato": "aula",
   "titulo": "Quando o disjuntor desarma",
   "conceitos": [
     "Potência elétrica",
@@ -83,55 +84,187 @@
       ]
     }
   },
-  "passos": [
+  "abertura": [
     {
-      "titulo": "O limite do disjuntor",
-      "conceito": "Disjuntores",
-      "texto": "Os aparelhos estão em paralelo na tensão de 110 V. O disjuntor desarma acima de 30 A, ou seja, acima desta potência total:",
-      "equacoes": [
-        "P_{\\text{máx}} = U \\cdot i_{\\text{máx}} = 110 \\cdot 30 = 3\\,300\\ \\text{W}"
-      ],
-      "cena": {
-        "mostrar": [
-          "limite"
-        ]
-      }
+      "titulo": "Resolução",
+      "blocos": [
+        {
+          "t": "texto",
+          "html": "Há dois caminhos:"
+        },
+        {
+          "t": "texto",
+          "html": "1) Comparar <b>potências</b>: o disjuntor de 30 A em 110 V suporta 3 300 W."
+        },
+        {
+          "t": "texto",
+          "html": "2) Comparar <b>correntes</b>: cada aparelho puxa P/U, e o total não pode passar de 30 A."
+        },
+        {
+          "t": "texto",
+          "html": "Escolha um método nas abas acima, ou avance para ver os dois."
+        }
+      ]
+    }
+  ],
+  "metodos": [
+    {
+      "nome": "Pela potência",
+      "telas": [
+        {
+          "titulo": "O limite do disjuntor",
+          "cena": {
+            "mostrar": [
+              "limite"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "Os aparelhos estão ligados em <b>paralelo</b> na tensão de 110 V: as potências se <b>somam</b>."
+            },
+            {
+              "t": "texto",
+              "html": "O disjuntor suporta até 30 A:"
+            },
+            {
+              "t": "eq",
+              "tex": "P_{\\text{máx}} = U\\, i_{\\text{máx}} = 110 \\cdot 30"
+            },
+            {
+              "t": "eq",
+              "tex": "P_{\\text{máx}} = 3\\,300\\ \\text{W}"
+            }
+          ]
+        },
+        {
+          "titulo": "O que já está ligado",
+          "cena": {
+            "mostrar": [
+              "limite",
+              "base"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "A TV e a máquina de lavar já estão ligadas:"
+            },
+            {
+              "t": "eq",
+              "tex": "220 + 880 = 1\\,100\\ \\text{W}"
+            },
+            {
+              "t": "texto",
+              "html": "Sobram <b>2 200 W</b> para os outros aparelhos."
+            }
+          ]
+        },
+        {
+          "titulo": "Testando as alternativas",
+          "cena": {
+            "mostrar": [
+              "limite",
+              "base",
+              "alt-a",
+              "alt-b",
+              "alt-c",
+              "alt-d",
+              "alt-e"
+            ],
+            "destacar": [
+              "alt-c"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "Somando as potências de cada alternativa, só a (C) passa de 2 200 W:"
+            },
+            {
+              "t": "eq",
+              "tex": "P_{MO} + P_{FP} = 880 + 1\\,430 = 2\\,310\\ \\text{W}"
+            },
+            {
+              "t": "texto",
+              "html": "2 310 W > 2 200 W: a corrente passa de 30 A e o disjuntor <b>desarma</b>."
+            },
+            {
+              "t": "gabarito",
+              "letra": "C"
+            },
+            {
+              "t": "fim"
+            }
+          ]
+        }
+      ]
     },
     {
-      "titulo": "O que já está ligado",
-      "conceito": "Associação em paralelo",
-      "texto": "Em paralelo, as potências se somam.",
-      "equacoes": [
-        "P_{\\text{TV}} + P_{\\text{ML}} = 220 + 880 = 1\\,100\\ \\text{W}"
-      ],
-      "cena": {
-        "mostrar": [
-          "base"
-        ]
-      }
-    },
-    {
-      "titulo": "Testando as alternativas",
-      "conceito": "Potência elétrica",
-      "texto": "Só o micro-ondas com o ferro de passar leva a potência total acima de 3 300 W. Resposta: <b>(C)</b>.",
-      "equacoes": [
-        "1\\,100 + 880 + 1\\,430 = 3\\,410\\ \\text{W} \\quad \\Rightarrow \\quad i = \\dfrac{3\\,410}{110} = 31\\ \\text{A} > 30\\ \\text{A}"
-      ],
-      "cena": {
-        "mostrar": [
-          "alt-a",
-          "alt-b",
-          "alt-c",
-          "alt-d",
-          "alt-e"
-        ],
-        "destacar": [
-          "alt-c"
-        ]
-      }
+      "nome": "Pela corrente",
+      "telas": [
+        {
+          "titulo": "O que já está ligado",
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "Cada aparelho puxa uma corrente i = P/U. Com U = 110 V, todas dão valores inteiros:"
+            },
+            {
+              "t": "eq",
+              "tex": "i_{TV} = \\dfrac{220}{110} = 2\\ \\text{A}"
+            },
+            {
+              "t": "eq",
+              "tex": "i_{ML} = \\dfrac{880}{110} = 8\\ \\text{A}"
+            },
+            {
+              "t": "texto",
+              "html": "TV e máquina já somam 10 A: sobram <b>20 A</b> até o limite de 30 A."
+            }
+          ]
+        },
+        {
+          "titulo": "Testando as alternativas",
+          "blocos": [
+            {
+              "t": "eq",
+              "tex": "i_{MO} = \\dfrac{880}{110} = 8\\ \\text{A}"
+            },
+            {
+              "t": "eq",
+              "tex": "i_{LI} = \\dfrac{550}{110} = 5\\ \\text{A}"
+            },
+            {
+              "t": "eq",
+              "tex": "i_{FP} = \\dfrac{1\\,430}{110} = 13\\ \\text{A}"
+            },
+            {
+              "t": "texto",
+              "html": "Alternativas: (A) 8 A; (B) 8 + 5 = 13 A; (D) 13 A; (E) 5 + 13 = 18 A. Todas abaixo de 20 A."
+            },
+            {
+              "t": "texto",
+              "html": "Em (C): 8 + 13 = <b>21 A</b>, acima de 20 A. O disjuntor <b>desarma</b>."
+            },
+            {
+              "t": "gabarito",
+              "letra": "C"
+            },
+            {
+              "t": "fim"
+            }
+          ]
+        }
+      ]
     }
   ],
   "status": "revisado",
-  "criadoEm": "2026-11-14T23:00:00-03:00",
-  "atualizadoEm": "2026-11-14T23:00:00-03:00"
+  "criadoEm": "2026-11-15T09:00:00-03:00",
+  "atualizadoEm": "2026-11-15T09:00:00-03:00",
+  "revisao": {
+    "estado": "aprovada",
+    "comentario": "",
+    "atualizadoEm": "2026-11-15T22:50:29.072Z"
+  }
 }
