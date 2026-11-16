@@ -1,5 +1,6 @@
 {
   "id": "unesp-2023-q70",
+  "formato": "aula",
   "titulo": "Pressão do pneu no pouso",
   "conceitos": [
     "Transformação isocórica",
@@ -442,36 +443,87 @@
       }
     }
   },
-  "passos": [
+  "metodos": [
     {
-      "titulo": "Volume constante",
-      "conceito": "Transformação isocórica",
-      "texto": "A quantidade de nitrogênio e o volume do pneu não mudam: para um gás ideal, a pressão fica proporcional à temperatura absoluta.",
-      "equacoes": [
-        "\\dfrac{p_{1}}{T_{1}} = \\dfrac{p_{2}}{T_{2}}"
-      ],
-      "cena": {
-        "mostrar": [
-          "grafico",
-          "inicio"
-        ]
-      }
-    },
-    {
-      "titulo": "No pouso",
-      "conceito": "Transformação isocórica",
-      "texto": "A temperatura absoluta fica 4 vezes maior, e a pressão também. Resposta: <b>(E) 800 PSI</b>.",
-      "equacoes": [
-        "\\dfrac{200}{300} = \\dfrac{p_{2}}{1\\,200} \\quad \\Rightarrow \\quad p_{2} = 800\\ \\text{PSI}"
-      ],
-      "cena": {
-        "mostrar": [
-          "pouso"
-        ],
-        "destacar": [
-          "pouso"
-        ]
-      }
+      "nome": "Transformação isocórica",
+      "telas": [
+        {
+          "titulo": "Volume constante",
+          "cena": {
+            "mostrar": [
+              "grafico",
+              "inicio"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "O volume do pneu e a quantidade de nitrogênio não mudam: a transformação é <b>isocórica</b>."
+            },
+            {
+              "t": "texto",
+              "html": "A volume constante, a pressão é <b>proporcional</b> à temperatura absoluta:"
+            },
+            {
+              "t": "eq",
+              "tex": "\\dfrac{p_{1}}{T_{1}} = \\dfrac{p_{2}}{T_{2}}"
+            }
+          ]
+        },
+        {
+          "titulo": "No pouso",
+          "cena": {
+            "mostrar": [
+              "grafico",
+              "inicio",
+              "pouso"
+            ],
+            "destacar": [
+              "pouso"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "eq",
+              "tex": "\\dfrac{200}{300} = \\dfrac{p_{2}}{\\marca{t}{1\\,200}}"
+            },
+            {
+              "t": "eq",
+              "tex": "p_{2} = \\dfrac{200}{300} \\cdot \\marca{t}{1\\,200}",
+              "mover": [
+                "t"
+              ]
+            },
+            {
+              "t": "texto",
+              "html": "Como 1 200 = 4 · 300:"
+            },
+            {
+              "t": "eq",
+              "tex": "p_{2} = \\dfrac{200}{\\marca{a}{300}} \\cdot 4 \\cdot \\marca{b}{300}"
+            },
+            {
+              "t": "eq",
+              "tex": "p_{2} = 200 \\cdot 4 = 800\\ \\text{PSI}",
+              "cancelar": [
+                "a",
+                "b"
+              ]
+            },
+            {
+              "t": "texto",
+              "html": "A temperatura absoluta quadruplicou, e a pressão também."
+            },
+            {
+              "t": "gabarito",
+              "letra": "E"
+            },
+            {
+              "t": "fim"
+            }
+          ]
+        }
+      ]
     }
   ],
   "status": "revisado",

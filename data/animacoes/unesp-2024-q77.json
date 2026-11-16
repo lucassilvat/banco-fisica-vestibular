@@ -1,5 +1,6 @@
 {
   "id": "unesp-2024-q77",
+  "formato": "aula",
   "titulo": "Quais bases, e qual a força resultante",
   "conceitos": [
     "Pareamento de bases",
@@ -225,46 +226,73 @@
       }
     }
   },
-  "passos": [
+  "metodos": [
     {
-      "titulo": "Quais são as bases",
-      "conceito": "Pareamento de bases",
-      "texto": "Entre B<sub>1</sub> e B<sub>2</sub> há duas ligações. No DNA, adenina e timina se unem por duas ligações (citosina e guanina, por três). B<sub>1</sub>, de anel simples com o grupo CH<sub>3</sub>, é a timina; B<sub>2</sub>, de anel duplo, é a adenina. Isso elimina A, B e E.",
-      "cena": {
-        "mostrar": [
-          "bases",
-          "ligacoes"
-        ]
-      }
-    },
-    {
-      "titulo": "As forças sobre B₁",
-      "conceito": "Força elétrica",
-      "texto": "Todas as forças são paralelas. Sobre B<sub>1</sub>, \\(\\vec{F}_{1}\\) e \\(\\vec{F}_{4}\\) (atrações) apontam para B<sub>2</sub>; \\(\\vec{F}_{2}\\) e \\(\\vec{F}_{3}\\) (repulsões) apontam para o lado oposto.",
-      "cena": {
-        "mostrar": [
-          "forcas"
-        ],
-        "destacar": [
-          "forcas"
-        ]
-      }
-    },
-    {
-      "titulo": "A resultante",
-      "conceito": "Resultante de forças",
-      "texto": "Com forças na mesma direção, somam-se as de um sentido e subtraem-se as do outro. Resposta: <b>(C)</b>.",
-      "equacoes": [
-        "F_{\\text{R}} = (8,0 + 6,4) \\times 10^{-9} - (3,0 + 2,6) \\times 10^{-9} = 8,8 \\times 10^{-9}\\ \\text{N}"
-      ],
-      "cena": {
-        "mostrar": [
-          "resultante"
-        ],
-        "destacar": [
-          "resultante"
-        ]
-      }
+      "nome": "Pareamento e resultante",
+      "telas": [
+        {
+          "titulo": "Quais são as bases",
+          "cena": {
+            "mostrar": [
+              "bases",
+              "ligacoes"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "No DNA, a <b>adenina</b> pareia com a <b>timina</b> (duas ligações) e a <b>citosina</b> com a <b>guanina</b> (três)."
+            },
+            {
+              "t": "texto",
+              "html": "Na figura há <b>duas</b> ligações: B<sub>1</sub>, de anel único com o grupo CH<sub>3</sub>, é a timina; B<sub>2</sub>, de anel duplo, é a adenina."
+            },
+            {
+              "t": "texto",
+              "html": "Isso elimina A, B e E."
+            }
+          ]
+        },
+        {
+          "titulo": "A força resultante",
+          "cena": {
+            "mostrar": [
+              "bases",
+              "ligacoes",
+              "forcas",
+              "resultante"
+            ],
+            "destacar": [
+              "resultante"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "As quatro forças que B<sub>2</sub> exerce em B<sub>1</sub> têm a <b>mesma direção</b>. F<sub>1</sub> e F<sub>4</sub> (atrações) apontam para a direita; F<sub>2</sub> e F<sub>3</sub> (repulsões), para a esquerda."
+            },
+            {
+              "t": "eq",
+              "tex": "F_{R} = F_{1} + F_{4} - F_{2} - F_{3}"
+            },
+            {
+              "t": "eq",
+              "tex": "F_{R} = (8,0 + 6,4 - 3,0 - 2,6) \\cdot 10^{-9}"
+            },
+            {
+              "t": "eq",
+              "tex": "F_{R} = 8,8 \\cdot 10^{-9}\\ \\text{N}"
+            },
+            {
+              "t": "gabarito",
+              "letra": "C"
+            },
+            {
+              "t": "fim"
+            }
+          ]
+        }
+      ]
     }
   ],
   "status": "revisado",

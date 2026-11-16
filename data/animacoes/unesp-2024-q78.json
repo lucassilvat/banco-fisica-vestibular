@@ -1,5 +1,6 @@
 {
   "id": "unesp-2024-q78",
+  "formato": "aula",
   "titulo": "O ar do copo é comprimido pela água",
   "conceitos": [
     "Pressão atmosférica",
@@ -240,48 +241,104 @@
       }
     }
   },
-  "passos": [
+  "metodos": [
     {
-      "titulo": "Na superfície",
-      "conceito": "Pressão atmosférica",
-      "texto": "Com a boca do copo na superfície, o ar preso está à pressão atmosférica.",
-      "equacoes": [
-        "p_{1} = 10^{5}\\ \\text{Pa}"
-      ],
-      "cena": {
-        "mostrar": [
-          "piscina",
-          "copo-1"
-        ]
-      }
-    },
-    {
-      "titulo": "A 2,5 m de profundidade",
-      "conceito": "Teorema de Stevin",
-      "texto": "No fundo, a água sobe um pouco dentro do copo e comprime o ar. A superfície da água dentro do copo está 2,5 m abaixo da superfície livre, e a pressão do ar é a pressão da água nesse nível.",
-      "equacoes": [
-        "p_{2} = p_{\\text{atm}} + dgh = 10^{5} + 10^{3} \\cdot 10 \\cdot 2,5 = 1,25 \\times 10^{5}\\ \\text{Pa}"
-      ],
-      "cena": {
-        "mostrar": [
-          "copo-2",
-          "cota",
-          "pressoes"
-        ]
-      }
-    },
-    {
-      "titulo": "A razão entre os volumes",
-      "conceito": "Transformação isotérmica",
-      "texto": "Temperatura constante: a pressão e o volume do ar são inversamente proporcionais (lei de Boyle). Resposta: <b>(B) 0,80</b>.",
-      "equacoes": [
-        "p_{1}\\mathrm{V}_1 = p_{2}\\mathrm{V}_2 \\quad \\Rightarrow \\quad \\dfrac{\\mathrm{V}_2}{\\mathrm{V}_1} = \\dfrac{p_{1}}{p_{2}} = \\dfrac{1}{1,25} = 0,80"
-      ],
-      "cena": {
-        "destacar": [
-          "copo-2"
-        ]
-      }
+      "nome": "Stevin e Boyle",
+      "telas": [
+        {
+          "titulo": "Na superfície",
+          "cena": {
+            "mostrar": [
+              "piscina",
+              "copo-1"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "Na superfície, o ar preso no copo está à <b>pressão atmosférica</b>:"
+            },
+            {
+              "t": "eq",
+              "tex": "p_{1} = 10^{5}\\ \\text{Pa}"
+            }
+          ]
+        },
+        {
+          "titulo": "A 2,5 m de profundidade",
+          "cena": {
+            "mostrar": [
+              "piscina",
+              "copo-1",
+              "copo-2",
+              "cota",
+              "pressoes"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "A 2,5 m de profundidade, a água empurra o ar com a pressão atmosférica <b>mais</b> a da coluna de água (teorema de Stevin):"
+            },
+            {
+              "t": "eq",
+              "tex": "p_{2} = p_{\\text{atm}} + d\\,g\\,h"
+            },
+            {
+              "t": "eq",
+              "tex": "p_{2} = 10^{5} + 10^{3} \\cdot 10 \\cdot 2,5"
+            },
+            {
+              "t": "eq",
+              "tex": "p_{2} = 10^{5} + 0,25 \\cdot 10^{5} = 1,25 \\cdot 10^{5}\\ \\text{Pa}"
+            }
+          ]
+        },
+        {
+          "titulo": "A razão entre os volumes",
+          "cena": {
+            "mostrar": [
+              "piscina",
+              "copo-1",
+              "copo-2",
+              "cota",
+              "pressoes"
+            ],
+            "destacar": [
+              "copo-2"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "A temperatura não muda: transformação <b>isotérmica</b> (lei de Boyle)."
+            },
+            {
+              "t": "eq",
+              "tex": "p_{1} V_{1} = p_{2} V_{2}"
+            },
+            {
+              "t": "eq",
+              "tex": "\\dfrac{V_{2}}{V_{1}} = \\dfrac{p_{1}}{p_{2}} = \\dfrac{\\marca{a}{10^{5}}}{1,25 \\cdot \\marca{b}{10^{5}}}"
+            },
+            {
+              "t": "eq",
+              "tex": "\\dfrac{V_{2}}{V_{1}} = \\dfrac{1}{1,25} = 0,80",
+              "cancelar": [
+                "a",
+                "b"
+              ]
+            },
+            {
+              "t": "gabarito",
+              "letra": "B"
+            },
+            {
+              "t": "fim"
+            }
+          ]
+        }
+      ]
     }
   ],
   "status": "revisado",

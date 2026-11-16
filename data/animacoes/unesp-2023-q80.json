@@ -1,5 +1,6 @@
 {
   "id": "unesp-2023-q80",
+  "formato": "aula",
   "titulo": "Qual líquido deixa o raio mais deitado",
   "conceitos": [
     "Refração da luz",
@@ -157,46 +158,105 @@
       }
     }
   },
-  "passos": [
+  "metodos": [
     {
-      "titulo": "α e o ângulo de refração",
-      "conceito": "Refração da luz",
-      "texto": "α é medido a partir da superfície; o ângulo de refração r é medido a partir da normal. Então α = 90° − r: α menor significa r maior.",
-      "cena": {
-        "mostrar": [
-          "meios",
-          "incidente",
-          "raio-135",
-          "angulos"
-        ]
-      }
-    },
-    {
-      "titulo": "Qual índice dá o maior r",
-      "conceito": "Lei de Snell-Descartes",
-      "texto": "Com o mesmo ângulo de incidência, sen r é maior quanto menor for o índice do líquido. Compare os raios para n = 1,35 e n = 1,47: o de menor índice se afasta mais da normal.",
-      "equacoes": [
-        "n_{\\text{ar}} \\sen i = n_{\\text{líq}} \\sen r \\quad \\Rightarrow \\quad \\sen r = \\dfrac{\\sen i}{n_{\\text{líq}}}"
-      ],
-      "cena": {
-        "mostrar": [
-          "raio-147"
-        ],
-        "destacar": [
-          "raio-135",
-          "raio-147"
-        ]
-      }
-    },
-    {
-      "titulo": "O líquido",
-      "conceito": "Lei de Snell-Descartes",
-      "texto": "O menor índice da tabela é o da propanona (acetona), n = 1,35. A propanona é a cetona de três carbonos, H<sub>3</sub>C–CO–CH<sub>3</sub>. Resposta: <b>(C)</b>.",
-      "cena": {
-        "destacar": [
-          "raio-135"
-        ]
-      }
+      "nome": "Lei de Snell",
+      "telas": [
+        {
+          "titulo": "α e o ângulo de refração",
+          "cena": {
+            "mostrar": [
+              "meios",
+              "incidente",
+              "raio-135",
+              "angulos"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "O ângulo α é medido em relação à <b>superfície</b>. O ângulo de refração r, em relação à <b>normal</b>:"
+            },
+            {
+              "t": "eq",
+              "tex": "r = 90^{\\circ} - \\alpha"
+            },
+            {
+              "t": "texto",
+              "html": "<b>Menor</b> α significa <b>maior</b> r: o raio fica mais \"deitado\"."
+            }
+          ]
+        },
+        {
+          "titulo": "Qual índice dá o maior r",
+          "cena": {
+            "mostrar": [
+              "meios",
+              "incidente",
+              "raio-135",
+              "angulos",
+              "raio-147"
+            ],
+            "destacar": [
+              "raio-135",
+              "raio-147"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "Lei de Snell, isolando sen r (n<sub>líq</sub> passa para o outro lado):"
+            },
+            {
+              "t": "eq",
+              "tex": "n_{\\text{ar}} \\sen i = \\marca{n}{n_{\\text{líq}}} \\sen r"
+            },
+            {
+              "t": "eq",
+              "tex": "\\sen r = \\dfrac{n_{\\text{ar}} \\sen i}{\\marca{n}{n_{\\text{líq}}}}",
+              "mover": [
+                "n"
+              ]
+            },
+            {
+              "t": "texto",
+              "html": "O ângulo de incidência é o mesmo: r é maior quanto <b>menor</b> for o índice do líquido."
+            }
+          ]
+        },
+        {
+          "titulo": "O líquido",
+          "cena": {
+            "mostrar": [
+              "meios",
+              "incidente",
+              "raio-135",
+              "angulos",
+              "raio-147"
+            ],
+            "destacar": [
+              "raio-135"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "O menor índice da tabela é o da <b>propanona</b> (acetona), n = 1,35."
+            },
+            {
+              "t": "texto",
+              "html": "A propanona é a cetona de três carbonos, H<sub>3</sub>C–CO–CH<sub>3</sub>, com o grupo C=O no carbono central: a fórmula da alternativa C."
+            },
+            {
+              "t": "gabarito",
+              "letra": "C"
+            },
+            {
+              "t": "fim"
+            }
+          ]
+        }
+      ]
     }
   ],
   "status": "revisado",

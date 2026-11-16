@@ -1,5 +1,6 @@
 {
   "id": "unesp-2024-q86",
+  "formato": "aula",
   "titulo": "O centro de massa com a terceira placa",
   "conceitos": [
     "Centro de massa"
@@ -911,48 +912,151 @@
       }
     }
   },
-  "passos": [
+  "abertura": [
     {
-      "titulo": "Os centros das placas",
-      "conceito": "Centro de massa",
-      "texto": "Cada placa é homogênea: seu centro de massa é o centro geométrico.",
-      "cena": {
-        "mostrar": [
-          "grafico",
-          "placas",
-          "centros"
-        ]
-      }
+      "titulo": "Resolução",
+      "blocos": [
+        {
+          "t": "texto",
+          "html": "Há dois caminhos:"
+        },
+        {
+          "t": "texto",
+          "html": "1) Calcular com as <b>três placas</b>, cada uma no seu centro."
+        },
+        {
+          "t": "texto",
+          "html": "2) <b>Aproveitar</b> o centro de massa (6,8; 4,2) das duas primeiras, que o enunciado já deu."
+        },
+        {
+          "t": "texto",
+          "html": "Escolha um método nas abas acima, ou avance para ver os dois."
+        }
+      ]
+    }
+  ],
+  "metodos": [
+    {
+      "nome": "Com as três placas",
+      "telas": [
+        {
+          "titulo": "Os centros das placas",
+          "cena": {
+            "mostrar": [
+              "grafico",
+              "placas",
+              "centros",
+              "circulo"
+            ],
+            "destacar": [
+              "circulo"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "Cada placa homogênea tem o centro de massa no seu <b>centro geométrico</b>:"
+            },
+            {
+              "t": "texto",
+              "html": "quadrada, 2 kg, em (2, 3); retangular, 3 kg, em (10, 5); circular, 3 kg, em (2, 1)."
+            },
+            {
+              "t": "texto",
+              "html": "Massa total: 2 + 3 + 3 = <b>8 kg</b>."
+            }
+          ]
+        },
+        {
+          "titulo": "O novo centro de massa",
+          "cena": {
+            "mostrar": [
+              "grafico",
+              "placas",
+              "centros",
+              "circulo",
+              "novo-c"
+            ],
+            "destacar": [
+              "novo-c"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "eq",
+              "tex": "x_{C} = \\dfrac{2 \\cdot 2 + 3 \\cdot 10 + 3 \\cdot 2}{8} = \\dfrac{40}{8}"
+            },
+            {
+              "t": "eq",
+              "tex": "x_{C} = 5"
+            },
+            {
+              "t": "eq",
+              "tex": "y_{C} = \\dfrac{2 \\cdot 3 + 3 \\cdot 5 + 3 \\cdot 1}{8} = \\dfrac{24}{8}"
+            },
+            {
+              "t": "eq",
+              "tex": "y_{C} = 3"
+            },
+            {
+              "t": "texto",
+              "html": "O novo centro de massa é <b>(5; 3)</b>."
+            },
+            {
+              "t": "gabarito",
+              "letra": "D"
+            },
+            {
+              "t": "fim"
+            }
+          ]
+        }
+      ]
     },
     {
-      "titulo": "A placa circular",
-      "conceito": "Centro de massa",
-      "texto": "A nova placa tem 3 kg, com centro de massa em (2, 1). A massa total passa a 8 kg.",
-      "cena": {
-        "mostrar": [
-          "circulo"
-        ],
-        "destacar": [
-          "circulo"
-        ]
-      }
-    },
-    {
-      "titulo": "O novo centro de massa",
-      "conceito": "Centro de massa",
-      "texto": "Cada coordenada é a média das coordenadas dos centros, ponderada pelas massas. Resposta: <b>(D) (5; 3)</b>.",
-      "equacoes": [
-        "\\mathrm{x}_\\mathrm{C} = \\dfrac{2 \\cdot 2 + 3 \\cdot 10 + 3 \\cdot 2}{8} = 5",
-        "\\mathrm{y}_\\mathrm{C} = \\dfrac{2 \\cdot 3 + 3 \\cdot 5 + 3 \\cdot 1}{8} = 3"
-      ],
-      "cena": {
-        "mostrar": [
-          "novo-c"
-        ],
-        "destacar": [
-          "novo-c"
-        ]
-      }
+      "nome": "Aproveitando o centro de massa dado",
+      "telas": [
+        {
+          "titulo": "Duas placas viram uma",
+          "cena": {
+            "mostrar": [
+              "grafico",
+              "placas",
+              "centros",
+              "circulo",
+              "novo-c"
+            ],
+            "destacar": [
+              "novo-c"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "O enunciado já deu o centro de massa das duas primeiras placas: (6,8; 4,2), com massa 2 + 3 = <b>5 kg</b>."
+            },
+            {
+              "t": "texto",
+              "html": "Podemos tratá-las como um único corpo nesse ponto e juntar só a placa circular, 3 kg em (2, 1):"
+            },
+            {
+              "t": "eq",
+              "tex": "x_{C} = \\dfrac{5 \\cdot 6,8 + 3 \\cdot 2}{5 + 3} = \\dfrac{34 + 6}{8} = 5"
+            },
+            {
+              "t": "eq",
+              "tex": "y_{C} = \\dfrac{5 \\cdot 4,2 + 3 \\cdot 1}{5 + 3} = \\dfrac{21 + 3}{8} = 3"
+            },
+            {
+              "t": "gabarito",
+              "letra": "D"
+            },
+            {
+              "t": "fim"
+            }
+          ]
+        }
+      ]
     }
   ],
   "status": "revisado",

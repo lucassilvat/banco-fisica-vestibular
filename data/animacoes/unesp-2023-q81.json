@@ -1,5 +1,6 @@
 {
   "id": "unesp-2023-q81",
+  "formato": "aula",
   "titulo": "Som mais grave, corda mais longa",
   "conceitos": [
     "Velocidade de onda em cordas",
@@ -146,45 +147,96 @@
       }
     }
   },
-  "passos": [
+  "metodos": [
     {
-      "titulo": "A mesma velocidade de onda",
-      "conceito": "Velocidade de onda em cordas",
-      "texto": "As cordas têm a mesma tração e a mesma densidade linear: pela fórmula de Taylor, a onda tem a mesma velocidade v nas duas.",
-      "cena": {
-        "mostrar": [
-          "corda-1"
-        ]
-      }
-    },
-    {
-      "titulo": "Frequência e comprimento",
-      "conceito": "Ondas estacionárias e cordas vibrantes",
-      "texto": "No modo fundamental, o comprimento da corda é meio comprimento de onda. Com v igual, a frequência é inversamente proporcional ao comprimento.",
-      "equacoes": [
-        "\\mathrm{L} = \\dfrac{\\lambda}{2} \\quad \\Rightarrow \\quad \\mathrm{f} = \\dfrac{v}{2\\mathrm{L}}"
-      ],
-      "cena": {
-        "mostrar": [
-          "modo"
-        ]
-      }
-    },
-    {
-      "titulo": "O comprimento da corda 2",
-      "conceito": "Ondas estacionárias e cordas vibrantes",
-      "texto": "A frequência da corda 1 é 150 vezes a da corda 2, então a corda 2 é 150 vezes mais longa. Resposta: <b>(A) 7,5 m</b>.",
-      "equacoes": [
-        "\\dfrac{\\mathrm{f}_1}{\\mathrm{f}_2} = \\dfrac{\\mathrm{L}_2}{\\mathrm{L}_1} = 150 \\quad \\Rightarrow \\quad \\mathrm{L}_2 = 150 \\cdot 5\\ \\text{cm} = 7,5\\ \\text{m}"
-      ],
-      "cena": {
-        "mostrar": [
-          "corda-2"
-        ],
-        "destacar": [
-          "corda-2"
-        ]
-      }
+      "nome": "Modo fundamental",
+      "telas": [
+        {
+          "titulo": "A mesma velocidade de onda",
+          "cena": {
+            "mostrar": [
+              "corda-1"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "As cordas têm a mesma tração e a mesma densidade linear: a onda se propaga nelas com a <b>mesma velocidade</b> v."
+            }
+          ]
+        },
+        {
+          "titulo": "Frequência e comprimento",
+          "cena": {
+            "mostrar": [
+              "corda-1",
+              "modo"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "No modo fundamental, a corda tem <b>meio comprimento de onda</b>:"
+            },
+            {
+              "t": "eq",
+              "tex": "L = \\dfrac{\\lambda}{2} \\quad \\Rightarrow \\quad \\lambda = 2L"
+            },
+            {
+              "t": "eq",
+              "tex": "f = \\dfrac{v}{\\lambda} = \\dfrac{v}{2L}"
+            }
+          ]
+        },
+        {
+          "titulo": "O comprimento da corda 2",
+          "cena": {
+            "mostrar": [
+              "corda-1",
+              "modo",
+              "corda-2"
+            ],
+            "destacar": [
+              "corda-2"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "Dividindo as frequências, v e o 2 <b>cancelam</b>:"
+            },
+            {
+              "t": "eq",
+              "tex": "\\dfrac{f_{1}}{f_{2}} = \\dfrac{\\marca{a}{v}}{\\marca{b}{2} L_{1}} \\cdot \\dfrac{\\marca{c}{2} L_{2}}{\\marca{d}{v}}"
+            },
+            {
+              "t": "eq",
+              "tex": "\\dfrac{f_{1}}{f_{2}} = \\dfrac{L_{2}}{L_{1}} = 150",
+              "cancelar": [
+                "a",
+                "b",
+                "c",
+                "d"
+              ]
+            },
+            {
+              "t": "eq",
+              "tex": "L_{2} = 150 \\cdot 5\\ \\text{cm} = 750\\ \\text{cm}"
+            },
+            {
+              "t": "eq",
+              "tex": "L_{2} = 7,5\\ \\text{m}"
+            },
+            {
+              "t": "gabarito",
+              "letra": "A"
+            },
+            {
+              "t": "fim"
+            }
+          ]
+        }
+      ]
     }
   ],
   "status": "revisado",

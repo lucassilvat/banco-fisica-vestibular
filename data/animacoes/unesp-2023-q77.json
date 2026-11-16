@@ -1,5 +1,6 @@
 {
   "id": "unesp-2023-q77",
+  "formato": "aula",
   "titulo": "Cada encontro, uma volta somada",
   "conceitos": [
     "Movimento uniforme",
@@ -207,45 +208,88 @@
       }
     }
   },
-  "passos": [
+  "metodos": [
     {
-      "titulo": "Sentidos opostos",
-      "conceito": "Movimento relativo",
-      "texto": "Em sentidos opostos numa pista fechada, os dois se encontram cada vez que a soma das distâncias percorridas aumenta uma volta (1 000 m).",
-      "cena": {
-        "mostrar": [
-          "pista",
-          "alberto",
-          "bernardo",
-          "legenda"
-        ],
-        "estado": {
-          "animar": [
-            "a",
-            "b"
+      "nome": "Cada encontro, uma volta somada",
+      "telas": [
+        {
+          "titulo": "Sentidos opostos",
+          "cena": {
+            "mostrar": [
+              "pista",
+              "alberto",
+              "bernardo",
+              "legenda"
+            ],
+            "animar": [
+              "a",
+              "b"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "Em sentidos opostos numa pista fechada, os dois se encontram cada vez que, <b>juntos</b>, completam mais uma volta."
+            },
+            {
+              "t": "eq",
+              "tex": "d_{A} + d_{B} = 1\\,000\\ \\text{m} \\quad \\text{(1º encontro)}"
+            }
+          ]
+        },
+        {
+          "titulo": "O terceiro encontro",
+          "cena": {
+            "mostrar": [
+              "pista",
+              "alberto",
+              "bernardo",
+              "legenda",
+              "encontros"
+            ],
+            "destacar": [
+              "encontros"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "No <b>terceiro</b> encontro, juntos percorreram três voltas:"
+            },
+            {
+              "t": "eq",
+              "tex": "d_{A} + d_{B} = 3\\,000"
+            },
+            {
+              "t": "texto",
+              "html": "No mesmo tempo, Bernardo, três vezes mais rápido, percorre o <b>triplo</b>: d<sub>B</sub> = 3d<sub>A</sub>."
+            },
+            {
+              "t": "eq",
+              "tex": "d_{A} + 3d_{A} = 3\\,000"
+            },
+            {
+              "t": "eq",
+              "tex": "4d_{A} = 3\\,000"
+            },
+            {
+              "t": "eq",
+              "tex": "d_{A} = 750\\ \\text{m}"
+            },
+            {
+              "t": "eq",
+              "tex": "d_{B} = 3 \\cdot 750 = 2\\,250\\ \\text{m}"
+            },
+            {
+              "t": "gabarito",
+              "letra": "D"
+            },
+            {
+              "t": "fim"
+            }
           ]
         }
-      }
-    },
-    {
-      "titulo": "O terceiro encontro",
-      "conceito": "Movimento uniforme",
-      "texto": "No 3º encontro, juntos percorreram 3 000 m. No mesmo tempo, Bernardo percorre o triplo de Alberto. Resposta: <b>(D) 750 m e 2 250 m</b>.",
-      "equacoes": [
-        "d_{\\text{A}} + d_{\\text{B}} = 3\\,000, \\quad d_{\\text{B}} = 3d_{\\text{A}}",
-        "4d_{\\text{A}} = 3\\,000 \\quad \\Rightarrow \\quad d_{\\text{A}} = 750\\ \\text{m}, \\quad d_{\\text{B}} = 2\\,250\\ \\text{m}"
-      ],
-      "cena": {
-        "mostrar": [
-          "encontros"
-        ],
-        "destacar": [
-          "encontros"
-        ],
-        "estado": {
-          "animar": []
-        }
-      }
+      ]
     }
   ],
   "status": "revisado",

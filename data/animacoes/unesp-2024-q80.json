@@ -1,5 +1,6 @@
 {
   "id": "unesp-2024-q80",
+  "formato": "aula",
   "titulo": "A cor que a bilirrubina mais absorve",
   "conceitos": [
     "Espectro eletromagnético",
@@ -139,7 +140,7 @@
           {
             "t": "texto",
             "x": 602,
-            "y": 362.0,
+            "y": 380.0,
             "txt": "comprimento de onda (nm)",
             "ancora": "end",
             "mudo": true
@@ -806,30 +807,97 @@
       }
     }
   },
-  "passos": [
+  "metodos": [
     {
-      "titulo": "A curva de absorção",
-      "conceito": "Espectro eletromagnético",
-      "texto": "A bilirrubina absorve mais a luz azul: a curva tem máximo em 461 nm e cai a quase zero a partir do verde.",
-      "cena": {
-        "mostrar": [
-          "espectro",
-          "curva",
-          "pico"
-        ],
-        "destacar": [
-          "pico"
-        ]
-      }
-    },
-    {
-      "titulo": "A frequência dessa luz",
-      "conceito": "Equação fundamental da ondulatória",
-      "texto": "As outras alternativas falham: 425 nm e 475 nm são comprimentos de onda, não frequências (A); acima do verde quase não há absorção (B); o ultravioleta tem frequência maior que o azul (C); e o azul, de frequência maior que o verde, é o mais absorvido (E). Resposta: <b>(D)</b>.",
-      "equacoes": [
-        "f = \\dfrac{c}{\\lambda} = \\dfrac{3 \\times 10^{8}}{461 \\times 10^{-9}} \\approx 6,5 \\times 10^{14}\\ \\text{Hz}"
-      ],
-      "cena": {}
+      "nome": "Pico de absorção e frequência",
+      "telas": [
+        {
+          "titulo": "A curva de absorção",
+          "cena": {
+            "mostrar": [
+              "espectro",
+              "curva",
+              "pico"
+            ],
+            "destacar": [
+              "pico"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "A curva de absorção da bilirrubina tem <b>máximo em 461 nm</b>, na luz azul: é a cor mais efetiva."
+            }
+          ]
+        },
+        {
+          "titulo": "A frequência dessa luz",
+          "cena": {
+            "mostrar": [
+              "espectro",
+              "curva",
+              "pico"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "A frequência dessa luz vem de c = λf:"
+            },
+            {
+              "t": "eq",
+              "tex": "f = \\dfrac{c}{\\lambda} = \\dfrac{3 \\cdot 10^{8}}{461 \\cdot 10^{-9}}"
+            },
+            {
+              "t": "eq",
+              "tex": "f = \\dfrac{3}{461} \\cdot 10^{17} \\approx 0,0065 \\cdot 10^{17}"
+            },
+            {
+              "t": "eq",
+              "tex": "f \\approx 6,5 \\cdot 10^{14}\\ \\text{Hz}"
+            },
+            {
+              "t": "texto",
+              "html": "É a alternativa D."
+            }
+          ]
+        },
+        {
+          "titulo": "Por que as outras são falsas",
+          "cena": {
+            "mostrar": [
+              "espectro",
+              "curva",
+              "pico"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "(A) 425 nm e 475 nm são <b>comprimentos de onda</b>; as frequências são da ordem de 10<sup>14</sup> Hz."
+            },
+            {
+              "t": "texto",
+              "html": "(B) Acima do verde, a absorção é praticamente <b>nula</b>."
+            },
+            {
+              "t": "texto",
+              "html": "(C) O ultravioleta tem frequência <b>maior</b> que a do azul; não é efetivo porque o vidro e a cobertura o absorvem."
+            },
+            {
+              "t": "texto",
+              "html": "(E) Frequências maiores que a do verde (azul, violeta) são justamente as <b>mais</b> absorvidas."
+            },
+            {
+              "t": "gabarito",
+              "letra": "D"
+            },
+            {
+              "t": "fim"
+            }
+          ]
+        }
+      ]
     }
   ],
   "status": "revisado",

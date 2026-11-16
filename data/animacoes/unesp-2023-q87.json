@@ -1,5 +1,6 @@
 {
   "id": "unesp-2023-q87",
+  "formato": "aula",
   "titulo": "Comprimento do percurso e equação de Torricelli",
   "conceitos": [
     "Geometria da trajetória",
@@ -473,51 +474,122 @@
       }
     }
   },
-  "passos": [
+  "metodos": [
     {
-      "titulo": "O ângulo em Q é reto",
-      "conceito": "Geometria da trajetória",
-      "texto": "PR é diâmetro, então o triângulo PQR, inscrito na semicircunferência, tem ângulo reto em Q.",
-      "equacoes": [
-        "\\mathrm{QR} = \\sqrt{10^{2} - 6^{2}} = 8\\ \\text{m}"
-      ],
-      "cena": {
-        "mostrar": [
-          "geometria",
-          "percurso",
-          "medidas",
-          "angulo-reto"
-        ]
-      }
-    },
-    {
-      "titulo": "O comprimento total",
-      "conceito": "Geometria da trajetória",
-      "texto": "A volta de R a P é pela semicircunferência de raio 5 m.",
-      "equacoes": [
-        "\\pi \\cdot 5 = 3 \\cdot 5 = 15\\ \\text{m}",
-        "\\Delta s = 6 + 8 + 15 = 29\\ \\text{m}"
-      ],
-      "cena": {
-        "mostrar": [
-          "semicirculo",
-          "particula"
-        ],
-        "estado": {
-          "animar": [
-            "percorrer"
+      "nome": "Comprimento e Torricelli",
+      "telas": [
+        {
+          "titulo": "O ângulo em Q é reto",
+          "cena": {
+            "mostrar": [
+              "geometria",
+              "percurso",
+              "medidas",
+              "angulo-reto"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "PR é um <b>diâmetro</b>: o triângulo inscrito tem ângulo <b>reto</b> em Q. Pelo teorema de Pitágoras:"
+            },
+            {
+              "t": "eq",
+              "tex": "QR = \\sqrt{10^{2} - 6^{2}} = \\sqrt{64}"
+            },
+            {
+              "t": "eq",
+              "tex": "QR = 8\\ \\text{m}"
+            }
+          ]
+        },
+        {
+          "titulo": "O comprimento total",
+          "cena": {
+            "mostrar": [
+              "geometria",
+              "percurso",
+              "medidas",
+              "angulo-reto",
+              "semicirculo",
+              "particula"
+            ],
+            "animar": [
+              "percorrer"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "De R de volta a P, a partícula percorre a <b>semicircunferência</b> de raio 5 m:"
+            },
+            {
+              "t": "eq",
+              "tex": "\\pi \\cdot 5 = 3 \\cdot 5 = 15\\ \\text{m}"
+            },
+            {
+              "t": "texto",
+              "html": "Percurso total:"
+            },
+            {
+              "t": "eq",
+              "tex": "\\Delta s = 6 + 8 + 15 = 29\\ \\text{m}"
+            }
+          ]
+        },
+        {
+          "titulo": "A aceleração escalar",
+          "cena": {
+            "mostrar": [
+              "geometria",
+              "percurso",
+              "medidas",
+              "angulo-reto",
+              "semicirculo"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "A aceleração escalar é constante: vale a <b>equação de Torricelli</b>."
+            },
+            {
+              "t": "eq",
+              "tex": "v^{2} = v_{0}^{2} + 2 a \\Delta s"
+            },
+            {
+              "t": "eq",
+              "tex": "100 = \\marca{s}{64} + 2a \\cdot 29"
+            },
+            {
+              "t": "eq",
+              "tex": "100 - \\marca{s}{64} = 58a",
+              "mover": [
+                "s"
+              ]
+            },
+            {
+              "t": "eq",
+              "tex": "a = \\dfrac{36}{58} = \\dfrac{\\marca{x}{2} \\cdot 18}{\\marca{y}{2} \\cdot 29}"
+            },
+            {
+              "t": "eq",
+              "tex": "a = \\dfrac{18}{29}\\ \\text{m/s}^{2}",
+              "cancelar": [
+                "x",
+                "y"
+              ]
+            },
+            {
+              "t": "gabarito",
+              "letra": "D"
+            },
+            {
+              "t": "fim"
+            }
           ]
         }
-      }
-    },
-    {
-      "titulo": "A aceleração escalar",
-      "conceito": "Equação de Torricelli",
-      "texto": "A velocidade aumenta uniformemente de 8 m/s para 10 m/s ao longo dos 29 m: aceleração escalar constante. Resposta: <b>(D)</b>.",
-      "equacoes": [
-        "v^{2} = v_{0}^{2} + 2a\\Delta s \\quad \\Rightarrow \\quad 100 = 64 + 2a \\cdot 29 \\quad \\Rightarrow \\quad a = \\dfrac{18}{29}\\ \\text{m/s}^{2}"
-      ],
-      "cena": {}
+      ]
     }
   ],
   "status": "revisado",

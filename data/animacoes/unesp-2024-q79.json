@@ -1,5 +1,6 @@
 {
   "id": "unesp-2024-q79",
+  "formato": "aula",
   "titulo": "Do gráfico ao índice de refração, e dele à velocidade",
   "conceitos": [
     "Leitura de gráficos",
@@ -39,7 +40,7 @@
           {
             "t": "texto",
             "x": 582,
-            "y": 382.0,
+            "y": 400.0,
             "txt": "índice de refração",
             "ancora": "end",
             "mudo": true
@@ -487,29 +488,74 @@
       }
     }
   },
-  "passos": [
+  "metodos": [
     {
-      "titulo": "Lendo o gráfico",
-      "conceito": "Leitura de gráficos",
-      "texto": "Para a solução de 40 ºBx, o gráfico dá o índice de refração.",
-      "cena": {
-        "mostrar": [
-          "grafico",
-          "leitura"
-        ],
-        "destacar": [
-          "leitura"
-        ]
-      }
-    },
-    {
-      "titulo": "A velocidade da luz na solução",
-      "conceito": "Índice de refração",
-      "texto": "O índice de refração absoluto compara a velocidade da luz no vácuo com a velocidade no meio. Resposta: <b>(C) 2,1 × 10<sup>8</sup> m/s</b>.",
-      "equacoes": [
-        "n = \\dfrac{c}{v} \\quad \\Rightarrow \\quad v = \\dfrac{3 \\times 10^{8}}{1,40} \\approx 2,1 \\times 10^{8}\\ \\text{m/s}"
-      ],
-      "cena": {}
+      "nome": "Índice de refração",
+      "telas": [
+        {
+          "titulo": "Lendo o gráfico",
+          "cena": {
+            "mostrar": [
+              "grafico",
+              "leitura"
+            ],
+            "destacar": [
+              "leitura"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "No gráfico, a solução de <b>40 ºBx</b> tem índice de refração:"
+            },
+            {
+              "t": "eq",
+              "tex": "n \\approx 1,40"
+            }
+          ]
+        },
+        {
+          "titulo": "A velocidade na solução",
+          "cena": {
+            "mostrar": [
+              "grafico",
+              "leitura"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "O índice de refração absoluto compara a velocidade da luz no vácuo com a velocidade no meio. Isolamos v:"
+            },
+            {
+              "t": "eq",
+              "tex": "n = \\dfrac{c}{\\marca{v}{v}}"
+            },
+            {
+              "t": "eq",
+              "tex": "\\marca{v}{v} = \\dfrac{c}{n}",
+              "mover": [
+                "v"
+              ]
+            },
+            {
+              "t": "eq",
+              "tex": "v = \\dfrac{3 \\cdot 10^{8}}{1,40}"
+            },
+            {
+              "t": "eq",
+              "tex": "v \\approx 2,1 \\cdot 10^{8}\\ \\text{m/s}"
+            },
+            {
+              "t": "gabarito",
+              "letra": "C"
+            },
+            {
+              "t": "fim"
+            }
+          ]
+        }
+      ]
     }
   ],
   "status": "revisado",
