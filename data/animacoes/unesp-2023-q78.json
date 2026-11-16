@@ -11,7 +11,7 @@
     "modelo": "diagrama",
     "parametros": {
       "elementos": {
-        "dinamometro": [
+        "teto": [
           {
             "t": "linha",
             "pontos": [
@@ -26,13 +26,17 @@
             ],
             "cor": "tinta",
             "larg": 2
-          },
+          }
+        ],
+        "mola": [
           {
             "t": "caminho",
             "d": "M200,50 l12,6 l-24,12 l24,12 l-24,12 l24,12 l-24,12 l12,6",
             "cor": "tinta",
             "larg": 2
-          },
+          }
+        ],
+        "prato": [
           {
             "t": "linha",
             "pontos": [
@@ -110,11 +114,12 @@
           },
           {
             "t": "texto",
-            "x": 200,
-            "y": 196,
+            "x": 170,
+            "y": 197,
             "txt": "m",
             "negrito": true,
-            "cor": "papel"
+            "ancora": "end",
+            "tam": 17
           }
         ],
         "altura": [
@@ -137,69 +142,285 @@
             "txt": "45 cm"
           }
         ],
-        "antes": [
+        "foto-antes": [
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                150,
+                20
+              ],
+              [
+                150,
+                50
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 2
+          },
+          {
+            "t": "caminho",
+            "d": "M150,50 l12,6 l-24,12 l24,12 l-24,12 l24,12 l-24,12 l12,6",
+            "cor": "tinta",
+            "larg": 2
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                150,
+                122
+              ],
+              [
+                150,
+                140
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 2
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                150,
+                140
+              ],
+              [
+                70,
+                330
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 1.5
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                150,
+                140
+              ],
+              [
+                230,
+                330
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 1.5
+          },
+          {
+            "t": "ret",
+            "x": 60,
+            "y": 330,
+            "w": 180,
+            "h": 18,
+            "cor": "#c9944a",
+            "borda": "tinta",
+            "rx": 6
+          },
+          {
+            "t": "texto",
+            "x": 150,
+            "y": 372,
+            "txt": "prato em repouso: v = 0",
+            "mudo": true
+          },
+          {
+            "t": "texto",
+            "x": 150,
+            "y": 404,
+            "txt": "imediatamente antes",
+            "negrito": true,
+            "tam": 17
+          },
+          {
+            "t": "ret",
+            "x": 128,
+            "y": 290,
+            "w": 44,
+            "h": 40,
+            "cor": "#e8607a",
+            "borda": "tinta",
+            "rx": 6
+          },
+          {
+            "t": "texto",
+            "x": 120,
+            "y": 315,
+            "txt": "m",
+            "negrito": true,
+            "ancora": "end",
+            "tam": 17
+          },
           {
             "t": "seta",
             "de": [
-              450,
-              160
+              188,
+              266
             ],
             "para": [
-              450,
-              250
+              188,
+              326
             ],
             "cor": "peso",
             "larg": 3.5,
-            "rot_em": [
-              460,
-              210
-            ],
             "rotulo": "v",
-            "sub": "pacote"
+            "sub": "pacote",
+            "rot_em": [
+              230,
+              286
+            ],
+            "ancora": "start"
           },
           {
             "t": "texto",
-            "x": 450,
-            "y": 140,
-            "txt": "antes: 3 m/s",
+            "x": 230,
+            "y": 310,
+            "txt": "3 m/s",
             "negrito": true,
-            "cor": "peso"
+            "cor": "peso",
+            "ancora": "start"
           }
         ],
-        "depois": [
+        "foto-depois": [
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                460,
+                20
+              ],
+              [
+                460,
+                50
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 2
+          },
+          {
+            "t": "caminho",
+            "d": "M460,50 l12,6 l-24,12 l24,12 l-24,12 l24,12 l-24,12 l12,6",
+            "cor": "tinta",
+            "larg": 2
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                460,
+                122
+              ],
+              [
+                460,
+                140
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 2
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                460,
+                140
+              ],
+              [
+                380,
+                330
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 1.5
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                460,
+                140
+              ],
+              [
+                540,
+                330
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 1.5
+          },
+          {
+            "t": "ret",
+            "x": 370,
+            "y": 330,
+            "w": 180,
+            "h": 18,
+            "cor": "#c9944a",
+            "borda": "tinta",
+            "rx": 6
+          },
+          {
+            "t": "texto",
+            "x": 460,
+            "y": 372,
+            "txt": "pacote e prato juntos",
+            "mudo": true
+          },
+          {
+            "t": "texto",
+            "x": 460,
+            "y": 404,
+            "txt": "imediatamente depois",
+            "negrito": true,
+            "tam": 17
+          },
+          {
+            "t": "ret",
+            "x": 438,
+            "y": 290,
+            "w": 44,
+            "h": 40,
+            "cor": "#e8607a",
+            "borda": "tinta",
+            "rx": 6
+          },
+          {
+            "t": "texto",
+            "x": 430,
+            "y": 315,
+            "txt": "m",
+            "negrito": true,
+            "ancora": "end",
+            "tam": 17
+          },
           {
             "t": "seta",
             "de": [
-              550,
-              200
+              562,
+              296
             ],
             "para": [
-              550,
-              260
+              562,
+              356
             ],
             "cor": "acel",
             "larg": 3.5,
+            "rotulo": "v",
             "rot_em": [
-              560,
-              240
+              572,
+              318
             ],
-            "rotulo": "v"
+            "ancora": "start"
           },
           {
             "t": "texto",
-            "x": 550,
-            "y": 284,
-            "txt": "depois, juntos:",
-            "negrito": true,
-            "cor": "acel"
-          },
-          {
-            "t": "texto",
-            "x": 550,
-            "y": 304,
+            "x": 572,
+            "y": 342,
             "txt": "2 m/s",
             "negrito": true,
-            "cor": "acel"
+            "cor": "acel",
+            "ancora": "start"
           }
         ]
       },
@@ -207,19 +428,102 @@
         "cair": {
           "alvo": "pacote",
           "tipo": "trajeto",
-          "pontos": [
-            [
-              0,
-              0
-            ],
-            [
-              0,
-              118
-            ]
+          "pausa": 1.5,
+          "fases": [
+            {
+              "pontos": [
+                [
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  118
+                ]
+              ],
+              "duracao": 1.2,
+              "acelerado": true
+            },
+            {
+              "pontos": [
+                [
+                  0,
+                  118
+                ],
+                [
+                  0,
+                  148
+                ]
+              ],
+              "duracao": 0.46,
+              "velocidades": [
+                2,
+                0
+              ]
+            }
+          ]
+        },
+        "prato-desce": {
+          "alvo": "prato",
+          "tipo": "trajeto",
+          "pausa": 1.5,
+          "fases": [
+            {
+              "pontos": [
+                [
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0
+                ]
+              ],
+              "duracao": 1.2
+            },
+            {
+              "pontos": [
+                [
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  30
+                ]
+              ],
+              "duracao": 0.46,
+              "velocidades": [
+                2,
+                0
+              ]
+            }
+          ]
+        },
+        "mola-estica": {
+          "alvo": "mola",
+          "tipo": "esticar",
+          "centro": [
+            200,
+            50
           ],
-          "duracao": 1.2,
-          "pausa": 1.2,
-          "acelerado": true
+          "pausa": 1.5,
+          "fases": [
+            {
+              "de": 1,
+              "ate": 1,
+              "duracao": 1.2
+            },
+            {
+              "de": 1,
+              "ate": 1.4166666666666667,
+              "duracao": 0.46,
+              "velocidades": [
+                2,
+                0
+              ]
+            }
+          ]
         }
       }
     }
@@ -229,15 +533,19 @@
       "nome": "Queda livre e colisão",
       "telas": [
         {
-          "titulo": "A velocidade ao chegar ao prato",
+          "titulo": "A queda e o choque",
           "cena": {
             "mostrar": [
-              "dinamometro",
+              "teto",
+              "mola",
+              "prato",
               "pacote",
               "altura"
             ],
             "animar": [
-              "cair"
+              "cair",
+              "prato-desce",
+              "mola-estica"
             ]
           },
           "blocos": [
@@ -264,28 +572,25 @@
             {
               "t": "eq",
               "tex": "v = 3\\ \\text{m/s}"
+            },
+            {
+              "t": "texto",
+              "html": "No choque, o pacote <b>gruda</b> no prato, e os dois passam a descer <b>juntos</b>, mais devagar."
             }
           ]
         },
         {
-          "titulo": "A colisão",
+          "titulo": "Antes e depois da colisão",
           "cena": {
             "mostrar": [
-              "dinamometro",
-              "pacote",
-              "altura",
-              "antes",
-              "depois"
-            ],
-            "destacar": [
-              "antes",
-              "depois"
+              "foto-antes",
+              "foto-depois"
             ]
           },
           "blocos": [
             {
               "t": "texto",
-              "html": "Na colisão, o sistema é isolado: a <b>quantidade de movimento se conserva</b>. Depois, pacote e prato (0,2 kg) seguem juntos a 2 m/s."
+              "html": "Duas fotografias: <b>imediatamente antes</b> e <b>imediatamente depois</b> da colisão. Nesse instante tão curto, o sistema é isolado: a <b>quantidade de movimento se conserva</b>."
             },
             {
               "t": "eq",

@@ -16,6 +16,13 @@ de modelo de dados; CORREÇÃO, em correções de questões já publicadas.
   (6,8; 4,2) que o enunciado já dá.
 - Rótulos dos eixos horizontais que encostavam nos números da escala (2024 Q79 e Q80, 2023 Q79)
   descidos para baixo deles.
+- Revisão do Lucas (2023): na **Q78**, pacote e prato descem **juntos** depois do choque (a mola
+  estica) e a segunda tela mostra duas fotografias, **imediatamente antes** (pacote a 3 m/s, prato
+  em repouso) e **imediatamente depois** (os dois a 2 m/s), com a velocidade junto de cada corpo;
+  na **Q80**, o arco de α vai da superfície até o raio refratado; na **Q87**, a partícula acelera
+  uniformemente de 8 m/s a 10 m/s.
+- Diagrama: o `trajeto` aceita `velocidades: [v0, v]` (aceleração uniforme a partir de v0) e
+  `fases` (movimentos em sequência no mesmo ciclo); novo tipo `esticar` (mola).
 - Todas aguardam a revisão do Lucas no app; o site público não muda até ele aprovar.
 
 ## v2.16.0 — 2026-11-15

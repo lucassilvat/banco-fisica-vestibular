@@ -44,6 +44,10 @@ A resolução é dada como um professor faria na lousa:
 - **Cancelamento**: o traço é um fundo diagonal no próprio termo marcado (canto inferior esquerdo ao
   superior direito, como o `\cancel`), sem medir a tela: assim acompanha o termo em qualquer escala
   (o painel do artefato reduz a página, e um traço posicionado por medida saía deslocado).
+- **Movimento com aceleração uniforme**: no `trajeto`, `velocidades: [v0, v]` faz o corpo ir de v0
+  a v uniformemente (`acelerado: true` é o caso que parte do repouso). Para sequências no mesmo
+  ciclo (cai, depois desce junto com o prato), `fases: [{pontos, duracao, ...}, ...]`; o tipo
+  `esticar` (mola) usa `fases` com `de`/`ate` (fator vertical) e `centro`.
 - **Resolução aprovada não se altera direto**: sugerir ao Lucas e esperar o aval; depois da mudança,
   ela volta à revisão.
 - Exemplo completo: `data/animacoes/unesp-2026-q81.json` (dois métodos, cancelamento e mover).

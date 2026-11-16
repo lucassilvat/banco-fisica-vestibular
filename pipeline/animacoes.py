@@ -120,7 +120,13 @@ def checar_diagrama(par: dict) -> list[str]:
             if falta: e.append(f"elemento {id_}: forma {f['t']} sem {', '.join(sorted(falta))}")
     for n, an in par.get("animacoes", {}).items():
         if an.get("alvo") not in els: e.append(f"animação {n}: alvo inexistente {an.get('alvo')}")
-        if an.get("tipo") not in ("trajeto", "girar", "oscilar", "aparecer", "escalar"): e.append(f"animação {n}: tipo desconhecido {an.get('tipo')}")
+        if an.get("tipo") not in ("trajeto", "girar", "oscilar", "aparecer", "escalar", "esticar"): e.append(f"animação {n}: tipo desconhecido {an.get('tipo')}")
+        for f in an.get("fases", []):
+            if not f.get("duracao"): e.append(f"animação {n}: fase sem duracao")
+            if an.get("tipo") == "trajeto" and len(f.get("pontos", [])) < 2: e.append(f"animação {n}: fase sem pontos")
+            if an.get("tipo") == "esticar" and ("de" not in f or "ate" not in f or not (f.get("centro") or an.get("centro"))): e.append(f"animação {n}: fase de esticar sem de/ate/centro")
+            v = f.get("velocidades")
+            if v is not None and (len(v) != 2 or min(v) < 0): e.append(f"animação {n}: velocidades inválidas {v}")
     return e
 
 

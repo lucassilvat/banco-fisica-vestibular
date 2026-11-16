@@ -469,7 +469,11 @@
             ]
           ],
           "duracao": 5,
-          "pausa": 1
+          "pausa": 1,
+          "velocidades": [
+            8,
+            10
+          ]
         }
       }
     }
