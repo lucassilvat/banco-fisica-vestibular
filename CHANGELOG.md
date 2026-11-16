@@ -23,7 +23,8 @@ de modelo de dados; CORREÇÃO, em correções de questões já publicadas.
   uniformemente de 8 m/s a 10 m/s.
 - Diagrama: o `trajeto` aceita `velocidades: [v0, v]` (aceleração uniforme a partir de v0) e
   `fases` (movimentos em sequência no mesmo ciclo); novo tipo `esticar` (mola).
-- Todas aguardam a revisão do Lucas no app; o site público não muda até ele aprovar.
+- Revisões importadas: as 17 foram **aprovadas** pelo Lucas; o site público passa a ter **34**
+  resoluções animadas (Unesp 2023 a 2026).
 
 ## v2.16.0 — 2026-11-15
 

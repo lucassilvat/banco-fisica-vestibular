@@ -625,5 +625,10 @@
   ],
   "status": "revisado",
   "criadoEm": "2026-11-15T09:00:00-03:00",
-  "atualizadoEm": "2026-11-15T09:00:00-03:00"
+  "atualizadoEm": "2026-11-15T09:00:00-03:00",
+  "revisao": {
+    "estado": "aprovada",
+    "comentario": "Acredito que a animação poderia ser melhor, fazendo com que os dois se movam juntos após o contato. Indique a velocidade também próxima ao corpo em questão. Você pode, após a colisão, indicar dois cenários: 1 - fotografia imediatamente antes da colisão. 2 - fotografia imediatamente após a colisão. A animação serve para o aluno entender o que aconteceu.",
+    "atualizadoEm": "2026-11-16T23:27:47.516Z"
+  }
 }
