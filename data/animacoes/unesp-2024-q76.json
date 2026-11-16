@@ -1,5 +1,6 @@
 {
   "id": "unesp-2024-q76",
+  "formato": "aula",
   "titulo": "Reconhecendo a, s e v pelo formato do gráfico",
   "conceitos": [
     "Gráficos do movimento",
@@ -3655,60 +3656,103 @@
       }
     }
   },
-  "passos": [
+  "metodos": [
     {
-      "titulo": "Três gráficos, quatro trechos",
-      "conceito": "Gráficos do movimento",
-      "texto": "O veículo só faz MU ou MUV: em cada trecho, a aceleração é constante.",
-      "cena": {
-        "mostrar": [
-          "graficos",
-          "trechos"
-        ]
-      }
-    },
-    {
-      "titulo": "A aceleração",
-      "conceito": "Gráficos do movimento",
-      "texto": "Aceleração constante em cada trecho dá segmentos horizontais: positiva no trecho 1, nula no 2, negativa no 3 e positiva no 4. É o gráfico I.",
-      "cena": {
-        "mostrar": [
-          "rot-1"
-        ],
-        "destacar": [
-          "rot-1"
-        ]
-      }
-    },
-    {
-      "titulo": "A velocidade",
-      "conceito": "MUV",
-      "texto": "No MUV a velocidade varia em linha reta; no MU fica constante. No trecho 3 ela passa por zero e fica negativa: o carro inverte o sentido. É o gráfico III.",
-      "cena": {
-        "mostrar": [
-          "rot-3"
-        ],
-        "destacar": [
-          "rot-3"
-        ]
-      }
-    },
-    {
-      "titulo": "A posição",
-      "conceito": "MUV",
-      "texto": "No MUV a posição é um arco de parábola; no MU, uma reta. A posição é máxima no instante em que a velocidade se anula. É o gráfico II. Resposta: <b>(D)</b>.",
-      "cena": {
-        "mostrar": [
-          "rot-2",
-          "inversao"
-        ],
-        "destacar": [
-          "inversao"
-        ]
-      }
+      "nome": "Pelo formato de cada gráfico",
+      "telas": [
+        {
+          "titulo": "A aceleração",
+          "cena": {
+            "mostrar": [
+              "graficos",
+              "trechos",
+              "rot-1"
+            ],
+            "destacar": [
+              "rot-1"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "Em MU e em MUV, a <b>aceleração</b> é constante em cada trecho: o gráfico dela é feito de <b>segmentos horizontais</b>."
+            },
+            {
+              "t": "texto",
+              "html": "Esse é o gráfico <b>I</b>: positiva no trecho 1, nula no 2, negativa no 3 e positiva no 4."
+            }
+          ]
+        },
+        {
+          "titulo": "A velocidade",
+          "cena": {
+            "mostrar": [
+              "graficos",
+              "trechos",
+              "rot-1",
+              "rot-3"
+            ],
+            "destacar": [
+              "rot-3"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "A <b>velocidade</b> varia linearmente no MUV e é constante no MU: o gráfico dela é feito de <b>segmentos de reta</b>."
+            },
+            {
+              "t": "texto",
+              "html": "No gráfico <b>III</b>, ela sobe, fica constante, desce passando por <b>zero</b> (o veículo inverte o sentido) e volta a zero no destino."
+            }
+          ]
+        },
+        {
+          "titulo": "A posição",
+          "cena": {
+            "mostrar": [
+              "graficos",
+              "trechos",
+              "rot-1",
+              "rot-3",
+              "rot-2",
+              "inversao"
+            ],
+            "destacar": [
+              "inversao"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "Sobra a <b>posição</b>, feita de arcos de parábola (MUV) e de reta (MU)."
+            },
+            {
+              "t": "texto",
+              "html": "No gráfico <b>II</b>, ela cresce, atinge um <b>máximo</b> quando a velocidade se anula (a inversão) e depois diminui."
+            },
+            {
+              "t": "texto",
+              "html": "I, II e III: <b>aceleração, posição e velocidade</b>."
+            },
+            {
+              "t": "gabarito",
+              "letra": "D"
+            },
+            {
+              "t": "fim"
+            }
+          ]
+        }
+      ]
     }
   ],
   "status": "revisado",
   "criadoEm": "2026-11-15T09:00:00-03:00",
-  "atualizadoEm": "2026-11-15T09:00:00-03:00"
+  "atualizadoEm": "2026-11-15T09:00:00-03:00",
+  "revisao": {
+    "estado": "aprovada",
+    "comentario": "",
+    "atualizadoEm": "2026-11-16T23:10:39.833Z"
+  }
 }

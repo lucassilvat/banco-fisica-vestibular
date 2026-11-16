@@ -4,6 +4,28 @@ Cada versão corresponde a um lote de importação ou a uma mudança no app/pipe
 Formato: `vMAIOR.MENOR.CORREÇÃO` — MENOR sobe a cada prova importada; MAIOR, em mudanças
 de modelo de dados; CORREÇÃO, em correções de questões já publicadas.
 
+## v2.17.0 — 2026-11-15
+
+- **Unesp 2024 e 2023 no formato aula** (17 questões: 2024 Q76 a Q82 e Q86; 2023 Q70, Q76 a Q82
+  e Q87), com os desenhos que cada questão já tinha. Cancelamentos animados: 10<sup>5</sup> em
+  Boyle (2024 Q78), 300 com 300 no pneu (2023 Q70), a massa na queda livre (2023 Q78), 80 com 2
+  na energia cinética (2023 Q79), v e o 2 na razão das frequências (2023 Q81) e o 2 de 36/58
+  (2023 Q87); termos que passam para o outro lado: v (2024 Q79), 1 200 (2023 Q70), 2m (2023 Q78),
+  n<sub>líq</sub> (2023 Q80) e 64 (2023 Q87).
+- Dois métodos em abas na **2024 Q86**: com as três placas, ou aproveitando o centro de massa
+  (6,8; 4,2) que o enunciado já dá.
+- Rótulos dos eixos horizontais que encostavam nos números da escala (2024 Q79 e Q80, 2023 Q79)
+  descidos para baixo deles.
+- Revisão do Lucas (2023): na **Q78**, pacote e prato descem **juntos** depois do choque (a mola
+  estica) e a segunda tela mostra duas fotografias, **imediatamente antes** (pacote a 3 m/s, prato
+  em repouso) e **imediatamente depois** (os dois a 2 m/s), com a velocidade junto de cada corpo;
+  na **Q80**, o arco de α vai da superfície até o raio refratado; na **Q87**, a partícula acelera
+  uniformemente de 8 m/s a 10 m/s.
+- Diagrama: o `trajeto` aceita `velocidades: [v0, v]` (aceleração uniforme a partir de v0) e
+  `fases` (movimentos em sequência no mesmo ciclo); novo tipo `esticar` (mola).
+- Revisões importadas: as 17 foram **aprovadas** pelo Lucas; o site público passa a ter **34**
+  resoluções animadas (Unesp 2023 a 2026).
+
 ## v2.16.0 — 2026-11-15
 
 - **Unesp 2025 no formato aula** (10 questões: Q48, Q76 a Q82, Q84 e Q90), reaproveitando os

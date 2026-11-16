@@ -1,5 +1,6 @@
 {
   "id": "unesp-2023-q76",
+  "formato": "aula",
   "titulo": "Lendo sensibilidade e temperatura nos gráficos dos termopares",
   "conceitos": [
     "Leitura de gráficos",
@@ -1725,39 +1726,82 @@
       }
     }
   },
-  "passos": [
+  "metodos": [
     {
-      "titulo": "Sensibilidade é inclinação",
-      "conceito": "Inclinação de uma curva",
-      "texto": "A sensibilidade (mV/ºC) é a inclinação da curva. A reta E é a mais inclinada em toda a faixa e fica acima das outras: E é o mais sensível e, para a mesma temperatura, dá a maior tensão. Isso derruba A, B e E. De 600 ºC a 1 200 ºC, N sobe um pouco mais que K: D também é falsa.",
-      "cena": {
-        "mostrar": [
-          "grafico",
-          "inclinacao"
-        ],
-        "destacar": [
-          "inclinacao"
-        ]
-      }
-    },
-    {
-      "titulo": "Mesma tensão, temperaturas diferentes",
-      "conceito": "Leitura de gráficos",
-      "texto": "Uma horizontal (mesma U) corta a curva E numa temperatura menor e a curva N numa temperatura maior, porque N é menos inclinada. Resposta: <b>(C)</b>.",
-      "cena": {
-        "ocultar": [
-          "inclinacao"
-        ],
-        "mostrar": [
-          "horizontal"
-        ],
-        "destacar": [
-          "horizontal"
-        ]
-      }
+      "nome": "Inclinação e leitura do gráfico",
+      "telas": [
+        {
+          "titulo": "Sensibilidade é inclinação",
+          "cena": {
+            "mostrar": [
+              "grafico",
+              "inclinacao"
+            ],
+            "destacar": [
+              "inclinacao"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "A <b>sensibilidade</b> é a inclinação da curva: quanto mais inclinada, mais a tensão muda por grau."
+            },
+            {
+              "t": "texto",
+              "html": "A curva <b>E</b> é a mais inclinada em toda a faixa: E é o mais sensível. Isso derruba (B) e (E)."
+            },
+            {
+              "t": "texto",
+              "html": "Para uma mesma temperatura, a curva E fica <b>acima</b> da K: (A) é falsa."
+            }
+          ]
+        },
+        {
+          "titulo": "Mesma tensão, temperaturas diferentes",
+          "cena": {
+            "mostrar": [
+              "grafico",
+              "horizontal"
+            ],
+            "destacar": [
+              "horizontal"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "Traçando uma horizontal (mesma tensão U), ela corta a curva E numa temperatura <b>menor</b> e a curva N numa temperatura <b>maior</b>, porque N é menos inclinada: (C) é verdadeira."
+            },
+            {
+              "t": "texto",
+              "html": "(D): de 600 ºC a 1 200 ºC, a curva N vai de cerca de 19 mV a 44 mV:"
+            },
+            {
+              "t": "eq",
+              "tex": "\\dfrac{44 - 19}{1\\,200 - 600} = \\dfrac{25}{600} \\approx 0,042\\ \\text{mV/ºC}"
+            },
+            {
+              "t": "texto",
+              "html": "A reta K tem cerca de 0,040 mV/ºC: nessa faixa, N é um pouco <b>mais</b> sensível. (D) é falsa."
+            },
+            {
+              "t": "gabarito",
+              "letra": "C"
+            },
+            {
+              "t": "fim"
+            }
+          ]
+        }
+      ]
     }
   ],
   "status": "revisado",
   "criadoEm": "2026-11-15T09:00:00-03:00",
-  "atualizadoEm": "2026-11-15T09:00:00-03:00"
+  "atualizadoEm": "2026-11-15T09:00:00-03:00",
+  "revisao": {
+    "estado": "aprovada",
+    "comentario": "",
+    "atualizadoEm": "2026-11-16T22:57:16.180Z"
+  }
 }

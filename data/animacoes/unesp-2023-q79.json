@@ -1,5 +1,6 @@
 {
   "id": "unesp-2023-q79",
+  "formato": "aula",
   "titulo": "Do gráfico à velocidade, e dela à energia cinética",
   "conceitos": [
     "Leitura de gráficos",
@@ -40,7 +41,7 @@
           {
             "t": "texto",
             "x": 572,
-            "y": 382.0,
+            "y": 400.0,
             "txt": "L (cm)",
             "ancora": "end",
             "mudo": true
@@ -1355,41 +1356,83 @@
       }
     }
   },
-  "passos": [
+  "metodos": [
     {
-      "titulo": "A frequência dos passos",
-      "conceito": "Leitura de gráficos",
-      "texto": "Pernas de 1 m = 100 cm: o gráfico dá 1 passo por segundo.",
-      "cena": {
-        "mostrar": [
-          "grafico",
-          "leitura"
-        ],
-        "destacar": [
-          "leitura"
-        ]
-      }
-    },
-    {
-      "titulo": "A velocidade",
-      "conceito": "Velocidade",
-      "texto": "Cada passo leva a pessoa 0,9 m adiante, e ela dá 1 passo por segundo.",
-      "equacoes": [
-        "v = 0,9 \\cdot 1 = 0,9\\ \\text{m/s}"
-      ],
-      "cena": {}
-    },
-    {
-      "titulo": "A energia cinética",
-      "conceito": "Energia cinética",
-      "texto": "Resposta: <b>(B) 32,4 J</b>.",
-      "equacoes": [
-        "E_{\\text{c}} = \\dfrac{m v^{2}}{2} = \\dfrac{80 \\cdot 0,9^{2}}{2} = 32,4\\ \\text{J}"
-      ],
-      "cena": {}
+      "nome": "Do gráfico à energia cinética",
+      "telas": [
+        {
+          "titulo": "A frequência dos passos",
+          "cena": {
+            "mostrar": [
+              "grafico",
+              "leitura"
+            ],
+            "destacar": [
+              "leitura"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "No gráfico, para pernas de <b>1 m</b> (100 cm), a frequência é de <b>1 passo por segundo</b>."
+            }
+          ]
+        },
+        {
+          "titulo": "A velocidade e a energia",
+          "cena": {
+            "mostrar": [
+              "grafico",
+              "leitura"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "Cada passo desloca a pessoa 0,9 m, e ela dá um passo por segundo:"
+            },
+            {
+              "t": "eq",
+              "tex": "v = 0,9 \\cdot 1 = 0,9\\ \\text{m/s}"
+            },
+            {
+              "t": "texto",
+              "html": "A energia cinética:"
+            },
+            {
+              "t": "eq",
+              "tex": "E_{c} = \\dfrac{m v^{2}}{2} = \\dfrac{\\marca{a}{80} \\cdot 0,81}{\\marca{b}{2}}"
+            },
+            {
+              "t": "eq",
+              "tex": "E_{c} = 40 \\cdot 0,81",
+              "cancelar": [
+                "a",
+                "b"
+              ]
+            },
+            {
+              "t": "eq",
+              "tex": "E_{c} = 32,4\\ \\text{J}"
+            },
+            {
+              "t": "gabarito",
+              "letra": "B"
+            },
+            {
+              "t": "fim"
+            }
+          ]
+        }
+      ]
     }
   ],
   "status": "revisado",
   "criadoEm": "2026-11-15T09:00:00-03:00",
-  "atualizadoEm": "2026-11-15T09:00:00-03:00"
+  "atualizadoEm": "2026-11-15T09:00:00-03:00",
+  "revisao": {
+    "estado": "aprovada",
+    "comentario": "",
+    "atualizadoEm": "2026-11-16T23:01:57.503Z"
+  }
 }

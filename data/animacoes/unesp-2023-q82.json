@@ -1,5 +1,6 @@
 {
   "id": "unesp-2023-q82",
+  "formato": "aula",
   "titulo": "Lendo as quedas de potencial nos resistores",
   "conceitos": [
     "Potencial elétrico",
@@ -461,36 +462,88 @@
       }
     }
   },
-  "passos": [
+  "metodos": [
     {
-      "titulo": "O que o gráfico mostra",
-      "conceito": "Potencial elétrico",
-      "texto": "Nos fios o potencial não muda. No gerador (de Q a S) ele sobe de 0 para 80 V; em R<sub>1</sub> (de T a U) cai para 30 V; em R<sub>2</sub> (de X a Y) cai para 0.",
-      "cena": {
-        "mostrar": [
-          "circuito",
-          "grafico"
-        ]
-      }
-    },
-    {
-      "titulo": "As resistências",
-      "conceito": "Primeira lei de Ohm",
-      "texto": "Os resistores estão em série com o amperímetro: a corrente nos dois é 2 A. Resposta: <b>(D) 25 Ω e 15 Ω</b>.",
-      "equacoes": [
-        "\\mathrm{R}_1 = \\dfrac{80 - 30}{2} = 25\\ \\Omega, \\quad \\mathrm{R}_2 = \\dfrac{30}{2} = 15\\ \\Omega"
-      ],
-      "cena": {
-        "mostrar": [
-          "quedas"
-        ],
-        "destacar": [
-          "quedas"
-        ]
-      }
+      "nome": "Quedas de potencial",
+      "telas": [
+        {
+          "titulo": "O que o gráfico mostra",
+          "cena": {
+            "mostrar": [
+              "circuito",
+              "grafico"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "No gráfico, ao longo de P a Z:"
+            },
+            {
+              "t": "texto",
+              "html": "no <b>gerador</b> (Q a S), o potencial sobe de 0 para 80 V;"
+            },
+            {
+              "t": "texto",
+              "html": "em <b>R<sub>1</sub></b> (T a U), cai de 80 V para 30 V;"
+            },
+            {
+              "t": "texto",
+              "html": "em <b>R<sub>2</sub></b> (X a Y), cai de 30 V para 0. Nos fios, não muda."
+            }
+          ]
+        },
+        {
+          "titulo": "As resistências",
+          "cena": {
+            "mostrar": [
+              "circuito",
+              "grafico",
+              "quedas"
+            ],
+            "destacar": [
+              "quedas"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "Os resistores estão em <b>série</b> com o amperímetro: a corrente em ambos é 2 A. Pela primeira lei de Ohm:"
+            },
+            {
+              "t": "eq",
+              "tex": "R_{1} = \\dfrac{U_{1}}{i} = \\dfrac{80 - 30}{2} = \\dfrac{50}{2}"
+            },
+            {
+              "t": "eq",
+              "tex": "R_{1} = 25\\ \\Omega"
+            },
+            {
+              "t": "eq",
+              "tex": "R_{2} = \\dfrac{U_{2}}{i} = \\dfrac{30}{2}"
+            },
+            {
+              "t": "eq",
+              "tex": "R_{2} = 15\\ \\Omega"
+            },
+            {
+              "t": "gabarito",
+              "letra": "D"
+            },
+            {
+              "t": "fim"
+            }
+          ]
+        }
+      ]
     }
   ],
   "status": "revisado",
   "criadoEm": "2026-11-15T09:00:00-03:00",
-  "atualizadoEm": "2026-11-15T09:00:00-03:00"
+  "atualizadoEm": "2026-11-15T09:00:00-03:00",
+  "revisao": {
+    "estado": "aprovada",
+    "comentario": "",
+    "atualizadoEm": "2026-11-16T23:06:11.255Z"
+  }
 }

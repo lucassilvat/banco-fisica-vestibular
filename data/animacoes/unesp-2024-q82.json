@@ -1,5 +1,6 @@
 {
   "id": "unesp-2024-q82",
+  "formato": "aula",
   "titulo": "Somando o campo do solenoide com o da Terra",
   "conceitos": [
     "Campo magnético de solenoide",
@@ -370,53 +371,98 @@
       }
     }
   },
-  "passos": [
+  "metodos": [
     {
-      "titulo": "O campo do solenoide",
-      "conceito": "Campo magnético de solenoide",
-      "texto": "Dentro do solenoide, o campo da corrente tem a direção do eixo. Seguindo o fio: ele sobe por trás da face e desce pelos trechos inclinados da frente. Com os dedos da mão direita nesse giro, o polegar aponta para a direita.",
-      "cena": {
-        "mostrar": [
-          "face",
-          "bobina",
-          "b-sol"
-        ],
-        "destacar": [
-          "b-sol"
-        ]
-      }
-    },
-    {
-      "titulo": "O campo da Terra",
-      "conceito": "Campo magnético terrestre",
-      "texto": "O campo terrestre está no plano da figura, vertical, para cima.",
-      "cena": {
-        "mostrar": [
-          "b-t"
-        ],
-        "destacar": [
-          "b-t"
-        ]
-      }
-    },
-    {
-      "titulo": "O campo sentido pelo tubarão",
-      "conceito": "Soma vetorial",
-      "texto": "O campo total é a soma vetorial dos dois: um vetor no plano da figura, inclinado para cima e para a direita. Resposta: <b>(B)</b>.",
-      "equacoes": [
-        "\\vec{B} = \\vec{B}_{\\text{sol}} + \\vec{B}_{\\text{T}}"
-      ],
-      "cena": {
-        "mostrar": [
-          "b-res"
-        ],
-        "destacar": [
-          "b-res"
-        ]
-      }
+      "nome": "Soma dos dois campos",
+      "telas": [
+        {
+          "titulo": "O campo do solenoide",
+          "cena": {
+            "mostrar": [
+              "face",
+              "bobina",
+              "b-sol"
+            ],
+            "destacar": [
+              "b-sol"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "A corrente entra pela direita, sobe <b>por trás</b> da face, passa por cima e desce <b>pela frente</b>, avançando para a esquerda."
+            },
+            {
+              "t": "texto",
+              "html": "Pela <b>regra da mão direita</b>, com os dedos acompanhando esse giro, o polegar aponta para a <b>direita</b>: o campo do solenoide no eixo é horizontal, para a direita."
+            }
+          ]
+        },
+        {
+          "titulo": "O campo da Terra",
+          "cena": {
+            "mostrar": [
+              "face",
+              "bobina",
+              "b-sol",
+              "b-t"
+            ],
+            "destacar": [
+              "b-t"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "O campo da Terra, \\(\\vec{B}_{T}\\), é <b>vertical, para cima</b>, no plano da figura."
+            }
+          ]
+        },
+        {
+          "titulo": "O campo sentido pelo tubarão",
+          "cena": {
+            "mostrar": [
+              "face",
+              "bobina",
+              "b-sol",
+              "b-t",
+              "b-res"
+            ],
+            "destacar": [
+              "b-res"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "O tubarão sente a <b>soma vetorial</b> dos dois campos:"
+            },
+            {
+              "t": "eq",
+              "tex": "\\vec{B} = \\vec{B}_{\\text{sol}} + \\vec{B}_{T}"
+            },
+            {
+              "t": "texto",
+              "html": "Um vetor para a direita somado a um para cima dá um vetor <b>inclinado para cima e para a direita</b>, no plano da figura."
+            },
+            {
+              "t": "gabarito",
+              "letra": "B"
+            },
+            {
+              "t": "fim"
+            }
+          ]
+        }
+      ]
     }
   ],
   "status": "revisado",
   "criadoEm": "2026-11-15T09:00:00-03:00",
-  "atualizadoEm": "2026-11-15T09:00:00-03:00"
+  "atualizadoEm": "2026-11-15T09:00:00-03:00",
+  "revisao": {
+    "estado": "aprovada",
+    "comentario": "",
+    "atualizadoEm": "2026-11-16T23:17:14.209Z"
+  }
 }

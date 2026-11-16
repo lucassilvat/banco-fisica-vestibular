@@ -205,11 +205,14 @@ Para gravar questões, usam-se os lotes da etapa `publicar` (docs/WORKFLOW.md).
     cena que já existiam; Q81 e Q82 com dois métodos. Aprovadas pelo Lucas (17 resoluções
     animadas no site público). Na revisão, o traço de cancelamento passou a ser fundo diagonal
     do termo (alinhado em qualquer escala) e ficou a regra: aprovada não se altera sem o aval dele.
+39. v2.17.0: Unesp 2024 e 2023 (17 questões) no formato aula, num só lote, a pedido do Lucas;
+    2024 Q86 com dois métodos. Revisão: Q78, Q80 e Q87 de 2023 ajustadas (colisão com fotografias
+    antes/depois, arco de α, aceleração uniforme) e as 17 aprovadas: 34 no site público.
 
 ## Pendências
 
 - **Resolução animada**: formato aula (item 37); Unesp 2026 aprovada (7 no site público); Unesp 2025
-  aprovada (item 38); 17 no site público. Seguir prova a prova conforme o Lucas pedir. Em revisão pelo Lucas no app do Claude (item 36). Só as aprovadas vão
+  aprovada (item 38); 17 no site público. Unesp 2024 e 2023 aprovadas (item 39): 34 no site público. Seguir prova a prova conforme o Lucas pedir. Em revisão pelo Lucas no app do Claude (item 36). Só as aprovadas vão
   para o site público. As comentadas esperam ajustes: ler os comentários da coleção `revisoes`,
   corrigir os roteiros e republicar no app. Não produzir animações novas sem novo pedido.
 

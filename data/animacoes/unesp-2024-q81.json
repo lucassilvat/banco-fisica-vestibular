@@ -1,5 +1,6 @@
 {
   "id": "unesp-2024-q81",
+  "formato": "aula",
   "titulo": "Por que a mielina acelera o sinal",
   "conceitos": [
     "Segunda lei de Ohm",
@@ -153,38 +154,72 @@
       }
     }
   },
-  "passos": [
+  "metodos": [
     {
-      "titulo": "Resistividade e resistência",
-      "conceito": "Segunda lei de Ohm",
-      "texto": "A mielina tem resistividade muito maior que a do axônio. Com ρ muito grande, a resistência da mielina é muito grande: ela funciona como isolante em volta do axônio, que é o bom condutor.",
-      "equacoes": [
-        "R = \\dfrac{\\rho L}{A}"
-      ],
-      "cena": {
-        "mostrar": [
-          "fibra",
-          "resistividade"
-        ]
-      }
-    },
-    {
-      "titulo": "O sinal fica no axônio",
-      "conceito": "Condutores e isolantes",
-      "texto": "O sinal fica confinado no axônio, com pouca perda para fora. Com menos fuga, ele se propaga com mais eficiência e mais rapidez. Resposta: <b>(A)</b>.",
-      "cena": {
-        "mostrar": [
-          "sinal"
-        ],
-        "estado": {
-          "animar": [
-            "sinal"
+      "nome": "Resistividade e isolamento",
+      "telas": [
+        {
+          "titulo": "Resistividade e resistência",
+          "cena": {
+            "mostrar": [
+              "fibra",
+              "resistividade"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "A resistência de um trecho de material depende da resistividade:"
+            },
+            {
+              "t": "eq",
+              "tex": "R = \\dfrac{\\rho L}{A}"
+            },
+            {
+              "t": "texto",
+              "html": "A mielina tem resistividade <b>muito maior</b> que o axônio: oferece resistência muito maior à corrente. Funciona como um <b>isolante</b> em volta do axônio."
+            }
+          ]
+        },
+        {
+          "titulo": "O sinal fica no axônio",
+          "cena": {
+            "mostrar": [
+              "fibra",
+              "resistividade",
+              "sinal"
+            ],
+            "animar": [
+              "sinal"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "O sinal fica <b>confinado no axônio</b>, o bom condutor, com pouca fuga de carga para fora."
+            },
+            {
+              "t": "texto",
+              "html": "Com menos perda, o sinal se propaga com mais eficiência: a velocidade de transmissão <b>aumenta</b>."
+            },
+            {
+              "t": "gabarito",
+              "letra": "A"
+            },
+            {
+              "t": "fim"
+            }
           ]
         }
-      }
+      ]
     }
   ],
   "status": "revisado",
   "criadoEm": "2026-11-15T09:00:00-03:00",
-  "atualizadoEm": "2026-11-15T09:00:00-03:00"
+  "atualizadoEm": "2026-11-15T09:00:00-03:00",
+  "revisao": {
+    "estado": "aprovada",
+    "comentario": "",
+    "atualizadoEm": "2026-11-16T23:16:12.766Z"
+  }
 }

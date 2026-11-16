@@ -1855,13 +1855,26 @@ CENAS["diagrama"] = (svg, P) => {
   const anims = P.animacoes || {};
   const aplicar = (nome, s) => {
     const a = anims[nome], alvo = el[a.alvo] && el[a.alvo]._in; if (!alvo) return;
-    const dur = a.duracao || 3, ciclo = dur + (a.pausa == null ? 1 : a.pausa), k = Math.min((s % ciclo) / dur, 1);
-    if (a.tipo === "trajeto") {
-      const pts = a.pontos, segs = []; let L = 0;
+    // fração do caminho no instante k (0 a 1): uniforme; "acelerado" parte do repouso;
+    // "velocidades": [v0, v] = aceleração uniforme de v0 até v (pode ser frenagem, com v < v0)
+    const avanco = (f, k) => { const v = f.velocidades; if (v && v[0] + v[1] > 0) return (v[0] * k + (v[1] - v[0]) * k * k / 2) / ((v[0] + v[1]) / 2); return f.acelerado ? k * k : k; };
+    const noCaminho = (pts, kk) => { const segs = []; let L = 0;
       for (let i = 1; i < pts.length; i++) { const d = Math.hypot(pts[i][0] - pts[i - 1][0], pts[i][1] - pts[i - 1][1]); segs.push([pts[i - 1], pts[i], L, d]); L += d; }
-      const kk = a.acelerado ? k * k : k, sx = kk * L, sg = segs.find(q => sx >= q[2] && sx <= q[2] + q[3]) || segs[segs.length - 1], u = sg[3] ? (sx - sg[2]) / sg[3] : 0;
-      alvo.setAttribute("transform", `translate(${sg[0][0] + (sg[1][0] - sg[0][0]) * u},${sg[0][1] + (sg[1][1] - sg[0][1]) * u})`);
-    } else if (a.tipo === "girar") alvo.setAttribute("transform", `rotate(${(s * (a.graus_por_s || 90)) % 360} ${a.centro[0]} ${a.centro[1]})`);
+      const sx = kk * L, sg = segs.find(q => sx >= q[2] && sx <= q[2] + q[3]) || segs[segs.length - 1], u = sg[3] ? (sx - sg[2]) / sg[3] : 0;
+      return [sg[0][0] + (sg[1][0] - sg[0][0]) * u, sg[0][1] + (sg[1][1] - sg[0][1]) * u]; };
+    const esticar = (f, kk) => { const [cx, cy] = f.centro || a.centro, e = f.de + (f.ate - f.de) * kk; alvo.setAttribute("transform", `translate(${cx},${cy}) scale(1,${e}) translate(${-cx},${-cy})`); };
+    if (a.fases) { // fases em sequência no mesmo ciclo (ex.: cai; depois desce junto com o prato)
+      const tot = a.fases.reduce((t, f) => t + f.duracao, 0), ciclo = tot + (a.pausa == null ? 1 : a.pausa);
+      let t = s % ciclo, f = a.fases[a.fases.length - 1], k = 1;
+      for (const g of a.fases) { if (t <= g.duracao) { f = g; k = t / g.duracao; break; } t -= g.duracao; }
+      const kk = avanco(f, k);
+      if (a.tipo === "esticar") esticar(f, kk);
+      else { const [x, y] = noCaminho(f.pontos, kk); alvo.setAttribute("transform", `translate(${x},${y})`); }
+      return;
+    }
+    const dur = a.duracao || 3, ciclo = dur + (a.pausa == null ? 1 : a.pausa), k = Math.min((s % ciclo) / dur, 1);
+    if (a.tipo === "trajeto") { const [x, y] = noCaminho(a.pontos, avanco(a, k)); alvo.setAttribute("transform", `translate(${x},${y})`); }
+    else if (a.tipo === "esticar") esticar({ de: 1, ate: a.fator || 1.5 }, avanco(a, k)); else if (a.tipo === "girar") alvo.setAttribute("transform", `rotate(${(s * (a.graus_por_s || 90)) % 360} ${a.centro[0]} ${a.centro[1]})`);
     else if (a.tipo === "oscilar") { const v = Math.sin(2 * Math.PI * s / (a.periodo || 2)); alvo.setAttribute("transform", a.graus ? `rotate(${a.graus * v} ${a.centro[0]} ${a.centro[1]})` : `translate(${(a.dx || 0) * v},${(a.dy || 0) * v})`); }
     else if (a.tipo === "aparecer") alvo.style.opacity = k;
     else if (a.tipo === "escalar") { const f = 1 + ((a.fator || 1.5) - 1) * k, [cx, cy] = a.centro; alvo.setAttribute("transform", `translate(${cx},${cy}) scale(${f}) translate(${-cx},${-cy})`); }
