@@ -4,6 +4,20 @@ Cada versão corresponde a um lote de importação ou a uma mudança no app/pipe
 Formato: `vMAIOR.MENOR.CORREÇÃO` — MENOR sobe a cada prova importada; MAIOR, em mudanças
 de modelo de dados; CORREÇÃO, em correções de questões já publicadas.
 
+## v2.18.0 — 2026-11-16
+
+- **Unesp 2022 e 2021 no formato aula** (15 questões: 2022 Q76 a Q82; 2021 Q76 a Q82 e Q84).
+  Cancelamentos animados: T<sub>1</sub> + T<sub>2</sub> na velocidade média (2022 Q76), a massa na
+  energia (2022 Q78 e 2021 Q79), g e f na refração de ondas (2022 Q81); termos que passam para o
+  outro lado: 10 · 1,6 (2022 Q78), P (2022 Q79), 1/x na equação de Gauss com letras (2022 Q80),
+  Δt (2021 Q78) e 11,8 (2021 Q81).
+- **Dois métodos em abas**: 2022 Q82 (pela energia; pela razão das potências) e 2021 Q84 (convertendo
+  a velocidade do VANT para m/s; convertendo a do som para km/h).
+- Questões de conta simples (2022 Q82, 2021 Q82 e Q84) ficaram **só com a lousa**: as cenas antigas
+  eram apenas caixas com as contas. Na 2021 Q81, só a tabela de efeitos, centralizada e alargada,
+  com a linha certa destacada.
+- Todas aguardam a revisão do Lucas no app; o site público não muda até ele aprovar.
+
 ## v2.17.0 — 2026-11-15
 
 - **Unesp 2024 e 2023 no formato aula** (17 questões: 2024 Q76 a Q82 e Q86; 2023 Q70, Q76 a Q82

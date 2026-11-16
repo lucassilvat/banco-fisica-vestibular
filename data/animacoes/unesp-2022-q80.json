@@ -1,5 +1,6 @@
 {
   "id": "unesp-2022-q80",
+  "formato": "aula",
   "titulo": "Gauss com letras: d em função de x e y",
   "conceitos": [
     "Espelho esférico convexo",
@@ -260,36 +261,92 @@
       }
     }
   },
-  "passos": [
+  "metodos": [
     {
-      "titulo": "O que a figura informa",
-      "conceito": "Espelho esférico convexo",
-      "texto": "y é a distância do vértice ao centro de curvatura: o raio. A imagem A′ é virtual, atrás do espelho, a uma distância x do vértice. No espelho convexo, o foco é virtual (f negativo).",
-      "equacoes": [
-        "f = -\\dfrac{\\mathrm{y}}{2}, \\quad p′ = -\\mathrm{x}, \\quad p = \\mathrm{d}"
-      ],
-      "cena": {
-        "mostrar": [
-          "eixo",
-          "objeto",
-          "raio",
-          "imagem",
-          "cotas"
-        ]
-      }
-    },
-    {
-      "titulo": "Equação de Gauss",
-      "conceito": "Equação de Gauss",
-      "texto": "Resposta: <b>(D)</b>.",
-      "equacoes": [
-        "-\\dfrac{2}{\\mathrm{y}} = \\dfrac{1}{\\mathrm{d}} - \\dfrac{1}{\\mathrm{x}} \\quad \\Rightarrow \\quad \\dfrac{1}{\\mathrm{d}} = \\dfrac{\\mathrm{y} - 2\\mathrm{x}}{\\mathrm{x} \\cdot \\mathrm{y}} \\quad \\Rightarrow \\quad \\mathrm{d} = \\dfrac{\\mathrm{x} \\cdot \\mathrm{y}}{\\mathrm{y} - 2 \\cdot \\mathrm{x}}"
-      ],
-      "cena": {
-        "destacar": [
-          "cotas"
-        ]
-      }
+      "nome": "Equação de Gauss com letras",
+      "telas": [
+        {
+          "titulo": "O que a figura informa",
+          "cena": {
+            "mostrar": [
+              "eixo",
+              "objeto",
+              "raio",
+              "imagem",
+              "cotas"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "Pela figura, y vai do vértice ao centro de curvatura: o <b>raio de curvatura</b> é y. Espelho <b>convexo</b>: foco negativo."
+            },
+            {
+              "t": "eq",
+              "tex": "f = -\\dfrac{y}{2}"
+            },
+            {
+              "t": "texto",
+              "html": "A imagem A’ é <b>virtual</b>, a x do vértice, e o objeto está a d:"
+            },
+            {
+              "t": "eq",
+              "tex": "p' = -x, \\quad p = d"
+            }
+          ]
+        },
+        {
+          "titulo": "Equação de Gauss",
+          "cena": {
+            "mostrar": [
+              "eixo",
+              "objeto",
+              "raio",
+              "imagem",
+              "cotas"
+            ],
+            "destacar": [
+              "cotas"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "eq",
+              "tex": "\\dfrac{1}{f} = \\dfrac{1}{p} + \\dfrac{1}{p'}"
+            },
+            {
+              "t": "eq",
+              "tex": "-\\dfrac{2}{y} = \\dfrac{1}{d} \\marca{x}{- \\dfrac{1}{x}}"
+            },
+            {
+              "t": "texto",
+              "html": "Isolamos 1/d: o termo de x <b>passa para o outro lado</b>, somando."
+            },
+            {
+              "t": "eq",
+              "tex": "\\marca{x}{\\dfrac{1}{x}} - \\dfrac{2}{y} = \\dfrac{1}{d}",
+              "mover": [
+                "x"
+              ]
+            },
+            {
+              "t": "eq",
+              "tex": "\\dfrac{1}{d} = \\dfrac{y - 2x}{x y}"
+            },
+            {
+              "t": "eq",
+              "tex": "d = \\dfrac{x \\cdot y}{y - 2 \\cdot x}"
+            },
+            {
+              "t": "gabarito",
+              "letra": "D"
+            },
+            {
+              "t": "fim"
+            }
+          ]
+        }
+      ]
     }
   ],
   "status": "revisado",

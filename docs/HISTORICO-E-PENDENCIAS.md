@@ -208,11 +208,14 @@ Para gravar questões, usam-se os lotes da etapa `publicar` (docs/WORKFLOW.md).
 39. v2.17.0: Unesp 2024 e 2023 (17 questões) no formato aula, num só lote, a pedido do Lucas;
     2024 Q86 com dois métodos. Revisão: Q78, Q80 e Q87 de 2023 ajustadas (colisão com fotografias
     antes/depois, arco de α, aceleração uniforme) e as 17 aprovadas: 34 no site público.
+40. v2.18.0: Unesp 2022 e 2021 (15 questões) no formato aula; 2022 Q82 e 2021 Q84 com dois
+    métodos; contas simples só na lousa. Aguardando a revisão do Lucas no app.
 
 ## Pendências
 
 - **Resolução animada**: formato aula (item 37); Unesp 2026 aprovada (7 no site público); Unesp 2025
-  aprovada (item 38); 17 no site público. Unesp 2024 e 2023 aprovadas (item 39): 34 no site público. Seguir prova a prova conforme o Lucas pedir. Em revisão pelo Lucas no app do Claude (item 36). Só as aprovadas vão
+  aprovada (item 38); 17 no site público. Unesp 2024 e 2023 aprovadas (item 39): 34 no site público. Unesp 2022 e 2021 refeitas (item 40),
+  aguardando revisão. Seguir prova a prova conforme o Lucas pedir. Em revisão pelo Lucas no app do Claude (item 36). Só as aprovadas vão
   para o site público. As comentadas esperam ajustes: ler os comentários da coleção `revisoes`,
   corrigir os roteiros e republicar no app. Não produzir animações novas sem novo pedido.
 

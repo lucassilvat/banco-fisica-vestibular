@@ -1,283 +1,69 @@
 {
   "id": "unesp-2021-q82",
+  "formato": "aula",
   "titulo": "Quanto tempo a economia leva para pagar a TV",
   "conceitos": [
     "Energia elétrica",
     "Consumo em kWh"
   ],
-  "cena": {
-    "modelo": "diagrama",
-    "parametros": {
-      "elementos": {
-        "etapa-1": [
-          {
-            "t": "ret",
-            "x": 30,
-            "y": 16,
-            "w": 380,
-            "h": 40,
-            "cor": "suave",
-            "borda": "normal",
-            "rx": 7
-          },
-          {
-            "t": "texto",
-            "x": 42,
-            "y": 36.0,
-            "txt": "potência economizada",
-            "mudo": true,
-            "ancora": "start"
-          },
-          {
-            "t": "texto",
-            "x": 398,
-            "y": 36.0,
-            "txt": "40 W = 0,04 kW",
-            "negrito": true,
-            "ancora": "end"
-          }
-        ],
-        "etapa-2": [
-          {
-            "t": "seta",
-            "de": [
-              220.0,
-              59
-            ],
-            "para": [
-              220.0,
-              79
-            ],
-            "cor": "tinta",
-            "larg": 1.8
-          },
-          {
-            "t": "texto",
-            "x": 232.0,
-            "y": 69.0,
-            "txt": "× 5 h",
-            "negrito": true,
-            "cor": "acel",
-            "ancora": "start"
-          },
-          {
-            "t": "ret",
-            "x": 30,
-            "y": 82,
-            "w": 380,
-            "h": 40,
-            "cor": "suave",
-            "borda": "normal",
-            "rx": 7
-          },
-          {
-            "t": "texto",
-            "x": 42,
-            "y": 102.0,
-            "txt": "energia por dia (5 h)",
-            "mudo": true,
-            "ancora": "start"
-          },
-          {
-            "t": "texto",
-            "x": 398,
-            "y": 102.0,
-            "txt": "0,2 kWh",
-            "negrito": true,
-            "ancora": "end"
-          }
-        ],
-        "etapa-3": [
-          {
-            "t": "seta",
-            "de": [
-              220.0,
-              125
-            ],
-            "para": [
-              220.0,
-              145
-            ],
-            "cor": "tinta",
-            "larg": 1.8
-          },
-          {
-            "t": "texto",
-            "x": 232.0,
-            "y": 135.0,
-            "txt": "× R$ 0,50/kWh",
-            "negrito": true,
-            "cor": "acel",
-            "ancora": "start"
-          },
-          {
-            "t": "ret",
-            "x": 30,
-            "y": 148,
-            "w": 380,
-            "h": 40,
-            "cor": "suave",
-            "borda": "normal",
-            "rx": 7
-          },
-          {
-            "t": "texto",
-            "x": 42,
-            "y": 168.0,
-            "txt": "economia por dia",
-            "mudo": true,
-            "ancora": "start"
-          },
-          {
-            "t": "texto",
-            "x": 398,
-            "y": 168.0,
-            "txt": "R$ 0,10",
-            "negrito": true,
-            "ancora": "end"
-          }
-        ],
-        "etapa-4": [
-          {
-            "t": "seta",
-            "de": [
-              220.0,
-              191
-            ],
-            "para": [
-              220.0,
-              211
-            ],
-            "cor": "tinta",
-            "larg": 1.8
-          },
-          {
-            "t": "texto",
-            "x": 232.0,
-            "y": 201.0,
-            "txt": "÷ R$ 0,10",
-            "negrito": true,
-            "cor": "acel",
-            "ancora": "start"
-          },
-          {
-            "t": "ret",
-            "x": 30,
-            "y": 214,
-            "w": 380,
-            "h": 40,
-            "cor": "suave",
-            "borda": "normal",
-            "rx": 7
-          },
-          {
-            "t": "texto",
-            "x": 42,
-            "y": 234.0,
-            "txt": "dias para somar R$ 1.200,00",
-            "mudo": true,
-            "ancora": "start"
-          },
-          {
-            "t": "texto",
-            "x": 398,
-            "y": 234.0,
-            "txt": "12 000 dias",
-            "negrito": true,
-            "ancora": "end"
-          }
-        ],
-        "etapa-5": [
-          {
-            "t": "seta",
-            "de": [
-              220.0,
-              257
-            ],
-            "para": [
-              220.0,
-              277
-            ],
-            "cor": "tinta",
-            "larg": 1.8
-          },
-          {
-            "t": "texto",
-            "x": 232.0,
-            "y": 267.0,
-            "txt": "÷ 30",
-            "negrito": true,
-            "cor": "acel",
-            "ancora": "start"
-          },
-          {
-            "t": "ret",
-            "x": 30,
-            "y": 280,
-            "w": 380,
-            "h": 40,
-            "cor": "suave",
-            "borda": "normal",
-            "rx": 7
-          },
-          {
-            "t": "texto",
-            "x": 42,
-            "y": 300.0,
-            "txt": "meses de 30 dias",
-            "mudo": true,
-            "ancora": "start"
-          },
-          {
-            "t": "texto",
-            "x": 398,
-            "y": 300.0,
-            "txt": "400 meses",
-            "negrito": true,
-            "ancora": "end"
-          }
-        ]
-      }
-    }
-  },
-  "passos": [
+  "metodos": [
     {
-      "titulo": "A energia economizada",
-      "conceito": "Energia elétrica",
-      "texto": "A troca reduz a potência em 100 − 60 = 40 W. Energia é potência vezes tempo.",
-      "equacoes": [
-        "E = 0,04\\ \\text{kW} \\cdot 5\\ \\text{h} = 0,2\\ \\text{kWh}"
-      ],
-      "cena": {
-        "mostrar": [
-          "etapa-1",
-          "etapa-2"
-        ]
-      }
-    },
-    {
-      "titulo": "Em dinheiro",
-      "conceito": "Consumo em kWh",
-      "texto": "Cada dia economiza R$ 0,10.",
-      "cena": {
-        "mostrar": [
-          "etapa-3"
-        ]
-      }
-    },
-    {
-      "titulo": "Até pagar o televisor",
-      "conceito": "Consumo em kWh",
-      "texto": "Resposta: <b>(B) 400 meses</b>.",
-      "cena": {
-        "mostrar": [
-          "etapa-4",
-          "etapa-5"
-        ],
-        "destacar": [
-          "etapa-5"
-        ]
-      }
+      "nome": "Economia por dia",
+      "telas": [
+        {
+          "titulo": "A economia por dia",
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "A troca reduz a potência em:"
+            },
+            {
+              "t": "eq",
+              "tex": "100 - 60 = 40\\ \\text{W} = 0,04\\ \\text{kW}"
+            },
+            {
+              "t": "texto",
+              "html": "Em 5 horas por dia:"
+            },
+            {
+              "t": "eq",
+              "tex": "0,04 \\cdot 5 = 0,2\\ \\text{kWh por dia}"
+            },
+            {
+              "t": "texto",
+              "html": "A R$ 0,50 o kWh, a economia é de 0,2 · 0,50 = <b>R$ 0,10 por dia</b>."
+            }
+          ]
+        },
+        {
+          "titulo": "Até pagar o televisor",
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "Dias para a economia somar R$ 1.200,00:"
+            },
+            {
+              "t": "eq",
+              "tex": "\\dfrac{1\\,200}{0,10} = 12\\,000\\ \\text{dias}"
+            },
+            {
+              "t": "texto",
+              "html": "Em meses de 30 dias:"
+            },
+            {
+              "t": "eq",
+              "tex": "\\dfrac{12\\,000}{30} = 400\\ \\text{meses}"
+            },
+            {
+              "t": "gabarito",
+              "letra": "B"
+            },
+            {
+              "t": "fim"
+            }
+          ]
+        }
+      ]
     }
   ],
   "status": "revisado",

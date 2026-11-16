@@ -1,5 +1,6 @@
 {
   "id": "unesp-2021-q76",
+  "formato": "aula",
   "titulo": "O comprimento da volta BCDB",
   "conceitos": [
     "Relações métricas no triângulo retângulo",
@@ -221,52 +222,97 @@
       }
     }
   },
-  "passos": [
+  "metodos": [
     {
-      "titulo": "O triângulo é retângulo",
-      "conceito": "Relações métricas no triângulo retângulo",
-      "texto": "Como 60² + 80² = 100², o triângulo ABC é retângulo em B, e BD é a altura relativa à hipotenusa AC.",
-      "cena": {
-        "mostrar": [
-          "triangulo",
-          "relacoes"
-        ]
-      }
-    },
-    {
-      "titulo": "Os lados que faltam",
-      "conceito": "Relações métricas no triângulo retângulo",
-      "texto": "As relações métricas dão BD e DC.",
-      "equacoes": [
-        "\\mathrm{BD} = \\dfrac{60 \\cdot 80}{100} = 48\\ \\text{m}, \\quad \\mathrm{DC} = \\dfrac{80^{2}}{100} = 64\\ \\text{m}"
-      ],
-      "cena": {
-        "mostrar": [
-          "medidas"
-        ],
-        "destacar": [
-          "medidas"
-        ]
-      }
-    },
-    {
-      "titulo": "A velocidade média",
-      "conceito": "Velocidade escalar média",
-      "texto": "A volta BCDB mede 80 + 64 + 48 = 192 m e leva 40 s. Resposta: <b>(D) 4,8 m/s</b>.",
-      "equacoes": [
-        "v_{\\text{m}} = \\dfrac{192}{40} = 4,8\\ \\text{m/s}"
-      ],
-      "cena": {
-        "mostrar": [
-          "volta",
-          "pessoa"
-        ],
-        "estado": {
-          "animar": [
-            "correr"
+      "nome": "Relações métricas",
+      "telas": [
+        {
+          "titulo": "O triângulo é retângulo",
+          "cena": {
+            "mostrar": [
+              "triangulo",
+              "relacoes"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "Os lados satisfazem o teorema de Pitágoras:"
+            },
+            {
+              "t": "eq",
+              "tex": "60^{2} + 80^{2} = 3\\,600 + 6\\,400 = 10\\,000 = 100^{2}"
+            },
+            {
+              "t": "texto",
+              "html": "O triângulo ABC é <b>retângulo em B</b>, e BD é a altura relativa à hipotenusa AC."
+            }
+          ]
+        },
+        {
+          "titulo": "Os lados que faltam",
+          "cena": {
+            "mostrar": [
+              "triangulo",
+              "relacoes",
+              "medidas"
+            ],
+            "destacar": [
+              "medidas"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "Relações métricas no triângulo retângulo:"
+            },
+            {
+              "t": "eq",
+              "tex": "BD = \\dfrac{AB \\cdot BC}{AC} = \\dfrac{60 \\cdot 80}{100} = 48\\ \\text{m}"
+            },
+            {
+              "t": "eq",
+              "tex": "DC = \\dfrac{BC^{2}}{AC} = \\dfrac{6\\,400}{100} = 64\\ \\text{m}"
+            }
+          ]
+        },
+        {
+          "titulo": "A velocidade média",
+          "cena": {
+            "mostrar": [
+              "triangulo",
+              "relacoes",
+              "medidas",
+              "volta",
+              "pessoa"
+            ],
+            "animar": [
+              "correr"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "A volta BCDB:"
+            },
+            {
+              "t": "eq",
+              "tex": "\\Delta s = 80 + 64 + 48 = 192\\ \\text{m}"
+            },
+            {
+              "t": "eq",
+              "tex": "v_{m} = \\dfrac{192}{40} = 4,8\\ \\text{m/s}"
+            },
+            {
+              "t": "gabarito",
+              "letra": "D"
+            },
+            {
+              "t": "fim"
+            }
           ]
         }
-      }
+      ]
     }
   ],
   "status": "revisado",

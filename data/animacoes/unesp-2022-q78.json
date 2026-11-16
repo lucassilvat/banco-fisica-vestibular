@@ -1,5 +1,6 @@
 {
   "id": "unesp-2022-q78",
+  "formato": "aula",
   "titulo": "Energia conservada até o topo da parábola",
   "conceitos": [
     "Conservação da energia mecânica",
@@ -292,48 +293,89 @@
       }
     }
   },
-  "passos": [
+  "metodos": [
     {
-      "titulo": "A energia se conserva",
-      "conceito": "Conservação da energia mecânica",
-      "texto": "Sem atrito e sem resistência do ar, a energia mecânica é a mesma do ponto 1 (repouso, a 1,8 m) ao ponto 3 (a 1,6 m).",
-      "cena": {
-        "mostrar": [
-          "pista",
-          "alturas",
-          "bola"
-        ],
-        "estado": {
-          "animar": [
-            "descer"
+      "nome": "Conservação da energia",
+      "telas": [
+        {
+          "titulo": "A energia se conserva",
+          "cena": {
+            "mostrar": [
+              "pista",
+              "alturas",
+              "bola"
+            ],
+            "animar": [
+              "descer"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "Sem atrito e sem resistência do ar, a <b>energia mecânica se conserva</b> do ponto 1 (repouso, a 1,8 m do solo) até o ponto 3 (a 1,6 m)."
+            },
+            {
+              "t": "texto",
+              "html": "No ponto 3, o mais alto da parábola, a velocidade é só <b>horizontal</b>: v = v<sub>x</sub>."
+            }
+          ]
+        },
+        {
+          "titulo": "A componente horizontal no ponto 3",
+          "cena": {
+            "mostrar": [
+              "pista",
+              "alturas",
+              "bola",
+              "velocidade-3"
+            ],
+            "destacar": [
+              "velocidade-3"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "A massa aparece em todos os termos e <b>cancela</b>:"
+            },
+            {
+              "t": "eq",
+              "tex": "\\marca{a}{m}\\, g \\cdot 1,8 = \\marca{b}{m}\\, g \\cdot 1,6 + \\dfrac{\\marca{c}{m}\\, v_{x}^{2}}{2}"
+            },
+            {
+              "t": "eq",
+              "tex": "10 \\cdot 1,8 = \\marca{s}{10 \\cdot 1,6} + \\dfrac{v_{x}^{2}}{2}",
+              "cancelar": [
+                "a",
+                "b",
+                "c"
+              ]
+            },
+            {
+              "t": "eq",
+              "tex": "10 \\cdot 1,8 - \\marca{s}{10 \\cdot 1,6} = \\dfrac{v_{x}^{2}}{2}",
+              "mover": [
+                "s"
+              ]
+            },
+            {
+              "t": "eq",
+              "tex": "2 = \\dfrac{v_{x}^{2}}{2} \\quad \\Rightarrow \\quad v_{x}^{2} = 4"
+            },
+            {
+              "t": "eq",
+              "tex": "v_{x} = 2,0\\ \\text{m/s}"
+            },
+            {
+              "t": "gabarito",
+              "letra": "C"
+            },
+            {
+              "t": "fim"
+            }
           ]
         }
-      }
-    },
-    {
-      "titulo": "No ponto 3",
-      "conceito": "Lançamento oblíquo",
-      "texto": "No ponto mais alto da parábola, a componente vertical da velocidade é nula: a velocidade é só horizontal.",
-      "cena": {
-        "mostrar": [
-          "velocidade-3"
-        ],
-        "destacar": [
-          "velocidade-3"
-        ],
-        "estado": {
-          "animar": []
-        }
-      }
-    },
-    {
-      "titulo": "A componente horizontal",
-      "conceito": "Conservação da energia mecânica",
-      "texto": "Resposta: <b>(C) 2,0 m/s</b>.",
-      "equacoes": [
-        "mg \\cdot 1,8 = mg \\cdot 1,6 + \\dfrac{m v_{x}^{2}}{2} \\quad \\Rightarrow \\quad v_{x}^{2} = 2 \\cdot 10 \\cdot 0,2 = 4 \\quad \\Rightarrow \\quad v_{x} = 2,0\\ \\text{m/s}"
-      ],
-      "cena": {}
+      ]
     }
   ],
   "status": "revisado",

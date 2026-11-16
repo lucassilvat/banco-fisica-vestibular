@@ -1,5 +1,6 @@
 {
   "id": "unesp-2021-q81",
+  "formato": "aula",
   "titulo": "Da energia à magnitude do terremoto",
   "conceitos": [
     "Unidades de energia",
@@ -9,317 +10,139 @@
     "modelo": "diagrama",
     "parametros": {
       "elementos": {
-        "etapa-1": [
-          {
-            "t": "ret",
-            "x": 30,
-            "y": 16,
-            "w": 270,
-            "h": 40,
-            "cor": "suave",
-            "borda": "normal",
-            "rx": 7
-          },
-          {
-            "t": "texto",
-            "x": 42,
-            "y": 36.0,
-            "txt": "energia liberada",
-            "mudo": true,
-            "ancora": "start"
-          },
-          {
-            "t": "texto",
-            "x": 288,
-            "y": 36.0,
-            "txt": "10^{13,8} J",
-            "negrito": true,
-            "ancora": "end"
-          }
-        ],
-        "etapa-2": [
-          {
-            "t": "seta",
-            "de": [
-              165.0,
-              59
-            ],
-            "para": [
-              165.0,
-              79
-            ],
-            "cor": "tinta",
-            "larg": 1.8
-          },
-          {
-            "t": "texto",
-            "x": 177.0,
-            "y": 69.0,
-            "txt": "× 10^{7}",
-            "negrito": true,
-            "cor": "acel",
-            "ancora": "start"
-          },
-          {
-            "t": "ret",
-            "x": 30,
-            "y": 82,
-            "w": 270,
-            "h": 40,
-            "cor": "suave",
-            "borda": "normal",
-            "rx": 7
-          },
-          {
-            "t": "texto",
-            "x": 42,
-            "y": 102.0,
-            "txt": "em erg (1 J = 10^{7} erg)",
-            "mudo": true,
-            "ancora": "start"
-          },
-          {
-            "t": "texto",
-            "x": 288,
-            "y": 102.0,
-            "txt": "10^{20,8} erg",
-            "negrito": true,
-            "ancora": "end"
-          }
-        ],
-        "etapa-3": [
-          {
-            "t": "seta",
-            "de": [
-              165.0,
-              125
-            ],
-            "para": [
-              165.0,
-              145
-            ],
-            "cor": "tinta",
-            "larg": 1.8
-          },
-          {
-            "t": "texto",
-            "x": 177.0,
-            "y": 135.0,
-            "txt": "log",
-            "negrito": true,
-            "cor": "acel",
-            "ancora": "start"
-          },
-          {
-            "t": "ret",
-            "x": 30,
-            "y": 148,
-            "w": 270,
-            "h": 40,
-            "cor": "suave",
-            "borda": "normal",
-            "rx": 7
-          },
-          {
-            "t": "texto",
-            "x": 42,
-            "y": 168.0,
-            "txt": "log E",
-            "mudo": true,
-            "ancora": "start"
-          },
-          {
-            "t": "texto",
-            "x": 288,
-            "y": 168.0,
-            "txt": "20,8",
-            "negrito": true,
-            "ancora": "end"
-          }
-        ],
-        "etapa-4": [
-          {
-            "t": "seta",
-            "de": [
-              165.0,
-              191
-            ],
-            "para": [
-              165.0,
-              211
-            ],
-            "cor": "tinta",
-            "larg": 1.8
-          },
-          {
-            "t": "texto",
-            "x": 177.0,
-            "y": 201.0,
-            "txt": "20,8 = 11,8 + 1,5M",
-            "negrito": true,
-            "cor": "acel",
-            "ancora": "start"
-          },
-          {
-            "t": "ret",
-            "x": 30,
-            "y": 214,
-            "w": 270,
-            "h": 40,
-            "cor": "suave",
-            "borda": "normal",
-            "rx": 7
-          },
-          {
-            "t": "texto",
-            "x": 42,
-            "y": 234.0,
-            "txt": "magnitude M",
-            "mudo": true,
-            "ancora": "start"
-          },
-          {
-            "t": "texto",
-            "x": 288,
-            "y": 234.0,
-            "txt": "6,0",
-            "negrito": true,
-            "ancora": "end"
-          }
-        ],
         "tabela": [
           {
             "t": "ret",
-            "x": 320,
-            "y": 70,
-            "w": 310,
+            "x": 60,
+            "y": 120,
+            "w": 540,
             "h": 40,
             "cor": "papel",
             "borda": "linha"
           },
           {
             "t": "texto",
-            "x": 330,
-            "y": 90,
+            "x": 78,
+            "y": 140,
             "txt": "3,5 a 5,4",
             "negrito": true,
             "ancora": "start"
           },
           {
             "t": "texto",
-            "x": 412,
-            "y": 90,
+            "x": 210,
+            "y": 140,
             "txt": "raramente causa danos",
             "ancora": "start",
-            "tam": 12
+            "tam": 14
           },
           {
             "t": "ret",
-            "x": 320,
-            "y": 114,
-            "w": 310,
+            "x": 60,
+            "y": 164,
+            "w": 540,
             "h": 40,
             "cor": "papel",
             "borda": "linha"
           },
           {
             "t": "texto",
-            "x": 330,
-            "y": 134,
+            "x": 78,
+            "y": 184,
             "txt": "5,5 a 6,0",
             "negrito": true,
             "ancora": "start"
           },
           {
             "t": "texto",
-            "x": 412,
-            "y": 134,
+            "x": 210,
+            "y": 184,
             "txt": "pode danificar casas mal construídas",
             "ancora": "start",
-            "tam": 12
+            "tam": 14
           },
           {
             "t": "ret",
-            "x": 320,
-            "y": 158,
-            "w": 310,
+            "x": 60,
+            "y": 208,
+            "w": 540,
             "h": 40,
             "cor": "papel",
             "borda": "linha"
           },
           {
             "t": "texto",
-            "x": 330,
-            "y": 178,
+            "x": 78,
+            "y": 228,
             "txt": "6,1 a 6,9",
             "negrito": true,
             "ancora": "start"
           },
           {
             "t": "texto",
-            "x": 412,
-            "y": 178,
+            "x": 210,
+            "y": 228,
             "txt": "destrutivo até 100 km",
             "ancora": "start",
-            "tam": 12
+            "tam": 14
           },
           {
             "t": "ret",
-            "x": 320,
-            "y": 202,
-            "w": 310,
+            "x": 60,
+            "y": 252,
+            "w": 540,
             "h": 40,
             "cor": "papel",
             "borda": "linha"
           },
           {
             "t": "texto",
-            "x": 330,
-            "y": 222,
+            "x": 78,
+            "y": 272,
             "txt": "7,0 a 7,9",
             "negrito": true,
             "ancora": "start"
           },
           {
             "t": "texto",
-            "x": 412,
-            "y": 222,
+            "x": 210,
+            "y": 272,
             "txt": "grande terremoto",
             "ancora": "start",
-            "tam": 12
+            "tam": 14
           },
           {
             "t": "ret",
-            "x": 320,
-            "y": 246,
-            "w": 310,
+            "x": 60,
+            "y": 296,
+            "w": 540,
             "h": 40,
             "cor": "papel",
             "borda": "linha"
           },
           {
             "t": "texto",
-            "x": 330,
-            "y": 266,
+            "x": 78,
+            "y": 316,
             "txt": "8,0 ou mais",
             "negrito": true,
             "ancora": "start"
           },
           {
             "t": "texto",
-            "x": 412,
-            "y": 266,
+            "x": 210,
+            "y": 316,
             "txt": "enorme terremoto",
             "ancora": "start",
-            "tam": 12
+            "tam": 14
           }
         ],
         "linha-certa": [
           {
             "t": "ret",
-            "x": 320,
-            "y": 114,
-            "w": 310,
+            "x": 60,
+            "y": 164,
+            "w": 540,
             "h": 40,
             "cor": null,
             "borda": "perigo",
@@ -329,45 +152,77 @@
       }
     }
   },
-  "passos": [
+  "metodos": [
     {
-      "titulo": "A energia em erg",
-      "conceito": "Unidades de energia",
-      "texto": "A expressão usa E em erg. Como 1 erg = 10<sup>−7</sup> J, 1 J vale 10<sup>7</sup> erg.",
-      "cena": {
-        "mostrar": [
-          "etapa-1",
-          "etapa-2"
-        ]
-      }
-    },
-    {
-      "titulo": "A magnitude",
-      "conceito": "Logaritmo",
-      "texto": "O logaritmo de 10<sup>20,8</sup> é 20,8.",
-      "equacoes": [
-        "20,8 = 11,8 + 1,5M \\quad \\Rightarrow \\quad M = 6,0"
-      ],
-      "cena": {
-        "mostrar": [
-          "etapa-3",
-          "etapa-4"
-        ]
-      }
-    },
-    {
-      "titulo": "Na tabela",
-      "conceito": "Logaritmo",
-      "texto": "M = 6,0 fica na faixa de 5,5 a 6,0. Resposta: <b>(B)</b>.",
-      "cena": {
-        "mostrar": [
-          "tabela",
-          "linha-certa"
-        ],
-        "destacar": [
-          "linha-certa"
-        ]
-      }
+      "nome": "Da energia à magnitude",
+      "telas": [
+        {
+          "titulo": "A energia em erg",
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "A expressão usa E em <b>erg</b>. Como 1 erg = 10<sup>−7</sup> J, temos 1 J = 10<sup>7</sup> erg:"
+            },
+            {
+              "t": "eq",
+              "tex": "E = 10^{13,8} \\cdot 10^{7} = 10^{20,8}\\ \\text{erg}"
+            },
+            {
+              "t": "eq",
+              "tex": "\\log E = 20,8"
+            }
+          ]
+        },
+        {
+          "titulo": "A magnitude",
+          "blocos": [
+            {
+              "t": "eq",
+              "tex": "20,8 = \\marca{a}{11,8} + 1,5 M"
+            },
+            {
+              "t": "eq",
+              "tex": "20,8 - \\marca{a}{11,8} = 1,5 M",
+              "mover": [
+                "a"
+              ]
+            },
+            {
+              "t": "eq",
+              "tex": "9 = 1,5 M"
+            },
+            {
+              "t": "eq",
+              "tex": "M = \\dfrac{9}{1,5} = 6,0"
+            }
+          ]
+        },
+        {
+          "titulo": "Na tabela",
+          "cena": {
+            "mostrar": [
+              "tabela",
+              "linha-certa"
+            ],
+            "destacar": [
+              "linha-certa"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "Na tabela, magnitude de 5,5 a 6,0: pode danificar seriamente casas mal construídas em regiões próximas ao epicentro."
+            },
+            {
+              "t": "gabarito",
+              "letra": "B"
+            },
+            {
+              "t": "fim"
+            }
+          ]
+        }
+      ]
     }
   ],
   "status": "revisado",

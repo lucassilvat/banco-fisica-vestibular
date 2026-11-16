@@ -1,5 +1,6 @@
 {
   "id": "unesp-2021-q80",
+  "formato": "aula",
   "titulo": "Imagem de imagem entre dois espelhos",
   "conceitos": [
     "Espelho plano",
@@ -293,43 +294,84 @@
       }
     }
   },
-  "passos": [
+  "metodos": [
     {
-      "titulo": "A primeira imagem",
-      "conceito": "Espelho plano",
-      "texto": "No espelho plano, a imagem é simétrica ao objeto. O cliente está a 1 m de E<sub>1</sub>: a primeira imagem fica 1 m atrás de E<sub>1</sub>, a 2 m dele, mostrando o rosto.",
-      "cena": {
-        "mostrar": [
-          "cena",
-          "imagem-1"
-        ]
-      }
-    },
-    {
-      "titulo": "A imagem em E₂",
-      "conceito": "Associação de espelhos",
-      "texto": "A imagem seguinte da cabeça, vista de costas, vem do espelho de trás. O cliente está a 2 m de E<sub>2</sub>: sua imagem em E<sub>2</sub> fica 2 m atrás dele, a 5 m de E<sub>1</sub>.",
-      "cena": {
-        "mostrar": [
-          "imagem-e2"
-        ],
-        "destacar": [
-          "imagem-e2"
-        ]
-      }
-    },
-    {
-      "titulo": "A imagem dessa imagem",
-      "conceito": "Associação de espelhos",
-      "texto": "Essa imagem funciona como objeto para E<sub>1</sub>, que forma a imagem dela 5 m atrás de E<sub>1</sub>. Distância até o cliente: 1 + 5 = 6 m. Resposta: <b>(E) 6 m</b>.",
-      "cena": {
-        "mostrar": [
-          "imagem-pedida"
-        ],
-        "destacar": [
-          "imagem-pedida"
-        ]
-      }
+      "nome": "Imagem de imagem",
+      "telas": [
+        {
+          "titulo": "A primeira imagem",
+          "cena": {
+            "mostrar": [
+              "cena",
+              "imagem-1"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "Chame de E<sub>1</sub> o espelho à frente do cliente (a 1 m) e de E<sub>2</sub> o espelho atrás dele (a 3 − 1 = 2 m)."
+            },
+            {
+              "t": "texto",
+              "html": "No espelho plano, a imagem é <b>simétrica</b> ao objeto. A primeira imagem em E<sub>1</sub> fica 1 m atrás dele: é o rosto de frente."
+            }
+          ]
+        },
+        {
+          "titulo": "A imagem em E₂",
+          "cena": {
+            "mostrar": [
+              "cena",
+              "imagem-1",
+              "imagem-e2"
+            ],
+            "destacar": [
+              "imagem-e2"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "A seta vermelha é a imagem seguinte, a cabeça de costas. Ela vem da imagem formada por E<sub>2</sub>, 2 m atrás de E<sub>2</sub>. A distância dela até E<sub>1</sub>:"
+            },
+            {
+              "t": "eq",
+              "tex": "2 + 3 = 5\\ \\text{m}"
+            }
+          ]
+        },
+        {
+          "titulo": "A imagem dessa imagem",
+          "cena": {
+            "mostrar": [
+              "cena",
+              "imagem-1",
+              "imagem-e2",
+              "imagem-pedida"
+            ],
+            "destacar": [
+              "imagem-pedida"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "E<sub>1</sub> reflete essa imagem: ela fica 5 m atrás de E<sub>1</sub>. Até o cliente, que está 1 m à frente de E<sub>1</sub>:"
+            },
+            {
+              "t": "eq",
+              "tex": "d = 1 + 5 = 6\\ \\text{m}"
+            },
+            {
+              "t": "gabarito",
+              "letra": "E"
+            },
+            {
+              "t": "fim"
+            }
+          ]
+        }
+      ]
     }
   ],
   "status": "revisado",

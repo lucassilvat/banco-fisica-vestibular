@@ -1,5 +1,6 @@
 {
   "id": "unesp-2022-q81",
+  "formato": "aula",
   "titulo": "Água mais rasa, onda mais lenta e mais curta",
   "conceitos": [
     "Refração de ondas",
@@ -944,40 +945,101 @@
       }
     }
   },
-  "passos": [
+  "metodos": [
     {
-      "titulo": "A frequência não muda",
-      "conceito": "Refração de ondas",
-      "texto": "Ao passar para a região mais rasa, a onda muda de velocidade (refração), mas a frequência continua a mesma: é imposta pela fonte.",
-      "cena": {
-        "mostrar": [
-          "fundo",
-          "ondas",
-          "comprimentos"
-        ]
-      }
-    },
-    {
-      "titulo": "A razão das velocidades",
-      "conceito": "Refração de ondas",
-      "texto": "Em águas rasas, a velocidade depende da profundidade.",
-      "equacoes": [
-        "\\dfrac{\\mathrm{v}_2}{\\mathrm{v}_1} = \\sqrt{\\dfrac{0,9}{3,6}} = \\dfrac{1}{2}"
-      ],
-      "cena": {}
-    },
-    {
-      "titulo": "O novo comprimento de onda",
-      "conceito": "Equação fundamental da ondulatória",
-      "texto": "Com a mesma frequência, o comprimento de onda é proporcional à velocidade. Resposta: <b>(A) 6 m</b>.",
-      "equacoes": [
-        "v = \\lambda f \\quad \\Rightarrow \\quad \\lambda_{2} = 12 \\cdot \\dfrac{1}{2} = 6\\ \\text{m}"
-      ],
-      "cena": {
-        "destacar": [
-          "comprimentos"
-        ]
-      }
+      "nome": "Frequência constante",
+      "telas": [
+        {
+          "titulo": "O que muda e o que não muda",
+          "cena": {
+            "mostrar": [
+              "fundo",
+              "ondas",
+              "comprimentos"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "Na refração, a <b>frequência não muda</b>: quem a impõe é a fonte."
+            },
+            {
+              "t": "texto",
+              "html": "Muda a velocidade, que depende da profundidade: v = √(g h)."
+            }
+          ]
+        },
+        {
+          "titulo": "A razão das velocidades",
+          "cena": {
+            "mostrar": [
+              "fundo",
+              "ondas",
+              "comprimentos"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "A razão das velocidades; g aparece nas duas e <b>cancela</b>:"
+            },
+            {
+              "t": "eq",
+              "tex": "\\dfrac{v_{2}}{v_{1}} = \\dfrac{\\sqrt{\\marca{a}{g} \\cdot 0,9}}{\\sqrt{\\marca{b}{g} \\cdot 3,6}}"
+            },
+            {
+              "t": "eq",
+              "tex": "\\dfrac{v_{2}}{v_{1}} = \\sqrt{\\dfrac{0,9}{3,6}} = \\sqrt{\\dfrac{1}{4}} = \\dfrac{1}{2}",
+              "cancelar": [
+                "a",
+                "b"
+              ]
+            }
+          ]
+        },
+        {
+          "titulo": "O novo comprimento de onda",
+          "cena": {
+            "mostrar": [
+              "fundo",
+              "ondas",
+              "comprimentos"
+            ],
+            "destacar": [
+              "comprimentos"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "Com v = λf e a <b>mesma frequência</b>, f cancela:"
+            },
+            {
+              "t": "eq",
+              "tex": "\\dfrac{v_{2}}{v_{1}} = \\dfrac{\\lambda_{2}\\, \\marca{c}{f}}{\\lambda_{1}\\, \\marca{d}{f}}"
+            },
+            {
+              "t": "eq",
+              "tex": "\\dfrac{\\lambda_{2}}{\\lambda_{1}} = \\dfrac{1}{2}",
+              "cancelar": [
+                "c",
+                "d"
+              ]
+            },
+            {
+              "t": "eq",
+              "tex": "\\lambda_{2} = \\dfrac{12}{2} = 6\\ \\text{m}"
+            },
+            {
+              "t": "gabarito",
+              "letra": "A"
+            },
+            {
+              "t": "fim"
+            }
+          ]
+        }
+      ]
     }
   ],
   "status": "revisado",

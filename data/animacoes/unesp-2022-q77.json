@@ -1,5 +1,6 @@
 {
   "id": "unesp-2022-q77",
+  "formato": "aula",
   "titulo": "A parte vertical da tração segura o peso",
   "conceitos": [
     "Resultante centrípeta",
@@ -168,36 +169,76 @@
       }
     }
   },
-  "passos": [
+  "metodos": [
     {
-      "titulo": "A geometria do fio",
-      "conceito": "Decomposição vetorial",
-      "texto": "O fio (65 cm), o raio da trajetória (60 cm) e a distância vertical entre a mão e o plano da trajetória formam um triângulo retângulo.",
-      "equacoes": [
-        "h = \\sqrt{65^{2} - 60^{2}} = 25\\ \\text{cm}"
-      ],
-      "cena": {
-        "mostrar": [
-          "situacao",
-          "triangulo"
-        ]
-      }
-    },
-    {
-      "titulo": "As forças na esfera",
-      "conceito": "Equilíbrio na vertical",
-      "texto": "Agem o peso \\(\\vec{P}\\) e a tração \\(\\vec{T}\\). A esfera gira num plano horizontal, sem subir nem descer: a componente vertical da tração equilibra o peso. Resposta: <b>(C) 13 N</b>.",
-      "equacoes": [
-        "T \\cdot \\dfrac{25}{65} = mg = 0,5 \\cdot 10 \\quad \\Rightarrow \\quad T = 13\\ \\text{N}"
-      ],
-      "cena": {
-        "mostrar": [
-          "forcas"
-        ],
-        "destacar": [
-          "forcas"
-        ]
-      }
+      "nome": "Equilíbrio na vertical",
+      "telas": [
+        {
+          "titulo": "A geometria do fio",
+          "cena": {
+            "mostrar": [
+              "situacao",
+              "triangulo"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "O fio (65 cm), o raio da trajetória (60 cm) e a altura h entre a mão e o plano da trajetória formam um <b>triângulo retângulo</b>:"
+            },
+            {
+              "t": "eq",
+              "tex": "h = \\sqrt{65^{2} - 60^{2}} = \\sqrt{625}"
+            },
+            {
+              "t": "eq",
+              "tex": "h = 25\\ \\text{cm}"
+            }
+          ]
+        },
+        {
+          "titulo": "As forças na esfera",
+          "cena": {
+            "mostrar": [
+              "situacao",
+              "triangulo",
+              "forcas"
+            ],
+            "destacar": [
+              "forcas"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "Sobre a esfera atuam o peso \\(\\vec{P}\\) e a tração \\(\\vec{T}\\). A trajetória está num plano horizontal: a componente <b>vertical</b> da tração equilibra o peso."
+            },
+            {
+              "t": "eq",
+              "tex": "T \\cdot \\dfrac{25}{65} = m g"
+            },
+            {
+              "t": "eq",
+              "tex": "T = \\dfrac{0,5 \\cdot 10 \\cdot 65}{25} = \\dfrac{5 \\cdot 65}{25}"
+            },
+            {
+              "t": "eq",
+              "tex": "T = \\dfrac{65}{5} = 13\\ \\text{N}"
+            },
+            {
+              "t": "texto",
+              "html": "A componente horizontal, T · 60/65 = 12 N, é a resultante centrípeta."
+            },
+            {
+              "t": "gabarito",
+              "letra": "C"
+            },
+            {
+              "t": "fim"
+            }
+          ]
+        }
+      ]
     }
   ],
   "status": "revisado",
