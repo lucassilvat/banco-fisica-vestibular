@@ -246,5 +246,10 @@
   ],
   "status": "revisado",
   "criadoEm": "2026-11-15T09:00:00-03:00",
-  "atualizadoEm": "2026-11-15T09:00:00-03:00"
+  "atualizadoEm": "2026-11-15T09:00:00-03:00",
+  "revisao": {
+    "estado": "aprovada",
+    "comentario": "Sugiro apenas uma modificação: utilize a regra do tombamento (animada) no cálculo do log. Muitos alunos tem dificuldade.",
+    "atualizadoEm": "2026-11-17T00:43:22.894Z"
+  }
 }

@@ -378,5 +378,10 @@
   ],
   "status": "revisado",
   "criadoEm": "2026-11-15T09:00:00-03:00",
-  "atualizadoEm": "2026-11-15T09:00:00-03:00"
+  "atualizadoEm": "2026-11-15T09:00:00-03:00",
+  "revisao": {
+    "estado": "aprovada",
+    "comentario": "Adicione ao desenho do triângulo os segmentos de reta em preto para melhorar a acuidade visual.",
+    "atualizadoEm": "2026-11-17T00:51:32.826Z"
+  }
 }

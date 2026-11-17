@@ -31,7 +31,8 @@ de modelo de dados; CORREÇÃO, em correções de questões já publicadas.
   (det M < 0, det M > 0) e nas resoluções da Unesp 2017 Q80, Unesp 2025 Q82 e Fuvest 2027 Q37, Q62
   e Q74. O texto não mudou, só a forma de gravar. Atualizado também no banco do app.
   `pipeline verificar` agora acusa entidade HTML no enunciado, na resolução e nas respostas.
-- Todas aguardam a revisão do Lucas no app; o site público não muda até ele aprovar.
+- Revisões importadas: as 15 foram **aprovadas** pelo Lucas; o site público passa a ter **49**
+  resoluções animadas (Unesp 2021 a 2026).
 
 ## v2.17.0 — 2026-11-15
 

@@ -495,5 +495,10 @@
   ],
   "status": "revisado",
   "criadoEm": "2026-11-15T09:00:00-03:00",
-  "atualizadoEm": "2026-11-15T09:00:00-03:00"
+  "atualizadoEm": "2026-11-15T09:00:00-03:00",
+  "revisao": {
+    "estado": "aprovada",
+    "comentario": "Seria interessante se você marcasse o olho da pessoa para que o aluno conseguisse ver a mudança de orientação. Além disso, marque todas as distâncias envolvidas na formação das imagens. Por fim, cuidado com a \"cor\" das setas. Você indicou a seta vermelha, mas apresentou uma seta cinza.",
+    "atualizadoEm": "2026-11-17T00:42:34.295Z"
+  }
 }

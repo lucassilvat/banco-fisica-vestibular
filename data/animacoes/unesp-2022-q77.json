@@ -366,5 +366,10 @@
   ],
   "status": "revisado",
   "criadoEm": "2026-11-15T09:00:00-03:00",
-  "atualizadoEm": "2026-11-15T09:00:00-03:00"
+  "atualizadoEm": "2026-11-15T09:00:00-03:00",
+  "revisao": {
+    "estado": "aprovada",
+    "comentario": "Antes de calcular Ty, apresente a fórmula usada. Mostre o ângulo usado e o seno (ou cosseno, a depender do angulo) no triângulo retângulo. Só depois calcule. Faça o mesmo, porém mais rápido, para o Tx.",
+    "atualizadoEm": "2026-11-17T00:44:23.833Z"
+  }
 }
