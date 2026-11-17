@@ -202,8 +202,45 @@
               ]
             ],
             "cor": "acel",
-            "larg": 5,
-            "opac": 0.8
+            "larg": 12,
+            "opac": 0.35
+          }
+        ],
+        "contorno": [
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                60,
+                330
+              ],
+              [
+                240,
+                90
+              ],
+              [
+                560,
+                330
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 3,
+            "fechada": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                240,
+                90
+              ],
+              [
+                240,
+                330
+              ]
+            ],
+            "cor": "tinta",
+            "larg": 3
           }
         ],
         "pessoa": [
@@ -307,6 +344,7 @@
               "relacoes",
               "medidas",
               "volta",
+              "contorno",
               "pessoa"
             ],
             "animar": [
