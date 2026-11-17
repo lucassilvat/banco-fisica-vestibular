@@ -27,8 +27,8 @@
                 330
               ]
             ],
-            "cor": "tinta",
-            "larg": 3,
+            "cor": "#111111",
+            "larg": 6,
             "fechada": true,
             "preench": "#e6f3e0"
           },
@@ -44,8 +44,8 @@
                 330
               ]
             ],
-            "cor": "tinta",
-            "larg": 2.5
+            "cor": "#111111",
+            "larg": 6
           },
           {
             "t": "linha",
@@ -64,7 +64,7 @@
               ]
             ],
             "cor": "perigo",
-            "larg": 2
+            "larg": 3
           },
           {
             "t": "linha",
@@ -83,7 +83,7 @@
               ]
             ],
             "cor": "perigo",
-            "larg": 2
+            "larg": 3
           },
           {
             "t": "texto",
@@ -202,7 +202,7 @@
               ]
             ],
             "cor": "acel",
-            "larg": 12,
+            "larg": 18,
             "opac": 0.35
           }
         ],
@@ -223,8 +223,8 @@
                 330
               ]
             ],
-            "cor": "tinta",
-            "larg": 3,
+            "cor": "#111111",
+            "larg": 6,
             "fechada": true
           },
           {
@@ -239,8 +239,8 @@
                 330
               ]
             ],
-            "cor": "tinta",
-            "larg": 3
+            "cor": "#111111",
+            "larg": 6
           }
         ],
         "pessoa": [

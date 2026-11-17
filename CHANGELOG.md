@@ -16,8 +16,8 @@ de modelo de dados; CORREÇÃO, em correções de questões já publicadas.
 - Questões de conta simples (2022 Q82, 2021 Q82 e Q84) ficaram **só com a lousa**: as cenas antigas
   eram apenas caixas com as contas. Na 2021 Q81, só a tabela de efeitos, centralizada e alargada,
   com a linha certa destacada.
-- Revisão do Lucas: 2021 Q76 com o triângulo em escala, maior e com os ângulos retos em B e D (na
-  última tela, os lados em preto por cima do destaque da volta BCDB);
+- Revisão do Lucas: 2021 Q76 com o triângulo em escala, maior e com os ângulos retos em B e D (lados
+  em preto fixo e grossos, legíveis também no tema escuro, por cima do destaque da volta BCDB);
   2021 Q80 com o olho em cada cabeça (mostra a orientação de cada imagem), todas as distâncias
   marcadas e seta azul no cliente e vermelha só na imagem pedida, como na prova; 2021 Q81 com a
   **regra do tombamento** animada (o expoente vai para a frente do log); 2022 Q77 com o ângulo θ
