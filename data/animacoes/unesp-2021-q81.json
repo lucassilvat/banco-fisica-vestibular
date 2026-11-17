@@ -168,6 +168,25 @@
               "tex": "E = 10^{13,8} \\cdot 10^{7} = 10^{20,8}\\ \\text{erg}"
             },
             {
+              "t": "texto",
+              "html": "Para o log, a <b>regra do tombamento</b>: o expoente \"tomba\" e passa a multiplicar o log."
+            },
+            {
+              "t": "eq",
+              "tex": "\\log E = \\log 10^{\\marca{e}{20,8}}"
+            },
+            {
+              "t": "eq",
+              "tex": "\\log E = \\marca{e}{20,8} \\cdot \\log 10",
+              "mover": [
+                "e"
+              ]
+            },
+            {
+              "t": "texto",
+              "html": "Como log 10 = 1:"
+            },
+            {
               "t": "eq",
               "tex": "\\log E = 20,8"
             }

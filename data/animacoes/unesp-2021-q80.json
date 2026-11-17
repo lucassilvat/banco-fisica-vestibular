@@ -15,11 +15,11 @@
             "t": "linha",
             "pontos": [
               [
-                40.0,
+                30,
                 260
               ],
               [
-                600.0,
+                620,
                 260
               ]
             ],
@@ -28,50 +28,43 @@
           },
           {
             "t": "ret",
-            "x": 317,
-            "y": 100,
-            "w": 6,
-            "h": 160,
-            "cor": "normal",
-            "borda": null
-          },
-          {
-            "t": "texto",
-            "x": 320,
-            "y": 88,
-            "txt": "E₁",
-            "negrito": true,
-            "cor": "normal"
-          },
-          {
-            "t": "ret",
             "x": 167,
-            "y": 100,
+            "y": 95,
             "w": 6,
-            "h": 160,
+            "h": 165,
             "cor": "normal",
             "borda": null
           },
           {
             "t": "texto",
             "x": 170,
-            "y": 88,
+            "y": 84,
             "txt": "E₂",
             "negrito": true,
             "cor": "normal"
           },
           {
+            "t": "ret",
+            "x": 317,
+            "y": 95,
+            "w": 6,
+            "h": 165,
+            "cor": "normal",
+            "borda": null
+          },
+          {
             "t": "texto",
-            "x": 270,
-            "y": 280,
-            "txt": "cliente",
-            "negrito": true
+            "x": 320,
+            "y": 84,
+            "txt": "E₁",
+            "negrito": true,
+            "cor": "normal"
           },
           {
             "t": "circ",
             "x": 270,
             "y": 170,
-            "r": 13,
+            "r": 14,
             "cor": "#3a86c8",
             "borda": "tinta",
             "opac": 1.0
@@ -81,50 +74,85 @@
             "pontos": [
               [
                 270,
-                183
+                184
               ],
               [
                 270,
-                230
+                232
               ]
             ],
             "cor": "#3a86c8",
-            "larg": 4,
+            "larg": 5,
             "opac": 1.0
           },
           {
-            "t": "cota",
+            "t": "circ",
+            "x": 277,
+            "y": 167,
+            "r": 2.6,
+            "cor": "tinta",
+            "borda": null
+          },
+          {
+            "t": "caminho",
+            "d": "M283.5,169 L287,173 L283.5,175",
+            "cor": "tinta",
+            "larg": 1.2,
+            "preench": "#3a86c8"
+          },
+          {
+            "t": "seta",
             "de": [
               270,
-              306
+              108
             ],
             "para": [
-              320,
-              306
+              270,
+              148
             ],
-            "cor": "normal",
-            "rot_em": [
-              295.0,
-              324
-            ],
-            "txt": "1 m"
+            "cor": "#1e88e5",
+            "larg": 4
+          },
+          {
+            "t": "texto",
+            "x": 270,
+            "y": 282,
+            "txt": "cliente",
+            "negrito": true
           },
           {
             "t": "cota",
             "de": [
               170,
-              306
+              304
             ],
             "para": [
               270,
-              306
+              304
             ],
             "cor": "normal",
             "rot_em": [
-              220,
-              324
+              220.0,
+              321
             ],
             "txt": "2 m"
+          },
+          {
+            "t": "cota",
+            "de": [
+              270,
+              304
+            ],
+            "para": [
+              320,
+              304
+            ],
+            "cor": "normal",
+            "rot_em": [
+              295.0,
+              321
+            ],
+            "txt": "1 m"
           }
         ],
         "imagem-1": [
@@ -132,49 +160,65 @@
             "t": "circ",
             "x": 370,
             "y": 170,
-            "r": 13,
-            "cor": "mudo",
+            "r": 14,
+            "cor": "#9aa3ad",
             "borda": "tinta",
-            "opac": 0.5
+            "opac": 0.75
           },
           {
             "t": "linha",
             "pontos": [
               [
                 370,
-                183
+                184
               ],
               [
                 370,
-                230
+                232
               ]
             ],
-            "cor": "mudo",
-            "larg": 4,
-            "opac": 0.5
+            "cor": "#9aa3ad",
+            "larg": 5,
+            "opac": 0.75
+          },
+          {
+            "t": "circ",
+            "x": 363,
+            "y": 167,
+            "r": 2.6,
+            "cor": "tinta",
+            "borda": null
+          },
+          {
+            "t": "caminho",
+            "d": "M356.5,169 L353,173 L356.5,175",
+            "cor": "tinta",
+            "larg": 1.2,
+            "preench": "#9aa3ad"
           },
           {
             "t": "texto",
             "x": 370,
-            "y": 280,
+            "y": 282,
             "txt": "1ª imagem em E₁",
             "mudo": true
           },
           {
-            "t": "linha",
-            "pontos": [
-              [
-                270,
-                130
-              ],
-              [
-                370,
-                130
-              ]
+            "t": "cota",
+            "de": [
+              320,
+              304
             ],
-            "cor": "mudo",
-            "larg": 1,
-            "tracejado": true
+            "para": [
+              370,
+              304
+            ],
+            "cor": "normal",
+            "rot_em": [
+              345.0,
+              321
+            ],
+            "txt": "1 m"
           }
         ],
         "imagem-e2": [
@@ -182,47 +226,82 @@
             "t": "circ",
             "x": 70,
             "y": 170,
-            "r": 13,
-            "cor": "mudo",
+            "r": 14,
+            "cor": "#9aa3ad",
             "borda": "tinta",
-            "opac": 0.5
+            "opac": 0.75
           },
           {
             "t": "linha",
             "pontos": [
               [
                 70,
-                183
+                184
               ],
               [
                 70,
-                230
+                232
               ]
             ],
-            "cor": "mudo",
-            "larg": 4,
-            "opac": 0.5
+            "cor": "#9aa3ad",
+            "larg": 5,
+            "opac": 0.75
+          },
+          {
+            "t": "circ",
+            "x": 63,
+            "y": 167,
+            "r": 2.6,
+            "cor": "tinta",
+            "borda": null
+          },
+          {
+            "t": "caminho",
+            "d": "M56.5,169 L53,173 L56.5,175",
+            "cor": "tinta",
+            "larg": 1.2,
+            "preench": "#9aa3ad"
           },
           {
             "t": "texto",
             "x": 70,
-            "y": 280,
+            "y": 282,
             "txt": "imagem em E₂",
             "mudo": true
           },
           {
-            "t": "seta",
+            "t": "cota",
             "de": [
-              270,
-              140
+              70,
+              340
             ],
             "para": [
-              70,
-              140
+              170,
+              340
             ],
-            "cor": "mudo",
-            "larg": 1.5,
-            "tracejado": true
+            "cor": "normal",
+            "rot_em": [
+              120.0,
+              357
+            ],
+            "txt": "2 m"
+          },
+          {
+            "t": "cota",
+            "de": [
+              70,
+              376
+            ],
+            "para": [
+              320,
+              376
+            ],
+            "cor": "acel",
+            "rot_em": [
+              195.0,
+              393
+            ],
+            "txt": "5 m de E₁"
           }
         ],
         "imagem-pedida": [
@@ -230,68 +309,100 @@
             "t": "circ",
             "x": 570,
             "y": 170,
-            "r": 13,
-            "cor": "perigo",
+            "r": 14,
+            "cor": "#d32f2f",
             "borda": "tinta",
-            "opac": 0.8
+            "opac": 0.9
           },
           {
             "t": "linha",
             "pontos": [
               [
                 570,
-                183
+                184
               ],
               [
                 570,
-                230
+                232
               ]
             ],
+            "cor": "#d32f2f",
+            "larg": 5,
+            "opac": 0.9
+          },
+          {
+            "t": "circ",
+            "x": 577,
+            "y": 167,
+            "r": 2.6,
+            "cor": "tinta",
+            "borda": null
+          },
+          {
+            "t": "caminho",
+            "d": "M583.5,169 L587,173 L583.5,175",
+            "cor": "tinta",
+            "larg": 1.2,
+            "preench": "#d32f2f"
+          },
+          {
+            "t": "seta",
+            "de": [
+              570,
+              108
+            ],
+            "para": [
+              570,
+              148
+            ],
             "cor": "perigo",
-            "larg": 4,
-            "opac": 0.8
+            "larg": 4
           },
           {
             "t": "texto",
             "x": 570,
-            "y": 280,
+            "y": 282,
             "txt": "imagem pedida",
             "negrito": true,
             "cor": "perigo"
           },
           {
-            "t": "seta",
+            "t": "cota",
             "de": [
-              70,
-              154
+              320,
+              340
             ],
             "para": [
               570,
-              154
+              340
             ],
-            "cor": "perigo",
-            "larg": 1.5,
-            "tracejado": true
+            "cor": "acel",
+            "rot_em": [
+              445.0,
+              357
+            ],
+            "txt": "5 m"
           },
           {
             "t": "cota",
             "de": [
               270,
-              350
+              412
             ],
             "para": [
               570,
-              350
+              412
             ],
             "cor": "perigo",
             "rot_em": [
-              420,
-              368
+              420.0,
+              429
             ],
             "txt": "6 m"
           }
         ]
-      }
+      },
+      "altura": 450
     }
   },
   "metodos": [
@@ -309,11 +420,11 @@
           "blocos": [
             {
               "t": "texto",
-              "html": "Chame de E<sub>1</sub> o espelho à frente do cliente (a 1 m) e de E<sub>2</sub> o espelho atrás dele (a 3 − 1 = 2 m)."
+              "html": "Chame de E<sub>1</sub> o espelho à frente do cliente (a 1 m) e de E<sub>2</sub> o espelho atrás dele (a 3 − 1 = 2 m). A seta azul marca a cabeça do cliente."
             },
             {
               "t": "texto",
-              "html": "No espelho plano, a imagem é <b>simétrica</b> ao objeto. A primeira imagem em E<sub>1</sub> fica 1 m atrás dele: é o rosto de frente."
+              "html": "No espelho plano, a imagem é <b>simétrica</b> ao objeto: a 1ª imagem em E<sub>1</sub> fica 1 m atrás de E<sub>1</sub>. Repare no olho: ela está <b>virada para o cliente</b>; é o rosto de frente."
             }
           ]
         },
@@ -332,7 +443,11 @@
           "blocos": [
             {
               "t": "texto",
-              "html": "A seta vermelha é a imagem seguinte, a cabeça de costas. Ela vem da imagem formada por E<sub>2</sub>, 2 m atrás de E<sub>2</sub>. A distância dela até E<sub>1</sub>:"
+              "html": "E<sub>2</sub> também forma uma imagem do cliente, 2 m atrás de E<sub>2</sub>. O cliente está de costas para E<sub>2</sub>: nessa imagem, o olho aponta para <b>longe</b> dos espelhos; ela mostra a nuca."
+            },
+            {
+              "t": "texto",
+              "html": "A distância dessa imagem até E<sub>1</sub>:"
             },
             {
               "t": "eq",
@@ -356,7 +471,11 @@
           "blocos": [
             {
               "t": "texto",
-              "html": "E<sub>1</sub> reflete essa imagem: ela fica 5 m atrás de E<sub>1</sub>. Até o cliente, que está 1 m à frente de E<sub>1</sub>:"
+              "html": "E<sub>1</sub> forma a imagem dessa imagem, 5 m atrás de E<sub>1</sub>. Ela fica <b>de costas</b> para o cliente: é a cabeça indicada pela seta vermelha."
+            },
+            {
+              "t": "texto",
+              "html": "Até o cliente, que está 1 m à frente de E<sub>1</sub>:"
             },
             {
               "t": "eq",

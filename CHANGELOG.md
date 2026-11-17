@@ -16,6 +16,20 @@ de modelo de dados; CORREÇÃO, em correções de questões já publicadas.
 - Questões de conta simples (2022 Q82, 2021 Q82 e Q84) ficaram **só com a lousa**: as cenas antigas
   eram apenas caixas com as contas. Na 2021 Q81, só a tabela de efeitos, centralizada e alargada,
   com a linha certa destacada.
+- Revisão do Lucas: 2021 Q76 com o triângulo em escala, maior e com os ângulos retos em B e D;
+  2021 Q80 com o olho em cada cabeça (mostra a orientação de cada imagem), todas as distâncias
+  marcadas e seta azul no cliente e vermelha só na imagem pedida, como na prova; 2021 Q81 com a
+  **regra do tombamento** animada (o expoente vai para a frente do log); 2022 Q77 com o ângulo θ
+  na mão e na esfera, cos θ e sen θ no triângulo antes das contas, T<sub>y</sub> e depois T<sub>x</sub>;
+  2022 Q78 redesenhada em escala, com o ponto 3 no topo da parábola (saída a 66° com
+  v<sub>x</sub> = 2 m/s) e a bola com o tempo físico; 2022 Q81 calcula primeiro a frequência e depois
+  λ<sub>2</sub> com a mesma frequência.
+- **Correção de texto** (pedido do Lucas): entidades HTML gravadas no texto (`&lt;`, `&gt;`)
+  apareciam escritas no app, porque ele escapa o texto antes de exibir. Trocadas pelos próprios
+  caracteres no enunciado da Unesp 2021 Q78 (c<sub>x</sub> < c<sub>y</sub> < c<sub>z</sub>) e da Unesp 2019 Q77
+  (det M < 0, det M > 0) e nas resoluções da Unesp 2017 Q80, Unesp 2025 Q82 e Fuvest 2027 Q37, Q62
+  e Q74. O texto não mudou, só a forma de gravar. Atualizado também no banco do app.
+  `pipeline verificar` agora acusa entidade HTML no enunciado, na resolução e nas respostas.
 - Todas aguardam a revisão do Lucas no app; o site público não muda até ele aprovar.
 
 ## v2.17.0 — 2026-11-15

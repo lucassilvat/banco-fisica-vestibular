@@ -165,6 +165,60 @@
             "rotulo": "T",
             "sub": "y"
           }
+        ],
+        "angulo-mao": [
+          {
+            "t": "angulo",
+            "centro": [
+              260,
+              70
+            ],
+            "de": 22.6,
+            "ate": 90,
+            "r": 42,
+            "cor": "acel",
+            "dist": 16,
+            "cor_rotulo": "acel",
+            "rotulo": "θ"
+          }
+        ],
+        "angulo-esfera": [
+          {
+            "t": "angulo",
+            "centro": [
+              500,
+              170
+            ],
+            "de": 202.6,
+            "ate": 270,
+            "r": 36,
+            "cor": "acel",
+            "dist": 14,
+            "cor_rotulo": "acel",
+            "rotulo": "θ"
+          }
+        ],
+        "tx": [
+          {
+            "t": "seta",
+            "de": [
+              500,
+              170
+            ],
+            "para": [
+              380,
+              170
+            ],
+            "cor": "normal",
+            "larg": 2.5,
+            "tracejado": true,
+            "rot_em": [
+              384,
+              192
+            ],
+            "rotulo": "T",
+            "sub": "x"
+          }
         ]
       }
     }
@@ -197,12 +251,40 @@
           ]
         },
         {
-          "titulo": "As forças na esfera",
+          "titulo": "O ângulo do fio",
           "cena": {
             "mostrar": [
               "situacao",
               "triangulo",
-              "forcas"
+              "angulo-mao"
+            ],
+            "destacar": [
+              "angulo-mao"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "Chame de <b>θ</b> o ângulo entre o fio e a vertical. No triângulo retângulo, a hipotenusa é o fio (65 cm); o cateto <b>adjacente</b> a θ é a altura (25 cm) e o <b>oposto</b> é o raio (60 cm):"
+            },
+            {
+              "t": "eq",
+              "tex": "\\cos\\theta = \\dfrac{\\text{cateto adjacente}}{\\text{hipotenusa}} = \\dfrac{25}{65}"
+            },
+            {
+              "t": "eq",
+              "tex": "\\sen\\theta = \\dfrac{\\text{cateto oposto}}{\\text{hipotenusa}} = \\dfrac{60}{65}"
+            }
+          ]
+        },
+        {
+          "titulo": "A componente vertical",
+          "cena": {
+            "mostrar": [
+              "situacao",
+              "triangulo",
+              "forcas",
+              "angulo-esfera"
             ],
             "destacar": [
               "forcas"
@@ -211,23 +293,64 @@
           "blocos": [
             {
               "t": "texto",
-              "html": "Sobre a esfera atuam o peso \\(\\vec{P}\\) e a tração \\(\\vec{T}\\). A trajetória está num plano horizontal: a componente <b>vertical</b> da tração equilibra o peso."
+              "html": "Sobre a esfera atuam o peso \\(\\vec{P}\\) e a tração \\(\\vec{T}\\). Na esfera, o fio faz o mesmo ângulo θ com a vertical, e a componente vertical da tração é:"
             },
             {
               "t": "eq",
-              "tex": "T \\cdot \\dfrac{25}{65} = m g"
-            },
-            {
-              "t": "eq",
-              "tex": "T = \\dfrac{0,5 \\cdot 10 \\cdot 65}{25} = \\dfrac{5 \\cdot 65}{25}"
-            },
-            {
-              "t": "eq",
-              "tex": "T = \\dfrac{65}{5} = 13\\ \\text{N}"
+              "tex": "T_{y} = T \\cos\\theta"
             },
             {
               "t": "texto",
-              "html": "A componente horizontal, T · 60/65 = 12 N, é a resultante centrípeta."
+              "html": "A trajetória está num plano horizontal: na vertical não há aceleração, e T<sub>y</sub> <b>equilibra</b> o peso."
+            },
+            {
+              "t": "eq",
+              "tex": "T \\cos\\theta = m g"
+            },
+            {
+              "t": "eq",
+              "tex": "T \\cdot \\dfrac{25}{65} = 0,5 \\cdot 10"
+            },
+            {
+              "t": "eq",
+              "tex": "T = \\dfrac{5 \\cdot 65}{25} = \\dfrac{65}{5}"
+            },
+            {
+              "t": "eq",
+              "tex": "T = 13\\ \\text{N}"
+            }
+          ]
+        },
+        {
+          "titulo": "A componente horizontal",
+          "cena": {
+            "mostrar": [
+              "situacao",
+              "triangulo",
+              "forcas",
+              "angulo-esfera",
+              "tx"
+            ],
+            "destacar": [
+              "tx"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "Da mesma forma, a componente horizontal:"
+            },
+            {
+              "t": "eq",
+              "tex": "T_{x} = T \\sen\\theta = 13 \\cdot \\dfrac{60}{65} = \\dfrac{60}{5}"
+            },
+            {
+              "t": "eq",
+              "tex": "T_{x} = 12\\ \\text{N}"
+            },
+            {
+              "t": "texto",
+              "html": "Ela aponta para o centro da trajetória: é a <b>resultante centrípeta</b>."
             },
             {
               "t": "gabarito",
