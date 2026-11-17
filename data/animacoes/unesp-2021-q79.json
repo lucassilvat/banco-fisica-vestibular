@@ -1,5 +1,6 @@
 {
   "id": "unesp-2021-q79",
+  "formato": "aula",
   "titulo": "Mesma queda, energias diferentes",
   "conceitos": [
     "Queda livre",
@@ -182,47 +183,96 @@
       }
     }
   },
-  "passos": [
+  "metodos": [
     {
-      "titulo": "A queda",
-      "conceito": "Queda livre",
-      "texto": "Sem resistência do ar, as duas caem com a mesma aceleração g, qualquer que seja a massa. Partindo juntas da mesma altura, chegam juntas e com a mesma velocidade. Isso elimina A, C e E.",
-      "equacoes": [
-        "v = \\sqrt{2gh}"
-      ],
-      "cena": {
-        "mostrar": [
-          "cena",
-          "madeira",
-          "aco",
-          "mesmo"
-        ],
-        "estado": {
-          "animar": [
-            "cai-m",
-            "cai-a"
+      "nome": "Queda livre e energia",
+      "telas": [
+        {
+          "titulo": "A queda",
+          "cena": {
+            "mostrar": [
+              "cena",
+              "madeira",
+              "aco",
+              "mesmo"
+            ],
+            "animar": [
+              "cai-m",
+              "cai-a"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "Sem resistência do ar, as duas caem com a <b>mesma aceleração g</b>. Da conservação da energia, a massa <b>cancela</b>:"
+            },
+            {
+              "t": "eq",
+              "tex": "\\marca{a}{m}\\, g\\, h = \\dfrac{\\marca{b}{m}\\, v^{2}}{2}"
+            },
+            {
+              "t": "eq",
+              "tex": "v = \\sqrt{2 g h}",
+              "cancelar": [
+                "a",
+                "b"
+              ]
+            },
+            {
+              "t": "texto",
+              "html": "Mesma altura: chegam <b>juntas</b> e com a <b>mesma velocidade</b>. (A), (C) e (E) são falsas."
+            }
+          ]
+        },
+        {
+          "titulo": "As energias",
+          "cena": {
+            "mostrar": [
+              "cena",
+              "madeira",
+              "aco",
+              "mesmo",
+              "energia"
+            ],
+            "destacar": [
+              "energia"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "A energia mecânica inicial, m g h, depende da massa: (B) é falsa."
+            },
+            {
+              "t": "texto",
+              "html": "No solo, com o mesmo v para as duas:"
+            },
+            {
+              "t": "eq",
+              "tex": "E_{c} = \\dfrac{m v^{2}}{2}"
+            },
+            {
+              "t": "texto",
+              "html": "A esfera de aço, de massa maior, chega com <b>mais energia cinética</b>."
+            },
+            {
+              "t": "gabarito",
+              "letra": "D"
+            },
+            {
+              "t": "fim"
+            }
           ]
         }
-      }
-    },
-    {
-      "titulo": "As energias",
-      "conceito": "Energia cinética",
-      "texto": "A energia mecânica (mgh no início) e a energia cinética no solo (mv²/2, com o mesmo v) dependem da massa: a esfera de aço, mais pesada, tem mais. B é falsa. Resposta: <b>(D)</b>.",
-      "cena": {
-        "mostrar": [
-          "energia"
-        ],
-        "destacar": [
-          "energia"
-        ],
-        "estado": {
-          "animar": []
-        }
-      }
+      ]
     }
   ],
   "status": "revisado",
   "criadoEm": "2026-11-15T09:00:00-03:00",
-  "atualizadoEm": "2026-11-15T09:00:00-03:00"
+  "atualizadoEm": "2026-11-15T09:00:00-03:00",
+  "revisao": {
+    "estado": "aprovada",
+    "comentario": "",
+    "atualizadoEm": "2026-11-17T00:21:05.042Z"
+  }
 }

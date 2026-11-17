@@ -1,178 +1,108 @@
 {
   "id": "unesp-2021-q84",
+  "formato": "aula",
   "titulo": "Velocidade em número de Mach",
   "conceitos": [
     "Unidades de velocidade",
     "Velocidade do som"
   ],
-  "cena": {
-    "modelo": "diagrama",
-    "parametros": {
-      "elementos": {
-        "etapa-1": [
-          {
-            "t": "ret",
-            "x": 30,
-            "y": 16,
-            "w": 380,
-            "h": 40,
-            "cor": "suave",
-            "borda": "normal",
-            "rx": 7
-          },
-          {
-            "t": "texto",
-            "x": 42,
-            "y": 36.0,
-            "txt": "velocidade do VANT 14-X",
-            "mudo": true,
-            "ancora": "start"
-          },
-          {
-            "t": "texto",
-            "x": 398,
-            "y": 36.0,
-            "txt": "12 000 km/h",
-            "negrito": true,
-            "ancora": "end"
-          }
-        ],
-        "etapa-2": [
-          {
-            "t": "seta",
-            "de": [
-              220.0,
-              59
-            ],
-            "para": [
-              220.0,
-              79
-            ],
-            "cor": "tinta",
-            "larg": 1.8
-          },
-          {
-            "t": "texto",
-            "x": 232.0,
-            "y": 69.0,
-            "txt": "÷ 3,6",
-            "negrito": true,
-            "cor": "acel",
-            "ancora": "start"
-          },
-          {
-            "t": "ret",
-            "x": 30,
-            "y": 82,
-            "w": 380,
-            "h": 40,
-            "cor": "suave",
-            "borda": "normal",
-            "rx": 7
-          },
-          {
-            "t": "texto",
-            "x": 42,
-            "y": 102.0,
-            "txt": "em m/s",
-            "mudo": true,
-            "ancora": "start"
-          },
-          {
-            "t": "texto",
-            "x": 398,
-            "y": 102.0,
-            "txt": "≈ 3 333 m/s",
-            "negrito": true,
-            "ancora": "end"
-          }
-        ],
-        "etapa-3": [
-          {
-            "t": "seta",
-            "de": [
-              220.0,
-              125
-            ],
-            "para": [
-              220.0,
-              145
-            ],
-            "cor": "tinta",
-            "larg": 1.8
-          },
-          {
-            "t": "texto",
-            "x": 232.0,
-            "y": 135.0,
-            "txt": "÷ 340 m/s",
-            "negrito": true,
-            "cor": "acel",
-            "ancora": "start"
-          },
-          {
-            "t": "ret",
-            "x": 30,
-            "y": 148,
-            "w": 380,
-            "h": 40,
-            "cor": "suave",
-            "borda": "normal",
-            "rx": 7
-          },
-          {
-            "t": "texto",
-            "x": 42,
-            "y": 168.0,
-            "txt": "número de Mach",
-            "mudo": true,
-            "ancora": "start"
-          },
-          {
-            "t": "texto",
-            "x": 398,
-            "y": 168.0,
-            "txt": "≈ 9,8 ≈ 10",
-            "negrito": true,
-            "ancora": "end"
-          }
-        ]
-      }
-    }
-  },
-  "passos": [
+  "abertura": [
     {
-      "titulo": "Em metros por segundo",
-      "conceito": "Unidades de velocidade",
-      "texto": "Pelo quadro, o VANT 14-X chega a 12 000 km/h.",
-      "equacoes": [
-        "12\\,000\\ \\text{km/h} = \\dfrac{12\\,000}{3,6} \\approx 3\\,333\\ \\text{m/s}"
-      ],
-      "cena": {
-        "mostrar": [
-          "etapa-1",
-          "etapa-2"
-        ]
-      }
+      "titulo": "Resolução",
+      "blocos": [
+        {
+          "t": "texto",
+          "html": "Há dois caminhos:"
+        },
+        {
+          "t": "texto",
+          "html": "1) Converter a velocidade do VANT para <b>m/s</b>."
+        },
+        {
+          "t": "texto",
+          "html": "2) Converter a velocidade do som para <b>km/h</b>."
+        },
+        {
+          "t": "texto",
+          "html": "Escolha um método nas abas acima, ou avance para ver os dois."
+        }
+      ]
+    }
+  ],
+  "metodos": [
+    {
+      "nome": "Em metros por segundo",
+      "telas": [
+        {
+          "titulo": "Convertendo a velocidade do VANT",
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "Pelo quadro, o VANT 14-X atinge <b>12 000 km/h</b>. Pelo texto, Mach 5 = 1 700 m/s, então Mach 1 = 340 m/s."
+            },
+            {
+              "t": "eq",
+              "tex": "12\\,000\\ \\text{km/h} = \\dfrac{12\\,000}{3,6} \\approx 3\\,333\\ \\text{m/s}"
+            },
+            {
+              "t": "eq",
+              "tex": "\\dfrac{3\\,333}{340} \\approx 9,8"
+            },
+            {
+              "t": "texto",
+              "html": "Aproximadamente <b>Mach 10</b>."
+            },
+            {
+              "t": "gabarito",
+              "letra": "E"
+            },
+            {
+              "t": "fim"
+            }
+          ]
+        }
+      ]
     },
     {
-      "titulo": "Em número de Mach",
-      "conceito": "Velocidade do som",
-      "texto": "Mach 5 = 1 700 m/s, então Mach 1 = 340 m/s, a velocidade do som no ar. Resposta: <b>(E) Mach 10</b>.",
-      "equacoes": [
-        "\\dfrac{3\\,333}{340} \\approx 9,8 \\approx 10"
-      ],
-      "cena": {
-        "mostrar": [
-          "etapa-3"
-        ],
-        "destacar": [
-          "etapa-3"
-        ]
-      }
+      "nome": "Em quilômetros por hora",
+      "telas": [
+        {
+          "titulo": "Convertendo a velocidade do som",
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "Em vez de converter a velocidade do VANT, convertemos a do som:"
+            },
+            {
+              "t": "eq",
+              "tex": "340\\ \\text{m/s} = 340 \\cdot 3,6 = 1\\,224\\ \\text{km/h}"
+            },
+            {
+              "t": "eq",
+              "tex": "\\dfrac{12\\,000}{1\\,224} \\approx 9,8"
+            },
+            {
+              "t": "texto",
+              "html": "Aproximadamente <b>Mach 10</b>."
+            },
+            {
+              "t": "gabarito",
+              "letra": "E"
+            },
+            {
+              "t": "fim"
+            }
+          ]
+        }
+      ]
     }
   ],
   "status": "revisado",
   "criadoEm": "2026-11-15T09:00:00-03:00",
-  "atualizadoEm": "2026-11-15T09:00:00-03:00"
+  "atualizadoEm": "2026-11-15T09:00:00-03:00",
+  "revisao": {
+    "estado": "aprovada",
+    "comentario": "",
+    "atualizadoEm": "2026-11-17T00:29:00.197Z"
+  }
 }

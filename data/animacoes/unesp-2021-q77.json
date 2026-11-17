@@ -1,5 +1,6 @@
 {
   "id": "unesp-2021-q77",
+  "formato": "aula",
   "titulo": "Puxar a membrana para baixo enche as bexigas",
   "conceitos": [
     "Transformação isotérmica",
@@ -199,49 +200,86 @@
       }
     }
   },
-  "passos": [
+  "metodos": [
     {
-      "titulo": "A membrana desce",
-      "conceito": "Pressão",
-      "texto": "Puxar a membrana para baixo corresponde à contração do diafragma, que desce na inspiração. O volume dentro do recipiente (caixa torácica) aumenta.",
-      "cena": {
-        "mostrar": [
-          "recipiente",
-          "bexigas",
-          "membrana"
-        ],
-        "estado": {
-          "animar": [
-            "membrana"
+      "nome": "Lei de Boyle",
+      "telas": [
+        {
+          "titulo": "A membrana desce",
+          "cena": {
+            "mostrar": [
+              "recipiente",
+              "bexigas",
+              "membrana"
+            ],
+            "animar": [
+              "membrana"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "Na inspiração, o diafragma se <b>contrai</b> e desce. No aparato, isso é puxar a membrana para baixo."
+            },
+            {
+              "t": "texto",
+              "html": "Com a membrana mais baixa, o volume da caixa torácica <b>aumenta</b>."
+            }
+          ]
+        },
+        {
+          "titulo": "A pressão interna cai",
+          "cena": {
+            "mostrar": [
+              "recipiente",
+              "bexigas",
+              "membrana",
+              "ar",
+              "pressao"
+            ],
+            "animar": [
+              "membrana",
+              "encher"
+            ],
+            "destacar": [
+              "pressao"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "Para a mesma quantidade de ar, à temperatura constante (lei de Boyle):"
+            },
+            {
+              "t": "eq",
+              "tex": "p\\, V = \\text{constante}"
+            },
+            {
+              "t": "texto",
+              "html": "Volume maior, pressão <b>menor</b>: a pressão interna fica abaixo da pressão ambiente, e o ar de fora entra nas bexigas."
+            },
+            {
+              "t": "texto",
+              "html": "Contração do diafragma, aumento de volume, pressão interna menor que a ambiente."
+            },
+            {
+              "t": "gabarito",
+              "letra": "C"
+            },
+            {
+              "t": "fim"
+            }
           ]
         }
-      }
-    },
-    {
-      "titulo": "A pressão interna cai",
-      "conceito": "Transformação isotérmica",
-      "texto": "Para a mesma quantidade de gás à mesma temperatura, pV é constante: mais volume, menos pressão. Com a pressão interna menor que a ambiente, o ar de fora entra e as bexigas se enchem. Resposta: <b>(C)</b>.",
-      "equacoes": [
-        "pV = \\text{constante}"
-      ],
-      "cena": {
-        "mostrar": [
-          "ar",
-          "pressao"
-        ],
-        "destacar": [
-          "pressao"
-        ],
-        "estado": {
-          "animar": [
-            "membrana",
-            "encher"
-          ]
-        }
-      }
+      ]
     }
   ],
   "status": "revisado",
   "criadoEm": "2026-11-15T09:00:00-03:00",
-  "atualizadoEm": "2026-11-15T09:00:00-03:00"
+  "atualizadoEm": "2026-11-15T09:00:00-03:00",
+  "revisao": {
+    "estado": "aprovada",
+    "comentario": "",
+    "atualizadoEm": "2026-11-17T00:17:29.224Z"
+  }
 }

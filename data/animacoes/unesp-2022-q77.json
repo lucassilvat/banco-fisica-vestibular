@@ -1,5 +1,6 @@
 {
   "id": "unesp-2022-q77",
+  "formato": "aula",
   "titulo": "A parte vertical da tração segura o peso",
   "conceitos": [
     "Resultante centrípeta",
@@ -164,43 +165,211 @@
             "rotulo": "T",
             "sub": "y"
           }
+        ],
+        "angulo-mao": [
+          {
+            "t": "angulo",
+            "centro": [
+              260,
+              70
+            ],
+            "de": 22.6,
+            "ate": 90,
+            "r": 42,
+            "cor": "acel",
+            "dist": 16,
+            "cor_rotulo": "acel",
+            "rotulo": "θ"
+          }
+        ],
+        "angulo-esfera": [
+          {
+            "t": "angulo",
+            "centro": [
+              500,
+              170
+            ],
+            "de": 202.6,
+            "ate": 270,
+            "r": 36,
+            "cor": "acel",
+            "dist": 14,
+            "cor_rotulo": "acel",
+            "rotulo": "θ"
+          }
+        ],
+        "tx": [
+          {
+            "t": "seta",
+            "de": [
+              500,
+              170
+            ],
+            "para": [
+              380,
+              170
+            ],
+            "cor": "normal",
+            "larg": 2.5,
+            "tracejado": true,
+            "rot_em": [
+              384,
+              192
+            ],
+            "rotulo": "T",
+            "sub": "x"
+          }
         ]
       }
     }
   },
-  "passos": [
+  "metodos": [
     {
-      "titulo": "A geometria do fio",
-      "conceito": "Decomposição vetorial",
-      "texto": "O fio (65 cm), o raio da trajetória (60 cm) e a distância vertical entre a mão e o plano da trajetória formam um triângulo retângulo.",
-      "equacoes": [
-        "h = \\sqrt{65^{2} - 60^{2}} = 25\\ \\text{cm}"
-      ],
-      "cena": {
-        "mostrar": [
-          "situacao",
-          "triangulo"
-        ]
-      }
-    },
-    {
-      "titulo": "As forças na esfera",
-      "conceito": "Equilíbrio na vertical",
-      "texto": "Agem o peso \\(\\vec{P}\\) e a tração \\(\\vec{T}\\). A esfera gira num plano horizontal, sem subir nem descer: a componente vertical da tração equilibra o peso. Resposta: <b>(C) 13 N</b>.",
-      "equacoes": [
-        "T \\cdot \\dfrac{25}{65} = mg = 0,5 \\cdot 10 \\quad \\Rightarrow \\quad T = 13\\ \\text{N}"
-      ],
-      "cena": {
-        "mostrar": [
-          "forcas"
-        ],
-        "destacar": [
-          "forcas"
-        ]
-      }
+      "nome": "Equilíbrio na vertical",
+      "telas": [
+        {
+          "titulo": "A geometria do fio",
+          "cena": {
+            "mostrar": [
+              "situacao",
+              "triangulo"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "O fio (65 cm), o raio da trajetória (60 cm) e a altura h entre a mão e o plano da trajetória formam um <b>triângulo retângulo</b>:"
+            },
+            {
+              "t": "eq",
+              "tex": "h = \\sqrt{65^{2} - 60^{2}} = \\sqrt{625}"
+            },
+            {
+              "t": "eq",
+              "tex": "h = 25\\ \\text{cm}"
+            }
+          ]
+        },
+        {
+          "titulo": "O ângulo do fio",
+          "cena": {
+            "mostrar": [
+              "situacao",
+              "triangulo",
+              "angulo-mao"
+            ],
+            "destacar": [
+              "angulo-mao"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "Chame de <b>θ</b> o ângulo entre o fio e a vertical. No triângulo retângulo, a hipotenusa é o fio (65 cm); o cateto <b>adjacente</b> a θ é a altura (25 cm) e o <b>oposto</b> é o raio (60 cm):"
+            },
+            {
+              "t": "eq",
+              "tex": "\\cos\\theta = \\dfrac{\\text{cateto adjacente}}{\\text{hipotenusa}} = \\dfrac{25}{65}"
+            },
+            {
+              "t": "eq",
+              "tex": "\\sen\\theta = \\dfrac{\\text{cateto oposto}}{\\text{hipotenusa}} = \\dfrac{60}{65}"
+            }
+          ]
+        },
+        {
+          "titulo": "A componente vertical",
+          "cena": {
+            "mostrar": [
+              "situacao",
+              "triangulo",
+              "forcas",
+              "angulo-esfera"
+            ],
+            "destacar": [
+              "forcas"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "Sobre a esfera atuam o peso \\(\\vec{P}\\) e a tração \\(\\vec{T}\\). Na esfera, o fio faz o mesmo ângulo θ com a vertical, e a componente vertical da tração é:"
+            },
+            {
+              "t": "eq",
+              "tex": "T_{y} = T \\cos\\theta"
+            },
+            {
+              "t": "texto",
+              "html": "A trajetória está num plano horizontal: na vertical não há aceleração, e T<sub>y</sub> <b>equilibra</b> o peso."
+            },
+            {
+              "t": "eq",
+              "tex": "T \\cos\\theta = m g"
+            },
+            {
+              "t": "eq",
+              "tex": "T \\cdot \\dfrac{25}{65} = 0,5 \\cdot 10"
+            },
+            {
+              "t": "eq",
+              "tex": "T = \\dfrac{5 \\cdot 65}{25} = \\dfrac{65}{5}"
+            },
+            {
+              "t": "eq",
+              "tex": "T = 13\\ \\text{N}"
+            }
+          ]
+        },
+        {
+          "titulo": "A componente horizontal",
+          "cena": {
+            "mostrar": [
+              "situacao",
+              "triangulo",
+              "forcas",
+              "angulo-esfera",
+              "tx"
+            ],
+            "destacar": [
+              "tx"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "Da mesma forma, a componente horizontal:"
+            },
+            {
+              "t": "eq",
+              "tex": "T_{x} = T \\sen\\theta = 13 \\cdot \\dfrac{60}{65} = \\dfrac{60}{5}"
+            },
+            {
+              "t": "eq",
+              "tex": "T_{x} = 12\\ \\text{N}"
+            },
+            {
+              "t": "texto",
+              "html": "Ela aponta para o centro da trajetória: é a <b>resultante centrípeta</b>."
+            },
+            {
+              "t": "gabarito",
+              "letra": "C"
+            },
+            {
+              "t": "fim"
+            }
+          ]
+        }
+      ]
     }
   ],
   "status": "revisado",
   "criadoEm": "2026-11-15T09:00:00-03:00",
-  "atualizadoEm": "2026-11-15T09:00:00-03:00"
+  "atualizadoEm": "2026-11-15T09:00:00-03:00",
+  "revisao": {
+    "estado": "aprovada",
+    "comentario": "Antes de calcular Ty, apresente a fórmula usada. Mostre o ângulo usado e o seno (ou cosseno, a depender do angulo) no triângulo retângulo. Só depois calcule. Faça o mesmo, porém mais rápido, para o Tx.",
+    "atualizadoEm": "2026-11-17T00:44:23.833Z"
+  }
 }

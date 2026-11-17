@@ -1,5 +1,6 @@
 {
   "id": "unesp-2022-q76",
+  "formato": "aula",
   "titulo": "A velocidade média vem da área do triângulo",
   "conceitos": [
     "MUV",
@@ -215,55 +216,99 @@
       }
     }
   },
-  "passos": [
+  "metodos": [
     {
-      "titulo": "A velocidade máxima",
-      "conceito": "MUV",
-      "texto": "Partindo do repouso com aceleração a<sub>1</sub>, o veículo atinge V<sub>máx</sub> no instante T<sub>1</sub>.",
-      "equacoes": [
-        "\\mathrm{V}_{\\text{máx}} = \\mathrm{a}_1 \\cdot \\mathrm{T}_1"
-      ],
-      "cena": {
-        "mostrar": [
-          "grafico",
-          "inclinacao"
-        ]
-      }
-    },
-    {
-      "titulo": "O deslocamento",
-      "conceito": "Deslocamento como área sob v × t",
-      "texto": "No gráfico v × t, o deslocamento é a área sob a curva: um triângulo de base T<sub>1</sub> + T<sub>2</sub> e altura V<sub>máx</sub>.",
-      "equacoes": [
-        "\\Delta\\mathrm{s} = \\dfrac{\\mathrm{V}_{\\text{máx}}(\\mathrm{T}_1 + \\mathrm{T}_2)}{2}"
-      ],
-      "cena": {
-        "ocultar": [
-          "inclinacao"
-        ],
-        "mostrar": [
-          "area"
-        ]
-      }
-    },
-    {
-      "titulo": "A velocidade média",
-      "conceito": "Velocidade escalar média",
-      "texto": "Dividindo pelo tempo total, sobra metade da velocidade máxima. Resposta: <b>(D)</b>.",
-      "equacoes": [
-        "\\mathrm{v}_\\mathrm{m} = \\dfrac{\\Delta\\mathrm{s}}{\\mathrm{T}_1 + \\mathrm{T}_2} = \\dfrac{\\mathrm{V}_{\\text{máx}}}{2} = \\dfrac{\\mathrm{a}_1 \\times \\mathrm{T}_1}{2}"
-      ],
-      "cena": {
-        "mostrar": [
-          "media"
-        ],
-        "destacar": [
-          "media"
-        ]
-      }
+      "nome": "Área do gráfico",
+      "telas": [
+        {
+          "titulo": "A velocidade máxima",
+          "cena": {
+            "mostrar": [
+              "grafico",
+              "inclinacao"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "Na fase de aceleração, o veículo parte do repouso e chega a V<sub>máx</sub> em T<sub>1</sub>:"
+            },
+            {
+              "t": "eq",
+              "tex": "V_{\\text{máx}} = a_{1}\\, T_{1}"
+            }
+          ]
+        },
+        {
+          "titulo": "O deslocamento",
+          "cena": {
+            "mostrar": [
+              "grafico",
+              "area"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "No gráfico v × t, o <b>deslocamento é a área</b> sob a curva: um triângulo de base T<sub>1</sub> + T<sub>2</sub> e altura V<sub>máx</sub>."
+            },
+            {
+              "t": "eq",
+              "tex": "\\Delta s = \\dfrac{V_{\\text{máx}}\\,(T_{1} + T_{2})}{2}"
+            }
+          ]
+        },
+        {
+          "titulo": "A velocidade média",
+          "cena": {
+            "mostrar": [
+              "grafico",
+              "area",
+              "media"
+            ],
+            "destacar": [
+              "media"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "A velocidade média divide esse deslocamento pelo tempo total, T<sub>1</sub> + T<sub>2</sub>, que <b>cancela</b>:"
+            },
+            {
+              "t": "eq",
+              "tex": "v_{m} = \\dfrac{V_{\\text{máx}}\\,\\marca{a}{(T_{1} + T_{2})}}{2\\,\\marca{b}{(T_{1} + T_{2})}}"
+            },
+            {
+              "t": "eq",
+              "tex": "v_{m} = \\dfrac{V_{\\text{máx}}}{2}",
+              "cancelar": [
+                "a",
+                "b"
+              ]
+            },
+            {
+              "t": "eq",
+              "tex": "v_{m} = \\dfrac{a_{1} \\times T_{1}}{2}"
+            },
+            {
+              "t": "gabarito",
+              "letra": "D"
+            },
+            {
+              "t": "fim"
+            }
+          ]
+        }
+      ]
     }
   ],
   "status": "revisado",
   "criadoEm": "2026-11-15T09:00:00-03:00",
-  "atualizadoEm": "2026-11-15T09:00:00-03:00"
+  "atualizadoEm": "2026-11-15T09:00:00-03:00",
+  "revisao": {
+    "estado": "aprovada",
+    "comentario": "",
+    "atualizadoEm": "2026-11-16T23:55:25.967Z"
+  }
 }

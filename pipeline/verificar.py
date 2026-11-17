@@ -124,6 +124,12 @@ def checar(q: dict, topicos: set) -> tuple[list, list]:
         if not (FIGURAS / f).exists(): erros.append(f"figura ausente: data/figuras/{f}")
     if re.search(r"</?(?!(?:i|b|u|sub|sup)>)[a-z]+[^>]*>", q.get("enunciado", "")):
         erros.append("marcação HTML não permitida no enunciado (use só i, b, u, sub, sup)")
+    # O app escapa o texto antes de exibir: entidade HTML (&lt;) apareceria escrita na tela. Use o caractere (<).
+    for campo in ("enunciado", "resolucao"):
+        ent = re.findall(r"&(?:lt|gt|amp|quot|nbsp);", q.get(campo, ""))
+        if ent: erros.append(f"{campo}: entidade HTML {ent[0]} aparece escrita no app; use o próprio caractere")
+    for r in q.get("respostas", []):
+        if re.search(r"&(?:lt|gt|amp|quot|nbsp);", str(r.get("texto", ""))): erros.append("respostas: entidade HTML aparece escrita no app; use o próprio caractere")
     erros += checar_latex(q.get("enunciado", ""), "enunciado")
     erros += checar_latex(q.get("resolucao", ""), "resolução")
     for r in q.get("respostas", []):

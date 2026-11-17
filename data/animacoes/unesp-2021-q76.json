@@ -1,5 +1,6 @@
 {
   "id": "unesp-2021-q76",
+  "formato": "aula",
   "titulo": "O comprimento da volta BCDB",
   "conceitos": [
     "Relações métricas no triângulo retângulo",
@@ -14,20 +15,20 @@
             "t": "linha",
             "pontos": [
               [
-                70,
+                60,
                 330
               ],
               [
-                178,
-                186
+                240,
+                90
               ],
               [
-                370,
+                560,
                 330
               ]
             ],
-            "cor": "tinta",
-            "larg": 2,
+            "cor": "#111111",
+            "larg": 6,
             "fechada": true,
             "preench": "#e6f3e0"
           },
@@ -35,95 +36,118 @@
             "t": "linha",
             "pontos": [
               [
-                178,
-                186
+                240,
+                90
               ],
               [
-                178,
+                240,
                 330
               ]
             ],
-            "cor": "tinta",
-            "larg": 2
+            "cor": "#111111",
+            "larg": 6
           },
           {
             "t": "linha",
             "pontos": [
               [
-                178,
-                318
+                240,
+                314
               ],
               [
-                190,
-                318
+                256,
+                314
               ],
               [
-                190,
+                256,
                 330
               ]
             ],
             "cor": "perigo",
-            "larg": 1.6
+            "larg": 3
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                230.4,
+                102.8
+              ],
+              [
+                243.2,
+                112.4
+              ],
+              [
+                252.8,
+                99.6
+              ]
+            ],
+            "cor": "perigo",
+            "larg": 3
           },
           {
             "t": "texto",
-            "x": 58,
-            "y": 330,
+            "x": 48,
+            "y": 336,
             "txt": "A",
+            "negrito": true,
+            "ancora": "end",
+            "tam": 20
+          },
+          {
+            "t": "texto",
+            "x": 240,
+            "y": 76,
+            "txt": "B",
+            "negrito": true,
+            "tam": 20
+          },
+          {
+            "t": "texto",
+            "x": 574,
+            "y": 336,
+            "txt": "C",
+            "negrito": true,
+            "ancora": "start",
+            "tam": 20
+          },
+          {
+            "t": "texto",
+            "x": 240,
+            "y": 358,
+            "txt": "D",
+            "negrito": true,
+            "tam": 20
+          },
+          {
+            "t": "texto",
+            "x": 138,
+            "y": 200,
+            "txt": "AB = 60 m",
             "negrito": true,
             "ancora": "end"
           },
           {
             "t": "texto",
-            "x": 178,
-            "y": 170,
-            "txt": "B",
-            "negrito": true
-          },
-          {
-            "t": "texto",
-            "x": 382,
-            "y": 330,
-            "txt": "C",
-            "negrito": true,
-            "ancora": "start"
-          },
-          {
-            "t": "texto",
-            "x": 178,
-            "y": 348,
-            "txt": "D",
-            "negrito": true
-          },
-          {
-            "t": "texto",
-            "x": 112.0,
-            "y": 258.0,
-            "txt": "60 m",
-            "ancora": "end",
-            "mudo": true
-          },
-          {
-            "t": "texto",
-            "x": 220,
-            "y": 398,
+            "x": 310,
+            "y": 392,
             "txt": "AC = 100 m",
-            "mudo": true
+            "negrito": true
           }
         ],
         "relacoes": [
           {
             "t": "texto",
-            "x": 420,
-            "y": 90,
+            "x": 330,
+            "y": 60,
             "txt": "triângulo retângulo em B:",
             "ancora": "start",
             "negrito": true
           },
           {
             "t": "texto",
-            "x": 420,
-            "y": 114,
+            "x": 330,
+            "y": 84,
             "txt": "60² + 80² = 100²",
             "ancora": "start"
           }
@@ -131,8 +155,8 @@
         "medidas": [
           {
             "t": "texto",
-            "x": 286.0,
-            "y": 250.0,
+            "x": 412,
+            "y": 196,
             "txt": "BC = 80 m",
             "negrito": true,
             "ancora": "start",
@@ -140,8 +164,8 @@
           },
           {
             "t": "texto",
-            "x": 190,
-            "y": 258.0,
+            "x": 252,
+            "y": 220,
             "txt": "BD = 48 m",
             "negrito": true,
             "ancora": "start",
@@ -149,8 +173,8 @@
           },
           {
             "t": "texto",
-            "x": 274.0,
-            "y": 372,
+            "x": 400,
+            "y": 358,
             "txt": "DC = 64 m",
             "negrito": true,
             "cor": "perigo"
@@ -161,33 +185,70 @@
             "t": "linha",
             "pontos": [
               [
-                178,
-                186
+                240,
+                90
               ],
               [
-                370,
+                560,
                 330
               ],
               [
-                178,
+                240,
                 330
               ],
               [
-                178,
-                186
+                240,
+                90
               ]
             ],
             "cor": "acel",
-            "larg": 4,
-            "opac": 0.8
+            "larg": 18,
+            "opac": 0.35
+          }
+        ],
+        "contorno": [
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                60,
+                330
+              ],
+              [
+                240,
+                90
+              ],
+              [
+                560,
+                330
+              ]
+            ],
+            "cor": "#111111",
+            "larg": 6,
+            "fechada": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                240,
+                90
+              ],
+              [
+                240,
+                330
+              ]
+            ],
+            "cor": "#111111",
+            "larg": 6
           }
         ],
         "pessoa": [
           {
             "t": "circ",
-            "x": 178,
-            "y": 186,
-            "r": 8,
+            "x": 240,
+            "y": 90,
+            "r": 9,
             "cor": "peso",
             "borda": "tinta"
           }
@@ -203,12 +264,12 @@
               0
             ],
             [
-              192,
-              144
+              320,
+              240
             ],
             [
               0,
-              144
+              240
             ],
             [
               0,
@@ -221,55 +282,106 @@
       }
     }
   },
-  "passos": [
+  "metodos": [
     {
-      "titulo": "O triângulo é retângulo",
-      "conceito": "Relações métricas no triângulo retângulo",
-      "texto": "Como 60² + 80² = 100², o triângulo ABC é retângulo em B, e BD é a altura relativa à hipotenusa AC.",
-      "cena": {
-        "mostrar": [
-          "triangulo",
-          "relacoes"
-        ]
-      }
-    },
-    {
-      "titulo": "Os lados que faltam",
-      "conceito": "Relações métricas no triângulo retângulo",
-      "texto": "As relações métricas dão BD e DC.",
-      "equacoes": [
-        "\\mathrm{BD} = \\dfrac{60 \\cdot 80}{100} = 48\\ \\text{m}, \\quad \\mathrm{DC} = \\dfrac{80^{2}}{100} = 64\\ \\text{m}"
-      ],
-      "cena": {
-        "mostrar": [
-          "medidas"
-        ],
-        "destacar": [
-          "medidas"
-        ]
-      }
-    },
-    {
-      "titulo": "A velocidade média",
-      "conceito": "Velocidade escalar média",
-      "texto": "A volta BCDB mede 80 + 64 + 48 = 192 m e leva 40 s. Resposta: <b>(D) 4,8 m/s</b>.",
-      "equacoes": [
-        "v_{\\text{m}} = \\dfrac{192}{40} = 4,8\\ \\text{m/s}"
-      ],
-      "cena": {
-        "mostrar": [
-          "volta",
-          "pessoa"
-        ],
-        "estado": {
-          "animar": [
-            "correr"
+      "nome": "Relações métricas",
+      "telas": [
+        {
+          "titulo": "O triângulo é retângulo",
+          "cena": {
+            "mostrar": [
+              "triangulo",
+              "relacoes"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "Os lados satisfazem o teorema de Pitágoras:"
+            },
+            {
+              "t": "eq",
+              "tex": "60^{2} + 80^{2} = 3\\,600 + 6\\,400 = 10\\,000 = 100^{2}"
+            },
+            {
+              "t": "texto",
+              "html": "O triângulo ABC é <b>retângulo em B</b>, e BD é a altura relativa à hipotenusa AC."
+            }
+          ]
+        },
+        {
+          "titulo": "Os lados que faltam",
+          "cena": {
+            "mostrar": [
+              "triangulo",
+              "relacoes",
+              "medidas"
+            ],
+            "destacar": [
+              "medidas"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "Relações métricas no triângulo retângulo:"
+            },
+            {
+              "t": "eq",
+              "tex": "BD = \\dfrac{AB \\cdot BC}{AC} = \\dfrac{60 \\cdot 80}{100} = 48\\ \\text{m}"
+            },
+            {
+              "t": "eq",
+              "tex": "DC = \\dfrac{BC^{2}}{AC} = \\dfrac{6\\,400}{100} = 64\\ \\text{m}"
+            }
+          ]
+        },
+        {
+          "titulo": "A velocidade média",
+          "cena": {
+            "mostrar": [
+              "triangulo",
+              "relacoes",
+              "medidas",
+              "volta",
+              "contorno",
+              "pessoa"
+            ],
+            "animar": [
+              "correr"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "A volta BCDB:"
+            },
+            {
+              "t": "eq",
+              "tex": "\\Delta s = 80 + 64 + 48 = 192\\ \\text{m}"
+            },
+            {
+              "t": "eq",
+              "tex": "v_{m} = \\dfrac{192}{40} = 4,8\\ \\text{m/s}"
+            },
+            {
+              "t": "gabarito",
+              "letra": "D"
+            },
+            {
+              "t": "fim"
+            }
           ]
         }
-      }
+      ]
     }
   ],
   "status": "revisado",
   "criadoEm": "2026-11-15T09:00:00-03:00",
-  "atualizadoEm": "2026-11-15T09:00:00-03:00"
+  "atualizadoEm": "2026-11-15T09:00:00-03:00",
+  "revisao": {
+    "estado": "aprovada",
+    "comentario": "Adicione ao desenho do triângulo os segmentos de reta em preto para melhorar a acuidade visual.",
+    "atualizadoEm": "2026-11-17T00:51:32.826Z"
+  }
 }

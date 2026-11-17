@@ -4,6 +4,36 @@ Cada versão corresponde a um lote de importação ou a uma mudança no app/pipe
 Formato: `vMAIOR.MENOR.CORREÇÃO` — MENOR sobe a cada prova importada; MAIOR, em mudanças
 de modelo de dados; CORREÇÃO, em correções de questões já publicadas.
 
+## v2.18.0 — 2026-11-16
+
+- **Unesp 2022 e 2021 no formato aula** (15 questões: 2022 Q76 a Q82; 2021 Q76 a Q82 e Q84).
+  Cancelamentos animados: T<sub>1</sub> + T<sub>2</sub> na velocidade média (2022 Q76), a massa na
+  energia (2022 Q78 e 2021 Q79), g e f na refração de ondas (2022 Q81); termos que passam para o
+  outro lado: 10 · 1,6 (2022 Q78), P (2022 Q79), 1/x na equação de Gauss com letras (2022 Q80),
+  Δt (2021 Q78) e 11,8 (2021 Q81).
+- **Dois métodos em abas**: 2022 Q82 (pela energia; pela razão das potências) e 2021 Q84 (convertendo
+  a velocidade do VANT para m/s; convertendo a do som para km/h).
+- Questões de conta simples (2022 Q82, 2021 Q82 e Q84) ficaram **só com a lousa**: as cenas antigas
+  eram apenas caixas com as contas. Na 2021 Q81, só a tabela de efeitos, centralizada e alargada,
+  com a linha certa destacada.
+- Revisão do Lucas: 2021 Q76 com o triângulo em escala, maior e com os ângulos retos em B e D (lados
+  em preto fixo e grossos, legíveis também no tema escuro, por cima do destaque da volta BCDB);
+  2021 Q80 com o olho em cada cabeça (mostra a orientação de cada imagem), todas as distâncias
+  marcadas e seta azul no cliente e vermelha só na imagem pedida, como na prova; 2021 Q81 com a
+  **regra do tombamento** animada (o expoente vai para a frente do log); 2022 Q77 com o ângulo θ
+  na mão e na esfera, cos θ e sen θ no triângulo antes das contas, T<sub>y</sub> e depois T<sub>x</sub>;
+  2022 Q78 redesenhada em escala, com o ponto 3 no topo da parábola (saída a 66° com
+  v<sub>x</sub> = 2 m/s) e a bola com o tempo físico; 2022 Q81 calcula primeiro a frequência e depois
+  λ<sub>2</sub> com a mesma frequência.
+- **Correção de texto** (pedido do Lucas): entidades HTML gravadas no texto (`&lt;`, `&gt;`)
+  apareciam escritas no app, porque ele escapa o texto antes de exibir. Trocadas pelos próprios
+  caracteres no enunciado da Unesp 2021 Q78 (c<sub>x</sub> < c<sub>y</sub> < c<sub>z</sub>) e da Unesp 2019 Q77
+  (det M < 0, det M > 0) e nas resoluções da Unesp 2017 Q80, Unesp 2025 Q82 e Fuvest 2027 Q37, Q62
+  e Q74. O texto não mudou, só a forma de gravar. Atualizado também no banco do app.
+  `pipeline verificar` agora acusa entidade HTML no enunciado, na resolução e nas respostas.
+- Revisões importadas: as 15 foram **aprovadas** pelo Lucas; o site público passa a ter **49**
+  resoluções animadas (Unesp 2021 a 2026).
+
 ## v2.17.0 — 2026-11-15
 
 - **Unesp 2024 e 2023 no formato aula** (17 questões: 2024 Q76 a Q82 e Q86; 2023 Q70, Q76 a Q82

@@ -1,5 +1,6 @@
 {
   "id": "unesp-2021-q78",
+  "formato": "aula",
   "titulo": "Menor calor específico, temperatura muda mais depressa",
   "conceitos": [
     "Calor sensível",
@@ -317,33 +318,70 @@
       }
     }
   },
-  "passos": [
+  "metodos": [
     {
-      "titulo": "A rapidez da mudança de temperatura",
-      "conceito": "Calor sensível",
-      "texto": "Com a mesma potência P (taxa de troca de calor) e a mesma massa, a variação de temperatura por unidade de tempo é inversamente proporcional ao calor específico.",
-      "equacoes": [
-        "P\\,\\Delta t = mc\\,\\Delta\\theta \\quad \\Rightarrow \\quad \\dfrac{\\Delta\\theta}{\\Delta t} = \\dfrac{P}{mc}"
-      ],
-      "cena": {
-        "mostrar": [
-          "ordem"
-        ]
-      }
-    },
-    {
-      "titulo": "Os gráficos",
-      "conceito": "Calor sensível",
-      "texto": "x tem o menor calor específico: sua reta é a mais inclinada, tanto no aquecimento quanto no resfriamento. x chega primeiro a 100 ºC e volta primeiro a θ<sub>amb</sub>; z é a mais lenta nas duas etapas. Resposta: <b>(A)</b>.",
-      "cena": {
-        "mostrar": [
-          "aquecimento",
-          "resfriamento"
-        ]
-      }
+      "nome": "Inclinação dos gráficos",
+      "telas": [
+        {
+          "titulo": "A rapidez da mudança de temperatura",
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "A taxa de troca de calor P é constante. Num intervalo Δt:"
+            },
+            {
+              "t": "eq",
+              "tex": "P\\, \\marca{t}{\\Delta t} = m c\\, \\Delta\\theta"
+            },
+            {
+              "t": "eq",
+              "tex": "\\dfrac{\\Delta\\theta}{\\marca{t}{\\Delta t}} = \\dfrac{P}{m c}",
+              "mover": [
+                "t"
+              ]
+            },
+            {
+              "t": "texto",
+              "html": "As massas são iguais: a rapidez com que a temperatura muda é <b>inversamente proporcional</b> ao calor específico."
+            }
+          ]
+        },
+        {
+          "titulo": "Os gráficos",
+          "cena": {
+            "mostrar": [
+              "ordem",
+              "aquecimento",
+              "resfriamento"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "Como c<sub>x</sub> < c<sub>y</sub> < c<sub>z</sub>, a reta de x é a <b>mais inclinada</b>, depois a de y e a de z, no aquecimento e no resfriamento."
+            },
+            {
+              "t": "texto",
+              "html": "x chega primeiro a 100 ºC e também volta primeiro a θ<sub>amb</sub>; z é a mais lenta nas duas etapas."
+            },
+            {
+              "t": "gabarito",
+              "letra": "A"
+            },
+            {
+              "t": "fim"
+            }
+          ]
+        }
+      ]
     }
   ],
   "status": "revisado",
   "criadoEm": "2026-11-15T09:00:00-03:00",
-  "atualizadoEm": "2026-11-15T09:00:00-03:00"
+  "atualizadoEm": "2026-11-15T09:00:00-03:00",
+  "revisao": {
+    "estado": "aprovada",
+    "comentario": "",
+    "atualizadoEm": "2026-11-17T00:19:56.228Z"
+  }
 }

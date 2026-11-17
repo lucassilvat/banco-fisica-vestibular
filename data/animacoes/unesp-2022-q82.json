@@ -1,178 +1,124 @@
 {
   "id": "unesp-2022-q82",
+  "formato": "aula",
   "titulo": "Mesma energia, potências muito diferentes",
   "conceitos": [
     "Energia elétrica",
     "Potência"
   ],
-  "cena": {
-    "modelo": "diagrama",
-    "parametros": {
-      "elementos": {
-        "etapa-1": [
-          {
-            "t": "ret",
-            "x": 30,
-            "y": 16,
-            "w": 380,
-            "h": 40,
-            "cor": "suave",
-            "borda": "normal",
-            "rx": 7
-          },
-          {
-            "t": "texto",
-            "x": 42,
-            "y": 36.0,
-            "txt": "potência do chuveiro",
-            "mudo": true,
-            "ancora": "start"
-          },
-          {
-            "t": "texto",
-            "x": 398,
-            "y": 36.0,
-            "txt": "7 500 W",
-            "negrito": true,
-            "ancora": "end"
-          }
-        ],
-        "etapa-2": [
-          {
-            "t": "seta",
-            "de": [
-              220.0,
-              59
-            ],
-            "para": [
-              220.0,
-              79
-            ],
-            "cor": "tinta",
-            "larg": 1.8
-          },
-          {
-            "t": "texto",
-            "x": 232.0,
-            "y": 69.0,
-            "txt": "× 0,2 h",
-            "negrito": true,
-            "cor": "acel",
-            "ancora": "start"
-          },
-          {
-            "t": "ret",
-            "x": 30,
-            "y": 82,
-            "w": 380,
-            "h": 40,
-            "cor": "suave",
-            "borda": "normal",
-            "rx": 7
-          },
-          {
-            "t": "texto",
-            "x": 42,
-            "y": 102.0,
-            "txt": "energia no banho (12 min = 0,2 h)",
-            "mudo": true,
-            "ancora": "start"
-          },
-          {
-            "t": "texto",
-            "x": 398,
-            "y": 102.0,
-            "txt": "1 500 Wh",
-            "negrito": true,
-            "ancora": "end"
-          }
-        ],
-        "etapa-3": [
-          {
-            "t": "seta",
-            "de": [
-              220.0,
-              125
-            ],
-            "para": [
-              220.0,
-              145
-            ],
-            "cor": "tinta",
-            "larg": 1.8
-          },
-          {
-            "t": "texto",
-            "x": 232.0,
-            "y": 135.0,
-            "txt": "÷ 20 W",
-            "negrito": true,
-            "cor": "acel",
-            "ancora": "start"
-          },
-          {
-            "t": "ret",
-            "x": 30,
-            "y": 148,
-            "w": 380,
-            "h": 40,
-            "cor": "suave",
-            "borda": "normal",
-            "rx": 7
-          },
-          {
-            "t": "texto",
-            "x": 42,
-            "y": 168.0,
-            "txt": "tempo da lâmpada de 20 W",
-            "mudo": true,
-            "ancora": "start"
-          },
-          {
-            "t": "texto",
-            "x": 398,
-            "y": 168.0,
-            "txt": "75 h",
-            "negrito": true,
-            "ancora": "end"
-          }
-        ]
-      }
-    }
-  },
-  "passos": [
+  "abertura": [
     {
-      "titulo": "A energia do banho",
-      "conceito": "Energia elétrica",
-      "texto": "Pelas embalagens, o chuveiro tem 7 500 W e a lâmpada, 20 W. Energia é potência vezes tempo: 12 min são 0,2 h.",
-      "equacoes": [
-        "E = P \\cdot \\Delta t = 7\\,500 \\cdot 0,2 = 1\\,500\\ \\text{Wh}"
-      ],
-      "cena": {
-        "mostrar": [
-          "etapa-1",
-          "etapa-2"
-        ]
-      }
+      "titulo": "Resolução",
+      "blocos": [
+        {
+          "t": "texto",
+          "html": "Há dois caminhos:"
+        },
+        {
+          "t": "texto",
+          "html": "1) Calcular a <b>energia</b> do banho e dividir pela potência da lâmpada."
+        },
+        {
+          "t": "texto",
+          "html": "2) Comparar as <b>potências</b>: quantas vezes a lâmpada consome menos."
+        },
+        {
+          "t": "texto",
+          "html": "Escolha um método nas abas acima, ou avance para ver os dois."
+        }
+      ]
+    }
+  ],
+  "metodos": [
+    {
+      "nome": "Pela energia",
+      "telas": [
+        {
+          "titulo": "A energia do banho",
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "Pelas embalagens: chuveiro de <b>7 500 W</b> e lâmpada de <b>20 W</b>."
+            },
+            {
+              "t": "texto",
+              "html": "Energia do banho de 12 min = 0,2 h:"
+            },
+            {
+              "t": "eq",
+              "tex": "E = 7\\,500 \\cdot 0,2 = 1\\,500\\ \\text{Wh}"
+            },
+            {
+              "t": "texto",
+              "html": "A lâmpada precisa consumir a mesma energia:"
+            },
+            {
+              "t": "eq",
+              "tex": "\\Delta t = \\dfrac{E}{P} = \\dfrac{1\\,500}{20}"
+            },
+            {
+              "t": "eq",
+              "tex": "\\Delta t = 75\\ \\text{h}"
+            },
+            {
+              "t": "gabarito",
+              "letra": "B"
+            },
+            {
+              "t": "fim"
+            }
+          ]
+        }
+      ]
     },
     {
-      "titulo": "O tempo da lâmpada",
-      "conceito": "Potência",
-      "texto": "A lâmpada consome essa mesma energia num tempo muito maior. Resposta: <b>(B) 75 horas</b>.",
-      "equacoes": [
-        "\\Delta t = \\dfrac{E}{P} = \\dfrac{1\\,500}{20} = 75\\ \\text{h}"
-      ],
-      "cena": {
-        "mostrar": [
-          "etapa-3"
-        ],
-        "destacar": [
-          "etapa-3"
-        ]
-      }
+      "nome": "Pela razão das potências",
+      "telas": [
+        {
+          "titulo": "Quantas vezes mais tempo",
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "Mesma energia: potência vezes tempo é igual para os dois aparelhos."
+            },
+            {
+              "t": "eq",
+              "tex": "P_{\\text{ch}}\\, \\Delta t_{\\text{ch}} = P_{\\text{l}}\\, \\Delta t_{\\text{l}}"
+            },
+            {
+              "t": "eq",
+              "tex": "\\Delta t_{\\text{l}} = \\dfrac{7\\,500}{20} \\cdot 12\\ \\text{min}"
+            },
+            {
+              "t": "texto",
+              "html": "A lâmpada tem potência 375 vezes menor: precisa ficar acesa 375 vezes mais."
+            },
+            {
+              "t": "eq",
+              "tex": "\\Delta t_{\\text{l}} = 375 \\cdot 12 = 4\\,500\\ \\text{min}"
+            },
+            {
+              "t": "eq",
+              "tex": "\\Delta t_{\\text{l}} = \\dfrac{4\\,500}{60} = 75\\ \\text{h}"
+            },
+            {
+              "t": "gabarito",
+              "letra": "B"
+            },
+            {
+              "t": "fim"
+            }
+          ]
+        }
+      ]
     }
   ],
   "status": "revisado",
   "criadoEm": "2026-11-15T09:00:00-03:00",
-  "atualizadoEm": "2026-11-15T09:00:00-03:00"
+  "atualizadoEm": "2026-11-15T09:00:00-03:00",
+  "revisao": {
+    "estado": "aprovada",
+    "comentario": "",
+    "atualizadoEm": "2026-11-17T00:04:58.040Z"
+  }
 }

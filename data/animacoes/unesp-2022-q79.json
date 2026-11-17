@@ -1,5 +1,6 @@
 {
   "id": "unesp-2022-q79",
+  "formato": "aula",
   "titulo": "Quanto tempo a peça leva para chegar a 80 ºC",
   "conceitos": [
     "Calor sensível",
@@ -247,38 +248,85 @@
       }
     }
   },
-  "passos": [
+  "metodos": [
     {
-      "titulo": "O calor necessário",
-      "conceito": "Calor sensível",
-      "texto": "A peça precisa ir de 20 ºC a 80 ºC.",
-      "equacoes": [
-        "Q = mc\\Delta\\theta = 200 \\cdot 0,03 \\cdot 60 = 360\\ \\text{cal} = 360 \\cdot 4 = 1\\,440\\ \\text{J}"
-      ],
-      "cena": {
-        "mostrar": [
-          "grafico"
-        ]
-      }
-    },
-    {
-      "titulo": "O tempo",
-      "conceito": "Potência",
-      "texto": "O gráfico mostra potência constante de 2 W. A energia absorvida é a área sob o gráfico: P · Δt. Resposta: <b>(E) t = 12 min</b>.",
-      "equacoes": [
-        "\\Delta t = \\dfrac{Q}{P} = \\dfrac{1\\,440}{2} = 720\\ \\text{s} = 12\\ \\text{min}"
-      ],
-      "cena": {
-        "mostrar": [
-          "area"
-        ],
-        "destacar": [
-          "area"
-        ]
-      }
+      "nome": "Calor sensível e potência",
+      "telas": [
+        {
+          "titulo": "O calor necessário",
+          "cena": {
+            "mostrar": [
+              "grafico"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "Calor para aquecer a peça de 20 ºC a 80 ºC:"
+            },
+            {
+              "t": "eq",
+              "tex": "Q = m c\\, \\Delta\\theta = 200 \\cdot 0,03 \\cdot 60"
+            },
+            {
+              "t": "eq",
+              "tex": "Q = 360\\ \\text{cal} = 360 \\cdot 4 = 1\\,440\\ \\text{J}"
+            }
+          ]
+        },
+        {
+          "titulo": "O tempo",
+          "cena": {
+            "mostrar": [
+              "grafico",
+              "area"
+            ],
+            "destacar": [
+              "area"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "Pelo gráfico, a peça absorve energia a uma potência constante de <b>2 W</b>. Isolamos o tempo:"
+            },
+            {
+              "t": "eq",
+              "tex": "Q = \\marca{p}{P}\\, \\Delta t"
+            },
+            {
+              "t": "eq",
+              "tex": "\\Delta t = \\dfrac{Q}{\\marca{p}{P}}",
+              "mover": [
+                "p"
+              ]
+            },
+            {
+              "t": "eq",
+              "tex": "\\Delta t = \\dfrac{1\\,440}{2} = 720\\ \\text{s}"
+            },
+            {
+              "t": "eq",
+              "tex": "\\Delta t = 12\\ \\text{min}"
+            },
+            {
+              "t": "gabarito",
+              "letra": "E"
+            },
+            {
+              "t": "fim"
+            }
+          ]
+        }
+      ]
     }
   ],
   "status": "revisado",
   "criadoEm": "2026-11-15T09:00:00-03:00",
-  "atualizadoEm": "2026-11-15T09:00:00-03:00"
+  "atualizadoEm": "2026-11-15T09:00:00-03:00",
+  "revisao": {
+    "estado": "aprovada",
+    "comentario": "",
+    "atualizadoEm": "2026-11-17T00:01:00.509Z"
+  }
 }

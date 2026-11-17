@@ -94,3 +94,9 @@ incluir (ex.: Fuvest 2020 Q2, Q8, Q11; 2023 Q71). As da Unicamp que ficaram de f
 - **Questão discursiva** (`tipo: "discursiva"`): sem `gabarito` (fica vazio); a resposta
   final de cada item vai em `respostas` (`[{"item": "a", "texto": "..."}]`, com as unidades),
   e a resolução separa os itens com linhas `a)`, `b)` antes dos passos numerados.
+
+## Caracteres especiais
+
+Grave os caracteres como são (`<`, `>`, `&`), nunca como entidade HTML (`&lt;`, `&gt;`, `&amp;`):
+o app escapa o texto antes de exibir, e a entidade apareceria escrita. Só as marcações `i`, `b`,
+`u`, `sub` e `sup` são interpretadas. `pipeline verificar` acusa entidade HTML como erro.

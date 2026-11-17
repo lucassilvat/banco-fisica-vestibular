@@ -11,7 +11,7 @@
   "figuras": [],
   "gabarito": "A",
   "gabaritoFonte": "resolucao-propria",
-  "resolucao": "1. Potência do carro elétrico: <i>P</i> = <i>V</i> · <i>i</i> = 400 · 80 = 32 000 W = 32 kW.\n2. Tempo de uso por mês: 2 000 km a 100 km/h ⇒ 20 h. Energia: 32 kW · 20 h = 640 kWh ⇒ custo de 640 · 0,80 = R$ 512,00 por mês.\n3. Gasolina: 2 000 km · R$ 0,50 = R$ 1.000,00 por mês. Economia do elétrico: R$ 488,00 por mês.\n4. Em 5 anos (60 meses): 488 · 60 = R$ 29.280,00 de economia.\n5. Diferença de preço de compra: 160 000 − 120 000 = R$ 40.000,00. Sem bônus, o elétrico sai R$ 10.720,00 mais caro: (D) é falsa.\n6. Com um bônus de pelo menos R$ 11.000,00 (&gt; R$ 10.720,00), o elétrico passa a ser o mais vantajoso; bônus de R$ 8.000,00 ou R$ 5.000,00 não bastam.\nGabarito: A.",
+  "resolucao": "1. Potência do carro elétrico: <i>P</i> = <i>V</i> · <i>i</i> = 400 · 80 = 32 000 W = 32 kW.\n2. Tempo de uso por mês: 2 000 km a 100 km/h ⇒ 20 h. Energia: 32 kW · 20 h = 640 kWh ⇒ custo de 640 · 0,80 = R$ 512,00 por mês.\n3. Gasolina: 2 000 km · R$ 0,50 = R$ 1.000,00 por mês. Economia do elétrico: R$ 488,00 por mês.\n4. Em 5 anos (60 meses): 488 · 60 = R$ 29.280,00 de economia.\n5. Diferença de preço de compra: 160 000 − 120 000 = R$ 40.000,00. Sem bônus, o elétrico sai R$ 10.720,00 mais caro: (D) é falsa.\n6. Com um bônus de pelo menos R$ 11.000,00 (> R$ 10.720,00), o elétrico passa a ser o mais vantajoso; bônus de R$ 8.000,00 ou R$ 5.000,00 não bastam.\nGabarito: A.",
   "topicos": [
     "potencia-eletrica-e-efeito-joule",
     "energia-eletrica-e-consumo-kwh-conta-de-luz",

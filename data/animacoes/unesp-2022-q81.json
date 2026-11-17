@@ -1,5 +1,6 @@
 {
   "id": "unesp-2022-q81",
+  "formato": "aula",
   "titulo": "Água mais rasa, onda mais lenta e mais curta",
   "conceitos": [
     "Refração de ondas",
@@ -944,43 +945,93 @@
       }
     }
   },
-  "passos": [
+  "metodos": [
     {
-      "titulo": "A frequência não muda",
-      "conceito": "Refração de ondas",
-      "texto": "Ao passar para a região mais rasa, a onda muda de velocidade (refração), mas a frequência continua a mesma: é imposta pela fonte.",
-      "cena": {
-        "mostrar": [
-          "fundo",
-          "ondas",
-          "comprimentos"
-        ]
-      }
-    },
-    {
-      "titulo": "A razão das velocidades",
-      "conceito": "Refração de ondas",
-      "texto": "Em águas rasas, a velocidade depende da profundidade.",
-      "equacoes": [
-        "\\dfrac{\\mathrm{v}_2}{\\mathrm{v}_1} = \\sqrt{\\dfrac{0,9}{3,6}} = \\dfrac{1}{2}"
-      ],
-      "cena": {}
-    },
-    {
-      "titulo": "O novo comprimento de onda",
-      "conceito": "Equação fundamental da ondulatória",
-      "texto": "Com a mesma frequência, o comprimento de onda é proporcional à velocidade. Resposta: <b>(A) 6 m</b>.",
-      "equacoes": [
-        "v = \\lambda f \\quad \\Rightarrow \\quad \\lambda_{2} = 12 \\cdot \\dfrac{1}{2} = 6\\ \\text{m}"
-      ],
-      "cena": {
-        "destacar": [
-          "comprimentos"
-        ]
-      }
+      "nome": "Frequência constante",
+      "telas": [
+        {
+          "titulo": "A frequência",
+          "cena": {
+            "mostrar": [
+              "fundo",
+              "ondas",
+              "comprimentos"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "Na refração, a <b>frequência não muda</b>: quem a impõe é a fonte. Então calculamos f na primeira região e a mantemos na segunda."
+            },
+            {
+              "t": "texto",
+              "html": "A questão não dá g; adotamos g = 10 m/s² (qualquer valor de g leva ao mesmo λ<sub>2</sub>)."
+            },
+            {
+              "t": "eq",
+              "tex": "v_{1} = \\sqrt{g\\, h_{1}} = \\sqrt{10 \\cdot 3,6} = \\sqrt{36} = 6\\ \\text{m/s}"
+            },
+            {
+              "t": "eq",
+              "tex": "f = \\dfrac{v_{1}}{\\lambda_{1}} = \\dfrac{6}{12}"
+            },
+            {
+              "t": "eq",
+              "tex": "f = 0,5\\ \\text{Hz}"
+            }
+          ]
+        },
+        {
+          "titulo": "O novo comprimento de onda",
+          "cena": {
+            "mostrar": [
+              "fundo",
+              "ondas",
+              "comprimentos"
+            ],
+            "destacar": [
+              "comprimentos"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "Na região rasa, a velocidade cai:"
+            },
+            {
+              "t": "eq",
+              "tex": "v_{2} = \\sqrt{g\\, h_{2}} = \\sqrt{10 \\cdot 0,9} = \\sqrt{9} = 3\\ \\text{m/s}"
+            },
+            {
+              "t": "texto",
+              "html": "Com a <b>mesma frequência</b>, de v = λf:"
+            },
+            {
+              "t": "eq",
+              "tex": "\\lambda_{2} = \\dfrac{v_{2}}{f} = \\dfrac{3}{0,5}"
+            },
+            {
+              "t": "eq",
+              "tex": "\\lambda_{2} = 6\\ \\text{m}"
+            },
+            {
+              "t": "gabarito",
+              "letra": "A"
+            },
+            {
+              "t": "fim"
+            }
+          ]
+        }
+      ]
     }
   ],
   "status": "revisado",
   "criadoEm": "2026-11-15T09:00:00-03:00",
-  "atualizadoEm": "2026-11-15T09:00:00-03:00"
+  "atualizadoEm": "2026-11-15T09:00:00-03:00",
+  "revisao": {
+    "estado": "aprovada",
+    "comentario": "Calcule a frequência primeiro. Depois, mantendo a frequencia, calcule o novo comprimento de onda.",
+    "atualizadoEm": "2026-11-17T00:45:38.040Z"
+  }
 }
