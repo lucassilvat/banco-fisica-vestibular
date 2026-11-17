@@ -1,5 +1,6 @@
 {
   "id": "unesp-2019-q82",
+  "formato": "aula",
   "titulo": "A bússola segue as linhas do campo da Terra",
   "conceitos": [
     "Campo magnético terrestre e bússola",
@@ -976,7 +977,7 @@
           },
           {
             "t": "rotulo",
-            "x": 520,
+            "x": 470,
             "y": 70,
             "txt": "Londres: N da agulha para baixo",
             "cor": "var(--danger)"
@@ -992,31 +993,61 @@
       }
     }
   },
-  "passos": [
+  "metodos": [
     {
-      "titulo": "A agulha se alinha com o campo",
-      "conceito": "Linhas de campo magnético",
-      "texto": "Uma agulha livre fica tangente às linhas de indução do campo magnético local. Isso elimina A, B e E.",
-      "cena": {
-        "mostrar": [
-          "terra",
-          "linhas"
-        ]
-      }
-    },
-    {
-      "titulo": "Os polos magnéticos",
-      "conceito": "Campo magnético terrestre e bússola",
-      "texto": "As linhas saem do polo norte magnético e entram no polo sul magnético. Em Londres o norte da agulha aponta para baixo: ali as linhas entram na Terra. Logo, perto do polo norte geográfico está o polo sul magnético, e o polo norte magnético fica perto do polo sul geográfico. Resposta: <b>(D)</b>.",
-      "cena": {
-        "mostrar": [
-          "polos",
-          "bussolas"
-        ],
-        "destacar": [
-          "bussolas"
-        ]
-      }
+      "nome": "Agulha e linhas de campo",
+      "telas": [
+        {
+          "titulo": "A agulha se alinha com o campo",
+          "cena": {
+            "mostrar": [
+              "terra",
+              "linhas"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "A agulha de uma bússola livre se alinha com o campo magnético local: fica <b>tangente às linhas de indução</b>. Isso elimina A, B e E."
+            }
+          ]
+        },
+        {
+          "titulo": "Os polos magnéticos",
+          "cena": {
+            "mostrar": [
+              "terra",
+              "linhas",
+              "polos",
+              "bussolas"
+            ],
+            "destacar": [
+              "bussolas"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "As linhas saem do polo norte magnético e entram no polo sul magnético."
+            },
+            {
+              "t": "texto",
+              "html": "Em Londres (hemisfério norte), o norte da agulha aponta <b>para baixo</b>: as linhas entram na Terra ali. Perto do polo norte geográfico está o polo <b>sul</b> magnético."
+            },
+            {
+              "t": "texto",
+              "html": "Logo, o polo norte magnético está próximo ao polo <b>sul geográfico</b>."
+            },
+            {
+              "t": "gabarito",
+              "letra": "D"
+            },
+            {
+              "t": "fim"
+            }
+          ]
+        }
+      ]
     }
   ],
   "status": "revisado",

@@ -1,283 +1,129 @@
 {
   "id": "unesp-2019-q73",
+  "formato": "aula",
   "titulo": "Do tempo de voo à massa de CO₂",
   "conceitos": [
     "Velocidade média",
     "Estequiometria"
   ],
-  "cena": {
-    "modelo": "diagrama",
-    "parametros": {
-      "elementos": {
-        "etapa-1": [
-          {
-            "t": "ret",
-            "x": 30,
-            "y": 16,
-            "w": 420,
-            "h": 40,
-            "cor": "suave",
-            "borda": "normal",
-            "rx": 7
-          },
-          {
-            "t": "texto",
-            "x": 42,
-            "y": 36.0,
-            "txt": "tempo de voo",
-            "mudo": true,
-            "ancora": "start"
-          },
-          {
-            "t": "texto",
-            "x": 438,
-            "y": 36.0,
-            "txt": "3 h",
-            "negrito": true,
-            "ancora": "end"
-          }
-        ],
-        "etapa-2": [
-          {
-            "t": "seta",
-            "de": [
-              240.0,
-              59
-            ],
-            "para": [
-              240.0,
-              79
-            ],
-            "cor": "tinta",
-            "larg": 1.8
-          },
-          {
-            "t": "texto",
-            "x": 252.0,
-            "y": 69.0,
-            "txt": "× 2 200 kg/h",
-            "negrito": true,
-            "cor": "acel",
-            "ancora": "start"
-          },
-          {
-            "t": "ret",
-            "x": 30,
-            "y": 82,
-            "w": 420,
-            "h": 40,
-            "cor": "suave",
-            "borda": "normal",
-            "rx": 7
-          },
-          {
-            "t": "texto",
-            "x": 42,
-            "y": 102.0,
-            "txt": "QAV consumido",
-            "mudo": true,
-            "ancora": "start"
-          },
-          {
-            "t": "texto",
-            "x": 438,
-            "y": 102.0,
-            "txt": "6 600 kg",
-            "negrito": true,
-            "ancora": "end"
-          }
-        ],
-        "etapa-3": [
-          {
-            "t": "seta",
-            "de": [
-              240.0,
-              125
-            ],
-            "para": [
-              240.0,
-              145
-            ],
-            "cor": "tinta",
-            "larg": 1.8
-          },
-          {
-            "t": "texto",
-            "x": 252.0,
-            "y": 135.0,
-            "txt": "÷ 170 g/mol",
-            "negrito": true,
-            "cor": "acel",
-            "ancora": "start"
-          },
-          {
-            "t": "ret",
-            "x": 30,
-            "y": 148,
-            "w": 420,
-            "h": 40,
-            "cor": "suave",
-            "borda": "normal",
-            "rx": 7
-          },
-          {
-            "t": "texto",
-            "x": 42,
-            "y": 168.0,
-            "txt": "mols de C_{12}H_{26}",
-            "mudo": true,
-            "ancora": "start"
-          },
-          {
-            "t": "texto",
-            "x": 438,
-            "y": 168.0,
-            "txt": "≈ 3,9 × 10^{4} mol",
-            "negrito": true,
-            "ancora": "end"
-          }
-        ],
-        "etapa-4": [
-          {
-            "t": "seta",
-            "de": [
-              240.0,
-              191
-            ],
-            "para": [
-              240.0,
-              211
-            ],
-            "cor": "tinta",
-            "larg": 1.8
-          },
-          {
-            "t": "texto",
-            "x": 252.0,
-            "y": 201.0,
-            "txt": "× 12",
-            "negrito": true,
-            "cor": "acel",
-            "ancora": "start"
-          },
-          {
-            "t": "ret",
-            "x": 30,
-            "y": 214,
-            "w": 420,
-            "h": 40,
-            "cor": "suave",
-            "borda": "normal",
-            "rx": 7
-          },
-          {
-            "t": "texto",
-            "x": 42,
-            "y": 234.0,
-            "txt": "mols de CO_{2}",
-            "mudo": true,
-            "ancora": "start"
-          },
-          {
-            "t": "texto",
-            "x": 438,
-            "y": 234.0,
-            "txt": "≈ 4,66 × 10^{5} mol",
-            "negrito": true,
-            "ancora": "end"
-          }
-        ],
-        "etapa-5": [
-          {
-            "t": "seta",
-            "de": [
-              240.0,
-              257
-            ],
-            "para": [
-              240.0,
-              277
-            ],
-            "cor": "tinta",
-            "larg": 1.8
-          },
-          {
-            "t": "texto",
-            "x": 252.0,
-            "y": 267.0,
-            "txt": "× 44 g/mol",
-            "negrito": true,
-            "cor": "acel",
-            "ancora": "start"
-          },
-          {
-            "t": "ret",
-            "x": 30,
-            "y": 280,
-            "w": 420,
-            "h": 40,
-            "cor": "suave",
-            "borda": "normal",
-            "rx": 7
-          },
-          {
-            "t": "texto",
-            "x": 42,
-            "y": 300.0,
-            "txt": "massa de CO_{2}",
-            "mudo": true,
-            "ancora": "start"
-          },
-          {
-            "t": "texto",
-            "x": 438,
-            "y": 300.0,
-            "txt": "≈ 2,05 × 10^{7} g ≈ 20 t",
-            "negrito": true,
-            "ancora": "end"
-          }
-        ]
-      }
+  "abertura": [
+    {
+      "titulo": "Resolução",
+      "blocos": [
+        {
+          "t": "texto",
+          "html": "Há dois caminhos:"
+        },
+        {
+          "t": "texto",
+          "html": "1) Passar o combustível para <b>mols</b> e usar a proporção de 12 mol de CO<sub>2</sub> por mol."
+        },
+        {
+          "t": "texto",
+          "html": "2) Usar a <b>proporção em massa</b>: quantos gramas de CO<sub>2</sub> cada grama de combustível gera."
+        },
+        {
+          "t": "texto",
+          "html": "Escolha um método nas abas acima, ou avance para ver os dois."
+        }
+      ]
     }
-  },
-  "passos": [
+  ],
+  "metodos": [
     {
-      "titulo": "O tempo de voo",
-      "conceito": "Velocidade média",
-      "texto": "Em cruzeiro, a 800 km/h, o avião percorre 2 400 km.",
-      "equacoes": [
-        "\\Delta t = \\dfrac{2\\,400}{800} = 3\\ \\text{h}"
-      ],
-      "cena": {
-        "mostrar": [
-          "etapa-1"
-        ]
-      }
+      "nome": "Em mols",
+      "telas": [
+        {
+          "titulo": "O combustível",
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "Tempo de voo e combustível, em cruzeiro:"
+            },
+            {
+              "t": "eq",
+              "tex": "\\Delta t = \\dfrac{2\\,400}{800} = 3\\ \\text{h}"
+            },
+            {
+              "t": "eq",
+              "tex": "3 \\cdot 2\\,200 = 6\\,600\\ \\text{kg de QAV}"
+            },
+            {
+              "t": "texto",
+              "html": "Em mols de C<sub>12</sub>H<sub>26</sub> (170 g/mol):"
+            },
+            {
+              "t": "eq",
+              "tex": "n = \\dfrac{6,6 \\cdot 10^{6}}{170} \\approx 3,9 \\cdot 10^{4}\\ \\text{mol}"
+            }
+          ]
+        },
+        {
+          "titulo": "A massa de CO₂",
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "Cada mol de C<sub>12</sub>H<sub>26</sub> gera <b>12 mol</b> de CO<sub>2</sub> (44 g/mol):"
+            },
+            {
+              "t": "eq",
+              "tex": "n_{\\text{CO}_{2}} = 12 \\cdot 3,9 \\cdot 10^{4} \\approx 4,66 \\cdot 10^{5}\\ \\text{mol}"
+            },
+            {
+              "t": "eq",
+              "tex": "m = 4,66 \\cdot 10^{5} \\cdot 44 \\approx 2,05 \\cdot 10^{7}\\ \\text{g}"
+            },
+            {
+              "t": "eq",
+              "tex": "m \\approx 20\\ \\text{t}"
+            },
+            {
+              "t": "gabarito",
+              "letra": "B"
+            },
+            {
+              "t": "fim"
+            }
+          ]
+        }
+      ]
     },
     {
-      "titulo": "O combustível",
-      "conceito": "Estequiometria",
-      "texto": "O consumo em cruzeiro é 2 200 kg/h. Cada mol de C<sub>12</sub>H<sub>26</sub> gera 12 mol de CO<sub>2</sub> na combustão completa.",
-      "cena": {
-        "mostrar": [
-          "etapa-2",
-          "etapa-3",
-          "etapa-4"
-        ]
-      }
-    },
-    {
-      "titulo": "A massa de CO₂",
-      "conceito": "Estequiometria",
-      "texto": "Resposta: <b>(B) 20 t</b>.",
-      "cena": {
-        "mostrar": [
-          "etapa-5"
-        ],
-        "destacar": [
-          "etapa-5"
-        ]
-      }
+      "nome": "Proporção em massa",
+      "telas": [
+        {
+          "titulo": "Quantas vezes a massa do combustível",
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "O voo dura 2 400/800 = 3 h e consome 3 · 2 200 = <b>6 600 kg</b> de QAV."
+            },
+            {
+              "t": "texto",
+              "html": "Cada 170 g de C<sub>12</sub>H<sub>26</sub> gera 12 · 44 = 528 g de CO<sub>2</sub>:"
+            },
+            {
+              "t": "eq",
+              "tex": "\\dfrac{528}{170} \\approx 3,1"
+            },
+            {
+              "t": "texto",
+              "html": "A massa de CO<sub>2</sub> é cerca de 3,1 vezes a de combustível:"
+            },
+            {
+              "t": "eq",
+              "tex": "m \\approx 3,1 \\cdot 6\\,600\\ \\text{kg} \\approx 20\\,500\\ \\text{kg} \\approx 20\\ \\text{t}"
+            },
+            {
+              "t": "gabarito",
+              "letra": "B"
+            },
+            {
+              "t": "fim"
+            }
+          ]
+        }
+      ]
     }
   ],
   "status": "revisado",

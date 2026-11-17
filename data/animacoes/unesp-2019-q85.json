@@ -1,5 +1,6 @@
 {
   "id": "unesp-2019-q85",
+  "formato": "aula",
   "titulo": "Altura do escorregador e massa da criança",
   "conceitos": [
     "Geometria do triângulo",
@@ -142,39 +143,93 @@
       }
     }
   },
-  "passos": [
+  "metodos": [
     {
-      "titulo": "O ângulo em A",
-      "conceito": "Geometria do triângulo",
-      "texto": "O triângulo inscrito no semicírculo de diâmetro AC tem ângulo reto em B. Como AB = 2 m é metade de AC, cos Â = 1/2: Â = 60º.",
-      "cena": {
-        "mostrar": [
-          "geometria",
-          "angulos"
-        ]
-      }
-    },
-    {
-      "titulo": "A altura de B",
-      "conceito": "Geometria do triângulo",
-      "texto": "A altura de B em relação ao solo AC:",
-      "equacoes": [
-        "h = \\mathrm{AB} \\cdot \\sen 60° = 2 \\cdot \\dfrac{\\sqrt{3}}{2} = \\sqrt{3}\\ \\text{m}"
-      ],
-      "cena": {
-        "mostrar": [
-          "altura"
-        ]
-      }
-    },
-    {
-      "titulo": "A massa",
-      "conceito": "Energia potencial gravitacional",
-      "texto": "Resposta: <b>(C) 20 kg</b>.",
-      "equacoes": [
-        "E_{p} = mgh \\quad \\Rightarrow \\quad 342 = m \\cdot 5,7\\sqrt{3} \\cdot \\sqrt{3} = 17,1\\,m \\quad \\Rightarrow \\quad m = 20\\ \\text{kg}"
-      ],
-      "cena": {}
+      "nome": "Geometria e energia potencial",
+      "telas": [
+        {
+          "titulo": "O ângulo em A",
+          "cena": {
+            "mostrar": [
+              "geometria",
+              "angulos"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "O triângulo está inscrito num semicírculo de diâmetro AC: o ângulo em B é <b>reto</b>."
+            },
+            {
+              "t": "eq",
+              "tex": "\\cos A = \\dfrac{AB}{AC} = \\dfrac{2}{4} = \\dfrac{1}{2} \\quad \\Rightarrow \\quad A = 60^{\\circ}"
+            }
+          ]
+        },
+        {
+          "titulo": "A altura de B",
+          "cena": {
+            "mostrar": [
+              "geometria",
+              "angulos",
+              "altura"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "A altura de B em relação ao solo AC:"
+            },
+            {
+              "t": "eq",
+              "tex": "h = AB \\cdot \\sen 60^{\\circ} = \\marca{a}{2} \\cdot \\dfrac{\\sqrt{3}}{\\marca{b}{2}}"
+            },
+            {
+              "t": "eq",
+              "tex": "h = \\sqrt{3}\\ \\text{m}",
+              "cancelar": [
+                "a",
+                "b"
+              ]
+            }
+          ]
+        },
+        {
+          "titulo": "A massa",
+          "cena": {
+            "mostrar": [
+              "geometria",
+              "angulos",
+              "altura"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "Energia potencial gravitacional; √3 · √3 = 3:"
+            },
+            {
+              "t": "eq",
+              "tex": "342 = m \\cdot 5,7\\sqrt{3} \\cdot \\sqrt{3}"
+            },
+            {
+              "t": "eq",
+              "tex": "342 = m \\cdot 17,1"
+            },
+            {
+              "t": "eq",
+              "tex": "m = \\dfrac{342}{17,1} = 20\\ \\text{kg}"
+            },
+            {
+              "t": "gabarito",
+              "letra": "C"
+            },
+            {
+              "t": "fim"
+            }
+          ]
+        }
+      ]
     }
   ],
   "status": "revisado",

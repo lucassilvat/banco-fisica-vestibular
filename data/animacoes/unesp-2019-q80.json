@@ -1,5 +1,6 @@
 {
   "id": "unesp-2019-q80",
+  "formato": "aula",
   "titulo": "Três meias-vidas térmicas da panela",
   "conceitos": [
     "Meia-vida térmica",
@@ -39,7 +40,7 @@
           {
             "t": "texto",
             "x": 572,
-            "y": 362.0,
+            "y": 380,
             "txt": "tempo (em meias-vidas)",
             "ancora": "end",
             "mudo": true
@@ -955,8 +956,8 @@
         "final": [
           {
             "t": "rotulo",
-            "x": 521.7,
-            "y": 210.0,
+            "x": 430,
+            "y": 120,
             "txt": "após 3 meias-vidas: 40 ºC",
             "cor": "var(--danger)"
           }
@@ -964,33 +965,64 @@
       }
     }
   },
-  "passos": [
+  "metodos": [
     {
-      "titulo": "A diferença cai pela metade",
-      "conceito": "Meia-vida térmica",
-      "texto": "A diferença entre a panela e o ambiente começa em 110 − 30 = 80 ºC e cai à metade a cada meia-vida: 80, 40, 20, 10 ºC.",
-      "cena": {
-        "mostrar": [
-          "grafico",
-          "diferencas"
-        ]
-      }
-    },
-    {
-      "titulo": "O calor cedido",
-      "conceito": "Calor sensível",
-      "texto": "Depois de três meias-vidas, a panela está a 30 + 10 = 40 ºC. Resposta: <b>(B) 14 000 cal</b>.",
-      "equacoes": [
-        "Q = mc\\Delta\\theta = 2\\,000 \\cdot 0,1 \\cdot (110 - 40) = 14\\,000\\ \\text{cal}"
-      ],
-      "cena": {
-        "mostrar": [
-          "final"
-        ],
-        "destacar": [
-          "final"
-        ]
-      }
+      "nome": "Meias-vidas e calor sensível",
+      "telas": [
+        {
+          "titulo": "A diferença cai pela metade",
+          "cena": {
+            "mostrar": [
+              "grafico",
+              "diferencas"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "A diferença de temperatura inicial é 110 − 30 = 80 ºC. A cada meia-vida térmica ela cai à <b>metade</b>:"
+            },
+            {
+              "t": "eq",
+              "tex": "80 \\to 40 \\to 20 \\to 10\\ ^{\\circ}\\text{C}"
+            },
+            {
+              "t": "texto",
+              "html": "Depois de três meias-vidas, a panela está a 30 + 10 = <b>40 ºC</b>."
+            }
+          ]
+        },
+        {
+          "titulo": "O calor cedido",
+          "cena": {
+            "mostrar": [
+              "grafico",
+              "diferencas",
+              "final"
+            ],
+            "destacar": [
+              "final"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "eq",
+              "tex": "Q = m c\\, \\Delta\\theta = 2\\,000 \\cdot 0,1 \\cdot (110 - 40)"
+            },
+            {
+              "t": "eq",
+              "tex": "Q = 200 \\cdot 70 = 14\\,000\\ \\text{cal}"
+            },
+            {
+              "t": "gabarito",
+              "letra": "B"
+            },
+            {
+              "t": "fim"
+            }
+          ]
+        }
+      ]
     }
   ],
   "status": "revisado",

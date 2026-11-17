@@ -4,6 +4,20 @@ Cada versão corresponde a um lote de importação ou a uma mudança no app/pipe
 Formato: `vMAIOR.MENOR.CORREÇÃO` — MENOR sobe a cada prova importada; MAIOR, em mudanças
 de modelo de dados; CORREÇÃO, em correções de questões já publicadas.
 
+## v2.19.0 — 2026-11-16
+
+- **Unesp 2020 e 2019 no formato aula** (21 questões: 2020 Q70, Q76 a Q82 e Q87; 2019 Q64, Q66, Q73,
+  Q74, Q76 a Q82 e Q85; várias de Química, Biologia ou Matemática com conteúdo de Física).
+  Cancelamentos: a massa na conservação da energia (2020 Q78), o 2 de 2 · √3/2 (2019 Q85); termos que
+  passam para o outro lado: L (2020 Q79), λ (2020 Q81), g (2019 Q76), n<sub>B</sub> (2019 Q81).
+- **Dois métodos em abas** na 2019 Q73 (em mols; pela proporção em massa, 528 g de CO<sub>2</sub> por 170 g
+  de combustível).
+- Só na lousa as de conta (2020 Q70, Q79 e Q87; 2019 Q73), cujas cenas antigas eram caixas com contas.
+- Ajustes de desenho: 2019 Q77 com as setas da caixa sobre a barra rotuladas pela intensidade
+  (N<sub>A</sub>, N<sub>B</sub>), sem confundir com os vetores N⃗<sub>A</sub>, N⃗<sub>B</sub> do enunciado; 2020 Q82 com o
+  circuito externo ligado pelas pontas dos barramentos; rótulos sobrepostos na 2019 Q80 e Q82.
+- Todas aguardam a revisão do Lucas no app; o site público não muda até ele aprovar.
+
 ## v2.18.0 — 2026-11-16
 
 - **Unesp 2022 e 2021 no formato aula** (15 questões: 2022 Q76 a Q82; 2021 Q76 a Q82 e Q84).

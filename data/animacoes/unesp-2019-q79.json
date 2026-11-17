@@ -1,5 +1,6 @@
 {
   "id": "unesp-2019-q79",
+  "formato": "aula",
   "titulo": "Por que o átomo não irradia o tempo todo",
   "conceitos": [
     "Modelos atômicos",
@@ -326,39 +327,69 @@
       }
     }
   },
-  "passos": [
+  "metodos": [
     {
-      "titulo": "O modelo 1",
-      "conceito": "Modelos atômicos",
-      "texto": "É a previsão da física clássica para o átomo de Rutherford: carga acelerada irradia, e o elétron cairia no núcleo. Não é o modelo de Bohr: A e D são falsas.",
-      "cena": {
-        "mostrar": [
-          "modelo-1",
-          "eletron-1"
-        ],
-        "estado": {
-          "animar": [
-            "espiral"
+      "nome": "Os dois modelos",
+      "telas": [
+        {
+          "titulo": "O modelo 1",
+          "cena": {
+            "mostrar": [
+              "modelo-1",
+              "eletron-1"
+            ],
+            "animar": [
+              "espiral"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "O <b>modelo 1</b> é a previsão da eletrodinâmica clássica para o átomo de Rutherford: carga acelerada irradia, e o elétron cairia no núcleo em espiral."
+            },
+            {
+              "t": "texto",
+              "html": "Ele <b>não</b> é o modelo de Bohr: (A) e (D) são falsas."
+            }
+          ]
+        },
+        {
+          "titulo": "O modelo 2",
+          "cena": {
+            "mostrar": [
+              "modelo-1",
+              "eletron-1",
+              "modelo-2",
+              "eletron-2"
+            ],
+            "animar": [
+              "espiral",
+              "orbita"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "O <b>modelo 2</b> é o de Bohr: órbitas estacionárias, sem irradiar, e emissão só nas transições. Não é o de Thomson, que não tinha núcleo: (B) é falsa."
+            },
+            {
+              "t": "texto",
+              "html": "O modelo de Rutherford previa o núcleo: (C) é falsa."
+            },
+            {
+              "t": "texto",
+              "html": "No modelo de Bohr, o elétron em órbita estacionária não irradia: por isso o átomo <b>não emite o tempo todo</b>."
+            },
+            {
+              "t": "gabarito",
+              "letra": "E"
+            },
+            {
+              "t": "fim"
+            }
           ]
         }
-      }
-    },
-    {
-      "titulo": "O modelo 2",
-      "conceito": "Modelo de Bohr",
-      "texto": "É o modelo de Bohr: em órbita estacionária o elétron não irradia, apesar da aceleração centrípeta, e só emite ao passar para uma órbita mais próxima. Não é o de Thomson, que não tinha núcleo (B), e o modelo de Rutherford previa o núcleo (C). Resposta: <b>(E)</b>.",
-      "cena": {
-        "mostrar": [
-          "modelo-2",
-          "eletron-2"
-        ],
-        "estado": {
-          "animar": [
-            "espiral",
-            "orbita"
-          ]
-        }
-      }
+      ]
     }
   ],
   "status": "revisado",

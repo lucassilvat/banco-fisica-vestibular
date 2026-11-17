@@ -1,5 +1,6 @@
 {
   "id": "unesp-2019-q74",
+  "formato": "aula",
   "titulo": "Massa que vira energia no Sol",
   "conceitos": [
     "Equivalência massa-energia",
@@ -117,46 +118,77 @@
       }
     }
   },
-  "passos": [
+  "metodos": [
     {
-      "titulo": "A massa que falta",
-      "conceito": "Equivalência massa-energia",
-      "texto": "A massa \"perdida\" na fusão se converte em energia, estimada pela equação de Einstein. Afirmação I: verdadeira.",
-      "equacoes": [
-        "E = mc^{2}"
-      ],
-      "cena": {
-        "mostrar": [
-          "reacoes",
-          "massas"
-        ],
-        "destacar": [
-          "massas"
-        ]
-      }
-    },
-    {
-      "titulo": "Endotérmicas?",
-      "conceito": "Fusão nuclear",
-      "texto": "As reações têm energia entre os produtos: liberam energia, são exotérmicas. Afirmação II: falsa.",
-      "cena": {
-        "destacar": [
-          "reacoes"
-        ]
-      }
-    },
-    {
-      "titulo": "Os isótopos",
-      "conceito": "Isótopos",
-      "texto": "Aparecem três isótopos do hidrogênio e dois do hélio. Afirmação III: verdadeira. Resposta: <b>(E)</b>.",
-      "cena": {
-        "mostrar": [
-          "isotopos"
-        ],
-        "destacar": [
-          "isotopos"
-        ]
-      }
+      "nome": "Afirmação por afirmação",
+      "telas": [
+        {
+          "titulo": "A massa que falta",
+          "cena": {
+            "mostrar": [
+              "reacoes",
+              "massas"
+            ],
+            "destacar": [
+              "massas"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "<b>I. Verdadeira.</b> A massa que \"falta\" (4 milhões de toneladas por segundo) se converte em energia, estimada pela equação de Einstein:"
+            },
+            {
+              "t": "eq",
+              "tex": "E = m c^{2}"
+            }
+          ]
+        },
+        {
+          "titulo": "Endotérmicas?",
+          "cena": {
+            "mostrar": [
+              "reacoes",
+              "massas"
+            ],
+            "destacar": [
+              "reacoes"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "<b>II. Falsa.</b> As fusões representadas <b>liberam</b> energia (\"energia\" aparece nos produtos): são exotérmicas."
+            }
+          ]
+        },
+        {
+          "titulo": "Os isótopos",
+          "cena": {
+            "mostrar": [
+              "reacoes",
+              "massas",
+              "isotopos"
+            ],
+            "destacar": [
+              "isotopos"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "<b>III. Verdadeira.</b> Aparecem <sup>1</sup>H, <sup>2</sup>H e <sup>3</sup>H (três isótopos do hidrogênio) e <sup>3</sup>He e <sup>4</sup>He (dois do hélio)."
+            },
+            {
+              "t": "gabarito",
+              "letra": "E"
+            },
+            {
+              "t": "fim"
+            }
+          ]
+        }
+      ]
     }
   ],
   "status": "revisado",

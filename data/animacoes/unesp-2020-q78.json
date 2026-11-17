@@ -1,5 +1,6 @@
 {
   "id": "unesp-2020-q78",
+  "formato": "aula",
   "titulo": "Energia mecânica na montanha-russa em cosseno",
   "conceitos": [
     "Conservação da energia mecânica",
@@ -495,36 +496,97 @@
       }
     }
   },
-  "passos": [
+  "metodos": [
     {
-      "titulo": "As alturas",
-      "conceito": "Função cosseno",
-      "texto": "No trecho A, a altura é a de x = 0: y = cos 0 = 1 m. Em x = 5π/4, y = cos(5π/4) = −√2/2 ≈ −0,7 m. O desnível é 1,7 m.",
-      "cena": {
-        "mostrar": [
-          "pista",
-          "carrinho",
-          "desnivel"
-        ],
-        "estado": {
-          "animar": [
-            "andar"
+      "nome": "Conservação da energia",
+      "telas": [
+        {
+          "titulo": "As alturas",
+          "cena": {
+            "mostrar": [
+              "pista",
+              "carrinho",
+              "desnivel"
+            ],
+            "animar": [
+              "andar"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "No trecho horizontal A, a altura é a de x = 0:"
+            },
+            {
+              "t": "eq",
+              "tex": "y_{A} = \\cos 0 = 1\\ \\text{m}"
+            },
+            {
+              "t": "texto",
+              "html": "Na posição x = 5π/4 m:"
+            },
+            {
+              "t": "eq",
+              "tex": "y = \\cos\\dfrac{5\\pi}{4} = -\\dfrac{\\sqrt{2}}{2} \\approx -0,7\\ \\text{m}"
+            },
+            {
+              "t": "eq",
+              "tex": "\\Delta h = 1 - (-0,7) = 1,7\\ \\text{m}"
+            }
+          ]
+        },
+        {
+          "titulo": "A velocidade",
+          "cena": {
+            "mostrar": [
+              "pista",
+              "carrinho",
+              "desnivel"
+            ],
+            "destacar": [
+              "desnivel"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "Sem atrito, a energia mecânica se conserva. A massa <b>cancela</b>:"
+            },
+            {
+              "t": "eq",
+              "tex": "\\dfrac{\\marca{a}{m}\\, v_{0}^{2}}{2} + \\marca{b}{m}\\, g\\, \\Delta h = \\dfrac{\\marca{c}{m}\\, v^{2}}{2}"
+            },
+            {
+              "t": "eq",
+              "tex": "v^{2} = v_{0}^{2} + 2 g\\, \\Delta h",
+              "cancelar": [
+                "a",
+                "b",
+                "c"
+              ]
+            },
+            {
+              "t": "eq",
+              "tex": "v^{2} = 16 + 2 \\cdot 10 \\cdot 1,7 = 50"
+            },
+            {
+              "t": "eq",
+              "tex": "v = \\sqrt{50} = 5\\sqrt{2} = 5 \\cdot 1,4"
+            },
+            {
+              "t": "eq",
+              "tex": "v = 7\\ \\text{m/s}"
+            },
+            {
+              "t": "gabarito",
+              "letra": "E"
+            },
+            {
+              "t": "fim"
+            }
           ]
         }
-      }
-    },
-    {
-      "titulo": "A velocidade",
-      "conceito": "Conservação da energia mecânica",
-      "texto": "Sem atrito, a energia mecânica se conserva: a energia potencial perdida no desnível vira energia cinética. Resposta: <b>(E) 7 m/s</b>.",
-      "equacoes": [
-        "\\dfrac{mv^{2}}{2} = \\dfrac{mv_{0}^{2}}{2} + mg\\Delta h \\quad \\Rightarrow \\quad v^{2} = 16 + 2 \\cdot 10 \\cdot 1,7 = 50 \\quad \\Rightarrow \\quad v \\approx 7\\ \\text{m/s}"
-      ],
-      "cena": {
-        "destacar": [
-          "desnivel"
-        ]
-      }
+      ]
     }
   ],
   "status": "revisado",

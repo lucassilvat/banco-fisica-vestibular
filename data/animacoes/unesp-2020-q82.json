@@ -1,5 +1,6 @@
 {
   "id": "unesp-2020-q82",
+  "formato": "aula",
   "titulo": "Placas em série somam tensão; colunas em paralelo somam corrente",
   "conceitos": [
     "Associação de geradores",
@@ -848,27 +849,19 @@
             "t": "linha",
             "pontos": [
               [
-                220,
+                310,
                 70
               ],
               [
-                220,
-                40
+                560,
+                70
               ],
               [
                 560,
-                40
+                270
               ],
               [
-                560,
-                300
-              ],
-              [
-                220,
-                300
-              ],
-              [
-                220,
+                310,
                 270
               ]
             ],
@@ -878,19 +871,19 @@
           {
             "t": "seta",
             "de": [
-              380,
-              40
+              410,
+              70
             ],
             "para": [
-              430,
-              40
+              470,
+              70
             ],
             "cor": "perigo",
             "larg": 3,
             "vetor": false,
             "rot_em": [
-              405,
-              24
+              440,
+              54
             ],
             "ancora": "middle",
             "rotulo": "i = 50 A"
@@ -908,42 +901,81 @@
       }
     }
   },
-  "passos": [
+  "metodos": [
     {
-      "titulo": "A FEM de cada eletroplaca",
-      "conceito": "Associação de geradores",
-      "texto": "No poraquê, 5 000 eletroplacas em série dão 600 V: cada uma fornece 0,12 V.",
-      "equacoes": [
-        "\\varepsilon = \\dfrac{600}{5\\,000} = 0,12\\ \\text{V}"
-      ],
-      "cena": {}
-    },
-    {
-      "titulo": "A tensão da raia",
-      "conceito": "Associação de geradores",
-      "texto": "Em série, as FEM se somam: cada coluna tem 750 · 0,12 = 90 V. Colunas iguais em paralelo têm a mesma FEM: o sistema fornece 90 V.",
-      "cena": {
-        "mostrar": [
-          "colunas",
-          "fem"
-        ]
-      }
-    },
-    {
-      "titulo": "A potência",
-      "conceito": "Potência elétrica",
-      "texto": "Com corrente total de 50 A: Resposta: <b>(D) 4 500 W</b>.",
-      "equacoes": [
-        "P = U \\cdot i = 90 \\cdot 50 = 4\\,500\\ \\text{W}"
-      ],
-      "cena": {
-        "mostrar": [
-          "carga"
-        ],
-        "destacar": [
-          "carga"
-        ]
-      }
+      "nome": "Série e paralelo",
+      "telas": [
+        {
+          "titulo": "A FEM de cada eletroplaca",
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "No poraquê, 5 000 eletroplacas em série somam 600 V. Cada uma fornece:"
+            },
+            {
+              "t": "eq",
+              "tex": "\\varepsilon = \\dfrac{600}{5\\,000} = 0,12\\ \\text{V}"
+            }
+          ]
+        },
+        {
+          "titulo": "A tensão da raia",
+          "cena": {
+            "mostrar": [
+              "colunas",
+              "fem"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "Na raia, cada coluna tem 750 eletroplacas em <b>série</b>: as FEM se somam."
+            },
+            {
+              "t": "eq",
+              "tex": "750 \\cdot 0,12 = 90\\ \\text{V}"
+            },
+            {
+              "t": "texto",
+              "html": "As colunas iguais estão em <b>paralelo</b>: a tensão do conjunto é a de uma coluna, <b>90 V</b>."
+            }
+          ]
+        },
+        {
+          "titulo": "A potência",
+          "cena": {
+            "mostrar": [
+              "colunas",
+              "fem",
+              "carga"
+            ],
+            "destacar": [
+              "carga"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "Com corrente total de 50 A:"
+            },
+            {
+              "t": "eq",
+              "tex": "P = U\\, i = 90 \\cdot 50"
+            },
+            {
+              "t": "eq",
+              "tex": "P = 4\\,500\\ \\text{W}"
+            },
+            {
+              "t": "gabarito",
+              "letra": "D"
+            },
+            {
+              "t": "fim"
+            }
+          ]
+        }
+      ]
     }
   ],
   "status": "revisado",

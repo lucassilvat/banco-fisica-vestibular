@@ -1,5 +1,6 @@
 {
   "id": "unesp-2019-q76",
+  "formato": "aula",
   "titulo": "Quanto a tensão superficial consegue sustentar",
   "conceitos": [
     "Tensão superficial",
@@ -182,41 +183,78 @@
       }
     }
   },
-  "passos": [
+  "metodos": [
     {
-      "titulo": "A força de cada lado",
-      "conceito": "Tensão superficial",
-      "texto": "Cada força de tensão superficial atua ao longo do comprimento da agulha (5,0 cm = 0,050 m).",
-      "equacoes": [
-        "F = \\sigma L = 0,073 \\cdot 0,050 = 3,65 \\times 10^{-3}\\ \\text{N}"
-      ],
-      "cena": {
-        "mostrar": [
-          "agua",
-          "agulha",
-          "forcas",
-          "peso"
-        ]
-      }
-    },
-    {
-      "titulo": "Na iminência de afundar",
-      "conceito": "Equilíbrio de forças",
-      "texto": "\\(\\vec{F}_{1}\\) e \\(\\vec{F}_{2}\\) ficam verticais, para cima, e equilibram o maior peso possível. Resposta: <b>(D) 0,730 g</b>.",
-      "equacoes": [
-        "P = 2F = 7,3 \\times 10^{-3}\\ \\text{N} \\quad \\Rightarrow \\quad m = \\dfrac{P}{g} = 7,3 \\times 10^{-4}\\ \\text{kg} = 0,730\\ \\text{g}"
-      ],
-      "cena": {
-        "ocultar": [
-          "forcas"
-        ],
-        "mostrar": [
-          "verticais"
-        ],
-        "destacar": [
-          "verticais"
-        ]
-      }
+      "nome": "Equilíbrio da agulha",
+      "telas": [
+        {
+          "titulo": "A força de cada lado",
+          "cena": {
+            "mostrar": [
+              "agua",
+              "agulha",
+              "peso",
+              "forcas"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "Cada força de tensão superficial atua ao longo do comprimento da agulha:"
+            },
+            {
+              "t": "eq",
+              "tex": "F = \\sigma L = 0,073 \\cdot 0,050"
+            },
+            {
+              "t": "eq",
+              "tex": "F = 3,65 \\cdot 10^{-3}\\ \\text{N}"
+            }
+          ]
+        },
+        {
+          "titulo": "Na iminência de afundar",
+          "cena": {
+            "mostrar": [
+              "agua",
+              "agulha",
+              "peso",
+              "verticais"
+            ],
+            "destacar": [
+              "verticais"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "Na iminência de afundar, \\(\\vec{F}_{1}\\) e \\(\\vec{F}_{2}\\) ficam <b>verticais</b>, para cima, e equilibram o peso máximo:"
+            },
+            {
+              "t": "eq",
+              "tex": "m\\, \\marca{g}{g} = 2F"
+            },
+            {
+              "t": "eq",
+              "tex": "m = \\dfrac{2F}{\\marca{g}{g}} = \\dfrac{2 \\cdot 3,65 \\cdot 10^{-3}}{10}",
+              "mover": [
+                "g"
+              ]
+            },
+            {
+              "t": "eq",
+              "tex": "m = 7,3 \\cdot 10^{-4}\\ \\text{kg} = 0,730\\ \\text{g}"
+            },
+            {
+              "t": "gabarito",
+              "letra": "D"
+            },
+            {
+              "t": "fim"
+            }
+          ]
+        }
+      ]
     }
   ],
   "status": "revisado",

@@ -1,5 +1,6 @@
 {
   "id": "unesp-2020-q77",
+  "formato": "aula",
   "titulo": "A lei dos períodos e quem a descobriu",
   "conceitos": [
     "Leis de Kepler",
@@ -156,34 +157,78 @@
       }
     }
   },
-  "passos": [
+  "metodos": [
     {
-      "titulo": "A lei do texto",
-      "conceito": "Leis de Kepler",
-      "texto": "A razão T²/D³ igual para todos os planetas é a 3ª lei de Kepler (lei dos períodos): planetas mais distantes do Sol levam muito mais tempo para completar a órbita.",
-      "cena": {
-        "mostrar": [
-          "sol",
-          "orbitas",
-          "planeta-1",
-          "planeta-2",
-          "planeta-3",
-          "lei"
-        ],
-        "estado": {
-          "animar": [
-            "g1",
-            "g2",
-            "g3"
+      "nome": "A 3ª lei de Kepler",
+      "telas": [
+        {
+          "titulo": "A lei do texto",
+          "cena": {
+            "mostrar": [
+              "sol",
+              "orbitas",
+              "planeta-1",
+              "planeta-2",
+              "planeta-3",
+              "lei"
+            ],
+            "animar": [
+              "g1",
+              "g2",
+              "g3"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "A razão T²/D³ igual para todos os planetas é a <b>3ª lei de Kepler</b>, a lei dos períodos:"
+            },
+            {
+              "t": "eq",
+              "tex": "\\dfrac{T^{2}}{D^{3}} = \\text{constante}"
+            },
+            {
+              "t": "texto",
+              "html": "Planetas mais distantes do Sol levam mais tempo para completar a órbita."
+            }
+          ]
+        },
+        {
+          "titulo": "Quem e quando",
+          "cena": {
+            "mostrar": [
+              "sol",
+              "orbitas",
+              "planeta-1",
+              "planeta-2",
+              "planeta-3",
+              "lei"
+            ],
+            "animar": [
+              "g1",
+              "g2",
+              "g3"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "Johannes Kepler (1571–1630) viveu no <b>Renascimento científico</b>, antes de Newton, que depois usou suas leis. Defendeu o heliocentrismo de Copérnico."
+            },
+            {
+              "t": "texto",
+              "html": "Formulou <b>três leis</b> do movimento planetário a partir das observações de <b>Marte</b> feitas por Tycho Brahe."
+            },
+            {
+              "t": "gabarito",
+              "letra": "D"
+            },
+            {
+              "t": "fim"
+            }
           ]
         }
-      }
-    },
-    {
-      "titulo": "Quem e quando",
-      "conceito": "História da ciência",
-      "texto": "Johannes Kepler (1571–1630) viveu no Renascimento científico, antes de Newton, e defendia o heliocentrismo de Copérnico. Formulou três leis do movimento planetário a partir das observações de Marte feitas por Tycho Brahe. Resposta: <b>(D)</b>.",
-      "cena": {}
+      ]
     }
   ],
   "status": "revisado",

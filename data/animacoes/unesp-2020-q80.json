@@ -1,5 +1,6 @@
 {
   "id": "unesp-2020-q80",
+  "formato": "aula",
   "titulo": "Imagem 5 000 vezes menor: a que altura está a câmera",
   "conceitos": [
     "Aumento linear transversal",
@@ -164,35 +165,71 @@
       }
     }
   },
-  "passos": [
+  "metodos": [
     {
-      "titulo": "O aumento",
-      "conceito": "Aumento linear transversal",
-      "texto": "A imagem é 5 000 vezes menor que o objeto. Em módulo, o aumento é a razão entre a distância da imagem e a do objeto à lente (fora de escala na figura).",
-      "equacoes": [
-        "|A| = \\dfrac{i}{o} = \\dfrac{p′}{p} = \\dfrac{1}{5\\,000}"
-      ],
-      "cena": {
-        "mostrar": [
-          "lente",
-          "solo",
-          "raios",
-          "cotas"
-        ]
-      }
-    },
-    {
-      "titulo": "A altura do balão",
-      "conceito": "Aumento linear transversal",
-      "texto": "A imagem se forma a 20 cm = 0,20 m da lente, e a distância do objeto à lente é a altura do balão. Resposta: <b>(A) 1 000 m</b>.",
-      "equacoes": [
-        "p = 5\\,000 \\cdot 0,20 = 1\\,000\\ \\text{m}"
-      ],
-      "cena": {
-        "destacar": [
-          "cotas"
-        ]
-      }
+      "nome": "Aumento linear",
+      "telas": [
+        {
+          "titulo": "O aumento",
+          "cena": {
+            "mostrar": [
+              "lente",
+              "solo",
+              "raios",
+              "cotas"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "A imagem deve ser <b>5 000 vezes menor</b>. Em módulo, o aumento é a razão entre as distâncias da imagem e do objeto à lente:"
+            },
+            {
+              "t": "eq",
+              "tex": "|A| = \\dfrac{i}{o} = \\dfrac{p'}{p} = \\dfrac{1}{5\\,000}"
+            }
+          ]
+        },
+        {
+          "titulo": "A altura do balão",
+          "cena": {
+            "mostrar": [
+              "lente",
+              "solo",
+              "raios",
+              "cotas"
+            ],
+            "destacar": [
+              "cotas"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "A imagem se forma a p' = 20 cm = 0,20 m:"
+            },
+            {
+              "t": "eq",
+              "tex": "p = 5\\,000 \\cdot p' = 5\\,000 \\cdot 0,20"
+            },
+            {
+              "t": "eq",
+              "tex": "p = 1\\,000\\ \\text{m}"
+            },
+            {
+              "t": "texto",
+              "html": "A distância do objeto (o solo) à lente é a altura do balão: <b>h = 1 000 m</b>."
+            },
+            {
+              "t": "gabarito",
+              "letra": "A"
+            },
+            {
+              "t": "fim"
+            }
+          ]
+        }
+      ]
     }
   ],
   "status": "revisado",

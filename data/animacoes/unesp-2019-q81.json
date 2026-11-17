@@ -1,5 +1,6 @@
 {
   "id": "unesp-2019-q81",
+  "formato": "aula",
   "titulo": "A refração rasante e o ângulo limite",
   "conceitos": [
     "Lei de Snell-Descartes",
@@ -207,32 +208,74 @@
       }
     }
   },
-  "passos": [
+  "metodos": [
     {
-      "titulo": "O raio rasante",
-      "conceito": "Lei de Snell-Descartes",
-      "texto": "Na interface entre B e C, o raio sai rasante: o ângulo de refração em C é 90º. α é o ângulo de incidência, medido a partir da normal.",
-      "cena": {
-        "mostrar": [
-          "camadas",
-          "raio",
-          "normal",
-          "angulos"
-        ]
-      }
-    },
-    {
-      "titulo": "Snell na interface B/C",
-      "conceito": "Lei de Snell-Descartes",
-      "texto": "α é o ângulo limite dessa interface. Resposta: <b>(A)</b>.",
-      "equacoes": [
-        "\\mathrm{n}_\\mathrm{B} \\sen\\alpha = \\mathrm{n}_\\mathrm{C} \\sen 90° \\quad \\Rightarrow \\quad \\sen\\alpha = \\dfrac{\\mathrm{n}_\\mathrm{C}}{\\mathrm{n}_\\mathrm{B}}"
-      ],
-      "cena": {
-        "destacar": [
-          "angulos"
-        ]
-      }
+      "nome": "Refração rasante",
+      "telas": [
+        {
+          "titulo": "O raio rasante",
+          "cena": {
+            "mostrar": [
+              "camadas",
+              "raio",
+              "normal",
+              "angulos"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "α é o ângulo entre o raio e a normal na camada B, ao chegar à interface B/C."
+            },
+            {
+              "t": "texto",
+              "html": "Na interface B/C a refração é <b>rasante</b>: em C, o raio sai a <b>90º</b> da normal."
+            }
+          ]
+        },
+        {
+          "titulo": "Snell na interface B/C",
+          "cena": {
+            "mostrar": [
+              "camadas",
+              "raio",
+              "normal",
+              "angulos"
+            ],
+            "destacar": [
+              "angulos"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "Lei de Snell na interface B/C; como sen 90º = 1, isolamos sen α:"
+            },
+            {
+              "t": "eq",
+              "tex": "\\marca{b}{n_{B}} \\sen\\alpha = n_{C} \\sen 90^{\\circ} = n_{C}"
+            },
+            {
+              "t": "eq",
+              "tex": "\\sen\\alpha = \\dfrac{n_{C}}{\\marca{b}{n_{B}}}",
+              "mover": [
+                "b"
+              ]
+            },
+            {
+              "t": "texto",
+              "html": "α é o ângulo limite da interface B/C."
+            },
+            {
+              "t": "gabarito",
+              "letra": "A"
+            },
+            {
+              "t": "fim"
+            }
+          ]
+        }
+      ]
     }
   ],
   "status": "revisado",

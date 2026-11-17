@@ -1,5 +1,6 @@
 {
   "id": "unesp-2019-q66",
+  "formato": "aula",
   "titulo": "Onde a resistência ao fluxo aumenta",
   "conceitos": [
     "Associação de resistores",
@@ -289,33 +290,73 @@
       }
     }
   },
-  "passos": [
+  "metodos": [
     {
-      "titulo": "Série e paralelo",
-      "conceito": "Associação de resistores",
-      "texto": "Em série, as resistências se somam e a resistência equivalente aumenta; em paralelo, ela diminui.",
-      "equacoes": [
-        "R_{\\text{eq}} = R_{1} + R_{2}"
-      ],
-      "cena": {
-        "mostrar": [
-          "vasos",
-          "ramos",
-          "serie-figado",
-          "serie-rim",
-          "regra"
-        ]
-      }
-    },
-    {
-      "titulo": "No rim",
-      "conceito": "Sistema circulatório",
-      "texto": "O sangue passa pelos capilares do glomérulo e depois pelos que envolvem os túbulos renais: as duas estruturas estão em série. O glomérulo faz a filtração do sangue e os túbulos, a reabsorção de água. Resposta: <b>(E)</b>.",
-      "cena": {
-        "destacar": [
-          "serie-rim"
-        ]
-      }
+      "nome": "Série e paralelo",
+      "telas": [
+        {
+          "titulo": "Série e paralelo",
+          "cena": {
+            "mostrar": [
+              "vasos",
+              "ramos",
+              "serie-figado",
+              "serie-rim",
+              "regra"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "Num circuito, a associação em <b>série</b> aumenta a resistência equivalente; em <b>paralelo</b>, ela diminui:"
+            },
+            {
+              "t": "eq",
+              "tex": "R_{\\text{série}} = R_{1} + R_{2}"
+            },
+            {
+              "t": "eq",
+              "tex": "\\dfrac{1}{R_{\\text{paralelo}}} = \\dfrac{1}{R_{1}} + \\dfrac{1}{R_{2}}"
+            },
+            {
+              "t": "texto",
+              "html": "Na figura, estruturas em série estão no mesmo ramo, uma depois da outra."
+            }
+          ]
+        },
+        {
+          "titulo": "No rim",
+          "cena": {
+            "mostrar": [
+              "vasos",
+              "ramos",
+              "serie-figado",
+              "serie-rim",
+              "regra"
+            ],
+            "destacar": [
+              "serie-rim"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "No rim, o sangue passa pelos capilares do <b>glomérulo</b> e depois pelos que envolvem os <b>túbulos</b>: estão em série."
+            },
+            {
+              "t": "texto",
+              "html": "O glomérulo faz a <b>filtração</b> do sangue e os túbulos, a <b>reabsorção de água</b>. As outras alternativas combinam estruturas de ramos diferentes, em paralelo."
+            },
+            {
+              "t": "gabarito",
+              "letra": "E"
+            },
+            {
+              "t": "fim"
+            }
+          ]
+        }
+      ]
     }
   ],
   "status": "revisado",
