@@ -12,7 +12,7 @@
       "blocos": [
         {
           "t": "texto",
-          "html": "Há dois caminhos:"
+          "html": "Há três caminhos:"
         },
         {
           "t": "texto",
@@ -24,7 +24,11 @@
         },
         {
           "t": "texto",
-          "html": "Escolha um método nas abas acima, ou avance para ver os dois."
+          "html": "3) A mesma proporção em massa, com os valores <b>aproximados</b>, como se faz na hora da prova."
+        },
+        {
+          "t": "texto",
+          "html": "Escolha um método nas abas acima, ou avance para ver os três."
         }
       ]
     }
@@ -113,6 +117,56 @@
             {
               "t": "eq",
               "tex": "m \\approx 3,1 \\cdot 6\\,600\\ \\text{kg} \\approx 20\\,500\\ \\text{kg} \\approx 20\\ \\text{t}"
+            },
+            {
+              "t": "gabarito",
+              "letra": "B"
+            },
+            {
+              "t": "fim"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nome": "Aproximando",
+      "telas": [
+        {
+          "titulo": "Arredondando a proporção",
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "Na hora da prova, dá para arredondar sem medo: as alternativas estão bem separadas."
+            },
+            {
+              "t": "texto",
+              "html": "Combustível: 3 h · 2 200 kg/h = <b>6 600 kg</b>."
+            },
+            {
+              "t": "texto",
+              "html": "Cada 170 g de combustível gera 528 g de CO<sub>2</sub>. Arredondando 528 para 510 = 3 · 170:"
+            },
+            {
+              "t": "eq",
+              "tex": "\\dfrac{528}{170} \\approx \\dfrac{510}{170} = 3"
+            }
+          ]
+        },
+        {
+          "titulo": "O mesmo gabarito",
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "A massa de CO<sub>2</sub> é cerca de <b>3 vezes</b> a de combustível:"
+            },
+            {
+              "t": "eq",
+              "tex": "m \\approx 3 \\cdot 6\\,600\\ \\text{kg} = 19\\,800\\ \\text{kg} \\approx 20\\ \\text{t}"
+            },
+            {
+              "t": "texto",
+              "html": "O mesmo resultado das contas completas (cerca de 20,5 t): a alternativa não muda."
             },
             {
               "t": "gabarito",

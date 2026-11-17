@@ -163,7 +163,7 @@
                 220
               ],
               [
-                570,
+                170,
                 220
               ]
             ],
@@ -173,36 +173,181 @@
           {
             "t": "ret",
             "x": 170,
-            "y": 204,
-            "w": 120,
-            "h": 32,
+            "y": 206,
+            "w": 110,
+            "h": 28,
             "cor": "papel",
             "borda": "tinta",
-            "rx": 14
+            "rx": 12
           },
           {
             "t": "texto",
-            "x": 230,
-            "y": 220,
+            "x": 225.0,
+            "y": 220.0,
             "txt": "fígado",
             "tam": 13
           },
           {
+            "t": "linha",
+            "pontos": [
+              [
+                280,
+                220
+              ],
+              [
+                320,
+                220
+              ]
+            ],
+            "cor": "mudo",
+            "larg": 2
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                320,
+                203
+              ],
+              [
+                320,
+                237
+              ]
+            ],
+            "cor": "mudo",
+            "larg": 2
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                320,
+                203
+              ],
+              [
+                360,
+                203
+              ]
+            ],
+            "cor": "mudo",
+            "larg": 2
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                320,
+                237
+              ],
+              [
+                360,
+                237
+              ]
+            ],
+            "cor": "mudo",
+            "larg": 2
+          },
+          {
             "t": "ret",
-            "x": 350,
-            "y": 204,
-            "w": 120,
-            "h": 32,
+            "x": 360,
+            "y": 192,
+            "w": 110,
+            "h": 22,
             "cor": "papel",
             "borda": "tinta",
-            "rx": 14
+            "rx": 12
           },
           {
             "t": "texto",
-            "x": 410,
-            "y": 220,
+            "x": 415.0,
+            "y": 203.0,
+            "txt": "baço",
+            "tam": 13
+          },
+          {
+            "t": "ret",
+            "x": 360,
+            "y": 226,
+            "w": 110,
+            "h": 22,
+            "cor": "papel",
+            "borda": "tinta",
+            "rx": 12
+          },
+          {
+            "t": "texto",
+            "x": 415.0,
+            "y": 237.0,
             "txt": "intestinos",
             "tam": 13
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                470,
+                203
+              ],
+              [
+                510,
+                203
+              ]
+            ],
+            "cor": "mudo",
+            "larg": 2
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                470,
+                237
+              ],
+              [
+                510,
+                237
+              ]
+            ],
+            "cor": "mudo",
+            "larg": 2
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                510,
+                203
+              ],
+              [
+                510,
+                237
+              ]
+            ],
+            "cor": "mudo",
+            "larg": 2
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                510,
+                220
+              ],
+              [
+                570,
+                220
+              ]
+            ],
+            "cor": "mudo",
+            "larg": 2
+          },
+          {
+            "t": "texto",
+            "x": 300,
+            "y": 252,
+            "txt": "veia porta",
+            "mudo": true,
+            "tam": 11
           }
         ],
         "serie-rim": [
@@ -321,6 +466,31 @@
             {
               "t": "texto",
               "html": "Na figura, estruturas em série estão no mesmo ramo, uma depois da outra."
+            }
+          ]
+        },
+        {
+          "titulo": "Fígado, baço e intestinos",
+          "cena": {
+            "mostrar": [
+              "vasos",
+              "ramos",
+              "serie-figado",
+              "serie-rim",
+              "regra"
+            ],
+            "destacar": [
+              "serie-figado"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "O <b>baço</b> e os <b>intestinos</b> estão em ramos paralelos entre si; o sangue dos dois segue pela <b>veia porta</b> até o <b>fígado</b>, que fica em série com eles."
+            },
+            {
+              "t": "texto",
+              "html": "Nenhuma alternativa traz esse par em série (produção da bile com absorção de nutrientes)."
             }
           ]
         },

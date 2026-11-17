@@ -206,7 +206,15 @@
           "blocos": [
             {
               "t": "texto",
-              "html": "Energia potencial gravitacional; √3 · √3 = 3:"
+              "html": "A energia potencial gravitacional em relação ao solo:"
+            },
+            {
+              "t": "eq",
+              "tex": "E_{p} = m\\, g\\, h"
+            },
+            {
+              "t": "texto",
+              "html": "Com E<sub>p</sub> = 342 J, g = 5,7√3 m/s² e h = √3 m (√3 · √3 = 3):"
             },
             {
               "t": "eq",

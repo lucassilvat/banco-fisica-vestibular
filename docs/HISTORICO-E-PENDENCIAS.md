@@ -212,8 +212,10 @@ Para gravar questões, usam-se os lotes da etapa `publicar` (docs/WORKFLOW.md).
     métodos; contas simples só na lousa. Revisão: 2021 Q76, Q80, Q81 e 2022 Q77, Q78, Q81 ajustadas;
     as 15 aprovadas: 49 no site público. Corrigidas também entidades HTML (&lt;) que apareciam
     escritas no app (7 questões), com checagem nova no `pipeline verificar`.
-41. v2.19.0: Unesp 2020 e 2019 (21 questões) no formato aula; 2019 Q73 com dois métodos.
-    Aguardando a revisão do Lucas no app.
+41. v2.19.0: Unesp 2020 e 2019 (21 questões) no formato aula; 2019 Q73 com três métodos.
+    Revisão: 2020 Q76, Q77, Q80, Q87 e 2019 Q66, Q73, Q80, Q81, Q82, Q85 ajustadas. Na 2019 Q81 o
+    gabarito estava errado (A); corrigido para E no repositório e no app (α na camada A).
+    Aguardando nova revisão do Lucas no app.
 
 ## Pendências
 

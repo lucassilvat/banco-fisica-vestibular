@@ -12,9 +12,9 @@
     "unesp-2019-q81-1.png",
     "unesp-2019-q81-2.png"
   ],
-  "gabarito": "A",
+  "gabarito": "E",
   "gabaritoFonte": "resolucao-propria",
-  "resolucao": "1. Pela figura 2, α é o ângulo entre o raio e a normal na camada B (ao chegar à interface B/C).\n2. Na interface B/C a refração é rasante: o ângulo de refração em C é 90º.\n3. Lei de Snell: \\(\\mathrm{n}_\\mathrm{B}\\sen\\alpha = \\mathrm{n}_\\mathrm{C}\\sen 90° \\Rightarrow \\sen\\alpha = \\dfrac{\\mathrm{n}_\\mathrm{C}}{\\mathrm{n}_\\mathrm{B}}\\). (α é o ângulo limite da interface B/C.)\nGabarito: A.",
+  "resolucao": "1. Pela figura 2, α é o ângulo de incidência na interface A/B: o ângulo entre o raio, ainda na camada A, e a normal a essa interface. Na camada B, o raio forma o ângulo β com a normal.\n2. Lei de Snell na interface A/B: \\(\\mathrm{n}_\\mathrm{A}\\sen\\alpha = \\mathrm{n}_\\mathrm{B}\\sen\\beta\\).\n3. Na interface B/C a refração é rasante: o ângulo de refração em C é 90º, e sen 90º = 1. Lei de Snell: \\(\\mathrm{n}_\\mathrm{B}\\sen\\beta = \\mathrm{n}_\\mathrm{C}\\sen 90° = \\mathrm{n}_\\mathrm{C}\\).\n4. Como as interfaces são paralelas, o produto n · sen(ângulo com a normal) se conserva de camada em camada: \\(\\mathrm{n}_\\mathrm{A}\\sen\\alpha = \\mathrm{n}_\\mathrm{B}\\sen\\beta = \\mathrm{n}_\\mathrm{C}\\).\n5. Logo, \\(\\sen\\alpha = \\dfrac{\\mathrm{n}_\\mathrm{C}}{\\mathrm{n}_\\mathrm{A}}\\). (O índice da camada B não interfere no resultado.)\nGabarito: E.",
   "topicos": [
     "lei-de-snell-descartes",
     "reflexao-total-e-fibra-optica",
@@ -22,11 +22,11 @@
   ],
   "status": "publicado",
   "criadoEm": "2026-11-02T14:05:33.000Z",
-  "atualizadoEm": "2026-11-13T15:00:00.000Z",
+  "atualizadoEm": "2026-11-17T12:00:00.000Z",
   "revisao": {
     "divergenciasAceitas": [
       "sen"
     ],
-    "notas": "Alternativas em forma de fração, desenhadas no PDF; transcritas da imagem do caderno."
+    "notas": "Alternativas em forma de fração, desenhadas no PDF; transcritas da imagem do caderno. Gabarito corrigido de A para E em 17/11/2026 (α é o ângulo de incidência na interface A/B, apontado pelo Lucas); a resolução do Elite chega à mesma alternativa. Gabarito oficial da Vunesp não localizado."
   }
 }
