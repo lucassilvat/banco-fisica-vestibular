@@ -16,6 +16,13 @@ de modelo de dados; CORREÇÃO, em correções de questões já publicadas.
 - Ajustes de desenho: 2019 Q77 com as setas da caixa sobre a barra rotuladas pela intensidade
   (N<sub>A</sub>, N<sub>B</sub>), sem confundir com os vetores N⃗<sub>A</sub>, N⃗<sub>B</sub> do enunciado; 2020 Q82 com o
   circuito externo ligado pelas pontas dos barramentos; rótulos sobrepostos na 2019 Q80 e Q82.
+- Revisão do Lucas (2020): **Q76** com os dois triângulos sob a curva e cada retângulo com a sua conta
+  antes da soma; **Q77** com órbitas circulares (o planeta externo saía da elipse desenhada);
+  **Q80** com sinais, sem módulo: imagem real e invertida, p' > 0 e A = −p'/p < 0; os sinais de menos
+  cancelam e p e 5 000 trocam de lado; raios pelo centro óptico e setas opostas no objeto e na imagem;
+  **Q87** com 1 000 g de taça (V = m/d para ouro e liga), volume por kg, regra de três, gabarito e a
+  mesma conta com densidades aproximadas (20 e 6), mostrando que o gabarito não muda.
+- `pipeline animacoes verificar` acusa entidade HTML (`&lt;`) em texto da lousa.
 - Todas aguardam a revisão do Lucas no app; o site público não muda até ele aprovar.
 
 ## v2.18.0 — 2026-11-16

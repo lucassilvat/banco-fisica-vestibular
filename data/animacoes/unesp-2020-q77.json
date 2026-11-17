@@ -30,23 +30,32 @@
         ],
         "orbitas": [
           {
-            "t": "caminho",
-            "d": "M160,215 a70,64.4 0 1,0 140,0 a70,64.4 0 1,0 -140,0",
-            "cor": "mudo",
+            "t": "circ",
+            "x": 230,
+            "y": 215,
+            "r": 70,
+            "cor": null,
+            "borda": "mudo",
             "larg": 1.2,
             "tracejado": true
           },
           {
-            "t": "caminho",
-            "d": "M110,215 a120,110.4 0 1,0 240,0 a120,110.4 0 1,0 -240,0",
-            "cor": "mudo",
+            "t": "circ",
+            "x": 230,
+            "y": 215,
+            "r": 120,
+            "cor": null,
+            "borda": "mudo",
             "larg": 1.2,
             "tracejado": true
           },
           {
-            "t": "caminho",
-            "d": "M50,215 a180,165.6 0 1,0 360,0 a180,165.6 0 1,0 -360,0",
-            "cor": "mudo",
+            "t": "circ",
+            "x": 230,
+            "y": 215,
+            "r": 180,
+            "cor": null,
+            "borda": "mudo",
             "larg": 1.2,
             "tracejado": true
           }

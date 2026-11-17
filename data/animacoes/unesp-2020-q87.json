@@ -8,10 +8,10 @@
   ],
   "metodos": [
     {
-      "nome": "Volume e densidade média",
+      "nome": "Volume a cada 1 kg de taça",
       "telas": [
         {
-          "titulo": "O volume",
+          "titulo": "O volume da taça",
           "blocos": [
             {
               "t": "texto",
@@ -28,40 +28,108 @@
           ]
         },
         {
-          "titulo": "A densidade do ouro 18 quilates",
+          "titulo": "Os volumes em 1 kg de taça",
           "blocos": [
             {
               "t": "texto",
-              "html": "Em cada grama de ouro 18 quilates há 0,75 g de ouro e 0,25 g de liga. O volume desse grama:"
+              "html": "Pegue <b>1 000 g</b> de taça. Ouro 18 quilates: 3/4 de ouro e 1/4 de liga."
             },
             {
               "t": "eq",
-              "tex": "\\dfrac{0,75}{19,3} + \\dfrac{0,25}{6,1} \\approx 0,0389 + 0,0410 = 0,0799\\ \\text{cm}^{3}"
+              "tex": "m_{\\text{ouro}} = 750\\ \\text{g}, \\quad m_{\\text{liga}} = 250\\ \\text{g}"
             },
             {
               "t": "texto",
-              "html": "Densidade média:"
+              "html": "Da densidade, isolamos o volume:"
             },
             {
               "t": "eq",
-              "tex": "d \\approx \\dfrac{1}{0,0799} \\approx 12,5\\ \\text{g/cm}^{3}"
+              "tex": "d = \\dfrac{m}{\\marca{v}{V}}"
+            },
+            {
+              "t": "eq",
+              "tex": "\\marca{v}{V} = \\dfrac{m}{d}",
+              "mover": [
+                "v"
+              ]
+            },
+            {
+              "t": "eq",
+              "tex": "V_{\\text{ouro}} = \\dfrac{750}{19,3} \\approx 38,9\\ \\text{cm}^{3}"
+            },
+            {
+              "t": "eq",
+              "tex": "V_{\\text{liga}} = \\dfrac{250}{6,1} \\approx 41,0\\ \\text{cm}^{3}"
             }
           ]
         },
         {
-          "titulo": "A massa",
+          "titulo": "A massa da taça",
           "blocos": [
             {
-              "t": "eq",
-              "tex": "m = d\\, V \\approx 12,5 \\cdot 2\\,700"
+              "t": "texto",
+              "html": "Somando: a cada <b>1 kg</b> de taça, o volume é"
             },
             {
               "t": "eq",
-              "tex": "m \\approx 33\\,800\\ \\text{g} \\approx 33,8\\ \\text{kg}"
+              "tex": "38,9 + 41,0 = 79,9\\ \\text{cm}^{3}"
+            },
+            {
+              "t": "texto",
+              "html": "Regra de três com o volume da taça:"
+            },
+            {
+              "t": "eq",
+              "tex": "1\\ \\text{kg} \\to 79,9\\ \\text{cm}^{3}"
+            },
+            {
+              "t": "eq",
+              "tex": "m \\to 2\\,700\\ \\text{cm}^{3}"
+            },
+            {
+              "t": "eq",
+              "tex": "m = \\dfrac{2\\,700}{79,9} \\approx 33,8\\ \\text{kg}"
             },
             {
               "t": "texto",
               "html": "Entre <b>30 kg e 35 kg</b>."
+            },
+            {
+              "t": "gabarito",
+              "letra": "A"
+            },
+            {
+              "t": "texto",
+              "html": "Na hora da prova, <b>aproximar</b> pode ser uma boa estratégia. Veja na próxima tela."
+            }
+          ]
+        },
+        {
+          "titulo": "Na hora da prova: aproximando",
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "Refazendo com densidades arredondadas: <b>20</b> para o ouro e <b>6</b> para a liga."
+            },
+            {
+              "t": "eq",
+              "tex": "V_{\\text{ouro}} = \\dfrac{750}{20} = 37,5\\ \\text{cm}^{3}"
+            },
+            {
+              "t": "eq",
+              "tex": "V_{\\text{liga}} = \\dfrac{250}{6} \\approx 41,7\\ \\text{cm}^{3}"
+            },
+            {
+              "t": "eq",
+              "tex": "37,5 + 41,7 = 79,2\\ \\text{cm}^{3}\\ \\text{por kg}"
+            },
+            {
+              "t": "eq",
+              "tex": "m \\approx \\dfrac{2\\,700}{79,2} \\approx 34,1\\ \\text{kg}"
+            },
+            {
+              "t": "texto",
+              "html": "Continua entre 30 kg e 35 kg: o gabarito é o <b>mesmo</b>, com contas bem mais simples."
             },
             {
               "t": "gabarito",
