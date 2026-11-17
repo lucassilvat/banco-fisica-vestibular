@@ -215,13 +215,13 @@ Para gravar questões, usam-se os lotes da etapa `publicar` (docs/WORKFLOW.md).
 41. v2.19.0: Unesp 2020 e 2019 (21 questões) no formato aula; 2019 Q73 com três métodos.
     Revisão: 2020 Q76, Q77, Q80, Q87 e 2019 Q66, Q73, Q80, Q81, Q82, Q85 ajustadas. Na 2019 Q81 o
     gabarito estava errado (A); corrigido para E no repositório e no app (α na camada A).
-    Aguardando nova revisão do Lucas no app.
+    As 21 aprovadas: 70 no site público.
 
 ## Pendências
 
 - **Resolução animada**: formato aula (item 37); Unesp 2026 aprovada (7 no site público); Unesp 2025
   aprovada (item 38); 17 no site público. Unesp 2024 e 2023 aprovadas (item 39): 34 no site público. Unesp 2022 e 2021 aprovadas (item 40):
-  49 no site público. Unesp 2020 e 2019 refeitas (item 41), aguardando revisão. Na Unesp, faltam 2016 a 2018. Seguir prova a prova conforme o Lucas pedir. Em revisão pelo Lucas no app do Claude (item 36). Só as aprovadas vão
+  49 no site público. Unesp 2020 e 2019 aprovadas (item 41): 70 no site público. Na Unesp, faltam 2016 a 2018. Seguir prova a prova conforme o Lucas pedir. Em revisão pelo Lucas no app do Claude (item 36). Só as aprovadas vão
   para o site público. As comentadas esperam ajustes: ler os comentários da coleção `revisoes`,
   corrigir os roteiros e republicar no app. Não produzir animações novas sem novo pedido.
 

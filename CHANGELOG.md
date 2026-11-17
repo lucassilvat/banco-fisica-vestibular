@@ -32,7 +32,7 @@ de modelo de dados; CORREÇÃO, em correções de questões já publicadas.
   geográfico) e linhas de campo com setas, saindo do N e entrando no S, sem as setas vermelhas;
   **Q85** com E<sub>p</sub> = m g h enunciada antes da conta.
 - `pipeline animacoes verificar` acusa entidade HTML (`&lt;`) em texto da lousa.
-- Todas aguardam a revisão do Lucas no app; o site público não muda até ele aprovar.
+- As 21 aprovadas pelo Lucas: **70 animações no site público**.
 
 ## v2.18.0 — 2026-11-16
 
