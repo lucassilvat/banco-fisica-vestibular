@@ -27,6 +27,8 @@ Antes de começar, leia `docs/HISTORICO-E-PENDENCIAS.md` (estado atual, links do
 repositório, pendências). Siga `docs/WORKFLOW.md` (etapas 1–9). Comandos: `python -m pipeline -h`.
 Resoluções animadas: só as marcadas como Aprovada pelo Lucas (coleção `revisoes` do app) vão
 para o site público; antes de cada pull request, importar as revisões (ver `docs/ANIMACOES.md`).
+Antes de produzir ou corrigir resoluções animadas, ler a seção "Diretrizes das revisões do Lucas"
+de `docs/ANIMACOES.md` e conferir cada item antes de publicar.
 Resolução animada já **Aprovada** não se altera direto: sugerir a mudança ao Lucas e esperar o
 aval; qualquer alteração aprovada volta a passar pela revisão dele (inclui mudanças no player que
 mudem o que ela mostra).
