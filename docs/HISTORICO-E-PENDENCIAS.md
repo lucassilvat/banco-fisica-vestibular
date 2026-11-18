@@ -216,8 +216,8 @@ Para gravar questões, usam-se os lotes da etapa `publicar` (docs/WORKFLOW.md).
     Revisão: 2020 Q76, Q77, Q80, Q87 e 2019 Q66, Q73, Q80, Q81, Q82, Q85 ajustadas. Na 2019 Q81 o
     gabarito estava errado (A); corrigido para E no repositório e no app (α na camada A).
     As 21 aprovadas: 70 no site público.
-42. v2.19.1: diretrizes das resoluções animadas (`docs/DIRETRIZES-ANIMACOES.md`), reunindo os
-    comentários de revisão do Lucas, e novo descritivo do Project (`docs/DESCRITIVO-DO-PROJETO.md`).
+42. v2.19.1: diretrizes das resoluções animadas, reunindo os comentários de revisão do Lucas, na
+    seção "Diretrizes das revisões do Lucas" de `docs/ANIMACOES.md`.
 
 ## Pendências
 

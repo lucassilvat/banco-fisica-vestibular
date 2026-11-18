@@ -6,12 +6,10 @@ de modelo de dados; CORREÇÃO, em correções de questões já publicadas.
 
 ## v2.19.1 — 2026-11-17
 
-- **`docs/DIRETRIZES-ANIMACOES.md`**: as orientações dos comentários de revisão do Lucas (Unesp 2019
-  a 2026), organizadas por tema: como o aluno resolveria, álgebra na lousa, fidelidade do desenho,
-  movimento nas simulações, legibilidade e processo. `CLAUDE.md` e `docs/ANIMACOES.md` mandam lê-lo
+- **Diretrizes das revisões do Lucas** em `docs/ANIMACOES.md` (seção nova): as orientações dos
+  comentários de revisão (Unesp 2019 a 2026), por tema: como o aluno resolveria, álgebra na lousa,
+  fidelidade do desenho, movimento nas simulações, legibilidade e processo. `CLAUDE.md` manda lê-la
   antes de cada lote.
-- **`docs/DESCRITIVO-DO-PROJETO.md`**: novo texto das instruções do Project no claude.ai, com o app de
-  revisão, o site dos alunos e as resoluções animadas.
 - CHANGELOG v2.19.0: na 2019 Q81 o termo que passa para o outro lado é n<sub>A</sub>.
 
 ## v2.19.0 — 2026-11-16
