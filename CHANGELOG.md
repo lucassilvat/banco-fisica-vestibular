@@ -4,6 +4,13 @@ Cada versão corresponde a um lote de importação ou a uma mudança no app/pipe
 Formato: `vMAIOR.MENOR.CORREÇÃO` — MENOR sobe a cada prova importada; MAIOR, em mudanças
 de modelo de dados; CORREÇÃO, em correções de questões já publicadas.
 
+## v2.19.2 — 2026-11-17
+
+- **Cena das resoluções animadas sempre no tema claro**, a pedido do Lucas: o painel do desenho usa
+  as cores do tema claro mesmo quando o sistema do usuário está no tema escuro (no escuro, desenhos
+  como circuitos ficavam difíceis de ver). Vale para todas as animações, inclusive as aprovadas; a
+  lousa e o resto do app continuam seguindo o tema do sistema.
+
 ## v2.19.1 — 2026-11-17
 
 - **Diretrizes das revisões do Lucas** em `docs/ANIMACOES.md` (seção nova): as orientações dos
