@@ -19,6 +19,9 @@ Unesp: 2026 completa (Q76–Q82) e 2025 completa (Q48, Q76–Q82, Q84, Q90).
 
 ## Formato "aula" (v2.15.0) — o estilo pedido pelo Lucas
 
+As diretrizes de conteúdo e de desenho que vieram das revisões do Lucas estão em
+`docs/DIRETRIZES-ANIMACOES.md`; ler antes de cada lote.
+
 A resolução é dada como um professor faria na lousa:
 
 - **Abertura** (opcional): quando há mais de um caminho, uma tela que os apresenta ("Há dois

@@ -4,12 +4,22 @@ Cada versão corresponde a um lote de importação ou a uma mudança no app/pipe
 Formato: `vMAIOR.MENOR.CORREÇÃO` — MENOR sobe a cada prova importada; MAIOR, em mudanças
 de modelo de dados; CORREÇÃO, em correções de questões já publicadas.
 
+## v2.19.1 — 2026-11-17
+
+- **`docs/DIRETRIZES-ANIMACOES.md`**: as orientações dos comentários de revisão do Lucas (Unesp 2019
+  a 2026), organizadas por tema: como o aluno resolveria, álgebra na lousa, fidelidade do desenho,
+  movimento nas simulações, legibilidade e processo. `CLAUDE.md` e `docs/ANIMACOES.md` mandam lê-lo
+  antes de cada lote.
+- **`docs/DESCRITIVO-DO-PROJETO.md`**: novo texto das instruções do Project no claude.ai, com o app de
+  revisão, o site dos alunos e as resoluções animadas.
+- CHANGELOG v2.19.0: na 2019 Q81 o termo que passa para o outro lado é n<sub>A</sub>.
+
 ## v2.19.0 — 2026-11-16
 
 - **Unesp 2020 e 2019 no formato aula** (21 questões: 2020 Q70, Q76 a Q82 e Q87; 2019 Q64, Q66, Q73,
   Q74, Q76 a Q82 e Q85; várias de Química, Biologia ou Matemática com conteúdo de Física).
   Cancelamentos: a massa na conservação da energia (2020 Q78), o 2 de 2 · √3/2 (2019 Q85); termos que
-  passam para o outro lado: L (2020 Q79), λ (2020 Q81), g (2019 Q76), n<sub>B</sub> (2019 Q81).
+  passam para o outro lado: L (2020 Q79), λ (2020 Q81), g (2019 Q76), n<sub>A</sub> (2019 Q81).
 - **Três métodos em abas** na 2019 Q73 (em mols; pela proporção em massa, 528 g de CO<sub>2</sub> por 170 g
   de combustível; a mesma proporção aproximada, 528/170 ≈ 3, com o mesmo gabarito).
 - Só na lousa as de conta (2020 Q70, Q79 e Q87; 2019 Q73), cujas cenas antigas eram caixas com contas.
