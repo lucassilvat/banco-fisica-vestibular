@@ -1,5 +1,6 @@
 {
   "id": "unesp-2018-q78",
+  "formato": "aula",
   "titulo": "Explosão no ponto mais alto: para onde vai o fragmento A",
   "conceitos": [
     "Conservação da quantidade de movimento",
@@ -551,37 +552,114 @@
       }
     }
   },
-  "passos": [
+  "metodos": [
     {
-      "titulo": "A explosão",
-      "conceito": "Conservação da quantidade de movimento",
-      "texto": "Na explosão, as forças internas são muito maiores que o peso: a quantidade de movimento se conserva. Com M<sub>B</sub> = m e M<sub>A</sub> = 2m:",
-      "equacoes": [
-        "3m V_{\\text{H}} = 2m V_{\\text{A}} + m \\cdot 5V_{\\text{H}} \\quad \\Rightarrow \\quad V_{\\text{A}} = -V_{\\text{H}}"
-      ],
-      "cena": {
-        "mostrar": [
-          "solo",
-          "subida",
-          "explosao"
-        ]
-      }
-    },
-    {
-      "titulo": "A queda de A",
-      "conceito": "Lançamento oblíquo",
-      "texto": "A sai do topo com velocidade horizontal de mesmo módulo que antes, mas para trás. A queda leva o mesmo tempo da subida, em que o projétil andou 2d (de II até IV). Para trás, A anda 2d: cai em II. Resposta: <b>(E)</b>.",
-      "cena": {
-        "mostrar": [
-          "volta",
-          "fragmento-a"
-        ],
-        "estado": {
-          "animar": [
-            "cair"
+      "nome": "Explosão e lançamento",
+      "telas": [
+        {
+          "titulo": "Antes da explosão",
+          "cena": {
+            "mostrar": [
+              "solo",
+              "subida"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "<b>Imediatamente antes</b> da explosão, no ponto mais alto, a velocidade do projétil é horizontal: \\(\\vec{V}_{H}\\)."
+            },
+            {
+              "t": "texto",
+              "html": "Na subida, de II até o ponto acima de IV, ele andou <b>2d</b> na horizontal."
+            }
+          ]
+        },
+        {
+          "titulo": "Imediatamente depois: conservação",
+          "cena": {
+            "mostrar": [
+              "solo",
+              "subida",
+              "explosao"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "Na explosão, as forças internas são muito maiores que o peso: a quantidade de movimento se conserva."
+            },
+            {
+              "t": "eq",
+              "tex": "\\vec{Q}_{\\text{antes}} = \\vec{Q}_{\\text{depois}}"
+            },
+            {
+              "t": "texto",
+              "html": "Com M<sub>B</sub> = m, M<sub>A</sub> = 2m (total 3m) e o sentido de \\(\\vec{V}_{H}\\) positivo:"
+            },
+            {
+              "t": "eq",
+              "tex": "3\\marca{a}{m}\\, V_{H} = 2\\marca{b}{m}\\, V_{A} + \\marca{c}{m} \\cdot 5V_{H}"
+            },
+            {
+              "t": "eq",
+              "tex": "3V_{H} = 2V_{A} + \\marca{p}{5V_{H}}",
+              "cancelar": [
+                "a",
+                "b",
+                "c"
+              ]
+            },
+            {
+              "t": "eq",
+              "tex": "3V_{H} - \\marca{p}{5V_{H}} = 2V_{A}",
+              "mover": [
+                "p"
+              ]
+            },
+            {
+              "t": "eq",
+              "tex": "-2V_{H} = 2V_{A} \\quad \\Rightarrow \\quad V_{A} = -V_{H}"
+            }
+          ]
+        },
+        {
+          "titulo": "A queda de A",
+          "cena": {
+            "mostrar": [
+              "solo",
+              "subida",
+              "explosao",
+              "volta",
+              "fragmento-a"
+            ],
+            "animar": [
+              "cair"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "O sinal negativo: A sai do topo com velocidade horizontal de mesmo módulo, V<sub>H</sub>, mas <b>para trás</b>."
+            },
+            {
+              "t": "texto",
+              "html": "Na vertical, A parte do topo com velocidade vertical nula, como o projétil: a queda dura o <b>mesmo tempo</b> que a subida."
+            },
+            {
+              "t": "texto",
+              "html": "Nesse tempo, com velocidade horizontal V<sub>H</sub>, A anda os mesmos <b>2d</b>, agora para trás: de IV volta para <b>II</b>."
+            },
+            {
+              "t": "gabarito",
+              "letra": "E"
+            },
+            {
+              "t": "fim"
+            }
           ]
         }
-      }
+      ]
     }
   ],
   "status": "revisado",

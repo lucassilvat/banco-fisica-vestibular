@@ -1,5 +1,6 @@
 {
   "id": "unesp-2018-q79",
+  "formato": "aula",
   "titulo": "Lendo as trocas de calor do corpo no gráfico",
   "conceitos": [
     "Leitura de gráficos",
@@ -221,7 +222,7 @@
             "t": "texto",
             "x": 82.0,
             "y": 370.0,
-            "txt": "-150",
+            "txt": "−150",
             "mudo": true,
             "ancora": "end"
           },
@@ -229,7 +230,7 @@
             "t": "texto",
             "x": 82.0,
             "y": 304.0,
-            "txt": "-100",
+            "txt": "−100",
             "mudo": true,
             "ancora": "end"
           },
@@ -237,7 +238,7 @@
             "t": "texto",
             "x": 82.0,
             "y": 238.0,
-            "txt": "-50",
+            "txt": "−50",
             "mudo": true,
             "ancora": "end"
           },
@@ -270,27 +271,259 @@
             "pontos": [
               [
                 90.0,
-                95.4
+                96.8
+              ],
+              [
+                93.0,
+                99.8
+              ],
+              [
+                97.0,
+                104.0
+              ],
+              [
+                101.8,
+                108.9
+              ],
+              [
+                107.1,
+                114.3
+              ],
+              [
+                112.8,
+                120.1
+              ],
+              [
+                118.5,
+                125.8
+              ],
+              [
+                124.0,
+                131.3
+              ],
+              [
+                129.2,
+                136.4
+              ],
+              [
+                134.1,
+                141.1
+              ],
+              [
+                139.0,
+                145.8
+              ],
+              [
+                143.9,
+                150.5
+              ],
+              [
+                148.8,
+                155.1
+              ],
+              [
+                153.6,
+                159.6
+              ],
+              [
+                158.5,
+                163.9
+              ],
+              [
+                163.4,
+                168.1
               ],
               [
                 168.3,
                 172.0
               ],
               [
+                173.2,
+                175.7
+              ],
+              [
+                178.1,
+                179.1
+              ],
+              [
+                183.0,
+                182.3
+              ],
+              [
+                187.9,
+                185.4
+              ],
+              [
+                192.8,
+                188.3
+              ],
+              [
+                197.7,
+                191.2
+              ],
+              [
+                202.6,
+                194.1
+              ],
+              [
+                207.5,
+                197.1
+              ],
+              [
+                212.1,
+                199.9
+              ],
+              [
+                216.4,
+                202.6
+              ],
+              [
+                220.5,
+                205.1
+              ],
+              [
+                224.6,
+                207.6
+              ],
+              [
+                229.1,
+                210.3
+              ],
+              [
+                234.1,
+                213.0
+              ],
+              [
+                239.9,
+                216.1
+              ],
+              [
                 246.7,
-                218.2
+                219.5
+              ],
+              [
+                254.6,
+                223.4
+              ],
+              [
+                263.5,
+                227.6
+              ],
+              [
+                273.2,
+                232.0
+              ],
+              [
+                283.4,
+                236.7
+              ],
+              [
+                293.9,
+                241.4
+              ],
+              [
+                304.5,
+                246.1
+              ],
+              [
+                314.9,
+                250.7
               ],
               [
                 325.0,
-                253.8
+                255.2
+              ],
+              [
+                334.8,
+                259.4
+              ],
+              [
+                344.6,
+                263.7
+              ],
+              [
+                354.4,
+                267.8
+              ],
+              [
+                364.2,
+                272.0
+              ],
+              [
+                374.0,
+                276.1
+              ],
+              [
+                383.7,
+                280.2
+              ],
+              [
+                393.5,
+                284.2
               ],
               [
                 403.3,
                 288.2
               ],
               [
+                413.1,
+                292.1
+              ],
+              [
+                422.9,
+                295.9
+              ],
+              [
+                432.7,
+                299.7
+              ],
+              [
+                442.5,
+                303.4
+              ],
+              [
+                452.3,
+                307.2
+              ],
+              [
+                462.1,
+                310.9
+              ],
+              [
+                471.9,
+                314.7
+              ],
+              [
                 481.7,
-                317.2
+                318.5
+              ],
+              [
+                492.0,
+                322.6
+              ],
+              [
+                503.1,
+                327.1
+              ],
+              [
+                514.5,
+                331.7
+              ],
+              [
+                525.7,
+                336.3
+              ],
+              [
+                536.4,
+                340.6
+              ],
+              [
+                545.9,
+                344.5
+              ],
+              [
+                554.0,
+                347.7
               ],
               [
                 560.0,
@@ -317,28 +550,292 @@
                 350.2
               ],
               [
+                93.0,
+                348.5
+              ],
+              [
+                97.0,
+                346.4
+              ],
+              [
+                101.8,
+                343.8
+              ],
+              [
+                107.1,
+                340.9
+              ],
+              [
+                112.8,
+                337.7
+              ],
+              [
+                118.5,
+                334.5
+              ],
+              [
+                124.0,
+                331.1
+              ],
+              [
+                129.2,
+                327.8
+              ],
+              [
+                134.1,
+                324.4
+              ],
+              [
+                139.0,
+                320.9
+              ],
+              [
+                143.9,
+                317.4
+              ],
+              [
+                148.8,
+                313.7
+              ],
+              [
+                153.6,
+                309.8
+              ],
+              [
+                158.5,
+                305.8
+              ],
+              [
+                163.4,
+                301.7
+              ],
+              [
                 168.3,
                 297.4
               ],
               [
+                173.2,
+                292.9
+              ],
+              [
+                178.1,
+                288.1
+              ],
+              [
+                183.0,
+                283.1
+              ],
+              [
+                187.9,
+                277.9
+              ],
+              [
+                192.8,
+                272.8
+              ],
+              [
+                197.7,
+                267.6
+              ],
+              [
+                202.6,
+                262.6
+              ],
+              [
+                207.5,
+                257.8
+              ],
+              [
+                212.4,
+                253.0
+              ],
+              [
+                217.3,
+                248.1
+              ],
+              [
+                222.2,
+                243.2
+              ],
+              [
+                227.1,
+                238.4
+              ],
+              [
+                232.0,
+                233.8
+              ],
+              [
+                236.9,
+                229.5
+              ],
+              [
+                241.8,
+                225.6
+              ],
+              [
                 246.7,
-                218.2
+                222.2
+              ],
+              [
+                251.6,
+                219.3
+              ],
+              [
+                256.5,
+                216.9
+              ],
+              [
+                261.4,
+                214.9
+              ],
+              [
+                266.2,
+                213.2
+              ],
+              [
+                271.1,
+                211.7
+              ],
+              [
+                276.0,
+                210.3
+              ],
+              [
+                280.9,
+                209.0
+              ],
+              [
+                285.8,
+                207.6
+              ],
+              [
+                290.5,
+                206.3
+              ],
+              [
+                294.7,
+                205.2
+              ],
+              [
+                298.8,
+                204.2
+              ],
+              [
+                303.0,
+                203.3
+              ],
+              [
+                307.4,
+                202.4
+              ],
+              [
+                312.5,
+                201.5
+              ],
+              [
+                318.2,
+                200.7
               ],
               [
                 325.0,
-                198.4
+                199.7
+              ],
+              [
+                332.9,
+                198.7
+              ],
+              [
+                341.8,
+                197.6
+              ],
+              [
+                351.5,
+                196.6
+              ],
+              [
+                361.7,
+                195.5
+              ],
+              [
+                372.2,
+                194.5
+              ],
+              [
+                382.8,
+                193.5
+              ],
+              [
+                393.3,
+                192.6
               ],
               [
                 403.3,
+                191.8
+              ],
+              [
+                413.1,
+                191.1
+              ],
+              [
+                422.9,
                 190.5
               ],
               [
+                432.7,
+                190.0
+              ],
+              [
+                442.5,
+                189.6
+              ],
+              [
+                452.3,
+                189.2
+              ],
+              [
+                462.1,
+                188.7
+              ],
+              [
+                471.9,
+                188.3
+              ],
+              [
                 481.7,
-                185.2
+                187.8
+              ],
+              [
+                492.0,
+                187.3
+              ],
+              [
+                503.1,
+                186.8
+              ],
+              [
+                514.5,
+                186.2
+              ],
+              [
+                525.7,
+                185.6
+              ],
+              [
+                536.4,
+                185.1
+              ],
+              [
+                545.9,
+                184.6
+              ],
+              [
+                554.0,
+                184.2
               ],
               [
                 560.0,
-                182.6
+                183.9
               ]
             ],
             "cor": "normal",
@@ -347,7 +844,7 @@
           {
             "t": "texto",
             "x": 568.0,
-            "y": 182.6,
+            "y": 183.9,
             "txt": "E",
             "negrito": true,
             "cor": "normal",
@@ -372,33 +869,313 @@
             "txt": "E ≈ 0 abaixo de 20 ºC",
             "cor": "var(--accent)"
           }
+        ],
+        "faixa-36-40": [
+          {
+            "t": "ret",
+            "x": 90,
+            "y": 40,
+            "w": 78.3,
+            "h": 330,
+            "cor": "luz",
+            "borda": null,
+            "opac": 0.35
+          },
+          {
+            "t": "rotulo",
+            "x": 256.5,
+            "y": 119.2,
+            "txt": "RC: recebe até ≈ 57",
+            "cor": "perigo"
+          },
+          {
+            "t": "rotulo",
+            "x": 256.5,
+            "y": 330.4,
+            "txt": "E: perde de 95 a 135",
+            "cor": "normal"
+          }
+        ],
+        "le-20": [
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                481.7,
+                40
+              ],
+              [
+                481.7,
+                370
+              ]
+            ],
+            "cor": "#111111",
+            "larg": 2
+          },
+          {
+            "t": "circ",
+            "x": 481.7,
+            "y": 187.8,
+            "r": 5,
+            "cor": "normal",
+            "borda": "tinta"
+          },
+          {
+            "t": "circ",
+            "x": 481.7,
+            "y": 318.5,
+            "r": 5,
+            "cor": "perigo",
+            "borda": "tinta"
+          },
+          {
+            "t": "rotulo",
+            "x": 433.7,
+            "y": 161.8,
+            "txt": "E ≈ −12",
+            "cor": "normal"
+          },
+          {
+            "t": "rotulo",
+            "x": 425.7,
+            "y": 318.5,
+            "txt": "RC ≈ −110",
+            "cor": "perigo"
+          }
+        ],
+        "le-32": [
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                246.7,
+                40
+              ],
+              [
+                246.7,
+                370
+              ]
+            ],
+            "cor": "#111111",
+            "larg": 2
+          },
+          {
+            "t": "circ",
+            "x": 246.7,
+            "y": 220.8,
+            "r": 5,
+            "cor": "tinta",
+            "borda": "tinta"
+          },
+          {
+            "t": "rotulo",
+            "x": 316.7,
+            "y": 186.8,
+            "txt": "E ≈ RC ≈ −35",
+            "cor": "tinta"
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                560.0,
+                40
+              ],
+              [
+                560.0,
+                370
+              ]
+            ],
+            "cor": "#111111",
+            "larg": 2
+          },
+          {
+            "t": "circ",
+            "x": 560.0,
+            "y": 183.9,
+            "r": 5,
+            "cor": "normal",
+            "borda": "tinta"
+          },
+          {
+            "t": "circ",
+            "x": 560.0,
+            "y": 350.2,
+            "r": 5,
+            "cor": "perigo",
+            "borda": "tinta"
+          }
+        ],
+        "le-36": [
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                168.3,
+                40
+              ],
+              [
+                168.3,
+                370
+              ]
+            ],
+            "cor": "#111111",
+            "larg": 2
+          },
+          {
+            "t": "circ",
+            "x": 168.3,
+            "y": 172.0,
+            "r": 5,
+            "cor": "perigo",
+            "borda": "tinta"
+          },
+          {
+            "t": "circ",
+            "x": 168.3,
+            "y": 297.4,
+            "r": 5,
+            "cor": "normal",
+            "borda": "tinta"
+          },
+          {
+            "t": "rotulo",
+            "x": 220.3,
+            "y": 148.0,
+            "txt": "RC = 0",
+            "cor": "perigo"
+          },
+          {
+            "t": "rotulo",
+            "x": 226.3,
+            "y": 297.4,
+            "txt": "E ≈ −95",
+            "cor": "normal"
+          }
         ]
       }
     }
   },
-  "passos": [
+  "metodos": [
     {
-      "titulo": "O que os sinais significam",
-      "conceito": "Leitura de gráficos",
-      "texto": "Valores positivos: calor recebido; negativos: calor perdido. Entre 36 ºC e 40 ºC o corpo recebe por RC, mas perde mais por evaporação (A falsa). A 20 ºC a perda por evaporação é bem menor que por RC (B falsa). A 36 ºC o fluxo por RC é nulo, mas há perda por evaporação (E falsa). A 32 ºC a perda total é cerca de 70 kcal/m², menor que a 16 ºC (C falsa).",
-      "cena": {
-        "mostrar": [
-          "grafico"
-        ]
-      }
-    },
-    {
-      "titulo": "Abaixo de 20 ºC",
-      "conceito": "Trocas de calor",
-      "texto": "A curva E fica próxima de zero para temperaturas menores que 20 ºC. Resposta: <b>(D)</b>.",
-      "cena": {
-        "mostrar": [
-          "destaque"
-        ],
-        "destacar": [
-          "destaque"
-        ]
-      }
+      "nome": "Lendo o gráfico",
+      "telas": [
+        {
+          "titulo": "Os sinais",
+          "cena": {
+            "mostrar": [
+              "grafico"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "Valores <b>positivos</b>: calor recebido pelo corpo. Valores <b>negativos</b>: calor perdido."
+            },
+            {
+              "t": "texto",
+              "html": "O eixo da temperatura está invertido: vai de 40 ºC, à esquerda, até 16 ºC."
+            }
+          ]
+        },
+        {
+          "titulo": "Entre 36 ºC e 40 ºC",
+          "cena": {
+            "mostrar": [
+              "grafico",
+              "faixa-36-40"
+            ],
+            "destacar": [
+              "faixa-36-40"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "<b>(A) Falsa.</b> Entre 36 ºC e 40 ºC o corpo recebe até cerca de 57 kcal/m² por RC, mas perde de 95 a 135 kcal/m² por evaporação: perde mais do que recebe."
+            }
+          ]
+        },
+        {
+          "titulo": "A 20 ºC",
+          "cena": {
+            "mostrar": [
+              "grafico",
+              "le-20"
+            ],
+            "destacar": [
+              "le-20"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "<b>(B) Falsa.</b> A 20 ºC a perda por evaporação é de cerca de 12 kcal/m², bem menor que a por RC, cerca de 110 kcal/m²."
+            }
+          ]
+        },
+        {
+          "titulo": "A 32 ºC",
+          "cena": {
+            "mostrar": [
+              "grafico",
+              "le-32"
+            ],
+            "destacar": [
+              "le-32"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "<b>(C) Falsa.</b> A 32 ºC as duas perdas somam cerca de 70 kcal/m². A 16 ºC, por exemplo, passam de 140 kcal/m²: a perda é maior."
+            }
+          ]
+        },
+        {
+          "titulo": "A 36 ºC",
+          "cena": {
+            "mostrar": [
+              "grafico",
+              "le-36"
+            ],
+            "destacar": [
+              "le-36"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "<b>(E) Falsa.</b> A 36 ºC o fluxo por RC é nulo, mas há perda por evaporação, de cerca de 95 kcal/m²."
+            }
+          ]
+        },
+        {
+          "titulo": "Abaixo de 20 ºC",
+          "cena": {
+            "mostrar": [
+              "grafico",
+              "destaque"
+            ],
+            "destacar": [
+              "destaque"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "<b>(D) Verdadeira.</b> Abaixo de 20 ºC a curva E fica bem perto de zero (cerca de −10 kcal/m²)."
+            },
+            {
+              "t": "gabarito",
+              "letra": "D"
+            },
+            {
+              "t": "fim"
+            }
+          ]
+        }
+      ]
     }
   ],
   "status": "revisado",

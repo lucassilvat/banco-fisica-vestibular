@@ -4,6 +4,21 @@ Cada versão corresponde a um lote de importação ou a uma mudança no app/pipe
 Formato: `vMAIOR.MENOR.CORREÇÃO` — MENOR sobe a cada prova importada; MAIOR, em mudanças
 de modelo de dados; CORREÇÃO, em correções de questões já publicadas.
 
+## v2.20.0 — 2026-11-17
+
+- **Unesp 2018, 2017 e 2016 no formato aula** (24 questões: 2018 Q76 a Q82; 2017 Q70 e Q77 a Q83;
+  2016 Q74 e Q76 a Q83), seguindo as diretrizes das revisões do Lucas: fórmula enunciada antes de
+  usar, passagens animadas (isolar Δt, k, ω², h, R; o 6 que "tomba" e vira expoente no nível sonoro)
+  e cancelamentos (a massa e a tração no pêndulo cônico, a massa nas caixas do elevador e na explosão).
+- **Dois métodos em abas**: 2018 Q76 (proporção inversa entre tempo e velocidade), 2018 Q82
+  (resistência equivalente), 2016 Q76 (referencial da estrada).
+- Só na lousa as de conta: 2018 Q76, Q77 e Q81; 2017 Q70; 2016 Q74, Q77 e Q79.
+- Desenhos: 2018 Q79 com as curvas suaves lidas da figura e uma leitura do gráfico por alternativa;
+  2018 Q82 com as leituras dos aparelhos separadas da tensão no resistor; 2018 Q78 com "antes" e
+  "depois" da explosão; 2016 Q82 com a corda meio período depois, P na crista.
+- 2017 Q83 (motor de espira) resolvida pelas inversões: só (E) é compatível com resposta única.
+- Todas aguardam a revisão do Lucas no app; o site público não muda até ele aprovar.
+
 ## v2.19.1 — 2026-11-17
 
 - **Diretrizes das revisões do Lucas** em `docs/ANIMACOES.md` (seção nova): as orientações dos

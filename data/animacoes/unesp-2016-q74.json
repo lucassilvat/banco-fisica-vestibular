@@ -1,223 +1,77 @@
 {
   "id": "unesp-2016-q74",
+  "formato": "aula",
   "titulo": "Da frequência à cor da luz emitida",
   "conceitos": [
     "Equação fundamental da ondulatória",
     "Espectro eletromagnético"
   ],
-  "cena": {
-    "modelo": "diagrama",
-    "parametros": {
-      "elementos": {
-        "etapa-1": [
-          {
-            "t": "ret",
-            "x": 30,
-            "y": 16,
-            "w": 400,
-            "h": 40,
-            "cor": "suave",
-            "borda": "normal",
-            "rx": 7
-          },
-          {
-            "t": "texto",
-            "x": 42,
-            "y": 36.0,
-            "txt": "frequência da luz",
-            "mudo": true,
-            "ancora": "start"
-          },
-          {
-            "t": "texto",
-            "x": 418,
-            "y": 36.0,
-            "txt": "4,8 × 10^{14} Hz",
-            "negrito": true,
-            "ancora": "end"
-          }
-        ],
-        "etapa-2": [
-          {
-            "t": "seta",
-            "de": [
-              230.0,
-              59
-            ],
-            "para": [
-              230.0,
-              79
-            ],
-            "cor": "tinta",
-            "larg": 1.8
-          },
-          {
-            "t": "texto",
-            "x": 242.0,
-            "y": 69.0,
-            "txt": "λ = c/f",
-            "negrito": true,
-            "cor": "acel",
-            "ancora": "start"
-          },
-          {
-            "t": "ret",
-            "x": 30,
-            "y": 82,
-            "w": 400,
-            "h": 40,
-            "cor": "suave",
-            "borda": "normal",
-            "rx": 7
-          },
-          {
-            "t": "texto",
-            "x": 42,
-            "y": 102.0,
-            "txt": "comprimento de onda",
-            "mudo": true,
-            "ancora": "start"
-          },
-          {
-            "t": "texto",
-            "x": 418,
-            "y": 102.0,
-            "txt": "6,25 × 10^{−7} m",
-            "negrito": true,
-            "ancora": "end"
-          }
-        ],
-        "etapa-3": [
-          {
-            "t": "seta",
-            "de": [
-              230.0,
-              125
-            ],
-            "para": [
-              230.0,
-              145
-            ],
-            "cor": "tinta",
-            "larg": 1.8
-          },
-          {
-            "t": "texto",
-            "x": 242.0,
-            "y": 135.0,
-            "txt": "espectro dado",
-            "negrito": true,
-            "cor": "acel",
-            "ancora": "start"
-          },
-          {
-            "t": "ret",
-            "x": 30,
-            "y": 148,
-            "w": 400,
-            "h": 40,
-            "cor": "suave",
-            "borda": "normal",
-            "rx": 7
-          },
-          {
-            "t": "texto",
-            "x": 42,
-            "y": 168.0,
-            "txt": "região do espectro",
-            "mudo": true,
-            "ancora": "start"
-          },
-          {
-            "t": "texto",
-            "x": 418,
-            "y": 168.0,
-            "txt": "vermelho",
-            "negrito": true,
-            "ancora": "end"
-          }
-        ],
-        "etapa-4": [
-          {
-            "t": "seta",
-            "de": [
-              230.0,
-              191
-            ],
-            "para": [
-              230.0,
-              211
-            ],
-            "cor": "tinta",
-            "larg": 1.8
-          },
-          {
-            "t": "texto",
-            "x": 242.0,
-            "y": 201.0,
-            "txt": "",
-            "negrito": true,
-            "cor": "acel",
-            "ancora": "start"
-          },
-          {
-            "t": "ret",
-            "x": 30,
-            "y": 214,
-            "w": 400,
-            "h": 40,
-            "cor": "suave",
-            "borda": "normal",
-            "rx": 7
-          },
-          {
-            "t": "texto",
-            "x": 42,
-            "y": 234.0,
-            "txt": "emissor (pelo esquema)",
-            "mudo": true,
-            "ancora": "start"
-          },
-          {
-            "t": "texto",
-            "x": 418,
-            "y": 234.0,
-            "txt": "oxiluciferina ceto",
-            "negrito": true,
-            "ancora": "end"
-          }
-        ]
-      }
-    }
-  },
-  "passos": [
+  "metodos": [
     {
-      "titulo": "O comprimento de onda",
-      "conceito": "Equação fundamental da ondulatória",
-      "texto": "Com c = 300 000 km/s = 3 × 10<sup>8</sup> m/s:",
-      "equacoes": [
-        "\\lambda = \\dfrac{c}{f} = \\dfrac{3 \\times 10^{8}}{4,8 \\times 10^{14}} = 6,25 \\times 10^{-7}\\ \\text{m}"
-      ],
-      "cena": {
-        "mostrar": [
-          "etapa-1",
-          "etapa-2"
-        ]
-      }
-    },
-    {
-      "titulo": "A cor e a molécula",
-      "conceito": "Espectro eletromagnético",
-      "texto": "6,25 × 10<sup>−7</sup> m fica no vermelho, perto do extremo de maiores comprimentos de onda. Pelo esquema, a luz vermelha vem da oxiluciferina ceto, cuja forma aniônica é C<sub>10</sub>H<sub>5</sub>O<sub>2</sub>N<sub>2</sub>S<sub>2</sub>, com nitrogênio nos anéis (amina). Resposta: <b>(D)</b>.",
-      "cena": {
-        "mostrar": [
-          "etapa-3",
-          "etapa-4"
-        ],
-        "destacar": [
-          "etapa-4"
-        ]
-      }
+      "nome": "Da frequência à cor",
+      "telas": [
+        {
+          "titulo": "O comprimento de onda",
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "Equação fundamental da ondulatória, com c = 300 000 km/s = 3 · 10<sup>8</sup> m/s:"
+            },
+            {
+              "t": "eq",
+              "tex": "c = \\lambda\\, \\marca{f}{f}"
+            },
+            {
+              "t": "eq",
+              "tex": "\\lambda = \\dfrac{c}{\\marca{f}{f}}",
+              "mover": [
+                "f"
+              ]
+            },
+            {
+              "t": "eq",
+              "tex": "\\lambda = \\dfrac{3 \\cdot 10^{8}}{4,8 \\cdot 10^{14}} = 0,625 \\cdot 10^{-6}"
+            },
+            {
+              "t": "eq",
+              "tex": "\\lambda = 6,25 \\cdot 10^{-7}\\ \\text{m}"
+            }
+          ]
+        },
+        {
+          "titulo": "A cor da luz",
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "No espectro dado, 6,25 · 10<sup>−7</sup> m fica entre 6 · 10<sup>−7</sup> m e 7 · 10<sup>−7</sup> m, do lado do <b>vermelho</b>, longe do verde."
+            },
+            {
+              "t": "texto",
+              "html": "Pelo esquema do texto, a luz vermelha é emitida pela <b>oxiluciferina na forma ceto</b>."
+            }
+          ]
+        },
+        {
+          "titulo": "A molécula",
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "A parte de Química: na estrutura da forma aniônica da oxiluciferina ceto contam-se 10 C, 5 H, 2 O, 2 N e 2 S, e entre as funções listadas a presente é a amina:"
+            },
+            {
+              "t": "eq",
+              "tex": "\\text{C}_{10}\\text{H}_{5}\\text{O}_{2}\\text{N}_{2}\\text{S}_{2}"
+            },
+            {
+              "t": "gabarito",
+              "letra": "D"
+            },
+            {
+              "t": "fim"
+            }
+          ]
+        }
+      ]
     }
   ],
   "status": "revisado",

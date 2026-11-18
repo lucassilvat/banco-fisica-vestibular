@@ -1,5 +1,6 @@
 {
   "id": "unesp-2018-q80",
+  "formato": "aula",
   "titulo": "Qual elemento óptico separa as cores",
   "conceitos": [
     "Dispersão da luz",
@@ -208,30 +209,77 @@
       }
     }
   },
-  "passos": [
+  "metodos": [
     {
-      "titulo": "O que é dispersão",
-      "conceito": "Dispersão da luz",
-      "texto": "Dispersão é a separação da luz em suas cores. Ela acontece porque o índice de refração do material depende da frequência: cada cor se desvia de um ângulo diferente.",
-      "cena": {
-        "mostrar": [
-          "espectroscopio"
-        ]
-      }
-    },
-    {
-      "titulo": "O elemento óptico",
-      "conceito": "Prismas",
-      "texto": "Espelhos refletem todas as cores igualmente; lentes são feitas para formar imagens. O prisma desvia cada cor de um ângulo diferente e abre o feixe em um espectro. Resposta: <b>(B)</b>.",
-      "cena": {
-        "mostrar": [
-          "prisma",
-          "dispersao"
-        ],
-        "destacar": [
-          "dispersao"
-        ]
-      }
+      "nome": "Dispersão da luz",
+      "telas": [
+        {
+          "titulo": "O que o elemento faz",
+          "cena": {
+            "mostrar": [
+              "espectroscopio"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "No espectroscópio, o feixe de luz do gás entra no elemento óptico e sai <b>separado em cores</b>: é a <b>dispersão</b>."
+            },
+            {
+              "t": "texto",
+              "html": "Ela acontece quando a luz <b>refrata</b> num meio cujo índice de refração depende da frequência: cada cor se desvia de um ângulo diferente."
+            }
+          ]
+        },
+        {
+          "titulo": "Espelhos e lentes",
+          "cena": {
+            "mostrar": [
+              "espectroscopio"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "Espelhos (planos ou convexos) <b>refletem</b> todas as cores com o mesmo ângulo: não separam as cores. (A) e (E) estão fora."
+            },
+            {
+              "t": "texto",
+              "html": "Lentes são feitas para fazer o feixe convergir ou divergir e formar imagens, sem abrir um espectro. (C) e (D) estão fora."
+            }
+          ]
+        },
+        {
+          "titulo": "O prisma",
+          "cena": {
+            "mostrar": [
+              "espectroscopio",
+              "prisma",
+              "dispersao"
+            ],
+            "destacar": [
+              "dispersao"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "No <b>prisma</b>, a luz refrata duas vezes, na entrada e na saída, e cada cor se desvia de um ângulo diferente: o violeta se desvia mais e o vermelho, menos."
+            },
+            {
+              "t": "texto",
+              "html": "O feixe se abre num espectro, como na figura."
+            },
+            {
+              "t": "gabarito",
+              "letra": "B"
+            },
+            {
+              "t": "fim"
+            }
+          ]
+        }
+      ]
     }
   ],
   "status": "revisado",

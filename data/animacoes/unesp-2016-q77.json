@@ -1,225 +1,85 @@
 {
   "id": "unesp-2016-q77",
+  "formato": "aula",
   "titulo": "Reduzindo a frequência de engrenagem em engrenagem",
   "conceitos": [
     "Transmissão de movimento circular"
   ],
-  "cena": {
-    "modelo": "diagrama",
-    "parametros": {
-      "elementos": {
-        "etapa-1": [
-          {
-            "t": "ret",
-            "x": 30,
-            "y": 16,
-            "w": 400,
-            "h": 40,
-            "cor": "suave",
-            "borda": "normal",
-            "rx": 7
-          },
-          {
-            "t": "texto",
-            "x": 42,
-            "y": 36.0,
-            "txt": "motor (A, 8 dentes)",
-            "mudo": true,
-            "ancora": "start"
-          },
-          {
-            "t": "texto",
-            "x": 418,
-            "y": 36.0,
-            "txt": "13,5 Hz",
-            "negrito": true,
-            "ancora": "end"
-          }
-        ],
-        "etapa-2": [
-          {
-            "t": "seta",
-            "de": [
-              230.0,
-              59
-            ],
-            "para": [
-              230.0,
-              79
-            ],
-            "cor": "tinta",
-            "larg": 1.8
-          },
-          {
-            "t": "texto",
-            "x": 242.0,
-            "y": 69.0,
-            "txt": "13,5 · 8 / 24",
-            "negrito": true,
-            "cor": "acel",
-            "ancora": "start"
-          },
-          {
-            "t": "ret",
-            "x": 30,
-            "y": 82,
-            "w": 400,
-            "h": 40,
-            "cor": "suave",
-            "borda": "normal",
-            "rx": 7
-          },
-          {
-            "t": "texto",
-            "x": 42,
-            "y": 102.0,
-            "txt": "B (24 dentes)",
-            "mudo": true,
-            "ancora": "start"
-          },
-          {
-            "t": "texto",
-            "x": 418,
-            "y": 102.0,
-            "txt": "4,5 Hz",
-            "negrito": true,
-            "ancora": "end"
-          }
-        ],
-        "etapa-3": [
-          {
-            "t": "seta",
-            "de": [
-              230.0,
-              125
-            ],
-            "para": [
-              230.0,
-              145
-            ],
-            "cor": "tinta",
-            "larg": 1.8
-          },
-          {
-            "t": "texto",
-            "x": 242.0,
-            "y": 135.0,
-            "txt": "mesmo eixo",
-            "negrito": true,
-            "cor": "acel",
-            "ancora": "start"
-          },
-          {
-            "t": "ret",
-            "x": 30,
-            "y": 148,
-            "w": 400,
-            "h": 40,
-            "cor": "suave",
-            "borda": "normal",
-            "rx": 7
-          },
-          {
-            "t": "texto",
-            "x": 42,
-            "y": 168.0,
-            "txt": "C, no eixo de B",
-            "mudo": true,
-            "ancora": "start"
-          },
-          {
-            "t": "texto",
-            "x": 418,
-            "y": 168.0,
-            "txt": "4,5 Hz",
-            "negrito": true,
-            "ancora": "end"
-          }
-        ],
-        "etapa-4": [
-          {
-            "t": "seta",
-            "de": [
-              230.0,
-              191
-            ],
-            "para": [
-              230.0,
-              211
-            ],
-            "cor": "tinta",
-            "larg": 1.8
-          },
-          {
-            "t": "texto",
-            "x": 242.0,
-            "y": 201.0,
-            "txt": "4,5 · 8 / 24",
-            "negrito": true,
-            "cor": "acel",
-            "ancora": "start"
-          },
-          {
-            "t": "ret",
-            "x": 30,
-            "y": 214,
-            "w": 400,
-            "h": 40,
-            "cor": "suave",
-            "borda": "normal",
-            "rx": 7
-          },
-          {
-            "t": "texto",
-            "x": 42,
-            "y": 234.0,
-            "txt": "D (24 dentes) e rodas",
-            "mudo": true,
-            "ancora": "start"
-          },
-          {
-            "t": "texto",
-            "x": 418,
-            "y": 234.0,
-            "txt": "1,5 Hz",
-            "negrito": true,
-            "ancora": "end"
-          }
-        ]
-      }
-    }
-  },
-  "passos": [
+  "metodos": [
     {
-      "titulo": "Engrenagens acopladas",
-      "conceito": "Transmissão de movimento circular",
-      "texto": "Sem escorregamento, os dentes têm a mesma velocidade linear; como o raio é proporcional ao número de dentes, o produto f · N é o mesmo nas duas.",
-      "equacoes": [
-        "13,5 \\cdot 8 = f_{B} \\cdot 24 \\quad \\Rightarrow \\quad f_{B} = 4,5\\ \\text{Hz}"
-      ],
-      "cena": {
-        "mostrar": [
-          "etapa-1",
-          "etapa-2"
-        ]
-      }
-    },
-    {
-      "titulo": "Mesmo eixo e de novo acopladas",
-      "conceito": "Transmissão de movimento circular",
-      "texto": "C gira com B; C move D; as rodas giram com D. Resposta: <b>(A) 1,5</b>.",
-      "equacoes": [
-        "4,5 \\cdot 8 = f_{D} \\cdot 24 \\quad \\Rightarrow \\quad f_{R} = f_{D} = 1,5\\ \\text{Hz}"
-      ],
-      "cena": {
-        "mostrar": [
-          "etapa-3",
-          "etapa-4"
-        ],
-        "destacar": [
-          "etapa-4"
-        ]
-      }
+      "nome": "Engrenagens",
+      "telas": [
+        {
+          "titulo": "Engrenagens acopladas",
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "Engrenagens acopladas, sem escorregamento, têm a mesma velocidade linear nos dentes:"
+            },
+            {
+              "t": "eq",
+              "tex": "2\\pi R_{1} f_{1} = 2\\pi R_{2} f_{2}"
+            },
+            {
+              "t": "texto",
+              "html": "O raio é proporcional ao número de dentes N. Então:"
+            },
+            {
+              "t": "eq",
+              "tex": "f_{1} N_{1} = f_{2} N_{2}"
+            }
+          ]
+        },
+        {
+          "titulo": "De A para B, e B com C",
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "De A (8 dentes) para B (24 dentes):"
+            },
+            {
+              "t": "eq",
+              "tex": "13,5 \\cdot 8 = f_{B} \\cdot 24"
+            },
+            {
+              "t": "eq",
+              "tex": "f_{B} = \\dfrac{13,5 \\cdot \\marca{a}{8}}{\\marca{b}{24}} = \\dfrac{13,5}{3} = 4,5\\ \\text{Hz}"
+            },
+            {
+              "t": "texto",
+              "html": "C está no mesmo eixo de B: gira com a mesma frequência, f<sub>C</sub> = 4,5 Hz."
+            }
+          ]
+        },
+        {
+          "titulo": "De C para D: as rodas",
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "De C (8 dentes) para D (24 dentes), de novo a frequência fica dividida por 3:"
+            },
+            {
+              "t": "eq",
+              "tex": "f_{D} = \\dfrac{4,5 \\cdot 8}{24} = \\dfrac{4,5}{3} = 1,5\\ \\text{Hz}"
+            },
+            {
+              "t": "texto",
+              "html": "As rodas estão no eixo de D:"
+            },
+            {
+              "t": "eq",
+              "tex": "f_{R} = 1,5\\ \\text{Hz}"
+            },
+            {
+              "t": "gabarito",
+              "letra": "A"
+            },
+            {
+              "t": "fim"
+            }
+          ]
+        }
+      ]
     }
   ],
   "status": "revisado",

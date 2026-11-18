@@ -1,5 +1,6 @@
 {
   "id": "unesp-2016-q81",
+  "formato": "aula",
   "titulo": "Três espelhos, três imagens direitas",
   "conceitos": [
     "Espelhos esféricos",
@@ -167,39 +168,78 @@
       }
     }
   },
-  "passos": [
+  "metodos": [
     {
-      "titulo": "Natureza das imagens",
-      "conceito": "Espelhos esféricos",
-      "texto": "As três imagens são direitas. Para objeto real, imagem direita em espelho é sempre virtual: isso elimina A e B.",
-      "cena": {
-        "mostrar": [
-          "virtual"
-        ]
-      }
-    },
-    {
-      "titulo": "Tamanho e espelho",
-      "conceito": "Espelhos esféricos",
-      "texto": "Menor e direita: convexo. Mesmo tamanho: plano. Maior e direita: côncavo, com o rosto entre o foco e o vértice.",
-      "cena": {
-        "mostrar": [
-          "tabela"
-        ]
-      }
-    },
-    {
-      "titulo": "A associação correta",
-      "conceito": "Espelhos planos",
-      "texto": "C é o côncavo, e a imagem é virtual. Resposta: <b>(C)</b>.",
-      "cena": {
-        "mostrar": [
-          "destaque"
-        ],
-        "destacar": [
-          "destaque"
-        ]
-      }
+      "nome": "Natureza e tamanho",
+      "telas": [
+        {
+          "titulo": "Natureza das imagens",
+          "cena": {
+            "mostrar": [
+              "virtual"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "As três imagens são <b>direitas</b>. Para objeto real, imagem direita em espelho é sempre <b>virtual</b>: isso elimina (A) e (B)."
+            }
+          ]
+        },
+        {
+          "titulo": "Tamanho e espelho",
+          "cena": {
+            "mostrar": [
+              "virtual",
+              "tabela"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "Menor e direita: espelho <b>convexo</b> (A)."
+            },
+            {
+              "t": "texto",
+              "html": "Do mesmo tamanho: espelho <b>plano</b> (B)."
+            },
+            {
+              "t": "texto",
+              "html": "Maior e direita: espelho <b>côncavo</b>, com o rosto entre o foco e o vértice (C)."
+            }
+          ]
+        },
+        {
+          "titulo": "A associação correta",
+          "cena": {
+            "mostrar": [
+              "virtual",
+              "tabela",
+              "destaque"
+            ],
+            "destacar": [
+              "destaque"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "(D) é falsa: A é o convexo. (E) é falsa: C é o côncavo."
+            },
+            {
+              "t": "texto",
+              "html": "C é o côncavo, e a imagem é virtual."
+            },
+            {
+              "t": "gabarito",
+              "letra": "C"
+            },
+            {
+              "t": "fim"
+            }
+          ]
+        }
+      ]
     }
   ],
   "status": "revisado",

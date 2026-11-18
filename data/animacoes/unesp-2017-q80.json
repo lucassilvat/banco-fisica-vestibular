@@ -1,5 +1,6 @@
 {
   "id": "unesp-2017-q80",
+  "formato": "aula",
   "titulo": "Até onde a boia esconde o tubo",
   "conceitos": [
     "Reflexão total e ângulo limite",
@@ -223,46 +224,111 @@
       }
     }
   },
-  "passos": [
+  "metodos": [
     {
-      "titulo": "O ângulo limite",
-      "conceito": "Reflexão total e ângulo limite",
-      "texto": "Um ponto do tubo é visto se algum raio dele atravessa a superfície fora da boia sem reflexão total.",
-      "equacoes": [
-        "\\sen L = \\dfrac{1,00}{1,25} = 0,8 \\quad \\Rightarrow \\quad \\cos L = 0,6, \\quad \\tg L = \\dfrac{4}{3}"
-      ],
-      "cena": {
-        "mostrar": [
-          "agua",
-          "tubo"
-        ]
-      }
-    },
-    {
-      "titulo": "O raio pela borda da boia",
-      "conceito": "Reflexão total e ângulo limite",
-      "texto": "O raio que sai de um ponto a uma profundidade h e passa rente à borda da boia (a 0,2 m do eixo) é o de menor incidência que escapa. Ele sai da água se seu ângulo de incidência for menor que L, e isso só acontece se h passar de 0,15 m.",
-      "equacoes": [
-        "\\tg i = \\dfrac{0,2}{h} < \\dfrac{4}{3} \\quad \\Rightarrow \\quad h > 0,15\\ \\text{m}"
-      ],
-      "cena": {
-        "mostrar": [
-          "limite"
-        ]
-      }
-    },
-    {
-      "titulo": "A parte visível",
-      "conceito": "Reflexão total e ângulo limite",
-      "texto": "Os primeiros 15 cm logo abaixo da boia ficam ocultos; o resto do tubo é visível. Resposta: <b>(B) 85 cm</b>.",
-      "cena": {
-        "mostrar": [
-          "partes"
-        ],
-        "destacar": [
-          "partes"
-        ]
-      }
+      "nome": "Ângulo limite",
+      "telas": [
+        {
+          "titulo": "O ângulo limite",
+          "cena": {
+            "mostrar": [
+              "agua",
+              "tubo"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "Um ponto do tubo é visto de fora se algum raio que sai dele atravessa a superfície <b>fora da boia</b> sem sofrer reflexão total."
+            },
+            {
+              "t": "texto",
+              "html": "Ângulo limite da água para o ar:"
+            },
+            {
+              "t": "eq",
+              "tex": "\\sen L = \\dfrac{n_{\\text{ar}}}{n_{\\text{água}}} = \\dfrac{1,00}{1,25} = 0,8"
+            },
+            {
+              "t": "texto",
+              "html": "Como sen² L + cos² L = 1:"
+            },
+            {
+              "t": "eq",
+              "tex": "\\cos L = 0,6 \\quad \\quad \\tg L = \\dfrac{0,8}{0,6} = \\dfrac{4}{3}"
+            }
+          ]
+        },
+        {
+          "titulo": "O raio pela borda da boia",
+          "cena": {
+            "mostrar": [
+              "agua",
+              "tubo",
+              "limite"
+            ],
+            "destacar": [
+              "limite"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "De um ponto à profundidade h, o raio que passa rente à borda da boia (a 0,2 m do tubo) é o de <b>menor</b> ângulo de incidência que escapa da boia:"
+            },
+            {
+              "t": "eq",
+              "tex": "\\tg i = \\dfrac{0,2}{h}"
+            },
+            {
+              "t": "texto",
+              "html": "No limite, esse raio incide com o ângulo L e sai rasante:"
+            },
+            {
+              "t": "eq",
+              "tex": "\\dfrac{0,2}{\\marca{h}{h}} = \\dfrac{4}{3}"
+            },
+            {
+              "t": "eq",
+              "tex": "\\marca{h}{h} = \\dfrac{3 \\cdot 0,2}{4} = 0,15\\ \\text{m}",
+              "mover": [
+                "h"
+              ]
+            }
+          ]
+        },
+        {
+          "titulo": "A parte visível",
+          "cena": {
+            "mostrar": [
+              "agua",
+              "tubo",
+              "limite",
+              "partes"
+            ],
+            "destacar": [
+              "partes"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "Acima de 15 cm de profundidade, até o raio pela borda tem incidência maior que L e sofre reflexão total: essa parte fica <b>oculta</b>. Abaixo, há raios que saem."
+            },
+            {
+              "t": "eq",
+              "tex": "100 - 15 = 85\\ \\text{cm visíveis}"
+            },
+            {
+              "t": "gabarito",
+              "letra": "B"
+            },
+            {
+              "t": "fim"
+            }
+          ]
+        }
+      ]
     }
   ],
   "status": "revisado",
