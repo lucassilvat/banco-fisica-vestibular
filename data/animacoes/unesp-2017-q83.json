@@ -1,5 +1,6 @@
 {
   "id": "unesp-2017-q83",
+  "formato": "aula",
   "titulo": "O sentido de giro do motor de espira",
   "conceitos": [
     "Força magnética sobre condutor retilíneo",
@@ -276,44 +277,115 @@
       }
     }
   },
-  "passos": [
+  "metodos": [
     {
-      "titulo": "Por que gira sempre no mesmo sentido",
-      "conceito": "Geradores e motores elétricos",
-      "texto": "Com uma extremidade raspada só pela metade, a corrente circula apenas durante meia volta, quando o lado de baixo da espira passa junto ao ímã. Assim a força magnética empurra a espira sempre no mesmo sentido de rotação.",
-      "cena": {
-        "mostrar": [
-          "ima",
-          "espira"
-        ]
-      }
-    },
-    {
-      "titulo": "A força no lado de baixo",
-      "conceito": "Força magnética sobre condutor retilíneo",
-      "texto": "Com B positivo e A negativo, a corrente percorre o lado de baixo de B para A. Com X norte, o campo junto ao ímã aponta para cima. Pela regra da mão direita, esse lado é empurrado para o fundo da figura.",
-      "cena": {
-        "mostrar": [
-          "corrente",
-          "forca"
-        ],
-        "destacar": [
-          "forca"
-        ]
-      }
-    },
-    {
-      "titulo": "O sentido de giro",
-      "conceito": "Geradores e motores elétricos",
-      "texto": "Empurrado assim a cada volta, o conjunto gira, visto pelo observador da figura, no sentido horário. Inverter só a pilha ou só o ímã inverteria o giro. Resposta: <b>(E) negativo – positivo – norte – horário</b>.",
-      "cena": {
-        "mostrar": [
-          "giro"
-        ],
-        "destacar": [
-          "giro"
-        ]
-      }
+      "nome": "Inversões e alternativas",
+      "telas": [
+        {
+          "titulo": "Por que gira sempre no mesmo sentido",
+          "cena": {
+            "mostrar": [
+              "ima",
+              "espira"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "Uma extremidade da espira está raspada só pela metade: a corrente circula apenas durante <b>meia volta</b>, quando o lado da espira passa junto ao ímã."
+            },
+            {
+              "t": "texto",
+              "html": "Assim, a força magnética empurra a espira sempre no <b>mesmo sentido</b> de rotação, e ela continua girando."
+            }
+          ]
+        },
+        {
+          "titulo": "O que inverte o giro",
+          "cena": {
+            "mostrar": [
+              "ima",
+              "espira",
+              "corrente",
+              "forca"
+            ],
+            "destacar": [
+              "forca"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "No lado junto ao ímã, a força magnética é:"
+            },
+            {
+              "t": "eq",
+              "tex": "\\vec{F} = i\\, \\vec{L} \\times \\vec{B}"
+            },
+            {
+              "t": "texto",
+              "html": "Trocar os polos A e B inverte a corrente e, portanto, a força e o giro. Trocar o polo X inverte \\(\\vec{B}\\): também inverte o giro. Trocar os dois mantém o giro."
+            }
+          ]
+        },
+        {
+          "titulo": "Testando as alternativas",
+          "cena": {
+            "mostrar": [
+              "ima",
+              "espira",
+              "corrente",
+              "forca"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "Seja <b>s</b> o sentido de giro com A positivo e X norte. Cada alternativa exige:"
+            },
+            {
+              "t": "texto",
+              "html": "(D) A positivo, X norte, horário: s = horário."
+            },
+            {
+              "t": "texto",
+              "html": "(A) duas inversões (A negativo, X sul), horário: s = horário."
+            },
+            {
+              "t": "texto",
+              "html": "(B) e (C) uma inversão, anti-horário: s = horário."
+            },
+            {
+              "t": "texto",
+              "html": "(E) uma inversão (A negativo, X norte), horário: s = <b>anti-horário</b>."
+            }
+          ]
+        },
+        {
+          "titulo": "Só uma pode estar certa",
+          "cena": {
+            "mostrar": [
+              "ima",
+              "espira",
+              "corrente",
+              "forca"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "(A), (B), (C) e (D) descrevem o mesmo motor: se uma estivesse certa, as quatro estariam. Como a questão tem uma única resposta, a correta é a que destoa: <b>(E)</b>, negativo – positivo – norte – horário."
+            },
+            {
+              "t": "gabarito",
+              "letra": "E"
+            },
+            {
+              "t": "fim"
+            }
+          ]
+        }
+      ]
     }
   ],
   "status": "revisado",

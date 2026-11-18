@@ -1,225 +1,89 @@
 {
   "id": "unesp-2018-q77",
+  "formato": "aula",
   "titulo": "A energia de cada mola e sua constante elástica",
   "conceitos": [
     "Energia potencial elástica"
   ],
-  "cena": {
-    "modelo": "diagrama",
-    "parametros": {
-      "elementos": {
-        "etapa-1": [
-          {
-            "t": "ret",
-            "x": 30,
-            "y": 16,
-            "w": 400,
-            "h": 40,
-            "cor": "suave",
-            "borda": "normal",
-            "rx": 7
-          },
-          {
-            "t": "texto",
-            "x": 42,
-            "y": 36.0,
-            "txt": "energia transferida",
-            "mudo": true,
-            "ancora": "start"
-          },
-          {
-            "t": "texto",
-            "x": 418,
-            "y": 36.0,
-            "txt": "160 J",
-            "negrito": true,
-            "ancora": "end"
-          }
-        ],
-        "etapa-2": [
-          {
-            "t": "seta",
-            "de": [
-              230.0,
-              59
-            ],
-            "para": [
-              230.0,
-              79
-            ],
-            "cor": "tinta",
-            "larg": 1.8
-          },
-          {
-            "t": "texto",
-            "x": 242.0,
-            "y": 69.0,
-            "txt": "× 0,45",
-            "negrito": true,
-            "cor": "acel",
-            "ancora": "start"
-          },
-          {
-            "t": "ret",
-            "x": 30,
-            "y": 82,
-            "w": 400,
-            "h": 40,
-            "cor": "suave",
-            "borda": "normal",
-            "rx": 7
-          },
-          {
-            "t": "texto",
-            "x": 42,
-            "y": 102.0,
-            "txt": "energia nas molas (45%)",
-            "mudo": true,
-            "ancora": "start"
-          },
-          {
-            "t": "texto",
-            "x": 418,
-            "y": 102.0,
-            "txt": "72 J",
-            "negrito": true,
-            "ancora": "end"
-          }
-        ],
-        "etapa-3": [
-          {
-            "t": "seta",
-            "de": [
-              230.0,
-              125
-            ],
-            "para": [
-              230.0,
-              145
-            ],
-            "cor": "tinta",
-            "larg": 1.8
-          },
-          {
-            "t": "texto",
-            "x": 242.0,
-            "y": 135.0,
-            "txt": "÷ 32",
-            "negrito": true,
-            "cor": "acel",
-            "ancora": "start"
-          },
-          {
-            "t": "ret",
-            "x": 30,
-            "y": 148,
-            "w": 400,
-            "h": 40,
-            "cor": "suave",
-            "borda": "normal",
-            "rx": 7
-          },
-          {
-            "t": "texto",
-            "x": 42,
-            "y": 168.0,
-            "txt": "energia por mola",
-            "mudo": true,
-            "ancora": "start"
-          },
-          {
-            "t": "texto",
-            "x": 418,
-            "y": 168.0,
-            "txt": "2,25 J",
-            "negrito": true,
-            "ancora": "end"
-          }
-        ],
-        "etapa-4": [
-          {
-            "t": "seta",
-            "de": [
-              230.0,
-              191
-            ],
-            "para": [
-              230.0,
-              211
-            ],
-            "cor": "tinta",
-            "larg": 1.8
-          },
-          {
-            "t": "texto",
-            "x": 242.0,
-            "y": 201.0,
-            "txt": "k = 2E/x²",
-            "negrito": true,
-            "cor": "acel",
-            "ancora": "start"
-          },
-          {
-            "t": "ret",
-            "x": 30,
-            "y": 214,
-            "w": 400,
-            "h": 40,
-            "cor": "suave",
-            "borda": "normal",
-            "rx": 7
-          },
-          {
-            "t": "texto",
-            "x": 42,
-            "y": 234.0,
-            "txt": "constante elástica",
-            "mudo": true,
-            "ancora": "start"
-          },
-          {
-            "t": "texto",
-            "x": 418,
-            "y": 234.0,
-            "txt": "5,0 × 10^{5} N/m",
-            "negrito": true,
-            "ancora": "end"
-          }
-        ]
-      }
-    }
-  },
-  "passos": [
+  "metodos": [
     {
-      "titulo": "A energia de cada mola",
-      "conceito": "Energia potencial elástica",
-      "texto": "45% dos 160 J vão para as 32 molas, igualmente.",
-      "equacoes": [
-        "\\dfrac{0,45 \\cdot 160}{32} = 2,25\\ \\text{J}"
-      ],
-      "cena": {
-        "mostrar": [
-          "etapa-1",
-          "etapa-2",
-          "etapa-3"
-        ]
-      }
-    },
-    {
-      "titulo": "A constante elástica",
-      "conceito": "Energia potencial elástica",
-      "texto": "Cada mola se distende 3,0 mm = 3,0 × 10<sup>−3</sup> m. Resposta: <b>(A) 5,0 × 10<sup>5</sup></b>.",
-      "equacoes": [
-        "E = \\dfrac{kx^{2}}{2} \\quad \\Rightarrow \\quad k = \\dfrac{2 \\cdot 2,25}{(3,0 \\times 10^{-3})^{2}} = 5,0 \\times 10^{5}\\ \\text{N/m}"
-      ],
-      "cena": {
-        "mostrar": [
-          "etapa-4"
-        ],
-        "destacar": [
-          "etapa-4"
-        ]
-      }
+      "nome": "Energia potencial elástica",
+      "telas": [
+        {
+          "titulo": "A energia de cada mola",
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "45% dos 160 J vão para as molas:"
+            },
+            {
+              "t": "eq",
+              "tex": "0,45 \\cdot 160 = 72\\ \\text{J}"
+            },
+            {
+              "t": "texto",
+              "html": "Divididos igualmente entre as 32 molas:"
+            },
+            {
+              "t": "eq",
+              "tex": "E = \\dfrac{72}{32} = 2,25\\ \\text{J por mola}"
+            }
+          ]
+        },
+        {
+          "titulo": "A fórmula",
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "A energia potencial elástica de uma mola distendida de x:"
+            },
+            {
+              "t": "eq",
+              "tex": "E = \\dfrac{k\\, x^{2}}{2}"
+            },
+            {
+              "t": "texto",
+              "html": "Isolamos k: o 2 e o x² passam para o outro lado."
+            },
+            {
+              "t": "eq",
+              "tex": "\\dfrac{k\\, \\marca{x}{x^{2}}}{\\marca{d}{2}} = E"
+            },
+            {
+              "t": "eq",
+              "tex": "k = \\dfrac{\\marca{d}{2}\\, E}{\\marca{x}{x^{2}}}",
+              "mover": [
+                "d",
+                "x"
+              ]
+            }
+          ]
+        },
+        {
+          "titulo": "A constante elástica",
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "Com x = 3,0 mm = 3,0 · 10<sup>−3</sup> m:"
+            },
+            {
+              "t": "eq",
+              "tex": "k = \\dfrac{2 \\cdot 2,25}{(3,0 \\cdot 10^{-3})^{2}} = \\dfrac{4,5}{9,0 \\cdot 10^{-6}}"
+            },
+            {
+              "t": "eq",
+              "tex": "k = 0,5 \\cdot 10^{6} = 5,0 \\cdot 10^{5}\\ \\text{N/m}"
+            },
+            {
+              "t": "gabarito",
+              "letra": "A"
+            },
+            {
+              "t": "fim"
+            }
+          ]
+        }
+      ]
     }
   ],
   "status": "revisado",

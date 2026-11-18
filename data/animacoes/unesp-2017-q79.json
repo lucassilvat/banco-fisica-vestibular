@@ -1,5 +1,6 @@
 {
   "id": "unesp-2017-q79",
+  "formato": "aula",
   "titulo": "No topo sobra só a componente horizontal",
   "conceitos": [
     "Lançamento oblíquo",
@@ -607,36 +608,100 @@
       }
     }
   },
-  "passos": [
+  "metodos": [
     {
-      "titulo": "A componente horizontal",
-      "conceito": "Lançamento oblíquo",
-      "texto": "Sem resistência do ar, a componente horizontal da velocidade não muda durante o voo.",
-      "equacoes": [
-        "\\mathrm{E}_0 = \\dfrac{m v_{0}^{2}}{2}"
-      ],
-      "cena": {
-        "mostrar": [
-          "trajetoria",
-          "lancamento"
-        ]
-      }
-    },
-    {
-      "titulo": "No ponto mais alto",
-      "conceito": "Energia cinética",
-      "texto": "A componente vertical é nula; a velocidade é só v<sub>0</sub> cos α. Resposta: <b>(C)</b>.",
-      "equacoes": [
-        "E_{\\text{c}} = \\dfrac{m (v_{0}\\cos\\alpha)^{2}}{2} = \\mathrm{E}_0 \\cdot \\cos^{2}\\alpha"
-      ],
-      "cena": {
-        "mostrar": [
-          "topo"
-        ],
-        "destacar": [
-          "topo"
-        ]
-      }
+      "nome": "Componente horizontal",
+      "telas": [
+        {
+          "titulo": "A velocidade inicial",
+          "cena": {
+            "mostrar": [
+              "trajetoria",
+              "lancamento"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "No lançamento, a energia cinética é:"
+            },
+            {
+              "t": "eq",
+              "tex": "E_{0} = \\dfrac{m\\, v_{0}^{2}}{2}"
+            },
+            {
+              "t": "texto",
+              "html": "Decompomos a velocidade inicial:"
+            },
+            {
+              "t": "eq",
+              "tex": "v_{0x} = v_{0} \\cos\\alpha \\quad \\quad v_{0y} = v_{0} \\sen\\alpha"
+            }
+          ]
+        },
+        {
+          "titulo": "No ponto mais alto",
+          "cena": {
+            "mostrar": [
+              "trajetoria",
+              "lancamento",
+              "topo"
+            ],
+            "destacar": [
+              "topo"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "Sem resistência do ar, a componente horizontal <b>não muda</b> durante o voo. No ponto mais alto, a componente vertical é <b>nula</b>: sobra só a horizontal."
+            },
+            {
+              "t": "eq",
+              "tex": "v_{\\text{topo}} = v_{0} \\cos\\alpha"
+            }
+          ]
+        },
+        {
+          "titulo": "A energia cinética no topo",
+          "cena": {
+            "mostrar": [
+              "trajetoria",
+              "lancamento",
+              "topo"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "A energia cinética no topo:"
+            },
+            {
+              "t": "eq",
+              "tex": "E_{c} = \\dfrac{m\\, (v_{0} \\cos\\alpha)^{2}}{2}"
+            },
+            {
+              "t": "eq",
+              "tex": "E_{c} = \\marca{e}{\\dfrac{m\\, v_{0}^{2}}{2}} \\cdot \\cos^{2}\\alpha"
+            },
+            {
+              "t": "texto",
+              "html": "O primeiro fator é exatamente E<sub>0</sub>:"
+            },
+            {
+              "t": "eq",
+              "tex": "E_{c} = E_{0} \\cdot \\cos^{2}\\alpha"
+            },
+            {
+              "t": "gabarito",
+              "letra": "C"
+            },
+            {
+              "t": "fim"
+            }
+          ]
+        }
+      ]
     }
   ],
   "status": "revisado",

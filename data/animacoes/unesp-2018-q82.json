@@ -1,5 +1,6 @@
 {
   "id": "unesp-2018-q82",
+  "formato": "aula",
   "titulo": "A tensão que sobra para o resistor",
   "conceitos": [
     "Associação em série",
@@ -27,7 +28,7 @@
               ]
             ],
             "cor": "tinta",
-            "larg": 2.5
+            "larg": 3
           },
           {
             "t": "linha",
@@ -50,7 +51,7 @@
               ]
             ],
             "cor": "tinta",
-            "larg": 2.5
+            "larg": 3
           },
           {
             "t": "linha",
@@ -65,7 +66,7 @@
               ]
             ],
             "cor": "tinta",
-            "larg": 2.5
+            "larg": 3
           },
           {
             "t": "linha",
@@ -95,7 +96,7 @@
               ]
             ],
             "cor": "tinta",
-            "larg": 4
+            "larg": 3
           },
           {
             "t": "texto",
@@ -217,7 +218,7 @@
             "negrito": true
           }
         ],
-        "tensoes": [
+        "leituras": [
           {
             "t": "rotulo",
             "x": 280,
@@ -227,46 +228,216 @@
           },
           {
             "t": "rotulo",
-            "x": 340,
-            "y": 260,
-            "txt": "9,0 − 5,70 = 3,30 V",
-            "cor": "var(--danger)"
-          },
-          {
-            "t": "rotulo",
             "x": 590,
             "y": 210,
             "txt": "i = 0,15 A",
             "cor": "var(--anim-acel)"
           }
+        ],
+        "tensao-r": [
+          {
+            "t": "rotulo",
+            "x": 340,
+            "y": 260,
+            "txt": "9,0 − 5,70 = 3,30 V",
+            "cor": "var(--danger)"
+          }
         ]
       }
     }
   },
-  "passos": [
+  "abertura": [
     {
-      "titulo": "O circuito",
-      "conceito": "Associação em série",
-      "texto": "Lâmpada e resistor estão em série com a bateria; o amperímetro ideal não tem resistência e o voltímetro ideal, em paralelo com a lâmpada, não desvia corrente. A corrente é a mesma nos dois: 0,15 A. A tensão da bateria se divide entre eles.",
-      "cena": {
-        "mostrar": [
-          "circuito",
-          "tensoes"
-        ]
-      }
+      "titulo": "Resolução",
+      "blocos": [
+        {
+          "t": "texto",
+          "html": "Há dois caminhos:"
+        },
+        {
+          "t": "texto",
+          "html": "1) Achar a tensão que sobra para o resistor e usar a lei de Ohm."
+        },
+        {
+          "t": "texto",
+          "html": "2) Usar a <b>resistência equivalente</b> do circuito em série."
+        },
+        {
+          "t": "texto",
+          "html": "Escolha um método nas abas acima, ou avance para ver os dois."
+        }
+      ]
+    }
+  ],
+  "metodos": [
+    {
+      "nome": "Tensão no resistor",
+      "telas": [
+        {
+          "titulo": "O circuito",
+          "cena": {
+            "mostrar": [
+              "circuito",
+              "leituras"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "O <b>voltímetro</b> está em paralelo com a lâmpada: mede a tensão nela, U = 5,70 V. O <b>amperímetro</b> está em série: mede a corrente, i = 0,15 A."
+            },
+            {
+              "t": "texto",
+              "html": "Ideais, eles não alteram o circuito. A lâmpada e o resistor entre A e B ficam <b>em série</b> com a bateria: a mesma corrente passa pelos dois."
+            }
+          ]
+        },
+        {
+          "titulo": "A tensão que sobra para o resistor",
+          "cena": {
+            "mostrar": [
+              "circuito",
+              "leituras",
+              "tensao-r"
+            ],
+            "destacar": [
+              "tensao-r"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "Em série, a tensão da bateria se divide entre a lâmpada e o resistor:"
+            },
+            {
+              "t": "eq",
+              "tex": "U_{\\text{bat}} = U + U_{R}"
+            },
+            {
+              "t": "eq",
+              "tex": "9,0 = \\marca{u}{5,70} + U_{R}"
+            },
+            {
+              "t": "eq",
+              "tex": "U_{R} = 9,0 - \\marca{u}{5,70}",
+              "mover": [
+                "u"
+              ]
+            },
+            {
+              "t": "eq",
+              "tex": "U_{R} = 3,30\\ \\text{V}"
+            }
+          ]
+        },
+        {
+          "titulo": "A resistência",
+          "cena": {
+            "mostrar": [
+              "circuito",
+              "leituras",
+              "tensao-r"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "Primeira lei de Ohm no resistor:"
+            },
+            {
+              "t": "eq",
+              "tex": "U_{R} = R\\, \\marca{i}{i}"
+            },
+            {
+              "t": "eq",
+              "tex": "R = \\dfrac{U_{R}}{\\marca{i}{i}}",
+              "mover": [
+                "i"
+              ]
+            },
+            {
+              "t": "eq",
+              "tex": "R = \\dfrac{3,30}{0,15} = 22\\ \\Omega"
+            },
+            {
+              "t": "gabarito",
+              "letra": "E"
+            },
+            {
+              "t": "fim"
+            }
+          ]
+        }
+      ]
     },
     {
-      "titulo": "A resistência",
-      "conceito": "Primeira lei de Ohm",
-      "texto": "Resposta: <b>(E) 22 Ω</b>.",
-      "equacoes": [
-        "R = \\dfrac{9,0 - 5,70}{0,15} = \\dfrac{3,30}{0,15} = 22\\ \\Omega"
-      ],
-      "cena": {
-        "destacar": [
-          "tensoes"
-        ]
-      }
+      "nome": "Resistência equivalente",
+      "telas": [
+        {
+          "titulo": "Equivalente e lâmpada",
+          "cena": {
+            "mostrar": [
+              "circuito",
+              "leituras"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "O circuito todo, com 9,0 V e 0,15 A, tem resistência equivalente:"
+            },
+            {
+              "t": "eq",
+              "tex": "R_{\\text{eq}} = \\dfrac{9,0}{0,15} = 60\\ \\Omega"
+            },
+            {
+              "t": "texto",
+              "html": "A lâmpada, com 5,70 V e 0,15 A:"
+            },
+            {
+              "t": "eq",
+              "tex": "R_{L} = \\dfrac{5,70}{0,15} = 38\\ \\Omega"
+            }
+          ]
+        },
+        {
+          "titulo": "A resistência entre A e B",
+          "cena": {
+            "mostrar": [
+              "circuito",
+              "leituras"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "Em série, as resistências se somam:"
+            },
+            {
+              "t": "eq",
+              "tex": "R_{\\text{eq}} = R_{L} + R"
+            },
+            {
+              "t": "eq",
+              "tex": "60 = \\marca{l}{38} + R"
+            },
+            {
+              "t": "eq",
+              "tex": "R = 60 - \\marca{l}{38} = 22\\ \\Omega",
+              "mover": [
+                "l"
+              ]
+            },
+            {
+              "t": "gabarito",
+              "letra": "E"
+            },
+            {
+              "t": "fim"
+            }
+          ]
+        }
+      ]
     }
   ],
   "status": "revisado",
