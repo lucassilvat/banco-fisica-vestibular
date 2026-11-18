@@ -156,6 +156,12 @@ article.q { background: var(--paper); border: 1px solid var(--line); border-top:
 .ap .ap-chip.on { border-color: var(--accent); color: var(--accent); background: var(--soft); }
 .ap-body { display: grid; grid-template-columns: minmax(0, 1.45fr) minmax(300px, 1fr); min-height: 0; overflow: auto; }
 .ap-stage { padding: 12px 14px; display: grid; align-content: start; gap: 8px; border-right: 1px solid var(--line); background: var(--bg); }
+/* A cena da resolução animada fica sempre no tema claro, qualquer que seja o tema do sistema. */
+.ap-stage { color-scheme: light;
+  --bg: #eef1f4; --paper: #ffffff; --ink: #18202b; --muted: #5b6676; --line: #d5dbe3;
+  --accent: #1f4fbf; --accent-ink: #ffffff; --mark: #e9785e; --mark-soft: #fbe3dc; --soft: #e4eaf6;
+  --ok: #1d7a4a; --ok-soft: #dff1e7; --danger: #b3261e;
+  --anim-acel: #7a45c9; --anim-luz: #f6c344; --anim-fio: #3a4452; }
 .ap-stage svg { width: 100%; height: auto; display: block; background: var(--paper); border-radius: 8px; border: 1px solid var(--line); font-family: var(--f-display); }
 .ap-step { padding: 16px 20px; overflow: auto; display: grid; align-content: start; gap: 12px; }
 .ap-step .ap-conc { font-family: var(--f-mono); font-size: 0.76rem; text-transform: uppercase; letter-spacing: .05em; color: var(--accent); }
