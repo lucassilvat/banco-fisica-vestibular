@@ -43,7 +43,7 @@
           "blocos": [
             {
               "t": "texto",
-              "html": "Pela definição de logaritmo (base 10), o 6 \"tomba\" e vira o expoente de 10:"
+              "html": "Pela definição de logaritmo (base 10), o 6 é o expoente de 10:"
             },
             {
               "t": "eq",

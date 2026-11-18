@@ -17,6 +17,10 @@ de modelo de dados; CORREÇÃO, em correções de questões já publicadas.
   2018 Q82 com as leituras dos aparelhos separadas da tensão no resistor; 2018 Q78 com "antes" e
   "depois" da explosão; 2016 Q82 com a corda meio período depois, P na crista.
 - 2017 Q83 (motor de espira) resolvida pelas inversões: só (E) é compatível com resposta única.
+- Revisão do Lucas (2018): **Q80** com a refração no prisma calculada pela lei de Snell nas duas
+  faces (dispersão exagerada e avisada no desenho); **Q81** sem "tomba": o 6 é o expoente de 10;
+  **Q82** com o circuito redesenhado (resistor ligado entre A e B, lâmpada no caminho da corrente,
+  voltímetro em paralelo e amperímetro em série identificados). Diretrizes atualizadas.
 - Todas aguardam a revisão do Lucas no app; o site público não muda até ele aprovar.
 
 ## v2.19.1 — 2026-11-17
