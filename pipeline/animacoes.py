@@ -172,6 +172,7 @@ def checar_aula(a: dict, q: dict) -> list[str]:
                 tipo = b.get("t")
                 if tipo == "texto":
                     e.extend(checar_latex(b.get("html", ""), ob))
+                    if re.search(r"&(?:lt|gt|amp|quot|nbsp);", b.get("html", "")): e.append(f"{ob}: entidade HTML aparece escrita na lousa; use o próprio caractere")
                     resto = TAGS_OK.sub("", re.sub(r"\\\(.+?\\\)", "", b.get("html", "")))
                     if re.search(r"<[a-zA-Z/]", resto): e.append(f"{ob}: marcação HTML não aceita")
                 elif tipo == "eq":

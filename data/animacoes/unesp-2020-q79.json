@@ -1,178 +1,80 @@
 {
   "id": "unesp-2020-q79",
+  "formato": "aula",
   "titulo": "Do calor da combustão ao gelo derretido",
   "conceitos": [
     "Entalpia de reação",
     "Calor latente"
   ],
-  "cena": {
-    "modelo": "diagrama",
-    "parametros": {
-      "elementos": {
-        "etapa-1": [
-          {
-            "t": "ret",
-            "x": 30,
-            "y": 16,
-            "w": 400,
-            "h": 40,
-            "cor": "suave",
-            "borda": "normal",
-            "rx": 7
-          },
-          {
-            "t": "texto",
-            "x": 42,
-            "y": 36.0,
-            "txt": "ΔH da combustão (1 mol)",
-            "mudo": true,
-            "ancora": "start"
-          },
-          {
-            "t": "texto",
-            "x": 418,
-            "y": 36.0,
-            "txt": "−2 876 kJ",
-            "negrito": true,
-            "ancora": "end"
-          }
-        ],
-        "etapa-2": [
-          {
-            "t": "seta",
-            "de": [
-              230.0,
-              59
-            ],
-            "para": [
-              230.0,
-              79
-            ],
-            "cor": "tinta",
-            "larg": 1.8
-          },
-          {
-            "t": "texto",
-            "x": 242.0,
-            "y": 69.0,
-            "txt": "× 1 000",
-            "negrito": true,
-            "cor": "acel",
-            "ancora": "start"
-          },
-          {
-            "t": "ret",
-            "x": 30,
-            "y": 82,
-            "w": 400,
-            "h": 40,
-            "cor": "suave",
-            "borda": "normal",
-            "rx": 7
-          },
-          {
-            "t": "texto",
-            "x": 42,
-            "y": 102.0,
-            "txt": "calor liberado",
-            "mudo": true,
-            "ancora": "start"
-          },
-          {
-            "t": "texto",
-            "x": 418,
-            "y": 102.0,
-            "txt": "2,876 × 10^{6} J",
-            "negrito": true,
-            "ancora": "end"
-          }
-        ],
-        "etapa-3": [
-          {
-            "t": "seta",
-            "de": [
-              230.0,
-              125
-            ],
-            "para": [
-              230.0,
-              145
-            ],
-            "cor": "tinta",
-            "larg": 1.8
-          },
-          {
-            "t": "texto",
-            "x": 242.0,
-            "y": 135.0,
-            "txt": "÷ 320 J/g",
-            "negrito": true,
-            "cor": "acel",
-            "ancora": "start"
-          },
-          {
-            "t": "ret",
-            "x": 30,
-            "y": 148,
-            "w": 400,
-            "h": 40,
-            "cor": "suave",
-            "borda": "normal",
-            "rx": 7
-          },
-          {
-            "t": "texto",
-            "x": 42,
-            "y": 168.0,
-            "txt": "massa de gelo derretido",
-            "mudo": true,
-            "ancora": "start"
-          },
-          {
-            "t": "texto",
-            "x": 418,
-            "y": 168.0,
-            "txt": "≈ 8 990 g ≈ 9 kg",
-            "negrito": true,
-            "ancora": "end"
-          }
-        ]
-      }
-    }
-  },
-  "passos": [
+  "metodos": [
     {
-      "titulo": "O calor da combustão",
-      "conceito": "Entalpia de reação",
-      "texto": "ΔH é a soma das entalpias de formação dos produtos menos a dos reagentes.",
-      "equacoes": [
-        "\\Delta H = [4(-393) + 5(-286)] - [(-126) + 0] = -2\\,876\\ \\text{kJ}"
-      ],
-      "cena": {
-        "mostrar": [
-          "etapa-1"
-        ]
-      }
-    },
-    {
-      "titulo": "O gelo derretido",
-      "conceito": "Calor latente",
-      "texto": "Todo esse calor vai para a fusão do gelo a 0 ºC. Resposta: <b>(E) 9 kg</b>.",
-      "equacoes": [
-        "Q = mL \\quad \\Rightarrow \\quad m = \\dfrac{2,876 \\times 10^{6}}{320} \\approx 9\\,000\\ \\text{g} = 9\\ \\text{kg}"
-      ],
-      "cena": {
-        "mostrar": [
-          "etapa-2",
-          "etapa-3"
-        ],
-        "destacar": [
-          "etapa-3"
-        ]
-      }
+      "nome": "Entalpia e calor latente",
+      "telas": [
+        {
+          "titulo": "O calor da combustão",
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "ΔH da combustão: produtos menos reagentes (O<sub>2</sub> tem entalpia de formação nula):"
+            },
+            {
+              "t": "eq",
+              "tex": "\\Delta H = [4(-393) + 5(-286)] - [(-126)]"
+            },
+            {
+              "t": "eq",
+              "tex": "\\Delta H = -1\\,572 - 1\\,430 + 126 = -2\\,876\\ \\text{kJ}"
+            },
+            {
+              "t": "texto",
+              "html": "Calor liberado: 2 876 kJ = 2,876 · 10<sup>6</sup> J."
+            }
+          ]
+        },
+        {
+          "titulo": "O gelo derretido",
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "Todo esse calor funde o gelo a 0 ºC. Isolamos a massa:"
+            },
+            {
+              "t": "eq",
+              "tex": "Q = m\\, \\marca{l}{L}"
+            },
+            {
+              "t": "eq",
+              "tex": "m = \\dfrac{Q}{\\marca{l}{L}}",
+              "mover": [
+                "l"
+              ]
+            },
+            {
+              "t": "eq",
+              "tex": "m = \\dfrac{2,876 \\cdot 10^{6}}{320} \\approx 8\\,990\\ \\text{g}"
+            },
+            {
+              "t": "eq",
+              "tex": "m \\approx 9\\ \\text{kg}"
+            },
+            {
+              "t": "gabarito",
+              "letra": "E"
+            },
+            {
+              "t": "fim"
+            }
+          ]
+        }
+      ]
     }
   ],
   "status": "revisado",
   "criadoEm": "2026-11-15T09:00:00-03:00",
-  "atualizadoEm": "2026-11-15T09:00:00-03:00"
+  "atualizadoEm": "2026-11-15T09:00:00-03:00",
+  "revisao": {
+    "estado": "aprovada",
+    "comentario": "",
+    "atualizadoEm": "2026-11-17T13:57:28.318Z"
+  }
 }

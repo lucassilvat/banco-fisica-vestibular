@@ -4,6 +4,36 @@ Cada versão corresponde a um lote de importação ou a uma mudança no app/pipe
 Formato: `vMAIOR.MENOR.CORREÇÃO` — MENOR sobe a cada prova importada; MAIOR, em mudanças
 de modelo de dados; CORREÇÃO, em correções de questões já publicadas.
 
+## v2.19.0 — 2026-11-16
+
+- **Unesp 2020 e 2019 no formato aula** (21 questões: 2020 Q70, Q76 a Q82 e Q87; 2019 Q64, Q66, Q73,
+  Q74, Q76 a Q82 e Q85; várias de Química, Biologia ou Matemática com conteúdo de Física).
+  Cancelamentos: a massa na conservação da energia (2020 Q78), o 2 de 2 · √3/2 (2019 Q85); termos que
+  passam para o outro lado: L (2020 Q79), λ (2020 Q81), g (2019 Q76), n<sub>B</sub> (2019 Q81).
+- **Três métodos em abas** na 2019 Q73 (em mols; pela proporção em massa, 528 g de CO<sub>2</sub> por 170 g
+  de combustível; a mesma proporção aproximada, 528/170 ≈ 3, com o mesmo gabarito).
+- Só na lousa as de conta (2020 Q70, Q79 e Q87; 2019 Q73), cujas cenas antigas eram caixas com contas.
+- Ajustes de desenho: 2019 Q77 com as setas da caixa sobre a barra rotuladas pela intensidade
+  (N<sub>A</sub>, N<sub>B</sub>), sem confundir com os vetores N⃗<sub>A</sub>, N⃗<sub>B</sub> do enunciado; 2020 Q82 com o
+  circuito externo ligado pelas pontas dos barramentos; rótulos sobrepostos na 2019 Q80 e Q82.
+- Revisão do Lucas (2020): **Q76** com os dois triângulos sob a curva e cada retângulo com a sua conta
+  antes da soma; **Q77** com órbitas circulares (o planeta externo saía da elipse desenhada);
+  **Q80** com sinais, sem módulo: imagem real e invertida, p' > 0 e A = −p'/p < 0; os sinais de menos
+  cancelam e p e 5 000 trocam de lado; raios pelo centro óptico e setas opostas no objeto e na imagem;
+  **Q87** com 1 000 g de taça (V = m/d para ouro e liga), volume por kg, regra de três, gabarito e a
+  mesma conta com densidades aproximadas (20 e 6), mostrando que o gabarito não muda.
+- Revisão do Lucas (2019): **Q81 com gabarito corrigido de A para E** no banco e no app: α é o ângulo de
+  incidência na interface A/B (na camada A); Snell nas duas interfaces dá n<sub>A</sub> sen α = n<sub>B</sub> sen β = n<sub>C</sub>,
+  logo sen α = n<sub>C</sub>/n<sub>A</sub>. O gabarito anterior (resolução própria) tomava α na camada B; a resolução
+  do Elite também chega à E (gabarito oficial da Vunesp não localizado). **Q66** com o baço em
+  paralelo com os intestinos, ambos em série com o fígado (veia porta), e uma tela sobre esse ramo;
+  **Q73** com o método aproximado; **Q80** sem gráfico, meia-vida por meia-vida (110 → 70 → 50 → 40 ºC)
+  e depois Q = m c ΔT; **Q82** redesenhada, maior: ímã de barra dentro da Terra (S magnético perto do N
+  geográfico) e linhas de campo com setas, saindo do N e entrando no S, sem as setas vermelhas;
+  **Q85** com E<sub>p</sub> = m g h enunciada antes da conta.
+- `pipeline animacoes verificar` acusa entidade HTML (`&lt;`) em texto da lousa.
+- As 21 aprovadas pelo Lucas: **70 animações no site público**.
+
 ## v2.18.0 — 2026-11-16
 
 - **Unesp 2022 e 2021 no formato aula** (15 questões: 2022 Q76 a Q82; 2021 Q76 a Q82 e Q84).

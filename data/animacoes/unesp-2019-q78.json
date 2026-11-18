@@ -1,5 +1,6 @@
 {
   "id": "unesp-2019-q78",
+  "formato": "aula",
   "titulo": "Raiz a favor do campo, caule contra",
   "conceitos": [
     "Campo gravitacional",
@@ -214,34 +215,70 @@
       }
     }
   },
-  "passos": [
+  "metodos": [
     {
-      "titulo": "Para onde é \"para baixo\"",
-      "conceito": "Campo gravitacional",
-      "texto": "As linhas do campo gravitacional apontam para o centro da Terra; na figura, para a direita. Neste experimento, \"para baixo\" é a direita.",
-      "cena": {
-        "mostrar": [
-          "campo",
-          "vaso",
-          "inicio"
-        ]
-      }
-    },
-    {
-      "titulo": "Raiz e caule",
-      "conceito": "Geotropismo",
-      "texto": "Geotropismo positivo: a raiz cresce no sentido do campo (para a direita). Geotropismo negativo: o caule cresce no sentido oposto (para a esquerda). Resposta: <b>(C)</b>.",
-      "cena": {
-        "mostrar": [
-          "depois"
-        ],
-        "destacar": [
-          "depois"
-        ]
-      }
+      "nome": "Geotropismo",
+      "telas": [
+        {
+          "titulo": "Para onde é \"para baixo\"",
+          "cena": {
+            "mostrar": [
+              "campo",
+              "vaso",
+              "inicio"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "As linhas do campo gravitacional apontam para o centro da Terra: na figura, para a <b>direita</b>. Neste experimento, \"para baixo\" é a direita."
+            }
+          ]
+        },
+        {
+          "titulo": "Raiz e caule",
+          "cena": {
+            "mostrar": [
+              "campo",
+              "vaso",
+              "inicio",
+              "depois"
+            ],
+            "destacar": [
+              "depois"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "Geotropismo <b>positivo</b>: as raízes crescem no sentido do campo, para a direita."
+            },
+            {
+              "t": "texto",
+              "html": "Geotropismo <b>negativo</b>: o caule cresce no sentido oposto, para a esquerda."
+            },
+            {
+              "t": "texto",
+              "html": "É a representação da alternativa C."
+            },
+            {
+              "t": "gabarito",
+              "letra": "C"
+            },
+            {
+              "t": "fim"
+            }
+          ]
+        }
+      ]
     }
   ],
   "status": "revisado",
   "criadoEm": "2026-11-15T09:00:00-03:00",
-  "atualizadoEm": "2026-11-15T09:00:00-03:00"
+  "atualizadoEm": "2026-11-15T09:00:00-03:00",
+  "revisao": {
+    "estado": "aprovada",
+    "comentario": "",
+    "atualizadoEm": "2026-11-17T23:13:49.274Z"
+  }
 }

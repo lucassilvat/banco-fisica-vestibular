@@ -1,5 +1,6 @@
 {
   "id": "unesp-2019-q77",
+  "formato": "aula",
   "titulo": "Equilíbrio de rotação escrito como determinante",
   "conceitos": [
     "Momento de uma força (torque)",
@@ -136,7 +137,8 @@
               306
             ],
             "rotulo": "N",
-            "sub": "A"
+            "sub": "A",
+            "vetor": false
           },
           {
             "t": "texto",
@@ -163,7 +165,8 @@
               306
             ],
             "rotulo": "N",
-            "sub": "B"
+            "sub": "B",
+            "vetor": false
           },
           {
             "t": "texto",
@@ -196,36 +199,76 @@
       }
     }
   },
-  "passos": [
+  "metodos": [
     {
-      "titulo": "As forças na barra",
-      "conceito": "Equilíbrio do corpo extenso",
-      "texto": "As caixas empurram a barra para baixo com forças de intensidades N<sub>A</sub> e N<sub>B</sub> (3ª lei de Newton). O peso da barra homogênea e a tração do fio atuam em O e não dão momento em relação a O.",
-      "cena": {
-        "mostrar": [
-          "barra",
-          "forcas"
-        ]
-      }
-    },
-    {
-      "titulo": "Momentos iguais",
-      "conceito": "Momento de uma força (torque)",
-      "texto": "Para não girar, os momentos em relação a O se cancelam. Como det M = N<sub>A</sub> · x − N<sub>B</sub> · y e det(M<sup>t</sup>) = det M, o equilíbrio exige det(M<sup>t</sup>) = 0. Resposta: <b>(A)</b>.",
-      "equacoes": [
-        "N_{\\text{A}} \\cdot x = N_{\\text{B}} \\cdot y \\quad \\Leftrightarrow \\quad \\text{det}\\,M = N_{\\text{A}}\\,x - N_{\\text{B}}\\,y = 0"
-      ],
-      "cena": {
-        "mostrar": [
-          "momentos"
-        ],
-        "destacar": [
-          "momentos"
-        ]
-      }
+      "nome": "Momentos em relação a O",
+      "telas": [
+        {
+          "titulo": "As forças na barra",
+          "cena": {
+            "mostrar": [
+              "barra",
+              "forcas"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "As caixas empurram a barra para baixo com forças de intensidades N<sub>A</sub> e N<sub>B</sub> (3ª lei de Newton). O peso da barra homogênea e a tração do fio atuam em O e não dão momento."
+            }
+          ]
+        },
+        {
+          "titulo": "Momentos iguais",
+          "cena": {
+            "mostrar": [
+              "barra",
+              "forcas",
+              "momentos"
+            ],
+            "destacar": [
+              "momentos"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "Para a barra não girar, os momentos em relação a O se equilibram:"
+            },
+            {
+              "t": "eq",
+              "tex": "N_{A} \\cdot x = N_{B} \\cdot y"
+            },
+            {
+              "t": "texto",
+              "html": "Pela matriz dada, o determinante é exatamente essa diferença:"
+            },
+            {
+              "t": "eq",
+              "tex": "\\text{det}\\, M = N_{A} \\cdot x - N_{B} \\cdot y = 0"
+            },
+            {
+              "t": "texto",
+              "html": "Como det(M<sup>t</sup>) = det M, a condição é <b>det(M<sup>t</sup>) = 0</b>."
+            },
+            {
+              "t": "gabarito",
+              "letra": "A"
+            },
+            {
+              "t": "fim"
+            }
+          ]
+        }
+      ]
     }
   ],
   "status": "revisado",
   "criadoEm": "2026-11-15T09:00:00-03:00",
-  "atualizadoEm": "2026-11-15T09:00:00-03:00"
+  "atualizadoEm": "2026-11-15T09:00:00-03:00",
+  "revisao": {
+    "estado": "aprovada",
+    "comentario": "",
+    "atualizadoEm": "2026-11-17T23:12:25.436Z"
+  }
 }

@@ -1,6 +1,7 @@
 {
   "id": "unesp-2019-q81",
-  "titulo": "A refração rasante e o ângulo limite",
+  "formato": "aula",
+  "titulo": "A refração rasante e a lei de Snell",
   "conceitos": [
     "Lei de Snell-Descartes",
     "Reflexão total"
@@ -163,12 +164,28 @@
             "t": "linha",
             "pontos": [
               [
+                180,
+                105
+              ],
+              [
+                180,
+                215
+              ]
+            ],
+            "cor": "mudo",
+            "larg": 1.5,
+            "tracejado": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
                 470,
-                200
+                205
               ],
               [
                 470,
-                320
+                315
               ]
             ],
             "cor": "mudo",
@@ -180,15 +197,28 @@
           {
             "t": "angulo",
             "centro": [
+              180,
+              160
+            ],
+            "de": 239.0,
+            "ate": 270,
+            "r": 46,
+            "cor": "#d6337f",
+            "dist": 18,
+            "rotulo": "α"
+          },
+          {
+            "t": "angulo",
+            "centro": [
               470,
               260
             ],
-            "de": 199.02560603756868,
+            "de": 199.0,
             "ate": 270,
-            "r": 50,
-            "cor": "#d6337f",
-            "dist": 20,
-            "rotulo": "α"
+            "r": 46,
+            "cor": "acel",
+            "dist": 18,
+            "rotulo": "β"
           },
           {
             "t": "angulo",
@@ -198,8 +228,8 @@
             ],
             "de": 0,
             "ate": 90,
-            "r": 30,
-            "cor": "acel",
+            "r": 28,
+            "cor": "normal",
             "dist": 16,
             "rotulo": "90°"
           }
@@ -207,35 +237,94 @@
       }
     }
   },
-  "passos": [
+  "metodos": [
     {
-      "titulo": "O raio rasante",
-      "conceito": "Lei de Snell-Descartes",
-      "texto": "Na interface entre B e C, o raio sai rasante: o ângulo de refração em C é 90º. α é o ângulo de incidência, medido a partir da normal.",
-      "cena": {
-        "mostrar": [
-          "camadas",
-          "raio",
-          "normal",
-          "angulos"
-        ]
-      }
-    },
-    {
-      "titulo": "Snell na interface B/C",
-      "conceito": "Lei de Snell-Descartes",
-      "texto": "α é o ângulo limite dessa interface. Resposta: <b>(A)</b>.",
-      "equacoes": [
-        "\\mathrm{n}_\\mathrm{B} \\sen\\alpha = \\mathrm{n}_\\mathrm{C} \\sen 90° \\quad \\Rightarrow \\quad \\sen\\alpha = \\dfrac{\\mathrm{n}_\\mathrm{C}}{\\mathrm{n}_\\mathrm{B}}"
-      ],
-      "cena": {
-        "destacar": [
-          "angulos"
-        ]
-      }
+      "nome": "Snell nas duas interfaces",
+      "telas": [
+        {
+          "titulo": "Os ângulos",
+          "cena": {
+            "mostrar": [
+              "camadas",
+              "raio",
+              "normal",
+              "angulos"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "α é o ângulo de <b>incidência</b> na interface A/B: entre o raio, ainda na camada A, e a normal."
+            },
+            {
+              "t": "texto",
+              "html": "Na camada B o raio forma o ângulo β com a normal. Na interface B/C a refração é <b>rasante</b>: em C, o raio sai a <b>90º</b> da normal."
+            }
+          ]
+        },
+        {
+          "titulo": "Snell, de A até C",
+          "cena": {
+            "mostrar": [
+              "camadas",
+              "raio",
+              "normal",
+              "angulos"
+            ],
+            "destacar": [
+              "angulos"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "Lei de Snell em cada interface:"
+            },
+            {
+              "t": "eq",
+              "tex": "n_{A} \\sen\\alpha = n_{B} \\sen\\beta"
+            },
+            {
+              "t": "eq",
+              "tex": "n_{B} \\sen\\beta = n_{C} \\sen 90^{\\circ} = n_{C}"
+            },
+            {
+              "t": "texto",
+              "html": "O termo n<sub>B</sub> sen β é o mesmo nas duas equações. Logo:"
+            },
+            {
+              "t": "eq",
+              "tex": "\\marca{a}{n_{A}} \\sen\\alpha = n_{C}"
+            },
+            {
+              "t": "eq",
+              "tex": "\\sen\\alpha = \\dfrac{n_{C}}{\\marca{a}{n_{A}}}",
+              "mover": [
+                "a"
+              ]
+            },
+            {
+              "t": "texto",
+              "html": "O índice da camada B não aparece no resultado."
+            },
+            {
+              "t": "gabarito",
+              "letra": "E"
+            },
+            {
+              "t": "fim"
+            }
+          ]
+        }
+      ]
     }
   ],
   "status": "revisado",
   "criadoEm": "2026-11-15T09:00:00-03:00",
-  "atualizadoEm": "2026-11-15T09:00:00-03:00"
+  "atualizadoEm": "2026-11-15T09:00:00-03:00",
+  "revisao": {
+    "estado": "aprovada",
+    "comentario": "",
+    "atualizadoEm": "2026-11-17T23:55:51.266Z"
+  }
 }

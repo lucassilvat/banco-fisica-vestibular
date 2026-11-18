@@ -1,5 +1,6 @@
 {
   "id": "unesp-2020-q80",
+  "formato": "aula",
   "titulo": "Imagem 5 000 vezes menor: a que altura está a câmera",
   "conceitos": [
     "Aumento linear transversal",
@@ -20,33 +21,40 @@
           {
             "t": "texto",
             "x": 390,
-            "y": 90,
+            "y": 94,
             "txt": "lente",
             "negrito": true,
             "ancora": "start"
           },
           {
-            "t": "linha",
-            "pontos": [
-              [
-                280,
-                40
-              ],
-              [
-                360,
-                40
-              ]
+            "t": "seta",
+            "de": [
+              352.7,
+              40
             ],
-            "cor": "tinta",
+            "para": [
+              287.3,
+              40
+            ],
+            "cor": "perigo",
             "larg": 3
           },
           {
-            "t": "texto",
-            "x": 370,
+            "t": "circ",
+            "x": 352.7,
             "y": 40,
-            "txt": "imagem",
+            "r": 4,
+            "cor": "#1e63d6",
+            "borda": null
+          },
+          {
+            "t": "texto",
+            "x": 372,
+            "y": 30,
+            "txt": "imagem (i): real e invertida",
             "negrito": true,
-            "ancora": "start"
+            "ancora": "start",
+            "cor": "perigo"
           }
         ],
         "solo": [
@@ -66,27 +74,33 @@
             "larg": 4
           },
           {
-            "t": "texto",
-            "x": 580,
-            "y": 384,
-            "txt": "superfície",
-            "mudo": true,
-            "ancora": "end"
-          },
-          {
-            "t": "linha",
-            "pontos": [
-              [
-                120,
-                396
-              ],
-              [
-                520,
-                396
-              ]
+            "t": "seta",
+            "de": [
+              120,
+              388
+            ],
+            "para": [
+              520,
+              388
             ],
             "cor": "atrito",
-            "larg": 6
+            "larg": 3
+          },
+          {
+            "t": "circ",
+            "x": 120,
+            "y": 388,
+            "r": 5,
+            "cor": "#1e63d6",
+            "borda": null
+          },
+          {
+            "t": "texto",
+            "x": 320,
+            "y": 420,
+            "txt": "objeto (o): a região da superfície",
+            "negrito": true,
+            "cor": "atrito"
           }
         ],
         "raios": [
@@ -95,14 +109,14 @@
             "pontos": [
               [
                 120,
-                396
+                388
               ],
               [
-                324.0,
+                352.7,
                 40
               ]
             ],
-            "cor": "perigo",
+            "cor": "#1e63d6",
             "larg": 1.2,
             "opac": 0.8
           },
@@ -111,10 +125,10 @@
             "pontos": [
               [
                 520,
-                396
+                388
               ],
               [
-                316.0,
+                287.3,
                 40
               ]
             ],
@@ -161,41 +175,119 @@
             "txt": "p′ = 20 cm"
           }
         ]
-      }
+      },
+      "altura": 440
     }
   },
-  "passos": [
+  "metodos": [
     {
-      "titulo": "O aumento",
-      "conceito": "Aumento linear transversal",
-      "texto": "A imagem é 5 000 vezes menor que o objeto. Em módulo, o aumento é a razão entre a distância da imagem e a do objeto à lente (fora de escala na figura).",
-      "equacoes": [
-        "|A| = \\dfrac{i}{o} = \\dfrac{p′}{p} = \\dfrac{1}{5\\,000}"
-      ],
-      "cena": {
-        "mostrar": [
-          "lente",
-          "solo",
-          "raios",
-          "cotas"
-        ]
-      }
-    },
-    {
-      "titulo": "A altura do balão",
-      "conceito": "Aumento linear transversal",
-      "texto": "A imagem se forma a 20 cm = 0,20 m da lente, e a distância do objeto à lente é a altura do balão. Resposta: <b>(A) 1 000 m</b>.",
-      "equacoes": [
-        "p = 5\\,000 \\cdot 0,20 = 1\\,000\\ \\text{m}"
-      ],
-      "cena": {
-        "destacar": [
-          "cotas"
-        ]
-      }
+      "nome": "Aumento linear com sinal",
+      "telas": [
+        {
+          "titulo": "O aumento",
+          "cena": {
+            "mostrar": [
+              "lente",
+              "solo",
+              "raios",
+              "cotas"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "Na câmera, a imagem se forma do outro lado da lente, no filme: é uma imagem <b>real</b>. Imagem real de lente convergente é <b>invertida</b>; repare nas setas e nas pontas azuis trocadas."
+            },
+            {
+              "t": "texto",
+              "html": "Pela convenção de sinais: objeto real, <b>p > 0</b>; imagem real, <b>p' > 0</b>; imagem invertida, <b>A < 0</b>."
+            },
+            {
+              "t": "eq",
+              "tex": "A = \\dfrac{i}{o} = -\\dfrac{p'}{p}"
+            },
+            {
+              "t": "texto",
+              "html": "A imagem é 5 000 vezes menor e invertida:"
+            },
+            {
+              "t": "eq",
+              "tex": "A = -\\dfrac{1}{5\\,000}"
+            }
+          ]
+        },
+        {
+          "titulo": "A altura do balão",
+          "cena": {
+            "mostrar": [
+              "lente",
+              "solo",
+              "raios",
+              "cotas"
+            ],
+            "destacar": [
+              "cotas"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "Igualando as duas expressões de A, os sinais de menos <b>cancelam</b>:"
+            },
+            {
+              "t": "eq",
+              "tex": "\\marca{a}{-}\\dfrac{p'}{p} = \\marca{b}{-}\\dfrac{1}{5\\,000}"
+            },
+            {
+              "t": "eq",
+              "tex": "\\dfrac{p'}{\\marca{p}{p}} = \\dfrac{1}{\\marca{c}{5\\,000}}",
+              "cancelar": [
+                "a",
+                "b"
+              ]
+            },
+            {
+              "t": "texto",
+              "html": "Multiplicando em cruz: p e 5 000 <b>trocam de lado</b>."
+            },
+            {
+              "t": "eq",
+              "tex": "\\marca{c}{5\\,000} \\cdot p' = \\marca{p}{p}",
+              "mover": [
+                "p",
+                "c"
+              ]
+            },
+            {
+              "t": "texto",
+              "html": "Com p' = 20 cm = 0,20 m:"
+            },
+            {
+              "t": "eq",
+              "tex": "p = 5\\,000 \\cdot 0,20 = 1\\,000\\ \\text{m}"
+            },
+            {
+              "t": "texto",
+              "html": "A distância do objeto (o solo) à lente é a altura do balão: <b>h = 1 000 m</b>."
+            },
+            {
+              "t": "gabarito",
+              "letra": "A"
+            },
+            {
+              "t": "fim"
+            }
+          ]
+        }
+      ]
     }
   ],
   "status": "revisado",
   "criadoEm": "2026-11-15T09:00:00-03:00",
-  "atualizadoEm": "2026-11-15T09:00:00-03:00"
+  "atualizadoEm": "2026-11-15T09:00:00-03:00",
+  "revisao": {
+    "estado": "aprovada",
+    "comentario": "",
+    "atualizadoEm": "2026-11-17T14:25:52.129Z"
+  }
 }

@@ -1,5 +1,6 @@
 {
   "id": "unesp-2019-q64",
+  "formato": "aula",
   "titulo": "O modelo de Münch e a pressão da coluna de água",
   "conceitos": [
     "Pressão osmótica",
@@ -231,43 +232,83 @@
       }
     }
   },
-  "passos": [
+  "metodos": [
     {
-      "titulo": "O que cada bolsa representa",
-      "conceito": "Transporte de seiva",
-      "texto": "A bolsa com açúcar faz o papel das folhas, onde a fotossíntese produz açúcares; a bolsa só com água representa as raízes. Afirmação I: verdadeira.",
-      "cena": {
-        "mostrar": [
-          "vasos",
-          "bolsas",
-          "papeis"
-        ]
-      }
-    },
-    {
-      "titulo": "A pressão osmótica",
-      "conceito": "Teorema de Stevin",
-      "texto": "A água entra por osmose na bolsa 2 e é empurrada pelo tubo até a bolsa 1, que a devolve ao vaso 1: os níveis ficam desnivelados de Δh. A pressão osmótica que sustenta esse desnível equivale à de uma coluna de água de altura Δh. Afirmação II: verdadeira.",
-      "equacoes": [
-        "p = d g \\Delta h"
-      ],
-      "cena": {
-        "mostrar": [
-          "niveis"
-        ],
-        "destacar": [
-          "niveis"
-        ]
-      }
-    },
-    {
-      "titulo": "A torneira",
-      "conceito": "Transporte de seiva",
-      "texto": "O tubo com a torneira liga os vasos e representa o retorno da água pelo xilema. O anelamento interrompe o floema, que no modelo é o tubo entre as bolsas. Afirmação III: falsa. Resposta: <b>(A)</b>.",
-      "cena": {}
+      "nome": "Afirmação por afirmação",
+      "telas": [
+        {
+          "titulo": "O que cada bolsa representa",
+          "cena": {
+            "mostrar": [
+              "vasos",
+              "bolsas",
+              "papeis"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "<b>I. Verdadeira.</b> A bolsa com açúcar (2) faz o papel das <b>folhas</b>, onde a fotossíntese produz açúcares; a bolsa só com água (1) representa as <b>raízes</b>."
+            }
+          ]
+        },
+        {
+          "titulo": "A pressão osmótica",
+          "cena": {
+            "mostrar": [
+              "vasos",
+              "bolsas",
+              "papeis",
+              "niveis"
+            ],
+            "destacar": [
+              "niveis"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "<b>II. Verdadeira.</b> A água entra por osmose na bolsa 2 e os níveis dos vasos ficam desnivelados de Δh. A pressão osmótica que sustenta esse desnível é a de uma coluna de água de altura Δh (teorema de Stevin):"
+            },
+            {
+              "t": "eq",
+              "tex": "p = d\\, g\\, \\Delta h"
+            }
+          ]
+        },
+        {
+          "titulo": "A torneira",
+          "cena": {
+            "mostrar": [
+              "vasos",
+              "bolsas",
+              "papeis",
+              "niveis"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "<b>III. Falsa.</b> O tubo com a torneira liga os vasos e representa o retorno da água pelo xilema. O anelamento interrompe o <b>floema</b>, que no modelo é o tubo que liga as duas bolsas."
+            },
+            {
+              "t": "gabarito",
+              "letra": "A"
+            },
+            {
+              "t": "fim"
+            }
+          ]
+        }
+      ]
     }
   ],
   "status": "revisado",
   "criadoEm": "2026-11-15T09:00:00-03:00",
-  "atualizadoEm": "2026-11-15T09:00:00-03:00"
+  "atualizadoEm": "2026-11-15T09:00:00-03:00",
+  "revisao": {
+    "estado": "aprovada",
+    "comentario": "",
+    "atualizadoEm": "2026-11-17T14:33:07.335Z"
+  }
 }

@@ -1,242 +1,154 @@
 {
   "id": "unesp-2020-q87",
+  "formato": "aula",
   "titulo": "Quanto pesaria a taça maciça de ouro 18 quilates",
   "conceitos": [
     "Densidade",
     "Volume do cilindro"
   ],
-  "cena": {
-    "modelo": "diagrama",
-    "parametros": {
-      "elementos": {
-        "etapa-1": [
-          {
-            "t": "ret",
-            "x": 30,
-            "y": 16,
-            "w": 420,
-            "h": 40,
-            "cor": "suave",
-            "borda": "normal",
-            "rx": 7
-          },
-          {
-            "t": "texto",
-            "x": 42,
-            "y": 36.0,
-            "txt": "volume do cilindro",
-            "mudo": true,
-            "ancora": "start"
-          },
-          {
-            "t": "texto",
-            "x": 438,
-            "y": 36.0,
-            "txt": "2 700 cm³",
-            "negrito": true,
-            "ancora": "end"
-          }
-        ],
-        "etapa-2": [
-          {
-            "t": "seta",
-            "de": [
-              240.0,
-              59
-            ],
-            "para": [
-              240.0,
-              79
-            ],
-            "cor": "tinta",
-            "larg": 1.8
-          },
-          {
-            "t": "texto",
-            "x": 252.0,
-            "y": 69.0,
-            "txt": "0,75/19,3 + 0,25/6,1",
-            "negrito": true,
-            "cor": "acel",
-            "ancora": "start"
-          },
-          {
-            "t": "ret",
-            "x": 30,
-            "y": 82,
-            "w": 420,
-            "h": 40,
-            "cor": "suave",
-            "borda": "normal",
-            "rx": 7
-          },
-          {
-            "t": "texto",
-            "x": 42,
-            "y": 102.0,
-            "txt": "volume de 1 g de ouro 18 quilates",
-            "mudo": true,
-            "ancora": "start"
-          },
-          {
-            "t": "texto",
-            "x": 438,
-            "y": 102.0,
-            "txt": "≈ 0,0799 cm³",
-            "negrito": true,
-            "ancora": "end"
-          }
-        ],
-        "etapa-3": [
-          {
-            "t": "seta",
-            "de": [
-              240.0,
-              125
-            ],
-            "para": [
-              240.0,
-              145
-            ],
-            "cor": "tinta",
-            "larg": 1.8
-          },
-          {
-            "t": "texto",
-            "x": 252.0,
-            "y": 135.0,
-            "txt": "1 ÷ 0,0799",
-            "negrito": true,
-            "cor": "acel",
-            "ancora": "start"
-          },
-          {
-            "t": "ret",
-            "x": 30,
-            "y": 148,
-            "w": 420,
-            "h": 40,
-            "cor": "suave",
-            "borda": "normal",
-            "rx": 7
-          },
-          {
-            "t": "texto",
-            "x": 42,
-            "y": 168.0,
-            "txt": "densidade média",
-            "mudo": true,
-            "ancora": "start"
-          },
-          {
-            "t": "texto",
-            "x": 438,
-            "y": 168.0,
-            "txt": "≈ 12,5 g/cm³",
-            "negrito": true,
-            "ancora": "end"
-          }
-        ],
-        "etapa-4": [
-          {
-            "t": "seta",
-            "de": [
-              240.0,
-              191
-            ],
-            "para": [
-              240.0,
-              211
-            ],
-            "cor": "tinta",
-            "larg": 1.8
-          },
-          {
-            "t": "texto",
-            "x": 252.0,
-            "y": 201.0,
-            "txt": "× 2 700 cm³",
-            "negrito": true,
-            "cor": "acel",
-            "ancora": "start"
-          },
-          {
-            "t": "ret",
-            "x": 30,
-            "y": 214,
-            "w": 420,
-            "h": 40,
-            "cor": "suave",
-            "borda": "normal",
-            "rx": 7
-          },
-          {
-            "t": "texto",
-            "x": 42,
-            "y": 234.0,
-            "txt": "massa da taça maciça",
-            "mudo": true,
-            "ancora": "start"
-          },
-          {
-            "t": "texto",
-            "x": 438,
-            "y": 234.0,
-            "txt": "≈ 33,8 kg",
-            "negrito": true,
-            "ancora": "end"
-          }
-        ]
-      }
-    }
-  },
-  "passos": [
+  "metodos": [
     {
-      "titulo": "O volume",
-      "conceito": "Volume do cilindro",
-      "texto": "A taça é tratada como um cilindro de raio 5 cm e altura 36 cm.",
-      "equacoes": [
-        "V = \\pi r^{2} h = 3 \\cdot 5^{2} \\cdot 36 = 2\\,700\\ \\text{cm}^{3}"
-      ],
-      "cena": {
-        "mostrar": [
-          "etapa-1"
-        ]
-      }
-    },
-    {
-      "titulo": "A densidade da liga de 18 quilates",
-      "conceito": "Densidade",
-      "texto": "Em 1 g da peça há 0,75 g de ouro e 0,25 g da outra liga. Somando os volumes dessas massas, obtém-se o volume de 1 g; o inverso é a densidade média.",
-      "equacoes": [
-        "\\dfrac{0,75}{19,3} + \\dfrac{0,25}{6,1} \\approx 0,0389 + 0,0410 = 0,0799\\ \\text{cm}^{3}",
-        "d \\approx \\dfrac{1}{0,0799} \\approx 12,5\\ \\text{g/cm}^{3}"
-      ],
-      "cena": {
-        "mostrar": [
-          "etapa-2",
-          "etapa-3"
-        ]
-      }
-    },
-    {
-      "titulo": "A massa",
-      "conceito": "Densidade",
-      "texto": "Resposta: <b>(A) entre 30 kg e 35 kg</b>.",
-      "equacoes": [
-        "m = d \\cdot V \\approx 12,5 \\cdot 2\\,700 \\approx 33\\,800\\ \\text{g}"
-      ],
-      "cena": {
-        "mostrar": [
-          "etapa-4"
-        ],
-        "destacar": [
-          "etapa-4"
-        ]
-      }
+      "nome": "Volume a cada 1 kg de taça",
+      "telas": [
+        {
+          "titulo": "O volume da taça",
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "Volume do cilindro, com π = 3:"
+            },
+            {
+              "t": "eq",
+              "tex": "V = \\pi r^{2} h = 3 \\cdot 5^{2} \\cdot 36"
+            },
+            {
+              "t": "eq",
+              "tex": "V = 2\\,700\\ \\text{cm}^{3}"
+            }
+          ]
+        },
+        {
+          "titulo": "Os volumes em 1 kg de taça",
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "Pegue <b>1 000 g</b> de taça. Ouro 18 quilates: 3/4 de ouro e 1/4 de liga."
+            },
+            {
+              "t": "eq",
+              "tex": "m_{\\text{ouro}} = 750\\ \\text{g}, \\quad m_{\\text{liga}} = 250\\ \\text{g}"
+            },
+            {
+              "t": "texto",
+              "html": "Da densidade, isolamos o volume:"
+            },
+            {
+              "t": "eq",
+              "tex": "d = \\dfrac{m}{\\marca{v}{V}}"
+            },
+            {
+              "t": "eq",
+              "tex": "\\marca{v}{V} = \\dfrac{m}{d}",
+              "mover": [
+                "v"
+              ]
+            },
+            {
+              "t": "eq",
+              "tex": "V_{\\text{ouro}} = \\dfrac{750}{19,3} \\approx 38,9\\ \\text{cm}^{3}"
+            },
+            {
+              "t": "eq",
+              "tex": "V_{\\text{liga}} = \\dfrac{250}{6,1} \\approx 41,0\\ \\text{cm}^{3}"
+            }
+          ]
+        },
+        {
+          "titulo": "A massa da taça",
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "Somando: a cada <b>1 kg</b> de taça, o volume é"
+            },
+            {
+              "t": "eq",
+              "tex": "38,9 + 41,0 = 79,9\\ \\text{cm}^{3}"
+            },
+            {
+              "t": "texto",
+              "html": "Regra de três com o volume da taça:"
+            },
+            {
+              "t": "eq",
+              "tex": "1\\ \\text{kg} \\to 79,9\\ \\text{cm}^{3}"
+            },
+            {
+              "t": "eq",
+              "tex": "m \\to 2\\,700\\ \\text{cm}^{3}"
+            },
+            {
+              "t": "eq",
+              "tex": "m = \\dfrac{2\\,700}{79,9} \\approx 33,8\\ \\text{kg}"
+            },
+            {
+              "t": "texto",
+              "html": "Entre <b>30 kg e 35 kg</b>."
+            },
+            {
+              "t": "gabarito",
+              "letra": "A"
+            },
+            {
+              "t": "texto",
+              "html": "Na hora da prova, <b>aproximar</b> pode ser uma boa estratégia. Veja na próxima tela."
+            }
+          ]
+        },
+        {
+          "titulo": "Na hora da prova: aproximando",
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "Refazendo com densidades arredondadas: <b>20</b> para o ouro e <b>6</b> para a liga."
+            },
+            {
+              "t": "eq",
+              "tex": "V_{\\text{ouro}} = \\dfrac{750}{20} = 37,5\\ \\text{cm}^{3}"
+            },
+            {
+              "t": "eq",
+              "tex": "V_{\\text{liga}} = \\dfrac{250}{6} \\approx 41,7\\ \\text{cm}^{3}"
+            },
+            {
+              "t": "eq",
+              "tex": "37,5 + 41,7 = 79,2\\ \\text{cm}^{3}\\ \\text{por kg}"
+            },
+            {
+              "t": "eq",
+              "tex": "m \\approx \\dfrac{2\\,700}{79,2} \\approx 34,1\\ \\text{kg}"
+            },
+            {
+              "t": "texto",
+              "html": "Continua entre 30 kg e 35 kg: o gabarito é o <b>mesmo</b>, com contas bem mais simples."
+            },
+            {
+              "t": "gabarito",
+              "letra": "A"
+            },
+            {
+              "t": "fim"
+            }
+          ]
+        }
+      ]
     }
   ],
   "status": "revisado",
   "criadoEm": "2026-11-15T09:00:00-03:00",
-  "atualizadoEm": "2026-11-15T09:00:00-03:00"
+  "atualizadoEm": "2026-11-15T09:00:00-03:00",
+  "revisao": {
+    "estado": "aprovada",
+    "comentario": "",
+    "atualizadoEm": "2026-11-17T14:27:02.953Z"
+  }
 }

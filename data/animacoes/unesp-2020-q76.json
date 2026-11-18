@@ -1,5 +1,6 @@
 {
   "id": "unesp-2020-q76",
+  "formato": "aula",
   "titulo": "Quanto o nadador avança a cada braçada",
   "conceitos": [
     "Deslocamento como área sob v × t",
@@ -399,8 +400,30 @@
                 82.9
               ],
               [
+                253.5,
+                340.0
+              ],
+              [
+                335.2,
+                340.0
+              ]
+            ],
+            "cor": "peso",
+            "larg": 1,
+            "fechada": true,
+            "preench": "#f7c6a8",
+            "opac": 0.85
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
                 417.0,
                 82.9
+              ],
+              [
+                417.0,
+                340.0
               ],
               [
                 335.2,
@@ -415,11 +438,19 @@
           },
           {
             "t": "texto",
-            "x": 335.2,
-            "y": 132.9,
-            "txt": "½ · 0,4 · 1,8",
+            "x": 276,
+            "y": 300,
+            "txt": "½ · 0,2 · 1,8",
             "negrito": true,
-            "tam": 13
+            "tam": 11
+          },
+          {
+            "t": "texto",
+            "x": 394,
+            "y": 300,
+            "txt": "½ · 0,2 · 1,8",
+            "negrito": true,
+            "tam": 11
           }
         ],
         "curva": [
@@ -838,43 +869,107 @@
       }
     }
   },
-  "passos": [
+  "metodos": [
     {
-      "titulo": "Um ciclo de braçada",
-      "conceito": "Deslocamento como área sob v × t",
-      "texto": "Um ciclo dura 1,0 s. O deslocamento em um ciclo é a área sob o gráfico v × t.",
-      "cena": {
-        "mostrar": [
-          "grafico",
-          "curva"
-        ]
-      }
-    },
-    {
-      "titulo": "A área, por partes",
-      "conceito": "Deslocamento como área sob v × t",
-      "texto": "Fora do intervalo de 0,4 s a 0,8 s a velocidade fica em torno de 1,8 m/s (retângulos). No meio, ela cai a zero e volta: a área é aproximadamente um triângulo de base 0,4 s e altura 1,8 m/s.",
-      "equacoes": [
-        "1,8 \\cdot (0,4 + 0,2) + \\dfrac{0,4 \\cdot 1,8}{2} \\approx 1,08 + 0,36 = 1,44\\ \\text{m}"
-      ],
-      "cena": {
-        "mostrar": [
-          "retangulos",
-          "triangulo"
-        ]
-      }
-    },
-    {
-      "titulo": "Número de braçadas",
-      "conceito": "Velocidade média",
-      "texto": "Repetindo o ciclo, cada braçada leva o nadador cerca de 1,44 m adiante. Resposta: <b>(E) 25</b>.",
-      "equacoes": [
-        "\\dfrac{36}{1,44} = 25"
-      ],
-      "cena": {}
+      "nome": "Área sob v × t",
+      "telas": [
+        {
+          "titulo": "Um ciclo de braçada",
+          "cena": {
+            "mostrar": [
+              "grafico",
+              "curva"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "Um ciclo de braçada dura <b>1,0 s</b>. O deslocamento em um ciclo é a <b>área</b> sob a curva v × t."
+            }
+          ]
+        },
+        {
+          "titulo": "A área, por partes",
+          "cena": {
+            "mostrar": [
+              "grafico",
+              "curva",
+              "retangulos",
+              "triangulo"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "Dividimos a área em partes. Os dois <b>retângulos</b>, com velocidade de cerca de 1,8 m/s:"
+            },
+            {
+              "t": "eq",
+              "tex": "A_{1} = 1,8 \\cdot 0,4 = 0,72\\ \\text{m}"
+            },
+            {
+              "t": "eq",
+              "tex": "A_{2} = 1,8 \\cdot 0,2 = 0,36\\ \\text{m}"
+            },
+            {
+              "t": "texto",
+              "html": "No vale, de 0,4 s a 0,8 s, a área sob a curva são dois <b>triângulos</b> de base 0,2 s e altura 1,8 m/s:"
+            },
+            {
+              "t": "eq",
+              "tex": "A_{3} = A_{4} = \\dfrac{0,2 \\cdot 1,8}{2} = 0,18\\ \\text{m}"
+            },
+            {
+              "t": "texto",
+              "html": "Somando as quatro áreas:"
+            },
+            {
+              "t": "eq",
+              "tex": "\\Delta s_{\\text{ciclo}} \\approx 0,72 + 0,36 + 0,18 + 0,18 = 1,44\\ \\text{m}"
+            }
+          ]
+        },
+        {
+          "titulo": "Número de braçadas",
+          "cena": {
+            "mostrar": [
+              "grafico",
+              "curva",
+              "retangulos",
+              "triangulo"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "Em 36 m, o número de braçadas:"
+            },
+            {
+              "t": "eq",
+              "tex": "N = \\dfrac{36}{1,44} = \\dfrac{3\\,600}{144}"
+            },
+            {
+              "t": "eq",
+              "tex": "N = 25"
+            },
+            {
+              "t": "gabarito",
+              "letra": "E"
+            },
+            {
+              "t": "fim"
+            }
+          ]
+        }
+      ]
     }
   ],
   "status": "revisado",
   "criadoEm": "2026-11-15T09:00:00-03:00",
-  "atualizadoEm": "2026-11-15T09:00:00-03:00"
+  "atualizadoEm": "2026-11-15T09:00:00-03:00",
+  "revisao": {
+    "estado": "aprovada",
+    "comentario": "",
+    "atualizadoEm": "2026-11-17T14:24:35.820Z"
+  }
 }

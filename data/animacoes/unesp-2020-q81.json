@@ -1,5 +1,6 @@
 {
   "id": "unesp-2020-q81",
+  "formato": "aula",
   "titulo": "Da energia do fóton ao comprimento de onda",
   "conceitos": [
     "Energia do fóton (E = hf)",
@@ -183,35 +184,85 @@
       }
     }
   },
-  "passos": [
+  "metodos": [
     {
-      "titulo": "O comprimento de onda",
-      "conceito": "Energia do fóton (E = hf)",
-      "texto": "Juntando E = hf e c = λf:",
-      "equacoes": [
-        "\\lambda = \\dfrac{hc}{E} = \\dfrac{6,6 \\times 10^{-34} \\cdot 3 \\times 10^{8}}{3,96 \\times 10^{-19}} = 5 \\times 10^{-7}\\ \\text{m} = 500\\ \\text{nm}"
-      ],
-      "cena": {
-        "mostrar": [
-          "espectro"
-        ]
-      }
-    },
-    {
-      "titulo": "A cor",
-      "conceito": "Equação fundamental da ondulatória",
-      "texto": "500 nm está entre 495 nm e 570 nm. Resposta: <b>(B) verde</b>.",
-      "cena": {
-        "mostrar": [
-          "marca"
-        ],
-        "destacar": [
-          "marca"
-        ]
-      }
+      "nome": "Energia do fóton",
+      "telas": [
+        {
+          "titulo": "O comprimento de onda",
+          "cena": {
+            "mostrar": [
+              "espectro"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "Juntando E = hf e f = c/λ:"
+            },
+            {
+              "t": "eq",
+              "tex": "E = \\dfrac{h c}{\\marca{l}{\\lambda}}"
+            },
+            {
+              "t": "texto",
+              "html": "Isolamos λ: ele e E <b>trocam de lugar</b>."
+            },
+            {
+              "t": "eq",
+              "tex": "\\marca{l}{\\lambda} = \\dfrac{h c}{E}",
+              "mover": [
+                "l"
+              ]
+            },
+            {
+              "t": "eq",
+              "tex": "\\lambda = \\dfrac{6,6 \\cdot 10^{-34} \\cdot 3 \\cdot 10^{8}}{3,96 \\cdot 10^{-19}} = \\dfrac{19,8 \\cdot 10^{-26}}{3,96 \\cdot 10^{-19}}"
+            },
+            {
+              "t": "texto",
+              "html": "Como 19,8 = 5 · 3,96:"
+            },
+            {
+              "t": "eq",
+              "tex": "\\lambda = 5 \\cdot 10^{-7}\\ \\text{m} = 500\\ \\text{nm}"
+            }
+          ]
+        },
+        {
+          "titulo": "A cor",
+          "cena": {
+            "mostrar": [
+              "espectro",
+              "marca"
+            ],
+            "destacar": [
+              "marca"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "Na tabela, 500 nm está entre 495 nm e 570 nm: <b>verde</b>."
+            },
+            {
+              "t": "gabarito",
+              "letra": "B"
+            },
+            {
+              "t": "fim"
+            }
+          ]
+        }
+      ]
     }
   ],
   "status": "revisado",
   "criadoEm": "2026-11-15T09:00:00-03:00",
-  "atualizadoEm": "2026-11-15T09:00:00-03:00"
+  "atualizadoEm": "2026-11-15T09:00:00-03:00",
+  "revisao": {
+    "estado": "aprovada",
+    "comentario": "",
+    "atualizadoEm": "2026-11-17T13:59:58.670Z"
+  }
 }
