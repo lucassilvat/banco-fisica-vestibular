@@ -1,0 +1,213 @@
+{
+  "id": "unesp-2027-q71",
+  "formato": "aula",
+  "titulo": "Do tempo de voo à massa de CO₂",
+  "conceitos": [
+    "Velocidade média",
+    "Estequiometria"
+  ],
+  "abertura": [
+    {
+      "titulo": "Resolução",
+      "blocos": [
+        {
+          "t": "texto",
+          "html": "Há três caminhos:"
+        },
+        {
+          "t": "texto",
+          "html": "1) Passar o combustível para <b>mols</b> e usar a proporção de 12 mol de CO<sub>2</sub> por mol de querosene."
+        },
+        {
+          "t": "texto",
+          "html": "2) Usar a <b>proporção em massa</b>: quantos gramas de CO<sub>2</sub> cada grama de querosene gera."
+        },
+        {
+          "t": "texto",
+          "html": "3) A mesma proporção em massa, com valores <b>aproximados</b>, como se faz na hora da prova."
+        },
+        {
+          "t": "texto",
+          "html": "Escolha um método nas abas acima, ou avance para ver os três."
+        }
+      ]
+    }
+  ],
+  "metodos": [
+    {
+      "nome": "Em mols",
+      "telas": [
+        {
+          "titulo": "O tempo de voo e o combustível",
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "Primeiro, a <b>Física</b>: quanto tempo durou o voo. Em velocidade de cruzeiro, a velocidade é constante:"
+            },
+            {
+              "t": "eq",
+              "tex": "v = \\dfrac{\\Delta s}{\\marca{t}{\\Delta t}}"
+            },
+            {
+              "t": "texto",
+              "html": "O intervalo de tempo <b>passa para o outro lado</b>, trocando de lugar com a velocidade:"
+            },
+            {
+              "t": "eq",
+              "tex": "\\marca{t}{\\Delta t} = \\dfrac{\\Delta s}{v}",
+              "mover": [
+                "t"
+              ]
+            },
+            {
+              "t": "eq",
+              "tex": "\\Delta t = \\dfrac{200}{500} = 0,4\\ \\text{h}"
+            },
+            {
+              "t": "texto",
+              "html": "O consumo é de 760 kg por hora de voo:"
+            },
+            {
+              "t": "eq",
+              "tex": "m = 0,4 \\cdot 760 = 304\\ \\text{kg de querosene}"
+            }
+          ]
+        },
+        {
+          "titulo": "A massa de CO₂",
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "Em mols de C<sub>12</sub>H<sub>26</sub> (170 g/mol), com 304 kg = 304 000 g:"
+            },
+            {
+              "t": "eq",
+              "tex": "n = \\dfrac{304\\,000}{170} \\approx 1\\,788\\ \\text{mol}"
+            },
+            {
+              "t": "texto",
+              "html": "Na combustão completa, os <b>12 átomos de carbono</b> de cada molécula viram 12 moléculas de CO<sub>2</sub>:"
+            },
+            {
+              "t": "eq",
+              "tex": "n_{\\text{CO}_{2}} = 12 \\cdot 1\\,788 \\approx 21\\,460\\ \\text{mol}"
+            },
+            {
+              "t": "texto",
+              "html": "Com 44 g/mol:"
+            },
+            {
+              "t": "eq",
+              "tex": "m_{\\text{CO}_{2}} = 21\\,460 \\cdot 44 \\approx 944\\,000\\ \\text{g} \\approx 944\\ \\text{kg}"
+            },
+            {
+              "t": "texto",
+              "html": "A alternativa mais próxima é <b>900 kg</b>."
+            },
+            {
+              "t": "gabarito",
+              "letra": "E"
+            },
+            {
+              "t": "fim"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nome": "Proporção em massa",
+      "telas": [
+        {
+          "titulo": "Quantas vezes a massa do combustível",
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "O voo dura 200/500 = 0,4 h e consome 0,4 · 760 = <b>304 kg</b> de querosene."
+            },
+            {
+              "t": "texto",
+              "html": "Cada 170 g de C<sub>12</sub>H<sub>26</sub> (1 mol) gera 12 mol de CO<sub>2</sub>, ou seja, 12 · 44 = 528 g:"
+            },
+            {
+              "t": "eq",
+              "tex": "\\dfrac{528}{170} \\approx 3,1"
+            },
+            {
+              "t": "texto",
+              "html": "A massa de CO<sub>2</sub> é cerca de 3,1 vezes a de querosene:"
+            },
+            {
+              "t": "eq",
+              "tex": "m_{\\text{CO}_{2}} \\approx 3,1 \\cdot 304\\ \\text{kg} \\approx 940\\ \\text{kg}"
+            },
+            {
+              "t": "texto",
+              "html": "A alternativa mais próxima é <b>900 kg</b>."
+            },
+            {
+              "t": "gabarito",
+              "letra": "E"
+            },
+            {
+              "t": "fim"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nome": "Aproximando",
+      "telas": [
+        {
+          "titulo": "Arredondando a proporção",
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "Na hora da prova, dá para arredondar: as alternativas estão bem separadas (300, 500, 700, 900 e 1 200 kg)."
+            },
+            {
+              "t": "texto",
+              "html": "Combustível: 0,4 h · 760 kg/h = <b>304 kg</b>, cerca de 300 kg."
+            },
+            {
+              "t": "texto",
+              "html": "Cada 170 g de querosene gera 528 g de CO<sub>2</sub>. Arredondando 528 para 510 = 3 · 170:"
+            },
+            {
+              "t": "eq",
+              "tex": "\\dfrac{528}{170} \\approx \\dfrac{510}{170} = 3"
+            }
+          ]
+        },
+        {
+          "titulo": "O mesmo gabarito",
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "A massa de CO<sub>2</sub> é cerca de <b>3 vezes</b> a de querosene:"
+            },
+            {
+              "t": "eq",
+              "tex": "m_{\\text{CO}_{2}} \\approx 3 \\cdot 300\\ \\text{kg} = 900\\ \\text{kg}"
+            },
+            {
+              "t": "texto",
+              "html": "O mesmo resultado das contas completas (cerca de 944 kg): a alternativa não muda."
+            },
+            {
+              "t": "gabarito",
+              "letra": "E"
+            },
+            {
+              "t": "fim"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "status": "revisado",
+  "criadoEm": "2026-11-22T21:00:00-03:00",
+  "atualizadoEm": "2026-11-22T21:00:00-03:00"
+}

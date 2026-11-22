@@ -1,0 +1,29 @@
+{
+  "id": "unesp-2027-q77",
+  "banca": "Unesp",
+  "ano": 2027,
+  "numero": "77",
+  "fase": "1ª fase",
+  "fonte": {
+    "descricao": "Vunesp, Vestibular Unesp 2027, 1ª fase (Prova de Conhecimentos Gerais), caderno de questões"
+  },
+  "enunciado": "Logo, concluiu, a área varrida pela linha que liga o planeta ao Sol mede o tempo exigido pelo planeta para ir de A a B; donde a linha varrerá áreas iguais em tempos iguais. É a imortal Segunda Lei, lei de espantosa simplicidade ao cabo de um labirinto terrivelmente confuso.\n\n[[figura 1]]\n\nA investida final levou quase dois anos e ocupa vinte capítulos da <i>Nova Astronomia</i>. Nos quatro primeiros capítulos, tentou, pela derradeira vez, atribuir uma órbita circular a Marte e malogrou. A seção termina com essas palavras:\n\nA conclusão é simplesmente a de não ser círculo o caminho do planeta; curva-se para dentro em ambos os lados e para fora mais uma vez nas extremidades opostas. Essa curva chama-se oval. A órbita não é circular, e sim, oval.\n\n(Arthur Koestler. <i>O Homem e o Universo</i>, 1989. Adaptado.)\n\nO excerto refere-se ao trabalho publicado em <i>Nova Astronomia</i>, um marco histórico que ajudou a desvendar os mistérios do sistema solar e a compreender o universo como o entendemos hoje. Esse trabalho foi feito por\n\n(A) Isaac Newton, em um período marcado pela passagem do heliocentrismo para o geocentrismo, quando a ciência começou a se separar da filosofia e da teologia, baseando-se na experimentação e na observação.\n(B) Isaac Newton, em um período marcado por uma urbanização acelerada e pela existência de duas classes sociais fundamentais: a burguesia industrial e o proletariado.\n(C) Johannes Kepler, em um período marcado pelo resgate dos valores e da estética da antiguidade greco-romana, quando, diferentemente do teocentrismo medieval, o homem passou a ser visto como o centro do universo.\n(D) Johannes Kepler, em um período em que a base da economia europeia era predominantemente urbana e baseada no comércio interno.\n(E) Galileu Galilei, em um período marcado por mudanças no sistema de produção, passando da manufatura para a maquinofatura.",
+  "figuras": [
+    "unesp-2027-q77-1.png"
+  ],
+  "gabarito": "C",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "Questão de História com conteúdo de Gravitação.\n1. O texto descreve as duas primeiras leis de Kepler: a <b>lei das áreas</b> (a linha Sol–planeta varre áreas iguais em tempos iguais, a \"Segunda Lei\" do excerto e da figura) e a <b>lei das órbitas</b> (a órbita de Marte não é circular, e sim \"oval\", ou seja, elíptica). As duas foram publicadas por Johannes Kepler em <i>Nova Astronomia</i> (1609). Isso elimina A, B (Newton) e E (Galileu).\n2. Entre C e D, o contexto histórico: o início do século XVII é o fim do Renascimento, marcado pelo humanismo, pela valorização da antiguidade greco-romana e pelo antropocentrismo, em oposição ao teocentrismo medieval (C).\n3. D está errada: a economia europeia da época era predominantemente agrária, e o comércio em expansão era o de longa distância, colonial e marítimo (mercantilismo), não o interno.\n4. A inverte a passagem (foi do geocentrismo para o heliocentrismo); B e E descrevem a Revolução Industrial (séculos XVIII e XIX).\nGabarito: C.",
+  "topicos": [
+    "leis-de-kepler"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-22T22:20:00.000Z",
+  "atualizadoEm": "2026-11-22T22:20:00.000Z",
+  "revisao": {
+    "divergenciasAceitas": [
+      "caminho"
+    ],
+    "notas": "\"caminho\" está no PDF com hífen discricionário (U+00AD) depois do \"c\" (c­aminho); conferido na imagem. Linha \"Área ABS = Área A1B1S\" (com traço sobre as letras) entra no recorte da figura."
+  }
+}

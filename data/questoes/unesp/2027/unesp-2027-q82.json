@@ -1,0 +1,25 @@
+{
+  "id": "unesp-2027-q82",
+  "banca": "Unesp",
+  "ano": 2027,
+  "numero": "82",
+  "fase": "1ª fase",
+  "fonte": {
+    "descricao": "Vunesp, Vestibular Unesp 2027, 1ª fase (Prova de Conhecimentos Gerais), caderno de questões"
+  },
+  "enunciado": "Dois resistores ôhmicos de resistências elétricas R<sub>X</sub> e R<sub>Y</sub> podem ser associados e conectados a um gerador ideal de força eletromotriz constante, montando um dos dois circuitos mostrados nas figuras 1 e 2.\n\n[[figura 1]]\n\n[[figura 2]]\n\nSabendo que R<sub>X</sub> < R<sub>Y</sub>,\n\n(A) R<sub>X</sub> dissipará mais potência do que R<sub>Y</sub> no circuito mostrado na figura 1.\n(B) R<sub>X</sub> dissipará mais potência do que R<sub>Y</sub> no circuito mostrado na figura 2.\n(C) R<sub>X</sub> e R<sub>Y</sub> dissiparão potências iguais no circuito mostrado na figura 1.\n(D) R<sub>X</sub> e R<sub>Y</sub> dissiparão potências iguais no circuito mostrado na figura 2.\n(E) R<sub>X</sub> dissipará menos potência do que R<sub>Y</sub> no circuito mostrado na figura 2.",
+  "figuras": [
+    "unesp-2027-q82-1.png",
+    "unesp-2027-q82-2.png"
+  ],
+  "gabarito": "B",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. Figura 1: os resistores estão em <b>série</b>, percorridos pela mesma corrente i. Com P = R i<sup>2</sup> e R<sub>X</sub> < R<sub>Y</sub>, P<sub>X</sub> < P<sub>Y</sub>: R<sub>X</sub> dissipa menos. A e C estão erradas.\n2. Figura 2: os resistores estão em <b>paralelo</b>, ligados diretamente ao gerador ideal, sob a mesma tensão U (a fem). Com \\(P = \\dfrac{U^2}{R}\\) e R<sub>X</sub> < R<sub>Y</sub>, P<sub>X</sub> > P<sub>Y</sub>: R<sub>X</sub> dissipa mais. B está certa; D e E estão erradas.\nGabarito: B.",
+  "topicos": [
+    "associacao-de-resistores",
+    "potencia-eletrica-e-efeito-joule"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-22T22:20:00.000Z",
+  "atualizadoEm": "2026-11-22T22:20:00.000Z"
+}

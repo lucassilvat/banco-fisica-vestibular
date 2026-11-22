@@ -1,0 +1,683 @@
+{
+  "id": "unesp-2027-q82",
+  "formato": "aula",
+  "titulo": "Quem dissipa mais: série ou paralelo",
+  "conceitos": [
+    "Associação de resistores",
+    "Potência elétrica"
+  ],
+  "cena": {
+    "modelo": "diagrama",
+    "parametros": {
+      "elementos": {
+        "fig1": [
+          {
+            "t": "texto",
+            "x": 165,
+            "y": 60,
+            "txt": "Figura 1: série",
+            "negrito": true,
+            "tam": 16
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                40,
+                130
+              ],
+              [
+                290,
+                130
+              ],
+              [
+                290,
+                330
+              ],
+              [
+                40,
+                330
+              ],
+              [
+                40,
+                130
+              ]
+            ],
+            "cor": "#111111",
+            "larg": 2.5
+          },
+          {
+            "t": "ret",
+            "x": 70,
+            "y": 118,
+            "w": 60,
+            "h": 24,
+            "cor": "papel"
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                72,
+                130
+              ],
+              [
+                76.7,
+                121
+              ],
+              [
+                86.0,
+                139
+              ],
+              [
+                95.3,
+                121
+              ],
+              [
+                104.7,
+                139
+              ],
+              [
+                114.0,
+                121
+              ],
+              [
+                123.3,
+                139
+              ],
+              [
+                128,
+                130
+              ]
+            ],
+            "cor": "#111111",
+            "larg": 2.5
+          },
+          {
+            "t": "ret",
+            "x": 180,
+            "y": 118,
+            "w": 60,
+            "h": 24,
+            "cor": "papel"
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                182,
+                130
+              ],
+              [
+                186.7,
+                121
+              ],
+              [
+                196.0,
+                139
+              ],
+              [
+                205.3,
+                121
+              ],
+              [
+                214.7,
+                139
+              ],
+              [
+                224.0,
+                121
+              ],
+              [
+                233.3,
+                139
+              ],
+              [
+                238,
+                130
+              ]
+            ],
+            "cor": "#111111",
+            "larg": 2.5
+          },
+          {
+            "t": "texto",
+            "x": 100,
+            "y": 108,
+            "txt": "R_{X}",
+            "negrito": true,
+            "tam": 16
+          },
+          {
+            "t": "texto",
+            "x": 210,
+            "y": 108,
+            "txt": "R_{Y}",
+            "negrito": true,
+            "tam": 16
+          },
+          {
+            "t": "ret",
+            "x": 155,
+            "y": 310,
+            "w": 24,
+            "h": 40,
+            "cor": "papel"
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                159,
+                310
+              ],
+              [
+                159,
+                350
+              ]
+            ],
+            "cor": "#111111",
+            "larg": 3
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                171,
+                320
+              ],
+              [
+                171,
+                340
+              ]
+            ],
+            "cor": "#111111",
+            "larg": 6
+          },
+          {
+            "t": "texto",
+            "x": 149,
+            "y": 306,
+            "txt": "+",
+            "negrito": true,
+            "tam": 16
+          },
+          {
+            "t": "texto",
+            "x": 183,
+            "y": 314,
+            "txt": "−",
+            "negrito": true,
+            "tam": 16
+          }
+        ],
+        "cor1": [
+          {
+            "t": "seta",
+            "de": [
+              40,
+              260
+            ],
+            "para": [
+              40,
+              200
+            ],
+            "cor": "acel",
+            "larg": 3,
+            "rotulo": "i",
+            "vetor": false,
+            "rot_em": [
+              50,
+              232
+            ]
+          },
+          {
+            "t": "seta",
+            "de": [
+              140,
+              148
+            ],
+            "para": [
+              172,
+              148
+            ],
+            "cor": "acel",
+            "larg": 3,
+            "rotulo": "i",
+            "vetor": false,
+            "rot_em": [
+              150,
+              170
+            ]
+          },
+          {
+            "t": "seta",
+            "de": [
+              290,
+              200
+            ],
+            "para": [
+              290,
+              260
+            ],
+            "cor": "acel",
+            "larg": 3,
+            "rotulo": "i",
+            "vetor": false,
+            "rot_em": [
+              272,
+              232
+            ]
+          },
+          {
+            "t": "texto",
+            "x": 165,
+            "y": 380,
+            "txt": "mesma corrente i nos dois",
+            "negrito": true,
+            "cor": "acel"
+          }
+        ],
+        "fig2": [
+          {
+            "t": "texto",
+            "x": 485,
+            "y": 60,
+            "txt": "Figura 2: paralelo",
+            "negrito": true,
+            "tam": 16
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                360,
+                110
+              ],
+              [
+                610,
+                110
+              ],
+              [
+                610,
+                330
+              ],
+              [
+                360,
+                330
+              ],
+              [
+                360,
+                110
+              ]
+            ],
+            "cor": "#111111",
+            "larg": 2.5
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                360,
+                210
+              ],
+              [
+                610,
+                210
+              ]
+            ],
+            "cor": "#111111",
+            "larg": 2.5
+          },
+          {
+            "t": "ret",
+            "x": 390,
+            "y": 98,
+            "w": 60,
+            "h": 24,
+            "cor": "papel"
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                392,
+                110
+              ],
+              [
+                396.7,
+                101
+              ],
+              [
+                406.0,
+                119
+              ],
+              [
+                415.3,
+                101
+              ],
+              [
+                424.7,
+                119
+              ],
+              [
+                434.0,
+                101
+              ],
+              [
+                443.3,
+                119
+              ],
+              [
+                448,
+                110
+              ]
+            ],
+            "cor": "#111111",
+            "larg": 2.5
+          },
+          {
+            "t": "ret",
+            "x": 520,
+            "y": 198,
+            "w": 60,
+            "h": 24,
+            "cor": "papel"
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                522,
+                210
+              ],
+              [
+                526.7,
+                201
+              ],
+              [
+                536.0,
+                219
+              ],
+              [
+                545.3,
+                201
+              ],
+              [
+                554.7,
+                219
+              ],
+              [
+                564.0,
+                201
+              ],
+              [
+                573.3,
+                219
+              ],
+              [
+                578,
+                210
+              ]
+            ],
+            "cor": "#111111",
+            "larg": 2.5
+          },
+          {
+            "t": "texto",
+            "x": 420,
+            "y": 88,
+            "txt": "R_{X}",
+            "negrito": true,
+            "tam": 16
+          },
+          {
+            "t": "texto",
+            "x": 550,
+            "y": 188,
+            "txt": "R_{Y}",
+            "negrito": true,
+            "tam": 16
+          },
+          {
+            "t": "circ",
+            "x": 360,
+            "y": 210,
+            "r": 4,
+            "cor": "#111111"
+          },
+          {
+            "t": "circ",
+            "x": 610,
+            "y": 210,
+            "r": 4,
+            "cor": "#111111"
+          },
+          {
+            "t": "ret",
+            "x": 475,
+            "y": 310,
+            "w": 24,
+            "h": 40,
+            "cor": "papel"
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                479,
+                310
+              ],
+              [
+                479,
+                350
+              ]
+            ],
+            "cor": "#111111",
+            "larg": 3
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                491,
+                320
+              ],
+              [
+                491,
+                340
+              ]
+            ],
+            "cor": "#111111",
+            "larg": 6
+          },
+          {
+            "t": "texto",
+            "x": 469,
+            "y": 306,
+            "txt": "+",
+            "negrito": true,
+            "tam": 16
+          },
+          {
+            "t": "texto",
+            "x": 503,
+            "y": 314,
+            "txt": "−",
+            "negrito": true,
+            "tam": 16
+          }
+        ],
+        "cor2": [
+          {
+            "t": "seta",
+            "de": [
+              470,
+              126
+            ],
+            "para": [
+              520,
+              126
+            ],
+            "cor": "acel",
+            "larg": 3,
+            "rotulo": "i",
+            "sub": "X",
+            "vetor": false,
+            "rot_em": [
+              530,
+              132
+            ]
+          },
+          {
+            "t": "seta",
+            "de": [
+              410,
+              226
+            ],
+            "para": [
+              450,
+              226
+            ],
+            "cor": "acel",
+            "larg": 3,
+            "rotulo": "i",
+            "sub": "Y",
+            "vetor": false,
+            "rot_em": [
+              458,
+              232
+            ]
+          },
+          {
+            "t": "texto",
+            "x": 485,
+            "y": 380,
+            "txt": "mesma tensão U nos dois",
+            "negrito": true,
+            "cor": "acel"
+          },
+          {
+            "t": "texto",
+            "x": 485,
+            "y": 402,
+            "txt": "(R_{X} menor: i_{X} maior)",
+            "cor": "acel"
+          }
+        ]
+      },
+      "altura": 430
+    }
+  },
+  "metodos": [
+    {
+      "nome": "Potência em série e em paralelo",
+      "telas": [
+        {
+          "titulo": "A potência num resistor",
+          "cena": {
+            "mostrar": [
+              "fig1",
+              "fig2"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "A potência dissipada num resistor é o produto da tensão pela corrente:"
+            },
+            {
+              "t": "eq",
+              "tex": "P = U\\,i"
+            },
+            {
+              "t": "texto",
+              "html": "Com a 1ª lei de Ohm, U = R i, ela pode ser escrita de mais duas formas:"
+            },
+            {
+              "t": "eq",
+              "tex": "P = R\\,i^{2} \\quad \\quad P = \\dfrac{U^{2}}{R}"
+            },
+            {
+              "t": "texto",
+              "html": "Em cada circuito, usamos a forma em que aparece o que é <b>igual</b> para os dois resistores."
+            }
+          ]
+        },
+        {
+          "titulo": "Figura 1: série",
+          "cena": {
+            "mostrar": [
+              "fig1",
+              "cor1",
+              "fig2"
+            ],
+            "destacar": [
+              "cor1"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "Em série, a <b>mesma corrente</b> i passa por R<sub>X</sub> e por R<sub>Y</sub>:"
+            },
+            {
+              "t": "eq",
+              "tex": "P_{X} = R_{X}\\,i^{2} \\quad \\quad P_{Y} = R_{Y}\\,i^{2}"
+            },
+            {
+              "t": "texto",
+              "html": "Com a mesma corrente, dissipa mais o de <b>maior</b> resistência. Como R<sub>X</sub> < R<sub>Y</sub>, P<sub>X</sub> < P<sub>Y</sub>."
+            },
+            {
+              "t": "texto",
+              "html": "Na figura 1, R<sub>X</sub> dissipa <b>menos</b> potência: A e C estão erradas."
+            }
+          ]
+        },
+        {
+          "titulo": "Figura 2: paralelo",
+          "cena": {
+            "mostrar": [
+              "fig1",
+              "cor1",
+              "fig2",
+              "cor2"
+            ],
+            "destacar": [
+              "cor2"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "Em paralelo, os dois resistores estão ligados aos mesmos pontos do gerador ideal: a <b>mesma tensão</b> U."
+            },
+            {
+              "t": "eq",
+              "tex": "P_{X} = \\dfrac{U^{2}}{R_{X}} \\quad \\quad P_{Y} = \\dfrac{U^{2}}{R_{Y}}"
+            },
+            {
+              "t": "texto",
+              "html": "Com a mesma tensão, a resistência está no denominador: dissipa mais o de <b>menor</b> resistência. Como R<sub>X</sub> < R<sub>Y</sub>, P<sub>X</sub> > P<sub>Y</sub>."
+            },
+            {
+              "t": "texto",
+              "html": "Na figura 2, R<sub>X</sub> dissipa <b>mais</b> potência: B está certa (D e E estão erradas)."
+            },
+            {
+              "t": "gabarito",
+              "letra": "B"
+            },
+            {
+              "t": "fim"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "status": "revisado",
+  "criadoEm": "2026-11-22T21:00:00-03:00",
+  "atualizadoEm": "2026-11-22T21:00:00-03:00"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "unesp-2027-q80",
+  "banca": "Unesp",
+  "ano": 2027,
+  "numero": "80",
+  "fase": "1ª fase",
+  "fonte": {
+    "descricao": "Vunesp, Vestibular Unesp 2027, 1ª fase (Prova de Conhecimentos Gerais), caderno de questões"
+  },
+  "enunciado": "Em uma apresentação, e utilizando uma lente esférica delgada convergente, uma pessoa pretende projetar a imagem de um slide quadrado de lado 5 cm em uma tela plana e vertical, também quadrada, de lado 120 cm.\n\n[[figura 1]]\n\nSabendo que a tela se encontra a 5 m de distância do slide e que a imagem projetada deve ter área exatamente igual à área da tela, a distância focal da lente utilizada deve ser de\n\n(A) 16,8 cm.\n(B) 19,2 cm.\n(C) 10,5 cm.\n(D) 12,4 cm.\n(E) 22,6 cm.",
+  "figuras": [
+    "unesp-2027-q80-1.png"
+  ],
+  "gabarito": "B",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. Áreas iguais em quadrados significam lados iguais: a imagem tem lado 120 cm, e o slide, 5 cm. A imagem projetada é real, portanto invertida: \\(A = \\dfrac{i}{o} = \\dfrac{-120}{5} = -24\\).\n2. Aumento pela equação dos pontos conjugados: \\(A = -\\dfrac{p'}{p} \\Rightarrow -24 = -\\dfrac{p'}{p} \\Rightarrow p' = 24\\,p\\).\n3. A lente fica entre o slide e a tela, que distam 5 m = 500 cm: p + p' = 500 ⇒ 25 p = 500 ⇒ p = 20 cm e p' = 480 cm.\n4. Equação de Gauss: \\(\\dfrac{1}{f} = \\dfrac{1}{p} + \\dfrac{1}{p'} = \\dfrac{1}{20} + \\dfrac{1}{480} = \\dfrac{24 + 1}{480} = \\dfrac{25}{480}\\).\n5. \\(f = \\dfrac{480}{25} = 19,2\\) cm.\nGabarito: B.",
+  "topicos": [
+    "lentes-esfericas-vergencia-gauss-aumento"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-22T22:20:00.000Z",
+  "atualizadoEm": "2026-11-22T22:20:00.000Z"
+}

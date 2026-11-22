@@ -4,6 +4,24 @@ Cada versão corresponde a um lote de importação ou a uma mudança no app/pipe
 Formato: `vMAIOR.MENOR.CORREÇÃO` — MENOR sobe a cada prova importada; MAIOR, em mudanças
 de modelo de dados; CORREÇÃO, em correções de questões já publicadas.
 
+## v2.21.0 — 2026-11-22
+
+- **Unesp 2027** (1ª fase, Prova de Conhecimentos Gerais, aplicada em 22/11/2026): 8 questões, Q71 e
+  Q76 a Q82. Q71 (ATR-72, Química com Cinemática) é interdisciplinar aprovada pelo Lucas; Q69 (esfera de
+  quartzo) e Q73 (equilíbrio químico) ficaram de fora. O banco passa a ter 616 questões.
+- Gabaritos `resolucao-propria` (o oficial ainda não tinha sido divulgado): 71E, 76D, 77C, 78A, 79D,
+  80B, 81B, 82B. Q78 depende da leitura das curvas de nível (A em 3 420 m, B em 3 660 m).
+- Figuras: a linha "Área ABS = Área A<sub>1</sub>B<sub>1</sub>S" (com traço sobre as letras) entra no recorte da
+  Q77; "fora de escala" entra no recorte da Q76; "Figura 1"/"Figura 2" nos recortes da Q81 e Q82.
+  Q77: "caminho" tem hífen discricionário no PDF (divergência aceita).
+- **Resoluções animadas no formato aula** das 8 questões, publicadas no app de revisão (não revisadas):
+  Q71 com três métodos (mols, proporção em massa, aproximação 528/170 ≈ 3); Q76 com dois métodos
+  (em relação ao lago, com as fotografias do abandono e de 8 s depois, e em relação à lancha), simulação
+  em escala real; Q77 com a figura de Kepler animada pela lei das áreas e a órbita elíptica; Q78 com o
+  mapa de curvas de nível e o perfil (trabalho do peso com sinal, duas trajetórias); Q79 com o gráfico;
+  Q80 com sinais (A = −24, os menos cancelam, p passa para o outro lado) e raios em escala horizontal
+  real; Q81 com espectro e tabela periódica; Q82 com os dois circuitos e o sentido convencional da corrente.
+
 ## v2.19.1 — 2026-11-17
 
 - **Diretrizes das revisões do Lucas** em `docs/ANIMACOES.md` (seção nova): as orientações dos

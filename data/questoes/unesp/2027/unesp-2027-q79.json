@@ -1,0 +1,25 @@
+{
+  "id": "unesp-2027-q79",
+  "banca": "Unesp",
+  "ano": 2027,
+  "numero": "79",
+  "fase": "1ª fase",
+  "fonte": {
+    "descricao": "Vunesp, Vestibular Unesp 2027, 1ª fase (Prova de Conhecimentos Gerais), caderno de questões"
+  },
+  "enunciado": "O gráfico mostra como variou a temperatura de determinada quantidade de água dentro de uma chaleira colocada sobre a chama de um fogão, em função do calor absorvido por essa massa de água.\n\n[[figura 1]]\n\nSabendo que a água dentro da chaleira absorveu calor com uma potência de 2 000 W, o intervalo de tempo em que a temperatura da água foi elevada de 40 ºC para 60 ºC foi de\n\n(A) 2,50 min.\n(B) 2,25 min.\n(C) 3,00 min.\n(D) 2,00 min.\n(E) 3,50 min.",
+  "figuras": [
+    "unesp-2027-q79-1.png"
+  ],
+  "gabarito": "D",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. Pelo gráfico, a água está a 40 ºC quando Q = 24 × 10<sup>4</sup> J e a 60 ºC quando Q = 48 × 10<sup>4</sup> J.\n2. Calor absorvido nesse intervalo: ΔQ = 48 × 10<sup>4</sup> − 24 × 10<sup>4</sup> = 24 × 10<sup>4</sup> J.\n3. Potência: \\(P = \\dfrac{\\Delta Q}{\\Delta t} \\Rightarrow \\Delta t = \\dfrac{24 \\times 10^4}{2\\,000} = 120\\) s.\n4. 120 s = 2,00 min.\nGabarito: D.",
+  "topicos": [
+    "calor-sensivel-e-capacidade-termica",
+    "potencia-e-rendimento",
+    "leitura-e-interpretacao-de-graficos"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-22T22:20:00.000Z",
+  "atualizadoEm": "2026-11-22T22:20:00.000Z"
+}

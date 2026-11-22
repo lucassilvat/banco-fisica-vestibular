@@ -218,6 +218,9 @@ Para gravar questões, usam-se os lotes da etapa `publicar` (docs/WORKFLOW.md).
     As 21 aprovadas: 70 no site público.
 42. v2.19.1: diretrizes das resoluções animadas, reunindo os comentários de revisão do Lucas, na
     seção "Diretrizes das revisões do Lucas" de `docs/ANIMACOES.md`.
+44. v2.21.0: Unesp 2027 (1ª fase, aplicada em 22/11/2026), Q71 e Q76–Q82, com resoluções animadas no
+    formato aula (8 questões; a pedido do Lucas, importação e animações juntas). Q71 interdisciplinar
+    aprovada por ele; Q69 e Q73 fora. Aguardando a revisão das animações no app.
 
 ## Pendências
 
@@ -269,6 +272,9 @@ Para gravar questões, usam-se os lotes da etapa `publicar` (docs/WORKFLOW.md).
 - **Gabaritos Unesp 2017–2020**: `resolucao-propria` (gabaritos oficiais não encontrados em
   texto). Conferir com atenção 2017 Q83 (sentido de giro do motor; resolvida pela figura e
   pela coerência entre as alternativas) e 2019 Q64 (afirmação II, pressão osmótica = dgΔh).
+- **Gabarito oficial Unesp 2027**: as 8 questões estão `resolucao-propria` (71E, 76D, 77C, 78A, 79D,
+  80B, 81B, 82B); trocar para `oficial` quando a Vunesp divulgar. Conferir com atenção a Q78 (leitura
+  das curvas de nível: A em 3 420 m, B em 3 660 m).
 - **Gabaritos Unesp**: 2023 está como `resolucao-propria` sem conferência externa (o
   gabarito oficial só foi achado em imagem). 2022 confere com o Estratégia e 2026 com o
   gabarito divulgado pela Quero Bolsa; trocar para `oficial` quando houver o PDF da Vunesp.
