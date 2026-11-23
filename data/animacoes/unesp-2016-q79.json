@@ -61,7 +61,15 @@
             },
             {
               "t": "eq",
-              "tex": "50\\, v_{B}^{2} = 20\\,000 \\quad \\Rightarrow \\quad v_{B}^{2} = 400 \\quad \\Rightarrow \\quad v_{B} = 20\\ \\text{m/s}"
+              "tex": "50\\, v_{B}^{2} = 20\\,000"
+            },
+            {
+              "t": "eq",
+              "tex": "v_{B}^{2} = \\dfrac{20\\,000}{50} = 400"
+            },
+            {
+              "t": "eq",
+              "tex": "v_{B} = \\sqrt{400} = 20\\ \\text{m/s}"
             },
             {
               "t": "texto",

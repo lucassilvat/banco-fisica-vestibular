@@ -220,6 +220,21 @@
             "txt": "visível: 85 cm",
             "cor": "var(--danger)"
           }
+        ],
+        "h": [
+          {
+            "t": "cota",
+            "de": [
+              300,
+              110
+            ],
+            "para": [
+              300,
+              149
+            ],
+            "cor": "#111111",
+            "txt": "h"
+          }
         ]
       }
     }
@@ -265,10 +280,11 @@
             "mostrar": [
               "agua",
               "tubo",
-              "limite"
+              "limite",
+              "h"
             ],
             "destacar": [
-              "limite"
+              "h"
             ]
           },
           "blocos": [
@@ -304,6 +320,7 @@
               "agua",
               "tubo",
               "limite",
+              "h",
               "partes"
             ],
             "destacar": [

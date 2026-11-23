@@ -50,7 +50,7 @@
           },
           {
             "t": "texto",
-            "x": 320,
+            "x": 290,
             "y": 337,
             "txt": "6",
             "negrito": true
@@ -67,7 +67,7 @@
           },
           {
             "t": "texto",
-            "x": 320,
+            "x": 290,
             "y": 271,
             "txt": "6",
             "negrito": true
@@ -84,7 +84,7 @@
           },
           {
             "t": "texto",
-            "x": 320,
+            "x": 290,
             "y": 205,
             "txt": "6",
             "negrito": true
@@ -92,20 +92,28 @@
         ],
         "forcas": [
           {
+            "t": "circ",
+            "x": 320,
+            "y": 270,
+            "r": 5,
+            "cor": "tinta",
+            "borda": "tinta"
+          },
+          {
             "t": "seta",
             "de": [
-              380,
-              370
+              320,
+              270
             ],
             "para": [
-              380,
-              210
+              320,
+              112
             ],
             "cor": "normal",
-            "larg": 3,
+            "larg": 3.5,
             "rot_em": [
-              392,
-              214
+              334,
+              122
             ],
             "ancora": "start",
             "rotulo": "N"
@@ -113,21 +121,30 @@
           {
             "t": "seta",
             "de": [
-              240,
+              320,
               270
             ],
             "para": [
-              240,
-              370
+              320,
+              362
             ],
             "cor": "peso",
-            "larg": 3,
+            "larg": 3.5,
             "rot_em": [
-              228,
-              366
+              334,
+              356
             ],
-            "ancora": "end",
+            "ancora": "start",
             "rotulo": "P"
+          },
+          {
+            "t": "texto",
+            "x": 334,
+            "y": 330,
+            "txt": "3mg",
+            "negrito": true,
+            "cor": "peso",
+            "ancora": "start"
           },
           {
             "t": "seta",
@@ -148,15 +165,6 @@
             ],
             "ancora": "start",
             "rotulo": "a"
-          },
-          {
-            "t": "texto",
-            "x": 240,
-            "y": 254,
-            "txt": "3mg",
-            "negrito": true,
-            "cor": "peso",
-            "ancora": "end"
           }
         ],
         "limite": [
@@ -215,7 +223,7 @@
           "blocos": [
             {
               "t": "texto",
-              "html": "No conjunto das três caixas agem o peso \\(\\vec{P}\\), de intensidade 3mg, e a normal \\(\\vec{N}\\) do piso. Acelerando para cima, pela 2ª lei de Newton:"
+              "html": "Tomamos o conjunto das três caixas como um só corpo, com as forças aplicadas no seu centro: o peso \\(\\vec{P}\\), de intensidade 3mg, e a normal \\(\\vec{N}\\) do piso. Acelerando para cima, pela 2ª lei de Newton:"
             },
             {
               "t": "eq",

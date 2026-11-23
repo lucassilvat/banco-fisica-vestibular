@@ -21,7 +21,13 @@ de modelo de dados; CORREÇÃO, em correções de questões já publicadas.
   faces (dispersão exagerada e avisada no desenho); **Q81** sem "tomba": o 6 é o expoente de 10;
   **Q82** com o circuito redesenhado (resistor ligado entre A e B, lâmpada no caminho da corrente,
   voltímetro em paralelo e amperímetro em série identificados). Diretrizes atualizadas.
-- Todas aguardam a revisão do Lucas no app; o site público não muda até ele aprovar.
+- Revisão do Lucas (2016 e 2017): **2016 Q78** com o peso e a normal aplicados no centro do conjunto
+  das três caixas; **2016 Q79** com o cálculo de v<sub>B</sub> em linhas, uma embaixo da outra; **2016 Q82**
+  com λ e λ/2 marcados na figura (3 m = 1,5λ); **2017 Q80** com h marcado no tubo; **2017 Q83** refeita
+  sem produto vetorial: por eliminação, cada alternativa com a polaridade da pilha, o polo do ímã e a
+  regra da mão direita desenhada (vista lateral), e o giro na vista do observador da figura.
+- As demais 19 aprovadas pelo Lucas. Diretrizes atualizadas.
+- Aguardam a revisão do Lucas no app as 5 corrigidas; o site público não muda até ele aprovar.
 
 ## v2.19.1 — 2026-11-17
 
