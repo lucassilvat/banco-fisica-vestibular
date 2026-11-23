@@ -1,230 +1,136 @@
 {
   "id": "unesp-2018-q81",
+  "formato": "aula",
   "titulo": "Do nível sonoro à energia no tímpano",
   "conceitos": [
     "Nível sonoro",
     "Intensidade de onda"
   ],
-  "cena": {
-    "modelo": "diagrama",
-    "parametros": {
-      "elementos": {
-        "etapa-1": [
-          {
-            "t": "ret",
-            "x": 30,
-            "y": 16,
-            "w": 400,
-            "h": 40,
-            "cor": "suave",
-            "borda": "normal",
-            "rx": 7
-          },
-          {
-            "t": "texto",
-            "x": 42,
-            "y": 36.0,
-            "txt": "nível sonoro",
-            "mudo": true,
-            "ancora": "start"
-          },
-          {
-            "t": "texto",
-            "x": 418,
-            "y": 36.0,
-            "txt": "60 dB",
-            "negrito": true,
-            "ancora": "end"
-          }
-        ],
-        "etapa-2": [
-          {
-            "t": "seta",
-            "de": [
-              230.0,
-              59
-            ],
-            "para": [
-              230.0,
-              79
-            ],
-            "cor": "tinta",
-            "larg": 1.8
-          },
-          {
-            "t": "texto",
-            "x": 242.0,
-            "y": 69.0,
-            "txt": "β = 10 log(I/I_{0})",
-            "negrito": true,
-            "cor": "acel",
-            "ancora": "start"
-          },
-          {
-            "t": "ret",
-            "x": 30,
-            "y": 82,
-            "w": 400,
-            "h": 40,
-            "cor": "suave",
-            "borda": "normal",
-            "rx": 7
-          },
-          {
-            "t": "texto",
-            "x": 42,
-            "y": 102.0,
-            "txt": "intensidade",
-            "mudo": true,
-            "ancora": "start"
-          },
-          {
-            "t": "texto",
-            "x": 418,
-            "y": 102.0,
-            "txt": "10^{−6} W/m²",
-            "negrito": true,
-            "ancora": "end"
-          }
-        ],
-        "etapa-3": [
-          {
-            "t": "seta",
-            "de": [
-              230.0,
-              125
-            ],
-            "para": [
-              230.0,
-              145
-            ],
-            "cor": "tinta",
-            "larg": 1.8
-          },
-          {
-            "t": "texto",
-            "x": 242.0,
-            "y": 135.0,
-            "txt": "× 6,0 × 10^{−5} m²",
-            "negrito": true,
-            "cor": "acel",
-            "ancora": "start"
-          },
-          {
-            "t": "ret",
-            "x": 30,
-            "y": 148,
-            "w": 400,
-            "h": 40,
-            "cor": "suave",
-            "borda": "normal",
-            "rx": 7
-          },
-          {
-            "t": "texto",
-            "x": 42,
-            "y": 168.0,
-            "txt": "potência no tímpano",
-            "mudo": true,
-            "ancora": "start"
-          },
-          {
-            "t": "texto",
-            "x": 418,
-            "y": 168.0,
-            "txt": "6,0 × 10^{−11} W",
-            "negrito": true,
-            "ancora": "end"
-          }
-        ],
-        "etapa-4": [
-          {
-            "t": "seta",
-            "de": [
-              230.0,
-              191
-            ],
-            "para": [
-              230.0,
-              211
-            ],
-            "cor": "tinta",
-            "larg": 1.8
-          },
-          {
-            "t": "texto",
-            "x": 242.0,
-            "y": 201.0,
-            "txt": "× 5,0 s",
-            "negrito": true,
-            "cor": "acel",
-            "ancora": "start"
-          },
-          {
-            "t": "ret",
-            "x": 30,
-            "y": 214,
-            "w": 400,
-            "h": 40,
-            "cor": "suave",
-            "borda": "normal",
-            "rx": 7
-          },
-          {
-            "t": "texto",
-            "x": 42,
-            "y": 234.0,
-            "txt": "energia em 5,0 s",
-            "mudo": true,
-            "ancora": "start"
-          },
-          {
-            "t": "texto",
-            "x": 418,
-            "y": 234.0,
-            "txt": "3,0 × 10^{−10} J",
-            "negrito": true,
-            "ancora": "end"
-          }
-        ]
-      }
-    }
-  },
-  "passos": [
+  "metodos": [
     {
-      "titulo": "A intensidade",
-      "conceito": "Nível sonoro",
-      "texto": "Pela definição de nível sonoro:",
-      "equacoes": [
-        "60 = 10\\log\\dfrac{\\mathrm{I}}{10^{-12}} \\quad \\Rightarrow \\quad \\mathrm{I} = 10^{-6}\\ \\text{W/m}^{2}"
-      ],
-      "cena": {
-        "mostrar": [
-          "etapa-1",
-          "etapa-2"
-        ]
-      }
-    },
-    {
-      "titulo": "Potência e energia",
-      "conceito": "Intensidade de onda",
-      "texto": "Intensidade é potência por área; energia é potência vezes tempo. Resposta: <b>(C) 3,0 × 10<sup>−10</sup> J</b>.",
-      "equacoes": [
-        "P = \\mathrm{I} \\cdot A = 10^{-6} \\cdot 6,0 \\times 10^{-5} = 6,0 \\times 10^{-11}\\ \\text{W}",
-        "E = P\\,\\Delta t = 6,0 \\times 10^{-11} \\cdot 5,0 = 3,0 \\times 10^{-10}\\ \\text{J}"
-      ],
-      "cena": {
-        "mostrar": [
-          "etapa-3",
-          "etapa-4"
-        ],
-        "destacar": [
-          "etapa-4"
-        ]
-      }
+      "nome": "Nível sonoro e energia",
+      "telas": [
+        {
+          "titulo": "O nível sonoro",
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "A definição de nível sonoro, com β = 60 dB:"
+            },
+            {
+              "t": "eq",
+              "tex": "\\beta = 10 \\log\\dfrac{I}{I_{0}}"
+            },
+            {
+              "t": "eq",
+              "tex": "60 = \\marca{d}{10} \\log\\dfrac{I}{10^{-12}}"
+            },
+            {
+              "t": "eq",
+              "tex": "\\dfrac{60}{\\marca{d}{10}} = \\log\\dfrac{I}{10^{-12}}",
+              "mover": [
+                "d"
+              ]
+            },
+            {
+              "t": "eq",
+              "tex": "\\log\\dfrac{I}{10^{-12}} = 6"
+            }
+          ]
+        },
+        {
+          "titulo": "A intensidade",
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "Pela definição de logaritmo (base 10), o 6 é o expoente de 10:"
+            },
+            {
+              "t": "eq",
+              "tex": "\\log_{\\marca{b}{10}} \\dfrac{I}{10^{-12}} = \\marca{e}{6}"
+            },
+            {
+              "t": "eq",
+              "tex": "\\dfrac{I}{10^{-12}} = \\marca{b}{10}^{\\marca{e}{6}}",
+              "mover": [
+                "b",
+                "e"
+              ]
+            },
+            {
+              "t": "eq",
+              "tex": "I = 10^{6} \\cdot 10^{-12} = 10^{-6}\\ \\text{W/m}^{2}"
+            }
+          ]
+        },
+        {
+          "titulo": "A potência no tímpano",
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "Intensidade é potência por unidade de área:"
+            },
+            {
+              "t": "eq",
+              "tex": "I = \\dfrac{P}{\\marca{a}{A}}"
+            },
+            {
+              "t": "eq",
+              "tex": "P = I \\cdot \\marca{a}{A}",
+              "mover": [
+                "a"
+              ]
+            },
+            {
+              "t": "eq",
+              "tex": "P = 10^{-6} \\cdot 6,0 \\cdot 10^{-5} = 6,0 \\cdot 10^{-11}\\ \\text{W}"
+            }
+          ]
+        },
+        {
+          "titulo": "A energia em 5,0 s",
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "Potência é energia por unidade de tempo:"
+            },
+            {
+              "t": "eq",
+              "tex": "P = \\dfrac{E}{\\marca{t}{\\Delta t}}"
+            },
+            {
+              "t": "eq",
+              "tex": "E = P \\cdot \\marca{t}{\\Delta t}",
+              "mover": [
+                "t"
+              ]
+            },
+            {
+              "t": "eq",
+              "tex": "E = 6,0 \\cdot 10^{-11} \\cdot 5,0 = 30 \\cdot 10^{-11}"
+            },
+            {
+              "t": "eq",
+              "tex": "E = 3,0 \\cdot 10^{-10}\\ \\text{J}"
+            },
+            {
+              "t": "gabarito",
+              "letra": "C"
+            },
+            {
+              "t": "fim"
+            }
+          ]
+        }
+      ]
     }
   ],
   "status": "revisado",
   "criadoEm": "2026-11-15T09:00:00-03:00",
-  "atualizadoEm": "2026-11-15T09:00:00-03:00"
+  "atualizadoEm": "2026-11-15T09:00:00-03:00",
+  "revisao": {
+    "estado": "aprovada",
+    "comentario": "",
+    "atualizadoEm": "2026-11-18T02:11:30.876Z"
+  }
 }

@@ -1,0 +1,24 @@
+{
+  "id": "unesp-2027-q71",
+  "banca": "Unesp",
+  "ano": 2027,
+  "numero": "71",
+  "fase": "1ª fase",
+  "fonte": {
+    "descricao": "Vunesp, Vestibular Unesp 2027, 1ª fase (Prova de Conhecimentos Gerais), caderno de questões"
+  },
+  "enunciado": "A fotografia mostra o turboélice ATR-72, um dos aviões mais utilizados na aviação regional de diversos países, inclusive do Brasil.\n\n[[figura 1]]\n\n(www.laranews.net)\n\nAlgumas características dessa aeronave são:\n\n– Velocidade de cruzeiro: aproximadamente 500 km/h;\n– Consumo de combustível em velocidade de cruzeiro: 760 kg/h;\n– Combustível: querosene de aviação (composição média C<sub>12</sub>H<sub>26</sub>; massa molar média = 170 g/mol).\n\nEm velocidade de cruzeiro, um ATR-72 percorreu um trecho de 200 km entre as cidades de Bauru (SP) e Araçatuba (SP).\n\nAdmitindo que a combustão do querosene de aviação tenha sido completa, calcula-se que a massa de CO<sub>2</sub> (massa molar = 44 g/mol) produzida durante o voo nesse trecho foi próxima de\n\n(A) 700 kg.\n(B) 1 200 kg.\n(C) 300 kg.\n(D) 500 kg.\n(E) 900 kg.",
+  "figuras": [
+    "unesp-2027-q71-1.png"
+  ],
+  "gabarito": "E",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "Questão de Química com conteúdo de Cinemática.\n1. Tempo de voo em velocidade de cruzeiro: \\(\\Delta t = \\dfrac{\\Delta s}{v} = \\dfrac{200}{500} = 0,4\\) h.\n2. Combustível consumido: 0,4 h · 760 kg/h = 304 kg = 304 000 g.\n3. Quantidade de querosene (C<sub>12</sub>H<sub>26</sub>): \\(n = \\dfrac{304\\,000}{170} \\approx 1\\,788\\) mol.\n4. Na combustão completa, cada molécula de C<sub>12</sub>H<sub>26</sub> tem 12 átomos de carbono e forma 12 CO<sub>2</sub>: \\(n_{\\text{CO}_2} = 12 \\cdot 1\\,788 \\approx 21\\,460\\) mol.\n5. Massa de CO<sub>2</sub>: 21 460 · 44 g ≈ 944 000 g ≈ 944 kg, próxima de 900 kg.\n6. Pela proporção em massa: 170 g de querosene formam 12 · 44 = 528 g de CO<sub>2</sub>; como 528/170 ≈ 3,1, 304 kg formam cerca de 304 · 3,1 ≈ 940 kg.\nGabarito: E.",
+  "topicos": [
+    "movimento-retilineo-uniforme-mru",
+    "velocidade-media-e-aceleracao-media"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-22T22:20:00.000Z",
+  "atualizadoEm": "2026-11-22T22:20:00.000Z"
+}

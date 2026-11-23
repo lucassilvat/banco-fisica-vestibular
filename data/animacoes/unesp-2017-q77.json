@@ -1,5 +1,6 @@
 {
   "id": "unesp-2017-q77",
+  "formato": "aula",
   "titulo": "Pêndulo cônico: a tração dá peso e curva",
   "conceitos": [
     "Resultante centrípeta",
@@ -222,46 +223,153 @@
       }
     }
   },
-  "passos": [
+  "metodos": [
     {
-      "titulo": "A trajetória",
-      "conceito": "Resultante centrípeta",
-      "texto": "O objeto percorre, num plano horizontal, uma circunferência de centro C e raio 15/2 = 7,5 m, com a corda inclinada de θ em relação à vertical OC.",
-      "cena": {
-        "mostrar": [
-          "cena"
-        ]
-      }
-    },
-    {
-      "titulo": "As forças",
-      "conceito": "Decomposição vetorial",
-      "texto": "Agem o peso \\(\\vec{P}\\) e a tração \\(\\vec{T}\\). A componente vertical da tração equilibra o peso; a horizontal, que aponta para C, é a resultante centrípeta.",
-      "equacoes": [
-        "T\\cos\\theta = mg, \\quad T\\,\\sen\\theta = m\\omega^{2}R"
-      ],
-      "cena": {
-        "mostrar": [
-          "forcas",
-          "componentes"
-        ]
-      }
-    },
-    {
-      "titulo": "A velocidade angular",
-      "conceito": "Resultante centrípeta",
-      "texto": "Dividindo uma equação pela outra, a tração e a massa desaparecem. Resposta: <b>(A) 1,0 rad/s</b>.",
-      "equacoes": [
-        "\\tg\\theta = \\dfrac{\\omega^{2}R}{g} \\quad \\Rightarrow \\quad \\omega^{2} = \\dfrac{10 \\cdot 0,75}{7,5} = 1 \\quad \\Rightarrow \\quad \\omega = 1,0\\ \\text{rad/s}"
-      ],
-      "cena": {
-        "destacar": [
-          "componentes"
-        ]
-      }
+      "nome": "Pêndulo cônico",
+      "telas": [
+        {
+          "titulo": "A trajetória",
+          "cena": {
+            "mostrar": [
+              "cena"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "O objeto percorre, num plano horizontal, um arco de circunferência de centro C. O raio é metade do diâmetro:"
+            },
+            {
+              "t": "eq",
+              "tex": "R = \\dfrac{15}{2} = 7,5\\ \\text{m}"
+            },
+            {
+              "t": "texto",
+              "html": "A corda forma o ângulo θ com a vertical OC."
+            }
+          ]
+        },
+        {
+          "titulo": "As forças",
+          "cena": {
+            "mostrar": [
+              "cena",
+              "forcas",
+              "componentes"
+            ],
+            "destacar": [
+              "componentes"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "Sobre o objeto agem o peso \\(\\vec{P}\\) e a tração \\(\\vec{T}\\) da corda."
+            },
+            {
+              "t": "texto",
+              "html": "Decompomos \\(\\vec{T}\\): no triângulo retângulo, a componente vertical é o cateto adjacente a θ e a horizontal, o oposto."
+            },
+            {
+              "t": "eq",
+              "tex": "T_{y} = T \\cos\\theta"
+            },
+            {
+              "t": "eq",
+              "tex": "T_{x} = T \\sen\\theta"
+            }
+          ]
+        },
+        {
+          "titulo": "As duas equações",
+          "cena": {
+            "mostrar": [
+              "cena",
+              "forcas",
+              "componentes"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "Na vertical não há movimento: T<sub>y</sub> equilibra o peso."
+            },
+            {
+              "t": "eq",
+              "tex": "T \\cos\\theta = m\\, g"
+            },
+            {
+              "t": "texto",
+              "html": "Na horizontal, T<sub>x</sub> aponta para C: é a resultante centrípeta, F<sub>cp</sub> = m ω² R."
+            },
+            {
+              "t": "eq",
+              "tex": "T \\sen\\theta = m\\, \\omega^{2} R"
+            }
+          ]
+        },
+        {
+          "titulo": "A velocidade angular",
+          "cena": {
+            "mostrar": [
+              "cena",
+              "forcas",
+              "componentes"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "Dividimos a segunda equação pela primeira:"
+            },
+            {
+              "t": "eq",
+              "tex": "\\dfrac{\\marca{t1}{T} \\sen\\theta}{\\marca{t2}{T} \\cos\\theta} = \\dfrac{\\marca{m1}{m}\\, \\omega^{2} R}{\\marca{m2}{m}\\, g}"
+            },
+            {
+              "t": "eq",
+              "tex": "\\tg\\theta = \\dfrac{\\omega^{2} \\marca{r}{R}}{\\marca{g}{g}}",
+              "cancelar": [
+                "t1",
+                "t2",
+                "m1",
+                "m2"
+              ]
+            },
+            {
+              "t": "eq",
+              "tex": "\\omega^{2} = \\dfrac{\\marca{g}{g} \\tg\\theta}{\\marca{r}{R}}",
+              "mover": [
+                "g",
+                "r"
+              ]
+            },
+            {
+              "t": "eq",
+              "tex": "\\omega^{2} = \\dfrac{10 \\cdot \\frac{0,6}{0,8}}{7,5} = \\dfrac{10 \\cdot 0,75}{7,5} = \\dfrac{7,5}{7,5} = 1"
+            },
+            {
+              "t": "eq",
+              "tex": "\\omega = 1,0\\ \\text{rad/s}"
+            },
+            {
+              "t": "gabarito",
+              "letra": "A"
+            },
+            {
+              "t": "fim"
+            }
+          ]
+        }
+      ]
     }
   ],
   "status": "revisado",
   "criadoEm": "2026-11-15T09:00:00-03:00",
-  "atualizadoEm": "2026-11-15T09:00:00-03:00"
+  "atualizadoEm": "2026-11-15T09:00:00-03:00",
+  "revisao": {
+    "estado": "aprovada",
+    "comentario": "",
+    "atualizadoEm": "2026-11-22T14:22:55.373Z"
+  }
 }

@@ -1,0 +1,684 @@
+{
+  "id": "unesp-2027-q79",
+  "formato": "aula",
+  "titulo": "Quanto tempo para aquecer de 40 ºC a 60 ºC",
+  "conceitos": [
+    "Calor sensível",
+    "Potência"
+  ],
+  "cena": {
+    "modelo": "diagrama",
+    "parametros": {
+      "elementos": {
+        "grafico": [
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                90,
+                370.0
+              ],
+              [
+                90,
+                67.59999999999997
+              ]
+            ],
+            "cor": "#e3e6ea",
+            "larg": 1
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                126,
+                370.0
+              ],
+              [
+                126,
+                67.59999999999997
+              ]
+            ],
+            "cor": "#e3e6ea",
+            "larg": 1
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                162,
+                370.0
+              ],
+              [
+                162,
+                67.59999999999997
+              ]
+            ],
+            "cor": "#e3e6ea",
+            "larg": 1
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                198,
+                370.0
+              ],
+              [
+                198,
+                67.59999999999997
+              ]
+            ],
+            "cor": "#e3e6ea",
+            "larg": 1
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                234,
+                370.0
+              ],
+              [
+                234,
+                67.59999999999997
+              ]
+            ],
+            "cor": "#e3e6ea",
+            "larg": 1
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                270,
+                370.0
+              ],
+              [
+                270,
+                67.59999999999997
+              ]
+            ],
+            "cor": "#e3e6ea",
+            "larg": 1
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                306,
+                370.0
+              ],
+              [
+                306,
+                67.59999999999997
+              ]
+            ],
+            "cor": "#e3e6ea",
+            "larg": 1
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                342,
+                370.0
+              ],
+              [
+                342,
+                67.59999999999997
+              ]
+            ],
+            "cor": "#e3e6ea",
+            "larg": 1
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                378,
+                370.0
+              ],
+              [
+                378,
+                67.59999999999997
+              ]
+            ],
+            "cor": "#e3e6ea",
+            "larg": 1
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                414,
+                370.0
+              ],
+              [
+                414,
+                67.59999999999997
+              ]
+            ],
+            "cor": "#e3e6ea",
+            "larg": 1
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                450,
+                370.0
+              ],
+              [
+                450,
+                67.59999999999997
+              ]
+            ],
+            "cor": "#e3e6ea",
+            "larg": 1
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                486,
+                370.0
+              ],
+              [
+                486,
+                67.59999999999997
+              ]
+            ],
+            "cor": "#e3e6ea",
+            "larg": 1
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                522,
+                370.0
+              ],
+              [
+                522,
+                67.59999999999997
+              ]
+            ],
+            "cor": "#e3e6ea",
+            "larg": 1
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                558,
+                370.0
+              ],
+              [
+                558,
+                67.59999999999997
+              ]
+            ],
+            "cor": "#e3e6ea",
+            "larg": 1
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                90,
+                370.0
+              ],
+              [
+                558,
+                370.0
+              ]
+            ],
+            "cor": "#e3e6ea",
+            "larg": 1
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                90,
+                334.0
+              ],
+              [
+                558,
+                334.0
+              ]
+            ],
+            "cor": "#e3e6ea",
+            "larg": 1
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                90,
+                298.0
+              ],
+              [
+                558,
+                298.0
+              ]
+            ],
+            "cor": "#e3e6ea",
+            "larg": 1
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                90,
+                262.0
+              ],
+              [
+                558,
+                262.0
+              ]
+            ],
+            "cor": "#e3e6ea",
+            "larg": 1
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                90,
+                226.0
+              ],
+              [
+                558,
+                226.0
+              ]
+            ],
+            "cor": "#e3e6ea",
+            "larg": 1
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                90,
+                190.0
+              ],
+              [
+                558,
+                190.0
+              ]
+            ],
+            "cor": "#e3e6ea",
+            "larg": 1
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                90,
+                154.0
+              ],
+              [
+                558,
+                154.0
+              ]
+            ],
+            "cor": "#e3e6ea",
+            "larg": 1
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                90,
+                118.0
+              ],
+              [
+                558,
+                118.0
+              ]
+            ],
+            "cor": "#e3e6ea",
+            "larg": 1
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                90,
+                82.0
+              ],
+              [
+                558,
+                82.0
+              ]
+            ],
+            "cor": "#e3e6ea",
+            "larg": 1
+          },
+          {
+            "t": "seta",
+            "de": [
+              90,
+              370
+            ],
+            "para": [
+              594,
+              370
+            ],
+            "cor": "#111111",
+            "larg": 2
+          },
+          {
+            "t": "seta",
+            "de": [
+              90,
+              370
+            ],
+            "para": [
+              90,
+              38.80000000000001
+            ],
+            "cor": "#111111",
+            "larg": 2
+          },
+          {
+            "t": "texto",
+            "x": 86,
+            "y": 32.80000000000001,
+            "txt": "θ (ºC)",
+            "negrito": true
+          },
+          {
+            "t": "texto",
+            "x": 594,
+            "y": 404,
+            "txt": "Q (10^{4} J)",
+            "negrito": true,
+            "ancora": "end"
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                90,
+                298.0
+              ],
+              [
+                522,
+                82.0
+              ]
+            ],
+            "cor": "#e30513",
+            "larg": 3
+          },
+          {
+            "t": "texto",
+            "x": 90,
+            "y": 390,
+            "txt": "0"
+          },
+          {
+            "t": "texto",
+            "x": 234,
+            "y": 390,
+            "txt": "24"
+          },
+          {
+            "t": "texto",
+            "x": 378,
+            "y": 390,
+            "txt": "48"
+          },
+          {
+            "t": "texto",
+            "x": 522,
+            "y": 390,
+            "txt": "72"
+          },
+          {
+            "t": "texto",
+            "x": 80,
+            "y": 303.0,
+            "txt": "20",
+            "ancora": "end"
+          },
+          {
+            "t": "texto",
+            "x": 80,
+            "y": 231.0,
+            "txt": "40",
+            "ancora": "end"
+          },
+          {
+            "t": "texto",
+            "x": 80,
+            "y": 159.0,
+            "txt": "60",
+            "ancora": "end"
+          },
+          {
+            "t": "texto",
+            "x": 80,
+            "y": 87.0,
+            "txt": "80",
+            "ancora": "end"
+          },
+          {
+            "t": "circ",
+            "x": 90,
+            "y": 298.0,
+            "r": 5,
+            "cor": "#111111"
+          },
+          {
+            "t": "circ",
+            "x": 234,
+            "y": 226.0,
+            "r": 5,
+            "cor": "#111111"
+          },
+          {
+            "t": "circ",
+            "x": 378,
+            "y": 154.0,
+            "r": 5,
+            "cor": "#111111"
+          },
+          {
+            "t": "circ",
+            "x": 522,
+            "y": 82.0,
+            "r": 5,
+            "cor": "#111111"
+          }
+        ],
+        "leitura": [
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                90,
+                226.0
+              ],
+              [
+                234,
+                226.0
+              ],
+              [
+                234,
+                370
+              ]
+            ],
+            "cor": "normal",
+            "larg": 2,
+            "tracejado": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                90,
+                154.0
+              ],
+              [
+                378,
+                154.0
+              ],
+              [
+                378,
+                370
+              ]
+            ],
+            "cor": "normal",
+            "larg": 2,
+            "tracejado": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                234,
+                226.0
+              ],
+              [
+                378,
+                154.0
+              ]
+            ],
+            "cor": "normal",
+            "larg": 6
+          },
+          {
+            "t": "cota",
+            "de": [
+              234,
+              414
+            ],
+            "para": [
+              378,
+              414
+            ],
+            "cor": "normal",
+            "rot_em": [
+              306,
+              400
+            ],
+            "txt": "ΔQ = 24 · 10^{4} J"
+          },
+          {
+            "t": "rotulo",
+            "x": 486,
+            "y": 262.0,
+            "txt": "de 40 ºC a 60 ºC",
+            "cor": "var(--accent)"
+          }
+        ]
+      },
+      "altura": 430
+    }
+  },
+  "metodos": [
+    {
+      "nome": "Leitura do gráfico e potência",
+      "telas": [
+        {
+          "titulo": "A leitura do gráfico",
+          "cena": {
+            "mostrar": [
+              "grafico",
+              "leitura"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "O gráfico dá a temperatura da água para cada quantidade de calor absorvido."
+            },
+            {
+              "t": "texto",
+              "html": "A água está a <b>40 ºC</b> quando Q = 24 · 10<sup>4</sup> J e a <b>60 ºC</b> quando Q = 48 · 10<sup>4</sup> J."
+            },
+            {
+              "t": "texto",
+              "html": "O calor absorvido entre essas duas temperaturas é a diferença:"
+            },
+            {
+              "t": "eq",
+              "tex": "\\Delta Q = 48 \\cdot 10^{4} - 24 \\cdot 10^{4} = 24 \\cdot 10^{4}\\ \\text{J}"
+            }
+          ]
+        },
+        {
+          "titulo": "A potência",
+          "cena": {
+            "mostrar": [
+              "grafico",
+              "leitura"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "Potência é a energia transferida por unidade de tempo:"
+            },
+            {
+              "t": "eq",
+              "tex": "P = \\dfrac{\\Delta Q}{\\marca{t}{\\Delta t}}"
+            },
+            {
+              "t": "texto",
+              "html": "Isolando o intervalo de tempo:"
+            },
+            {
+              "t": "eq",
+              "tex": "\\marca{t}{\\Delta t} = \\dfrac{\\Delta Q}{P}",
+              "mover": [
+                "t"
+              ]
+            },
+            {
+              "t": "eq",
+              "tex": "\\Delta t = \\dfrac{24 \\cdot 10^{4}}{2\\,000}"
+            },
+            {
+              "t": "texto",
+              "html": "Escrevendo 24 = 2 · 12 e 2 000 = 2 · 10<sup>3</sup>, o 2 <b>cancela</b>:"
+            },
+            {
+              "t": "eq",
+              "tex": "\\Delta t = \\dfrac{\\marca{a}{2} \\cdot 12 \\cdot 10^{4}}{\\marca{b}{2} \\cdot 10^{3}}"
+            },
+            {
+              "t": "eq",
+              "tex": "\\Delta t = 12 \\cdot 10 = 120\\ \\text{s}",
+              "cancelar": [
+                "a",
+                "b"
+              ]
+            },
+            {
+              "t": "texto",
+              "html": "Como 1 min = 60 s, 120 s = <b>2,00 min</b>."
+            },
+            {
+              "t": "gabarito",
+              "letra": "D"
+            },
+            {
+              "t": "fim"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "status": "revisado",
+  "criadoEm": "2026-11-22T21:00:00-03:00",
+  "atualizadoEm": "2026-11-22T21:00:00-03:00",
+  "revisao": {
+    "estado": "aprovada",
+    "comentario": "",
+    "atualizadoEm": "2026-11-23T01:27:58.656Z"
+  }
+}

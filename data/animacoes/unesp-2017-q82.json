@@ -1,5 +1,6 @@
 {
   "id": "unesp-2017-q82",
+  "formato": "aula",
   "titulo": "Potencial nulo, campo não nulo",
   "conceitos": [
     "Potencial elétrico",
@@ -125,7 +126,7 @@
             "t": "rotulo",
             "x": 470,
             "y": 380,
-            "txt": "V_C = k₀(Q + Q − 2Q)/r = 0",
+            "txt": "potencial em C: k₀(Q + Q − 2Q)/r = 0",
             "cor": "var(--accent)"
           }
         ],
@@ -211,49 +212,108 @@
       }
     }
   },
-  "passos": [
+  "metodos": [
     {
-      "titulo": "O potencial em C",
-      "conceito": "Potencial elétrico",
-      "texto": "As três cargas estão à mesma distância r de C. O potencial é escalar: soma-se com sinal.",
-      "equacoes": [
-        "\\mathrm{V}_\\mathrm{C} = \\dfrac{\\mathrm{k}_0(\\mathrm{Q} + \\mathrm{Q} - 2\\mathrm{Q})}{\\mathrm{r}} = 0"
-      ],
-      "cena": {
-        "mostrar": [
-          "cargas",
-          "potencial"
-        ]
-      }
-    },
-    {
-      "titulo": "Os campos de q₁ e q₂",
-      "conceito": "Campo elétrico",
-      "texto": "q<sub>1</sub> e q<sub>2</sub> são iguais e estão nas extremidades de um diâmetro: em C, seus campos têm o mesmo módulo e sentidos opostos e se anulam.",
-      "cena": {
-        "mostrar": [
-          "campos-12"
-        ]
-      }
-    },
-    {
-      "titulo": "O campo de q₃",
-      "conceito": "Campo elétrico",
-      "texto": "Sobra o campo de q<sub>3</sub>, que aponta para ela (carga negativa). Resposta: <b>(E)</b>.",
-      "equacoes": [
-        "\\mathrm{E}_\\mathrm{C} = \\mathrm{k}_0 \\cdot \\dfrac{2\\mathrm{Q}}{\\mathrm{r}^{2}}"
-      ],
-      "cena": {
-        "mostrar": [
-          "campo-3"
-        ],
-        "destacar": [
-          "campo-3"
-        ]
-      }
+      "nome": "Potencial e campo",
+      "telas": [
+        {
+          "titulo": "O potencial em C",
+          "cena": {
+            "mostrar": [
+              "cargas",
+              "potencial"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "As três cargas estão sobre a circunferência: todas à mesma distância r de C."
+            },
+            {
+              "t": "texto",
+              "html": "O potencial de uma carga puntiforme é escalar e leva o sinal da carga:"
+            },
+            {
+              "t": "eq",
+              "tex": "V = \\dfrac{k_{0}\\, q}{r}"
+            },
+            {
+              "t": "eq",
+              "tex": "V_{C} = \\dfrac{k_{0} Q}{r} + \\dfrac{k_{0} Q}{r} + \\dfrac{k_{0} (-2Q)}{r}"
+            },
+            {
+              "t": "eq",
+              "tex": "V_{C} = \\dfrac{k_{0} (Q + Q - 2Q)}{r} = 0"
+            }
+          ]
+        },
+        {
+          "titulo": "Os campos de q₁ e q₂",
+          "cena": {
+            "mostrar": [
+              "cargas",
+              "potencial",
+              "campos-12"
+            ],
+            "destacar": [
+              "campos-12"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "O campo é vetorial. Cada carga cria em C um campo de módulo:"
+            },
+            {
+              "t": "eq",
+              "tex": "E = \\dfrac{k_{0}\\, |q|}{r^{2}}"
+            },
+            {
+              "t": "texto",
+              "html": "q<sub>1</sub> e q<sub>2</sub> são iguais e estão nas extremidades de um diâmetro: em C, \\(\\vec{E}_{1}\\) e \\(\\vec{E}_{2}\\) têm o mesmo módulo e sentidos opostos. Eles se <b>anulam</b>."
+            }
+          ]
+        },
+        {
+          "titulo": "O campo de q₃",
+          "cena": {
+            "mostrar": [
+              "cargas",
+              "potencial",
+              "campos-12",
+              "campo-3"
+            ],
+            "destacar": [
+              "campo-3"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "Sobra o campo de q<sub>3</sub>, que aponta para ela (carga negativa):"
+            },
+            {
+              "t": "eq",
+              "tex": "E_{C} = \\dfrac{k_{0} \\cdot 2Q}{r^{2}} = \\dfrac{2\\, k_{0}\\, Q}{r^{2}}"
+            },
+            {
+              "t": "gabarito",
+              "letra": "E"
+            },
+            {
+              "t": "fim"
+            }
+          ]
+        }
+      ]
     }
   ],
   "status": "revisado",
   "criadoEm": "2026-11-15T09:00:00-03:00",
-  "atualizadoEm": "2026-11-15T09:00:00-03:00"
+  "atualizadoEm": "2026-11-15T09:00:00-03:00",
+  "revisao": {
+    "estado": "aprovada",
+    "comentario": "",
+    "atualizadoEm": "2026-11-23T01:47:58.490Z"
+  }
 }

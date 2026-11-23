@@ -1,5 +1,6 @@
 {
   "id": "unesp-2016-q76",
+  "formato": "aula",
   "titulo": "Ultrapassagem vista do caminhão",
   "conceitos": [
     "Velocidade relativa",
@@ -110,42 +111,157 @@
       }
     }
   },
-  "passos": [
+  "abertura": [
     {
-      "titulo": "O deslocamento relativo",
-      "conceito": "Velocidade relativa",
-      "texto": "Visto do caminhão, o carro começa com a frente na traseira do caminhão e termina com a traseira na frente dele: anda o comprimento do caminhão mais o seu próprio.",
-      "equacoes": [
-        "v_{\\text{rel}} = \\dfrac{34}{8,5} = 4\\ \\text{m/s}"
-      ],
-      "cena": {
-        "mostrar": [
-          "cena",
-          "carro",
-          "distancia"
-        ],
-        "estado": {
-          "animar": [
-            "passar"
+      "titulo": "Resolução",
+      "blocos": [
+        {
+          "t": "texto",
+          "html": "Há dois caminhos:"
+        },
+        {
+          "t": "texto",
+          "html": "1) Usar a <b>velocidade relativa</b>: no referencial do caminhão, o carro anda 34 m."
+        },
+        {
+          "t": "texto",
+          "html": "2) Usar o <b>referencial da estrada</b>: o carro anda 34 m a mais que o caminhão."
+        },
+        {
+          "t": "texto",
+          "html": "Escolha um método nas abas acima, ou avance para ver os dois."
+        }
+      ]
+    }
+  ],
+  "metodos": [
+    {
+      "nome": "Velocidade relativa",
+      "telas": [
+        {
+          "titulo": "O deslocamento relativo",
+          "cena": {
+            "mostrar": [
+              "cena",
+              "carro",
+              "distancia"
+            ],
+            "animar": [
+              "passar"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "No referencial do caminhão, o carro começa com a frente na traseira do caminhão e termina com a traseira na frente dele: anda o comprimento do caminhão (30 m, pela placa) mais o seu próprio (4 m)."
+            },
+            {
+              "t": "eq",
+              "tex": "\\Delta s_{\\text{rel}} = 30 + 4 = 34\\ \\text{m}"
+            },
+            {
+              "t": "eq",
+              "tex": "v_{\\text{rel}} = \\dfrac{34}{8,5} = 4\\ \\text{m/s}"
+            }
+          ]
+        },
+        {
+          "titulo": "A velocidade do caminhão",
+          "cena": {
+            "mostrar": [
+              "cena",
+              "carro",
+              "distancia"
+            ],
+            "animar": [
+              "passar"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "No mesmo sentido, a velocidade relativa é a diferença das velocidades:"
+            },
+            {
+              "t": "eq",
+              "tex": "v_{\\text{rel}} = v_{\\text{carro}} - v_{\\text{caminhão}}"
+            },
+            {
+              "t": "eq",
+              "tex": "4 = 30 - \\marca{v}{v_{\\text{caminhão}}}"
+            },
+            {
+              "t": "eq",
+              "tex": "\\marca{v}{v_{\\text{caminhão}}} = 30 - 4 = 26\\ \\text{m/s}",
+              "mover": [
+                "v"
+              ]
+            },
+            {
+              "t": "gabarito",
+              "letra": "D"
+            },
+            {
+              "t": "fim"
+            }
           ]
         }
-      }
+      ]
     },
     {
-      "titulo": "A velocidade do caminhão",
-      "conceito": "Velocidade relativa",
-      "texto": "No mesmo sentido, a velocidade relativa é a diferença das velocidades. Resposta: <b>(D) 26 m/s</b>.",
-      "equacoes": [
-        "4 = 30 - v_{\\text{caminhão}} \\quad \\Rightarrow \\quad v_{\\text{caminhão}} = 26\\ \\text{m/s}"
-      ],
-      "cena": {
-        "destacar": [
-          "distancia"
-        ]
-      }
+      "nome": "Referencial da estrada",
+      "telas": [
+        {
+          "titulo": "Cada um em relação ao solo",
+          "cena": {
+            "mostrar": [
+              "cena",
+              "carro",
+              "distancia"
+            ],
+            "animar": [
+              "passar"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "Em relação à estrada, o carro anda a 30 m/s durante 8,5 s:"
+            },
+            {
+              "t": "eq",
+              "tex": "\\Delta s_{\\text{carro}} = 30 \\cdot 8,5 = 255\\ \\text{m}"
+            },
+            {
+              "t": "texto",
+              "html": "Para terminar a ultrapassagem, o carro anda 34 m a mais que o caminhão:"
+            },
+            {
+              "t": "eq",
+              "tex": "\\Delta s_{\\text{caminhão}} = 255 - 34 = 221\\ \\text{m}"
+            },
+            {
+              "t": "eq",
+              "tex": "v_{\\text{caminhão}} = \\dfrac{221}{8,5} = 26\\ \\text{m/s}"
+            },
+            {
+              "t": "gabarito",
+              "letra": "D"
+            },
+            {
+              "t": "fim"
+            }
+          ]
+        }
+      ]
     }
   ],
   "status": "revisado",
   "criadoEm": "2026-11-15T09:00:00-03:00",
-  "atualizadoEm": "2026-11-15T09:00:00-03:00"
+  "atualizadoEm": "2026-11-15T09:00:00-03:00",
+  "revisao": {
+    "estado": "aprovada",
+    "comentario": "",
+    "atualizadoEm": "2026-11-23T01:57:17.452Z"
+  }
 }

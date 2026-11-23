@@ -4,6 +4,56 @@ Cada versão corresponde a um lote de importação ou a uma mudança no app/pipe
 Formato: `vMAIOR.MENOR.CORREÇÃO` — MENOR sobe a cada prova importada; MAIOR, em mudanças
 de modelo de dados; CORREÇÃO, em correções de questões já publicadas.
 
+## v2.21.0 — 2026-11-22
+
+- **Unesp 2027** (1ª fase, Prova de Conhecimentos Gerais, aplicada em 22/11/2026): 8 questões, Q71 e
+  Q76 a Q82. Q71 (ATR-72, Química com Cinemática) é interdisciplinar aprovada pelo Lucas; Q69 (esfera de
+  quartzo) e Q73 (equilíbrio químico) ficaram de fora. O banco passa a ter 616 questões.
+- Gabaritos `resolucao-propria` (o oficial ainda não tinha sido divulgado): 71E, 76D, 77C, 78A, 79D,
+  80B, 81B, 82B. Q78 depende da leitura das curvas de nível (A em 3 420 m, B em 3 660 m).
+- Figuras: a linha "Área ABS = Área A<sub>1</sub>B<sub>1</sub>S" (com traço sobre as letras) entra no recorte da
+  Q77; "fora de escala" entra no recorte da Q76; "Figura 1"/"Figura 2" nos recortes da Q81 e Q82.
+  Q77: "caminho" tem hífen discricionário no PDF (divergência aceita).
+- **Resoluções animadas no formato aula** das 8 questões, publicadas no app de revisão (não revisadas):
+  Q71 com três métodos (mols, proporção em massa, aproximação 528/170 ≈ 3); Q76 com dois métodos
+  (em relação ao lago, com as fotografias do abandono e de 8 s depois, e em relação à lancha), simulação
+  em escala real; Q77 com a figura de Kepler animada pela lei das áreas e a órbita elíptica; Q78 com o
+  mapa de curvas de nível e o perfil (trabalho do peso com sinal, duas trajetórias); Q79 com o gráfico;
+  Q80 com sinais (A = −24, os menos cancelam, p passa para o outro lado) e raios em escala horizontal
+  real; Q81 com espectro e tabela periódica; Q82 com os dois circuitos e o sentido convencional da corrente.
+- As 8 resoluções animadas aprovadas pelo Lucas e revisões importadas: **78 animações no site público**.
+
+## v2.20.0 — 2026-11-17
+
+- **Unesp 2018, 2017 e 2016 no formato aula** (24 questões: 2018 Q76 a Q82; 2017 Q70 e Q77 a Q83;
+  2016 Q74 e Q76 a Q83), seguindo as diretrizes das revisões do Lucas: fórmula enunciada antes de
+  usar, passagens animadas (isolar Δt, k, ω², h, R; o 6 como expoente de 10 no nível sonoro)
+  e cancelamentos (a massa e a tração no pêndulo cônico, a massa nas caixas do elevador e na explosão).
+- **Dois métodos em abas**: 2018 Q76 (proporção inversa entre tempo e velocidade), 2018 Q82
+  (resistência equivalente), 2016 Q76 (referencial da estrada).
+- Só na lousa as de conta: 2018 Q76, Q77 e Q81; 2017 Q70; 2016 Q74, Q77 e Q79.
+- Desenhos: 2018 Q79 com as curvas suaves lidas da figura e uma leitura do gráfico por alternativa;
+  2018 Q82 com as leituras dos aparelhos separadas da tensão no resistor; 2018 Q78 com "antes" e
+  "depois" da explosão; 2016 Q82 com a corda meio período depois, P na crista.
+- Revisão do Lucas (2018): **Q80** com a refração no prisma calculada pela lei de Snell nas duas
+  faces (dispersão exagerada e avisada no desenho); **Q81** sem "tomba": o 6 é o expoente de 10;
+  **Q82** com o circuito redesenhado (resistor ligado entre A e B, lâmpada no caminho da corrente,
+  voltímetro em paralelo e amperímetro em série identificados). Diretrizes atualizadas.
+- Revisão do Lucas (2016 e 2017): **2016 Q78** com o peso e a normal aplicados no centro do conjunto
+  das três caixas; **2016 Q79** com o cálculo de v<sub>B</sub> em linhas, uma embaixo da outra; **2016 Q82**
+  com λ e λ/2 marcados na figura (3 m = 1,5λ); **2017 Q80** com h marcado no tubo; **2017 Q83** refeita
+  sem produto vetorial: por eliminação, cada alternativa com a polaridade da pilha, o polo do ímã e a
+  regra da mão direita desenhada (vista lateral), e o giro na vista do observador da figura.
+- Diretrizes atualizadas. 23 aprovadas pelo Lucas e revisões importadas: com a 2027, **101 animações
+  no site público**. A 2016 Q83 ainda não foi revisada e fica fora do site até ser aprovada.
+
+## v2.19.2 — 2026-11-17
+
+- **Cena das resoluções animadas sempre no tema claro**, a pedido do Lucas: o painel do desenho usa
+  as cores do tema claro mesmo quando o sistema do usuário está no tema escuro (no escuro, desenhos
+  como circuitos ficavam difíceis de ver). Vale para todas as animações, inclusive as aprovadas; a
+  lousa e o resto do app continuam seguindo o tema do sistema.
+
 ## v2.19.1 — 2026-11-17
 
 - **Diretrizes das revisões do Lucas** em `docs/ANIMACOES.md` (seção nova): as orientações dos

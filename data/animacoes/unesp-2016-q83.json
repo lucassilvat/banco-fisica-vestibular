@@ -1,5 +1,6 @@
 {
   "id": "unesp-2016-q83",
+  "formato": "aula",
   "titulo": "Testando cada afirmação com as fórmulas",
   "conceitos": [
     "Potência e energia elétrica",
@@ -176,33 +177,92 @@
       }
     }
   },
-  "passos": [
+  "metodos": [
     {
-      "titulo": "As fórmulas do texto",
-      "conceito": "Potência e energia elétrica",
-      "texto": "Com R e Δt fixos, a perda é proporcional a i²; a energia é P·Δt; V·A é watt. E 220 V dá menos corrente que 110 V para a mesma potência. Isso derruba A, B, C e D.",
-      "equacoes": [
-        "\\Delta E = R\\,i^{2}\\,\\Delta t, \\quad E = P\\,\\Delta t"
-      ],
-      "cena": {
-        "mostrar": [
-          "tabela",
-          "correta"
-        ]
-      }
-    },
-    {
-      "titulo": "A área do fio",
-      "conceito": "Segunda lei de Ohm",
-      "texto": "Área maior, resistência menor; com a mesma tensão, corrente maior. Resposta: <b>(E)</b>.",
-      "equacoes": [
-        "R = \\dfrac{\\rho L}{A}, \\quad i = \\dfrac{V}{R}"
-      ],
-      "cena": {
-        "destacar": [
-          "correta"
-        ]
-      }
+      "nome": "As fórmulas do texto",
+      "telas": [
+        {
+          "titulo": "Perdas e energia",
+          "cena": {
+            "mostrar": [
+              "tabela"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "<b>(A) Falsa.</b> Com R e Δt fixos, a perda é proporcional ao <b>quadrado</b> da corrente:"
+            },
+            {
+              "t": "eq",
+              "tex": "\\Delta E = R\\, i^{2}\\, \\Delta t"
+            },
+            {
+              "t": "texto",
+              "html": "<b>(C) Falsa.</b> Com Δt fixo, a energia é diretamente proporcional à potência:"
+            },
+            {
+              "t": "eq",
+              "tex": "E = P\\, \\Delta t"
+            }
+          ]
+        },
+        {
+          "titulo": "Tensão e unidades",
+          "cena": {
+            "mostrar": [
+              "tabela"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "<b>(B) Falsa.</b> Para a mesma potência, o dobro da tensão exige metade da corrente:"
+            },
+            {
+              "t": "eq",
+              "tex": "P = V\\, i"
+            },
+            {
+              "t": "texto",
+              "html": "Com 220 V, a corrente é menor, as perdas também, e os fios podem ser mais finos: 220 V é mais econômico."
+            },
+            {
+              "t": "texto",
+              "html": "<b>(D) Falsa.</b> V · A = W: kV · A é unidade de <b>potência</b>, não de energia."
+            }
+          ]
+        },
+        {
+          "titulo": "A área do fio",
+          "cena": {
+            "mostrar": [
+              "tabela",
+              "correta"
+            ],
+            "destacar": [
+              "correta"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "<b>(E) Verdadeira.</b> Pela 2ª lei de Ohm, área maior dá resistência menor; com a mesma tensão, a corrente é maior:"
+            },
+            {
+              "t": "eq",
+              "tex": "R = \\dfrac{\\rho\\, L}{A} \\quad \\quad i = \\dfrac{V}{R}"
+            },
+            {
+              "t": "gabarito",
+              "letra": "E"
+            },
+            {
+              "t": "fim"
+            }
+          ]
+        }
+      ]
     }
   ],
   "status": "revisado",

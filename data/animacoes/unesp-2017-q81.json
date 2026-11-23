@@ -1,5 +1,6 @@
 {
   "id": "unesp-2017-q81",
+  "formato": "aula",
   "titulo": "Ondas de radar e de sonar lado a lado",
   "conceitos": [
     "Ondas: classificação e elementos",
@@ -195,32 +196,92 @@
       }
     }
   },
-  "passos": [
+  "metodos": [
     {
-      "titulo": "O que cada onda é",
-      "conceito": "Ondas: classificação e elementos",
-      "texto": "O radar usa ondas de rádio: eletromagnéticas, transversais, que se propagam até no vácuo e são muito mais rápidas que o som. O sonar usa som: onda mecânica, longitudinal na água, que precisa de meio. Isso derruba A, B, C e E.",
-      "cena": {
-        "mostrar": [
-          "tabela"
-        ]
-      }
-    },
-    {
-      "titulo": "A frequência",
-      "conceito": "Ondas: classificação e elementos",
-      "texto": "A frequência é imposta pela fonte e não muda quando a onda muda de meio (mudam a velocidade e o comprimento de onda). Resposta: <b>(D)</b>.",
-      "cena": {
-        "mostrar": [
-          "frequencia"
-        ],
-        "destacar": [
-          "frequencia"
-        ]
-      }
+      "nome": "Radar e sonar",
+      "telas": [
+        {
+          "titulo": "O que cada onda é",
+          "cena": {
+            "mostrar": [
+              "tabela"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "O radar usa ondas de <b>rádio</b>: eletromagnéticas e transversais, que se propagam até no vácuo, a cerca de 3 · 10<sup>8</sup> m/s."
+            },
+            {
+              "t": "texto",
+              "html": "O sonar usa <b>som</b>: onda mecânica, longitudinal na água, que precisa de um meio material, a cerca de 1 500 m/s na água."
+            }
+          ]
+        },
+        {
+          "titulo": "As alternativas falsas",
+          "cena": {
+            "mostrar": [
+              "tabela"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "<b>(A) Falsa:</b> é o contrário."
+            },
+            {
+              "t": "texto",
+              "html": "<b>(B) Falsa:</b> a onda de rádio não precisa de meio; e o som, em geral, é mais rápido em meios mais densos."
+            },
+            {
+              "t": "texto",
+              "html": "<b>(C) Falsa:</b> a onda de rádio é transversal; o som na água é longitudinal."
+            },
+            {
+              "t": "texto",
+              "html": "<b>(E) Falsa:</b> a onda de rádio no ar é muito mais rápida que o som na água."
+            }
+          ]
+        },
+        {
+          "titulo": "A frequência",
+          "cena": {
+            "mostrar": [
+              "tabela",
+              "frequencia"
+            ],
+            "destacar": [
+              "frequencia"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "<b>(D) Verdadeira.</b> A frequência é imposta pela <b>fonte</b>. Ao mudar de meio, mudam a velocidade e o comprimento de onda, mas a frequência não:"
+            },
+            {
+              "t": "eq",
+              "tex": "v = \\lambda\\, f \\quad \\quad (f\\ \\text{constante})"
+            },
+            {
+              "t": "gabarito",
+              "letra": "D"
+            },
+            {
+              "t": "fim"
+            }
+          ]
+        }
+      ]
     }
   ],
   "status": "revisado",
   "criadoEm": "2026-11-15T09:00:00-03:00",
-  "atualizadoEm": "2026-11-15T09:00:00-03:00"
+  "atualizadoEm": "2026-11-15T09:00:00-03:00",
+  "revisao": {
+    "estado": "aprovada",
+    "comentario": "",
+    "atualizadoEm": "2026-11-23T01:46:24.318Z"
+  }
 }

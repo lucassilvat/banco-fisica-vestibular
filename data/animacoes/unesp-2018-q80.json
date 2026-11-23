@@ -1,5 +1,6 @@
 {
   "id": "unesp-2018-q80",
+  "formato": "aula",
   "titulo": "Qual elemento óptico separa as cores",
   "conceitos": [
     "Dispersão da luz",
@@ -12,8 +13,8 @@
         "espectroscopio": [
           {
             "t": "ret",
-            "x": 40,
-            "y": 150,
+            "x": 30,
+            "y": 120,
             "w": 40,
             "h": 80,
             "cor": "#9aa0aa",
@@ -22,15 +23,15 @@
           },
           {
             "t": "texto",
-            "x": 60,
-            "y": 130,
+            "x": 50,
+            "y": 105,
             "txt": "gás",
             "mudo": true
           },
           {
             "t": "ret",
             "x": 110,
-            "y": 120,
+            "y": 90,
             "w": 10,
             "h": 140,
             "cor": "#b8c6d6",
@@ -39,7 +40,7 @@
           {
             "t": "texto",
             "x": 115,
-            "y": 108,
+            "y": 78,
             "txt": "fenda",
             "mudo": true
           },
@@ -47,12 +48,12 @@
             "t": "linha",
             "pontos": [
               [
-                80,
-                190
+                70,
+                160.0
               ],
               [
-                250,
-                190
+                267.1,
+                160.0
               ]
             ],
             "cor": "#f2e6a0",
@@ -60,8 +61,8 @@
           },
           {
             "t": "texto",
-            "x": 170,
-            "y": 220,
+            "x": 175,
+            "y": 185,
             "txt": "feixe de luz",
             "mudo": true
           }
@@ -71,27 +72,27 @@
             "t": "linha",
             "pontos": [
               [
-                250,
-                250
+                220.0,
+                260.0
               ],
               [
-                330,
-                250
+                380.0,
+                260.0
               ],
               [
-                290,
-                130
+                300.0,
+                90.0
               ]
             ],
             "cor": "normal",
-            "larg": 2,
+            "larg": 2.5,
             "fechada": true,
             "preench": "#d9eef7"
           },
           {
             "t": "texto",
-            "x": 290,
-            "y": 274,
+            "x": 300,
+            "y": 284,
             "txt": "prisma",
             "negrito": true,
             "cor": "normal"
@@ -102,12 +103,102 @@
             "t": "linha",
             "pontos": [
               [
-                310,
-                205
+                267.1,
+                160.0
               ],
               [
-                590,
-                110
+                338.1,
+                170.9
+              ]
+            ],
+            "cor": "#e53935",
+            "larg": 1.8
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                267.1,
+                160.0
+              ],
+              [
+                338.2,
+                171.2
+              ]
+            ],
+            "cor": "#fb8c00",
+            "larg": 1.8
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                267.1,
+                160.0
+              ],
+              [
+                338.3,
+                171.5
+              ]
+            ],
+            "cor": "#fdd835",
+            "larg": 1.8
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                267.1,
+                160.0
+              ],
+              [
+                338.5,
+                171.8
+              ]
+            ],
+            "cor": "#43a047",
+            "larg": 1.8
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                267.1,
+                160.0
+              ],
+              [
+                338.6,
+                172.1
+              ]
+            ],
+            "cor": "#1e88e5",
+            "larg": 1.8
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                267.1,
+                160.0
+              ],
+              [
+                338.7,
+                172.3
+              ]
+            ],
+            "cor": "#5e35b1",
+            "larg": 1.8
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                338.1,
+                170.9
+              ],
+              [
+                509.6,
+                276.5
               ]
             ],
             "cor": "#e53935",
@@ -117,12 +208,12 @@
             "t": "linha",
             "pontos": [
               [
-                310,
-                205
+                338.2,
+                171.2
               ],
               [
-                590,
-                146
+                505.9,
+                281.5
               ]
             ],
             "cor": "#fb8c00",
@@ -132,12 +223,12 @@
             "t": "linha",
             "pontos": [
               [
-                310,
-                205
+                338.3,
+                171.5
               ],
               [
-                590,
-                182
+                502.0,
+                286.7
               ]
             ],
             "cor": "#fdd835",
@@ -147,12 +238,12 @@
             "t": "linha",
             "pontos": [
               [
-                310,
-                205
+                338.5,
+                171.8
               ],
               [
-                590,
-                218
+                498.0,
+                292.2
               ]
             ],
             "cor": "#43a047",
@@ -162,12 +253,12 @@
             "t": "linha",
             "pontos": [
               [
-                310,
-                205
+                338.6,
+                172.1
               ],
               [
-                590,
-                254
+                493.7,
+                298.0
               ]
             ],
             "cor": "#1e88e5",
@@ -177,64 +268,151 @@
             "t": "linha",
             "pontos": [
               [
-                310,
-                205
+                338.7,
+                172.3
               ],
               [
-                590,
-                290
+                489.0,
+                304.3
               ]
             ],
             "cor": "#5e35b1",
             "larg": 4
           },
           {
-            "t": "ret",
-            "x": 590,
-            "y": 90,
-            "w": 14,
-            "h": 230,
-            "cor": "#b8c6d6",
-            "borda": "tinta"
+            "t": "linha",
+            "pontos": [
+              [
+                528.9,
+                250.3
+              ],
+              [
+                469.4,
+                330.8
+              ]
+            ],
+            "cor": "#8a9bb0",
+            "larg": 10
           },
           {
             "t": "texto",
-            "x": 597,
-            "y": 340,
+            "x": 499.4,
+            "y": 340.8,
             "txt": "detector",
             "mudo": true
+          },
+          {
+            "t": "texto",
+            "x": 521.6,
+            "y": 270.5,
+            "txt": "vermelho",
+            "cor": "#e53935",
+            "negrito": true,
+            "ancora": "start",
+            "tam": 12
+          },
+          {
+            "t": "texto",
+            "x": 501.0,
+            "y": 316.3,
+            "txt": "violeta",
+            "cor": "#5e35b1",
+            "negrito": true,
+            "ancora": "start",
+            "tam": 12
+          },
+          {
+            "t": "texto",
+            "x": 40,
+            "y": 360,
+            "txt": "desvios entre as cores exagerados para visualização",
+            "mudo": true,
+            "ancora": "start",
+            "tam": 11
           }
         ]
       }
     }
   },
-  "passos": [
+  "metodos": [
     {
-      "titulo": "O que é dispersão",
-      "conceito": "Dispersão da luz",
-      "texto": "Dispersão é a separação da luz em suas cores. Ela acontece porque o índice de refração do material depende da frequência: cada cor se desvia de um ângulo diferente.",
-      "cena": {
-        "mostrar": [
-          "espectroscopio"
-        ]
-      }
-    },
-    {
-      "titulo": "O elemento óptico",
-      "conceito": "Prismas",
-      "texto": "Espelhos refletem todas as cores igualmente; lentes são feitas para formar imagens. O prisma desvia cada cor de um ângulo diferente e abre o feixe em um espectro. Resposta: <b>(B)</b>.",
-      "cena": {
-        "mostrar": [
-          "prisma",
-          "dispersao"
-        ],
-        "destacar": [
-          "dispersao"
-        ]
-      }
+      "nome": "Dispersão da luz",
+      "telas": [
+        {
+          "titulo": "O que o elemento faz",
+          "cena": {
+            "mostrar": [
+              "espectroscopio"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "No espectroscópio, o feixe de luz do gás entra no elemento óptico e sai <b>separado em cores</b>: é a <b>dispersão</b>."
+            },
+            {
+              "t": "texto",
+              "html": "Ela acontece quando a luz <b>refrata</b> num meio cujo índice de refração depende da frequência: cada cor se desvia de um ângulo diferente."
+            }
+          ]
+        },
+        {
+          "titulo": "Espelhos e lentes",
+          "cena": {
+            "mostrar": [
+              "espectroscopio"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "Espelhos (planos ou convexos) <b>refletem</b> todas as cores com o mesmo ângulo: não separam as cores. (A) e (E) estão fora."
+            },
+            {
+              "t": "texto",
+              "html": "Lentes são feitas para fazer o feixe convergir ou divergir e formar imagens, sem abrir um espectro. (C) e (D) estão fora."
+            }
+          ]
+        },
+        {
+          "titulo": "O prisma",
+          "cena": {
+            "mostrar": [
+              "espectroscopio",
+              "prisma",
+              "dispersao"
+            ],
+            "destacar": [
+              "dispersao"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "No <b>prisma</b>, a luz refrata duas vezes, na entrada e na saída, e cada cor se desvia de um ângulo diferente: o violeta se desvia mais e o vermelho, menos."
+            },
+            {
+              "t": "texto",
+              "html": "O feixe se abre num espectro, como na figura."
+            },
+            {
+              "t": "gabarito",
+              "letra": "B"
+            },
+            {
+              "t": "fim"
+            }
+          ]
+        }
+      ]
     }
   ],
   "status": "revisado",
   "criadoEm": "2026-11-15T09:00:00-03:00",
-  "atualizadoEm": "2026-11-15T09:00:00-03:00"
+  "atualizadoEm": "2026-11-15T09:00:00-03:00",
+  "revisao": {
+    "estado": "aprovada",
+    "comentario": "",
+    "atualizadoEm": "2026-11-18T02:12:02.922Z"
+  }
 }

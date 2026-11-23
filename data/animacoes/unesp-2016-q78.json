@@ -1,5 +1,6 @@
 {
   "id": "unesp-2016-q78",
+  "formato": "aula",
   "titulo": "Três caixas acelerando valem seis paradas",
   "conceitos": [
     "Leis de Newton",
@@ -49,7 +50,7 @@
           },
           {
             "t": "texto",
-            "x": 320,
+            "x": 290,
             "y": 337,
             "txt": "6",
             "negrito": true
@@ -66,7 +67,7 @@
           },
           {
             "t": "texto",
-            "x": 320,
+            "x": 290,
             "y": 271,
             "txt": "6",
             "negrito": true
@@ -83,7 +84,7 @@
           },
           {
             "t": "texto",
-            "x": 320,
+            "x": 290,
             "y": 205,
             "txt": "6",
             "negrito": true
@@ -91,20 +92,28 @@
         ],
         "forcas": [
           {
+            "t": "circ",
+            "x": 320,
+            "y": 270,
+            "r": 5,
+            "cor": "tinta",
+            "borda": "tinta"
+          },
+          {
             "t": "seta",
             "de": [
-              380,
-              370
+              320,
+              270
             ],
             "para": [
-              380,
-              210
+              320,
+              112
             ],
             "cor": "normal",
-            "larg": 3,
+            "larg": 3.5,
             "rot_em": [
-              392,
-              214
+              334,
+              122
             ],
             "ancora": "start",
             "rotulo": "N"
@@ -112,21 +121,30 @@
           {
             "t": "seta",
             "de": [
-              240,
+              320,
               270
             ],
             "para": [
-              240,
-              370
+              320,
+              362
             ],
             "cor": "peso",
-            "larg": 3,
+            "larg": 3.5,
             "rot_em": [
-              228,
-              366
+              334,
+              356
             ],
-            "ancora": "end",
+            "ancora": "start",
             "rotulo": "P"
+          },
+          {
+            "t": "texto",
+            "x": 334,
+            "y": 330,
+            "txt": "3mg",
+            "negrito": true,
+            "cor": "peso",
+            "ancora": "start"
           },
           {
             "t": "seta",
@@ -147,15 +165,6 @@
             ],
             "ancora": "start",
             "rotulo": "a"
-          },
-          {
-            "t": "texto",
-            "x": 240,
-            "y": 254,
-            "txt": "3mg",
-            "negrito": true,
-            "cor": "peso",
-            "ancora": "end"
           }
         ],
         "limite": [
@@ -170,47 +179,118 @@
       }
     }
   },
-  "passos": [
+  "metodos": [
     {
-      "titulo": "O limite da caixa de baixo",
-      "conceito": "Força peso e força normal",
-      "texto": "Parado, com seis caixas de massa m, o piso empurraria a caixa de baixo com 6mg. Esse é o máximo permitido.",
-      "cena": {
-        "mostrar": [
-          "elevador",
-          "caixas",
-          "limite"
-        ]
-      }
-    },
-    {
-      "titulo": "As três caixas acelerando",
-      "conceito": "Leis de Newton",
-      "texto": "No conjunto das três caixas agem o peso \\(\\vec{P}\\) e a normal \\(\\vec{N}\\) do piso. Acelerando para cima:",
-      "equacoes": [
-        "N - 3mg = 3ma \\quad \\Rightarrow \\quad N = 3m(g + a)"
-      ],
-      "cena": {
-        "mostrar": [
-          "forcas"
-        ]
-      }
-    },
-    {
-      "titulo": "A maior aceleração",
-      "conceito": "Leis de Newton",
-      "texto": "Resposta: <b>(C) 10 m/s²</b>.",
-      "equacoes": [
-        "3m(g + a) \\leq 6mg \\quad \\Rightarrow \\quad a \\leq g = 10\\ \\text{m/s}^{2}"
-      ],
-      "cena": {
-        "destacar": [
-          "limite"
-        ]
-      }
+      "nome": "Segunda lei de Newton",
+      "telas": [
+        {
+          "titulo": "O limite da caixa de baixo",
+          "cena": {
+            "mostrar": [
+              "elevador",
+              "caixas",
+              "limite"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "Com o elevador parado e seis caixas de massa m, o piso empurraria a caixa de baixo com uma força igual ao peso das seis:"
+            },
+            {
+              "t": "eq",
+              "tex": "N_{\\text{máx}} = 6\\, m\\, g"
+            },
+            {
+              "t": "texto",
+              "html": "Esse é o máximo permitido."
+            }
+          ]
+        },
+        {
+          "titulo": "As três caixas acelerando",
+          "cena": {
+            "mostrar": [
+              "elevador",
+              "caixas",
+              "limite",
+              "forcas"
+            ],
+            "destacar": [
+              "forcas"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "Tomamos o conjunto das três caixas como um só corpo, com as forças aplicadas no seu centro: o peso \\(\\vec{P}\\), de intensidade 3mg, e a normal \\(\\vec{N}\\) do piso. Acelerando para cima, pela 2ª lei de Newton:"
+            },
+            {
+              "t": "eq",
+              "tex": "N - 3\\, m\\, g = 3\\, m\\, a"
+            },
+            {
+              "t": "eq",
+              "tex": "N = 3\\, m\\, (g + a)"
+            }
+          ]
+        },
+        {
+          "titulo": "A maior aceleração",
+          "cena": {
+            "mostrar": [
+              "elevador",
+              "caixas",
+              "limite",
+              "forcas"
+            ],
+            "destacar": [
+              "limite"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "A condição é N ≤ 6mg:"
+            },
+            {
+              "t": "eq",
+              "tex": "3\\, \\marca{m1}{m}\\, (g + a) \\leq 6\\, \\marca{m2}{m}\\, g"
+            },
+            {
+              "t": "eq",
+              "tex": "3\\, (g + a) \\leq 6\\, g",
+              "cancelar": [
+                "m1",
+                "m2"
+              ]
+            },
+            {
+              "t": "eq",
+              "tex": "g + a \\leq 2\\, g"
+            },
+            {
+              "t": "eq",
+              "tex": "a \\leq g = 10\\ \\text{m/s}^{2}"
+            },
+            {
+              "t": "gabarito",
+              "letra": "C"
+            },
+            {
+              "t": "fim"
+            }
+          ]
+        }
+      ]
     }
   ],
   "status": "revisado",
   "criadoEm": "2026-11-15T09:00:00-03:00",
-  "atualizadoEm": "2026-11-15T09:00:00-03:00"
+  "atualizadoEm": "2026-11-15T09:00:00-03:00",
+  "revisao": {
+    "estado": "aprovada",
+    "comentario": "",
+    "atualizadoEm": "2026-11-23T02:31:14.497Z"
+  }
 }

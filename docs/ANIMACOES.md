@@ -90,7 +90,15 @@ cada item antes de publicar no app para revisão.
   (2020 Q80). Calor cedido: Q negativo, e o texto explica o sinal.
 - **Demonstrar visualmente as passagens**: cancelamentos animados e termos que "passam para o
   outro lado" (ex.: de A = −p'/p até p = 5 000 p'). Na passagem de logaritmos, a **regra do
-  tombamento** animada (2021 Q81): muitos alunos têm dificuldade com ela.
+  tombamento** animada (2021 Q81): muitos alunos têm dificuldade com ela. "Tombar" vale só para o
+  logaritmo de uma potência; na definição de logaritmo, dizer apenas que o número é o expoente da
+  base (log I/I<sub>0</sub> = 6 ⇒ I/I<sub>0</sub> = 10<sup>6</sup>: o 6 é o expoente de 10; 2018 Q81).
+- **Desenvolvimento vertical**: uma passagem por linha, uma embaixo da outra; nada de encadear
+  várias passagens na mesma linha com "⇒" (2016 Q79).
+- **Sem produto vetorial**: alunos de ensino médio não o conhecem. Força magnética pela **regra da mão
+  direita**, mostrada com o desenho de uma mão (polegar na corrente, dedos no campo, a força sai da
+  palma); em questões de alternativas, testar cada uma por eliminação, na ordem em que o aluno faria:
+  polaridade da pilha, polo do ímã, mão, força e efeito (2017 Q83).
 - **Cancelamento só onde é algébrico** (fator comum, termo que aparece dos dois lados). Igualar
   membros de uma cadeia de igualdades não é cancelar.
 - **O traço do cancelamento fica sobre o termo**, em qualquer tamanho de tela (2025 Q79 e Q81).
@@ -109,7 +117,17 @@ cada item antes de publicar no app para revisão.
 - **Óptica**: imagem virtual do lado virtual do espelho, com o tamanho dado pelo aumento
   (2026 Q79). Raios pelo centro óptico; objeto e imagem com setas opostas quando a imagem é
   invertida (2020 Q80). Marcar o **olho** do observador quando importa a orientação, e **todas
-  as distâncias** envolvidas na formação das imagens (2021 Q80).
+  as distâncias** envolvidas na formação das imagens (2021 Q80). Refração no prisma calculada pela
+  lei de Snell nas duas faces: o feixe entra pela face, separa-se dentro do vidro e cada cor sai
+  desviada para a base, o violeta mais; se o desvio entre as cores for exagerado para ser visto,
+  dizer isso no desenho (2018 Q80).
+- **Circuitos fechados e legíveis**: cada componente ligado ao fio pelos dois terminais (resistor
+  entre os pontos indicados, lâmpada no caminho da corrente), nós marcados onde os fios se dividem
+  e aparelhos de medida identificados (2018 Q82).
+- **Grandeza usada na conta aparece no desenho**: se a resolução usa h ou λ, marcar h ou λ na
+  figura (cota) e mostrar a relação que se lê dela, como os 3 m = λ + λ/2 = 1,5λ (2016 Q82, 2017 Q80).
+- **Forças com ponto de aplicação**: as forças sobre um corpo (ou sobre um conjunto tratado como um
+  só corpo) saem de um ponto marcado nele, não soltas no desenho (2016 Q78).
 - **Ângulos bem marcados**: setor entre as duas retas certas, rótulo legível (2023 Q80).
 - **Correntes e campos com sentido certo em todo o ciclo**, inclusive quando a animação recomeça
   (2026 Q82).

@@ -1,189 +1,152 @@
 {
   "id": "unesp-2018-q76",
+  "formato": "aula",
   "titulo": "Velocidade 40% menor, tempo maior",
   "conceitos": [
     "Velocidade escalar média"
   ],
-  "cena": {
-    "modelo": "diagrama",
-    "parametros": {
-      "elementos": {
-        "etapa-1": [
-          {
-            "t": "ret",
-            "x": 30,
-            "y": 16,
-            "w": 400,
-            "h": 40,
-            "cor": "suave",
-            "borda": "normal",
-            "rx": 7
-          },
-          {
-            "t": "texto",
-            "x": 42,
-            "y": 36.0,
-            "txt": "velocidade média habitual",
-            "mudo": true,
-            "ancora": "start"
-          },
-          {
-            "t": "texto",
-            "x": 418,
-            "y": 36.0,
-            "txt": "10 km/h",
-            "negrito": true,
-            "ancora": "end"
-          }
-        ],
-        "etapa-2": [
-          {
-            "t": "seta",
-            "de": [
-              230.0,
-              59
-            ],
-            "para": [
-              230.0,
-              79
-            ],
-            "cor": "tinta",
-            "larg": 1.8
-          },
-          {
-            "t": "texto",
-            "x": 242.0,
-            "y": 69.0,
-            "txt": "× 0,6",
-            "negrito": true,
-            "cor": "acel",
-            "ancora": "start"
-          },
-          {
-            "t": "ret",
-            "x": 30,
-            "y": 82,
-            "w": 400,
-            "h": 40,
-            "cor": "suave",
-            "borda": "normal",
-            "rx": 7
-          },
-          {
-            "t": "texto",
-            "x": 42,
-            "y": 102.0,
-            "txt": "40% menor",
-            "mudo": true,
-            "ancora": "start"
-          },
-          {
-            "t": "texto",
-            "x": 418,
-            "y": 102.0,
-            "txt": "6 km/h",
-            "negrito": true,
-            "ancora": "end"
-          }
-        ],
-        "etapa-3": [
-          {
-            "t": "seta",
-            "de": [
-              230.0,
-              125
-            ],
-            "para": [
-              230.0,
-              145
-            ],
-            "cor": "tinta",
-            "larg": 1.8
-          },
-          {
-            "t": "texto",
-            "x": 242.0,
-            "y": 135.0,
-            "txt": "15 ÷ 6",
-            "negrito": true,
-            "cor": "acel",
-            "ancora": "start"
-          },
-          {
-            "t": "ret",
-            "x": 30,
-            "y": 148,
-            "w": 400,
-            "h": 40,
-            "cor": "suave",
-            "borda": "normal",
-            "rx": 7
-          },
-          {
-            "t": "texto",
-            "x": 42,
-            "y": 168.0,
-            "txt": "tempo para 15 km",
-            "mudo": true,
-            "ancora": "start"
-          },
-          {
-            "t": "texto",
-            "x": 418,
-            "y": 168.0,
-            "txt": "2,5 h = 2h30min",
-            "negrito": true,
-            "ancora": "end"
-          }
-        ]
-      }
+  "abertura": [
+    {
+      "titulo": "Resolução",
+      "blocos": [
+        {
+          "t": "texto",
+          "html": "Há dois caminhos:"
+        },
+        {
+          "t": "texto",
+          "html": "1) Calcular a velocidade habitual, reduzi-la e usar v = Δs/Δt."
+        },
+        {
+          "t": "texto",
+          "html": "2) Usar a <b>proporção inversa</b> entre tempo e velocidade para a mesma distância."
+        },
+        {
+          "t": "texto",
+          "html": "Escolha um método nas abas acima, ou avance para ver os dois."
+        }
+      ]
     }
-  },
-  "passos": [
+  ],
+  "metodos": [
     {
-      "titulo": "A velocidade habitual",
-      "conceito": "Velocidade escalar média",
-      "texto": "Juliana corre 5,0 km em meia hora.",
-      "equacoes": [
-        "v_{\\text{m}} = \\dfrac{5,0}{0,5} = 10\\ \\text{km/h}"
-      ],
-      "cena": {
-        "mostrar": [
-          "etapa-1"
-        ]
-      }
+      "nome": "Velocidade média",
+      "telas": [
+        {
+          "titulo": "A velocidade habitual",
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "Velocidade média é a distância percorrida dividida pelo tempo:"
+            },
+            {
+              "t": "eq",
+              "tex": "v_{m} = \\dfrac{\\Delta s}{\\Delta t}"
+            },
+            {
+              "t": "texto",
+              "html": "Juliana corre 5,0 km em meia hora, ou seja, 0,5 h:"
+            },
+            {
+              "t": "eq",
+              "tex": "v_{m} = \\dfrac{5,0}{0,5} = 10\\ \\text{km/h}"
+            }
+          ]
+        },
+        {
+          "titulo": "A nova velocidade",
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "Diminuir a velocidade em 40% é ficar com <b>60%</b> dela:"
+            },
+            {
+              "t": "eq",
+              "tex": "v = 0,6 \\cdot 10 = 6\\ \\text{km/h}"
+            }
+          ]
+        },
+        {
+          "titulo": "O tempo da prova",
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "Isolamos o tempo na definição de velocidade média:"
+            },
+            {
+              "t": "eq",
+              "tex": "v = \\dfrac{\\Delta s}{\\marca{t}{\\Delta t}}"
+            },
+            {
+              "t": "eq",
+              "tex": "\\marca{t}{\\Delta t} = \\dfrac{\\Delta s}{v}",
+              "mover": [
+                "t"
+              ]
+            },
+            {
+              "t": "eq",
+              "tex": "\\Delta t = \\dfrac{15}{6} = 2,5\\ \\text{h}"
+            },
+            {
+              "t": "texto",
+              "html": "2,5 h são 2 h mais meia hora: <b>2h30min</b>."
+            },
+            {
+              "t": "gabarito",
+              "letra": "D"
+            },
+            {
+              "t": "fim"
+            }
+          ]
+        }
+      ]
     },
     {
-      "titulo": "A nova velocidade",
-      "conceito": "Velocidade escalar média",
-      "texto": "Diminuir 40% é ficar com 60% da velocidade.",
-      "equacoes": [
-        "10 \\cdot 0,6 = 6\\ \\text{km/h}"
-      ],
-      "cena": {
-        "mostrar": [
-          "etapa-2"
-        ]
-      }
-    },
-    {
-      "titulo": "O tempo da prova",
-      "conceito": "Velocidade escalar média",
-      "texto": "Resposta: <b>(D) 2h30min</b>.",
-      "equacoes": [
-        "\\Delta t = \\dfrac{15}{6} = 2,5\\ \\text{h}"
-      ],
-      "cena": {
-        "mostrar": [
-          "etapa-3"
-        ],
-        "destacar": [
-          "etapa-3"
-        ]
-      }
+      "nome": "Proporção inversa",
+      "telas": [
+        {
+          "titulo": "Mesma distância: tempo e velocidade",
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "No ritmo habitual, 5 km levam meia hora; 15 km (o triplo) levariam o triplo:"
+            },
+            {
+              "t": "eq",
+              "tex": "3 \\cdot 0,5 = 1,5\\ \\text{h}"
+            },
+            {
+              "t": "texto",
+              "html": "Para a mesma distância, tempo e velocidade são <b>inversamente proporcionais</b>. Com 60% da velocidade, o tempo fica dividido por 0,6:"
+            },
+            {
+              "t": "eq",
+              "tex": "\\Delta t = \\dfrac{1,5}{0,6} = \\dfrac{15}{6} = 2,5\\ \\text{h}"
+            },
+            {
+              "t": "texto",
+              "html": "Ou seja, <b>2h30min</b>."
+            },
+            {
+              "t": "gabarito",
+              "letra": "D"
+            },
+            {
+              "t": "fim"
+            }
+          ]
+        }
+      ]
     }
   ],
   "status": "revisado",
   "criadoEm": "2026-11-15T09:00:00-03:00",
-  "atualizadoEm": "2026-11-15T09:00:00-03:00"
+  "atualizadoEm": "2026-11-15T09:00:00-03:00",
+  "revisao": {
+    "estado": "aprovada",
+    "comentario": "",
+    "atualizadoEm": "2026-11-18T01:11:01.646Z"
+  }
 }

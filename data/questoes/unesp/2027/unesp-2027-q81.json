@@ -1,0 +1,27 @@
+{
+  "id": "unesp-2027-q81",
+  "banca": "Unesp",
+  "ano": 2027,
+  "numero": "81",
+  "fase": "1ª fase",
+  "fonte": {
+    "descricao": "Vunesp, Vestibular Unesp 2027, 1ª fase (Prova de Conhecimentos Gerais), caderno de questões"
+  },
+  "enunciado": "O espetáculo de queima de fogos de artifício encanta pela explosão de cores que ele produz. A maioria desses artefatos contém sais de diferentes elementos químicos em seu interior, responsáveis pela cor produzida. Os elétrons desses elementos absorvem a energia liberada na queima da pólvora e passam para níveis de energia mais elevados. A emissão de luz colorida ocorre quando esses elétrons, ao retornarem para os níveis de menor energia, liberam a energia absorvida na forma de fótons de luz, fenômeno chamado luminescência. A tabela apresentada na figura 1 relaciona a cor emitida pelos fogos de artifício com o elemento químico utilizado em suas fabricações.\n\n[[figura 1]]\n\nA figura 2 mostra uma Classificação Periódica simplificada.\n\n[[figura 2]]\n\nConsiderando as informações do texto e das figuras 1 e 2, tem-se que:\n\n(A) quando os fogos produzem luz azul, a energia dos fótons emitidos é menor do que quando esses fogos produzem luz vermelha.\n(B) a cor de maior comprimento de onda é obtida com fogos que têm, em sua composição, um metal alcalino terroso.\n(C) fogos de artifício coloridos são produzidos, em sua maioria, com elementos de um mesmo período da Classificação Periódica.\n(D) a cor de menor frequência é obtida com fogos que são fabricados com um metal de transição.\n(E) fogos constituídos com metais alcalinos produzem as duas cores de maiores frequências.",
+  "figuras": [
+    "unesp-2027-q81-1.png",
+    "unesp-2027-q81-2.png"
+  ],
+  "gabarito": "B",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "Questão de Física com conteúdo de Química (Classificação Periódica).\n1. No espectro visível, do vermelho ao azul (vermelho, laranja, amarelo, verde, azul), a frequência aumenta e o comprimento de onda diminui (c = λ f, com c constante). A energia de cada fóton é E = h f: o fóton azul tem mais energia que o vermelho. A está errada.\n2. A cor de maior comprimento de onda (e menor frequência) é o vermelho, obtido com estrôncio. Na figura 2, Sr está na segunda coluna (grupo 2), dos metais alcalinoterrosos, e não entre os de transição. B está certa e D está errada.\n3. Na figura 2, Na, Ca, Sr, Ba e Cu estão em linhas diferentes (períodos 3, 4, 5, 6 e 4): C está errada.\n4. O único metal alcalino da tabela é o sódio (Na, grupo 1), que produz só o amarelo; as cores de maiores frequências são azul (cobre) e verde (bário). E está errada.\nGabarito: B.",
+  "topicos": [
+    "espectro-eletromagnetico",
+    "fotons-e-energia-do-foton-e-hf",
+    "espectros-de-emissao-e-absorcao",
+    "modelos-atomicos-e-modelo-de-bohr"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-22T22:20:00.000Z",
+  "atualizadoEm": "2026-11-22T22:20:00.000Z"
+}

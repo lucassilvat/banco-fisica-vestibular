@@ -1,5 +1,6 @@
 {
   "id": "unesp-2017-q78",
+  "formato": "aula",
   "titulo": "As forças da esteira sobre a caixa parada",
   "conceitos": [
     "Força de atrito estático e cinético",
@@ -386,40 +387,93 @@
       }
     }
   },
-  "passos": [
+  "metodos": [
     {
-      "titulo": "Duas forças da esteira",
-      "conceito": "Força de atrito estático e cinético",
-      "texto": "A esteira exerce sobre a caixa a normal \\(\\vec{N}\\), vertical para cima, e o atrito. A caixa está parada e a esteira desliza para a esquerda sob ela: o atrito cinético sobre a caixa tem o sentido do movimento da esteira em relação à caixa, para a esquerda.",
-      "cena": {
-        "mostrar": [
-          "esteira",
-          "marcas",
-          "caixa",
-          "forcas"
-        ],
-        "estado": {
-          "animar": [
-            "esteira"
+      "nome": "Normal e atrito",
+      "telas": [
+        {
+          "titulo": "Duas forças da esteira",
+          "cena": {
+            "mostrar": [
+              "esteira",
+              "marcas",
+              "caixa"
+            ],
+            "animar": [
+              "esteira"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "A caixa está apoiada na esteira. A esteira exerce sobre ela duas forças: a <b>normal</b> \\(\\vec{N}\\), vertical para cima, e o <b>atrito</b> \\(\\vec{F}_{\\text{at}}\\), na superfície de contato."
+            }
+          ]
+        },
+        {
+          "titulo": "O sentido do atrito",
+          "cena": {
+            "mostrar": [
+              "esteira",
+              "marcas",
+              "caixa",
+              "forcas"
+            ],
+            "animar": [
+              "esteira"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "A caixa está parada e a esteira continua rolando para a esquerda: a esteira <b>escorrega</b> sob a caixa."
+            },
+            {
+              "t": "texto",
+              "html": "O atrito sobre a caixa tem o sentido do movimento da esteira em relação a ela: <b>para a esquerda</b>. A esteira tenta arrastar a caixa consigo."
+            }
+          ]
+        },
+        {
+          "titulo": "A resultante",
+          "cena": {
+            "mostrar": [
+              "esteira",
+              "marcas",
+              "caixa",
+              "forcas",
+              "resultante"
+            ],
+            "animar": [
+              "esteira"
+            ],
+            "destacar": [
+              "resultante"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "A resultante das forças da esteira é a soma vetorial \\(\\vec{R} = \\vec{N} + \\vec{F}_{\\text{at}}\\): uma força para cima somada a outra para a esquerda aponta <b>para cima e para a esquerda</b>."
+            },
+            {
+              "t": "gabarito",
+              "letra": "C"
+            },
+            {
+              "t": "fim"
+            }
           ]
         }
-      }
-    },
-    {
-      "titulo": "A resultante",
-      "conceito": "Resultante de forças",
-      "texto": "A soma de uma força para cima com outra para a esquerda aponta para cima e para a esquerda. Resposta: <b>(C)</b>.",
-      "cena": {
-        "mostrar": [
-          "resultante"
-        ],
-        "destacar": [
-          "resultante"
-        ]
-      }
+      ]
     }
   ],
   "status": "revisado",
   "criadoEm": "2026-11-15T09:00:00-03:00",
-  "atualizadoEm": "2026-11-15T09:00:00-03:00"
+  "atualizadoEm": "2026-11-15T09:00:00-03:00",
+  "revisao": {
+    "estado": "aprovada",
+    "comentario": "",
+    "atualizadoEm": "2026-11-22T14:24:58.495Z"
+  }
 }

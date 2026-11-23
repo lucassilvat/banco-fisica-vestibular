@@ -1,0 +1,1653 @@
+{
+  "id": "unesp-2027-q76",
+  "formato": "aula",
+  "titulo": "O pacote que cai na lancha",
+  "conceitos": [
+    "Lançamento horizontal",
+    "Queda livre",
+    "Velocidade relativa"
+  ],
+  "cena": {
+    "modelo": "diagrama",
+    "parametros": {
+      "elementos": {
+        "cenario": [
+          {
+            "t": "ret",
+            "x": 0,
+            "y": 388,
+            "w": 640,
+            "h": 42,
+            "cor": "#cfe8f6"
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                0,
+                388
+              ],
+              [
+                640,
+                388
+              ]
+            ],
+            "cor": "#4a7fa7",
+            "larg": 2
+          },
+          {
+            "t": "texto",
+            "x": 600,
+            "y": 410,
+            "txt": "lago",
+            "mudo": true
+          },
+          {
+            "t": "seta",
+            "de": [
+              600,
+              40
+            ],
+            "para": [
+              600,
+              92
+            ],
+            "cor": "#111111",
+            "larg": 3,
+            "rotulo": "g",
+            "rot_em": [
+              614,
+              72
+            ]
+          }
+        ],
+        "heli": [
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                88,
+                34
+              ],
+              [
+                48,
+                28
+              ]
+            ],
+            "cor": "#111111",
+            "larg": 5
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                48,
+                22
+              ],
+              [
+                48,
+                36
+              ]
+            ],
+            "cor": "#111111",
+            "larg": 3
+          },
+          {
+            "t": "caminho",
+            "d": "M84,30 Q96,18 122,20 Q140,24 140,36 Q136,46 110,46 L90,46 Q80,42 84,30 Z",
+            "cor": "#111111",
+            "larg": 2,
+            "preench": "#e9edf2"
+          },
+          {
+            "t": "caminho",
+            "d": "M118,24 Q134,26 136,34 L118,34 Z",
+            "cor": "#111111",
+            "larg": 1.2,
+            "preench": "#9fc7ea"
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                76,
+                12
+              ],
+              [
+                144,
+                12
+              ]
+            ],
+            "cor": "#111111",
+            "larg": 3
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                110,
+                12
+              ],
+              [
+                110,
+                20
+              ]
+            ],
+            "cor": "#111111",
+            "larg": 3
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                92,
+                52
+              ],
+              [
+                130,
+                52
+              ]
+            ],
+            "cor": "#111111",
+            "larg": 2.5
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                102,
+                46
+              ],
+              [
+                102,
+                52
+              ]
+            ],
+            "cor": "#111111",
+            "larg": 2
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                120,
+                46
+              ],
+              [
+                120,
+                52
+              ]
+            ],
+            "cor": "#111111",
+            "larg": 2
+          },
+          {
+            "t": "seta",
+            "de": [
+              150,
+              30
+            ],
+            "para": [
+              194,
+              30
+            ],
+            "cor": "normal",
+            "larg": 3,
+            "rotulo": "v",
+            "sub": "H",
+            "vetor": false,
+            "rot_em": [
+              162,
+              18
+            ]
+          }
+        ],
+        "pacote": [
+          {
+            "t": "ret",
+            "x": 104,
+            "y": 54,
+            "w": 12,
+            "h": 12,
+            "cor": "perigo",
+            "borda": "#111111"
+          }
+        ],
+        "lancha": [
+          {
+            "t": "caminho",
+            "d": "M210,380 L274,380 L266,396 L216,396 Z",
+            "cor": "#111111",
+            "larg": 2,
+            "preench": "#c9472f"
+          },
+          {
+            "t": "caminho",
+            "d": "M240,380 L244,366 L260,366 L266,380 Z",
+            "cor": "#111111",
+            "larg": 1.5,
+            "preench": "#9fc7ea"
+          },
+          {
+            "t": "seta",
+            "de": [
+              282,
+              356
+            ],
+            "para": [
+              314,
+              356
+            ],
+            "cor": "normal",
+            "larg": 3,
+            "rotulo": "v",
+            "sub": "L",
+            "vetor": false,
+            "rot_em": [
+              290,
+              344
+            ]
+          }
+        ],
+        "trajetoria": [
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                110.0,
+                60.0
+              ],
+              [
+                114.0,
+                60.2
+              ],
+              [
+                118.0,
+                60.8
+              ],
+              [
+                122.0,
+                61.8
+              ],
+              [
+                126.0,
+                63.2
+              ],
+              [
+                130.0,
+                65.0
+              ],
+              [
+                134.0,
+                67.2
+              ],
+              [
+                138.0,
+                69.8
+              ],
+              [
+                142.0,
+                72.8
+              ],
+              [
+                146.0,
+                76.2
+              ],
+              [
+                150.0,
+                80.0
+              ],
+              [
+                154.0,
+                84.2
+              ],
+              [
+                158.0,
+                88.8
+              ],
+              [
+                162.0,
+                93.8
+              ],
+              [
+                166.0,
+                99.2
+              ],
+              [
+                170.0,
+                105.0
+              ],
+              [
+                174.0,
+                111.2
+              ],
+              [
+                178.0,
+                117.8
+              ],
+              [
+                182.0,
+                124.8
+              ],
+              [
+                186.0,
+                132.2
+              ],
+              [
+                190.0,
+                140.0
+              ],
+              [
+                194.0,
+                148.2
+              ],
+              [
+                198.0,
+                156.8
+              ],
+              [
+                202.0,
+                165.8
+              ],
+              [
+                206.0,
+                175.2
+              ],
+              [
+                210.0,
+                185.0
+              ],
+              [
+                214.0,
+                195.2
+              ],
+              [
+                218.0,
+                205.8
+              ],
+              [
+                222.0,
+                216.8
+              ],
+              [
+                226.0,
+                228.2
+              ],
+              [
+                230.0,
+                240.0
+              ],
+              [
+                234.0,
+                252.2
+              ],
+              [
+                238.0,
+                264.8
+              ],
+              [
+                242.0,
+                277.8
+              ],
+              [
+                246.0,
+                291.2
+              ],
+              [
+                250.0,
+                305.0
+              ],
+              [
+                254.0,
+                319.2
+              ],
+              [
+                258.0,
+                333.8
+              ],
+              [
+                262.0,
+                348.8
+              ],
+              [
+                266.0,
+                364.2
+              ],
+              [
+                270.0,
+                380.0
+              ]
+            ],
+            "cor": "perigo",
+            "larg": 1.5,
+            "tracejado": true
+          }
+        ],
+        "trajetoria-rel": [
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                110.0,
+                60.0
+              ],
+              [
+                113.0,
+                60.2
+              ],
+              [
+                116.0,
+                60.8
+              ],
+              [
+                119.0,
+                61.8
+              ],
+              [
+                122.0,
+                63.2
+              ],
+              [
+                125.0,
+                65.0
+              ],
+              [
+                128.0,
+                67.2
+              ],
+              [
+                131.0,
+                69.8
+              ],
+              [
+                134.0,
+                72.8
+              ],
+              [
+                137.0,
+                76.2
+              ],
+              [
+                140.0,
+                80.0
+              ],
+              [
+                143.0,
+                84.2
+              ],
+              [
+                146.0,
+                88.8
+              ],
+              [
+                149.0,
+                93.8
+              ],
+              [
+                152.0,
+                99.2
+              ],
+              [
+                155.0,
+                105.0
+              ],
+              [
+                158.0,
+                111.2
+              ],
+              [
+                161.0,
+                117.8
+              ],
+              [
+                164.0,
+                124.8
+              ],
+              [
+                167.0,
+                132.2
+              ],
+              [
+                170.0,
+                140.0
+              ],
+              [
+                173.0,
+                148.2
+              ],
+              [
+                176.0,
+                156.8
+              ],
+              [
+                179.0,
+                165.8
+              ],
+              [
+                182.0,
+                175.2
+              ],
+              [
+                185.0,
+                185.0
+              ],
+              [
+                188.0,
+                195.2
+              ],
+              [
+                191.0,
+                205.8
+              ],
+              [
+                194.0,
+                216.8
+              ],
+              [
+                197.0,
+                228.2
+              ],
+              [
+                200.0,
+                240.0
+              ],
+              [
+                203.0,
+                252.2
+              ],
+              [
+                206.0,
+                264.8
+              ],
+              [
+                209.0,
+                277.8
+              ],
+              [
+                212.0,
+                291.2
+              ],
+              [
+                215.0,
+                305.0
+              ],
+              [
+                218.0,
+                319.2
+              ],
+              [
+                221.0,
+                333.8
+              ],
+              [
+                224.0,
+                348.8
+              ],
+              [
+                227.0,
+                364.2
+              ],
+              [
+                230.0,
+                380.0
+              ]
+            ],
+            "cor": "perigo",
+            "larg": 1.5,
+            "tracejado": true
+          }
+        ],
+        "cota-h": [
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                40,
+                60
+              ],
+              [
+                100,
+                60
+              ]
+            ],
+            "cor": "mudo",
+            "larg": 1,
+            "tracejado": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                40,
+                380
+              ],
+              [
+                208,
+                380
+              ]
+            ],
+            "cor": "mudo",
+            "larg": 1,
+            "tracejado": true
+          },
+          {
+            "t": "cota",
+            "de": [
+              48,
+              60
+            ],
+            "para": [
+              48,
+              380
+            ],
+            "cor": "peso",
+            "rot_em": [
+              56,
+              220
+            ],
+            "ancora": "start",
+            "txt": "h = 320 m"
+          }
+        ],
+        "cota-d": [
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                110,
+                68
+              ],
+              [
+                110,
+                380
+              ]
+            ],
+            "cor": "mudo",
+            "larg": 1,
+            "tracejado": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                230,
+                290
+              ],
+              [
+                230,
+                378
+              ]
+            ],
+            "cor": "mudo",
+            "larg": 1,
+            "tracejado": true
+          },
+          {
+            "t": "cota",
+            "de": [
+              110,
+              290
+            ],
+            "para": [
+              230,
+              290
+            ],
+            "cor": "#111111",
+            "rot_em": [
+              170.0,
+              280
+            ],
+            "txt": "d"
+          }
+        ],
+        "depois": [
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                248,
+                34
+              ],
+              [
+                208,
+                28
+              ]
+            ],
+            "cor": "#111111",
+            "larg": 5,
+            "opac": 0.45
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                208,
+                22
+              ],
+              [
+                208,
+                36
+              ]
+            ],
+            "cor": "#111111",
+            "larg": 3,
+            "opac": 0.45
+          },
+          {
+            "t": "caminho",
+            "d": "M244,30 Q256,18 282,20 Q300,24 300,36 Q296,46 270,46 L250,46 Q240,42 244,30 Z",
+            "cor": "#111111",
+            "larg": 2,
+            "preench": "#e9edf2",
+            "opac": 0.45
+          },
+          {
+            "t": "caminho",
+            "d": "M278,24 Q294,26 296,34 L278,34 Z",
+            "cor": "#111111",
+            "larg": 1.2,
+            "preench": "#9fc7ea",
+            "opac": 0.45
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                236,
+                12
+              ],
+              [
+                304,
+                12
+              ]
+            ],
+            "cor": "#111111",
+            "larg": 3,
+            "opac": 0.45
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                270,
+                12
+              ],
+              [
+                270,
+                20
+              ]
+            ],
+            "cor": "#111111",
+            "larg": 3,
+            "opac": 0.45
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                252,
+                52
+              ],
+              [
+                290,
+                52
+              ]
+            ],
+            "cor": "#111111",
+            "larg": 2.5,
+            "opac": 0.45
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                262,
+                46
+              ],
+              [
+                262,
+                52
+              ]
+            ],
+            "cor": "#111111",
+            "larg": 2,
+            "opac": 0.45
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                280,
+                46
+              ],
+              [
+                280,
+                52
+              ]
+            ],
+            "cor": "#111111",
+            "larg": 2,
+            "opac": 0.45
+          },
+          {
+            "t": "caminho",
+            "d": "M250,380 L314,380 L306,396 L256,396 Z",
+            "cor": "#111111",
+            "larg": 2,
+            "preench": "#c9472f",
+            "opac": 0.55
+          },
+          {
+            "t": "caminho",
+            "d": "M280,380 L284,366 L300,366 L306,380 Z",
+            "cor": "#111111",
+            "larg": 1.5,
+            "preench": "#9fc7ea",
+            "opac": 0.55
+          },
+          {
+            "t": "ret",
+            "x": 264,
+            "y": 368,
+            "w": 12,
+            "h": 12,
+            "cor": "perigo",
+            "borda": "#111111",
+            "opac": 0.55
+          },
+          {
+            "t": "texto",
+            "x": 270,
+            "y": 420,
+            "txt": "8 s depois",
+            "negrito": true,
+            "cor": "mudo"
+          }
+        ],
+        "deslocamentos": [
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                270,
+                60
+              ],
+              [
+                270,
+                366
+              ]
+            ],
+            "cor": "mudo",
+            "larg": 1,
+            "tracejado": true
+          },
+          {
+            "t": "cota",
+            "de": [
+              110,
+              240
+            ],
+            "para": [
+              270,
+              240
+            ],
+            "cor": "perigo",
+            "rot_em": [
+              285,
+              236
+            ],
+            "ancora": "start",
+            "txt": "pacote: 20 · 8 = 160 m"
+          },
+          {
+            "t": "cota",
+            "de": [
+              230,
+              326
+            ],
+            "para": [
+              270,
+              326
+            ],
+            "cor": "atrito",
+            "rot_em": [
+              285,
+              322
+            ],
+            "ancora": "start",
+            "txt": "lancha: 5 · 8 = 40 m"
+          }
+        ]
+      },
+      "animacoes": {
+        "heli-voa": {
+          "alvo": "heli",
+          "tipo": "trajeto",
+          "pontos": [
+            [
+              0,
+              0
+            ],
+            [
+              160,
+              0
+            ]
+          ],
+          "duracao": 4,
+          "pausa": 1.5
+        },
+        "lancha-anda": {
+          "alvo": "lancha",
+          "tipo": "trajeto",
+          "pontos": [
+            [
+              0,
+              0
+            ],
+            [
+              40,
+              0
+            ]
+          ],
+          "duracao": 4,
+          "pausa": 1.5
+        },
+        "pacote-cai": {
+          "alvo": "pacote",
+          "tipo": "trajeto",
+          "fases": [
+            {
+              "pontos": [
+                [
+                  0.0,
+                  0.0
+                ],
+                [
+                  10.0,
+                  1.2
+                ]
+              ],
+              "duracao": 0.25
+            },
+            {
+              "pontos": [
+                [
+                  10.0,
+                  1.2
+                ],
+                [
+                  20.0,
+                  5.0
+                ]
+              ],
+              "duracao": 0.25
+            },
+            {
+              "pontos": [
+                [
+                  20.0,
+                  5.0
+                ],
+                [
+                  30.0,
+                  11.2
+                ]
+              ],
+              "duracao": 0.25
+            },
+            {
+              "pontos": [
+                [
+                  30.0,
+                  11.2
+                ],
+                [
+                  40.0,
+                  20.0
+                ]
+              ],
+              "duracao": 0.25
+            },
+            {
+              "pontos": [
+                [
+                  40.0,
+                  20.0
+                ],
+                [
+                  50.0,
+                  31.2
+                ]
+              ],
+              "duracao": 0.25
+            },
+            {
+              "pontos": [
+                [
+                  50.0,
+                  31.2
+                ],
+                [
+                  60.0,
+                  45.0
+                ]
+              ],
+              "duracao": 0.25
+            },
+            {
+              "pontos": [
+                [
+                  60.0,
+                  45.0
+                ],
+                [
+                  70.0,
+                  61.2
+                ]
+              ],
+              "duracao": 0.25
+            },
+            {
+              "pontos": [
+                [
+                  70.0,
+                  61.2
+                ],
+                [
+                  80.0,
+                  80.0
+                ]
+              ],
+              "duracao": 0.25
+            },
+            {
+              "pontos": [
+                [
+                  80.0,
+                  80.0
+                ],
+                [
+                  90.0,
+                  101.2
+                ]
+              ],
+              "duracao": 0.25
+            },
+            {
+              "pontos": [
+                [
+                  90.0,
+                  101.2
+                ],
+                [
+                  100.0,
+                  125.0
+                ]
+              ],
+              "duracao": 0.25
+            },
+            {
+              "pontos": [
+                [
+                  100.0,
+                  125.0
+                ],
+                [
+                  110.0,
+                  151.2
+                ]
+              ],
+              "duracao": 0.25
+            },
+            {
+              "pontos": [
+                [
+                  110.0,
+                  151.2
+                ],
+                [
+                  120.0,
+                  180.0
+                ]
+              ],
+              "duracao": 0.25
+            },
+            {
+              "pontos": [
+                [
+                  120.0,
+                  180.0
+                ],
+                [
+                  130.0,
+                  211.2
+                ]
+              ],
+              "duracao": 0.25
+            },
+            {
+              "pontos": [
+                [
+                  130.0,
+                  211.2
+                ],
+                [
+                  140.0,
+                  245.0
+                ]
+              ],
+              "duracao": 0.25
+            },
+            {
+              "pontos": [
+                [
+                  140.0,
+                  245.0
+                ],
+                [
+                  150.0,
+                  281.2
+                ]
+              ],
+              "duracao": 0.25
+            },
+            {
+              "pontos": [
+                [
+                  150.0,
+                  281.2
+                ],
+                [
+                  160.0,
+                  320.0
+                ]
+              ],
+              "duracao": 0.25
+            }
+          ],
+          "pausa": 1.5
+        },
+        "heli-rel": {
+          "alvo": "heli",
+          "tipo": "trajeto",
+          "pontos": [
+            [
+              0,
+              0
+            ],
+            [
+              120,
+              0
+            ]
+          ],
+          "duracao": 4,
+          "pausa": 1.5
+        },
+        "pacote-rel": {
+          "alvo": "pacote",
+          "tipo": "trajeto",
+          "fases": [
+            {
+              "pontos": [
+                [
+                  0.0,
+                  0.0
+                ],
+                [
+                  7.5,
+                  1.2
+                ]
+              ],
+              "duracao": 0.25
+            },
+            {
+              "pontos": [
+                [
+                  7.5,
+                  1.2
+                ],
+                [
+                  15.0,
+                  5.0
+                ]
+              ],
+              "duracao": 0.25
+            },
+            {
+              "pontos": [
+                [
+                  15.0,
+                  5.0
+                ],
+                [
+                  22.5,
+                  11.2
+                ]
+              ],
+              "duracao": 0.25
+            },
+            {
+              "pontos": [
+                [
+                  22.5,
+                  11.2
+                ],
+                [
+                  30.0,
+                  20.0
+                ]
+              ],
+              "duracao": 0.25
+            },
+            {
+              "pontos": [
+                [
+                  30.0,
+                  20.0
+                ],
+                [
+                  37.5,
+                  31.2
+                ]
+              ],
+              "duracao": 0.25
+            },
+            {
+              "pontos": [
+                [
+                  37.5,
+                  31.2
+                ],
+                [
+                  45.0,
+                  45.0
+                ]
+              ],
+              "duracao": 0.25
+            },
+            {
+              "pontos": [
+                [
+                  45.0,
+                  45.0
+                ],
+                [
+                  52.5,
+                  61.2
+                ]
+              ],
+              "duracao": 0.25
+            },
+            {
+              "pontos": [
+                [
+                  52.5,
+                  61.2
+                ],
+                [
+                  60.0,
+                  80.0
+                ]
+              ],
+              "duracao": 0.25
+            },
+            {
+              "pontos": [
+                [
+                  60.0,
+                  80.0
+                ],
+                [
+                  67.5,
+                  101.2
+                ]
+              ],
+              "duracao": 0.25
+            },
+            {
+              "pontos": [
+                [
+                  67.5,
+                  101.2
+                ],
+                [
+                  75.0,
+                  125.0
+                ]
+              ],
+              "duracao": 0.25
+            },
+            {
+              "pontos": [
+                [
+                  75.0,
+                  125.0
+                ],
+                [
+                  82.5,
+                  151.2
+                ]
+              ],
+              "duracao": 0.25
+            },
+            {
+              "pontos": [
+                [
+                  82.5,
+                  151.2
+                ],
+                [
+                  90.0,
+                  180.0
+                ]
+              ],
+              "duracao": 0.25
+            },
+            {
+              "pontos": [
+                [
+                  90.0,
+                  180.0
+                ],
+                [
+                  97.5,
+                  211.2
+                ]
+              ],
+              "duracao": 0.25
+            },
+            {
+              "pontos": [
+                [
+                  97.5,
+                  211.2
+                ],
+                [
+                  105.0,
+                  245.0
+                ]
+              ],
+              "duracao": 0.25
+            },
+            {
+              "pontos": [
+                [
+                  105.0,
+                  245.0
+                ],
+                [
+                  112.5,
+                  281.2
+                ]
+              ],
+              "duracao": 0.25
+            },
+            {
+              "pontos": [
+                [
+                  112.5,
+                  281.2
+                ],
+                [
+                  120.0,
+                  320.0
+                ]
+              ],
+              "duracao": 0.25
+            }
+          ],
+          "pausa": 1.5
+        }
+      },
+      "altura": 430
+    }
+  },
+  "abertura": [
+    {
+      "titulo": "Resolução",
+      "blocos": [
+        {
+          "t": "texto",
+          "html": "Há dois caminhos:"
+        },
+        {
+          "t": "texto",
+          "html": "1) Olhar o movimento <b>em relação ao lago</b>: quanto o pacote e a lancha andam enquanto o pacote cai."
+        },
+        {
+          "t": "texto",
+          "html": "2) Olhar o movimento <b>em relação à lancha</b>, com a velocidade relativa."
+        },
+        {
+          "t": "texto",
+          "html": "Escolha um método nas abas acima, ou avance para ver os dois."
+        }
+      ]
+    }
+  ],
+  "metodos": [
+    {
+      "nome": "Em relação ao lago",
+      "telas": [
+        {
+          "titulo": "O que acontece com o pacote",
+          "cena": {
+            "mostrar": [
+              "cenario",
+              "heli",
+              "pacote",
+              "lancha",
+              "trajetoria"
+            ],
+            "animar": [
+              "heli-voa",
+              "lancha-anda",
+              "pacote-cai"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "Ao ser abandonado, o pacote tem a mesma velocidade horizontal do helicóptero: <b>20 m/s</b>. Ele não cai em linha reta: é um <b>lançamento horizontal</b>."
+            },
+            {
+              "t": "texto",
+              "html": "Sem resistência do ar, os dois movimentos são independentes:"
+            },
+            {
+              "t": "texto",
+              "html": "• na <b>horizontal</b>, movimento uniforme a 20 m/s (o pacote fica sempre embaixo do helicóptero);"
+            },
+            {
+              "t": "texto",
+              "html": "• na <b>vertical</b>, queda livre a partir do repouso, com aceleração g."
+            },
+            {
+              "t": "texto",
+              "html": "Enquanto o pacote cai, a lancha também anda, a 5 m/s."
+            }
+          ]
+        },
+        {
+          "titulo": "O tempo de queda",
+          "cena": {
+            "mostrar": [
+              "cenario",
+              "heli",
+              "pacote",
+              "lancha",
+              "cota-h"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "O tempo vem da vertical. Na queda livre a partir do repouso:"
+            },
+            {
+              "t": "eq",
+              "tex": "h = \\dfrac{g\\,t^{2}}{2}"
+            },
+            {
+              "t": "eq",
+              "tex": "320 = \\dfrac{10\\,t^{2}}{2}"
+            },
+            {
+              "t": "texto",
+              "html": "Escrevendo 10 = 5 · 2, o 2 <b>cancela</b>:"
+            },
+            {
+              "t": "eq",
+              "tex": "320 = \\dfrac{5 \\cdot \\marca{a}{2}\\,t^{2}}{\\marca{b}{2}}"
+            },
+            {
+              "t": "eq",
+              "tex": "320 = \\marca{c}{5}\\,t^{2}",
+              "cancelar": [
+                "a",
+                "b"
+              ]
+            },
+            {
+              "t": "texto",
+              "html": "O 5 <b>passa para o outro lado</b>, dividindo:"
+            },
+            {
+              "t": "eq",
+              "tex": "t^{2} = \\dfrac{320}{\\marca{c}{5}}",
+              "mover": [
+                "c"
+              ]
+            },
+            {
+              "t": "eq",
+              "tex": "t^{2} = 64 \\quad \\Rightarrow \\quad t = 8\\ \\text{s}"
+            }
+          ]
+        },
+        {
+          "titulo": "Os deslocamentos horizontais",
+          "cena": {
+            "mostrar": [
+              "cenario",
+              "heli",
+              "pacote",
+              "lancha",
+              "trajetoria",
+              "cota-d",
+              "depois",
+              "deslocamentos"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "Nesses 8 s, na horizontal, cada um anda em movimento uniforme:"
+            },
+            {
+              "t": "eq",
+              "tex": "\\Delta s = v \\cdot t"
+            },
+            {
+              "t": "eq",
+              "tex": "\\Delta s_{\\text{pacote}} = 20 \\cdot 8 = 160\\ \\text{m}"
+            },
+            {
+              "t": "eq",
+              "tex": "\\Delta s_{\\text{lancha}} = 5 \\cdot 8 = 40\\ \\text{m}"
+            },
+            {
+              "t": "texto",
+              "html": "Nas duas <b>fotografias</b> (no abandono e 8 s depois), o pacote anda d até o ponto onde a lancha estava e mais os 40 m que ela andou:"
+            },
+            {
+              "t": "eq",
+              "tex": "d + \\marca{q}{40} = 160"
+            },
+            {
+              "t": "eq",
+              "tex": "d = 160 - \\marca{q}{40}",
+              "mover": [
+                "q"
+              ]
+            },
+            {
+              "t": "eq",
+              "tex": "d = 120\\ \\text{m}"
+            },
+            {
+              "t": "gabarito",
+              "letra": "D"
+            },
+            {
+              "t": "fim"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nome": "Em relação à lancha",
+      "telas": [
+        {
+          "titulo": "Visto da lancha",
+          "cena": {
+            "mostrar": [
+              "cenario",
+              "heli",
+              "pacote",
+              "lancha",
+              "trajetoria-rel",
+              "cota-d"
+            ],
+            "animar": [
+              "heli-rel",
+              "pacote-rel"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "Agora, olhe a cena <b>de dentro da lancha</b>: ela fica parada, e o helicóptero e o pacote se aproximam dela na horizontal com a velocidade relativa:"
+            },
+            {
+              "t": "eq",
+              "tex": "v_{\\text{rel}} = 20 - 5 = 15\\ \\text{m/s}"
+            },
+            {
+              "t": "texto",
+              "html": "Na vertical nada muda: como no método 1, h = g t²/2 dá <b>t = 8 s</b>."
+            },
+            {
+              "t": "texto",
+              "html": "Nesse tempo, o pacote precisa percorrer, em relação à lancha, a distância d:"
+            },
+            {
+              "t": "eq",
+              "tex": "d = v_{\\text{rel}} \\cdot t = 15 \\cdot 8"
+            },
+            {
+              "t": "eq",
+              "tex": "d = 120\\ \\text{m}"
+            },
+            {
+              "t": "gabarito",
+              "letra": "D"
+            },
+            {
+              "t": "fim"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "status": "revisado",
+  "criadoEm": "2026-11-22T21:00:00-03:00",
+  "atualizadoEm": "2026-11-22T21:00:00-03:00",
+  "revisao": {
+    "estado": "aprovada",
+    "comentario": "",
+    "atualizadoEm": "2026-11-22T22:52:05.051Z"
+  }
+}

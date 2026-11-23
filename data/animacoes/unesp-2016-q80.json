@@ -1,5 +1,6 @@
 {
   "id": "unesp-2016-q80",
+  "formato": "aula",
   "titulo": "Por que o topo da montanha é frio",
   "conceitos": [
     "Primeira lei da termodinâmica",
@@ -138,36 +139,76 @@
       }
     }
   },
-  "passos": [
+  "metodos": [
     {
-      "titulo": "O ar que sobe",
-      "conceito": "Primeira lei da termodinâmica",
-      "texto": "Subindo, o ar fica sob pressão menor e se expande rápido, sem tempo de trocar calor: expansão adiabática. Com Q = 0, o trabalho da expansão sai da energia interna, e o ar esfria. Isso elimina D (isocórica) e E (isotérmica).",
-      "equacoes": [
-        "Q = 0 \\quad \\Rightarrow \\quad \\Delta U = -\\tau < 0"
-      ],
-      "cena": {
-        "mostrar": [
-          "montanha",
-          "ar"
-        ]
-      }
-    },
-    {
-      "titulo": "A radiação da superfície",
-      "conceito": "Transformações gasosas",
-      "texto": "Quem aquece o ar é a superfície, que irradia. Nas encostas inclinadas ela absorve menos radiação e irradia menos para o ar. A é falsa (o ar é mau condutor) e C fala de algo que o texto não diz. Resposta: <b>(B)</b>.",
-      "cena": {
-        "mostrar": [
-          "radiacao"
-        ],
-        "destacar": [
-          "radiacao"
-        ]
-      }
+      "nome": "Pelo texto e pela 1ª lei",
+      "telas": [
+        {
+          "titulo": "O ar que sobe",
+          "cena": {
+            "mostrar": [
+              "montanha",
+              "ar"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "Subindo, o ar fica sob pressão menor e se expande rápido, sem tempo de trocar calor: <b>expansão adiabática</b> (Q = 0)."
+            },
+            {
+              "t": "texto",
+              "html": "Pela 1ª lei da termodinâmica:"
+            },
+            {
+              "t": "eq",
+              "tex": "\\Delta U = Q - \\tau = -\\tau"
+            },
+            {
+              "t": "texto",
+              "html": "Na expansão o trabalho é positivo: a energia interna diminui e o ar <b>esfria</b>. Isso elimina (D), isocórica, e (E), isotérmica."
+            }
+          ]
+        },
+        {
+          "titulo": "A radiação da superfície",
+          "cena": {
+            "mostrar": [
+              "montanha",
+              "ar",
+              "radiacao"
+            ],
+            "destacar": [
+              "radiacao"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "Quem aquece o ar é a superfície, que irradia. As encostas inclinadas absorvem menos radiação solar e <b>irradiam menos</b> para o ar próximo."
+            },
+            {
+              "t": "texto",
+              "html": "(A) é falsa: o ar é mau condutor de calor. (C) fala de algo que o texto não diz."
+            },
+            {
+              "t": "gabarito",
+              "letra": "B"
+            },
+            {
+              "t": "fim"
+            }
+          ]
+        }
+      ]
     }
   ],
   "status": "revisado",
   "criadoEm": "2026-11-15T09:00:00-03:00",
-  "atualizadoEm": "2026-11-15T09:00:00-03:00"
+  "atualizadoEm": "2026-11-15T09:00:00-03:00",
+  "revisao": {
+    "estado": "aprovada",
+    "comentario": "",
+    "atualizadoEm": "2026-11-23T02:08:56.676Z"
+  }
 }

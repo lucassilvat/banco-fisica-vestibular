@@ -1,5 +1,6 @@
 {
   "id": "unesp-2018-q82",
+  "formato": "aula",
   "titulo": "A tensão que sobra para o resistor",
   "conceitos": [
     "Associação em série",
@@ -15,261 +16,649 @@
             "pontos": [
               [
                 100,
-                300
+                150
               ],
               [
                 100,
-                120
-              ],
-              [
-                230,
-                120
+                224
               ]
             ],
-            "cor": "tinta",
-            "larg": 2.5
+            "cor": "#111111",
+            "larg": 3
           },
           {
             "t": "linha",
             "pontos": [
               [
-                330,
-                120
-              ],
-              [
-                520,
-                120
-              ],
-              [
-                520,
-                300
-              ],
-              [
-                420,
-                300
-              ]
-            ],
-            "cor": "tinta",
-            "larg": 2.5
-          },
-          {
-            "t": "linha",
-            "pontos": [
-              [
-                260,
-                300
+                100,
+                238
               ],
               [
                 100,
-                300
+                320
               ]
             ],
-            "cor": "tinta",
-            "larg": 2.5
+            "cor": "#111111",
+            "larg": 3
           },
           {
             "t": "linha",
             "pontos": [
               [
-                85,
-                200
+                80,
+                224
               ],
               [
-                115,
-                200
+                120,
+                224
               ]
             ],
-            "cor": "tinta",
-            "larg": 2
+            "cor": "#111111",
+            "larg": 3
           },
           {
             "t": "linha",
             "pontos": [
               [
-                92,
-                212
+                90,
+                238
               ],
               [
-                108,
-                212
+                110,
+                238
               ]
             ],
-            "cor": "tinta",
-            "larg": 4
+            "cor": "#111111",
+            "larg": 7
           },
           {
             "t": "texto",
-            "x": 70,
-            "y": 206,
+            "x": 72,
+            "y": 214,
+            "txt": "+",
+            "negrito": true,
+            "ancora": "end"
+          },
+          {
+            "t": "texto",
+            "x": 72,
+            "y": 250,
+            "txt": "−",
+            "negrito": true,
+            "ancora": "end"
+          },
+          {
+            "t": "texto",
+            "x": 58,
+            "y": 233,
             "txt": "9,0 V",
             "negrito": true,
             "ancora": "end"
           },
           {
+            "t": "linha",
+            "pontos": [
+              [
+                100,
+                150
+              ],
+              [
+                258,
+                150
+              ]
+            ],
+            "cor": "#111111",
+            "larg": 3
+          },
+          {
             "t": "circ",
             "x": 280,
-            "y": 120,
-            "r": 26,
+            "y": 150,
+            "r": 22,
             "cor": "luz",
-            "borda": "tinta"
+            "borda": "#111111",
+            "larg": 3
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                264.4,
+                134.4
+              ],
+              [
+                295.6,
+                165.6
+              ]
+            ],
+            "cor": "#111111",
+            "larg": 2.5
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                295.6,
+                134.4
+              ],
+              [
+                264.4,
+                165.6
+              ]
+            ],
+            "cor": "#111111",
+            "larg": 2.5
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                302,
+                150
+              ],
+              [
+                520,
+                150
+              ]
+            ],
+            "cor": "#111111",
+            "larg": 3
           },
           {
             "t": "texto",
             "x": 280,
-            "y": 84,
+            "y": 190,
             "txt": "lâmpada",
             "mudo": true
           },
           {
+            "t": "linha",
+            "pontos": [
+              [
+                230,
+                150
+              ],
+              [
+                230,
+                80
+              ],
+              [
+                262,
+                80
+              ]
+            ],
+            "cor": "#111111",
+            "larg": 3
+          },
+          {
             "t": "circ",
-            "x": 520,
-            "y": 210,
+            "x": 280,
+            "y": 80,
             "r": 18,
             "cor": "papel",
-            "borda": "tinta"
+            "borda": "#111111",
+            "larg": 3
+          },
+          {
+            "t": "texto",
+            "x": 280,
+            "y": 81,
+            "txt": "V",
+            "negrito": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                298,
+                80
+              ],
+              [
+                330,
+                80
+              ],
+              [
+                330,
+                150
+              ]
+            ],
+            "cor": "#111111",
+            "larg": 3
+          },
+          {
+            "t": "circ",
+            "x": 230,
+            "y": 150,
+            "r": 4.5,
+            "cor": "#111111",
+            "borda": "#111111"
+          },
+          {
+            "t": "circ",
+            "x": 330,
+            "y": 150,
+            "r": 4.5,
+            "cor": "#111111",
+            "borda": "#111111"
+          },
+          {
+            "t": "texto",
+            "x": 280,
+            "y": 50,
+            "txt": "voltímetro",
+            "mudo": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                520,
+                150
+              ],
+              [
+                520,
+                217
+              ]
+            ],
+            "cor": "#111111",
+            "larg": 3
+          },
+          {
+            "t": "circ",
+            "x": 520,
+            "y": 235,
+            "r": 18,
+            "cor": "papel",
+            "borda": "#111111",
+            "larg": 3
           },
           {
             "t": "texto",
             "x": 520,
-            "y": 210,
+            "y": 236,
             "txt": "A",
             "negrito": true
           },
           {
-            "t": "caminho",
-            "d": "M260,300 l8,-10 l12,20 l12,-20 l12,20 l12,-20 l12,20 l12,-20 l12,20 l12,-20 l12,20 l12,-20 l8,10",
-            "cor": "tinta",
-            "larg": 2
+            "t": "linha",
+            "pontos": [
+              [
+                520,
+                253
+              ],
+              [
+                520,
+                320
+              ]
+            ],
+            "cor": "#111111",
+            "larg": 3
           },
           {
             "t": "texto",
-            "x": 260,
-            "y": 326,
+            "x": 548,
+            "y": 262,
+            "txt": "amperímetro",
+            "mudo": true,
+            "ancora": "start"
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                520,
+                320
+              ],
+              [
+                390,
+                320
+              ]
+            ],
+            "cor": "#111111",
+            "larg": 3
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                390,
+                320
+              ],
+              [
+                377.5,
+                310.0
+              ],
+              [
+                365.0,
+                330.0
+              ],
+              [
+                352.5,
+                310.0
+              ],
+              [
+                340.0,
+                330.0
+              ],
+              [
+                327.5,
+                310.0
+              ],
+              [
+                315.0,
+                330.0
+              ],
+              [
+                302.5,
+                310.0
+              ],
+              [
+                290.0,
+                330.0
+              ],
+              [
+                277.5,
+                310.0
+              ],
+              [
+                265.0,
+                330.0
+              ],
+              [
+                252.5,
+                310.0
+              ],
+              [
+                240,
+                320
+              ]
+            ],
+            "cor": "#111111",
+            "larg": 3
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                240,
+                320
+              ],
+              [
+                100,
+                320
+              ]
+            ],
+            "cor": "#111111",
+            "larg": 3
+          },
+          {
+            "t": "circ",
+            "x": 390,
+            "y": 320,
+            "r": 6,
+            "cor": "#3a64d2",
+            "borda": "#111111"
+          },
+          {
+            "t": "circ",
+            "x": 240,
+            "y": 320,
+            "r": 6,
+            "cor": "#3a64d2",
+            "borda": "#111111"
+          },
+          {
+            "t": "texto",
+            "x": 240,
+            "y": 346,
             "txt": "A",
             "negrito": true
           },
           {
             "t": "texto",
-            "x": 420,
-            "y": 326,
+            "x": 390,
+            "y": 346,
             "txt": "B",
             "negrito": true
           },
           {
             "t": "texto",
-            "x": 340,
-            "y": 334,
+            "x": 315,
+            "y": 346,
             "txt": "R",
             "negrito": true,
-            "mudo": true
-          },
-          {
-            "t": "linha",
-            "pontos": [
-              [
-                230,
-                120
-              ],
-              [
-                230,
-                50
-              ],
-              [
-                260,
-                50
-              ]
-            ],
-            "cor": "tinta",
-            "larg": 1.5
-          },
-          {
-            "t": "linha",
-            "pontos": [
-              [
-                330,
-                120
-              ],
-              [
-                330,
-                50
-              ],
-              [
-                300,
-                50
-              ]
-            ],
-            "cor": "tinta",
-            "larg": 1.5
-          },
-          {
-            "t": "circ",
-            "x": 280,
-            "y": 50,
-            "r": 18,
-            "cor": "papel",
-            "borda": "tinta"
-          },
-          {
-            "t": "texto",
-            "x": 280,
-            "y": 50,
-            "txt": "V",
-            "negrito": true
+            "cor": "perigo"
           }
         ],
-        "tensoes": [
+        "leituras": [
           {
             "t": "rotulo",
-            "x": 280,
-            "y": 170,
+            "x": 400,
+            "y": 80,
             "txt": "U = 5,70 V",
             "cor": "var(--accent)"
           },
           {
             "t": "rotulo",
-            "x": 340,
-            "y": 260,
-            "txt": "9,0 − 5,70 = 3,30 V",
-            "cor": "var(--danger)"
-          },
-          {
-            "t": "rotulo",
-            "x": 590,
-            "y": 210,
+            "x": 595,
+            "y": 200,
             "txt": "i = 0,15 A",
             "cor": "var(--anim-acel)"
           }
+        ],
+        "tensao-r": [
+          {
+            "t": "rotulo",
+            "x": 315,
+            "y": 282,
+            "txt": "9,0 − 5,70 = 3,30 V",
+            "cor": "var(--danger)"
+          }
         ]
-      }
+      },
+      "altura": 380
     }
   },
-  "passos": [
+  "abertura": [
     {
-      "titulo": "O circuito",
-      "conceito": "Associação em série",
-      "texto": "Lâmpada e resistor estão em série com a bateria; o amperímetro ideal não tem resistência e o voltímetro ideal, em paralelo com a lâmpada, não desvia corrente. A corrente é a mesma nos dois: 0,15 A. A tensão da bateria se divide entre eles.",
-      "cena": {
-        "mostrar": [
-          "circuito",
-          "tensoes"
-        ]
-      }
+      "titulo": "Resolução",
+      "blocos": [
+        {
+          "t": "texto",
+          "html": "Há dois caminhos:"
+        },
+        {
+          "t": "texto",
+          "html": "1) Achar a tensão que sobra para o resistor e usar a lei de Ohm."
+        },
+        {
+          "t": "texto",
+          "html": "2) Usar a <b>resistência equivalente</b> do circuito em série."
+        },
+        {
+          "t": "texto",
+          "html": "Escolha um método nas abas acima, ou avance para ver os dois."
+        }
+      ]
+    }
+  ],
+  "metodos": [
+    {
+      "nome": "Tensão no resistor",
+      "telas": [
+        {
+          "titulo": "O circuito",
+          "cena": {
+            "mostrar": [
+              "circuito",
+              "leituras"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "O <b>voltímetro</b> está em paralelo com a lâmpada: mede a tensão nela, U = 5,70 V. O <b>amperímetro</b> está em série: mede a corrente, i = 0,15 A."
+            },
+            {
+              "t": "texto",
+              "html": "Ideais, eles não alteram o circuito. A lâmpada e o resistor entre A e B ficam <b>em série</b> com a bateria: a mesma corrente passa pelos dois."
+            }
+          ]
+        },
+        {
+          "titulo": "A tensão que sobra para o resistor",
+          "cena": {
+            "mostrar": [
+              "circuito",
+              "leituras",
+              "tensao-r"
+            ],
+            "destacar": [
+              "tensao-r"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "Em série, a tensão da bateria se divide entre a lâmpada e o resistor:"
+            },
+            {
+              "t": "eq",
+              "tex": "U_{\\text{bat}} = U + U_{R}"
+            },
+            {
+              "t": "eq",
+              "tex": "9,0 = \\marca{u}{5,70} + U_{R}"
+            },
+            {
+              "t": "eq",
+              "tex": "U_{R} = 9,0 - \\marca{u}{5,70}",
+              "mover": [
+                "u"
+              ]
+            },
+            {
+              "t": "eq",
+              "tex": "U_{R} = 3,30\\ \\text{V}"
+            }
+          ]
+        },
+        {
+          "titulo": "A resistência",
+          "cena": {
+            "mostrar": [
+              "circuito",
+              "leituras",
+              "tensao-r"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "Primeira lei de Ohm no resistor:"
+            },
+            {
+              "t": "eq",
+              "tex": "U_{R} = R\\, \\marca{i}{i}"
+            },
+            {
+              "t": "eq",
+              "tex": "R = \\dfrac{U_{R}}{\\marca{i}{i}}",
+              "mover": [
+                "i"
+              ]
+            },
+            {
+              "t": "eq",
+              "tex": "R = \\dfrac{3,30}{0,15} = 22\\ \\Omega"
+            },
+            {
+              "t": "gabarito",
+              "letra": "E"
+            },
+            {
+              "t": "fim"
+            }
+          ]
+        }
+      ]
     },
     {
-      "titulo": "A resistência",
-      "conceito": "Primeira lei de Ohm",
-      "texto": "Resposta: <b>(E) 22 Ω</b>.",
-      "equacoes": [
-        "R = \\dfrac{9,0 - 5,70}{0,15} = \\dfrac{3,30}{0,15} = 22\\ \\Omega"
-      ],
-      "cena": {
-        "destacar": [
-          "tensoes"
-        ]
-      }
+      "nome": "Resistência equivalente",
+      "telas": [
+        {
+          "titulo": "Equivalente e lâmpada",
+          "cena": {
+            "mostrar": [
+              "circuito",
+              "leituras"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "O circuito todo, com 9,0 V e 0,15 A, tem resistência equivalente:"
+            },
+            {
+              "t": "eq",
+              "tex": "R_{\\text{eq}} = \\dfrac{9,0}{0,15} = 60\\ \\Omega"
+            },
+            {
+              "t": "texto",
+              "html": "A lâmpada, com 5,70 V e 0,15 A:"
+            },
+            {
+              "t": "eq",
+              "tex": "R_{L} = \\dfrac{5,70}{0,15} = 38\\ \\Omega"
+            }
+          ]
+        },
+        {
+          "titulo": "A resistência entre A e B",
+          "cena": {
+            "mostrar": [
+              "circuito",
+              "leituras"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "Em série, as resistências se somam:"
+            },
+            {
+              "t": "eq",
+              "tex": "R_{\\text{eq}} = R_{L} + R"
+            },
+            {
+              "t": "eq",
+              "tex": "60 = \\marca{l}{38} + R"
+            },
+            {
+              "t": "eq",
+              "tex": "R = 60 - \\marca{l}{38} = 22\\ \\Omega",
+              "mover": [
+                "l"
+              ]
+            },
+            {
+              "t": "gabarito",
+              "letra": "E"
+            },
+            {
+              "t": "fim"
+            }
+          ]
+        }
+      ]
     }
   ],
   "status": "revisado",
   "criadoEm": "2026-11-15T09:00:00-03:00",
-  "atualizadoEm": "2026-11-15T09:00:00-03:00"
+  "atualizadoEm": "2026-11-15T09:00:00-03:00",
+  "revisao": {
+    "estado": "aprovada",
+    "comentario": "",
+    "atualizadoEm": "2026-11-18T02:10:42.468Z"
+  }
 }
