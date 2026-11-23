@@ -21,6 +21,7 @@ de modelo de dados; CORREÇÃO, em correções de questões já publicadas.
   mapa de curvas de nível e o perfil (trabalho do peso com sinal, duas trajetórias); Q79 com o gráfico;
   Q80 com sinais (A = −24, os menos cancelam, p passa para o outro lado) e raios em escala horizontal
   real; Q81 com espectro e tabela periódica; Q82 com os dois circuitos e o sentido convencional da corrente.
+- As 8 resoluções animadas aprovadas pelo Lucas e revisões importadas: **78 animações no site público**.
 
 ## v2.19.1 — 2026-11-17
 

@@ -220,13 +220,13 @@ Para gravar questões, usam-se os lotes da etapa `publicar` (docs/WORKFLOW.md).
     seção "Diretrizes das revisões do Lucas" de `docs/ANIMACOES.md`.
 44. v2.21.0: Unesp 2027 (1ª fase, aplicada em 22/11/2026), Q71 e Q76–Q82, com resoluções animadas no
     formato aula (8 questões; a pedido do Lucas, importação e animações juntas). Q71 interdisciplinar
-    aprovada por ele; Q69 e Q73 fora. Aguardando a revisão das animações no app.
+    aprovada por ele; Q69 e Q73 fora. As 8 animações aprovadas: 78 no site público.
 
 ## Pendências
 
 - **Resolução animada**: formato aula (item 37); Unesp 2026 aprovada (7 no site público); Unesp 2025
   aprovada (item 38); 17 no site público. Unesp 2024 e 2023 aprovadas (item 39): 34 no site público. Unesp 2022 e 2021 aprovadas (item 40):
-  49 no site público. Unesp 2020 e 2019 aprovadas (item 41): 70 no site público. Na Unesp, faltam 2016 a 2018. Seguir prova a prova conforme o Lucas pedir. Em revisão pelo Lucas no app do Claude (item 36). Só as aprovadas vão
+  49 no site público. Unesp 2020 e 2019 aprovadas (item 41): 70 no site público. Unesp 2027 aprovada (item 44): 78 no site público. Na Unesp, faltam 2016 a 2018. Seguir prova a prova conforme o Lucas pedir. Em revisão pelo Lucas no app do Claude (item 36). Só as aprovadas vão
   para o site público. As comentadas esperam ajustes: ler os comentários da coleção `revisoes`,
   corrigir os roteiros e republicar no app. Não produzir animações novas sem novo pedido.
 
