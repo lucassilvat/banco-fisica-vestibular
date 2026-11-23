@@ -8,7 +8,7 @@ de modelo de dados; CORREÇÃO, em correções de questões já publicadas.
 
 - **Unesp 2018, 2017 e 2016 no formato aula** (24 questões: 2018 Q76 a Q82; 2017 Q70 e Q77 a Q83;
   2016 Q74 e Q76 a Q83), seguindo as diretrizes das revisões do Lucas: fórmula enunciada antes de
-  usar, passagens animadas (isolar Δt, k, ω², h, R; o 6 que "tomba" e vira expoente no nível sonoro)
+  usar, passagens animadas (isolar Δt, k, ω², h, R; o 6 como expoente de 10 no nível sonoro)
   e cancelamentos (a massa e a tração no pêndulo cônico, a massa nas caixas do elevador e na explosão).
 - **Dois métodos em abas**: 2018 Q76 (proporção inversa entre tempo e velocidade), 2018 Q82
   (resistência equivalente), 2016 Q76 (referencial da estrada).
@@ -27,7 +27,13 @@ de modelo de dados; CORREÇÃO, em correções de questões já publicadas.
   sem produto vetorial: por eliminação, cada alternativa com a polaridade da pilha, o polo do ímã e a
   regra da mão direita desenhada (vista lateral), e o giro na vista do observador da figura.
 - As demais 19 aprovadas pelo Lucas. Diretrizes atualizadas.
-- Aguardam a revisão do Lucas no app as 5 corrigidas; o site público não muda até ele aprovar.
+- As 24 aprovadas pelo Lucas e revisões importadas.
+## v2.19.2 — 2026-11-17
+
+- **Cena das resoluções animadas sempre no tema claro**, a pedido do Lucas: o painel do desenho usa
+  as cores do tema claro mesmo quando o sistema do usuário está no tema escuro (no escuro, desenhos
+  como circuitos ficavam difíceis de ver). Vale para todas as animações, inclusive as aprovadas; a
+  lousa e o resto do app continuam seguindo o tema do sistema.
 
 ## v2.19.1 — 2026-11-17
 
