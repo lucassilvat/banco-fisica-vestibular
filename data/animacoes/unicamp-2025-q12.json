@@ -1,5 +1,6 @@
 {
   "id": "unicamp-2025-q12",
+  "formato": "aula",
   "titulo": "Uma barra que encolhe ao ser aquecida",
   "conceitos": [
     "Dilatação térmica dos sólidos",
@@ -498,31 +499,81 @@
       }
     }
   },
-  "passos": [
+  "metodos": [
     {
-      "titulo": "Lendo o gráfico",
-      "conceito": "Leitura de gráficos",
-      "texto": "Em 0 ºC, L<sub>0</sub> = 2,0000 mm; em 50 ºC, L = 1,9995 mm. O comprimento diminui.",
-      "cena": {
-        "mostrar": [
-          "eixos",
-          "reta",
-          "pontos"
-        ]
-      }
-    },
-    {
-      "titulo": "O coeficiente",
-      "conceito": "Dilatação térmica dos sólidos",
-      "texto": "Resposta: <b>(b)</b>.",
-      "equacoes": [
-        "\\alpha = \\dfrac{\\Delta L}{L_{0}\\,\\Delta\\theta} = \\dfrac{-0,0005}{2,0000 \\cdot 50} = -5,0 \\times 10^{-6}\\ \\text{ºC}^{-1}"
-      ],
-      "cena": {
-        "destacar": [
-          "pontos"
-        ]
-      }
+      "nome": "Dilatação linear",
+      "telas": [
+        {
+          "titulo": "Lendo o gráfico",
+          "cena": {
+            "mostrar": [
+              "eixos",
+              "reta",
+              "pontos"
+            ],
+            "destacar": [
+              "pontos"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "Do gráfico: em 0 °C, L<sub>0</sub> = 2,0000 mm; em 50 °C, L = 1,9995 mm. O comprimento <b>diminui</b>:"
+            },
+            {
+              "t": "eq",
+              "tex": "\\Delta L = 1,9995 - 2,0000 = -0,0005\\ \\text{mm}"
+            }
+          ]
+        },
+        {
+          "titulo": "O coeficiente",
+          "cena": {
+            "mostrar": [
+              "eixos",
+              "reta",
+              "pontos"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "Dilatação linear:"
+            },
+            {
+              "t": "eq",
+              "tex": "\\Delta L = \\marca{l}{L_{0}}\\, \\alpha\\, \\marca{d}{\\Delta\\theta}"
+            },
+            {
+              "t": "eq",
+              "tex": "\\alpha = \\dfrac{\\Delta L}{\\marca{l}{L_{0}}\\, \\marca{d}{\\Delta\\theta}}",
+              "mover": [
+                "l",
+                "d"
+              ]
+            },
+            {
+              "t": "eq",
+              "tex": "\\alpha = \\dfrac{-0,0005}{2,0000 \\cdot 50} = \\dfrac{-0,0005}{100}"
+            },
+            {
+              "t": "eq",
+              "tex": "\\alpha = -5,0 \\cdot 10^{-6}\\ ^{\\circ}\\text{C}^{-1}"
+            },
+            {
+              "t": "texto",
+              "html": "O sinal negativo mostra que a barra encolhe ao ser aquecida."
+            },
+            {
+              "t": "gabarito",
+              "letra": "b"
+            },
+            {
+              "t": "fim"
+            }
+          ]
+        }
+      ]
     }
   ],
   "status": "revisado",

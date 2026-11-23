@@ -1,5 +1,6 @@
 {
   "id": "unicamp-2025-q10",
+  "formato": "aula",
   "titulo": "Onde as atrações da Terra e da Lua se anulam",
   "conceitos": [
     "Lei da gravitação universal",
@@ -54,7 +55,7 @@
           {
             "t": "texto",
             "x": 160.0,
-            "y": 106.0,
+            "y": 348,
             "txt": "0,3",
             "mudo": true
           },
@@ -92,7 +93,7 @@
           {
             "t": "texto",
             "x": 220.0,
-            "y": 106.0,
+            "y": 348,
             "txt": "0,4",
             "mudo": true
           },
@@ -130,7 +131,7 @@
           {
             "t": "texto",
             "x": 280.0,
-            "y": 106.0,
+            "y": 348,
             "txt": "0,5",
             "mudo": true
           },
@@ -168,7 +169,7 @@
           {
             "t": "texto",
             "x": 340.0,
-            "y": 106.0,
+            "y": 348,
             "txt": "0,6",
             "mudo": true
           },
@@ -206,7 +207,7 @@
           {
             "t": "texto",
             "x": 400.0,
-            "y": 106.0,
+            "y": 348,
             "txt": "0,7",
             "mudo": true
           },
@@ -244,7 +245,7 @@
           {
             "t": "texto",
             "x": 460.0,
-            "y": 106.0,
+            "y": 348,
             "txt": "0,8",
             "mudo": true
           },
@@ -282,7 +283,7 @@
           {
             "t": "texto",
             "x": 520.0,
-            "y": 106.0,
+            "y": 348,
             "txt": "0,9",
             "mudo": true
           },
@@ -321,7 +322,7 @@
             "t": "texto",
             "x": 92,
             "y": 330.0,
-            "txt": "-0,04",
+            "txt": "−0,04",
             "ancora": "end",
             "mudo": true
           },
@@ -360,7 +361,7 @@
             "t": "texto",
             "x": 92,
             "y": 270.0,
-            "txt": "-0,03",
+            "txt": "−0,03",
             "ancora": "end",
             "mudo": true
           },
@@ -399,7 +400,7 @@
             "t": "texto",
             "x": 92,
             "y": 210.0,
-            "txt": "-0,02",
+            "txt": "−0,02",
             "ancora": "end",
             "mudo": true
           },
@@ -438,7 +439,7 @@
             "t": "texto",
             "x": 92,
             "y": 150.0,
-            "txt": "-0,01",
+            "txt": "−0,01",
             "ancora": "end",
             "mudo": true
           },
@@ -539,7 +540,7 @@
           {
             "t": "texto",
             "x": 580.0,
-            "y": 124.0,
+            "y": 368,
             "txt": "r/d",
             "mudo": true,
             "ancora": "end"
@@ -1082,33 +1083,88 @@
       }
     }
   },
-  "passos": [
+  "metodos": [
     {
-      "titulo": "O que procurar no gráfico",
-      "conceito": "Lei da gravitação universal",
-      "texto": "Em P as duas forças se cancelam: a resultante é nula e a aceleração também. Procuramos onde a curva corta o eixo a = 0.",
-      "cena": {
-        "mostrar": [
-          "eixos",
-          "curva"
-        ]
-      }
-    },
-    {
-      "titulo": "A distância até a Lua",
-      "conceito": "Leitura de gráficos",
-      "texto": "A curva cruza o zero em r/d ≈ 0,9: P está a 0,9 d do centro da Terra e, portanto, a 0,1 d do centro da Lua. Resposta: <b>(a) 38 000 km</b>.",
-      "equacoes": [
-        "d - r \\approx 0,1 \\cdot 380\\,000 = 38\\,000\\ \\text{km}"
-      ],
-      "cena": {
-        "mostrar": [
-          "zero"
-        ],
-        "destacar": [
-          "zero"
-        ]
-      }
+      "nome": "Leitura do gráfico",
+      "telas": [
+        {
+          "titulo": "O que procurar",
+          "cena": {
+            "mostrar": [
+              "eixos",
+              "curva"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "Em P, as forças da Terra e da Lua se cancelam: a força resultante é nula. Pela 2ª lei de Newton, a aceleração também:"
+            },
+            {
+              "t": "eq",
+              "tex": "F_{R} = m\\, a = 0 \\quad \\Rightarrow \\quad a = 0"
+            },
+            {
+              "t": "texto",
+              "html": "Procuramos no gráfico o ponto em que a curva corta o eixo a = 0."
+            }
+          ]
+        },
+        {
+          "titulo": "A distância à Terra",
+          "cena": {
+            "mostrar": [
+              "eixos",
+              "curva",
+              "zero"
+            ],
+            "destacar": [
+              "zero"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "A curva corta o zero em r/d ≈ 0,9: P está a 0,9 d do centro da <b>Terra</b>."
+            },
+            {
+              "t": "eq",
+              "tex": "r \\approx 0,9 \\cdot 380\\,000 = 342\\,000\\ \\text{km}"
+            }
+          ]
+        },
+        {
+          "titulo": "A distância à Lua",
+          "cena": {
+            "mostrar": [
+              "eixos",
+              "curva",
+              "zero"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "A pergunta é a distância ao centro da <b>Lua</b>:"
+            },
+            {
+              "t": "eq",
+              "tex": "d - r \\approx 380\\,000 - 342\\,000 = 38\\,000\\ \\text{km}"
+            },
+            {
+              "t": "texto",
+              "html": "342 000 km (alternativa d) é a distância à Terra."
+            },
+            {
+              "t": "gabarito",
+              "letra": "a"
+            },
+            {
+              "t": "fim"
+            }
+          ]
+        }
+      ]
     }
   ],
   "status": "revisado",

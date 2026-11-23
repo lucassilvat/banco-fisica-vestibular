@@ -223,13 +223,15 @@ Para gravar questões, usam-se os lotes da etapa `publicar` (docs/WORKFLOW.md).
     com a regra da mão direita desenhada); 23 aprovadas, falta a revisão da 2016 Q83.
 44. v2.21.0: Unesp 2027 (1ª fase, aplicada em 22/11/2026), Q71 e Q76–Q82, com resoluções animadas no
     formato aula (8 questões; a pedido do Lucas, importação e animações juntas). Q71 interdisciplinar
-    aprovada por ele; Q69 e Q73 fora. As 8 animações aprovadas: 78 no site público.
+    aprovada por ele; Q69 e Q73 fora. As 8 animações aprovadas.
+45. v2.22.0: Unicamp 2027, 2026 e 2025 (21 questões) no formato aula; 2027 Q08 e Q14 e 2026 Q10 com
+    dois métodos. Aguardando a revisão do Lucas no app.
 
 ## Pendências
 
 - **Resolução animada**: formato aula (item 37); Unesp 2026 aprovada (7 no site público); Unesp 2025
   aprovada (item 38); 17 no site público. Unesp 2024 e 2023 aprovadas (item 39): 34 no site público. Unesp 2022 e 2021 aprovadas (item 40):
-  49 no site público. Unesp 2020 e 2019 aprovadas (item 41): 70 no site público. Unesp 2018 a 2016 aprovadas, exceto a 2016 Q83, ainda não revisada (item 43), e Unesp 2027 aprovada (item 44): 101 no site público; a Unesp (2016 a 2027) está toda no formato aula. Seguir prova a prova conforme o Lucas pedir. Em revisão pelo Lucas no app do Claude (item 36). Só as aprovadas vão
+  49 no site público. Unesp 2020 e 2019 aprovadas (item 41): 70 no site público. Unesp 2018 a 2016 aprovadas, exceto a 2016 Q83, ainda não revisada (item 43), e Unesp 2027 aprovada (item 44): 101 no site público; a Unesp (2016 a 2027) está toda no formato aula. Unicamp 2027 a 2025 refeitas (item 45), aguardando revisão; seguem as demais provas da Unicamp e a Fuvest, conforme o Lucas pedir. Seguir prova a prova conforme o Lucas pedir. Em revisão pelo Lucas no app do Claude (item 36). Só as aprovadas vão
   para o site público. As comentadas esperam ajustes: ler os comentários da coleção `revisoes`,
   corrigir os roteiros e republicar no app. Não produzir animações novas sem novo pedido.
 

@@ -1,5 +1,6 @@
 {
   "id": "unicamp-2026-q08",
+  "formato": "aula",
   "titulo": "Condução, convecção e radiação",
   "conceitos": [
     "Processos de transmissão de calor"
@@ -147,29 +148,76 @@
       }
     }
   },
-  "passos": [
+  "metodos": [
     {
-      "titulo": "As afirmativas falsas",
-      "conceito": "Processos de transmissão de calor",
-      "texto": "A condução passa de partícula a partícula: exige meio material. E a taxa de condução é proporcional à diferença de temperatura entre as extremidades (lei de Fourier).",
-      "cena": {
-        "mostrar": [
-          "falsas"
-        ]
-      }
-    },
-    {
-      "titulo": "As verdadeiras",
-      "conceito": "Processos de transmissão de calor",
-      "texto": "Convecção é transporte de energia pelo deslocamento do fluido; radiação são ondas eletromagnéticas, que se propagam até no vácuo. Resposta: <b>(d) 3 e 4</b>.",
-      "cena": {
-        "mostrar": [
-          "verdadeiras"
-        ],
-        "destacar": [
-          "verdadeiras"
-        ]
-      }
+      "nome": "Afirmativa por afirmativa",
+      "telas": [
+        {
+          "titulo": "Afirmativa 1",
+          "cena": {
+            "mostrar": [
+              "falsas"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "<b>1) Falsa.</b> Na condução, a energia passa de partícula a partícula do meio: ela <b>exige um meio material</b> e não ocorre no vácuo."
+            }
+          ]
+        },
+        {
+          "titulo": "Afirmativa 2",
+          "cena": {
+            "mostrar": [
+              "falsas"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "<b>2) Falsa.</b> Pela lei de Fourier, a taxa de condução numa barra é proporcional à diferença de temperatura entre as extremidades:"
+            },
+            {
+              "t": "eq",
+              "tex": "\\Phi = \\dfrac{k\\, A\\, \\Delta T}{L}"
+            }
+          ]
+        },
+        {
+          "titulo": "Afirmativas 3 e 4",
+          "cena": {
+            "mostrar": [
+              "falsas",
+              "verdadeiras"
+            ],
+            "destacar": [
+              "verdadeiras"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "<b>3) Verdadeira.</b> Na convecção, o próprio fluido se desloca e leva a energia térmica de uma região para outra."
+            },
+            {
+              "t": "texto",
+              "html": "<b>4) Verdadeira.</b> A radiação térmica são ondas eletromagnéticas: propagam-se no vácuo e em meios materiais."
+            },
+            {
+              "t": "texto",
+              "html": "As corretas são 3 e 4."
+            },
+            {
+              "t": "gabarito",
+              "letra": "d"
+            },
+            {
+              "t": "fim"
+            }
+          ]
+        }
+      ]
     }
   ],
   "status": "revisado",

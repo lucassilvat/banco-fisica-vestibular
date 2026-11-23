@@ -1,5 +1,6 @@
 {
   "id": "unicamp-2025-q08",
+  "formato": "aula",
   "titulo": "Vento a favor: as velocidades se somam",
   "conceitos": [
     "Composição de movimentos",
@@ -200,34 +201,83 @@
       }
     }
   },
-  "passos": [
+  "metodos": [
     {
-      "titulo": "No trecho B",
-      "conceito": "Composição de movimentos",
-      "texto": "Em relação ao vento, o avião voa a 750 km/h; o vento, em relação ao solo, sopra a 250 km/h no mesmo sentido (oeste para leste).",
-      "cena": {
-        "mostrar": [
-          "rota",
-          "velocidades"
-        ]
-      }
-    },
-    {
-      "titulo": "Velocidade em relação ao solo e tempo",
-      "conceito": "Velocidade relativa",
-      "texto": "Mesma direção e mesmo sentido: as velocidades se somam. Resposta: <b>(d)</b>.",
-      "equacoes": [
-        "|\\vec{v}_{\\text{avião,solo}}| = 750 + 250 = 1\\,000\\ \\text{km/h}",
-        "\\Delta t = \\dfrac{2\\,000}{1\\,000} = 2,0\\ \\text{h}"
-      ],
-      "cena": {
-        "mostrar": [
-          "soma"
-        ],
-        "destacar": [
-          "soma"
-        ]
-      }
+      "nome": "Composição de velocidades",
+      "telas": [
+        {
+          "titulo": "No trecho B",
+          "cena": {
+            "mostrar": [
+              "rota",
+              "velocidades"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "No trecho B, o avião voa a 750 km/h <b>em relação ao vento</b>, e o vento sopra a 250 km/h <b>em relação ao solo</b>, no mesmo sentido: de oeste para leste."
+            },
+            {
+              "t": "texto",
+              "html": "A velocidade do avião em relação ao solo é a soma vetorial:"
+            },
+            {
+              "t": "eq",
+              "tex": "\\vec{v}_{\\text{avião,solo}} = \\vec{v}_{\\text{avião,vento}} + \\vec{v}_{\\text{vento,solo}}"
+            },
+            {
+              "t": "texto",
+              "html": "Mesma direção e mesmo sentido: os módulos se somam."
+            },
+            {
+              "t": "eq",
+              "tex": "|\\vec{v}_{\\text{avião,solo}}| = 750 + 250 = 1\\,000\\ \\text{km/h}"
+            }
+          ]
+        },
+        {
+          "titulo": "O tempo no trecho B",
+          "cena": {
+            "mostrar": [
+              "rota",
+              "velocidades",
+              "soma"
+            ],
+            "destacar": [
+              "soma"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "Pela figura, o trecho B tem 2 000 km. Da velocidade média:"
+            },
+            {
+              "t": "eq",
+              "tex": "v = \\dfrac{\\Delta s}{\\marca{t}{\\Delta t}}"
+            },
+            {
+              "t": "eq",
+              "tex": "\\marca{t}{\\Delta t} = \\dfrac{\\Delta s}{v}",
+              "mover": [
+                "t"
+              ]
+            },
+            {
+              "t": "eq",
+              "tex": "\\Delta t = \\dfrac{2\\,000}{1\\,000} = 2,0\\ \\text{h}"
+            },
+            {
+              "t": "gabarito",
+              "letra": "d"
+            },
+            {
+              "t": "fim"
+            }
+          ]
+        }
+      ]
     }
   ],
   "status": "revisado",

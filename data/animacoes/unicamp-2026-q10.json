@@ -1,5 +1,6 @@
 {
   "id": "unicamp-2026-q10",
+  "formato": "aula",
   "titulo": "O voltímetro lê só a tensão do aparelho",
   "conceitos": [
     "Associação em série",
@@ -343,37 +344,165 @@
       }
     }
   },
-  "passos": [
+  "abertura": [
     {
-      "titulo": "A corrente",
-      "conceito": "Associação em série",
-      "texto": "R<sub>b</sub> e R estão em série com a fonte ideal de 3,6 V.",
-      "equacoes": [
-        "i = \\dfrac{U_{b}}{R_{b} + R} = \\dfrac{3,6}{1,2 + 6,0} = 0,5\\ \\text{A}"
-      ],
-      "cena": {
-        "mostrar": [
-          "circuito",
-          "voltimetro",
-          "corrente"
-        ]
-      }
+      "titulo": "Resolução",
+      "blocos": [
+        {
+          "t": "texto",
+          "html": "Há dois caminhos:"
+        },
+        {
+          "t": "texto",
+          "html": "1) Calcular a <b>corrente</b> e aplicar a lei de Ohm em R."
+        },
+        {
+          "t": "texto",
+          "html": "2) Dividir a tensão da bateria <b>na proporção das resistências</b>."
+        },
+        {
+          "t": "texto",
+          "html": "Escolha um método nas abas acima, ou avance para ver os dois."
+        }
+      ]
+    }
+  ],
+  "metodos": [
+    {
+      "nome": "Corrente e lei de Ohm",
+      "telas": [
+        {
+          "titulo": "O circuito",
+          "cena": {
+            "mostrar": [
+              "circuito",
+              "voltimetro"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "A fonte ideal, R<sub>b</sub> e R formam um único caminho: estão em <b>série</b>. O voltímetro, ideal, está ligado nos terminais de R e não desvia corrente."
+            },
+            {
+              "t": "eq",
+              "tex": "R_{\\text{eq}} = R_{b} + R = 1,2 + 6,0 = 7,2\\ \\Omega"
+            }
+          ]
+        },
+        {
+          "titulo": "A corrente",
+          "cena": {
+            "mostrar": [
+              "circuito",
+              "voltimetro",
+              "corrente"
+            ],
+            "destacar": [
+              "corrente"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "Primeira lei de Ohm no circuito todo:"
+            },
+            {
+              "t": "eq",
+              "tex": "U_{b} = R_{\\text{eq}}\\, \\marca{i}{i}"
+            },
+            {
+              "t": "eq",
+              "tex": "\\marca{i}{i} = \\dfrac{U_{b}}{R_{\\text{eq}}}",
+              "mover": [
+                "i"
+              ]
+            },
+            {
+              "t": "eq",
+              "tex": "i = \\dfrac{3,6}{7,2} = 0,5\\ \\text{A}"
+            }
+          ]
+        },
+        {
+          "titulo": "A leitura do voltímetro",
+          "cena": {
+            "mostrar": [
+              "circuito",
+              "voltimetro",
+              "corrente",
+              "tensao"
+            ],
+            "destacar": [
+              "tensao"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "O voltímetro mede a tensão em R:"
+            },
+            {
+              "t": "eq",
+              "tex": "U = R\\, i"
+            },
+            {
+              "t": "eq",
+              "tex": "U = 6,0 \\cdot 0,5 = 3,0\\ \\text{V}"
+            },
+            {
+              "t": "texto",
+              "html": "A diferença, 0,6 V, fica dentro da própria bateria, em R<sub>b</sub>."
+            },
+            {
+              "t": "gabarito",
+              "letra": "b"
+            },
+            {
+              "t": "fim"
+            }
+          ]
+        }
+      ]
     },
     {
-      "titulo": "A leitura do voltímetro",
-      "conceito": "Geradores elétricos",
-      "texto": "O voltímetro está ligado nos terminais do resistor R. Resposta: <b>(b) 3,0 V</b>.",
-      "equacoes": [
-        "U = R\\,i = 6,0 \\cdot 0,5 = 3,0\\ \\text{V}"
-      ],
-      "cena": {
-        "mostrar": [
-          "tensao"
-        ],
-        "destacar": [
-          "tensao"
-        ]
-      }
+      "nome": "Divisão da tensão",
+      "telas": [
+        {
+          "titulo": "A fração de R",
+          "cena": {
+            "mostrar": [
+              "circuito",
+              "voltimetro",
+              "tensao"
+            ],
+            "destacar": [
+              "tensao"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "Em série, a corrente é a mesma: a tensão se divide <b>na proporção das resistências</b>. R tem 6,0 dos 7,2 Ω do circuito:"
+            },
+            {
+              "t": "eq",
+              "tex": "U = 3,6 \\cdot \\dfrac{6,0}{7,2}"
+            },
+            {
+              "t": "eq",
+              "tex": "U = \\dfrac{3,6}{7,2} \\cdot 6,0 = 0,5 \\cdot 6,0 = 3,0\\ \\text{V}"
+            },
+            {
+              "t": "gabarito",
+              "letra": "b"
+            },
+            {
+              "t": "fim"
+            }
+          ]
+        }
+      ]
     }
   ],
   "status": "revisado",

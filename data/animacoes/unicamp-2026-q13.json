@@ -1,5 +1,6 @@
 {
   "id": "unicamp-2026-q13",
+  "formato": "aula",
   "titulo": "O gráfico s × t trecho a trecho",
   "conceitos": [
     "Movimento uniforme",
@@ -1341,46 +1342,103 @@
       }
     }
   },
-  "passos": [
+  "metodos": [
     {
-      "titulo": "Trecho I",
-      "conceito": "Movimento uniforme",
-      "texto": "Velocidade constante de 36 km/h = 10 m/s: a posição cresce em linha reta até 300 m em 30 s.",
-      "cena": {
-        "mostrar": [
-          "eixos",
-          "trecho-1"
-        ]
-      }
-    },
-    {
-      "titulo": "Trecho II e a parada",
-      "conceito": "Movimento uniformemente variado",
-      "texto": "Freando, a moto anda cada vez menos por segundo: parábola com concavidade para baixo, até parar em 400 m. De 50 s a 80 s ela fica parada.",
-      "equacoes": [
-        "s = 300 + \\dfrac{10 \\cdot 20}{2} = 400\\ \\text{m}"
-      ],
-      "cena": {
-        "mostrar": [
-          "trecho-2",
-          "parado"
-        ]
-      }
-    },
-    {
-      "titulo": "Trechos III e IV",
-      "conceito": "Gráficos do movimento",
-      "texto": "Acelerando, a curva tem concavidade para cima; depois, com velocidade constante, volta a ser reta. Resposta: <b>(a)</b>.",
-      "cena": {
-        "mostrar": [
-          "trecho-3",
-          "trecho-4"
-        ],
-        "destacar": [
-          "trecho-3",
-          "trecho-4"
-        ]
-      }
+      "nome": "Trecho a trecho",
+      "telas": [
+        {
+          "titulo": "Trecho I",
+          "cena": {
+            "mostrar": [
+              "eixos",
+              "trecho-1"
+            ],
+            "destacar": [
+              "trecho-1"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "<b>Trecho I.</b> Velocidade constante, 36 km/h = 10 m/s: a posição cresce em <b>linha reta</b>."
+            },
+            {
+              "t": "eq",
+              "tex": "s = v\\, t = 10 \\cdot 30 = 300\\ \\text{m}"
+            }
+          ]
+        },
+        {
+          "titulo": "Trecho II e a parada",
+          "cena": {
+            "mostrar": [
+              "eixos",
+              "trecho-1",
+              "trecho-2",
+              "parado"
+            ],
+            "destacar": [
+              "trecho-2"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "<b>Trecho II.</b> Freando, a moto anda cada vez menos a cada segundo: <b>parábola com concavidade para baixo</b>, até parar. Com desaceleração constante, a velocidade média é a média entre 10 m/s e 0:"
+            },
+            {
+              "t": "eq",
+              "tex": "v_{m} = \\dfrac{10 + 0}{2} = 5\\ \\text{m/s}"
+            },
+            {
+              "t": "eq",
+              "tex": "\\Delta s = v_{m}\\, \\Delta t = 5 \\cdot 20 = 100\\ \\text{m}"
+            },
+            {
+              "t": "eq",
+              "tex": "s = 300 + 100 = 400\\ \\text{m}"
+            },
+            {
+              "t": "texto",
+              "html": "De 50 s a 80 s, parada: a posição fica em 400 m."
+            }
+          ]
+        },
+        {
+          "titulo": "Trechos III e IV",
+          "cena": {
+            "mostrar": [
+              "eixos",
+              "trecho-1",
+              "trecho-2",
+              "parado",
+              "trecho-3",
+              "trecho-4"
+            ],
+            "destacar": [
+              "trecho-3",
+              "trecho-4"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "<b>Trecho III.</b> Acelerando, a moto anda cada vez mais a cada segundo: <b>concavidade para cima</b>. <b>Trecho IV.</b> Velocidade constante: reta de novo."
+            },
+            {
+              "t": "texto",
+              "html": "No gráfico b, o trecho II tem concavidade para cima; no c, o trecho III tem concavidade para baixo; no d, a moto volta à posição inicial. Só o a está certo."
+            },
+            {
+              "t": "gabarito",
+              "letra": "a"
+            },
+            {
+              "t": "fim"
+            }
+          ]
+        }
+      ]
     }
   ],
   "status": "revisado",

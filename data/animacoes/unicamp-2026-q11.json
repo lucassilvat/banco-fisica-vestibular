@@ -1,174 +1,71 @@
 {
   "id": "unicamp-2026-q11",
+  "formato": "aula",
   "titulo": "A energia da bateria erguendo uma massa",
   "conceitos": [
     "Energia potencial gravitacional"
   ],
-  "cena": {
-    "modelo": "diagrama",
-    "parametros": {
-      "elementos": {
-        "etapa-1": [
-          {
-            "t": "ret",
-            "x": 30,
-            "y": 16,
-            "w": 400,
-            "h": 40,
-            "cor": "suave",
-            "borda": "normal",
-            "rx": 7
-          },
-          {
-            "t": "texto",
-            "x": 42,
-            "y": 36.0,
-            "txt": "energia da bateria",
-            "mudo": true,
-            "ancora": "start"
-          },
-          {
-            "t": "texto",
-            "x": 418,
-            "y": 36.0,
-            "txt": "15 Wh",
-            "negrito": true,
-            "ancora": "end"
-          }
-        ],
-        "etapa-2": [
-          {
-            "t": "seta",
-            "de": [
-              230.0,
-              59
-            ],
-            "para": [
-              230.0,
-              79
-            ],
-            "cor": "tinta",
-            "larg": 1.8
-          },
-          {
-            "t": "texto",
-            "x": 242.0,
-            "y": 69.0,
-            "txt": "× 3 600 s",
-            "negrito": true,
-            "cor": "acel",
-            "ancora": "start"
-          },
-          {
-            "t": "ret",
-            "x": 30,
-            "y": 82,
-            "w": 400,
-            "h": 40,
-            "cor": "suave",
-            "borda": "normal",
-            "rx": 7
-          },
-          {
-            "t": "texto",
-            "x": 42,
-            "y": 102.0,
-            "txt": "em joules",
-            "mudo": true,
-            "ancora": "start"
-          },
-          {
-            "t": "texto",
-            "x": 418,
-            "y": 102.0,
-            "txt": "54 000 J",
-            "negrito": true,
-            "ancora": "end"
-          }
-        ],
-        "etapa-3": [
-          {
-            "t": "seta",
-            "de": [
-              230.0,
-              125
-            ],
-            "para": [
-              230.0,
-              145
-            ],
-            "cor": "tinta",
-            "larg": 1.8
-          },
-          {
-            "t": "texto",
-            "x": 242.0,
-            "y": 135.0,
-            "txt": "÷ (45 · 10)",
-            "negrito": true,
-            "cor": "acel",
-            "ancora": "start"
-          },
-          {
-            "t": "ret",
-            "x": 30,
-            "y": 148,
-            "w": 400,
-            "h": 40,
-            "cor": "suave",
-            "borda": "normal",
-            "rx": 7
-          },
-          {
-            "t": "texto",
-            "x": 42,
-            "y": 168.0,
-            "txt": "altura (mgy = E)",
-            "mudo": true,
-            "ancora": "start"
-          },
-          {
-            "t": "texto",
-            "x": 418,
-            "y": 168.0,
-            "txt": "120 m",
-            "negrito": true,
-            "ancora": "end"
-          }
-        ]
-      }
-    }
-  },
-  "passos": [
+  "metodos": [
     {
-      "titulo": "Wh em joules",
-      "conceito": "Energia potencial gravitacional",
-      "texto": "1 Wh é a energia de 1 W durante 3 600 s.",
-      "equacoes": [
-        "E_{b} = 15 \\cdot 3\\,600 = 54\\,000\\ \\text{J}"
-      ],
-      "cena": {
-        "mostrar": [
-          "etapa-1",
-          "etapa-2"
-        ]
-      }
-    },
-    {
-      "titulo": "A altura",
-      "conceito": "Energia potencial gravitacional",
-      "texto": "Resposta: <b>(c) 120 m</b>.",
-      "equacoes": [
-        "mgy = E_{b} \\quad \\Rightarrow \\quad y = \\dfrac{54\\,000}{45 \\cdot 10} = 120\\ \\text{m}"
-      ],
-      "cena": {
-        "mostrar": [
-          "etapa-3"
-        ],
-        "destacar": [
-          "etapa-3"
-        ]
-      }
+      "nome": "Energia potencial",
+      "telas": [
+        {
+          "titulo": "Wh em joules",
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "1 Wh é a energia de 1 W durante 1 h = 3 600 s:"
+            },
+            {
+              "t": "eq",
+              "tex": "1\\ \\text{Wh} = 1\\ \\text{W} \\cdot 3\\,600\\ \\text{s} = 3\\,600\\ \\text{J}"
+            },
+            {
+              "t": "eq",
+              "tex": "E_{b} = 15 \\cdot 3\\,600 = 54\\,000\\ \\text{J}"
+            }
+          ]
+        },
+        {
+          "titulo": "A altura",
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "A energia potencial gravitacional a uma altura y:"
+            },
+            {
+              "t": "eq",
+              "tex": "E_{p} = m\\, g\\, y"
+            },
+            {
+              "t": "texto",
+              "html": "Ela deve ser igual a E<sub>b</sub>:"
+            },
+            {
+              "t": "eq",
+              "tex": "\\marca{m}{m\\, g}\\, y = E_{b}"
+            },
+            {
+              "t": "eq",
+              "tex": "y = \\dfrac{E_{b}}{\\marca{m}{m\\, g}}",
+              "mover": [
+                "m"
+              ]
+            },
+            {
+              "t": "eq",
+              "tex": "y = \\dfrac{54\\,000}{45 \\cdot 10} = \\dfrac{54\\,000}{450} = 120\\ \\text{m}"
+            },
+            {
+              "t": "gabarito",
+              "letra": "c"
+            },
+            {
+              "t": "fim"
+            }
+          ]
+        }
+      ]
     }
   ],
   "status": "revisado",

@@ -1,5 +1,6 @@
 {
   "id": "unicamp-2027-q12",
+  "formato": "aula",
   "titulo": "Aquecer, fundir, aquecer de novo",
   "conceitos": [
     "Calor sensível",
@@ -330,6 +331,53 @@
             "txt": "50",
             "mudo": true,
             "ancora": "end"
+          },
+          {
+            "t": "ret",
+            "x": 272,
+            "y": 340,
+            "w": 20,
+            "h": 20,
+            "cor": "papel",
+            "borda": null
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                270,
+                358
+              ],
+              [
+                280,
+                342
+              ]
+            ],
+            "cor": "#111111",
+            "larg": 2
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                282,
+                358
+              ],
+              [
+                292,
+                342
+              ]
+            ],
+            "cor": "#111111",
+            "larg": 2
+          },
+          {
+            "t": "texto",
+            "x": 282,
+            "y": 330,
+            "txt": "quebra no eixo",
+            "mudo": true,
+            "tam": 10
           }
         ],
         "solido": [
@@ -417,43 +465,98 @@
       }
     }
   },
-  "passos": [
+  "metodos": [
     {
-      "titulo": "A temperatura final",
-      "conceito": "Calor sensível",
-      "texto": "Na fase líquida, o gálio recebe 80 J de calor sensível a partir de 30 ºC.",
-      "equacoes": [
-        "\\Delta T = \\dfrac{Q}{mc} = \\dfrac{80}{10 \\cdot 0,4} = 20\\ \\text{ºC} \\quad \\Rightarrow \\quad T_{3} = 50\\ \\text{ºC}"
-      ],
-      "cena": {
-        "mostrar": [
-          "eixos"
-        ]
-      }
-    },
-    {
-      "titulo": "Sólido e fusão",
-      "conceito": "Mudanças de estado físico",
-      "texto": "O sólido aquece de 20 ºC a 30 ºC. Durante a fusão, recebe calor e a temperatura não muda: o gráfico tem um patamar em 30 ºC.",
-      "cena": {
-        "mostrar": [
-          "solido",
-          "fusao"
-        ]
-      }
-    },
-    {
-      "titulo": "O líquido",
-      "conceito": "Calor sensível",
-      "texto": "Depois da fusão, o líquido aquece até 50 ºC em 230 s. Só o gráfico b tem patamar em 30 ºC e chega a 50 ºC em 230 s. Resposta: <b>(b)</b>.",
-      "cena": {
-        "mostrar": [
-          "liquido"
-        ],
-        "destacar": [
-          "liquido"
-        ]
-      }
+      "nome": "Calor sensível e fusão",
+      "telas": [
+        {
+          "titulo": "A temperatura final",
+          "cena": {
+            "mostrar": [
+              "eixos"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "Na fase líquida, o gálio recebe Q = 80 J de calor sensível a partir de T<sub>2</sub> = 30 °C:"
+            },
+            {
+              "t": "eq",
+              "tex": "Q = m\\, c\\, \\Delta T"
+            },
+            {
+              "t": "eq",
+              "tex": "80 = \\marca{m}{10 \\cdot 0,4} \\cdot \\Delta T"
+            },
+            {
+              "t": "eq",
+              "tex": "\\Delta T = \\dfrac{80}{\\marca{m}{10 \\cdot 0,4}} = \\dfrac{80}{4} = 20\\ ^{\\circ}\\text{C}",
+              "mover": [
+                "m"
+              ]
+            },
+            {
+              "t": "eq",
+              "tex": "T_{3} = 30 + 20 = 50\\ ^{\\circ}\\text{C}"
+            }
+          ]
+        },
+        {
+          "titulo": "Sólido e fusão",
+          "cena": {
+            "mostrar": [
+              "eixos",
+              "solido",
+              "fusao"
+            ],
+            "destacar": [
+              "fusao"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "O sólido aquece de 20 °C a 30 °C. Na <b>fusão</b>, recebe calor e a temperatura <b>não muda</b>: o gráfico tem um patamar em 30 °C."
+            },
+            {
+              "t": "texto",
+              "html": "O gráfico c não tem patamar, e o d mostra resfriamento: estão fora."
+            }
+          ]
+        },
+        {
+          "titulo": "O líquido",
+          "cena": {
+            "mostrar": [
+              "eixos",
+              "solido",
+              "fusao",
+              "liquido"
+            ],
+            "destacar": [
+              "liquido"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "Depois da fusão, o líquido aquece até <b>50 °C</b>, atingidos em t = 230 s."
+            },
+            {
+              "t": "texto",
+              "html": "O gráfico a chega a 120 °C em 230 s. Só o b tem o patamar em 30 °C e chega a 50 °C em 230 s."
+            },
+            {
+              "t": "gabarito",
+              "letra": "b"
+            },
+            {
+              "t": "fim"
+            }
+          ]
+        }
+      ]
     }
   ],
   "status": "revisado",

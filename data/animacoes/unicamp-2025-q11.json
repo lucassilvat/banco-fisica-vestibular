@@ -1,171 +1,63 @@
 {
   "id": "unicamp-2025-q11",
+  "formato": "aula",
   "titulo": "Mesmo meio, comprimento de onda maior",
   "conceitos": [
     "Equação fundamental da ondulatória"
   ],
-  "cena": {
-    "modelo": "diagrama",
-    "parametros": {
-      "elementos": {
-        "etapa-1": [
-          {
-            "t": "ret",
-            "x": 30,
-            "y": 16,
-            "w": 420,
-            "h": 40,
-            "cor": "suave",
-            "borda": "normal",
-            "rx": 7
-          },
-          {
-            "t": "texto",
-            "x": 42,
-            "y": 36.0,
-            "txt": "mesmo meio",
-            "mudo": true,
-            "ancora": "start"
-          },
-          {
-            "t": "texto",
-            "x": 438,
-            "y": 36.0,
-            "txt": "v₂ = v₁",
-            "negrito": true,
-            "ancora": "end"
-          }
-        ],
-        "etapa-2": [
-          {
-            "t": "seta",
-            "de": [
-              240.0,
-              59
-            ],
-            "para": [
-              240.0,
-              79
-            ],
-            "cor": "tinta",
-            "larg": 1.8
-          },
-          {
-            "t": "texto",
-            "x": 252.0,
-            "y": 69.0,
-            "txt": "",
-            "negrito": true,
-            "cor": "acel",
-            "ancora": "start"
-          },
-          {
-            "t": "ret",
-            "x": 30,
-            "y": 82,
-            "w": 420,
-            "h": 40,
-            "cor": "suave",
-            "borda": "normal",
-            "rx": 7
-          },
-          {
-            "t": "texto",
-            "x": 42,
-            "y": 102.0,
-            "txt": "comprimento de onda",
-            "mudo": true,
-            "ancora": "start"
-          },
-          {
-            "t": "texto",
-            "x": 438,
-            "y": 102.0,
-            "txt": "350 nm > 128 nm",
-            "negrito": true,
-            "ancora": "end"
-          }
-        ],
-        "etapa-3": [
-          {
-            "t": "seta",
-            "de": [
-              240.0,
-              125
-            ],
-            "para": [
-              240.0,
-              145
-            ],
-            "cor": "tinta",
-            "larg": 1.8
-          },
-          {
-            "t": "texto",
-            "x": 252.0,
-            "y": 135.0,
-            "txt": "λ maior, f menor",
-            "negrito": true,
-            "cor": "acel",
-            "ancora": "start"
-          },
-          {
-            "t": "ret",
-            "x": 30,
-            "y": 148,
-            "w": 420,
-            "h": 40,
-            "cor": "suave",
-            "borda": "normal",
-            "rx": 7
-          },
-          {
-            "t": "texto",
-            "x": 42,
-            "y": 168.0,
-            "txt": "frequência (f = v/λ)",
-            "mudo": true,
-            "ancora": "start"
-          },
-          {
-            "t": "texto",
-            "x": 438,
-            "y": 168.0,
-            "txt": "f₂ < f₁",
-            "negrito": true,
-            "ancora": "end"
-          }
-        ]
-      }
-    }
-  },
-  "passos": [
+  "metodos": [
     {
-      "titulo": "A velocidade",
-      "conceito": "Equação fundamental da ondulatória",
-      "texto": "Os dois feixes se propagam no mesmo meio: têm a mesma velocidade. Isso descarta c e d.",
-      "cena": {
-        "mostrar": [
-          "etapa-1",
-          "etapa-2"
-        ]
-      }
-    },
-    {
-      "titulo": "A frequência",
-      "conceito": "Equação fundamental da ondulatória",
-      "texto": "Com a mesma velocidade, o maior comprimento de onda tem a menor frequência. Resposta: <b>(b)</b>.",
-      "equacoes": [
-        "f = \\dfrac{v}{\\lambda}"
-      ],
-      "cena": {
-        "mostrar": [
-          "etapa-3"
-        ],
-        "destacar": [
-          "etapa-3"
-        ]
-      }
+      "nome": "Equação fundamental",
+      "telas": [
+        {
+          "titulo": "A velocidade",
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "Os dois feixes se propagam <b>no mesmo meio</b>: têm a mesma velocidade. Isso descarta (c) e (d)."
+            },
+            {
+              "t": "eq",
+              "tex": "v_{2} = v_{1}"
+            }
+          ]
+        },
+        {
+          "titulo": "A frequência",
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "Equação fundamental da ondulatória:"
+            },
+            {
+              "t": "eq",
+              "tex": "v = \\lambda\\, \\marca{f}{f}"
+            },
+            {
+              "t": "eq",
+              "tex": "\\marca{f}{f} = \\dfrac{v}{\\lambda}",
+              "mover": [
+                "f"
+              ]
+            },
+            {
+              "t": "texto",
+              "html": "Com a mesma velocidade, f é inversamente proporcional a λ. Como λ<sub>2</sub> = 350 nm é maior que λ<sub>1</sub> = 128 nm:"
+            },
+            {
+              "t": "eq",
+              "tex": "f_{2} < f_{1}"
+            },
+            {
+              "t": "gabarito",
+              "letra": "b"
+            },
+            {
+              "t": "fim"
+            }
+          ]
+        }
+      ]
     }
   ],
   "status": "revisado",

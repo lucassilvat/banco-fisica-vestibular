@@ -1,5 +1,6 @@
 {
   "id": "unicamp-2027-q10",
+  "formato": "aula",
   "titulo": "A polia móvel que dobra a força",
   "conceitos": [
     "Polias",
@@ -367,52 +368,106 @@
       }
     }
   },
-  "passos": [
+  "metodos": [
     {
-      "titulo": "O bloco",
-      "conceito": "Equilíbrio de forças",
-      "texto": "Na iminência de subir, o bloco está em equilíbrio: a tração \\(\\vec{T}\\) no fio que o sustenta equilibra o peso.",
-      "equacoes": [
-        "T = mg = 12 \\cdot 10 = 120\\ \\text{N}"
-      ],
-      "cena": {
-        "mostrar": [
-          "quadro",
-          "fio-superior",
-          "polia-movel",
-          "fio-carga",
-          "tracao-bloco"
-        ]
-      }
-    },
-    {
-      "titulo": "A polia móvel",
-      "conceito": "Polias",
-      "texto": "O fio da carga passa por cima da polia móvel e tem a outra ponta presa na base: puxa a polia para baixo com T dos dois lados. Sem massa, a polia fica em equilíbrio se o fio preso ao seu eixo puxar para cima com 2T.",
-      "equacoes": [
-        "2T = 240\\ \\text{N}"
-      ],
-      "cena": {
-        "ocultar": [
-          "tracao-bloco"
-        ],
-        "mostrar": [
-          "tracao-polia"
-        ]
-      }
-    },
-    {
-      "titulo": "As polias fixas",
-      "conceito": "Polias",
-      "texto": "O fio do eixo passa pelas duas polias fixas, que só mudam a direção da força, e termina onde se aplica \\(\\vec{F}\\). Resposta: <b>(d) 240 N</b>.",
-      "cena": {
-        "mostrar": [
-          "forca-f"
-        ],
-        "destacar": [
-          "forca-f"
-        ]
-      }
+      "nome": "Equilíbrio nas polias",
+      "telas": [
+        {
+          "titulo": "O bloco",
+          "cena": {
+            "mostrar": [
+              "quadro",
+              "fio-superior",
+              "polia-movel",
+              "fio-carga",
+              "tracao-bloco"
+            ],
+            "destacar": [
+              "tracao-bloco"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "Na iminência de subir, o bloco ainda está em equilíbrio: a tração \\(\\vec{T}\\) no fio equilibra o peso."
+            },
+            {
+              "t": "eq",
+              "tex": "T = m\\, g"
+            },
+            {
+              "t": "eq",
+              "tex": "T = 12 \\cdot 10 = 120\\ \\text{N}"
+            }
+          ]
+        },
+        {
+          "titulo": "A polia móvel",
+          "cena": {
+            "mostrar": [
+              "quadro",
+              "fio-superior",
+              "polia-movel",
+              "fio-carga",
+              "tracao-polia"
+            ],
+            "destacar": [
+              "tracao-polia"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "Esse fio passa por cima da polia móvel e tem a outra ponta presa na base. Fio ideal: a tração é a mesma nos dois lados. A polia é puxada para baixo por <b>duas</b> forças T."
+            },
+            {
+              "t": "texto",
+              "html": "Sem massa, a polia fica em equilíbrio se o fio preso ao seu eixo puxar para cima com:"
+            },
+            {
+              "t": "eq",
+              "tex": "T_{\\text{eixo}} = 2T = 2 \\cdot 120 = 240\\ \\text{N}"
+            }
+          ]
+        },
+        {
+          "titulo": "As polias fixas",
+          "cena": {
+            "mostrar": [
+              "quadro",
+              "fio-superior",
+              "polia-movel",
+              "fio-carga",
+              "tracao-polia",
+              "forca-f"
+            ],
+            "destacar": [
+              "forca-f"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "O fio do eixo passa pelas duas polias fixas, que só mudam a direção da força, e termina onde se aplica \\(\\vec{F}\\):"
+            },
+            {
+              "t": "eq",
+              "tex": "F = 2T = 240\\ \\text{N}"
+            },
+            {
+              "t": "texto",
+              "html": "Nesta montagem, a polia móvel <b>dobra</b> a força: a carga está presa ao fio que passa por ela, e não ao seu eixo."
+            },
+            {
+              "t": "gabarito",
+              "letra": "d"
+            },
+            {
+              "t": "fim"
+            }
+          ]
+        }
+      ]
     }
   ],
   "status": "revisado",

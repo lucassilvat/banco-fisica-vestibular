@@ -1,5 +1,6 @@
 {
   "id": "unicamp-2026-q12",
+  "formato": "aula",
   "titulo": "A lente que funciona como lupa",
   "conceitos": [
     "Lentes esféricas"
@@ -32,10 +33,10 @@
             ],
             "para": [
               330,
-              80
+              70
             ],
             "cor": "normal",
-            "larg": 2.5
+            "larg": 3
           },
           {
             "t": "seta",
@@ -45,15 +46,15 @@
             ],
             "para": [
               330,
-              380
+              390
             ],
             "cor": "normal",
-            "larg": 2.5
+            "larg": 3
           },
           {
             "t": "texto",
             "x": 340,
-            "y": 76,
+            "y": 70,
             "txt": "lente convergente",
             "negrito": true,
             "cor": "normal",
@@ -64,8 +65,8 @@
             "x": 210,
             "y": 230,
             "r": 4,
-            "cor": "tinta",
-            "borda": "tinta"
+            "cor": "#111111",
+            "borda": "#111111"
           },
           {
             "t": "texto",
@@ -79,8 +80,8 @@
             "x": 450,
             "y": 230,
             "r": 4,
-            "cor": "tinta",
-            "borda": "tinta"
+            "cor": "#111111",
+            "borda": "#111111"
           },
           {
             "t": "texto",
@@ -94,11 +95,11 @@
           {
             "t": "seta",
             "de": [
-              270,
+              260,
               230
             ],
             "para": [
-              270,
+              260,
               180
             ],
             "cor": "perigo",
@@ -106,28 +107,47 @@
           },
           {
             "t": "texto",
-            "x": 270,
+            "x": 262,
             "y": 250,
             "txt": "objeto",
             "negrito": true,
-            "cor": "perigo"
+            "cor": "perigo",
+            "ancora": "middle"
+          }
+        ],
+        "distancias": [
+          {
+            "t": "cota",
+            "de": [
+              260,
+              282
+            ],
+            "para": [
+              330,
+              282
+            ],
+            "cor": "#111111",
+            "txt": "d"
           },
           {
             "t": "cota",
             "de": [
               210,
-              274
+              318
             ],
             "para": [
-              270,
-              274
+              330,
+              318
             ],
-            "cor": "normal",
-            "rot_em": [
-              240,
-              292
-            ],
-            "txt": "d < f"
+            "cor": "#111111",
+            "txt": "f"
+          },
+          {
+            "t": "rotulo",
+            "x": 150,
+            "y": 300,
+            "txt": "d < f",
+            "cor": "var(--danger)"
           }
         ],
         "raios": [
@@ -135,7 +155,7 @@
             "t": "linha",
             "pontos": [
               [
-                270,
+                260,
                 180
               ],
               [
@@ -143,7 +163,7 @@
                 180
               ]
             ],
-            "cor": "luz",
+            "cor": "#e0a800",
             "larg": 2.5
           },
           {
@@ -154,26 +174,26 @@
                 180
               ],
               [
-                570,
-                280
+                600,
+                292.5
               ]
             ],
-            "cor": "luz",
+            "cor": "#e0a800",
             "larg": 2.5
           },
           {
             "t": "linha",
             "pontos": [
               [
-                270,
+                260,
                 180
               ],
               [
-                450,
-                330
+                520,
+                365.7
               ]
             ],
-            "cor": "luz",
+            "cor": "#e0a800",
             "larg": 2.5
           }
         ],
@@ -186,11 +206,11 @@
                 180
               ],
               [
-                210,
-                130
+                162,
+                110
               ]
             ],
-            "cor": "luz",
+            "cor": "#e0a800",
             "larg": 1.6,
             "tracejado": true
           },
@@ -198,27 +218,27 @@
             "t": "linha",
             "pontos": [
               [
-                270,
+                260,
                 180
               ],
               [
-                210,
-                130
+                162,
+                110
               ]
             ],
-            "cor": "luz",
+            "cor": "#e0a800",
             "larg": 1.6,
             "tracejado": true
           },
           {
             "t": "seta",
             "de": [
-              210,
+              162,
               230
             ],
             "para": [
-              210,
-              130
+              162,
+              110
             ],
             "cor": "acel",
             "larg": 3.5,
@@ -226,41 +246,93 @@
           },
           {
             "t": "texto",
-            "x": 210,
-            "y": 110,
+            "x": 162,
+            "y": 94,
             "txt": "imagem virtual, direita e maior",
             "negrito": true,
             "cor": "acel"
           }
         ]
-      }
+      },
+      "altura": 400
     }
   },
-  "passos": [
+  "metodos": [
     {
-      "titulo": "Que imagem é essa",
-      "conceito": "Lentes esféricas",
-      "texto": "Imagem direita e maior que o objeto é virtual. Lentes divergentes só formam imagens virtuais direitas e menores: a lente é convergente.",
-      "cena": {
-        "mostrar": [
-          "lente",
-          "objeto"
-        ]
-      }
-    },
-    {
-      "titulo": "Onde fica o objeto",
-      "conceito": "Lentes esféricas",
-      "texto": "Na lente convergente, a imagem é direita e ampliada só com o objeto entre o foco e a lente. Os raios saem divergentes, e seus prolongamentos formam a imagem do mesmo lado do objeto. Resposta: <b>(a)</b>.",
-      "cena": {
-        "mostrar": [
-          "raios",
-          "imagem"
-        ],
-        "destacar": [
-          "imagem"
-        ]
-      }
+      "nome": "A lupa",
+      "telas": [
+        {
+          "titulo": "Que imagem é essa",
+          "cena": {
+            "mostrar": [
+              "lente",
+              "objeto"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "A imagem é <b>direita</b> e <b>maior</b> que o objeto. Para objeto real, imagem direita numa lente é <b>virtual</b>."
+            },
+            {
+              "t": "texto",
+              "html": "Lente divergente só forma imagem virtual, direita e <b>menor</b>: (b) e (d) estão fora. A lente é <b>convergente</b>."
+            }
+          ]
+        },
+        {
+          "titulo": "Os raios",
+          "cena": {
+            "mostrar": [
+              "lente",
+              "objeto",
+              "raios",
+              "imagem"
+            ],
+            "destacar": [
+              "imagem"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "Na lente convergente, a imagem é direita e ampliada só com o objeto <b>entre o foco e a lente</b>: é a lupa."
+            },
+            {
+              "t": "texto",
+              "html": "Um raio paralelo ao eixo refrata passando por F'; o raio pelo centro da lente não desvia. Os dois saem divergentes, e seus <b>prolongamentos</b> se cruzam do mesmo lado do objeto: lá está a imagem."
+            }
+          ]
+        },
+        {
+          "titulo": "Onde fica o objeto",
+          "cena": {
+            "mostrar": [
+              "lente",
+              "objeto",
+              "raios",
+              "imagem",
+              "distancias"
+            ],
+            "destacar": [
+              "distancias"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "A distância d entre o objeto e a lente é <b>menor</b> que a distância focal f. Se fosse maior, a imagem seria real e invertida: (c) está fora."
+            },
+            {
+              "t": "gabarito",
+              "letra": "a"
+            },
+            {
+              "t": "fim"
+            }
+          ]
+        }
+      ]
     }
   ],
   "status": "revisado",
