@@ -1,5 +1,6 @@
 {
   "id": "unicamp-2027-q14",
+  "formato": "aula",
   "titulo": "Quatro blocos em paralelo",
   "conceitos": [
     "Associação em paralelo",
@@ -564,7 +565,7 @@
             "negrito": true
           }
         ],
-        "correntes": [
+        "ramos": [
           {
             "t": "texto",
             "x": 470,
@@ -600,7 +601,9 @@
             "cor": "acel",
             "negrito": true,
             "ancora": "start"
-          },
+          }
+        ],
+        "total": [
           {
             "t": "seta",
             "de": [
@@ -627,36 +630,150 @@
       }
     }
   },
-  "passos": [
+  "abertura": [
     {
-      "titulo": "O alarme ativado",
-      "conceito": "Associação em paralelo",
-      "texto": "Com o alarme ativado, a chave fecha e as quatro resistências ficam em paralelo, todas ligadas diretamente à bateria.",
-      "equacoes": [
-        "R_{\\text{eq}} = \\dfrac{1,2\\ \\text{k}\\Omega}{4} = 300\\ \\Omega"
-      ],
-      "cena": {
-        "mostrar": [
-          "circuito",
-          "chave"
-        ]
-      }
+      "titulo": "Resolução",
+      "blocos": [
+        {
+          "t": "texto",
+          "html": "Há dois caminhos:"
+        },
+        {
+          "t": "texto",
+          "html": "1) Calcular a <b>resistência equivalente</b> e usar a lei de Ohm."
+        },
+        {
+          "t": "texto",
+          "html": "2) Calcular a corrente de <b>cada ramo</b> e somar."
+        },
+        {
+          "t": "texto",
+          "html": "Escolha um método nas abas acima, ou avance para ver os dois."
+        }
+      ]
+    }
+  ],
+  "metodos": [
+    {
+      "nome": "Resistência equivalente",
+      "telas": [
+        {
+          "titulo": "O alarme ativado",
+          "cena": {
+            "mostrar": [
+              "circuito",
+              "chave"
+            ],
+            "destacar": [
+              "chave"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "Com o alarme ativado, a chave fecha: as quatro resistências ficam em <b>paralelo</b>, todas ligadas diretamente à bateria de 9,0 V."
+            },
+            {
+              "t": "texto",
+              "html": "Em paralelo, os inversos das resistências se somam. Com quatro resistências iguais a R:"
+            },
+            {
+              "t": "eq",
+              "tex": "\\dfrac{1}{R_{\\text{eq}}} = \\dfrac{1}{R} + \\dfrac{1}{R} + \\dfrac{1}{R} + \\dfrac{1}{R} = \\dfrac{4}{R}"
+            },
+            {
+              "t": "eq",
+              "tex": "R_{\\text{eq}} = \\dfrac{R}{4} = \\dfrac{1\\,200}{4} = 300\\ \\Omega"
+            }
+          ]
+        },
+        {
+          "titulo": "A corrente total",
+          "cena": {
+            "mostrar": [
+              "circuito",
+              "chave",
+              "total"
+            ],
+            "destacar": [
+              "total"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "Primeira lei de Ohm no circuito todo:"
+            },
+            {
+              "t": "eq",
+              "tex": "U = R_{\\text{eq}}\\, i"
+            },
+            {
+              "t": "eq",
+              "tex": "i = \\dfrac{9,0}{300} = 0,030\\ \\text{A}"
+            },
+            {
+              "t": "eq",
+              "tex": "i = 30\\ \\text{mA}"
+            },
+            {
+              "t": "gabarito",
+              "letra": "d"
+            },
+            {
+              "t": "fim"
+            }
+          ]
+        }
+      ]
     },
     {
-      "titulo": "A corrente total",
-      "conceito": "Primeira lei de Ohm",
-      "texto": "Cada ramo conduz 9,0/1 200 = 7,5 mA; os quatro juntos, 30 mA. Resposta: <b>(d) 30 mA</b>.",
-      "equacoes": [
-        "i = \\dfrac{9,0}{300} = 0,030\\ \\text{A} = 30\\ \\text{mA}"
-      ],
-      "cena": {
-        "mostrar": [
-          "correntes"
-        ],
-        "destacar": [
-          "correntes"
-        ]
-      }
+      "nome": "Corrente em cada ramo",
+      "telas": [
+        {
+          "titulo": "Ramo a ramo",
+          "cena": {
+            "mostrar": [
+              "circuito",
+              "chave",
+              "ramos",
+              "total"
+            ],
+            "destacar": [
+              "ramos"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "Em paralelo, cada resistência recebe os 9,0 V da bateria. Com R = 1,2 kΩ = 1 200 Ω:"
+            },
+            {
+              "t": "eq",
+              "tex": "i_{\\text{ramo}} = \\dfrac{9,0}{1\\,200} = 0,0075\\ \\text{A} = 7,5\\ \\text{mA}"
+            },
+            {
+              "t": "texto",
+              "html": "A corrente total é a soma das correntes dos quatro ramos:"
+            },
+            {
+              "t": "eq",
+              "tex": "i = 4 \\cdot 7,5 = 30\\ \\text{mA}"
+            },
+            {
+              "t": "texto",
+              "html": "Atenção: 7,5 mA (alternativa b) é a corrente de um ramo; 22,5 mA seria com o alarme desligado."
+            },
+            {
+              "t": "gabarito",
+              "letra": "d"
+            },
+            {
+              "t": "fim"
+            }
+          ]
+        }
+      ]
     }
   ],
   "status": "revisado",

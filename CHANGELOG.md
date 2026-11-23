@@ -4,6 +4,19 @@ Cada versão corresponde a um lote de importação ou a uma mudança no app/pipe
 Formato: `vMAIOR.MENOR.CORREÇÃO` — MENOR sobe a cada prova importada; MAIOR, em mudanças
 de modelo de dados; CORREÇÃO, em correções de questões já publicadas.
 
+## v2.22.0 — 2026-11-22
+
+- **Unicamp 2027, 2026 e 2025 no formato aula** (21 questões, Q08 a Q14 de cada prova), seguindo as
+  diretrizes de `docs/ANIMACOES.md`: fórmula antes da conta, passagens animadas (isolar Δs, i, ΔT, y, Δt,
+  f, α e P), cancelamentos (a massa em g = GM/R², o 3 em 3/12, o 6 em 2πr/T, o 462 na eficiência), sinais
+  sem módulo (a = −0,5 m/s² e F<sub>R</sub> = −90 N na moto; α negativo na dilatação).
+- **Dois métodos em abas**: 2027 Q08 (contas completas e aproximadas), 2027 Q14 (resistência equivalente
+  e ramo a ramo), 2026 Q10 (lei de Ohm e divisão da tensão).
+- Desenhos novos ou refeitos: 2027 Q09 (Terra e corpo, sem caixas de fórmulas), 2027 Q11 (disco no gelo,
+  forças aplicadas no centro), 2027 Q12 (quebra no eixo do tempo, como na prova), 2026 Q12 (lupa com
+  raios, d e f marcados), 2025 Q10 (escala do eixo r/d embaixo do gráfico). Só na lousa as de conta.
+- Todas aguardam a revisão do Lucas no app; o site público não muda até ele aprovar.
+
 ## v2.21.0 — 2026-11-22
 
 - **Unesp 2027** (1ª fase, Prova de Conhecimentos Gerais, aplicada em 22/11/2026): 8 questões, Q71 e

@@ -1,5 +1,6 @@
 {
   "id": "unicamp-2027-q09",
+  "formato": "aula",
   "titulo": "A aceleração da gravidade não depende da massa do corpo",
   "conceitos": [
     "Lei da gravitação universal"
@@ -11,51 +12,57 @@
         "terra": [
           {
             "t": "circ",
-            "x": 250,
-            "y": 250,
-            "r": 120,
-            "cor": "#7fb8e0",
-            "borda": "tinta",
-            "larg": 2
+            "x": 320,
+            "y": 235,
+            "r": 130,
+            "cor": "#9cc8ea",
+            "borda": "#111111",
+            "larg": 2.5
+          },
+          {
+            "t": "circ",
+            "x": 320,
+            "y": 235,
+            "r": 4,
+            "cor": "tinta",
+            "borda": "tinta"
           },
           {
             "t": "texto",
-            "x": 250,
-            "y": 250,
-            "txt": "Terra (M)",
+            "x": 320,
+            "y": 395,
+            "txt": "Terra: massa M, raio R",
             "negrito": true
           },
           {
             "t": "cota",
             "de": [
-              250,
-              250
+              320,
+              235
             ],
             "para": [
-              335,
-              335
+              432.6,
+              300.0
             ],
-            "cor": "normal",
-            "rot_em": [
-              304,
-              284
-            ],
-            "ancora": "start",
+            "cor": "#111111",
             "txt": "R"
-          },
+          }
+        ],
+        "corpo": [
           {
             "t": "circ",
-            "x": 250,
-            "y": 118,
-            "r": 10,
-            "cor": "atrito",
-            "borda": "tinta"
+            "x": 320,
+            "y": 93,
+            "r": 12,
+            "cor": "#2e9e5b",
+            "borda": "#111111",
+            "larg": 2
           },
           {
             "t": "texto",
-            "x": 266,
-            "y": 108,
-            "txt": "m",
+            "x": 342,
+            "y": 91,
+            "txt": "corpo de massa m",
             "negrito": true,
             "ancora": "start"
           }
@@ -64,79 +71,118 @@
           {
             "t": "seta",
             "de": [
-              250,
-              118
+              320,
+              93
             ],
             "para": [
-              250,
-              168
+              320,
+              163
             ],
             "cor": "peso",
-            "larg": 3,
+            "larg": 3.5,
             "rot_em": [
-              230,
-              150
+              306,
+              155
             ],
             "ancora": "end",
             "rotulo": "F"
-          }
-        ],
-        "formulas": [
-          {
-            "t": "rotulo",
-            "x": 500,
-            "y": 120,
-            "txt": "F = GMm/R²",
-            "cor": "var(--danger)"
-          },
-          {
-            "t": "rotulo",
-            "x": 500,
-            "y": 190,
-            "txt": "F = mg",
-            "cor": "var(--danger)"
-          },
-          {
-            "t": "rotulo",
-            "x": 500,
-            "y": 270,
-            "txt": "g = GM/R²",
-            "cor": "var(--accent)"
           }
         ]
       }
     }
   },
-  "passos": [
+  "metodos": [
     {
-      "titulo": "A força gravitacional",
-      "conceito": "Lei da gravitação universal",
-      "texto": "Na superfície, a força gravitacional da Terra sobre o corpo é o seu peso.",
-      "equacoes": [
-        "F = \\dfrac{GMm}{R^{2}} = mg"
-      ],
-      "cena": {
-        "mostrar": [
-          "terra",
-          "forca"
-        ]
-      }
-    },
-    {
-      "titulo": "A aceleração",
-      "conceito": "Lei da gravitação universal",
-      "texto": "Dividindo por m, a massa do corpo some: g é proporcional a M e inversamente proporcional a R². Resposta: <b>(b)</b>.",
-      "equacoes": [
-        "g = \\dfrac{GM}{R^{2}}"
-      ],
-      "cena": {
-        "mostrar": [
-          "formulas"
-        ],
-        "destacar": [
-          "formulas"
-        ]
-      }
+      "nome": "Gravitação e peso",
+      "telas": [
+        {
+          "titulo": "A força gravitacional",
+          "cena": {
+            "mostrar": [
+              "terra",
+              "corpo",
+              "forca"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "A Terra atrai o corpo de massa m com a força gravitacional \\(\\vec{F}\\), dirigida para o centro da Terra. Pela lei da gravitação universal, a uma distância R do centro:"
+            },
+            {
+              "t": "eq",
+              "tex": "F = \\dfrac{G\\, M\\, m}{R^{2}}"
+            }
+          ]
+        },
+        {
+          "titulo": "A aceleração da gravidade",
+          "cena": {
+            "mostrar": [
+              "terra",
+              "corpo",
+              "forca"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "Na superfície, essa força é o <b>peso</b> do corpo:"
+            },
+            {
+              "t": "eq",
+              "tex": "P = m\\, g"
+            },
+            {
+              "t": "texto",
+              "html": "Igualamos as duas:"
+            },
+            {
+              "t": "eq",
+              "tex": "\\marca{a}{m}\\, g = \\dfrac{G\\, M\\, \\marca{b}{m}}{R^{2}}"
+            },
+            {
+              "t": "eq",
+              "tex": "g = \\dfrac{G\\, M}{R^{2}}",
+              "cancelar": [
+                "a",
+                "b"
+              ]
+            }
+          ]
+        },
+        {
+          "titulo": "As proporções",
+          "cena": {
+            "mostrar": [
+              "terra",
+              "corpo",
+              "forca"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "A massa m do corpo se cancelou: g é <b>independente de m</b>."
+            },
+            {
+              "t": "texto",
+              "html": "M está no numerador: g é <b>diretamente proporcional</b> a M. R² está no denominador: g é <b>inversamente proporcional</b> ao quadrado do raio."
+            },
+            {
+              "t": "texto",
+              "html": "Atenção: a <b>força</b> é proporcional a m (alternativa c), mas a pergunta, sublinhada, é sobre a <b>aceleração</b>."
+            },
+            {
+              "t": "gabarito",
+              "letra": "b"
+            },
+            {
+              "t": "fim"
+            }
+          ]
+        }
+      ]
     }
   ],
   "status": "revisado",

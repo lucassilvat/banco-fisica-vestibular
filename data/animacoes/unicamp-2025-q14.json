@@ -1,174 +1,75 @@
 {
   "id": "unicamp-2025-q14",
+  "formato": "aula",
   "titulo": "Quanto da luz do Sol vira eletricidade",
   "conceitos": [
     "Potência e rendimento"
   ],
-  "cena": {
-    "modelo": "diagrama",
-    "parametros": {
-      "elementos": {
-        "etapa-1": [
-          {
-            "t": "ret",
-            "x": 30,
-            "y": 16,
-            "w": 420,
-            "h": 40,
-            "cor": "suave",
-            "borda": "normal",
-            "rx": 7
-          },
-          {
-            "t": "texto",
-            "x": 42,
-            "y": 36.0,
-            "txt": "potência solar incidente",
-            "mudo": true,
-            "ancora": "start"
-          },
-          {
-            "t": "texto",
-            "x": 438,
-            "y": 36.0,
-            "txt": "2 310 W",
-            "negrito": true,
-            "ancora": "end"
-          }
-        ],
-        "etapa-2": [
-          {
-            "t": "seta",
-            "de": [
-              240.0,
-              59
-            ],
-            "para": [
-              240.0,
-              79
-            ],
-            "cor": "tinta",
-            "larg": 1.8
-          },
-          {
-            "t": "texto",
-            "x": 252.0,
-            "y": 69.0,
-            "txt": "",
-            "negrito": true,
-            "cor": "acel",
-            "ancora": "start"
-          },
-          {
-            "t": "ret",
-            "x": 30,
-            "y": 82,
-            "w": 420,
-            "h": 40,
-            "cor": "suave",
-            "borda": "normal",
-            "rx": 7
-          },
-          {
-            "t": "texto",
-            "x": 42,
-            "y": 102.0,
-            "txt": "potência elétrica gerada",
-            "mudo": true,
-            "ancora": "start"
-          },
-          {
-            "t": "texto",
-            "x": 438,
-            "y": 102.0,
-            "txt": "462 W",
-            "negrito": true,
-            "ancora": "end"
-          }
-        ],
-        "etapa-3": [
-          {
-            "t": "seta",
-            "de": [
-              240.0,
-              125
-            ],
-            "para": [
-              240.0,
-              145
-            ],
-            "cor": "tinta",
-            "larg": 1.8
-          },
-          {
-            "t": "texto",
-            "x": 252.0,
-            "y": 135.0,
-            "txt": "462 ÷ 2 310",
-            "negrito": true,
-            "cor": "acel",
-            "ancora": "start"
-          },
-          {
-            "t": "ret",
-            "x": 30,
-            "y": 148,
-            "w": 420,
-            "h": 40,
-            "cor": "suave",
-            "borda": "normal",
-            "rx": 7
-          },
-          {
-            "t": "texto",
-            "x": 42,
-            "y": 168.0,
-            "txt": "eficiência",
-            "mudo": true,
-            "ancora": "start"
-          },
-          {
-            "t": "texto",
-            "x": 438,
-            "y": 168.0,
-            "txt": "20 %",
-            "negrito": true,
-            "ancora": "end"
-          }
-        ]
-      }
-    }
-  },
-  "passos": [
+  "metodos": [
     {
-      "titulo": "A potência que chega",
-      "conceito": "Potência e rendimento",
-      "texto": "Intensidade é potência por área: multiplicando pela área do painel, temos a potência solar incidente.",
-      "equacoes": [
-        "P_{\\text{inc}} = 924 \\cdot 2,5 = 2\\,310\\ \\text{W}"
-      ],
-      "cena": {
-        "mostrar": [
-          "etapa-1",
-          "etapa-2"
-        ]
-      }
-    },
-    {
-      "titulo": "A eficiência",
-      "conceito": "Potência e rendimento",
-      "texto": "No mesmo intervalo de tempo, a razão entre as energias é a razão entre as potências. Resposta: <b>(b) 20 %</b>.",
-      "equacoes": [
-        "\\eta = \\dfrac{462}{2\\,310} = 0,20 = 20\\ \\%"
-      ],
-      "cena": {
-        "mostrar": [
-          "etapa-3"
-        ],
-        "destacar": [
-          "etapa-3"
-        ]
-      }
+      "nome": "Rendimento",
+      "telas": [
+        {
+          "titulo": "A potência solar que chega",
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "A intensidade é a potência por unidade de área:"
+            },
+            {
+              "t": "eq",
+              "tex": "I = \\dfrac{P_{\\text{inc}}}{\\marca{a}{A}}"
+            },
+            {
+              "t": "eq",
+              "tex": "P_{\\text{inc}} = I \\cdot \\marca{a}{A}",
+              "mover": [
+                "a"
+              ]
+            },
+            {
+              "t": "eq",
+              "tex": "P_{\\text{inc}} = 924 \\cdot 2,5 = 2\\,310\\ \\text{W}"
+            }
+          ]
+        },
+        {
+          "titulo": "A eficiência",
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "No mesmo intervalo de tempo, a razão entre as energias é a razão entre as potências:"
+            },
+            {
+              "t": "eq",
+              "tex": "\\eta = \\dfrac{P_{\\text{útil}}}{P_{\\text{inc}}} = \\dfrac{462}{2\\,310}"
+            },
+            {
+              "t": "texto",
+              "html": "Como 2 310 = 5 · 462:"
+            },
+            {
+              "t": "eq",
+              "tex": "\\eta = \\dfrac{\\marca{a}{462}}{5 \\cdot \\marca{b}{462}}"
+            },
+            {
+              "t": "eq",
+              "tex": "\\eta = \\dfrac{1}{5} = 0,20 = 20\\ \\%",
+              "cancelar": [
+                "a",
+                "b"
+              ]
+            },
+            {
+              "t": "gabarito",
+              "letra": "b"
+            },
+            {
+              "t": "fim"
+            }
+          ]
+        }
+      ]
     }
   ],
   "status": "revisado",

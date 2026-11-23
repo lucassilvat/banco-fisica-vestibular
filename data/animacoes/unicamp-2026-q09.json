@@ -1,171 +1,63 @@
 {
   "id": "unicamp-2026-q09",
+  "formato": "aula",
   "titulo": "Corrente vezes tempo é carga",
   "conceitos": [
     "Corrente elétrica"
   ],
-  "cena": {
-    "modelo": "diagrama",
-    "parametros": {
-      "elementos": {
-        "etapa-1": [
-          {
-            "t": "ret",
-            "x": 30,
-            "y": 16,
-            "w": 400,
-            "h": 40,
-            "cor": "suave",
-            "borda": "normal",
-            "rx": 7
-          },
-          {
-            "t": "texto",
-            "x": 42,
-            "y": 36.0,
-            "txt": "corrente",
-            "mudo": true,
-            "ancora": "start"
-          },
-          {
-            "t": "texto",
-            "x": 418,
-            "y": 36.0,
-            "txt": "4 000 mA = 4 A",
-            "negrito": true,
-            "ancora": "end"
-          }
-        ],
-        "etapa-2": [
-          {
-            "t": "seta",
-            "de": [
-              230.0,
-              59
-            ],
-            "para": [
-              230.0,
-              79
-            ],
-            "cor": "tinta",
-            "larg": 1.8
-          },
-          {
-            "t": "texto",
-            "x": 242.0,
-            "y": 69.0,
-            "txt": "",
-            "negrito": true,
-            "cor": "acel",
-            "ancora": "start"
-          },
-          {
-            "t": "ret",
-            "x": 30,
-            "y": 82,
-            "w": 400,
-            "h": 40,
-            "cor": "suave",
-            "borda": "normal",
-            "rx": 7
-          },
-          {
-            "t": "texto",
-            "x": 42,
-            "y": 102.0,
-            "txt": "tempo",
-            "mudo": true,
-            "ancora": "start"
-          },
-          {
-            "t": "texto",
-            "x": 418,
-            "y": 102.0,
-            "txt": "1 h = 3 600 s",
-            "negrito": true,
-            "ancora": "end"
-          }
-        ],
-        "etapa-3": [
-          {
-            "t": "seta",
-            "de": [
-              230.0,
-              125
-            ],
-            "para": [
-              230.0,
-              145
-            ],
-            "cor": "tinta",
-            "larg": 1.8
-          },
-          {
-            "t": "texto",
-            "x": 242.0,
-            "y": 135.0,
-            "txt": "Q = i · Δt",
-            "negrito": true,
-            "cor": "acel",
-            "ancora": "start"
-          },
-          {
-            "t": "ret",
-            "x": 30,
-            "y": 148,
-            "w": 400,
-            "h": 40,
-            "cor": "suave",
-            "borda": "normal",
-            "rx": 7
-          },
-          {
-            "t": "texto",
-            "x": 42,
-            "y": 168.0,
-            "txt": "carga",
-            "mudo": true,
-            "ancora": "start"
-          },
-          {
-            "t": "texto",
-            "x": 418,
-            "y": 168.0,
-            "txt": "14 400 C",
-            "negrito": true,
-            "ancora": "end"
-          }
-        ]
-      }
-    }
-  },
-  "passos": [
+  "metodos": [
     {
-      "titulo": "Unidades do SI",
-      "conceito": "Corrente elétrica",
-      "texto": "Antes de multiplicar, passamos a corrente para ampère e o tempo para segundo.",
-      "cena": {
-        "mostrar": [
-          "etapa-1",
-          "etapa-2"
-        ]
-      }
-    },
-    {
-      "titulo": "A carga",
-      "conceito": "Corrente elétrica",
-      "texto": "Resposta: <b>(c) 14 400 C</b>.",
-      "equacoes": [
-        "Q = i\\,\\Delta t = 4 \\cdot 3\\,600 = 14\\,400\\ \\text{C}"
-      ],
-      "cena": {
-        "mostrar": [
-          "etapa-3"
-        ],
-        "destacar": [
-          "etapa-3"
-        ]
-      }
+      "nome": "Corrente e carga",
+      "telas": [
+        {
+          "titulo": "A fórmula",
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "Corrente elétrica é a carga que passa por unidade de tempo:"
+            },
+            {
+              "t": "eq",
+              "tex": "i = \\dfrac{Q}{\\marca{t}{\\Delta t}}"
+            },
+            {
+              "t": "eq",
+              "tex": "Q = i \\cdot \\marca{t}{\\Delta t}",
+              "mover": [
+                "t"
+              ]
+            }
+          ]
+        },
+        {
+          "titulo": "A carga",
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "Passamos para as unidades do SI:"
+            },
+            {
+              "t": "eq",
+              "tex": "i = 4\\,000\\ \\text{mA} = 4\\ \\text{A}"
+            },
+            {
+              "t": "eq",
+              "tex": "\\Delta t = 1\\ \\text{h} = 3\\,600\\ \\text{s}"
+            },
+            {
+              "t": "eq",
+              "tex": "Q = 4 \\cdot 3\\,600 = 14\\,400\\ \\text{C}"
+            },
+            {
+              "t": "gabarito",
+              "letra": "c"
+            },
+            {
+              "t": "fim"
+            }
+          ]
+        }
+      ]
     }
   ],
   "status": "revisado",

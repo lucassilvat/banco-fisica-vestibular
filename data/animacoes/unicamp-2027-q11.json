@@ -1,5 +1,6 @@
 {
   "id": "unicamp-2027-q11",
+  "formato": "aula",
   "titulo": "Disco deslizando: atrito cinético",
   "conceitos": [
     "Força de atrito estático e cinético"
@@ -8,164 +9,261 @@
     "modelo": "diagrama",
     "parametros": {
       "elementos": {
-        "etapa-1": [
+        "pista": [
           {
             "t": "ret",
-            "x": 30,
-            "y": 16,
-            "w": 420,
+            "x": 40,
+            "y": 260,
+            "w": 560,
             "h": 40,
-            "cor": "suave",
-            "borda": "normal",
-            "rx": 7
+            "cor": "#dff1fb",
+            "borda": null
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                40,
+                260
+              ],
+              [
+                600,
+                260
+              ]
+            ],
+            "cor": "#111111",
+            "larg": 2.5
           },
           {
             "t": "texto",
-            "x": 42,
-            "y": 36.0,
-            "txt": "o disco desliza",
+            "x": 580,
+            "y": 288,
+            "txt": "gelo",
             "mudo": true,
-            "ancora": "start"
-          },
-          {
-            "t": "texto",
-            "x": 438,
-            "y": 36.0,
-            "txt": "atrito cinético",
-            "negrito": true,
             "ancora": "end"
           }
         ],
-        "etapa-2": [
+        "disco": [
           {
-            "t": "seta",
-            "de": [
-              240.0,
-              59
-            ],
-            "para": [
-              240.0,
-              79
-            ],
-            "cor": "tinta",
-            "larg": 1.8
-          },
-          {
-            "t": "texto",
-            "x": 252.0,
-            "y": 69.0,
-            "txt": "20 · 10",
-            "negrito": true,
-            "cor": "acel",
-            "ancora": "start"
+            "t": "ret",
+            "x": 250,
+            "y": 212,
+            "w": 140,
+            "h": 48,
+            "cor": "#8d8d95",
+            "borda": "#111111",
+            "rx": 16,
+            "larg": 2.5
           },
           {
             "t": "ret",
-            "x": 30,
-            "y": 82,
-            "w": 420,
-            "h": 40,
-            "cor": "suave",
-            "borda": "normal",
-            "rx": 7
+            "x": 306,
+            "y": 196,
+            "w": 28,
+            "h": 16,
+            "cor": "#d94a3a",
+            "borda": "#111111",
+            "rx": 4
           },
           {
-            "t": "texto",
-            "x": 42,
-            "y": 102.0,
-            "txt": "normal (pista horizontal)",
-            "mudo": true,
-            "ancora": "start"
-          },
-          {
-            "t": "texto",
-            "x": 438,
-            "y": 102.0,
-            "txt": "N = mg = 200 N",
-            "negrito": true,
-            "ancora": "end"
+            "t": "circ",
+            "x": 320,
+            "y": 236,
+            "r": 4.5,
+            "cor": "#111111",
+            "borda": "#111111"
           }
         ],
-        "etapa-3": [
+        "velocidade": [
           {
             "t": "seta",
             "de": [
-              240.0,
-              125
+              400,
+              190
             ],
             "para": [
-              240.0,
-              145
+              480,
+              190
             ],
-            "cor": "tinta",
-            "larg": 1.8
-          },
-          {
-            "t": "texto",
-            "x": 252.0,
-            "y": 135.0,
-            "txt": "μ_{C} · N = 0,02 · 200",
-            "negrito": true,
             "cor": "acel",
-            "ancora": "start"
-          },
-          {
-            "t": "ret",
-            "x": 30,
-            "y": 148,
-            "w": 420,
-            "h": 40,
-            "cor": "suave",
-            "borda": "normal",
-            "rx": 7
+            "larg": 3,
+            "rot_em": [
+              486,
+              184
+            ],
+            "ancora": "start",
+            "rotulo": "v"
           },
           {
             "t": "texto",
-            "x": 42,
-            "y": 168.0,
-            "txt": "força de atrito",
-            "mudo": true,
-            "ancora": "start"
+            "x": 440,
+            "y": 172,
+            "txt": "desliza",
+            "mudo": true
+          }
+        ],
+        "forcas": [
+          {
+            "t": "seta",
+            "de": [
+              320,
+              236
+            ],
+            "para": [
+              320,
+              120
+            ],
+            "cor": "normal",
+            "larg": 3.5,
+            "rot_em": [
+              332,
+              128
+            ],
+            "ancora": "start",
+            "rotulo": "N"
           },
           {
-            "t": "texto",
-            "x": 438,
-            "y": 168.0,
-            "txt": "4,0 N",
-            "negrito": true,
-            "ancora": "end"
+            "t": "seta",
+            "de": [
+              320,
+              236
+            ],
+            "para": [
+              320,
+              352
+            ],
+            "cor": "peso",
+            "larg": 3.5,
+            "rot_em": [
+              332,
+              346
+            ],
+            "ancora": "start",
+            "rotulo": "P"
+          }
+        ],
+        "atrito": [
+          {
+            "t": "seta",
+            "de": [
+              320,
+              236
+            ],
+            "para": [
+              236,
+              236
+            ],
+            "cor": "atrito",
+            "larg": 3.5,
+            "rot_em": [
+              230,
+              226
+            ],
+            "ancora": "end",
+            "rotulo": "f",
+            "sub": "at"
           }
         ]
-      }
+      },
+      "altura": 380
     }
   },
-  "passos": [
+  "metodos": [
     {
-      "titulo": "Qual coeficiente usar",
-      "conceito": "Força de atrito estático e cinético",
-      "texto": "O disco está deslizando sobre o gelo: o atrito é cinético e o coeficiente estático não entra. Na pista horizontal, a normal equilibra o peso.",
-      "cena": {
-        "mostrar": [
-          "etapa-1",
-          "etapa-2"
-        ]
-      }
-    },
-    {
-      "titulo": "A força de atrito",
-      "conceito": "Força de atrito estático e cinético",
-      "texto": "Resposta: <b>(c) 4,0 N</b>.",
-      "equacoes": [
-        "F_{\\text{at}} = \\mu_{C} N = 0,02 \\cdot 200 = 4,0\\ \\text{N}"
-      ],
-      "cena": {
-        "mostrar": [
-          "etapa-3"
-        ],
-        "destacar": [
-          "etapa-3"
-        ]
-      }
+      "nome": "Atrito cinético",
+      "telas": [
+        {
+          "titulo": "Qual atrito",
+          "cena": {
+            "mostrar": [
+              "pista",
+              "disco",
+              "velocidade",
+              "forcas",
+              "atrito"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "O disco está <b>deslizando</b> sobre o gelo: o atrito é <b>cinético</b>. O coeficiente estático (0,1) não entra na conta."
+            },
+            {
+              "t": "texto",
+              "html": "Sobre o disco agem o peso \\(\\vec{P}\\), a normal \\(\\vec{N}\\) e o atrito \\(\\vec{f}_{at}\\), contrário ao deslizamento."
+            }
+          ]
+        },
+        {
+          "titulo": "A normal",
+          "cena": {
+            "mostrar": [
+              "pista",
+              "disco",
+              "velocidade",
+              "forcas",
+              "atrito"
+            ],
+            "destacar": [
+              "forcas"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "Pista horizontal: na vertical não há movimento, a normal equilibra o peso."
+            },
+            {
+              "t": "eq",
+              "tex": "N = P = m\\, g"
+            },
+            {
+              "t": "eq",
+              "tex": "N = 20 \\cdot 10 = 200\\ \\text{N}"
+            }
+          ]
+        },
+        {
+          "titulo": "A força de atrito",
+          "cena": {
+            "mostrar": [
+              "pista",
+              "disco",
+              "velocidade",
+              "forcas",
+              "atrito"
+            ],
+            "destacar": [
+              "atrito"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "Força de atrito cinético:"
+            },
+            {
+              "t": "eq",
+              "tex": "f_{at} = \\mu_{C}\\, N"
+            },
+            {
+              "t": "eq",
+              "tex": "f_{at} = 0,02 \\cdot 200 = 4,0\\ \\text{N}"
+            },
+            {
+              "t": "texto",
+              "html": "Com o coeficiente estático, por engano, daria 20 N (alternativa d)."
+            },
+            {
+              "t": "gabarito",
+              "letra": "c"
+            },
+            {
+              "t": "fim"
+            }
+          ]
+        }
+      ]
     }
   ],
   "status": "revisado",
