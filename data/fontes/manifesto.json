@@ -841,6 +841,18 @@
       "url": "",
       "sha256": "41564e9bbd20e03a9b62356c0ccf29b6070bf615b9ac8ecfe660021548cd0710",
       "paginas": 23
+    },
+    {
+      "banca": "Unesp",
+      "ano": 2027,
+      "versao": "",
+      "tipo": "caderno",
+      "descricao": "Vunesp, Vestibular Unesp 2027, 1ª fase (Prova de Conhecimentos Gerais), caderno de questões",
+      "fase": "1ª fase",
+      "arquivoLocal": "fontes/unesp-2027-caderno.pdf",
+      "url": "",
+      "sha256": "de19db9d7e7a11440353427deb0ed3a7b53b9e2d69ce85a73419d18003fdeeeb",
+      "paginas": 36
     }
   ]
 }

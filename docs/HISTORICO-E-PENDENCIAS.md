@@ -219,13 +219,17 @@ Para gravar questões, usam-se os lotes da etapa `publicar` (docs/WORKFLOW.md).
 42. v2.19.1: diretrizes das resoluções animadas, reunindo os comentários de revisão do Lucas, na
     seção "Diretrizes das revisões do Lucas" de `docs/ANIMACOES.md`.
 43. v2.20.0: Unesp 2018, 2017 e 2016 (24 questões) no formato aula; 2018 Q76 e Q82 e 2016 Q76
-    com dois métodos. Aguardando a revisão do Lucas no app.
+    com dois métodos. Revisão: 2018 Q80–Q82, 2016 Q78, Q79, Q82 e 2017 Q80, Q83 ajustadas (Q83 refeita
+    com a regra da mão direita desenhada); as 24 aprovadas.
+44. v2.21.0: Unesp 2027 (1ª fase, aplicada em 22/11/2026), Q71 e Q76–Q82, com resoluções animadas no
+    formato aula (8 questões; a pedido do Lucas, importação e animações juntas). Q71 interdisciplinar
+    aprovada por ele; Q69 e Q73 fora. As 8 animações aprovadas: 78 no site público.
 
 ## Pendências
 
 - **Resolução animada**: formato aula (item 37); Unesp 2026 aprovada (7 no site público); Unesp 2025
   aprovada (item 38); 17 no site público. Unesp 2024 e 2023 aprovadas (item 39): 34 no site público. Unesp 2022 e 2021 aprovadas (item 40):
-  49 no site público. Unesp 2020 e 2019 aprovadas (item 41): 70 no site público. Unesp 2018 a 2016 refeitas (item 43), aguardando revisão; com elas, a Unesp fica completa. Seguir prova a prova conforme o Lucas pedir. Em revisão pelo Lucas no app do Claude (item 36). Só as aprovadas vão
+  49 no site público. Unesp 2020 e 2019 aprovadas (item 41): 70 no site público. Unesp 2018 a 2016 aprovadas (item 43) e Unesp 2027 aprovada (item 44): 102 no site público; a Unesp (2016 a 2027) está completa. Seguir prova a prova conforme o Lucas pedir. Em revisão pelo Lucas no app do Claude (item 36). Só as aprovadas vão
   para o site público. As comentadas esperam ajustes: ler os comentários da coleção `revisoes`,
   corrigir os roteiros e republicar no app. Não produzir animações novas sem novo pedido.
 
@@ -271,6 +275,9 @@ Para gravar questões, usam-se os lotes da etapa `publicar` (docs/WORKFLOW.md).
 - **Gabaritos Unesp 2017–2020**: `resolucao-propria` (gabaritos oficiais não encontrados em
   texto). Conferir com atenção 2017 Q83 (sentido de giro do motor; resolvida pela figura e
   pela coerência entre as alternativas) e 2019 Q64 (afirmação II, pressão osmótica = dgΔh).
+- **Gabarito oficial Unesp 2027**: as 8 questões estão `resolucao-propria` (71E, 76D, 77C, 78A, 79D,
+  80B, 81B, 82B); trocar para `oficial` quando a Vunesp divulgar. Conferir com atenção a Q78 (leitura
+  das curvas de nível: A em 3 420 m, B em 3 660 m).
 - **Gabaritos Unesp**: 2023 está como `resolucao-propria` sem conferência externa (o
   gabarito oficial só foi achado em imagem). 2022 confere com o Estratégia e 2026 com o
   gabarito divulgado pela Quero Bolsa; trocar para `oficial` quando houver o PDF da Vunesp.

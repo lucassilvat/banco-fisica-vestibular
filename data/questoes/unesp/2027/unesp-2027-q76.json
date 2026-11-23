@@ -1,0 +1,26 @@
+{
+  "id": "unesp-2027-q76",
+  "banca": "Unesp",
+  "ano": 2027,
+  "numero": "76",
+  "fase": "1ª fase",
+  "fonte": {
+    "descricao": "Vunesp, Vestibular Unesp 2027, 1ª fase (Prova de Conhecimentos Gerais), caderno de questões"
+  },
+  "enunciado": "Um helicóptero sobrevoa horizontalmente um lago, em linha reta, com velocidade escalar constante v<sub>H</sub> = 20 m/s e, desse helicóptero, um pacote será abandonado de uma altura h = 320 m. Uma lancha navega nas águas desse lago, também com velocidade escalar constante v<sub>L</sub> = 5 m/s, em linha reta, na mesma direção e no mesmo sentido da velocidade do helicóptero. As trajetórias do helicóptero e da lancha estão contidas em um mesmo plano vertical.\n\n[[figura 1]]\n\nDesprezando a resistência do ar e adotando g = 10 m/s<sup>2</sup>, para que o pacote caia dentro da lancha, ele deve ser abandonado quando o helicóptero estiver, atrás da lancha, a uma distância horizontal d correspondente a\n\n(A) 160 m.\n(B) 140 m.\n(C) 180 m.\n(D) 120 m.\n(E) 200 m.",
+  "figuras": [
+    "unesp-2027-q76-1.png"
+  ],
+  "gabarito": "D",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. Ao ser abandonado, o pacote tem a velocidade horizontal do helicóptero (20 m/s) e velocidade vertical inicial nula: é um lançamento horizontal.\n2. Tempo de queda (vertical, MUV a partir do repouso): \\(h = \\dfrac{g t^2}{2} \\Rightarrow 320 = \\dfrac{10\\, t^2}{2} \\Rightarrow t^2 = 64 \\Rightarrow t = 8\\) s.\n3. Na horizontal (MU), o pacote anda 20 · 8 = 160 m, e a lancha, no mesmo tempo, 5 · 8 = 40 m.\n4. O pacote precisa alcançar a lancha: d + 40 = 160 ⇒ d = 120 m.\n5. Outro caminho: em relação à lancha, o pacote se aproxima com 20 − 5 = 15 m/s; em 8 s, d = 15 · 8 = 120 m.\nGabarito: D.",
+  "topicos": [
+    "lancamento-horizontal",
+    "movimento-relativo-e-composicao-de-velocidades",
+    "queda-livre-e-lancamento-vertical",
+    "movimento-retilineo-uniforme-mru"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-22T22:20:00.000Z",
+  "atualizadoEm": "2026-11-22T22:20:00.000Z"
+}

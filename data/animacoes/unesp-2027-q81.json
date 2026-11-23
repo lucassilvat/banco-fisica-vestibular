@@ -1,0 +1,1224 @@
+{
+  "id": "unesp-2027-q81",
+  "formato": "aula",
+  "titulo": "As cores dos fogos de artifício",
+  "conceitos": [
+    "Energia do fóton",
+    "Espectro eletromagnético"
+  ],
+  "cena": {
+    "modelo": "diagrama",
+    "parametros": {
+      "elementos": {
+        "espectro": [
+          {
+            "t": "ret",
+            "x": 60,
+            "y": 24,
+            "w": 104,
+            "h": 40,
+            "cor": "#e3241b",
+            "borda": "#111111",
+            "larg": 1
+          },
+          {
+            "t": "texto",
+            "x": 112,
+            "y": 86,
+            "txt": "Vermelha",
+            "negrito": true
+          },
+          {
+            "t": "texto",
+            "x": 112,
+            "y": 108,
+            "txt": "Sr",
+            "negrito": true,
+            "tam": 16
+          },
+          {
+            "t": "ret",
+            "x": 164,
+            "y": 24,
+            "w": 104,
+            "h": 40,
+            "cor": "#f39200",
+            "borda": "#111111",
+            "larg": 1
+          },
+          {
+            "t": "texto",
+            "x": 216,
+            "y": 86,
+            "txt": "Laranja",
+            "negrito": true
+          },
+          {
+            "t": "texto",
+            "x": 216,
+            "y": 108,
+            "txt": "Ca",
+            "negrito": true,
+            "tam": 16
+          },
+          {
+            "t": "ret",
+            "x": 268,
+            "y": 24,
+            "w": 104,
+            "h": 40,
+            "cor": "#ffd500",
+            "borda": "#111111",
+            "larg": 1
+          },
+          {
+            "t": "texto",
+            "x": 320,
+            "y": 86,
+            "txt": "Amarela",
+            "negrito": true
+          },
+          {
+            "t": "texto",
+            "x": 320,
+            "y": 108,
+            "txt": "Na",
+            "negrito": true,
+            "tam": 16
+          },
+          {
+            "t": "ret",
+            "x": 372,
+            "y": 24,
+            "w": 104,
+            "h": 40,
+            "cor": "#2aa84a",
+            "borda": "#111111",
+            "larg": 1
+          },
+          {
+            "t": "texto",
+            "x": 424,
+            "y": 86,
+            "txt": "Verde",
+            "negrito": true
+          },
+          {
+            "t": "texto",
+            "x": 424,
+            "y": 108,
+            "txt": "Ba",
+            "negrito": true,
+            "tam": 16
+          },
+          {
+            "t": "ret",
+            "x": 476,
+            "y": 24,
+            "w": 104,
+            "h": 40,
+            "cor": "#1e9be0",
+            "borda": "#111111",
+            "larg": 1
+          },
+          {
+            "t": "texto",
+            "x": 528,
+            "y": 86,
+            "txt": "Azul",
+            "negrito": true
+          },
+          {
+            "t": "texto",
+            "x": 528,
+            "y": 108,
+            "txt": "Cu",
+            "negrito": true,
+            "tam": 16
+          }
+        ],
+        "setas": [
+          {
+            "t": "seta",
+            "de": [
+              70,
+              128
+            ],
+            "para": [
+              570,
+              128
+            ],
+            "cor": "normal",
+            "larg": 3
+          },
+          {
+            "t": "texto",
+            "x": 320,
+            "y": 148,
+            "txt": "frequência f e energia do fóton E = h f aumentam",
+            "negrito": true,
+            "cor": "normal"
+          },
+          {
+            "t": "seta",
+            "de": [
+              570,
+              166
+            ],
+            "para": [
+              70,
+              166
+            ],
+            "cor": "peso",
+            "larg": 3
+          },
+          {
+            "t": "texto",
+            "x": 320,
+            "y": 186,
+            "txt": "comprimento de onda λ aumenta",
+            "negrito": true,
+            "cor": "peso"
+          }
+        ],
+        "tabela": [
+          {
+            "t": "ret",
+            "x": 86,
+            "y": 232,
+            "w": 26,
+            "h": 22,
+            "cor": "#ffffff",
+            "borda": "#555555",
+            "larg": 1
+          },
+          {
+            "t": "ret",
+            "x": 528,
+            "y": 232,
+            "w": 26,
+            "h": 22,
+            "cor": "#ffffff",
+            "borda": "#555555",
+            "larg": 1
+          },
+          {
+            "t": "ret",
+            "x": 86,
+            "y": 254,
+            "w": 26,
+            "h": 22,
+            "cor": "#ffffff",
+            "borda": "#555555",
+            "larg": 1
+          },
+          {
+            "t": "ret",
+            "x": 112,
+            "y": 254,
+            "w": 26,
+            "h": 22,
+            "cor": "#ffffff",
+            "borda": "#555555",
+            "larg": 1
+          },
+          {
+            "t": "ret",
+            "x": 398,
+            "y": 254,
+            "w": 26,
+            "h": 22,
+            "cor": "#ffffff",
+            "borda": "#555555",
+            "larg": 1
+          },
+          {
+            "t": "ret",
+            "x": 424,
+            "y": 254,
+            "w": 26,
+            "h": 22,
+            "cor": "#ffffff",
+            "borda": "#555555",
+            "larg": 1
+          },
+          {
+            "t": "ret",
+            "x": 450,
+            "y": 254,
+            "w": 26,
+            "h": 22,
+            "cor": "#ffffff",
+            "borda": "#555555",
+            "larg": 1
+          },
+          {
+            "t": "ret",
+            "x": 476,
+            "y": 254,
+            "w": 26,
+            "h": 22,
+            "cor": "#ffffff",
+            "borda": "#555555",
+            "larg": 1
+          },
+          {
+            "t": "ret",
+            "x": 502,
+            "y": 254,
+            "w": 26,
+            "h": 22,
+            "cor": "#ffffff",
+            "borda": "#555555",
+            "larg": 1
+          },
+          {
+            "t": "ret",
+            "x": 528,
+            "y": 254,
+            "w": 26,
+            "h": 22,
+            "cor": "#ffffff",
+            "borda": "#555555",
+            "larg": 1
+          },
+          {
+            "t": "ret",
+            "x": 86,
+            "y": 276,
+            "w": 26,
+            "h": 22,
+            "cor": "#ffffff",
+            "borda": "#555555",
+            "larg": 1
+          },
+          {
+            "t": "ret",
+            "x": 112,
+            "y": 276,
+            "w": 26,
+            "h": 22,
+            "cor": "#ffffff",
+            "borda": "#555555",
+            "larg": 1
+          },
+          {
+            "t": "ret",
+            "x": 398,
+            "y": 276,
+            "w": 26,
+            "h": 22,
+            "cor": "#ffffff",
+            "borda": "#555555",
+            "larg": 1
+          },
+          {
+            "t": "ret",
+            "x": 424,
+            "y": 276,
+            "w": 26,
+            "h": 22,
+            "cor": "#ffffff",
+            "borda": "#555555",
+            "larg": 1
+          },
+          {
+            "t": "ret",
+            "x": 450,
+            "y": 276,
+            "w": 26,
+            "h": 22,
+            "cor": "#ffffff",
+            "borda": "#555555",
+            "larg": 1
+          },
+          {
+            "t": "ret",
+            "x": 476,
+            "y": 276,
+            "w": 26,
+            "h": 22,
+            "cor": "#ffffff",
+            "borda": "#555555",
+            "larg": 1
+          },
+          {
+            "t": "ret",
+            "x": 502,
+            "y": 276,
+            "w": 26,
+            "h": 22,
+            "cor": "#ffffff",
+            "borda": "#555555",
+            "larg": 1
+          },
+          {
+            "t": "ret",
+            "x": 528,
+            "y": 276,
+            "w": 26,
+            "h": 22,
+            "cor": "#ffffff",
+            "borda": "#555555",
+            "larg": 1
+          },
+          {
+            "t": "ret",
+            "x": 86,
+            "y": 298,
+            "w": 26,
+            "h": 22,
+            "cor": "#ffffff",
+            "borda": "#555555",
+            "larg": 1
+          },
+          {
+            "t": "ret",
+            "x": 112,
+            "y": 298,
+            "w": 26,
+            "h": 22,
+            "cor": "#ffffff",
+            "borda": "#555555",
+            "larg": 1
+          },
+          {
+            "t": "ret",
+            "x": 138,
+            "y": 298,
+            "w": 26,
+            "h": 22,
+            "cor": "#ffffff",
+            "borda": "#555555",
+            "larg": 1
+          },
+          {
+            "t": "ret",
+            "x": 164,
+            "y": 298,
+            "w": 26,
+            "h": 22,
+            "cor": "#ffffff",
+            "borda": "#555555",
+            "larg": 1
+          },
+          {
+            "t": "ret",
+            "x": 190,
+            "y": 298,
+            "w": 26,
+            "h": 22,
+            "cor": "#ffffff",
+            "borda": "#555555",
+            "larg": 1
+          },
+          {
+            "t": "ret",
+            "x": 216,
+            "y": 298,
+            "w": 26,
+            "h": 22,
+            "cor": "#ffffff",
+            "borda": "#555555",
+            "larg": 1
+          },
+          {
+            "t": "ret",
+            "x": 242,
+            "y": 298,
+            "w": 26,
+            "h": 22,
+            "cor": "#ffffff",
+            "borda": "#555555",
+            "larg": 1
+          },
+          {
+            "t": "ret",
+            "x": 268,
+            "y": 298,
+            "w": 26,
+            "h": 22,
+            "cor": "#ffffff",
+            "borda": "#555555",
+            "larg": 1
+          },
+          {
+            "t": "ret",
+            "x": 294,
+            "y": 298,
+            "w": 26,
+            "h": 22,
+            "cor": "#ffffff",
+            "borda": "#555555",
+            "larg": 1
+          },
+          {
+            "t": "ret",
+            "x": 320,
+            "y": 298,
+            "w": 26,
+            "h": 22,
+            "cor": "#ffffff",
+            "borda": "#555555",
+            "larg": 1
+          },
+          {
+            "t": "ret",
+            "x": 346,
+            "y": 298,
+            "w": 26,
+            "h": 22,
+            "cor": "#ffffff",
+            "borda": "#555555",
+            "larg": 1
+          },
+          {
+            "t": "ret",
+            "x": 372,
+            "y": 298,
+            "w": 26,
+            "h": 22,
+            "cor": "#ffffff",
+            "borda": "#555555",
+            "larg": 1
+          },
+          {
+            "t": "ret",
+            "x": 398,
+            "y": 298,
+            "w": 26,
+            "h": 22,
+            "cor": "#ffffff",
+            "borda": "#555555",
+            "larg": 1
+          },
+          {
+            "t": "ret",
+            "x": 424,
+            "y": 298,
+            "w": 26,
+            "h": 22,
+            "cor": "#ffffff",
+            "borda": "#555555",
+            "larg": 1
+          },
+          {
+            "t": "ret",
+            "x": 450,
+            "y": 298,
+            "w": 26,
+            "h": 22,
+            "cor": "#ffffff",
+            "borda": "#555555",
+            "larg": 1
+          },
+          {
+            "t": "ret",
+            "x": 476,
+            "y": 298,
+            "w": 26,
+            "h": 22,
+            "cor": "#ffffff",
+            "borda": "#555555",
+            "larg": 1
+          },
+          {
+            "t": "ret",
+            "x": 502,
+            "y": 298,
+            "w": 26,
+            "h": 22,
+            "cor": "#ffffff",
+            "borda": "#555555",
+            "larg": 1
+          },
+          {
+            "t": "ret",
+            "x": 528,
+            "y": 298,
+            "w": 26,
+            "h": 22,
+            "cor": "#ffffff",
+            "borda": "#555555",
+            "larg": 1
+          },
+          {
+            "t": "ret",
+            "x": 86,
+            "y": 320,
+            "w": 26,
+            "h": 22,
+            "cor": "#ffffff",
+            "borda": "#555555",
+            "larg": 1
+          },
+          {
+            "t": "ret",
+            "x": 112,
+            "y": 320,
+            "w": 26,
+            "h": 22,
+            "cor": "#ffffff",
+            "borda": "#555555",
+            "larg": 1
+          },
+          {
+            "t": "ret",
+            "x": 138,
+            "y": 320,
+            "w": 26,
+            "h": 22,
+            "cor": "#ffffff",
+            "borda": "#555555",
+            "larg": 1
+          },
+          {
+            "t": "ret",
+            "x": 164,
+            "y": 320,
+            "w": 26,
+            "h": 22,
+            "cor": "#ffffff",
+            "borda": "#555555",
+            "larg": 1
+          },
+          {
+            "t": "ret",
+            "x": 190,
+            "y": 320,
+            "w": 26,
+            "h": 22,
+            "cor": "#ffffff",
+            "borda": "#555555",
+            "larg": 1
+          },
+          {
+            "t": "ret",
+            "x": 216,
+            "y": 320,
+            "w": 26,
+            "h": 22,
+            "cor": "#ffffff",
+            "borda": "#555555",
+            "larg": 1
+          },
+          {
+            "t": "ret",
+            "x": 242,
+            "y": 320,
+            "w": 26,
+            "h": 22,
+            "cor": "#ffffff",
+            "borda": "#555555",
+            "larg": 1
+          },
+          {
+            "t": "ret",
+            "x": 268,
+            "y": 320,
+            "w": 26,
+            "h": 22,
+            "cor": "#ffffff",
+            "borda": "#555555",
+            "larg": 1
+          },
+          {
+            "t": "ret",
+            "x": 294,
+            "y": 320,
+            "w": 26,
+            "h": 22,
+            "cor": "#ffffff",
+            "borda": "#555555",
+            "larg": 1
+          },
+          {
+            "t": "ret",
+            "x": 320,
+            "y": 320,
+            "w": 26,
+            "h": 22,
+            "cor": "#ffffff",
+            "borda": "#555555",
+            "larg": 1
+          },
+          {
+            "t": "ret",
+            "x": 346,
+            "y": 320,
+            "w": 26,
+            "h": 22,
+            "cor": "#ffffff",
+            "borda": "#555555",
+            "larg": 1
+          },
+          {
+            "t": "ret",
+            "x": 372,
+            "y": 320,
+            "w": 26,
+            "h": 22,
+            "cor": "#ffffff",
+            "borda": "#555555",
+            "larg": 1
+          },
+          {
+            "t": "ret",
+            "x": 398,
+            "y": 320,
+            "w": 26,
+            "h": 22,
+            "cor": "#ffffff",
+            "borda": "#555555",
+            "larg": 1
+          },
+          {
+            "t": "ret",
+            "x": 424,
+            "y": 320,
+            "w": 26,
+            "h": 22,
+            "cor": "#ffffff",
+            "borda": "#555555",
+            "larg": 1
+          },
+          {
+            "t": "ret",
+            "x": 450,
+            "y": 320,
+            "w": 26,
+            "h": 22,
+            "cor": "#ffffff",
+            "borda": "#555555",
+            "larg": 1
+          },
+          {
+            "t": "ret",
+            "x": 476,
+            "y": 320,
+            "w": 26,
+            "h": 22,
+            "cor": "#ffffff",
+            "borda": "#555555",
+            "larg": 1
+          },
+          {
+            "t": "ret",
+            "x": 502,
+            "y": 320,
+            "w": 26,
+            "h": 22,
+            "cor": "#ffffff",
+            "borda": "#555555",
+            "larg": 1
+          },
+          {
+            "t": "ret",
+            "x": 528,
+            "y": 320,
+            "w": 26,
+            "h": 22,
+            "cor": "#ffffff",
+            "borda": "#555555",
+            "larg": 1
+          },
+          {
+            "t": "ret",
+            "x": 86,
+            "y": 342,
+            "w": 26,
+            "h": 22,
+            "cor": "#ffffff",
+            "borda": "#555555",
+            "larg": 1
+          },
+          {
+            "t": "ret",
+            "x": 112,
+            "y": 342,
+            "w": 26,
+            "h": 22,
+            "cor": "#ffffff",
+            "borda": "#555555",
+            "larg": 1
+          },
+          {
+            "t": "ret",
+            "x": 138,
+            "y": 342,
+            "w": 26,
+            "h": 22,
+            "cor": "#ffffff",
+            "borda": "#555555",
+            "larg": 1
+          },
+          {
+            "t": "ret",
+            "x": 164,
+            "y": 342,
+            "w": 26,
+            "h": 22,
+            "cor": "#ffffff",
+            "borda": "#555555",
+            "larg": 1
+          },
+          {
+            "t": "ret",
+            "x": 190,
+            "y": 342,
+            "w": 26,
+            "h": 22,
+            "cor": "#ffffff",
+            "borda": "#555555",
+            "larg": 1
+          },
+          {
+            "t": "ret",
+            "x": 216,
+            "y": 342,
+            "w": 26,
+            "h": 22,
+            "cor": "#ffffff",
+            "borda": "#555555",
+            "larg": 1
+          },
+          {
+            "t": "ret",
+            "x": 242,
+            "y": 342,
+            "w": 26,
+            "h": 22,
+            "cor": "#ffffff",
+            "borda": "#555555",
+            "larg": 1
+          },
+          {
+            "t": "ret",
+            "x": 268,
+            "y": 342,
+            "w": 26,
+            "h": 22,
+            "cor": "#ffffff",
+            "borda": "#555555",
+            "larg": 1
+          },
+          {
+            "t": "ret",
+            "x": 294,
+            "y": 342,
+            "w": 26,
+            "h": 22,
+            "cor": "#ffffff",
+            "borda": "#555555",
+            "larg": 1
+          },
+          {
+            "t": "ret",
+            "x": 320,
+            "y": 342,
+            "w": 26,
+            "h": 22,
+            "cor": "#ffffff",
+            "borda": "#555555",
+            "larg": 1
+          },
+          {
+            "t": "ret",
+            "x": 346,
+            "y": 342,
+            "w": 26,
+            "h": 22,
+            "cor": "#ffffff",
+            "borda": "#555555",
+            "larg": 1
+          },
+          {
+            "t": "ret",
+            "x": 372,
+            "y": 342,
+            "w": 26,
+            "h": 22,
+            "cor": "#ffffff",
+            "borda": "#555555",
+            "larg": 1
+          },
+          {
+            "t": "ret",
+            "x": 398,
+            "y": 342,
+            "w": 26,
+            "h": 22,
+            "cor": "#ffffff",
+            "borda": "#555555",
+            "larg": 1
+          },
+          {
+            "t": "ret",
+            "x": 424,
+            "y": 342,
+            "w": 26,
+            "h": 22,
+            "cor": "#ffffff",
+            "borda": "#555555",
+            "larg": 1
+          },
+          {
+            "t": "ret",
+            "x": 450,
+            "y": 342,
+            "w": 26,
+            "h": 22,
+            "cor": "#ffffff",
+            "borda": "#555555",
+            "larg": 1
+          },
+          {
+            "t": "ret",
+            "x": 476,
+            "y": 342,
+            "w": 26,
+            "h": 22,
+            "cor": "#ffffff",
+            "borda": "#555555",
+            "larg": 1
+          },
+          {
+            "t": "ret",
+            "x": 502,
+            "y": 342,
+            "w": 26,
+            "h": 22,
+            "cor": "#ffffff",
+            "borda": "#555555",
+            "larg": 1
+          },
+          {
+            "t": "ret",
+            "x": 528,
+            "y": 342,
+            "w": 26,
+            "h": 22,
+            "cor": "#ffffff",
+            "borda": "#555555",
+            "larg": 1
+          },
+          {
+            "t": "ret",
+            "x": 112,
+            "y": 320,
+            "w": 26,
+            "h": 22,
+            "cor": "#e3241b",
+            "borda": "#111111",
+            "larg": 2,
+            "opac": 0.75
+          },
+          {
+            "t": "texto",
+            "x": 125.0,
+            "y": 336,
+            "txt": "Sr",
+            "negrito": true,
+            "cor": "#111111"
+          },
+          {
+            "t": "ret",
+            "x": 112,
+            "y": 298,
+            "w": 26,
+            "h": 22,
+            "cor": "#f39200",
+            "borda": "#111111",
+            "larg": 2,
+            "opac": 0.75
+          },
+          {
+            "t": "texto",
+            "x": 125.0,
+            "y": 314,
+            "txt": "Ca",
+            "negrito": true,
+            "cor": "#111111"
+          },
+          {
+            "t": "ret",
+            "x": 86,
+            "y": 276,
+            "w": 26,
+            "h": 22,
+            "cor": "#ffd500",
+            "borda": "#111111",
+            "larg": 2,
+            "opac": 0.75
+          },
+          {
+            "t": "texto",
+            "x": 99.0,
+            "y": 292,
+            "txt": "Na",
+            "negrito": true,
+            "cor": "#111111"
+          },
+          {
+            "t": "ret",
+            "x": 112,
+            "y": 342,
+            "w": 26,
+            "h": 22,
+            "cor": "#2aa84a",
+            "borda": "#111111",
+            "larg": 2,
+            "opac": 0.75
+          },
+          {
+            "t": "texto",
+            "x": 125.0,
+            "y": 358,
+            "txt": "Ba",
+            "negrito": true,
+            "cor": "#111111"
+          },
+          {
+            "t": "ret",
+            "x": 346,
+            "y": 298,
+            "w": 26,
+            "h": 22,
+            "cor": "#1e9be0",
+            "borda": "#111111",
+            "larg": 2,
+            "opac": 0.75
+          },
+          {
+            "t": "texto",
+            "x": 359.0,
+            "y": 314,
+            "txt": "Cu",
+            "negrito": true,
+            "cor": "#111111"
+          }
+        ],
+        "grupos": [
+          {
+            "t": "texto",
+            "x": 99,
+            "y": 224,
+            "txt": "1",
+            "negrito": true
+          },
+          {
+            "t": "texto",
+            "x": 125,
+            "y": 246,
+            "txt": "2",
+            "negrito": true
+          },
+          {
+            "t": "linha",
+            "pontos": [
+              [
+                140,
+                290
+              ],
+              [
+                140,
+                284
+              ],
+              [
+                396,
+                284
+              ],
+              [
+                396,
+                290
+              ]
+            ],
+            "cor": "#111111",
+            "larg": 2
+          },
+          {
+            "t": "texto",
+            "x": 268,
+            "y": 278,
+            "txt": "metais de transição",
+            "negrito": true
+          },
+          {
+            "t": "texto",
+            "x": 86,
+            "y": 390,
+            "txt": "grupo 1: metais alcalinos (Na)",
+            "negrito": true,
+            "ancora": "start"
+          },
+          {
+            "t": "texto",
+            "x": 86,
+            "y": 412,
+            "txt": "grupo 2: metais alcalinoterrosos (Ca, Sr, Ba)",
+            "negrito": true,
+            "ancora": "start"
+          }
+        ],
+        "periodos": [
+          {
+            "t": "texto",
+            "x": 74,
+            "y": 248,
+            "txt": "1",
+            "negrito": true,
+            "cor": "normal"
+          },
+          {
+            "t": "texto",
+            "x": 74,
+            "y": 270,
+            "txt": "2",
+            "negrito": true,
+            "cor": "normal"
+          },
+          {
+            "t": "texto",
+            "x": 74,
+            "y": 292,
+            "txt": "3",
+            "negrito": true,
+            "cor": "normal"
+          },
+          {
+            "t": "texto",
+            "x": 74,
+            "y": 314,
+            "txt": "4",
+            "negrito": true,
+            "cor": "normal"
+          },
+          {
+            "t": "texto",
+            "x": 74,
+            "y": 336,
+            "txt": "5",
+            "negrito": true,
+            "cor": "normal"
+          },
+          {
+            "t": "texto",
+            "x": 74,
+            "y": 358,
+            "txt": "6",
+            "negrito": true,
+            "cor": "normal"
+          },
+          {
+            "t": "texto",
+            "x": 82,
+            "y": 224,
+            "txt": "período",
+            "mudo": true,
+            "ancora": "end"
+          }
+        ]
+      },
+      "altura": 430
+    }
+  },
+  "metodos": [
+    {
+      "nome": "Cor, fóton e Classificação Periódica",
+      "telas": [
+        {
+          "titulo": "Cor, frequência e energia do fóton",
+          "cena": {
+            "mostrar": [
+              "espectro",
+              "setas"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "Na luz visível, do vermelho ao azul, a <b>frequência aumenta</b> e o <b>comprimento de onda diminui</b>, pois a velocidade da luz é a mesma:"
+            },
+            {
+              "t": "eq",
+              "tex": "c = \\lambda\\,f"
+            },
+            {
+              "t": "texto",
+              "html": "A energia de cada fóton é proporcional à frequência:"
+            },
+            {
+              "t": "eq",
+              "tex": "E = h\\,f"
+            },
+            {
+              "t": "texto",
+              "html": "O fóton azul tem <b>mais</b> energia que o vermelho: A está errada."
+            }
+          ]
+        },
+        {
+          "titulo": "A cor de maior comprimento de onda",
+          "cena": {
+            "mostrar": [
+              "espectro",
+              "setas",
+              "tabela",
+              "grupos"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "A cor de maior comprimento de onda (e de menor frequência) é o <b>vermelho</b>, que, pela figura 1, vem do <b>estrôncio</b> (Sr)."
+            },
+            {
+              "t": "texto",
+              "html": "Na figura 2, o Sr está na segunda coluna, o <b>grupo 2</b>: é um metal <b>alcalinoterroso</b>. B está certa."
+            },
+            {
+              "t": "texto",
+              "html": "Pelo mesmo motivo, D está errada: a cor de menor frequência vem do Sr, que não é metal de transição."
+            }
+          ]
+        },
+        {
+          "titulo": "As outras alternativas",
+          "cena": {
+            "mostrar": [
+              "espectro",
+              "tabela",
+              "grupos",
+              "periodos"
+            ]
+          },
+          "blocos": [
+            {
+              "t": "texto",
+              "html": "C: Na, Ca, Sr, Ba e Cu estão em linhas diferentes da tabela, os períodos 3, 4, 5, 6 e 4. Errada."
+            },
+            {
+              "t": "texto",
+              "html": "E: o único metal alcalino (grupo 1) da tabela é o sódio, que dá o <b>amarelo</b>. As duas cores de maiores frequências são o azul (Cu) e o verde (Ba). Errada."
+            },
+            {
+              "t": "gabarito",
+              "letra": "B"
+            },
+            {
+              "t": "fim"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "status": "revisado",
+  "criadoEm": "2026-11-22T21:00:00-03:00",
+  "atualizadoEm": "2026-11-22T21:00:00-03:00",
+  "revisao": {
+    "estado": "aprovada",
+    "comentario": "",
+    "atualizadoEm": "2026-11-23T01:24:34.332Z"
+  }
+}

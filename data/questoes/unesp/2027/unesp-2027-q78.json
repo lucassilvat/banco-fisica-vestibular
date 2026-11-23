@@ -1,0 +1,24 @@
+{
+  "id": "unesp-2027-q78",
+  "banca": "Unesp",
+  "ano": 2027,
+  "numero": "78",
+  "fase": "1ª fase",
+  "fonte": {
+    "descricao": "Vunesp, Vestibular Unesp 2027, 1ª fase (Prova de Conhecimentos Gerais), caderno de questões"
+  },
+  "enunciado": "O condor é a maior ave voadora do mundo e habita a cordilheira dos Andes, na América do Sul. A figura representa as curvas de nível de um pequeno trecho dessa região, em que um condor de 12 kg parte do ponto A e voa até o ponto B.\n\nA linha vermelha é a projeção, no plano da figura, da trajetória desse voo.\n\n[[figura 1]]\n\nAdotando g = 10 m/s<sup>2</sup>, o trabalho realizado pela força de atração gravitacional sobre esse condor, em seu voo de A para B, tem intensidade\n\n(A) – 28,8 kJ e independe da trajetória seguida pela ave.\n(B) 44,4 kJ e seria diferente se a ave seguisse por outra trajetória.\n(C) 28,8 kJ e independe da trajetória seguida pela ave.\n(D) – 28,8 kJ e seria diferente se a ave seguisse por outra trajetória.\n(E) – 44,4 kJ e independe da trajetória seguida pela ave.",
+  "figuras": [
+    "unesp-2027-q78-1.png"
+  ],
+  "gabarito": "A",
+  "gabaritoFonte": "resolucao-propria",
+  "resolucao": "1. Curvas de nível ligam pontos de mesma altitude; na figura, vão de 40 em 40 m, de 3 420 m (a mais externa) a 3 700 m (o topo). O ponto A está sobre a curva de 3 420 m (a mais externa) e o ponto B, sobre a curva de 3 660 m, vizinha do topo.\n2. Desnível de A para B: Δh = 3 660 − 3 420 = 240 m (a ave sobe).\n3. O peso é uma força conservativa: seu trabalho só depende das altitudes inicial e final, e não da trajetória. Subindo, o peso aponta contra o deslocamento vertical, e o trabalho é negativo: \\(\\tau_P = -m g \\Delta h\\).\n4. \\(\\tau_P = -12 \\cdot 10 \\cdot 240 = -28\\,800\\) J = −28,8 kJ, e independe da trajetória.\n5. Observação: o enunciado fala em \"intensidade\", mas as alternativas trazem o sinal; o valor com sinal e a independência da trajetória levam a A (44,4 kJ corresponderia a um desnível de 370 m, que não é o da figura).\nGabarito: A.",
+  "topicos": [
+    "trabalho-de-uma-forca",
+    "energia-potencial-gravitacional"
+  ],
+  "status": "publicado",
+  "criadoEm": "2026-11-22T22:20:00.000Z",
+  "atualizadoEm": "2026-11-22T22:20:00.000Z"
+}
