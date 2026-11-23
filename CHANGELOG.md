@@ -44,8 +44,8 @@ de modelo de dados; CORREÇÃO, em correções de questões já publicadas.
   com λ e λ/2 marcados na figura (3 m = 1,5λ); **2017 Q80** com h marcado no tubo; **2017 Q83** refeita
   sem produto vetorial: por eliminação, cada alternativa com a polaridade da pilha, o polo do ímã e a
   regra da mão direita desenhada (vista lateral), e o giro na vista do observador da figura.
-- Diretrizes atualizadas. As 24 aprovadas pelo Lucas e revisões importadas: com a 2027, **102 animações
-  no site público**.
+- Diretrizes atualizadas. 23 aprovadas pelo Lucas e revisões importadas: com a 2027, **101 animações
+  no site público**. A 2016 Q83 ainda não foi revisada e fica fora do site até ser aprovada.
 
 ## v2.19.2 — 2026-11-17
 
